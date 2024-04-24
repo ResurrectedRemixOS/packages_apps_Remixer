@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2024 Evolution X
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="spoofing_app_specific_category">App-Specific</string>
+
+<string name="spoofing_photos_summary">Spoof the Google Photos app as a Pixel XL</string>
+
+<string name="spoofing_photos_title">Google Photos</string>
+
+<string name="spoofing_pixel_props_summary">Spoof a select group of Google apps to the latest Pixel device</string>
+
+<string name="spoofing_pixel_props_title">Pixel props</string>
+
+<string name="spoofing_snap_summary">Spoof Snapchat as a Pixel XL to fix possible chat issues</string>
+
+<string name="spoofing_snap_title">Snapchat</string>
+
+<string name="spoofing_title">Component spoofing</string>
+
+<string name="tensor_spoof_summary">Unlock tensor/pixel features</string>
+
+<string name="tensor_spoof_title">Spoof tensor features</string>
+</resources>
