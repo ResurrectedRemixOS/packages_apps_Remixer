@@ -19,8 +19,4 @@
 <string name="spoofing_snap_title">Snapchat</string>
 
 <string name="spoofing_title">Component spoofing</string>
-
-<string name="tensor_spoof_summary">Unlock features only available in tensor-based Pixel devices</string>
-
-<string name="tensor_spoof_title">Tensor features</string>
 </resources>
