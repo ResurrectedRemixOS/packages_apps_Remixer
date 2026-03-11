@@ -4,6 +4,30 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_spoofing_add_apps">Add apps</string>
+
+<string name="app_spoofing_change_app">Change app</string>
+
+<string name="app_spoofing_clear_all">Clear all</string>
+
+<string name="app_spoofing_configured_apps">CONFIGURED APPS</string>
+
+<string name="app_spoofing_configured_count">%1$d apps configured</string>
+
+<string name="app_spoofing_disabled">Disabled</string>
+
+<string name="app_spoofing_header_title">App Spoofing</string>
+
+<string name="app_spoofing_no_apps_configured">No apps configured</string>
+
+<string name="app_spoofing_select_spoof_model">Select spoof model</string>
+
+<string name="app_spoofing_spoof_model">Spoof model</string>
+
+<string name="hide_system_apps">Hide system apps</string>
+
+<string name="show_system_apps">Show system apps</string>
+
 <string name="spoofing_app_specific_category">App-Specific</string>
 
 <string name="spoofing_photos_summary">Spoof the Google Photos app as a Pixel XL</string>
@@ -19,4 +43,10 @@
 <string name="spoofing_snap_title">Snapchat</string>
 
 <string name="spoofing_title">Component spoofing</string>
+
+<string name="user_select_spoofing_profile_title">Select spoofing profile</string>
+
+<string name="user_selectable_app_spoofing_summary">Choose which apps to spoof device properties for</string>
+
+<string name="user_selectable_app_spoofing_title">App Spoofing</string>
 </resources>
