@@ -108,6 +108,8 @@
 
 <string name="spoofing_app_specific_category">App-Specific</string>
 
+<string name="spoofing_applying_changes">Applying spoof changes\u2026</string>
+
 <string name="spoofing_photos_summary">Spoof the Google Photos app as a Pixel XL</string>
 
 <string name="spoofing_photos_title">Google Photos</string>
