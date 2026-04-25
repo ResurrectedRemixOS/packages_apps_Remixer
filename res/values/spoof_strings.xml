@@ -42,6 +42,10 @@
 
 <string name="app_spoofing_spoof_model">Spoof model</string>
 
+<string name="common_clear_search">Clear search</string>
+
+<string name="common_system_badge">SYS</string>
+
 <string name="custom_spoof_profile_brand">BRAND</string>
 
 <string name="custom_spoof_profile_device">DEVICE</string>
@@ -126,9 +130,17 @@
 
 <string name="spoofing_title">Component spoofing</string>
 
-<string name="tensor_spoof_summary">Enable Pixel Tensor-exclusive features on unsupported devices. May lead to unexpected behavior or increased battery usage.</string>
+<string name="tensor_spoof_enable">Tensor spoofing</string>
 
-<string name="tensor_spoof_title">Force Tensor features</string>
+<string name="tensor_spoof_summary">Spoof Tensor-exclusive features for selected apps</string>
+
+<string name="tensor_spoof_title">Tensor feature targets</string>
+
+<string name="tensor_targets_count">%1$d apps targeted</string>
+
+<string name="tensor_targets_empty_description">Selected apps will report Tensor hardware features to unlock AI and Pixel-exclusive functionality</string>
+
+<string name="tensor_targets_none_configured">No apps targeted</string>
 
 <string name="tricky_store_summary">Manage keybox and target apps for attestation for strong integrity</string>
 
@@ -154,6 +166,8 @@
 
 <string name="ts_import_target_list_summary">Import target.txt from a file</string>
 
+<string name="ts_invalid_patch_date">Invalid date format. Use YYYY-MM-DD</string>
+
 <string name="ts_keybox_deleted">Keybox deleted</string>
 
 <string name="ts_keybox_imported">Keybox imported successfully</string>
@@ -164,15 +178,37 @@
 
 <string name="ts_manage_target_apps">Manage target apps</string>
 
+<string name="ts_mode_auto">Auto</string>
+
+<string name="ts_mode_cert">Cert</string>
+
+<string name="ts_mode_leaf">Leaf</string>
+
 <string name="ts_no_keybox">No keybox installed</string>
 
+<string name="ts_no_patch">Not set (using device default)</string>
+
 <string name="ts_no_targets">No target apps configured</string>
+
+<string name="ts_patch_date_hint" translatable="false">YYYY-MM-DD</string>
+
+<string name="ts_security_patch">Security patch date</string>
 
 <string name="ts_target_apps_count">%d apps configured</string>
 
 <string name="ts_target_configuration">Target configuration</string>
 
 <string name="ts_target_list_imported">Target list imported</string>
+
+<string name="ts_verification_auto_count">%1$d auto</string>
+
+<string name="ts_verification_cert_count">%1$d cert</string>
+
+<string name="ts_verification_leaf_count">%1$d leaf</string>
+
+<string name="ts_verification_mode">Verification mode</string>
+
+<string name="ts_verification_mode_auto">auto</string>
 
 <string name="user_select_spoofing_profile_title">Select spoofing profile</string>
 
