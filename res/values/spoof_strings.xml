@@ -8,7 +8,7 @@
 
 <string name="add_new_spoof_profile">Add new</string>
 
-<string name="app_spoofing_add_apps">Add apps</string>
+<string name="app_spoofing_add_apps">Add apps &amp; games</string>
 
 <string name="app_spoofing_change_app">Change app</string>
 
@@ -16,21 +16,23 @@
 
 <string name="app_spoofing_clear_all_confirm">This will remove all configured app spoofing entries.</string>
 
-<string name="app_spoofing_configured_apps">Configured app list</string>
+<string name="app_spoofing_configured_apps">Configured apps &amp; games</string>
 
-<string name="app_spoofing_configured_count">%1$d apps Spoofed</string>
+<string name="app_spoofing_configured_count">%1$d apps &amp; games spoofed</string>
 
 <string name="app_spoofing_disabled">Disabled</string>
+
+<string name="app_spoofing_empty_description">Selected apps will report a spoofed device identity to bypass hardware checks</string>
 
 <string name="app_spoofing_header_title">Enable Spoofing</string>
 
 <string name="app_spoofing_longpress_hint">Long press to quickly reassign profile</string>
 
-<string name="app_spoofing_no_apps_available">No apps available</string>
+<string name="app_spoofing_no_apps_available">No apps or games available</string>
 
-<string name="app_spoofing_no_apps_configured">No apps configured</string>
+<string name="app_spoofing_no_apps_configured">No apps or games configured</string>
 
-<string name="app_spoofing_no_apps_found">No apps found for "%s"</string>
+<string name="app_spoofing_no_apps_found">No apps or games found for \"%s\"</string>
 
 <string name="app_spoofing_remove_confirm">Remove %1$s from the spoofing list?</string>
 
@@ -174,7 +176,7 @@
 
 <string name="user_select_spoofing_profile_title">Select spoofing profile</string>
 
-<string name="user_selectable_app_spoofing_summary">Choose which apps to spoof device properties for</string>
+<string name="user_selectable_app_spoofing_summary">Spoof device properties for apps and games</string>
 
-<string name="user_selectable_app_spoofing_title">App Spoofing</string>
+<string name="user_selectable_app_spoofing_title">App &amp; Game Spoofing</string>
 </resources>
