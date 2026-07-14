@@ -266,7 +266,7 @@
 
 <string name="ts_no_targets">No target apps configured</string>
 
-<string name="ts_patch_date_hint" translatable="false">YYYY-MM-DD</string>
+<string name="ts_patch_date_hint" translatable="false">e.g. 2026-07-05, YYYY-MM-05, or per-package blocks</string>
 
 <string name="ts_revocation_chain_invalid">Certificate chain is invalid — tap to replace</string>
 
