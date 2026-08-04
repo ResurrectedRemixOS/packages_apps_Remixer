@@ -260,6 +260,8 @@
 
 <string name="ts_mode_leaf">Leaf</string>
 
+<string name="ts_mode_skip">Skip</string>
+
 <string name="ts_no_keybox">No keybox installed</string>
 
 <string name="ts_no_patch">Not set (using device default)</string>
