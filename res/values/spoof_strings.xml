@@ -298,6 +298,8 @@
 
 <string name="ts_target_apps_count">%d apps configured</string>
 
+<string name="ts_target_apps_empty_description">No apps match your search or configuration</string>
+
 <string name="ts_target_configuration">Target configuration</string>
 
 <string name="ts_target_list_imported">Target list imported</string>
