@@ -338,7 +338,7 @@
 
 <string name="ts_revocation_untrusted_root">Keybox chain has an unrecognized root — may still pass integrity</string>
 
-<string name="ts_revocation_valid">Valid — not revoked</string>
+<string name="ts_revocation_valid">Not on Google\'s revocation list</string>
 
 <string name="ts_security_patch">Security patch date</string>
 
