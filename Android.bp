@@ -1,0 +1,24 @@
+android_app {
+    name: "Remixer",
+    manifest: "AndroidManifest.xml",
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+    certificate: "platform",
+    privileged: true,
+    system_ext_specific: true,
+    platform_apis: true,
+    static_libs: [
+        "RRWallpapers-res",
+    ],
+    required: [
+        "privapp-permissions-com.resurrection.settings",
+    ],
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-com.resurrection.settings",
+    system_ext_specific: true,
+    sub_dir: "permissions",
+    src: "privapp-permissions-com.resurrection.settings.xml",
+    filename_from_src: true,
+}

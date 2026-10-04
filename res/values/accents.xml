@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="accent_names">
+        <item>Wallpaper</item>
+        <item>Resurrection</item>
+        <item>Android One Green</item>
+        <item>Aospa Green</item>
+        <item>Coca Cola Red</item>
+        <item>Discord Purple</item>
+        <item>Facebook Blue</item>
+        <item>Instagram Cerise</item>
+        <item>Jollibee Crimson</item>
+        <item>Monster Energy Green</item>
+        <item>Nextbit Mint</item>
+        <item>Oneplus Red</item>
+        <item>Pepsi Blue</item>
+        <item>Pixel Blue</item>
+        <item>Pocophone Yellow</item>
+        <item>Razer Green</item>
+        <item>Samsung Blue</item>
+        <item>Spotify Green</item>
+        <item>Starbucks Green</item>
+        <item>Twitch Purple</item>
+        <item>Twitter Blue</item>
+        <item>Xbox Green</item>
+        <item>Xiaomi Orange</item>
+        <item>Amber</item>
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Blue Grey</item>
+        <item>Brown</item>
+        <item>Cyan</item>
+        <item>Deep Orange</item>
+        <item>Deep Purple</item>
+        <item>Green</item>
+        <item>Grey</item>
+        <item>Indigo</item>
+        <item>Light Blue</item>
+        <item>Light Green</item>
+        <item>Lime</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Red</item>
+        <item>Teal</item>
+        <item>User five</item>
+        <item>User four</item>
+        <item>User one</item>
+        <item>User seven</item>
+        <item>User six</item>
+        <item>User three</item>
+        <item>User two</item>
+        <item>White</item>
+        <item>Yellow</item>
+    </string-array>
+
+    <string-array name="accent_colors">
+        <item>wallpaper</item>
+        <item>#E02437</item>
+        <item>#7cd318</item>
+        <item>#6db647</item>
+        <item>#F40009</item>
+        <item>#7289DA</item>
+        <item>#3C5A99</item>
+        <item>#F00075</item>
+        <item>#e5173f</item>
+        <item>#95D600</item>
+        <item>#8dd7e2</item>
+        <item>#EB0028</item>
+        <item>#005CB4</item>
+        <item>#4285F4</item>
+        <item>#FCC900</item>
+        <item>#00ff00</item>
+        <item>#034EA2</item>
+        <item>#1DB954</item>
+        <item>#00704A</item>
+        <item>#6441A4</item>
+        <item>#1da1f2</item>
+        <item>#107C10</item>
+        <item>#ff6700</item>
+        <item>#FFFFC107</item>
+        <item>#202020</item>
+        <item>#FF448AFF</item>
+        <item>#FF607D8B</item>
+        <item>#FF795548</item>
+        <item>#FF00BCD4</item>
+        <item>#FFFF5722</item>
+        <item>#FF7C4DFF</item>
+        <item>#FF4CAF50</item>
+        <item>#FF9E9E9E</item>
+        <item>#FF536DFE</item>
+        <item>#FF03A9F4</item>
+        <item>#FF8BC34A</item>
+        <item>#FFCDDC39</item>
+        <item>#FFFF9800</item>
+        <item>#FFFF4081</item>
+        <item>#FFE040FB</item>
+        <item>#FFFF5252</item>
+        <item>#FF009688</item>
+        <item>#FF0EE898</item>
+        <item>#FF42f4aa</item>
+        <item>#FF900000</item>
+        <item>#FFFFCC00</item>
+        <item>#FFFFC27B</item>
+        <item>#FF1976D2</item>
+        <item>#FF42069a</item>
+        <item>#FFFFFFFF</item>
+        <item>#FFFFEB3B</item>
+    </string-array>
+</resources>
