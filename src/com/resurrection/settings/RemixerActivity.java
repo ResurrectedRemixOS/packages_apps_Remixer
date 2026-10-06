@@ -10,6 +10,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.settings.R;
+
 /**
  * Resurrection Remix personalization hub.
  */
@@ -28,8 +30,6 @@ public class RemixerActivity extends Activity {
                 new Intent(this, AccentActivity.class));
         addRow(list, R.string.remixer_doze, R.string.remixer_doze_summary,
                 external("com.resurrection.doze", "com.resurrection.doze.DozeActivity"));
-        addRow(list, R.string.remixer_stitch, R.string.remixer_stitch_summary,
-                external("com.resurrection.stitch", "com.resurrection.stitch.HubActivity"));
         addRow(list, R.string.remixer_pulse, R.string.remixer_pulse_summary,
                 new Intent(this, PulseActivity.class));
         addRow(list, R.string.remixer_slim, R.string.remixer_slim_summary,

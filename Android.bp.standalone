@@ -1,3 +1,5 @@
+// Not loaded by Soong. Remixer is compiled into Settings.
+// Rename this back to Android.bp only to build the old standalone app.
 android_app {
     name: "Remixer",
     manifest: "AndroidManifest.xml",

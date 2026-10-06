@@ -1358,5 +1358,5 @@ class TrickyStore : SettingsPreferenceFragment() {
     private fun toast(msg: String) =
         Toast.makeText(requireContext(), msg, Toast.LENGTH_SHORT).show()
 
-    override fun getMetricsCategory(): Int = MetricsProto.MetricsEvent.EVOLVER
+    override fun getMetricsCategory(): Int = MetricsProto.MetricsEvent.VIEW_UNKNOWN
 }

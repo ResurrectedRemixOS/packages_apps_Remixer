@@ -32,9 +32,9 @@ public class WallpaperActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(com.resurrection.settings.R.layout.wallpaper);
+        setContentView(com.android.settings.R.layout.wallpaper);
         loadWallpapers();
-        GridView grid = findViewById(com.resurrection.settings.R.id.grid);
+        GridView grid = findViewById(com.android.settings.R.id.grid);
         grid.setAdapter(new WallpaperAdapter());
         grid.setOnItemClickListener((parent, view, position, id) -> setWallpaper(mWallpapers.get(position)));
     }
@@ -68,10 +68,10 @@ public class WallpaperActivity extends Activity {
             try (InputStream in = getResources().openRawResource(resId)) {
                 WallpaperManager.getInstance(this).setStream(in, null, true,
                         WallpaperManager.FLAG_SYSTEM | WallpaperManager.FLAG_LOCK);
-                runOnUiThread(() -> Toast.makeText(this, com.resurrection.settings.R.string.wallpaper_set,
+                runOnUiThread(() -> Toast.makeText(this, com.android.settings.R.string.wallpaper_set,
                         Toast.LENGTH_SHORT).show());
             } catch (IOException e) {
-                runOnUiThread(() -> Toast.makeText(this, com.resurrection.settings.R.string.wallpaper_failed,
+                runOnUiThread(() -> Toast.makeText(this, com.android.settings.R.string.wallpaper_failed,
                         Toast.LENGTH_SHORT).show());
             }
         });

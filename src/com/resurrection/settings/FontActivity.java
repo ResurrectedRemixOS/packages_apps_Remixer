@@ -10,6 +10,8 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.settings.R;
+
 import java.util.ArrayList;
 import java.util.List;
 

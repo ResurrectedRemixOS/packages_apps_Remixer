@@ -17,8 +17,8 @@
             android:exported="true"
             android:label="@string/remixer_app_name">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="com.resurrection.settings.REMIXER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 

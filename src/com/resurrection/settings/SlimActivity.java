@@ -10,8 +10,10 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.settings.R;
+
 /**
- * Slim recents switch. SystemUI reads the same Settings.System name.
+ * Slim recents switch. SystemUI and Launcher3 read the same Settings.System name.
  */
 public class SlimActivity extends Activity {
     /** Matches com.android.systemui.rr.slim.SlimRecents.KEY. */

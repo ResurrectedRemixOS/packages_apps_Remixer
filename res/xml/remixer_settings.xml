@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/remixer_app_name">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="remixer_header"
+        android:layout="@layout/remixer_header"
+        android:selectable="false" />
+
+    <Preference
+        android:key="remixer_fonts"
+        android:title="@string/remixer_fonts"
+        android:summary="@string/remixer_fonts_summary" />
+
+    <Preference
+        android:key="remixer_wallpapers"
+        android:title="@string/remixer_wallpapers"
+        android:summary="@string/remixer_wallpapers_summary" />
+
+    <Preference
+        android:key="remixer_accents"
+        android:title="@string/remixer_accents"
+        android:summary="@string/remixer_accents_summary" />
+
+    <Preference
+        android:key="remixer_doze"
+        android:title="@string/remixer_doze"
+        android:summary="@string/remixer_doze_summary" />
+
+    <Preference
+        android:key="remixer_pulse"
+        android:title="@string/remixer_pulse"
+        android:summary="@string/remixer_pulse_summary" />
+
+    <Preference
+        android:key="remixer_slim"
+        android:title="@string/remixer_slim"
+        android:summary="@string/remixer_slim_summary" />
+
+    <Preference
+        android:key="remixer_headers"
+        android:title="@string/remixer_headers"
+        android:summary="@string/remixer_headers_summary" />
+
+    <Preference
+        android:key="remixer_style_walls"
+        android:title="@string/remixer_style_walls"
+        android:summary="@string/remixer_style_walls_summary" />
+
+    <Preference
+        android:key="remixer_weather"
+        android:title="@string/remixer_weather"
+        android:summary="@string/remixer_weather_summary" />
+
+
+    <Preference
+        android:key="remixer_spoofing"
+        android:title="@string/remixer_spoofing"
+        android:summary="@string/remixer_spoofing_summary"
+        android:fragment="org.evolution.settings.fragments.miscellaneous.Spoofing" />
+
+</PreferenceScreen>

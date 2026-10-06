@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="remixer_app_name">Remixer</string>
+    <string name="remixer_dashboard_summary">Fonts, colors, wallpapers, and interface</string>
     <string name="remixer_fonts">Fonts</string>
     <string name="remixer_fonts_summary">Resurrection Remix system fonts</string>
     <string name="remixer_wallpapers">Wallpapers</string>
@@ -9,12 +10,10 @@
     <string name="remixer_accents_summary">Resurrection Remix colors</string>
     <string name="remixer_doze">Ambient display</string>
     <string name="remixer_doze_summary">Always on display and wake gestures</string>
-    <string name="remixer_stitch">Screenshot</string>
-    <string name="remixer_stitch_summary">Stitch, crop, and long screenshot</string>
     <string name="remixer_pulse">Pulse</string>
     <string name="remixer_pulse_summary">Navbar music visualizer</string>
     <string name="remixer_slim">Slim recents</string>
-    <string name="remixer_slim_summary">Side list for the recents button</string>
+    <string name="remixer_slim_summary">Recent apps on a turn wheel</string>
     <string name="pulse_switch">Navbar pulse</string>
     <string name="pulse_switch_summary">Bars on the navigation bar while audio plays</string>
     <string name="pulse_style">Style</string>
@@ -22,7 +21,7 @@
     <string name="pulse_style_fading">Fading blocks</string>
     <string name="pulse_failed">Could not save that pulse setting</string>
     <string name="slim_switch">Slim recents</string>
-    <string name="slim_switch_summary">The recents button opens a side list. Gesture overview stays the launcher.</string>
+    <string name="slim_switch_summary">Swipe up and hold, or press recents, to open a wheel of recent apps instead of the launcher overview. A quick swipe up still goes home.</string>
     <string name="slim_failed">Could not save that recents setting</string>
     <string name="accent_applied">Accent applied</string>
     <string name="accent_failed">Could not apply that accent</string>
@@ -58,4 +57,7 @@
     <string name="wallpaper_set">Wallpaper set</string>
     <string name="wallpaper_failed">Could not set that wallpaper</string>
     <string name="missing_app">That app is not installed</string>
+    <string name="remixer_spoofing">Spoofing</string>
+    <string name="remixer_spoofing_summary">Play Integrity, device identity, and per-app spoofing</string>
 </resources>
+

@@ -11,6 +11,8 @@ import android.os.ServiceManager;
 import android.os.UserHandle;
 import android.provider.Settings;
 
+import com.android.settings.R;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 

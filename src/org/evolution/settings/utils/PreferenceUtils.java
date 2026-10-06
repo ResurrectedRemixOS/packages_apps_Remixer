@@ -8,8 +8,6 @@ package org.evolution.settings.utils;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceGroup;
 
-import org.evolution.settings.preferences.GlobalSettingPrimarySwitchPreference;
-import org.evolution.settings.preferences.SecureSettingPrimarySwitchPreference;
 import org.evolution.settings.preferences.SystemSettingPrimarySwitchPreference;
 
 import java.util.ArrayList;
@@ -18,16 +16,9 @@ import java.util.List;
 public class PreferenceUtils {
 
     public static void reloadCustomPrimarySwitches(PreferenceGroup group) {
-        reloadCustomPrimarySwitches(getAllPreferences(group));
-    }
-
-    public static void reloadCustomPrimarySwitches(List<Preference> prefs) {
-        for (Preference p : prefs) {
-            switch (p) {
-                case SecureSettingPrimarySwitchPreference psp -> psp.loadValue();
-                case SystemSettingPrimarySwitchPreference psp -> psp.loadValue();
-                case GlobalSettingPrimarySwitchPreference psp -> psp.loadValue();
-                default -> {}
+        for (Preference p : getAllPreferences(group)) {
+            if (p instanceof SystemSettingPrimarySwitchPreference psp) {
+                psp.loadValue();
             }
         }
     }

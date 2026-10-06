@@ -26,6 +26,8 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.settings.R;
+
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;

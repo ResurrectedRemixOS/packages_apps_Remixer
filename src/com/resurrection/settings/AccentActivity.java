@@ -9,6 +9,8 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.settings.R;
+
 /**
  * Resurrection Remix accent seeds. Wallpaper restores Material You from the wallpaper.
  */

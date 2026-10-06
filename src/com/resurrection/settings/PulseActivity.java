@@ -13,6 +13,8 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.settings.R;
+
 /**
  * Navbar pulse. SystemUI reads the same Settings.System names.
  */
