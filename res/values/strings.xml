@@ -95,6 +95,16 @@
     <string name="accent_preview_button">Button</string>
     <string name="accent_preview_tonal">Tonal</string>
     <string name="accent_failed">Could not apply that accent</string>
+    <string name="accent_custom">Custom</string>
+    <string name="accent_custom_title">Custom color</string>
+    <string name="accent_custom_summary">Any color works. Shade still applies on top.</string>
+    <string name="accent_custom_hex">Hex</string>
+    <string name="accent_custom_hex_hint" translatable="false">#12B5A6</string>
+    <string name="accent_custom_pad">Saturation and brightness</string>
+    <string name="accent_custom_hue">Hue</string>
+    <string name="accent_custom_recent">Recent</string>
+    <string name="accent_custom_apply">Apply</string>
+    <string name="accent_custom_use">Use <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
     <string name="accent_shade">Shade</string>
     <string name="accent_shade_default">Default</string>
     <string name="accent_shade_darker">Darker</string>

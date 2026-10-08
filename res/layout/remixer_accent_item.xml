@@ -29,6 +29,16 @@
             android:layout_gravity="center"
             android:importantForAccessibility="no"
             android:scaleType="center" />
+        <ImageView
+            android:id="@+id/accent_badge"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="bottom|end"
+            android:importantForAccessibility="no"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/remixer_ic_add"
+            android:visibility="gone" />
     </FrameLayout>
 
     <TextView
