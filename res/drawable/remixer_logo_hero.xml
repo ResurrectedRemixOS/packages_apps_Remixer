@@ -9,20 +9,20 @@
         android:translateY="22">
     <path
         android:pathData="M430.4 0L703.1 0A12.2 12.2 0 0 1 714.6 16.2C697.7 65.5 668.3 118 632.3 118L437.3 118C372 118 321.8 173.6 321.5 174L137.5 398C132.6 404 84.6 442 3.7 390.8A8 8 0 0 1 1.8 379L217 117C276 45.2 356.2 0 430.4 0ZM483.5 187L697.6 187A11.1 11.1 0 0 1 708 201.8C681.8 274.3 654.4 283 641.2 283L482.9 283C454.1 283 414.3 301.8 387.7 334.2L245.5 507.3C245.2 507.7 208.2 545 139.2 502A8.2 8.2 0 0 1 137.2 489.8L307 283.1C361.8 216.4 426.6 187 483.5 187Z"
-        android:strokeColor="#FF003F"
+        android:strokeColor="@android:color/system_accent1_500"
         android:strokeAlpha="0.12"
         android:strokeWidth="44"
         android:strokeLineJoin="round" />
     <path
         android:pathData="M430.4 0L703.1 0A12.2 12.2 0 0 1 714.6 16.2C697.7 65.5 668.3 118 632.3 118L437.3 118C372 118 321.8 173.6 321.5 174L137.5 398C132.6 404 84.6 442 3.7 390.8A8 8 0 0 1 1.8 379L217 117C276 45.2 356.2 0 430.4 0ZM483.5 187L697.6 187A11.1 11.1 0 0 1 708 201.8C681.8 274.3 654.4 283 641.2 283L482.9 283C454.1 283 414.3 301.8 387.7 334.2L245.5 507.3C245.2 507.7 208.2 545 139.2 502A8.2 8.2 0 0 1 137.2 489.8L307 283.1C361.8 216.4 426.6 187 483.5 187Z"
-        android:strokeColor="#FF003F"
+        android:strokeColor="@android:color/system_accent1_500"
         android:strokeAlpha="0.22"
         android:strokeWidth="26"
         android:strokeLineJoin="round" />
         <path
-            android:fillColor="#840009"
+            android:fillColor="@android:color/system_accent1_700"
             android:pathData="M430.4 0L703.1 0A12.2 12.2 0 0 1 714.6 16.2C697.7 65.5 668.3 118 632.3 118L437.3 118C372 118 321.8 173.6 321.5 174L137.5 398C132.6 404 84.6 442 3.7 390.8A8 8 0 0 1 1.8 379L217 117C276 45.2 356.2 0 430.4 0ZM483.5 187L697.6 187A11.1 11.1 0 0 1 708 201.8C681.8 274.3 654.4 283 641.2 283L482.9 283C454.1 283 414.3 301.8 387.7 334.2L245.5 507.3C245.2 507.7 208.2 545 139.2 502A8.2 8.2 0 0 1 137.2 489.8L307 283.1C361.8 216.4 426.6 187 483.5 187Z"
-            android:strokeColor="#FF003F"
+            android:strokeColor="@android:color/system_accent1_500"
             android:strokeWidth="14"
             android:strokeLineJoin="round" />
         <path

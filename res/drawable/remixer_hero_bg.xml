@@ -6,11 +6,11 @@
             <corners android:radius="28dp" />
             <gradient
                 android:angle="315"
-                android:startColor="#3D0011"
-                android:endColor="#0B0003" />
+                android:startColor="@android:color/system_accent1_900"
+                android:endColor="@android:color/system_accent1_1000" />
             <stroke
                 android:width="1dp"
-                android:color="#40FF003F" />
+                android:color="@color/remixer_hero_stroke" />
         </shape>
     </item>
 
@@ -22,8 +22,8 @@
                 android:centerX="0.38"
                 android:centerY="0.42"
                 android:gradientRadius="85%"
-                android:startColor="#59FF003F"
-                android:endColor="#00FF003F" />
+                android:startColor="@color/remixer_hero_glow"
+                android:endColor="@color/remixer_hero_glow_end" />
         </shape>
     </item>
 </layer-list>
