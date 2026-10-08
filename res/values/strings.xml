@@ -42,7 +42,7 @@
     <string name="remixer_theme">Theme</string>
     <string name="remixer_theme_summary">Fonts, accents, and wallpapers</string>
     <string name="remixer_lockscreen">Lock screen</string>
-    <string name="remixer_lockscreen_summary">Ambient display and weather</string>
+    <string name="remixer_lockscreen_summary">Weather</string>
     <string name="remixer_navigation">Navigation</string>
     <string name="remixer_navigation_summary">Pulse and buttons</string>
     <string name="remixer_misc">Miscellaneous</string>
@@ -54,8 +54,6 @@
     <string name="remixer_wallpapers_summary">Resurrected Remix wallpapers</string>
     <string name="remixer_accents">Accents</string>
     <string name="remixer_accents_summary">Accent color</string>
-    <string name="remixer_doze">Ambient display</string>
-    <string name="remixer_doze_summary">Always on display and wake gestures</string>
     <string name="remixer_pulse">Pulse</string>
     <string name="remixer_pulse_summary">Music visualizer along the bottom of the screen</string>
     <string name="pulse_switch">Use pulse</string>

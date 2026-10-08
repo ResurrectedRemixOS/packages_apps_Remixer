@@ -3,11 +3,6 @@
     android:title="@string/remixer_lockscreen">
 
     <Preference
-        android:key="remixer_doze"
-        android:title="@string/remixer_doze"
-        android:summary="@string/remixer_doze_summary" />
-
-    <Preference
         android:key="remixer_weather"
         android:title="@string/remixer_weather"
         android:summary="@string/remixer_weather_summary" />

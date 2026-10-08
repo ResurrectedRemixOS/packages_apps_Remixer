@@ -28,8 +28,6 @@ public class RemixerActivity extends Activity {
                 new Intent(this, WallpaperActivity.class));
         addRow(list, R.string.remixer_accents, R.string.remixer_accents_summary,
                 new Intent(this, AccentActivity.class));
-        addRow(list, R.string.remixer_doze, R.string.remixer_doze_summary,
-                external("com.resurrection.doze", "com.resurrection.doze.DozeActivity"));
         addRow(list, R.string.remixer_pulse, R.string.remixer_pulse_summary,
                 new Intent(this, PulseActivity.class));
         addRow(list, R.string.remixer_headers, R.string.remixer_headers_summary,
