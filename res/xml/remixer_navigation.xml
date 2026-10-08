@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/remixer_navigation">
+
+    <Preference
+        android:key="remixer_pulse"
+        android:title="@string/remixer_pulse"
+        android:summary="@string/remixer_pulse_summary" />
+
+    <lineageos.preference.LineagePartsPreference
+        android:key="button_settings" />
+
+</PreferenceScreen>

@@ -7,56 +7,79 @@
         android:layout="@layout/remixer_header"
         android:selectable="false" />
 
-    <Preference
-        android:key="remixer_fonts"
-        android:title="@string/remixer_fonts"
-        android:summary="@string/remixer_fonts_summary" />
+    <com.android.settingslib.widget.UntitledPreferenceCategory
+        android:key="remixer_interface_category">
 
-    <Preference
-        android:key="remixer_wallpapers"
-        android:title="@string/remixer_wallpapers"
-        android:summary="@string/remixer_wallpapers_summary" />
+        <com.android.settings.widget.HomepagePreference
+            android:key="remixer_statusbar"
+            android:icon="@drawable/ic_remixer_statusbar"
+            android:title="@string/remixer_statusbar"
+            android:summary="@string/remixer_statusbar_summary"
+            android:fragment="com.resurrection.settings.RemixerSection">
+            <extra android:name="section" android:value="statusbar" />
+        </com.android.settings.widget.HomepagePreference>
 
-    <Preference
-        android:key="remixer_accents"
-        android:title="@string/remixer_accents"
-        android:summary="@string/remixer_accents_summary" />
+        <com.android.settings.widget.HomepagePreference
+            android:key="remixer_qs"
+            android:icon="@drawable/ic_remixer_qs"
+            android:title="@string/remixer_qs"
+            android:summary="@string/remixer_qs_summary"
+            android:fragment="com.resurrection.settings.RemixerSection">
+            <extra android:name="section" android:value="qs" />
+        </com.android.settings.widget.HomepagePreference>
 
-    <Preference
-        android:key="remixer_doze"
-        android:title="@string/remixer_doze"
-        android:summary="@string/remixer_doze_summary" />
+        <com.android.settings.widget.HomepagePreference
+            android:key="remixer_notifications"
+            android:icon="@drawable/ic_remixer_notifications"
+            android:title="@string/remixer_notifications"
+            android:summary="@string/remixer_notifications_summary"
+            android:fragment="com.resurrection.settings.RemixerSection">
+            <extra android:name="section" android:value="notifications" />
+        </com.android.settings.widget.HomepagePreference>
+    </com.android.settingslib.widget.UntitledPreferenceCategory>
 
-    <Preference
-        android:key="remixer_pulse"
-        android:title="@string/remixer_pulse"
-        android:summary="@string/remixer_pulse_summary" />
+    <com.android.settingslib.widget.UntitledPreferenceCategory
+        android:key="remixer_look_category">
 
-    <Preference
-        android:key="remixer_slim"
-        android:title="@string/remixer_slim"
-        android:summary="@string/remixer_slim_summary" />
+        <com.android.settings.widget.HomepagePreference
+            android:key="remixer_theme"
+            android:icon="@drawable/ic_remixer_theme"
+            android:title="@string/remixer_theme"
+            android:summary="@string/remixer_theme_summary"
+            android:fragment="com.resurrection.settings.RemixerSection">
+            <extra android:name="section" android:value="theme" />
+        </com.android.settings.widget.HomepagePreference>
 
-    <Preference
-        android:key="remixer_headers"
-        android:title="@string/remixer_headers"
-        android:summary="@string/remixer_headers_summary" />
+        <com.android.settings.widget.HomepagePreference
+            android:key="remixer_lockscreen"
+            android:icon="@drawable/ic_remixer_lockscreen"
+            android:title="@string/remixer_lockscreen"
+            android:summary="@string/remixer_lockscreen_summary"
+            android:fragment="com.resurrection.settings.RemixerSection">
+            <extra android:name="section" android:value="lockscreen" />
+        </com.android.settings.widget.HomepagePreference>
 
-    <Preference
-        android:key="remixer_style_walls"
-        android:title="@string/remixer_style_walls"
-        android:summary="@string/remixer_style_walls_summary" />
+        <com.android.settings.widget.HomepagePreference
+            android:key="remixer_navigation"
+            android:icon="@drawable/ic_remixer_navigation"
+            android:title="@string/remixer_navigation"
+            android:summary="@string/remixer_navigation_summary"
+            android:fragment="com.resurrection.settings.RemixerSection">
+            <extra android:name="section" android:value="navigation" />
+        </com.android.settings.widget.HomepagePreference>
+    </com.android.settingslib.widget.UntitledPreferenceCategory>
 
-    <Preference
-        android:key="remixer_weather"
-        android:title="@string/remixer_weather"
-        android:summary="@string/remixer_weather_summary" />
+    <com.android.settingslib.widget.UntitledPreferenceCategory
+        android:key="remixer_misc_category">
 
-
-    <Preference
-        android:key="remixer_spoofing"
-        android:title="@string/remixer_spoofing"
-        android:summary="@string/remixer_spoofing_summary"
-        android:fragment="org.evolution.settings.fragments.miscellaneous.Spoofing" />
+        <com.android.settings.widget.HomepagePreference
+            android:key="remixer_misc"
+            android:icon="@drawable/ic_remixer_misc"
+            android:title="@string/remixer_misc"
+            android:summary="@string/remixer_misc_summary"
+            android:fragment="com.resurrection.settings.RemixerSection">
+            <extra android:name="section" android:value="misc" />
+        </com.android.settings.widget.HomepagePreference>
+    </com.android.settingslib.widget.UntitledPreferenceCategory>
 
 </PreferenceScreen>

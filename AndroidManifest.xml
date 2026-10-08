@@ -43,11 +43,6 @@
             android:label="@string/remixer_pulse" />
 
         <activity
-            android:name=".SlimActivity"
-            android:exported="false"
-            android:label="@string/remixer_slim" />
-
-        <activity
             android:name=".HeaderActivity"
             android:exported="false"
             android:label="@string/remixer_headers" />

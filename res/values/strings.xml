@@ -1,28 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="remixer_app_name">Remixer</string>
-    <string name="remixer_dashboard_summary">Fonts, colors, wallpapers, and interface</string>
+    <string name="remixer_dashboard_summary">Status bar, theme, lock screen, and more</string>
+    <string name="remixer_version">Resurrection Remix <xliff:g id="version" example="9.0">%1$s</xliff:g> · Android <xliff:g id="android" example="17">%2$s</xliff:g></string>
+
+    <!-- Sections -->
+    <string name="remixer_statusbar">Status bar</string>
+    <string name="remixer_statusbar_summary">Clock, battery, icons, and network traffic</string>
+    <string name="remixer_qs">Quick settings</string>
+    <string name="remixer_qs_summary">Header image</string>
+    <string name="remixer_notifications">Notifications</string>
+    <string name="remixer_notifications_summary">Lights and charging sounds</string>
+    <string name="remixer_theme">Theme</string>
+    <string name="remixer_theme_summary">Fonts, accents, and wallpapers</string>
+    <string name="remixer_lockscreen">Lock screen</string>
+    <string name="remixer_lockscreen_summary">Ambient display and weather</string>
+    <string name="remixer_navigation">Navigation</string>
+    <string name="remixer_navigation_summary">Pulse and buttons</string>
+    <string name="remixer_misc">Miscellaneous</string>
+    <string name="remixer_misc_summary">Spoofing</string>
+
     <string name="remixer_fonts">Fonts</string>
-    <string name="remixer_fonts_summary">Resurrection Remix system fonts</string>
+    <string name="remixer_fonts_summary">System font</string>
     <string name="remixer_wallpapers">Wallpapers</string>
     <string name="remixer_wallpapers_summary">Resurrection Remix wallpapers</string>
     <string name="remixer_accents">Accents</string>
-    <string name="remixer_accents_summary">Resurrection Remix colors</string>
+    <string name="remixer_accents_summary">Accent color</string>
     <string name="remixer_doze">Ambient display</string>
     <string name="remixer_doze_summary">Always on display and wake gestures</string>
     <string name="remixer_pulse">Pulse</string>
-    <string name="remixer_pulse_summary">Navbar music visualizer</string>
-    <string name="remixer_slim">Slim recents</string>
-    <string name="remixer_slim_summary">Recent apps on a turn wheel</string>
+    <string name="remixer_pulse_summary">Music visualizer on the navigation bar</string>
     <string name="pulse_switch">Navbar pulse</string>
     <string name="pulse_switch_summary">Bars on the navigation bar while audio plays</string>
     <string name="pulse_style">Style</string>
     <string name="pulse_style_lines">Solid lines</string>
     <string name="pulse_style_fading">Fading blocks</string>
     <string name="pulse_failed">Could not save that pulse setting</string>
-    <string name="slim_switch">Slim recents</string>
-    <string name="slim_switch_summary">Swipe up and hold, or press recents, to open a wheel of recent apps instead of the launcher overview. A quick swipe up still goes home.</string>
-    <string name="slim_failed">Could not save that recents setting</string>
     <string name="accent_applied">Accent applied</string>
     <string name="accent_failed">Could not apply that accent</string>
     <string name="remixer_headers">Header image</string>
@@ -48,9 +61,9 @@
     <string name="header_shadow_summary">Improve visibility on bright images</string>
     <string name="header_failed">Could not save that header setting</string>
     <string name="remixer_style_walls">Style wallpapers</string>
-    <string name="remixer_style_walls_summary">OmniStyle wallpaper packs</string>
+    <string name="remixer_style_walls_summary">Wallpaper packs</string>
     <string name="remixer_weather">Weather</string>
-    <string name="remixer_weather_summary">OmniJaws</string>
+    <string name="remixer_weather_summary">Weather service and units</string>
     <string name="font_default">Default</string>
     <string name="font_applied">Font applied</string>
     <string name="font_failed">Could not apply that font</string>

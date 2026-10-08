@@ -32,8 +32,6 @@ public class RemixerActivity extends Activity {
                 external("com.resurrection.doze", "com.resurrection.doze.DozeActivity"));
         addRow(list, R.string.remixer_pulse, R.string.remixer_pulse_summary,
                 new Intent(this, PulseActivity.class));
-        addRow(list, R.string.remixer_slim, R.string.remixer_slim_summary,
-                new Intent(this, SlimActivity.class));
         addRow(list, R.string.remixer_headers, R.string.remixer_headers_summary,
                 new Intent(this, HeaderActivity.class));
         addRow(list, R.string.remixer_style_walls, R.string.remixer_style_walls_summary,

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/remixer_qs">
+
+    <Preference
+        android:key="remixer_headers"
+        android:title="@string/remixer_headers"
+        android:summary="@string/remixer_headers_summary" />
+
+</PreferenceScreen>

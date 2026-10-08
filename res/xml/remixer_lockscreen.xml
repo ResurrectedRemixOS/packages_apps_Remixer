@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/remixer_lockscreen">
+
+    <Preference
+        android:key="remixer_doze"
+        android:title="@string/remixer_doze"
+        android:summary="@string/remixer_doze_summary" />
+
+    <Preference
+        android:key="remixer_weather"
+        android:title="@string/remixer_weather"
+        android:summary="@string/remixer_weather_summary" />
+
+</PreferenceScreen>

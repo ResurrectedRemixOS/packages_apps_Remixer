@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/remixer_misc">
+
+    <Preference
+        android:key="remixer_spoofing"
+        android:title="@string/remixer_spoofing"
+        android:summary="@string/remixer_spoofing_summary"
+        android:fragment="com.resurrection.settings.spoof.fragments.miscellaneous.Spoofing" />
+
+</PreferenceScreen>

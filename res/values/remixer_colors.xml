@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="homepage_remixer_foreground">@color/homepage_red_fg</color>
+    <color name="homepage_remixer_background">@color/homepage_red_bg</color>
+</resources>
