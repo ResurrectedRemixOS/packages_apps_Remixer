@@ -39,7 +39,6 @@ import android.net.wifi.WifiManager;
 import android.os.BatteryManager;
 import android.os.Build;
 import android.os.PowerManager;
-import android.os.SystemProperties;
 import android.os.storage.StorageManager;
 import android.provider.Settings;
 import android.text.TextUtils;
@@ -107,8 +106,7 @@ public class HomepageHeaderView extends LinearLayout {
         name.setText(deviceName());
         TextView version = findViewById(R.id.rr_device_version);
         version.setTextColor(withAlpha(onContainer, 0.8f));
-        version.setText(context.getString(R.string.remixer_version,
-                SystemProperties.get("ro.rr.version"), Build.VERSION.RELEASE));
+        version.setText(context.getString(R.string.remixer_version, Build.VERSION.RELEASE));
 
         mStorage = new Meter(findViewById(R.id.rr_storage_meter), onContainer, primary,
                 R.string.rr_homepage_storage);

@@ -2,7 +2,6 @@ package com.resurrection.settings;
 
 import android.os.Build;
 import android.os.Bundle;
-import android.os.SystemProperties;
 import android.view.View;
 import android.widget.TextView;
 
@@ -43,8 +42,7 @@ public class RemixerSettings extends DashboardFragment {
         LayoutPreference header = findPreference("remixer_header");
         if (header != null) {
             TextView version = header.findViewById(R.id.remixer_version);
-            version.setText(getString(R.string.remixer_version,
-                    SystemProperties.get("ro.rr.version"), Build.VERSION.RELEASE));
+            version.setText(getString(R.string.remixer_version, Build.VERSION.RELEASE));
         }
     }
 

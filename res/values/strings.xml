@@ -24,13 +24,12 @@
     <string name="rr_homepage_battery_saver">Battery saver</string>
     <string name="rr_homepage_on">On</string>
     <string name="rr_homepage_off">Off</string>
-    <string name="rr_homepage_footer">Resurrected Remix <xliff:g id="version" example="9.0">%1$s</xliff:g> · Built on LineageOS</string>
     <string name="rr_homepage_connections">Connections</string>
     <string name="rr_homepage_personalize">Personalize</string>
     <string name="rr_homepage_device">Device</string>
     <string name="rr_homepage_privacy">Privacy &amp; security</string>
     <string name="rr_homepage_help">Help</string>
-    <string name="remixer_version">Resurrected Remix <xliff:g id="version" example="9.0">%1$s</xliff:g> · Android <xliff:g id="android" example="17">%2$s</xliff:g></string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
 
     <!-- Sections -->
     <string name="remixer_statusbar">Status bar</string>
