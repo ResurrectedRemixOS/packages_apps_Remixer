@@ -83,12 +83,16 @@ public final class AccentController {
                 object.remove(PALETTE);
                 object.remove(ACCENT);
                 object.put(SOURCE, WALLPAPER);
+                if ("CONTENT".equals(object.optString(STYLE))) {
+                    object.put(STYLE, "TONAL_SPOT");
+                }
             } else {
                 String hex = String.format("%06X", Color.parseColor(color) & 0xFFFFFF);
                 object.put(PALETTE, hex);
                 object.put(ACCENT, hex);
                 object.put(SOURCE, PRESET);
-                object.put(STYLE, "TONAL_SPOT");
+                // Content keeps the preset's chroma; tonal spot flattens close hues together.
+                object.put(STYLE, "CONTENT");
                 object.put(INDEX, "1");
                 object.put(BOTH, "1");
             }
