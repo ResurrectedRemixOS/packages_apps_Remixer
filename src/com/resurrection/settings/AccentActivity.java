@@ -11,12 +11,17 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.core.graphics.ColorUtils;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.settings.R;
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 
+import com.google.android.material.button.MaterialButton;
+import com.google.android.material.color.MaterialColors;
+import com.google.android.material.materialswitch.MaterialSwitch;
+import com.google.android.material.slider.Slider;
 
 /**
  * Resurrection Remix accent seeds. Wallpaper restores Material You from the wallpaper.
@@ -33,6 +38,27 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
     private int mSelected;
     private Adapter mAdapter;
     private TextView mPreviewName;
+    private TextView mShadeValue;
+    private MaterialButton mFilled;
+    private MaterialButton mTonal;
+    private MaterialSwitch mSwitch;
+    private Slider mShade;
+    /** Shade baked into this activity's theme colors. */
+    private int mThemeShade;
+    private boolean mTracking;
+    private int mPrimary;
+    private int mOnPrimary;
+    private int mSecondaryContainer;
+    private int mOnSecondaryContainer;
+    private ColorStateList mFilledBackground;
+    private ColorStateList mFilledText;
+    private ColorStateList mTonalBackground;
+    private ColorStateList mTonalText;
+    private ColorStateList mTrackTint;
+    private ColorStateList mThumbTint;
+    private ColorStateList mSliderActive;
+    private ColorStateList mSliderInactive;
+    private ColorStateList mSliderThumb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +75,132 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
         mAdapter = new Adapter();
         grid.setAdapter(mAdapter);
         updatePreview();
+        setupShade();
+    }
+
+    private void setupShade() {
+        mShadeValue = findViewById(R.id.accent_shade_value);
+        mFilled = findViewById(R.id.accent_preview_filled);
+        mTonal = findViewById(R.id.accent_preview_tonal);
+        mSwitch = findViewById(R.id.accent_preview_switch);
+        mShade = findViewById(R.id.accent_shade);
+
+        mPrimary = MaterialColors.getColor(mFilled, androidx.appcompat.R.attr.colorPrimary);
+        mOnPrimary = MaterialColors.getColor(mFilled,
+                com.google.android.material.R.attr.colorOnPrimary);
+        mSecondaryContainer = MaterialColors.getColor(mTonal,
+                com.google.android.material.R.attr.colorSecondaryContainer);
+        mOnSecondaryContainer = MaterialColors.getColor(mTonal,
+                com.google.android.material.R.attr.colorOnSecondaryContainer);
+        mFilledBackground = mFilled.getBackgroundTintList();
+        mFilledText = mFilled.getTextColors();
+        mTonalBackground = mTonal.getBackgroundTintList();
+        mTonalText = mTonal.getTextColors();
+        mTrackTint = mSwitch.getTrackTintList();
+        mThumbTint = mSwitch.getThumbTintList();
+        mSliderActive = mShade.getTrackActiveTintList();
+        mSliderInactive = mShade.getTrackInactiveTintList();
+        mSliderThumb = mShade.getThumbTintList();
+
+        mThemeShade = mAccents.shade();
+        mShade.setValue(mThemeShade);
+        mShade.setLabelFormatter(value -> shadeLabel(Math.round(value)));
+        updateShadeLabel(mThemeShade);
+        mShade.addOnChangeListener((slider, value, fromUser) -> {
+            int shade = Math.round(value);
+            updateShadeLabel(shade);
+            previewShade(shade);
+            if (fromUser && !mTracking) {
+                applyShade(shade);
+            }
+        });
+        mShade.addOnSliderTouchListener(new Slider.OnSliderTouchListener() {
+            @Override
+            public void onStartTrackingTouch(Slider slider) {
+                mTracking = true;
+            }
+
+            @Override
+            public void onStopTrackingTouch(Slider slider) {
+                mTracking = false;
+                applyShade(Math.round(slider.getValue()));
+            }
+        });
+    }
+
+    private String shadeLabel(int shade) {
+        if (shade > 0) {
+            return getString(R.string.accent_shade_lighter_value, shade);
+        }
+        if (shade < 0) {
+            return getString(R.string.accent_shade_darker_value, -shade);
+        }
+        return getString(R.string.accent_shade_default);
+    }
+
+    private void updateShadeLabel(int shade) {
+        mShadeValue.setText(shadeLabel(shade));
+    }
+
+    private void applyShade(int shade) {
+        if (shade == mAccents.shade()) {
+            return;
+        }
+        try {
+            mAccents.setShade(shade);
+        } catch (SecurityException e) {
+            Toast.makeText(this, R.string.accent_failed, Toast.LENGTH_SHORT).show();
+            mShade.setValue(mAccents.shade());
+        }
+    }
+
+    /** Recolors the preview until SystemUI regenerates the palette and the activity restarts. */
+    private void previewShade(int shade) {
+        if (shade == mThemeShade) {
+            mFilled.setBackgroundTintList(mFilledBackground);
+            mFilled.setTextColor(mFilledText);
+            mTonal.setBackgroundTintList(mTonalBackground);
+            mTonal.setTextColor(mTonalText);
+            mSwitch.setTrackTintList(mTrackTint);
+            mSwitch.setThumbTintList(mThumbTint);
+            mShade.setTrackActiveTintList(mSliderActive);
+            mShade.setTrackInactiveTintList(mSliderInactive);
+            mShade.setThumbTintList(mSliderThumb);
+            return;
+        }
+        double gamma = Math.pow(2, -(shade - mThemeShade) * AccentController.SHADE_STEP);
+        int primary = shadeColor(mPrimary, gamma);
+        int onPrimary = readable(mOnPrimary, mPrimary, primary);
+        int container = shadeColor(mSecondaryContainer, gamma);
+        int onContainer = readable(mOnSecondaryContainer, mSecondaryContainer, container);
+        mFilled.setBackgroundTintList(ColorStateList.valueOf(primary));
+        mFilled.setTextColor(onPrimary);
+        mTonal.setBackgroundTintList(ColorStateList.valueOf(container));
+        mTonal.setTextColor(onContainer);
+        mSwitch.setTrackTintList(ColorStateList.valueOf(primary));
+        mSwitch.setThumbTintList(ColorStateList.valueOf(onPrimary));
+        mShade.setTrackActiveTintList(ColorStateList.valueOf(primary));
+        mShade.setTrackInactiveTintList(ColorStateList.valueOf(container));
+        mShade.setThumbTintList(ColorStateList.valueOf(primary));
+    }
+
+    /** Same tone curve as ThemeOverlayController; HCT tone is L*. */
+    private static int shadeColor(int color, double gamma) {
+        double[] lab = new double[3];
+        ColorUtils.colorToLAB(color, lab);
+        lab[0] = 100.0 * Math.pow(Math.max(0, Math.min(100, lab[0])) / 100.0, gamma);
+        return ColorUtils.LABToColor(lab[0], lab[1], lab[2]);
+    }
+
+    /** Keeps the foreground if it still reads on the new background, else black or white. */
+    private static int readable(int foreground, int oldBackground, int background) {
+        double target = Math.min(4.5, ColorUtils.calculateContrast(foreground, oldBackground));
+        if (ColorUtils.calculateContrast(foreground, background) >= target) {
+            return foreground;
+        }
+        return ColorUtils.calculateContrast(Color.WHITE, background)
+                >= ColorUtils.calculateContrast(Color.BLACK, background)
+                ? Color.WHITE : Color.BLACK;
     }
 
     private int findSelected() {

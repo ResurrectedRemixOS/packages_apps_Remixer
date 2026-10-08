@@ -21,6 +21,11 @@ public final class AccentController {
     static final String TIMESTAMP = "_applied_timestamp";
     static final String PRESET = "preset";
     static final String WALLPAPER = "home_wallpaper";
+    /** Read by SystemUI's ThemeOverlayController; -SHADE_MAX darker to SHADE_MAX lighter. */
+    static final String SHADE = "rr_accent_shade";
+    static final int SHADE_MAX = 5;
+    /** Tone curve exponent per shade step; matches ThemeOverlayController. */
+    static final double SHADE_STEP = 0.2;
 
     private final Context mContext;
 
@@ -49,6 +54,18 @@ public final class AccentController {
             return String.format("%06X", Color.parseColor(color) & 0xFFFFFF);
         } catch (JSONException | IllegalArgumentException e) {
             return null;
+        }
+    }
+
+    public int shade() {
+        int shade = Settings.Secure.getInt(mContext.getContentResolver(), SHADE, 0);
+        return Math.max(-SHADE_MAX, Math.min(SHADE_MAX, shade));
+    }
+
+    public void setShade(int shade) {
+        if (!Settings.Secure.putInt(mContext.getContentResolver(), SHADE,
+                Math.max(-SHADE_MAX, Math.min(SHADE_MAX, shade)))) {
+            throw new SecurityException("secure setting rejected");
         }
     }
 

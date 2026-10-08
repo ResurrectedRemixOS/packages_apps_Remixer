@@ -69,6 +69,12 @@
     <string name="accent_preview_button">Button</string>
     <string name="accent_preview_tonal">Tonal</string>
     <string name="accent_failed">Could not apply that accent</string>
+    <string name="accent_shade">Shade</string>
+    <string name="accent_shade_default">Default</string>
+    <string name="accent_shade_darker">Darker</string>
+    <string name="accent_shade_lighter">Lighter</string>
+    <string name="accent_shade_darker_value">Darker \u00b7 %1$d</string>
+    <string name="accent_shade_lighter_value">Lighter \u00b7 %1$d</string>
     <string name="remixer_headers">Header image</string>
     <string name="remixer_headers_summary">Select a background image for quick settings</string>
     <string name="header_switch">Use header image</string>
