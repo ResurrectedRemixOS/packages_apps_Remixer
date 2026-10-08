@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="remixer_app_name">Remixer</string>
     <string name="remixer_dashboard_summary">Status bar, theme, lock screen, and more</string>
-    <string name="remixer_version">Resurrection Remix <xliff:g id="version" example="9.0">%1$s</xliff:g> · Android <xliff:g id="android" example="17">%2$s</xliff:g></string>
+    <string name="remixer_version">Resurrected Remix <xliff:g id="version" example="9.0">%1$s</xliff:g> · Android <xliff:g id="android" example="17">%2$s</xliff:g></string>
 
     <!-- Sections -->
     <string name="remixer_statusbar">Status bar</string>
@@ -23,7 +23,7 @@
     <string name="remixer_fonts">Fonts</string>
     <string name="remixer_fonts_summary">System font</string>
     <string name="remixer_wallpapers">Wallpapers</string>
-    <string name="remixer_wallpapers_summary">Resurrection Remix wallpapers</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix wallpapers</string>
     <string name="remixer_accents">Accents</string>
     <string name="remixer_accents_summary">Accent color</string>
     <string name="remixer_doze">Ambient display</string>
@@ -33,7 +33,7 @@
     <string name="pulse_switch">Use pulse</string>
     <string name="pulse_switch_summary">Music bars along the bottom of the screen while media plays</string>
     <string name="pulse_preview_title">Now playing</string>
-    <string name="pulse_preview_artist">Resurrection Remix</string>
+    <string name="pulse_preview_artist">Resurrected Remix</string>
     <string name="pulse_style">Style</string>
     <string name="pulse_style_lines">Lines</string>
     <string name="pulse_style_fading">Fading</string>
@@ -111,8 +111,8 @@
     <string name="font_failed">Could not apply that font</string>
     <string name="wallpaper_set">Wallpaper set</string>
     <plurals name="wallpapers_summary">
-        <item quantity="one">%d wallpaper from Resurrection Remix. Tap one to preview it.</item>
-        <item quantity="other">%d wallpapers from Resurrection Remix. Tap one to preview it.</item>
+        <item quantity="one">%d wallpaper from Resurrected Remix. Tap one to preview it.</item>
+        <item quantity="other">%d wallpapers from Resurrected Remix. Tap one to preview it.</item>
     </plurals>
     <string name="wallpaper_apply_title">Set wallpaper</string>
     <string name="wallpaper_apply_home">Home screen</string>

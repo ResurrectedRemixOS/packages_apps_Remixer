@@ -24,7 +24,7 @@ import com.google.android.material.materialswitch.MaterialSwitch;
 import com.google.android.material.slider.Slider;
 
 /**
- * Resurrection Remix accent seeds. Wallpaper restores Material You from the wallpaper.
+ * Resurrected Remix accent seeds. Wallpaper restores Material You from the wallpaper.
  */
 public class AccentActivity extends CollapsingToolbarBaseActivity {
     private static final String WALLPAPER = "wallpaper";

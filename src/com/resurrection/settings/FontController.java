@@ -21,7 +21,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * Enables Resurrection Remix font overlays through the theme overlay category.
+ * Enables Resurrected Remix font overlays through the theme overlay category.
  */
 public final class FontController {
 

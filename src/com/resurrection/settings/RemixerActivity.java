@@ -13,7 +13,7 @@ import android.widget.Toast;
 import com.android.settings.R;
 
 /**
- * Resurrection Remix personalization hub.
+ * Resurrected Remix personalization hub.
  */
 public class RemixerActivity extends Activity {
 

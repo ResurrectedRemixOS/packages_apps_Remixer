@@ -30,7 +30,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * The Resurrection Remix wallpaper pack (RRWallpapers-res), merged into Settings' resources.
+ * The Resurrected Remix wallpaper pack (RRWallpapers-res), merged into Settings' resources.
  */
 public class WallpaperActivity extends CollapsingToolbarBaseActivity {
     private static final int THUMB_WIDTH = 360;

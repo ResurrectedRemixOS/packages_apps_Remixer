@@ -23,7 +23,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Picks a Resurrection Remix font overlay.
+ * Picks a Resurrected Remix font overlay.
  */
 public class FontActivity extends CollapsingToolbarBaseActivity {
     private static final int GRID_SPAN = 2;
