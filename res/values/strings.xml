@@ -2,6 +2,34 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="remixer_app_name">Remixer</string>
     <string name="remixer_dashboard_summary">Status bar, theme, lock screen, and more</string>
+    <string name="rr_homepage_account">Account</string>
+    <string name="rr_homepage_storage">Storage</string>
+    <string name="rr_homepage_battery">Battery</string>
+    <string name="rr_homepage_percent"><xliff:g id="percent" example="62">%1$d</xliff:g>%%</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> free</string>
+    <string name="rr_homepage_charging">Charging</string>
+    <string name="rr_homepage_charged">Fully charged</string>
+    <string name="rr_homepage_on_battery">On battery</string>
+    <string name="rr_homepage_saver_on">Battery saver on</string>
+    <string name="rr_homepage_internet">Internet</string>
+    <string name="rr_homepage_wifi">Wi‑Fi</string>
+    <string name="rr_homepage_mobile_data">Mobile data</string>
+    <string name="rr_homepage_not_connected">Not connected</string>
+    <string name="rr_homepage_bluetooth">Bluetooth</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="1">%d</xliff:g> device</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> devices</item>
+    </plurals>
+    <string name="rr_homepage_dark_theme">Dark theme</string>
+    <string name="rr_homepage_battery_saver">Battery saver</string>
+    <string name="rr_homepage_on">On</string>
+    <string name="rr_homepage_off">Off</string>
+    <string name="rr_homepage_footer">Resurrected Remix <xliff:g id="version" example="9.0">%1$s</xliff:g> · Built on LineageOS</string>
+    <string name="rr_homepage_connections">Connections</string>
+    <string name="rr_homepage_personalize">Personalize</string>
+    <string name="rr_homepage_device">Device</string>
+    <string name="rr_homepage_privacy">Privacy &amp; security</string>
+    <string name="rr_homepage_help">Help</string>
     <string name="remixer_version">Resurrected Remix <xliff:g id="version" example="9.0">%1$s</xliff:g> · Android <xliff:g id="android" example="17">%2$s</xliff:g></string>
 
     <!-- Sections -->
