@@ -429,7 +429,7 @@ public class HomepageHeaderView extends LinearLayout {
                 chip = color(com.android.internal.R.color.materialColorSurfaceContainerHighest);
                 glyph = text;
             }
-            root.setBackground(pressable(background, 24, text));
+            root.setBackground(pressable(background, 18, text));
             mChip.setBackground(round(chip, 17));
             mIcon.setImageTintList(ColorStateList.valueOf(glyph));
             mTitle.setTextColor(text);

@@ -29,6 +29,7 @@
     <string name="rr_homepage_device">Device</string>
     <string name="rr_homepage_privacy">Privacy &amp; security</string>
     <string name="rr_homepage_help">Help</string>
+    <string name="rr_homepage_extras">Extra settings</string>
     <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
 
     <!-- Sections -->
