@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.settings.preferences;
+package com.resurrection.settings.spoof.preferences;
 
 import android.content.Context;
 import android.provider.Settings;

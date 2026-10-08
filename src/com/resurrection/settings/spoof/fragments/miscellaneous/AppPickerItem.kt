@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.settings.fragments.miscellaneous
+package com.resurrection.settings.spoof.fragments.miscellaneous
 
 import android.graphics.drawable.Drawable
 import androidx.compose.animation.animateContentSize

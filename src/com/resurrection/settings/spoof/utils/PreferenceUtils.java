@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.settings.utils;
+package com.resurrection.settings.spoof.utils;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceGroup;
 
-import org.evolution.settings.preferences.SystemSettingPrimarySwitchPreference;
+import com.resurrection.settings.spoof.preferences.SystemSettingPrimarySwitchPreference;
 
 import java.util.ArrayList;
 import java.util.List;

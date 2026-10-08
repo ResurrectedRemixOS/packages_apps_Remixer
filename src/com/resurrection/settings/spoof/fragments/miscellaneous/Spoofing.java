@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.settings.fragments.miscellaneous;
+package com.resurrection.settings.spoof.fragments.miscellaneous;
 
 import android.app.ActivityManager;
 import android.content.ContentResolver;
@@ -23,13 +23,13 @@ import androidx.preference.PreferenceCategory;
 import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.internal.util.evolution.PixelPropsUtils;
+import com.android.internal.util.rr.PixelPropsUtils;
 import com.android.settings.R;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settingslib.search.SearchIndexable;
 
-import org.evolution.settings.utils.PreferenceUtils;
+import com.resurrection.settings.spoof.utils.PreferenceUtils;
 
 @SearchIndexable
 public class Spoofing extends SettingsPreferenceFragment implements
@@ -175,6 +175,7 @@ public class Spoofing extends SettingsPreferenceFragment implements
     @Override
     public void onResume() {
         super.onResume();
+        getActivity().setTitle(R.string.spoofing_title);
         PreferenceUtils.reloadCustomPrimarySwitches(getPreferenceScreen());
     }
 

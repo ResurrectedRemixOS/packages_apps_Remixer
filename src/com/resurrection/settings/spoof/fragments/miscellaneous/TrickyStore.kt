@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.settings.fragments.miscellaneous
+package com.resurrection.settings.spoof.fragments.miscellaneous
 
 import android.app.Activity
 import android.app.ActivityManager
@@ -126,10 +126,10 @@ class TrickyStore : SettingsPreferenceFragment() {
          * config, patch level and GameProps config are cleared and the
          * TrickyStore target list is reseeded with the defaults. The keybox is
          * kept, since it may be the user's own and the official one is kept
-         * current by AxSpoofManager anyway. Mirrors AlwaysStrong's
+         * current by RrSpoofManager anyway. Mirrors AlwaysStrong's
          * reset_defaults.sh, which also keeps the keybox.
          *
-         * Nothing is fetched here. AxSpoofManager watches the PIF config and,
+         * Nothing is fetched here. RrSpoofManager watches the PIF config and,
          * a few seconds after it goes empty, refreshes the fingerprint and patch
          * level itself (from the built-in profiles when offline). Order matters
          * for that: the fetch cooldown is zeroed first and the PIF config is
@@ -275,6 +275,7 @@ class TrickyStore : SettingsPreferenceFragment() {
 
     override fun onResume() {
         super.onResume()
+        requireActivity().title = getString(R.string.tricky_store_title)
         refreshStatus()
         if (!isTrickyStoreEnabled) return
 
@@ -1216,7 +1217,7 @@ class TrickyStore : SettingsPreferenceFragment() {
                 GMS_PERSISTENT_PACKAGE, RKPD_PACKAGE, GSF_PACKAGE,
                 CONTACT_KEYS_PACKAGE, SAFETY_CORE_PACKAGE, VELVET_PACKAGE
             ).forEach { am.forceStopPackage(it) }
-            // Force-stop only, like AxSpoofManager.killGmsFamily(). Clearing Play Store data
+            // Force-stop only, like RrSpoofManager.killGmsFamily(). Clearing Play Store data
             // on every keybox import/fetch (including the silent auto-replace) signed users out.
         } catch (_: Exception) {}
     }

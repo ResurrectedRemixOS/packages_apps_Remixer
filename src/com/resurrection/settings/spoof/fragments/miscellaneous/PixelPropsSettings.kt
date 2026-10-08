@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.settings.fragments.miscellaneous
+package com.resurrection.settings.spoof.fragments.miscellaneous
 
 import android.app.ActivityManager
 import android.content.pm.PackageManager
@@ -60,8 +60,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.android.internal.logging.nano.MetricsProto
-import com.android.internal.util.evolution.PixelDeviceRepository
-import com.android.internal.util.evolution.PixelPropsUtils
+import com.android.internal.util.rr.PixelDeviceRepository
+import com.android.internal.util.rr.PixelPropsUtils
 import com.android.settings.R
 import com.android.settings.SettingsPreferenceFragment
 import com.android.settingslib.spa.framework.theme.SettingsTheme

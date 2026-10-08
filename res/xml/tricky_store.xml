@@ -59,7 +59,7 @@
             android:key="ts_manage_targets"
             android:title="@string/ts_manage_target_apps"
             android:summary="@string/ts_no_targets"
-            android:fragment="org.evolution.settings.fragments.miscellaneous.TrickyStoreAppSettings" />
+            android:fragment="com.resurrection.settings.spoof.fragments.miscellaneous.TrickyStoreAppSettings" />
 
         <Preference
             android:key="ts_import_targets"

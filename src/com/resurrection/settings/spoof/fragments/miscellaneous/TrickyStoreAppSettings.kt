@@ -5,7 +5,7 @@
 
 @file:OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 
-package org.evolution.settings.fragments.miscellaneous
+package com.resurrection.settings.spoof.fragments.miscellaneous
 
 import android.app.ActivityManager
 import android.content.pm.ApplicationInfo
@@ -104,7 +104,7 @@ class TrickyStoreAppSettings : SettingsPreferenceFragment() {
     companion object {
         const val TARGET_KEY = "spoof_trickystore_target"
         // The default target list lives in the framework
-        // (TrickyStoreService.DEFAULT_TARGET_LIST), where AxSpoofManager seeds it
+        // (TrickyStoreService.DEFAULT_TARGET_LIST), where RrSpoofManager seeds it
         // at boot. Split it here into the plain AUTO packages and the packages
         // with a mode, so the app picker keeps working with both.
         private val defaultTargetEntries: List<Pair<String, TargetMode>> =

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.evolution.settings.fragments.miscellaneous
+package com.resurrection.settings.spoof.fragments.miscellaneous
 
 import android.app.Activity
 import android.app.ActivityManager
@@ -20,7 +20,7 @@ import androidx.preference.Preference
 import androidx.preference.PreferenceCategory
 import androidx.preference.SwitchPreferenceCompat
 import com.android.internal.logging.nano.MetricsProto
-import com.android.internal.util.evolution.PixelDeviceRepository
+import com.android.internal.util.rr.PixelDeviceRepository
 import com.android.settings.R
 import com.android.settings.SettingsPreferenceFragment
 import java.nio.charset.StandardCharsets
@@ -30,7 +30,7 @@ import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.evolution.settings.fragments.miscellaneous.TrickyStore
+import com.resurrection.settings.spoof.fragments.miscellaneous.TrickyStore
 import org.json.JSONObject
 
 class PlayIntegrityFix : SettingsPreferenceFragment() {
@@ -153,6 +153,7 @@ class PlayIntegrityFix : SettingsPreferenceFragment() {
 
     override fun onResume() {
         super.onResume()
+        requireActivity().title = getString(R.string.play_integrity_fix_title)
         refreshStatus()
         if (isPifEnabled && !isAutoFetchCooldownActive()) autoFetchIfStale()
     }
@@ -213,7 +214,7 @@ class PlayIntegrityFix : SettingsPreferenceFragment() {
 
                 if (!PixelDeviceRepository.isValidFingerprint(matched.fingerprint)) return@launch
 
-                // Same rule as AxSpoofManager.refreshPixelFingerprintIfStale(): nothing to do
+                // Same rule as RrSpoofManager.refreshPixelFingerprintIfStale(): nothing to do
                 // when it is already the current fingerprint (the daily cooldown has started).
                 val currentFingerprint = try {
                     if (!content.isNullOrEmpty()) JSONObject(content).optString("FINGERPRINT", "") else ""
@@ -598,7 +599,7 @@ class PlayIntegrityFix : SettingsPreferenceFragment() {
         private const val REFETCH_WINDOW_DAYS = 15L
         private const val PIF_ENABLED_KEY = "spoof_pif_enabled"
         internal const val LAST_AUTO_FETCH_KEY = "spoof_pif_last_auto_fetch"
-        private const val MATCH_DEVICE_PROP = "ro.evolution.device"
+        private const val MATCH_DEVICE_PROP = "ro.rr.device"
 
         private data class Flag(val name: String, val default: Boolean)
 

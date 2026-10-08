@@ -272,7 +272,7 @@
 
 <string name="ts_fetch_keybox_success">Official keybox fetched successfully</string>
 
-<string name="ts_fetch_keybox_summary">Download keybox from Evolution X servers</string>
+<string name="ts_fetch_keybox_summary">Download the official keybox</string>
 
 <string name="ts_fetch_keybox_suspended_refetch">Keybox suspended, fetching a newer one…</string>
 
@@ -352,7 +352,7 @@
 
 <string name="ts_untrusted_root_keep">Keep</string>
 
-<string name="ts_untrusted_root_message">This keybox has a certificate chain rooted at an authority not recognized by Evolution X. It may still pass Strong Integrity on some devices. Keep it installed or replace it with the official keybox?</string>
+<string name="ts_untrusted_root_message">This keybox has a certificate chain rooted at an authority Resurrection Remix does not recognize. It may still pass Strong Integrity on some devices. Keep it installed or replace it with the official keybox?</string>
 
 <string name="ts_untrusted_root_replace">Replace</string>
 
