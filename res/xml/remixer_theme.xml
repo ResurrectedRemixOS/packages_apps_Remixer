@@ -17,9 +17,4 @@
         android:title="@string/remixer_wallpapers"
         android:summary="@string/remixer_wallpapers_summary" />
 
-    <Preference
-        android:key="remixer_style_walls"
-        android:title="@string/remixer_style_walls"
-        android:summary="@string/remixer_style_walls_summary" />
-
 </PreferenceScreen>

@@ -34,8 +34,6 @@ public class RemixerActivity extends Activity {
                 new Intent(this, PulseActivity.class));
         addRow(list, R.string.remixer_headers, R.string.remixer_headers_summary,
                 new Intent(this, HeaderActivity.class));
-        addRow(list, R.string.remixer_style_walls, R.string.remixer_style_walls_summary,
-                external("org.omnirom.omnistyle", "org.omnirom.omnistyle.BrowseWallsActivity"));
         addRow(list, R.string.remixer_weather, R.string.remixer_weather_summary,
                 external("org.omnirom.omnijaws", "org.omnirom.omnijaws.SettingsActivity"));
     }

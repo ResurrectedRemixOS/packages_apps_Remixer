@@ -136,9 +136,6 @@ public class RemixerSection extends SettingsPreferenceFragment {
                 return new Intent(getContext(), HeaderActivity.class);
             case "remixer_doze":
                 return external("com.resurrection.doze", "com.resurrection.doze.DozeActivity");
-            case "remixer_style_walls":
-                return external("org.omnirom.omnistyle",
-                        "org.omnirom.omnistyle.BrowseWallsActivity");
             case "remixer_weather":
                 return external("org.omnirom.omnijaws", "org.omnirom.omnijaws.SettingsActivity");
             default:

@@ -64,6 +64,10 @@
     <string name="pulse_lockscreen_summary">Keep the bars on the lock screen while music plays</string>
     <string name="pulse_failed">Could not save that pulse setting</string>
     <string name="accent_applied">Accent applied</string>
+    <string name="accent_current">Accent \u00b7 %1$s</string>
+    <string name="accent_current_custom">Accent \u00b7 Custom</string>
+    <string name="accent_preview_button">Button</string>
+    <string name="accent_preview_tonal">Tonal</string>
     <string name="accent_failed">Could not apply that accent</string>
     <string name="remixer_headers">Header image</string>
     <string name="remixer_headers_summary">Select a background image for quick settings</string>
@@ -92,14 +96,22 @@
     <string name="header_shadow">Dim</string>
     <string name="header_shadow_value">Dim \u00b7 %1$d%%</string>
     <string name="header_failed">Could not save that header setting</string>
-    <string name="remixer_style_walls">Style wallpapers</string>
-    <string name="remixer_style_walls_summary">Wallpaper packs</string>
     <string name="remixer_weather">Weather</string>
     <string name="remixer_weather_summary">Weather service and units</string>
     <string name="font_default">Default</string>
+    <string name="font_preview_glyphs">Aa</string>
+    <string name="font_preview_text">The quick brown fox jumps over the lazy dog. 0123456789</string>
     <string name="font_applied">Font applied</string>
     <string name="font_failed">Could not apply that font</string>
     <string name="wallpaper_set">Wallpaper set</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">%d wallpaper from Resurrection Remix. Tap one to preview it.</item>
+        <item quantity="other">%d wallpapers from Resurrection Remix. Tap one to preview it.</item>
+    </plurals>
+    <string name="wallpaper_apply_title">Set wallpaper</string>
+    <string name="wallpaper_apply_home">Home screen</string>
+    <string name="wallpaper_apply_lock">Lock screen</string>
+    <string name="wallpaper_apply_both">Both</string>
     <string name="wallpaper_failed">Could not set that wallpaper</string>
     <string name="missing_app">That app is not installed</string>
     <string name="remixer_spoofing">Spoofing</string>
