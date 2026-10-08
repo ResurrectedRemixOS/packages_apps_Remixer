@@ -29,12 +29,39 @@
     <string name="remixer_doze">Ambient display</string>
     <string name="remixer_doze_summary">Always on display and wake gestures</string>
     <string name="remixer_pulse">Pulse</string>
-    <string name="remixer_pulse_summary">Music visualizer on the navigation bar</string>
-    <string name="pulse_switch">Navbar pulse</string>
-    <string name="pulse_switch_summary">Bars on the navigation bar while audio plays</string>
+    <string name="remixer_pulse_summary">Music visualizer along the bottom of the screen</string>
+    <string name="pulse_switch">Use pulse</string>
+    <string name="pulse_switch_summary">Music bars along the bottom of the screen while media plays</string>
+    <string name="pulse_preview_title">Now playing</string>
+    <string name="pulse_preview_artist">Resurrection Remix</string>
     <string name="pulse_style">Style</string>
-    <string name="pulse_style_lines">Solid lines</string>
-    <string name="pulse_style_fading">Fading blocks</string>
+    <string name="pulse_style_lines">Lines</string>
+    <string name="pulse_style_fading">Fading</string>
+    <string name="pulse_style_blocks">Blocks</string>
+    <string name="pulse_style_mirror">Mirror</string>
+    <string name="pulse_color">Color</string>
+    <string name="pulse_color_custom">Custom</string>
+    <string name="pulse_color_accent">Wallpaper</string>
+    <string name="pulse_color_gradient">Rainbow</string>
+    <string-array name="pulse_swatch_names" translatable="false">
+        <item>Remix red</item>
+        <item>Orange</item>
+        <item>Green</item>
+        <item>Teal</item>
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Pink</item>
+        <item>White</item>
+    </string-array>
+    <string name="pulse_look">Appearance</string>
+    <string name="pulse_bars">Bars</string>
+    <string name="pulse_bars_value">Bars \u00b7 %1$d</string>
+    <string name="pulse_height">Height</string>
+    <string name="pulse_height_value">Height \u00b7 %1$d dp</string>
+    <string name="pulse_opacity">Opacity</string>
+    <string name="pulse_opacity_value">Opacity \u00b7 %1$d%%</string>
+    <string name="pulse_lockscreen">Show on lock screen</string>
+    <string name="pulse_lockscreen_summary">Keep the bars on the lock screen while music plays</string>
     <string name="pulse_failed">Could not save that pulse setting</string>
     <string name="accent_applied">Accent applied</string>
     <string name="accent_failed">Could not apply that accent</string>
