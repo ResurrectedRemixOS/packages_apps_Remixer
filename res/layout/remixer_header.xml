@@ -12,14 +12,14 @@
         android:layout_height="wrap_content"
         android:background="@drawable/remixer_hero_bg"
         android:orientation="vertical"
-        android:paddingHorizontal="22dp"
-        android:paddingTop="24dp"
-        android:paddingBottom="22dp">
+        android:paddingHorizontal="18dp"
+        android:paddingTop="18dp"
+        android:paddingBottom="16dp">
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="48dp"
-            android:layout_marginStart="-6dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="-5dp"
             android:adjustViewBounds="true"
             android:contentDescription="@string/remixer_app_name"
             android:src="@drawable/remixer_logo_hero" />
@@ -28,44 +28,52 @@
             android:id="@+id/remixer_version"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="6dp"
             android:fontFamily="sans-serif-medium"
             android:letterSpacing="0.12"
             android:textAllCaps="true"
             android:textColor="#B3FFFFFF"
-            android:textSize="11sp" />
+            android:textSize="10sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="14dp"
-            android:fontFamily="sans-serif-medium"
-            android:text="@string/remixer_tagline"
-            android:textColor="#FFFFFFFF"
-            android:textSize="22sp" />
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/remixer_tagline"
+                android:textColor="#FFFFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/remixer_remix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:clickable="true"
+                android:drawablePadding="8dp"
+                android:focusable="true"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:minHeight="44dp"
+                android:paddingStart="14dp"
+                android:paddingEnd="18dp"
+                android:text="@string/remixer_remix"
+                android:textColor="#FF141416"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
 
         <com.resurrection.settings.RemixerChipRow
             android:id="@+id/remixer_chips"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="14dp" />
-
-        <TextView
-            android:id="@+id/remixer_remix"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:clickable="true"
-            android:drawablePadding="10dp"
-            android:focusable="true"
-            android:fontFamily="sans-serif-medium"
-            android:gravity="center_vertical"
-            android:minHeight="48dp"
-            android:paddingStart="18dp"
-            android:paddingEnd="22dp"
-            android:text="@string/remixer_remix"
-            android:textColor="#FF141416"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+            android:layout_marginTop="10dp" />
     </com.resurrection.settings.RemixerHeroView>
 </FrameLayout>
