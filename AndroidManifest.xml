@@ -46,5 +46,10 @@
             android:name=".HeaderActivity"
             android:exported="false"
             android:label="@string/remixer_headers" />
+
+        <activity
+            android:name=".QsStyleActivity"
+            android:exported="false"
+            android:label="@string/remixer_qs_style" />
     </application>
 </manifest>

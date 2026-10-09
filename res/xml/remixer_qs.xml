@@ -3,6 +3,10 @@
     android:title="@string/remixer_qs">
 
     <Preference
+        android:key="remixer_qs_style"
+        android:title="@string/remixer_qs_style" />
+
+    <Preference
         android:key="remixer_headers"
         android:title="@string/remixer_headers"
         android:summary="@string/remixer_headers_summary" />
