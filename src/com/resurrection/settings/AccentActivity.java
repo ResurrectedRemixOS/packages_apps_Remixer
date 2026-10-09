@@ -1,11 +1,13 @@
 package com.resurrection.settings;
 
+import android.content.Context;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -328,7 +330,10 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
     }
 
     private void showPicker() {
-        BottomSheetDialog dialog = new BottomSheetDialog(this,
+        // The activity theme is DeviceDefault; only the page layout carries Material3.
+        Context material = new ContextThemeWrapper(this,
+                com.google.android.material.R.style.Theme_Material3_DynamicColors_DayNight);
+        BottomSheetDialog dialog = new BottomSheetDialog(material,
                 com.google.android.material.R.style.ThemeOverlay_Material3_BottomSheetDialog);
         View view = LayoutInflater.from(dialog.getContext())
                 .inflate(R.layout.remixer_accent_picker, null);
