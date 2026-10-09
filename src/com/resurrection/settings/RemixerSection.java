@@ -91,6 +91,11 @@ public class RemixerSection extends SettingsPreferenceFragment {
         summary.setText(section.summary);
         summary.setTextColor(fg);
         getPreferenceScreen().addPreference(banner);
+
+        final Preference fingerprint = findPreference("remixer_fingerprint");
+        if (fingerprint != null && !FingerprintActivity.isAvailable(context)) {
+            getPreferenceScreen().removePreference(fingerprint);
+        }
     }
 
     @Override
@@ -134,6 +139,8 @@ public class RemixerSection extends SettingsPreferenceFragment {
                 return new Intent(getContext(), PulseActivity.class);
             case "remixer_headers":
                 return new Intent(getContext(), HeaderActivity.class);
+            case "remixer_fingerprint":
+                return new Intent(getContext(), FingerprintActivity.class);
             case "remixer_weather":
                 return external("org.omnirom.omnijaws", "org.omnirom.omnijaws.SettingsActivity");
             default:

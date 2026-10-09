@@ -3,6 +3,11 @@
     android:title="@string/remixer_lockscreen">
 
     <Preference
+        android:key="remixer_fingerprint"
+        android:title="@string/remixer_fingerprint"
+        android:summary="@string/remixer_fingerprint_summary" />
+
+    <Preference
         android:key="remixer_weather"
         android:title="@string/remixer_weather"
         android:summary="@string/remixer_weather_summary" />

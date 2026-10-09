@@ -53,7 +53,11 @@
     <string name="remixer_theme">Theme</string>
     <string name="remixer_theme_summary">Fonts, accents, and wallpapers</string>
     <string name="remixer_lockscreen">Lock screen</string>
-    <string name="remixer_lockscreen_summary">Weather</string>
+    <string name="remixer_lockscreen_summary">Fingerprint and weather</string>
+    <string name="remixer_fingerprint">Fingerprint</string>
+    <string name="remixer_fingerprint_summary">Icon and touch animation</string>
+    <string name="remixer_fingerprint_icon">Icon</string>
+    <string name="remixer_fingerprint_animation">Animation</string>
     <string name="remixer_navigation">Navigation</string>
     <string name="remixer_navigation_summary">Pulse and buttons</string>
     <string name="remixer_misc">Miscellaneous</string>
