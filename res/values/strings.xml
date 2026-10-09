@@ -186,5 +186,8 @@
     <string name="missing_app">That app is not installed</string>
     <string name="remixer_spoofing">Spoofing</string>
     <string name="remixer_spoofing_summary">Play Integrity, device identity, and per-app spoofing</string>
+
+    <!-- About phone > Android version -->
+    <string name="rr_maintainer">Maintainer</string>
 </resources>
 
