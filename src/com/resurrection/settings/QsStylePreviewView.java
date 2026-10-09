@@ -54,7 +54,24 @@ public class QsStylePreviewView extends View {
     // Internet and Bluetooth are wide where the style has wide tiles.
     private static final int WIDE = 2;
 
+    private static final int[] LOCK_ICONS = {
+        R.drawable.remixer_qs_preview_music, R.drawable.remixer_qs_preview_phone,
+        R.drawable.remixer_qs_preview_prev, R.drawable.remixer_qs_preview_next,
+        R.drawable.remixer_qs_preview_like, R.drawable.remixer_qs_preview_pause,
+        R.drawable.remixer_qs_preview_message,
+    };
+    private static final int L_MUSIC = 0;
+    private static final int L_PHONE = 1;
+    private static final int L_PREV = 2;
+    private static final int L_NEXT = 3;
+    private static final int L_LIKE = 4;
+    private static final int L_PAUSE = 5;
+    private static final int L_MESSAGE = 6;
+    // Dark base under see-through cards on the lockscreen, as SystemUI draws it.
+    private static final int LOCK_BASE = 0x9E0E0F11;
+
     private static final Typeface MEDIUM = Typeface.create("sans-serif-medium", Typeface.NORMAL);
+    private static final Typeface LIGHT = Typeface.create("sans-serif-light", Typeface.NORMAL);
     private static final int SURFACE = 0x1AFFFFFF;
     private static final int ON_SURFACE = 0xFFEDEEF0;
     private static final int MUTED = 0xFFB4B8BE;
@@ -64,6 +81,7 @@ public class QsStylePreviewView extends View {
     private final TextPaint mText = new TextPaint(Paint.ANTI_ALIAS_FLAG);
     private final RectF mRect = new RectF();
     private final Drawable[] mIcons = new Drawable[ICONS.length];
+    private final Drawable[] mLockIcons = new Drawable[LOCK_ICONS.length];
     private final String[] mLabels;
     private final String mOn;
     private final String mOff;
@@ -76,6 +94,7 @@ public class QsStylePreviewView extends View {
     private final float mDensity;
     private int mStyle;
     private boolean mMini;
+    private boolean mLockscreen;
     private float mScale;
 
     public QsStylePreviewView(Context context) {
@@ -98,6 +117,10 @@ public class QsStylePreviewView extends View {
             Drawable icon = context.getDrawable(ICONS[i]);
             mIcons[i] = icon != null ? icon.mutate() : null;
         }
+        for (int i = 0; i < LOCK_ICONS.length; i++) {
+            Drawable icon = context.getDrawable(LOCK_ICONS[i]);
+            mLockIcons[i] = icon != null ? icon.mutate() : null;
+        }
         setOutlineProvider(new ViewOutlineProvider() {
             @Override
             public void getOutline(View view, Outline outline) {
@@ -116,6 +139,12 @@ public class QsStylePreviewView extends View {
         }
     }
 
+    /** Draws the lockscreen media card in the style instead of the QS panel. */
+    public void setLockscreen(boolean lockscreen) {
+        mLockscreen = lockscreen;
+        invalidate();
+    }
+
     public void setMini(boolean mini) {
         mMini = mini;
         invalidateOutline();
@@ -130,6 +159,10 @@ public class QsStylePreviewView extends View {
     protected void onDraw(Canvas canvas) {
         final int w = getWidth();
         final int h = getHeight();
+        if (mLockscreen) {
+            drawLockscreen(canvas, w, h);
+            return;
+        }
         mPaint.setShader(null);
         mPaint.setStyle(Paint.Style.FILL);
         mPaint.setColor(mStyle == MONO ? 0xFF050505 : 0xFF0A0B0D);
@@ -207,6 +240,263 @@ public class QsStylePreviewView extends View {
         mRect.inset(d(.75f), d(.75f));
         canvas.drawRoundRect(mRect, d(r), d(r), mPaint);
         mPaint.setStyle(Paint.Style.FILL);
+    }
+
+    /** Colors of the lockscreen media card, matching SystemUI's QsStyleMedia. */
+    private final class Card {
+        int base = Color.TRANSPARENT;
+        int bg = SURFACE;
+        int border = Color.TRANSPARENT;
+        int text = ON_SURFACE;
+        int sub = 0xB8EDEEF0;
+        int accent = mPrimary;
+        int onAccent = mOnPrimary;
+        int play = mPrimary;
+        int playInk = mOnPrimary;
+        int playBorder = Color.TRANSPARENT;
+        int track = 0x47EDEEF0;
+        float radius = 26;
+        float artRadius = 14;
+        boolean thumb = true;
+        boolean art;
+
+        Card() {
+            switch (mStyle) {
+                case STOCK:
+                    thumb = false;
+                    art = true;
+                    bg = 0x9E140A1E;
+                    radius = 32;
+                    accent = play = 0xFFFFD9CC;
+                    onAccent = playInk = 0xFF4A1B10;
+                    track = 0x4DFFFFFF;
+                    break;
+                case REMIX:
+                    bg = 0xFF1E2024;
+                    radius = 28;
+                    play = mAccent600;
+                    playInk = Color.WHITE;
+                    break;
+                case COMPACT:
+                    base = LOCK_BASE;
+                    bg = 0x17FFFFFF;
+                    radius = 32;
+                    artRadius = 22;
+                    break;
+                case GLASS:
+                    base = LOCK_BASE;
+                    bg = 0x09FFFFFF;
+                    border = 0x21FFFFFF;
+                    radius = 24;
+                    play = alpha(mPrimary, .2f);
+                    playInk = mPrimary;
+                    playBorder = mPrimary;
+                    break;
+                case CLASSIC:
+                    base = LOCK_BASE;
+                    bg = 0x0FFFFFFF;
+                    radius = 16;
+                    artRadius = 10;
+                    play = Color.TRANSPARENT;
+                    playInk = mPrimary;
+                    playBorder = mPrimary;
+                    break;
+                case MONO:
+                    bg = 0xFF161616;
+                    radius = 18;
+                    artRadius = 12;
+                    text = 0xFFEDEDED;
+                    sub = 0xB3EDEDED;
+                    accent = play = 0xFFF2F2F2;
+                    onAccent = playInk = 0xFF111111;
+                    track = 0x47EDEDED;
+                    break;
+                default:
+                    base = LOCK_BASE;
+                    break;
+            }
+        }
+    }
+
+    private void drawLockscreen(Canvas canvas, int w, int h) {
+        final boolean mono = mStyle == MONO;
+        final float big = Math.max(w, h);
+        mPaint.setStyle(Paint.Style.FILL);
+        mPaint.setShader(new LinearGradient(0, 0, w * .4f, h, mono ? 0xFF262626 : 0xFF3B2440,
+                mono ? 0xFF101010 : 0xFF101527, Shader.TileMode.CLAMP));
+        canvas.drawRect(0, 0, w, h, mPaint);
+        mPaint.setShader(new RadialGradient(w * .25f, h * .15f, big * .8f,
+                mono ? 0x806B6B6B : alpha(mAccent500, .75f), Color.TRANSPARENT,
+                Shader.TileMode.CLAMP));
+        canvas.drawRect(0, 0, w, h, mPaint);
+        mPaint.setShader(new RadialGradient(w * .85f, h * .9f, big * .7f,
+                mono ? 0x803A3A3A : 0xCC2E5BD8, Color.TRANSPARENT, Shader.TileMode.CLAMP));
+        canvas.drawRect(0, 0, w, h, mPaint);
+        mPaint.setShader(new LinearGradient(0, 0, 0, h, 0x26060709, 0x8C060709,
+                Shader.TileMode.CLAMP));
+        canvas.drawRect(0, 0, w, h, mPaint);
+        mPaint.setShader(null);
+
+        final Card card = new Card();
+        if (mMini) {
+            final float cardH = h * .5f;
+            mRect.set(w * .12f, (h - cardH) / 2, w * .88f, (h + cardH) / 2);
+            final float r = Math.min(card.radius * cardH / 150f * 2.2f, cardH / 2);
+            cardFill(canvas, card, r);
+            final float pillH = cardH * .4f;
+            final float pillW = cardH * .56f;
+            final float right = mRect.right - 4 * mDensity;
+            mRect.set(right - pillW, (h - pillH) / 2, right, (h + pillH) / 2);
+            pillFill(canvas, card.play, card.playBorder, pillH / 2, mDensity);
+            return;
+        }
+
+        final float pad = 14 * mDensity;
+        mScale = (w - pad * 2) / WIDTH;
+        canvas.save();
+        canvas.translate(pad, pad);
+        final java.util.Date now = new java.util.Date();
+        text(canvas, android.text.format.DateFormat.getTimeFormat(getContext()).format(now),
+                WIDTH / 2, 64, WIDTH, 60, LIGHT, 0xFFF4F5F7, true);
+        text(canvas, android.text.format.DateFormat.format(
+                android.text.format.DateFormat.getBestDateTimePattern(
+                        java.util.Locale.getDefault(), "EEEMMMd"), now).toString(),
+                WIDTH / 2, 88, WIDTH, 14, MEDIUM, 0xDBF4F5F7, true);
+
+        final float top = 108;
+        mRect.set(0, d(top), d(WIDTH), d(top + 150));
+        cardFill(canvas, card, d(card.radius));
+
+        // Top row: app icon and output chip.
+        lockIcon(canvas, L_MUSIC, 27, top + 25, 22, card.accent);
+        final String device = getResources().getString(R.string.remixer_lock_preview_device);
+        mText.setTextSize(d(13));
+        mText.setTypeface(MEDIUM);
+        final float chipW = mText.measureText(device) / mScale + 44;
+        mRect.set(d(WIDTH - 14 - chipW), d(top + 12), d(WIDTH - 14), d(top + 42));
+        pillFill(canvas, card.accent, Color.TRANSPARENT, d(15), 0);
+        lockIcon(canvas, L_PHONE, WIDTH - 14 - chipW + 19, top + 27, 14, card.onAccent);
+        text(canvas, device, WIDTH - 14 - chipW + 32, top + 32, chipW, 13, MEDIUM,
+                card.onAccent, false);
+
+        // Second row: artwork, title, play button.
+        final float cy = top + 76;
+        float x = 16;
+        if (card.thumb) {
+            mRect.set(d(x), d(cy - 22), d(x + 44), d(cy + 22));
+            artFill(canvas, d(card.artRadius));
+            x += 56;
+        }
+        final float playLeft = WIDTH - 16 - 64;
+        text(canvas, getResources().getString(R.string.remixer_lock_preview_title), x, cy - 3,
+                playLeft - x - 8, 16, MEDIUM, card.text, false);
+        text(canvas, getResources().getString(R.string.remixer_lock_preview_artist), x, cy + 15,
+                playLeft - x - 8, 13, Typeface.DEFAULT, card.sub, false);
+        mRect.set(d(playLeft), d(cy - 21), d(WIDTH - 16), d(cy + 21));
+        pillFill(canvas, card.play, card.playBorder, d(14), mScale);
+        lockIcon(canvas, L_PAUSE, playLeft + 32, cy, 20, card.playInk);
+
+        // Third row: previous, seek bar, next, like.
+        final float cy3 = top + 125;
+        lockIcon(canvas, L_PREV, 30, cy3, 20, card.text);
+        final float barLeft = 54;
+        final float barRight = WIDTH - 102;
+        mPaint.setColor(card.track);
+        mRect.set(d(barLeft), d(cy3 - 2), d(barRight), d(cy3 + 2));
+        canvas.drawRoundRect(mRect, d(2), d(2), mPaint);
+        final float progress = barLeft + (barRight - barLeft) * .38f;
+        mPaint.setColor(card.accent);
+        mRect.set(d(barLeft), d(cy3 - 2), d(progress), d(cy3 + 2));
+        canvas.drawRoundRect(mRect, d(2), d(2), mPaint);
+        mRect.set(d(progress - 2), d(cy3 - 8), d(progress + 2), d(cy3 + 8));
+        canvas.drawRoundRect(mRect, d(2), d(2), mPaint);
+        lockIcon(canvas, L_NEXT, WIDTH - 78, cy3, 20, card.text);
+        lockIcon(canvas, L_LIKE, WIDTH - 34, cy3, 20, card.text);
+
+        // A notification under the player.
+        final float note = top + 162;
+        mPaint.setColor(0xD118191C);
+        mRect.set(0, d(note), d(WIDTH), d(note + 58));
+        canvas.drawRoundRect(mRect, d(22), d(22), mPaint);
+        mPaint.setColor(0xFF2F6FED);
+        canvas.drawCircle(d(34), d(note + 29), d(18), mPaint);
+        lockIcon(canvas, L_MESSAGE, 34, note + 29, 18, Color.WHITE);
+        text(canvas, getResources().getString(R.string.remixer_lock_preview_notification), 62,
+                note + 25, WIDTH - 78, 14, MEDIUM, 0xFFF4F5F7, false);
+        text(canvas, getResources().getString(R.string.remixer_lock_preview_hidden), 62,
+                note + 43, WIDTH - 78, 13, Typeface.DEFAULT, 0xBFF4F5F7, false);
+        canvas.restore();
+    }
+
+    /** Fills mRect as the card: art or dark base, then the style fill and outline. */
+    private void cardFill(Canvas canvas, Card card, float r) {
+        if (card.art) {
+            artFill(canvas, r);
+        }
+        mPaint.setShader(null);
+        mPaint.setStyle(Paint.Style.FILL);
+        if (card.base != Color.TRANSPARENT) {
+            mPaint.setColor(card.base);
+            canvas.drawRoundRect(mRect, r, r, mPaint);
+        }
+        mPaint.setColor(card.bg);
+        canvas.drawRoundRect(mRect, r, r, mPaint);
+        if (card.border != Color.TRANSPARENT) {
+            mPaint.setStyle(Paint.Style.STROKE);
+            mPaint.setStrokeWidth(1.5f * mDensity);
+            mPaint.setColor(card.border);
+            canvas.drawRoundRect(mRect, r, r, mPaint);
+            mPaint.setStyle(Paint.Style.FILL);
+        }
+    }
+
+    /** A stand-in for the album art over mRect. */
+    private void artFill(Canvas canvas, float r) {
+        mPaint.setStyle(Paint.Style.FILL);
+        mPaint.setShader(new LinearGradient(mRect.left, mRect.top, mRect.right, mRect.bottom,
+                0xFFFF7A59, 0xFF8C3BFF, Shader.TileMode.CLAMP));
+        canvas.drawRoundRect(mRect, r, r, mPaint);
+        mPaint.setShader(null);
+    }
+
+    /** Fills mRect with an optional outline; strokeScale is px per dp of the outline. */
+    private void pillFill(Canvas canvas, int fill, int border, float r, float strokeScale) {
+        mPaint.setStyle(Paint.Style.FILL);
+        if (fill != Color.TRANSPARENT) {
+            mPaint.setColor(fill);
+            canvas.drawRoundRect(mRect, r, r, mPaint);
+        }
+        if (border != Color.TRANSPARENT) {
+            mPaint.setStyle(Paint.Style.STROKE);
+            mPaint.setStrokeWidth(1.5f * strokeScale);
+            mPaint.setColor(border);
+            canvas.drawRoundRect(mRect, r, r, mPaint);
+            mPaint.setStyle(Paint.Style.FILL);
+        }
+    }
+
+    private void lockIcon(Canvas canvas, int i, float cx, float cy, float size, int color) {
+        final Drawable icon = mLockIcons[i];
+        if (icon == null) {
+            return;
+        }
+        final float half = d(size) / 2;
+        icon.setBounds(Math.round(d(cx) - half), Math.round(d(cy) - half),
+                Math.round(d(cx) + half), Math.round(d(cy) + half));
+        icon.setTint(color);
+        icon.draw(canvas);
+    }
+
+    private void text(Canvas canvas, String value, float x, float baseline, float width,
+            float size, Typeface typeface, int color, boolean centered) {
+        mText.setTextSize(d(size));
+        mText.setTypeface(typeface);
+        mText.setColor(color);
+        final CharSequence fitted = TextUtils.ellipsize(value, mText, d(width),
+                TextUtils.TruncateAt.END);
+        final float textWidth = mText.measureText(fitted, 0, fitted.length());
+        final float start = centered ? d(x) - textWidth / 2 : d(x);
+        canvas.drawText(fitted, 0, fitted.length(), start, d(baseline), mText);
     }
 
     private void drawTiles(Canvas canvas, float top, float bottom) {

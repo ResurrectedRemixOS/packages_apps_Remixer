@@ -147,6 +147,23 @@
     <string name="remixer_qs_style_cards_summary">Big cards with the state under each name, three across</string>
     <string name="remixer_qs_style_mono">Mono</string>
     <string name="remixer_qs_style_mono_summary">Black and white only. Ignores the accent</string>
+    <string name="remixer_lock_media_style">Media player style</string>
+    <string name="remixer_lock_media_same">Same as Quick settings</string>
+    <string name="remixer_lock_media_same_summary">Follows your QS style, now %1$s</string>
+    <string name="remixer_lock_media_note">The card shows on the lockscreen while something is playing. See-through styles get a dark backing so they stay readable over your wallpaper.</string>
+    <string name="remixer_lock_media_stock_summary">Album art fills the card</string>
+    <string name="remixer_lock_media_remix_summary">Dark card, accent play button</string>
+    <string name="remixer_lock_media_compact_summary">Rounder card, round artwork</string>
+    <string name="remixer_lock_media_glass_summary">Outlined see-through card</string>
+    <string name="remixer_lock_media_circles_summary">Soft card, accent play button</string>
+    <string name="remixer_lock_media_classic_summary">Squarer card, outlined play button</string>
+    <string name="remixer_lock_media_cards_summary">Soft card, accent play button, like Circles</string>
+    <string name="remixer_lock_media_mono_summary">Black and white only</string>
+    <string name="remixer_lock_preview_device">This phone</string>
+    <string name="remixer_lock_preview_title" translatable="false">Nightcall</string>
+    <string name="remixer_lock_preview_artist" translatable="false">Kavinsky</string>
+    <string name="remixer_lock_preview_notification">Messages</string>
+    <string name="remixer_lock_preview_hidden">Contents hidden</string>
     <string name="remixer_qs_preview_on">On</string>
     <string name="remixer_qs_preview_off">Off</string>
     <string-array name="remixer_qs_preview_labels">

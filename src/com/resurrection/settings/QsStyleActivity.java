@@ -6,6 +6,7 @@
 package com.resurrection.settings;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -23,9 +24,16 @@ import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.color.MaterialColors;
 
-/** Quick settings look, read by SystemUI from Settings.System {@link #SETTING}. */
+/**
+ * Quick settings look, read by SystemUI from Settings.System {@link #SETTING}, or with
+ * {@link #lockMediaIntent} the lockscreen media card look from {@link #LOCK_MEDIA_SETTING}.
+ */
 public class QsStyleActivity extends CollapsingToolbarBaseActivity {
     public static final String SETTING = "rr_qs_style";
+    public static final String LOCK_MEDIA_SETTING = "rr_lockscreen_media_style";
+    private static final String EXTRA_LOCK_MEDIA = "lock_media";
+    // Lockscreen media value that follows the QS style.
+    private static final int SAME_AS_QS = -1;
 
     // Indexed by the SystemUI QsStyle value.
     private static final int[] NAMES = {
@@ -40,67 +48,115 @@ public class QsStyleActivity extends CollapsingToolbarBaseActivity {
         R.string.remixer_qs_style_circles_summary, R.string.remixer_qs_style_classic_summary,
         R.string.remixer_qs_style_cards_summary, R.string.remixer_qs_style_mono_summary,
     };
+    private static final int[] LOCK_DESCRIPTIONS = {
+        R.string.remixer_lock_media_stock_summary, R.string.remixer_lock_media_remix_summary,
+        R.string.remixer_lock_media_compact_summary, R.string.remixer_lock_media_glass_summary,
+        R.string.remixer_lock_media_circles_summary, R.string.remixer_lock_media_classic_summary,
+        R.string.remixer_lock_media_cards_summary, R.string.remixer_lock_media_mono_summary,
+    };
 
-    private final View[] mRows = new View[NAMES.length];
+    private View[] mRows;
+    private int[] mValues;
+    private boolean mLockMedia;
     private QsStylePreviewView mPreview;
     private TextView mPreviewLabel;
     private int mSelected;
 
-    /** Name of the current style, for the Remixer entry summary. */
-    public static String currentName(Context context) {
-        return context.getString(NAMES[current(context)]);
+    public static Intent lockMediaIntent(Context context) {
+        return new Intent(context, QsStyleActivity.class).putExtra(EXTRA_LOCK_MEDIA, true);
     }
 
-    private static int current(Context context) {
+    /** Name of the current QS style, for the Remixer entry summary. */
+    public static String currentName(Context context) {
+        return context.getString(NAMES[qsStyle(context)]);
+    }
+
+    /** Name of the current lockscreen media style, for the Remixer entry summary. */
+    public static String currentLockMediaName(Context context) {
+        int value = lockMediaStyle(context);
+        return value == SAME_AS_QS ? context.getString(R.string.remixer_lock_media_same)
+                : context.getString(NAMES[value]);
+    }
+
+    private static int qsStyle(Context context) {
         int value = Settings.System.getIntForUser(context.getContentResolver(), SETTING, 0,
                 UserHandle.USER_CURRENT);
         return value >= 0 && value < NAMES.length ? value : 0;
+    }
+
+    private static int lockMediaStyle(Context context) {
+        int value = Settings.System.getIntForUser(context.getContentResolver(),
+                LOCK_MEDIA_SETTING, SAME_AS_QS, UserHandle.USER_CURRENT);
+        return value >= 0 && value < NAMES.length ? value : SAME_AS_QS;
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.remixer_qs_style);
-        setTitle(R.string.remixer_qs_style);
+        mLockMedia = getIntent().getBooleanExtra(EXTRA_LOCK_MEDIA, false);
+        setTitle(mLockMedia ? R.string.remixer_lock_media_style : R.string.remixer_qs_style);
 
         mPreview = findViewById(R.id.qs_style_preview);
+        mPreview.setLockscreen(mLockMedia);
         mPreviewLabel = findViewById(R.id.qs_style_preview_label);
-        mSelected = current(this);
+        ((TextView) findViewById(R.id.qs_style_note)).setText(
+                mLockMedia ? R.string.remixer_lock_media_note : R.string.remixer_qs_style_note);
+        mSelected = mLockMedia ? lockMediaStyle(this) : qsStyle(this);
 
+        mValues = new int[NAMES.length + (mLockMedia ? 1 : 0)];
+        for (int i = 0; i < mValues.length; i++) {
+            mValues[i] = mLockMedia ? i - 1 : i;
+        }
+        mRows = new View[mValues.length];
+        final String qsName = currentName(this);
         LinearLayout list = findViewById(R.id.qs_style_list);
         LayoutInflater inflater = LayoutInflater.from(list.getContext());
-        for (int i = 0; i < NAMES.length; i++) {
-            final int style = i;
+        for (int i = 0; i < mValues.length; i++) {
+            final int value = mValues[i];
             View row = inflater.inflate(R.layout.remixer_qs_style_item, list, false);
             QsStylePreviewView thumb = row.findViewById(R.id.qs_style_thumb);
             thumb.setMini(true);
-            thumb.setStyle(style);
-            ((TextView) row.findViewById(R.id.qs_style_name)).setText(NAMES[i]);
-            ((TextView) row.findViewById(R.id.qs_style_desc)).setText(DESCRIPTIONS[i]);
-            row.setOnClickListener(v -> select(style));
+            thumb.setLockscreen(mLockMedia);
+            thumb.setStyle(look(value));
+            TextView name = row.findViewById(R.id.qs_style_name);
+            TextView desc = row.findViewById(R.id.qs_style_desc);
+            if (value == SAME_AS_QS) {
+                name.setText(R.string.remixer_lock_media_same);
+                desc.setText(getString(R.string.remixer_lock_media_same_summary, qsName));
+            } else {
+                name.setText(NAMES[value]);
+                desc.setText(mLockMedia ? LOCK_DESCRIPTIONS[value] : DESCRIPTIONS[value]);
+            }
+            row.setOnClickListener(v -> select(value));
             list.addView(row);
             mRows[i] = row;
         }
         update();
     }
 
-    private void select(int style) {
-        if (style == mSelected) {
+    /** The style a value draws as; following QS draws as the QS style. */
+    private int look(int value) {
+        return value == SAME_AS_QS ? qsStyle(this) : value;
+    }
+
+    private void select(int value) {
+        if (value == mSelected) {
             return;
         }
-        Settings.System.putIntForUser(getContentResolver(), SETTING, style,
-                UserHandle.USER_CURRENT);
-        mSelected = style;
+        Settings.System.putIntForUser(getContentResolver(),
+                mLockMedia ? LOCK_MEDIA_SETTING : SETTING, value, UserHandle.USER_CURRENT);
+        mSelected = value;
         update();
     }
 
     private void update() {
-        mPreview.setStyle(mSelected);
+        mPreview.setStyle(look(mSelected));
         mPreviewLabel.setText(getString(R.string.remixer_qs_style_preview,
-                getString(NAMES[mSelected])));
+                getString(NAMES[look(mSelected)])));
         for (int i = 0; i < mRows.length; i++) {
             MaterialCardView card = (MaterialCardView) mRows[i];
-            boolean selected = i == mSelected;
+            boolean selected = mValues[i] == mSelected;
             int primary = MaterialColors.getColor(card,
                     androidx.appcompat.R.attr.colorPrimary);
             card.setStrokeColor(selected ? primary : Color.TRANSPARENT);

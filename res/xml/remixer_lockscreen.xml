@@ -13,6 +13,10 @@
         android:summary="@string/remixer_udfps_animation_summary" />
 
     <Preference
+        android:key="remixer_lock_media_style"
+        android:title="@string/remixer_lock_media_style" />
+
+    <Preference
         android:key="remixer_weather"
         android:title="@string/remixer_weather"
         android:summary="@string/remixer_weather_summary" />
