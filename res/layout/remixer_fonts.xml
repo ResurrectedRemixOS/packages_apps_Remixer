@@ -1,194 +1,207 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/font_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:theme="@style/Theme.Material3.DynamicColors.DayNight"
-    android:clipToPadding="false"
-    android:paddingBottom="24dp">
+    android:animateLayoutChanges="true"
+    android:orientation="vertical">
 
     <LinearLayout
+        android:id="@+id/font_hero"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/remixer_hero_bg"
         android:orientation="vertical"
-        android:paddingHorizontal="16dp">
+        android:paddingHorizontal="22dp"
+        android:paddingTop="22dp"
+        android:paddingBottom="18dp">
 
-        <LinearLayout
+        <TextClock
+            android:id="@+id/font_preview_clock"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/remixer_hero_bg"
-            android:orientation="vertical"
-            android:paddingHorizontal="22dp"
-            android:paddingTop="22dp"
-            android:paddingBottom="18dp">
+            android:format12Hour="h:mm"
+            android:format24Hour="H:mm"
+            android:gravity="center_horizontal"
+            android:importantForAccessibility="no"
+            android:includeFontPadding="false"
+            android:textColor="#FFFFFFFF"
+            android:textSize="76sp" />
 
-            <TextClock
-                android:id="@+id/font_preview_clock"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:format12Hour="h:mm"
-                android:format24Hour="H:mm"
-                android:gravity="center_horizontal"
-                android:importantForAccessibility="no"
-                android:includeFontPadding="false"
-                android:textColor="#FFFFFFFF"
-                android:textSize="76sp" />
-
-            <TextView
-                android:id="@+id/font_preview_date"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
-                android:gravity="center_horizontal"
-                android:importantForAccessibility="no"
-                android:textColor="#D9FFFFFF"
-                android:textSize="16sp" />
-
-            <LinearLayout
-                android:id="@+id/font_preview_notification"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="14dp"
-                android:gravity="center_vertical"
-                android:importantForAccessibility="no"
-                android:orientation="horizontal"
-                android:paddingHorizontal="14dp"
-                android:paddingVertical="12dp">
-
-                <ImageView
-                    android:id="@+id/font_preview_app"
-                    android:layout_width="36dp"
-                    android:layout_height="36dp"
-                    android:padding="9dp"
-                    android:src="@drawable/remixer_ic_chat" />
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/font_preview_title"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:singleLine="true"
-                        android:text="@string/remixer_app_name"
-                        android:textColor="#FFFFFFFF"
-                        android:textSize="15sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/font_preview_body"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:ellipsize="end"
-                        android:singleLine="true"
-                        android:text="@string/font_preview_notification"
-                        android:textColor="#D9FFFFFF"
-                        android:textSize="14sp" />
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="14dp"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/font_preview_state"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:letterSpacing="0.08"
-                        android:textAllCaps="true"
-                        android:textColor="#B3FFFFFF"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:id="@+id/font_preview_name"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:ellipsize="end"
-                        android:fontFamily="sans-serif-medium"
-                        android:singleLine="true"
-                        android:textColor="#FFFFFFFF"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/font_apply"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
-                    android:text="@string/font_apply" />
-            </LinearLayout>
-        </LinearLayout>
+        <TextView
+            android:id="@+id/font_preview_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center_horizontal"
+            android:importantForAccessibility="no"
+            android:textColor="#D9FFFFFF"
+            android:textSize="16sp" />
 
         <LinearLayout
-            android:id="@+id/font_text_box"
+            android:id="@+id/font_preview_notification"
             android:layout_width="match_parent"
-            android:layout_height="54dp"
-            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
             android:gravity="center_vertical"
+            android:importantForAccessibility="no"
             android:orientation="horizontal"
-            android:paddingHorizontal="18dp">
+            android:paddingHorizontal="14dp"
+            android:paddingVertical="12dp">
 
             <ImageView
-                android:id="@+id/font_text_icon"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:importantForAccessibility="no"
-                android:src="@drawable/remixer_ic_text" />
+                android:id="@+id/font_preview_app"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:padding="9dp"
+                android:src="@drawable/remixer_ic_chat" />
 
-            <EditText
-                android:id="@+id/font_text"
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:layout_weight="1"
-                android:background="@null"
-                android:hint="@string/font_try_text"
-                android:importantForAutofill="no"
-                android:inputType="text"
-                android:maxLength="24"
-                android:singleLine="true"
-                android:textAppearance="?attr/textAppearanceBodyLarge" />
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/font_preview_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="@string/remixer_app_name"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/font_preview_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/font_preview_notification"
+                    android:textColor="#D9FFFFFF"
+                    android:textSize="14sp" />
+            </LinearLayout>
         </LinearLayout>
 
-        <HorizontalScrollView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:overScrollMode="never"
-            android:scrollbars="none">
+            android:layout_marginTop="14dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
 
-            <com.google.android.material.chip.ChipGroup
-                android:id="@+id/font_filters"
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/font_preview_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:letterSpacing="0.08"
+                    android:textAllCaps="true"
+                    android:textColor="#B3FFFFFF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/font_preview_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-medium"
+                    android:singleLine="true"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/font_apply"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:selectionRequired="true"
-                app:singleLine="true"
-                app:singleSelection="true" />
-        </HorizontalScrollView>
+                android:layout_marginStart="12dp"
+                android:text="@string/font_apply" />
+        </LinearLayout>
+    </LinearLayout>
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/fonts_grid"
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/font_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="24dp">
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="-4dp"
-            android:layout_marginTop="8dp"
-            android:nestedScrollingEnabled="false" />
-    </LinearLayout>
-</androidx.core.widget.NestedScrollView>
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp">
+
+            <LinearLayout
+                android:id="@+id/font_text_box"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="18dp">
+
+                <ImageView
+                    android:id="@+id/font_text_icon"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/remixer_ic_text" />
+
+                <EditText
+                    android:id="@+id/font_text"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/font_try_text"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:maxLength="24"
+                    android:singleLine="true"
+                    android:textAppearance="?attr/textAppearanceBodyLarge" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:overScrollMode="never"
+                android:scrollbars="none">
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/font_filters"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:selectionRequired="true"
+                    app:singleLine="true"
+                    app:singleSelection="true" />
+            </HorizontalScrollView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/fonts_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="-4dp"
+                android:layout_marginTop="8dp"
+                android:nestedScrollingEnabled="false" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

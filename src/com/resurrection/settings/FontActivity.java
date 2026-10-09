@@ -1,5 +1,6 @@
 package com.resurrection.settings;
 
+import android.animation.LayoutTransition;
 import android.content.om.OverlayInfo;
 import android.content.res.ColorStateList;
 import android.graphics.Typeface;
@@ -9,6 +10,7 @@ import android.os.RemoteException;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.text.format.DateFormat;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,6 +20,7 @@ import android.widget.TextClock;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.core.widget.NestedScrollView;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -42,6 +45,10 @@ import java.util.Map;
  */
 public class FontActivity extends CollapsingToolbarBaseActivity {
     private static final int GRID_SPAN = 2;
+    private static final int CLOCK_SP = 76;
+    private static final int CLOCK_COMPACT_SP = 52;
+    /** Scroll distance after which the pinned preview drops its date and notification. */
+    private static final int COMPACT_AFTER_DP = 48;
     private static final String PREFIX = "com.resurrection.theme.font.";
 
     private static final int ALL = 0;
@@ -124,6 +131,8 @@ public class FontActivity extends CollapsingToolbarBaseActivity {
     private TextView mState;
     private TextView mName;
     private MaterialButton mApply;
+    private View mNotification;
+    private boolean mCompact;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -145,6 +154,7 @@ public class FontActivity extends CollapsingToolbarBaseActivity {
         mState = findViewById(R.id.font_preview_state);
         mName = findViewById(R.id.font_preview_name);
         mApply = findViewById(R.id.font_apply);
+        mNotification = findViewById(R.id.font_preview_notification);
         mDate.setText(DateFormat.format(DateFormat.getBestDateTimePattern(
                 Locale.getDefault(), "EEEEMMMMd"), new Date()));
 
@@ -153,6 +163,7 @@ public class FontActivity extends CollapsingToolbarBaseActivity {
         mAdapter = new Adapter();
         grid.setAdapter(mAdapter);
         setupHero();
+        setupScroll();
         setupText();
         setupFilters();
         filter(ALL);
@@ -174,6 +185,33 @@ public class FontActivity extends CollapsingToolbarBaseActivity {
         chip.setColor(getColor(android.R.color.system_accent1_600));
         ((ImageView) findViewById(R.id.font_preview_app)).setBackground(chip);
         mApply.setOnClickListener(v -> apply());
+    }
+
+    /** The preview stays pinned; scrolling the list shrinks it to the clock and Apply row. */
+    private void setupScroll() {
+        ((ViewGroup) findViewById(R.id.font_root)).getLayoutTransition()
+                .enableTransitionType(LayoutTransition.CHANGING);
+        ((ViewGroup) findViewById(R.id.font_hero)).getLayoutTransition()
+                .enableTransitionType(LayoutTransition.CHANGING);
+        NestedScrollView scroll = findViewById(R.id.font_scroll);
+        scroll.setOnScrollChangeListener((NestedScrollView.OnScrollChangeListener)
+                (v, x, y, oldX, oldY) -> {
+                    if (y > dp(COMPACT_AFTER_DP)) {
+                        setCompact(true);
+                    } else if (y == 0) {
+                        setCompact(false);
+                    }
+                });
+    }
+
+    private void setCompact(boolean compact) {
+        if (compact == mCompact) {
+            return;
+        }
+        mCompact = compact;
+        mDate.setVisibility(compact ? View.GONE : View.VISIBLE);
+        mNotification.setVisibility(compact ? View.GONE : View.VISIBLE);
+        mClock.setTextSize(TypedValue.COMPLEX_UNIT_SP, compact ? CLOCK_COMPACT_SP : CLOCK_SP);
     }
 
     private void setupText() {
