@@ -1,6 +1,6 @@
 package com.resurrection.settings;
 
-import android.animation.LayoutTransition;
+import android.animation.ValueAnimator;
 import android.content.om.OverlayInfo;
 import android.content.res.ColorStateList;
 import android.graphics.Typeface;
@@ -133,6 +133,10 @@ public class FontActivity extends CollapsingToolbarBaseActivity {
     private MaterialButton mApply;
     private View mNotification;
     private boolean mCompact;
+    private float mCompactFraction;
+    private ValueAnimator mCompactAnimator;
+    private int[] mDateSize;
+    private int[] mNotificationSize;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -189,10 +193,6 @@ public class FontActivity extends CollapsingToolbarBaseActivity {
 
     /** The preview stays pinned; scrolling the list shrinks it to the clock and Apply row. */
     private void setupScroll() {
-        ((ViewGroup) findViewById(R.id.font_root)).getLayoutTransition()
-                .enableTransitionType(LayoutTransition.CHANGING);
-        ((ViewGroup) findViewById(R.id.font_hero)).getLayoutTransition()
-                .enableTransitionType(LayoutTransition.CHANGING);
         NestedScrollView scroll = findViewById(R.id.font_scroll);
         scroll.setOnScrollChangeListener((NestedScrollView.OnScrollChangeListener)
                 (v, x, y, oldX, oldY) -> {
@@ -204,14 +204,50 @@ public class FontActivity extends CollapsingToolbarBaseActivity {
                 });
     }
 
+    /**
+     * Resizes the hero frame by frame, so the list below always starts at its bottom edge.
+     * Layout transitions shrank the card before its last row moved, letting the list overlap it.
+     */
     private void setCompact(boolean compact) {
         if (compact == mCompact) {
             return;
         }
         mCompact = compact;
-        mDate.setVisibility(compact ? View.GONE : View.VISIBLE);
-        mNotification.setVisibility(compact ? View.GONE : View.VISIBLE);
-        mClock.setTextSize(TypedValue.COMPLEX_UNIT_SP, compact ? CLOCK_COMPACT_SP : CLOCK_SP);
+        if (mDateSize == null) {
+            mDateSize = size(mDate);
+            mNotificationSize = size(mNotification);
+        }
+        if (mCompactAnimator != null) {
+            mCompactAnimator.cancel();
+        }
+        mCompactAnimator = ValueAnimator.ofFloat(mCompactFraction, compact ? 1f : 0f);
+        mCompactAnimator.setDuration(220);
+        mCompactAnimator.addUpdateListener(a -> applyCompact((float) a.getAnimatedValue()));
+        mCompactAnimator.start();
+    }
+
+    private void applyCompact(float fraction) {
+        mCompactFraction = fraction;
+        collapse(mDate, mDateSize, fraction);
+        collapse(mNotification, mNotificationSize, fraction);
+        mClock.setTextSize(TypedValue.COMPLEX_UNIT_SP,
+                CLOCK_SP - (CLOCK_SP - CLOCK_COMPACT_SP) * fraction);
+    }
+
+    /** Height and top margin of a view at full size. */
+    private static int[] size(View view) {
+        return new int[] {view.getHeight(),
+                ((ViewGroup.MarginLayoutParams) view.getLayoutParams()).topMargin};
+    }
+
+    private static void collapse(View view, int[] size, float fraction) {
+        ViewGroup.MarginLayoutParams lp = (ViewGroup.MarginLayoutParams) view.getLayoutParams();
+        lp.height = fraction == 0f ? ViewGroup.LayoutParams.WRAP_CONTENT
+                : Math.round(size[0] * (1f - fraction));
+        lp.topMargin = Math.round(size[1] * (1f - fraction));
+        view.setLayoutParams(lp);
+        view.setAlpha(1f - fraction);
+        view.setVisibility(fraction == 1f ? View.GONE : View.VISIBLE);
     }
 
     private void setupText() {
