@@ -9,12 +9,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settingslib.widget.LayoutPreference;
+import com.resurrection.settings.homepage.HomepageStyle;
 
 import java.util.Locale;
 
@@ -94,6 +96,15 @@ public class RemixerSection extends SettingsPreferenceFragment {
 
         removeUnless("remixer_udfps_icon", UdfpsActivity.hasIcons(context));
         removeUnless("remixer_udfps_animation", UdfpsActivity.hasAnimations(context));
+
+        final ListPreference settingsStyle = findPreference("remixer_settings_style");
+        if (settingsStyle != null) {
+            settingsStyle.setValue(HomepageStyle.get(context));
+            settingsStyle.setOnPreferenceChangeListener((preference, value) -> {
+                HomepageStyle.set(context, (String) value);
+                return true;
+            });
+        }
     }
 
     private void removeUnless(String key, boolean keep) {

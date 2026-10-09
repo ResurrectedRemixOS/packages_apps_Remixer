@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:title="@string/remixer_theme">
 
     <Preference
@@ -16,5 +17,13 @@
         android:key="remixer_wallpapers"
         android:title="@string/remixer_wallpapers"
         android:summary="@string/remixer_wallpapers_summary" />
+
+    <ListPreference
+        android:key="remixer_settings_style"
+        android:title="@string/remixer_settings_style"
+        android:entries="@array/remixer_settings_style_entries"
+        android:entryValues="@array/remixer_settings_style_values"
+        android:persistent="false"
+        app:useSimpleSummaryProvider="true" />
 
 </PreferenceScreen>

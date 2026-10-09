@@ -187,6 +187,19 @@
     <string name="remixer_spoofing">Spoofing</string>
     <string name="remixer_spoofing_summary">Play Integrity, device identity, and per-app spoofing</string>
 
+    <!-- Theme > Settings style -->
+    <string name="remixer_settings_style">Settings style</string>
+    <string name="remixer_settings_style_rr">Resurrected Remix</string>
+    <string name="remixer_settings_style_original">Original</string>
+    <string-array name="remixer_settings_style_entries" translatable="false">
+        <item>@string/remixer_settings_style_rr</item>
+        <item>@string/remixer_settings_style_original</item>
+    </string-array>
+    <string-array name="remixer_settings_style_values" translatable="false">
+        <item>rr</item>
+        <item>original</item>
+    </string-array>
+
     <!-- About phone > Android version -->
     <string name="rr_maintainer">Maintainer</string>
 </resources>
