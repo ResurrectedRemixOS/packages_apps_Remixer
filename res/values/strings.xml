@@ -30,6 +30,17 @@
     <string name="rr_homepage_privacy">Privacy &amp; security</string>
     <string name="rr_homepage_help">Help</string>
     <string name="rr_homepage_extras">Extra settings</string>
+    <string name="remixer_tagline">Make it yours.</string>
+    <string name="remixer_remix">Remix it</string>
+    <string name="remixer_remixed">Remixed with <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Shade \u00b7 Default</string>
+    <string name="remixer_quick">Quick remix</string>
+    <string name="remixer_everything">Everything</string>
+    <string name="remixer_quick_accents">Presets or any color</string>
+    <string name="remixer_quick_fonts">System font styles</string>
+    <string name="remixer_quick_walls">RR collection</string>
+    <string name="remixer_quick_header">QS header</string>
+    <string name="remixer_quick_header_summary">Header images</string>
     <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
 
     <!-- Sections -->

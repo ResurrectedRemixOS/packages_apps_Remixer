@@ -7,79 +7,8 @@
         android:layout="@layout/remixer_header"
         android:selectable="false" />
 
-    <com.android.settingslib.widget.UntitledPreferenceCategory
-        android:key="remixer_interface_category">
-
-        <com.android.settings.widget.HomepagePreference
-            android:key="remixer_statusbar"
-            android:icon="@drawable/ic_remixer_statusbar"
-            android:title="@string/remixer_statusbar"
-            android:summary="@string/remixer_statusbar_summary"
-            android:fragment="com.resurrection.settings.RemixerSection">
-            <extra android:name="section" android:value="statusbar" />
-        </com.android.settings.widget.HomepagePreference>
-
-        <com.android.settings.widget.HomepagePreference
-            android:key="remixer_qs"
-            android:icon="@drawable/ic_remixer_qs"
-            android:title="@string/remixer_qs"
-            android:summary="@string/remixer_qs_summary"
-            android:fragment="com.resurrection.settings.RemixerSection">
-            <extra android:name="section" android:value="qs" />
-        </com.android.settings.widget.HomepagePreference>
-
-        <com.android.settings.widget.HomepagePreference
-            android:key="remixer_notifications"
-            android:icon="@drawable/ic_remixer_notifications"
-            android:title="@string/remixer_notifications"
-            android:summary="@string/remixer_notifications_summary"
-            android:fragment="com.resurrection.settings.RemixerSection">
-            <extra android:name="section" android:value="notifications" />
-        </com.android.settings.widget.HomepagePreference>
-    </com.android.settingslib.widget.UntitledPreferenceCategory>
-
-    <com.android.settingslib.widget.UntitledPreferenceCategory
-        android:key="remixer_look_category">
-
-        <com.android.settings.widget.HomepagePreference
-            android:key="remixer_theme"
-            android:icon="@drawable/ic_remixer_theme"
-            android:title="@string/remixer_theme"
-            android:summary="@string/remixer_theme_summary"
-            android:fragment="com.resurrection.settings.RemixerSection">
-            <extra android:name="section" android:value="theme" />
-        </com.android.settings.widget.HomepagePreference>
-
-        <com.android.settings.widget.HomepagePreference
-            android:key="remixer_lockscreen"
-            android:icon="@drawable/ic_remixer_lockscreen"
-            android:title="@string/remixer_lockscreen"
-            android:summary="@string/remixer_lockscreen_summary"
-            android:fragment="com.resurrection.settings.RemixerSection">
-            <extra android:name="section" android:value="lockscreen" />
-        </com.android.settings.widget.HomepagePreference>
-
-        <com.android.settings.widget.HomepagePreference
-            android:key="remixer_navigation"
-            android:icon="@drawable/ic_remixer_navigation"
-            android:title="@string/remixer_navigation"
-            android:summary="@string/remixer_navigation_summary"
-            android:fragment="com.resurrection.settings.RemixerSection">
-            <extra android:name="section" android:value="navigation" />
-        </com.android.settings.widget.HomepagePreference>
-    </com.android.settingslib.widget.UntitledPreferenceCategory>
-
-    <com.android.settingslib.widget.UntitledPreferenceCategory
-        android:key="remixer_misc_category">
-
-        <com.android.settings.widget.HomepagePreference
-            android:key="remixer_misc"
-            android:icon="@drawable/ic_remixer_misc"
-            android:title="@string/remixer_misc"
-            android:summary="@string/remixer_misc_summary"
-            android:fragment="com.resurrection.settings.RemixerSection">
-            <extra android:name="section" android:value="misc" />
-        </com.android.settings.widget.HomepagePreference>
-    </com.android.settingslib.widget.UntitledPreferenceCategory>
-
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="remixer_hub"
+        android:layout="@layout/remixer_hub"
+        android:selectable="false" />
 </PreferenceScreen>

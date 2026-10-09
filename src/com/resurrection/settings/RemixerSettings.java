@@ -1,18 +1,16 @@
 package com.resurrection.settings;
 
-import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
-import com.android.settingslib.widget.LayoutPreference;
 
 import com.google.android.material.appbar.AppBarLayout;
 
 /**
- * Remixer hub hosted by Settings as a dashboard page. Each entry opens a {@link RemixerSection}.
+ * Remixer hub hosted by Settings as a dashboard page: {@link RemixerHeroView} and
+ * {@link RemixerHubView}, whose cards open a {@link RemixerSection}.
  * Not search-indexed, so Settings startup does not load this class.
  */
 public class RemixerSettings extends DashboardFragment {
@@ -34,16 +32,6 @@ public class RemixerSettings extends DashboardFragment {
     @Override
     protected String getLogTag() {
         return TAG;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        LayoutPreference header = findPreference("remixer_header");
-        if (header != null) {
-            TextView version = header.findViewById(R.id.remixer_version);
-            version.setText(getString(R.string.remixer_version, Build.VERSION.RELEASE));
-        }
     }
 
     @Override

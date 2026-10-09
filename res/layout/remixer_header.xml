@@ -5,20 +5,21 @@
     android:paddingStart="16dp"
     android:paddingTop="8dp"
     android:paddingEnd="16dp"
-    android:paddingBottom="16dp">
+    android:paddingBottom="8dp">
 
-    <LinearLayout
+    <com.resurrection.settings.RemixerHeroView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/remixer_hero_bg"
-        android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:paddingTop="28dp"
-        android:paddingBottom="20dp">
+        android:paddingHorizontal="22dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="22dp">
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="-6dp"
             android:adjustViewBounds="true"
             android:contentDescription="@string/remixer_app_name"
             android:src="@drawable/remixer_logo_hero" />
@@ -27,11 +28,44 @@
             android:id="@+id/remixer_version"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="14dp"
+            android:layout_marginTop="10dp"
             android:fontFamily="sans-serif-medium"
             android:letterSpacing="0.12"
             android:textAllCaps="true"
             android:textColor="#B3FFFFFF"
             android:textSize="11sp" />
-    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/remixer_tagline"
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp" />
+
+        <com.resurrection.settings.RemixerChipRow
+            android:id="@+id/remixer_chips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp" />
+
+        <TextView
+            android:id="@+id/remixer_remix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:drawablePadding="10dp"
+            android:focusable="true"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_vertical"
+            android:minHeight="48dp"
+            android:paddingStart="18dp"
+            android:paddingEnd="22dp"
+            android:text="@string/remixer_remix"
+            android:textColor="#FF141416"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </com.resurrection.settings.RemixerHeroView>
 </FrameLayout>
