@@ -5,6 +5,7 @@
     android:id="@+id/font_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:clipChildren="true"
     android:theme="@style/Theme.Material3.DynamicColors.DayNight"
     android:orientation="vertical">
 
