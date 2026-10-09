@@ -92,9 +92,14 @@ public class RemixerSection extends SettingsPreferenceFragment {
         summary.setTextColor(fg);
         getPreferenceScreen().addPreference(banner);
 
-        final Preference fingerprint = findPreference("remixer_fingerprint");
-        if (fingerprint != null && !FingerprintActivity.isAvailable(context)) {
-            getPreferenceScreen().removePreference(fingerprint);
+        removeUnless("remixer_udfps_icon", UdfpsActivity.hasIcons(context));
+        removeUnless("remixer_udfps_animation", UdfpsActivity.hasAnimations(context));
+    }
+
+    private void removeUnless(String key, boolean keep) {
+        final Preference preference = findPreference(key);
+        if (preference != null && !keep) {
+            getPreferenceScreen().removePreference(preference);
         }
     }
 
@@ -139,8 +144,10 @@ public class RemixerSection extends SettingsPreferenceFragment {
                 return new Intent(getContext(), PulseActivity.class);
             case "remixer_headers":
                 return new Intent(getContext(), HeaderActivity.class);
-            case "remixer_fingerprint":
-                return new Intent(getContext(), FingerprintActivity.class);
+            case "remixer_udfps_icon":
+                return UdfpsActivity.intent(getContext(), UdfpsActivity.KIND_ICON);
+            case "remixer_udfps_animation":
+                return UdfpsActivity.intent(getContext(), UdfpsActivity.KIND_ANIMATION);
             case "remixer_weather":
                 return external("org.omnirom.omnijaws", "org.omnirom.omnijaws.SettingsActivity");
             default:

@@ -1,6 +1,7 @@
 package com.resurrection.settings;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
@@ -23,19 +24,28 @@ import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 import com.google.android.material.color.MaterialColors;
 
 /**
- * Under-display fingerprint icon and touch animation, drawn by SystemUI from the UdfpsIcons and
+ * Under-display fingerprint icon or touch animation, drawn by SystemUI from the UdfpsIcons and
  * UdfpsAnimations resource packages. Index 0 is the stock icon and no animation.
  */
-public class FingerprintActivity extends CollapsingToolbarBaseActivity {
+public class UdfpsActivity extends CollapsingToolbarBaseActivity {
+    public static final String KIND_ICON = "icon";
+    public static final String KIND_ANIMATION = "animation";
+    private static final String EXTRA_KIND = "kind";
     private static final String ICONS_PACKAGE = "org.evolution.udfps.icons";
     private static final String ANIMATIONS_PACKAGE = "org.evolution.udfps.animations";
     private static final int ICON_SPAN = 4;
     private static final int ANIMATION_SPAN = 3;
 
-    /** Whether the device ships the UDFPS resource packages. */
-    public static boolean isAvailable(Context context) {
-        return resources(context, ICONS_PACKAGE) != null
-                || resources(context, ANIMATIONS_PACKAGE) != null;
+    public static Intent intent(Context context, String kind) {
+        return new Intent(context, UdfpsActivity.class).putExtra(EXTRA_KIND, kind);
+    }
+
+    public static boolean hasIcons(Context context) {
+        return resources(context, ICONS_PACKAGE) != null;
+    }
+
+    public static boolean hasAnimations(Context context) {
+        return resources(context, ANIMATIONS_PACKAGE) != null;
     }
 
     private static Resources resources(Context context, String pkg) {
@@ -49,43 +59,38 @@ public class FingerprintActivity extends CollapsingToolbarBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.remixer_fingerprint);
+        setContentView(R.layout.remixer_udfps);
 
-        Resources icons = resources(this, ICONS_PACKAGE);
-        if (icons != null) {
-            String[] names = array(icons, ICONS_PACKAGE, "udfps_icons");
-            bind(R.id.fingerprint_icons, ICON_SPAN,
-                    new Picker(icons, ICONS_PACKAGE, names, null, Settings.System.UDFPS_ICON));
-        } else {
-            hide(R.id.fingerprint_icons, R.id.fingerprint_icons_title);
-        }
+        boolean animation = KIND_ANIMATION.equals(getIntent().getStringExtra(EXTRA_KIND));
+        setTitle(animation ? R.string.remixer_udfps_animation : R.string.remixer_udfps_icon);
 
-        Resources animations = resources(this, ANIMATIONS_PACKAGE);
-        if (animations != null) {
-            String[] previews = array(animations, ANIMATIONS_PACKAGE, "udfps_animation_previews");
-            String[] titles = array(animations, ANIMATIONS_PACKAGE, "udfps_animation_titles");
-            bind(R.id.fingerprint_animations, ANIMATION_SPAN,
-                    new Picker(animations, ANIMATIONS_PACKAGE, previews, titles,
-                            Settings.System.UDFPS_ANIM_STYLE));
+        RecyclerView grid = findViewById(R.id.udfps_grid);
+        if (animation) {
+            Resources res = resources(this, ANIMATIONS_PACKAGE);
+            if (res == null) {
+                finish();
+                return;
+            }
+            grid.setLayoutManager(new GridLayoutManager(this, ANIMATION_SPAN));
+            grid.setAdapter(new Picker(res, ANIMATIONS_PACKAGE,
+                    array(res, ANIMATIONS_PACKAGE, "udfps_animation_previews"),
+                    array(res, ANIMATIONS_PACKAGE, "udfps_animation_titles"),
+                    Settings.System.UDFPS_ANIM_STYLE));
         } else {
-            hide(R.id.fingerprint_animations, R.id.fingerprint_animations_title);
+            Resources res = resources(this, ICONS_PACKAGE);
+            if (res == null) {
+                finish();
+                return;
+            }
+            grid.setLayoutManager(new GridLayoutManager(this, ICON_SPAN));
+            grid.setAdapter(new Picker(res, ICONS_PACKAGE,
+                    array(res, ICONS_PACKAGE, "udfps_icons"), null, Settings.System.UDFPS_ICON));
         }
     }
 
     private static String[] array(Resources res, String pkg, String name) {
         int id = res.getIdentifier(name, "array", pkg);
         return id == 0 ? new String[0] : res.getStringArray(id);
-    }
-
-    private void bind(int gridId, int span, Picker picker) {
-        RecyclerView grid = findViewById(gridId);
-        grid.setLayoutManager(new GridLayoutManager(this, span));
-        grid.setAdapter(picker);
-    }
-
-    private void hide(int gridId, int titleId) {
-        findViewById(gridId).setVisibility(View.GONE);
-        findViewById(titleId).setVisibility(View.GONE);
     }
 
     private int dp(int value) {

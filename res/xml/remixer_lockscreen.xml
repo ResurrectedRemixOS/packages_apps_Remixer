@@ -3,9 +3,14 @@
     android:title="@string/remixer_lockscreen">
 
     <Preference
-        android:key="remixer_fingerprint"
-        android:title="@string/remixer_fingerprint"
-        android:summary="@string/remixer_fingerprint_summary" />
+        android:key="remixer_udfps_icon"
+        android:title="@string/remixer_udfps_icon"
+        android:summary="@string/remixer_udfps_icon_summary" />
+
+    <Preference
+        android:key="remixer_udfps_animation"
+        android:title="@string/remixer_udfps_animation"
+        android:summary="@string/remixer_udfps_animation_summary" />
 
     <Preference
         android:key="remixer_weather"
