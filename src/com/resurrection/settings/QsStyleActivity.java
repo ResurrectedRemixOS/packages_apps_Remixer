@@ -102,7 +102,7 @@ public class QsStyleActivity extends CollapsingToolbarBaseActivity {
             MaterialCardView card = (MaterialCardView) mRows[i];
             boolean selected = i == mSelected;
             int primary = MaterialColors.getColor(card,
-                    com.google.android.material.R.attr.colorPrimary);
+                    androidx.appcompat.R.attr.colorPrimary);
             card.setStrokeColor(selected ? primary : Color.TRANSPARENT);
             card.setCardBackgroundColor(ColorStateList.valueOf(MaterialColors.getColor(card,
                     selected ? com.google.android.material.R.attr.colorSecondaryContainer
