@@ -156,8 +156,20 @@
     <string name="remixer_weather">Weather</string>
     <string name="remixer_weather_summary">Weather service and units</string>
     <string name="font_default">Default</string>
-    <string name="font_preview_glyphs">Aa</string>
-    <string name="font_preview_text">The quick brown fox jumps over the lazy dog. 0123456789</string>
+    <string name="font_preview_notification">This is how your phone will read.</string>
+    <string name="font_try_text">Try your own text</string>
+    <string name="font_sample" translatable="false">Aa Bb 12</string>
+    <string name="font_previewing">Previewing</string>
+    <string name="font_current">Current font</string>
+    <string name="font_badge_current">Current</string>
+    <string name="font_apply">Apply</string>
+    <string name="font_apply_done">Applied</string>
+    <string name="font_filter_all">All</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_serif">Serif</string>
+    <string name="font_filter_display">Display</string>
+    <string name="font_filter_script">Script</string>
+    <string name="font_filter_mono">Mono</string>
     <string name="font_applied">Font applied</string>
     <string name="font_failed">Could not apply that font</string>
     <string name="wallpaper_set">Wallpaper set</string>
