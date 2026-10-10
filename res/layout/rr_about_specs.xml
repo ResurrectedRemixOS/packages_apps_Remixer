@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<com.resurrection.settings.about.AboutSpecsView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingBottom="4dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="8dp"
+        android:theme="?expressivePreferenceCategoryTheme">
+
+        <TextView
+            style="?expressivePreferenceCategoryTitleStyle"
+            android:accessibilityHeading="true"
+            android:text="@string/rr_about_hardware" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/rr_about_specs_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+</com.resurrection.settings.about.AboutSpecsView>

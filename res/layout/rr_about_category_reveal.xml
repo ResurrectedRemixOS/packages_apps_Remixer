@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?expressivePreferenceCategoryRootLayoutStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:filterTouchesWhenObscured="false"
+    android:theme="?expressivePreferenceCategoryTheme">
+
+    <include layout="@layout/settingslib_expressive_preference_icon_frame" />
+
+    <RelativeLayout style="?expressivePreferenceCategoryRelativeLayoutStyle">
+
+        <TextView
+            android:id="@android:id/title"
+            style="?expressivePreferenceCategoryTitleStyle" />
+
+        <TextView
+            android:id="@android:id/summary"
+            style="?expressivePreferenceCategorySummaryStyle" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/rr_about_reveal"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="8dp"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        android:minWidth="48dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textFontWeight="700"
+        android:textSize="13sp" />
+</LinearLayout>

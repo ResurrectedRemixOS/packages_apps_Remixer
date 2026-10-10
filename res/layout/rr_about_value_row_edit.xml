@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<com.android.settingslib.widget.DrawableStateLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?expressivePreferenceRootLayoutStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:filterTouchesWhenObscured="false"
+    android:gravity="center_vertical"
+    android:minHeight="64dp"
+    android:orientation="horizontal"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:theme="?expressivePreferenceTheme">
+
+    <include layout="@layout/settingslib_expressive_preference_icon_frame" />
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@android:id/summary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:maxLines="3"
+        android:textAlignment="viewEnd"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textFontWeight="600"
+        android:textIsSelectable="false"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="6dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/rr_about_ic_edit"
+        android:tint="?android:attr/textColorSecondary" />
+    <LinearLayout
+        android:id="@android:id/widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" />
+</com.android.settingslib.widget.DrawableStateLinearLayout>

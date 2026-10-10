@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingTop="8dp"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingBottom="4dp">
+
+    <com.resurrection.settings.about.AboutHeroView
+        android:id="@+id/rr_about_hero"
+        android:layout_width="match_parent"
+        android:layout_height="330dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:layout_margin="22dp"
+            android:letterSpacing="0.22"
+            android:text="@string/rr_about_brand"
+            android:textColor="#C7FFFFFF"
+            android:textFontWeight="800"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="22dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rr_about_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:accessibilityHeading="true"
+                android:includeFontPadding="false"
+                android:letterSpacing="-0.02"
+                android:maxLines="2"
+                android:textColor="@android:color/white"
+                android:textFontWeight="800"
+                android:textSize="42sp" />
+
+            <TextView
+                android:id="@+id/rr_about_model"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:letterSpacing="0.03"
+                android:textColor="#C7FFFFFF"
+                android:textFontWeight="500"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/rr_about_chips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:orientation="horizontal" />
+        </LinearLayout>
+    </com.resurrection.settings.about.AboutHeroView>
+</FrameLayout>

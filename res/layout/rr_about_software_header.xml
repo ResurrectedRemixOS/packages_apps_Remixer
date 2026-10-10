@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<com.android.settingslib.widget.DrawableStateLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?expressivePreferenceRootLayoutStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:filterTouchesWhenObscured="false"
+    android:gravity="center_vertical"
+    android:minHeight="72dp"
+    android:orientation="horizontal"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:theme="?expressivePreferenceTheme">
+
+    <FrameLayout
+        android:id="@+id/rr_about_badge"
+        android:layout_width="40dp"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:id="@+id/rr_about_badge_mark"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_settings_remixer_filled" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textFontWeight="700"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/rr_about_updates"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginStart="12dp"
+        android:drawableStart="@drawable/rr_about_ic_updates"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:text="@string/rr_about_updates"
+        android:textFontWeight="700"
+        android:textSize="13sp" />
+</com.android.settingslib.widget.DrawableStateLinearLayout>
