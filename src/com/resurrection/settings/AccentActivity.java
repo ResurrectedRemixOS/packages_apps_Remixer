@@ -49,8 +49,11 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
     private static final int GRID_SPAN = 4;
     private static final int[] WALLPAPER_SWEEP = {0xFFE02437, 0xFFFFC233, 0xFF3DDC84,
             0xFF3D8BFF, 0xFF8C5CFF, 0xFFE02437};
-    /** Hue turns closer to zero than this snap back to the accent's own hue. */
-    private static final int HUE_SNAP = 4;
+    /** Saturation this close to the default snaps back to it. */
+    private static final int SATURATION_SNAP = 4;
+    /** Tonal spot chroma, for previews when grey accents lost theirs. */
+    private static final float PRIMARY_CHROMA = 36;
+    private static final float SECONDARY_CHROMA = 16;
 
     private AccentController mAccents;
     private String[] mNames;
@@ -66,16 +69,17 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
     /** Shade baked into this activity's theme colors. */
     private int mThemeShade;
     private int mPreviewShade;
-    private TextView mHueValue;
-    private HueBarView mHue;
-    /** Hue turn baked into this activity's theme colors. */
-    private int mThemeHue;
-    private int mPreviewHue;
+    private TextView mSaturationValue;
+    private HueBarView mSaturation;
+    /** Saturation baked into this activity's theme colors. */
+    private int mThemeSaturation;
+    private int mPreviewSaturation;
     private boolean mTracking;
     private int mPrimary;
     private int mOnPrimary;
     private int mSecondaryContainer;
     private int mOnSecondaryContainer;
+    private int mSurfaceVariant;
     private ColorStateList mFilledBackground;
     private ColorStateList mFilledText;
     private ColorStateList mTonalBackground;
@@ -103,7 +107,7 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
         grid.setAdapter(mAdapter);
         updatePreview();
         setupShade();
-        setupHue();
+        setupSaturation();
     }
 
     private void setupShade() {
@@ -120,6 +124,8 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
                 com.google.android.material.R.attr.colorSecondaryContainer);
         mOnSecondaryContainer = MaterialColors.getColor(mTonal,
                 com.google.android.material.R.attr.colorOnSecondaryContainer);
+        mSurfaceVariant = MaterialColors.getColor(mTonal,
+                com.google.android.material.R.attr.colorSurfaceVariant);
         mFilledBackground = mFilled.getBackgroundTintList();
         mFilledText = mFilled.getTextColors();
         mTonalBackground = mTonal.getBackgroundTintList();
@@ -139,7 +145,7 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
             int shade = Math.round(value);
             updateShadeLabel(shade);
             mPreviewShade = shade;
-            mHue.updateColors();
+            mSaturation.updateColors();
             preview();
             if (fromUser && !mTracking) {
                 applyShade(shade);
@@ -159,55 +165,56 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
         });
     }
 
-    private void setupHue() {
-        mHueValue = findViewById(R.id.accent_hue_value);
-        mHue = findViewById(R.id.accent_hue);
-        mThemeHue = mAccents.hue();
-        mPreviewHue = mThemeHue;
-        mHue.setRange(-AccentController.HUE_MAX, AccentController.HUE_MAX);
-        mHue.setColorFunction(value -> previewColor(mPrimary, mPreviewShade, Math.round(value)));
-        mHue.setHue(mThemeHue);
-        updateHueLabel(mThemeHue);
-        mHue.setOnChangeListener(value -> {
-            int hue = Math.round(value);
-            if (Math.abs(hue) < HUE_SNAP) {
-                hue = 0;
-                mHue.setHue(0);
+    private void setupSaturation() {
+        mSaturationValue = findViewById(R.id.accent_saturation_value);
+        mSaturation = findViewById(R.id.accent_saturation);
+        mThemeSaturation = mAccents.saturation();
+        mPreviewSaturation = mThemeSaturation;
+        mSaturation.setRange(0, AccentController.SATURATION_MAX);
+        mSaturation.setColorFunction(value -> previewColor(mPrimary, PRIMARY_CHROMA,
+                mPreviewShade, Math.round(value)));
+        mSaturation.setValue(mThemeSaturation);
+        updateSaturationLabel(mThemeSaturation);
+        mSaturation.setOnChangeListener(value -> {
+            int saturation = Math.round(value);
+            if (Math.abs(saturation - AccentController.SATURATION_DEFAULT) < SATURATION_SNAP) {
+                saturation = AccentController.SATURATION_DEFAULT;
+                mSaturation.setValue(saturation);
             }
-            showHue(hue);
+            showSaturation(saturation);
         });
-        mHue.setOnReleaseListener(value -> applyHue(mPreviewHue));
+        mSaturation.setOnReleaseListener(value -> applySaturation(mPreviewSaturation));
     }
 
-    private void showHue(int hue) {
-        updateHueLabel(hue);
-        mPreviewHue = hue;
+    private void showSaturation(int saturation) {
+        updateSaturationLabel(saturation);
+        mPreviewSaturation = saturation;
         preview();
     }
 
-    private String hueLabel(int hue) {
-        if (hue == 0) {
+    private String saturationLabel(int saturation) {
+        if (saturation == AccentController.SATURATION_DEFAULT) {
             return getString(R.string.accent_shade_default);
         }
-        return getString(R.string.accent_hue_value, (hue > 0 ? "+" : "\u2212") + Math.abs(hue));
+        return getString(R.string.accent_saturation_value, saturation);
     }
 
-    private void updateHueLabel(int hue) {
-        String label = hueLabel(hue);
-        mHueValue.setText(label);
-        mHue.setStateDescription(label);
+    private void updateSaturationLabel(int saturation) {
+        String label = saturationLabel(saturation);
+        mSaturationValue.setText(label);
+        mSaturation.setStateDescription(label);
     }
 
-    private void applyHue(int hue) {
-        if (hue == mAccents.hue()) {
+    private void applySaturation(int saturation) {
+        if (saturation == mAccents.saturation()) {
             return;
         }
         try {
-            mAccents.setHue(hue);
+            mAccents.setSaturation(saturation);
         } catch (SecurityException e) {
             Toast.makeText(this, R.string.accent_failed, Toast.LENGTH_SHORT).show();
-            mHue.setHue(mAccents.hue());
-            showHue(mAccents.hue());
+            mSaturation.setValue(mAccents.saturation());
+            showSaturation(mAccents.saturation());
         }
     }
 
@@ -239,7 +246,7 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
 
     /** Recolors the preview until SystemUI regenerates the palette and the activity restarts. */
     private void preview() {
-        if (mPreviewShade == mThemeShade && mPreviewHue == mThemeHue) {
+        if (mPreviewShade == mThemeShade && mPreviewSaturation == mThemeSaturation) {
             mFilled.setBackgroundTintList(mFilledBackground);
             mFilled.setTextColor(mFilledText);
             mTonal.setBackgroundTintList(mTonalBackground);
@@ -251,12 +258,12 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
             mShade.setThumbTintList(mSliderThumb);
             return;
         }
-        int turn = mPreviewHue - mThemeHue;
-        int primary = previewColor(mPrimary, mPreviewShade, mPreviewHue);
-        int onPrimary = readable(turn(mOnPrimary, turn), mPrimary, primary);
-        int container = previewColor(mSecondaryContainer, mPreviewShade, mPreviewHue);
-        int onContainer = readable(turn(mOnSecondaryContainer, turn), mSecondaryContainer,
-                container);
+        int primary = previewColor(mPrimary, PRIMARY_CHROMA, mPreviewShade, mPreviewSaturation);
+        int onPrimary = readable(saturate(mOnPrimary, 0, mPreviewSaturation), mPrimary, primary);
+        int container = previewColor(mSecondaryContainer, SECONDARY_CHROMA, mPreviewShade,
+                mPreviewSaturation);
+        int onContainer = readable(saturate(mOnSecondaryContainer, 0, mPreviewSaturation),
+                mSecondaryContainer, container);
         mFilled.setBackgroundTintList(ColorStateList.valueOf(primary));
         mFilled.setTextColor(onPrimary);
         mTonal.setBackgroundTintList(ColorStateList.valueOf(container));
@@ -268,24 +275,36 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
         mShade.setThumbTintList(ColorStateList.valueOf(primary));
     }
 
-    /** A theme color as it will look at the given shade and hue turn. */
-    private int previewColor(int color, int shade, int hue) {
-        int turned = turn(color, hue - mThemeHue);
+    /** A theme color as it will look at the given shade and saturation. */
+    private int previewColor(int color, float greyChroma, int shade, int saturation) {
+        int saturated = saturate(color, greyChroma, saturation);
         if (shade == mThemeShade) {
-            return turned;
+            return saturated;
         }
-        return shadeColor(turned,
+        return shadeColor(saturated,
                 Math.pow(2, -(shade - mThemeShade) * AccentController.SHADE_STEP));
     }
 
-    /** Turns the HCT hue, as ThemeOverlayController turns the seed. */
-    private static int turn(int color, int degrees) {
-        if (degrees == 0) {
+    /**
+     * Scales the HCT chroma from the theme's saturation to the given one, as
+     * ThemeOverlayController scales the accent palettes. Grey accents kept no hue, so they take
+     * the neutral variant's, which follows the seed, at greyChroma.
+     */
+    private int saturate(int color, float greyChroma, int saturation) {
+        if (saturation == mThemeSaturation) {
             return color;
         }
         float[] hct = new float[3];
         ColorUtils.colorToM3HCT(color, hct);
-        return ColorUtils.M3HCTToColor((hct[0] + degrees + 360) % 360, hct[1], hct[2]);
+        if (mThemeSaturation > 0) {
+            hct[1] = hct[1] * saturation / mThemeSaturation;
+        } else {
+            float[] neutral = new float[3];
+            ColorUtils.colorToM3HCT(mSurfaceVariant, neutral);
+            hct[0] = neutral[0];
+            hct[1] = greyChroma * saturation / AccentController.SATURATION_DEFAULT;
+        }
+        return ColorUtils.M3HCTToColor(hct[0], hct[1], hct[2]);
     }
 
     /** Same tone curve as ThemeOverlayController; HCT tone is L*. */
@@ -555,7 +574,7 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
             int on = onColor(color);
             String hex = hex();
             mPad.setColor(mHsv[0], mHsv[1], mHsv[2]);
-            mHue.setHue(mHsv[0]);
+            mHue.setValue(mHsv[0]);
             GradientDrawable swatch = new GradientDrawable();
             swatch.setShape(GradientDrawable.OVAL);
             swatch.setColor(color);

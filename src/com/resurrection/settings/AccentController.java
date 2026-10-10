@@ -26,9 +26,10 @@ public final class AccentController {
     static final int SHADE_MAX = 5;
     /** Tone curve exponent per shade step; matches ThemeOverlayController. */
     static final double SHADE_STEP = 0.2;
-    /** Read by SystemUI's ThemeOverlayController; degrees the seed hue turns, ±HUE_MAX. */
-    static final String HUE = "rr_accent_hue";
-    static final int HUE_MAX = 180;
+    /** Read by SystemUI's ThemeOverlayController; percent of the accent chroma, 0 to MAX. */
+    static final String SATURATION = "rr_accent_saturation";
+    static final int SATURATION_DEFAULT = 100;
+    static final int SATURATION_MAX = 200;
 
     private final Context mContext;
 
@@ -72,14 +73,15 @@ public final class AccentController {
         }
     }
 
-    public int hue() {
-        int hue = Settings.Secure.getInt(mContext.getContentResolver(), HUE, 0);
-        return Math.max(-HUE_MAX, Math.min(HUE_MAX, hue));
+    public int saturation() {
+        int saturation = Settings.Secure.getInt(mContext.getContentResolver(), SATURATION,
+                SATURATION_DEFAULT);
+        return Math.max(0, Math.min(SATURATION_MAX, saturation));
     }
 
-    public void setHue(int hue) {
-        if (!Settings.Secure.putInt(mContext.getContentResolver(), HUE,
-                Math.max(-HUE_MAX, Math.min(HUE_MAX, hue)))) {
+    public void setSaturation(int saturation) {
+        if (!Settings.Secure.putInt(mContext.getContentResolver(), SATURATION,
+                Math.max(0, Math.min(SATURATION_MAX, saturation)))) {
             throw new SecurityException("secure setting rejected");
         }
     }

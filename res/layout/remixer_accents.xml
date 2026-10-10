@@ -148,11 +148,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:importantForAccessibility="no"
-                        android:text="@string/accent_hue"
+                        android:text="@string/accent_saturation"
                         android:textAppearance="?attr/textAppearanceLabelLarge" />
 
                     <TextView
-                        android:id="@+id/accent_hue_value"
+                        android:id="@+id/accent_saturation_value"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:importantForAccessibility="no"
@@ -161,13 +161,13 @@
                 </LinearLayout>
 
                 <com.resurrection.settings.HueBarView
-                    android:id="@+id/accent_hue"
+                    android:id="@+id/accent_saturation"
                     android:layout_width="match_parent"
                     android:layout_height="28dp"
                     android:layout_marginHorizontal="4dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginBottom="4dp"
-                    android:contentDescription="@string/accent_hue" />
+                    android:contentDescription="@string/accent_saturation" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
