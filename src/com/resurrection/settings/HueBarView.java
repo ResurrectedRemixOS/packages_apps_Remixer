@@ -15,24 +15,38 @@ import android.view.View;
 import android.view.accessibility.AccessibilityNodeInfo;
 
 /**
- * Rainbow bar that picks a hue from 0 to 360.
+ * Rainbow bar that picks a hue from 0 to 360, or any range colored by a {@link ColorFunction}.
  */
 public class HueBarView extends View {
     public interface OnChangeListener {
         void onChange(float hue);
     }
 
-    private static final int[] RAINBOW = {0xFFFF0000, 0xFFFFFF00, 0xFF00FF00, 0xFF00FFFF,
-            0xFF0000FF, 0xFFFF00FF, 0xFFFF0000};
+    /** Called when a drag ends, and after each key or accessibility step. */
+    public interface OnReleaseListener {
+        void onRelease(float hue);
+    }
+
+    /** Colors the bar and the thumb for a value. */
+    public interface ColorFunction {
+        int colorAt(float value);
+    }
+
     private static final float STEP = 5;
+    /** Gradient stops across the range. */
+    private static final int STOPS = 13;
 
     private final Paint mBar = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final Paint mThumb = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final Paint mRing = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final RectF mBounds = new RectF();
     private final float mThumbRadius;
+    private float mMin = 0;
+    private float mMax = 360;
+    private ColorFunction mColors = hue -> Color.HSVToColor(new float[] {hue, 1, 1});
     private float mHue;
     private OnChangeListener mListener;
+    private OnReleaseListener mReleaseListener;
 
     public HueBarView(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -49,6 +63,36 @@ public class HueBarView extends View {
         mListener = listener;
     }
 
+    public void setOnReleaseListener(OnReleaseListener listener) {
+        mReleaseListener = listener;
+    }
+
+    public void setRange(float min, float max) {
+        mMin = min;
+        mMax = max;
+        updateColors();
+    }
+
+    public void setColorFunction(ColorFunction colors) {
+        mColors = colors;
+        updateColors();
+    }
+
+    /** Rebuilds the bar after the color function's output changed. */
+    public void updateColors() {
+        float radius = getHeight() / 2f;
+        if (getWidth() > 2 * radius) {
+            int[] stops = new int[STOPS];
+            for (int i = 0; i < STOPS; i++) {
+                stops[i] = mColors.colorAt(mMin + (mMax - mMin) * i / (STOPS - 1));
+            }
+            // Spans the thumb's travel so the thumb sits on its own color.
+            mBar.setShader(new LinearGradient(radius, 0, getWidth() - radius, 0, stops, null,
+                    Shader.TileMode.CLAMP));
+        }
+        invalidate();
+    }
+
     public void setHue(float hue) {
         mHue = hue;
         invalidate();
@@ -57,15 +101,15 @@ public class HueBarView extends View {
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         mBounds.set(0, 0, w, h);
-        mBar.setShader(new LinearGradient(0, 0, w, 0, RAINBOW, null, Shader.TileMode.CLAMP));
+        updateColors();
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
         float radius = getHeight() / 2f;
         canvas.drawRoundRect(mBounds, radius, radius, mBar);
-        float x = radius + mHue / 360f * (getWidth() - 2 * radius);
-        mThumb.setColor(Color.HSVToColor(new float[] {mHue, 1, 1}));
+        float x = radius + (mHue - mMin) / (mMax - mMin) * (getWidth() - 2 * radius);
+        mThumb.setColor(mColors.colorAt(mHue));
         canvas.drawCircle(x, radius, mThumbRadius, mThumb);
         canvas.drawCircle(x, radius, mThumbRadius, mRing);
     }
@@ -79,10 +123,14 @@ public class HueBarView extends View {
             case MotionEvent.ACTION_MOVE:
                 float radius = getHeight() / 2f;
                 float f = (event.getX() - radius) / Math.max(1, getWidth() - 2 * radius);
-                change(Math.max(0, Math.min(1, f)) * 360);
+                change(mMin + Math.max(0, Math.min(1, f)) * (mMax - mMin));
                 return true;
             case MotionEvent.ACTION_UP:
+                release();
                 performClick();
+                return true;
+            case MotionEvent.ACTION_CANCEL:
+                release();
                 return true;
             default:
                 return super.onTouchEvent(event);
@@ -98,6 +146,7 @@ public class HueBarView extends View {
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_DPAD_LEFT || keyCode == KeyEvent.KEYCODE_DPAD_RIGHT) {
             change(mHue + (keyCode == KeyEvent.KEYCODE_DPAD_RIGHT ? STEP : -STEP));
+            release();
             return true;
         }
         return super.onKeyDown(keyCode, event);
@@ -108,7 +157,7 @@ public class HueBarView extends View {
         super.onInitializeAccessibilityNodeInfo(info);
         info.setClassName("android.widget.SeekBar");
         info.setRangeInfo(AccessibilityNodeInfo.RangeInfo.obtain(
-                AccessibilityNodeInfo.RangeInfo.RANGE_TYPE_FLOAT, 0, 360, mHue));
+                AccessibilityNodeInfo.RangeInfo.RANGE_TYPE_FLOAT, mMin, mMax, mHue));
         info.addAction(AccessibilityNodeInfo.AccessibilityAction.ACTION_SCROLL_FORWARD);
         info.addAction(AccessibilityNodeInfo.AccessibilityAction.ACTION_SCROLL_BACKWARD);
     }
@@ -118,16 +167,23 @@ public class HueBarView extends View {
         if (action == AccessibilityNodeInfo.ACTION_SCROLL_FORWARD
                 || action == AccessibilityNodeInfo.ACTION_SCROLL_BACKWARD) {
             change(mHue + (action == AccessibilityNodeInfo.ACTION_SCROLL_FORWARD ? STEP : -STEP));
+            release();
             return true;
         }
         return super.performAccessibilityAction(action, arguments);
     }
 
     private void change(float hue) {
-        mHue = Math.max(0, Math.min(360, hue));
+        mHue = Math.max(mMin, Math.min(mMax, hue));
         invalidate();
         if (mListener != null) {
             mListener.onChange(mHue);
+        }
+    }
+
+    private void release() {
+        if (mReleaseListener != null) {
+            mReleaseListener.onRelease(mHue);
         }
     }
 }

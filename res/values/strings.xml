@@ -127,6 +127,8 @@
     <string name="accent_shade_lighter">Lighter</string>
     <string name="accent_shade_darker_value">Darker \u00b7 %1$d</string>
     <string name="accent_shade_lighter_value">Lighter \u00b7 %1$d</string>
+    <string name="accent_hue">Hue</string>
+    <string name="accent_hue_value"><xliff:g id="degrees" example="+30">%1$s</xliff:g>\u00b0</string>
     <string name="remixer_qs_style">QS style</string>
     <string name="remixer_qs_style_section">Style</string>
     <string name="remixer_qs_style_preview">Preview \u00b7 %1$s</string>

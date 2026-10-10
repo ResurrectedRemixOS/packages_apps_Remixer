@@ -26,6 +26,9 @@ public final class AccentController {
     static final int SHADE_MAX = 5;
     /** Tone curve exponent per shade step; matches ThemeOverlayController. */
     static final double SHADE_STEP = 0.2;
+    /** Read by SystemUI's ThemeOverlayController; degrees the seed hue turns, ±HUE_MAX. */
+    static final String HUE = "rr_accent_hue";
+    static final int HUE_MAX = 180;
 
     private final Context mContext;
 
@@ -65,6 +68,18 @@ public final class AccentController {
     public void setShade(int shade) {
         if (!Settings.Secure.putInt(mContext.getContentResolver(), SHADE,
                 Math.max(-SHADE_MAX, Math.min(SHADE_MAX, shade)))) {
+            throw new SecurityException("secure setting rejected");
+        }
+    }
+
+    public int hue() {
+        int hue = Settings.Secure.getInt(mContext.getContentResolver(), HUE, 0);
+        return Math.max(-HUE_MAX, Math.min(HUE_MAX, hue));
+    }
+
+    public void setHue(int hue) {
+        if (!Settings.Secure.putInt(mContext.getContentResolver(), HUE,
+                Math.max(-HUE_MAX, Math.min(HUE_MAX, hue)))) {
             throw new SecurityException("secure setting rejected");
         }
     }

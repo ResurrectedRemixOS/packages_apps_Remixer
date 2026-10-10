@@ -49,6 +49,8 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
     private static final int GRID_SPAN = 4;
     private static final int[] WALLPAPER_SWEEP = {0xFFE02437, 0xFFFFC233, 0xFF3DDC84,
             0xFF3D8BFF, 0xFF8C5CFF, 0xFFE02437};
+    /** Hue turns closer to zero than this snap back to the accent's own hue. */
+    private static final int HUE_SNAP = 4;
 
     private AccentController mAccents;
     private String[] mNames;
@@ -63,6 +65,12 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
     private Slider mShade;
     /** Shade baked into this activity's theme colors. */
     private int mThemeShade;
+    private int mPreviewShade;
+    private TextView mHueValue;
+    private HueBarView mHue;
+    /** Hue turn baked into this activity's theme colors. */
+    private int mThemeHue;
+    private int mPreviewHue;
     private boolean mTracking;
     private int mPrimary;
     private int mOnPrimary;
@@ -95,6 +103,7 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
         grid.setAdapter(mAdapter);
         updatePreview();
         setupShade();
+        setupHue();
     }
 
     private void setupShade() {
@@ -122,13 +131,16 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
         mSliderThumb = mShade.getThumbTintList();
 
         mThemeShade = mAccents.shade();
+        mPreviewShade = mThemeShade;
         mShade.setValue(mThemeShade);
         mShade.setLabelFormatter(value -> shadeLabel(Math.round(value)));
         updateShadeLabel(mThemeShade);
         mShade.addOnChangeListener((slider, value, fromUser) -> {
             int shade = Math.round(value);
             updateShadeLabel(shade);
-            previewShade(shade);
+            mPreviewShade = shade;
+            mHue.updateColors();
+            preview();
             if (fromUser && !mTracking) {
                 applyShade(shade);
             }
@@ -145,6 +157,58 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
                 applyShade(Math.round(slider.getValue()));
             }
         });
+    }
+
+    private void setupHue() {
+        mHueValue = findViewById(R.id.accent_hue_value);
+        mHue = findViewById(R.id.accent_hue);
+        mThemeHue = mAccents.hue();
+        mPreviewHue = mThemeHue;
+        mHue.setRange(-AccentController.HUE_MAX, AccentController.HUE_MAX);
+        mHue.setColorFunction(value -> previewColor(mPrimary, mPreviewShade, Math.round(value)));
+        mHue.setHue(mThemeHue);
+        updateHueLabel(mThemeHue);
+        mHue.setOnChangeListener(value -> {
+            int hue = Math.round(value);
+            if (Math.abs(hue) < HUE_SNAP) {
+                hue = 0;
+                mHue.setHue(0);
+            }
+            showHue(hue);
+        });
+        mHue.setOnReleaseListener(value -> applyHue(mPreviewHue));
+    }
+
+    private void showHue(int hue) {
+        updateHueLabel(hue);
+        mPreviewHue = hue;
+        preview();
+    }
+
+    private String hueLabel(int hue) {
+        if (hue == 0) {
+            return getString(R.string.accent_shade_default);
+        }
+        return getString(R.string.accent_hue_value, (hue > 0 ? "+" : "\u2212") + Math.abs(hue));
+    }
+
+    private void updateHueLabel(int hue) {
+        String label = hueLabel(hue);
+        mHueValue.setText(label);
+        mHue.setStateDescription(label);
+    }
+
+    private void applyHue(int hue) {
+        if (hue == mAccents.hue()) {
+            return;
+        }
+        try {
+            mAccents.setHue(hue);
+        } catch (SecurityException e) {
+            Toast.makeText(this, R.string.accent_failed, Toast.LENGTH_SHORT).show();
+            mHue.setHue(mAccents.hue());
+            showHue(mAccents.hue());
+        }
     }
 
     private String shadeLabel(int shade) {
@@ -174,8 +238,8 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
     }
 
     /** Recolors the preview until SystemUI regenerates the palette and the activity restarts. */
-    private void previewShade(int shade) {
-        if (shade == mThemeShade) {
+    private void preview() {
+        if (mPreviewShade == mThemeShade && mPreviewHue == mThemeHue) {
             mFilled.setBackgroundTintList(mFilledBackground);
             mFilled.setTextColor(mFilledText);
             mTonal.setBackgroundTintList(mTonalBackground);
@@ -187,11 +251,12 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
             mShade.setThumbTintList(mSliderThumb);
             return;
         }
-        double gamma = Math.pow(2, -(shade - mThemeShade) * AccentController.SHADE_STEP);
-        int primary = shadeColor(mPrimary, gamma);
-        int onPrimary = readable(mOnPrimary, mPrimary, primary);
-        int container = shadeColor(mSecondaryContainer, gamma);
-        int onContainer = readable(mOnSecondaryContainer, mSecondaryContainer, container);
+        int turn = mPreviewHue - mThemeHue;
+        int primary = previewColor(mPrimary, mPreviewShade, mPreviewHue);
+        int onPrimary = readable(turn(mOnPrimary, turn), mPrimary, primary);
+        int container = previewColor(mSecondaryContainer, mPreviewShade, mPreviewHue);
+        int onContainer = readable(turn(mOnSecondaryContainer, turn), mSecondaryContainer,
+                container);
         mFilled.setBackgroundTintList(ColorStateList.valueOf(primary));
         mFilled.setTextColor(onPrimary);
         mTonal.setBackgroundTintList(ColorStateList.valueOf(container));
@@ -201,6 +266,26 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
         mShade.setTrackActiveTintList(ColorStateList.valueOf(primary));
         mShade.setTrackInactiveTintList(ColorStateList.valueOf(container));
         mShade.setThumbTintList(ColorStateList.valueOf(primary));
+    }
+
+    /** A theme color as it will look at the given shade and hue turn. */
+    private int previewColor(int color, int shade, int hue) {
+        int turned = turn(color, hue - mThemeHue);
+        if (shade == mThemeShade) {
+            return turned;
+        }
+        return shadeColor(turned,
+                Math.pow(2, -(shade - mThemeShade) * AccentController.SHADE_STEP));
+    }
+
+    /** Turns the HCT hue, as ThemeOverlayController turns the seed. */
+    private static int turn(int color, int degrees) {
+        if (degrees == 0) {
+            return color;
+        }
+        float[] hct = new float[3];
+        ColorUtils.colorToM3HCT(color, hct);
+        return ColorUtils.M3HCTToColor((hct[0] + degrees + 360) % 360, hct[1], hct[2]);
     }
 
     /** Same tone curve as ThemeOverlayController; HCT tone is L*. */
