@@ -33,8 +33,11 @@ public class UdfpsActivity extends CollapsingToolbarBaseActivity {
     private static final String EXTRA_KIND = "kind";
     private static final String ICONS_PACKAGE = "org.evolution.udfps.icons";
     private static final String ANIMATIONS_PACKAGE = "org.evolution.udfps.animations";
-    private static final int ICON_SPAN = 4;
-    private static final int ANIMATION_SPAN = 3;
+    private static final int ICON_SPAN = 3;
+    private static final int ANIMATION_SPAN = 2;
+    // Preview frame sizes in dp; the swatch sits 12dp inside the selection ring.
+    private static final int ICON_FRAME = 92;
+    private static final int ANIMATION_FRAME = 132;
 
     public static Intent intent(Context context, String kind) {
         return new Intent(context, UdfpsActivity.class).putExtra(EXTRA_KIND, kind);
@@ -75,7 +78,7 @@ public class UdfpsActivity extends CollapsingToolbarBaseActivity {
             grid.setAdapter(new Picker(res, ANIMATIONS_PACKAGE,
                     array(res, ANIMATIONS_PACKAGE, "udfps_animation_previews"),
                     array(res, ANIMATIONS_PACKAGE, "udfps_animation_titles"),
-                    Settings.System.UDFPS_ANIM_STYLE));
+                    Settings.System.UDFPS_ANIM_STYLE, ANIMATION_FRAME));
         } else {
             Resources res = resources(this, ICONS_PACKAGE);
             if (res == null) {
@@ -84,7 +87,8 @@ public class UdfpsActivity extends CollapsingToolbarBaseActivity {
             }
             grid.setLayoutManager(new GridLayoutManager(this, ICON_SPAN));
             grid.setAdapter(new Picker(res, ICONS_PACKAGE,
-                    array(res, ICONS_PACKAGE, "udfps_icons"), null, Settings.System.UDFPS_ICON));
+                    array(res, ICONS_PACKAGE, "udfps_icons"), null, Settings.System.UDFPS_ICON,
+                    ICON_FRAME));
         }
     }
 
@@ -119,14 +123,17 @@ public class UdfpsActivity extends CollapsingToolbarBaseActivity {
         private final String[] mDrawables;
         private final String[] mTitles;
         private final String mKey;
+        private final int mFrame;
         private int mSelected;
 
-        Picker(Resources res, String pkg, String[] drawables, String[] titles, String key) {
+        Picker(Resources res, String pkg, String[] drawables, String[] titles, String key,
+                int frame) {
             mRes = res;
             mPackage = pkg;
             mDrawables = drawables;
             mTitles = titles;
             mKey = key;
+            mFrame = frame;
             mSelected = Settings.System.getIntForUser(getContentResolver(), key, 0,
                     UserHandle.USER_CURRENT);
         }
@@ -138,8 +145,19 @@ public class UdfpsActivity extends CollapsingToolbarBaseActivity {
 
         @Override
         public Holder onCreateViewHolder(ViewGroup parent, int viewType) {
-            return new Holder(LayoutInflater.from(parent.getContext())
-                    .inflate(R.layout.remixer_accent_item, parent, false));
+            View view = LayoutInflater.from(parent.getContext())
+                    .inflate(R.layout.remixer_accent_item, parent, false);
+            Holder holder = new Holder(view);
+            size((View) holder.ring.getParent(), mFrame);
+            size(holder.swatch, mFrame - 12);
+            return holder;
+        }
+
+        private void size(View view, int sizeDp) {
+            ViewGroup.LayoutParams lp = view.getLayoutParams();
+            lp.width = dp(sizeDp);
+            lp.height = dp(sizeDp);
+            view.setLayoutParams(lp);
         }
 
         @Override
@@ -151,7 +169,8 @@ public class UdfpsActivity extends CollapsingToolbarBaseActivity {
                     com.google.android.material.R.attr.colorSurfaceContainerHighest));
             holder.swatch.setBackground(dot);
             holder.swatch.setScaleType(ImageView.ScaleType.FIT_CENTER);
-            holder.swatch.setPadding(dp(6), dp(6), dp(6), dp(6));
+            int pad = dp(mFrame / 12);
+            holder.swatch.setPadding(pad, pad, pad, pad);
             holder.swatch.setImageTintList(null);
             holder.swatch.setImageDrawable(drawable(position));
             holder.ring.setVisibility(selected ? View.VISIBLE : View.INVISIBLE);
