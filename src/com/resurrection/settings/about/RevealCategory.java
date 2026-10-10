@@ -55,6 +55,8 @@ public class RevealCategory extends PreferenceCategory implements AboutPrivacy.L
         button.setTextColor(onContainer);
         button.setBackground(AboutUi.pressable(context, container, 17, onContainer));
         button.setOnClickListener(v -> AboutPrivacy.toggle());
+        // Categories are never enabled, so super disabled every view in the row, button included.
+        button.setEnabled(true);
     }
 
     @Override
