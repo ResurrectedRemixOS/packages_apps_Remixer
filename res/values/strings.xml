@@ -255,5 +255,50 @@
 
     <!-- About phone > Android version -->
     <string name="rr_maintainer">Maintainer</string>
-</resources>
 
+    <!-- Navigation bar, drawn by the launcher's taskbar -->
+    <string name="remixer_navbar_category">Navigation bar</string>
+    <string name="remixer_navbar_pill_length">Gesture pill length</string>
+    <string name="remixer_navbar_pill_thickness">Gesture pill thickness</string>
+    <string name="remixer_navbar_pill_auto_hide">Fade out the gesture pill</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Hide the pill after a few seconds; it comes back when you touch the screen</string>
+    <string name="remixer_navbar_ime">Keyboard buttons</string>
+    <string name="remixer_navbar_ime_summary">Show back and keyboard switcher buttons under the keyboard</string>
+    <string name="remixer_navbar_layout">Button layout</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Short</item>
+        <item>Normal</item>
+        <item>Long</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_length_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Thinnest</item>
+        <item>Thinner</item>
+        <item>Thin</item>
+        <item>Normal</item>
+        <item>Thick</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Normal</item>
+        <item>Compact</item>
+        <item>Left-leaning</item>
+        <item>Right-leaning</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
