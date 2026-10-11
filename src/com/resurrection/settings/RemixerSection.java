@@ -45,6 +45,9 @@ public class RemixerSection extends SettingsPreferenceFragment {
         NAVIGATION(R.xml.remixer_navigation, R.string.remixer_navigation_summary,
                 R.drawable.ic_remixer_navigation_glyph,
                 R.color.homepage_green_bg, R.color.homepage_green_fg),
+        NAVBAR(R.xml.remixer_navbar, R.string.remixer_navbar_summary,
+                R.drawable.ic_remixer_navigation_glyph,
+                R.color.homepage_green_bg, R.color.homepage_green_fg),
         MISC(R.xml.remixer_misc, R.string.remixer_misc_summary,
                 R.drawable.ic_remixer_misc_glyph,
                 R.color.homepage_yellow_bg, R.color.homepage_yellow_fg);

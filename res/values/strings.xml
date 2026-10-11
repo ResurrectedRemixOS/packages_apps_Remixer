@@ -66,7 +66,7 @@
     <string name="remixer_udfps_animation">UDFPS animation</string>
     <string name="remixer_udfps_animation_summary">Plays while your finger is on the sensor</string>
     <string name="remixer_navigation">Navigation</string>
-    <string name="remixer_navigation_summary">Pulse and buttons</string>
+    <string name="remixer_navigation_summary">Pulse, buttons and navigation bar</string>
     <string name="remixer_misc">Miscellaneous</string>
     <string name="remixer_misc_summary">Spoofing</string>
     <!-- Hub card previews: illustrations, not live values. -->
@@ -270,6 +270,7 @@
 
     <!-- Navigation bar, drawn by the launcher's taskbar -->
     <string name="remixer_navbar_category">Navigation bar</string>
+    <string name="remixer_navbar_summary">Pill length, thickness and layout</string>
     <string name="remixer_navbar_pill_length">Gesture pill length</string>
     <string name="remixer_navbar_pill_thickness">Gesture pill thickness</string>
     <string name="remixer_navbar_pill_auto_hide">Fade out the gesture pill</string>

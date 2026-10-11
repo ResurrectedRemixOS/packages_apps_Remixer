@@ -10,45 +10,12 @@
     <lineageos.preference.LineagePartsPreference
         android:key="button_settings" />
 
-    <PreferenceCategory
-        android:key="remixer_navbar_category"
-        android:title="@string/remixer_navbar_category">
-
-        <com.resurrection.settings.preferences.SystemSettingListPreference
-            android:key="gesture_navbar_length_mode"
-            android:title="@string/remixer_navbar_pill_length"
-            android:summary="%s"
-            android:entries="@array/remixer_navbar_pill_length_entries"
-            android:entryValues="@array/remixer_navbar_pill_length_values"
-            android:defaultValue="1" />
-
-        <com.resurrection.settings.preferences.SystemSettingListPreference
-            android:key="gesture_navbar_height_mode"
-            android:title="@string/remixer_navbar_pill_thickness"
-            android:summary="%s"
-            android:entries="@array/remixer_navbar_pill_thickness_entries"
-            android:entryValues="@array/remixer_navbar_pill_thickness_values"
-            android:defaultValue="3" />
-
-        <lineageos.preference.SystemSettingSwitchPreference
-            android:key="gesture_navbar_auto_hide"
-            android:title="@string/remixer_navbar_pill_auto_hide"
-            android:summary="@string/remixer_navbar_pill_auto_hide_summary"
-            android:defaultValue="false" />
-
-        <lineageos.preference.SecureSettingSwitchPreference
-            android:key="sysui_show_nav_bar_ime"
-            android:title="@string/remixer_navbar_ime"
-            android:summary="@string/remixer_navbar_ime_summary"
-            android:defaultValue="true" />
-
-        <com.resurrection.settings.preferences.SecureSettingListPreference
-            android:key="navbar_layout_mode"
-            android:title="@string/remixer_navbar_layout"
-            android:summary="%s"
-            android:entries="@array/remixer_navbar_layout_entries"
-            android:entryValues="@array/remixer_navbar_layout_values"
-            android:defaultValue="0" />
-    </PreferenceCategory>
+    <Preference
+        android:key="remixer_navbar"
+        android:title="@string/remixer_navbar_category"
+        android:summary="@string/remixer_navbar_summary"
+        android:fragment="com.resurrection.settings.RemixerSection">
+        <extra android:name="section" android:value="navbar" />
+    </Preference>
 
 </PreferenceScreen>
