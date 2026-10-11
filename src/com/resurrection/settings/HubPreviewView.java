@@ -65,6 +65,7 @@ public class HubPreviewView extends View {
     private int mBattery = -1;
     private float mPhase = 0.25f;
     private ValueAnimator mAnimator;
+    private boolean mBackdrop = true;
 
     public HubPreviewView(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -89,6 +90,12 @@ public class HubPreviewView extends View {
 
     public void setFont(Typeface font) {
         mFont = font;
+        invalidate();
+    }
+
+    /** Off when the view draws straight onto a stage instead of inside a card. */
+    public void setBackdrop(boolean backdrop) {
+        mBackdrop = backdrop;
         invalidate();
     }
 
@@ -124,13 +131,15 @@ public class HubPreviewView extends View {
     protected void onDraw(Canvas canvas) {
         float w = getWidth();
         float h = getHeight();
-        mRect.set(dp(0.5f), dp(0.5f), w - dp(0.5f), h - dp(0.5f));
         mFill.setShader(null);
-        mFill.setColor(0x57000000);
-        canvas.drawRoundRect(mRect, dp(18), dp(18), mFill);
         mLine.setStrokeWidth(dp(1));
-        mLine.setColor(0x17FFFFFF);
-        canvas.drawRoundRect(mRect, dp(18), dp(18), mLine);
+        if (mBackdrop) {
+            mRect.set(dp(0.5f), dp(0.5f), w - dp(0.5f), h - dp(0.5f));
+            mFill.setColor(0x57000000);
+            canvas.drawRoundRect(mRect, dp(18), dp(18), mFill);
+            mLine.setColor(0x17FFFFFF);
+            canvas.drawRoundRect(mRect, dp(18), dp(18), mLine);
+        }
         switch (mKind) {
             case STATUS_BAR:
                 drawStatusBar(canvas, w, h);

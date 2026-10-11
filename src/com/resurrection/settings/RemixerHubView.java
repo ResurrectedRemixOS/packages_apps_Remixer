@@ -235,7 +235,7 @@ public class RemixerHubView extends LinearLayout {
         });
     }
 
-    private static int hsl(float hue, float saturation, float lightness) {
+    static int hsl(float hue, float saturation, float lightness) {
         return ColorUtils.HSLToColor(new float[] {(hue % 360 + 360) % 360, saturation, lightness});
     }
 

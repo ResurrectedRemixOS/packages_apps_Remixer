@@ -3,12 +3,13 @@ package com.resurrection.settings;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.ColorStateList;
+import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
-import android.widget.ImageView;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.core.graphics.ColorUtils;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 
@@ -27,43 +28,36 @@ import java.util.Locale;
 public class RemixerSection extends SettingsPreferenceFragment {
 
     private enum Section {
-        STATUSBAR(R.xml.remixer_statusbar, R.string.remixer_statusbar_summary,
-                R.drawable.ic_remixer_statusbar_glyph,
-                R.color.homepage_blue_bg, R.color.homepage_blue_fg),
-        QS(R.xml.remixer_qs, R.string.remixer_qs_summary,
-                R.drawable.ic_remixer_qs_glyph,
-                R.color.homepage_cyan_bg, R.color.homepage_cyan_fg),
-        NOTIFICATIONS(R.xml.remixer_notifications, R.string.remixer_notifications_summary,
-                R.drawable.ic_remixer_notifications_glyph,
-                R.color.homepage_orange_bg, R.color.homepage_orange_fg),
-        THEME(R.xml.remixer_theme, R.string.remixer_theme_summary,
-                R.drawable.ic_remixer_theme_glyph,
-                R.color.homepage_pink_bg, R.color.homepage_pink_fg),
-        LOCKSCREEN(R.xml.remixer_lockscreen, R.string.remixer_lockscreen_summary,
-                R.drawable.ic_remixer_lockscreen_glyph,
-                R.color.homepage_purple_bg, R.color.homepage_purple_fg),
-        NAVIGATION(R.xml.remixer_navigation, R.string.remixer_navigation_summary,
-                R.drawable.ic_remixer_navigation_glyph,
-                R.color.homepage_green_bg, R.color.homepage_green_fg),
-        NAVBAR(R.xml.remixer_navbar, R.string.remixer_navbar_summary,
-                R.drawable.ic_remixer_navigation_glyph,
-                R.color.homepage_green_bg, R.color.homepage_green_fg),
-        MISC(R.xml.remixer_misc, R.string.remixer_misc_summary,
-                R.drawable.ic_remixer_misc_glyph,
-                R.color.homepage_yellow_bg, R.color.homepage_yellow_fg);
+        STATUSBAR(R.xml.remixer_statusbar, R.string.remixer_statusbar,
+                R.string.remixer_statusbar_summary, HubPreviewView.STATUS_BAR, 0),
+        QS(R.xml.remixer_qs, R.string.remixer_qs, R.string.remixer_qs_summary,
+                HubPreviewView.QUICK_SETTINGS, 32),
+        NOTIFICATIONS(R.xml.remixer_notifications, R.string.remixer_notifications,
+                R.string.remixer_notifications_summary, HubPreviewView.NOTIFICATIONS, -32),
+        THEME(R.xml.remixer_theme, R.string.remixer_theme, R.string.remixer_theme_summary,
+                HubPreviewView.THEME, 64),
+        LOCKSCREEN(R.xml.remixer_lockscreen, R.string.remixer_lockscreen,
+                R.string.remixer_lockscreen_summary, HubPreviewView.LOCK_SCREEN, -64),
+        NAVIGATION(R.xml.remixer_navigation, R.string.remixer_navigation,
+                R.string.remixer_navigation_summary, HubPreviewView.NAVIGATION, 96),
+        NAVBAR(R.xml.remixer_navbar, R.string.remixer_navbar_category,
+                R.string.remixer_navbar_summary, HubPreviewView.NAVIGATION, 96),
+        MISC(R.xml.remixer_misc, R.string.remixer_misc, R.string.remixer_misc_summary,
+                HubPreviewView.MISC, 128);
 
         final int xml;
+        final int title;
         final int summary;
-        final int glyph;
-        final int bg;
-        final int fg;
+        final int kind;
+        // Same offsets as the hub cards, so a page keeps the color of the card that opened it.
+        final int hueOffset;
 
-        Section(int xml, int summary, int glyph, int bg, int fg) {
+        Section(int xml, int title, int summary, int kind, int hueOffset) {
             this.xml = xml;
+            this.title = title;
             this.summary = summary;
-            this.glyph = glyph;
-            this.bg = bg;
-            this.fg = fg;
+            this.kind = kind;
+            this.hueOffset = hueOffset;
         }
     }
 
@@ -81,20 +75,12 @@ public class RemixerSection extends SettingsPreferenceFragment {
         super.onCreate(savedInstanceState);
         final Section section = section();
         final Context context = getPrefContext();
-        final ColorStateList fg = ColorStateList.valueOf(context.getColor(section.fg));
         final LayoutPreference banner =
                 new LayoutPreference(context, R.layout.remixer_section_header);
         banner.setKey("remixer_section_header");
         banner.setOrder(-1);
         banner.setSelectable(false);
-        banner.findViewById(R.id.remixer_section_card).setBackgroundTintList(
-                ColorStateList.valueOf(context.getColor(section.bg)));
-        final ImageView icon = banner.findViewById(R.id.remixer_section_icon);
-        icon.setImageResource(section.glyph);
-        icon.setImageTintList(fg);
-        final TextView summary = banner.findViewById(R.id.remixer_section_summary);
-        summary.setText(section.summary);
-        summary.setTextColor(fg);
+        bindStage(banner, section, context);
         getPreferenceScreen().addPreference(banner);
 
         removeUnless("remixer_udfps_icon", UdfpsActivity.hasIcons(context));
@@ -149,6 +135,34 @@ public class RemixerSection extends SettingsPreferenceFragment {
             Toast.makeText(getContext(), R.string.missing_app, Toast.LENGTH_SHORT).show();
         }
         return true;
+    }
+
+    /** The live stage: a glow in the hub card's hue under the section's own scene. */
+    private static void bindStage(LayoutPreference banner, Section section, Context context) {
+        float[] hsl = new float[3];
+        ColorUtils.colorToHSL(context.getColor(android.R.color.system_accent1_500), hsl);
+        float hue = hsl[0] + section.hueOffset;
+        // A grey accent keeps the stage grey, like the hub cards.
+        float sat = hsl[1] < 0.12f ? 0 : 1;
+        float density = context.getResources().getDisplayMetrics().density;
+        GradientDrawable glow = new GradientDrawable();
+        glow.setGradientType(GradientDrawable.RADIAL_GRADIENT);
+        glow.setGradientCenter(0.5f, 1.1f);
+        glow.setGradientRadius(300 * density);
+        glow.setColors(new int[] {RemixerHubView.hsl(hue, 0.75f * sat, 0.38f),
+                RemixerHubView.hsl(hue, 0.4f * sat, 0.09f)}, new float[] {0f, 0.7f});
+        glow.setCornerRadius(26 * density);
+        View card = banner.findViewById(R.id.remixer_section_card);
+        card.setBackground(glow);
+        card.setClipToOutline(true);
+        HubPreviewView scene = banner.findViewById(R.id.remixer_section_stage);
+        scene.setBackdrop(false);
+        scene.setKind(section.kind);
+        scene.setColors(RemixerHubView.hsl(hue, 0.95f * sat, 0.74f),
+                RemixerHubView.hsl(hue, 0.8f * sat, 0.52f),
+                RemixerHubView.hsl(hue, 0.7f * sat, 0.14f));
+        ((TextView) banner.findViewById(R.id.remixer_section_title)).setText(section.title);
+        ((TextView) banner.findViewById(R.id.remixer_section_summary)).setText(section.summary);
     }
 
     private Intent intentFor(String key) {
