@@ -7,6 +7,12 @@
     <string name="rr_homepage_battery">Battery</string>
     <string name="rr_homepage_percent"><xliff:g id="percent" example="62">%1$d</xliff:g>%%</string>
     <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> free</string>
+    <!-- Readouts beside the homepage's neon ring icons. -->
+    <string name="rr_live_wifi">Wi\u2011Fi</string>
+    <string name="rr_live_mobile">Mobile</string>
+    <string name="rr_live_offline">Offline</string>
+    <string name="rr_live_on">On</string>
+    <string name="rr_live_off">Off</string>
     <string name="rr_homepage_charging">Charging</string>
     <string name="rr_homepage_charged">Fully charged</string>
     <string name="rr_homepage_on_battery">On battery</string>
