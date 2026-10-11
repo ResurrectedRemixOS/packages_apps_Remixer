@@ -2,6 +2,12 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/remixer_notifications">
 
+    <Preference
+        android:key="edge_light"
+        android:title="@string/edge_light_title"
+        android:summary="@string/edge_light_summary"
+        android:fragment="com.resurrection.settings.edgelight.EdgeLightSettings" />
+
     <lineageos.preference.LineagePartsPreference
         android:key="charging_sounds_settings" />
 

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_title">Edge lighting</string>
+    <string name="edge_light_summary">Light up the screen edges when a notification arrives while the screen is off</string>
+    <string name="edge_light_color_mode_title">Color</string>
+    <string name="edge_light_color_accent">Accent color</string>
+    <string name="edge_light_color_notification">Notification color</string>
+    <string name="edge_light_color_wallpaper">Wallpaper color</string>
+    <string name="edge_light_color_rainbow">Rainbow</string>
+    <string name="edge_light_color_custom">Custom</string>
+    <string name="edge_light_custom_color_title">Custom color</string>
+    <string name="edge_light_style_title">Style</string>
+    <string name="edge_light_style_default">Sides</string>
+    <string name="edge_light_style_frame">Full frame</string>
+    <string name="edge_light_animation_effect_title">Animation</string>
+    <string name="edge_light_animation_effect_none">Standard</string>
+    <string name="edge_light_animation_effect_breathing">Breathing</string>
+    <string name="edge_light_animation_effect_wave">Wave</string>
+    <string name="edge_light_animation_effect_sparkle">Sparkle</string>
+    <string name="edge_light_animation_effect_chase">Chase</string>
+    <string name="edge_light_animation_effect_comet">Comet</string>
+    <string name="edge_light_pulse_count_title">Pulses</string>
+    <string name="edge_light_pulse_count_summary">How many times the edges light up</string>
+    <string name="edge_light_stroke_width_title">Thickness</string>
+    <string name="edge_light_stroke_width_summary">Width of the light in dp</string>
+    <string name="edge_light_spread_title">Glow spread</string>
+    <string name="edge_light_spread_summary">How far the glow reaches in from the edge</string>
+    <string name="edge_light_intensity_title">Glow intensity</string>
+    <string name="edge_light_intensity_summary">Brightness of the glow. 0 turns it off</string>
+
+    <string-array name="edge_light_color_mode_entries" translatable="false">
+        <item>@string/edge_light_color_accent</item>
+        <item>@string/edge_light_color_notification</item>
+        <item>@string/edge_light_color_wallpaper</item>
+        <item>@string/edge_light_color_rainbow</item>
+        <item>@string/edge_light_color_custom</item>
+    </string-array>
+    <string-array name="edge_light_color_mode_values" translatable="false">
+        <item>accent</item>
+        <item>notification</item>
+        <item>wallpaper</item>
+        <item>rainbow</item>
+        <item>custom</item>
+    </string-array>
+    <string-array name="edge_light_style_entries" translatable="false">
+        <item>@string/edge_light_style_default</item>
+        <item>@string/edge_light_style_frame</item>
+    </string-array>
+    <string-array name="edge_light_style_values" translatable="false">
+        <item>default</item>
+        <item>rounded</item>
+    </string-array>
+    <string-array name="edge_light_animation_entries" translatable="false">
+        <item>@string/edge_light_animation_effect_none</item>
+        <item>@string/edge_light_animation_effect_breathing</item>
+        <item>@string/edge_light_animation_effect_wave</item>
+        <item>@string/edge_light_animation_effect_sparkle</item>
+        <item>@string/edge_light_animation_effect_chase</item>
+        <item>@string/edge_light_animation_effect_comet</item>
+    </string-array>
+    <string-array name="edge_light_animation_values" translatable="false">
+        <item>none</item>
+        <item>breathing</item>
+        <item>wave</item>
+        <item>sparkle</item>
+        <item>chase</item>
+        <item>comet</item>
+    </string-array>
+</resources>
