@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Haptic profile picker (persist.sys.haptic_profile) -->
+    <string name="haptic_profile_title">Haptic profile</string>
+    <string name="haptic_profile_richtap">Richtap</string>
+    <string name="haptic_profile_crisp">Crisp</string>
+    <string name="haptic_profile_gentle">Gentle</string>
+    <string name="haptic_profile_op13crisp">OP13 Crisp</string>
+    <string name="haptic_profile_op13gentle">OP13 Gentle</string>
+
+    <string-array name="haptic_profile_entries" translatable="false">
+        <item>@string/haptic_profile_richtap</item>
+        <item>@string/haptic_profile_crisp</item>
+        <item>@string/haptic_profile_gentle</item>
+        <item>@string/haptic_profile_op13crisp</item>
+        <item>@string/haptic_profile_op13gentle</item>
+    </string-array>
+
+    <string-array name="haptic_profile_values" translatable="false">
+        <item>richtap</item>
+        <item>crisp</item>
+        <item>gentle</item>
+        <item>op13crisp</item>
+        <item>op13gentle</item>
+    </string-array>
+</resources>
