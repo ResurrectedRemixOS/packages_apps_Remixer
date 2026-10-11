@@ -3,12 +3,6 @@
     android:title="@string/remixer_notifications">
 
     <lineageos.preference.LineagePartsPreference
-        android:key="notification_lights" />
-
-    <lineageos.preference.LineagePartsPreference
-        android:key="battery_lights" />
-
-    <lineageos.preference.LineagePartsPreference
         android:key="charging_sounds_settings" />
 
 </PreferenceScreen>
