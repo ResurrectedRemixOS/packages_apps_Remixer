@@ -65,7 +65,6 @@
         android:defaultValue="8"
         android:max="32"
         app:min="2"
-        app:seekBarIncrement="2"
         app:showSeekBarValue="true"
         android:dependency="edge_light_enabled" />
 

@@ -7,13 +7,17 @@ import android.provider.Settings;
 import android.util.AttributeSet;
 
 import androidx.preference.PreferenceDataStore;
-import androidx.preference.SeekBarPreference;
 
-/** A seek bar kept as an int in Settings.System. */
-public class SystemSettingSeekBarPreference extends SeekBarPreference {
+import com.android.settingslib.widget.SliderPreference;
+
+/** A slider kept as an int in Settings.System. */
+public class SystemSettingSeekBarPreference extends SliderPreference {
 
     public SystemSettingSeekBarPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
+        if (getSliderIncrement() == 0) {
+            setSliderIncrement(1);
+        }
         ContentResolver resolver = context.getContentResolver();
         setPreferenceDataStore(new PreferenceDataStore() {
             @Override
