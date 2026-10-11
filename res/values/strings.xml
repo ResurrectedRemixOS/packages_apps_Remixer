@@ -63,6 +63,10 @@
     <string name="remixer_navigation_summary">Pulse and buttons</string>
     <string name="remixer_misc">Miscellaneous</string>
     <string name="remixer_misc_summary">Spoofing</string>
+    <!-- Hub card previews: illustrations, not live values. -->
+    <string name="remixer_preview_traffic" translatable="false">\u2193 2.4 MB/s</string>
+    <string name="remixer_preview_pif" translatable="false">Play Integrity Fix</string>
+    <string name="remixer_preview_trickystore" translatable="false">TrickyStore</string>
 
     <string name="remixer_fonts">Fonts</string>
     <string name="remixer_fonts_summary">System font</string>

@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="76dp"
+    android:layout_height="wrap_content"
     android:clickable="true"
     android:focusable="true"
     android:gravity="center_vertical"
+    android:minHeight="96dp"
     android:orientation="horizontal"
-    android:paddingHorizontal="16dp">
+    android:paddingVertical="12dp"
+    android:paddingStart="12dp"
+    android:paddingEnd="16dp">
 
-    <FrameLayout
-        android:id="@+id/card_chip"
-        android:layout_width="42dp"
-        android:layout_height="42dp">
-
-        <ImageView
-            android:id="@+id/card_glyph"
-            android:layout_width="22dp"
-            android:layout_height="22dp"
-            android:layout_gravity="center"
-            android:importantForAccessibility="no" />
-    </FrameLayout>
+    <com.resurrection.settings.HubPreviewView
+        android:id="@+id/card_preview"
+        android:layout_width="136dp"
+        android:layout_height="72dp"
+        android:importantForAccessibility="no" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -34,6 +30,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
             android:maxLines="1"
+            android:textColor="#FFFFFFFF"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -43,14 +40,15 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="1"
+            android:textColor="#CCFFFFFF"
             android:textSize="13sp" />
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/card_chevron"
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:autoMirrored="true"
         android:importantForAccessibility="no"
-        android:src="@drawable/remixer_ic_chevron" />
+        android:src="@drawable/remixer_ic_chevron"
+        android:tint="#FFFFFFFF" />
 </LinearLayout>

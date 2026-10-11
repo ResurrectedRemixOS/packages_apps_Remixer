@@ -18,7 +18,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -30,7 +29,7 @@ import com.android.settings.core.SubSettingLauncher;
 import com.android.settingslib.utils.ThreadUtils;
 
 /**
- * Remixer hub body: a row of quick shortcuts, then every section as a colored card.
+ * Remixer hub body: a row of quick shortcuts, then every section as a card with a live preview.
  */
 public class RemixerHubView extends LinearLayout {
     /** Same value RemixerSettings reports; SubSettingLauncher requires one. */
@@ -38,40 +37,32 @@ public class RemixerHubView extends LinearLayout {
 
     private static final Section[] SECTIONS = {
         new Section("statusbar", R.string.remixer_statusbar, R.string.remixer_statusbar_summary,
-                R.drawable.ic_remixer_statusbar_glyph, R.color.homepage_blue_bg,
-                R.color.homepage_blue_fg),
+                HubPreviewView.STATUS_BAR, 0),
         new Section("qs", R.string.remixer_qs, R.string.remixer_qs_summary,
-                R.drawable.ic_remixer_qs_glyph, R.color.homepage_cyan_bg,
-                R.color.homepage_cyan_fg),
+                HubPreviewView.QUICK_SETTINGS, 32),
         new Section("notifications", R.string.remixer_notifications,
-                R.string.remixer_notifications_summary, R.drawable.ic_remixer_notifications_glyph,
-                R.color.homepage_orange_bg, R.color.homepage_orange_fg),
+                R.string.remixer_notifications_summary, HubPreviewView.NOTIFICATIONS, -32),
         new Section("theme", R.string.remixer_theme, R.string.remixer_theme_summary,
-                R.drawable.ic_remixer_theme_glyph, R.color.homepage_pink_bg,
-                R.color.homepage_pink_fg),
+                HubPreviewView.THEME, 64),
         new Section("lockscreen", R.string.remixer_lockscreen,
-                R.string.remixer_lockscreen_summary, R.drawable.ic_remixer_lockscreen_glyph,
-                R.color.homepage_purple_bg, R.color.homepage_purple_fg),
+                R.string.remixer_lockscreen_summary, HubPreviewView.LOCK_SCREEN, -64),
         new Section("navigation", R.string.remixer_navigation,
-                R.string.remixer_navigation_summary, R.drawable.ic_remixer_navigation_glyph,
-                R.color.homepage_green_bg, R.color.homepage_green_fg),
+                R.string.remixer_navigation_summary, HubPreviewView.NAVIGATION, 96),
     };
     private static final Section MISC = new Section("misc", R.string.remixer_misc,
-            R.string.remixer_misc_summary, R.drawable.ic_remixer_misc_glyph,
-            R.color.homepage_yellow_bg, R.color.homepage_yellow_fg);
+            R.string.remixer_misc_summary, HubPreviewView.MISC, 128);
 
     private final boolean mNight;
     private final int mSurface;
-    private final int mContainer;
     private final int mText;
     private final int mSubtext;
+    private HubPreviewView mThemePreview;
 
     public RemixerHubView(Context context, AttributeSet attrs) {
         super(context, attrs);
         mNight = (context.getResources().getConfiguration().uiMode
                 & Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_YES;
         mSurface = context.getColor(com.android.internal.R.color.materialColorSurfaceBright);
-        mContainer = context.getColor(com.android.internal.R.color.materialColorSurfaceContainer);
         mText = context.getColor(com.android.internal.R.color.materialColorOnSurface);
         mSubtext = context.getColor(com.android.internal.R.color.materialColorOnSurfaceVariant);
     }
@@ -127,7 +118,12 @@ public class RemixerHubView extends LinearLayout {
         ThreadUtils.postOnBackgroundThread(() -> {
             FontController controller = new FontController(context);
             Typeface typeface = controller.typeface(controller.enabledPackage());
-            post(() -> aa.setTypeface(Typeface.create(typeface, Typeface.BOLD)));
+            post(() -> {
+                aa.setTypeface(Typeface.create(typeface, Typeface.BOLD));
+                if (mThemePreview != null) {
+                    mThemePreview.setFont(typeface);
+                }
+            });
         });
 
         View walls = quickTile(quick, R.string.remixer_wallpapers, R.string.remixer_quick_walls,
@@ -162,19 +158,19 @@ public class RemixerHubView extends LinearLayout {
                 grid.addView(row, lp);
             }
             View card = inflater.inflate(R.layout.remixer_hub_card, row, false);
-            LayoutParams lp = new LayoutParams(0, dp(132), 1);
+            // MATCH_PARENT in a WRAP_CONTENT row keeps both cards of a row the same height.
+            LayoutParams lp = new LayoutParams(0, ViewGroup.LayoutParams.MATCH_PARENT, 1);
             if (i % 2 == 1) {
                 lp.setMarginStart(dp(10));
             }
-            bindCard(card, SECTIONS[i]);
+            bindCard(card, SECTIONS[i], accent);
             row.addView(card, lp);
         }
         View misc = inflater.inflate(R.layout.remixer_hub_wide, grid, false);
-        LayoutParams lp = new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, dp(76));
+        LayoutParams lp = new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT);
         lp.topMargin = dp(10);
-        bindCard(misc, MISC);
-        ((ImageView) misc.findViewById(R.id.card_chevron)).setImageTintList(
-                ColorStateList.valueOf(mSubtext));
+        bindCard(misc, MISC, accent);
         grid.addView(misc, lp);
     }
 
@@ -202,24 +198,30 @@ public class RemixerHubView extends LinearLayout {
         return tile.findViewById(R.id.quick_art);
     }
 
-    private void bindCard(View card, Section section) {
+    /** Colors the card from the accent, its hue turned by the section's offset. */
+    private void bindCard(View card, Section section, int accent) {
         Context context = getContext();
-        int bg = context.getColor(section.bg);
-        card.setBackground(pressable(
-                ColorUtils.blendARGB(bg, mContainer, mNight ? 0.84f : 0.5f), 26));
-        GradientDrawable chip = new GradientDrawable();
-        chip.setColor(bg);
-        chip.setCornerRadius(dp(14));
-        card.findViewById(R.id.card_chip).setBackground(chip);
-        ImageView glyph = card.findViewById(R.id.card_glyph);
-        glyph.setImageResource(section.glyph);
-        glyph.setImageTintList(ColorStateList.valueOf(context.getColor(section.fg)));
-        TextView title = card.findViewById(R.id.card_title);
-        title.setText(section.title);
-        title.setTextColor(mText);
-        TextView summary = card.findViewById(R.id.card_summary);
-        summary.setText(section.summary);
-        summary.setTextColor(mSubtext);
+        float[] hsl = new float[3];
+        ColorUtils.colorToHSL(accent, hsl);
+        float hue = hsl[0] + section.hueOffset;
+        // A grey accent keeps the cards grey instead of inventing a hue.
+        float sat = hsl[1] < 0.12f ? 0 : 1;
+        GradientDrawable fill = new GradientDrawable(GradientDrawable.Orientation.TL_BR,
+                new int[] {hsl(hue, 0.68f * sat, 0.36f), hsl(hue + 14, 0.72f * sat, 0.17f)});
+        fill.setCornerRadius(dp(26));
+        GradientDrawable mask = new GradientDrawable();
+        mask.setColor(Color.WHITE);
+        mask.setCornerRadius(dp(26));
+        card.setBackground(new RippleDrawable(ColorStateList.valueOf(0x33FFFFFF), fill, mask));
+        HubPreviewView preview = card.findViewById(R.id.card_preview);
+        preview.setKind(section.kind);
+        preview.setColors(hsl(hue, 0.95f * sat, 0.74f), hsl(hue, 0.8f * sat, 0.52f),
+                hsl(hue, 0.7f * sat, 0.14f));
+        if (section.kind == HubPreviewView.THEME) {
+            mThemePreview = preview;
+        }
+        ((TextView) card.findViewById(R.id.card_title)).setText(section.title);
+        ((TextView) card.findViewById(R.id.card_summary)).setText(section.summary);
         card.setContentDescription(context.getString(section.title));
         card.setOnClickListener(v -> {
             Bundle args = new Bundle();
@@ -231,6 +233,10 @@ public class RemixerHubView extends LinearLayout {
                     .setSourceMetricsCategory(METRICS_CATEGORY)
                     .launch();
         });
+    }
+
+    private static int hsl(float hue, float saturation, float lightness) {
+        return ColorUtils.HSLToColor(new float[] {(hue % 360 + 360) % 360, saturation, lightness});
     }
 
     private void start(Intent intent) {
@@ -260,17 +266,15 @@ public class RemixerHubView extends LinearLayout {
         final String key;
         final int title;
         final int summary;
-        final int glyph;
-        final int bg;
-        final int fg;
+        final int kind;
+        final float hueOffset;
 
-        Section(String key, int title, int summary, int glyph, int bg, int fg) {
+        Section(String key, int title, int summary, int kind, float hueOffset) {
             this.key = key;
             this.title = title;
             this.summary = summary;
-            this.glyph = glyph;
-            this.bg = bg;
-            this.fg = fg;
+            this.kind = kind;
+            this.hueOffset = hueOffset;
         }
     }
 }
