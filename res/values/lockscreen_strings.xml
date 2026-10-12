@@ -2,4 +2,6 @@
 <resources>
     <string name="lockscreen_battery_info_title">Charging info</string>
     <string name="lockscreen_battery_info_summary">Show current, watts, voltage and battery temperature while charging</string>
+    <string name="pocket_mode_title">Pocket mode</string>
+    <string name="pocket_mode_summary">While the proximity sensor is covered, the screen doesn\'t wake up and ignores touches</string>
 </resources>

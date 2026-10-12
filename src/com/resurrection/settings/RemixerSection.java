@@ -87,6 +87,8 @@ public class RemixerSection extends SettingsPreferenceFragment {
 
         removeUnless("remixer_udfps_icon", UdfpsActivity.hasIcons(context));
         removeUnless("remixer_udfps_animation", UdfpsActivity.hasAnimations(context));
+        removeUnless("pocket_judge", context.getResources().getBoolean(
+                com.android.internal.R.bool.config_pocketModeSupported));
 
         final ListPreference settingsStyle = findPreference("remixer_settings_style");
         if (settingsStyle != null) {

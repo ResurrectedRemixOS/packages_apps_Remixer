@@ -21,6 +21,12 @@
         android:title="@string/remixer_lock_media_style" />
 
     <lineageos.preference.SystemSettingSwitchPreference
+        android:key="pocket_judge"
+        android:title="@string/pocket_mode_title"
+        android:summary="@string/pocket_mode_summary"
+        android:defaultValue="false" />
+
+    <lineageos.preference.SystemSettingSwitchPreference
         android:key="lockscreen_battery_info"
         android:title="@string/lockscreen_battery_info_title"
         android:summary="@string/lockscreen_battery_info_summary"
