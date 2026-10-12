@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_clock_faces">Clock faces</string>
+    <string name="clock_faces_system">System clock</string>
+    <string name="clock_faces_system_desc">The clock from Wallpaper &amp; style</string>
+    <string name="clock_faces_position">%1$d of %2$d</string>
+    <string name="clock_faces_apply">Apply</string>
+    <string name="clock_faces_applied">Applied</string>
+    <string name="clock_faces_preview_unavailable">Preview unavailable</string>
+    <string name="clock_faces_failed">Couldn\'t change the clock</string>
+
+    <string name="clock_faces_color">Color</string>
+    <string name="clock_faces_color_default">Default</string>
+    <string name="clock_faces_color_accent">Accent</string>
+    <string name="clock_faces_color_custom">Custom</string>
+    <string name="clock_faces_color_album">Album art</string>
+    <string name="clock_faces_color_gradient">Gradient</string>
+    <string name="clock_faces_own_colors">This face keeps its own colors.</string>
+    <string name="clock_faces_album_hint">Takes its color from the album art while music plays.</string>
+
+    <string name="clock_faces_size_position">Size and position</string>
+    <string name="clock_faces_size">Size</string>
+    <string name="clock_faces_size_value">Size · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Distance from top</string>
+    <string name="clock_faces_top_value">Distance from top · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Horizontal position</string>
+    <string name="clock_faces_horizontal_center">Horizontal position · Center</string>
+    <string name="clock_faces_horizontal_right">Horizontal position · <xliff:g id="dp" example="24">%1$d</xliff:g> dp right</string>
+    <string name="clock_faces_horizontal_left">Horizontal position · <xliff:g id="dp" example="24">%1$d</xliff:g> dp left</string>
+    <string name="clock_faces_horizontal_fixed">This face stays centered.</string>
+    <string name="clock_faces_opacity">Opacity</string>
+    <string name="clock_faces_opacity_value">Opacity · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+
+    <string name="clock_faces_motion">Motion</string>
+    <string name="clock_faces_wobble">Wobble while charging</string>
+    <string name="clock_faces_wobble_summary">Bounces once when you plug in</string>
+    <string name="clock_faces_aod_anim">Always-on display transition</string>
+    <string name="clock_faces_aod_anim_summary">Shrinks and fades the clock into the always-on display</string>
+
+    <string name="clock_faces_restart_title">Restart the lock screen?</string>
+    <string name="clock_faces_restart_message">Switching between the system clock and custom faces restarts SystemUI. The screen goes dark for a second.</string>
+    <string name="clock_faces_restart">Restart</string>
+    <string name="clock_faces_note">Previews are drawn by SystemUI on your lock screen wallpaper. Color, size and position change the lock screen right away.</string>
+
+    <string-array name="clock_faces_gradient_names" translatable="false">
+        <item>Neon</item>
+        <item>Crimson ember</item>
+        <item>Sunset</item>
+        <item>Ocean</item>
+        <item>Mint</item>
+        <item>Silver</item>
+    </string-array>
+
+    <!-- Indexed by Settings.Secure.LOCK_SCREEN_CUSTOM_CLOCK_STYLE; SystemUI's ClockStyle has the layouts. -->
+    <string-array name="clock_face_names" translatable="false">
+        <item>@string/clock_faces_system</item>
+        <item>OnePlus</item>
+        <item>OnePlus 2</item>
+        <item>Center</item>
+        <item>Simple</item>
+        <item>MIUI</item>
+        <item>IDE</item>
+        <item>Moto</item>
+        <item>Stylish</item>
+        <item>Stylish 2</item>
+        <item>Stylish 3</item>
+        <item>Stylish 4</item>
+        <item>Stylish 5</item>
+        <item>Stylish 6</item>
+        <item>Stylish 7</item>
+        <item>Stylish 8</item>
+        <item>Stylish 9</item>
+        <item>Stylish 10</item>
+        <item>Text</item>
+        <item>Lifestyle</item>
+        <item>Android 9</item>
+        <item>Nothing OS</item>
+        <item>Nothing OS 2</item>
+        <item>Stacked</item>
+        <item>X Factor</item>
+        <item>Simple analog</item>
+        <item>Block</item>
+        <item>Bubble</item>
+        <item>Label</item>
+        <item>iOS</item>
+        <item>Taden</item>
+        <item>Mont</item>
+        <item>Encode</item>
+        <item>Nothing OS 3</item>
+        <item>Anci Outline</item>
+        <item>Anci Ovalium</item>
+        <item>Anci Rectangle</item>
+        <item>Anci Wallet</item>
+        <item>Anci Clavicula</item>
+        <item>Anci KLN</item>
+        <item>Anci Miring</item>
+        <item>Anci Scapula</item>
+        <item>Anci Sternum</item>
+        <item>Spark Circle</item>
+        <item>Spark List</item>
+        <item>HyperOS</item>
+        <item>iOS 2</item>
+        <item>iOS 3</item>
+        <item>iOS 4</item>
+        <item>iOS 5</item>
+        <item>iOS 6</item>
+        <item>iOS 7</item>
+        <item>iOS 8</item>
+        <item>iOS 9</item>
+        <item>iOS 10</item>
+        <item>iOS 11</item>
+        <item>iOS 12</item>
+        <item>iOS 13</item>
+        <item>iOS 14</item>
+        <item>iOS 15</item>
+        <item>iOS 16</item>
+        <item>iOS 17</item>
+        <item>iOS 18</item>
+        <item>iOS 19</item>
+        <item>Big 1</item>
+        <item>Big 2</item>
+        <item>Big 3</item>
+        <item>Big 4</item>
+        <item>Sweet</item>
+        <item>Pixel</item>
+        <item>Samurai</item>
+        <item>Gateway</item>
+        <item>Tall</item>
+        <item>GoBold Monet</item>
+        <item>GoBold</item>
+        <item>Delirium</item>
+        <item>Delirium Dual</item>
+        <item>Skewrom</item>
+        <item>Skewrom 2</item>
+        <item>Taller</item>
+        <item>Taller 2</item>
+        <item>Taller 3</item>
+        <item>Modak</item>
+        <item>Galada</item>
+        <item>ColorOS</item>
+        <item>ColorOS 2</item>
+        <item>Neu</item>
+        <item>Neu 2</item>
+        <item>Neu 3</item>
+        <item>Badeen</item>
+        <item>Space Age</item>
+        <item>Polyline</item>
+        <item>Big clock</item>
+    </string-array>
+</resources>

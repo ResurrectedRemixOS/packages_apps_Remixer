@@ -51,5 +51,10 @@
             android:name=".QsStyleActivity"
             android:exported="false"
             android:label="@string/remixer_qs_style" />
+
+        <activity
+            android:name=".ClockFaceActivity"
+            android:exported="false"
+            android:label="@string/remixer_clock_faces" />
     </application>
 </manifest>

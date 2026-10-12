@@ -3,6 +3,10 @@
     android:title="@string/remixer_lockscreen">
 
     <Preference
+        android:key="remixer_clock_faces"
+        android:title="@string/remixer_clock_faces" />
+
+    <Preference
         android:key="remixer_udfps_icon"
         android:title="@string/remixer_udfps_icon"
         android:summary="@string/remixer_udfps_icon_summary" />
