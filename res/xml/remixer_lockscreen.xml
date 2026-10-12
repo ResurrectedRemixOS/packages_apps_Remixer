@@ -25,6 +25,9 @@
     <Preference
         android:key="remixer_weather"
         android:title="@string/remixer_weather"
-        android:summary="@string/remixer_weather_summary" />
+        android:summary="@string/remixer_weather_page_summary"
+        android:fragment="com.resurrection.settings.RemixerSection">
+        <extra android:name="section" android:value="weather" />
+    </Preference>
 
 </PreferenceScreen>

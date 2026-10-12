@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/remixer_weather">
+
+    <lineageos.preference.SystemSettingMainSwitchPreference
+        android:key="lockscreen_weather_enabled"
+        android:title="@string/lockscreen_weather_title"
+        android:defaultValue="false" />
+
+    <PreferenceCategory
+        android:key="lockscreen_weather_details"
+        android:title="@string/lockscreen_weather_details_category">
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="lockscreen_weather_location"
+            android:title="@string/lockscreen_weather_location_title"
+            android:summary="@string/lockscreen_weather_location_summary"
+            android:defaultValue="false"
+            android:dependency="lockscreen_weather_enabled" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="lockscreen_weather_text"
+            android:title="@string/lockscreen_weather_text_title"
+            android:summary="@string/lockscreen_weather_text_summary"
+            android:defaultValue="true"
+            android:dependency="lockscreen_weather_enabled" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="lockscreen_weather_wind_info"
+            android:title="@string/lockscreen_weather_wind_title"
+            android:summary="@string/lockscreen_weather_wind_summary"
+            android:defaultValue="false"
+            android:dependency="lockscreen_weather_enabled" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="lockscreen_weather_humidity_info"
+            android:title="@string/lockscreen_weather_humidity_title"
+            android:summary="@string/lockscreen_weather_humidity_summary"
+            android:defaultValue="false"
+            android:dependency="lockscreen_weather_enabled" />
+
+        <lineageos.preference.SecureSettingSwitchPreference
+            android:key="custom_clock_weather"
+            android:title="@string/custom_clock_weather_title"
+            android:summary="@string/custom_clock_weather_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <Preference
+        android:key="remixer_weather_service"
+        android:title="@string/remixer_weather_service"
+        android:summary="@string/remixer_weather_summary" />
+
+</PreferenceScreen>

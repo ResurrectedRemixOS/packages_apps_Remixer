@@ -42,6 +42,8 @@ public class RemixerSection extends SettingsPreferenceFragment {
                 R.string.remixer_navigation_summary, HubPreviewView.NAVIGATION, 96),
         NAVBAR(R.xml.remixer_navbar, R.string.remixer_navbar_category,
                 R.string.remixer_navbar_summary, HubPreviewView.NAVIGATION, 96),
+        WEATHER(R.xml.remixer_weather, R.string.remixer_weather,
+                R.string.remixer_weather_page_summary, HubPreviewView.LOCK_SCREEN, -64),
         MISC(R.xml.remixer_misc, R.string.remixer_misc, R.string.remixer_misc_summary,
                 HubPreviewView.MISC, 128);
 
@@ -188,7 +190,7 @@ public class RemixerSection extends SettingsPreferenceFragment {
                 return UdfpsActivity.intent(getContext(), UdfpsActivity.KIND_ICON);
             case "remixer_udfps_animation":
                 return UdfpsActivity.intent(getContext(), UdfpsActivity.KIND_ANIMATION);
-            case "remixer_weather":
+            case "remixer_weather_service":
                 return external("org.omnirom.omnijaws", "org.omnirom.omnijaws.SettingsActivity");
             default:
                 return null;
