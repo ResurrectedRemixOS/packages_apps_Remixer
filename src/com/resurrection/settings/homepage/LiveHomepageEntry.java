@@ -10,8 +10,6 @@ import static com.android.settingslib.display.BrightnessUtils.GAMMA_SPACE_MIN;
 import static com.android.settingslib.display.BrightnessUtils.convertLinearToGammaFloat;
 
 import android.app.NotificationManager;
-import android.app.WallpaperColors;
-import android.app.WallpaperManager;
 import android.app.usage.StorageStatsManager;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothManager;
@@ -61,7 +59,6 @@ final class LiveHomepageEntry {
     private static final int VOLUME = 3;
     private static final int DND = 4;
     private static final int BRIGHTNESS = 5;
-    private static final int WALLPAPER = 6;
     private static final int STORAGE = 7;
     private static final int BATTERY = 8;
     private static final int LOCATION = 9;
@@ -83,7 +80,6 @@ final class LiveHomepageEntry {
     private BroadcastReceiver mReceiver;
     private DisplayManager.DisplayListener mDisplayListener;
     private ConnectivityManager.NetworkCallback mNetworkCallback;
-    private WallpaperManager.OnColorsChangedListener mColorsListener;
     private long mStorageAt;
 
     LiveHomepageEntry(Preference preference, Runnable notifyChanged) {
@@ -139,29 +135,19 @@ final class LiveHomepageEntry {
     }
 
     private void applyColors(Context context) {
+        mIcon.applyAccent(context);
         boolean night = (context.getResources().getConfiguration().uiMode
                 & Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_YES;
-        int a100 = context.getColor(android.R.color.system_accent1_100);
-        int a200 = context.getColor(android.R.color.system_accent1_200);
-        int a300 = context.getColor(android.R.color.system_accent1_300);
-        int a400 = context.getColor(android.R.color.system_accent1_400);
-        int a500 = context.getColor(android.R.color.system_accent1_500);
-        int a600 = context.getColor(android.R.color.system_accent1_600);
-        int a700 = context.getColor(android.R.color.system_accent1_700);
-        int a800 = context.getColor(android.R.color.system_accent1_800);
         if (night) {
-            mIcon.setColors(a300, a200, 0x61FFFFFF, ColorUtils.setAlphaComponent(a400, 0x29),
-                    ColorUtils.setAlphaComponent(a500, 0x47), 0xFF0E0E0F);
-            mChipBg = ColorUtils.setAlphaComponent(a400, 0x29);
-            mChipFg = a100;
+            mChipBg = ColorUtils.setAlphaComponent(
+                    context.getColor(android.R.color.system_accent1_400), 0x29);
+            mChipFg = context.getColor(android.R.color.system_accent1_100);
             mNeutralBg = 0x12FFFFFF;
             mNeutralFg = 0xFFA39B9C;
         } else {
-            mIcon.setColors(a600, a700, 0x61000000, ColorUtils.setAlphaComponent(a600, 0x2E),
-                    ColorUtils.setAlphaComponent(a200, 0x66),
-                    context.getColor(android.R.color.system_neutral1_50));
-            mChipBg = ColorUtils.setAlphaComponent(a600, 0x24);
-            mChipFg = a800;
+            mChipBg = ColorUtils.setAlphaComponent(
+                    context.getColor(android.R.color.system_accent1_600), 0x24);
+            mChipFg = context.getColor(android.R.color.system_accent1_800);
             mNeutralBg = 0x12000000;
             mNeutralFg = 0xFF6B6466;
         }
@@ -205,19 +191,6 @@ final class LiveHomepageEntry {
                     mIcon.setState(level, true);
                     setChip(percent(level), false);
                 }
-            }
-            case WALLPAPER -> {
-                WallpaperColors colors = context.getSystemService(WallpaperManager.class)
-                        .getWallpaperColors(WallpaperManager.FLAG_SYSTEM);
-                int primary = colors != null ? colors.getPrimaryColor().toArgb()
-                        : context.getColor(android.R.color.system_accent1_300);
-                int secondary = colors != null && colors.getSecondaryColor() != null
-                        ? colors.getSecondaryColor().toArgb()
-                        : context.getColor(android.R.color.system_accent2_300);
-                int tertiary = colors != null && colors.getTertiaryColor() != null
-                        ? colors.getTertiaryColor().toArgb()
-                        : context.getColor(android.R.color.system_accent3_300);
-                mIcon.setSweep(new int[] {primary, secondary, tertiary, primary});
             }
             case STORAGE -> refreshStorage();
             case BATTERY -> {
@@ -348,11 +321,6 @@ final class LiveHomepageEntry {
                 context.getSystemService(DisplayManager.class).registerDisplayListener(
                         mDisplayListener, mHandler, DisplayManager.EVENT_TYPE_DISPLAY_BRIGHTNESS);
             }
-            case WALLPAPER -> {
-                mColorsListener = (colors, which) -> refresh();
-                context.getSystemService(WallpaperManager.class)
-                        .addOnColorsChangedListener(mColorsListener, mHandler);
-            }
             default -> {
             }
         }
@@ -383,11 +351,6 @@ final class LiveHomepageEntry {
                     .unregisterNetworkCallback(mNetworkCallback);
             mNetworkCallback = null;
         }
-        if (mColorsListener != null) {
-            context.getSystemService(WallpaperManager.class)
-                    .removeOnColorsChangedListener(mColorsListener);
-            mColorsListener = null;
-        }
     }
 
     private static int kindOf(String key) {
@@ -400,7 +363,6 @@ final class LiveHomepageEntry {
             case "top_level_sound" -> VOLUME;
             case "top_level_priority_modes" -> DND;
             case "top_level_display" -> BRIGHTNESS;
-            case "top_level_wallpaper" -> WALLPAPER;
             case "top_level_storage" -> STORAGE;
             case "top_level_battery" -> BATTERY;
             case "top_level_location" -> LOCATION;
