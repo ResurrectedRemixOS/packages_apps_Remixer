@@ -8,6 +8,25 @@
         android:summary="@string/edge_light_summary"
         android:fragment="com.resurrection.settings.edgelight.EdgeLightSettings" />
 
+    <PreferenceCategory
+        android:key="notification_icons_category"
+        android:title="@string/notification_icons_category">
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="notification_use_app_icons"
+            android:title="@string/notification_app_icons_title"
+            android:summary="@string/notification_app_icons_summary"
+            android:defaultValue="true" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="notification_use_themed_app_icons"
+            android:title="@string/notification_themed_app_icons_title"
+            android:summary="@string/notification_themed_app_icons_summary"
+            android:defaultValue="false"
+            android:dependency="notification_use_app_icons" />
+
+    </PreferenceCategory>
+
     <lineageos.preference.LineagePartsPreference
         android:key="charging_sounds_settings" />
 
