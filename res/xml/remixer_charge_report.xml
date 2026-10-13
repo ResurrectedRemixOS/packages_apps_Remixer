@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/charge_report_title">
+
+    <lineageos.preference.SystemSettingMainSwitchPreference
+        android:key="charge_report"
+        android:title="@string/charge_report_title"
+        android:summary="@string/charge_report_summary"
+        android:defaultValue="true" />
+
+    <com.resurrection.settings.preferences.SystemSettingListPreference
+        android:key="charge_report_min"
+        android:title="@string/charge_report_min_title"
+        android:entries="@array/charge_report_min_entries"
+        android:entryValues="@array/charge_report_min_values"
+        android:summary="%s"
+        android:defaultValue="10"
+        android:dependency="charge_report" />
+
+    <PreferenceCategory
+        android:key="charge_report_history_list"
+        android:title="@string/charge_report_history" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="charge_report_footer"
+        android:title="@string/charge_report_footer"
+        android:selectable="false" />
+</PreferenceScreen>

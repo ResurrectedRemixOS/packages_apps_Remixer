@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="charge_report_title">Charge reports</string>
+    <string name="charge_report_summary">A summary of each charge when you unplug</string>
+    <string name="charge_report_min_title">Only if it added at least</string>
+    <string-array name="charge_report_min_entries">
+        <item>5%</item>
+        <item>10%</item>
+        <item>20%</item>
+    </string-array>
+    <string-array name="charge_report_min_values" translatable="false">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+    </string-array>
+    <string name="charge_report_history">Last 7 days</string>
+    <string name="charge_report_row">+<xliff:g id="added" example="62">%1$d</xliff:g>%% in <xliff:g id="minutes" example="31">%2$d</xliff:g> min · peak <xliff:g id="peak" example="55.0">%3$.1f</xliff:g> W · average <xliff:g id="avg" example="41.3">%4$.1f</xliff:g> W · <xliff:g id="temp" example="38">%5$.0f</xliff:g> °C</string>
+    <string name="charge_report_empty">No charges yet</string>
+    <string name="charge_report_footer">The watts are what the phone measures, so they can differ from the number on the charger. Reports stay on the phone.</string>
+</resources>
