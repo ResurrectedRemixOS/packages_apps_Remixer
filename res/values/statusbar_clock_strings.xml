@@ -128,4 +128,28 @@
         <item>0</item>
         <item>1</item>
     </string-array>
+
+    <string name="status_bar_clock_rr_style_title">Clock look</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>Default</item>
+        <item>Neon</item>
+        <item>Split</item>
+        <item>RR mark</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Stacked</item>
+        <item>Ember</item>
+        <item>Glitch</item>
+    </string-array>
+    <string-array name="status_bar_clock_rr_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
 </resources>

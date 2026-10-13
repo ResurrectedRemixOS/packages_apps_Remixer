@@ -10,6 +10,14 @@
         android:key="sb_clock_category"
         android:title="@string/sb_clock_category">
 
+        <com.resurrection.settings.preferences.SystemSettingListPreference
+            android:key="status_bar_clock_rr_style"
+            android:title="@string/status_bar_clock_rr_style_title"
+            android:entries="@array/status_bar_clock_rr_style_entries"
+            android:entryValues="@array/status_bar_clock_rr_style_values"
+            android:summary="%s"
+            android:defaultValue="0" />
+
         <lineageos.preference.SystemSettingSwitchPreference
             android:key="status_bar_clock_bold"
             android:title="@string/sb_clock_bold_title"
