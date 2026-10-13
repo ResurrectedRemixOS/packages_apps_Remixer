@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="edge_light_title">Edge lighting</string>
-    <string name="edge_light_summary">Light up the screen edges when a notification arrives while the screen is off</string>
+    <string name="edge_light_summary">Light up the screen edges for notifications, calls, alarms and more</string>
     <string name="edge_light_color_mode_title">Color</string>
     <string name="edge_light_color_accent">Accent color</string>
     <string name="edge_light_color_notification">Notification color</string>
@@ -66,4 +66,16 @@
         <item>chase</item>
         <item>comet</item>
     </string-array>
+
+    <string name="edge_light_moments_title">Moments</string>
+    <string name="edge_light_moment_notifications">Notifications</string>
+    <string name="edge_light_moment_calls">Incoming calls</string>
+    <string name="edge_light_moment_alarms">Alarm and timer</string>
+    <string name="edge_light_moment_plugged">Plugged in</string>
+    <string name="edge_light_moment_battery_low">Battery low</string>
+    <string name="edge_light_moment_unlock">Unlocked</string>
+    <string name="edge_light_moment_color">Change color</string>
+    <string name="edge_light_moments_footer">Tap a moment\'s dot to change its color. Calls and alarms light up while they ring, even in silent mode. The other moments don\'t play in Do Not Disturb.</string>
+    <string name="edge_light_look_title">Look</string>
+    <string name="remixer_color_default">Default</string>
 </resources>

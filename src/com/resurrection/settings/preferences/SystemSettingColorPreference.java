@@ -19,6 +19,8 @@ import com.android.settings.R;
 import com.resurrection.settings.ColorPadView;
 import com.resurrection.settings.HueBarView;
 
+import java.util.function.IntConsumer;
+
 /** A color kept as an int in Settings.System, picked on the accent page's pad and hue bar. */
 public class SystemSettingColorPreference extends Preference {
     private int mDefault = Color.WHITE;
@@ -48,25 +50,37 @@ public class SystemSettingColorPreference extends Preference {
         super.onBindViewHolder(holder);
         View swatch = holder.findViewById(R.id.color_swatch);
         if (swatch != null) {
-            swatch.setBackground(dot(color()));
+            swatch.setBackground(dot(getContext(), color()));
         }
     }
 
     @Override
     protected void onClick() {
-        Context context = getContext();
+        showDialog(getContext(), getTitle(), color(), null, color -> {
+            if (callChangeListener(color)) {
+                Settings.System.putIntForUser(getContext().getContentResolver(), getKey(),
+                        color, UserHandle.USER_CURRENT);
+                setSummary(hex(color));
+                notifyChanged();
+            }
+        });
+    }
+
+    /** The pad and hue bar dialog. With {@code onReset}, a Default button calls it. */
+    public static void showDialog(Context context, CharSequence title, int initial,
+            Runnable onReset, IntConsumer onPicked) {
         View view = LayoutInflater.from(context).inflate(R.layout.remixer_color_dialog, null);
         ColorPadView pad = view.findViewById(R.id.color_pad);
         HueBarView hue = view.findViewById(R.id.color_hue);
         View preview = view.findViewById(R.id.color_preview);
         TextView label = view.findViewById(R.id.color_hex);
         float[] hsv = new float[3];
-        Color.colorToHSV(color(), hsv);
+        Color.colorToHSV(initial, hsv);
         Runnable update = () -> {
             int color = Color.HSVToColor(hsv);
             pad.setColor(hsv[0], hsv[1], hsv[2]);
             hue.setValue(hsv[0]);
-            preview.setBackground(dot(color));
+            preview.setBackground(dot(context, color));
             label.setText(hex(color));
         };
         pad.setOnChangeListener((saturation, value) -> {
@@ -79,20 +93,17 @@ public class SystemSettingColorPreference extends Preference {
             update.run();
         });
         update.run();
-        new AlertDialog.Builder(context)
-                .setTitle(getTitle())
+        AlertDialog.Builder builder = new AlertDialog.Builder(context)
+                .setTitle(title)
                 .setView(view)
                 .setNegativeButton(android.R.string.cancel, null)
-                .setPositiveButton(android.R.string.ok, (dialog, which) -> {
-                    int color = Color.HSVToColor(hsv);
-                    if (callChangeListener(color)) {
-                        Settings.System.putIntForUser(context.getContentResolver(), getKey(),
-                                color, UserHandle.USER_CURRENT);
-                        setSummary(hex(color));
-                        notifyChanged();
-                    }
-                })
-                .show();
+                .setPositiveButton(android.R.string.ok,
+                        (dialog, which) -> onPicked.accept(Color.HSVToColor(hsv)));
+        if (onReset != null) {
+            builder.setNeutralButton(R.string.remixer_color_default,
+                    (dialog, which) -> onReset.run());
+        }
+        builder.show();
     }
 
     private int color() {
@@ -100,11 +111,11 @@ public class SystemSettingColorPreference extends Preference {
                 mDefault, UserHandle.USER_CURRENT);
     }
 
-    private GradientDrawable dot(int color) {
+    static GradientDrawable dot(Context context, int color) {
         GradientDrawable shape = new GradientDrawable();
         shape.setShape(GradientDrawable.OVAL);
         shape.setColor(color);
-        shape.setStroke(Math.round(getContext().getResources().getDisplayMetrics().density),
+        shape.setStroke(Math.round(context.getResources().getDisplayMetrics().density),
                 0x40808080);
         return shape;
     }

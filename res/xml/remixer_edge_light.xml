@@ -15,6 +15,56 @@
         android:summary="@string/edge_light_summary"
         android:defaultValue="false" />
 
+    <PreferenceCategory
+        android:key="edge_light_moments"
+        android:title="@string/edge_light_moments_title">
+
+        <com.resurrection.settings.preferences.MomentPreference
+            android:key="edge_light_moment_notifications"
+            android:title="@string/edge_light_moment_notifications"
+            android:defaultValue="true"
+            android:dependency="edge_light_enabled" />
+
+        <com.resurrection.settings.preferences.MomentPreference
+            android:key="edge_light_moment_calls"
+            android:title="@string/edge_light_moment_calls"
+            android:defaultValue="true"
+            android:dependency="edge_light_enabled" />
+
+        <com.resurrection.settings.preferences.MomentPreference
+            android:key="edge_light_moment_alarms"
+            android:title="@string/edge_light_moment_alarms"
+            android:defaultValue="true"
+            android:dependency="edge_light_enabled" />
+
+        <com.resurrection.settings.preferences.MomentPreference
+            android:key="edge_light_moment_plugged"
+            android:title="@string/edge_light_moment_plugged"
+            android:defaultValue="true"
+            android:dependency="edge_light_enabled" />
+
+        <com.resurrection.settings.preferences.MomentPreference
+            android:key="edge_light_moment_battery_low"
+            android:title="@string/edge_light_moment_battery_low"
+            android:defaultValue="false"
+            android:dependency="edge_light_enabled" />
+
+        <com.resurrection.settings.preferences.MomentPreference
+            android:key="edge_light_moment_unlock"
+            android:title="@string/edge_light_moment_unlock"
+            android:defaultValue="false"
+            android:dependency="edge_light_enabled" />
+
+        <com.android.settingslib.widget.FooterPreference
+            android:key="edge_light_moments_footer"
+            android:title="@string/edge_light_moments_footer"
+            android:selectable="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="edge_light_look"
+        android:title="@string/edge_light_look_title">
+
     <com.resurrection.settings.preferences.SystemSettingListPreference
         android:key="edge_light_color_mode"
         android:title="@string/edge_light_color_mode_title"
@@ -87,4 +137,5 @@
         app:min="0"
         app:showSeekBarValue="true"
         android:dependency="edge_light_enabled" />
+    </PreferenceCategory>
 </PreferenceScreen>
