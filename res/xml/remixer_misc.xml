@@ -3,6 +3,12 @@
     android:title="@string/remixer_misc">
 
     <Preference
+        android:key="backup_page"
+        android:title="@string/backup_title"
+        android:summary="@string/backup_summary"
+        android:fragment="com.resurrection.settings.backup.BackupSettings" />
+
+    <Preference
         android:key="charge_report_page"
         android:title="@string/charge_report_title"
         android:summary="@string/charge_report_summary"

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/backup_title">
+
+    <Preference
+        android:key="backup_now"
+        android:title="@string/backup_now" />
+
+    <Preference
+        android:key="backup_restore"
+        android:title="@string/backup_restore"
+        android:summary="@string/backup_restore_summary" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="backup_footer"
+        android:title="@string/backup_footer"
+        android:selectable="false" />
+</PreferenceScreen>

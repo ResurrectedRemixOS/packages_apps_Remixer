@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">Backup &amp; restore</string>
+    <string name="backup_summary">Every RR customization in one file</string>
+    <string name="backup_now">Back up now</string>
+    <string name="backup_never">Last backup: never</string>
+    <string name="backup_last">Last backup: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore">Restore</string>
+    <string name="backup_restore_summary">Pick a backup file</string>
+    <string name="backup_restore_title">Restore this backup?</string>
+    <string name="backup_restore_message">It sets <xliff:g id="count" example="64">%1$d</xliff:g> RR settings. SystemUI restarts to apply them. Settings this build doesn\'t have are skipped.</string>
+    <string name="backup_saved">Saved <xliff:g id="count" example="64">%1$d</xliff:g> settings</string>
+    <string name="backup_restored">Restored <xliff:g id="count" example="64">%1$d</xliff:g> settings</string>
+    <string name="backup_failed">Couldn\'t save the backup</string>
+    <string name="backup_invalid">That file isn\'t a Resurrected Remix backup</string>
+    <string name="backup_footer">Only RR settings go in the file: Remixer, accent, clock, header image and boot animation. No accounts, passwords, Wi-Fi networks, apps or messages. Restore only writes settings on RR\'s own list.</string>
+</resources>
