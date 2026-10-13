@@ -32,6 +32,12 @@
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
 
+    <lineageos.preference.SystemSettingSwitchPreference
+        android:key="screen_on_time_info"
+        android:title="@string/screen_on_time_title"
+        android:summary="@string/screen_on_time_summary"
+        android:defaultValue="true" />
+
     <Preference
         android:key="remixer_weather"
         android:title="@string/remixer_weather"

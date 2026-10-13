@@ -4,4 +4,6 @@
     <string name="lockscreen_battery_info_summary">Show current, watts, voltage and battery temperature while charging</string>
     <string name="pocket_mode_title">Pocket mode</string>
     <string name="pocket_mode_summary">While the proximity sensor is covered, the screen doesn\'t wake up and ignores touches</string>
+    <string name="screen_on_time_title">Screen-on time</string>
+    <string name="screen_on_time_summary">Show screen-on time since the last full charge on the lock screen while charging and on the Battery Saver tile</string>
 </resources>
