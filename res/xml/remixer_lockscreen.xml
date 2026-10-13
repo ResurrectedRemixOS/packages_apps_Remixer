@@ -20,6 +20,12 @@
         android:key="remixer_lock_media_style"
         android:title="@string/remixer_lock_media_style" />
 
+    <Preference
+        android:key="charging_glow_page"
+        android:title="@string/charging_glow_title"
+        android:summary="@string/charging_glow_summary"
+        android:fragment="com.resurrection.settings.chargingglow.ChargingGlowSettings" />
+
     <lineageos.preference.SystemSettingSwitchPreference
         android:key="pocket_judge"
         android:title="@string/pocket_mode_title"

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/charging_glow_title">
+
+    <lineageos.preference.SystemSettingMainSwitchPreference
+        android:key="charging_glow"
+        android:title="@string/charging_glow_title"
+        android:summary="@string/charging_glow_summary"
+        android:defaultValue="true" />
+
+    <PreferenceCategory
+        android:key="charging_glow_color_category"
+        android:title="@string/charging_glow_color_category">
+
+        <com.resurrection.settings.preferences.SystemSettingListPreference
+            android:key="charging_glow_color"
+            android:title="@string/charging_glow_color_title"
+            android:entries="@array/charging_glow_color_entries"
+            android:entryValues="@array/charging_glow_color_values"
+            android:summary="%s"
+            android:defaultValue="0"
+            android:dependency="charging_glow" />
+
+        <com.resurrection.settings.preferences.SystemSettingColorPreference
+            android:key="charging_glow_custom_color"
+            android:title="@string/charging_glow_custom_color_title"
+            android:defaultValue="#FF003F"
+            android:dependency="charging_glow" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="charging_glow_look_category"
+        android:title="@string/charging_glow_look_category">
+
+        <com.resurrection.settings.preferences.SystemSettingListPreference
+            android:key="charging_glow_height"
+            android:title="@string/charging_glow_height_title"
+            android:entries="@array/charging_glow_height_entries"
+            android:entryValues="@array/charging_glow_height_values"
+            android:summary="%s"
+            android:defaultValue="0"
+            android:dependency="charging_glow" />
+
+        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+            android:key="charging_glow_brightness"
+            android:title="@string/charging_glow_brightness_title"
+            android:defaultValue="70"
+            android:max="100"
+            app:min="10"
+            app:showSeekBarValue="true"
+            android:dependency="charging_glow" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="charging_glow_ripple"
+            android:title="@string/charging_glow_ripple_title"
+            android:defaultValue="true"
+            android:dependency="charging_glow" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="charging_glow_aod"
+            android:title="@string/charging_glow_aod_title"
+            android:summary="@string/charging_glow_aod_summary"
+            android:defaultValue="true"
+            android:dependency="charging_glow" />
+    </PreferenceCategory>
+</PreferenceScreen>
