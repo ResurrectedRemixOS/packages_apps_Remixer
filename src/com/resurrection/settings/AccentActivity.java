@@ -98,6 +98,12 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
         mNames = withCustom(getResources().getStringArray(R.array.accent_names),
                 getString(R.string.accent_custom));
         mColors = withCustom(getResources().getStringArray(R.array.accent_colors), CUSTOM);
+        // Ring sync's prize: Ember joins the list once a score of 50 unlocks it.
+        if (android.provider.Settings.System.getIntForUser(getContentResolver(),
+                "rr_ember_unlocked", 0, android.os.UserHandle.USER_CURRENT) == 1) {
+            mNames = append(mNames, getString(R.string.accent_ember));
+            mColors = append(mColors, "#FF5A1F");
+        }
         mSelected = findSelected();
 
         mPreviewName = findViewById(R.id.accent_preview_name);
@@ -324,6 +330,12 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
         return ColorUtils.calculateContrast(Color.WHITE, background)
                 >= ColorUtils.calculateContrast(Color.BLACK, background)
                 ? Color.WHITE : Color.BLACK;
+    }
+
+    private static String[] append(String[] items, String item) {
+        String[] out = java.util.Arrays.copyOf(items, items.length + 1);
+        out[items.length] = item;
+        return out;
     }
 
     private static String[] withCustom(String[] items, String custom) {

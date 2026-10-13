@@ -11,6 +11,29 @@
     <string name="pie_style">Style</string>
     <string name="pie_clock">Clock and battery above it</string>
     <string name="pie_size">Size</string>
+    <string name="pie_items">Slices</string>
+    <string-array name="pie_items_entries">
+        <item>Back</item>
+        <item>Home</item>
+        <item>Recents</item>
+        <item>Notifications</item>
+        <item>Flashlight</item>
+        <item>Screenshot</item>
+        <item>Power menu</item>
+        <item>Assistant</item>
+        <item>Camera</item>
+    </string-array>
+    <string-array name="pie_items_values" translatable="false">
+        <item>back</item>
+        <item>home</item>
+        <item>recents</item>
+        <item>notifications</item>
+        <item>flashlight</item>
+        <item>screenshot</item>
+        <item>power</item>
+        <item>assistant</item>
+        <item>camera</item>
+    </string-array>
     <string name="pie_footer">It needs a quarter-second hold without moving, so a quick swipe from the edge still goes back. It doesn\'t open on the lock screen.</string>
     <string-array name="pie_edges_entries">
         <item>Left</item>
@@ -60,6 +83,7 @@
     <string name="gesture_anywhere_length">Length</string>
     <string name="gesture_anywhere_footer">Swipe in from the strip, then draw. Gestures stay on the phone. It\'s off on the lock screen, and back still works on the rest of the edge.</string>
     <string name="gesture_anywhere_record_hint">Draw your gesture</string>
+    <string name="gesture_anywhere_record_again">Once more (<xliff:g id="n" example="2">%1$d</xliff:g>/<xliff:g id="total" example="3">%2$d</xliff:g>)</string>
     <string name="gesture_anywhere_record_action">What should it open?</string>
     <string name="gesture_action_camera">Camera</string>
     <string name="gesture_action_music">Music</string>

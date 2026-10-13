@@ -33,8 +33,12 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /** Draw a new gesture, pick what it opens, and it's saved for SystemUI. */
 public class GestureRecordActivity extends Activity {
+    private static final int SAMPLES = 3;
+    private final List<Gesture> mSamples = new ArrayList<>();
+    private TextView mHint;
     private static final String[] ACTIONS = {"camera", "music", "flashlight", "screenshot", "dnd"};
     private static final int[] LABELS = {R.string.gesture_action_camera,
             R.string.gesture_action_music, R.string.gesture_action_flashlight,
@@ -64,6 +68,7 @@ public class GestureRecordActivity extends Activity {
         FrameLayout root = new FrameLayout(this);
         root.setBackgroundColor(0xFF0A0405);
         TextView hint = new TextView(this);
+        mHint = hint;
         hint.setText(R.string.gesture_anywhere_record_hint);
         hint.setTextColor(Color.WHITE);
         hint.setTextSize(17);
@@ -78,7 +83,15 @@ public class GestureRecordActivity extends Activity {
         canvas.setGestureStrokeWidth(10 * getResources().getDisplayMetrics().density);
         canvas.setGestureStrokeType(GestureOverlayView.GESTURE_STROKE_TYPE_MULTIPLE);
         canvas.setFadeOffset(700);
-        canvas.addOnGesturePerformedListener((overlay, gesture) -> chooseAction(gesture));
+        canvas.addOnGesturePerformedListener((overlay, gesture) -> {
+            mSamples.add(gesture);
+            if (mSamples.size() < SAMPLES) {
+                mHint.setText(getString(R.string.gesture_anywhere_record_again,
+                        mSamples.size() + 1, SAMPLES));
+            } else {
+                chooseAction(gesture);
+            }
+        });
         root.addView(canvas, new FrameLayout.LayoutParams(-1, -1));
         setContentView(root);
     }
@@ -113,23 +126,31 @@ public class GestureRecordActivity extends Activity {
                 .show();
     }
 
+    private static JSONArray strokes(Gesture gesture) throws org.json.JSONException {
+        JSONArray strokes = new JSONArray();
+        for (GestureStroke stroke : gesture.getStrokes()) {
+            JSONArray flat = new JSONArray();
+            float[] points = stroke.points;
+            long t = 0;
+            for (int i = 0; i + 1 < points.length; i += 2) {
+                flat.put(points[i]).put(points[i + 1]).put(t);
+                t += 16;
+            }
+            strokes.put(flat);
+        }
+        return strokes;
+    }
+
     private void save(Gesture gesture, String action) {
         try {
-            JSONArray strokes = new JSONArray();
-            for (GestureStroke stroke : gesture.getStrokes()) {
-                JSONArray flat = new JSONArray();
-                float[] points = stroke.points;
-                long t = 0;
-                for (int i = 0; i + 1 < points.length; i += 2) {
-                    flat.put(points[i]).put(points[i + 1]).put(t);
-                    t += 16;
-                }
-                strokes.put(flat);
-            }
+            JSONArray samples = new JSONArray();
+            for (Gesture sample : mSamples) samples.put(strokes(sample));
+            JSONArray strokes = strokes(gesture);
             String json = Settings.System.getStringForUser(getContentResolver(),
                     GestureAnywhereSettings.KEY_CUSTOM, UserHandle.USER_CURRENT);
             JSONArray all = new JSONArray(json != null ? json : "[]");
-            all.put(new JSONObject().put("action", action).put("strokes", strokes));
+            all.put(new JSONObject().put("action", action).put("strokes", strokes)
+                    .put("samples", samples));
             Settings.System.putStringForUser(getContentResolver(),
                     GestureAnywhereSettings.KEY_CUSTOM, all.toString(), UserHandle.USER_CURRENT);
         } catch (Exception e) {

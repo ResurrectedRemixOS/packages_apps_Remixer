@@ -40,6 +40,14 @@
         android:defaultValue="0"
         android:dependency="pie_controls" />
 
+    <MultiSelectListPreference
+        android:key="pie_items_picker"
+        android:title="@string/pie_items"
+        android:entries="@array/pie_items_entries"
+        android:entryValues="@array/pie_items_values"
+        android:persistent="false"
+        android:dependency="pie_controls" />
+
     <lineageos.preference.SystemSettingSwitchPreference
         android:key="pie_clock"
         android:title="@string/pie_clock"
