@@ -9,7 +9,6 @@
 
     <!-- Indexed by persist.sys.bootanimation_style, in the order of BootAnimation.cpp. -->
     <string-array name="boot_animation_names" translatable="false">
-        <item>Default</item>
         <item>Crimson glow</item>
         <item>Neon draw</item>
         <item>Glitch</item>
@@ -25,7 +24,6 @@
 
     <string-array name="boot_animation_files" translatable="false">
         <item>/product/media/bootanimation.zip</item>
-        <item>/product/media/bootanimation_rr_glow.zip</item>
         <item>/product/media/bootanimation_rr_neon.zip</item>
         <item>/product/media/bootanimation_rr_glitch.zip</item>
         <item>/product/media/bootanimation_rr_lockup.zip</item>
