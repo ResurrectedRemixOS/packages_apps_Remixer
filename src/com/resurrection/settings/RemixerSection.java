@@ -20,6 +20,8 @@ import com.android.settingslib.widget.LayoutPreference;
 import com.resurrection.settings.homepage.HomepageStyle;
 
 import java.util.Locale;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
 
 /**
  * One Remixer section, picked by the "section" extra of its hub entry: a banner in the
@@ -90,6 +92,15 @@ public class RemixerSection extends SettingsPreferenceFragment {
         removeUnless("pocket_judge", context.getResources().getBoolean(
                 com.android.internal.R.bool.config_pocketModeSupported));
 
+        bindVisibility("status_bar_clock_date_display", value -> !"0".equals(value),
+                "status_bar_clock_date_position", "status_bar_clock_date_style",
+                "status_bar_clock_date_format");
+        bindVisibility("statusbar_clock_chip", "13"::equals,
+                "statusbar_clock_chip_gradient_start_color",
+                "statusbar_clock_chip_gradient_end_color",
+                "statusbar_clock_chip_gradient_angle",
+                "statusbar_clock_chip_gradient_mask_text");
+
         final ListPreference settingsStyle = findPreference("remixer_settings_style");
         if (settingsStyle != null) {
             settingsStyle.setValue(HomepageStyle.get(context));
@@ -98,6 +109,28 @@ public class RemixerSection extends SettingsPreferenceFragment {
                 return true;
             });
         }
+    }
+
+    /** Shows the dependent entries only while the list's value passes the test. */
+    private void bindVisibility(String listKey, Predicate<String> test, String... keys) {
+        final ListPreference list = findPreference(listKey);
+        if (list == null) {
+            return;
+        }
+        final Consumer<String> apply = value -> {
+            final boolean visible = test.test(value != null ? value : "0");
+            for (String key : keys) {
+                final Preference preference = findPreference(key);
+                if (preference != null) {
+                    preference.setVisible(visible);
+                }
+            }
+        };
+        apply.accept(list.getValue());
+        list.setOnPreferenceChangeListener((preference, value) -> {
+            apply.accept((String) value);
+            return true;
+        });
     }
 
     private void removeUnless(String key, boolean keep) {

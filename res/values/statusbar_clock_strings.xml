@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sb_clock_category">Clock &amp; date</string>
+    <string name="sb_clock_bold_title">Bold clock</string>
+    <string name="sb_clock_bold_summary">Show the status bar clock in bold</string>
+    <string name="sb_clock_period_separator_title">Period separator</string>
+    <string name="sb_clock_period_separator_summary">10.45 instead of 10:45</string>
+    <string name="sb_clock_date_title">Date</string>
+    <string name="sb_clock_date_position_title">Date position</string>
+    <string name="sb_clock_date_style_title">Date case</string>
+    <string name="sb_clock_date_format_title">Date format</string>
+
+    <string name="sb_clock_chip_category">Clock background</string>
+    <string name="sb_clock_chip_title">Background style</string>
+    <string name="sb_clock_chip_start_title">Gradient start</string>
+    <string name="sb_clock_chip_end_title">Gradient end</string>
+    <string name="sb_clock_chip_angle_title">Gradient angle</string>
+    <string name="sb_clock_chip_mask_title">Cut the time out of the gradient</string>
+    <string name="sb_clock_chip_mask_summary">The gradient shows through the digits instead of behind them</string>
+
+    <string-array name="sb_clock_date_entries" translatable="false">
+        <item>Hidden</item>
+        <item>Small</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="sb_clock_date_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="sb_clock_date_position_entries" translatable="false">
+        <item>Before the time</item>
+        <item>After the time</item>
+    </string-array>
+    <string-array name="sb_clock_date_position_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="sb_clock_date_style_entries" translatable="false">
+        <item>As written</item>
+        <item>lowercase</item>
+        <item>UPPERCASE</item>
+    </string-array>
+    <string-array name="sb_clock_date_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- SimpleDateFormat patterns; the entries show them as written. -->
+    <string-array name="sb_clock_date_formats" translatable="false">
+        <item>EEE</item>
+        <item>EEE dd</item>
+        <item>EEE dd MMM</item>
+        <item>EEE MMM dd</item>
+        <item>EEEE dd/MM</item>
+        <item>EEEE MM/dd</item>
+        <item>dd MMM</item>
+        <item>MMM dd</item>
+        <item>dd/MM</item>
+        <item>MM/dd</item>
+        <item>dd/MM/yy</item>
+        <item>MM/dd/yy</item>
+        <item>yyyy-MM-dd</item>
+    </string-array>
+
+    <!-- Indexed by Settings.System.STATUSBAR_CLOCK_CHIP; HomeStatusBarViewBinder draws them. -->
+    <string-array name="sb_clock_chip_entries" translatable="false">
+        <item>None</item>
+        <item>Accent</item>
+        <item>Accent outline</item>
+        <item>Accent gradient</item>
+        <item>Ocean</item>
+        <item>Neumorphic</item>
+        <item>Ocean border</item>
+        <item>Ocean shadow</item>
+        <item>Blue outline</item>
+        <item>Accent shadow</item>
+        <item>Duo gradient</item>
+        <item>Duo gradient, square</item>
+        <item>Duo border</item>
+        <item>Custom gradient</item>
+        <item>RR crimson</item>
+        <item>RR neon</item>
+        <item>RR tag</item>
+        <item>RR glass</item>
+    </string-array>
+    <string-array name="sb_clock_chip_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+    </string-array>
+</resources>

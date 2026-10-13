@@ -1,8 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:title="@string/remixer_statusbar">
 
     <lineageos.preference.LineagePartsPreference
         android:key="status_bar_settings" />
+
+    <PreferenceCategory
+        android:key="sb_clock_category"
+        android:title="@string/sb_clock_category">
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="status_bar_clock_bold"
+            android:title="@string/sb_clock_bold_title"
+            android:summary="@string/sb_clock_bold_summary"
+            android:defaultValue="false" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="status_bar_clock_period_separator"
+            android:title="@string/sb_clock_period_separator_title"
+            android:summary="@string/sb_clock_period_separator_summary"
+            android:defaultValue="false" />
+
+        <com.resurrection.settings.preferences.SystemSettingListPreference
+            android:key="status_bar_clock_date_display"
+            android:title="@string/sb_clock_date_title"
+            android:summary="%s"
+            android:entries="@array/sb_clock_date_entries"
+            android:entryValues="@array/sb_clock_date_values"
+            android:defaultValue="0" />
+
+        <com.resurrection.settings.preferences.SystemSettingListPreference
+            android:key="status_bar_clock_date_position"
+            android:title="@string/sb_clock_date_position_title"
+            android:summary="%s"
+            android:entries="@array/sb_clock_date_position_entries"
+            android:entryValues="@array/sb_clock_date_position_values"
+            android:defaultValue="0" />
+
+        <com.resurrection.settings.preferences.SystemSettingListPreference
+            android:key="status_bar_clock_date_style"
+            android:title="@string/sb_clock_date_style_title"
+            android:summary="%s"
+            android:entries="@array/sb_clock_date_style_entries"
+            android:entryValues="@array/sb_clock_date_style_values"
+            android:defaultValue="0" />
+
+        <com.resurrection.settings.preferences.SystemSettingListPreference
+            android:key="status_bar_clock_date_format"
+            android:title="@string/sb_clock_date_format_title"
+            android:summary="%s"
+            android:entries="@array/sb_clock_date_formats"
+            android:entryValues="@array/sb_clock_date_formats"
+            android:defaultValue="EEE" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="sb_clock_chip_category"
+        android:title="@string/sb_clock_chip_category">
+
+        <com.resurrection.settings.preferences.SystemSettingListPreference
+            android:key="statusbar_clock_chip"
+            android:title="@string/sb_clock_chip_title"
+            android:summary="%s"
+            android:entries="@array/sb_clock_chip_entries"
+            android:entryValues="@array/sb_clock_chip_values"
+            android:defaultValue="0" />
+
+        <com.resurrection.settings.preferences.SystemSettingColorPreference
+            android:key="statusbar_clock_chip_gradient_start_color"
+            android:title="@string/sb_clock_chip_start_title"
+            android:defaultValue="#FF6B6B" />
+
+        <com.resurrection.settings.preferences.SystemSettingColorPreference
+            android:key="statusbar_clock_chip_gradient_end_color"
+            android:title="@string/sb_clock_chip_end_title"
+            android:defaultValue="#4ECDC4" />
+
+        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+            android:key="statusbar_clock_chip_gradient_angle"
+            android:title="@string/sb_clock_chip_angle_title"
+            android:defaultValue="0"
+            android:max="360"
+            app:min="0"
+            app:showSeekBarValue="true" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="statusbar_clock_chip_gradient_mask_text"
+            android:title="@string/sb_clock_chip_mask_title"
+            android:summary="@string/sb_clock_chip_mask_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
 
 </PreferenceScreen>
