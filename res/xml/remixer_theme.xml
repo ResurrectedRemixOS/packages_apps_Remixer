@@ -4,6 +4,11 @@
     android:title="@string/remixer_theme">
 
     <Preference
+        android:key="remixer_looks"
+        android:title="@string/looks_title"
+        android:summary="@string/looks_summary" />
+
+    <Preference
         android:key="remixer_fonts"
         android:title="@string/remixer_fonts"
         android:summary="@string/remixer_fonts_summary" />

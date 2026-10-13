@@ -240,6 +240,8 @@ public class RemixerSection extends SettingsPreferenceFragment {
                 return new Intent(getContext(), BootAnimationActivity.class);
             case "remixer_clock_faces":
                 return new Intent(getContext(), ClockFaceActivity.class);
+            case "remixer_looks":
+                return new Intent(getContext(), LooksActivity.class);
             case "remixer_quick_launch":
                 return new Intent(getContext(), QuickLaunchActivity.class);
             case "remixer_udfps_icon":

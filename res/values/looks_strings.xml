@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_title">Looks</string>
+    <string name="looks_summary">Your whole setup in one tap</string>
+    <string name="looks_rr">RR looks</string>
+    <string name="looks_yours">Your looks</string>
+    <string name="looks_none">Nothing saved yet</string>
+    <string name="looks_save">Save current</string>
+    <string name="looks_import">Import</string>
+    <string name="looks_import_clipboard">From the clipboard</string>
+    <string name="looks_import_file">From a file</string>
+    <string name="looks_name">Name</string>
+    <string name="looks_mine">My look</string>
+    <string name="looks_apply">Apply</string>
+    <string name="looks_share">Share</string>
+    <string name="looks_delete">Delete</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> applied</string>
+    <string name="looks_failed">Couldn\'t apply all of it</string>
+    <string name="looks_invalid">That isn\'t an RR look</string>
+    <string name="looks_part_accent">Accent color</string>
+    <string name="looks_part_qs">QS style</string>
+    <string name="looks_part_clock_face">Lock screen clock face</string>
+    <string name="looks_part_font">Font</string>
+    <string name="looks_part_clock_look">Status bar clock look</string>
+    <string name="looks_part_edge">Edge lighting color</string>
+</resources>
