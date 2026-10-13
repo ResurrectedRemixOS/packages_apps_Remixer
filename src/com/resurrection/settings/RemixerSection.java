@@ -95,6 +95,8 @@ public class RemixerSection extends SettingsPreferenceFragment {
         bindVisibility("status_bar_clock_date_display", value -> !"0".equals(value),
                 "status_bar_clock_date_position", "status_bar_clock_date_style",
                 "status_bar_clock_date_format");
+        bindVisibility("status_bar_weather", value -> !"0".equals(value),
+                "status_bar_weather_position");
         bindVisibility("statusbar_clock_chip", "13"::equals,
                 "statusbar_clock_chip_gradient_start_color",
                 "statusbar_clock_chip_gradient_end_color",
