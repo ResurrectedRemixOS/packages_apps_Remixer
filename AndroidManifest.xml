@@ -56,5 +56,10 @@
             android:name=".ClockFaceActivity"
             android:exported="false"
             android:label="@string/remixer_clock_faces" />
+
+        <activity
+            android:name=".BootAnimationActivity"
+            android:exported="false"
+            android:label="@string/remixer_boot_animation" />
     </application>
 </manifest>

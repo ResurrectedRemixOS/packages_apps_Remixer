@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="remixer_boot_animation">Boot animation</string>
+    <string name="boot_animation_note">Plays the next time the phone starts.</string>
+    <string name="boot_animation_custom">Your file</string>
+    <string name="boot_animation_custom_pick">Pick a file…</string>
+    <string name="boot_animation_custom_invalid">That file isn\'t a boot animation</string>
+    <string name="boot_animation_failed">Couldn\'t change the boot animation</string>
+
+    <!-- Indexed by persist.sys.bootanimation_style, in the order of BootAnimation.cpp. -->
+    <string-array name="boot_animation_names" translatable="false">
+        <item>Default</item>
+        <item>Crimson glow</item>
+        <item>Neon draw</item>
+        <item>Glitch</item>
+        <item>Resurrected Remix</item>
+        <item>Classic RR</item>
+        <item>AOKP</item>
+        <item>CyanogenMod</item>
+        <item>Dirty Unicorns</item>
+        <item>PAC-ROM</item>
+        <item>SlimRoms</item>
+        <item>@string/boot_animation_custom</item>
+    </string-array>
+
+    <string-array name="boot_animation_files" translatable="false">
+        <item>/product/media/bootanimation.zip</item>
+        <item>/product/media/bootanimation_rr_glow.zip</item>
+        <item>/product/media/bootanimation_rr_neon.zip</item>
+        <item>/product/media/bootanimation_rr_glitch.zip</item>
+        <item>/product/media/bootanimation_rr_lockup.zip</item>
+        <item>/product/media/bootanimation_rr.zip</item>
+        <item>/product/media/bootanimation_aokp.zip</item>
+        <item>/product/media/bootanimation_cm.zip</item>
+        <item>/product/media/bootanimation_du.zip</item>
+        <item>/product/media/bootanimation_pac.zip</item>
+        <item>/product/media/bootanimation_slim.zip</item>
+        <item>/data/misc/bootanim/bootanimation.zip</item>
+    </string-array>
+</resources>

@@ -18,6 +18,10 @@
         android:title="@string/remixer_wallpapers"
         android:summary="@string/remixer_wallpapers_summary" />
 
+    <Preference
+        android:key="remixer_boot_animation"
+        android:title="@string/remixer_boot_animation" />
+
     <ListPreference
         android:key="remixer_settings_style"
         android:title="@string/remixer_settings_style"

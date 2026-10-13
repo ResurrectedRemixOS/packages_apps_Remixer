@@ -114,6 +114,10 @@ public class RemixerSection extends SettingsPreferenceFragment {
         if (qsStyle != null) {
             qsStyle.setSummary(QsStyleActivity.currentName(getContext()));
         }
+        final Preference bootAnimation = findPreference("remixer_boot_animation");
+        if (bootAnimation != null) {
+            bootAnimation.setSummary(BootAnimationActivity.currentName(getContext()));
+        }
         final Preference clockFaces = findPreference("remixer_clock_faces");
         if (clockFaces != null) {
             clockFaces.setSummary(ClockFaceActivity.currentName(getContext()));
@@ -192,6 +196,8 @@ public class RemixerSection extends SettingsPreferenceFragment {
                 return QsStyleActivity.lockMediaIntent(getContext());
             case "remixer_headers":
                 return new Intent(getContext(), HeaderActivity.class);
+            case "remixer_boot_animation":
+                return new Intent(getContext(), BootAnimationActivity.class);
             case "remixer_clock_faces":
                 return new Intent(getContext(), ClockFaceActivity.class);
             case "remixer_udfps_icon":
