@@ -2,6 +2,23 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/remixer_navigation">
 
+    <com.resurrection.settings.preferences.SystemSettingListPreference
+        android:key="rr_sidebar_style"
+        android:title="@string/sidebar_style_title"
+        android:entries="@array/sidebar_style_entries"
+        android:entryValues="@array/sidebar_style_values"
+        android:summary="%s"
+        android:defaultValue="1" />
+
+    <Preference
+        android:key="sidebar_settings"
+        android:title="@string/sidebar_settings_title"
+        android:summary="@string/sidebar_settings_summary">
+        <intent
+            android:targetPackage="com.libremobileos.sidebar"
+            android:targetClass="com.libremobileos.sidebar.ui.sidebar.SidebarSettingsActivity" />
+    </Preference>
+
     <Preference
         android:key="pie_page"
         android:title="@string/pie_title"

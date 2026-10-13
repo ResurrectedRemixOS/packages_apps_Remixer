@@ -113,4 +113,17 @@
         <item>0</item>
         <item>1</item>
     </string-array>
+    <string name="sidebar_style_title">App sidebar look</string>
+    <string-array name="sidebar_style_entries">
+        <item>Classic</item>
+        <item>RR glass</item>
+        <item>Neon</item>
+    </string-array>
+    <string-array name="sidebar_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="sidebar_settings_title">App sidebar</string>
+    <string name="sidebar_settings_summary">Apps, size and the smart clipboard</string>
 </resources>
