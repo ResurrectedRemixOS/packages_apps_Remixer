@@ -21,6 +21,10 @@
         android:title="@string/remixer_lock_media_style" />
 
     <Preference
+        android:key="remixer_quick_launch"
+        android:title="@string/quick_launch_main" />
+
+    <Preference
         android:key="charging_glow_page"
         android:title="@string/charging_glow_title"
         android:summary="@string/charging_glow_summary"

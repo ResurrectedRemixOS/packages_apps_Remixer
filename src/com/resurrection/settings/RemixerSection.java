@@ -91,6 +91,7 @@ public class RemixerSection extends SettingsPreferenceFragment {
         removeUnless("remixer_udfps_animation", UdfpsActivity.hasAnimations(context));
         removeUnless("pocket_judge", context.getResources().getBoolean(
                 com.android.internal.R.bool.config_pocketModeSupported));
+        removeUnless("remixer_quick_launch", QuickLaunchActivity.isSupported(context));
 
         bindVisibility("status_bar_clock_date_display", value -> !"0".equals(value),
                 "status_bar_clock_date_position", "status_bar_clock_date_style",
@@ -156,6 +157,10 @@ public class RemixerSection extends SettingsPreferenceFragment {
         final Preference clockFaces = findPreference("remixer_clock_faces");
         if (clockFaces != null) {
             clockFaces.setSummary(ClockFaceActivity.currentName(getContext()));
+        }
+        final Preference quickLaunch = findPreference("remixer_quick_launch");
+        if (quickLaunch != null) {
+            quickLaunch.setSummary(QuickLaunchActivity.summary(getContext()));
         }
         final Preference lockMedia = findPreference("remixer_lock_media_style");
         if (lockMedia != null) {
@@ -235,6 +240,8 @@ public class RemixerSection extends SettingsPreferenceFragment {
                 return new Intent(getContext(), BootAnimationActivity.class);
             case "remixer_clock_faces":
                 return new Intent(getContext(), ClockFaceActivity.class);
+            case "remixer_quick_launch":
+                return new Intent(getContext(), QuickLaunchActivity.class);
             case "remixer_udfps_icon":
                 return UdfpsActivity.intent(getContext(), UdfpsActivity.KIND_ICON);
             case "remixer_udfps_animation":
