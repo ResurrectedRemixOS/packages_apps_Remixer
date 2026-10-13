@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Ring sync</string>
+    <string name="ring_sync_name" translatable="false">RING SYNC</string>
+    <string name="ring_sync_tap">Tap when a ring lines up with the mark</string>
+    <string name="ring_sync_best">Best <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">PERFECT</string>
+    <string name="ring_sync_new_best">New best</string>
+    <string name="ring_sync_again">Tap to play again</string>
+    <string name="ring_sync_ember">Ember accent unlocked</string>
+    <string name="ring_sync_use_ember">Use Ember</string>
+    <string name="ring_sync_android">Android\'s easter egg</string>
+</resources>
