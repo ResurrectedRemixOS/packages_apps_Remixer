@@ -21,6 +21,12 @@
         android:title="@string/remixer_lock_media_style" />
 
     <Preference
+        android:key="now_bar_page"
+        android:title="@string/now_bar_title"
+        android:summary="@string/now_bar_summary"
+        android:fragment="com.resurrection.settings.nowbar.NowBarSettings" />
+
+    <Preference
         android:key="remixer_quick_launch"
         android:title="@string/quick_launch_main" />
 

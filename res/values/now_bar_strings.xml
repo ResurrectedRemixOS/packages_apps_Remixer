@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="now_bar_title">Now Bar</string>
+    <string name="now_bar_summary">Live activities at the bottom of the lock screen</string>
+    <string name="now_bar_show">Show</string>
+    <string name="now_bar_music">Music and video</string>
+    <string name="now_bar_timers">Timers, stopwatch and alarms</string>
+    <string name="now_bar_calls">Calls</string>
+    <string name="now_bar_live">Live Updates</string>
+    <string name="now_bar_live_summary">Navigation, rides, deliveries, scores</string>
+    <string name="now_bar_recording">Screen and voice recording</string>
+    <string name="now_bar_charging">Charging</string>
+    <string name="now_bar_flashlight">Flashlight</string>
+    <string name="now_bar_look">Look</string>
+    <string name="now_bar_wave">Wave animation</string>
+    <string name="now_bar_aod">Show on always-on display</string>
+    <string name="now_bar_chip">Chip in the status bar</string>
+    <string name="now_bar_chip_summary">Music and timers next to the clock while unlocked</string>
+    <string name="now_bar_footer">With music in the Now Bar, the big lock screen player is hidden. Swipe the bar to switch between activities, tap it to open the controls, and long-press it to hide one until it ends.</string>
+</resources>
