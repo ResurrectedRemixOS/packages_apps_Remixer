@@ -45,8 +45,8 @@ public class ChargeReportSettings extends SettingsPreferenceFragment {
         for (int i = 0; i < sessions.length(); i++) {
             JSONObject s = sessions.optJSONObject(i);
             if (s == null) continue;
-            Preference row = new Preference(getPrefContext());
-            row.setSelectable(false);
+            ChargeReportPreference row = new ChargeReportPreference(getPrefContext());
+            row.setCurve(s.optJSONArray("curve"));
             row.setTitle(DateUtils.formatDateTime(getContext(), s.optLong("start"),
                     DateUtils.FORMAT_SHOW_WEEKDAY | DateUtils.FORMAT_SHOW_TIME
                             | DateUtils.FORMAT_ABBREV_WEEKDAY));

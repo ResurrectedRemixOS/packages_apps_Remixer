@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingTop="14dp"
+    android:paddingBottom="14dp">
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@android:id/summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="?android:attr/textColorSecondary" />
+
+    <com.resurrection.settings.chargereport.ChargeCurveView
+        android:id="@+id/charge_curve"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
