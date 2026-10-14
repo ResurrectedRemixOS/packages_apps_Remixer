@@ -88,7 +88,8 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTitle(R.string.looks_title);
-        mThemed = new ContextThemeWrapper(this, R.style.Theme_Material3_DynamicColors_DayNight);
+        mThemed = new ContextThemeWrapper(this,
+                com.google.android.material.R.style.Theme_Material3_DynamicColors_DayNight);
         NestedScrollView scroll = new NestedScrollView(mThemed);
         mList = new LinearLayout(mThemed);
         mList.setOrientation(LinearLayout.VERTICAL);
