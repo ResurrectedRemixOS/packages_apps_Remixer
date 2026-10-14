@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="volume_page_title">Volume panel</string>
+    <string name="volume_page_summary">Neon, Glass, Pill or Classic RR</string>
+    <string name="volume_behavior">Behavior</string>
+    <string name="volume_on_left_title">Panel on the left</string>
+    <string name="volume_on_left_summary">Classic RR always sits at the top</string>
+    <string name="volume_ringer_title">Ringer mode button</string>
+    <string name="volume_tick_title">Tick as you slide</string>
+    <string name="volume_timeout_title">Hide after</string>
+    <string-array name="volume_timeout_entries">
+        <item>1.5 s</item>
+        <item>3 s</item>
+        <item>5 s</item>
+        <item>10 s</item>
+    </string-array>
+    <string-array name="volume_timeout_values" translatable="false">
+        <item>1500</item>
+        <item>3000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </string-array>
+    <string name="volume_footer">A look changes how the panel looks, not how it works. Android keeps the stock panel. Tap the dots to see every stream; the expanded panel uses the same look.</string>
+</resources>
