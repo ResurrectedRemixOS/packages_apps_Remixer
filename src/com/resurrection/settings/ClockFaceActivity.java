@@ -5,6 +5,7 @@
 
 package com.resurrection.settings;
 
+import android.animation.ValueAnimator;
 import android.app.AlertDialog;
 import android.app.WallpaperManager;
 import android.content.Context;
@@ -37,6 +38,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.core.widget.NestedScrollView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -74,6 +76,9 @@ public class ClockFaceActivity extends CollapsingToolbarBaseActivity {
 
     // Part of the lock screen shown, from the top: the clock and what sits under it.
     private static final float REGION = 0.62f;
+    /** The stage's width against the screen's, and while the options scroll. */
+    private static final float STAGE_SCALE = 0.72f;
+    private static final float STAGE_COMPACT = 0.42f;
 
     private static final String KEY_STYLE = Settings.Secure.LOCK_SCREEN_CUSTOM_CLOCK_STYLE;
     private static final String KEY_COLOR_MODE = Settings.Secure.LOCK_SCREEN_CUSTOM_CLOCK_COLOR_MODE;
@@ -135,6 +140,9 @@ public class ClockFaceActivity extends CollapsingToolbarBaseActivity {
     private int mApplied;
     private int mSelected;
     private int mStageGeneration;
+    private float mStageScale = 1f;
+    private float mStageTarget = 1f;
+    private ValueAnimator mStageAnimator;
     private int mThumbGeneration;
     private boolean mGuard;
     private boolean mTracking;
@@ -215,6 +223,20 @@ public class ClockFaceActivity extends CollapsingToolbarBaseActivity {
                 mStage.post(() -> mStage.setLayoutParams(lp));
             }
         });
+
+        // The stage starts smaller than the screen and shrinks further while the options scroll.
+        findViewById(R.id.clock_root).post(() -> {
+            mStageTarget = STAGE_SCALE;
+            applyStageScale(STAGE_SCALE);
+        });
+        ((NestedScrollView) findViewById(R.id.clock_scroll)).setOnScrollChangeListener(
+                (NestedScrollView.OnScrollChangeListener) (v, x, y, oldX, oldY) -> {
+                    if (y > dp(24)) {
+                        animateStage(STAGE_COMPACT);
+                    } else if (y == 0) {
+                        animateStage(STAGE_SCALE);
+                    }
+                });
 
         mApply.setOnClickListener(v -> apply());
 
@@ -590,6 +612,32 @@ public class ClockFaceActivity extends CollapsingToolbarBaseActivity {
                 }
             });
         });
+    }
+
+    private void animateStage(float target) {
+        if (target == mStageTarget) {
+            return;
+        }
+        mStageTarget = target;
+        if (mStageAnimator != null) {
+            mStageAnimator.cancel();
+        }
+        mStageAnimator = ValueAnimator.ofFloat(mStageScale, target);
+        mStageAnimator.setDuration(220);
+        mStageAnimator.addUpdateListener(a -> applyStageScale((float) a.getAnimatedValue()));
+        mStageAnimator.start();
+    }
+
+    /** Sets the stage's width; its height follows to keep the lock screen's proportions. */
+    private void applyStageScale(float scale) {
+        mStageScale = scale;
+        int available = findViewById(R.id.clock_root).getWidth() - dp(32);
+        if (available <= 0) {
+            return;
+        }
+        ViewGroup.LayoutParams lp = mStageCard.getLayoutParams();
+        lp.width = Math.round(available * scale);
+        mStageCard.setLayoutParams(lp);
     }
 
     private boolean stillWanted(int style) {
