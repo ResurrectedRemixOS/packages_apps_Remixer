@@ -12,6 +12,8 @@
     <string name="charging_glow_look_category">Look</string>
     <string name="charging_glow_height_title">Height</string>
     <string name="charging_glow_brightness_title">Brightness</string>
+    <string name="charging_glow_motion_title">Moving light</string>
+    <string name="charging_glow_motion_summary">A wave runs along the top and sparks rise while it charges</string>
     <string name="charging_glow_ripple_title">Ripple when plugged in</string>
     <string name="charging_glow_aod_title">Show on always-on display</string>
     <string name="charging_glow_aod_summary">A dim, still version</string>

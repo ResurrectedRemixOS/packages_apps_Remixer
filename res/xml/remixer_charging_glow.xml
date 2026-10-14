@@ -56,6 +56,13 @@
             android:dependency="charging_glow" />
 
         <lineageos.preference.SystemSettingSwitchPreference
+            android:key="charging_glow_motion"
+            android:title="@string/charging_glow_motion_title"
+            android:summary="@string/charging_glow_motion_summary"
+            android:defaultValue="true"
+            android:dependency="charging_glow" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
             android:key="charging_glow_ripple"
             android:title="@string/charging_glow_ripple_title"
             android:defaultValue="true"
