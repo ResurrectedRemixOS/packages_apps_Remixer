@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/battery_style_page_title">
+
+    <lineageos.preference.LineageSystemSettingListPreference
+        android:key="status_bar_battery_style"
+        android:title="@string/battery_style_title"
+        android:entries="@array/battery_style_entries"
+        android:entryValues="@array/battery_style_values"
+        android:summary="%s"
+        android:defaultValue="0" />
+
+    <lineageos.preference.LineageSystemSettingListPreference
+        android:key="status_bar_show_battery_percent"
+        android:title="@string/battery_percent_title"
+        android:entries="@array/battery_percent_entries"
+        android:entryValues="@array/battery_percent_values"
+        android:summary="%s"
+        android:defaultValue="0" />
+
+    <PreferenceCategory
+        android:key="battery_ring_category"
+        android:title="@string/battery_ring_category">
+
+        <com.resurrection.settings.preferences.SystemSettingListPreference
+            android:key="status_bar_battery_ring_color"
+            android:title="@string/battery_ring_color_title"
+            android:entries="@array/battery_ring_color_entries"
+            android:entryValues="@array/battery_ring_color_values"
+            android:summary="%s"
+            android:defaultValue="0" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="status_bar_battery_ring_spark"
+            android:title="@string/battery_ring_spark_title"
+            android:defaultValue="true" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="qs_battery_ring"
+            android:title="@string/battery_ring_tile_title"
+            android:summary="@string/battery_ring_tile_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="battery_style_footer"
+        android:title="@string/battery_style_footer"
+        android:selectable="false" />
+</PreferenceScreen>

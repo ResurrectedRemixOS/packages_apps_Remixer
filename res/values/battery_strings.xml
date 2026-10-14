@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="battery_style_page_title">Battery</string>
+    <string name="battery_style_page_summary">Style, percentage and the neon ring</string>
+    <string name="battery_style_title">Style</string>
+    <string-array name="battery_style_entries">
+        <item>Portrait</item>
+        <item>Circle</item>
+        <item>Dotted circle</item>
+        <item>Neon ring</item>
+        <item>Slim pill</item>
+        <item>Big percentage</item>
+        <item>Text</item>
+    </string-array>
+    <string-array name="battery_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>2</item>
+    </string-array>
+    <string name="battery_percent_title">Percentage</string>
+    <string-array name="battery_percent_entries">
+        <item>Hidden</item>
+        <item>Inside the icon</item>
+        <item>Next to it</item>
+    </string-array>
+    <string-array name="battery_percent_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="battery_ring_category">Neon ring</string>
+    <string name="battery_ring_color_title">Color</string>
+    <string-array name="battery_ring_color_entries">
+        <item>By level</item>
+        <item>Accent</item>
+        <item>White</item>
+    </string-array>
+    <string-array name="battery_ring_color_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Spark while charging</string>
+    <string name="battery_ring_tile_title">Same ring on the Quick Settings tile</string>
+    <string name="battery_ring_tile_summary">With the level and screen-on time</string>
+    <string name="battery_style_footer">By level: accent above 20%, red below, amber while Battery Saver is on. Accent keeps it accent; White follows the status bar like the stock icon.</string>
+</resources>
