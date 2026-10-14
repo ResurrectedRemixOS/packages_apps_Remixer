@@ -42,6 +42,7 @@ import java.util.List;
 public class RingSyncActivity extends Activity {
     private static final String PREFS = "ring_sync";
     private static final String KEY_BEST = "best";
+    private static final String KEY_VIBRATE = "vibrate";
     private static final String KEY_EMBER = "rr_ember_unlocked";
     private static final int EMBER_SCORE = 50;
     private static final String EMBER = "FF5A1F";
@@ -62,14 +63,11 @@ public class RingSyncActivity extends Activity {
     }
 
     private void useEmber() {
-        String json = "{\"android.theme.customization.system_palette\":\"" + EMBER + "\","
-                + "\"android.theme.customization.accent_color\":\"" + EMBER + "\","
-                + "\"android.theme.customization.color_source\":\"preset\","
-                + "\"android.theme.customization.theme_style\":\"CONTENT\","
-                + "\"android.theme.customization.color_both\":\"1\"}";
-        Settings.Secure.putStringForUser(getContentResolver(),
-                Settings.Secure.THEME_CUSTOMIZATION_OVERLAY_PACKAGES, json,
-                UserHandle.USER_CURRENT);
+        try {
+            new AccentController(this).apply("#" + EMBER);
+        } catch (SecurityException e) {
+            // Left as it was.
+        }
     }
 
     private void androidEgg() {
@@ -110,6 +108,7 @@ public class RingSyncActivity extends Activity {
         private final List<Ring> mRings = new ArrayList<>();
         private final RectF mEmberButton = new RectF();
         private final RectF mAndroidButton = new RectF();
+        private final RectF mVibrateButton = new RectF();
         private final ValueAnimator mClock = ValueAnimator.ofFloat(0f, 1f);
 
         private int mState = TITLE;
@@ -119,6 +118,7 @@ public class RingSyncActivity extends Activity {
         private int mBest;
         private boolean mNewBest;
         private boolean mEmberNow;
+        private boolean mVibrate;
         private long mLast;
         private float mSpawnIn;
         private float mFlash;
@@ -127,6 +127,7 @@ public class RingSyncActivity extends Activity {
         GameView(Context context) {
             super(context);
             mBest = mPrefs.getInt(KEY_BEST, 0);
+            mVibrate = mPrefs.getBoolean(KEY_VIBRATE, true);
             mRingPaint.setStyle(Paint.Style.STROKE);
             mRingPaint.setStrokeWidth(3 * mDensity);
             mRingPaint.setColor(mAccent);
@@ -216,7 +217,7 @@ public class RingSyncActivity extends Activity {
             mCombo = 0;
             mLives--;
             mCallout = null;
-            performHapticFeedback(HapticFeedbackConstants.REJECT);
+            if (mVibrate) performHapticFeedback(HapticFeedbackConstants.REJECT);
             if (mLives <= 0) end();
         }
 
@@ -257,8 +258,10 @@ public class RingSyncActivity extends Activity {
             mScore += perfect ? 1 + mCombo / 3 : 1;
             mCallout = perfect ? getString(R.string.ring_sync_perfect) : null;
             mFlash = 1f;
-            performHapticFeedback(perfect ? HapticFeedbackConstants.CONFIRM
-                    : HapticFeedbackConstants.CLOCK_TICK);
+            if (mVibrate) {
+                performHapticFeedback(perfect ? HapticFeedbackConstants.CONFIRM
+                        : HapticFeedbackConstants.CLOCK_TICK);
+            }
         }
 
         @Override
@@ -270,6 +273,10 @@ public class RingSyncActivity extends Activity {
                 tap();
             } else if (mAndroidButton.contains(x, y)) {
                 androidEgg();
+            } else if (mVibrateButton.contains(x, y)) {
+                mVibrate = !mVibrate;
+                mPrefs.edit().putBoolean(KEY_VIBRATE, mVibrate).apply();
+                if (mVibrate) performHapticFeedback(HapticFeedbackConstants.CONFIRM);
             } else if (mState == OVER && mEmberNow && mEmberButton.contains(x, y)) {
                 useEmber();
                 mEmberNow = false;
@@ -347,6 +354,11 @@ public class RingSyncActivity extends Activity {
                 mAndroidButton.set(cx - 120 * mDensity, y - 24 * mDensity, cx + 120 * mDensity,
                         y + 16 * mDensity);
                 text(canvas, getString(R.string.ring_sync_android), 12 * mDensity, cx, y, 0.45f);
+                float vy = h - 140 * mDensity;
+                mVibrateButton.set(cx - 120 * mDensity, vy - 24 * mDensity, cx + 120 * mDensity,
+                        vy + 16 * mDensity);
+                text(canvas, getString(mVibrate ? R.string.ring_sync_vibrate_on
+                        : R.string.ring_sync_vibrate_off), 12 * mDensity, cx, vy, 0.6f);
             }
         }
 

@@ -14,5 +14,7 @@
     <string name="ring_sync_ember">Ember accent unlocked</string>
     <string name="ring_sync_use_ember">Use Ember</string>
     <string name="ring_sync_android">Android\'s easter egg</string>
+    <string name="ring_sync_vibrate_on">Vibrate on hits · On</string>
+    <string name="ring_sync_vibrate_off">Vibrate on hits · Off</string>
     <string name="accent_ember">Ember</string>
 </resources>
