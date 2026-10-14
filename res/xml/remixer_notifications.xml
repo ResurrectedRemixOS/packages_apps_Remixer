@@ -18,13 +18,6 @@
             android:summary="@string/notification_app_icons_summary"
             android:defaultValue="true" />
 
-        <lineageos.preference.SystemSettingSwitchPreference
-            android:key="notification_use_themed_app_icons"
-            android:title="@string/notification_themed_app_icons_title"
-            android:summary="@string/notification_themed_app_icons_summary"
-            android:defaultValue="false"
-            android:dependency="notification_use_app_icons" />
-
     </PreferenceCategory>
 
     <lineageos.preference.LineagePartsPreference

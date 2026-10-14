@@ -3,6 +3,4 @@
     <string name="notification_icons_category">Icons</string>
     <string name="notification_app_icons_title">App icons</string>
     <string name="notification_app_icons_summary">Show the app\'s icon on notifications instead of its small symbol</string>
-    <string name="notification_themed_app_icons_title">Themed icons</string>
-    <string name="notification_themed_app_icons_summary">Tint app icons with your accent color</string>
 </resources>
