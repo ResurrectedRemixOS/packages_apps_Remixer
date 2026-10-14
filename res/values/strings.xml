@@ -78,6 +78,8 @@
     <string name="remixer_fonts_summary">System font</string>
     <string name="remixer_wallpapers">Wallpapers</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix wallpapers</string>
+    <string name="remixer_living_crimson">Living crimson</string>
+    <string name="remixer_living_crimson_summary">The RR glow as a live wallpaper</string>
     <string name="remixer_accents">Accents</string>
     <string name="remixer_accents_summary">Accent color</string>
     <string name="remixer_pulse">Pulse</string>

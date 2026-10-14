@@ -226,6 +226,11 @@ public class RemixerSection extends SettingsPreferenceFragment {
                 return new Intent(getContext(), FontActivity.class);
             case "remixer_wallpapers":
                 return new Intent(getContext(), WallpaperActivity.class);
+            case "remixer_living_crimson":
+                return new Intent(android.app.WallpaperManager.ACTION_CHANGE_LIVE_WALLPAPER)
+                        .putExtra(android.app.WallpaperManager.EXTRA_LIVE_WALLPAPER_COMPONENT,
+                                new android.content.ComponentName("org.resurrection.livingcrimson",
+                                        "org.resurrection.livingcrimson.LivingCrimsonService"));
             case "remixer_accents":
                 return new Intent(getContext(), AccentActivity.class);
             case "remixer_pulse":
