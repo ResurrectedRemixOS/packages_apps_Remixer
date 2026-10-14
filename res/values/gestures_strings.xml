@@ -125,5 +125,21 @@
         <item>2</item>
     </string-array>
     <string name="sidebar_settings_title">App sidebar</string>
-    <string name="sidebar_settings_summary">Apps, size and the smart clipboard</string>
+    <string name="sidebar_settings_summary">Swipe in from the handle for your apps and tools</string>
+    <string name="sidebar_apps_title">Apps, handle and clipboard</string>
+    <string name="sidebar_apps_summary">Turn the handle on, pick the apps and set up the smart clipboard</string>
+    <string name="sidebar_handle_size_title">Handle size</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="sidebar_handle_size_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="sidebar_tools_title">Tools row</string>
+    <string name="sidebar_tools_summary">Screenshot and flashlight under your apps</string>
+    <string name="sidebar_footer">The handle is a thin line in your accent; drag it to move it along the edge. With gesture navigation it only covers its own part of the edge, and back works everywhere else.</string>
 </resources>
