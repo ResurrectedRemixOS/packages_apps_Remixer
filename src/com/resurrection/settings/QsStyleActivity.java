@@ -36,7 +36,7 @@ public class QsStyleActivity extends CollapsingToolbarBaseActivity {
     private static final int SAME_AS_QS = -1;
 
     // Indexed by the SystemUI QsStyle value.
-    private static final int[] NAMES = {
+    static final int[] NAMES = {
         R.string.remixer_qs_style_stock, R.string.remixer_qs_style_remix,
         R.string.remixer_qs_style_compact, R.string.remixer_qs_style_glass,
         R.string.remixer_qs_style_circles, R.string.remixer_qs_style_classic,

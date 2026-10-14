@@ -25,6 +25,29 @@
     <string name="looks_part_qs">QS style</string>
     <string name="looks_part_clock_face">Lock screen clock face</string>
     <string name="looks_part_font">Font</string>
-    <string name="looks_part_clock_look">Status bar clock look</string>
-    <string name="looks_part_edge">Edge lighting color</string>
+    <string name="looks_part_clock_look">Status bar clock</string>
+    <string name="looks_part_edge">Edge lighting</string>
+    <string name="looks_part_wallpaper">Wallpaper</string>
+    <string name="looks_part_boot">Boot animation</string>
+    <string name="looks_saturation">Saturation <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Accent</string>
+    <string name="looks_color_default">Default</string>
+    <string name="looks_living_crimson">Living crimson</string>
+    <string name="looks_share_title">Share \u201c<xliff:g id="name" example="Neon night">%1$s</xliff:g>\u201d</string>
+    <string name="looks_share_hint">Scan with another RR phone\'s camera, or in Looks \u203a Import</string>
+    <string name="looks_share_file">Share file</string>
+    <string name="looks_save_file">Save file</string>
+    <string name="looks_import_scan">Scan a QR code</string>
+    <string name="looks_import_title">Import look</string>
+    <string name="looks_import_from">\u201c<xliff:g id="name" example="Sunset drive">%1$s</xliff:g>\u201d, <xliff:g id="source" example="from a QR code">%2$s</xliff:g></string>
+    <string name="looks_from_qr">from a QR code</string>
+    <string name="looks_from_file">from a file</string>
+    <string name="looks_from_clipboard">from the clipboard</string>
+    <string name="looks_import_same">It already matches your setup.</string>
+    <plurals name="looks_import_changes">
+        <item quantity="one">Changes <xliff:g id="count" example="1">%d</xliff:g> thing:</item>
+        <item quantity="other">Changes <xliff:g id="count" example="4">%d</xliff:g> things:</item>
+    </plurals>
+    <string name="looks_scan_hint">Point the camera at a look\'s QR code</string>
+    <string name="looks_scan_failed">Couldn\'t open the camera</string>
 </resources>

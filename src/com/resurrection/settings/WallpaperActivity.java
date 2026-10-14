@@ -113,7 +113,15 @@ public class WallpaperActivity extends CollapsingToolbarBaseActivity {
         mExecutor.execute(() -> {
             boolean ok;
             try (InputStream in = getResources().openRawResource(wallpaper.full)) {
-                WallpaperManager.getInstance(this).setStream(in, null, true, which);
+                int id = WallpaperManager.getInstance(this).setStream(in, null, true, which);
+                if ((which & WallpaperManager.FLAG_SYSTEM) != 0) {
+                    // Looks keeps an RR wallpaper only while it's still the one set.
+                    android.provider.Settings.System.putStringForUser(getContentResolver(),
+                            LooksActivity.WALLPAPER, wallpaper.name,
+                            android.os.UserHandle.USER_CURRENT);
+                    android.provider.Settings.System.putIntForUser(getContentResolver(),
+                            LooksActivity.WALLPAPER_ID, id, android.os.UserHandle.USER_CURRENT);
+                }
                 ok = true;
             } catch (Exception e) {
                 ok = false;
