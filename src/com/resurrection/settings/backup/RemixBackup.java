@@ -90,8 +90,9 @@ public final class RemixBackup {
             "edge_light", "charging_glow", "now_bar", "fp_quick_launch", "charge_report_",
             "pulse_", "udfps_", "lockscreen_", "lock_screen_", "clock_", "screen_on_time",
             "pocket_", "network_traffic", "omni_", "header_", "pie_", "gesture_anywhere"};
-    private static final String[] SECURE_KEYS = {THEME, "rr_accent_shade", "rr_accent_saturation",
-            "lock_screen_custom_clock_face", "lock_screen_custom_clock_style"};
+    private static final String[] SECURE_KEYS = {THEME, "rr_accent_shade", "rr_accent_saturation"};
+    /** The clock face page's settings. */
+    private static final String SECURE_PREFIX = "lock_screen_custom_clock_";
     private static final Set<String> NEVER = Set.of("charge_report_history", "rr_ember_unlocked");
     private static final String NEVER_PREFIX = "rr_backup_";
 
@@ -209,7 +210,7 @@ public final class RemixBackup {
     }
 
     private static boolean allowedSecure(String key, XmlKeys xml) {
-        if (xml.secure.containsKey(key)) return true;
+        if (xml.secure.containsKey(key) || key.startsWith(SECURE_PREFIX)) return true;
         for (String allowed : SECURE_KEYS) {
             if (allowed.equals(key)) return true;
         }
@@ -241,6 +242,15 @@ public final class RemixBackup {
         JSONObject secure = new JSONObject();
         List<String> secureKeys = new ArrayList<>(xml.secure.keySet());
         Collections.addAll(secureKeys, SECURE_KEYS);
+        try (Cursor cursor = resolver.query(Settings.Secure.CONTENT_URI,
+                new String[] {Settings.NameValueTable.NAME}, null, null, null)) {
+            while (cursor != null && cursor.moveToNext()) {
+                String key = cursor.getString(0);
+                if (key != null && key.startsWith(SECURE_PREFIX) && !secureKeys.contains(key)) {
+                    secureKeys.add(key);
+                }
+            }
+        }
         for (String key : secureKeys) {
             if (!included(context, securePart(key))) continue;
             String value = Settings.Secure.getStringForUser(resolver, key, UserHandle.USER_CURRENT);
