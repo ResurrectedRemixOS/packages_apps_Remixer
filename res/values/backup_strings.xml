@@ -10,14 +10,39 @@
     <string name="backup_never">Last backup: never</string>
     <string name="backup_last">Last backup: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
     <string name="backup_restore">Restore</string>
+    <string name="backup_restore_file">Restore from a file</string>
     <string name="backup_restore_summary">Pick a backup file</string>
-    <string name="backup_restore_title">Restore this backup?</string>
-    <string name="backup_restore_message">It sets <xliff:g id="count" example="64">%1$d</xliff:g> RR settings. SystemUI restarts to apply them. Settings this build doesn\'t have are skipped.</string>
+    <string name="backup_included">Included</string>
+    <string name="backup_part_remixer">Remixer</string>
+    <string name="backup_part_lineage">LineageParts</string>
+    <string name="backup_part_theme">Accent, font and icons</string>
+    <string name="backup_part_header">Header image</string>
+    <string name="backup_part_photo">Header image (your photo)</string>
+    <string name="backup_part_photo_summary">Makes the file bigger</string>
+    <string name="backup_part_boot">Boot animation</string>
+    <string name="backup_part_looks">Your looks</string>
+    <string name="backup_auto">Automatic</string>
+    <string name="backup_weekly">Weekly backup</string>
+    <string name="backup_weekly_summary">To a folder you pick</string>
+    <string name="backup_weekly_on">Every week to <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Offer a backup before updates</string>
+    <string name="backup_offer_summary">The Updater asks before it installs</string>
+    <string name="backup_sets">Sets <xliff:g id="count" example="64">%1$d</xliff:g> settings</string>
+    <string name="backup_group_status_bar">Status bar</string>
+    <string name="backup_group_lock_screen">Lock screen</string>
+    <string name="backup_group_theme">Theme</string>
+    <string name="backup_group_qs">Quick Settings</string>
+    <string name="backup_group_notifications">Notifications</string>
+    <string name="backup_group_gestures">Gestures</string>
+    <string name="backup_group_other">Other</string>
     <string name="backup_saved">Saved <xliff:g id="count" example="64">%1$d</xliff:g> settings</string>
     <string name="backup_restored">Restored <xliff:g id="count" example="64">%1$d</xliff:g> settings</string>
+    <string name="backup_restored_message">SystemUI restarts to apply them.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> settings don\'t exist on this build and were skipped.</string>
+    <string name="backup_done">Done</string>
     <string name="backup_failed">Couldn\'t save the backup</string>
     <string name="backup_invalid">That file isn\'t a Resurrected Remix backup</string>
-    <string name="backup_footer">Only RR settings go in the file: Remixer, accent, clock, header image and boot animation. No accounts, passwords, Wi-Fi networks, apps or messages. Restore only writes settings on RR\'s own list.</string>
+    <string name="backup_footer">Only RR settings go in the file: no accounts, passwords, Wi-Fi networks, apps or messages. Restore only writes settings on RR\'s own list, so a backup file can\'t change anything else on the phone. Your header photo is included only if its switch is on, since it makes the file bigger.</string>
     <string name="volume_style_title">Volume panel style</string>
     <string-array name="volume_style_entries">
         <item>Android</item>

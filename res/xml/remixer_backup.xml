@@ -12,8 +12,67 @@
 
     <Preference
         android:key="backup_restore"
-        android:title="@string/backup_restore"
+        android:title="@string/backup_restore_file"
         android:summary="@string/backup_restore_summary" />
+
+    <PreferenceCategory
+        android:key="backup_included"
+        android:title="@string/backup_included">
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_backup_inc_remixer"
+            android:title="@string/backup_part_remixer"
+            android:defaultValue="true" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_backup_inc_lineage"
+            android:title="@string/backup_part_lineage"
+            android:defaultValue="true" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_backup_inc_theme"
+            android:title="@string/backup_part_theme"
+            android:defaultValue="true" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_backup_inc_header"
+            android:title="@string/backup_part_header"
+            android:defaultValue="true" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_backup_header_photo"
+            android:title="@string/backup_part_photo"
+            android:summary="@string/backup_part_photo_summary"
+            android:dependency="rr_backup_inc_header"
+            android:defaultValue="false" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_backup_inc_boot"
+            android:title="@string/backup_part_boot"
+            android:defaultValue="true" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_backup_inc_looks"
+            android:title="@string/backup_part_looks"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="backup_auto"
+        android:title="@string/backup_auto">
+
+        <SwitchPreferenceCompat
+            android:key="backup_weekly"
+            android:title="@string/backup_weekly"
+            android:summary="@string/backup_weekly_summary"
+            android:persistent="false" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_backup_offer_update"
+            android:title="@string/backup_offer"
+            android:summary="@string/backup_offer_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
 
     <com.android.settingslib.widget.FooterPreference
         android:key="backup_footer"

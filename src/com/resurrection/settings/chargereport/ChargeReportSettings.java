@@ -192,7 +192,8 @@ public class ChargeReportSettings extends SettingsPreferenceFragment {
         if (secondary) {
             TypedValue tv = new TypedValue();
             context.getTheme().resolveAttribute(android.R.attr.textColorSecondary, tv, true);
-            view.setTextColor(context.getColorStateList(tv.resourceId));
+            view.setTextColor(tv.resourceId != 0 ? context.getColorStateList(tv.resourceId)
+                    : android.content.res.ColorStateList.valueOf(tv.data));
         }
         return view;
     }
