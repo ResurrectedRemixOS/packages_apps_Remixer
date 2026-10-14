@@ -17,8 +17,41 @@
         <item>10</item>
         <item>20</item>
     </string-array>
-    <string name="charge_report_history">Last 7 days</string>
-    <string name="charge_report_row">+<xliff:g id="added" example="62">%1$d</xliff:g>%% in <xliff:g id="minutes" example="31">%2$d</xliff:g> min · peak <xliff:g id="peak" example="55.0">%3$.1f</xliff:g> W · average <xliff:g id="avg" example="41.3">%4$.1f</xliff:g> W · <xliff:g id="temp" example="38">%5$.0f</xliff:g> °C</string>
+    <string name="charge_report_keep_title">Keep</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 days</item>
+        <item>7 days</item>
+        <item>14 days</item>
+        <item>30 days</item>
+    </string-array>
+    <string-array name="charge_report_keep_values" translatable="false">
+        <item>3</item>
+        <item>7</item>
+        <item>14</item>
+        <item>30</item>
+    </string-array>
+    <string name="charge_report_history_days">Last <xliff:g id="days" example="7">%1$d</xliff:g> days</string>
+    <string name="charge_report_row">+<xliff:g id="added" example="62">%1$d</xliff:g>%% · <xliff:g id="time" example="31 min">%2$s</xliff:g> · <xliff:g id="peak" example="55.0">%3$.1f</xliff:g> W</string>
+    <string name="charge_report_today">Today, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Yesterday, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_day_time"><xliff:g id="day" example="Friday">%1$s</xliff:g>, <xliff:g id="time" example="18:12">%2$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> h <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_range"><xliff:g id="from" example="12">%1$d</xliff:g>%% → <xliff:g id="to" example="74">%2$d</xliff:g>%%</string>
+    <string name="charge_report_watts">Watts</string>
+    <string name="charge_report_battery">Battery</string>
+    <string name="charge_report_temp">Temperature</string>
+    <string name="charge_report_added">Added</string>
+    <string name="charge_report_time">Time</string>
+    <string name="charge_report_peak">Peak</string>
+    <string name="charge_report_average">Average</string>
+    <string name="charge_report_max_temp">Max temp</string>
+    <string name="charge_report_charger">Charger</string>
+    <string name="charge_report_started">Started at</string>
+    <string name="charge_report_wired">Wired</string>
+    <string name="charge_report_wireless">Wireless</string>
+    <string name="charge_report_usb">USB</string>
+    <string name="charge_report_dock">Dock</string>
     <string name="charge_report_empty">No charges yet</string>
-    <string name="charge_report_footer">The watts are what the phone measures, so they can differ from the number on the charger. Reports stay on the phone.</string>
+    <string name="charge_report_footer">SystemUI reads the battery\'s current, voltage and temperature every 30 seconds while plugged in. The watts are what the phone measures, so they can differ from the number on the charger. Reports stay on the phone; nothing is uploaded.</string>
 </resources>

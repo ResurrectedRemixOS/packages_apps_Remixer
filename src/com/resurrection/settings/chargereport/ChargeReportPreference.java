@@ -20,7 +20,6 @@ public class ChargeReportPreference extends Preference {
     public ChargeReportPreference(Context context) {
         super(context);
         setLayoutResource(R.layout.remixer_charge_report_row);
-        setSelectable(false);
     }
 
     public void setCurve(JSONArray curve) {

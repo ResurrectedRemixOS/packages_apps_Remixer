@@ -17,12 +17,6 @@
         android:fragment="com.resurrection.settings.backup.BackupSettings" />
 
     <Preference
-        android:key="charge_report_page"
-        android:title="@string/charge_report_title"
-        android:summary="@string/charge_report_summary"
-        android:fragment="com.resurrection.settings.chargereport.ChargeReportSettings" />
-
-    <Preference
         android:key="remixer_spoofing"
         android:title="@string/remixer_spoofing"
         android:summary="@string/remixer_spoofing_summary"
