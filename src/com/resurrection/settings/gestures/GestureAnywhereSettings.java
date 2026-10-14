@@ -21,16 +21,64 @@ import org.json.JSONArray;
 /** Gesture anywhere: the strip, the built-in shapes and your own. */
 public class GestureAnywhereSettings extends SettingsPreferenceFragment {
     static final String KEY_CUSTOM = "gesture_anywhere_custom";
+    /** Read by SystemUI: draw the strip while this page is open. */
+    private static final String KEY_SHOW_STRIP = "gesture_anywhere_show_strip";
+    private static final String KEY_PREVIEW = "gesture_anywhere_preview";
+    private static final String[][] BUILT_IN = {{"gesture_anywhere_c", "camera"},
+            {"gesture_anywhere_m", "music"}, {"gesture_anywhere_down", "flashlight"},
+            {"gesture_anywhere_o", "screenshot"}};
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.remixer_gesture_anywhere);
+        for (String[] shape : BUILT_IN) {
+            Preference row = findPreference(shape[0]);
+            row.setOnPreferenceClickListener(p -> {
+                GestureRecordActivity.pickAction(getPrefContext(), action -> {
+                    Settings.System.putStringForUser(getContentResolver(), shape[0], action,
+                            UserHandle.USER_CURRENT);
+                    row.setSummary(GestureRecordActivity.label(getContext(), action));
+                });
+                return true;
+            });
+        }
+        findPreference(KEY_PREVIEW).setOnPreferenceChangeListener((p, value) -> {
+            showStrip((Boolean) value);
+            return true;
+        });
+        findPreference("gesture_anywhere").setOnPreferenceChangeListener((p, value) -> {
+            getView().post(() -> showStrip(previewOn()));
+            return true;
+        });
+    }
+
+    private boolean previewOn() {
+        return Settings.System.getIntForUser(getContentResolver(), KEY_PREVIEW, 1,
+                UserHandle.USER_CURRENT) == 1;
+    }
+
+    private void showStrip(boolean show) {
+        Settings.System.putIntForUser(getContentResolver(), KEY_SHOW_STRIP, show ? 1 : 0,
+                UserHandle.USER_CURRENT);
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        showStrip(false);
     }
 
     @Override
     public void onResume() {
         super.onResume();
+        showStrip(previewOn());
+        for (String[] shape : BUILT_IN) {
+            String action = Settings.System.getStringForUser(getContentResolver(), shape[0],
+                    UserHandle.USER_CURRENT);
+            findPreference(shape[0]).setSummary(
+                    GestureRecordActivity.label(getContext(), action != null ? action : shape[1]));
+        }
         PreferenceCategory list = findPreference("gesture_anywhere_custom_list");
         list.removeAll();
         JSONArray custom = custom();

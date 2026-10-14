@@ -17,40 +17,24 @@
         android:key="gesture_anywhere_builtin"
         android:title="@string/gesture_anywhere_gestures">
 
-    <com.resurrection.settings.preferences.SystemSettingListPreference
+    <Preference
         android:key="gesture_anywhere_c"
         android:title="@string/gesture_c"
-        android:entries="@array/gesture_action_entries"
-        android:entryValues="@array/gesture_action_values"
-        android:summary="%s"
-        android:defaultValue="camera"
         android:dependency="gesture_anywhere" />
 
-    <com.resurrection.settings.preferences.SystemSettingListPreference
+    <Preference
         android:key="gesture_anywhere_m"
         android:title="@string/gesture_m"
-        android:entries="@array/gesture_action_entries"
-        android:entryValues="@array/gesture_action_values"
-        android:summary="%s"
-        android:defaultValue="music"
         android:dependency="gesture_anywhere" />
 
-    <com.resurrection.settings.preferences.SystemSettingListPreference
+    <Preference
         android:key="gesture_anywhere_down"
         android:title="@string/gesture_down"
-        android:entries="@array/gesture_action_entries"
-        android:entryValues="@array/gesture_action_values"
-        android:summary="%s"
-        android:defaultValue="flashlight"
         android:dependency="gesture_anywhere" />
 
-    <com.resurrection.settings.preferences.SystemSettingListPreference
+    <Preference
         android:key="gesture_anywhere_o"
         android:title="@string/gesture_o"
-        android:entries="@array/gesture_action_entries"
-        android:entryValues="@array/gesture_action_values"
-        android:summary="%s"
-        android:defaultValue="screenshot"
         android:dependency="gesture_anywhere" />
 
     </PreferenceCategory>
@@ -97,6 +81,12 @@
         android:max="80"
         app:min="10"
         app:showSeekBarValue="true"
+        android:dependency="gesture_anywhere" />
+
+    <lineageos.preference.SystemSettingSwitchPreference
+        android:key="gesture_anywhere_preview"
+        android:title="@string/gesture_anywhere_preview"
+        android:defaultValue="true"
         android:dependency="gesture_anywhere" />
 
     </PreferenceCategory>

@@ -97,30 +97,35 @@ public class GestureRecordActivity extends Activity {
     }
 
     private void chooseAction(Gesture gesture) {
+        pickAction(this, action -> save(gesture, action));
+    }
+
+    /** A tool, or "App..." and then any app; the action string goes to [onPicked]. */
+    static void pickAction(Context context, java.util.function.Consumer<String> onPicked) {
         CharSequence[] items = new CharSequence[ACTIONS.length + 1];
-        for (int i = 0; i < ACTIONS.length; i++) items[i] = getString(LABELS[i]);
-        items[ACTIONS.length] = getString(R.string.gesture_action_app);
-        new AlertDialog.Builder(this)
+        for (int i = 0; i < ACTIONS.length; i++) items[i] = context.getString(LABELS[i]);
+        items[ACTIONS.length] = context.getString(R.string.gesture_action_app);
+        new AlertDialog.Builder(context)
                 .setTitle(R.string.gesture_anywhere_record_action)
                 .setItems(items, (d, which) -> {
-                    if (which < ACTIONS.length) save(gesture, ACTIONS[which]);
-                    else chooseApp(gesture);
+                    if (which < ACTIONS.length) onPicked.accept(ACTIONS[which]);
+                    else chooseApp(context, onPicked);
                 })
                 .show();
     }
 
-    private void chooseApp(Gesture gesture) {
-        PackageManager pm = getPackageManager();
+    private static void chooseApp(Context context, java.util.function.Consumer<String> onPicked) {
+        PackageManager pm = context.getPackageManager();
         List<ResolveInfo> apps = pm.queryIntentActivities(
                 new Intent(Intent.ACTION_MAIN).addCategory(Intent.CATEGORY_LAUNCHER), 0);
         apps.sort((a, b) -> a.loadLabel(pm).toString().compareToIgnoreCase(b.loadLabel(pm).toString()));
         CharSequence[] labels = new CharSequence[apps.size()];
         for (int i = 0; i < apps.size(); i++) labels[i] = apps.get(i).loadLabel(pm);
-        new AlertDialog.Builder(this)
+        new AlertDialog.Builder(context)
                 .setTitle(R.string.gesture_action_app)
                 .setItems(labels, (d, which) -> {
                     ActivityInfo info = apps.get(which).activityInfo;
-                    save(gesture, "app:" + new ComponentName(info.packageName, info.name)
+                    onPicked.accept("app:" + new ComponentName(info.packageName, info.name)
                             .flattenToString());
                 })
                 .show();
