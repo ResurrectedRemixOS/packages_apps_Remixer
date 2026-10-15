@@ -12,6 +12,8 @@ import android.graphics.Color;
 import android.graphics.LinearGradient;
 import android.graphics.Outline;
 import android.graphics.Paint;
+import android.graphics.PorterDuff;
+import android.graphics.PorterDuffXfermode;
 import android.graphics.RadialGradient;
 import android.graphics.RectF;
 import android.graphics.Shader;
@@ -40,6 +42,11 @@ public class QsStylePreviewView extends View {
     public static final int MONO = 7;
 
     private static final float WIDTH = 340f;
+    // The big preview keeps this much dp at the bottom clear for its label chip.
+    private static final float LABEL_SPACE = 52f;
+    private static final float FADE = 32f;
+    // Clock, date and player on the lockscreen, which have to fit above the label.
+    private static final float LOCK_HEIGHT = 264f;
     private static final int[] ICONS = {
         R.drawable.remixer_qs_preview_wifi, R.drawable.remixer_qs_preview_bluetooth,
         R.drawable.remixer_qs_preview_flashlight, R.drawable.remixer_qs_preview_dnd,
@@ -58,7 +65,6 @@ public class QsStylePreviewView extends View {
         R.drawable.remixer_qs_preview_music, R.drawable.remixer_qs_preview_phone,
         R.drawable.remixer_qs_preview_prev, R.drawable.remixer_qs_preview_next,
         R.drawable.remixer_qs_preview_like, R.drawable.remixer_qs_preview_pause,
-        R.drawable.remixer_qs_preview_message,
     };
     private static final int L_MUSIC = 0;
     private static final int L_PHONE = 1;
@@ -66,7 +72,6 @@ public class QsStylePreviewView extends View {
     private static final int L_NEXT = 3;
     private static final int L_LIKE = 4;
     private static final int L_PAUSE = 5;
-    private static final int L_MESSAGE = 6;
     // Dark base under see-through cards on the lockscreen, as SystemUI draws it.
     private static final int LOCK_BASE = 0x9E0E0F11;
 
@@ -78,6 +83,7 @@ public class QsStylePreviewView extends View {
 
     private final Paint mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final Paint mGlow = new Paint(Paint.ANTI_ALIAS_FLAG);
+    private final Paint mFade = new Paint();
     private final TextPaint mText = new TextPaint(Paint.ANTI_ALIAS_FLAG);
     private final RectF mRect = new RectF();
     private final Drawable[] mIcons = new Drawable[ICONS.length];
@@ -104,6 +110,7 @@ public class QsStylePreviewView extends View {
     public QsStylePreviewView(Context context, AttributeSet attrs) {
         super(context, attrs);
         mDensity = getResources().getDisplayMetrics().density;
+        mFade.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.DST_IN));
         mPrimary = context.getColor(android.R.color.system_accent1_200);
         mOnPrimary = context.getColor(android.R.color.system_accent1_800);
         mAccent500 = context.getColor(android.R.color.system_accent1_500);
@@ -175,12 +182,23 @@ public class QsStylePreviewView extends View {
 
         final float pad = (mMini ? 6 : 14) * mDensity;
         mScale = (w - pad * 2) / WIDTH;
-        final float bottom = (h - pad * 2) / mScale;
+        final float clear = mMini ? h - pad : h - LABEL_SPACE * mDensity;
+        if (!mMini) {
+            canvas.saveLayer(0, 0, w, clear, null);
+        }
         canvas.save();
         canvas.translate(pad, pad);
         float y = drawSlider(canvas) + 12;
-        drawTiles(canvas, y, bottom);
+        drawTiles(canvas, y, (clear - pad) / mScale);
         canvas.restore();
+        if (!mMini) {
+            // Tiles fade out above the label instead of running under it.
+            final float fade = clear - FADE * mDensity;
+            mFade.setShader(new LinearGradient(0, fade, 0, clear, Color.BLACK,
+                    Color.TRANSPARENT, Shader.TileMode.CLAMP));
+            canvas.drawRect(0, fade, w, clear, mFade);
+            canvas.restore();
+        }
     }
 
     private float drawSlider(Canvas canvas) {
@@ -352,9 +370,10 @@ public class QsStylePreviewView extends View {
         }
 
         final float pad = 14 * mDensity;
-        mScale = (w - pad * 2) / WIDTH;
+        final float clear = h - LABEL_SPACE * mDensity;
+        mScale = Math.min((w - pad * 2) / WIDTH, (clear - pad) / LOCK_HEIGHT);
         canvas.save();
-        canvas.translate(pad, pad);
+        canvas.translate((w - d(WIDTH)) / 2, pad);
         final java.util.Date now = new java.util.Date();
         text(canvas, android.text.format.DateFormat.getTimeFormat(getContext()).format(now),
                 WIDTH / 2, 64, WIDTH, 60, LIGHT, 0xFFF4F5F7, true);
@@ -412,19 +431,6 @@ public class QsStylePreviewView extends View {
         canvas.drawRoundRect(mRect, d(2), d(2), mPaint);
         lockIcon(canvas, L_NEXT, WIDTH - 78, cy3, 20, card.text);
         lockIcon(canvas, L_LIKE, WIDTH - 34, cy3, 20, card.text);
-
-        // A notification under the player.
-        final float note = top + 162;
-        mPaint.setColor(0xD118191C);
-        mRect.set(0, d(note), d(WIDTH), d(note + 58));
-        canvas.drawRoundRect(mRect, d(22), d(22), mPaint);
-        mPaint.setColor(0xFF2F6FED);
-        canvas.drawCircle(d(34), d(note + 29), d(18), mPaint);
-        lockIcon(canvas, L_MESSAGE, 34, note + 29, 18, Color.WHITE);
-        text(canvas, getResources().getString(R.string.remixer_lock_preview_notification), 62,
-                note + 25, WIDTH - 78, 14, MEDIUM, 0xFFF4F5F7, false);
-        text(canvas, getResources().getString(R.string.remixer_lock_preview_hidden), 62,
-                note + 43, WIDTH - 78, 13, Typeface.DEFAULT, 0xBFF4F5F7, false);
         canvas.restore();
     }
 
