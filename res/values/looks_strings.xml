@@ -10,6 +10,7 @@
     <string name="looks_yours">Your looks</string>
     <string name="looks_none">Nothing saved yet</string>
     <string name="looks_save">Save current</string>
+    <string name="looks_save_button">Save</string>
     <string name="looks_import">Import</string>
     <string name="looks_import_clipboard">From the clipboard</string>
     <string name="looks_import_file">From a file</string>

@@ -166,7 +166,7 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
         grid(mine(), true);
         LinearLayout actions = new LinearLayout(mThemed);
         actions.addView(button(R.string.looks_create, v -> edit(current(""), -1)));
-        actions.addView(button(R.string.looks_save, v -> saveCurrent()));
+        actions.addView(button(R.string.looks_save_button, v -> saveCurrent()));
         actions.addView(button(R.string.looks_import, v -> chooseImport()));
         mList.addView(actions);
     }
@@ -257,6 +257,7 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
         com.google.android.material.button.MaterialButton button =
                 new com.google.android.material.button.MaterialButton(mThemed);
         button.setText(label);
+        button.setSingleLine(true);
         button.setOnClickListener(onClick);
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(0, -2, 1f);
         lp.setMargins(dp(4), dp(12), dp(4), 0);
