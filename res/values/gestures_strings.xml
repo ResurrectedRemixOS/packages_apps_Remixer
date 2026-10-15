@@ -66,54 +66,6 @@
         <item>2</item>
     </string-array>
 
-    <string name="gesture_anywhere_title">Gesture anywhere</string>
-    <string name="gesture_anywhere_summary">Draw on the edge strip to open things</string>
-    <string name="gesture_anywhere_gestures">Gestures</string>
-    <string name="gesture_c">C</string>
-    <string name="gesture_m">M</string>
-    <string name="gesture_down">Arrow down</string>
-    <string name="gesture_o">O</string>
-    <string name="gesture_anywhere_custom">Your gestures</string>
-    <string name="gesture_anywhere_yours">Gesture <xliff:g id="number" example="1">%1$d</xliff:g></string>
-    <string name="gesture_anywhere_remove">Remove</string>
-    <string name="gesture_anywhere_add">Add a gesture</string>
-    <string name="gesture_anywhere_strip">Strip</string>
-    <string name="gesture_anywhere_side">Side</string>
-    <string name="gesture_anywhere_position">Position</string>
-    <string name="gesture_anywhere_length">Length</string>
-    <string name="gesture_anywhere_footer">Swipe in from the strip, then draw. Gestures stay on the phone. It\'s off on the lock screen, and back still works on the rest of the edge.</string>
-    <string name="gesture_anywhere_record_hint">Draw your gesture</string>
-    <string name="gesture_anywhere_record_again">Once more (<xliff:g id="n" example="2">%1$d</xliff:g>/<xliff:g id="total" example="3">%2$d</xliff:g>)</string>
-    <string name="gesture_anywhere_record_action">What should it open?</string>
-    <string name="gesture_action_camera">Camera</string>
-    <string name="gesture_action_music">Music</string>
-    <string name="gesture_action_flashlight">Flashlight</string>
-    <string name="gesture_action_screenshot">Screenshot</string>
-    <string name="gesture_action_dnd">Do Not Disturb</string>
-    <string name="gesture_action_app">App\u2026</string>
-    <string-array name="gesture_action_entries">
-        <item>Camera</item>
-        <item>Music</item>
-        <item>Flashlight</item>
-        <item>Screenshot</item>
-        <item>Do Not Disturb</item>
-    </string-array>
-    <string-array name="gesture_action_values" translatable="false">
-        <item>camera</item>
-        <item>music</item>
-        <item>flashlight</item>
-        <item>screenshot</item>
-        <item>dnd</item>
-    </string-array>
-    <string name="gesture_anywhere_preview">Show the strip while setting up</string>
-    <string-array name="gesture_side_entries">
-        <item>Left</item>
-        <item>Right</item>
-    </string-array>
-    <string-array name="gesture_side_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
     <string name="sidebar_style_title">App sidebar look</string>
     <string-array name="sidebar_style_entries">
         <item>Classic</item>

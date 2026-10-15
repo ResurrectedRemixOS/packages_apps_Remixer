@@ -89,7 +89,7 @@ public final class RemixBackup {
     private static final String[] SYSTEM_PREFIXES = {"rr_", "status_bar_", "statusbar_", "qs_",
             "edge_light", "charging_glow", "now_bar", "fp_quick_launch", "charge_report_",
             "pulse_", "udfps_", "lockscreen_", "lock_screen_", "clock_", "screen_on_time",
-            "pocket_", "network_traffic", "omni_", "header_", "pie_", "gesture_anywhere"};
+            "pocket_", "network_traffic", "omni_", "header_", "pie_"};
     private static final String[] SECURE_KEYS = {THEME, "rr_accent_shade", "rr_accent_saturation"};
     /** The clock face page's settings. */
     private static final String SECURE_PREFIX = "lock_screen_custom_clock_";

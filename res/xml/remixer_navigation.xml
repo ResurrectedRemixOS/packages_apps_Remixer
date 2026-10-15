@@ -15,12 +15,6 @@
         android:fragment="com.resurrection.settings.gestures.PieSettings" />
 
     <Preference
-        android:key="gesture_anywhere_page"
-        android:title="@string/gesture_anywhere_title"
-        android:summary="@string/gesture_anywhere_summary"
-        android:fragment="com.resurrection.settings.gestures.GestureAnywhereSettings" />
-
-    <Preference
         android:key="remixer_pulse"
         android:title="@string/remixer_pulse"
         android:summary="@string/remixer_pulse_summary" />
