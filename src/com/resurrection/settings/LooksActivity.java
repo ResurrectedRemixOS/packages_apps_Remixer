@@ -82,7 +82,7 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
     /** Written by the wallpaper page: which RR wallpaper is set, and its wallpaper id. */
     static final String WALLPAPER = "rr_wallpaper";
     static final String WALLPAPER_ID = "rr_wallpaper_id";
-    private static final String LIVING_CRIMSON = "living_crimson";
+    static final String LIVING_CRIMSON = "living_crimson";
     private static final ComponentName LIVING_CRIMSON_SERVICE = new ComponentName(
             "org.resurrection.livingcrimson", "org.resurrection.livingcrimson.LivingCrimsonService");
     private static final String BOOT_PROP = "persist.sys.bootanimation_style";
@@ -109,6 +109,7 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
     private ActivityResultLauncher<String[]> mOpener;
     private ActivityResultLauncher<String> mSaver;
     private ActivityResultLauncher<Intent> mScanner;
+    private ActivityResultLauncher<Intent> mEditor;
     private JSONObject mSaving;
 
     @Override
@@ -140,6 +141,12 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
                                 R.string.looks_from_qr);
                     }
                 });
+        mEditor = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(),
+                result -> {
+                    if (result.getResultCode() == RESULT_OK && result.getData() != null) {
+                        onEdited(result.getData());
+                    }
+                });
         build();
         Intent intent = getIntent();
         if (savedInstanceState == null && intent != null
@@ -158,6 +165,7 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
         section(R.string.looks_yours);
         grid(mine(), true);
         LinearLayout actions = new LinearLayout(mThemed);
+        actions.addView(button(R.string.looks_create, v -> edit(current(""), -1)));
         actions.addView(button(R.string.looks_save, v -> saveCurrent()));
         actions.addView(button(R.string.looks_import, v -> chooseImport()));
         mList.addView(actions);
@@ -229,6 +237,12 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
             box.addView(name);
             card.addView(box);
             card.setOnClickListener(v -> open(look, mine));
+            if (mine) {
+                card.setOnLongClickListener(v -> {
+                    confirmDelete(look);
+                    return true;
+                });
+            }
             GridLayout.LayoutParams lp = new GridLayout.LayoutParams(
                     GridLayout.spec(GridLayout.UNDEFINED, 1f),
                     GridLayout.spec(GridLayout.UNDEFINED, 1f));
@@ -279,7 +293,14 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
                 })
                 .setNeutralButton(R.string.looks_share, (d, w) -> share(look));
         if (mine) {
-            dialog.setNegativeButton(R.string.looks_delete, (d, w) -> delete(look));
+            dialog.setNegativeButton(R.string.looks_edit, (d, w) -> edit(look, indexOf(look)));
+        } else {
+            // RR's looks are a starting point for your own.
+            dialog.setNegativeButton(R.string.looks_customize, (d, w) -> {
+                JSONObject copy = copy(look);
+                copy.remove("order");
+                edit(copy, -1);
+            });
         }
         dialog.show();
     }
@@ -349,10 +370,18 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
     }
 
     private String wallpaperName(String value) {
-        if (LIVING_CRIMSON.equals(value)) return getString(R.string.looks_living_crimson);
-        String name = value.replace('_', ' ').trim();
-        return name.isEmpty() ? value
-                : Character.toUpperCase(name.charAt(0)) + name.substring(1);
+        return wallpaperName(this, value);
+    }
+
+    /** "Living crimson", or "RR wallpaper 3" for the third of RR's own. */
+    static String wallpaperName(Context context, String value) {
+        if (LIVING_CRIMSON.equals(value)) return context.getString(R.string.looks_living_crimson);
+        String[] names = context.getResources().getStringArray(
+                com.rr.wallpapers.R.array.partner_wallpapers);
+        for (int i = 0; i < names.length; i++) {
+            if (names[i].equals(value)) return context.getString(R.string.looks_rr_wallpaper, i + 1);
+        }
+        return value;
     }
 
     private static int color(String value, int fallback) {
@@ -614,6 +643,68 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
         List<JSONObject> looks = mine();
         looks.removeIf(l -> l.toString().equals(look.toString()));
         store(looks);
+    }
+
+    private void confirmDelete(JSONObject look) {
+        new MaterialAlertDialogBuilder(mThemed)
+                .setTitle(getString(R.string.looks_delete_confirm, look.optString("name")))
+                .setNegativeButton(android.R.string.cancel, null)
+                .setPositiveButton(R.string.looks_delete, (d, w) -> delete(look))
+                .show();
+    }
+
+    private int indexOf(JSONObject look) {
+        List<JSONObject> looks = mine();
+        for (int i = 0; i < looks.size(); i++) {
+            if (looks.get(i).toString().equals(look.toString())) return i;
+        }
+        return -1;
+    }
+
+    private static JSONObject copy(JSONObject look) {
+        try {
+            return new JSONObject(look.toString());
+        } catch (Exception e) {
+            return new JSONObject();
+        }
+    }
+
+    /** Opens the editor on [look]; [index] is its place in your looks, -1 for a new one. */
+    private void edit(JSONObject look, int index) {
+        if (index < 0 && look.optString("name").isEmpty()) {
+            try {
+                look.put("name", getString(R.string.looks_mine));
+            } catch (Exception ignored) {
+                // Unnamed; the editor names it.
+            }
+        }
+        mEditor.launch(new Intent(this, LookEditorActivity.class)
+                .putExtra(LookEditorActivity.EXTRA_LOOK, look.toString())
+                .putExtra(LookEditorActivity.EXTRA_INDEX, index));
+    }
+
+    private void onEdited(Intent data) {
+        JSONObject look = parse(data.getStringExtra(LookEditorActivity.EXTRA_LOOK));
+        int index = data.getIntExtra(LookEditorActivity.EXTRA_INDEX, -1);
+        List<JSONObject> looks = mine();
+        boolean known = index >= 0 && index < looks.size();
+        if (data.getBooleanExtra(LookEditorActivity.EXTRA_DELETE, false)) {
+            if (known) looks.remove(index);
+            store(looks);
+            return;
+        }
+        if (look == null) return;
+        if (known) looks.set(index, look);
+        else looks.add(look);
+        store(looks);
+        if (data.getBooleanExtra(LookEditorActivity.EXTRA_APPLY, false)) {
+            boolean[] all = new boolean[PART_LABELS.length];
+            java.util.Arrays.fill(all, true);
+            apply(look, all);
+        } else {
+            Toast.makeText(this, getString(R.string.looks_saved, look.optString("name")),
+                    Toast.LENGTH_SHORT).show();
+        }
     }
 
     private static String encode(JSONObject look) {

@@ -48,6 +48,23 @@
         <item quantity="one">Changes <xliff:g id="count" example="1">%d</xliff:g> thing:</item>
         <item quantity="other">Changes <xliff:g id="count" example="4">%d</xliff:g> things:</item>
     </plurals>
+    <string name="looks_create">Create</string>
+    <string name="looks_new">New look</string>
+    <string name="looks_edit">Edit</string>
+    <string name="looks_edit_title">Edit look</string>
+    <string name="looks_customize">Customize</string>
+    <string name="looks_in_look">In this look</string>
+    <string name="looks_not_included">Not in this look</string>
+    <string name="looks_save_look">Save</string>
+    <string name="looks_save_apply">Save and apply</string>
+    <string name="looks_saved">\u201c<xliff:g id="name" example="Sunday">%1$s</xliff:g>\u201d saved</string>
+    <string name="looks_delete_confirm">Delete \u201c<xliff:g id="name" example="Sunday">%1$s</xliff:g>\u201d?</string>
+    <string name="looks_custom_color">Custom color</string>
+    <string name="looks_rr_wallpaper">RR wallpaper <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Accent saturation</string>
+    <string name="looks_part_clock_color">Clock color</string>
+    <string name="looks_part_clock_chip">Status bar clock chip</string>
+    <string name="looks_part_edge_style">Edge lighting style</string>
     <string name="looks_scan_hint">Point the camera at a look\'s QR code</string>
     <string name="looks_scan_failed">Couldn\'t open the camera</string>
 </resources>
