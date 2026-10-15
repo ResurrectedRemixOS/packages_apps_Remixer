@@ -33,7 +33,6 @@
     <string name="looks_saturation">Saturation <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
     <string name="looks_color_accent">Accent</string>
     <string name="looks_color_default">Default</string>
-    <string name="looks_living_crimson">Living crimson</string>
     <string name="looks_share_title">Share \u201c<xliff:g id="name" example="Neon night">%1$s</xliff:g>\u201d</string>
     <string name="looks_share_hint">Scan with another RR phone\'s camera, or in Looks \u203a Import</string>
     <string name="looks_share_file">Share file</string>

@@ -4,11 +4,9 @@
  */
 package com.resurrection.settings;
 
-import android.app.WallpaperInfo;
 import android.app.WallpaperManager;
 import android.content.ClipData;
 import android.content.ClipboardManager;
-import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.om.OverlayInfo;
@@ -82,9 +80,6 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
     /** Written by the wallpaper page: which RR wallpaper is set, and its wallpaper id. */
     static final String WALLPAPER = "rr_wallpaper";
     static final String WALLPAPER_ID = "rr_wallpaper_id";
-    static final String LIVING_CRIMSON = "living_crimson";
-    private static final ComponentName LIVING_CRIMSON_SERVICE = new ComponentName(
-            "org.resurrection.livingcrimson", "org.resurrection.livingcrimson.LivingCrimsonService");
     private static final String BOOT_PROP = "persist.sys.bootanimation_style";
 
     private static final int P_ACCENT = 0;
@@ -374,9 +369,8 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
         return wallpaperName(this, value);
     }
 
-    /** "Living crimson", or "RR wallpaper 3" for the third of RR's own. */
+    /** "RR wallpaper 3" for the third of RR's own. */
     static String wallpaperName(Context context, String value) {
-        if (LIVING_CRIMSON.equals(value)) return context.getString(R.string.looks_living_crimson);
         String[] names = context.getResources().getStringArray(
                 com.rr.wallpapers.R.array.partner_wallpapers);
         for (int i = 0; i < names.length; i++) {
@@ -496,10 +490,6 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
     private void applyWallpaper(String value) {
         WallpaperManager wallpapers = WallpaperManager.getInstance(this);
         try {
-            if (LIVING_CRIMSON.equals(value)) {
-                wallpapers.setWallpaperComponent(LIVING_CRIMSON_SERVICE);
-                return;
-            }
             int res = getResources().getIdentifier(value, "drawable", getPackageName());
             if (res == 0) return;
             try (InputStream in = getResources().openRawResource(res)) {
@@ -518,11 +508,7 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
     /** The RR wallpaper that's set now, if it's one: your own photos stay out of looks. */
     private String currentWallpaper() {
         WallpaperManager wallpapers = WallpaperManager.getInstance(this);
-        WallpaperInfo live = wallpapers.getWallpaperInfo();
-        if (live != null) {
-            return LIVING_CRIMSON_SERVICE.getPackageName().equals(live.getPackageName())
-                    ? LIVING_CRIMSON : null;
-        }
+        if (wallpapers.getWallpaperInfo() != null) return null;
         String name = Settings.System.getStringForUser(getContentResolver(), WALLPAPER,
                 UserHandle.USER_CURRENT);
         int id = Settings.System.getIntForUser(getContentResolver(), WALLPAPER_ID, -1,

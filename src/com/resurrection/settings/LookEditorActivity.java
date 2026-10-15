@@ -79,7 +79,7 @@ public class LookEditorActivity extends CollapsingToolbarBaseActivity {
             R.string.looks_part_wallpaper, R.string.looks_part_boot};
     /** Shown for a row the look doesn't set yet, and used once it's switched on. */
     private static final Object[] DEFAULTS = {"#FF003F", 100, 1, "System", "default", "android",
-            0, 0, "accent", "default", LooksActivity.LIVING_CRIMSON, 0};
+            0, 0, "accent", "default", "rr", 0};
 
     private Context mThemed;
     private JSONObject mLook;
@@ -552,7 +552,6 @@ public class LookEditorActivity extends CollapsingToolbarBaseActivity {
     private void pickWallpaper() {
         String[] names = getResources().getStringArray(com.rr.wallpapers.R.array.partner_wallpapers);
         List<String> values = new ArrayList<>();
-        values.add(LooksActivity.LIVING_CRIMSON);
         for (String name : names) {
             if (getResources().getIdentifier(name, "drawable", getPackageName()) != 0) {
                 values.add(name);
@@ -569,19 +568,10 @@ public class LookEditorActivity extends CollapsingToolbarBaseActivity {
                 ImageView thumb = new ImageView(mThemed);
                 thumb.setScaleType(ImageView.ScaleType.CENTER_CROP);
                 String value = values.get(position);
-                if (LooksActivity.LIVING_CRIMSON.equals(value)) {
-                    GradientDrawable glow = new GradientDrawable();
-                    glow.setGradientType(GradientDrawable.RADIAL_GRADIENT);
-                    glow.setGradientCenter(0.5f, 1f);
-                    glow.setGradientRadius(dp(40));
-                    glow.setColors(new int[] {0xFFC4002F, 0xFF0A0405});
-                    thumb.setImageDrawable(glow);
-                } else {
-                    int small = getResources().getIdentifier(value + "_small", "drawable",
-                            getPackageName());
-                    thumb.setImageResource(small != 0 ? small : getResources().getIdentifier(
-                            value, "drawable", getPackageName()));
-                }
+                int small = getResources().getIdentifier(value + "_small", "drawable",
+                        getPackageName());
+                thumb.setImageResource(small != 0 ? small : getResources().getIdentifier(
+                        value, "drawable", getPackageName()));
                 GradientDrawable clip = new GradientDrawable();
                 clip.setCornerRadius(dp(8));
                 thumb.setBackground(clip);

@@ -24,11 +24,6 @@
         android:summary="@string/remixer_wallpapers_summary" />
 
     <Preference
-        android:key="remixer_living_crimson"
-        android:title="@string/remixer_living_crimson"
-        android:summary="@string/remixer_living_crimson_summary" />
-
-    <Preference
         android:key="remixer_boot_animation"
         android:title="@string/remixer_boot_animation" />
 
