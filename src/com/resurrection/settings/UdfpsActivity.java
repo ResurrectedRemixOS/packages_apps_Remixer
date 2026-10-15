@@ -4,9 +4,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
+import android.util.LruCache;
 import android.os.UserHandle;
 import android.provider.Settings;
 import android.view.LayoutInflater;
@@ -23,6 +26,9 @@ import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 
 import com.google.android.material.color.MaterialColors;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 /**
  * Under-display fingerprint icon or touch animation, drawn by SystemUI from the UdfpsIcons and
  * UdfpsAnimations resource packages. Index 0 is the stock icon and no animation.
@@ -38,6 +44,15 @@ public class UdfpsActivity extends CollapsingToolbarBaseActivity {
     // Preview frame sizes in dp; the swatch sits 12dp inside the selection ring.
     private static final int ICON_FRAME = 92;
     private static final int ANIMATION_FRAME = 132;
+
+    // Previews are big mdpi images: decode them off the main thread at the swatch's size.
+    private final ExecutorService mLoader = Executors.newFixedThreadPool(2);
+    private final LruCache<Integer, Object> mPreviews = new LruCache<>(24 * 1024 * 1024) {
+        @Override
+        protected int sizeOf(Integer key, Object value) {
+            return value instanceof Bitmap ? ((Bitmap) value).getAllocationByteCount() : 1024;
+        }
+    };
 
     public static Intent intent(Context context, String kind) {
         return new Intent(context, UdfpsActivity.class).putExtra(EXTRA_KIND, kind);
@@ -92,6 +107,12 @@ public class UdfpsActivity extends CollapsingToolbarBaseActivity {
         }
     }
 
+    @Override
+    protected void onDestroy() {
+        mLoader.shutdownNow();
+        super.onDestroy();
+    }
+
     private static String[] array(Resources res, String pkg, String name) {
         int id = res.getIdentifier(name, "array", pkg);
         return id == 0 ? new String[0] : res.getStringArray(id);
@@ -124,6 +145,7 @@ public class UdfpsActivity extends CollapsingToolbarBaseActivity {
         private final String[] mTitles;
         private final String mKey;
         private final int mFrame;
+        private final int[] mIds;
         private int mSelected;
 
         Picker(Resources res, String pkg, String[] drawables, String[] titles, String key,
@@ -134,8 +156,18 @@ public class UdfpsActivity extends CollapsingToolbarBaseActivity {
             mTitles = titles;
             mKey = key;
             mFrame = frame;
+            mIds = new int[drawables.length];
+            for (int i = 0; i < drawables.length; i++) {
+                mIds[i] = res.getIdentifier(drawables[i], "drawable", pkg);
+            }
             mSelected = Settings.System.getIntForUser(getContentResolver(), key, 0,
                     UserHandle.USER_CURRENT);
+            setHasStableIds(true);
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return position;
         }
 
         @Override
@@ -172,7 +204,7 @@ public class UdfpsActivity extends CollapsingToolbarBaseActivity {
             int pad = dp(mFrame / 12);
             holder.swatch.setPadding(pad, pad, pad, pad);
             holder.swatch.setImageTintList(null);
-            holder.swatch.setImageDrawable(drawable(position));
+            showPreview(holder, position);
             holder.ring.setVisibility(selected ? View.VISIBLE : View.INVISIBLE);
             String label = mTitles != null && position < mTitles.length ? mTitles[position]
                     : position == 0 ? getString(R.string.font_default) : null;
@@ -183,9 +215,52 @@ public class UdfpsActivity extends CollapsingToolbarBaseActivity {
             holder.item.setOnClickListener(v -> select(holder.getBindingAdapterPosition()));
         }
 
-        private Drawable drawable(int position) {
-            int id = mRes.getIdentifier(mDrawables[position], "drawable", mPackage);
-            return id == 0 ? null : mRes.getDrawable(id, null);
+        private void showPreview(Holder holder, int position) {
+            holder.swatch.setTag(position);
+            Object cached = mPreviews.get(position);
+            if (cached != null) {
+                set(holder.swatch, cached);
+                return;
+            }
+            holder.swatch.setImageDrawable(null);
+            int id = mIds[position];
+            if (id == 0) return;
+            int size = dp(mFrame - 12);
+            mLoader.execute(() -> {
+                Object preview = load(id, size);
+                if (preview == null) return;
+                runOnUiThread(() -> {
+                    mPreviews.put(position, preview);
+                    if (Integer.valueOf(position).equals(holder.swatch.getTag())) {
+                        set(holder.swatch, preview);
+                    }
+                });
+            });
+        }
+
+        /** A bitmap scaled down to about [size] px, or a drawable's state for vectors. */
+        private Object load(int id, int size) {
+            BitmapFactory.Options options = new BitmapFactory.Options();
+            options.inScaled = false;
+            options.inJustDecodeBounds = true;
+            BitmapFactory.decodeResource(mRes, id, options);
+            if (options.outWidth <= 0) {
+                Drawable drawable = mRes.getDrawable(id, null);
+                return drawable != null ? drawable.getConstantState() : null;
+            }
+            int sample = 1;
+            while (options.outWidth / (sample * 2) >= size) sample *= 2;
+            options.inJustDecodeBounds = false;
+            options.inSampleSize = sample;
+            return BitmapFactory.decodeResource(mRes, id, options);
+        }
+
+        private void set(ImageView view, Object preview) {
+            if (preview instanceof Bitmap) {
+                view.setImageBitmap((Bitmap) preview);
+            } else {
+                view.setImageDrawable(((Drawable.ConstantState) preview).newDrawable(mRes));
+            }
         }
 
         private void select(int position) {
