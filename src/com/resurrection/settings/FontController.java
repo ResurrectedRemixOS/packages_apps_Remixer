@@ -27,6 +27,8 @@ public final class FontController {
 
     public static final String CATEGORY = "android.theme.customization.font";
     private static final String TARGET = "android";
+    // Set by Lineage's always-on font overlay.
+    private static final String DEFAULT_FAMILY = "google-sans-flex";
 
     private final Context mContext;
     private final IOverlayManager mOverlayManager;
@@ -78,18 +80,19 @@ public final class FontController {
 
     public Typeface typeface(String pkg) {
         if (TARGET.equals(pkg)) {
-            return Typeface.DEFAULT;
+            return Typeface.getSystemDefaultTypeface(DEFAULT_FAMILY);
         }
         try {
             PackageManager pm = mContext.getPackageManager();
             Resources res = pm.getResourcesForApplication(pkg);
             int id = res.getIdentifier("config_bodyFontFamily", "string", pkg);
             if (id == 0) {
-                return Typeface.DEFAULT;
+                return Typeface.getSystemDefaultTypeface(DEFAULT_FAMILY);
             }
-            return Typeface.create(res.getString(id), Typeface.NORMAL);
+            // Typeface.create() would hand back the font in use for names like "google-sans".
+            return Typeface.getSystemDefaultTypeface(res.getString(id));
         } catch (PackageManager.NameNotFoundException e) {
-            return Typeface.DEFAULT;
+            return Typeface.getSystemDefaultTypeface(DEFAULT_FAMILY);
         }
     }
 
