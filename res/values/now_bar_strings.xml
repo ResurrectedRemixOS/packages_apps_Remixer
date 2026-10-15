@@ -12,6 +12,17 @@
     <string name="now_bar_calls">Calls</string>
     <string name="now_bar_live">Live Updates</string>
     <string name="now_bar_live_summary">Navigation, rides, deliveries, scores</string>
+    <string name="now_bar_scores">Live scores</string>
+    <string-array name="now_bar_scores_entries">
+        <item>Off</item>
+        <item>From At a Glance</item>
+        <item>From Smartspacer</item>
+    </string-array>
+    <string-array name="now_bar_scores_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
     <string name="now_bar_recording">Screen and voice recording</string>
     <string name="now_bar_charging">Charging</string>
     <string name="now_bar_flashlight">Flashlight</string>
@@ -20,5 +31,5 @@
     <string name="now_bar_aod">Show on always-on display</string>
     <string name="now_bar_chip">Chip in the status bar</string>
     <string name="now_bar_chip_summary">Music and timers next to the clock while unlocked</string>
-    <string name="now_bar_footer">With music in the Now Bar, the big lock screen player is hidden. Swipe the bar to switch between activities, tap it to open the controls, and long-press it to hide one until it ends.</string>
+    <string name="now_bar_footer">With music in the Now Bar, the big lock screen player is hidden. Swipe the bar to switch between activities, tap it to open the controls, and long-press it to hide one until it ends.\n\nLive scores show games of the teams you follow in the Google app. With Smartspacer, add a sports target there and its scores come here.</string>
 </resources>
