@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- The stage stays pinned above the options and shrinks while they scroll. -->
+<!-- The stage stays pinned above the options and shrinks while they scroll. Settings themes turn
+     child clipping off, so the root turns it back on or the options draw over the stage. -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/clock_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:clipChildren="true"
     android:orientation="vertical"
     android:theme="@style/Theme.Material3.DynamicColors.DayNight">
 
