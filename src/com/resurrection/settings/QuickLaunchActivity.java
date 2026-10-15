@@ -105,7 +105,7 @@ public class QuickLaunchActivity extends CollapsingToolbarBaseActivity {
         List<String> tokens = new ArrayList<>();
         for (String token : (value != null ? value : DEFAULT_SHORTCUTS).split(",")) {
             token = token.trim();
-            if (!token.isEmpty() && tokens.size() < MAX) {
+            if (!token.isEmpty() && !tokens.contains(token) && tokens.size() < MAX) {
                 tokens.add(token);
             }
         }
@@ -219,6 +219,14 @@ public class QuickLaunchActivity extends CollapsingToolbarBaseActivity {
     }
 
     private void set(int position, String token) {
+        // A shortcut already in the list moves instead of showing twice.
+        int existing = mTokens.indexOf(token);
+        if (existing >= 0 && existing != position) {
+            mTokens.remove(existing);
+            if (position > existing) {
+                position--;
+            }
+        }
         if (position < 0 || position >= mTokens.size()) {
             if (mTokens.size() < MAX) {
                 mTokens.add(token);
