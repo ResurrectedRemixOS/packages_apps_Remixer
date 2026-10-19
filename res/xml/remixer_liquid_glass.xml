@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/liquid_glass_title">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="liquid_glass_header"
+        android:layout="@layout/remixer_liquid_glass"
+        android:selectable="false"
+        app:allowDividerBelow="false" />
+
+    <PreferenceCategory
+        android:key="liquid_glass_look"
+        android:title="@string/liquid_glass_look_title">
+
+        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+            android:key="rr_glass_blur"
+            android:title="@string/liquid_glass_blur_title"
+            android:summary="@string/liquid_glass_blur_summary"
+            android:defaultValue="50"
+            android:max="100"
+            app:min="0" />
+
+        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+            android:key="rr_glass_tint"
+            android:title="@string/liquid_glass_tint_title"
+            android:summary="@string/liquid_glass_tint_summary"
+            android:defaultValue="0"
+            android:max="100"
+            app:min="0" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_glass_accent_tint"
+            android:title="@string/liquid_glass_accent_tint_title"
+            android:summary="@string/liquid_glass_accent_tint_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="liquid_glass_liquid"
+        android:title="@string/liquid_glass_liquid_category">
+
+        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+            android:key="rr_glass_refraction"
+            android:title="@string/liquid_glass_refraction_title"
+            android:summary="@string/liquid_glass_refraction_summary"
+            android:defaultValue="60"
+            android:max="100"
+            app:min="0" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="liquid_glass_surfaces"
+        android:title="@string/liquid_glass_surfaces_title">
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_glass_qs"
+            android:title="@string/liquid_glass_qs_title"
+            android:summary="@string/liquid_glass_qs_summary"
+            android:defaultValue="true" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_glass_lockscreen"
+            android:title="@string/liquid_glass_lockscreen_title"
+            android:summary="@string/liquid_glass_lockscreen_summary"
+            android:defaultValue="true" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_glass_volume"
+            android:title="@string/liquid_glass_volume_title"
+            android:summary="@string/liquid_glass_volume_summary"
+            android:defaultValue="true" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_glass_power"
+            android:title="@string/liquid_glass_power_title"
+            android:summary="@string/liquid_glass_power_summary"
+            android:defaultValue="true" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_glass_home"
+            android:title="@string/liquid_glass_home_title"
+            android:summary="@string/liquid_glass_home_summary"
+            android:defaultValue="true" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_glass_recents"
+            android:title="@string/liquid_glass_recents_title"
+            android:summary="@string/liquid_glass_recents_summary"
+            android:defaultValue="true" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_glass_menus"
+            android:title="@string/liquid_glass_menus_title"
+            android:summary="@string/liquid_glass_menus_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="liquid_glass_battery"
+        android:title="@string/liquid_glass_battery_title">
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_glass_battery_saver"
+            android:title="@string/liquid_glass_battery_saver_title"
+            android:summary="@string/liquid_glass_battery_saver_summary"
+            android:defaultValue="true" />
+
+        <com.android.settingslib.widget.FooterPreference
+            android:key="liquid_glass_footer"
+            android:title="@string/liquid_glass_footer"
+            android:selectable="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

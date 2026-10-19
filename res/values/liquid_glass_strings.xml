@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="liquid_glass_title">Liquid Glass</string>
+    <string name="liquid_glass_summary">Blur and glass on system surfaces</string>
+
+    <string name="liquid_glass_material_title">Material</string>
+    <string name="liquid_glass_solid">Solid</string>
+    <string name="liquid_glass_solid_summary">No blur</string>
+    <string name="liquid_glass_frosted">Frosted</string>
+    <string name="liquid_glass_frosted_summary">Soft blur</string>
+    <string name="liquid_glass_liquid">Liquid</string>
+    <string name="liquid_glass_liquid_summary">Clear, lit edges</string>
+
+    <string name="liquid_glass_look_title">Look</string>
+    <string name="liquid_glass_blur_title">Blur</string>
+    <string name="liquid_glass_blur_summary">How strongly the glass blurs what\'s behind it</string>
+    <string name="liquid_glass_tint_title">Tint</string>
+    <string name="liquid_glass_tint_summary">Darkens the glass so text stays readable</string>
+    <string name="liquid_glass_accent_tint_title">Accent tint</string>
+    <string name="liquid_glass_accent_tint_summary">Color the glass with your accent</string>
+
+    <string name="liquid_glass_liquid_category">Liquid</string>
+    <string name="liquid_glass_refraction_title">Refraction</string>
+    <string name="liquid_glass_refraction_summary">How far the edges bend what\'s behind them</string>
+
+    <string name="liquid_glass_surfaces_title">Glass on</string>
+    <string name="liquid_glass_qs_title">Quick Settings and shade</string>
+    <string name="liquid_glass_qs_summary">The shade, notifications and the unlock screen</string>
+    <string name="liquid_glass_lockscreen_title">Lock screen</string>
+    <string name="liquid_glass_lockscreen_summary">Shortcuts and the fingerprint button</string>
+    <string name="liquid_glass_volume_title">Volume panel</string>
+    <string name="liquid_glass_volume_summary">Sliders and ringer buttons</string>
+    <string name="liquid_glass_power_title">Power menu</string>
+    <string name="liquid_glass_power_summary">Panel and actions</string>
+    <string name="liquid_glass_home_title">Home screen</string>
+    <string name="liquid_glass_home_summary">Folders and long-press menus</string>
+    <string name="liquid_glass_recents_title">Recents and app drawer</string>
+    <string name="liquid_glass_recents_summary">Blurs the home screen behind them</string>
+    <string name="liquid_glass_menus_title">Bottom sheets</string>
+    <string name="liquid_glass_menus_summary">System sheets that slide up from the bottom</string>
+
+    <string name="liquid_glass_battery_title">Battery</string>
+    <string name="liquid_glass_battery_saver_title">Solid in Battery Saver</string>
+    <string name="liquid_glass_battery_saver_summary">Turns glass off while Battery Saver is on</string>
+    <string name="liquid_glass_footer">Glass also turns off while the phone is very hot.</string>
+
+    <!-- Labels drawn on the preview's sample tiles -->
+    <string name="liquid_glass_preview_internet">Internet</string>
+    <string name="liquid_glass_preview_wifi">Home Wi-Fi</string>
+    <string name="liquid_glass_preview_bluetooth">Bluetooth</string>
+    <string name="liquid_glass_preview_earbuds">Earbuds</string>
+</resources>
