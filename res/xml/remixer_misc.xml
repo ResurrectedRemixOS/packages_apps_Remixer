@@ -2,22 +2,52 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/remixer_misc">
 
-    <Preference
-        android:key="volume_page"
-        android:title="@string/volume_page_title"
-        android:summary="@string/volume_page_summary"
-        android:fragment="com.resurrection.settings.volume.VolumeSettings" />
+    <PreferenceCategory
+        android:key="misc_volume"
+        android:title="@string/misc_category_volume">
 
-    <Preference
-        android:key="backup_page"
-        android:title="@string/backup_title"
-        android:summary="@string/backup_summary"
-        android:fragment="com.resurrection.settings.backup.BackupSettings" />
+        <Preference
+            android:key="volume_page"
+            android:icon="@drawable/ic_misc_volume"
+            android:title="@string/volume_page_title"
+            android:summary="@string/volume_page_summary"
+            android:fragment="com.resurrection.settings.volume.VolumeSettings" />
+    </PreferenceCategory>
 
-    <Preference
-        android:key="remixer_spoofing"
-        android:title="@string/remixer_spoofing"
-        android:summary="@string/remixer_spoofing_summary"
-        android:fragment="com.resurrection.settings.spoof.fragments.miscellaneous.Spoofing" />
+    <PreferenceCategory
+        android:key="misc_backup"
+        android:title="@string/misc_category_backup">
+
+        <Preference
+            android:key="backup_page"
+            android:icon="@drawable/ic_misc_backup"
+            android:title="@string/backup_title"
+            android:summary="@string/backup_summary"
+            android:fragment="com.resurrection.settings.backup.BackupSettings" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="misc_spoofing"
+        android:title="@string/remixer_spoofing">
+
+        <Preference
+            android:key="remixer_spoofing"
+            android:icon="@drawable/ic_misc_spoofing"
+            android:title="@string/remixer_spoofing"
+            android:summary="@string/remixer_spoofing_summary"
+            android:fragment="com.resurrection.settings.spoof.fragments.miscellaneous.Spoofing" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="misc_usb"
+        android:title="@string/misc_category_usb">
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_usb_mode_picker"
+            android:icon="@drawable/ic_misc_usb"
+            android:title="@string/usb_mode_picker_title"
+            android:summary="@string/usb_mode_picker_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
 
 </PreferenceScreen>
