@@ -13,6 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.settings.R;
 import com.google.android.material.color.MaterialColors;
 import com.google.android.material.slider.Slider;
 
