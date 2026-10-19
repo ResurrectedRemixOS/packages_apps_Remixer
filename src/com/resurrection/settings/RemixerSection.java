@@ -92,6 +92,8 @@ public class RemixerSection extends SettingsPreferenceFragment {
         removeUnless("pocket_judge", context.getResources().getBoolean(
                 com.android.internal.R.bool.config_pocketModeSupported));
         removeUnless("remixer_quick_launch", QuickLaunchActivity.isSupported(context));
+        removeUnless("rr_charging_ring",
+                new java.io.File("/system_ext/lib64/libnativeChargingRing.so").exists());
 
         bindVisibility("status_bar_clock_date_display", value -> !"0".equals(value),
                 "status_bar_clock_date_position", "status_bar_clock_date_style",

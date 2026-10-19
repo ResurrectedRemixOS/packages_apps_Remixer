@@ -31,6 +31,12 @@
         android:title="@string/quick_launch_main" />
 
     <lineageos.preference.SystemSettingSwitchPreference
+        android:key="rr_charging_ring"
+        android:title="@string/charging_ring_title"
+        android:summary="@string/charging_ring_summary"
+        android:defaultValue="true" />
+
+    <lineageos.preference.SystemSettingSwitchPreference
         android:key="pocket_judge"
         android:title="@string/pocket_mode_title"
         android:summary="@string/pocket_mode_summary"
