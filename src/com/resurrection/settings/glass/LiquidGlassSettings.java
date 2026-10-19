@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.Settings;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.RadioButton;
 import android.widget.TextView;
@@ -86,6 +87,11 @@ public class LiquidGlassSettings extends SettingsPreferenceFragment {
         super.onViewCreated(view, savedInstanceState);
         // The preview stays on screen while the options scroll under it.
         setPinnedHeaderView(R.layout.remixer_liquid_glass_pinned);
+        // Settings themes turn clipChildren off, which lets rows draw over the preview.
+        final ViewGroup list = view.findViewById(android.R.id.list_container);
+        if (list != null) {
+            list.setClipChildren(true);
+        }
     }
 
     private void select(int material) {
