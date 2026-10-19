@@ -47,6 +47,12 @@
             android:defaultValue="60"
             android:max="100"
             app:min="0" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_glass_tilt"
+            android:title="@string/liquid_glass_tilt_title"
+            android:summary="@string/liquid_glass_tilt_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
     <PreferenceCategory

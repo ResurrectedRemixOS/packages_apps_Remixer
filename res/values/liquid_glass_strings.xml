@@ -22,6 +22,8 @@
     <string name="liquid_glass_liquid_category">Liquid</string>
     <string name="liquid_glass_refraction_title">Refraction</string>
     <string name="liquid_glass_refraction_summary">How far the edges bend what\'s behind them</string>
+    <string name="liquid_glass_tilt_title">Highlights follow tilt</string>
+    <string name="liquid_glass_tilt_summary">Edges catch the light as you move the phone</string>
 
     <string name="liquid_glass_surfaces_title">Glass on</string>
     <string name="liquid_glass_qs_title">Quick Settings and shade</string>
@@ -33,11 +35,11 @@
     <string name="liquid_glass_power_title">Power menu</string>
     <string name="liquid_glass_power_summary">Panel and actions</string>
     <string name="liquid_glass_home_title">Home screen</string>
-    <string name="liquid_glass_home_summary">Folders and long-press menus</string>
+    <string name="liquid_glass_home_summary">Dock and folders</string>
     <string name="liquid_glass_recents_title">Recents and app drawer</string>
     <string name="liquid_glass_recents_summary">Blurs the home screen behind them</string>
-    <string name="liquid_glass_menus_title">Bottom sheets</string>
-    <string name="liquid_glass_menus_summary">System sheets that slide up from the bottom</string>
+    <string name="liquid_glass_menus_title">Menus and dialogs</string>
+    <string name="liquid_glass_menus_summary">Long-press menus and system dialogs</string>
 
     <string name="liquid_glass_battery_title">Battery</string>
     <string name="liquid_glass_battery_saver_title">Solid in Battery Saver</string>

@@ -24,12 +24,17 @@ import android.graphics.RuntimeShader;
 import android.graphics.Shader;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.UserHandle;
 import android.provider.Settings;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.view.Surface;
 import android.view.View;
 
 import androidx.core.graphics.ColorUtils;
@@ -44,7 +49,9 @@ public class GlassPreviewView extends View {
 
     private static final String[] KEYS = {LiquidGlassSettings.MATERIAL, LiquidGlassSettings.BLUR,
             LiquidGlassSettings.TINT, LiquidGlassSettings.REFRACTION,
-            LiquidGlassSettings.ACCENT_TINT};
+            LiquidGlassSettings.ACCENT_TINT, LiquidGlassSettings.TILT};
+    private static final float LIGHT_X = -0.5f;
+    private static final float LIGHT_Y = -0.866f;
 
     // The lens from frameworks/native's BlurFilter, so the preview matches the system.
     private static final String SHADER = ""
@@ -55,6 +62,7 @@ public class GlassPreviewView extends View {
             + "uniform float refraction;\n"
             + "uniform float dim;\n"
             + "uniform float4 tint;\n"
+            + "uniform float2 lightDir;\n"
             + "float boxSdf(float2 p, float2 halfSize, float r) {\n"
             + "    float2 q = abs(p) - halfSize + float2(r);\n"
             + "    return length(max(q, float2(0.0))) + min(max(q.x, q.y), 0.0) - r;\n"
@@ -81,7 +89,7 @@ public class GlassPreviewView extends View {
             + "        color = mix(float3(luma), color, 1.2) * 1.03;\n"
             + "        color = mix(color, tint.rgb, tint.a) * (1.0 - dim);\n"
             + "        float rim = 1.0 - smoothstep(0.0, 1.5 + 2.5 * refraction, -d);\n"
-            + "        float light = dot(n, float2(-0.5, -0.866));\n"
+            + "        float light = dot(n, lightDir);\n"
             + "        color += rim * (0.06 + 0.34 * max(light, 0.0) + 0.14 * max(-light, 0.0)) *\n"
             + "                (0.5 + 0.5 * refraction) + edge * edge * 0.04;\n"
             + "    } else {\n"
@@ -124,6 +132,21 @@ public class GlassPreviewView extends View {
         }
     };
 
+    // Highlights follow tilt: the same light system_server sends SurfaceFlinger.
+    private final SensorEventListener mTiltListener = new SensorEventListener() {
+        @Override
+        public void onSensorChanged(SensorEvent event) {
+            onTilt(event.values[0] / SensorManager.GRAVITY_EARTH,
+                    event.values[1] / SensorManager.GRAVITY_EARTH);
+        }
+
+        @Override
+        public void onAccuracyChanged(Sensor sensor, int accuracy) {}
+    };
+    private boolean mTiltListening;
+    private float mLightX = LIGHT_X;
+    private float mLightY = LIGHT_Y;
+
     private Bitmap mWallpaper;
     private boolean mShaderFailed;
     private boolean mNodesDirty = true;
@@ -134,6 +157,7 @@ public class GlassPreviewView extends View {
     private int mTint = 0;
     private int mRefraction = 60;
     private boolean mAccentTint;
+    private boolean mTilt = true;
 
     public GlassPreviewView(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -168,6 +192,7 @@ public class GlassPreviewView extends View {
     @Override
     protected void onDetachedFromWindow() {
         getContext().getContentResolver().unregisterContentObserver(mObserver);
+        setTiltListening(false);
         super.onDetachedFromWindow();
     }
 
@@ -184,8 +209,64 @@ public class GlassPreviewView extends View {
         mTint = get(resolver, LiquidGlassSettings.TINT, 0);
         mRefraction = get(resolver, LiquidGlassSettings.REFRACTION, 60);
         mAccentTint = get(resolver, LiquidGlassSettings.ACCENT_TINT, 0) != 0;
+        mTilt = get(resolver, LiquidGlassSettings.TILT, 1) != 0;
+        setTiltListening(isAttachedToWindow() && mMaterial == LiquidGlassSettings.LIQUID && mTilt);
         mNodesDirty = true;
         invalidate();
+    }
+
+    private void setTiltListening(boolean listen) {
+        if (listen == mTiltListening) {
+            return;
+        }
+        final SensorManager sensors = getContext().getSystemService(SensorManager.class);
+        final Sensor sensor = sensors == null ? null
+                : sensors.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        if (listen && sensor != null) {
+            mTiltListening = sensors.registerListener(mTiltListener, sensor,
+                    SensorManager.SENSOR_DELAY_UI);
+        } else if (!listen) {
+            if (sensors != null) {
+                sensors.unregisterListener(mTiltListener);
+            }
+            mTiltListening = false;
+            mLightX = LIGHT_X;
+            mLightY = LIGHT_Y;
+        }
+    }
+
+    /** {@code ux}, {@code uy}: up in device axes, in g. Mirrors GlassTilt in system_server. */
+    private void onTilt(float ux, float uy) {
+        float dx = ux;
+        float dy = uy;
+        switch (getDisplay() != null ? getDisplay().getRotation() : Surface.ROTATION_0) {
+            case Surface.ROTATION_90: dx = -uy; dy = ux; break;
+            case Surface.ROTATION_180: dx = -ux; dy = -uy; break;
+            case Surface.ROTATION_270: dx = uy; dy = -ux; break;
+            default: break;
+        }
+        final float sx = dx;
+        final float sy = -dy;
+        final float tilt = (float) Math.hypot(sx, sy);
+        float targetX = LIGHT_X;
+        float targetY = LIGHT_Y;
+        if (tilt > 0.001f) {
+            final float weight = Math.max(0f, Math.min(1f, (tilt - 0.12f) / 0.33f));
+            targetX += (sx / tilt - LIGHT_X) * weight;
+            targetY += (sy / tilt - LIGHT_Y) * weight;
+        }
+        final float x = mLightX + (targetX - mLightX) * 0.2f;
+        final float y = mLightY + (targetY - mLightY) * 0.2f;
+        final float length = (float) Math.hypot(x, y);
+        if (length < 0.001f) {
+            return;
+        }
+        if (Math.abs(x / length - mLightX) + Math.abs(y / length - mLightY) > 0.01f) {
+            mLightX = x / length;
+            mLightY = y / length;
+            mNodesDirty = true;
+            invalidate();
+        }
     }
 
     private static int get(ContentResolver resolver, String key, int def) {
@@ -342,6 +423,11 @@ public class GlassPreviewView extends View {
         shader.setFloatUniform("dim", (mSwatch < 0 ? mTint : 0) / 200f);
         shader.setFloatUniform("tint", Color.red(tint) / 255f, Color.green(tint) / 255f,
                 Color.blue(tint) / 255f, accentTint ? 0.16f : 0f);
+        if (mSwatch < 0) {
+            shader.setFloatUniform("lightDir", mLightX, mLightY);
+        } else {
+            shader.setFloatUniform("lightDir", LIGHT_X, LIGHT_Y);
+        }
         return RenderEffect.createChainEffect(
                 RenderEffect.createRuntimeShaderEffect(shader, "blurred"), blur);
     }

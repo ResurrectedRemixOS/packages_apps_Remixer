@@ -35,6 +35,7 @@ public class LiquidGlassSettings extends SettingsPreferenceFragment {
     static final String TINT = "rr_glass_tint";
     static final String REFRACTION = "rr_glass_refraction";
     static final String ACCENT_TINT = "rr_glass_accent_tint";
+    static final String TILT = "rr_glass_tilt";
 
     static final int SOLID = 0;
     static final int FROSTED = 1;
