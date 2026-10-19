@@ -131,8 +131,8 @@ public class QsStylePreviewView extends View {
         mAccent600 = context.getColor(android.R.color.system_accent1_600);
         mAccent700 = context.getColor(android.R.color.system_accent1_700);
         mAccent900 = context.getColor(android.R.color.system_accent1_900);
-        mVivid = context.getColor(android.R.color.system_accent1_400);
-        mVividInk = mAccent900;
+        mVivid = context.getColor(android.R.color.system_primary_dark);
+        mVividInk = context.getColor(android.R.color.system_on_primary_dark);
         mLabels = getResources().getStringArray(R.array.remixer_qs_preview_labels);
         mOn = getResources().getString(R.string.remixer_qs_preview_on);
         mOff = getResources().getString(R.string.remixer_qs_preview_off);
