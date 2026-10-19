@@ -10,6 +10,7 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.database.ContentObserver;
 import android.graphics.Bitmap;
+import android.graphics.BitmapShader;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.LinearGradient;
@@ -56,6 +57,7 @@ public class GlassPreviewView extends View {
     // The lens from frameworks/native's BlurFilter, so the preview matches the system.
     private static final String SHADER = ""
             + "uniform shader blurred;\n"
+            + "uniform shader sharp;\n"
             + "uniform float4 rect;\n"
             + "uniform float cornerRadius;\n"
             + "uniform float liquid;\n"
@@ -82,16 +84,20 @@ public class GlassPreviewView extends View {
             + "        float bend = edge * edge * edge;\n"
             + "        float2 uv = xy - n * (bend * band * refraction * 0.9);\n"
             + "        float split = bend * refraction * 4.0;\n"
-            + "        color = float3(blurred.eval(uv).rgb);\n"
-            + "        color.r = float(blurred.eval(uv + n * split).r);\n"
-            + "        color.b = float(blurred.eval(uv - n * split).b);\n"
+            + "        float3 soft = float3(blurred.eval(uv).rgb);\n"
+            + "        soft.r = float(blurred.eval(uv + n * split).r);\n"
+            + "        soft.b = float(blurred.eval(uv - n * split).b);\n"
+            + "        float3 crisp = float3(sharp.eval(uv).rgb);\n"
+            + "        crisp.r = float(sharp.eval(uv + n * split).r);\n"
+            + "        crisp.b = float(sharp.eval(uv - n * split).b);\n"
+            + "        color = mix(soft, crisp, smoothstep(0.35, 1.0, edge) * 0.8);\n"
             + "        float luma = dot(color, float3(0.2126, 0.7152, 0.0722));\n"
             + "        color = mix(float3(luma), color, 1.2) * 1.03;\n"
             + "        color = mix(color, tint.rgb, tint.a) * (1.0 - dim);\n"
-            + "        float rim = 1.0 - smoothstep(0.0, 1.5 + 2.5 * refraction, -d);\n"
+            + "        float rim = 1.0 - smoothstep(0.0, 1.5 + 3.5 * refraction, -d);\n"
             + "        float light = dot(n, lightDir);\n"
-            + "        color += rim * (0.06 + 0.34 * max(light, 0.0) + 0.14 * max(-light, 0.0)) *\n"
-            + "                (0.5 + 0.5 * refraction) + edge * edge * 0.04;\n"
+            + "        color += rim * (0.08 + 0.5 * max(light, 0.0) + 0.18 * max(-light, 0.0)) *\n"
+            + "                (0.5 + 0.5 * refraction) + edge * edge * (0.04 + 0.1 * max(light, 0.0));\n"
             + "    } else {\n"
             + "        color = float3(blurred.eval(xy).rgb);\n"
             + "        color = mix(color, tint.rgb, tint.a) * (1.0 - dim);\n"
@@ -396,23 +402,36 @@ public class GlassPreviewView extends View {
         }
         final float radius = 18 * mDp * (0.5f + mBlur / 100f)
                 * (material == LiquidGlassSettings.LIQUID ? 0.65f : 1f);
+        final Shader sharp = sharpShader(w, h);
         for (int i = 0; i < count; i++) {
             final RenderNode node = mNodes[i];
             node.setPosition(0, 0, w, h);
             final RecordingCanvas recording = node.beginRecording(w, h);
             drawWallpaper(recording, w, h);
             node.endRecording();
-            node.setRenderEffect(effect(i, material, radius));
+            node.setRenderEffect(effect(i, material, radius, sharp));
         }
     }
 
-    private RenderEffect effect(int i, int material, float radius) {
+    // The unblurred wallpaper, which the lens bends at the rim.
+    private Shader sharpShader(int w, int h) {
+        if (mWallpaper != null) {
+            final BitmapShader shader = new BitmapShader(mWallpaper, Shader.TileMode.CLAMP,
+                    Shader.TileMode.CLAMP);
+            shader.setLocalMatrix(mWallMatrix);
+            return shader;
+        }
+        return new LinearGradient(0, 0, w, h, accent(500), Color.BLACK, Shader.TileMode.CLAMP);
+    }
+
+    private RenderEffect effect(int i, int material, float radius, Shader sharp) {
         final RenderEffect blur = RenderEffect.createBlurEffect(radius, radius,
                 Shader.TileMode.CLAMP);
         final RuntimeShader shader = shader(i);
         if (shader == null) {
             return blur;
         }
+        shader.setInputShader("sharp", sharp);
         final RectF r = mShapes[i];
         final int tint = accent(500);
         final boolean accentTint = mSwatch < 0 && mAccentTint;
