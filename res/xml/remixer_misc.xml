@@ -39,6 +39,18 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="misc_scrolling"
+        android:title="@string/misc_category_scrolling">
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_scroll_haptics"
+            android:icon="@drawable/ic_misc_scroll"
+            android:title="@string/scroll_haptics_title"
+            android:summary="@string/scroll_haptics_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="misc_usb"
         android:title="@string/misc_category_usb">
 

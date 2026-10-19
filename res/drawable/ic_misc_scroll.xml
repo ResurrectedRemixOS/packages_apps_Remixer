@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:width="40dp" android:height="40dp" />
+            <corners android:radius="14dp" />
+            <solid android:color="@color/remixer_misc_socket" />
+            <stroke android:width="1dp" android:color="@color/remixer_misc_ring" />
+        </shape>
+    </item>
+    <item android:width="21dp" android:height="21dp" android:gravity="center">
+        <vector android:width="21dp" android:height="21dp"
+            android:viewportWidth="24" android:viewportHeight="24">
+            <path
+                android:pathData="M8,4h8 M8,8h8 M8,12h8 M5,16.5h14 M5,20.5l1.5,-1.5 M19,20.5l-1.5,-1.5 M12,21.5v-2"
+                android:fillColor="@android:color/transparent"
+                android:strokeColor="@color/remixer_misc_glyph"
+                android:strokeWidth="1.8"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round" />
+        </vector>
+    </item>
+</layer-list>
