@@ -40,6 +40,12 @@ public class QsStylePreviewView extends View {
     public static final int CLASSIC = 5;
     public static final int CARDS = 6;
     public static final int MONO = 7;
+    public static final int NEON = 8;
+    public static final int BENTO = 9;
+    public static final int SHAPES = 10;
+    public static final int BLUEPRINT = 11;
+    public static final int DUO = 12;
+    public static final int SOFT = 13;
 
     private static final float WIDTH = 340f;
     // The big preview keeps this much dp at the bottom clear for its label chip.
@@ -80,12 +86,17 @@ public class QsStylePreviewView extends View {
     private static final int SURFACE = 0x1AFFFFFF;
     private static final int ON_SURFACE = 0xFFEDEEF0;
     private static final int MUTED = 0xFFB4B8BE;
+    private static final int SOFT_SURFACE = 0xFF1C1716;
+    // Lobes an on tile grows in Shapes, and how deep, as SystemUI picks them.
+    private static final int[] LOBES = {8, 4, 6, 12, 5};
+    private static final float[] DEPTHS = {.07f, .13f, .09f, .045f, .1f};
 
     private final Paint mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final Paint mGlow = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final Paint mFade = new Paint();
     private final TextPaint mText = new TextPaint(Paint.ANTI_ALIAS_FLAG);
     private final RectF mRect = new RectF();
+    private final android.graphics.Path mPath = new android.graphics.Path();
     private final Drawable[] mIcons = new Drawable[ICONS.length];
     private final Drawable[] mLockIcons = new Drawable[LOCK_ICONS.length];
     private final String[] mLabels;
@@ -97,6 +108,9 @@ public class QsStylePreviewView extends View {
     private final int mAccent600;
     private final int mAccent700;
     private final int mAccent900;
+    // The bright accent the newer styles fill with, and the ink on it.
+    private final int mVivid;
+    private final int mVividInk;
     private final float mDensity;
     private int mStyle;
     private boolean mMini;
@@ -117,6 +131,8 @@ public class QsStylePreviewView extends View {
         mAccent600 = context.getColor(android.R.color.system_accent1_600);
         mAccent700 = context.getColor(android.R.color.system_accent1_700);
         mAccent900 = context.getColor(android.R.color.system_accent1_900);
+        mVivid = context.getColor(android.R.color.system_accent1_400);
+        mVividInk = mAccent900;
         mLabels = getResources().getStringArray(R.array.remixer_qs_preview_labels);
         mOn = getResources().getString(R.string.remixer_qs_preview_on);
         mOff = getResources().getString(R.string.remixer_qs_preview_off);
@@ -172,13 +188,16 @@ public class QsStylePreviewView extends View {
         }
         mPaint.setShader(null);
         mPaint.setStyle(Paint.Style.FILL);
-        mPaint.setColor(mStyle == MONO ? 0xFF050505 : 0xFF0A0B0D);
+        mPaint.setColor(mStyle == MONO ? 0xFF050505 : mStyle == SOFT ? SOFT_SURFACE : 0xFF0A0B0D);
         canvas.drawRect(0, 0, w, h, mPaint);
-        final int glow = mStyle == MONO ? 0x1FFFFFFF : (mAccent500 & 0x00FFFFFF) | 0x66000000;
-        mPaint.setShader(new RadialGradient(w * .2f, h * .08f, Math.max(w, h) * .7f,
-                glow, Color.TRANSPARENT, Shader.TileMode.CLAMP));
-        canvas.drawRect(0, 0, w, h, mPaint);
-        mPaint.setShader(null);
+        // Soft stays flat; its tiles need the panel's own color around them.
+        if (mStyle != SOFT) {
+            final int glow = mStyle == MONO ? 0x1FFFFFFF : (mAccent500 & 0x00FFFFFF) | 0x66000000;
+            mPaint.setShader(new RadialGradient(w * .2f, h * .08f, Math.max(w, h) * .7f,
+                    glow, Color.TRANSPARENT, Shader.TileMode.CLAMP));
+            canvas.drawRect(0, 0, w, h, mPaint);
+            mPaint.setShader(null);
+        }
 
         final float pad = (mMini ? 6 : 14) * mDensity;
         mScale = (w - pad * 2) / WIDTH;
@@ -232,10 +251,123 @@ public class QsStylePreviewView extends View {
                 canvas.drawCircle(d(34 + (WIDTH - 34) * .62f), d(12), d(10), mPaint);
                 return 24;
             }
+            case NEON: {
+                final float knob = 34 + (WIDTH - 34) * .62f;
+                sun(canvas, 12, 12, mVivid);
+                pill(canvas, 34, 9, WIDTH - 34, 6, 3, 0x1AFFFFFF, mVivid);
+                mGlow.setColor(alpha(mVivid, .6f));
+                mGlow.setMaskFilter(new BlurMaskFilter(d(5), BlurMaskFilter.Blur.NORMAL));
+                mRect.set(d(34), d(9), d(knob), d(15));
+                canvas.drawRoundRect(mRect, d(3), d(3), mGlow);
+                mPaint.setColor(0xFF050307);
+                canvas.drawCircle(d(knob), d(12), d(10), mPaint);
+                mPaint.setStyle(Paint.Style.STROKE);
+                mPaint.setStrokeWidth(d(2));
+                mPaint.setColor(mVivid);
+                canvas.drawCircle(d(knob), d(12), d(10), mPaint);
+                mPaint.setStyle(Paint.Style.FILL);
+                return 24;
+            }
+            case BENTO:
+                pill(canvas, 0, 0, WIDTH, 52, 22, 0x1AFFFFFF, mVivid);
+                return 52;
+            case SHAPES: {
+                final float split = WIDTH * .62f;
+                mPaint.setColor(mVivid);
+                round(canvas, 0, 2, split - 6, 52, 18);
+                round(canvas, split - 2, 0, split + 2, 54, 2);
+                mPaint.setColor(0x2EFFFFFF);
+                round(canvas, split + 6, 2, WIDTH, 52, 18);
+                return 54;
+            }
+            case BLUEPRINT: {
+                mPaint.setColor(0x40FFFFFF);
+                for (int i = 0; i <= 10; i++) {
+                    final float x = WIDTH * i / 10f;
+                    round(canvas, x - .5f, i % 5 == 0 ? 10 : 16, x + .5f, 24, 0);
+                }
+                round(canvas, 0, 23.5f, WIDTH, 24.5f, 0);
+                mPaint.setColor(mVivid);
+                round(canvas, 0, 23, WIDTH * .62f, 25, 0);
+                round(canvas, WIDTH * .62f - 1, 0, WIDTH * .62f + 1, 24, 0);
+                return 26;
+            }
+            case DUO: {
+                mPaint.setColor(mVivid);
+                segment(canvas, 0, 0, 44, 44, 14, 5);
+                sun(canvas, 22, 22, mVividInk);
+                final float split = 47 + (WIDTH - 47) * .62f;
+                mPaint.setColor(0x12FFFFFF);
+                segment(canvas, 47, 0, WIDTH, 44, 5, 14);
+                mPaint.setColor(alpha(mVivid, .3f));
+                segment(canvas, 47, 0, split, 44, 5, 0);
+                mPaint.setColor(mVivid);
+                round(canvas, split - 2, 10, split + 2, 34, 2);
+                return 44;
+            }
+            case SOFT: {
+                final float knob = 34 + (WIDTH - 34) * .62f;
+                sun(canvas, 12, 15, 0xB3EDEEF0);
+                mPaint.setColor(0xFF110D0C);
+                round(canvas, 34, 6, WIDTH, 24, 9);
+                mPaint.setColor(mVivid);
+                round(canvas, 36, 8, knob, 22, 7);
+                mGlow.setColor(0xE60B0908);
+                mGlow.setMaskFilter(new BlurMaskFilter(d(5), BlurMaskFilter.Blur.NORMAL));
+                canvas.drawCircle(d(knob + 3), d(18), d(15), mGlow);
+                mPaint.setColor(0xFF2A2321);
+                canvas.drawCircle(d(knob), d(15), d(15), mPaint);
+                mPaint.setColor(mVivid);
+                canvas.drawCircle(d(knob), d(15), d(4), mPaint);
+                return 30;
+            }
             default:
                 pill(canvas, 0, 0, WIDTH, 44, 22, SURFACE, mPrimary);
                 return 44;
         }
+    }
+
+    /** A sun: a ring, as Classic draws it. */
+    private void sun(Canvas canvas, float cx, float cy, int color) {
+        mPaint.setColor(color);
+        mPaint.setStyle(Paint.Style.STROKE);
+        mPaint.setStrokeWidth(d(2.2f));
+        canvas.drawCircle(d(cx), d(cy), d(5), mPaint);
+        mPaint.setStyle(Paint.Style.FILL);
+    }
+
+    /** Fills a rounded rect in the current paint color. */
+    private void round(Canvas canvas, float left, float top, float right, float bottom, float r) {
+        mRect.set(d(left), d(top), d(right), d(bottom));
+        canvas.drawRoundRect(mRect, d(r), d(r), mPaint);
+    }
+
+    /** Fills a Duo segment: radius start on the left corners, end on the right ones. */
+    private void segment(Canvas canvas, float left, float top, float right, float bottom,
+            float start, float end) {
+        mRect.set(d(left), d(top), d(right), d(bottom));
+        mPath.reset();
+        mPath.addRoundRect(mRect, new float[] {d(start), d(start), d(end), d(end), d(end),
+                d(end), d(start), d(start)}, android.graphics.Path.Direction.CW);
+        canvas.drawPath(mPath, mPaint);
+    }
+
+    /** Sets mPath to a circle growing lobes, like a Shapes tile. */
+    private void blob(float cx, float cy, float radius, int lobes, float depth) {
+        mPath.reset();
+        final float base = radius / (1 + depth);
+        for (int i = 0; i < 96; i++) {
+            final double angle = i * 2 * Math.PI / 96;
+            final float r = (float) (base * (1 + depth * Math.cos(lobes * angle)));
+            final float x = d(cx + r * (float) Math.sin(angle));
+            final float y = d(cy - r * (float) Math.cos(angle));
+            if (i == 0) {
+                mPath.moveTo(x, y);
+            } else {
+                mPath.lineTo(x, y);
+            }
+        }
+        mPath.close();
     }
 
     /** A slider track at 62%. */
@@ -328,6 +460,43 @@ public class QsStylePreviewView extends View {
                     accent = play = 0xFFF2F2F2;
                     onAccent = playInk = 0xFF111111;
                     track = 0x47EDEDED;
+                    break;
+                case NEON:
+                    bg = 0xFF0B080C;
+                    border = alpha(mVivid, .9f);
+                    radius = 24;
+                    accent = playInk = playBorder = mVivid;
+                    onAccent = mVividInk;
+                    play = alpha(mVivid, .12f);
+                    break;
+                case BENTO:
+                case SHAPES:
+                case DUO:
+                    base = LOCK_BASE;
+                    bg = mStyle == DUO ? 0x12FFFFFF : SURFACE;
+                    radius = mStyle == SHAPES ? 32 : mStyle == DUO ? 22 : 26;
+                    artRadius = mStyle == BENTO ? 18 : 14;
+                    accent = play = mVivid;
+                    onAccent = playInk = mVividInk;
+                    break;
+                case BLUEPRINT:
+                    base = LOCK_BASE;
+                    bg = Color.TRANSPARENT;
+                    border = 0x2EFFFFFF;
+                    radius = 10;
+                    artRadius = 6;
+                    accent = playInk = playBorder = mVivid;
+                    onAccent = mVividInk;
+                    play = alpha(mVivid, .08f);
+                    break;
+                case SOFT:
+                    bg = SOFT_SURFACE;
+                    radius = 26;
+                    artRadius = 16;
+                    accent = playInk = mVivid;
+                    onAccent = mVividInk;
+                    play = SOFT_SURFACE;
+                    playBorder = 0x14FFFFFF;
                     break;
                 default:
                     base = LOCK_BASE;
@@ -506,9 +675,19 @@ public class QsStylePreviewView extends View {
     }
 
     private void drawTiles(Canvas canvas, float top, float bottom) {
-        final boolean uniform = mStyle == CLASSIC || mStyle == CARDS;
-        final int cols = mStyle == CLASSIC ? 5 : mStyle == CARDS ? 3 : 4;
-        final float gap = mStyle == CLASSIC ? 4 : (mStyle == CARDS || mStyle == GLASS) ? 10 : 8;
+        final boolean uniform = mStyle == CLASSIC || mStyle == CARDS || mStyle == SHAPES;
+        final int cols = (mStyle == CLASSIC || mStyle == SHAPES) ? 5 : mStyle == CARDS ? 3 : 4;
+        final float gap;
+        switch (mStyle) {
+            case CLASSIC: gap = 4; break;
+            case SHAPES: gap = 6; break;
+            case SOFT: gap = 14; break;
+            case CARDS:
+            case GLASS:
+            case NEON:
+            case BENTO: gap = 10; break;
+            default: gap = 8; break;
+        }
         final float height = tileHeight();
         final float colWidth = (WIDTH - gap * (cols - 1)) / cols;
         float y = top;
@@ -537,6 +716,12 @@ public class QsStylePreviewView extends View {
             case CIRCLES: return 80;
             case CLASSIC: return 78;
             case CARDS: return 104;
+            case NEON:
+            case SOFT: return 64;
+            case BENTO: return 80;
+            case SHAPES: return 88;
+            case BLUEPRINT: return 56;
+            case DUO: return 60;
             default: return 72;
         }
     }
@@ -572,6 +757,118 @@ public class QsStylePreviewView extends View {
                         on ? mOnPrimary : ON_SURFACE, false);
                 label(canvas, on ? mOn : mOff, x + 14, y + h - 16, w - 28, 12, false,
                         on ? alpha(mOnPrimary, .8f) : MUTED, false);
+                return;
+            }
+            case SHAPES: {
+                final float cx = x + w / 2;
+                final float cy = y + 31;
+                blob(cx, cy, 29, LOBES[i % LOBES.length], on ? DEPTHS[i % DEPTHS.length] : 0);
+                mPaint.setColor(on ? mVivid : SURFACE);
+                canvas.drawPath(mPath, mPaint);
+                icon(canvas, i, cx, cy, 24, on ? mVividInk : ON_SURFACE);
+                label(canvas, mLabels[i], cx, y + 80, w, 11.5f, true, ON_SURFACE, true);
+                return;
+            }
+            case BENTO:
+                if (!wide) {
+                    final int ink = on ? mVividInk : ON_SURFACE;
+                    fill(canvas, on ? mVivid : SURFACE, 22);
+                    icon(canvas, i, x + w / 2, y + h / 2 - 9, 22, ink);
+                    label(canvas, mLabels[i], x + w / 2, y + h / 2 + 20, w - 6, 11, true, ink,
+                            true);
+                    return;
+                }
+                fill(canvas, on ? mVivid : SURFACE, 26);
+                wideLabels(canvas, i, x, y, w, h, 8, 46, on ? alpha(mVividInk, .14f) : 0x14FFFFFF,
+                        on ? mVividInk : ON_SURFACE, on ? alpha(mVividInk, .8f) : MUTED, false);
+                return;
+            case NEON:
+                if (on) {
+                    mGlow.setColor(alpha(mVivid, .55f));
+                    mGlow.setMaskFilter(new BlurMaskFilter(d(10), BlurMaskFilter.Blur.NORMAL));
+                    canvas.drawRoundRect(mRect, d(20), d(20), mGlow);
+                }
+                fill(canvas, on ? alpha(mVivid, .1f) : 0x08FFFFFF, 20);
+                outline(canvas, x, y, w, h, 20, on ? mVivid : 0x1FFFFFFF);
+                if (!wide) {
+                    icon(canvas, i, x + w / 2, y + h / 2, 22, on ? mVivid : 0xB3EDEEF0);
+                    return;
+                }
+                wideLabels(canvas, i, x, y, w, h, 2, 40, Color.TRANSPARENT,
+                        on ? mVivid : 0xB3EDEEF0, on ? mVivid : MUTED, false);
+                return;
+            case BLUEPRINT: {
+                if (on) {
+                    fill(canvas, alpha(mVivid, .08f), 10);
+                }
+                mPaint.setStyle(Paint.Style.STROKE);
+                mPaint.setStrokeWidth(d(1));
+                mPaint.setColor(on ? mVivid : 0x2EFFFFFF);
+                mRect.inset(d(.5f), d(.5f));
+                canvas.drawRoundRect(mRect, d(10), d(10), mPaint);
+                mPaint.setStyle(Paint.Style.FILL);
+                final int ink = on ? mVivid : 0xB3EDEEF0;
+                if (!wide) {
+                    icon(canvas, i, x + w / 2, y + h / 2, 20, ink);
+                    return;
+                }
+                wideLabels(canvas, i, x, y, w, h, 2, 36, Color.TRANSPARENT, ink,
+                        on ? mVivid : MUTED, true);
+                return;
+            }
+            case DUO: {
+                final int segment = on ? mVivid : 0x1AFFFFFF;
+                final int ink = on ? mVividInk : ON_SURFACE;
+                mPaint.setColor(segment);
+                if (!wide) {
+                    round(canvas, x, y, x + w, y + h, 20);
+                    icon(canvas, i, x + w / 2, y + h / 2, 22, ink);
+                    return;
+                }
+                segment(canvas, x, y, x + h, y + h, 20, 6);
+                icon(canvas, i, x + h / 2, y + h / 2, 22, ink);
+                mPaint.setColor(0x12FFFFFF);
+                segment(canvas, x + h + 3, y, x + w, y + h, 6, 20);
+                final float textLeft = x + h + 15;
+                final float textWidth = x + w - textLeft - 10;
+                label(canvas, mLabels[i], textLeft, y + h / 2 - 2, textWidth, 14, true,
+                        ON_SURFACE, false);
+                label(canvas, on ? mOn : mOff, textLeft, y + h / 2 + 14, textWidth, 12, false,
+                        on ? mVivid : MUTED, false);
+                return;
+            }
+            case SOFT: {
+                if (on) {
+                    // Pressed in: darker, shaded at the top left edge.
+                    fill(canvas, 0xFF161211, 22);
+                    mPaint.setStyle(Paint.Style.STROKE);
+                    mPaint.setStrokeWidth(d(3));
+                    mPaint.setShader(new LinearGradient(mRect.left, mRect.top, mRect.right,
+                            mRect.bottom, 0xCC0B0908, 0x402E2725, Shader.TileMode.CLAMP));
+                    canvas.drawRoundRect(mRect, d(22), d(22), mPaint);
+                    mPaint.setShader(null);
+                    mPaint.setStyle(Paint.Style.FILL);
+                } else {
+                    mGlow.setMaskFilter(new BlurMaskFilter(d(7), BlurMaskFilter.Blur.NORMAL));
+                    mGlow.setColor(0xE60B0908);
+                    canvas.save();
+                    canvas.translate(d(4), d(4));
+                    canvas.drawRoundRect(mRect, d(22), d(22), mGlow);
+                    canvas.restore();
+                    mGlow.setColor(0xFF2E2725);
+                    canvas.save();
+                    canvas.translate(-d(3), -d(3));
+                    canvas.drawRoundRect(mRect, d(22), d(22), mGlow);
+                    canvas.restore();
+                    fill(canvas, SOFT_SURFACE, 22);
+                }
+                final int ink = on ? mVivid : 0xBFEDEEF0;
+                if (!wide) {
+                    icon(canvas, i, x + w / 2, y + h / 2, 22, ink);
+                    return;
+                }
+                wideLabels(canvas, i, x, y, w, h, 4, 40, Color.TRANSPARENT, ink,
+                        on ? mVivid : MUTED, false);
                 return;
             }
             default:
@@ -695,6 +992,50 @@ public class QsStylePreviewView extends View {
             canvas.drawLine(d(cx + 3), d(cy), d(cx - 3), d(cy + 6), mPaint);
             mPaint.setStyle(Paint.Style.FILL);
         }
+    }
+
+    /** A wide tile's icon in an optional chip, then its name and state. */
+    private void wideLabels(Canvas canvas, int i, float x, float y, float w, float h,
+            float chipLeftPad, float chipSize, int chip, int ink, int sub, boolean caps) {
+        final float chipLeft = x + chipLeftPad + 6;
+        final float cy = y + h / 2;
+        if (chip != Color.TRANSPARENT) {
+            mPaint.setColor(chip);
+            canvas.drawCircle(d(chipLeft + chipSize / 2), d(cy), d(chipSize / 2), mPaint);
+        }
+        icon(canvas, i, chipLeft + chipSize / 2, cy, 22, ink);
+        final float textLeft = chipLeft + chipSize + 6;
+        final float textWidth = x + w - textLeft - 10;
+        final String name = caps ? mLabels[i].toUpperCase() : mLabels[i];
+        final String state = on(i) ? mOn : mOff;
+        if (caps) {
+            mono(canvas, name, textLeft, cy - 1, textWidth, 11, ON_SURFACE);
+            mono(canvas, state.toUpperCase(), textLeft, cy + 13, textWidth, 9.5f, sub);
+        } else {
+            label(canvas, name, textLeft, cy - 2, textWidth, 14, true,
+                    mStyle == BENTO ? ink : ON_SURFACE, false);
+            label(canvas, state, textLeft, cy + 14, textWidth, 12, false, sub, false);
+        }
+    }
+
+    private static boolean on(int i) {
+        return ON[i];
+    }
+
+    /** Blueprint's monospace caps. */
+    private void mono(Canvas canvas, String text, float x, float baseline, float width,
+            float size, int color) {
+        if (mMini || text == null) {
+            return;
+        }
+        mText.setTextSize(d(size));
+        mText.setTypeface(Typeface.MONOSPACE);
+        mText.setLetterSpacing(.06f);
+        mText.setColor(color);
+        final CharSequence fitted = TextUtils.ellipsize(text, mText, d(width),
+                TextUtils.TruncateAt.END);
+        canvas.drawText(fitted, 0, fitted.length(), d(x), d(baseline), mText);
+        mText.setLetterSpacing(0);
     }
 
     /** Fills the tile rect set by drawTile. */

@@ -41,18 +41,27 @@ public class QsStyleActivity extends CollapsingToolbarBaseActivity {
         R.string.remixer_qs_style_compact, R.string.remixer_qs_style_glass,
         R.string.remixer_qs_style_circles, R.string.remixer_qs_style_classic,
         R.string.remixer_qs_style_cards, R.string.remixer_qs_style_mono,
+        R.string.remixer_qs_style_neon, R.string.remixer_qs_style_bento,
+        R.string.remixer_qs_style_shapes, R.string.remixer_qs_style_blueprint,
+        R.string.remixer_qs_style_duo, R.string.remixer_qs_style_soft,
     };
     private static final int[] DESCRIPTIONS = {
         R.string.remixer_qs_style_stock_summary, R.string.remixer_qs_style_remix_summary,
         R.string.remixer_qs_style_compact_summary, R.string.remixer_qs_style_glass_summary,
         R.string.remixer_qs_style_circles_summary, R.string.remixer_qs_style_classic_summary,
         R.string.remixer_qs_style_cards_summary, R.string.remixer_qs_style_mono_summary,
+        R.string.remixer_qs_style_neon_summary, R.string.remixer_qs_style_bento_summary,
+        R.string.remixer_qs_style_shapes_summary, R.string.remixer_qs_style_blueprint_summary,
+        R.string.remixer_qs_style_duo_summary, R.string.remixer_qs_style_soft_summary,
     };
     private static final int[] LOCK_DESCRIPTIONS = {
         R.string.remixer_lock_media_stock_summary, R.string.remixer_lock_media_remix_summary,
         R.string.remixer_lock_media_compact_summary, R.string.remixer_lock_media_glass_summary,
         R.string.remixer_lock_media_circles_summary, R.string.remixer_lock_media_classic_summary,
         R.string.remixer_lock_media_cards_summary, R.string.remixer_lock_media_mono_summary,
+        R.string.remixer_lock_media_neon_summary, R.string.remixer_lock_media_bento_summary,
+        R.string.remixer_lock_media_shapes_summary, R.string.remixer_lock_media_blueprint_summary,
+        R.string.remixer_lock_media_duo_summary, R.string.remixer_lock_media_soft_summary,
     };
 
     private View[] mRows;
