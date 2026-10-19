@@ -11,6 +11,7 @@
     <string name="volume_on_left_summary">Classic RR always sits at the top</string>
     <string name="volume_ringer_title">Ringer mode button</string>
     <string name="volume_tick_title">Tick as you slide</string>
+    <string name="volume_percent_title">Show the level in percent</string>
     <string name="volume_timeout_title">Hide after</string>
     <string-array name="volume_timeout_entries">
         <item>1.5 s</item>

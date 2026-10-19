@@ -34,6 +34,11 @@
             android:title="@string/volume_tick_title"
             android:defaultValue="true" />
 
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_volume_percent"
+            android:title="@string/volume_percent_title"
+            android:defaultValue="true" />
+
         <com.resurrection.settings.preferences.SecureSettingListPreference
             android:key="volume_dialog_dismiss_timeout"
             android:title="@string/volume_timeout_title"
