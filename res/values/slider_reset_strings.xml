@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="slider_reset">Reset to default</string>
+    <string name="slider_reset_hint">Hold to reset to default</string>
+</resources>

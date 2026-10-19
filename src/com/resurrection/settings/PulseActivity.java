@@ -38,6 +38,9 @@ public class PulseActivity extends CollapsingToolbarBaseActivity {
     private static final String KEY_BARS = "pulse_bar_count";
     private static final String KEY_HEIGHT = "pulse_height";
     private static final String KEY_OPACITY = "pulse_opacity";
+    private static final int BARS_DEFAULT = 28;
+    private static final int HEIGHT_DEFAULT = 48;
+    private static final int OPACITY_DEFAULT = 90;
     private static final String KEY_LOCKSCREEN = "pulse_lockscreen";
 
     private static final int DEFAULT_COLOR = 0xFFE02437;
@@ -151,6 +154,12 @@ public class PulseActivity extends CollapsingToolbarBaseActivity {
             mOpacity = value;
             updateLook();
         });
+        SliderReset.attach(mBarsLabel, findViewById(R.id.pulse_bars), BARS_DEFAULT,
+                () -> putInt(KEY_BARS, BARS_DEFAULT));
+        SliderReset.attach(mHeightLabel, findViewById(R.id.pulse_height), HEIGHT_DEFAULT,
+                () -> putInt(KEY_HEIGHT, HEIGHT_DEFAULT));
+        SliderReset.attach(mOpacityLabel, findViewById(R.id.pulse_opacity), OPACITY_DEFAULT,
+                () -> putInt(KEY_OPACITY, OPACITY_DEFAULT));
 
         mLockscreenSwitch.setChecked(mLockscreen);
         mLockscreenSwitch.setOnCheckedChangeListener((button, checked) -> {
@@ -175,9 +184,9 @@ public class PulseActivity extends CollapsingToolbarBaseActivity {
         mStyle = clamp(getInt(KEY_STYLE, 0), 0, STYLE_BUTTONS.length - 1);
         mColorMode = clamp(getInt(KEY_COLOR_MODE, 0), 0, COLOR_BUTTONS.length - 1);
         mColor = getInt(KEY_COLOR, DEFAULT_COLOR) | 0xFF000000;
-        mBars = clamp(getInt(KEY_BARS, 28), 12, 48);
-        mHeightDp = clamp(getInt(KEY_HEIGHT, 48), 24, 120);
-        mOpacity = clamp(getInt(KEY_OPACITY, 90), 10, 100);
+        mBars = clamp(getInt(KEY_BARS, BARS_DEFAULT), 12, 48);
+        mHeightDp = clamp(getInt(KEY_HEIGHT, HEIGHT_DEFAULT), 24, 120);
+        mOpacity = clamp(getInt(KEY_OPACITY, OPACITY_DEFAULT), 10, 100);
         mLockscreen = getInt(KEY_LOCKSCREEN, 1) == 1;
     }
 

@@ -71,6 +71,7 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
     private int mPreviewShade;
     private TextView mSaturationValue;
     private HueBarView mSaturation;
+    private Runnable mSaturationReset;
     /** Saturation baked into this activity's theme colors. */
     private int mThemeSaturation;
     private int mPreviewSaturation;
@@ -169,6 +170,7 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
                 applyShade(Math.round(slider.getValue()));
             }
         });
+        SliderReset.attach(mShadeValue, mShade, 0, () -> applyShade(0));
     }
 
     private void setupSaturation() {
@@ -190,12 +192,22 @@ public class AccentActivity extends CollapsingToolbarBaseActivity {
             showSaturation(saturation);
         });
         mSaturation.setOnReleaseListener(value -> applySaturation(mPreviewSaturation));
+        final int def = AccentController.SATURATION_DEFAULT;
+        mSaturationReset = SliderReset.attach(mSaturationValue, def, () -> mPreviewSaturation,
+                () -> {
+                    mSaturation.setValue(def);
+                    showSaturation(def);
+                    applySaturation(def);
+                });
     }
 
     private void showSaturation(int saturation) {
         updateSaturationLabel(saturation);
         mPreviewSaturation = saturation;
         preview();
+        if (mSaturationReset != null) {
+            mSaturationReset.run();
+        }
     }
 
     private String saturationLabel(int saturation) {

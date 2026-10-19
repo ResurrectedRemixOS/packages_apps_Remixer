@@ -267,6 +267,10 @@ public class ClockFaceActivity extends CollapsingToolbarBaseActivity {
         bindSlider(findViewById(R.id.clock_opacity), KEY_OPACITY, getInt(KEY_OPACITY, 100),
                 value -> mOpacityLabel.setText(getString(R.string.clock_faces_opacity_value,
                         value)));
+        resetTo(mSizeLabel, findViewById(R.id.clock_size), KEY_SIZE, 100);
+        resetTo(mTopLabel, findViewById(R.id.clock_top), KEY_TOP, 15);
+        resetTo(mStartLabel, mStartSlider, KEY_START, 0);
+        resetTo(mOpacityLabel, findViewById(R.id.clock_opacity), KEY_OPACITY, 100);
 
         bindSwitchRow(findViewById(R.id.clock_wobble_row), R.string.clock_faces_wobble,
                 R.string.clock_faces_wobble_summary, KEY_WOBBLE);
@@ -448,6 +452,13 @@ public class ClockFaceActivity extends CollapsingToolbarBaseActivity {
             mStartLabel.setText(getString(value > 0 ? R.string.clock_faces_horizontal_right
                     : R.string.clock_faces_horizontal_left, Math.abs(value)));
         }
+    }
+
+    private void resetTo(TextView label, Slider slider, String key, int def) {
+        SliderReset.attach(label, slider, def, () -> {
+            putInt(key, def);
+            lookChanged();
+        });
     }
 
     private void bindSlider(Slider slider, String key, int initial, IntConsumer onValue) {

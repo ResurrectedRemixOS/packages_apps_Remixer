@@ -229,6 +229,10 @@ public class HeaderActivity extends CollapsingToolbarBaseActivity {
             mShadow = value;
             updateLook();
         });
+        SliderReset.attach(mHeightLabel, height, HEIGHT_DEFAULT,
+                () -> putInt(Settings.System.STATUS_BAR_CUSTOM_HEADER_HEIGHT, HEIGHT_DEFAULT));
+        SliderReset.attach(mShadowLabel, shadow, 0,
+                () -> putInt(Settings.System.STATUS_BAR_CUSTOM_HEADER_SHADOW, 0));
 
         applyState();
         mExecutor.execute(() -> {
