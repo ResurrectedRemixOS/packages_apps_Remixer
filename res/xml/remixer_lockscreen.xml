@@ -30,12 +30,6 @@
         android:key="remixer_quick_launch"
         android:title="@string/quick_launch_main" />
 
-    <Preference
-        android:key="charging_glow_page"
-        android:title="@string/charging_glow_title"
-        android:summary="@string/charging_glow_summary"
-        android:fragment="com.resurrection.settings.chargingglow.ChargingGlowSettings" />
-
     <lineageos.preference.SystemSettingSwitchPreference
         android:key="pocket_judge"
         android:title="@string/pocket_mode_title"

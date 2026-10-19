@@ -87,7 +87,7 @@ public final class RemixBackup {
     private static final String[] HEADER_PREFIXES = {"status_bar_custom_header",
             "status_bar_daylight_header", "status_bar_file_header"};
     private static final String[] SYSTEM_PREFIXES = {"rr_", "status_bar_", "statusbar_", "qs_",
-            "edge_light", "charging_glow", "now_bar", "fp_quick_launch", "charge_report_",
+            "edge_light", "now_bar", "fp_quick_launch", "charge_report_",
             "pulse_", "udfps_", "lockscreen_", "lock_screen_", "clock_", "screen_on_time",
             "pocket_", "network_traffic", "omni_", "header_", "pie_"};
     private static final String[] SECURE_KEYS = {THEME, "rr_accent_shade", "rr_accent_saturation"};
@@ -136,8 +136,7 @@ public final class RemixBackup {
 
     private static int groupForPage(String file) {
         if (file.contains("statusbar")) return R.string.backup_group_status_bar;
-        if (file.contains("lockscreen") || file.contains("charging_glow")
-                || file.contains("now_bar") || file.contains("weather")) {
+        if (file.contains("lockscreen") || file.contains("now_bar") || file.contains("weather")) {
             return R.string.backup_group_lock_screen;
         }
         if (file.contains("theme")) return R.string.backup_group_theme;
@@ -163,7 +162,7 @@ public final class RemixBackup {
             return R.string.backup_group_status_bar;
         }
         if (key.startsWith("lockscreen_") || key.startsWith("lock_screen_")
-                || key.startsWith("charging_glow") || key.startsWith("now_bar")
+                || key.startsWith("now_bar")
                 || key.startsWith("udfps_") || key.startsWith("pocket_")
                 || key.startsWith("fp_quick_launch")) {
             return R.string.backup_group_lock_screen;
