@@ -81,6 +81,13 @@ public class LiquidGlassSettings extends SettingsPreferenceFragment {
         update();
     }
 
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        // The preview stays on screen while the options scroll under it.
+        setPinnedHeaderView(R.layout.remixer_liquid_glass_pinned);
+    }
+
     private void select(int material) {
         if (material == mMaterial) {
             return;
