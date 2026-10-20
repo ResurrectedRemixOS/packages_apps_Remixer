@@ -77,8 +77,12 @@ public class SystemSettingSeekBarPreference extends SliderPreference {
             lp.addRule(RelativeLayout.ALIGN_TOP, android.R.id.title);
             lp.addRule(RelativeLayout.ALIGN_BOTTOM, android.R.id.title);
             row.addView(reset, lp);
-            ((RelativeLayout.LayoutParams) title.getLayoutParams())
-                    .addRule(RelativeLayout.START_OF, reset.getId());
+            // Both edges, or RelativeLayout right-aligns the title and the summary and
+            // slider (aligned to its start) collapse with it.
+            RelativeLayout.LayoutParams titleParams =
+                    (RelativeLayout.LayoutParams) title.getLayoutParams();
+            titleParams.addRule(RelativeLayout.ALIGN_PARENT_START);
+            titleParams.addRule(RelativeLayout.START_OF, reset.getId());
         }
         if (mDefault == null) {
             reset.setVisibility(View.GONE);
