@@ -14,7 +14,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.settings.R;
-import com.google.android.material.color.MaterialColors;
 import com.google.android.material.slider.Slider;
 
 import java.util.function.DoubleSupplier;
@@ -81,9 +80,11 @@ public final class SliderReset {
     public static ImageButton create(Context context, Runnable reset) {
         ImageButton button = new ImageButton(context);
         button.setImageResource(R.drawable.ic_slider_reset);
-        button.setImageTintList(android.content.res.ColorStateList.valueOf(
-                MaterialColors.getColor(context,
-                        com.google.android.material.R.attr.colorOnSurfaceVariant, 0)));
+        // Settings themes lack the Material attrs; an unresolved tint is transparent.
+        android.content.res.TypedArray a = context.obtainStyledAttributes(
+                new int[] {android.R.attr.textColorSecondary});
+        button.setImageTintList(a.getColorStateList(0));
+        a.recycle();
         button.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
         int pad = (dp(context, SIZE_DP) - dp(context, ICON_DP)) / 2;
         button.setPadding(pad, 0, pad, 0);
