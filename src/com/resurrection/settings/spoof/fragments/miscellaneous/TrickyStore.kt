@@ -58,6 +58,7 @@ class TrickyStore : SettingsPreferenceFragment() {
     private var currentRevocationReason: String = ""   // e.g. "KEY_COMPROMISE"
     private var isCheckInProgress = false
     private var isKeyboxPickerOpen = false
+    private var rkpController: DuckRkpPreferenceController? = null
 
     // ---- Trust anchors (SHA-256 of DER-encoded cert) ------------------------
 
@@ -89,6 +90,7 @@ class TrickyStore : SettingsPreferenceFragment() {
         private const val KEYBOX_SOURCE_KEY          = "spoof_trickystore_keybox_source"
         private const val KEYBOX_SOURCE_OFFICIAL     = "official"
         private const val KEYBOX_SOURCE_USER         = "user"
+        private const val KEYBOX_SOURCE_DUCK         = "duck_rkp"
         private const val TARGET_KEY                 = TrickyStoreAppSettings.TARGET_KEY
         internal const val PATCH_KEY                 = "spoof_trickystore_patch"
         private const val LAST_FETCHED_KEY           = "spoof_trickystore_last_fetched"
@@ -270,6 +272,8 @@ class TrickyStore : SettingsPreferenceFragment() {
         currentRevocationReason = Settings.Secure.getString(
             requireContext().contentResolver, LAST_REVOCATION_REASON_KEY) ?: ""
 
+        rkpController = DuckRkpPreferenceController(this) { refreshStatus() }
+        rkpController?.start()
         refreshStatus()
     }
 
@@ -836,6 +840,7 @@ class TrickyStore : SettingsPreferenceFragment() {
         if (isKeyboxPickerOpen) return
         if (isCheckInProgress) return
         if (isNoValidCooldownActive()) return
+        if (isDuckRkpActive()) return
 
         val existing = Settings.Secure.getString(requireContext().contentResolver, KEYBOX_KEY)
         if (!existing.isNullOrEmpty()) {
@@ -852,6 +857,7 @@ class TrickyStore : SettingsPreferenceFragment() {
     // ---- Official keybox fetch ----------------------------------------------
 
     private fun fetchOfficialKeybox(silent: Boolean = false) {
+        if (silent && isDuckRkpActive()) return
         val pref = findPreference<Preference>("ts_fetch_keybox")
         if (!silent) {
             pref?.isEnabled = false
@@ -1071,6 +1077,8 @@ class TrickyStore : SettingsPreferenceFragment() {
                         requireContext().contentResolver, LAST_REVOCATION_REASON_KEY, "")
                     Settings.Secure.putString(
                         requireContext().contentResolver, KEYBOX_SOURCE_KEY, "")
+                    Settings.Secure.putLong(
+                        requireContext().contentResolver, "spoof_duck_rkp_expires_at", 0L)
                     clearNoValidKeyboxCooldown()
                     Settings.Secure.putLong(
                         requireContext().contentResolver, LAST_REVOCATION_CHECK_KEY, 0L)
@@ -1205,6 +1213,11 @@ class TrickyStore : SettingsPreferenceFragment() {
     private fun isUserImportedKeybox(): Boolean =
         Settings.Secure.getString(
             requireContext().contentResolver, KEYBOX_SOURCE_KEY) == KEYBOX_SOURCE_USER
+
+    private fun isDuckRkpActive(): Boolean =
+        rkpController?.enabled == true ||
+            Settings.Secure.getString(
+                requireContext().contentResolver, KEYBOX_SOURCE_KEY) == KEYBOX_SOURCE_DUCK
 
     // ---- GMS kill -----------------------------------------------------------
 
