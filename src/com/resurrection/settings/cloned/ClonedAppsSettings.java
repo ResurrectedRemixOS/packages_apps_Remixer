@@ -141,6 +141,7 @@ public class ClonedAppsSettings extends SettingsPreferenceFragment {
             }
             byPackage.put(row.pkg, row);
         }
+        CloneBackend.getInstance(context).hideAutoInstalledLaunchers(null);
         Set<String> cloned = clonedPackages(context);
         for (AppRow row : byPackage.values()) {
             row.cloned = cloned.contains(row.pkg);
@@ -155,10 +156,18 @@ public class ClonedAppsSettings extends SettingsPreferenceFragment {
         if (cloneUser == -1) {
             return Set.of();
         }
+        PackageManager pm = context.getPackageManager();
+        UserHandle user = UserHandle.of(cloneUser);
         Set<String> names = new HashSet<>();
-        for (android.content.pm.PackageInfo info : context.getPackageManager()
-                .getInstalledPackagesAsUser(0, cloneUser)) {
-            names.add(info.packageName);
+        for (android.content.pm.PackageInfo info : pm.getInstalledPackagesAsUser(0, cloneUser)) {
+            try {
+                if (pm.getInstallReason(info.packageName, user)
+                        == PackageManager.INSTALL_REASON_USER) {
+                    names.add(info.packageName);
+                }
+            } catch (IllegalArgumentException ignored) {
+                // Gone between the list and the reason lookup.
+            }
         }
         return names;
     }
