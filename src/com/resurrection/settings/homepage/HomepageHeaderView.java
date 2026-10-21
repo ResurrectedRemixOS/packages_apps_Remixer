@@ -256,6 +256,39 @@ public class HomepageHeaderView extends LinearLayout {
     }
 
     @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        // Size the tiles, then stretch the short one in each pair to match.
+        for (View tile : tiles()) {
+            ((LayoutParams) tile.getLayoutParams()).height = LayoutParams.WRAP_CONTENT;
+        }
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+        if (stretchShortTiles()) {
+            super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+        }
+    }
+
+    private View[] tiles() {
+        return new View[] {mNetwork.root, mApps.root, mDisplay.root, mSecurity.root,
+                mAccounts.root, mAccessibility.root};
+    }
+
+    private boolean stretchShortTiles() {
+        return stretch(mNetwork.root, mApps.root)
+                | stretch(mDisplay.root, mSecurity.root)
+                | stretch(mAccounts.root, mAccessibility.root);
+    }
+
+    private boolean stretch(View a, View b) {
+        if (a.getMeasuredHeight() == b.getMeasuredHeight()) {
+            return false;
+        }
+        final int height = Math.max(a.getMeasuredHeight(), b.getMeasuredHeight());
+        ((LayoutParams) a.getLayoutParams()).height = height;
+        ((LayoutParams) b.getLayoutParams()).height = height;
+        return true;
+    }
+
+    @Override
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
         final Context context = getContext();

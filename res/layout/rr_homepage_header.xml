@@ -315,7 +315,7 @@
             android:id="@+id/rr_group_network"
             layout="@layout/rr_homepage_group_tile"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1" />
 
         <Space
@@ -326,7 +326,7 @@
             android:id="@+id/rr_group_apps"
             layout="@layout/rr_homepage_group_tile"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1" />
     </LinearLayout>
 
@@ -341,7 +341,7 @@
             android:id="@+id/rr_group_display"
             layout="@layout/rr_homepage_group_tile"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1" />
 
         <Space
@@ -352,7 +352,7 @@
             android:id="@+id/rr_group_security"
             layout="@layout/rr_homepage_group_tile"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1" />
     </LinearLayout>
 
@@ -367,7 +367,7 @@
             android:id="@+id/rr_group_accounts"
             layout="@layout/rr_homepage_group_tile"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1" />
 
         <Space
@@ -378,7 +378,7 @@
             android:id="@+id/rr_group_accessibility"
             layout="@layout/rr_homepage_group_tile"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1" />
     </LinearLayout>
 
