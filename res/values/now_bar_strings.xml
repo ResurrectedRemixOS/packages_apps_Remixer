@@ -10,6 +10,8 @@
     <string name="now_bar_music">Music and video</string>
     <string name="now_bar_timers">Timers, stopwatch and alarms</string>
     <string name="now_bar_calls">Calls</string>
+    <string name="now_bar_hide_call">Hide the call notification</string>
+    <string name="now_bar_hide_call_summary">On the lock screen, a call in the Now Bar is not also listed as a notification</string>
     <string name="now_bar_live">Live Updates</string>
     <string name="now_bar_live_summary">Navigation, rides, deliveries, scores</string>
     <string name="now_bar_scores">Live scores</string>

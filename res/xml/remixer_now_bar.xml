@@ -31,6 +31,12 @@
             android:defaultValue="true"
             android:dependency="now_bar" />
         <lineageos.preference.SystemSettingSwitchPreference
+            android:key="now_bar_hide_call"
+            android:title="@string/now_bar_hide_call"
+            android:summary="@string/now_bar_hide_call_summary"
+            android:defaultValue="true"
+            android:dependency="now_bar_calls" />
+        <lineageos.preference.SystemSettingSwitchPreference
             android:key="now_bar_live_updates"
             android:title="@string/now_bar_live"
             android:summary="@string/now_bar_live_summary"
