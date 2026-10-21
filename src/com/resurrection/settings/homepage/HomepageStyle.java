@@ -8,8 +8,9 @@ package com.resurrection.settings.homepage;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-/** Settings homepage look: the Resurrected Remix homepage, or the original Lineage one. */
+/** Settings homepage look. "rr" stays v2 so an existing choice does not change. */
 public final class HomepageStyle {
+    public static final String V1 = "rr_v1";
     public static final String RR = "rr";
     public static final String ORIGINAL = "original";
 
@@ -27,8 +28,18 @@ public final class HomepageStyle {
         return ORIGINAL.equals(get(context));
     }
 
+    public static boolean isV1(Context context) {
+        return V1.equals(get(context));
+    }
+
+    /** Category-tile homepage. Anything unrecognized stays here. */
+    public static boolean isV2(Context context) {
+        return !isOriginal(context) && !isV1(context);
+    }
+
     public static void set(Context context, String style) {
-        prefs(context).edit().putString(KEY, ORIGINAL.equals(style) ? ORIGINAL : RR).apply();
+        String stored = V1.equals(style) || ORIGINAL.equals(style) ? style : RR;
+        prefs(context).edit().putString(KEY, stored).apply();
     }
 
     /** Category tiles take hues around the accent; false gives them all the accent. */

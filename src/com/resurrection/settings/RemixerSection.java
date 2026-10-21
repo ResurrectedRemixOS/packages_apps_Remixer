@@ -110,7 +110,7 @@ public class RemixerSection extends SettingsPreferenceFragment {
         final TwoStatePreference tileHues = findPreference("remixer_settings_tile_hues");
         if (tileHues != null) {
             tileHues.setChecked(HomepageStyle.tileHues(context));
-            tileHues.setVisible(!HomepageStyle.isOriginal(context));
+            tileHues.setVisible(HomepageStyle.isV2(context));
             tileHues.setOnPreferenceChangeListener((preference, value) -> {
                 HomepageStyle.setTileHues(context, (Boolean) value);
                 return true;
@@ -118,11 +118,14 @@ public class RemixerSection extends SettingsPreferenceFragment {
         }
         final ListPreference settingsStyle = findPreference("remixer_settings_style");
         if (settingsStyle != null) {
-            settingsStyle.setValue(HomepageStyle.get(context));
+            settingsStyle.setValue(HomepageStyle.isV1(context)
+                    ? HomepageStyle.V1
+                    : HomepageStyle.isOriginal(context)
+                            ? HomepageStyle.ORIGINAL : HomepageStyle.RR);
             settingsStyle.setOnPreferenceChangeListener((preference, value) -> {
                 HomepageStyle.set(context, (String) value);
                 if (tileHues != null) {
-                    tileHues.setVisible(!HomepageStyle.ORIGINAL.equals(value));
+                    tileHues.setVisible(HomepageStyle.RR.equals(value));
                 }
                 return true;
             });

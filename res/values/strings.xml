@@ -5,6 +5,12 @@
     <string name="rr_homepage_account">Account</string>
     <string name="rr_homepage_storage">Storage</string>
     <string name="rr_homepage_battery">Battery</string>
+    <string name="rr_homepage_battery_saver">Battery saver</string>
+    <string name="rr_homepage_connections">Connections</string>
+    <string name="rr_homepage_personalize">Personalize</string>
+    <string name="rr_homepage_device">Device</string>
+    <string name="rr_homepage_privacy">Privacy &amp; security</string>
+    <string name="rr_homepage_help">Help</string>
     <string name="rr_homepage_percent"><xliff:g id="percent" example="62">%1$d</xliff:g>%%</string>
     <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> free</string>
     <!-- Readouts beside the homepage's neon ring icons. -->
@@ -316,15 +322,18 @@
 
     <!-- Theme > Settings style -->
     <string name="remixer_settings_style">Settings style</string>
-    <string name="remixer_settings_style_rr">Resurrected Remix</string>
+    <string name="remixer_settings_style_rr_v1">Resurrected Remix v1</string>
+    <string name="remixer_settings_style_rr_v2">Resurrected Remix v2</string>
     <string name="remixer_settings_style_original">Original</string>
     <string name="remixer_settings_tile_hues">Colorful category tiles</string>
     <string name="remixer_settings_tile_hues_summary">Each tile takes a hue near your accent. Off gives them all the accent.</string>
     <string-array name="remixer_settings_style_entries" translatable="false">
-        <item>@string/remixer_settings_style_rr</item>
+        <item>@string/remixer_settings_style_rr_v1</item>
+        <item>@string/remixer_settings_style_rr_v2</item>
         <item>@string/remixer_settings_style_original</item>
     </string-array>
     <string-array name="remixer_settings_style_values" translatable="false">
+        <item>rr_v1</item>
         <item>rr</item>
         <item>original</item>
     </string-array>
