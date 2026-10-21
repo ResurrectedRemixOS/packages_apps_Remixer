@@ -88,7 +88,25 @@
     <string name="remixer_navigation">Navigation</string>
     <string name="remixer_navigation_summary">Pulse, buttons and navigation bar</string>
     <string name="remixer_misc">Miscellaneous</string>
-    <string name="remixer_misc_summary">Volume, backup, spoofing, scrolling and USB</string>
+    <string name="remixer_misc_summary">Volume, backup, cloned apps, spoofing, scrolling and USB</string>
+    <string name="misc_category_apps">Apps</string>
+    <string name="cloned_apps_title">Cloned apps</string>
+    <string name="cloned_apps_entry_summary">Give an installed app a second account</string>
+    <string name="cloned_apps_hero_title">Two accounts</string>
+    <string name="cloned_apps_hero_summary">A second instance of an app, so you can use two accounts at once.</string>
+    <string name="cloned_apps_loading">Loading installed apps…</string>
+    <string name="cloned_apps_section_on">Cloned</string>
+    <string name="cloned_apps_section_off">Can be cloned</string>
+    <string name="cloned_apps_status_on">Cloned</string>
+    <string name="cloned_apps_status_off">Tap to clone</string>
+    <string name="cloned_apps_action_clone">Clone</string>
+    <string name="cloned_apps_action_remove">Remove</string>
+    <string name="cloned_apps_working">Cloning…</string>
+    <string name="cloned_apps_count_on"><xliff:g id="count" example="2">%1$d</xliff:g> cloned</string>
+    <string name="cloned_apps_count_off"><xliff:g id="count" example="12">%1$d</xliff:g> ready</string>
+    <string name="cloned_apps_delete_all">Delete all clones</string>
+    <string name="cloned_apps_delete_confirm">Delete every cloned app and the data in those copies?</string>
+    <string name="cloned_apps_failed">Couldn\'t clone <xliff:g id="app" example="WhatsApp">%1$s</xliff:g></string>
     <string name="misc_category_volume">Volume</string>
     <string name="misc_category_backup">Backup</string>
     <string name="misc_category_usb">USB</string>
