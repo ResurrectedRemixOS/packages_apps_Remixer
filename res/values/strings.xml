@@ -280,6 +280,8 @@
     <string name="remixer_settings_style">Settings style</string>
     <string name="remixer_settings_style_rr">Resurrected Remix</string>
     <string name="remixer_settings_style_original">Original</string>
+    <string name="remixer_settings_tile_hues">Colorful category tiles</string>
+    <string name="remixer_settings_tile_hues_summary">Each tile takes a hue near your accent. Off gives them all the accent.</string>
     <string-array name="remixer_settings_style_entries" translatable="false">
         <item>@string/remixer_settings_style_rr</item>
         <item>@string/remixer_settings_style_original</item>

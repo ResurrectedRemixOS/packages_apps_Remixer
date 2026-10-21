@@ -15,6 +15,7 @@ public final class HomepageStyle {
 
     private static final String PREFS = "rr_homepage";
     private static final String KEY = "style";
+    private static final String KEY_TILE_HUES = "tile_hues";
 
     private HomepageStyle() {}
 
@@ -28,6 +29,15 @@ public final class HomepageStyle {
 
     public static void set(Context context, String style) {
         prefs(context).edit().putString(KEY, ORIGINAL.equals(style) ? ORIGINAL : RR).apply();
+    }
+
+    /** Category tiles take hues around the accent; false gives them all the accent. */
+    public static boolean tileHues(Context context) {
+        return prefs(context).getBoolean(KEY_TILE_HUES, true);
+    }
+
+    public static void setTileHues(Context context, boolean hues) {
+        prefs(context).edit().putBoolean(KEY_TILE_HUES, hues).apply();
     }
 
     private static SharedPreferences prefs(Context context) {

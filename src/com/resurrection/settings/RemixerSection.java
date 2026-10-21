@@ -12,6 +12,7 @@ import android.widget.Toast;
 import androidx.core.graphics.ColorUtils;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
+import androidx.preference.TwoStatePreference;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
@@ -106,11 +107,23 @@ public class RemixerSection extends SettingsPreferenceFragment {
                 "statusbar_clock_chip_gradient_angle",
                 "statusbar_clock_chip_gradient_mask_text");
 
+        final TwoStatePreference tileHues = findPreference("remixer_settings_tile_hues");
+        if (tileHues != null) {
+            tileHues.setChecked(HomepageStyle.tileHues(context));
+            tileHues.setVisible(!HomepageStyle.isOriginal(context));
+            tileHues.setOnPreferenceChangeListener((preference, value) -> {
+                HomepageStyle.setTileHues(context, (Boolean) value);
+                return true;
+            });
+        }
         final ListPreference settingsStyle = findPreference("remixer_settings_style");
         if (settingsStyle != null) {
             settingsStyle.setValue(HomepageStyle.get(context));
             settingsStyle.setOnPreferenceChangeListener((preference, value) -> {
                 HomepageStyle.set(context, (String) value);
+                if (tileHues != null) {
+                    tileHues.setVisible(!HomepageStyle.ORIGINAL.equals(value));
+                }
                 return true;
             });
         }
