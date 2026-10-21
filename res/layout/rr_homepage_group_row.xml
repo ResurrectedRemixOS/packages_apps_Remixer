@@ -15,34 +15,28 @@
      limitations under the License.
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="0dp"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_weight="1"
     android:clickable="true"
     android:focusable="true"
     android:gravity="center_vertical"
-    android:minHeight="52dp"
+    android:minHeight="68dp"
     android:orientation="horizontal"
-    android:paddingHorizontal="10dp"
-    android:paddingVertical="8dp">
+    android:paddingStart="14dp"
+    android:paddingTop="14dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="14dp">
 
-    <FrameLayout
-        android:id="@+id/rr_tile_chip"
-        android:layout_width="34dp"
-        android:layout_height="34dp">
-
-        <ImageView
-            android:id="@+id/rr_tile_icon"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_gravity="center"
-            android:importantForAccessibility="no" />
-    </FrameLayout>
+    <ImageView
+        android:id="@+id/rr_tile_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:importantForAccessibility="no" />
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="14dp"
         android:layout_weight="1"
         android:orientation="vertical">
 
@@ -50,16 +44,25 @@
             android:id="@+id/rr_tile_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:maxLines="1"
             android:ellipsize="end"
+            android:maxLines="1"
             android:textAppearance="@style/TextAppearance.SettingsLib.TitleSmall.Emphasized" />
 
         <TextView
             android:id="@+id/rr_tile_summary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:maxLines="1"
+            android:layout_marginTop="1dp"
             android:ellipsize="end"
+            android:maxLines="2"
             android:textAppearance="@style/TextAppearance.SettingsLib.BodySmall" />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/rr_tile_chevron"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_chevron_right_24dp" />
 </LinearLayout>

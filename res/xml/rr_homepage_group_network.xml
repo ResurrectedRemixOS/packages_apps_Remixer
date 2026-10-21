@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="rr_homepage_group_network">
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:fragment="com.android.settings.network.NetworkDashboardFragment"
+        android:icon="@drawable/ic_homepage_network"
+        android:key="top_level_network"
+        android:order="-20"
+        android:title="@string/network_dashboard_title"
+        android:summary="@string/summary_placeholder"
+        settings:highlightableMenuKey="@string/menu_key_network"
+        settings:controller="com.android.settings.network.TopLevelNetworkEntryPreferenceController"/>
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:fragment="com.android.settings.connecteddevice.ConnectedDeviceDashboardFragment"
+        android:icon="@drawable/ic_homepage_connected_device"
+        android:key="top_level_connected_devices"
+        android:order="-10"
+        android:title="@string/connected_devices_dashboard_title"
+        android:summary="@string/connected_devices_dashboard_default_summary"
+        settings:highlightableMenuKey="@string/menu_key_connected_devices"
+        settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
+</PreferenceScreen>

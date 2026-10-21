@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="rr_homepage_group_accounts">
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:fragment="com.android.settings.accounts.AccountDashboardFragment"
+        android:icon="@drawable/ic_homepage_accounts"
+        android:key="top_level_accounts"
+        android:order="-10"
+        android:summary="@string/summary_placeholder"
+        settings:highlightableMenuKey="@string/menu_key_accounts"
+        settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"/>
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:fragment="com.android.settings.backup.AccountsAndBackupDashboardFragment"
+        android:icon="@drawable/ic_homepage_accounts_and_backup"
+        android:key="top_level_accounts_and_backup"
+        android:order="-5"
+        android:title="@string/accounts_and_backup_title"
+        android:summary="@string/accounts_and_backup_summary"
+        settings:highlightableMenuKey="@string/menu_key_accounts_and_backup"
+        settings:controller="com.android.settings.backup.TopLevelAccountsAndBackupEntryPreferenceController"/>
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:key="top_level_supervision"
+        android:title="@string/supervision_settings_title"
+        android:summary="@string/supervision_settings_summary"
+        android:icon="@drawable/ic_homepage_supervision"
+        android:order="5"
+        settings:highlightableMenuKey="@string/menu_key_supervision"
+        settings:controller="com.android.settings.supervision.TopLevelSupervisionPreferenceController"/>
+</PreferenceScreen>

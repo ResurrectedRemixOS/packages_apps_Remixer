@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="rr_homepage_group_system">
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:fragment="com.android.settings.system.SystemDashboardFragment"
+        android:icon="@drawable/ic_homepage_system_dashboard"
+        android:key="top_level_system"
+        android:order="-60"
+        android:title="@string/header_category_system"
+        android:summary="@string/system_dashboard_summary"
+        settings:highlightableMenuKey="@string/menu_key_system"/>
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:fragment="com.android.settings.deviceinfo.StorageDashboardFragment"
+        android:icon="@drawable/ic_homepage_storage"
+        android:key="top_level_storage"
+        android:order="-50"
+        android:title="@string/storage_settings"
+        android:summary="@string/summary_placeholder"
+        settings:highlightableMenuKey="@string/menu_key_storage"
+        settings:controller="com.android.settings.deviceinfo.TopLevelStoragePreferenceController"/>
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:fragment="com.android.settings.fuelgauge.batteryusage.PowerUsageSummary"
+        android:icon="@drawable/ic_homepage_battery"
+        android:key="top_level_battery"
+        android:order="-40"
+        android:title="@string/power_usage_summary_title"
+        android:summary="@string/summary_placeholder"
+        settings:highlightableMenuKey="@string/menu_key_battery"
+        settings:controller="com.android.settings.fuelgauge.TopLevelBatteryPreferenceController"/>
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
+        android:icon="@drawable/ic_homepage_about"
+        android:key="top_level_about_device"
+        android:order="-30"
+        android:title="@string/about_settings"
+        android:summary="@string/summary_placeholder"
+        settings:highlightableMenuKey="@string/menu_key_about_device"
+        settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"/>
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:icon="@drawable/ic_homepage_support"
+        android:key="top_level_support"
+        android:order="-20"
+        android:title="@string/page_tab_title_support"
+        android:summary="@string/support_summary"
+        settings:highlightableMenuKey="@string/menu_key_support"
+        settings:controller="com.android.settings.support.SupportPreferenceController"/>
+</PreferenceScreen>

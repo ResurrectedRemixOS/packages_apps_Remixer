@@ -17,6 +17,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
     android:orientation="vertical">
 
     <LinearLayout
@@ -41,7 +43,7 @@
     <LinearLayout
         android:id="@+id/rr_meter_track"
         android:layout_width="match_parent"
-        android:layout_height="8dp"
+        android:layout_height="6dp"
         android:layout_marginTop="6dp"
         android:orientation="horizontal">
 

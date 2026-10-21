@@ -16,191 +16,376 @@
 -->
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <LinearLayout
+    <FrameLayout
         android:id="@+id/rr_device_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clickable="true"
-        android:focusable="true"
-        android:orientation="vertical"
-        android:padding="20dp">
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/rr_device_watermark"
+            android:layout_width="224dp"
+            android:layout_height="224dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="-48dp"
+            android:layout_marginBottom="-67dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_settings_remixer_filled" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
-
-            <FrameLayout
-                android:id="@+id/rr_device_badge"
-                android:layout_width="52dp"
-                android:layout_height="52dp">
-
-                <ImageView
-                    android:id="@+id/rr_device_mark"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_gravity="center"
-                    android:importantForAccessibility="no"
-                    android:src="@drawable/ic_settings_remixer_filled" />
-            </FrameLayout>
+            android:orientation="vertical"
+            android:padding="20dp">
 
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="14dp"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/rr_device_name"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:maxLines="1"
-                    android:ellipsize="end"
-                    android:textAppearance="@style/TextAppearance.SettingsLib.TitleLarge.Emphasized" />
+                <FrameLayout
+                    android:id="@+id/rr_device_badge"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp">
 
-                <TextView
-                    android:id="@+id/rr_device_version"
-                    android:layout_width="match_parent"
+                    <ImageView
+                        android:id="@+id/rr_device_mark"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="center"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/ic_settings_remixer_filled" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="2dp"
-                    android:maxLines="1"
-                    android:ellipsize="end"
-                    android:textAppearance="@style/TextAppearance.SettingsLib.BodyMedium" />
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/rr_device_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:textAppearance="@style/TextAppearance.SettingsLib.TitleLarge.Emphasized" />
+
+                    <TextView
+                        android:id="@+id/rr_device_version"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:textAppearance="@style/TextAppearance.SettingsLib.BodyMedium" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/rr_device_chevron"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginStart="8dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic_chevron_right_24dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <include
+                    android:id="@+id/rr_storage_meter"
+                    layout="@layout/rr_homepage_meter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Space
+                    android:layout_width="18dp"
+                    android:layout_height="0dp" />
+
+                <include
+                    android:id="@+id/rr_battery_meter"
+                    layout="@layout/rr_homepage_meter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <include
+                    android:id="@+id/rr_toggle_internet"
+                    layout="@layout/rr_homepage_toggle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/rr_toggle_bluetooth"
+                    layout="@layout/rr_homepage_toggle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/rr_toggle_dark"
+                    layout="@layout/rr_homepage_toggle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/rr_toggle_saver"
+                    layout="@layout/rr_homepage_toggle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
             </LinearLayout>
         </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:orientation="horizontal">
-
-            <include
-                android:id="@+id/rr_storage_meter"
-                layout="@layout/rr_homepage_meter"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <Space
-                android:layout_width="14dp"
-                android:layout_height="0dp" />
-
-            <include
-                android:id="@+id/rr_battery_meter"
-                layout="@layout/rr_homepage_meter"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-        </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal">
-
-        <include
-            android:id="@+id/rr_tile_internet"
-            layout="@layout/rr_homepage_tile"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-        <Space
-            android:layout_width="10dp"
-            android:layout_height="0dp" />
-
-        <include
-            android:id="@+id/rr_tile_bluetooth"
-            layout="@layout/rr_homepage_tile"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal">
-
-        <include
-            android:id="@+id/rr_tile_dark"
-            layout="@layout/rr_homepage_tile"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-        <Space
-            android:layout_width="10dp"
-            android:layout_height="0dp" />
-
-        <include
-            android:id="@+id/rr_tile_saver"
-            layout="@layout/rr_homepage_tile"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-    </LinearLayout>
+    </FrameLayout>
 
     <LinearLayout
         android:id="@+id/rr_remixer_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="12dp"
         android:clickable="true"
         android:focusable="true"
         android:gravity="center_vertical"
         android:minHeight="84dp"
         android:orientation="horizontal"
-        android:padding="18dp">
-
-        <FrameLayout
-            android:id="@+id/rr_remixer_badge"
-            android:layout_width="48dp"
-            android:layout_height="48dp">
-
-            <ImageView
-                android:layout_width="28dp"
-                android:layout_height="28dp"
-                android:layout_gravity="center"
-                android:importantForAccessibility="no"
-                android:src="@drawable/ic_settings_remixer_filled"
-                android:tint="@android:color/white" />
-        </FrameLayout>
+        android:paddingStart="18dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp">
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="14dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
-            <TextView
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/remixer_app_name"
-                android:textAppearance="@style/TextAppearance.SettingsLib.TitleMedium.Emphasized"
-                android:textColor="@android:color/white" />
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/rr_remixer_mark"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:baselineAlignBottom="true"
+                    android:importantForAccessibility="no"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_settings_remixer_filled" />
+
+                <TextView
+                    android:id="@+id/rr_remixer_word"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="-7dp"
+                    android:importantForAccessibility="no"
+                    android:letterSpacing="0.08"
+                    android:text="@string/rr_homepage_remixer_word"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
             <TextView
+                android:id="@+id/rr_remixer_tagline"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
-                android:text="@string/remixer_dashboard_summary"
-                android:textAppearance="@style/TextAppearance.SettingsLib.BodyMedium"
-                android:textColor="#E6FFFFFF" />
+                android:layout_marginTop="6dp"
+                android:text="@string/rr_homepage_remixer_tagline"
+                android:textAppearance="@style/TextAppearance.SettingsLib.BodyMedium" />
         </LinearLayout>
 
-        <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+        <TextView
+            android:id="@+id/rr_remixer_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:drawableStart="@drawable/ic_rr_shuffle"
+            android:drawablePadding="6dp"
+            android:gravity="center_vertical"
             android:importantForAccessibility="no"
-            android:src="@drawable/ic_chevron_right_24dp"
-            android:tint="@android:color/white" />
+            android:paddingHorizontal="14dp"
+            android:paddingVertical="9dp"
+            android:text="@string/remixer_remix"
+            android:textSize="14sp"
+            android:textStyle="bold" />
     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rr_device_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:minHeight="84dp"
+        android:orientation="horizontal"
+        android:paddingStart="18dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/rr_device_bar_mark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:importantForAccessibility="no"
+                    android:includeFontPadding="false"
+                    android:text="@string/rr_homepage_device_mark"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rr_device_bar_word"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:importantForAccessibility="no"
+                    android:includeFontPadding="false"
+                    android:letterSpacing="0.08"
+                    android:text="@string/rr_homepage_device_word"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/rr_device_bar_tagline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/rr_homepage_device_tagline"
+                android:textAppearance="@style/TextAppearance.SettingsLib.BodyMedium" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/rr_device_bar_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:drawableStart="@drawable/ic_rr_tune"
+            android:drawablePadding="6dp"
+            android:gravity="center_vertical"
+            android:importantForAccessibility="no"
+            android:paddingHorizontal="14dp"
+            android:paddingVertical="9dp"
+            android:text="@string/rr_homepage_device_action"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/rr_group_network"
+            layout="@layout/rr_homepage_group_tile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="0dp" />
+
+        <include
+            android:id="@+id/rr_group_apps"
+            layout="@layout/rr_homepage_group_tile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/rr_group_display"
+            layout="@layout/rr_homepage_group_tile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="0dp" />
+
+        <include
+            android:id="@+id/rr_group_security"
+            layout="@layout/rr_homepage_group_tile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/rr_group_accounts"
+            layout="@layout/rr_homepage_group_tile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="0dp" />
+
+        <include
+            android:id="@+id/rr_group_accessibility"
+            layout="@layout/rr_homepage_group_tile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/rr_group_system"
+        layout="@layout/rr_homepage_group_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
 </merge>

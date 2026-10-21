@@ -16,59 +16,25 @@
 
 package com.resurrection.settings.homepage;
 
-import android.content.ActivityNotFoundException;
 import android.content.Context;
-import android.content.Intent;
-import android.content.pm.UserInfo;
-import android.graphics.Outline;
-import android.os.UserHandle;
-import android.os.UserManager;
-import android.provider.Settings;
+import android.content.res.ColorStateList;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewOutlineProvider;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.android.settings.R;
-import com.android.settingslib.Utils;
 
-/**
- * Large "Settings" title with the user's photo, above the homepage search bar.
- */
+/** Homepage title: the RR mark in the accent beside "Settings". */
 public class HomepageTitleView extends LinearLayout {
-    private final ImageView mAvatar;
 
     public HomepageTitleView(Context context, AttributeSet attrs) {
         super(context, attrs);
         setOrientation(HORIZONTAL);
         setGravity(Gravity.CENTER_VERTICAL);
         LayoutInflater.from(context).inflate(R.layout.rr_homepage_title, this, true);
-        mAvatar = findViewById(R.id.rr_homepage_avatar);
-        mAvatar.setOutlineProvider(new ViewOutlineProvider() {
-            @Override
-            public void getOutline(View view, Outline outline) {
-                outline.setOval(0, 0, view.getWidth(), view.getHeight());
-            }
-        });
-        mAvatar.setClipToOutline(true);
-        mAvatar.setOnClickListener(v -> {
-            try {
-                getContext().startActivity(new Intent(Settings.ACTION_SYNC_SETTINGS));
-            } catch (ActivityNotFoundException e) {
-                // No accounts page on this build.
-            }
-        });
-    }
-
-    @Override
-    protected void onAttachedToWindow() {
-        super.onAttachedToWindow();
-        UserManager um = getContext().getSystemService(UserManager.class);
-        UserInfo info = um != null ? um.getUserInfo(UserHandle.myUserId()) : null;
-        mAvatar.setImageDrawable(info != null
-                ? Utils.getUserIcon(getContext(), um, info) : null);
+        ((ImageView) findViewById(R.id.rr_homepage_mark)).setImageTintList(
+                ColorStateList.valueOf(new HomepagePalette(context).neon));
     }
 }

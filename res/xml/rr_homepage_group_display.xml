@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="rr_homepage_group_display">
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:fragment="com.android.settings.DisplaySettings"
+        android:icon="@drawable/ic_homepage_display"
+        android:key="top_level_display"
+        android:order="-30"
+        android:title="@string/display_settings"
+        android:summary="@string/display_dashboard_summary"
+        settings:highlightableMenuKey="@string/menu_key_display"
+        settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController"/>
+
+    <com.resurrection.settings.homepage.LiveRestrictedHomepagePreference
+        android:icon="@drawable/ic_homepage_wallpaper"
+        android:key="top_level_wallpaper"
+        android:order="-20"
+        android:title="@string/wallpaper_settings_title"
+        android:summary="@string/wallpaper_dashboard_summary"
+        settings:highlightableMenuKey="@string/menu_key_wallpaper"
+        settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController"/>
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:fragment="com.android.settings.notification.SoundSettings"
+        android:icon="@drawable/ic_homepage_sound"
+        android:key="top_level_sound"
+        android:order="-10"
+        android:title="@string/sound_settings"
+        android:summary="@string/sound_dashboard_summary"
+        settings:highlightableMenuKey="@string/menu_key_sound" />
+</PreferenceScreen>

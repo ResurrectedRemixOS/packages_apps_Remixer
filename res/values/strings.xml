@@ -27,15 +27,35 @@
         <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> devices</item>
     </plurals>
     <string name="rr_homepage_dark_theme">Dark theme</string>
-    <string name="rr_homepage_battery_saver">Battery saver</string>
     <string name="rr_homepage_on">On</string>
     <string name="rr_homepage_off">Off</string>
-    <string name="rr_homepage_connections">Connections</string>
-    <string name="rr_homepage_personalize">Personalize</string>
-    <string name="rr_homepage_device">Device</string>
-    <string name="rr_homepage_privacy">Privacy &amp; security</string>
-    <string name="rr_homepage_help">Help</string>
     <string name="rr_homepage_extras">Extra settings</string>
+    <string name="rr_homepage_saver">Saver</string>
+    <string name="rr_homepage_link"><xliff:g id="label" example="Storage">%1$s</xliff:g> ›</string>
+    <string name="rr_homepage_signed_in">Signed in</string>
+    <string name="rr_homepage_signed_out">Not signed in</string>
+    <string name="rr_homepage_google_badge" translatable="false">G</string>
+    <string name="rr_homepage_remixer_word" translatable="false">EMIXER</string>
+    <string name="rr_homepage_remixer_tagline">Make it yours. Status bar, theme, lock screen and more.</string>
+    <string name="rr_homepage_device_mark" translatable="false">1+</string>
+    <string name="rr_homepage_device_word">SETTINGS</string>
+    <string name="rr_homepage_device_tagline">Alert slider, display, charging and GameBar.</string>
+    <string name="rr_homepage_device_action">Tune it</string>
+    <string name="rr_group_network">Network &amp; devices</string>
+    <string name="rr_group_network_summary">Wi‑Fi, mobile, Bluetooth</string>
+    <string name="rr_group_apps">Apps &amp; notifications</string>
+    <string name="rr_group_apps_summary">Apps, notifications, Modes</string>
+    <string name="rr_group_display">Display &amp; sound</string>
+    <string name="rr_group_display_summary">Display, wallpaper, sound</string>
+    <string name="rr_group_security">Security &amp; privacy</string>
+    <string name="rr_group_security_summary">Lock, location, emergency</string>
+    <string name="rr_group_security_center">Security center</string>
+    <string name="rr_group_accounts">Google &amp; accounts</string>
+    <string name="rr_group_accounts_summary">Google, passwords, backup</string>
+    <string name="rr_group_accounts_plain">Accounts</string>
+    <string name="rr_group_accounts_plain_summary">Passwords, accounts, backup</string>
+    <string name="rr_group_accessibility_summary">Display, interaction, audio</string>
+    <string name="rr_group_system_summary">Languages, gestures, updates</string>
     <string name="remixer_tagline">Make it yours.</string>
     <string name="remixer_remix">Remix it</string>
     <string name="remixer_remixed">Remixed with <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="rr_homepage_group_apps">
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:fragment="com.android.settings.applications.AppDashboardFragment"
+        android:icon="@drawable/ic_homepage_apps"
+        android:key="top_level_apps"
+        android:order="-60"
+        android:title="@string/apps_dashboard_title"
+        android:summary="@string/app_and_notification_dashboard_summary"
+        settings:highlightableMenuKey="@string/menu_key_apps"/>
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:fragment="com.android.settings.notification.ConfigureNotificationSettings"
+        android:icon="@drawable/ic_homepage_notification"
+        android:key="top_level_notifications"
+        android:order="-50"
+        android:title="@string/configure_notification_settings"
+        android:summary="@string/notification_dashboard_summary"
+        settings:highlightableMenuKey="@string/menu_key_notifications"/>
+
+    <com.resurrection.settings.homepage.LiveRestrictedHomepagePreference
+        android:fragment="com.android.settings.notification.modes.ZenModesListFragment"
+        android:icon="@drawable/ic_homepage_modes"
+        android:key="top_level_priority_modes"
+        android:order="-35"
+        android:title="@string/zen_modes_list_title"
+        settings:useAdminDisabledSummary="true"
+        settings:highlightableMenuKey="@string/menu_key_priority_modes"
+        settings:controller="com.android.settings.notification.modes.ZenModesLinkPreferenceController"/>
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:fragment="com.android.settings.communal.CommunalDashboardFragment"
+        android:icon="@drawable/ic_homepage_hub_mode"
+        android:key="top_level_communal"
+        android:order="-30"
+        android:title="@string/communal_settings_title"
+        android:summary="@string/communal_settings_summary"
+        settings:highlightableMenuKey="@string/menu_key_communal"
+        settings:controller="com.android.settings.communal.CommunalPreferenceController"/>
+</PreferenceScreen>

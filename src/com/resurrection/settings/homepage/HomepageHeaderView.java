@@ -16,7 +16,14 @@
 
 package com.resurrection.settings.homepage;
 
+import static com.android.settingslib.display.BrightnessUtils.GAMMA_SPACE_MAX;
+import static com.android.settingslib.display.BrightnessUtils.GAMMA_SPACE_MIN;
+import static com.android.settingslib.display.BrightnessUtils.convertLinearToGammaFloat;
+
+import android.accounts.Account;
+import android.accounts.AccountManager;
 import android.app.UiModeManager;
+import android.app.settings.SettingsEnums;
 import android.app.usage.StorageStatsManager;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -24,13 +31,22 @@ import android.bluetooth.BluetoothManager;
 import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
 import android.content.Context;
+import android.content.ContextWrapper;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.pm.PackageManager;
+import android.content.pm.UserInfo;
 import android.content.res.ColorStateList;
 import android.content.res.Configuration;
+import android.graphics.Color;
+import android.graphics.Outline;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
+import android.graphics.drawable.LayerDrawable;
 import android.graphics.drawable.RippleDrawable;
+import android.hardware.display.BrightnessInfo;
+import android.hardware.display.DisplayManager;
+import android.media.AudioManager;
 import android.net.ConnectivityManager;
 import android.net.Network;
 import android.net.NetworkCapabilities;
@@ -38,50 +54,117 @@ import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.BatteryManager;
 import android.os.Build;
+import android.os.Handler;
+import android.os.Looper;
 import android.os.PowerManager;
+import android.os.UserHandle;
+import android.os.UserManager;
 import android.os.storage.StorageManager;
 import android.provider.Settings;
+import android.telephony.SignalStrength;
+import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.text.format.Formatter;
 import android.util.AttributeSet;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewOutlineProvider;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.android.settings.R;
+import com.android.settings.core.CategoryMixin;
+import com.android.settings.overlay.FeatureFactory;
+import com.android.settingslib.Utils;
+import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
+import com.android.settingslib.drawer.CategoryKey;
+import com.android.settingslib.drawer.DashboardCategory;
+import com.android.settingslib.drawer.Tile;
 import com.android.settingslib.fuelgauge.BatterySaverLogging;
 import com.android.settingslib.fuelgauge.BatterySaverUtils;
 import com.android.settingslib.utils.ThreadUtils;
 
 import java.io.IOException;
+import java.util.Locale;
 import java.util.Set;
 
 /**
- * Device card, quick tiles and the Remixer card at the top of the Settings homepage.
- * Colors come from the system palette, so the header follows the accent and its shade.
+ * Top of the RR Settings homepage: the device card with its quick toggles, the Remixer and
+ * device bars, and the category tiles. Colors come from {@link HomepagePalette}.
  */
 public class HomepageHeaderView extends LinearLayout {
     private static final String ACTION_REMIXER = "com.resurrection.settings.REMIXER";
+    private static final String VOLUME_CHANGED = "android.media.VOLUME_CHANGED_ACTION";
+    private static final String GOOGLE_ACCOUNT = "com.google";
+    private static final String GMS = "com.google.android.gms";
 
+    private final Handler mHandler = new Handler(Looper.getMainLooper());
+    private final View mCard;
     private final Meter mStorage;
     private final Meter mBattery;
-    private final Tile mInternet;
-    private final Tile mBluetooth;
-    private final Tile mDark;
-    private final Tile mSaver;
+    private final Toggle mInternet;
+    private final Toggle mBluetooth;
+    private final Toggle mDark;
+    private final Toggle mSaver;
+    private final View mRemixer;
+    private final View mDeviceBar;
+    private final Group mNetwork;
+    private final Group mApps;
+    private final Group mDisplay;
+    private final Group mSecurity;
+    private final Group mAccounts;
+    private final Group mAccessibility;
+    private final Group mSystem;
+    private final View mAvatarFrame;
+    private final ImageView mAvatar;
+    private final TextView mInitial;
+    private final TextView mBadge;
+    private final TextView mAccountName;
+    private final TextView mAccountStatus;
+    private HomepagePalette mPalette;
+    private Tile mDeviceTile;
     private Intent mBatteryStatus;
+    private CategoryMixin mCategoryMixin;
     private boolean mRegistered;
 
     private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-            if (Intent.ACTION_BATTERY_CHANGED.equals(intent.getAction())) {
+            final String action = intent.getAction();
+            if (VOLUME_CHANGED.equals(action)) {
+                updateLevels();
+                return;
+            }
+            if (Intent.ACTION_BATTERY_CHANGED.equals(action)) {
                 mBatteryStatus = intent;
             }
             updateBattery();
-            updateTiles();
+            updateToggles();
+            updateNetwork();
+        }
+    };
+
+    private final DisplayManager.DisplayListener mDisplayListener =
+            new DisplayManager.DisplayListener() {
+                @Override
+                public void onDisplayAdded(int displayId) {
+                }
+
+                @Override
+                public void onDisplayRemoved(int displayId) {
+                }
+
+                @Override
+                public void onDisplayChanged(int displayId) {
+                    updateLevels();
+                }
+            };
+
+    private final CategoryMixin.CategoryListener mCategoryListener = categories -> {
+        if (categories == null || categories.contains(CategoryKey.CATEGORY_HOMEPAGE)) {
+            updateDeviceBar();
         }
     };
 
@@ -90,36 +173,25 @@ public class HomepageHeaderView extends LinearLayout {
         setOrientation(VERTICAL);
         LayoutInflater.from(context).inflate(R.layout.rr_homepage_header, this, true);
 
-        int container = color(com.android.internal.R.color.materialColorSecondaryContainer);
-        int onContainer = color(com.android.internal.R.color.materialColorOnSecondaryContainer);
-        int primary = color(com.android.internal.R.color.materialColorPrimary);
-        int onPrimary = color(com.android.internal.R.color.materialColorOnPrimary);
+        mCard = findViewById(R.id.rr_device_card);
+        mCard.setClipToOutline(true);
+        mCard.setOnClickListener(v -> launch(new Intent(Settings.ACTION_DEVICE_INFO_SETTINGS)));
+        ((TextView) findViewById(R.id.rr_device_name)).setText(deviceName());
+        ((TextView) findViewById(R.id.rr_device_version)).setText(
+                context.getString(R.string.remixer_version, Build.VERSION.RELEASE));
 
-        View card = findViewById(R.id.rr_device_card);
-        card.setBackground(pressable(container, 28, onContainer));
-        card.setOnClickListener(v -> launch(new Intent(Settings.ACTION_DEVICE_INFO_SETTINGS)));
-        findViewById(R.id.rr_device_badge).setBackground(round(primary, 16));
-        ((ImageView) findViewById(R.id.rr_device_mark)).setImageTintList(
-                ColorStateList.valueOf(onPrimary));
-        TextView name = findViewById(R.id.rr_device_name);
-        name.setTextColor(onContainer);
-        name.setText(deviceName());
-        TextView version = findViewById(R.id.rr_device_version);
-        version.setTextColor(withAlpha(onContainer, 0.8f));
-        version.setText(context.getString(R.string.remixer_version, Build.VERSION.RELEASE));
+        mStorage = new Meter(findViewById(R.id.rr_storage_meter), R.string.rr_homepage_storage,
+                Settings.ACTION_INTERNAL_STORAGE_SETTINGS);
+        mBattery = new Meter(findViewById(R.id.rr_battery_meter), R.string.rr_homepage_battery,
+                Intent.ACTION_POWER_USAGE_SUMMARY);
 
-        mStorage = new Meter(findViewById(R.id.rr_storage_meter), onContainer, primary,
-                R.string.rr_homepage_storage);
-        mBattery = new Meter(findViewById(R.id.rr_battery_meter), onContainer, primary,
-                R.string.rr_homepage_battery);
-
-        mInternet = new Tile(findViewById(R.id.rr_tile_internet), R.string.rr_homepage_internet,
-                R.drawable.ic_settings_wireless);
-        mBluetooth = new Tile(findViewById(R.id.rr_tile_bluetooth),
+        mInternet = new Toggle(findViewById(R.id.rr_toggle_internet),
+                R.string.rr_homepage_internet, R.drawable.ic_settings_wireless);
+        mBluetooth = new Toggle(findViewById(R.id.rr_toggle_bluetooth),
                 R.string.rr_homepage_bluetooth, R.drawable.ic_settings_bluetooth);
-        mDark = new Tile(findViewById(R.id.rr_tile_dark), R.string.rr_homepage_dark_theme,
+        mDark = new Toggle(findViewById(R.id.rr_toggle_dark), R.string.rr_homepage_dark_theme,
                 R.drawable.ic_dark_ui);
-        mSaver = new Tile(findViewById(R.id.rr_tile_saver), R.string.rr_homepage_battery_saver,
+        mSaver = new Toggle(findViewById(R.id.rr_toggle_saver), R.string.rr_homepage_saver,
                 R.drawable.ic_battery_saver_accent_24dp);
 
         mInternet.root.setOnClickListener(v -> launch(new Intent(Settings.ACTION_WIFI_SETTINGS)));
@@ -130,52 +202,220 @@ public class HomepageHeaderView extends LinearLayout {
         mSaver.root.setOnClickListener(v -> toggleBatterySaver());
         mSaver.longPress(Settings.ACTION_BATTERY_SAVER_SETTINGS);
 
-        int remix = color(android.R.color.system_accent1_600);
-        View remixer = findViewById(R.id.rr_remixer_card);
-        remixer.setBackground(pressable(remix, 28, 0xFFFFFFFF));
-        findViewById(R.id.rr_remixer_badge).setBackground(round(0x29FFFFFF, 16));
-        remixer.setOnClickListener(v -> launch(new Intent(ACTION_REMIXER)
+        mRemixer = findViewById(R.id.rr_remixer_card);
+        mRemixer.setContentDescription(context.getString(R.string.remixer_app_name) + ", "
+                + context.getString(R.string.rr_homepage_remixer_tagline));
+        mRemixer.setOnClickListener(v -> launch(new Intent(ACTION_REMIXER)
                 .setPackage(getContext().getPackageName())));
+
+        mDeviceBar = findViewById(R.id.rr_device_bar);
+        mDeviceBar.setOnClickListener(v -> openDeviceTile());
+
+        mNetwork = new Group(R.id.rr_group_network, HomepageGroups.NETWORK,
+                R.string.rr_group_network, R.string.rr_group_network_summary,
+                R.drawable.ic_homepage_network, HomepagePalette.NETWORK, TilePreviewView.SIGNAL);
+        mApps = new Group(R.id.rr_group_apps, HomepageGroups.APPS, R.string.rr_group_apps,
+                R.string.rr_group_apps_summary, R.drawable.ic_homepage_apps,
+                HomepagePalette.APPS, TilePreviewView.PILLS);
+        mDisplay = new Group(R.id.rr_group_display, HomepageGroups.DISPLAY,
+                R.string.rr_group_display, R.string.rr_group_display_summary,
+                R.drawable.ic_homepage_display, HomepagePalette.DISPLAY, TilePreviewView.SLIDERS);
+        mSecurity = new Group(R.id.rr_group_security, HomepageGroups.SECURITY,
+                R.string.rr_group_security, R.string.rr_group_security_summary,
+                R.drawable.ic_homepage_security, HomepagePalette.SECURITY, TilePreviewView.DOTS);
+        mAccounts = new Group(R.id.rr_group_accounts, HomepageGroups.ACCOUNTS,
+                R.string.rr_group_accounts, R.string.rr_group_accounts_summary, 0,
+                HomepagePalette.ACCOUNTS, -1);
+        mAccessibility = new Group(R.id.rr_group_accessibility, null,
+                R.string.accessibility_settings, R.string.rr_group_accessibility_summary,
+                R.drawable.ic_homepage_accessibility, HomepagePalette.ACCESSIBILITY,
+                TilePreviewView.TYPE);
+        mSystem = new Group(R.id.rr_group_system, HomepageGroups.SYSTEM,
+                R.string.header_category_system, R.string.rr_group_system_summary,
+                R.drawable.ic_homepage_system_dashboard, HomepagePalette.SYSTEM, -1);
+        mAccessibility.root.setOnClickListener(
+                v -> launch(new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS)));
+
+        mAccounts.root.findViewById(R.id.rr_tile_top).setVisibility(GONE);
+        mAccounts.root.findViewById(R.id.rr_tile_account).setVisibility(VISIBLE);
+        mAvatarFrame = mAccounts.root.findViewById(R.id.rr_tile_avatar_frame);
+        mAvatar = mAccounts.root.findViewById(R.id.rr_tile_avatar);
+        mAvatar.setOutlineProvider(new ViewOutlineProvider() {
+            @Override
+            public void getOutline(View view, Outline outline) {
+                outline.setOval(0, 0, view.getWidth(), view.getHeight());
+            }
+        });
+        mAvatar.setClipToOutline(true);
+        mInitial = mAccounts.root.findViewById(R.id.rr_tile_initial);
+        mBadge = mAccounts.root.findViewById(R.id.rr_tile_badge);
+        mAccountName = mAccounts.root.findViewById(R.id.rr_tile_account_name);
+        mAccountStatus = mAccounts.root.findViewById(R.id.rr_tile_account_status);
+
+        applyColors();
     }
 
     @Override
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
-        IntentFilter filter = new IntentFilter();
+        final Context context = getContext();
+        final IntentFilter filter = new IntentFilter();
         filter.addAction(Intent.ACTION_BATTERY_CHANGED);
         filter.addAction(PowerManager.ACTION_POWER_SAVE_MODE_CHANGED);
         filter.addAction(WifiManager.WIFI_STATE_CHANGED_ACTION);
         filter.addAction(WifiManager.NETWORK_STATE_CHANGED_ACTION);
+        filter.addAction(WifiManager.RSSI_CHANGED_ACTION);
         filter.addAction(ConnectivityManager.CONNECTIVITY_ACTION);
         filter.addAction(BluetoothAdapter.ACTION_STATE_CHANGED);
         filter.addAction(BluetoothDevice.ACTION_ACL_CONNECTED);
         filter.addAction(BluetoothDevice.ACTION_ACL_DISCONNECTED);
-        mBatteryStatus = getContext().registerReceiver(null,
+        filter.addAction(VOLUME_CHANGED);
+        mBatteryStatus = context.registerReceiver(null,
                 new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
-        getContext().registerReceiver(mReceiver, filter, Context.RECEIVER_NOT_EXPORTED);
+        context.registerReceiver(mReceiver, filter, Context.RECEIVER_NOT_EXPORTED);
+        final DisplayManager displays = context.getSystemService(DisplayManager.class);
+        if (displays != null) {
+            displays.registerDisplayListener(mDisplayListener, mHandler,
+                    DisplayManager.EVENT_TYPE_DISPLAY_BRIGHTNESS);
+        }
+        mCategoryMixin = categoryMixin();
+        if (mCategoryMixin != null) {
+            mCategoryMixin.addCategoryListener(mCategoryListener);
+        }
         mRegistered = true;
-        updateBattery();
-        updateTiles();
-        updateStorage();
     }
 
     @Override
     protected void onDetachedFromWindow() {
         if (mRegistered) {
-            getContext().unregisterReceiver(mReceiver);
+            final Context context = getContext();
+            context.unregisterReceiver(mReceiver);
+            final DisplayManager displays = context.getSystemService(DisplayManager.class);
+            if (displays != null) {
+                displays.unregisterDisplayListener(mDisplayListener);
+            }
+            if (mCategoryMixin != null) {
+                mCategoryMixin.removeCategoryListener(mCategoryListener);
+                mCategoryMixin = null;
+            }
             mRegistered = false;
         }
         super.onDetachedFromWindow();
     }
 
+    @Override
+    protected void onWindowVisibilityChanged(int visibility) {
+        super.onWindowVisibilityChanged(visibility);
+        if (visibility != VISIBLE || !mRegistered) {
+            return;
+        }
+        if (mPalette.hues != HomepageStyle.tileHues(getContext())) {
+            applyColors();
+        }
+        updateBattery();
+        updateToggles();
+        updateNetwork();
+        updateLevels();
+        updateStorage();
+        updateAccount();
+        updateDeviceBar();
+    }
+
+    private void applyColors() {
+        final HomepagePalette p = new HomepagePalette(getContext());
+        mPalette = p;
+
+        final GradientDrawable base = new GradientDrawable(GradientDrawable.Orientation.TL_BR,
+                new int[] {p.heroTop, p.heroBottom});
+        base.setCornerRadius(dp(28));
+        base.setStroke(dp(1), p.edge);
+        final GradientDrawable glow = new GradientDrawable();
+        glow.setGradientType(GradientDrawable.RADIAL_GRADIENT);
+        glow.setColors(new int[] {p.heroGlow, HomepagePalette.alpha(p.heroGlow, 0)});
+        glow.setGradientCenter(1f, 0f);
+        glow.setGradientRadius(dp(220));
+        glow.setCornerRadius(dp(28));
+        mCard.setBackground(new RippleDrawable(ColorStateList.valueOf(withAlpha(p.text, 0.12f)),
+                new LayerDrawable(new Drawable[] {base, glow}), null));
+        final GradientDrawable badge = round(p.badge, 16);
+        badge.setStroke(dp(1), p.edge);
+        findViewById(R.id.rr_device_badge).setBackground(badge);
+        tint(R.id.rr_device_mark, p.neon);
+        tint(R.id.rr_device_watermark, p.watermark);
+        tint(R.id.rr_device_chevron, p.subtext);
+        ((TextView) findViewById(R.id.rr_device_name)).setTextColor(p.text);
+        ((TextView) findViewById(R.id.rr_device_version)).setTextColor(p.subtext);
+        mStorage.applyColors(p);
+        mBattery.applyColors(p);
+
+        final HomepagePalette.Bar remix = p.bar(0);
+        mRemixer.setBackground(bar(p, remix));
+        tint(R.id.rr_remixer_mark, remix.mark);
+        ((TextView) findViewById(R.id.rr_remixer_word)).setTextColor(p.barText);
+        ((TextView) findViewById(R.id.rr_remixer_tagline)).setTextColor(p.barSubtext);
+        pill(findViewById(R.id.rr_remixer_action), p);
+
+        final HomepagePalette.Bar device = p.bar(HomepagePalette.DEVICE);
+        mDeviceBar.setBackground(bar(p, device));
+        final TextView mark = findViewById(R.id.rr_device_bar_mark);
+        mark.setTextColor(device.mark);
+        mark.setShadowLayer(dp(8), 0, 0, device.glow);
+        ((TextView) findViewById(R.id.rr_device_bar_word)).setTextColor(p.barText);
+        ((TextView) findViewById(R.id.rr_device_bar_tagline)).setTextColor(p.barSubtext);
+        pill(findViewById(R.id.rr_device_bar_action), p);
+
+        for (Group group : new Group[] {mNetwork, mApps, mDisplay, mSecurity, mAccounts,
+                mAccessibility, mSystem}) {
+            group.applyColors(p);
+        }
+        final HomepagePalette.Tile account = mAccounts.colors;
+        final GradientDrawable ring = new GradientDrawable();
+        ring.setShape(GradientDrawable.OVAL);
+        ring.setStroke(dp(2.5f), account.ring);
+        mAvatarFrame.setBackground(ring);
+        final GradientDrawable photo = new GradientDrawable(GradientDrawable.Orientation.TL_BR,
+                new int[] {account.photoA, account.photoB});
+        photo.setShape(GradientDrawable.OVAL);
+        mInitial.setBackground(photo);
+        final GradientDrawable chip = new GradientDrawable();
+        chip.setShape(GradientDrawable.OVAL);
+        chip.setColor(Color.WHITE);
+        chip.setStroke(dp(2), account.bottom);
+        mBadge.setBackground(chip);
+        mAccountName.setTextColor(p.text);
+        mAccountStatus.setTextColor(p.subtext);
+
+        for (Toggle toggle : new Toggle[] {mInternet, mBluetooth, mDark, mSaver}) {
+            toggle.applyColors();
+        }
+    }
+
+    private Drawable bar(HomepagePalette p, HomepagePalette.Bar bar) {
+        final GradientDrawable shape = new GradientDrawable(GradientDrawable.Orientation.TL_BR,
+                new int[] {bar.top, p.barBottom});
+        shape.setCornerRadius(dp(28));
+        shape.setStroke(dp(1), bar.edge);
+        return new RippleDrawable(ColorStateList.valueOf(0x1FFFFFFF), shape, null);
+    }
+
+    private void pill(TextView view, HomepagePalette p) {
+        view.setBackground(round(p.pill, 100));
+        view.setTextColor(p.pillInk);
+        view.setCompoundDrawableTintList(ColorStateList.valueOf(p.pillInk));
+    }
+
+    private void tint(int id, int color) {
+        ((ImageView) findViewById(id)).setImageTintList(ColorStateList.valueOf(color));
+    }
+
     private String deviceName() {
-        String name = Settings.Global.getString(getContext().getContentResolver(),
+        final String name = Settings.Global.getString(getContext().getContentResolver(),
                 Settings.Global.DEVICE_NAME);
         return TextUtils.isEmpty(name) ? Build.MODEL : name;
     }
 
     private void updateStorage() {
-        Context context = getContext().getApplicationContext();
+        final Context context = getContext().getApplicationContext();
         ThreadUtils.postOnBackgroundThread(() -> {
             long total;
             long free;
@@ -189,8 +429,8 @@ public class HomepageHeaderView extends LinearLayout {
             if (total <= 0) {
                 return;
             }
-            int used = (int) Math.round((total - free) * 100d / total);
-            String caption = context.getString(R.string.rr_homepage_free,
+            final int used = (int) Math.round((total - free) * 100d / total);
+            final String caption = context.getString(R.string.rr_homepage_free,
                     Formatter.formatShortFileSize(context, free));
             post(() -> mStorage.set(used, caption));
         });
@@ -200,15 +440,15 @@ public class HomepageHeaderView extends LinearLayout {
         if (mBatteryStatus == null) {
             return;
         }
-        int level = mBatteryStatus.getIntExtra(BatteryManager.EXTRA_LEVEL, -1);
-        int scale = mBatteryStatus.getIntExtra(BatteryManager.EXTRA_SCALE, 100);
+        final int level = mBatteryStatus.getIntExtra(BatteryManager.EXTRA_LEVEL, -1);
+        final int scale = mBatteryStatus.getIntExtra(BatteryManager.EXTRA_SCALE, 100);
         if (level < 0 || scale <= 0) {
             return;
         }
-        int percent = Math.round(level * 100f / scale);
-        int status = mBatteryStatus.getIntExtra(BatteryManager.EXTRA_STATUS, 0);
-        boolean plugged = mBatteryStatus.getIntExtra(BatteryManager.EXTRA_PLUGGED, 0) != 0;
-        int caption;
+        final int percent = Math.round(level * 100f / scale);
+        final int status = mBatteryStatus.getIntExtra(BatteryManager.EXTRA_STATUS, 0);
+        final boolean plugged = mBatteryStatus.getIntExtra(BatteryManager.EXTRA_PLUGGED, 0) != 0;
+        final int caption;
         if (plugged) {
             caption = status == BatteryManager.BATTERY_STATUS_FULL
                     ? R.string.rr_homepage_charged : R.string.rr_homepage_charging;
@@ -218,43 +458,159 @@ public class HomepageHeaderView extends LinearLayout {
         mBattery.set(percent, getContext().getString(caption));
     }
 
-    private void updateTiles() {
-        Context context = getContext();
-
-        WifiManager wifi = context.getSystemService(WifiManager.class);
-        ConnectivityManager cm = context.getSystemService(ConnectivityManager.class);
-        Network network = cm != null ? cm.getActiveNetwork() : null;
-        NetworkCapabilities caps = network != null ? cm.getNetworkCapabilities(network) : null;
-        boolean onWifi = caps != null && caps.hasTransport(NetworkCapabilities.TRANSPORT_WIFI);
-        boolean onCell = caps != null && caps.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR);
-        String internet;
-        if (onWifi) {
-            internet = ssid(wifi);
-        } else if (onCell) {
-            internet = context.getString(R.string.rr_homepage_mobile_data);
-        } else {
-            internet = context.getString(wifi != null && wifi.isWifiEnabled()
-                    ? R.string.rr_homepage_not_connected : R.string.rr_homepage_off);
-        }
-        mInternet.bind(onWifi || onCell, internet);
-
-        BluetoothAdapter adapter = bluetooth();
-        boolean btOn = adapter != null && adapter.isEnabled();
-        int connected = btOn ? connectedDevices(adapter) : 0;
+    private void updateToggles() {
+        final Context context = getContext();
+        final BluetoothAdapter adapter = bluetooth();
+        final boolean btOn = adapter != null && adapter.isEnabled();
+        final int connected = btOn ? connectedDevices(adapter) : 0;
         mBluetooth.bind(btOn, connected > 0
                 ? getResources().getQuantityString(R.plurals.rr_homepage_bt_devices,
                         connected, connected)
                 : context.getString(btOn ? R.string.rr_homepage_on : R.string.rr_homepage_off));
 
-        boolean dark = isDarkTheme();
+        final boolean dark = isDarkTheme();
         mDark.bind(dark, context.getString(dark ? R.string.rr_homepage_on : R.string.rr_homepage_off));
 
-        boolean saver = isPowerSave();
+        final boolean saver = isPowerSave();
         mSaver.bind(saver, context.getString(saver ? R.string.rr_homepage_on : R.string.rr_homepage_off));
     }
 
+    private void updateNetwork() {
+        final Context context = getContext();
+        final WifiManager wifi = context.getSystemService(WifiManager.class);
+        final ConnectivityManager cm = context.getSystemService(ConnectivityManager.class);
+        final Network network = cm != null ? cm.getActiveNetwork() : null;
+        final NetworkCapabilities caps = network != null ? cm.getNetworkCapabilities(network) : null;
+        final boolean onWifi = caps != null && caps.hasTransport(NetworkCapabilities.TRANSPORT_WIFI);
+        final boolean onCell = caps != null
+                && caps.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR);
+        final String internet;
+        final float level;
+        final int chip;
+        if (onWifi && wifi != null) {
+            internet = ssid(wifi);
+            level = (wifi.calculateSignalLevel(caps.getSignalStrength()) + 1f)
+                    / (wifi.getMaxSignalLevel() + 1f);
+            chip = R.string.rr_live_wifi;
+        } else if (onCell) {
+            internet = context.getString(R.string.rr_homepage_mobile_data);
+            final TelephonyManager telephony = context.getSystemService(TelephonyManager.class);
+            final SignalStrength signal = telephony != null ? telephony.getSignalStrength() : null;
+            level = signal != null ? (signal.getLevel() + 1f) / 5f : 1f;
+            chip = R.string.rr_live_mobile;
+        } else {
+            internet = context.getString(wifi != null && wifi.isWifiEnabled()
+                    ? R.string.rr_homepage_not_connected : R.string.rr_homepage_off);
+            level = 0f;
+            chip = R.string.rr_live_offline;
+        }
+        mInternet.bind(onWifi || onCell, internet);
+        mNetwork.preview.setLevels(level, 0f);
+        mNetwork.setChip(context.getString(chip));
+    }
+
+    private void updateLevels() {
+        final Context context = getContext();
+        float brightness = 0.5f;
+        final DisplayManager displays = context.getSystemService(DisplayManager.class);
+        final Display display = displays != null
+                ? displays.getDisplay(Display.DEFAULT_DISPLAY) : null;
+        final BrightnessInfo info = display != null ? display.getBrightnessInfo() : null;
+        if (info != null) {
+            final int value = convertLinearToGammaFloat(info.brightness,
+                    info.brightnessMinimum, info.brightnessMaximum);
+            brightness = (value - GAMMA_SPACE_MIN) / (float) (GAMMA_SPACE_MAX - GAMMA_SPACE_MIN);
+        }
+        final AudioManager audio = context.getSystemService(AudioManager.class);
+        final int max = audio != null ? audio.getStreamMaxVolume(AudioManager.STREAM_MUSIC) : 0;
+        final float volume = max > 0
+                ? audio.getStreamVolume(AudioManager.STREAM_MUSIC) / (float) max : 0f;
+        mDisplay.preview.setLevels(brightness, volume);
+    }
+
+    private void updateAccount() {
+        final Context context = getContext();
+        final boolean gms = hasGms();
+        mAccounts.title.setText(gms ? R.string.rr_group_accounts : R.string.rr_group_accounts_plain);
+        mAccounts.summary.setText(gms
+                ? R.string.rr_group_accounts_summary : R.string.rr_group_accounts_plain_summary);
+        mBadge.setVisibility(gms ? VISIBLE : GONE);
+
+        final UserManager um = context.getSystemService(UserManager.class);
+        final UserInfo info = um != null ? um.getUserInfo(UserHandle.myUserId()) : null;
+        final String name = info != null && !TextUtils.isEmpty(info.name)
+                ? info.name : context.getString(R.string.rr_homepage_account);
+        mAccountName.setText(name);
+        if (info != null && info.iconPath != null) {
+            mAvatar.setImageDrawable(Utils.getUserIcon(context, um, info));
+            mAvatar.setVisibility(VISIBLE);
+            mInitial.setVisibility(GONE);
+        } else {
+            mInitial.setText(name.substring(0, name.offsetByCodePoints(0, 1))
+                    .toUpperCase(Locale.getDefault()));
+            mInitial.setVisibility(VISIBLE);
+            mAvatar.setVisibility(GONE);
+        }
+
+        final AccountManager accounts = AccountManager.get(context);
+        final Account[] signedIn = gms
+                ? accounts.getAccountsByType(GOOGLE_ACCOUNT) : accounts.getAccounts();
+        mAccountStatus.setText(signedIn.length > 0
+                ? R.string.rr_homepage_signed_in : R.string.rr_homepage_signed_out);
+        mAccounts.root.setContentDescription(mAccounts.title.getText() + ", " + name + ", "
+                + mAccountStatus.getText());
+    }
+
+    private void updateDeviceBar() {
+        final DashboardCategory category = FeatureFactory.getFeatureFactory()
+                .getDashboardFeatureProvider().getTilesForCategory(CategoryKey.CATEGORY_HOMEPAGE);
+        Tile found = null;
+        if (category != null) {
+            for (Tile tile : category.getTiles()) {
+                if (HomepageGroups.DEVICE.equals(HomepageGroups.placeOf(tile))) {
+                    found = tile;
+                    break;
+                }
+            }
+        }
+        mDeviceTile = found;
+        mDeviceBar.setVisibility(found != null ? VISIBLE : GONE);
+        if (found != null) {
+            mDeviceBar.setContentDescription(found.getTitle(getContext()) + ", "
+                    + getContext().getString(R.string.rr_homepage_device_tagline));
+        }
+    }
+
+    private void openDeviceTile() {
+        if (mDeviceTile != null) {
+            launch(new Intent(mDeviceTile.getIntent()).putExtra(
+                    MetricsFeatureProvider.EXTRA_SOURCE_METRICS_CATEGORY,
+                    SettingsEnums.DASHBOARD_SUMMARY));
+        }
+    }
+
+    private CategoryMixin categoryMixin() {
+        Context context = getContext();
+        while (context instanceof ContextWrapper) {
+            if (context instanceof CategoryMixin.CategoryHandler handler) {
+                return handler.getCategoryMixin();
+            }
+            context = ((ContextWrapper) context).getBaseContext();
+        }
+        return null;
+    }
+
+    private boolean hasGms() {
+        try {
+            getContext().getPackageManager().getPackageInfo(GMS, 0);
+            return true;
+        } catch (PackageManager.NameNotFoundException e) {
+            return false;
+        }
+    }
+
     private String ssid(WifiManager wifi) {
-        WifiInfo info = wifi != null ? wifi.getConnectionInfo() : null;
+        final WifiInfo info = wifi.getConnectionInfo();
         String ssid = info != null ? info.getSSID() : null;
         if (ssid != null && ssid.length() > 1 && ssid.startsWith("\"") && ssid.endsWith("\"")) {
             ssid = ssid.substring(1, ssid.length() - 1);
@@ -264,14 +620,14 @@ public class HomepageHeaderView extends LinearLayout {
     }
 
     private BluetoothAdapter bluetooth() {
-        BluetoothManager bm = getContext().getSystemService(BluetoothManager.class);
+        final BluetoothManager bm = getContext().getSystemService(BluetoothManager.class);
         return bm != null ? bm.getAdapter() : null;
     }
 
     private static int connectedDevices(BluetoothAdapter adapter) {
         int count = 0;
         try {
-            Set<BluetoothDevice> bonded = adapter.getBondedDevices();
+            final Set<BluetoothDevice> bonded = adapter.getBondedDevices();
             if (bonded != null) {
                 for (BluetoothDevice device : bonded) {
                     if (device.isConnected()) {
@@ -291,12 +647,12 @@ public class HomepageHeaderView extends LinearLayout {
     }
 
     private boolean isPowerSave() {
-        PowerManager pm = getContext().getSystemService(PowerManager.class);
+        final PowerManager pm = getContext().getSystemService(PowerManager.class);
         return pm != null && pm.isPowerSaveMode();
     }
 
     private void toggleBluetooth() {
-        BluetoothAdapter adapter = bluetooth();
+        final BluetoothAdapter adapter = bluetooth();
         if (adapter == null) {
             return;
         }
@@ -312,7 +668,7 @@ public class HomepageHeaderView extends LinearLayout {
     }
 
     private void toggleDarkTheme() {
-        UiModeManager ui = getContext().getSystemService(UiModeManager.class);
+        final UiModeManager ui = getContext().getSystemService(UiModeManager.class);
         if (ui != null) {
             ui.setNightModeActivated(!isDarkTheme());
         }
@@ -331,8 +687,12 @@ public class HomepageHeaderView extends LinearLayout {
         }
     }
 
-    private int color(int res) {
-        return getContext().getColor(res);
+    private Drawable glyph(int res) {
+        final Drawable icon = getContext().getDrawable(res);
+        final Drawable glyph = icon instanceof LayerDrawable layers
+                && layers.getNumberOfLayers() > 1 ? layers.getDrawable(1) : icon;
+        final Drawable.ConstantState state = glyph.getConstantState();
+        return state != null ? state.newDrawable(getResources()).mutate() : glyph.mutate();
     }
 
     private int dp(float value) {
@@ -340,43 +700,52 @@ public class HomepageHeaderView extends LinearLayout {
     }
 
     private GradientDrawable round(int color, float radiusDp) {
-        GradientDrawable shape = new GradientDrawable();
+        final GradientDrawable shape = new GradientDrawable();
         shape.setColor(color);
         shape.setCornerRadius(dp(radiusDp));
         return shape;
-    }
-
-    private Drawable pressable(int color, float radiusDp, int ink) {
-        return new RippleDrawable(ColorStateList.valueOf(withAlpha(ink, 0.12f)),
-                round(color, radiusDp), null);
     }
 
     private static int withAlpha(int color, float alpha) {
         return (Math.round(alpha * 255) << 24) | (color & 0x00FFFFFF);
     }
 
-    /** Usage bar with a label, a percentage and a caption. */
+    /** Usage bar with a label, a percentage and a caption; a tap opens its page. */
     private final class Meter {
+        private final View mRoot;
+        private final TextView mLabel;
         private final TextView mValue;
         private final TextView mCaption;
+        private final View mTrack;
         private final View mFill;
         private final View mRest;
 
-        Meter(View root, int text, int fill, int label) {
-            ((TextView) root.findViewById(R.id.rr_meter_label)).setText(label);
-            ((TextView) root.findViewById(R.id.rr_meter_label)).setTextColor(text);
+        Meter(View root, int label, String action) {
+            mRoot = root;
+            mLabel = root.findViewById(R.id.rr_meter_label);
+            mLabel.setText(getContext().getString(R.string.rr_homepage_link,
+                    getContext().getString(label)));
             mValue = root.findViewById(R.id.rr_meter_value);
-            mValue.setTextColor(text);
             mCaption = root.findViewById(R.id.rr_meter_caption);
-            mCaption.setTextColor(withAlpha(text, 0.8f));
-            root.findViewById(R.id.rr_meter_track).setBackground(round(withAlpha(text, 0.15f), 4));
+            mTrack = root.findViewById(R.id.rr_meter_track);
             mFill = root.findViewById(R.id.rr_meter_fill);
-            mFill.setBackground(round(fill, 4));
             mRest = root.findViewById(R.id.rr_meter_rest);
+            root.setOnClickListener(v -> launch(new Intent(action)));
+        }
+
+        void applyColors(HomepagePalette p) {
+            mLabel.setTextColor(p.text);
+            mValue.setTextColor(p.text);
+            mCaption.setTextColor(p.subtext);
+            mTrack.setBackground(round(p.track, 3));
+            mFill.setBackground(round(p.neon, 3));
+            mRoot.setBackground(new RippleDrawable(
+                    ColorStateList.valueOf(withAlpha(p.text, 0.12f)), null,
+                    round(Color.WHITE, 10)));
         }
 
         void set(int percent, String caption) {
-            int clamped = Math.max(0, Math.min(100, percent));
+            final int clamped = Math.max(0, Math.min(100, percent));
             mValue.setText(getContext().getString(R.string.rr_homepage_percent, clamped));
             mCaption.setText(caption);
             ((LayoutParams) mFill.getLayoutParams()).weight = clamped;
@@ -385,22 +754,23 @@ public class HomepageHeaderView extends LinearLayout {
         }
     }
 
-    /** Quick tile: tap toggles, long press opens its page. */
-    private final class Tile {
+    /** Round quick toggle in the device card: tap toggles, long press opens its page. */
+    private final class Toggle {
         final View root;
-        private final View mChip;
+        private final View mCircle;
         private final ImageView mIcon;
-        private final TextView mTitle;
-        private final TextView mSummary;
+        private final TextView mLabel;
+        private boolean mActive;
 
-        Tile(View root, int title, int icon) {
+        Toggle(View root, int label, int icon) {
             this.root = root;
-            mChip = root.findViewById(R.id.rr_tile_chip);
-            mIcon = root.findViewById(R.id.rr_tile_icon);
+            mCircle = root.findViewById(R.id.rr_toggle_circle);
+            mCircle.setDuplicateParentStateEnabled(true);
+            mIcon = root.findViewById(R.id.rr_toggle_icon);
             mIcon.setImageResource(icon);
-            mTitle = root.findViewById(R.id.rr_tile_title);
-            mTitle.setText(title);
-            mSummary = root.findViewById(R.id.rr_tile_summary);
+            mLabel = root.findViewById(R.id.rr_toggle_label);
+            mLabel.setText(label);
+            root.setContentDescription(mLabel.getText());
         }
 
         void longPress(String action) {
@@ -410,33 +780,100 @@ public class HomepageHeaderView extends LinearLayout {
             });
         }
 
-        void bind(boolean active, CharSequence summary) {
-            int background;
-            int text;
-            int sub;
-            int chip;
-            int glyph;
-            if (active) {
-                background = color(com.android.internal.R.color.materialColorPrimaryContainer);
-                text = color(com.android.internal.R.color.materialColorOnPrimaryContainer);
-                sub = withAlpha(text, 0.85f);
-                chip = color(com.android.internal.R.color.materialColorPrimary);
-                glyph = color(com.android.internal.R.color.materialColorOnPrimary);
-            } else {
-                background = color(com.android.internal.R.color.materialColorSurfaceBright);
-                text = color(com.android.internal.R.color.materialColorOnSurface);
-                sub = color(com.android.internal.R.color.materialColorOnSurfaceVariant);
-                chip = color(com.android.internal.R.color.materialColorSurfaceContainerHighest);
-                glyph = text;
-            }
-            root.setBackground(pressable(background, 18, text));
-            mChip.setBackground(round(chip, 17));
-            mIcon.setImageTintList(ColorStateList.valueOf(glyph));
-            mTitle.setTextColor(text);
-            mSummary.setTextColor(sub);
-            mSummary.setText(summary);
+        void bind(boolean active, CharSequence state) {
+            mActive = active;
             root.setActivated(active);
-            root.setContentDescription(mTitle.getText() + ", " + summary);
+            root.setStateDescription(state);
+            applyColors();
+        }
+
+        void applyColors() {
+            final HomepagePalette p = mPalette;
+            final GradientDrawable circle = new GradientDrawable();
+            circle.setShape(GradientDrawable.OVAL);
+            circle.setColor(mActive ? p.on : p.offFill);
+            if (!mActive) {
+                circle.setStroke(dp(1), p.offStroke);
+            }
+            final int ink = mActive ? p.onInk : p.offInk;
+            mCircle.setBackground(new RippleDrawable(ColorStateList.valueOf(withAlpha(ink, 0.16f)),
+                    circle, null));
+            mIcon.setImageTintList(ColorStateList.valueOf(ink));
+            mLabel.setTextColor(p.offInk);
+        }
+    }
+
+    /** A category tile, or the wide System row; a tap opens its page. */
+    private final class Group {
+        final View root;
+        final TextView title;
+        final TextView summary;
+        final TilePreviewView preview;
+        private final ImageView mIcon;
+        private final TextView mChip;
+        private final Drawable mGlyph;
+        private final int mOffset;
+        HomepagePalette.Tile colors;
+
+        Group(int id, String group, int titleRes, int summaryRes, int glyphRes, int offset,
+                int kind) {
+            root = findViewById(id);
+            title = root.findViewById(R.id.rr_tile_title);
+            summary = root.findViewById(R.id.rr_tile_summary);
+            preview = root.findViewById(R.id.rr_tile_preview);
+            mIcon = root.findViewById(R.id.rr_tile_icon);
+            mChip = root.findViewById(R.id.rr_tile_chip);
+            mGlyph = glyphRes != 0 ? glyph(glyphRes) : null;
+            mOffset = offset;
+            title.setText(titleRes);
+            summary.setText(summaryRes);
+            if (preview != null) {
+                if (kind < 0) {
+                    preview.setVisibility(GONE);
+                } else {
+                    preview.setKind(kind);
+                }
+            }
+            if (group != null) {
+                root.setOnClickListener(v -> HomepageGroupFragment.launch(getContext(), group,
+                        title.getText()));
+            }
+        }
+
+        void setChip(CharSequence text) {
+            mChip.setText(text);
+            mChip.setVisibility(VISIBLE);
+        }
+
+        void applyColors(HomepagePalette p) {
+            colors = p.tile(mOffset);
+            final GradientDrawable shape = new GradientDrawable(
+                    GradientDrawable.Orientation.TL_BR, new int[] {colors.top, colors.bottom});
+            shape.setCornerRadius(dp(24));
+            shape.setStroke(dp(1), colors.edge);
+            root.setBackground(new RippleDrawable(
+                    ColorStateList.valueOf(withAlpha(colors.ring, 0.16f)), shape, null));
+            if (mGlyph != null) {
+                final NeonRingDrawable ring = new NeonRingDrawable(mGlyph, dp(38),
+                        getResources().getDisplayMetrics().density);
+                ring.setColors(colors.ring, colors.ring, colors.ring,
+                        HomepagePalette.alpha(colors.ring, 0x29), 0, 0);
+                ring.setState(1f, true);
+                mIcon.setImageDrawable(ring);
+            }
+            title.setTextColor(p.text);
+            summary.setTextColor(p.subtext);
+            if (preview != null) {
+                preview.setColors(colors.ring, colors.dim);
+            }
+            if (mChip != null) {
+                mChip.setTextColor(colors.chipText);
+                mChip.setBackground(round(colors.chipBg, 100));
+            }
+            final ImageView chevron = root.findViewById(R.id.rr_tile_chevron);
+            if (chevron != null) {
+                chevron.setImageTintList(ColorStateList.valueOf(p.subtext));
+            }
         }
     }
 }

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="rr_homepage_group_security">
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:icon="@drawable/ic_homepage_safety_center"
+        android:key="top_level_safety_center"
+        android:order="-50"
+        android:title="@string/rr_group_security_center"
+        android:summary="@string/safety_center_summary"
+        settings:highlightableMenuKey="@string/menu_key_safety_center"
+        settings:controller="com.android.settings.safetycenter.TopLevelSafetyCenterEntryPreferenceController"/>
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:fragment="com.android.settings.security.SecuritySettings"
+        android:icon="@drawable/ic_homepage_security"
+        android:key="top_level_security"
+        android:order="-40"
+        android:title="@string/security_settings_title"
+        android:summary="@string/security_dashboard_summary"
+        settings:highlightableMenuKey="@string/menu_key_security"
+        settings:controller="com.android.settings.security.TopLevelSecurityEntryPreferenceController"/>
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:fragment="com.android.settings.privacy.PrivacyDashboardFragment"
+        android:icon="@drawable/ic_homepage_privacy"
+        android:key="top_level_privacy"
+        android:order="-30"
+        android:title="@string/privacy_dashboard_title"
+        android:summary="@string/privacy_dashboard_summary"
+        settings:highlightableMenuKey="@string/menu_key_privacy"
+        settings:controller="com.android.settings.privacy.TopLevelPrivacyEntryPreferenceController"/>
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:fragment="com.android.settings.location.LocationSettings"
+        android:icon="@drawable/ic_homepage_location"
+        android:key="top_level_location"
+        android:order="-20"
+        android:title="@string/location_settings_title"
+        android:summary="@string/location_settings_loading_app_permission_stats"
+        settings:highlightableMenuKey="@string/menu_key_location"
+        settings:controller="com.android.settings.location.TopLevelLocationPreferenceController"/>
+
+    <com.resurrection.settings.homepage.LiveHomepagePreference
+        android:key="top_level_emergency"
+        android:title="@string/emergency_settings_preference_title"
+        android:summary="@string/emergency_dashboard_summary"
+        android:icon="@drawable/ic_homepage_emergency"
+        android:order="10"
+        android:fragment="com.android.settings.emergency.EmergencyDashboardFragment"
+        settings:isPreferenceVisible="@bool/config_show_emergency_settings"
+        settings:highlightableMenuKey="@string/menu_key_emergency"/>
+</PreferenceScreen>
