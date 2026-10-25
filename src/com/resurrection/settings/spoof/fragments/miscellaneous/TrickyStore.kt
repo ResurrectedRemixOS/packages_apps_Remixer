@@ -10,6 +10,7 @@ import android.app.ActivityManager
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.os.SystemProperties
 import android.provider.Settings
 import android.util.Base64
 import android.util.Xml
@@ -59,6 +60,7 @@ class TrickyStore : SettingsPreferenceFragment() {
     private var isCheckInProgress = false
     private var isKeyboxPickerOpen = false
     private var rkpController: DuckRkpPreferenceController? = null
+    private val duckRkpSupported = SystemProperties.getBoolean("ro.rr.duck_rkp", false)
 
     // ---- Trust anchors (SHA-256 of DER-encoded cert) ------------------------
 
@@ -272,8 +274,12 @@ class TrickyStore : SettingsPreferenceFragment() {
         currentRevocationReason = Settings.Secure.getString(
             requireContext().contentResolver, LAST_REVOCATION_REASON_KEY) ?: ""
 
-        rkpController = DuckRkpPreferenceController(this) { refreshStatus() }
-        rkpController?.start()
+        if (duckRkpSupported) {
+            rkpController = DuckRkpPreferenceController(this) { refreshStatus() }
+            rkpController?.start()
+        } else {
+            findPreference<Preference>("ts_rkp_category")?.isVisible = false
+        }
         refreshStatus()
     }
 
@@ -1215,9 +1221,9 @@ class TrickyStore : SettingsPreferenceFragment() {
             requireContext().contentResolver, KEYBOX_SOURCE_KEY) == KEYBOX_SOURCE_USER
 
     private fun isDuckRkpActive(): Boolean =
-        rkpController?.enabled == true ||
+        duckRkpSupported && (rkpController?.enabled == true ||
             Settings.Secure.getString(
-                requireContext().contentResolver, KEYBOX_SOURCE_KEY) == KEYBOX_SOURCE_DUCK
+                requireContext().contentResolver, KEYBOX_SOURCE_KEY) == KEYBOX_SOURCE_DUCK)
 
     // ---- GMS kill -----------------------------------------------------------
 
