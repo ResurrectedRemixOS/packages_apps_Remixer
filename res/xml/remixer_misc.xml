@@ -3,18 +3,6 @@
     android:title="@string/remixer_misc">
 
     <PreferenceCategory
-        android:key="misc_apps"
-        android:title="@string/misc_category_apps">
-
-        <Preference
-            android:key="cloned_apps_page"
-            android:icon="@drawable/ic_misc_clone"
-            android:title="@string/cloned_apps_title"
-            android:summary="@string/cloned_apps_entry_summary"
-            android:fragment="com.resurrection.settings.cloned.ClonedAppsSettings" />
-    </PreferenceCategory>
-
-    <PreferenceCategory
         android:key="misc_volume"
         android:title="@string/misc_category_volume">
 
