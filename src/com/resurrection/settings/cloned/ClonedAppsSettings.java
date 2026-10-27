@@ -113,6 +113,8 @@ public class ClonedAppsSettings extends SettingsPreferenceFragment {
     }
 
     private static List<AppRow> load(Context context, Map<String, Drawable> icons) {
+        restoreSettings(context);
+        Set<String> cloned = clonedPackages(context);
         PackageManager pm = context.getPackageManager();
         Intent launcher = new Intent(Intent.ACTION_MAIN);
         launcher.addCategory(Intent.CATEGORY_LAUNCHER);
@@ -126,9 +128,7 @@ public class ClonedAppsSettings extends SettingsPreferenceFragment {
             if (app == null || byPackage.containsKey(app.packageName)) {
                 continue;
             }
-            boolean system = (app.flags & ApplicationInfo.FLAG_SYSTEM) != 0;
-            boolean updated = (app.flags & ApplicationInfo.FLAG_UPDATED_SYSTEM_APP) != 0;
-            if (system && !updated) {
+            if (app.isSystemApp() && !cloned.contains(app.packageName)) {
                 continue;
             }
             AppRow row = new AppRow();
@@ -139,16 +139,32 @@ public class ClonedAppsSettings extends SettingsPreferenceFragment {
             if (row.icon == null) {
                 row.icon = pm.getApplicationIcon(app);
             }
-            byPackage.put(row.pkg, row);
-        }
-        CloneBackend.getInstance(context).hideAutoInstalledLaunchers(null);
-        Set<String> cloned = clonedPackages(context);
-        for (AppRow row : byPackage.values()) {
             row.cloned = cloned.contains(row.pkg);
+            byPackage.put(row.pkg, row);
         }
         List<AppRow> rows = new ArrayList<>(byPackage.values());
         rows.sort(Comparator.comparing(row -> row.label, String.CASE_INSENSITIVE_ORDER));
         return rows;
+    }
+
+    private static void restoreSettings(Context context) {
+        int cloneUser = Utils.getCloneUserId(context);
+        if (cloneUser == -1) {
+            return;
+        }
+        Context clone = context.createContextAsUser(UserHandle.of(cloneUser), 0);
+        PackageManager pm = clone.getPackageManager();
+        String settings = context.getPackageName();
+        try {
+            if (pm.getApplicationEnabledSetting(settings)
+                    != PackageManager.COMPONENT_ENABLED_STATE_DISABLED_USER) {
+                return;
+            }
+            pm.setApplicationEnabledSetting(settings,
+                    PackageManager.COMPONENT_ENABLED_STATE_DEFAULT, 0);
+            Utils.disableComponentsToHideSettings(clone, pm);
+        } catch (IllegalArgumentException | SecurityException ignored) {
+        }
     }
 
     private static Set<String> clonedPackages(Context context) {
