@@ -84,18 +84,6 @@
             android:defaultValue="true" />
 
         <lineageos.preference.SystemSettingSwitchPreference
-            android:key="rr_glass_home"
-            android:title="@string/liquid_glass_home_title"
-            android:summary="@string/liquid_glass_home_summary"
-            android:defaultValue="true" />
-
-        <lineageos.preference.SystemSettingSwitchPreference
-            android:key="rr_glass_recents"
-            android:title="@string/liquid_glass_recents_title"
-            android:summary="@string/liquid_glass_recents_summary"
-            android:defaultValue="true" />
-
-        <lineageos.preference.SystemSettingSwitchPreference
             android:key="rr_glass_menus"
             android:title="@string/liquid_glass_menus_title"
             android:summary="@string/liquid_glass_menus_summary"
