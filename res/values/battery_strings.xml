@@ -5,7 +5,6 @@
 -->
 <resources>
     <string name="battery_style_page_title">Battery</string>
-    <string name="battery_style_page_summary">Style, percentage and the neon ring</string>
     <string name="battery_style_title">Style</string>
     <string-array name="battery_style_entries">
         <item>Portrait</item>
@@ -36,8 +35,8 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-    <string name="battery_ring_category">Neon ring</string>
-    <string name="battery_ring_color_title">Color</string>
+    <string name="battery_ring_color_title">Neon ring color</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. By level is the accent above 20%%, red below and amber in Battery Saver.</string>
     <string-array name="battery_ring_color_entries">
         <item>By level</item>
         <item>Accent</item>
@@ -51,5 +50,4 @@
     <string name="battery_ring_spark_title">Spark while charging</string>
     <string name="battery_ring_tile_title">Same ring on the Quick Settings tile</string>
     <string name="battery_ring_tile_summary">With the level and screen-on time</string>
-    <string name="battery_style_footer">By level: accent above 20%, red below, amber while Battery Saver is on. Accent keeps it accent; White follows the status bar like the stock icon.</string>
 </resources>
