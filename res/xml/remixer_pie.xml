@@ -45,6 +45,8 @@
         android:title="@string/pie_items"
         android:entries="@array/pie_items_entries"
         android:entryValues="@array/pie_items_values"
+        android:positiveButtonText="@android:string/ok"
+        android:negativeButtonText="@android:string/cancel"
         android:persistent="false"
         android:dependency="pie_controls" />
 
