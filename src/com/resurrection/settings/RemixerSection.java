@@ -184,6 +184,10 @@ public class RemixerSection extends SettingsPreferenceFragment {
         if (lockMedia != null) {
             lockMedia.setSummary(QsStyleActivity.currentLockMediaName(getContext()));
         }
+        final Preference qsMedia = findPreference("remixer_qs_media_style");
+        if (qsMedia != null) {
+            qsMedia.setSummary(QsStyleActivity.currentQsMediaName(getContext()));
+        }
         // Entries launched from XML get no title from SubSettingLauncher.
         getActivity().setTitle(getPreferenceScreen().getTitle());
     }
@@ -252,6 +256,8 @@ public class RemixerSection extends SettingsPreferenceFragment {
                 return new Intent(getContext(), QsStyleActivity.class);
             case "remixer_lock_media_style":
                 return QsStyleActivity.lockMediaIntent(getContext());
+            case "remixer_qs_media_style":
+                return QsStyleActivity.qsMediaIntent(getContext());
             case "remixer_headers":
                 return new Intent(getContext(), HeaderActivity.class);
             case "remixer_boot_animation":
