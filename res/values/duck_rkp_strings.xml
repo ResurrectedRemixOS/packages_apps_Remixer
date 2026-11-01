@@ -15,7 +15,7 @@
     <string name="ts_rkp_hardware">Waiting for the device’s provisioning service…</string>
     <string name="ts_rkp_signing">Requesting certificates from Google…</string>
     <string name="ts_rkp_validating">Validating and saving the keybox…</string>
-    <string name="ts_rkp_ready">Generated keybox active. Expires %1$s</string>
+    <string name="ts_rkp_ready">Generated keybox active. Renews on its own before %1$s</string>
     <string name="ts_rkp_keybox_stored">Device RKP keybox stored</string>
     <string name="ts_rkp_expired">Generated keybox expired. Generate a replacement.</string>
     <string name="ts_rkp_hal_rejected">Firmware rejected the request (code %1$d). Duck V1 may not be supported.</string>
