@@ -291,7 +291,7 @@ public class GlassPreviewView extends View {
         });
     }
 
-    private static synchronized Bitmap wallpaper(Context context) {
+    public static synchronized Bitmap wallpaper(Context context) {
         final WallpaperManager manager = WallpaperManager.getInstance(context);
         Drawable drawable = null;
         int id = -1;
