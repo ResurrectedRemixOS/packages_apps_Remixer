@@ -312,7 +312,7 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
                 break;
             case P_QS: {
                 int qs = look.optInt("qs_style");
-                text.append(qs >= 0 && qs < QsStyleActivity.NAMES.length
+                text.append(QsStyleActivity.isStyle(qs)
                         ? getString(QsStyleActivity.NAMES[qs]) : String.valueOf(qs));
                 break;
             }

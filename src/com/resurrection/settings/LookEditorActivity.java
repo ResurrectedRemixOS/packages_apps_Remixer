@@ -304,7 +304,7 @@ public class LookEditorActivity extends CollapsingToolbarBaseActivity {
                 return toInt(value) + "%";
             case ROW_QS: {
                 int index = toInt(value);
-                return index >= 0 && index < QsStyleActivity.NAMES.length
+                return QsStyleActivity.isStyle(index)
                         ? getString(QsStyleActivity.NAMES[index]) : String.valueOf(index);
             }
             case ROW_FACE:
@@ -339,11 +339,14 @@ public class LookEditorActivity extends CollapsingToolbarBaseActivity {
                 pickSaturation();
                 break;
             case ROW_QS: {
-                String[] names = new String[QsStyleActivity.NAMES.length];
-                for (int i = 0; i < names.length; i++) {
-                    names[i] = getString(QsStyleActivity.NAMES[i]);
+                int[] styles = QsStyleActivity.styles();
+                String[] names = new String[styles.length];
+                int checked = -1;
+                for (int i = 0; i < styles.length; i++) {
+                    names[i] = getString(QsStyleActivity.NAMES[styles[i]]);
+                    if (styles[i] == toInt(current(row))) checked = i;
                 }
-                choose(row, names, toInt(current(row)), i -> set(row, i));
+                choose(row, names, checked, i -> set(row, styles[i]));
                 break;
             }
             case ROW_FACE: {

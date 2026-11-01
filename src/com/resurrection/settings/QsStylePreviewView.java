@@ -39,7 +39,6 @@ public class QsStylePreviewView extends View {
     public static final int CIRCLES = 4;
     public static final int CLASSIC = 5;
     public static final int CARDS = 6;
-    public static final int MONO = 7;
     public static final int NEON = 8;
     public static final int BENTO = 9;
     public static final int SHAPES = 10;
@@ -195,11 +194,11 @@ public class QsStylePreviewView extends View {
         }
         mPaint.setShader(null);
         mPaint.setStyle(Paint.Style.FILL);
-        mPaint.setColor(mStyle == MONO ? 0xFF050505 : mStyle == SOFT ? SOFT_SURFACE : 0xFF0A0B0D);
+        mPaint.setColor(mStyle == SOFT ? SOFT_SURFACE : 0xFF0A0B0D);
         canvas.drawRect(0, 0, w, h, mPaint);
         // Soft stays flat; its tiles need the panel's own color around them.
         if (mStyle != SOFT) {
-            final int glow = mStyle == MONO ? 0x1FFFFFFF : (mAccent500 & 0x00FFFFFF) | 0x66000000;
+            final int glow = (mAccent500 & 0x00FFFFFF) | 0x66000000;
             mPaint.setShader(new RadialGradient(w * .2f, h * .08f, Math.max(w, h) * .7f,
                     glow, Color.TRANSPARENT, Shader.TileMode.CLAMP));
             canvas.drawRect(0, 0, w, h, mPaint);
@@ -245,9 +244,6 @@ public class QsStylePreviewView extends View {
                 pill(canvas, 0, 0, WIDTH, 40, 20, 0x0DFFFFFF, (mPrimary & 0x00FFFFFF) | 0x8C000000);
                 outline(canvas, 0, 0, WIDTH, 40, 20, 0x29FFFFFF);
                 return 40;
-            case MONO:
-                pill(canvas, 0, 0, WIDTH, 44, 14, 0xFF1C1C1C, 0xFFF2F2F2);
-                return 44;
             case CLASSIC: {
                 mPaint.setColor(mPrimary);
                 mPaint.setStyle(Paint.Style.STROKE);
@@ -458,16 +454,6 @@ public class QsStylePreviewView extends View {
                     playInk = mPrimary;
                     playBorder = mPrimary;
                     break;
-                case MONO:
-                    bg = 0xFF161616;
-                    radius = 18;
-                    artRadius = 12;
-                    text = 0xFFEDEDED;
-                    sub = 0xB3EDEDED;
-                    accent = play = 0xFFF2F2F2;
-                    onAccent = playInk = 0xFF111111;
-                    track = 0x47EDEDED;
-                    break;
                 case NEON:
                     bg = 0xFF0B080C;
                     border = alpha(mVivid, .9f);
@@ -513,18 +499,17 @@ public class QsStylePreviewView extends View {
     }
 
     private void drawLockscreen(Canvas canvas, int w, int h) {
-        final boolean mono = mStyle == MONO;
         final float big = Math.max(w, h);
         mPaint.setStyle(Paint.Style.FILL);
-        mPaint.setShader(new LinearGradient(0, 0, w * .4f, h, mono ? 0xFF262626 : 0xFF3B2440,
-                mono ? 0xFF101010 : 0xFF101527, Shader.TileMode.CLAMP));
+        mPaint.setShader(new LinearGradient(0, 0, w * .4f, h, 0xFF3B2440, 0xFF101527,
+                Shader.TileMode.CLAMP));
         canvas.drawRect(0, 0, w, h, mPaint);
         mPaint.setShader(new RadialGradient(w * .25f, h * .15f, big * .8f,
-                mono ? 0x806B6B6B : alpha(mAccent500, .75f), Color.TRANSPARENT,
+                alpha(mAccent500, .75f), Color.TRANSPARENT,
                 Shader.TileMode.CLAMP));
         canvas.drawRect(0, 0, w, h, mPaint);
         mPaint.setShader(new RadialGradient(w * .85f, h * .9f, big * .7f,
-                mono ? 0x803A3A3A : 0xCC2E5BD8, Color.TRANSPARENT, Shader.TileMode.CLAMP));
+                0xCC2E5BD8, Color.TRANSPARENT, Shader.TileMode.CLAMP));
         canvas.drawRect(0, 0, w, h, mPaint);
         mPaint.setShader(new LinearGradient(0, 0, 0, h, 0x26060709, 0x8C060709,
                 Shader.TileMode.CLAMP));
@@ -725,8 +710,7 @@ public class QsStylePreviewView extends View {
         switch (mStyle) {
             case REMIX: return 60;
             case COMPACT: return 48;
-            case GLASS:
-            case MONO: return 64;
+            case GLASS: return 64;
             case CIRCLES: return 80;
             case CLASSIC: return 78;
             case CARDS: return 104;
@@ -938,15 +922,6 @@ public class QsStylePreviewView extends View {
                 chipSize = 44;
                 chipRadius = 22;
                 break;
-            case MONO:
-                r = 18;
-                bg = on ? 0xFFF2F2F2 : 0xFF161616;
-                chip = on ? 0xFF111111 : 0xFF232323;
-                ink = on ? 0xFF111111 : 0xFFEDEDED;
-                sub = on ? 0xFF4A4A4A : 0xFF8A8A8A;
-                chipSize = 40;
-                chipRadius = 20;
-                break;
             case CIRCLES:
                 r = 26;
                 bg = on ? mPrimary : SURFACE;
@@ -971,8 +946,7 @@ public class QsStylePreviewView extends View {
             outline(canvas, x, y, w, h, r, on ? alpha(mPrimary, .95f) : 0x21FFFFFF);
         }
         if (!wide) {
-            int iconInk = mStyle == MONO ? (on ? 0xFF111111 : 0xFFEDEDED) : ink;
-            icon(canvas, i, x + w / 2, y + h / 2, mStyle == COMPACT ? 20 : 24, iconInk);
+            icon(canvas, i, x + w / 2, y + h / 2, mStyle == COMPACT ? 20 : 24, ink);
             return;
         }
         final float chipLeft = x + 8;
@@ -986,8 +960,6 @@ public class QsStylePreviewView extends View {
         int chipInk = ink;
         if (mStyle == STOCK) {
             chipInk = on ? mOnPrimary : ON_SURFACE;
-        } else if (mStyle == MONO) {
-            chipInk = on ? 0xFFF2F2F2 : 0xFFEDEDED;
         }
         icon(canvas, i, chipLeft + chipSize / 2, cy, mStyle == COMPACT ? 18 : 22, chipInk);
         final int labelInk = mStyle == STOCK ? ON_SURFACE : ink;
