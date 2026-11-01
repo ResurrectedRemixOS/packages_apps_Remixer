@@ -53,7 +53,6 @@ public class QsStylePreviewView extends View {
     private static final float FADE = 32f;
     // Clock, date and player on the lockscreen, which have to fit above the label.
     private static final float LOCK_HEIGHT = 264f;
-    private static final float PANEL_HEIGHT = 166f;
     private static final int[] ICONS = {
         R.drawable.remixer_qs_preview_wifi, R.drawable.remixer_qs_preview_bluetooth,
         R.drawable.remixer_qs_preview_flashlight, R.drawable.remixer_qs_preview_dnd,
@@ -116,7 +115,7 @@ public class QsStylePreviewView extends View {
     private int mStyle;
     private boolean mMini;
     private boolean mLockscreen;
-    private boolean mPanel;
+    private boolean mCardHidden;
     private float mScale;
 
     public QsStylePreviewView(Context context) {
@@ -170,8 +169,9 @@ public class QsStylePreviewView extends View {
         invalidate();
     }
 
-    public void setPanel(boolean panel) {
-        mPanel = panel;
+    /** Leaves the media card out of the lockscreen, for a player that is off. */
+    public void setCardHidden(boolean hidden) {
+        mCardHidden = hidden;
         invalidate();
     }
 
@@ -509,9 +509,6 @@ public class QsStylePreviewView extends View {
                     base = LOCK_BASE;
                     break;
             }
-            if (mPanel) {
-                base = Color.TRANSPARENT;
-            }
         }
     }
 
@@ -519,35 +516,26 @@ public class QsStylePreviewView extends View {
         final boolean mono = mStyle == MONO;
         final float big = Math.max(w, h);
         mPaint.setStyle(Paint.Style.FILL);
-        if (mPanel) {
-            mPaint.setShader(null);
-            mPaint.setColor(mono ? 0xFF050505 : mStyle == SOFT ? SOFT_SURFACE : 0xFF0A0B0D);
-            canvas.drawRect(0, 0, w, h, mPaint);
-            if (mStyle != SOFT) {
-                final int glow = mono ? 0x1FFFFFFF : (mAccent500 & 0x00FFFFFF) | 0x66000000;
-                mPaint.setShader(new RadialGradient(w * .2f, h * .08f, big * .7f,
-                        glow, Color.TRANSPARENT, Shader.TileMode.CLAMP));
-                canvas.drawRect(0, 0, w, h, mPaint);
-            }
-        } else {
-            mPaint.setShader(new LinearGradient(0, 0, w * .4f, h, mono ? 0xFF262626 : 0xFF3B2440,
-                    mono ? 0xFF101010 : 0xFF101527, Shader.TileMode.CLAMP));
-            canvas.drawRect(0, 0, w, h, mPaint);
-            mPaint.setShader(new RadialGradient(w * .25f, h * .15f, big * .8f,
-                    mono ? 0x806B6B6B : alpha(mAccent500, .75f), Color.TRANSPARENT,
-                    Shader.TileMode.CLAMP));
-            canvas.drawRect(0, 0, w, h, mPaint);
-            mPaint.setShader(new RadialGradient(w * .85f, h * .9f, big * .7f,
-                    mono ? 0x803A3A3A : 0xCC2E5BD8, Color.TRANSPARENT, Shader.TileMode.CLAMP));
-            canvas.drawRect(0, 0, w, h, mPaint);
-            mPaint.setShader(new LinearGradient(0, 0, 0, h, 0x26060709, 0x8C060709,
-                    Shader.TileMode.CLAMP));
-            canvas.drawRect(0, 0, w, h, mPaint);
-        }
+        mPaint.setShader(new LinearGradient(0, 0, w * .4f, h, mono ? 0xFF262626 : 0xFF3B2440,
+                mono ? 0xFF101010 : 0xFF101527, Shader.TileMode.CLAMP));
+        canvas.drawRect(0, 0, w, h, mPaint);
+        mPaint.setShader(new RadialGradient(w * .25f, h * .15f, big * .8f,
+                mono ? 0x806B6B6B : alpha(mAccent500, .75f), Color.TRANSPARENT,
+                Shader.TileMode.CLAMP));
+        canvas.drawRect(0, 0, w, h, mPaint);
+        mPaint.setShader(new RadialGradient(w * .85f, h * .9f, big * .7f,
+                mono ? 0x803A3A3A : 0xCC2E5BD8, Color.TRANSPARENT, Shader.TileMode.CLAMP));
+        canvas.drawRect(0, 0, w, h, mPaint);
+        mPaint.setShader(new LinearGradient(0, 0, 0, h, 0x26060709, 0x8C060709,
+                Shader.TileMode.CLAMP));
+        canvas.drawRect(0, 0, w, h, mPaint);
         mPaint.setShader(null);
 
         final Card card = new Card();
         if (mMini) {
+            if (mCardHidden) {
+                return;
+            }
             final float cardH = h * .5f;
             mRect.set(w * .12f, (h - cardH) / 2, w * .88f, (h + cardH) / 2);
             final float r = Math.min(card.radius * cardH / 150f * 2.2f, cardH / 2);
@@ -562,22 +550,22 @@ public class QsStylePreviewView extends View {
 
         final float pad = 14 * mDensity;
         final float clear = h - LABEL_SPACE * mDensity;
-        mScale = Math.min((w - pad * 2) / WIDTH,
-                (clear - pad) / (mPanel ? PANEL_HEIGHT : LOCK_HEIGHT));
+        mScale = Math.min((w - pad * 2) / WIDTH, (clear - pad) / LOCK_HEIGHT);
         canvas.save();
-        final float drop = mPanel ? Math.max(0, (clear - pad - d(PANEL_HEIGHT)) / 2) : 0;
-        canvas.translate((w - d(WIDTH)) / 2, pad + drop);
-        if (!mPanel) {
-            final java.util.Date now = new java.util.Date();
-            text(canvas, android.text.format.DateFormat.getTimeFormat(getContext()).format(now),
-                    WIDTH / 2, 64, WIDTH, 60, LIGHT, 0xFFF4F5F7, true);
-            text(canvas, android.text.format.DateFormat.format(
-                    android.text.format.DateFormat.getBestDateTimePattern(
-                            java.util.Locale.getDefault(), "EEEMMMd"), now).toString(),
-                    WIDTH / 2, 88, WIDTH, 14, MEDIUM, 0xDBF4F5F7, true);
+        canvas.translate((w - d(WIDTH)) / 2, pad);
+        final java.util.Date now = new java.util.Date();
+        text(canvas, android.text.format.DateFormat.getTimeFormat(getContext()).format(now),
+                WIDTH / 2, 64, WIDTH, 60, LIGHT, 0xFFF4F5F7, true);
+        text(canvas, android.text.format.DateFormat.format(
+                android.text.format.DateFormat.getBestDateTimePattern(
+                        java.util.Locale.getDefault(), "EEEMMMd"), now).toString(),
+                WIDTH / 2, 88, WIDTH, 14, MEDIUM, 0xDBF4F5F7, true);
+        if (mCardHidden) {
+            canvas.restore();
+            return;
         }
 
-        final float top = mPanel ? 8 : 108;
+        final float top = 108;
         mRect.set(0, d(top), d(WIDTH), d(top + 150));
         cardFill(canvas, card, d(card.radius));
 

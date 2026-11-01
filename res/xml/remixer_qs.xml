@@ -7,16 +7,10 @@
         android:title="@string/remixer_qs_style" />
 
     <Preference
-        android:key="remixer_qs_media_style"
-        android:title="@string/remixer_lock_media_style" />
-
-    <com.resurrection.settings.preferences.SystemSettingListPreference
-        android:key="rr_qs_media_tile_size"
-        android:title="@string/remixer_qs_media_tile_size"
-        android:summary="%s"
-        android:entries="@array/remixer_qs_media_tile_size_entries"
-        android:entryValues="@array/remixer_qs_media_tile_size_values"
-        android:defaultValue="1" />
+        android:key="remixer_qs_customize"
+        android:title="@string/remixer_qs_customize"
+        android:summary="@string/remixer_qs_customize_summary"
+        android:selectable="false" />
 
     <Preference
         android:key="remixer_headers"

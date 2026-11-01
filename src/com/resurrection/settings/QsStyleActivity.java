@@ -24,19 +24,23 @@ import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.color.MaterialColors;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 /**
  * Quick settings look, read by SystemUI from Settings.System {@link #SETTING}, or with
- * {@link #lockMediaIntent} the lockscreen media card look from {@link #LOCK_MEDIA_SETTING},
- * or with {@link #qsMediaIntent} the QS media card look from {@link #QS_MEDIA_SETTING}.
+ * {@link #lockMediaIntent} the lockscreen media card look from {@link #LOCK_MEDIA_SETTING}.
  */
 public class QsStyleActivity extends CollapsingToolbarBaseActivity {
     public static final String SETTING = "rr_qs_style";
     public static final String LOCK_MEDIA_SETTING = "rr_lockscreen_media_style";
-    public static final String QS_MEDIA_SETTING = "rr_qs_media_style";
+    private static final String QS_TWEAKS_SETTING = "rr_qs_tweaks";
+    private static final String QS_TWEAK_MEDIA_LOOK = "mediaFrom";
     private static final String EXTRA_LOCK_MEDIA = "lock_media";
-    private static final String EXTRA_QS_MEDIA = "qs_media";
     // Media value that follows the QS style.
     private static final int SAME_AS_QS = -1;
+    // Media value for no player on the lockscreen.
+    private static final int OFF = -2;
 
     // Indexed by the SystemUI QsStyle value.
     static final int[] NAMES = {
@@ -70,17 +74,12 @@ public class QsStyleActivity extends CollapsingToolbarBaseActivity {
     private View[] mRows;
     private int[] mValues;
     private boolean mLockMedia;
-    private boolean mQsMedia;
     private QsStylePreviewView mPreview;
     private TextView mPreviewLabel;
     private int mSelected;
 
     public static Intent lockMediaIntent(Context context) {
         return new Intent(context, QsStyleActivity.class).putExtra(EXTRA_LOCK_MEDIA, true);
-    }
-
-    public static Intent qsMediaIntent(Context context) {
-        return new Intent(context, QsStyleActivity.class).putExtra(EXTRA_QS_MEDIA, true);
     }
 
     /** Name of the current QS style, for the Remixer entry summary. */
@@ -90,13 +89,10 @@ public class QsStyleActivity extends CollapsingToolbarBaseActivity {
 
     /** Name of the current lockscreen media style, for the Remixer entry summary. */
     public static String currentLockMediaName(Context context) {
-        int value = mediaStyle(context, LOCK_MEDIA_SETTING);
-        return value == SAME_AS_QS ? context.getString(R.string.remixer_lock_media_same)
-                : context.getString(NAMES[value]);
-    }
-
-    public static String currentQsMediaName(Context context) {
-        int value = mediaStyle(context, QS_MEDIA_SETTING);
+        int value = lockMedia(context);
+        if (value == OFF) {
+            return context.getString(R.string.remixer_lock_media_off);
+        }
         return value == SAME_AS_QS ? context.getString(R.string.remixer_lock_media_same)
                 : context.getString(NAMES[value]);
     }
@@ -107,23 +103,31 @@ public class QsStyleActivity extends CollapsingToolbarBaseActivity {
         return value >= 0 && value < NAMES.length ? value : 0;
     }
 
-    private static int mediaStyle(Context context, String setting) {
+    private static int lockMedia(Context context) {
+        if (Settings.Secure.getIntForUser(context.getContentResolver(),
+                Settings.Secure.MEDIA_CONTROLS_LOCK_SCREEN, 1, UserHandle.USER_CURRENT) == 0) {
+            return OFF;
+        }
         int value = Settings.System.getIntForUser(context.getContentResolver(),
-                setting, SAME_AS_QS, UserHandle.USER_CURRENT);
+                LOCK_MEDIA_SETTING, SAME_AS_QS, UserHandle.USER_CURRENT);
         return value >= 0 && value < NAMES.length ? value : SAME_AS_QS;
     }
 
+    /** The look of the QS Media tile, picked in QS edit mode for each QS style. */
     private static int qsMediaLook(Context context) {
-        int value = mediaStyle(context, QS_MEDIA_SETTING);
-        return value == SAME_AS_QS ? qsStyle(context) : value;
-    }
-
-    private boolean media() {
-        return mLockMedia || mQsMedia;
-    }
-
-    private String setting() {
-        return mLockMedia ? LOCK_MEDIA_SETTING : mQsMedia ? QS_MEDIA_SETTING : SETTING;
+        int style = qsStyle(context);
+        String tweaks = Settings.System.getStringForUser(context.getContentResolver(),
+                QS_TWEAKS_SETTING, UserHandle.USER_CURRENT);
+        if (tweaks == null) {
+            return style;
+        }
+        try {
+            JSONObject current = new JSONObject(tweaks).optJSONObject(String.valueOf(style));
+            int value = current == null ? -1 : current.optInt(QS_TWEAK_MEDIA_LOOK, -1);
+            return value >= 0 && value < NAMES.length ? value : style;
+        } catch (JSONException e) {
+            return style;
+        }
     }
 
     @Override
@@ -131,24 +135,27 @@ public class QsStyleActivity extends CollapsingToolbarBaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.remixer_qs_style);
         mLockMedia = getIntent().getBooleanExtra(EXTRA_LOCK_MEDIA, false);
-        mQsMedia = !mLockMedia && getIntent().getBooleanExtra(EXTRA_QS_MEDIA, false);
-        setTitle(media() ? R.string.remixer_lock_media_style : R.string.remixer_qs_style);
+        setTitle(mLockMedia ? R.string.remixer_lock_media_style : R.string.remixer_qs_style);
 
         mPreview = findViewById(R.id.qs_style_preview);
-        mPreview.setLockscreen(media());
-        mPreview.setPanel(mQsMedia);
+        mPreview.setLockscreen(mLockMedia);
         mPreviewLabel = findViewById(R.id.qs_style_preview_label);
         ((TextView) findViewById(R.id.qs_style_note)).setText(mLockMedia
-                ? R.string.remixer_lock_media_note
-                : mQsMedia ? R.string.remixer_qs_media_note : R.string.remixer_qs_style_note);
-        mSelected = media() ? mediaStyle(this, setting()) : qsStyle(this);
+                ? R.string.remixer_lock_media_note : R.string.remixer_qs_style_note);
+        mSelected = mLockMedia ? lockMedia(this) : qsStyle(this);
 
-        mValues = new int[NAMES.length + (media() ? 1 : 0)];
-        for (int i = 0; i < mValues.length; i++) {
-            mValues[i] = media() ? i - 1 : i;
+        // The lockscreen list starts with following QS and off.
+        final int extras = mLockMedia ? 2 : 0;
+        mValues = new int[NAMES.length + extras];
+        if (mLockMedia) {
+            mValues[0] = SAME_AS_QS;
+            mValues[1] = OFF;
+        }
+        for (int i = extras; i < mValues.length; i++) {
+            mValues[i] = i - extras;
         }
         mRows = new View[mValues.length];
-        final String qsName = getString(NAMES[mLockMedia ? qsMediaLook(this) : qsStyle(this)]);
+        final String qsName = getString(NAMES[qsMediaLook(this)]);
         LinearLayout list = findViewById(R.id.qs_style_list);
         LayoutInflater inflater = LayoutInflater.from(list.getContext());
         for (int i = 0; i < mValues.length; i++) {
@@ -156,17 +163,20 @@ public class QsStyleActivity extends CollapsingToolbarBaseActivity {
             View row = inflater.inflate(R.layout.remixer_qs_style_item, list, false);
             QsStylePreviewView thumb = row.findViewById(R.id.qs_style_thumb);
             thumb.setMini(true);
-            thumb.setLockscreen(media());
-            thumb.setPanel(mQsMedia);
+            thumb.setLockscreen(mLockMedia);
+            thumb.setCardHidden(value == OFF);
             thumb.setStyle(look(value));
             TextView name = row.findViewById(R.id.qs_style_name);
             TextView desc = row.findViewById(R.id.qs_style_desc);
             if (value == SAME_AS_QS) {
                 name.setText(R.string.remixer_lock_media_same);
                 desc.setText(getString(R.string.remixer_lock_media_same_summary, qsName));
+            } else if (value == OFF) {
+                name.setText(R.string.remixer_lock_media_off);
+                desc.setText(R.string.remixer_lock_media_off_summary);
             } else {
                 name.setText(NAMES[value]);
-                desc.setText(media() ? LOCK_DESCRIPTIONS[value] : DESCRIPTIONS[value]);
+                desc.setText(mLockMedia ? LOCK_DESCRIPTIONS[value] : DESCRIPTIONS[value]);
             }
             row.setOnClickListener(v -> select(value));
             list.addView(row);
@@ -175,28 +185,34 @@ public class QsStyleActivity extends CollapsingToolbarBaseActivity {
         update();
     }
 
-    /** The style a value draws as; following QS draws as the QS style. */
+    /** The style a value draws as; following QS draws as the QS Media tile. */
     private int look(int value) {
-        if (value != SAME_AS_QS) {
-            return value;
-        }
-        return mLockMedia ? qsMediaLook(this) : qsStyle(this);
+        return value >= 0 ? value : qsMediaLook(this);
     }
 
     private void select(int value) {
         if (value == mSelected) {
             return;
         }
-        Settings.System.putIntForUser(getContentResolver(), setting(), value,
-                UserHandle.USER_CURRENT);
+        if (mLockMedia) {
+            Settings.Secure.putIntForUser(getContentResolver(),
+                    Settings.Secure.MEDIA_CONTROLS_LOCK_SCREEN, value == OFF ? 0 : 1,
+                    UserHandle.USER_CURRENT);
+        }
+        if (value != OFF) {
+            Settings.System.putIntForUser(getContentResolver(),
+                    mLockMedia ? LOCK_MEDIA_SETTING : SETTING, value, UserHandle.USER_CURRENT);
+        }
         mSelected = value;
         update();
     }
 
     private void update() {
+        mPreview.setCardHidden(mSelected == OFF);
         mPreview.setStyle(look(mSelected));
         mPreviewLabel.setText(getString(R.string.remixer_qs_style_preview,
-                getString(NAMES[look(mSelected)])));
+                getString(mSelected == OFF ? R.string.remixer_lock_media_off
+                        : NAMES[look(mSelected)])));
         for (int i = 0; i < mRows.length; i++) {
             MaterialCardView card = (MaterialCardView) mRows[i];
             boolean selected = mValues[i] == mSelected;

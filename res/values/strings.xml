@@ -174,17 +174,8 @@
     <string name="accent_saturation">Saturation</string>
     <string name="accent_saturation_value"><xliff:g id="percent" example="80">%1$d</xliff:g>%%</string>
     <string name="remixer_qs_style">QS style</string>
-    <string name="remixer_qs_media_tile_size">Media tile size</string>
-    <string-array name="remixer_qs_media_tile_size_entries">
-        <item>Small</item>
-        <item>Square</item>
-        <item>Wide</item>
-    </string-array>
-    <string-array name="remixer_qs_media_tile_size_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
+    <string name="remixer_qs_customize">Customize</string>
+    <string name="remixer_qs_customize_summary">Open Quick settings and tap the pencil. Tap a tile for its options, like the Media tile\'s player, or open Customize for the whole panel.</string>
     <string name="remixer_qs_style_section">Style</string>
     <string name="remixer_qs_style_preview">Preview \u00b7 %1$s</string>
     <string name="remixer_qs_style_note">Every style except Mono follows your accent color. The volume panel has matching Bento, Shapes, Blueprint, Duo and Soft looks. Stock Lineage keeps the Android 17 tiles untouched.</string>
@@ -218,9 +209,10 @@
     <string name="remixer_qs_style_soft_summary">Raised tiles that press in when on</string>
     <string name="remixer_lock_media_style">Media player style</string>
     <string name="remixer_lock_media_same">Same as Quick settings</string>
-    <string name="remixer_lock_media_same_summary">Follows your QS style, now %1$s</string>
+    <string name="remixer_lock_media_same_summary">Follows your QS Media tile, now %1$s</string>
+    <string name="remixer_lock_media_off">Off</string>
+    <string name="remixer_lock_media_off_summary">No player on the lockscreen</string>
     <string name="remixer_lock_media_note">The card shows on the lockscreen while something is playing. See-through styles get a dark backing so they stay readable over your wallpaper.</string>
-    <string name="remixer_qs_media_note">The card shows in Quick settings while something is playing. Pick any style\'s player, or keep the one that matches your Quick settings.</string>
     <string name="remixer_lock_media_stock_summary">Album art fills the card</string>
     <string name="remixer_lock_media_remix_summary">Dark card, accent play button</string>
     <string name="remixer_lock_media_compact_summary">Rounder card, round artwork</string>
