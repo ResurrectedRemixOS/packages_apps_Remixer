@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_title">Remix Modes</string>
+    <string name="remix_modes_summary">A Look for each of your Modes</string>
+    <string name="remix_modes_everyday">Everyday Look</string>
+    <string name="remix_modes_everyday_summary">Comes back when no Mode with a Look is on</string>
+    <string name="remix_modes_wallpaper">Wallpaper follows the Look</string>
+    <string name="remix_modes_wallpaper_summary">A Mode may change the wallpaper too</string>
+    <string name="remix_modes_modes">Your Modes</string>
+    <string name="remix_modes_no_change">No change</string>
+    <string name="remix_modes_none">Save a Look first, in Theme › Looks</string>
+    <string name="remix_modes_pick">Look for <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

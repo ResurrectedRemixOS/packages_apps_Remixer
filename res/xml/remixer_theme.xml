@@ -9,6 +9,12 @@
         android:summary="@string/looks_summary" />
 
     <Preference
+        android:key="remixer_modes"
+        android:title="@string/remix_modes_title"
+        android:summary="@string/remix_modes_summary"
+        android:fragment="com.resurrection.settings.modes.RemixModesSettings" />
+
+    <Preference
         android:key="remixer_liquid_glass"
         android:title="@string/liquid_glass_title"
         android:summary="@string/liquid_glass_summary"

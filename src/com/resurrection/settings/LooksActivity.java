@@ -66,21 +66,19 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
     private static final String KEY_LOOKS = "rr_looks";
     static final String PREFIX = "rrlook:";
     private static final String LOOKS_DIR = "/product/etc/rr_looks";
-    private static final String QS_STYLE = "rr_qs_style";
-    private static final String CLOCK_LOOK = "status_bar_clock_rr_style";
-    private static final String CLOCK_CHIP = "statusbar_clock_chip";
-    private static final String CLOCK_FACE = Settings.Secure.LOCK_SCREEN_CUSTOM_CLOCK_STYLE;
-    private static final String CLOCK_COLOR_MODE =
-            Settings.Secure.LOCK_SCREEN_CUSTOM_CLOCK_COLOR_MODE;
-    private static final String CLOCK_CUSTOM_COLOR =
-            Settings.Secure.LOCK_SCREEN_CUSTOM_CLOCK_CUSTOM_COLOR;
-    private static final String EDGE_MODE = "edge_light_color_mode";
-    private static final String EDGE_COLOR = "edge_light_custom_color";
-    private static final String EDGE_STYLE = "edge_light_style";
+    private static final String QS_STYLE = Looks.QS_STYLE;
+    private static final String CLOCK_LOOK = Looks.CLOCK_LOOK;
+    private static final String CLOCK_CHIP = Looks.CLOCK_CHIP;
+    private static final String CLOCK_FACE = Looks.CLOCK_FACE;
+    private static final String CLOCK_COLOR_MODE = Looks.CLOCK_COLOR_MODE;
+    private static final String CLOCK_CUSTOM_COLOR = Looks.CLOCK_CUSTOM_COLOR;
+    private static final String EDGE_MODE = Looks.EDGE_MODE;
+    private static final String EDGE_COLOR = Looks.EDGE_COLOR;
+    private static final String EDGE_STYLE = Looks.EDGE_STYLE;
     /** Written by the wallpaper page: which RR wallpaper is set, and its wallpaper id. */
-    static final String WALLPAPER = "rr_wallpaper";
-    static final String WALLPAPER_ID = "rr_wallpaper_id";
-    private static final String BOOT_PROP = "persist.sys.bootanimation_style";
+    static final String WALLPAPER = Looks.WALLPAPER;
+    static final String WALLPAPER_ID = Looks.WALLPAPER_ID;
+    private static final String BOOT_PROP = Looks.BOOT_PROP;
 
     private static final int P_ACCENT = 0;
     private static final int P_QS = 1;
@@ -208,7 +206,7 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
             LinearLayout box = new LinearLayout(mThemed);
             box.setOrientation(LinearLayout.VERTICAL);
             FrameLayout preview = new FrameLayout(mThemed);
-            int accent = color(look.optString("accent", "#FF003F"), 0xFFFF003F);
+            int accent = Looks.color(look.optString("accent", "#FF003F"), 0xFFFF003F);
             GradientDrawable bg = new GradientDrawable();
             bg.setGradientType(GradientDrawable.RADIAL_GRADIENT);
             bg.setGradientCenter(0.5f, 1.2f);
@@ -321,7 +319,7 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
                 if (look.has("clock_color")) join(text, colorName(look.optString("clock_color")));
                 break;
             case P_FONT:
-                text.append(new FontController(this).label(fontPackage(look.optString("font"))));
+                text.append(new FontController(this).label(Looks.fontPackage(this, look.optString("font"))));
                 break;
             case P_CLOCK:
                 if (look.has("clock_look")) {
@@ -379,130 +377,10 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
         return value;
     }
 
-    private static int color(String value, int fallback) {
-        try {
-            return Color.parseColor(value);
-        } catch (Exception e) {
-            return fallback;
-        }
-    }
-
     private void apply(JSONObject look, boolean[] parts) {
-        boolean ok = true;
-        boolean restart = false;
-        try {
-            if (parts[P_ACCENT] && look.has("accent")) {
-                AccentController accent = new AccentController(this);
-                accent.apply(look.getString("accent"));
-                if (look.has("saturation")) accent.setSaturation(look.getInt("saturation"));
-            }
-            if (parts[P_QS] && look.has("qs_style")) {
-                putSystem(QS_STYLE, look.getInt("qs_style"));
-            }
-            if (parts[P_FACE] && look.has("clock_face")) {
-                int face = faceIndex(look.getString("clock_face"));
-                int old = Settings.Secure.getIntForUser(getContentResolver(), CLOCK_FACE, 0,
-                        UserHandle.USER_CURRENT);
-                if (face >= 0 && face != old) {
-                    Settings.Secure.putIntForUser(getContentResolver(), CLOCK_FACE, face,
-                            UserHandle.USER_CURRENT);
-                    restart = (face == 0) != (old == 0);
-                }
-            }
-            if (parts[P_FACE] && look.has("clock_color")) {
-                String value = look.getString("clock_color");
-                boolean custom = value.startsWith("#");
-                Settings.Secure.putStringForUser(getContentResolver(), CLOCK_COLOR_MODE,
-                        custom ? "custom" : value, UserHandle.USER_CURRENT);
-                if (custom) {
-                    Settings.Secure.putIntForUser(getContentResolver(), CLOCK_CUSTOM_COLOR,
-                            color(value, Color.WHITE), UserHandle.USER_CURRENT);
-                }
-            }
-            if (parts[P_FONT] && look.has("font")) {
-                applyFont(look.getString("font"));
-            }
-            if (parts[P_CLOCK] && look.has("clock_look")) {
-                putSystem(CLOCK_LOOK, look.getInt("clock_look"));
-            }
-            if (parts[P_CLOCK] && look.has("clock_chip")) {
-                putSystem(CLOCK_CHIP, look.getInt("clock_chip"));
-            }
-            if (parts[P_EDGE] && look.has("edge")) {
-                String edge = look.getString("edge");
-                if ("accent".equals(edge)) {
-                    Settings.System.putStringForUser(getContentResolver(), EDGE_MODE, "accent",
-                            UserHandle.USER_CURRENT);
-                } else {
-                    Settings.System.putStringForUser(getContentResolver(), EDGE_MODE, "custom",
-                            UserHandle.USER_CURRENT);
-                    putSystem(EDGE_COLOR, color(edge, Color.WHITE));
-                }
-            }
-            if (parts[P_EDGE] && look.has("edge_style")) {
-                Settings.System.putStringForUser(getContentResolver(), EDGE_STYLE,
-                        look.getString("edge_style"), UserHandle.USER_CURRENT);
-            }
-            if (parts[P_BOOT] && look.has("boot")) {
-                SystemProperties.set(BOOT_PROP, String.valueOf(look.getInt("boot")));
-            }
-            if (parts[P_WALLPAPER] && look.has("wallpaper")) {
-                String wallpaper = look.getString("wallpaper");
-                new Thread(() -> applyWallpaper(wallpaper), "LooksWallpaper").start();
-            }
-        } catch (Exception e) {
-            ok = false;
-        }
+        boolean ok = Looks.apply(this, look, parts);
         Toast.makeText(this, ok ? getString(R.string.looks_applied, look.optString("name"))
                 : getString(R.string.looks_failed), Toast.LENGTH_SHORT).show();
-        if (restart) Utils.restartSystemUI();
-    }
-
-    /** A look names its font by package, or by part of it in older looks. */
-    private String fontPackage(String font) {
-        if (FontController.CATEGORY.equals(font) || "android".equals(font)) return "android";
-        for (OverlayInfo info : new FontController(this).fonts()) {
-            if (info.packageName.equals(font)) return info.packageName;
-        }
-        for (OverlayInfo info : new FontController(this).fonts()) {
-            if (info.packageName.toLowerCase().endsWith("." + font.toLowerCase())) {
-                return info.packageName;
-            }
-        }
-        return font;
-    }
-
-    private void applyFont(String font) throws Exception {
-        String pkg = fontPackage(font);
-        FontController fonts = new FontController(this);
-        if ("android".equals(pkg)) {
-            fonts.apply("android");
-            return;
-        }
-        for (OverlayInfo info : fonts.fonts()) {
-            if (info.packageName.equals(pkg)) {
-                fonts.apply(pkg);
-                return;
-            }
-        }
-    }
-
-    private void applyWallpaper(String value) {
-        WallpaperManager wallpapers = WallpaperManager.getInstance(this);
-        try {
-            int res = getResources().getIdentifier(value, "drawable", getPackageName());
-            if (res == 0) return;
-            try (InputStream in = getResources().openRawResource(res)) {
-                int id = wallpapers.setStream(in, null, true,
-                        WallpaperManager.FLAG_SYSTEM | WallpaperManager.FLAG_LOCK);
-                Settings.System.putStringForUser(getContentResolver(), WALLPAPER, value,
-                        UserHandle.USER_CURRENT);
-                Settings.System.putIntForUser(getContentResolver(), WALLPAPER_ID, id,
-                        UserHandle.USER_CURRENT);
-            }
-        } catch (Exception e) {
-            // The rest of the look still applies.
-        }
     }
 
     /** The RR wallpaper that's set now, if it's one: your own photos stay out of looks. */
@@ -515,19 +393,6 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
                 UserHandle.USER_CURRENT);
         return name != null && id >= 0 && id == wallpapers.getWallpaperId(
                 WallpaperManager.FLAG_SYSTEM) ? name : null;
-    }
-
-    private int faceIndex(String name) {
-        String[] names = getResources().getStringArray(R.array.clock_face_names);
-        if ("System".equals(name)) return 0;
-        for (int i = 0; i < names.length; i++) {
-            if (names[i].equalsIgnoreCase(name)) return i;
-        }
-        return -1;
-    }
-
-    private void putSystem(String key, int value) {
-        Settings.System.putIntForUser(getContentResolver(), key, value, UserHandle.USER_CURRENT);
     }
 
     private List<JSONObject> mine() {
@@ -890,7 +755,7 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
 
     private boolean differs(JSONObject look, JSONObject now, int part) {
         if (part == P_FONT) {
-            return !fontPackage(look.optString("font")).equals(now.optString("font"));
+            return !Looks.fontPackage(this, look.optString("font")).equals(now.optString("font"));
         }
         for (String key : PART_KEYS[part]) {
             if (!look.has(key)) continue;
