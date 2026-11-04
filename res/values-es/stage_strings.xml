@@ -6,4 +6,19 @@
     <string name="stage_tile_weather">"Tiempo"</string>
     <string name="stage_tile_shortcuts">"Accesos directos"</string>
     <string name="stage_tile_battery">Anillo de batería</string>
+    <string name="lock_stage_summary">Organiza la pantalla de bloqueo en una cuadrícula y añade complicaciones de neón</string>
+    <string name="lock_stage_hint">Arrastra un recuadro para moverlo, arrastra su esquina para cambiar el tamaño y tócalo para ver las opciones. La fila superior es la barra de estado.</string>
+    <string name="lock_stage_remove">Quitar</string>
+    <string name="lock_stage_center">Centrar</string>
+    <string name="lock_stage_aod_on">En siempre activa</string>
+    <string name="lock_stage_aod_off">Fuera de siempre activa</string>
+    <string name="lock_stage_not_on_aod">solo pantalla de bloqueo</string>
+    <string name="lock_stage_add">Añadir</string>
+    <string name="lock_stage_all_placed">Todo está en el escenario</string>
+    <string name="lock_stage_reset_summary">Vuelve al diseño original de la pantalla de bloqueo. Se borra el escenario guardado.</string>
+    <string name="lock_stage_saved">Escenario guardado. Bloquea el teléfono para verlo.</string>
+    <string name="lock_stage_failed">No se pudo guardar el escenario</string>
+    <string name="stage_tile_glance">Línea de fecha</string>
+    <string name="stage_tile_alarm">Próxima alarma</string>
+    <string name="stage_tile_toggles">Interruptores</string>
 </resources>

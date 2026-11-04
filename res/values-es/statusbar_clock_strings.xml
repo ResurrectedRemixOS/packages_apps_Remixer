@@ -8,4 +8,29 @@
     <string name="sb_clock_chip_angle_title">Ángulo del degradado</string>
     <string name="sb_weather_category">"Tiempo"</string>
     <string name="sb_weather_position_title">Posición</string>
+    <string name="sb_clock_category">Reloj y fecha</string>
+    <string name="sb_clock_bold_summary">Muestra el reloj de la barra de estado en negrita</string>
+    <string name="sb_clock_period_separator_summary">10.45 en lugar de 10:45</string>
+    <string name="sb_clock_date_style_title">Mayúsculas de la fecha</string>
+    <string name="sb_clock_chip_category">Fondo del reloj</string>
+    <string name="sb_clock_chip_title">Estilo del fondo</string>
+    <string name="sb_clock_chip_start_title">Inicio del degradado</string>
+    <string name="sb_clock_chip_end_title">Fin del degradado</string>
+    <string name="sb_clock_chip_mask_title">Recortar la hora del degradado</string>
+    <string name="sb_clock_chip_mask_summary">El degradado se ve a través de los dígitos en lugar de detrás de ellos</string>
+    <string name="sb_weather_title">Clima en la barra de estado</string>
+    <string name="status_bar_clock_rr_style_title">Aspecto del reloj</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Predeterminado"</item>
+        <item>Neón</item>
+        <item>Dividido</item>
+        <item>Marca RR</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Apilado</item>
+        <item>Ascua</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline junto a la hora</string>
+    <string name="sb_clock_flatline_summary">La línea de latido de RR dentro del chip: late con la música y da un pico cuando llega una notificación</string>
 </resources>

@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Batería"</string>
     <string name="battery_style_title">"Estilo"</string>
+    <string-array name="battery_style_entries">
+        <item>Vertical</item>
+        <item>"Círculo"</item>
+        <item>Círculo punteado</item>
+        <item>Anillo de neón</item>
+        <item>Píldora fina</item>
+        <item>Porcentaje grande</item>
+        <item>Texto</item>
+    </string-array>
+    <string name="battery_percent_title">Porcentaje</string>
+    <string-array name="battery_percent_entries">
+        <item>Oculto</item>
+        <item>Dentro del icono</item>
+        <item>Junto a él</item>
+    </string-array>
+    <string name="battery_ring_color_title">Color del anillo de neón</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Por nivel es el acento por encima del 20%%, rojo por debajo y ámbar en Ahorro de batería.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Por nivel</item>
+        <item>Acento</item>
+        <item>"Blanco"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Chispa durante la carga</string>
+    <string name="battery_ring_tile_title">El mismo anillo en el recuadro de Ajustes rápidos</string>
+    <string name="battery_ring_tile_summary">Con el nivel y el tiempo de pantalla activa</string>
 </resources>

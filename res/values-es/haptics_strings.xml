@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Azul"</string>
     <string name="haptic_remix_color_green">"Verde"</string>
     <string name="haptic_remix_color_white">"Blanco"</string>
+    <string name="haptic_remix_summary">Marca patrones de vibración para llamadas, apps, alarmas y desbloqueos</string>
+    <string name="haptic_remix_record">Grabar</string>
+    <string name="haptic_remix_pad">marca el ritmo</string>
+    <string name="haptic_remix_strength">Intensidad</string>
+    <string name="haptic_remix_clear">Borrar</string>
+    <string name="haptic_remix_play">Reproducir</string>
+    <string name="haptic_remix_name">Nombre del patrón</string>
+    <string name="haptic_remix_empty">Aún no se ha grabado nada</string>
+    <string name="haptic_remix_too_long">Un patrón puede durar 30 segundos</string>
+    <string name="haptic_remix_presets">Preajustes</string>
+    <string name="haptic_remix_preset_neon">Neón</string>
+    <string name="haptic_remix_preset_glass">Cristal</string>
+    <string name="haptic_remix_preset_ringtone">Ritmo del tono de llamada</string>
+    <string name="haptic_remix_listening">Escuchando el tono de llamada…</string>
+    <string name="haptic_remix_no_ringtone">No se pudo leer el tono de llamada</string>
+    <string name="haptic_remix_patterns">Tus patrones</string>
+    <string name="haptic_remix_patterns_none">Primero guarda un patrón. Mantén uno pulsado para eliminarlo.</string>
+    <string name="haptic_remix_broken">No se puede leer ese patrón</string>
+    <string name="haptic_remix_delete">¿Eliminar <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Asignar a</string>
+    <string name="haptic_remix_alarm">Alarma y temporizador</string>
+    <string name="haptic_remix_plug">Enchufado</string>
+    <string name="haptic_remix_fingerprint">Huella correcta</string>
+    <string name="haptic_remix_add_contact">Añadir un contacto</string>
+    <string name="haptic_remix_edge_color">Luz de bordes para los mensajes de <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">Acento</string>
+    <string name="haptic_remix_color_crimson">Carmesí</string>
+    <string name="haptic_remix_color_amber">Ámbar</string>
+    <string name="haptic_remix_add_app">Añadir las notificaciones de una app</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · toca para cambiar, mantén pulsado para el color del borde</string>
+    <string name="haptic_remix_no_contacts">Contactos no devolvió ningún número</string>
 </resources>

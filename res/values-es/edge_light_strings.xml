@@ -15,4 +15,27 @@
     <string name="edge_light_moment_battery_low">Batería baja</string>
     <string name="edge_light_moment_unlock">"Desbloqueado"</string>
     <string name="remixer_color_default">"Predeterminado"</string>
+    <string name="edge_light_title">Iluminación de bordes</string>
+    <string name="edge_light_summary">Ilumina los bordes de la pantalla con notificaciones, llamadas, alarmas y más</string>
+    <string name="edge_light_color_mode_title">Color</string>
+    <string name="edge_light_color_rainbow">Arcoíris</string>
+    <string name="edge_light_color_custom">Personalizado</string>
+    <string name="edge_light_style_default">Laterales</string>
+    <string name="edge_light_style_frame">Marco completo</string>
+    <string name="edge_light_animation_effect_none">Estándar</string>
+    <string name="edge_light_animation_effect_breathing">Respiración</string>
+    <string name="edge_light_animation_effect_wave">Onda</string>
+    <string name="edge_light_animation_effect_sparkle">Destello</string>
+    <string name="edge_light_pulse_count_title">Pulsos</string>
+    <string name="edge_light_pulse_count_summary">Cuántas veces se iluminan los bordes</string>
+    <string name="edge_light_stroke_width_title">Grosor</string>
+    <string name="edge_light_stroke_width_summary">Ancho de la luz en dp</string>
+    <string name="edge_light_spread_summary">Hasta dónde llega el resplandor desde el borde</string>
+    <string name="edge_light_intensity_summary">Brillo del resplandor. 0 lo desactiva</string>
+    <string name="edge_light_moments_title">Momentos</string>
+    <string name="edge_light_moment_alarms">Alarma y temporizador</string>
+    <string name="edge_light_moment_plugged">Enchufado</string>
+    <string name="edge_light_moment_color">Cambiar color</string>
+    <string name="edge_light_moments_footer">Toca el punto de un momento para cambiar su color. Las llamadas y alarmas se iluminan mientras suenan, incluso en modo silencio. Los demás momentos no se reproducen en No molestar.</string>
+    <string name="edge_light_look_title">Aspecto</string>
 </resources>

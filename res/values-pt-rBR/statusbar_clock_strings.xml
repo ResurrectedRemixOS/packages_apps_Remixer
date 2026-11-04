@@ -9,4 +9,28 @@
     <string name="sb_clock_chip_angle_title">Ângulo de gradiente</string>
     <string name="sb_weather_category">Clima</string>
     <string name="sb_weather_position_title">Posição</string>
+    <string name="sb_clock_bold_summary">Mostra o relógio da barra de status em negrito</string>
+    <string name="sb_clock_period_separator_summary">10.45 em vez de 10:45</string>
+    <string name="sb_clock_date_style_title">Caixa da data</string>
+    <string name="sb_clock_chip_category">Fundo do relógio</string>
+    <string name="sb_clock_chip_title">Estilo do fundo</string>
+    <string name="sb_clock_chip_start_title">Início do gradiente</string>
+    <string name="sb_clock_chip_end_title">Fim do gradiente</string>
+    <string name="sb_clock_chip_mask_title">Recortar a hora do gradiente</string>
+    <string name="sb_clock_chip_mask_summary">O gradiente aparece através dos dígitos, e não atrás deles</string>
+    <string name="sb_weather_title">Clima na barra de status</string>
+    <string name="status_bar_clock_rr_style_title">Aparência do relógio</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Padrão"</item>
+        <item>Neon</item>
+        <item>Dividido</item>
+        <item>Marca RR</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Empilhado</item>
+        <item>Brasa</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline ao lado da hora</string>
+    <string name="sb_clock_flatline_summary">A linha de batimento do RR dentro do chip: pulsa com a música e dá um pico quando chega uma notificação</string>
 </resources>

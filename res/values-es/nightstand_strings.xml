@@ -3,4 +3,23 @@
     <string name="nightstand_when">"Cuándo"</string>
     <string name="nightstand_face">Esfera del reloj</string>
     <string name="lock_stage_tab_lock">"Pantalla de bloqueo"</string>
+    <string name="nightstand_title">Mesita de noche</string>
+    <string name="nightstand_summary">Un reloj tenue en la pantalla siempre activa al cargar por la noche</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Desactivado"</item>
+        <item>En el cargador por la noche</item>
+        <item>Todas las noches, con horario</item>
+        <item>Mientras un modo Hora de dormir está activo</item>
+    </string-array>
+    <string name="nightstand_from">Empieza la noche</string>
+    <string name="nightstand_to">Termina la noche</string>
+    <string name="nightstand_brightness">Límite de brillo</string>
+    <string name="nightstand_brightness_summary">Cuánto puede brillar la pantalla siempre activa con Mesita de noche activada</string>
+    <string name="nightstand_face_keep">Mantener la esfera actual</string>
+    <string name="nightstand_layout">Editar el diseño</string>
+    <string name="nightstand_layout_summary">Mesita de noche tiene su propio Lock Stage: el reloj, la alarma y el anillo de batería para empezar</string>
+    <string name="nightstand_footer">Mesita de noche activa la pantalla siempre activa mientras funciona y la deja como estaba al terminar. Acaba cuando se desconecta el cargador, suena la alarma o termina la noche. La esfera solo cambia entre dos esferas personalizadas; el reloj del sistema se mantiene.</string>
+    <string name="lock_stage_tab_page">Página <xliff:g id="number" example="2">%d</xliff:g></string>
+    <string name="lock_stage_remove_page">¿Quitar la página <xliff:g id="number" example="2">%d</xliff:g>?</string>
+    <string name="lock_stage_tab_night">Mesita de noche</string>
 </resources>

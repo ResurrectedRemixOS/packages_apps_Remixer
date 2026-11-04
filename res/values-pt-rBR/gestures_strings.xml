@@ -8,4 +8,50 @@
         <item>"Médio"</item>
         <item>"Grande"</item>
     </string-array>
+    <string name="pie_title">Controles em pizza</string>
+    <string name="pie_summary">Mantenha pressionada a parte inferior de uma borda para abrir uma pizza de atalhos</string>
+    <string name="pie_zone">Parte da borda</string>
+    <string name="pie_clock">Relógio e bateria acima</string>
+    <string name="pie_items">Fatias</string>
+    <string-array name="pie_items_entries">
+        <item>"Voltar"</item>
+        <item>Início</item>
+        <item>"Recentes"</item>
+        <item>"Notificações"</item>
+        <item>Lanterna</item>
+        <item>"Capturar tela"</item>
+        <item>"Menu liga/desliga"</item>
+        <item>"Google Assistente"</item>
+        <item>"Câmera"</item>
+    </string-array>
+    <string name="pie_footer">É preciso segurar por um quarto de segundo sem mover, então um deslize rápido da borda ainda volta. Não abre na tela de bloqueio.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Esquerdo"</item>
+        <item>"Direito"</item>
+        <item>Ambas</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Terço inferior</item>
+        <item>Meio</item>
+        <item>Borda inteira</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Vidro</item>
+        <item>Clássico</item>
+    </string-array>
+    <string name="sidebar_style_title">Aparência da barra lateral de apps</string>
+    <string-array name="sidebar_style_entries">
+        <item>Clássico</item>
+        <item>Vidro RR</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Barra lateral de apps</string>
+    <string name="sidebar_settings_summary">Deslize a partir da alça para ver seus apps e ferramentas</string>
+    <string name="sidebar_apps_title">Apps, alça e área de transferência</string>
+    <string name="sidebar_apps_summary">Ative a alça, escolha os apps e configure a área de transferência inteligente</string>
+    <string name="sidebar_handle_size_title">Tamanho da alça</string>
+    <string name="sidebar_tools_title">Linha de ferramentas</string>
+    <string name="sidebar_tools_summary">Captura de tela e lanterna abaixo dos seus apps</string>
+    <string name="sidebar_footer">A alça é uma linha fina na sua cor de destaque; arraste-a para movê-la pela borda. Com a navegação por gestos, ela cobre só a própria parte da borda, e voltar funciona em todo o resto.</string>
 </resources>

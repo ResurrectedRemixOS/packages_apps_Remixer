@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="remixer_boot_animation">Animación de inicio</string>
+    <string name="boot_animation_note">Se reproduce la próxima vez que arranque el teléfono.</string>
+    <string name="boot_animation_custom">Tu archivo</string>
+    <string name="boot_animation_custom_pick">Elige un archivo…</string>
+    <string name="boot_animation_custom_invalid">Ese archivo no es una animación de arranque</string>
+    <string name="boot_animation_failed">No se pudo cambiar la animación de arranque</string>
 </resources>

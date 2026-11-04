@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Uma aparência para cada um dos seus modos</string>
+    <string name="remix_modes_everyday">Aparência do dia a dia</string>
+    <string name="remix_modes_everyday_summary">Volta quando nenhum modo com aparência está ativo</string>
+    <string name="remix_modes_wallpaper">O plano de fundo segue a aparência</string>
+    <string name="remix_modes_wallpaper_summary">Um modo também pode mudar o plano de fundo</string>
+    <string name="remix_modes_modes">Seus modos</string>
+    <string name="remix_modes_no_change">Sem alteração</string>
+    <string name="remix_modes_none">Salve uma aparência primeiro, em Tema › Aparências</string>
+    <string name="remix_modes_pick">Aparência para <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

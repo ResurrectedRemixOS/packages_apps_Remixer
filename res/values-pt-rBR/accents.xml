@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Plano de fundo"</item>
+        <item>Resurrected</item>
+        <item>Verde Android One</item>
+        <item>Verde Aospa</item>
+        <item>Vermelho Coca-Cola</item>
+        <item>Roxo Discord</item>
+        <item>Azul Facebook</item>
+        <item>Cereja Instagram</item>
+        <item>Carmesim Jollibee</item>
+        <item>Verde Monster Energy</item>
+        <item>Menta Nextbit</item>
+        <item>Vermelho OnePlus</item>
+        <item>Azul Pepsi</item>
+        <item>Azul Pixel</item>
+        <item>Amarelo Pocophone</item>
+        <item>Verde Razer</item>
+        <item>Azul Samsung</item>
+        <item>Verde Spotify</item>
+        <item>Verde Starbucks</item>
+        <item>Roxo Twitch</item>
+        <item>Azul Twitter</item>
+        <item>Laranja Xiaomi</item>
+        <item>Âmbar</item>
+        <item>"Preto"</item>
+        <item>"Azul"</item>
+        <item>Cinza azulado</item>
+        <item>Marrom</item>
+        <item>"Ciano"</item>
+        <item>Laranja intenso</item>
+        <item>Roxo intenso</item>
+        <item>"Verde"</item>
+        <item>"Cinza"</item>
+        <item>"Índigo"</item>
+        <item>Azul-claro</item>
+        <item>Lima</item>
+        <item>"Laranja"</item>
+        <item>"Rosa"</item>
+        <item>"Roxo"</item>
+        <item>"Vermelho"</item>
+        <item>"Azul-petróleo"</item>
+        <item>Usuário cinco</item>
+        <item>Usuário quatro</item>
+        <item>Usuário um</item>
+        <item>Usuário sete</item>
+        <item>Usuário seis</item>
+        <item>Usuário três</item>
+        <item>Usuário dois</item>
+        <item>"Branco"</item>
+        <item>"Amarelo"</item>
+    </string-array>
+</resources>

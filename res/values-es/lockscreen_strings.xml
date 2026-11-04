@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">Prevenir encendido accidental</string>
+    <string name="lockscreen_battery_info_title">Información de carga</string>
+    <string name="lockscreen_battery_info_summary">Muestra corriente, vatios, voltaje y temperatura de la batería durante la carga</string>
+    <string name="charging_ring_title">Animación de carga SuperVOOC</string>
+    <string name="charging_ring_summary">Muestra el anillo de carga y la velocidad al enchufar</string>
+    <string name="pocket_mode_summary">Mientras el sensor de proximidad está cubierto, la pantalla no se enciende e ignora los toques</string>
+    <string name="screen_on_time_title">Tiempo de pantalla activa</string>
+    <string name="screen_on_time_summary">Muestra el tiempo de pantalla activa desde la última carga completa en la pantalla de bloqueo durante la carga y en el recuadro de Ahorro de batería</string>
 </resources>

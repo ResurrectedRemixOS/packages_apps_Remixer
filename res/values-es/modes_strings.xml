@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Un aspecto para cada uno de tus modos</string>
+    <string name="remix_modes_everyday">Aspecto de diario</string>
+    <string name="remix_modes_everyday_summary">Vuelve cuando no hay ningún modo con aspecto activo</string>
+    <string name="remix_modes_wallpaper">El fondo de pantalla sigue al aspecto</string>
+    <string name="remix_modes_wallpaper_summary">Un modo también puede cambiar el fondo de pantalla</string>
+    <string name="remix_modes_modes">Tus modos</string>
+    <string name="remix_modes_no_change">Sin cambios</string>
+    <string name="remix_modes_none">Primero guarda un aspecto, en Tema › Aspectos</string>
+    <string name="remix_modes_pick">Aspecto para <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

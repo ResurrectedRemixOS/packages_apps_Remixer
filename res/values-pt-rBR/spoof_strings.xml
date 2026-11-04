@@ -174,4 +174,5 @@
     <string name="user_select_spoofing_profile_title">Selecione o perfil de mascaramento</string>
     <string name="user_selectable_app_spoofing_summary">Mascarar propriedades do dispositivo para aplicativos e jogos específicos</string>
     <string name="user_selectable_app_spoofing_title">Mascaramento de aplicativo e jogo</string>
+    <string name="ts_mode_skip">Pular</string>
 </resources>

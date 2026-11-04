@@ -112,4 +112,7 @@
     <string name="user_select_spoofing_profile_title">Seleccionar perfil de suplantación</string>
     <string name="user_selectable_app_spoofing_summary">Suplantar propiedades del dispositivo para apps y juegos específicos</string>
     <string name="user_selectable_app_spoofing_title">Suplantación de apps &amp; juegos</string>
+    <string name="spoofing_title">Suplantación</string>
+    <string name="ts_mode_leaf">Hoja</string>
+    <string name="ts_mode_skip">Omitir</string>
 </resources>

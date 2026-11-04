@@ -13,4 +13,41 @@
     <string name="backup_group_other">"Outros"</string>
     <string name="backup_done">"Concluído"</string>
     <string name="volume_style_title">Estilo do painel de volume</string>
+    <string name="backup_summary">Todas as personalizações do RR em um arquivo</string>
+    <string name="backup_now">Fazer backup agora</string>
+    <string name="backup_never">Último backup: nunca</string>
+    <string name="backup_last">Último backup: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Restaurar de um arquivo</string>
+    <string name="backup_restore_summary">Escolha um arquivo de backup</string>
+    <string name="backup_included">Incluído</string>
+    <string name="backup_part_theme">Destaque, fonte e ícones</string>
+    <string name="backup_part_header">Imagem de cabeçalho</string>
+    <string name="backup_part_photo">Imagem de cabeçalho (sua foto)</string>
+    <string name="backup_part_photo_summary">Deixa o arquivo maior</string>
+    <string name="backup_part_looks">Suas aparências</string>
+    <string name="backup_weekly">Backup semanal</string>
+    <string name="backup_weekly_summary">Em uma pasta que você escolher</string>
+    <string name="backup_weekly_on">Toda semana em <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Oferecer um backup antes de atualizar</string>
+    <string name="backup_offer_summary">O atualizador pergunta antes de instalar</string>
+    <string name="backup_sets">Define <xliff:g id="count" example="64">%1$d</xliff:g> configurações</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> configurações salvas</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> configurações restauradas</string>
+    <string name="backup_restored_message">A SystemUI reinicia para aplicá-las.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> configurações não existem nesta versão e foram ignoradas.</string>
+    <string name="backup_failed">Não foi possível salvar o backup</string>
+    <string name="backup_invalid">Esse arquivo não é um backup do Resurrected Remix</string>
+    <string name="backup_footer">Só configurações do RR entram no arquivo: nada de contas, senhas, redes Wi-Fi, apps ou mensagens. A restauração só grava configurações da lista do próprio RR, então um arquivo de backup não pode mudar mais nada no smartphone. Sua foto de cabeçalho só é incluída se a opção estiver ativada, porque deixa o arquivo maior.</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Vidro</item>
+        <item>Pílula</item>
+        <item>RR clássico</item>
+        <item>Bento</item>
+        <item>Formas</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Suave</item>
+    </string-array>
 </resources>

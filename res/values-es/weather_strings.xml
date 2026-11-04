@@ -4,4 +4,14 @@
     <string name="lockscreen_weather_location_title">"Ubicación"</string>
     <string name="lockscreen_weather_wind_title">Viento</string>
     <string name="lockscreen_weather_humidity_title">Humedad</string>
+    <string name="lockscreen_weather_title">Clima en la pantalla de bloqueo</string>
+    <string name="lockscreen_weather_location_summary">Mostrar el nombre de la ciudad</string>
+    <string name="lockscreen_weather_text_title">Estado</string>
+    <string name="lockscreen_weather_text_summary">Muestra el estado, como Nublado o Cielo despejado</string>
+    <string name="lockscreen_weather_wind_summary">Muestra la velocidad y dirección del viento</string>
+    <string name="lockscreen_weather_humidity_summary">Muestra la humedad</string>
+    <string name="custom_clock_weather_title">Clima en las esferas de reloj</string>
+    <string name="custom_clock_weather_summary">Muestra el clima en las esferas con espacio para ello</string>
+    <string name="remixer_weather_service">Servicio del clima</string>
+    <string name="remixer_weather_page_summary">Clima de la pantalla de bloqueo y lo que muestra</string>
 </resources>

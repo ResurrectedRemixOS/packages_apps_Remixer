@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Ring sync</string>
+    <string name="ring_sync_tap">Toque quando um anel alinhar com a marca</string>
+    <string name="ring_sync_best">Melhor <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">PERFEITO</string>
+    <string name="ring_sync_new_best">Novo recorde</string>
+    <string name="ring_sync_again">Toque para jogar de novo</string>
+    <string name="ring_sync_ember">Destaque Brasa desbloqueado</string>
+    <string name="ring_sync_use_ember">Usar Brasa</string>
+    <string name="ring_sync_android">Easter egg do Android</string>
+    <string name="ring_sync_vibrate_on">Vibrar nos acertos · Ativado</string>
+    <string name="ring_sync_vibrate_off">Vibrar nos acertos · Desativado</string>
+    <string name="accent_ember">Brasa</string>
+</resources>
