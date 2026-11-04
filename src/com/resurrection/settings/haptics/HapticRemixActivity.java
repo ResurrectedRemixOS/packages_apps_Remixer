@@ -227,8 +227,11 @@ public class HapticRemixActivity extends CollapsingToolbarBaseActivity {
         for (int i = 0; contacts != null && i < contacts.length(); i++) {
             JSONObject contact = contacts.optJSONObject(i);
             final int index = i;
-            mList.addView(item(contact.optString("name"),
-                    getString(R.string.haptic_remix_contact_summary, contact.optString("pattern")),
+            String summary = getString(R.string.haptic_remix_contact_summary,
+                    contact.optString("pattern"));
+            int colorIndex = colorIndex(contact.optString("color"));
+            if (colorIndex > 0) summary += " · " + getString(COLOR_NAMES[colorIndex]);
+            View row = item(contact.optString("name"), summary,
                     v -> pickFor(P_NUMBER + contact.optString("number"), contact.optString("name"),
                             name -> {
                                 try {
@@ -240,7 +243,12 @@ public class HapticRemixActivity extends CollapsingToolbarBaseActivity {
                                 } catch (Exception e) {
                                     // Nothing to keep.
                                 }
-                            })));
+                            }));
+            row.setOnLongClickListener(v -> {
+                pickColor(contact);
+                return true;
+            });
+            mList.addView(row);
         }
         mList.addView(item(getString(R.string.haptic_remix_add_contact), null, v -> {
             Intent pick = new Intent(Intent.ACTION_PICK,
@@ -260,6 +268,42 @@ public class HapticRemixActivity extends CollapsingToolbarBaseActivity {
                     v -> pickFor(key, appLabel(pkg), null)));
         }
         mList.addView(item(getString(R.string.haptic_remix_add_app), null, v -> pickApp()));
+    }
+
+    /** Edge light colors a contact's messages can take; the first is the accent. */
+    private static final int[] COLOR_NAMES = {R.string.haptic_remix_color_accent,
+            R.string.haptic_remix_color_crimson, R.string.haptic_remix_color_violet,
+            R.string.haptic_remix_color_blue, R.string.haptic_remix_color_green,
+            R.string.haptic_remix_color_amber, R.string.haptic_remix_color_white};
+    private static final String[] COLOR_VALUES = {"", "#FF2D55", "#8B5CF6", "#3B82F6", "#22C55E",
+            "#F59E0B", "#FFFFFF"};
+
+    private static int colorIndex(String value) {
+        for (int i = 1; i < COLOR_VALUES.length; i++) {
+            if (COLOR_VALUES[i].equalsIgnoreCase(value)) return i;
+        }
+        return 0;
+    }
+
+    /** Long-press on a contact: the edge light color their messages get. */
+    private void pickColor(JSONObject contact) {
+        CharSequence[] names = new CharSequence[COLOR_NAMES.length];
+        for (int i = 0; i < names.length; i++) names[i] = getString(COLOR_NAMES[i]);
+        new MaterialAlertDialogBuilder(mThemed)
+                .setTitle(getString(R.string.haptic_remix_edge_color, contact.optString("name")))
+                .setSingleChoiceItems(names, colorIndex(contact.optString("color")), (d, which) -> {
+                    try {
+                        if (which == 0) contact.remove("color");
+                        else contact.put("color", COLOR_VALUES[which]);
+                    } catch (Exception e) {
+                        // A color is always a valid value.
+                    }
+                    store();
+                    d.dismiss();
+                    build();
+                })
+                .setNegativeButton(android.R.string.cancel, null)
+                .show();
     }
 
     private View target(int title, String key) {

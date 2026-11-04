@@ -36,7 +36,16 @@
     <string name="haptic_remix_plug">Plugged in</string>
     <string name="haptic_remix_fingerprint">Fingerprint success</string>
     <string name="haptic_remix_add_contact">Add a contact</string>
+    <!-- Long-press on a contact: the edge light color for their messages -->
+    <string name="haptic_remix_edge_color">Edge light for <xliff:g id="name" example="Mia">%1$s</xliff:g>\u2019s messages</string>
+    <string name="haptic_remix_color_accent">Accent</string>
+    <string name="haptic_remix_color_crimson">Crimson</string>
+    <string name="haptic_remix_color_violet">Violet</string>
+    <string name="haptic_remix_color_blue">Blue</string>
+    <string name="haptic_remix_color_green">Green</string>
+    <string name="haptic_remix_color_amber">Amber</string>
+    <string name="haptic_remix_color_white">White</string>
     <string name="haptic_remix_add_app">Add an app\'s notifications</string>
-    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · tap to change</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · tap to change, hold for the edge color</string>
     <string name="haptic_remix_no_contacts">No number came back from Contacts</string>
 </resources>
