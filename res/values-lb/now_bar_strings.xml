@@ -7,4 +7,5 @@
     <string name="now_bar_outline">Kontur</string>
     <string name="now_bar_width">Breet</string>
     <string name="now_bar_text_size">Textgréisst</string>
+    <string name="now_bar_pin_change">Änneren</string>
 </resources>

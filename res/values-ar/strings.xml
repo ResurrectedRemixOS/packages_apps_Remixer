@@ -299,4 +299,10 @@
         <item>"مائل لليسار"</item>
         <item>"مائل لليمين"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · ملوّن</string>
+    <string name="remixer_settings_style_rr_v2_summary">مربّعات الفئات وبطاقة الجهاز، كلها بلون التمييز لديك</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">يأخذ كل مربّع فئة درجة لونية خاصة به قريبة من لون التمييز</string>
+    <string name="remixer_settings_style_rr_v1_summary">قائمة Resurrected Remix مع أيقونات حلقة نيون</string>
+    <string name="remixer_settings_style_original_summary">الشاشة الرئيسية للإعدادات في Android كما هي دون تغيير</string>
+    <string name="remixer_settings_style_note">ستظهر الشاشة الرئيسية للإعدادات بالنمط الجديد في المرة التالية التي تُفتح فيها.</string>
 </resources>

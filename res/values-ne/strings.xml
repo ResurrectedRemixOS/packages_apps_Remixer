@@ -294,4 +294,10 @@
         <item>"बायाँतिर लैजानुहोस्"</item>
         <item>"दायाँतिर लैजानुहोस्"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · रङ्गीन</string>
+    <string name="remixer_settings_style_rr_v2_summary">श्रेणी टाइल र डिभाइस कार्ड, सबै तपाईंको एक्सेन्टमा</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">प्रत्येक श्रेणी टाइलले आफ्नो एक्सेन्टको नजिकैको छुट्टै रङ लिन्छ</string>
+    <string name="remixer_settings_style_rr_v1_summary">नियन न्युरो आइकनसहित Resurrected Remix सूची</string>
+    <string name="remixer_settings_style_original_summary">Android को आफ्नै सेटिङ होम, जस्ताको तस्तै</string>
+    <string name="remixer_settings_style_note">सेटिङ होमले अर्को पटक खुल्दा नयाँ स्टाइल लिनेछ।</string>
 </resources>

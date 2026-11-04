@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Barran zer agertzen den</string>
     <string name="now_bar_show_page_summary">Musika eta bideoa, tenporizadoreak, deialdiak eta gehiago</string>
     <string name="now_bar_where">Beste non</string>
+    <string name="now_bar_pin_none">Batez ere ez. Sakatu aplikazio bat aukeratzeko, edo eutsi barran dagoen eguneraketa bizi bati</string>
+    <string name="now_bar_pin_change">"Aldatu"</string>
+    <string name="now_bar_glance_settings">Google aplikazioaren ezarpenak</string>
+    <string name="now_bar_glance_settings_summary">Non konfiguratzen den At a Glance eta bere Kirolak, Google aplikazioak gailu honetan eskaintzen dituenean</string>
 </resources>

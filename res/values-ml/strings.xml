@@ -294,4 +294,10 @@
         <item>"ഇടത്തേക്ക് ചാഞ്ഞിരിക്കുന്നത്"</item>
         <item>"വലത്തേക്ക് ചാഞ്ഞിരിക്കുന്നത്"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · കളർഫുൾ</string>
+    <string name="remixer_settings_style_rr_v2_summary">വിഭാഗ ടൈലുകളും ഉപകരണ കാർഡും, എല്ലാം നിങ്ങളുടെ ആക്സന്റ് നിറത്തിൽ</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">ഓരോ വിഭാഗ ടൈലിനും ആക്സന്റിനോട് അടുത്ത് സ്വന്തം നിറം ലഭിക്കും</string>
+    <string name="remixer_settings_style_rr_v1_summary">നിയോൺ റിങ് ഐക്കണുകളുള്ള Resurrected Remix ലിസ്റ്റ്</string>
+    <string name="remixer_settings_style_original_summary">Android-ന്റെ സ്വന്തം ക്രമീകരണ ഹോം, മാറ്റമില്ലാതെ</string>
+    <string name="remixer_settings_style_note">ക്രമീകരണ ഹോം അടുത്ത തവണ തുറക്കുമ്പോൾ പുതിയ ശൈലി സ്വീകരിക്കും.</string>
 </resources>

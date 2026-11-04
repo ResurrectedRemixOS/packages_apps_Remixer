@@ -286,4 +286,10 @@
         <item>"მარცხნივ გადახრილი"</item>
         <item>"მარჯვნივ გადახრილი"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · ფერადი</string>
+    <string name="remixer_settings_style_rr_v2_summary">კატეგორიის ფილები და მოწყობილობის ბარათი, ყველაფერი შენს აქცენტში</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">თითოეული კატეგორიის ფილა იღებს საკუთარ ელფერს შენი აქცენტის მახლობლად</string>
+    <string name="remixer_settings_style_rr_v1_summary">Resurrected Remix სია ნეონისფერი რგოლის ხატულებით</string>
+    <string name="remixer_settings_style_original_summary">Android-ის საკუთარი პარამეტრების მთავარი, უცვლელად</string>
+    <string name="remixer_settings_style_note">პარამეტრების მთავარი ახალ სტილს მიიღებს მომდევნო გახსნისას.</string>
 </resources>

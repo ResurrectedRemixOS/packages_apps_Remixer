@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Çubuqda nə göstərilsin</string>
     <string name="now_bar_show_page_summary">Musiqi və video, taymerlər, zənglər və s.</string>
     <string name="now_bar_where">Digər yerlər</string>
+    <string name="now_bar_pin_none">Heç biri. Tətbiq seçmək üçün toxunun və ya paneldə Canlı Yeniləməni basıb saxlayın</string>
+    <string name="now_bar_pin_change">"Dəyişin"</string>
+    <string name="now_bar_glance_settings">Google tətbiq ayarları</string>
+    <string name="now_bar_glance_settings_summary">At a Glance və onun Sports bölməsinin qurulduğu yer, Google tətbiqi bu cihazda təklif etdikdə</string>
 </resources>

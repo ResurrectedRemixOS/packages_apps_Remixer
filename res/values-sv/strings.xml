@@ -294,4 +294,10 @@
         <item>"Lutande åt vänster"</item>
         <item>"Lutande åt höger"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Färgglad</string>
+    <string name="remixer_settings_style_rr_v2_summary">Kategorirutor och enhetskortet, allt i din accentfärg</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Varje kategoriruta får en egen nyans nära din accentfärg</string>
+    <string name="remixer_settings_style_rr_v1_summary">Resurrected Remix-listan med neonringikoner</string>
+    <string name="remixer_settings_style_original_summary">Androids egna startsida för Inställningar, oförändrad</string>
+    <string name="remixer_settings_style_note">Inställningarnas startsida får den nya stilen nästa gång den öppnas.</string>
 </resources>

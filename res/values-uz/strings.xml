@@ -290,4 +290,10 @@
         <item>"Chap tomonga qiya"</item>
         <item>"O‘ng tomonga qiya"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Rangli</string>
+    <string name="remixer_settings_style_rr_v2_summary">Kategoriya katakchalari va qurilma kartasi, barchasi urg‘u rangida</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Har bir kategoriya katakchasi urg‘u rangiga yaqin o‘z ohangini oladi</string>
+    <string name="remixer_settings_style_rr_v1_summary">Neon halqali belgilari bilan Resurrected Remix ro‘yxati</string>
+    <string name="remixer_settings_style_original_summary">Android‘ning o‘z Sozlamalar bosh sahifasi, o‘zgarishsiz</string>
+    <string name="remixer_settings_style_note">Sozlamalar bosh sahifasi keyingi ochilganda yangi uslubni oladi.</string>
 </resources>

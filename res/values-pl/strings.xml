@@ -282,4 +282,10 @@
         <item>"Pochylony w lewo"</item>
         <item>"Pochylony w prawo"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Kolorowy</string>
+    <string name="remixer_settings_style_rr_v2_summary">Kafelki kategorii i karta urządzenia, wszystko w kolorze akcentu</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Każdy kafelek kategorii ma własny odcień zbliżony do koloru akcentu</string>
+    <string name="remixer_settings_style_rr_v1_summary">Lista Resurrected Remix z neonowymi ikonami pierścieni</string>
+    <string name="remixer_settings_style_original_summary">Ekran główny Ustawień Androida, bez zmian</string>
+    <string name="remixer_settings_style_note">Ekran główny Ustawień przyjmie nowy styl przy następnym otwarciu.</string>
 </resources>

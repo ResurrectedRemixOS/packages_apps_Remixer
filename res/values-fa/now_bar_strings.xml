@@ -102,4 +102,8 @@
     <string name="now_bar_show_page">آنچه در نوار نمایش داده می‌شود</string>
     <string name="now_bar_show_page_summary">موسیقی و ویدیو، تایمرها، تماس‌ها و موارد دیگر</string>
     <string name="now_bar_where">جاهای دیگر</string>
+    <string name="now_bar_pin_none">هیچ. برای انتخاب یک برنامه بزنید، یا یک به‌روزرسانی زنده را در نوار نگه دارید</string>
+    <string name="now_bar_pin_change">"تغییر"</string>
+    <string name="now_bar_glance_settings">تنظیمات برنامهٔ Google</string>
+    <string name="now_bar_glance_settings_summary">محل تنظیم «نگاه اجمالی» و ورزش‌های آن، وقتی برنامهٔ Google این امکان‌ها را روی این دستگاه ارائه کند</string>
 </resources>

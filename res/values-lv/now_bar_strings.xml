@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Kas tiek rādīts joslā</string>
     <string name="now_bar_show_page_summary">Mūzika un video, taimeri, zvani un vēl</string>
     <string name="now_bar_where">Kur citur</string>
+    <string name="now_bar_pin_none">Nav. Pieskaries, lai izvēlētos lietotni, vai turi nospiestu Live Update joslā</string>
+    <string name="now_bar_pin_change">"Mainīt"</string>
+    <string name="now_bar_glance_settings">Google lietotnes iestatījumi</string>
+    <string name="now_bar_glance_settings_summary">Kur iestatīt Ataut un tās Sports, kad Google lietotne šajā ierīcē tos piedāvā</string>
 </resources>

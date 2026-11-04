@@ -294,4 +294,10 @@
         <item>"Vasakule kaldu"</item>
         <item>"Paremale kaldu"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Värviline</string>
+    <string name="remixer_settings_style_rr_v2_summary">Kategooriaplaatsid ja seadmekaart, kõik sinu aktsentvärvis</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Iga kategooriaplaat võtab oma varjundi aktsentvärvi lähedalt</string>
+    <string name="remixer_settings_style_rr_v1_summary">Resurrected Remixi loend neoonrõngaste ikoonidega</string>
+    <string name="remixer_settings_style_original_summary">Androidi enda Seadete avaleht, muutmata</string>
+    <string name="remixer_settings_style_note">Seadete avaleht võtab uue stiili järgmisel avamisel.</string>
 </resources>

@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Kaj se prikaže v vrstici</string>
     <string name="now_bar_show_page_summary">Glasba in video, časovniki, klici in več</string>
     <string name="now_bar_where">Kje drugje</string>
+    <string name="now_bar_pin_none">Nič. Tapnite za izbiro aplikacije ali pridržite posodobitev v živo v vrstici</string>
+    <string name="now_bar_pin_change">"Spremeni"</string>
+    <string name="now_bar_glance_settings">Nastavitve aplikacije Google</string>
+    <string name="now_bar_glance_settings_summary">Kje so nastavljeni Na prvi pogled in njegove športne vsebine, kadar jih aplikacija Google na tej napravi ponuja</string>
 </resources>

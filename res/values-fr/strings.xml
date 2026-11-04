@@ -294,4 +294,10 @@
         <item>"Alignée à gauche"</item>
         <item>"Alignée à droite"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Coloré</string>
+    <string name="remixer_settings_style_rr_v2_summary">Vignettes de catégorie et carte de l\'appareil, entièrement dans votre couleur d\'accentuation</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Chaque vignette de catégorie prend sa propre teinte, proche de votre couleur d\'accentuation</string>
+    <string name="remixer_settings_style_rr_v1_summary">La liste Resurrected Remix avec des icônes en anneau néon</string>
+    <string name="remixer_settings_style_original_summary">L\'écran d\'accueil des Paramètres d\'Android, inchangé</string>
+    <string name="remixer_settings_style_note">L\'écran d\'accueil des Paramètres adoptera le nouveau style à sa prochaine ouverture.</string>
 </resources>

@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">מה מוצג בסרגל</string>
     <string name="now_bar_show_page_summary">מוזיקה וסרטונים, טיימרים, שיחות ועוד</string>
     <string name="now_bar_where">מקומות נוספים</string>
+    <string name="now_bar_pin_none">אין. הקישו כדי לבחור אפליקציה, או לחצו ארוכות על עדכון חי בשורה</string>
+    <string name="now_bar_pin_change">"שינוי"</string>
+    <string name="now_bar_glance_settings">הגדרות אפליקציית Google</string>
+    <string name="now_bar_glance_settings_summary">המקום שבו מוגדרים \'במבט מהיר\' והספורט שלו, כשאפליקציית Google מציעה אותם במכשיר הזה</string>
 </resources>

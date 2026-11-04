@@ -294,4 +294,10 @@
         <item>"Inayoegemea kushoto"</item>
         <item>"Inayoegemea kulia"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Rangi</string>
+    <string name="remixer_settings_style_rr_v2_summary">Vigae vya kategoria na kadi ya kifaa, vyote kwa rangi yako ya lafudhi</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Kila kigae cha kategoria kinachukua rangi yake karibu na lafudhi yako</string>
+    <string name="remixer_settings_style_rr_v1_summary">Orodha ya Resurrected Remix yenye aikoni za pete za neon</string>
+    <string name="remixer_settings_style_original_summary">Skrini ya mwanzo ya Mipangilio ya Android, bila mabadiliko</string>
+    <string name="remixer_settings_style_note">Skrini ya mwanzo ya Mipangilio itachukua mtindo mpya wakati itakapofunguliwa tena.</string>
 </resources>

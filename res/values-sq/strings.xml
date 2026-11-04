@@ -282,4 +282,10 @@
         <item>"Me prirje majtas"</item>
         <item>"Me prirje djathtas"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Colorful</string>
+    <string name="remixer_settings_style_rr_v2_summary">Pllakat e kategorive dhe karta e pajisjes, të gjitha në ngjyrën tënde të theksit</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Secila pllakë kategorie merr nuancën e vet afër ngjyrës së theksit</string>
+    <string name="remixer_settings_style_rr_v1_summary">Lista e Resurrected Remix me ikona neoni unaza</string>
+    <string name="remixer_settings_style_original_summary">Ekrani bazë i Cilësimeve të Android-it, pa ndryshime</string>
+    <string name="remixer_settings_style_note">Ekrani bazë i Cilësimeve merr stilin e ri herës tjetër që hapet.</string>
 </resources>

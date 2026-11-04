@@ -294,4 +294,10 @@
         <item>"இடப்புறம் சாய்ந்தது"</item>
         <item>"வலப்புறம் சாய்ந்தது"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · வண்ணமயமானது</string>
+    <string name="remixer_settings_style_rr_v2_summary">வகை கட்டங்களும் சாதன அட்டையும், அனைத்தும் உங்கள் உச்சரிப்பு நிறத்தில்</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">ஒவ்வொரு வகைக் கட்டமும் உங்கள் உச்சரிப்பு நிறத்திற்கு அருகில் அதன் சொந்த சாயலைப் பெறும்</string>
+    <string name="remixer_settings_style_rr_v1_summary">நியான் வளைய ஐகான்களுடன் Resurrected Remix பட்டியல்</string>
+    <string name="remixer_settings_style_original_summary">Android-இன் சொந்த அமைப்புகளின் முகப்பு, மாற்றப்படாமல்</string>
+    <string name="remixer_settings_style_note">அமைப்புகளின் முகப்பு அடுத்த முறை திறக்கும்போது புதிய பாணியைப் பெறும்.</string>
 </resources>

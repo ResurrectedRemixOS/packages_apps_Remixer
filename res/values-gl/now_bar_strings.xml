@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Que se mostra na barra</string>
     <string name="now_bar_show_page_summary">Música e vídeo, temporizadores, chamadas e máis</string>
     <string name="now_bar_where">Onde máis</string>
+    <string name="now_bar_pin_none">Ningunha. Toca para escoller unha aplicación ou mantén premida unha actualización en directo na barra</string>
+    <string name="now_bar_pin_change">"Cambiar"</string>
+    <string name="now_bar_glance_settings">Configuración da aplicación de Google</string>
+    <string name="now_bar_glance_settings_summary">Onde se configuran As a simple vista e os seus Deportes, cando a aplicación de Google os ofrece neste dispositivo</string>
 </resources>

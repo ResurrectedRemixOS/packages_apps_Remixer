@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Жолақта не көрсетіледі</string>
     <string name="now_bar_show_page_summary">Музыка мен бейне, таймерлер, қоңыраулар және басқалар</string>
     <string name="now_bar_where">Басқа жерде</string>
+    <string name="now_bar_pin_none">Ешқандай. Қолданба таңдау үшін түртіңіз немесе жолақтағы Live Update хабарламасын ұзақ басыңыз</string>
+    <string name="now_bar_pin_change">"Өзгерту"</string>
+    <string name="now_bar_glance_settings">Google қолданбасының параметрлері</string>
+    <string name="now_bar_glance_settings_summary">At a Glance және оның Sports бөлімін орнату орны, Google қолданбасы оларды осы құрылғыда ұсынған кезде</string>
 </resources>

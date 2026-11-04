@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Ano ang makikita sa bar</string>
     <string name="now_bar_show_page_summary">Musika at video, timer, tawag at iba pa</string>
     <string name="now_bar_where">Saan pa</string>
+    <string name="now_bar_pin_none">Wala. I-tap para pumili ng app, o pindutin nang matagal ang Live Update sa bar</string>
+    <string name="now_bar_pin_change">"Baguhin"</string>
+    <string name="now_bar_glance_settings">Mga setting ng Google app</string>
+    <string name="now_bar_glance_settings_summary">Dito itinatakda ang At a Glance at ang Sports nito, kapag inaalok ito ng Google app sa device na ito</string>
 </resources>

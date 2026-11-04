@@ -291,4 +291,10 @@
         <item>"Condong ke kiri"</item>
         <item>"Condong ke kanan"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Colorful</string>
+    <string name="remixer_settings_style_rr_v2_summary">Kartu kategori dan kartu perangkat, semuanya dengan warna aksen Anda</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Setiap kartu kategori memiliki warna sendiri yang senada dengan warna aksen Anda</string>
+    <string name="remixer_settings_style_rr_v1_summary">Daftar Resurrected Remix dengan ikon cincin neon</string>
+    <string name="remixer_settings_style_original_summary">Beranda Setelan bawaan Android, tidak diubah</string>
+    <string name="remixer_settings_style_note">Beranda Setelan akan menggunakan gaya baru saat dibuka berikutnya.</string>
 </resources>

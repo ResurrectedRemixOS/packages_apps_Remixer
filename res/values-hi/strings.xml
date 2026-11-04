@@ -294,4 +294,10 @@
         <item>"बाएं झुका हुआ"</item>
         <item>"दाएं झुका हुआ"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · कलरफुल</string>
+    <string name="remixer_settings_style_rr_v2_summary">श्रेणी टाइल और डिवाइस कार्ड, सब आपके एक्सेंट रंग में</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">हर श्रेणी टाइल अपने एक्सेंट के पास का अलग रंग लेती है</string>
+    <string name="remixer_settings_style_rr_v1_summary">नियॉन रिंग आइकन वाली Resurrected Remix सूची</string>
+    <string name="remixer_settings_style_original_summary">Android की अपनी सेटिंग्स होम स्क्रीन, बिना बदलाव के</string>
+    <string name="remixer_settings_style_note">सेटिंग्स होम स्क्रीन अगली बार खुलने पर नई स्टाइल लेगी।</string>
 </resources>

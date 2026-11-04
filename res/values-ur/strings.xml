@@ -294,4 +294,10 @@
         <item>"بائیں جانب جھکاؤ"</item>
         <item>"دائیں جانب جھکاؤ"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · رنگین</string>
+    <string name="remixer_settings_style_rr_v2_summary">زمرہ ٹائلیں اور ڈیوائس کارڈ، سب آپ کے لہجے کے رنگ میں</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">ہر زمرہ ٹائل اپنے لہجے کے قریب کا اپنا رنگ لیتی ہے</string>
+    <string name="remixer_settings_style_rr_v1_summary">نیون رنگ کے آئیکنز کے ساتھ Resurrected Remix فہرست</string>
+    <string name="remixer_settings_style_original_summary">Android کی اپنی ترتیبات کا ہوم، جوں کا توں</string>
+    <string name="remixer_settings_style_note">ترتیبات کا ہوم اگلی بار کھلنے پر نیا انداز اختیار کرے گا۔</string>
 </resources>

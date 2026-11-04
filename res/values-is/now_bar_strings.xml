@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Hvað birtist í stikunni</string>
     <string name="now_bar_show_page_summary">Tónlist og myndskeið, tímamælar, símtöl og fleira</string>
     <string name="now_bar_where">Annað</string>
+    <string name="now_bar_pin_none">Enginn. Pikkaðu til að velja forrit, eða haltu inni Live Update í stikunni</string>
+    <string name="now_bar_pin_change">"Breyta"</string>
+    <string name="now_bar_glance_settings">Stillingar Google-forritsins</string>
+    <string name="now_bar_glance_settings_summary">Hvar At a Glance og Sports eru stillt, þegar Google-forritið býður upp á þau á þessu tæki</string>
 </resources>

@@ -107,4 +107,5 @@
     <string name="now_bar_show_page">Ce qui s\'affiche dans la barre</string>
     <string name="now_bar_show_page_summary">Musique et vidéo, minuteurs, appels et plus</string>
     <string name="now_bar_where">Où d\'autre</string>
+    <string name="now_bar_pin_change">"Modifier"</string>
 </resources>

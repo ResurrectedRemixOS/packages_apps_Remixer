@@ -294,4 +294,10 @@
         <item>"Orientato a sinistra"</item>
         <item>"Orientato a destra"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Colorful</string>
+    <string name="remixer_settings_style_rr_v2_summary">Riquadri categoria e scheda dispositivo, tutto nel tuo colore primario</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Ogni riquadro categoria prende una tonalità propria vicina al colore primario</string>
+    <string name="remixer_settings_style_rr_v1_summary">L\'elenco Resurrected Remix con icone a anello neon</string>
+    <string name="remixer_settings_style_original_summary">La schermata Impostazioni di Android, invariata</string>
+    <string name="remixer_settings_style_note">La schermata Impostazioni assumerà il nuovo stile alla prossima apertura.</string>
 </resources>

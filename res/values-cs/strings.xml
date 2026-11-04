@@ -282,4 +282,10 @@
         <item>"Přichyceno vlevo"</item>
         <item>"Přichyceno vpravo"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Barevný</string>
+    <string name="remixer_settings_style_rr_v2_summary">Dlaždice kategorií a karta zařízení, vše v barvě akcentu</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Každá dlaždice kategorie má vlastní odstín blízký akcentu</string>
+    <string name="remixer_settings_style_rr_v1_summary">Seznam Resurrected Remix s neonovými ikonami kruhů</string>
+    <string name="remixer_settings_style_original_summary">Původní domovská stránka Nastavení systému Android beze změn</string>
+    <string name="remixer_settings_style_note">Domovská stránka Nastavení převezme nový styl při příštím otevření.</string>
 </resources>

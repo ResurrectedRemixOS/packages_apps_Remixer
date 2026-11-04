@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Шта се приказује у траци</string>
     <string name="now_bar_show_page_summary">Музика и видео, тајмери, позиви и још</string>
     <string name="now_bar_where">Остало</string>
+    <string name="now_bar_pin_none">Ниједна. Додирните да изаберете апликацију или задржите Live Update у траци</string>
+    <string name="now_bar_pin_change">"Промени"</string>
+    <string name="now_bar_glance_settings">Подешавања Google апликације</string>
+    <string name="now_bar_glance_settings_summary">Где се подешавају At a Glance и његов Sports, када Google апликација то нуди на овом уређају</string>
 </resources>

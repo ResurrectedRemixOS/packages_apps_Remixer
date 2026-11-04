@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">ਪੱਟੀ ਵਿੱਚ ਕੀ ਦਿਖਦਾ ਹੈ</string>
     <string name="now_bar_show_page_summary">ਸੰਗੀਤ ਅਤੇ ਵੀਡੀਓ, ਟਾਈਮਰ, ਕਾਲਾਂ ਅਤੇ ਹੋਰ</string>
     <string name="now_bar_where">ਹੋਰ ਕਿੱਥੇ</string>
+    <string name="now_bar_pin_none">ਕੋਈ ਨਹੀਂ। ਐਪ ਚੁਣਨ ਲਈ ਟੈਪ ਕਰੋ, ਜਾਂ ਪੱਟੀ ਵਿੱਚ ਲਾਈਵ ਅੱਪਡੇਟ ਨੂੰ ਦਬਾ ਕੇ ਰੱਖੋ</string>
+    <string name="now_bar_pin_change">"ਬਦਲੋ"</string>
+    <string name="now_bar_glance_settings">Google ਐਪ ਸੈਟਿੰਗਾਂ</string>
+    <string name="now_bar_glance_settings_summary">ਜਿੱਥੇ At a Glance ਅਤੇ ਇਸਦੀਆਂ Sports ਸੈੱਟ ਕੀਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ, ਜਦੋਂ ਇਸ ਡਿਵਾਈਸ \'ਤੇ Google ਐਪ ਇਹ ਪੇਸ਼ ਕਰਦੀ ਹੈ</string>
 </resources>

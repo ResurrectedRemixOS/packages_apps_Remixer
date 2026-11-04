@@ -294,4 +294,10 @@
         <item>"ବାମକୁ-ଆଉଜେଇବା"</item>
         <item>"ଡାହାଣକୁ-ଆଉଜେଇବା"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · ରଙ୍ଗୀନ</string>
+    <string name="remixer_settings_style_rr_v2_summary">ବର୍ଗ ଟାଇଲ ଓ ଡିଭାଇସ କାର୍ଡ, ସବୁ ଆପଣଙ୍କ ଆକ୍ସେଣ୍ଟରେ</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">ପ୍ରତ୍ୟେକ କାଟେଗୋରି ଟାଇଲ ଆପଣଙ୍କ ଆକ୍ସେଣ୍ଟ ନିକଟରେ ନିଜର ରଙ୍ଗ ପାଏ</string>
+    <string name="remixer_settings_style_rr_v1_summary">ନିଅନ ରିଙ୍ଗ ଆଇକନ ସହିତ Resurrected Remix ତାଲିକା</string>
+    <string name="remixer_settings_style_original_summary">Android ର ନିଜସ୍ୱ ସେଟିଂସ ହୋମ, ଅପରିବର୍ତ୍ତିତ</string>
+    <string name="remixer_settings_style_note">ପରବର୍ତ୍ତୀ ଥର ଖୋଲିବା ସମୟରେ ସେଟିଂସ ହୋମ ନୂଆ ଷ୍ଟାଇଲ ନେବ।</string>
 </resources>

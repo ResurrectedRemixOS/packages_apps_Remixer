@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Nội dung hiển thị trên thanh</string>
     <string name="now_bar_show_page_summary">Nhạc và video, bộ hẹn giờ, cuộc gọi và nhiều hơn nữa</string>
     <string name="now_bar_where">Khác</string>
+    <string name="now_bar_pin_none">Không có. Chạm để chọn ứng dụng, hoặc nhấn giữ Cập nhật trực tiếp trên thanh</string>
+    <string name="now_bar_pin_change">"Thay đổi"</string>
+    <string name="now_bar_glance_settings">Cài đặt ứng dụng Google</string>
+    <string name="now_bar_glance_settings_summary">Nơi thiết lập At a Glance và Thể thao, khi ứng dụng Google cung cấp trên thiết bị này</string>
 </resources>

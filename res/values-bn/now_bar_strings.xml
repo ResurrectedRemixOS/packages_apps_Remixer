@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">বারে যা দেখাবে</string>
     <string name="now_bar_show_page_summary">মিউজিক ও ভিডিও, টাইমার, কল ও আরও কিছু</string>
     <string name="now_bar_where">আর কোথায়</string>
+    <string name="now_bar_pin_none">কিছুই নেই। কোনো অ্যাপ বেছে নিতে ট্যাap করুন, অথবা বারে একটি লাইভ আপডেট ধরে রাখুন</string>
+    <string name="now_bar_pin_change">"পরিবর্তন করুন"</string>
+    <string name="now_bar_glance_settings">Google অ্যাপের সেটিংস</string>
+    <string name="now_bar_glance_settings_summary">At a Glance ও এর Sports কোথায় সেট আপ হবে, Google অ্যাপ এই ডিভাইসে যখন এগুলো দেয়</string>
 </resources>

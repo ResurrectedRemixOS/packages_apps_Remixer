@@ -306,4 +306,10 @@
         <item>"डावीकडे कललेले"</item>
         <item>"उजवीकडे कललेले"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · रंगीत</string>
+    <string name="remixer_settings_style_rr_v2_summary">कॅटेगरी टाइल्स आणि डिव्हाइस कार्ड, सर्व तुमच्या ॲक्सेंटमध्ये</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">प्रत्येक कॅटेगरी टाइलला ॲक्सेंटच्या जवळचा स्वतःचा रंग मिळतो</string>
+    <string name="remixer_settings_style_rr_v1_summary">निऑन रिंग आयकॉनसह Resurrected Remix यादी</string>
+    <string name="remixer_settings_style_original_summary">Android ची स्वतःची सेटिंग्ज होम, जशीच्या तशी</string>
+    <string name="remixer_settings_style_note">सेटिंग्ज होम पुढच्या वेळी उघडल्यावर नवी शैली घेईल.</string>
 </resources>

@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Hva som vises i raden</string>
     <string name="now_bar_show_page_summary">Musikk og video, tidtakere, anrop og mer</string>
     <string name="now_bar_where">Annet</string>
+    <string name="now_bar_pin_none">Ingen. Trykk for å velge en app, eller hold inne en livedirekteoppdatering i raden</string>
+    <string name="now_bar_pin_change">"Endre"</string>
+    <string name="now_bar_glance_settings">Innstillinger for Google-appen</string>
+    <string name="now_bar_glance_settings_summary">Der At a Glance og Sports settes opp, når Google-appen tilbyr dem på denne enheten</string>
 </resources>

@@ -11,4 +11,5 @@
     <string name="now_bar_buttons">Knappar</string>
     <string name="now_bar_text">Tekst</string>
     <string name="now_bar_text_size">Tekststorleik</string>
+    <string name="now_bar_pin_change">Endra</string>
 </resources>

@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Τι εμφανίζεται στη γραμμή</string>
     <string name="now_bar_show_page_summary">Μουσική και βίντεο, χρονόμετρα, κλήσεις και άλλα</string>
     <string name="now_bar_where">Αλλού</string>
+    <string name="now_bar_pin_none">Καμία. Πατήστε για να επιλέξετε μια εφαρμογή ή κρατήστε πατημένο ένα Live Update στη γραμμή</string>
+    <string name="now_bar_pin_change">"Αλλαγή"</string>
+    <string name="now_bar_glance_settings">Ρυθμίσεις εφαρμογής Google</string>
+    <string name="now_bar_glance_settings_summary">Πού ρυθμίζονται το At a Glance και τα Sports του, όταν η εφαρμογή Google τα προσφέρει σε αυτήν τη συσκευή</string>
 </resources>

@@ -12,4 +12,5 @@
     <string name="now_bar_buttons">Botymau</string>
     <string name="now_bar_text">Testun</string>
     <string name="now_bar_text_size">Maint testun</string>
+    <string name="now_bar_pin_change">Newid</string>
 </resources>

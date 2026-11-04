@@ -294,4 +294,10 @@
         <item>"Nakapanig sa kaliwa"</item>
         <item>"Nakapanig sa kanan"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Colorful</string>
+    <string name="remixer_settings_style_rr_v2_summary">Category tiles and the device card, lahat sa accent mo</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Bawat category tile ay may sariling kulay malapit sa accent mo</string>
+    <string name="remixer_settings_style_rr_v1_summary">Ang listahan ng Resurrected Remix na may neon ring icons</string>
+    <string name="remixer_settings_style_original_summary">Ang sariling Settings home ng Android, hindi ginalaw</string>
+    <string name="remixer_settings_style_note">Magkakaroon ng bagong istilo ang Settings home sa susunod nitong pagbukas.</string>
 </resources>

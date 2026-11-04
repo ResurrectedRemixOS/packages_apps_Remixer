@@ -107,4 +107,5 @@
     <string name="now_bar_show_page">Что показывать на панели</string>
     <string name="now_bar_show_page_summary">Музыка и видео, таймеры, вызовы и не только</string>
     <string name="now_bar_where">Где ещё</string>
+    <string name="now_bar_pin_change">"Изменить"</string>
 </resources>

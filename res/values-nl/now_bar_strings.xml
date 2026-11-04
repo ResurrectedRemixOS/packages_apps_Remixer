@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Wat er in de balk wordt getoond</string>
     <string name="now_bar_show_page_summary">Muziek en video, timers, oproepen en meer</string>
     <string name="now_bar_where">Waar anders</string>
+    <string name="now_bar_pin_none">Geen. Tik om een app te kiezen, of houd een Live-update in de balk ingedrukt</string>
+    <string name="now_bar_pin_change">"Wijzigen"</string>
+    <string name="now_bar_glance_settings">Instellingen van de Google-app</string>
+    <string name="now_bar_glance_settings_summary">Waar At a Glance en de sportfunctie zijn ingesteld, wanneer de Google-app die op dit apparaat aanbiedt</string>
 </resources>

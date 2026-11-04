@@ -294,4 +294,10 @@
         <item>"Schuin naar links"</item>
         <item>"Schuin naar rechts"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Kleurrijk</string>
+    <string name="remixer_settings_style_rr_v2_summary">Categorietegels en de apparaatkaart, allemaal in je accentkleur</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Elke categorietegel krijgt een eigen tint dicht bij je accentkleur</string>
+    <string name="remixer_settings_style_rr_v1_summary">De lijst van Resurrected Remix met neonringpictogrammen</string>
+    <string name="remixer_settings_style_original_summary">Het standaard startscherm van Instellingen van Android, ongewijzigd</string>
+    <string name="remixer_settings_style_note">Het startscherm van Instellingen krijgt de nieuwe stijl de volgende keer dat het wordt geopend.</string>
 </resources>

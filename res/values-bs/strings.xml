@@ -282,4 +282,10 @@
         <item>"Ulijevo"</item>
         <item>"Udesno"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Šareni</string>
+    <string name="remixer_settings_style_rr_v2_summary">Kartice kategorija i kartica uređaja, sve u tvom akcentu</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Svaka kartica kategorije dobija vlastitu nijansu blizu tvog akcenta</string>
+    <string name="remixer_settings_style_rr_v1_summary">Lista Resurrected Remix sa neon ikonama prstena</string>
+    <string name="remixer_settings_style_original_summary">Android-ov vlastiti početni ekran Postavki, nepromijenjen</string>
+    <string name="remixer_settings_style_note">Početni ekran Postavki preuzima novi stil pri sljedećem otvaranju.</string>
 </resources>

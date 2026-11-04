@@ -288,4 +288,10 @@
         <item>"Сол жақтан"</item>
         <item>"Оң жақтан"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Colorful</string>
+    <string name="remixer_settings_style_rr_v2_summary">Санат плиткалары мен құрылғы карточкасы, барлығы акцент түсінде</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Әрбір санат плиткасы акцент түсіне жақын өз реңкін алады</string>
+    <string name="remixer_settings_style_rr_v1_summary">Неон сақина белгішелері бар Resurrected Remix тізімі</string>
+    <string name="remixer_settings_style_original_summary">Android-тың өз Параметрлер негізгі экраны, өзгеріссіз</string>
+    <string name="remixer_settings_style_note">Параметрлер негізгі экраны келесі ашылғанда жаңа стильді алады.</string>
 </resources>

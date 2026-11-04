@@ -282,4 +282,10 @@
         <item>"Lent mot venstre"</item>
         <item>"Lent mot høyre"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Fargerik</string>
+    <string name="remixer_settings_style_rr_v2_summary">Kategoribrikker og enhetskort, alt i aksentfargen din</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Hver kategoribrikke får sin egen fargetone nær aksentfargen din</string>
+    <string name="remixer_settings_style_rr_v1_summary">Resurrected Remix-listen med neonringikoner</string>
+    <string name="remixer_settings_style_original_summary">Androids egen Innstillinger-startside, uendret</string>
+    <string name="remixer_settings_style_note">Innstillinger-startsiden får den nye stilen neste gang den åpnes.</string>
 </resources>

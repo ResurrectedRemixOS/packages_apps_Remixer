@@ -282,4 +282,10 @@
         <item>"Се потпира лево"</item>
         <item>"Се потпира десно"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Colorful</string>
+    <string name="remixer_settings_style_rr_v2_summary">Плочки на категории и картичка на уредот, сè во вашата акцентна боја</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Секоја плочка на категорија добива своја нијанса блиска до акцентот</string>
+    <string name="remixer_settings_style_rr_v1_summary">Листата на Resurrected Remix со неонски икони на прстени</string>
+    <string name="remixer_settings_style_original_summary">Оригиналниот почетен екран на Поставки на Android, непроменет</string>
+    <string name="remixer_settings_style_note">Почетниот екран на Поставки ќе го добие новиот стил следниот пат кога ќе се отвори.</string>
 </resources>

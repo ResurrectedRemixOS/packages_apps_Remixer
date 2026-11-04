@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">អ្វីដែលបង្ហាញក្នុងរបារ</string>
     <string name="now_bar_show_page_summary">តន្ត្រី និងវីដេអូ ម៉ោងកំណត់ ការហៅ និងផ្សេងៗទៀត</string>
     <string name="now_bar_where">កន្លែងផ្សេងទៀត</string>
+    <string name="now_bar_pin_none">គ្មាន។ ចុចដើម្បីជ្រើសរើសកម្មវិធី ឬសង្កត់ការធ្វើបច្ចុប្បន្នភាពផ្ទាល់ក្នុងរបារ</string>
+    <string name="now_bar_pin_change">"ផ្លាស់ប្ដូរ"</string>
+    <string name="now_bar_glance_settings">ការកំណត់កម្មវិធី Google</string>
+    <string name="now_bar_glance_settings_summary">កន្លែងកំណត់ At a Glance និង Sports នៅពេលកម្មវិធី Google ផ្តល់ជូននៅលើឧបករណ៍នេះ</string>
 </resources>

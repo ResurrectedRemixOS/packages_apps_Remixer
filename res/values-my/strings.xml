@@ -282,4 +282,10 @@
         <item>"လက်ဝဲဖက် ကပ်လျက်"</item>
         <item>"လက်ယာဖက် ကပ်လျက်"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · အရောင်ပြည့်</string>
+    <string name="remixer_settings_style_rr_v2_summary">အမျိုးအစားအကွက်ငယ်များနှင့် စက်ကတ်ကို အဓိကအရောင်ဖြင့်ပြုလုပ်ထားသည်</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">အမျိုးအစားအကွက်ငယ်တစ်ခုစီသည် အဓိကအရောင်အနီးရှိ သီးခြားအရောင်ကို ယူသည်</string>
+    <string name="remixer_settings_style_rr_v1_summary">Neon ring အိုင်ကွန်များပါသော Resurrected Remix စာရင်း</string>
+    <string name="remixer_settings_style_original_summary">Android ၏ မူလ Settings ပင်မစာမျက်နှာ၊ မပြောင်းလဲထား</string>
+    <string name="remixer_settings_style_note">Settings ပင်မစာမျက်နှာသည် နောက်တစ်ကြိမ်ဖွင့်သည့်အခါ ပုံစံအသစ်ကို ကျင့်သုံးမည်။</string>
 </resources>

@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">ಬಾರ್‌ನಲ್ಲಿ ಏನು ತೋರಿಸುತ್ತದೆ</string>
     <string name="now_bar_show_page_summary">ಸಂಗೀತ ಮತ್ತು ವೀಡಿಯೊ, ಟೈಮರ್‌ಗಳು, ಕರೆಗಳು ಮತ್ತು ಇನ್ನಷ್ಟು</string>
     <string name="now_bar_where">ಇನ್ನೆಲ್ಲಿ</string>
+    <string name="now_bar_pin_none">ಯಾವುದೂ ಇಲ್ಲ. ಆಯ್ಕೆ ಮಾಡಲು ಆ್ಯಪ್ ಟ್ಯಾಪ್ ಮಾಡಿ, ಅಥವಾ ಪಟ್ಟಿಯಲ್ಲಿ ಲೈವ್ ಅಪ್‌ಡೇಟ್ ಅನ್ನು ಹಿಡಿದುಕೊಳ್ಳಿ</string>
+    <string name="now_bar_pin_change">"ಬದಲಾಯಿಸಿ"</string>
+    <string name="now_bar_glance_settings">Google ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="now_bar_glance_settings_summary">ಈ ಸಾಧನದಲ್ಲಿ Google ಆ್ಯಪ್ ಅವುಗಳನ್ನು ನೀಡಿದಾಗ, At a Glance ಮತ್ತು ಅದರ Sports ಅನ್ನು ಎಲ್ಲಿ ಸೆಟ್ ಅಪ್ ಮಾಡಲಾಗಿದೆ</string>
 </resources>

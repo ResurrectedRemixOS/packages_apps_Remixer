@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Panelda nima ko‘rsatiladi</string>
     <string name="now_bar_show_page_summary">Musiqa va video, taymerlar, qo‘ng‘iroqlar va boshqalar</string>
     <string name="now_bar_where">Boshqa joylar</string>
+    <string name="now_bar_pin_none">Yo‘q. Ilovani tanlash uchun bosing yoki panelda Jonli yangilanishni ushlab turing</string>
+    <string name="now_bar_pin_change">"Oʻzgartirish"</string>
+    <string name="now_bar_glance_settings">Google ilovasi sozlamalari</string>
+    <string name="now_bar_glance_settings_summary">At a Glance va uning Sport yangiliklari qayerda sozlanadi, Google ilovasi ularni ushbu qurilmada taklif qilganda</string>
 </resources>

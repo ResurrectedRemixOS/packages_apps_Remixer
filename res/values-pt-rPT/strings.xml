@@ -294,4 +294,10 @@
         <item>"Alinhada à esquerda"</item>
         <item>"Alinhada à direita"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Colorido</string>
+    <string name="remixer_settings_style_rr_v2_summary">Mosaicos de categoria e o cartão do dispositivo, tudo na sua cor de destaque</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Cada mosaico de categoria recebe seu próprio tom próximo à cor de destaque</string>
+    <string name="remixer_settings_style_rr_v1_summary">A lista do Resurrected Remix com ícones de anel em neon</string>
+    <string name="remixer_settings_style_original_summary">O ecrã inicial de Definições do Android, sem alterações</string>
+    <string name="remixer_settings_style_note">O ecrã inicial de Definições assume o novo estilo na próxima vez que for aberta.</string>
 </resources>

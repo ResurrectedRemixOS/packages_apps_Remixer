@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Какво се показва в лентата</string>
     <string name="now_bar_show_page_summary">Музика и видео, таймери, обаждания и други</string>
     <string name="now_bar_where">Други места</string>
+    <string name="now_bar_pin_none">Няма. Докоснете, за да изберете приложение, или задръжте Live Update в лентата</string>
+    <string name="now_bar_pin_change">"Промяна"</string>
+    <string name="now_bar_glance_settings">Настройки на приложението Google</string>
+    <string name="now_bar_glance_settings_summary">Къде се настройват „At a Glance“ и „Sports“, когато приложението Google ги предлага на това устройство</string>
 </resources>

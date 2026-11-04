@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">બારમાં શું દેખાય છે</string>
     <string name="now_bar_show_page_summary">સંગીત અને વિડિયો, ટાઇમર, કૉલ અને વધુ</string>
     <string name="now_bar_where">બીજું ક્યાં</string>
+    <string name="now_bar_pin_none">કોઈ નહીં. ઍપ પસંદ કરવા ટૅપ કરો, અથવા બારમાં લાઇવ અપડેટ લાંબો દબાવો</string>
+    <string name="now_bar_pin_change">"બદલો"</string>
+    <string name="now_bar_glance_settings">Google ઍપ સેટિંગ્સ</string>
+    <string name="now_bar_glance_settings_summary">At a Glance અને તેની Sports ક્યાં સેટ કરવી, જ્યારે આ ડિવાઇસ પર Google ઍપ તે ઓફર કરે</string>
 </resources>

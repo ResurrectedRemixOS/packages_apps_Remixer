@@ -294,4 +294,10 @@
         <item>"Лява ориентация"</item>
         <item>"Дясна ориентация"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Цветен</string>
+    <string name="remixer_settings_style_rr_v2_summary">Панели на категории и карта на устройството, всички в цвят на акцента</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Всеки панел на категория получава свой нюанс, близък до цвета на акцента</string>
+    <string name="remixer_settings_style_rr_v1_summary">Списъкът на Resurrected Remix с неонови иконки на пръстен</string>
+    <string name="remixer_settings_style_original_summary">Собственият начален екран на Android за настройки, без промени</string>
+    <string name="remixer_settings_style_note">Началният екран на настройките приема новия стил при следващото отваряне.</string>
 </resources>

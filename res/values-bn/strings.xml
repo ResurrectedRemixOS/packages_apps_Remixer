@@ -294,4 +294,10 @@
         <item>"বাঁদিক ঘেঁষা"</item>
         <item>"ডানদিক ঘেঁষা"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · রঙিন</string>
+    <string name="remixer_settings_style_rr_v2_summary">ক্যাটাগরি টাইল ও ডিভাইস কার্ড, সবই আপনার অ্যাকসেন্ট রঙে</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">প্রতিটি ক্যাটাগরি টাইল অ্যাকসেন্টের কাছাকাছি নিজস্ব আভা পায়</string>
+    <string name="remixer_settings_style_rr_v1_summary">নিয়ন রিং আইকনসহ Resurrected Remix তালিকা</string>
+    <string name="remixer_settings_style_original_summary">Android-এর নিজস্ব সেটিংস হোম, অপরিবর্তিত</string>
+    <string name="remixer_settings_style_note">সেটিংস হোম পরের বার খোলার সময় নতুন স্টাইল পাবে।</string>
 </resources>

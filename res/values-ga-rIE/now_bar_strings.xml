@@ -11,4 +11,5 @@
     <string name="now_bar_buttons">Cnaipí</string>
     <string name="now_bar_text">Téacs</string>
     <string name="now_bar_text_size">Méid an téacs</string>
+    <string name="now_bar_pin_change">Athraigh</string>
 </resources>

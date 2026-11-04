@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">ବାର୍‍ରେ ଯାହା ଦେଖାଯିବ</string>
     <string name="now_bar_show_page_summary">ସଙ୍ଗୀତ ଓ ଭିଡିଓ, ଟାଇମର, କଲ ଓ ଆହୁରି</string>
     <string name="now_bar_where">ଆଉ କେଉଁଠି</string>
+    <string name="now_bar_pin_none">କୌଣସି ନାହିଁ। ଆପ ବାଛିବା ପାଇଁ ଟ୍ୟାପ କରନ୍ତୁ, କିମ୍ବା ବାରରେ ଏକ Live Update ଧରି ରଖନ୍ତୁ</string>
+    <string name="now_bar_pin_change">"ପରିବର୍ତ୍ତନ କରନ୍ତୁ"</string>
+    <string name="now_bar_glance_settings">Google ଆପ ସେଟିଂସ</string>
+    <string name="now_bar_glance_settings_summary">ଏହି ଡିଭାଇସରେ Google ଆପ ଏସବୁ ଦେଲେ, At a Glance ଓ ଏହାର Sports କେଉଁଠି ସେଟ ହୁଏ</string>
 </resources>

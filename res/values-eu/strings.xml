@@ -291,4 +291,10 @@
         <item>"Ezkerraldekoa"</item>
         <item>"Eskuinaldekoa"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Koloretsua</string>
+    <string name="remixer_settings_style_rr_v2_summary">Kategoria-lauzak eta gailuaren txartela, dena azentuaren kolorean</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Kategoria-lauza bakoitzak bere tonua hartzen du azentuaren ondoan</string>
+    <string name="remixer_settings_style_rr_v1_summary">Resurrected Remix zerrenda neon eraztun-ikonoekin</string>
+    <string name="remixer_settings_style_original_summary">Android-en Ezarpenen orri nagusia, aldatu gabe</string>
+    <string name="remixer_settings_style_note">Ezarpenen orri nagusiak estilo berria hartuko du hurrengoan irekitzean.</string>
 </resources>

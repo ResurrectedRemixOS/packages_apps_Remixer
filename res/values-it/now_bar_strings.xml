@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Cosa mostrare nella barra</string>
     <string name="now_bar_show_page_summary">Musica e video, timer, chiamate e altro</string>
     <string name="now_bar_where">Altro</string>
+    <string name="now_bar_pin_none">Nessuna. Tocca per scegliere un\'app oppure tieni premuto un Aggiornamento in tempo reale nella barra</string>
+    <string name="now_bar_pin_change">"Cambia"</string>
+    <string name="now_bar_glance_settings">Impostazioni dell\'app Google</string>
+    <string name="now_bar_glance_settings_summary">Dove configurare At a Glance e i suoi Sport, quando l\'app Google li offre su questo dispositivo</string>
 </resources>

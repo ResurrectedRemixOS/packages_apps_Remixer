@@ -107,4 +107,5 @@
     <string name="now_bar_show_page">欄中顯示的內容</string>
     <string name="now_bar_show_page_summary">音樂和影片、計時器、通話等</string>
     <string name="now_bar_where">其他位置</string>
+    <string name="now_bar_pin_change">"變更"</string>
 </resources>

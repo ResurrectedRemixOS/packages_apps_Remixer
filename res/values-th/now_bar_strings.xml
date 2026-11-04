@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">สิ่งที่แสดงในแถบ</string>
     <string name="now_bar_show_page_summary">เพลงและวิดีโอ ตัวจับเวลา สาย และอื่นๆ</string>
     <string name="now_bar_where">อื่นๆ</string>
+    <string name="now_bar_pin_none">ไม่มี แตะเพื่อเลือกแอป หรือกดค้างการอัปเดตสดในแถบ</string>
+    <string name="now_bar_pin_change">"เปลี่ยน"</string>
+    <string name="now_bar_glance_settings">การตั้งค่าแอป Google</string>
+    <string name="now_bar_glance_settings_summary">ตั้งค่า At a Glance และ Sports ที่นี่ เมื่อแอป Google มีให้ใช้งานบนอุปกรณ์นี้</string>
 </resources>

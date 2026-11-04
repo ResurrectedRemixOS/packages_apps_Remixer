@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">በአሞሌው ላይ የሚታየው</string>
     <string name="now_bar_show_page_summary">ሙዚቃ እና ቪዲዮ፣ ሰዓት ቆጣሪዎች፣ ጥሪዎች እና ሌሎችም</string>
     <string name="now_bar_where">ሌላ የት</string>
+    <string name="now_bar_pin_none">ምንም። ለመምረጥ ይንኩ፣ ወይም በአሞሌው ውስጥ የቀጥታ ዝመናን ይያዙ</string>
+    <string name="now_bar_pin_change">"ለውጥ"</string>
+    <string name="now_bar_glance_settings">የGoogle መተግበሪያ ቅንብሮች</string>
+    <string name="now_bar_glance_settings_summary">በዚህ መሣሪያ ላይ Google መተግበሪያ ሲያቀርባቸው፣ At a Glance እና Sports የሚዋቀሩበት ቦታ</string>
 </resources>

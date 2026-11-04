@@ -303,4 +303,10 @@
         <item>"Ձախակողմյան"</item>
         <item>"Աջակողմյան"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Colorful</string>
+    <string name="remixer_settings_style_rr_v2_summary">Կատեգորիաների սալիկներ և սարքի քարտ, ամբողջը ձեր շեշտադրման գույնով</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Յուրաքանչյուր կատեգորիայի սալիկ ստանում է իր երանգը՝ մոտ ձեր շեշտադրման գույնին</string>
+    <string name="remixer_settings_style_rr_v1_summary">Resurrected Remix ցանկը՝ neon ring պատկերակներով</string>
+    <string name="remixer_settings_style_original_summary">Android-ի սեփական Կարգավորումների գլխավոր էկրանը, առանց փոփոխության</string>
+    <string name="remixer_settings_style_note">Կարգավորումների գլխավոր էկրանը նոր ոճը կստանա հաջորդ բացմանը</string>
 </resources>

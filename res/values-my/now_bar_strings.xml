@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">ဘားတွင် ပြရန်</string>
     <string name="now_bar_show_page_summary">Music နှင့် ဗီဒီယို၊ တိုင်မာများ၊ ခေါ်ဆိုမှုများနှင့် အခြားများ</string>
     <string name="now_bar_where">အခြားနေရာများ</string>
+    <string name="now_bar_pin_none">မရှိပါ။ အက်ပ်ရွေးရန် တို့ပါ၊ သို့မဟုတ် ဘားတွင် Live Update ကို ဖိထားပါ</string>
+    <string name="now_bar_pin_change">"ပြောင်းရန်"</string>
+    <string name="now_bar_glance_settings">Google အက်ပ် ဆက်တင်များ</string>
+    <string name="now_bar_glance_settings_summary">ဤစက်တွင် Google အက်ပ်က ပေးသည့်အခါ At a Glance နှင့် ၎င်း၏ Sports ကို စနစ်ထည့်သွင်းရာနေရာ</string>
 </resources>

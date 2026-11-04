@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Що показувати в панелі</string>
     <string name="now_bar_show_page_summary">Музика й відео, таймери, дзвінки та інше</string>
     <string name="now_bar_where">Де ще</string>
+    <string name="now_bar_pin_none">Немає. Торкніться, щоб вибрати застосунок, або утримуйте Live Update на панелі</string>
+    <string name="now_bar_pin_change">"Змінити"</string>
+    <string name="now_bar_glance_settings">Налаштування застосунку Google</string>
+    <string name="now_bar_glance_settings_summary">Тут налаштовуються «Погляд» та його «Спорт», якщо застосунок Google пропонує їх на цьому пристрої</string>
 </resources>

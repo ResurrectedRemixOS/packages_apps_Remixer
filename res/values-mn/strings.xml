@@ -303,4 +303,10 @@
         <item>"Зүүн налуу"</item>
         <item>"Баруун налуу"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Өнгөлөг</string>
+    <string name="remixer_settings_style_rr_v2_summary">Ангиллын хавтан болон төхөөрөмжийн карт, бүгд таны акцент өнгөөр</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Ангиллын хавтан бүр таны акцент өнгийн ойролцоо өнгөтэй байна</string>
+    <string name="remixer_settings_style_rr_v1_summary">Неон бөгжний дүрстэй Resurrected Remix жагсаалт</string>
+    <string name="remixer_settings_style_original_summary">Android-ийн өөрийн Тохиргооны үндсэн дэлгэц, өөрчлөгдөөгүй</string>
+    <string name="remixer_settings_style_note">Тохиргооны үндсэн дэлгэц дараагийн удаа нээгдэхэд шинэ загвартай болно.</string>
 </resources>

@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Ինչ է ցուցադրվում գոտում</string>
     <string name="now_bar_show_page_summary">Երաժշտություն և տեսանյութ, թայմերներ, զանգեր և այլն</string>
     <string name="now_bar_where">Այլ տեղեր</string>
+    <string name="now_bar_pin_none">Չկա։ Հպեք՝ հավելված ընտրելու համար կամ երկար սեղմեք Live Update-ը գոտում</string>
+    <string name="now_bar_pin_change">"Փոխել"</string>
+    <string name="now_bar_glance_settings">Google հավելվածի կարգավորումներ</string>
+    <string name="now_bar_glance_settings_summary">Այն վայրը, որտեղ կարգավորվում են At a Glance-ը և դրա Sports-ը, երբ Google հավելվածը դրանք առաջարկում է այս սարքի վրա</string>
 </resources>

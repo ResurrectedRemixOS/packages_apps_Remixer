@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Mis ribal kuvatakse</string>
     <string name="now_bar_show_page_summary">Muusika ja video, taimerid, kõned ja muu</string>
     <string name="now_bar_where">Muu</string>
+    <string name="now_bar_pin_none">Puudub. Puuduta rakenduse valimiseks või hoia ribal Reaalajas värskendust</string>
+    <string name="now_bar_pin_change">"Muuda"</string>
+    <string name="now_bar_glance_settings">Google\'i rakenduse seaded</string>
+    <string name="now_bar_glance_settings_summary">Kus seadistatakse Pilguga ja selle Spordi, kui Google\'i rakendus seda selles seadmes pakub</string>
 </resources>

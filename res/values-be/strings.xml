@@ -300,4 +300,10 @@
         <item>"Бліжэй да левага боку"</item>
         <item>"Бліжэй да правага боку"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Colorful</string>
+    <string name="remixer_settings_style_rr_v2_summary">Пліткі катэгорый і картка прылады, у вашым асноўным колеры</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Кожная плітка катэгорыі мае свой адценне, блізкае да асноўнага колеру</string>
+    <string name="remixer_settings_style_rr_v1_summary">Спіс Resurrected Remix з неонавымі значкамі кольцаў</string>
+    <string name="remixer_settings_style_original_summary">Галоўны экран налад Android без змен</string>
+    <string name="remixer_settings_style_note">Галоўны экран налад набудзе новы стыль пры наступным адкрыцці.</string>
 </resources>

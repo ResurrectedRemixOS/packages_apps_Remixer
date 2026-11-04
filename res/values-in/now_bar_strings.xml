@@ -107,4 +107,5 @@
     <string name="now_bar_show_page">Yang ditampilkan di bar</string>
     <string name="now_bar_show_page_summary">Musik dan video, timer, panggilan, dan lainnya</string>
     <string name="now_bar_where">Di mana lagi</string>
+    <string name="now_bar_pin_change">"Ubah"</string>
 </resources>

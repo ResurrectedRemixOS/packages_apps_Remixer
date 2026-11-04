@@ -294,4 +294,10 @@
         <item>"ਖੱਬੇ-ਉਲਾਰ"</item>
         <item>"ਸੱਜੇ-ਉਲਾਰ"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · ਰੰਗੀਨ</string>
+    <string name="remixer_settings_style_rr_v2_summary">ਸ਼੍ਰੇਣੀ ਟਾਇਲਾਂ ਅਤੇ ਡਿਵਾਈਸ ਕਾਰਡ, ਸਾਰੇ ਤੁਹਾਡੇ ਐਕਸੈਂਟ ਵਿੱਚ</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">ਹਰ ਸ਼੍ਰੇਣੀ ਟਾਇਲ ਤੁਹਾਡੇ ਐਕਸੈਂਟ ਦੇ ਨੇੜੇ ਆਪਣਾ ਰੰਗ-ਸ਼ੇਡ ਲੈਂਦੀ ਹੈ</string>
+    <string name="remixer_settings_style_rr_v1_summary">ਨਿਓਨ ਰਿੰਗ ਆਈਕਨਾਂ ਵਾਲੀ Resurrected Remix ਸੂਚੀ</string>
+    <string name="remixer_settings_style_original_summary">Android ਦੀ ਆਪਣੀ ਸੈਟਿੰਗਾਂ ਹੋਮ, ਬਿਨਾਂ ਛੇੜਛਾੜ ਦੇ</string>
+    <string name="remixer_settings_style_note">ਸੈਟਿੰਗਾਂ ਹੋਮ ਅਗਲੀ ਵਾਰ ਖੁੱਲ੍ਹਣ \'ਤੇ ਨਵੀਂ ਸ਼ੈਲੀ ਲਵੇਗਾ।</string>
 </resources>

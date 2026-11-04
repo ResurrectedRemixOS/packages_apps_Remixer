@@ -282,4 +282,10 @@
         <item>"Панель ліворуч"</item>
         <item>"Панель праворуч"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Колоритний</string>
+    <string name="remixer_settings_style_rr_v2_summary">Плитки категорій і картка пристрою, усе в колорі вашого акценту</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Кожна плитка категорії отримує власний відтінок, близький до акценту</string>
+    <string name="remixer_settings_style_rr_v1_summary">Список Resurrected Remix з неоновими кільцевими значками</string>
+    <string name="remixer_settings_style_original_summary">Головна сторінка налаштувань Android без змін</string>
+    <string name="remixer_settings_style_note">Головна сторінка налаштувань набуде нового стилю під час наступного відкриття.</string>
 </resources>

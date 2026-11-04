@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Што се прикажува во лентата</string>
     <string name="now_bar_show_page_summary">Музика и видео, тајмери, повици и повеќе</string>
     <string name="now_bar_where">Каде уште</string>
+    <string name="now_bar_pin_none">Нема. Допрете за да изберете апликација или задржете Live Update во лентата</string>
+    <string name="now_bar_pin_change">"Промени"</string>
+    <string name="now_bar_glance_settings">Поставки на апликацијата Google</string>
+    <string name="now_bar_glance_settings_summary">Каде се поставуваат At a Glance и неговите спортски известувања, кога Google апликацијата ги нуди на овој уред</string>
 </resources>

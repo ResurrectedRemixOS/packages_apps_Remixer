@@ -294,4 +294,10 @@
         <item>"ఎడమ వైపునకు వాలుగా"</item>
         <item>"కుడి వైపునకు వాలుగా"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · కలర్‌ఫుల్</string>
+    <string name="remixer_settings_style_rr_v2_summary">కేటగిరీ టైల్స్‌, డివైస్ కార్డ్ — అన్నీ మీ యాక్సెంట్ రంగులో</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">ప్రతి కేటగిరీ టైల్‌కు మీ యాక్సెంట్ దగ్గర ఉండే సొంత రంగు వస్తుంది</string>
+    <string name="remixer_settings_style_rr_v1_summary">నియాన్ రింగ్ ఐకాన్లతో Resurrected Remix జాబితా</string>
+    <string name="remixer_settings_style_original_summary">Android సెట్టింగ్స్ మొదటి స్క్రీన్‌, ఎటువంటి మార్పు లేకుండా</string>
+    <string name="remixer_settings_style_note">సెట్టింగ్స్ మొదటి స్క్రీన్ తదుపరిసారి తెరిచినప్పుడు కొత్త శైలిలో కనిపిస్తుంది.</string>
 </resources>

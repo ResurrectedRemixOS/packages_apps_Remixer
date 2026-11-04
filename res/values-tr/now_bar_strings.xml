@@ -107,4 +107,5 @@
     <string name="now_bar_show_page">Çubukta neler görünsün</string>
     <string name="now_bar_show_page_summary">Müzik ve video, zamanlayıcılar, aramalar ve daha fazlası</string>
     <string name="now_bar_where">Başka nerede</string>
+    <string name="now_bar_pin_change">"Değiştir"</string>
 </resources>

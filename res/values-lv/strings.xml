@@ -297,4 +297,10 @@
         <item>"Novirzīts pa kreisi"</item>
         <item>"Novirzīts pa labi"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Krāsains</string>
+    <string name="remixer_settings_style_rr_v2_summary">Kategoriju elementi un ierīces kartīte, visi tavā akcentkrāsā</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Katrs kategorijas elements iegūst savu toni tuvu akcentkrāsai</string>
+    <string name="remixer_settings_style_rr_v1_summary">Resurrected Remix saraksts ar neona zvana ikonām</string>
+    <string name="remixer_settings_style_original_summary">Android pašu Iestatījumu sākumlapa, nemainīta</string>
+    <string name="remixer_settings_style_note">Iestatījumu sākumlapa pārslēdzas uz jauno stilu, nākamreiz to atverot.</string>
 </resources>

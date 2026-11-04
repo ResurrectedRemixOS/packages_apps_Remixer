@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">பட்டியில் என்ன தெரியும்</string>
     <string name="now_bar_show_page_summary">இசை மற்றும் வீடியோ, டைமர்கள், அழைப்புகள் மற்றும் பல</string>
     <string name="now_bar_where">வேறு எங்கே</string>
+    <string name="now_bar_pin_none">எதுவும் இல்லை. ஒரு பயன்பாட்டைத் தேர்ந்தெடுக்கத் தட்டவும், அல்லது பட்டியில் நேரடி புதுப்பிப்பை அழுத்திப் பிடிக்கவும்</string>
+    <string name="now_bar_pin_change">"மாற்று"</string>
+    <string name="now_bar_glance_settings">Google பயன்பாட்டு அமைப்புகள்</string>
+    <string name="now_bar_glance_settings_summary">At a Glance மற்றும் அதன் Sports எங்கு அமைக்கப்படுகின்றன, இந்தச் சாதனத்தில் Google பயன்பாடு வழங்கும்போது</string>
 </resources>

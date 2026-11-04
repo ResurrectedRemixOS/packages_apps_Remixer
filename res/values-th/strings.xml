@@ -294,4 +294,10 @@
         <item>"เอนไปทางซ้าย"</item>
         <item>"เอนไปทางขวา"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · สีสันสด</string>
+    <string name="remixer_settings_style_rr_v2_summary">การ์ดหมวดหมู่และการ์ดอุปกรณ์ ทั้งหมดใช้สีเน้นของคุณ</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">การ์ดหมวดหมู่แต่ละใบใช้โทนสีใกล้เคียงกับสีเน้น</string>
+    <string name="remixer_settings_style_rr_v1_summary">รายการ Resurrected Remix พร้อมไอคอนวงแหวนนีออน</string>
+    <string name="remixer_settings_style_original_summary">หน้าหลักการตั้งค่าของ Android เดิม ไม่มีการเปลี่ยนแปลง</string>
+    <string name="remixer_settings_style_note">หน้าหลักการตั้งค่าจะใช้สไตล์ใหม่ในครั้งถัดไปที่เปิด</string>
 </resources>

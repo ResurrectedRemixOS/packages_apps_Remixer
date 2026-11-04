@@ -11,4 +11,5 @@
     <string name="now_bar_buttons">Botons</string>
     <string name="now_bar_text">Test</string>
     <string name="now_bar_text_size">Dimension test</string>
+    <string name="now_bar_pin_change">Cambie</string>
 </resources>

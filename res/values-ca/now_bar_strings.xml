@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Què es mostra a la barra</string>
     <string name="now_bar_show_page_summary">Música i vídeo, temporitzadors, trucades i més</string>
     <string name="now_bar_where">Què més</string>
+    <string name="now_bar_pin_none">Cap. Toca per triar una aplicació o mantén premuda una actualització en directe a la barra</string>
+    <string name="now_bar_pin_change">"Canvia"</string>
+    <string name="now_bar_glance_settings">Configuració de l\'aplicació Google</string>
+    <string name="now_bar_glance_settings_summary">On es configuren At a Glance i els seus Esports, quan l\'aplicació Google els ofereix en aquest dispositiu</string>
 </resources>

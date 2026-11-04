@@ -297,4 +297,10 @@
         <item>"Înclinat spre stânga"</item>
         <item>"Înclinat spre dreapta"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Colorful</string>
+    <string name="remixer_settings_style_rr_v2_summary">Plăcile de categorii și cardul dispozitivului, toate în culoarea ta de accent</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Fiecare placă de categorie primește propria nuanță, apropiată de accent</string>
+    <string name="remixer_settings_style_rr_v1_summary">Lista Resurrected Remix cu pictograme neon în inel</string>
+    <string name="remixer_settings_style_original_summary">Ecranul principal de Setări al Android, neschimbat</string>
+    <string name="remixer_settings_style_note">Ecranul principal de Setări preia noul stil la următoarea deschidere.</string>
 </resources>

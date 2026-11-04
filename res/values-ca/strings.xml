@@ -282,4 +282,10 @@
         <item>"Cap a l\'esquerra"</item>
         <item>"Cap a la dreta"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Colorful</string>
+    <string name="remixer_settings_style_rr_v2_summary">Mosaics de categoria i la targeta del dispositiu, tot amb el teu accent</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Cada mosaic de categoria pren el seu propi to proper al teu accent</string>
+    <string name="remixer_settings_style_rr_v1_summary">La llista de Resurrected Remix amb icones d\'anell de neó</string>
+    <string name="remixer_settings_style_original_summary">La pàgina d\'inici de Configuració d\'Android, sense canvis</string>
+    <string name="remixer_settings_style_note">La pàgina d\'inici de Configuració adoptarà el nou estil la propera vegada que s\'obri.</string>
 </resources>

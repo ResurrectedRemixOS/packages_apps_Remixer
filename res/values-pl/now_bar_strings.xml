@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Co pokazuje pasek</string>
     <string name="now_bar_show_page_summary">Muzyka i wideo, minutniki, połączenia i więcej</string>
     <string name="now_bar_where">Inne miejsca</string>
+    <string name="now_bar_pin_none">Brak. Dotknij, aby wybrać aplikację, lub przytrzymaj Aktualizację na żywo na pasku</string>
+    <string name="now_bar_pin_change">"Zmień"</string>
+    <string name="now_bar_glance_settings">Ustawienia aplikacji Google</string>
+    <string name="now_bar_glance_settings_summary">Miejsce konfiguracji funkcji „Na pierwszy rzut oka” i jej Sportów, gdy aplikacja Google oferuje je na tym urządzeniu</string>
 </resources>

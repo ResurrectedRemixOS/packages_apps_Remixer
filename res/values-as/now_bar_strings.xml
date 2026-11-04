@@ -101,4 +101,10 @@
     <string name="now_bar_show_page">বাৰত কি দেখা যায়</string>
     <string name="now_bar_show_page_summary">সংগীত আৰু ভিডিঅ\', টাইমাৰ, কল আৰু অধিক</string>
     <string name="now_bar_where">আন ক\'ত</string>
+    <string name="now_bar_hide_call_summary">লক স্ক্ৰীনত, Now Bar-ত থকা কল এটা জাননী হিচাপে তালিকাভুক্ত নহয়</string>
+    <string name="now_bar_pin_none">একো নাই। এপ বাছিবলৈ টিপক, নহ\'লে বাৰত এটা লাইভ আপডেট দীঘলীয়াকৈ টিপক</string>
+    <string name="now_bar_pin_change">"সলনি কৰক"</string>
+    <string name="now_bar_glance_settings">Google এপৰ ছেটিং</string>
+    <string name="now_bar_glance_settings_summary">এই ডিভাইচত Google এপে যেতিয়া প্ৰস্তাৱ দিয়ে, At a Glance আৰু ইয়াৰ ক্ৰীড়া কেনেকৈ ছেট কৰা হয়</string>
+    <string name="now_bar_footer">Now Bar-ত সংগীত থাকিলে, ডাঙৰ লক স্ক্ৰীন প্লেয়াৰ লুকাই থাকে। কাৰ্যকলাপ সলনি কৰিবলৈ বাৰটো ছোৱাইপ কৰক, নিয়ন্ত্ৰণ খুলিবলৈ টিপক, আৰু শেষ নহালৈকে এটা লুকুৱাবলৈ দীঘলীয়াকৈ টিপক। বিৰতি দিয়া গীত বাৰৰ পৰা আঁতৰাবলৈ ছোৱাইপ কৰক।\n\nGoogle এপত আপুনি অনুসৰণ কৰা দলৰ জীৱন্ত স্ক্ৰ\'ৰ দেখুওৱা হয়। Smartspacer ৰ সৈতে তাত এটা ক্ৰীড়া লক্ষ্য যোগ কৰিলে, তাৰ স্ক্ৰ\'ৰ ইয়াতো দেখা যাব।</string>
 </resources>

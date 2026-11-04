@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Тилкеде эмне көрсөтүлөт</string>
     <string name="now_bar_show_page_summary">Музыка жана видео, таймерлер, чалуулар жана башкалар</string>
     <string name="now_bar_where">Дагы кайда</string>
+    <string name="now_bar_pin_none">Жок. Колдонмо тандоо үчүн басыңыз же тилкедеги Live Update кармаңыз</string>
+    <string name="now_bar_pin_change">"Өзгөртүү"</string>
+    <string name="now_bar_glance_settings">Google колдонмосунун параметрлери</string>
+    <string name="now_bar_glance_settings_summary">Түзмөктө Google колдонмосу сунуш кылганда, At a Glance жана анын Sports бөлүмдөрү кайда орнотулары</string>
 </resources>

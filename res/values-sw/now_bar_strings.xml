@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Kinachoonekana kwenye upau</string>
     <string name="now_bar_show_page_summary">Muziki na video, vipima muda, simu na zaidi</string>
     <string name="now_bar_where">Mahali pengine</string>
+    <string name="now_bar_pin_none">Hakuna. Gusa ili uchague programu, au bonyeza kwa muda Sasisho la Moja kwa Moja kwenye sehemu hii</string>
+    <string name="now_bar_pin_change">"Badilisha"</string>
+    <string name="now_bar_glance_settings">Mipangilio ya programu ya Google</string>
+    <string name="now_bar_glance_settings_summary">Mahali ambapo At a Glance na Michezo yake zinawekwa, pale programu ya Google inapozitoa kwenye kifaa hiki</string>
 </resources>

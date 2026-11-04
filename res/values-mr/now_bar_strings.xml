@@ -102,4 +102,10 @@
     <string name="now_bar_show_page">बारमध्ये काय दिसते</string>
     <string name="now_bar_show_page_summary">संगीत आणि व्हिडिओ, टायमर, कॉल आणि बरेच काही</string>
     <string name="now_bar_where">आणखी कुठे</string>
+    <string name="now_bar_hide_call_summary">लॉक स्क्रीनवर, Now Bar मधील कॉल सूचना म्हणून पुन्हा दाखवला जात नाही</string>
+    <string name="now_bar_pin_none">काहीही नाही. ॲप निवडण्यासाठी टॅप करा, किंवा बारमधील लाईव्ह अपडेट दाबून ठेवा</string>
+    <string name="now_bar_pin_change">"बदला"</string>
+    <string name="now_bar_glance_settings">Google ॲप सेटिंग्ज</string>
+    <string name="now_bar_glance_settings_summary">ॲट अ ग्लान्स आणि त्याचे स्पोर्ट्स कुठे सेट करायचे, जेव्हा हे डिव्हाइसवर Google ॲप देते</string>
+    <string name="now_bar_footer">Now Bar मध्ये संगीत सुरू असताना, मोठा लॉक स्क्रीन प्लेयर लपवला जातो. बार स्वाइप करून क्रिया बदला, टॅप करून नियंत्रणे उघडा आणि एखादी क्रिया संपेपर्यंत लपवण्यासाठी दाबून धरा. थांबलेले गाणे बारमधून काढण्यासाठी ते स्वाइप करा.\n\nGoogle ॲपमध्ये तुम्ही फॉलो करत असलेल्या संघांचे लाईव्ह स्कोअर दाखवले जातात. Smartspacer सह तिथे स्पोर्ट्स टार्गेट जोडल्यास त्यांचे स्कोअर येथे दिसतील.</string>
 </resources>

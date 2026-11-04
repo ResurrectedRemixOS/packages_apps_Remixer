@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Самбарт юу харагдах вэ</string>
     <string name="now_bar_show_page_summary">Хөгжим ба видео, таймер, дуудлага болон бусад</string>
     <string name="now_bar_where">Бусад газар</string>
+    <string name="now_bar_pin_none">Байхгүй. Апп сонгох бол товшино уу, эсвэл нарийн мэдээллийн мөрөнд Live Update-г удаан дарна уу</string>
+    <string name="now_bar_pin_change">"Өөрчлөх"</string>
+    <string name="now_bar_glance_settings">Google аппын тохиргоо</string>
+    <string name="now_bar_glance_settings_summary">At a Glance болон түүний Sports-ийг хаана тохируулах, Google апп энэ төхөөрөмж дээр санал болгох үед</string>
 </resources>

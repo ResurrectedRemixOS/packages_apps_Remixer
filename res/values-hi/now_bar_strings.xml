@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">बार में क्या दिखेगा</string>
     <string name="now_bar_show_page_summary">संगीत और वीडियो, टाइमर, कॉल और बहुत कुछ</string>
     <string name="now_bar_where">और कहां</string>
+    <string name="now_bar_pin_none">कोई नहीं। ऐप चुनने के लिए टैप करें, या बार में लाइव अपडेट को दबाकर रखें</string>
+    <string name="now_bar_pin_change">"बदलें"</string>
+    <string name="now_bar_glance_settings">Google ऐप सेटिंग्स</string>
+    <string name="now_bar_glance_settings_summary">At a Glance और उसके Sports कहां सेट होते हैं, जब Google ऐप इस डिवाइस पर इन्हें उपलब्ध कराए</string>
 </resources>

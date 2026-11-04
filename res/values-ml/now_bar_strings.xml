@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">ബാറിൽ കാണിക്കുന്നത്</string>
     <string name="now_bar_show_page_summary">സംഗീതവും വീഡിയോയും, ടൈമറുകൾ, കോളുകളും മറ്റും</string>
     <string name="now_bar_where">മറ്റ് സ്ഥലങ്ങൾ</string>
+    <string name="now_bar_pin_none">ഒന്നുമില്ല. ആപ്പ് തിരഞ്ഞെടുക്കാൻ ടാപ്പ് ചെയ്യുക, അല്ലെങ്കിൽ ബാറിലെ ലൈവ് അപ്ഡേറ്റ് അമർത്തിപ്പിടിക്കുക</string>
+    <string name="now_bar_pin_change">"മാറ്റുക"</string>
+    <string name="now_bar_glance_settings">Google ആപ്പ് ക്രമീകരണം</string>
+    <string name="now_bar_glance_settings_summary">ഈ ഉപകരണത്തിൽ Google ആപ്പ് നൽകുമ്പോൾ, At a Glance-ഉം അതിന്റെ Sports-ഉം സജ്ജീകരിക്കുന്ന ഇടം</string>
 </resources>

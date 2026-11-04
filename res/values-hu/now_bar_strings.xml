@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Mi jelenik meg a sávon</string>
     <string name="now_bar_show_page_summary">Zene és videó, időzítők, hívások és egyebek</string>
     <string name="now_bar_where">Egyéb helyek</string>
+    <string name="now_bar_pin_none">Nincs. Koppints egy alkalmazás kiválasztásához, vagy tartsd lenyomva az élő frissítést a sávban</string>
+    <string name="now_bar_pin_change">"Módosítás"</string>
+    <string name="now_bar_glance_settings">Google-alkalmazás beállításai</string>
+    <string name="now_bar_glance_settings_summary">Ahol a Pillanatnyi nézet és a Sportok beállíthatók, ha a Google-alkalmazás felajánlja ezen az eszközön</string>
 </resources>

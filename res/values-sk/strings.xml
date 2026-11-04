@@ -282,4 +282,10 @@
         <item>"Naklonená doľava"</item>
         <item>"Naklonená doprava"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Farebný</string>
+    <string name="remixer_settings_style_rr_v2_summary">Kategórie a karta zariadenia, všetko vo vašej farbe zvýraznenia</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Každá kategória má vlastný odtieň blízky farbe zvýraznenia</string>
+    <string name="remixer_settings_style_rr_v1_summary">Zoznam Resurrected Remix s neónovými ikonami krúžkov</string>
+    <string name="remixer_settings_style_original_summary">Domovská stránka Nastavení systému Android bez zmien</string>
+    <string name="remixer_settings_style_note">Domovská stránka Nastavení prevezme nový štýl pri ďalšom otvorení.</string>
 </resources>

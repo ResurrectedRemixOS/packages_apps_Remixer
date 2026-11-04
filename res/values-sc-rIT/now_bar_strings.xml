@@ -10,4 +10,5 @@
     <string name="now_bar_music_category">Mùsica</string>
     <string name="now_bar_buttons">Butones</string>
     <string name="now_bar_text">Testu</string>
+    <string name="now_bar_pin_change">Muda</string>
 </resources>

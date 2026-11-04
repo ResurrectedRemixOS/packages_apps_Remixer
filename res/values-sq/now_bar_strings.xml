@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Çfarë shfaqet në shirit</string>
     <string name="now_bar_show_page_summary">Muzika dhe video, kohëmatësit, thirrjet e më shumë</string>
     <string name="now_bar_where">Ku tjetër</string>
+    <string name="now_bar_pin_none">Asnjë. Prek për të zgjedhur një aplikacion, ose mbaj të shtypur një Përditësim të drejtpërdrejtë në shirit</string>
+    <string name="now_bar_pin_change">"Ndrysho"</string>
+    <string name="now_bar_glance_settings">Cilësimet e aplikacionit Google</string>
+    <string name="now_bar_glance_settings_summary">Ku vendosen Një Vështrim dhe Sportet e tij, kur aplikacioni Google i ofron në këtë pajisje</string>
 </resources>

@@ -294,4 +294,10 @@
         <item>"متمایل به چپ"</item>
         <item>"متمایل به راست"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · رنگی</string>
+    <string name="remixer_settings_style_rr_v2_summary">کاشی‌های دسته‌بندی و کارت دستگاه، همه در رنگ تأکیدی شما</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">هر کاشی دسته‌بندی سایهٔ خاص خود را نزدیک به رنگ تأکیدی شما می‌گیرد</string>
+    <string name="remixer_settings_style_rr_v1_summary">فهرست Resurrected Remix با نمادهای حلقهٔ نئونی</string>
+    <string name="remixer_settings_style_original_summary">صفحهٔ اصلی تنظیمات خود اندروید، بدون تغییر</string>
+    <string name="remixer_settings_style_note">صفحهٔ اصلی تنظیمات پس از بازشدن دفعهٔ بعد، سبک جدید را می‌گیرد.</string>
 </resources>

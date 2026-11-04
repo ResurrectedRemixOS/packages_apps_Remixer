@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">ما يظهر في الشريط</string>
     <string name="now_bar_show_page_summary">الموسيقى والفيديو والمؤقتات والمكالمات وغيرها</string>
     <string name="now_bar_where">أماكن أخرى</string>
+    <string name="now_bar_pin_none">لا شيء. اضغط لاختيار تطبيق، أو اضغط مطولاً على تحديث مباشر في الشريط</string>
+    <string name="now_bar_pin_change">"تغيير"</string>
+    <string name="now_bar_glance_settings">إعدادات تطبيق Google</string>
+    <string name="now_bar_glance_settings_summary">مكان ضبط \"نظرة سريعة\" وقسم الرياضة فيها، عندما يتيح تطبيق Google ذلك على هذا الجهاز</string>
 </resources>

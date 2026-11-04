@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Што паказваецца на панэлі</string>
     <string name="now_bar_show_page_summary">Музыка і відэа, таймеры, выклікі і іншае</string>
     <string name="now_bar_where">Дзе яшчэ</string>
+    <string name="now_bar_pin_none">Няма. Націсніце, каб выбраць праграму, або ўтрымлівайце Live Update у панэлі</string>
+    <string name="now_bar_pin_change">"Змяніць"</string>
+    <string name="now_bar_glance_settings">Налады праграмы Google</string>
+    <string name="now_bar_glance_settings_summary">Тут настройваюцца At a Glance і яго Sports, калі праграма Google прапануе іх на гэтай прыладзе</string>
 </resources>

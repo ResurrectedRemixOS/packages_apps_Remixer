@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Palkissa näkyvä sisältö</string>
     <string name="now_bar_show_page_summary">Musiikki ja video, ajastimet, puhelut ja muuta</string>
     <string name="now_bar_where">Muu</string>
+    <string name="now_bar_pin_none">Ei mitään. Napauta valitaksesi sovelluksen tai pidä Live Update -ilmoitusta palkissa painettuna</string>
+    <string name="now_bar_pin_change">"Muuta"</string>
+    <string name="now_bar_glance_settings">Google-sovelluksen asetukset</string>
+    <string name="now_bar_glance_settings_summary">Paikka, jossa At a Glance ja sen Urheilu asetetaan, kun Google-sovellus tarjoaa niitä tässä laitteessa</string>
 </resources>

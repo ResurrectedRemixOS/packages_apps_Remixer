@@ -282,4 +282,10 @@
         <item>"Уз леву страну"</item>
         <item>"Уз десну страну"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Шарена</string>
+    <string name="remixer_settings_style_rr_v2_summary">Плочице категорија и картица уређаја, све у вашој боји акцента</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Свака плочица категорије добија своју нијансу близу боје акцента</string>
+    <string name="remixer_settings_style_rr_v1_summary">Листа Resurrected Remix са неоновим иконама прстена</string>
+    <string name="remixer_settings_style_original_summary">Android-ов почетни екран Подешавања, без измена</string>
+    <string name="remixer_settings_style_note">Почетни екран Подешавања добија нови стил при следећем отварању.</string>
 </resources>

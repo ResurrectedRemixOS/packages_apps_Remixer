@@ -306,4 +306,10 @@
         <item>"Nghiêng sang trái"</item>
         <item>"Nghiêng sang phải"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Nhiều màu</string>
+    <string name="remixer_settings_style_rr_v2_summary">Ô danh mục và thẻ thiết bị, đều theo màu nhấn của bạn</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Mỗi ô danh mục có sắc thái riêng gần với màu nhấn của bạn</string>
+    <string name="remixer_settings_style_rr_v1_summary">Danh sách Resurrected Remix với biểu tượng vòng neon</string>
+    <string name="remixer_settings_style_original_summary">Màn hình chính Cài đặt của Android, giữ nguyên</string>
+    <string name="remixer_settings_style_note">Màn hình chính Cài đặt sẽ áp dụng kiểu mới lần tới khi bạn mở.</string>
 </resources>

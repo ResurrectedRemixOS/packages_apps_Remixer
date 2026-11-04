@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">بار میں کیا دکھائی دے</string>
     <string name="now_bar_show_page_summary">موسیقی اور ویڈیو، ٹائمرز، کالز اور مزید</string>
     <string name="now_bar_where">اور کہاں</string>
+    <string name="now_bar_pin_none">کوئی نہیں۔ ایپ چننے کے لیے ٹیپ کریں، یا بار میں کوئی لائیو اپڈیٹ دبا کر رکھیں</string>
+    <string name="now_bar_pin_change">"تبدیل کریں"</string>
+    <string name="now_bar_glance_settings">Google ایپ کی ترتیبات</string>
+    <string name="now_bar_glance_settings_summary">At a Glance اور اس کے Sports کہاں سیٹ ہوتے ہیں، جب Google ایپ اس ڈیوائس پر انہیں پیش کرے</string>
 </resources>

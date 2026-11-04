@@ -303,4 +303,10 @@
         <item>"ወደ ግራ ያዘነበለ"</item>
         <item>"ወደ ቀኝ ያዘነበለ"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · ባለ ቀለም</string>
+    <string name="remixer_settings_style_rr_v2_summary">የምድብ ሰቆችና የመሣሪያ ካርድ፣ ሁሉም በአክሰንትዎ</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">እያንዳንዱ የምድብ ሰቅ ከአክሰንትዎ አጠገብ የራሱን ቀለም ይይዛል</string>
+    <string name="remixer_settings_style_rr_v1_summary">የResurrected Remix ዝርዝር ከኒዮን ቀለበት አዶዎች ጋር</string>
+    <string name="remixer_settings_style_original_summary">የአንድሮይድ የራሱ የቅንብሮች መነሻ ገፅ፣ ሳይነካ</string>
+    <string name="remixer_settings_style_note">የቅንብሮች መነሻ ገፅ ቀጣይ ጊዜ ሲከፈት አዲሱን ዘይቤ ይይዛል።</string>
 </resources>

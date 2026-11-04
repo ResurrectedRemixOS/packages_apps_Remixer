@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">ສິ່ງທີ່ສະແດງໃນແຖບ</string>
     <string name="now_bar_show_page_summary">ເພງ ແລະ ວິດີໂອ, ໂຕຈັບເວລາ, ການໂທ ແລະ ອື່ນໆ</string>
     <string name="now_bar_where">ບ່ອນອື່ນ</string>
+    <string name="now_bar_pin_none">ບໍ່ມີ. ແຕະເພື່ອເລືອກແອັບ ຫຼື ກົດຄ້າງທີ່ Live Update ໃນແຖບ</string>
+    <string name="now_bar_pin_change">"ປ່ຽນ"</string>
+    <string name="now_bar_glance_settings">ການຕັ້ງຄ່າແອັບ Google</string>
+    <string name="now_bar_glance_settings_summary">ບ່ອນຕັ້ງຄ່າ At a Glance ແລະ Sports ເມື່ອແອັບ Google ເປີດໃຫ້ໃຊ້ໃນອຸປະກອນນີ້</string>
 </resources>

@@ -282,4 +282,10 @@
         <item>"වමට-හැරුණු"</item>
         <item>"දකුණට-හැරුණු"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · වර්ණවත්</string>
+    <string name="remixer_settings_style_rr_v2_summary">ප්‍රවර්ග කැබලි සහ උපාංග කාඩ්පත, සියල්ල ඔබේ උච්චාරණ වර්ණයෙන්</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">සෑම ප්‍රවර්ග කැබැල්ලක්ම උච්චාරණ වර්ණයට සමීප තමන්ගේම වර්ණය ගනී</string>
+    <string name="remixer_settings_style_rr_v1_summary">නියොන් වළල්ල් නිරූපක සහිත Resurrected Remix ලැයිස්තුව</string>
+    <string name="remixer_settings_style_original_summary">Android හි සැකසීම් මුල් පිටුව, අවිකෘතිව</string>
+    <string name="remixer_settings_style_note">සැකසීම් මුල් පිටුව ඊළඟ වරට විවෘත වන විට නව ශෛලිය ලබයි.</string>
 </resources>

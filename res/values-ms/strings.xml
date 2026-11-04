@@ -282,4 +282,10 @@
         <item>"Jajar ke kiri"</item>
         <item>"Jajar ke kanan"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Berwarna-warni</string>
+    <string name="remixer_settings_style_rr_v2_summary">Jubin kategori dan kad peranti, semuanya dalam warna aksen anda</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Setiap jubin kategori mengambil warna sendiri yang hampir dengan warna aksen anda</string>
+    <string name="remixer_settings_style_rr_v1_summary">Senarai Resurrected Remix dengan ikon cincin neon</string>
+    <string name="remixer_settings_style_original_summary">Skrin utama Tetapan Android yang asal, tidak diubah</string>
+    <string name="remixer_settings_style_note">Skrin utama Tetapan akan menggunakan gaya baharu apabila ia dibuka semula.</string>
 </resources>

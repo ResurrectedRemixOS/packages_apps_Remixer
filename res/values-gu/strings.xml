@@ -294,4 +294,10 @@
         <item>"ડાબી બાજુએ ઢળતું"</item>
         <item>"જમણી બાજુએ ઢળતું"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · રંગીન</string>
+    <string name="remixer_settings_style_rr_v2_summary">કેટેગરી ટાઇલ્સ અને ડિવાઇસ કાર્ડ, બધું તમારા ઍક્સેન્ટ રંગમાં</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">દરેક કેટેગરી ટાઇલ તમારા ઍક્સેન્ટ નજીકનો પોતાનો રંગ લે છે</string>
+    <string name="remixer_settings_style_rr_v1_summary">નિયોન રિંગ આઇકન સાથે Resurrected Remix સૂચિ</string>
+    <string name="remixer_settings_style_original_summary">Android નું પોતાનું સેટિંગ્સ હોમ, જેમ છે તેમ</string>
+    <string name="remixer_settings_style_note">સેટિંગ્સ હોમ આગલી વખતે ખુલશે ત્યારે નવી શૈલી લેશે.</string>
 </resources>

@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">バーに表示する内容</string>
     <string name="now_bar_show_page_summary">音楽と動画、タイマー、通話など</string>
     <string name="now_bar_where">その他</string>
+    <string name="now_bar_pin_none">なし。タップしてアプリを選択するか、バーのライブ アップデートを長押ししてください</string>
+    <string name="now_bar_pin_change">"変更"</string>
+    <string name="now_bar_glance_settings">Google アプリの設定</string>
+    <string name="now_bar_glance_settings_summary">このデバイスで Google アプリが提供している場合に、「At a Glance」とそのスポーツ情報を設定する場所</string>
 </resources>

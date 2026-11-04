@@ -12,4 +12,5 @@
     <string name="now_bar_buttons">Putanan</string>
     <string name="now_bar_text">Teacsa</string>
     <string name="now_bar_text_size">Meud an teacsa</string>
+    <string name="now_bar_pin_change">Atharraich</string>
 </resources>

@@ -294,4 +294,10 @@
         <item>"Vasemmanpuoleinen"</item>
         <item>"Oikeanpuoleinen"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Värikäs</string>
+    <string name="remixer_settings_style_rr_v2_summary">Luokkien laatat ja laitekortti, kaikki korostusvärissäsi</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Jokainen luokkalaatta saa oman sävynsä lähellä korostusväriäsi</string>
+    <string name="remixer_settings_style_rr_v1_summary">Resurrected Remix -lista neonrengaskuvakkeilla</string>
+    <string name="remixer_settings_style_original_summary">Androidin oma Asetukset-etusivu, ennallaan</string>
+    <string name="remixer_settings_style_note">Asetukset-etusivu ottaa uuden tyylin seuraavan kerran, kun se avataan.</string>
 </resources>

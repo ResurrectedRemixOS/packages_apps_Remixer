@@ -300,4 +300,10 @@
         <item>"Со сдвигом влево"</item>
         <item>"Со сдвигом вправо"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Colorful</string>
+    <string name="remixer_settings_style_rr_v2_summary">Плитки категорий и карточка устройства — всё в вашем акценте</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Каждая плитка категории получает свой оттенок, близкий к акценту</string>
+    <string name="remixer_settings_style_rr_v1_summary">Список Resurrected Remix с неоновыми значками колец</string>
+    <string name="remixer_settings_style_original_summary">Исходный главный экран настроек Android без изменений</string>
+    <string name="remixer_settings_style_note">Главный экран настроек получит новый стиль при следующем открытии.</string>
 </resources>

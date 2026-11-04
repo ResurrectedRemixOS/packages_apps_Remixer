@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">바에 표시할 항목</string>
     <string name="now_bar_show_page_summary">음악 및 동영상, 타이머, 통화 등</string>
     <string name="now_bar_where">기타 위치</string>
+    <string name="now_bar_pin_none">없음. 탭하여 앱을 선택하거나 막대에서 실시간 업데이트를 길게 누르세요</string>
+    <string name="now_bar_pin_change">"변경"</string>
+    <string name="now_bar_glance_settings">Google 앱 설정</string>
+    <string name="now_bar_glance_settings_summary">기기에서 Google 앱이 제공하는 경우, Now 카드와 스포츠 항목을 설정하는 곳</string>
 </resources>

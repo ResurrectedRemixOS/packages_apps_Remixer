@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Okubonakala kwebha</string>
     <string name="now_bar_show_page_summary">Umculo nevidiyo, izibali-sikhathi, amakholi nokunye</string>
     <string name="now_bar_where">Okunye okuphezulu</string>
+    <string name="now_bar_pin_none">Akukho lutho. Thepha ukuze ukhethe uhlelo lokusebenza, noma bamba isibuyekezo esiphilayo kubha</string>
+    <string name="now_bar_pin_change">"Shintsha"</string>
+    <string name="now_bar_glance_settings">Izilungiselelo zohlelo lokusebenza lweGoogle</string>
+    <string name="now_bar_glance_settings_summary">Lapho i-At a Glance nezindaba zayo zisethwa khona, uma uhlelo lokusebenza lweGoogle lubanikeza kule divayisi</string>
 </resources>

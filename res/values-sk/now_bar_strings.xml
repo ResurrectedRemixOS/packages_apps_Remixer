@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Čo sa zobrazuje v lište</string>
     <string name="now_bar_show_page_summary">Hudba a video, časovače, hovory a ďalšie</string>
     <string name="now_bar_where">Kde inde</string>
+    <string name="now_bar_pin_none">Žiadna. Klepnutím vyberte aplikáciu alebo podržte Live Update na paneli</string>
+    <string name="now_bar_pin_change">"Zmeniť"</string>
+    <string name="now_bar_glance_settings">Nastavenia aplikácie Google</string>
+    <string name="now_bar_glance_settings_summary">Miesto, kde sa nastavujú Na prvý pohľad a jeho Športy, ak ich aplikácia Google na tomto zariadení ponúka</string>
 </resources>

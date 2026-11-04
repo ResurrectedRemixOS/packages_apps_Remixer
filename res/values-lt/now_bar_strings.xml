@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Kas rodoma juostoje</string>
     <string name="now_bar_show_page_summary">Muzika ir vaizdo įrašai, laikmačiai, skambučiai ir kita</string>
     <string name="now_bar_where">Kitur</string>
+    <string name="now_bar_pin_none">Nėra. Palieskite, kad pasirinktumėte programą, arba palaikykite Live Update juostoje</string>
+    <string name="now_bar_pin_change">"Keisti"</string>
+    <string name="now_bar_glance_settings">Google programos nustatymai</string>
+    <string name="now_bar_glance_settings_summary">Vieta, kur nustatoma „At a Glance“ ir jos Sports, kai Google programa tai siūlo šiame įrenginyje</string>
 </resources>

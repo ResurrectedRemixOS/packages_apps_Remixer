@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Hvad der vises i bjælken</string>
     <string name="now_bar_show_page_summary">Musik og video, timere, opkald og mere</string>
     <string name="now_bar_where">Andre steder</string>
+    <string name="now_bar_pin_none">Ingen. Tryk for at vælge en app, eller hold på en liveopdatering i statuslinjen</string>
+    <string name="now_bar_pin_change">"Skift"</string>
+    <string name="now_bar_glance_settings">Google-appens indstillinger</string>
+    <string name="now_bar_glance_settings_summary">Hvor At a Glance og dets Sport konfigureres, når Google-appen tilbyder dem på denne enhed</string>
 </resources>

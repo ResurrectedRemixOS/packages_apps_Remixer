@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Yang dipaparkan dalam bar</string>
     <string name="now_bar_show_page_summary">Muzik dan video, pemasa, panggilan dan lain-lain</string>
     <string name="now_bar_where">Di tempat lain</string>
+    <string name="now_bar_pin_none">Tiada. Ketik untuk pilih aplikasi, atau tahan Kemas Kini Langsung dalam bar</string>
+    <string name="now_bar_pin_change">"Tukar"</string>
+    <string name="now_bar_glance_settings">Tetapan aplikasi Google</string>
+    <string name="now_bar_glance_settings_summary">Tempat Pada Sekilas Pandang dan Sukannya disediakan, apabila aplikasi Google menawarkannya pada peranti ini</string>
 </resources>

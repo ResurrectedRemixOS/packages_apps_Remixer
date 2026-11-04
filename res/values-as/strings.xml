@@ -282,4 +282,10 @@
         <item>"বাওঁফালে হালি যোৱা"</item>
         <item>"সোঁফালে হালি যোৱা"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Colorful</string>
+    <string name="remixer_settings_style_rr_v2_summary">শ্ৰেণী টাইল আৰু ডিভাইচ কাৰ্ড, সকলো আপোনাৰ এক্সেণ্ট ৰঙত</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">প্ৰতিটো শ্ৰেণী টাইলে আপোনাৰ এক্সেণ্টৰ ওচৰৰ নিজা ৰং লয়</string>
+    <string name="remixer_settings_style_rr_v1_summary">নিয়ন ৰিং আইকনৰ সৈতে Resurrected Remix তালিকা</string>
+    <string name="remixer_settings_style_original_summary">Android ৰ নিজা ছেটিংৰ গৃহ, অপৰিৱৰ্তিত</string>
+    <string name="remixer_settings_style_note">ছেটিংৰ গৃহই পৰৱৰ্তী বাৰ খোলাৰ সময়ত নতুন শৈলী লয়।</string>
 </resources>

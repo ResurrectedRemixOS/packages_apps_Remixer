@@ -303,4 +303,10 @@
         <item>"Αριστερού προσανατολισμού"</item>
         <item>"Δεξιού προσανατολισμού"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Colorful</string>
+    <string name="remixer_settings_style_rr_v2_summary">Κάρτες κατηγοριών και της συσκευής, όλες στο τονικό σας χρώμα</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Κάθε κάρτα κατηγορίας παίρνει τη δική της απόχρωση κοντά στο τονικό σας χρώμα</string>
+    <string name="remixer_settings_style_rr_v1_summary">Η λίστα του Resurrected Remix με εικονίδια neon δακτυλίων</string>
+    <string name="remixer_settings_style_original_summary">Η αρχική οθόνη των Ρυθμίσεων του Android, αμετάβλητη</string>
+    <string name="remixer_settings_style_note">Η αρχική οθόνη των Ρυθμίσεων παίρνει το νέο στυλ την επόμενη φορά που θα ανοίξει.</string>
 </resources>

@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Vad som visas i fältet</string>
     <string name="now_bar_show_page_summary">Musik och video, timers, samtal och mer</string>
     <string name="now_bar_where">Övrigt</string>
+    <string name="now_bar_pin_none">Ingen. Tryck för att välja en app, eller håll in en livesändning i fältet</string>
+    <string name="now_bar_pin_change">"Ändra"</string>
+    <string name="now_bar_glance_settings">Inställningar för Google-appen</string>
+    <string name="now_bar_glance_settings_summary">Där At a Glance och dess Sports ställs in, när Google-appen erbjuder dem på den här enheten</string>
 </resources>

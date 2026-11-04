@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">რა გამოჩნდეს ზოლში</string>
     <string name="now_bar_show_page_summary">მუსიკა და ვიდეო, ტაიმერები, ზარები და სხვა</string>
     <string name="now_bar_where">სხვა ადგილები</string>
+    <string name="now_bar_pin_none">არცერთი. შეეხეთ აპის ასარჩევად, ან დააჭირეთ და ეკიდეთ მიმდინარე განახლებას ზოლში</string>
+    <string name="now_bar_pin_change">"შეცვლა"</string>
+    <string name="now_bar_glance_settings">Google აპის პარამეტრები</string>
+    <string name="now_bar_glance_settings_summary">სადაც იგება At a Glance და მისი Sports, როცა Google აპი ამ მოწყობილობაზე მათ სთავაზობს</string>
 </resources>

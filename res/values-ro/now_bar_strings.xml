@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">Ce apare în bară</string>
     <string name="now_bar_show_page_summary">Muzică și video, cronometre, apeluri și altele</string>
     <string name="now_bar_where">Altele</string>
+    <string name="now_bar_pin_none">Niciuna. Atinge pentru a alege o aplicație sau ține apăsat o Actualizare live în bară</string>
+    <string name="now_bar_pin_change">"Modifică"</string>
+    <string name="now_bar_glance_settings">Setările aplicației Google</string>
+    <string name="now_bar_glance_settings_summary">Unde se configurează Privire rapidă și Sporturile sale, când aplicația Google le oferă pe acest dispozitiv</string>
 </resources>

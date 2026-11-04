@@ -291,4 +291,10 @@
         <item>"ផ្អៀង​ទៅ​ឆ្វេង"</item>
         <item>"ផ្អៀង​ទៅ​ស្តាំ"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · ពណ៌ចម្រុះ</string>
+    <string name="remixer_settings_style_rr_v2_summary">ប្រអប់ប្រភេទ និងកាតឧបករណ៍ ទាំងអស់ក្នុងពណ៌ដៃរបស់អ្នក</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">ប្រអប់ប្រភេទនីមួយៗទទួលពណ៌ផ្ទាល់ខ្លួនជិតពណ៌ដៃរបស់អ្នក</string>
+    <string name="remixer_settings_style_rr_v1_summary">បញ្ជី Resurrected Remix ជាមួយរូបតំណាងរង្វង់ neon</string>
+    <string name="remixer_settings_style_original_summary">អេក្រង់ដើមការកំណត់របស់ Android ដដែល មិនបានផ្លាស់ប្តូរ</string>
+    <string name="remixer_settings_style_note">អេក្រង់ដើមការកំណត់នឹងប្រើរចនាបថថ្មីនៅពេលបើកលើកក្រោយ។</string>
 </resources>

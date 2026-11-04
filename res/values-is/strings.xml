@@ -294,4 +294,10 @@
         <item>"Hallar til vinstri"</item>
         <item>"Hallar til hægri"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Litríkt</string>
+    <string name="remixer_settings_style_rr_v2_summary">Flokkaflísar og tækjakortið, allt í áherslulitnum þínum</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Hver flokksflís fær sinn eigin lit sem fellur nálægt áherslulitnum</string>
+    <string name="remixer_settings_style_rr_v1_summary">Resurrected Remix listinn með neon-hringtáknum</string>
+    <string name="remixer_settings_style_original_summary">Upphafssíða stillinga Android, óbreytt</string>
+    <string name="remixer_settings_style_note">Upphafssíða stillinga fær nýja útlitið næst þegar hún er opnuð.</string>
 </resources>

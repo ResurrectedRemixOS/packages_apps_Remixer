@@ -104,4 +104,8 @@
     <string name="now_bar_show_page">බාරයේ පෙන්වන දේ</string>
     <string name="now_bar_show_page_summary">සංගීතය සහ වීඩියෝ, කාලමාපක, ඇමතුම් සහ තවත් දේ</string>
     <string name="now_bar_where">තවත් තැන්</string>
+    <string name="now_bar_pin_none">කිසිවක් නැත. යෙදුමක් තේරීමට තට්ටු කරන්න, හෝ තීරුවේ සජීවී යාවත්කාලීනයක් අල්ලා ගන්න</string>
+    <string name="now_bar_pin_change">"වෙනස් කරන්න"</string>
+    <string name="now_bar_glance_settings">Google යෙදුම් සැකසීම්</string>
+    <string name="now_bar_glance_settings_summary">මෙම උපාංගයේ Google යෙදුම එය ඉදිරිපත් කරන විට, At a Glance සහ එහි Sports සකසන ස්ථානය</string>
 </resources>

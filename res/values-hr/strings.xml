@@ -282,4 +282,10 @@
         <item>"Pretežno slijeva"</item>
         <item>"Pretežno zdesna"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · Colorful</string>
+    <string name="remixer_settings_style_rr_v2_summary">Kategorijske pločice i kartica uređaja, sve u tvojoj naglašenoj boji</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Svaka kategorijska pločica dobiva vlastiti ton blizak naglašenoj boji</string>
+    <string name="remixer_settings_style_rr_v1_summary">Popis Resurrected Remix s neonskim ikonama prstena</string>
+    <string name="remixer_settings_style_original_summary">Android-ov vlastiti početni zaslon Postavki, nepromijenjen</string>
+    <string name="remixer_settings_style_note">Početni zaslon Postavki poprimit će novi stil sljedeći put kad se otvori.</string>
 </resources>

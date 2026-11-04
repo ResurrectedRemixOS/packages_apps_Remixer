@@ -291,4 +291,10 @@
         <item>"靠左"</item>
         <item>"靠右"</item>
     </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 · 多彩</string>
+    <string name="remixer_settings_style_rr_v2_summary">分類設定方塊和裝置卡片，全部使用你的強調色</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">每個分類設定方塊使用接近你強調色的獨立色調</string>
+    <string name="remixer_settings_style_rr_v1_summary">帶霓虹環圖示的 Resurrected Remix 列表</string>
+    <string name="remixer_settings_style_original_summary">Android 原生設定主頁，保持不變</string>
+    <string name="remixer_settings_style_note">設定主頁將在下次開啟時應用程式新樣式。</string>
 </resources>
