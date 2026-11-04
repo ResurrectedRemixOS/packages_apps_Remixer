@@ -202,16 +202,36 @@ public class BackupSettings extends SettingsPreferenceFragment {
         return getString(R.string.backup_title);
     }
 
+    /** Reads the file off the main thread, then shows what a restore would do. */
     private void preview(Uri uri) {
+        Context app = requireContext().getApplicationContext();
+        new Thread(() -> {
+            JSONObject root;
+            RemixBackup.Preview preview;
+            try {
+                root = RemixBackup.read(app, uri);
+                preview = RemixBackup.preview(app, root);
+            } catch (Exception e) {
+                root = null;
+                preview = null;
+            }
+            JSONObject read = root;
+            RemixBackup.Preview found = preview;
+            Activity activity = getActivity();
+            if (activity == null) return;
+            activity.runOnUiThread(() -> {
+                if (!isAdded()) return;
+                if (read == null) {
+                    Toast.makeText(app, R.string.backup_invalid, Toast.LENGTH_SHORT).show();
+                } else {
+                    preview(uri, read, found);
+                }
+            });
+        }, "RemixBackup").start();
+    }
+
+    private void preview(Uri uri, JSONObject root, RemixBackup.Preview preview) {
         Context context = getPrefContext();
-        JSONObject root;
-        try {
-            root = RemixBackup.read(context, uri);
-        } catch (Exception e) {
-            Toast.makeText(context, R.string.backup_invalid, Toast.LENGTH_SHORT).show();
-            return;
-        }
-        RemixBackup.Preview preview = RemixBackup.preview(context, root);
         int pad = dp(24);
         LinearLayout box = new LinearLayout(context);
         box.setOrientation(LinearLayout.VERTICAL);
@@ -241,12 +261,22 @@ public class BackupSettings extends SettingsPreferenceFragment {
                 .setTitle(displayName(uri))
                 .setView(box)
                 .setNegativeButton(android.R.string.cancel, null)
-                .setPositiveButton(R.string.backup_restore, (d, w) -> {
-                    int restored = RemixBackup.restore(context, root,
-                            preview.photo && photo.isChecked());
-                    restored(context, restored, preview.skipped);
-                })
+                .setPositiveButton(R.string.backup_restore, (d, w) ->
+                        restore(root, preview.photo && photo.isChecked(), preview.skipped))
                 .show();
+    }
+
+    /** Writes the settings off the main thread: the header photo goes through MediaStore. */
+    private void restore(JSONObject root, boolean photo, int skipped) {
+        Context app = requireContext().getApplicationContext();
+        new Thread(() -> {
+            int restored = RemixBackup.restore(app, root, photo);
+            Activity activity = getActivity();
+            if (activity == null) return;
+            activity.runOnUiThread(() -> {
+                if (isAdded()) restored(getPrefContext(), restored, skipped);
+            });
+        }, "RemixBackup").start();
     }
 
     private void restored(Context context, int restored, int skipped) {
