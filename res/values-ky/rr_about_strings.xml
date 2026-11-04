@@ -10,4 +10,24 @@
     <string name="rr_about_this_phone">"Ушул телефон"</string>
     <string name="rr_about_network">"Тармак"</string>
     <string name="rr_about_hidden">"Жашыруун"</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Расмий</string>
+    <string name="rr_about_unofficial">Расмий эмес</string>
+    <string name="rr_about_vanilla">Таза</string>
+    <string name="rr_about_hardware">Аппараттык</string>
+    <string name="rr_about_processor">Процессор</string>
+    <string name="rr_about_processor_sub">%1$d ядро · %2$s ГГц чейин</string>
+    <string name="rr_about_processor_cores">%1$d ядро</string>
+    <string name="rr_about_storage_used">%1$s колдонулду</string>
+    <string name="rr_about_display">Экран</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Гц</string>
+    <string name="rr_about_battery_capacity">%1$s мАч</string>
+    <string name="rr_about_battery_charging">%1$s · Кубатталууда</string>
+    <string name="rr_about_kernel_linux">Linux ядросу</string>
+    <string name="rr_about_software_purpose">Android версиясы, коопсуздук жаңыланышы, жасалган күнү жана куруунун номери</string>
+    <string name="rr_about_security_patch">Коопсуздук жаңыланышы</string>
+    <string name="rr_about_build_date">Жасалган күнү</string>
+    <string name="rr_about_maintainer">Колдоочу</string>
+    <string name="rr_about_show">Көрсөтүү</string>
+    <string name="rr_about_hide">Жашыруу</string>
 </resources>

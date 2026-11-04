@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"ຮູບພື້ນຫຼັງ"</item>
+        <item>Resurrected</item>
+        <item>Android One ສີຂຽວ</item>
+        <item>Aospa ສີຂຽວ</item>
+        <item>Coca Cola ສີແດງ</item>
+        <item>Discord ສີມ່ວງ</item>
+        <item>Facebook ສີຟ້າ</item>
+        <item>Instagram ສີແດງອ່ອນ</item>
+        <item>Jollibee ສີແດງເຂັ້ມ</item>
+        <item>Monster Energy ສີຂຽວ</item>
+        <item>Nextbit ສີຂຽວມິ້ນ</item>
+        <item>OnePlus ສີແດງ</item>
+        <item>Pepsi ສີຟ້າ</item>
+        <item>Pixel ສີຟ້າ</item>
+        <item>Pocophone ສີເຫຼືອງ</item>
+        <item>Razer ສີຂຽວ</item>
+        <item>Samsung ສີຟ້າ</item>
+        <item>Spotify ສີຂຽວ</item>
+        <item>Starbucks ສີຂຽວ</item>
+        <item>Twitch ສີມ່ວງ</item>
+        <item>Twitter ສີຟ້າ</item>
+        <item>Xiaomi ສີສົ້ມ</item>
+        <item>ອຳພັນ</item>
+        <item>"ດຳ"</item>
+        <item>"ສີຟ້າ"</item>
+        <item>ຟ້າເທົາ</item>
+        <item>ນ້ຳຕານ</item>
+        <item>"ສີຟ້າຂຽວ"</item>
+        <item>ສົ້ມເຂັ້ມ</item>
+        <item>ມ່ວງເຂັ້ມ</item>
+        <item>"ສີຂຽວ"</item>
+        <item>"ສີເທົາ"</item>
+        <item>"ສີຄາມ"</item>
+        <item>ຟ້າອ່ອນ</item>
+        <item>ໝາກນາວ</item>
+        <item>"ສີສົ້ມ"</item>
+        <item>"ສີບົວ"</item>
+        <item>"ສີມ່ວງ"</item>
+        <item>"ສີແດງ"</item>
+        <item>"ສີຟ້າອົມຂຽວ"</item>
+        <item>ຜູ້ໃຊ້ທີ 5</item>
+        <item>ຜູ້ໃຊ້ທີ 4</item>
+        <item>ຜູ້ໃຊ້ທີ 1</item>
+        <item>ຜູ້ໃຊ້ທີ 7</item>
+        <item>ຜູ້ໃຊ້ທີ 6</item>
+        <item>ຜູ້ໃຊ້ທີ 3</item>
+        <item>ຜູ້ໃຊ້ທີ 2</item>
+        <item>"ຂາວ"</item>
+        <item>"ສີເຫຼືອງ"</item>
+    </string-array>
+</resources>

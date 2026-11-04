@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Eszköz-RKP használata</string>
+    <string name="ts_rkp_enabled_summary">Generált keybox használata. Keybox importálása kikapcsolja.</string>
+    <string name="ts_rkp_provision">Keybox generálása</string>
+    <string name="ts_rkp_provision_summary">Keybox kérése a Google-től ennek az eszköznek a kiépítési szolgáltatásán keresztül. Kompatibilis Qualcomm firmware szükséges.</string>
+    <string name="ts_rkp_status">Kiépítési állapot</string>
+    <string name="ts_rkp_owner_only">Az eszköz-RKP kezelése az eszköztulajdonos profiljából</string>
+    <string name="ts_rkp_unavailable">Az eszköz-RKP nem érhető el</string>
+    <string name="ts_rkp_imported">Letiltva, amíg importált keybox van telepítve</string>
+    <string name="ts_rkp_disabled">Ki van kapcsolva. Engedélyezd az eszköz-RKP-t keybox használatához vagy generálásához.</string>
+    <string name="ts_rkp_idle">Készen áll a keybox kérésére</string>
+    <string name="ts_rkp_fetching">Kiépítési kihívás lekérése…</string>
+    <string name="ts_rkp_hardware">Várakozás az eszköz kiépítési szolgáltatására…</string>
+    <string name="ts_rkp_signing">Tanúsítványok kérése a Google-től…</string>
+    <string name="ts_rkp_validating">Keybox ellenőrzése és mentése…</string>
+    <string name="ts_rkp_ready">Generált keybox aktív. Automatikusan megújul ennyi idő előtt: %1$s</string>
+    <string name="ts_rkp_keybox_stored">Eszköz-RKP keybox tárolva</string>
+    <string name="ts_rkp_expired">A generált keybox lejárt. Generálj egy újat.</string>
+    <string name="ts_rkp_hal_rejected">A firmware elutasította a kérést (%1$d-s kód). Lehet, hogy a Duck V1 nem támogatott.</string>
+    <string name="ts_rkp_http_error">A kiépítési szerver elutasította a kérést (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Az eszköz nem kínál kompatibilis V1 kiépítési felületet</string>
+    <string name="ts_rkp_network_error">Nem sikerült elérni a kiépítési szervert. Ellenőrizd a kapcsolatot.</string>
+    <string name="ts_rkp_submission_unknown">A szerver válasza elveszett. Lehet, hogy a kérés feldolgozásra került; automatikus újrapróbálkozás nem történt.</string>
+    <string name="ts_rkp_invalid_chain">A keybox tanúsítványai nem váltak be az ellenőrzésen. A meglévő keybox megmaradt.</string>
+    <string name="ts_rkp_timeout">A kiépítés időtúllépés miatt megszakadt. Ha az eszközszolgáltatás még foglalt, indítsd újra a telefont, mielőtt újra próbálkoznál.</string>
+    <string name="ts_rkp_canceled">A kérés megszakadt, mert a keybox-beállítás megváltozott</string>
+    <string name="ts_rkp_save_failed">A generált keyboxot nem sikerült menteni</string>
+    <string name="ts_rkp_action_failed">A keybox-műveletet nem sikerült befejezni</string>
+</resources>

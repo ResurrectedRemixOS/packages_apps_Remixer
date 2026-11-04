@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Xestos</string>
     <string name="backup_group_other">"Outro"</string>
     <string name="backup_done">"Feito"</string>
+    <string name="backup_summary">Todas as personalizacións de RR nun só ficheiro</string>
+    <string name="backup_now">Facer copia agora</string>
+    <string name="backup_never">Última copia: nunca</string>
+    <string name="backup_last">Última copia: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Restaurar desde un ficheiro</string>
+    <string name="backup_restore_summary">Escolle un ficheiro de copia</string>
+    <string name="backup_included">Incluído</string>
+    <string name="backup_part_theme">Acento, tipo de letra e iconas</string>
+    <string name="backup_part_header">Imaxe de cabeceira</string>
+    <string name="backup_part_photo">Imaxe da cabeceira (a túa foto)</string>
+    <string name="backup_part_photo_summary">Fai o ficheiro máis grande</string>
+    <string name="backup_part_boot">Animación de arranque</string>
+    <string name="backup_part_looks">Os teus aspectos</string>
+    <string name="backup_weekly">Copia semanal</string>
+    <string name="backup_weekly_summary">A unha carpeta que escolhas</string>
+    <string name="backup_weekly_on">Cada semana en <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Ofrecer unha copia antes das actualizacións</string>
+    <string name="backup_offer_summary">O Actualizador pregunta antes de instalar</string>
+    <string name="backup_sets">Define <xliff:g id="count" example="64">%1$d</xliff:g> axustes</string>
+    <string name="backup_saved">Gardáronse <xliff:g id="count" example="64">%1$d</xliff:g> axustes</string>
+    <string name="backup_restored">Restauráronse <xliff:g id="count" example="64">%1$d</xliff:g> axustes</string>
+    <string name="backup_restored_message">SystemUI reinícianse para aplicalos.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> axustes non existen nesta compilación e omitíronse.</string>
+    <string name="backup_failed">Non se puido gardar a copia</string>
+    <string name="backup_invalid">Ese ficheiro non é unha copia de Resurrected Remix</string>
+    <string name="backup_footer">No ficheiro só van axustes de RR: sen contas, contrasinais, redes Wi-Fi, apps nin mensaxes. A restauración só escribe axustes da lista propia de RR, así que un ficheiro de copia non pode cambiar nada máis do teléfono. A imaxe da cabeceira inclúese só se o seu interruptor está activo, porque fai o ficheiro máis grande.</string>
+    <string name="volume_style_title">Estilo do panel de volume</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neón</item>
+        <item>Cristal</item>
+        <item>Pastilla</item>
+        <item>RR clásico</item>
+        <item>Bento</item>
+        <item>Formas</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Suave</item>
+    </string-array>
 </resources>

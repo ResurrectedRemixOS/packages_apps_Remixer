@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Vaikeseade"</string>
     <string name="clock_faces_size">"Suurus"</string>
     <string name="clock_faces_restart">"Taaskäivita"</string>
+    <string name="remixer_clock_faces">Kellanäod</string>
+    <string name="clock_faces_system">Süsteemi kell</string>
+    <string name="clock_faces_system_desc">Kell jaotisest Taustapilt ja stiil</string>
+    <string name="clock_faces_position">%1$d / %2$d</string>
+    <string name="clock_faces_applied">Rakendatud</string>
+    <string name="clock_faces_preview_unavailable">Eelvaade pole saadaval</string>
+    <string name="clock_faces_failed">Kella ei õnnestunud muuta</string>
+    <string name="clock_faces_color_accent">Aktsent</string>
+    <string name="clock_faces_color_custom">Kohandatud</string>
+    <string name="clock_faces_color_album">Albumi kaas</string>
+    <string name="clock_faces_color_gradient">Gradient</string>
+    <string name="clock_faces_own_colors">Sellel näol on oma värvid.</string>
+    <string name="clock_faces_album_hint">Võtab värvi albumi kaanelt muusika mängimise ajal.</string>
+    <string name="clock_faces_size_position">Suurus ja asukoht</string>
+    <string name="clock_faces_size_value">Suurus · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Kaugus ülaservast</string>
+    <string name="clock_faces_top_value">Kaugus ülaservast · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Horisontaalne asukoht</string>
+    <string name="clock_faces_horizontal_center">Horisontaalne asukoht · Keskel</string>
+    <string name="clock_faces_horizontal_right">Horisontaalne asukoht · <xliff:g id="dp" example="24">%1$d</xliff:g> dp paremal</string>
+    <string name="clock_faces_horizontal_left">Horisontaalne asukoht · <xliff:g id="dp" example="24">%1$d</xliff:g> dp vasakul</string>
+    <string name="clock_faces_horizontal_fixed">See nägu jääb keskele.</string>
+    <string name="clock_faces_opacity">Läbipaistmatus</string>
+    <string name="clock_faces_opacity_value">Läbipaistmatus · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Liikumine</string>
+    <string name="clock_faces_wobble">Laadimise ajal võnkumine</string>
+    <string name="clock_faces_wobble_summary">Põrkab üks kord, kui seade vooluvõrku ühendatakse</string>
+    <string name="clock_faces_aod_anim">Püsikuva üleminek</string>
+    <string name="clock_faces_aod_anim_summary">Kahandab ja tuhmistab kella püsikuvale liikudes</string>
+    <string name="clock_faces_restart_title">Kas taaskäivitada lukustuskuva?</string>
+    <string name="clock_faces_restart_message">Süsteemi kella ja kohandatud näo vahetamisel SystemUI taaskäivitatakse. Ekraan läheb sekundiks tumedaks.</string>
+    <string name="clock_faces_note">Eelvaated joonistab SystemUI lukustuskuva taustapildile. Värv, suurus ja asukoht muutuvad lukustuskuval kohe.</string>
 </resources>

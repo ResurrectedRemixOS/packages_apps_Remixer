@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">誤作動を防止</string>
+    <string name="lockscreen_battery_info_title">充電情報</string>
+    <string name="lockscreen_battery_info_summary">充電中に電流、ワット数、電圧、バッテリー温度を表示</string>
+    <string name="charging_ring_title">SuperVOOC 充電アニメーション</string>
+    <string name="charging_ring_summary">電源を接続したときに充電リングと速度を表示</string>
+    <string name="pocket_mode_summary">近接センサーが覆われている間は、画面は点灯せず、タッチも無視されます</string>
+    <string name="screen_on_time_title">画面点灯時間</string>
+    <string name="screen_on_time_summary">充電中のロック画面と、バッテリー セーバーのタイルに、前回満充電後の画面点灯時間を表示</string>
 </resources>

@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Milloin"</string>
+    <string name="nightstand_title">Yöpöytä</string>
+    <string name="nightstand_summary">Hämärä sänkykello jatkuvassa näytössä laturissa yöllä</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Pois päältä"</item>
+        <item>Laturissa yöllä</item>
+        <item>Joka yö aikataulun mukaan</item>
+        <item>Kun Nukkumaanmeno-tila on päällä</item>
+    </string-array>
+    <string name="nightstand_from">Yö alkaa</string>
+    <string name="nightstand_to">Yö päättyy</string>
+    <string name="nightstand_brightness">Kirkkauden yläraja</string>
+    <string name="nightstand_brightness_summary">Kuinka kirkas jatkuva näyttö saa olla, kun Yöpöytä on päällä</string>
+    <string name="nightstand_face">Kellotaulu</string>
+    <string name="nightstand_face_keep">Säilytä nykyinen taulu</string>
+    <string name="nightstand_footer">Yöpöytä kytkee jatkuvan näytön päälle sen ajaksi ja palauttaa sen jälkeen. Se päättyy, kun laturi irrotetaan, herätys soi tai yö päättyy. Taulu vaihtaa vain kahden mukautetun taulun välillä; järjestelmäkello säilyy.</string>
 </resources>

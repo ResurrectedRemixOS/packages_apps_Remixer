@@ -6,4 +6,19 @@
     <string name="quick_launch_timer">Таймер</string>
     <string name="quick_launch_undo">"Кайтаруу"</string>
     <string name="quick_launch_off">"Өчүк"</string>
+    <string name="quick_launch_title">Ыкчам ишке киргизүү</string>
+    <string name="quick_launch_main">Манжа изи менен ыкчам ишке киргизүү</string>
+    <string name="quick_launch_main_summary">Ыкчам баскычты ачуу үчүн кулпуну ачкандан кийин манжаңызды сенсордо кармап туруңуз</string>
+    <string name="quick_launch_hint">Ыкчам баскычты өзгөртүү үчүн басыңыз, өчүрүү үчүн кармап туруңуз же тартибин өзгөртүү үчүн сүйрөңүз.</string>
+    <string name="quick_launch_behavior">Жүрүм-туруму</string>
+    <string name="quick_launch_hold">Кармоо убактысы</string>
+    <string name="quick_launch_haptics">Ар бир ыкчам баскычта титирөө</string>
+    <string name="quick_launch_add">Кошуу</string>
+    <string name="quick_launch_video">Видео</string>
+    <string name="quick_launch_qr">QR сканерлөө</string>
+    <string name="quick_launch_app">Колдонмо…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> өчүрүлдү</string>
+    <plurals name="quick_launch_on">
+        <item quantity="other">Күйүк · <xliff:g id="count" example="4">%d</xliff:g> ыкчам баскыч</item>
+    </plurals>
 </resources>

@@ -8,4 +8,50 @@
         <item>"ਦਰਮਿਆਨਾ"</item>
         <item>"ਵੱਡਾ"</item>
     </string-array>
+    <string name="pie_title">ਪਾਈ ਕੰਟਰੋਲ</string>
+    <string name="pie_summary">ਸ਼ਾਰਟਕੱਟਾਂ ਦੀ ਪਾਈ ਲਈ ਕਿਨਾਰੇ ਦਾ ਹੇਠਲਾ ਹਿੱਸਾ ਦਬਾ ਕੇ ਰੱਖੋ</string>
+    <string name="pie_zone">ਕਿਨਾਰੇ ਦਾ ਹਿੱਸਾ</string>
+    <string name="pie_clock">ਘੜੀ ਅਤੇ ਬੈਟਰੀ ਉੱਪਰ</string>
+    <string name="pie_items">ਟੁਕੜੇ</string>
+    <string-array name="pie_items_entries">
+        <item>"ਪਿੱਛੇ"</item>
+        <item>ਘਰ</item>
+        <item>"ਹਾਲੀਆ"</item>
+        <item>"ਸੂਚਨਾਵਾਂ"</item>
+        <item>"ਫਲੈਸ਼ਲਾਈਟ"</item>
+        <item>"ਸਕ੍ਰੀਨਸ਼ਾਟ"</item>
+        <item>"ਪਾਵਰ ਮੀਨੂ"</item>
+        <item>ਸਹਾਇਕ</item>
+        <item>"ਕੈਮਰਾ"</item>
+    </string-array>
+    <string name="pie_footer">ਇਸ ਲਈ ਚੌਥਾਈ ਸਕਿੰਟ ਬਿਨਾਂ ਹਿਲਾਏ ਦਬਾ ਕੇ ਰੱਖਣਾ ਪੈਂਦਾ ਹੈ, ਇਸ ਲਈ ਕਿਨਾਰੇ ਤੋਂ ਤੇਜ਼ ਸਵਾਈਪ ਅਜੇ ਵੀ ਵਾਪਸ ਜਾਂਦਾ ਹੈ। ਇਹ ਅਨਲਾਕ ਸਕ੍ਰੀਨ \'ਤੇ ਨਹੀਂ ਖੁੱਲ੍ਹਦਾ।</string>
+    <string-array name="pie_edges_entries">
+        <item>"ਖੱਬਾ"</item>
+        <item>"ਸੱਜਾ"</item>
+        <item>ਦੋਵੇਂ</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>ਹੇਠਲਾ ਤੀਜਾ ਹਿੱਸਾ</item>
+        <item>ਵਿਚਕਾਰ</item>
+        <item>ਪੂਰਾ ਕਿਨਾਰਾ</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>ਨਿਓਨ</item>
+        <item>ਗਲਾਸ</item>
+        <item>ਕਲਾਸਿਕ</item>
+    </string-array>
+    <string name="sidebar_style_title">ਐਪ ਸਾਈਡਬਾਰ ਦਿੱਖ</string>
+    <string-array name="sidebar_style_entries">
+        <item>ਕਲਾਸਿਕ</item>
+        <item>RR ਸ਼ੀਸ਼ਾ</item>
+        <item>ਨਿਓਨ</item>
+    </string-array>
+    <string name="sidebar_settings_title">ਐਪ ਸਾਈਡਬਾਰ</string>
+    <string name="sidebar_settings_summary">ਆਪਣੀਆਂ ਐਪਾਂ ਅਤੇ ਟੂਲਾਂ ਲਈ ਹੈਂਡਲ ਤੋਂ ਅੰਦਰ ਸਵਾਈਪ ਕਰੋ</string>
+    <string name="sidebar_apps_title">ਐਪਾਂ, ਹੈਂਡਲ ਅਤੇ ਕਲਿੱਪਬੋਰਡ</string>
+    <string name="sidebar_apps_summary">ਹੈਂਡਲ ਚਾਲੂ ਕਰੋ, ਐਪਾਂ ਚੁਣੋ ਅਤੇ ਸਮਾਰਟ ਕਲਿੱਪਬੋਰਡ ਸੈੱਟ ਕਰੋ</string>
+    <string name="sidebar_handle_size_title">ਹੈਂਡਲ ਦਾ ਆਕਾਰ</string>
+    <string name="sidebar_tools_title">ਟੂਲ ਕਤਾਰ</string>
+    <string name="sidebar_tools_summary">ਐਪਾਂ ਹੇਠਾਂ ਸਕ੍ਰੀਨਸ਼ਾਟ ਅਤੇ ਫਲੈਸ਼ਲਾਈਟ</string>
+    <string name="sidebar_footer">ਹੈਂਡਲ ਲਹਿਜ਼ੇ ਦੀ ਪਤਲੀ ਲਾਈਨ ਹੈ; ਇਸਨੂੰ ਕਿਨਾਰੇ ਦੇ ਨਾਲ ਖਿੱਚ ਕੇ ਲੈ ਜਾਓ। ਜੇਸਚਰ ਨੈਵੀਗੇਸ਼ਨ ਨਾਲ ਇਹ ਸਿਰਫ਼ ਆਪਣੇ ਹਿੱਸੇ ਦੇ ਕਿਨਾਰੇ ਨੂੰ ਢੱਕਦਾ ਹੈ, ਅਤੇ ਬੈਕ ਬਾਕੀ ਹਰ ਥਾਂ ਕੰਮ ਕਰਦਾ ਹੈ।</string>
 </resources>

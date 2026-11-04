@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Qurilma RKP dan foydalanish</string>
+    <string name="ts_rkp_enabled_summary">Yaratilgan kalit ombori ishlatiladi. Kalit omborini import qilsangiz, bu o‘chadi.</string>
+    <string name="ts_rkp_provision">Kalit ombori yaratish</string>
+    <string name="ts_rkp_provision_summary">Ushbu qurilmaning ta’minot xizmati orqali Google’dan kalit ombori so‘raladi. Mos Qualcomm mikrodasturi talab qilinadi.</string>
+    <string name="ts_rkp_status">Ta’minot holati</string>
+    <string name="ts_rkp_owner_only">Qurilma RKP’ni qurilma egasi profilidan boshqaring</string>
+    <string name="ts_rkp_unavailable">Qurilma RKP mavjud emas</string>
+    <string name="ts_rkp_imported">O‘rnatilgan kalit ombori import qilingan bo‘lsa, o‘chirilgan</string>
+    <string name="ts_rkp_disabled">O‘chiq. Kalit omborini ishlatish yoki yaratish uchun qurilma RKP’ni yoqing.</string>
+    <string name="ts_rkp_idle">Kalit omborini so‘rashga tayyor</string>
+    <string name="ts_rkp_fetching">Ta’minot so‘rovi olinmoqda…</string>
+    <string name="ts_rkp_hardware">Qurilmaning ta’minot xizmati kutilmoqda…</string>
+    <string name="ts_rkp_signing">Google’dan sertifikatlar so‘ralmoqda…</string>
+    <string name="ts_rkp_validating">Kalit ombori tekshirilmoqda va saqlanmoqda…</string>
+    <string name="ts_rkp_ready">Yaratilgan kalit ombori faol. %1$s dan oldin o‘zi yangilanadi</string>
+    <string name="ts_rkp_keybox_stored">Qurilma RKP kalit ombori saqlandi</string>
+    <string name="ts_rkp_expired">Yaratilgan kalit ombori muddati tugagan. Almashtirish uchun yarating.</string>
+    <string name="ts_rkp_hal_rejected">Mikrodastur so‘rovni rad etdi (kod %1$d). Duck V1 qo‘llab-quvvatlanmasligi mumkin.</string>
+    <string name="ts_rkp_http_error">Ta’minot serveri so‘rovni rad etdi (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Qurilma mos V1 ta’minot interfeysini ochmaydi</string>
+    <string name="ts_rkp_network_error">Ta’minot serveriga ulanib bo‘lmadi. Ulanishni tekshiring.</string>
+    <string name="ts_rkp_submission_unknown">Server javobi yo‘qoldi. So‘rov qayta ishlangan bo‘lishi mumkin; avtomatik qayta urinish amalga oshirilmadi.</string>
+    <string name="ts_rkp_invalid_chain">Kalit omborining sertifikatlari tekshiruvdan o‘tmadi. Mavjud kalit ombori saqlab qolindi.</string>
+    <string name="ts_rkp_timeout">Ta’minot vaqti tugadi. Qurilma xizmati hali band bo‘lsa, qayta urinishdan oldin qurilmani qayta ishga tushiring.</string>
+    <string name="ts_rkp_canceled">Kalit omborining sozlamalari o‘zgargani uchun so‘rov bekor qilindi</string>
+    <string name="ts_rkp_save_failed">Yaratilgan kalit omborini saqlab bo‘lmadi</string>
+    <string name="ts_rkp_action_failed">Kalit ombori amalini yakunlab bo‘lmadi</string>
+</resources>

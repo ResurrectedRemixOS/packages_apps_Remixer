@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Dato"</string>
     <string name="sb_weather_category">"Vejr"</string>
+    <string name="sb_clock_category">Ur og dato</string>
+    <string name="sb_clock_bold_title">Fed ur</string>
+    <string name="sb_clock_bold_summary">Vis uret i statusbjælken med fed skrift</string>
+    <string name="sb_clock_period_separator_title">Tidsskiller</string>
+    <string name="sb_clock_period_separator_summary">10.45 i stedet for 10:45</string>
+    <string name="sb_clock_date_position_title">Placering af dato</string>
+    <string name="sb_clock_date_style_title">Versaler i dato</string>
+    <string name="sb_clock_date_format_title">Datoformat</string>
+    <string name="sb_clock_chip_category">Baggrund til ur</string>
+    <string name="sb_clock_chip_title">Baggrundsstil</string>
+    <string name="sb_clock_chip_start_title">Gradient start</string>
+    <string name="sb_clock_chip_end_title">Gradient slut</string>
+    <string name="sb_clock_chip_angle_title">Gradientvinkel</string>
+    <string name="sb_clock_chip_mask_title">Udskær tiden fra gradienten</string>
+    <string name="sb_clock_chip_mask_summary">Gradienten vises gennem cifrene i stedet for bag dem</string>
+    <string name="sb_weather_title">Vejr i statusbjælken</string>
+    <string name="sb_weather_position_title">Placering</string>
+    <string name="status_bar_clock_rr_style_title">Urets udseende</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Standard"</item>
+        <item>Neon</item>
+        <item>Delt</item>
+        <item>RR-mærke</item>
+        <item>Mono</item>
+        <item>Puls</item>
+        <item>Stablet</item>
+        <item>Glød</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline ved siden af tiden</string>
+    <string name="sb_clock_flatline_summary">RR’s hjerteslag-linje inde i chippen: slår med musikken og topper, når en notifikation kommer</string>
 </resources>

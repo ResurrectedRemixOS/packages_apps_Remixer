@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="volume_page_title">Volume panel</string>
+    <string name="volume_page_summary">Neon, Salamin, Pill, o Classic RR</string>
+    <string name="volume_behavior">Gawi</string>
+    <string name="volume_on_left_title">Panel sa kaliwa</string>
+    <string name="volume_on_left_summary">Laging nasa itaas ang Classic RR</string>
+    <string name="volume_ringer_title">Button ng ringer mode</string>
+    <string name="volume_tick_title">Tumunog sa bawat pag-slide</string>
+    <string name="volume_percent_title">Ipakita ang antas sa porsyento</string>
+    <string name="volume_timeout_title">Itago pagkatapos ng</string>
+    <string name="volume_footer">Binabago ng itsura ang hitsura ng panel, hindi ang paraan ng paggana nito. Pinapanatili ng Android ang stock na panel. I-tap ang mga tuldok para makita ang bawat stream; pareho ang itsura ng pinalawak na panel.</string>
+</resources>

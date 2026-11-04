@@ -15,4 +15,54 @@
     <string name="looks_save_look">"Gardar"</string>
     <string name="looks_custom_color">"Cor personalizada"</string>
     <string name="looks_part_clock_color">"Cor do reloxo"</string>
+    <string name="looks_title">Aspectos</string>
+    <string name="looks_summary">Toda a configuración nun toque</string>
+    <string name="looks_rr">Aspectos de RR</string>
+    <string name="looks_yours">Os teus aspectos</string>
+    <string name="looks_none">Aínda non hai nada gardado</string>
+    <string name="looks_save">Gardar o actual</string>
+    <string name="looks_import_clipboard">Desde o portapapeis</string>
+    <string name="looks_import_file">Desde un ficheiro</string>
+    <string name="looks_mine">O meu aspecto</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> aplicado</string>
+    <string name="looks_failed">Non se puido aplicar todo</string>
+    <string name="looks_invalid">Isto non é un aspecto de RR</string>
+    <string name="looks_part_accent">Cor de acento</string>
+    <string name="looks_part_qs">Estilo de configuración rápida</string>
+    <string name="looks_part_clock_face">Deseño do reloxo da pantalla de bloqueo</string>
+    <string name="looks_part_clock_look">Reloxo da barra de estado</string>
+    <string name="looks_part_edge">Iluminación de bordos</string>
+    <string name="looks_part_boot">Animación de arranque</string>
+    <string name="looks_part_haptics">Patróns de Haptic Remix</string>
+    <string name="looks_saturation">Saturación <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Acento</string>
+    <string name="looks_share_title">Compartir «<xliff:g id="name" example="Neon night">%1$s</xliff:g>»</string>
+    <string name="looks_share_hint">Escanea coa cámara doutro teléfono RR, ou en Aspectos › Importar</string>
+    <string name="looks_share_file">Compartir ficheiro</string>
+    <string name="looks_save_file">Gardar ficheiro</string>
+    <string name="looks_import_scan">Escanear un código QR</string>
+    <string name="looks_import_title">Importar aspecto</string>
+    <string name="looks_from_qr">desde un código QR</string>
+    <string name="looks_from_file">desde un ficheiro</string>
+    <string name="looks_from_clipboard">desde o portapapeis</string>
+    <string name="looks_import_same">Xa coincide coa túa configuración.</string>
+    <string name="looks_new">Novo aspecto</string>
+    <string name="looks_edit_title">Editar aspecto</string>
+    <string name="looks_in_look">Neste aspecto</string>
+    <string name="looks_not_included">Non está neste aspecto</string>
+    <string name="looks_save_apply">Gardar e aplicar</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” gardado</string>
+    <string name="looks_delete_confirm">Eliminar “<xliff:g id="name" example="Sunday">%1$s</xliff:g>”?</string>
+    <string name="looks_rr_wallpaper">Fondo de pantalla RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Saturación do acento</string>
+    <string name="looks_part_clock_chip">Chip do reloxo na barra de estado</string>
+    <string name="looks_part_edge_style">Estilo de iluminación de bordos</string>
+    <string name="looks_scan_hint">Apunta a cámara ao código QR dunha Look</string>
+    <string name="looks_scan_failed">Non se puido abrir a cámara</string>
+    <string name="look_roulette_title">Ruleta de Looks</string>
+    <string-array name="look_roulette_entries">
+        <item>"Desactivado"</item>
+        <item>Un Look distinto en cada desbloqueo</item>
+        <item>Un Look distinto cada día</item>
+    </string-array>
 </resources>

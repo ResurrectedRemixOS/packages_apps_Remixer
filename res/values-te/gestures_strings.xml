@@ -8,4 +8,50 @@
         <item>"మధ్యస్థం"</item>
         <item>"పెద్దది"</item>
     </string-array>
+    <string name="pie_title">పై కంట్రోల్స్</string>
+    <string name="pie_summary">షార్ట్‌కట్‌ల పై కోసం అంచులోని దిగువ భాగాన్ని నొక్కి పట్టుకోండి</string>
+    <string name="pie_zone">అంచులో కొంత భాగం</string>
+    <string name="pie_clock">దాని పైన గడియారం మరియు బ్యాటరీ</string>
+    <string name="pie_items">స్లైస్‌లు</string>
+    <string-array name="pie_items_entries">
+        <item>"వెనుకకు"</item>
+        <item>హోమ్</item>
+        <item>"ఇటీవలివి"</item>
+        <item>"నోటిఫికేషన్‌లు"</item>
+        <item>"ఫ్లాష్‌లైట్"</item>
+        <item>"స్క్రీన్‌షాట్"</item>
+        <item>"పవర్ మెనూ"</item>
+        <item>అసిస్టెంట్</item>
+        <item>"కెమెరా"</item>
+    </string-array>
+    <string name="pie_footer">దీనికి పావు సెకను కదలకుండా పట్టుకోవాలి, కాబట్టి అంచు నుండి త్వరగా స్వైప్ చేస్తే ఇప్పటికీ వెనక్కి వెళ్తుంది. ఇది లాక్ స్క్రీన్‌పై తెరవబడదు.</string>
+    <string-array name="pie_edges_entries">
+        <item>"ఎడమ"</item>
+        <item>"కుడి"</item>
+        <item>రెండూ</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>దిగువ మూడో భాగం</item>
+        <item>మధ్య</item>
+        <item>మొత్తం అంచు</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>నియాన్‌</item>
+        <item>గ్లాస్‌</item>
+        <item>క్లాసిక్‌</item>
+    </string-array>
+    <string name="sidebar_style_title">యాప్ సైడ్‌బార్ లుక్</string>
+    <string-array name="sidebar_style_entries">
+        <item>క్లాసిక్‌</item>
+        <item>RR గ్లాస్</item>
+        <item>నియాన్‌</item>
+    </string-array>
+    <string name="sidebar_settings_title">యాప్ సైడ్‌బార్</string>
+    <string name="sidebar_settings_summary">మీ యాప్‌లు మరియు టూల్స్ కోసం హ్యాండిల్ నుండి లోపలికి స్వైప్ చేయండి</string>
+    <string name="sidebar_apps_title">యాప్‌లు, హ్యాండిల్ మరియు క్లిప్‌బోర్డ్</string>
+    <string name="sidebar_apps_summary">హ్యాండిల్‌ను ఆన్ చేయండి, యాప్‌లను ఎంచుకోండి మరియు స్మార్ట్ క్లిప్‌బోర్డ్‌ను సెటప్ చేయండి</string>
+    <string name="sidebar_handle_size_title">హ్యాండిల్ పరిమాణం</string>
+    <string name="sidebar_tools_title">టూల్స్ వరుస</string>
+    <string name="sidebar_tools_summary">మీ యాప్‌ల కింద స్క్రీన్‌షాట్ మరియు ఫ్లాష్‌లైట్</string>
+    <string name="sidebar_footer">హ్యాండిల్ మీ యాక్సెంట్ రంగులో సన్నని గీతగా ఉంటుంది; దాన్ని అంచు వెంట కదపడానికి లాగండి. జెశ్చర్ నావిగేషన్‌తో ఇది తన భాగంలో మాత్రమే ఉంటుంది, మిగతా చోట్ల వెనక్కి వెళ్లడం పని చేస్తుంది.</string>
 </resources>

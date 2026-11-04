@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Використовувати RKP пристрою</string>
+    <string name="ts_rkp_enabled_summary">Використовувати згенерований keybox. Імпорт keybox вимикає цей параметр.</string>
+    <string name="ts_rkp_provision">Згенерувати keybox</string>
+    <string name="ts_rkp_provision_summary">Запитати keybox у Google через службу підготовки цього пристрою. Потрібна сумісна прошивка Qualcomm.</string>
+    <string name="ts_rkp_status">Стан підготовки</string>
+    <string name="ts_rkp_owner_only">Керувати RKP пристрою з профілю власника пристрою</string>
+    <string name="ts_rkp_unavailable">RKP пристрою недоступний</string>
+    <string name="ts_rkp_imported">Вимкнено, поки встановлено імпортований keybox</string>
+    <string name="ts_rkp_disabled">Вимкнено. Увімкніть RKP пристрою, щоб використовувати або згенерувати keybox.</string>
+    <string name="ts_rkp_idle">Готово до запиту keybox</string>
+    <string name="ts_rkp_fetching">Отримуємо виклик підготовки…</string>
+    <string name="ts_rkp_hardware">Очікуємо на службу підготовки пристрою…</string>
+    <string name="ts_rkp_signing">Запитуємо сертифікати в Google…</string>
+    <string name="ts_rkp_validating">Перевіряємо та зберігаємо keybox…</string>
+    <string name="ts_rkp_ready">Згенерований keybox активний. Оновлюється автоматично до %1$s</string>
+    <string name="ts_rkp_keybox_stored">Ключ RKP пристрою збережено</string>
+    <string name="ts_rkp_expired">Згенерований keybox застарів. Згенеруйте новий.</string>
+    <string name="ts_rkp_hal_rejected">Прошивка відхилила запит (код %1$d). Можливо, Duck V1 не підтримується.</string>
+    <string name="ts_rkp_http_error">Сервер провізії відхилив запит (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Пристрій не надає сумісного інтерфейсу провізії V1</string>
+    <string name="ts_rkp_network_error">Не вдалося зв’язатися з сервером провізії. Перевірте з’єднання.</string>
+    <string name="ts_rkp_submission_unknown">Відповідь сервера втрачено. Запит міг бути оброблений; автоматичний повтор не виконувався.</string>
+    <string name="ts_rkp_invalid_chain">Сертифікати keybox не пройшли перевірку. Наявний keybox збережено.</string>
+    <string name="ts_rkp_timeout">Час очікування провізії минув. Якщо служба пристрою ще зайнята, перезавантажте пристрій і спробуйте знову.</string>
+    <string name="ts_rkp_canceled">Запит скасовано, оскільки конфігурацію keybox змінено</string>
+    <string name="ts_rkp_save_failed">Не вдалося зберегти згенерований keybox</string>
+    <string name="ts_rkp_action_failed">Не вдалося виконати операцію з keybox</string>
+</resources>

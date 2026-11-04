@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glance_title">At a Glance</string>
+    <string name="glance_summary">Data, vremea și cardurile Google sub ceasul standard, ca pe un Pixel. Fețele de ceas își păstrează propriul rând</string>
+</resources>

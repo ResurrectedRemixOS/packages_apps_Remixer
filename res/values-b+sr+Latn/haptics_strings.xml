@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Plava"</string>
     <string name="haptic_remix_color_green">"Zelena"</string>
     <string name="haptic_remix_color_white">"Bela"</string>
+    <string name="haptic_remix_summary">Ukucajte ritmove vibracije za pozive, aplikacije, alarme i otključavanja</string>
+    <string name="haptic_remix_record">Snimaj</string>
+    <string name="haptic_remix_pad">dodirnite ritam</string>
+    <string name="haptic_remix_strength">Jačina</string>
+    <string name="haptic_remix_clear">Obriši</string>
+    <string name="haptic_remix_play">Pusti</string>
+    <string name="haptic_remix_name">Naziv obrasca</string>
+    <string name="haptic_remix_empty">Još ništa nije snimljeno</string>
+    <string name="haptic_remix_too_long">Obrazac može trajati 30 sekundi</string>
+    <string name="haptic_remix_presets">Unapred podešeno</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Staklo</string>
+    <string name="haptic_remix_preset_ringtone">Ritam melodije</string>
+    <string name="haptic_remix_listening">Slušam melodiju…</string>
+    <string name="haptic_remix_no_ringtone">Melodija nije mogla da se pročita</string>
+    <string name="haptic_remix_patterns">Vaši obrasci</string>
+    <string name="haptic_remix_patterns_none">Prvo sačuvajte obrazac. Zadržite jedan da ga obrišete.</string>
+    <string name="haptic_remix_broken">Taj obrazac ne može da se pročita</string>
+    <string name="haptic_remix_delete">Obrisati <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Dodeli</string>
+    <string name="haptic_remix_alarm">Alarm i tajmer</string>
+    <string name="haptic_remix_plug">Priključeno</string>
+    <string name="haptic_remix_fingerprint">Uspešan otisak prsta</string>
+    <string name="haptic_remix_add_contact">Dodaj kontakt</string>
+    <string name="haptic_remix_edge_color">Svetlost ivice za poruke korisnika <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">Akcenat</string>
+    <string name="haptic_remix_color_crimson">Crvena</string>
+    <string name="haptic_remix_color_amber">Jantarna</string>
+    <string name="haptic_remix_add_app">Dodaj obaveštenja aplikacije</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · dodirnite za promenu, zadržite za boju ivice</string>
+    <string name="haptic_remix_no_contacts">Kontakti nisu vratili broj</string>
 </resources>

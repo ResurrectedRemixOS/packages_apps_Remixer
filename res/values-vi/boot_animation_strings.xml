@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="remixer_boot_animation">Hiệu ứng khởi động</string>
+    <string name="boot_animation_note">Sẽ phát vào lần khởi động điện thoại tiếp theo.</string>
+    <string name="boot_animation_custom">Tệp của bạn</string>
+    <string name="boot_animation_custom_pick">Chọn tệp…</string>
+    <string name="boot_animation_custom_invalid">Tệp này không phải hoạt ảnh khởi động</string>
+    <string name="boot_animation_failed">Không thể đổi hoạt ảnh khởi động</string>
 </resources>

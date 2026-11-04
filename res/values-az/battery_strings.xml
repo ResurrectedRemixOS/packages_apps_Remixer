@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Batareya"</string>
     <string name="battery_style_title">"Üslub"</string>
+    <string-array name="battery_style_entries">
+        <item>Portret</item>
+        <item>"Çevrə"</item>
+        <item>Nöqtəli dairə</item>
+        <item>Neon halqa</item>
+        <item>Nazik həb</item>
+        <item>Böyük faiz</item>
+        <item>Mətn</item>
+    </string-array>
+    <string name="battery_percent_title">Faiz</string>
+    <string-array name="battery_percent_entries">
+        <item>Gizli</item>
+        <item>İkonun daxilində</item>
+        <item>Onun yanında</item>
+    </string-array>
+    <string name="battery_ring_color_title">Neon halqanın rəngi</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Səviyyəyə görə: vurğu rəngi 20%%-dən yuxarı, qırmızı aşağıda və Qənaət rejimində kəhrəba rəngdə olur.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Səviyyəyə görə</item>
+        <item>Vurğu</item>
+        <item>"Ağ"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Şarj olarkən parıltı</string>
+    <string name="battery_ring_tile_title">Sürətli ayarlar mozaikasında eyni halqa</string>
+    <string name="battery_ring_tile_summary">Səviyyə və ekranın açıq qalma müddəti ilə</string>
 </resources>

@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"பேட்டரி"</string>
     <string name="charge_report_temp">"வெப்பநிலை"</string>
     <string name="charge_report_time">"நேரம்"</string>
+    <string name="charge_report_title">சார்ஜ் அறிக்கைகள்</string>
+    <string name="charge_report_summary">நீங்கள் துண்டிக்கும்போது ஒவ்வொரு சார்ஜின் சுருக்கம்</string>
+    <string name="charge_report_min_title">குறைந்தது இதைச் சேர்த்தால் மட்டும்</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 நாட்கள்</item>
+        <item>7 நாட்கள்</item>
+        <item>14 நாட்கள்</item>
+        <item>30 நாட்கள்</item>
+    </string-array>
+    <string name="charge_report_history_days">கடைசி <xliff:g id="days" example="7">%1$d</xliff:g> நாட்கள்</string>
+    <string name="charge_report_today">இன்று, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">நேற்று, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> நிமி</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ம <xliff:g id="minutes" example="02">%2$02d</xliff:g> நிமி</string>
+    <string name="charge_report_watts">வாட்ஸ்</string>
+    <string name="charge_report_added">சேர்ந்தது</string>
+    <string name="charge_report_peak">உச்சம்</string>
+    <string name="charge_report_average">சராசரி</string>
+    <string name="charge_report_max_temp">அதிகபட்ச வெப்பநிலை</string>
+    <string name="charge_report_charger">சார்ஜர்</string>
+    <string name="charge_report_started">தொடங்கிய நேரம்</string>
+    <string name="charge_report_wired">கம்பி மூலம்</string>
+    <string name="charge_report_wireless">வயர்லெஸ்</string>
+    <string name="charge_report_dock">டாக்</string>
+    <string name="charge_report_empty">இன்னும் சார்ஜ் இல்லை</string>
+    <string name="charge_report_footer">ஃபோன் செருகப்பட்டிருக்கும்போது SystemUI ஒவ்வொரு 30 வினாடிக்கும் பேட்டரியின் மின்னோட்டம், மின்னழுத்தம் மற்றும் வெப்பநிலையைப் படிக்கும். வாட்ஸ் என்பது ஃபோன் அளவிடும் மதிப்பு, எனவே அது சார்ஜரில் உள்ள எண்ணிலிருந்து வேறுபடலாம். அறிக்கைகள் ஃபோனிலேயே இருக்கும்; எதுவும் பதிவேற்றப்படாது.</string>
 </resources>

@@ -15,4 +15,54 @@
     <string name="looks_save_look">"सेव्ह करा"</string>
     <string name="looks_custom_color">"कस्टम रंग"</string>
     <string name="looks_part_clock_color">"घड्याळाचा रंग"</string>
+    <string name="looks_title">लूक</string>
+    <string name="looks_summary">एका टॅपमध्ये तुमचा संपूर्ण सेटअप</string>
+    <string name="looks_rr">RR लूक</string>
+    <string name="looks_yours">तुमचे लूक</string>
+    <string name="looks_none">अजून काहीही सेव्ह नाही</string>
+    <string name="looks_save">सध्याचा सेव्ह करा</string>
+    <string name="looks_import_clipboard">क्लिपबोर्डवरून</string>
+    <string name="looks_import_file">फाइलमधून</string>
+    <string name="looks_mine">माझा लूक</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> लागू झाला</string>
+    <string name="looks_failed">सर्व लागू करता आले नाही</string>
+    <string name="looks_invalid">हा RR लूक नाही</string>
+    <string name="looks_part_accent">ॲक्सेंट रंग</string>
+    <string name="looks_part_qs">QS शैली</string>
+    <string name="looks_part_clock_face">लॉक स्क्रीन घड्याळ चेहरा</string>
+    <string name="looks_part_clock_look">स्टेटस बार घड्याळ</string>
+    <string name="looks_part_edge">एज लायटिंग</string>
+    <string name="looks_part_boot">बूट ॲनिमेशन</string>
+    <string name="looks_part_haptics">Haptic Remix पॅटर्न</string>
+    <string name="looks_saturation">सॅच्युरेशन <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">ॲक्सेंट</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>” शेअर करा</string>
+    <string name="looks_share_hint">दुसऱ्या RR फोनच्या कॅमेऱ्याने स्कॅन करा, किंवा लूक › इम्पोर्ट मध्ये</string>
+    <string name="looks_share_file">फाइल शेअर करा</string>
+    <string name="looks_save_file">फाइल सेव्ह करा</string>
+    <string name="looks_import_scan">QR कोड स्कॅन करा</string>
+    <string name="looks_import_title">लूक इम्पोर्ट करा</string>
+    <string name="looks_from_qr">QR कोडवरून</string>
+    <string name="looks_from_file">फाइलमधून</string>
+    <string name="looks_from_clipboard">क्लिपबोर्डवरून</string>
+    <string name="looks_import_same">हे आधीच तुमच्या सेटअपशी जुळते.</string>
+    <string name="looks_new">नवीन लूक</string>
+    <string name="looks_edit_title">लूक संपादित करा</string>
+    <string name="looks_in_look">या लूकमध्ये</string>
+    <string name="looks_not_included">या लूकमध्ये नाही</string>
+    <string name="looks_save_apply">जतन करा आणि लागू करा</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” जतन केला</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” हटवायचा?</string>
+    <string name="looks_rr_wallpaper">RR वॉलपेपर <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">अ‍ॅक्सेंट सॅच्युरेशन</string>
+    <string name="looks_part_clock_chip">स्टेटस बार घड्याळ चिप</string>
+    <string name="looks_part_edge_style">एज लायटिंग शैली</string>
+    <string name="looks_scan_hint">लूकचा QR कोड कॅमेऱ्यासमोर धरा</string>
+    <string name="looks_scan_failed">कॅमेरा उघडता आला नाही</string>
+    <string name="look_roulette_title">लूक रूलेट</string>
+    <string-array name="look_roulette_entries">
+        <item>"बंद आहे"</item>
+        <item>प्रत्येक अनलॉकवर वेगळा लूक</item>
+        <item>दररोज वेगळा लूक</item>
+    </string-array>
 </resources>

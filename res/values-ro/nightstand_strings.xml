@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Când"</string>
+    <string name="nightstand_title">Ceas de noptieră</string>
+    <string name="nightstand_summary">Un ceas discret de noptieră pe afișajul mereu activ, în timp ce se încarcă noaptea</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Dezactivat"</item>
+        <item>Pe încărcător noaptea</item>
+        <item>În fiecare noapte, după program</item>
+        <item>Cât timp este activ un mod de culcare</item>
+    </string-array>
+    <string name="nightstand_from">Începe noaptea</string>
+    <string name="nightstand_to">Se termină noaptea</string>
+    <string name="nightstand_brightness">Limită de luminozitate</string>
+    <string name="nightstand_brightness_summary">Cât de luminos poate fi afișajul mereu activ cât timp este activ Ceasul de noptieră</string>
+    <string name="nightstand_face">Cadranul ceasului</string>
+    <string name="nightstand_face_keep">Păstrează cadranul actual</string>
+    <string name="nightstand_footer">Ceasul de noptieră pornește afișajul mereu activ cât rulează și îl readuce apoi la starea anterioară. Se oprește când se deconectează încărcătorul, sună alarma sau se termină noaptea. Cadranul doar alternează între două cadrane personalizate; ceasul sistemului rămâne.</string>
 </resources>

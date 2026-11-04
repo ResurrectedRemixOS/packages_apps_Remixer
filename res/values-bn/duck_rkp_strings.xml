@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">ডিভাইস RKP ব্যবহার করুন</string>
+    <string name="ts_rkp_enabled_summary">একটি তৈরি করা keybox ব্যবহার করুন। keybox আমদানি করলে এটি বন্ধ হয়ে যায়।</string>
+    <string name="ts_rkp_provision">keybox তৈরি করুন</string>
+    <string name="ts_rkp_provision_summary">এই ডিভাইসের provisioning সেবা ব্যবহার করে Google-এর কাছে একটি keybox চান। সামঞ্জস্যপূর্ণ Qualcomm ফার্মওয়্যার প্রয়োজন।</string>
+    <string name="ts_rkp_status">Provisioning অবস্থা</string>
+    <string name="ts_rkp_owner_only">ডিভাইসের মালিকের প্রোফাইল থেকে ডিভাইস RKP পরিচালনা করুন</string>
+    <string name="ts_rkp_unavailable">ডিভাইস RKP উপলব্ধ নয়</string>
+    <string name="ts_rkp_imported">একটি আমদানি করা keybox ইনস্টল থাকলে এটি নিষ্ক্রিয়</string>
+    <string name="ts_rkp_disabled">বন্ধ। keybox ব্যবহার বা তৈরি করতে ডিভাইস RKP সক্রিয় করুন।</string>
+    <string name="ts_rkp_idle">keybox চাওয়ার জন্য প্রস্তুত</string>
+    <string name="ts_rkp_fetching">প্রভিশনিং চ্যালেঞ্জ আনা হচ্ছে…</string>
+    <string name="ts_rkp_hardware">ডিভাইসের প্রভিশনিং সার্ভিসের জন্য অপেক্ষা করা হচ্ছে…</string>
+    <string name="ts_rkp_signing">Google থেকে সার্টিফিকেট অনুরোধ করা হচ্ছে…</string>
+    <string name="ts_rkp_validating">কিবক্স যাচাই ও সংরক্ষণ করা হচ্ছে…</string>
+    <string name="ts_rkp_ready">তৈরি করা কিবক্স সক্রিয়। %1$s-এর আগে নিজে থেকে নবায়ন হবে</string>
+    <string name="ts_rkp_keybox_stored">ডিভাইস RKP কিবক্স সংরক্ষিত হয়েছে</string>
+    <string name="ts_rkp_expired">তৈরি করা কিবক্সের মেয়াদ শেষ। একটি নতুন তৈরি করুন।</string>
+    <string name="ts_rkp_hal_rejected">ফার্মওয়্যার অনুরোধ প্রত্যাখ্যান করেছে (কোড %1$d)। Duck V1 সমর্থিত নাও হতে পারে।</string>
+    <string name="ts_rkp_http_error">প্রভিশনিং সার্ভার অনুরোধ প্রত্যাখ্যান করেছে (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">ডিভাইসে কোনো সামঞ্জস্যপূর্ণ V1 প্রভিশনিং ইন্টারফেস নেই</string>
+    <string name="ts_rkp_network_error">প্রভিশনিং সার্ভারে পৌঁছানো যায়নি। আপনার সংযোগ পরীক্ষা করুন।</string>
+    <string name="ts_rkp_submission_unknown">সার্ভারের উত্তর হারিয়ে গেছে। অনুরোধটি প্রক্রিয়াকৃত হয়ে থাকতে পারে; স্বয়ংক্রিয়ভাবে আবার চেষ্টা করা হয়নি।</string>
+    <string name="ts_rkp_invalid_chain">কিবক্স সার্টিফিকেট যাচাইয়ে ব্যর্থ হয়েছে। বিদ্যমান কিবক্স রাখা হয়েছে।</string>
+    <string name="ts_rkp_timeout">প্রভিশনিং সময়সীমা শেষ হয়েছে। ডিভাইস সার্ভিস ব্যস্ত থাকলে আবার চেষ্টা করার আগে ডিভাইস রিস্টার্ট করুন।</string>
+    <string name="ts_rkp_canceled">কিবক্স কনফিগারেশন বদলানোয় অনুরোধ বাতিল হয়েছে</string>
+    <string name="ts_rkp_save_failed">তৈরি করা কিবক্স সংরক্ষণ করা যায়নি</string>
+    <string name="ts_rkp_action_failed">কিবক্স কার্যক্রম সম্পন্ন করা যায়নি</string>
+</resources>

@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"Түймелер"</string>
     <string name="now_bar_text">"Мәтін"</string>
     <string name="now_bar_text_size">"Мәтін өлшемі"</string>
+    <string name="now_bar_summary">Құлыптаулы экран төменгі жағындағы белсенді оқиғалар</string>
+    <string name="now_bar_show">Көрсету</string>
+    <string name="now_bar_music">Музыка және бейне</string>
+    <string name="now_bar_timers">Таймерлер, секундомер және оятқыштар</string>
+    <string name="now_bar_hide_call">Қоңырау хабарландыруын жасыру</string>
+    <string name="now_bar_hide_call_summary">Құлыптаулы экранда Now Bar-дағы қоңырау хабарландыру ретінде тізімделмейді</string>
+    <string name="now_bar_live">Live Updates</string>
+    <string name="now_bar_live_summary">Навигация, сапарлар, жеткізілімдер, ұпайлар</string>
+    <string name="now_bar_scores">Тікелей ұпайлар</string>
+    <string name="now_bar_live_apps">Live Updates үшін қолданбалар</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> қолданба</string>
+    <string name="now_bar_pin">Әрдайым көрініп тұратын экранға бекітілген</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> бекітпесі алынсын ба?</string>
+    <string name="now_bar_unpin">Бекітпесін алу</string>
+    <string name="now_bar_scores_summary">At a Glance ішінде қадағалайтын ойындар</string>
+    <string name="now_bar_recording">Экранды және дауыс жазуын жазу</string>
+    <string name="now_bar_buds">Құлаққаптар мен сағаттар</string>
+    <string name="now_bar_buds_summary">Қосылған құрылғының батареясы: құлаққаптар үшін сол, оң және қорап</string>
+    <string name="now_bar_wave">Толқын анимациясы</string>
+    <string name="now_bar_aod">Әрдайым көрініп тұратын экранда көрсету</string>
+    <string name="now_bar_chip">Күйін көрсету жолағындағы чип</string>
+    <string name="now_bar_chip_summary">Ашық тұрғанда сағаттың жанында музыка мен таймерлерді көрсету</string>
+    <string name="now_bar_footer">Now Bar-да музыка болғанда, құлыптаулы экрандағы үлкен ойнатқыш жасырылады. Белсенділіктерді ауыстыру үшін жолақты сырғытыңыз, басқару элементтерін ашу үшін түртіңіз, ал біреуін аяқталғанға дейін жасыру үшін ұзақ басыңыз. Кідіртілген әнді жолақтан сырғытып алып тастаңыз.\n\nТікелей ұпайлар Google қолданбасында қадағалайтын командалардың ойындарын көрсетеді. Smartspacer арқылы сол жерге спорт нысанын қоссаңыз, ұпайлары осында шығады.</string>
+    <string name="now_bar_looks">Looks</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Әдепкі"</item>
+        <item>Liquid Glass</item>
+        <item>Шағын</item>
+        <item>Үлкен</item>
+        <item>Неон</item>
+        <item>Шыны карта</item>
+    </string-array>
+    <string name="now_bar_material">Материал</string>
+    <string name="now_bar_material_summary">Liquid Glass Тақырыпта орнатылған шыныны пайдаланады</string>
+    <string-array name="now_bar_material_entries">
+        <item>Тұтас</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Альбом мұқабасы</item>
+        <item>Акцент</item>
+        <item>Қараңғы</item>
+    </string-array>
+    <string name="now_bar_opacity">Мөлдірлік</string>
+    <string name="now_bar_opacity_summary">Liquid Glass кезінде шыныны қаншалықты түс боятыны</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Жоқ"</item>
+        <item>Жұқа</item>
+        <item>Акцент</item>
+    </string-array>
+    <string name="now_bar_shadow">Көлеңке</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Өшірулі"</item>
+        <item>Жұмсақ</item>
+        <item>Жарқыраңқы</item>
+    </string-array>
+    <string name="now_bar_more">Басқа белсенділіктер</string>
+    <string-array name="now_bar_more_entries">
+        <item>Жай сырғытыңыз</item>
+        <item>Нүктелер</item>
+        <item>Артына қараңыз</item>
+    </string-array>
+    <string name="now_bar_size">Өлшемі мен пішіні</string>
+    <string name="now_bar_height">Биіктік</string>
+    <string name="now_bar_width_summary">Толық болғанда жылдам қолжетімділік батырмалары жолақтың үстіне көшеді</string>
+    <string-array name="now_bar_width_entries">
+        <item>Жіңішке</item>
+        <item>Жылдам қолжетімділік батырмаларының арасында</item>
+        <item>Толық</item>
+    </string-array>
+    <string name="now_bar_corners">Бұрыштар</string>
+    <string name="now_bar_raise">Көтеру</string>
+    <string name="now_bar_art">Альбом мұқабасы</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Шеңбер"</item>
+        <item>Дөңгелектенген</item>
+        <item>"Шаршы"</item>
+        <item>"Өшірулі"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Өткізіп жіберу және ойнату</item>
+        <item>Тек ойнату</item>
+        <item>"Жоқ"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Бір жол</item>
+        <item>Екі жол</item>
+        <item>Тек ән</item>
+    </string-array>
+    <string name="now_bar_show_page">Жолақта не көрсетіледі</string>
+    <string name="now_bar_show_page_summary">Музыка мен бейне, таймерлер, қоңыраулар және басқалар</string>
+    <string name="now_bar_where">Басқа жерде</string>
 </resources>

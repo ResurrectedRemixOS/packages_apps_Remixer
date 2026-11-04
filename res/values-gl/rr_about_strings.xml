@@ -11,4 +11,23 @@
     <string name="rr_about_this_phone">"Este teléfono"</string>
     <string name="rr_about_network">"Rede"</string>
     <string name="rr_about_hidden">Agochado</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Oficial</string>
+    <string name="rr_about_unofficial">Non oficial</string>
+    <string name="rr_about_vanilla">Vainilla</string>
+    <string name="rr_about_hardware">Hardware</string>
+    <string name="rr_about_processor">Procesador</string>
+    <string name="rr_about_processor_sub">%1$d núcleos · ata %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d núcleos</string>
+    <string name="rr_about_storage_used">%1$s usados</string>
+    <string name="rr_about_display">Pantalla</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · Cargando</string>
+    <string name="rr_about_kernel_linux">Núcleo Linux</string>
+    <string name="rr_about_software_purpose">Versión de Android, actualización de seguranza, data de compilación e número de compilación</string>
+    <string name="rr_about_security_patch">Actualización de seguranza</string>
+    <string name="rr_about_maintainer">Mantedor</string>
+    <string name="rr_about_show">Mostrar</string>
+    <string name="rr_about_hide">Ocultar</string>
 </resources>

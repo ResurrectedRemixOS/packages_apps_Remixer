@@ -11,4 +11,23 @@
     <string name="rr_about_this_phone">"ಈ ಫೋನ್"</string>
     <string name="rr_about_network">"ನೆಟ್‌ವರ್ಕ್"</string>
     <string name="rr_about_hidden">ಅಡಗಿದೆ</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">ಅಧಿಕೃತ</string>
+    <string name="rr_about_unofficial">ಅನಧಿಕೃತ</string>
+    <string name="rr_about_vanilla">ವೆನಿಲ್ಲಾ</string>
+    <string name="rr_about_hardware">ಹಾರ್ಡ್‌ವೇರ್</string>
+    <string name="rr_about_processor">ಪ್ರೊಸೆಸರ್</string>
+    <string name="rr_about_processor_sub">%1$d ಕೋರ್‌ಗಳು · ಗರಿಷ್ಠ %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d ಕೋರ್‌ಗಳು</string>
+    <string name="rr_about_storage_used">%1$s ಬಳಕೆಯಾಗಿದೆ</string>
+    <string name="rr_about_display">ಡಿಸ್ಪ್ಲೇ</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · ಚಾರ್ಜ್ ಆಗುತ್ತಿದೆ</string>
+    <string name="rr_about_kernel_linux">Linux ಕರ್ನಲ್</string>
+    <string name="rr_about_software_purpose">Android ಆವೃತ್ತಿ, ಭದ್ರತಾ ಅಪ್‌ಡೇಟ್, ಬಿಲ್ಡ್ ದಿನಾಂಕ ಮತ್ತು ಬಿಲ್ಡ್ ಸಂಖ್ಯೆ</string>
+    <string name="rr_about_security_patch">ಭದ್ರತಾ ಅಪ್‌ಡೇಟ್</string>
+    <string name="rr_about_maintainer">ನಿರ್ವಾಹಕ</string>
+    <string name="rr_about_show">ತೋರಿಸು</string>
+    <string name="rr_about_hide">ಮರೆಮಾಡಿ</string>
 </resources>

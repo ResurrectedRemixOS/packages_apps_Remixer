@@ -8,4 +8,50 @@
         <item>"Mellem"</item>
         <item>"Stor"</item>
     </string-array>
+    <string name="pie_title">Pie-kontrolelementer</string>
+    <string name="pie_summary">Hold den nederste del af en kant for at få en pie med genveje</string>
+    <string name="pie_zone">Del af kanten</string>
+    <string name="pie_clock">Ur og batteri over den</string>
+    <string name="pie_items">Skiver</string>
+    <string-array name="pie_items_entries">
+        <item>"Tilbage"</item>
+        <item>Startskærm</item>
+        <item>"Seneste"</item>
+        <item>"Notifikationer"</item>
+        <item>Lommelygte</item>
+        <item>"Screenshot"</item>
+        <item>"Menu for afbryderknappen"</item>
+        <item>"Assistent"</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Det kræver et halvt sekund stille hold, så et hurtigt swipe fra kanten stadig går tilbage. Det åbnes ikke på låseskærmen.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Venstre"</item>
+        <item>"Højre"</item>
+        <item>Begge</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Nederste tredjedel</item>
+        <item>Midten</item>
+        <item>Hele kanten</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Glas</item>
+        <item>Klassisk</item>
+    </string-array>
+    <string name="sidebar_style_title">Udseende for app-sidepanel</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klassisk</item>
+        <item>RR-glas</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">App-sidepanel</string>
+    <string name="sidebar_settings_summary">Swipe ind fra håndtaget for dine apps og værktøjer</string>
+    <string name="sidebar_apps_title">Apps, håndtag og udklipsholder</string>
+    <string name="sidebar_apps_summary">Slå håndtaget til, vælg apps og opsæt den smarte udklipsholder</string>
+    <string name="sidebar_handle_size_title">Håndtagets størrelse</string>
+    <string name="sidebar_tools_title">Værktøjsrække</string>
+    <string name="sidebar_tools_summary">Screenshot og lommelygte under dine apps</string>
+    <string name="sidebar_footer">Håndtaget er en tynd linje i din accentfarve; træk det for at flytte det langs kanten. Med bevægelsesnavigation dækker det kun sin egen del af kanten, og tilbage virker alle andre steder.</string>
 </resources>

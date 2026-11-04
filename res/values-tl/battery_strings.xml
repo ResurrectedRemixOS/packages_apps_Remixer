@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Baterya"</string>
     <string name="battery_style_title">"Istilo"</string>
+    <string-array name="battery_style_entries">
+        <item>Portrait</item>
+        <item>Bilog</item>
+        <item>Tuldok-tuldok na bilog</item>
+        <item>Neon na singsing</item>
+        <item>Manipis na pill</item>
+        <item>Malaking porsyento</item>
+        <item>"Teksto"</item>
+    </string-array>
+    <string name="battery_percent_title">Porsyento</string>
+    <string-array name="battery_percent_entries">
+        <item>"Nakatago"</item>
+        <item>Sa loob ng icon</item>
+        <item>Sa tabi nito</item>
+    </string-array>
+    <string name="battery_ring_color_title">Kulay ng neon na singsing</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Ang By level ay accent kapag higit sa 20%%, pula kapag mas mababa, at amber sa Battery Saver.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Ayon sa antas</item>
+        <item>Accent</item>
+        <item>"Puti"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Kumikislap habang nagcha-charge</string>
+    <string name="battery_ring_tile_title">Parehong singsing sa tile ng Mabilisang Setting</string>
+    <string name="battery_ring_tile_summary">Kasama ang antas at oras na nakabukas ang screen</string>
 </resources>

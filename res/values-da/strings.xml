@@ -84,4 +84,202 @@
     <string name="wallpaper_apply_home">"Startskærm"</string>
     <string name="wallpaper_apply_lock">"Låseskærm"</string>
     <string name="remixer_navbar_category">"Navigationslinje"</string>
+    <string name="remixer_dashboard_summary">Statusbjælke, tema, låseskærm og mere</string>
+    <string name="rr_homepage_battery_saver">Batterisparefunktion</string>
+    <string name="rr_homepage_personalize">Tilpas</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> ledig</string>
+    <string name="rr_homepage_charged">Fuldt opladet</string>
+    <string name="rr_homepage_on_battery">Kører på batteri</string>
+    <string name="rr_homepage_saver_on">Batterisparefunktion er til</string>
+    <string name="rr_homepage_extras">Flere indstillinger</string>
+    <string name="rr_homepage_saver">Sparefunktion</string>
+    <string name="rr_homepage_signed_out">Ikke logget ind</string>
+    <string name="rr_homepage_remixer_tagline">Gør den til din. Statusbjælke, tema, låseskærm og mere.</string>
+    <string name="rr_homepage_device_tagline">Lydkontakt, skærm, opladning og GameBar.</string>
+    <string name="rr_homepage_device_action">Finjuster</string>
+    <string name="rr_group_network">Netværk og enheder</string>
+    <string name="rr_group_network_summary">Wi‑Fi, mobil, Bluetooth</string>
+    <string name="rr_group_apps_summary">Apps, notifikationer, tilstande</string>
+    <string name="rr_group_display">Skærm og lyd</string>
+    <string name="rr_group_display_summary">Skærm, baggrund, lyd</string>
+    <string name="rr_group_security_summary">Lås, placering, nødopkald</string>
+    <string name="rr_group_security_center">Sikkerhedscenter</string>
+    <string name="rr_group_accounts">Google og konti</string>
+    <string name="rr_group_accounts_summary">Google, adgangskoder, sikkerhedskopi</string>
+    <string name="rr_group_accounts_plain_summary">Adgangskoder, konti, sikkerhedskopi</string>
+    <string name="rr_group_system_summary">Sprog, bevægelser, opdateringer</string>
+    <string name="remixer_tagline">Gør den til din.</string>
+    <string name="remixer_remix">Remix den</string>
+    <string name="remixer_remixed">Remixet med <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Nuance · Standard</string>
+    <string name="remixer_quick">Hurtigt remix</string>
+    <string name="remixer_everything">Alt</string>
+    <string name="remixer_quick_accents">Forindstillinger eller vilkårlig farve</string>
+    <string name="remixer_quick_fonts">Systemskrifttypestile</string>
+    <string name="remixer_quick_walls">RR-samling</string>
+    <string name="remixer_quick_header">Kvikmenu-sidehoved</string>
+    <string name="remixer_quick_header_summary">Sidehovedbilleder</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Ur, batteri, ikoner og netværkstrafik</string>
+    <string name="remixer_qs_summary">Sidehovedbillede</string>
+    <string name="remixer_notifications_summary">Kantbelysning, appikoner og opladningslyde</string>
+    <string name="remixer_theme_summary">Skrifttyper, accenter og baggrunde</string>
+    <string name="remixer_lockscreen_summary">UDFPS, opladningsinfo og vejr</string>
+    <string name="remixer_udfps_icon">UDFPS-ikon</string>
+    <string name="remixer_udfps_icon_summary">Vises over fingeraftrykssensoren</string>
+    <string name="remixer_udfps_animation">UDFPS-animation</string>
+    <string name="remixer_udfps_animation_summary">Afspilles, mens fingeren er på sensoren</string>
+    <string name="remixer_navigation">Navigation</string>
+    <string name="remixer_navigation_summary">Puls, knapper og navigationslinje</string>
+    <string name="remixer_misc_summary">Lydstyrke, sikkerhedskopi, falske identiteter, rulning og USB</string>
+    <string name="scroll_haptics_title">Tryk ved slutningen af en rulning</string>
+    <string name="scroll_haptics_summary">Et svagt vibrationssignal, når en liste eller side ikke kan rulle længere</string>
+    <string name="usb_mode_picker_title">Valg af USB-tilstand</string>
+    <string name="usb_mode_picker_summary">Vælg en tilstand, når du tilslutter en computer</string>
+    <string name="remixer_fonts_summary">Systemskrifttype</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix-baggrunde</string>
+    <string name="remixer_accents">Accenter</string>
+    <string name="remixer_accents_summary">Accentfarve</string>
+    <string name="remixer_pulse">Puls</string>
+    <string name="remixer_pulse_summary">Musikvisualisering langs bunden af skærmen</string>
+    <string name="pulse_switch">Brug puls</string>
+    <string name="pulse_switch_summary">Musiklinjer langs bunden af skærmen, mens medier afspilles</string>
+    <string name="pulse_style_lines">Linjer</string>
+    <string name="pulse_style_fading">Toning</string>
+    <string name="pulse_style_blocks">Blokke</string>
+    <string name="pulse_style_mirror">Spejl</string>
+    <string name="pulse_color_custom">Tilpasset</string>
+    <string name="pulse_color_gradient">Regnbue</string>
+    <string name="pulse_bars">Søjler</string>
+    <string name="pulse_bars_value">Søjler · %1$d</string>
+    <string name="pulse_height">Højde</string>
+    <string name="pulse_height_value">Højde · %1$d dp</string>
+    <string name="pulse_opacity">Gennemsigtighed</string>
+    <string name="pulse_opacity_value">Gennemsigtighed · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Behold søjlerne på låseskærmen, mens musik spiller</string>
+    <string name="pulse_failed">Pulsindstillingen kunne ikke gemmes</string>
+    <string name="accent_applied">Accent anvendt</string>
+    <string name="accent_current">Accent · %1$s</string>
+    <string name="accent_current_custom">Accent · Tilpasset</string>
+    <string name="accent_preview_tonal">Tonal</string>
+    <string name="accent_failed">Accenten kunne ikke anvendes</string>
+    <string name="accent_custom">Tilpasset</string>
+    <string name="accent_custom_summary">Enhver farve virker. Nuance anvendes stadig oven på.</string>
+    <string name="accent_custom_pad">Mætning og lysstyrke</string>
+    <string name="accent_custom_use">Brug <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">Nuance</string>
+    <string name="accent_shade_darker">Mørkere</string>
+    <string name="accent_shade_lighter">Lysere</string>
+    <string name="accent_shade_darker_value">Mørkere · %1$d</string>
+    <string name="accent_shade_lighter_value">Lysere · %1$d</string>
+    <string name="remixer_qs_style">Kvikmenu-stil</string>
+    <string name="remixer_qs_style_preview">Forhåndsvisning · %1$s</string>
+    <string name="remixer_qs_style_note">Alle stilarter følger din accentfarve. Lydstyrkepanelet har tilsvarende udseender: Bento, Former, Blueprint, Duo og Blød. Stock Lineage bevarer Android 17-flisene uændrede.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Android 17-flisene, uændrede</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Lysstyrke på et accentkort. Flisene fyldes med en accentgradient</string>
+    <string name="remixer_qs_style_compact">Kompakt</string>
+    <string name="remixer_qs_style_compact_summary">Kortere fliser. Flere af dem på én skærm</string>
+    <string name="remixer_qs_style_glass">Glas</string>
+    <string name="remixer_qs_style_glass_summary">Gennemsigtige fliser med kant, der lyser i din accent, når de er til</string>
+    <string name="remixer_qs_style_circles">Cirkler</string>
+    <string name="remixer_qs_style_circles_summary">Runde kontakter med tekst. Brede fliser bliver til kort</string>
+    <string name="remixer_qs_style_classic">Klassisk</string>
+    <string name="remixer_qs_style_classic_summary">Gammel RR-stil: nøgne ikoner med tekst, fem på række og en tynd skyder</string>
+    <string name="remixer_qs_style_cards">Kort</string>
+    <string name="remixer_qs_style_cards_summary">Store kort med status under hvert navn, tre på række</string>
+    <string name="remixer_qs_style_neon">Neon</string>
+    <string name="remixer_qs_style_neon_summary">Fliser med kant, der lyser i din accent, når de er til</string>
+    <string name="remixer_qs_style_bento_summary">Store afrundede blokke fyldt med din accent, med tekst under de små</string>
+    <string name="remixer_qs_style_shapes">Former</string>
+    <string name="remixer_qs_style_shapes_summary">Runde kontakter, der får flige, når de er til, fem på række</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Hårfine kanter og versaler i monospace</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Delte fliser. Ikonhalvdelen lyser op og skifter</string>
+    <string name="remixer_qs_style_soft">Blød</string>
+    <string name="remixer_qs_style_soft_summary">Hævede fliser, der trykkes ind, når de er til</string>
+    <string name="remixer_lock_media_style">Stil for mediespiller</string>
+    <string name="remixer_lock_media_same">Samme som kvikmenu</string>
+    <string name="remixer_lock_media_same_summary">Følger din kvikmenu-medieflise, nu %1$s</string>
+    <string name="remixer_lock_media_off_summary">Ingen afspiller på låseskærmen</string>
+    <string name="remixer_lock_media_note">Kortet vises på låseskærmen, mens noget afspilles. Gennemsigtige stilarter får en mørk baggrund, så de forbliver læselige over baggrunden.</string>
+    <string name="remixer_lock_media_stock_summary">Albumkunst fylder kortet</string>
+    <string name="remixer_lock_media_remix_summary">Mørkt kort, accent-afspilningsknap</string>
+    <string name="remixer_lock_media_compact_summary">Rundere kort, runde billeder</string>
+    <string name="remixer_lock_media_glass_summary">Gennemsigtigt kort med kant</string>
+    <string name="remixer_lock_media_circles_summary">Blødt kort, accent-afspilningsknap</string>
+    <string name="remixer_lock_media_classic_summary">Kantet kort, afspilningsknap med kant</string>
+    <string name="remixer_lock_media_cards_summary">Blødt kort, accent-afspilningsknap, som Cirkler</string>
+    <string name="remixer_lock_media_neon_summary">Sort kort med accentkant</string>
+    <string name="remixer_lock_media_bento_summary">Blødt kort, accent-afspilningsknap</string>
+    <string name="remixer_lock_media_shapes_summary">Rundere kort, accent-afspilningsknap</string>
+    <string name="remixer_lock_media_blueprint_summary">Hårfin kant, afspilningsknap med kant</string>
+    <string name="remixer_lock_media_duo_summary">Tokanet kort, accent-afspilningsknap</string>
+    <string name="remixer_lock_media_soft_summary">Hævet kort med afrundet kant</string>
+    <string name="remixer_headers">Sidehovedbillede</string>
+    <string name="remixer_headers_summary">Vælg et baggrundsbillede til kvikmenuen</string>
+    <string name="header_switch">Brug sidehovedbillede</string>
+    <string name="header_switch_summary">Vis et billede bag kvikmenuen</string>
+    <string name="header_source">Kilde</string>
+    <string name="header_source_collection">Samling</string>
+    <string name="header_collections_summary_daylight">Sidehovedet følger tidspunktet på dagen eller skifter gennem samlingen</string>
+    <string name="header_collections_summary_static">Åbn en samling, og tryk derefter på et billede for at bruge det</string>
+    <string name="header_collections_empty">Ingen sidehovedsamlinger installeret</string>
+    <string name="header_images_daylight">I denne samling</string>
+    <string name="header_photo_summary">Ethvert foto eller animeret GIF fra dit galleri</string>
+    <string name="header_height">Højde</string>
+    <string name="header_height_value">Højde · %1$d dp</string>
+    <string name="header_shadow">Dæmpet</string>
+    <string name="header_shadow_value">Dæmpet · %1$d%%</string>
+    <string name="header_failed">Sidehovedindstillingen kunne ikke gemmes</string>
+    <string name="remixer_weather_summary">Vejrtjeneste og enheder</string>
+    <string name="font_preview_notification">Sådan vil din telefon læse.</string>
+    <string name="font_try_text">Prøv din egen tekst</string>
+    <string name="font_previewing">Forhåndsviser</string>
+    <string name="font_current">Nuværende skrifttype</string>
+    <string name="font_badge_current">Nuværende</string>
+    <string name="font_apply_done">Anvendt</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Visning</string>
+    <string name="font_filter_script">Skrift</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Skrifttype anvendt</string>
+    <string name="font_failed">Skrifttypen kunne ikke anvendes</string>
+    <string name="wallpaper_set">Baggrund indstillet</string>
+    <string name="wallpaper_apply_both">Begge</string>
+    <string name="wallpaper_failed">Baggrunden kunne ikke indstilles</string>
+    <string name="missing_app">Appen er ikke installeret</string>
+    <string name="remixer_spoofing">Falske identiteter</string>
+    <string name="remixer_spoofing_summary">Play Integrity, enhedsidentitet og falske identiteter for hver app</string>
+    <string name="remixer_settings_style">Indstillingsstil</string>
+    <string name="remixer_settings_style_original">Original</string>
+    <string name="rr_maintainer">Vedligeholder</string>
+    <string name="remixer_navbar_summary">Pilens længde, tykkelse og layout</string>
+    <string name="remixer_navbar_pill_length">Længde på bevægelsesbjælke</string>
+    <string name="remixer_navbar_pill_thickness">Tykkelse på bevægelsesbjælke</string>
+    <string name="remixer_navbar_pill_auto_hide">Udton bevægelsesbjælken</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Skjul bjælken efter nogle få sekunder; den vender tilbage, når du rører skærmen</string>
+    <string name="remixer_navbar_ime">Tastaturknapper</string>
+    <string name="remixer_navbar_ime_summary">Vis knapperne for tilbage og tastaturskifter under tastaturet</string>
+    <string name="remixer_navbar_layout">Knaplayout</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Kort</item>
+        <item>Normal</item>
+        <item>Lang</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Tyndest</item>
+        <item>Tyndere</item>
+        <item>Tynd</item>
+        <item>Normal</item>
+        <item>Tyk</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Normal</item>
+        <item>Kompakt</item>
+        <item>"Venstreorienteret"</item>
+        <item>"Højreorienteret"</item>
+    </string-array>
 </resources>

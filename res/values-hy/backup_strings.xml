@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">"Ժեստեր"</string>
     <string name="backup_group_other">"Այլ"</string>
     <string name="backup_done">"Պատրաստ է"</string>
+    <string name="backup_summary">RR-ի բոլոր կարգավորումները մեկ ֆայլում</string>
+    <string name="backup_now">Պահուստավորել հիմա</string>
+    <string name="backup_never">Վերջին պահուստավորում՝ երբեք</string>
+    <string name="backup_last">Վերջին պահուստավորում՝ <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Վերականգնել ֆայլից</string>
+    <string name="backup_restore_summary">Ընտրել պահուստավորման ֆայլ</string>
+    <string name="backup_included">Ներառված է</string>
+    <string name="backup_part_theme">Ակցենտ, տառատեսակ և պատկերակներ</string>
+    <string name="backup_part_header">Վերնագրի պատկեր</string>
+    <string name="backup_part_photo">Վերնագրի պատկեր (ձեր լուսանկարը)</string>
+    <string name="backup_part_photo_summary">Մեծացնում է ֆայլի չափը</string>
+    <string name="backup_part_boot">Բեռնման անիմացիա</string>
+    <string name="backup_part_looks">Ձեր տեսքերը</string>
+    <string name="backup_weekly">Շաբաթական պահուստավորում</string>
+    <string name="backup_weekly_summary">Ընտրված թղթապանակում</string>
+    <string name="backup_weekly_on">Ամեն շաբաթ՝ <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Առաջարկել պահուստավորում թարմացումներից առաջ</string>
+    <string name="backup_offer_summary">Թարմացնողը հարցնում է, նախքան տեղադրելը</string>
+    <string name="backup_sets">Սահմանում է <xliff:g id="count" example="64">%1$d</xliff:g> կարգավորում</string>
+    <string name="backup_saved">Պահվել է <xliff:g id="count" example="64">%1$d</xliff:g> կարգավորում</string>
+    <string name="backup_restored">Վերականգնվել է <xliff:g id="count" example="64">%1$d</xliff:g> կարգավորում</string>
+    <string name="backup_restored_message">SystemUI-ը վերագործարկվում է՝ դրանք կիրառելու համար։</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> կարգավորումները այս build-ում գոյություն չունեն և բաց են թողնվել։</string>
+    <string name="backup_failed">Չհաջողվեց պահել պահուստը</string>
+    <string name="backup_invalid">Այս ֆայլը Resurrected Remix-ի պահուստ չէ</string>
+    <string name="backup_footer">Միայն RR-ի կարգավորումները են գրվում ֆայլում․ ոչ հաշիվներ, ոչ գաղտնաբառեր, ոչ Wi-Fi ցանցեր, ոչ հավելվածներ և ոչ հաղորդագրություններ։ Վերականգնումը գրում է միայն RR-ի սեփական ցանկում գտնվող կարգավորումները, այնպես որ պահուստային ֆայլը ձեր հեռախոսի ուրիշ ոչինչ չի կարող փոխել։ Ձեր վերնագրի նկարը ներառվում է միայն այն դեպքում, եթե դրա անջատիչը միացված է, քանի որ այն ֆայլը մեծացնում է։</string>
+    <string name="volume_style_title">Ձայնի վահանակի ոճ</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Նեոն</item>
+        <item>Ապակե</item>
+        <item>Գլան</item>
+        <item>Դասական RR</item>
+        <item>Bento</item>
+        <item>Ձևեր</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Փափուկ</item>
+    </string-array>
 </resources>

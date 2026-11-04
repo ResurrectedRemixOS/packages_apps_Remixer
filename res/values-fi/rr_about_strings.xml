@@ -11,4 +11,23 @@
     <string name="rr_about_this_phone">"Tämä puhelin"</string>
     <string name="rr_about_network">"Verkko"</string>
     <string name="rr_about_hidden">Piilotettu</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Virallinen</string>
+    <string name="rr_about_unofficial">Epävirallinen</string>
+    <string name="rr_about_vanilla">Vanilla</string>
+    <string name="rr_about_hardware">Laitteisto</string>
+    <string name="rr_about_processor">Prosessori</string>
+    <string name="rr_about_processor_sub">%1$d ydintä · enintään %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d ydintä</string>
+    <string name="rr_about_storage_used">%1$s käytetty</string>
+    <string name="rr_about_display">Näyttö</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · Latautuu</string>
+    <string name="rr_about_kernel_linux">Linux-ydin</string>
+    <string name="rr_about_software_purpose">Android-versio, tietoturvapäivitys, koontipäivä ja koontinumero</string>
+    <string name="rr_about_security_patch">Tietoturvapäivitys</string>
+    <string name="rr_about_maintainer">Ylläpitäjä</string>
+    <string name="rr_about_show">Näytä</string>
+    <string name="rr_about_hide">Piilota</string>
 </resources>

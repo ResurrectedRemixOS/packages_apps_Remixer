@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">"اشارے"</string>
     <string name="backup_group_other">"دیگر"</string>
     <string name="backup_done">"ہو گیا"</string>
+    <string name="backup_summary">ایک فائل میں تمام RR حسبِ ضرورت ترتیبات</string>
+    <string name="backup_now">ابھی بیک اپ لیں</string>
+    <string name="backup_never">آخری بیک اپ: کبھی نہیں</string>
+    <string name="backup_last">آخری بیک اپ: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">فائل سے بحال کریں</string>
+    <string name="backup_restore_summary">بیک اپ فائل منتخب کریں</string>
+    <string name="backup_included">شامل ہے</string>
+    <string name="backup_part_theme">لہجہ، فونٹ اور آئیکنز</string>
+    <string name="backup_part_header">ہیڈر تصویر</string>
+    <string name="backup_part_photo">ہیڈر تصویر (آپ کی فوٹو)</string>
+    <string name="backup_part_photo_summary">فائل کا حجم بڑھاتا ہے</string>
+    <string name="backup_part_boot">بوٹ اینیمیشن</string>
+    <string name="backup_part_looks">آپ کے Looks</string>
+    <string name="backup_weekly">ہفتہ وار بیک اپ</string>
+    <string name="backup_weekly_summary">آپ کے منتخب فولڈر میں</string>
+    <string name="backup_weekly_on">ہر ہفتے <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g> میں</string>
+    <string name="backup_offer">اپ ڈیٹس سے پہلے بیک اپ کی پیشکش کریں</string>
+    <string name="backup_offer_summary">اپ ڈیٹر انسٹال کرنے سے پہلے پوچھتا ہے</string>
+    <string name="backup_sets"><xliff:g id="count" example="64">%1$d</xliff:g> ترتیبات سیٹ کرتا ہے</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> ترتیبات محفوظ ہو گئیں</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> ترتیبات بحال ہو گئیں</string>
+    <string name="backup_restored_message">انہیں لاگو کرنے کے لیے SystemUI دوبارہ شروع ہوتا ہے۔</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> ترتیبات اس بلڈ میں موجود نہیں اور چھوڑ دی گئیں۔</string>
+    <string name="backup_failed">بیک اپ محفوظ نہیں ہو سکا</string>
+    <string name="backup_invalid">یہ فائل Resurrected Remix کا بیک اپ نہیں ہے</string>
+    <string name="backup_footer">فائل میں صرف RR کی ترتیبات جاتی ہیں: کوئی اکاؤنٹ، پاس ورڈ، وائی فائی نیٹ ورک، ایپس یا پیغامات نہیں۔ بحالی صرف RR کی اپنی فہرست والی ترتیبات لکھتی ہے، اس لیے بیک اپ فائل فون کی کوئی اور چیز نہیں بدل سکتی۔ ہیڈر تصویر صرف اس وقت شامل ہوتی ہے جب اس کا سوئچ آن ہو، کیونکہ اس سے فائل بڑی ہوتی ہے۔</string>
+    <string name="volume_style_title">والیوم پینل کا انداز</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>نیون</item>
+        <item>گلاس</item>
+        <item>پل</item>
+        <item>کلاسک RR</item>
+        <item>Bento</item>
+        <item>شیپس</item>
+        <item>بلیو پرنٹ</item>
+        <item>ڈیوو</item>
+        <item>سافٹ</item>
+    </string-array>
 </resources>

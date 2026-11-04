@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Taustapilt"</item>
+        <item>Resurrected</item>
+        <item>Android One roheline</item>
+        <item>Aospa roheline</item>
+        <item>Coca Cola punane</item>
+        <item>Discord lilla</item>
+        <item>Facebooki sinine</item>
+        <item>Instagrami kirss</item>
+        <item>Jollibee karmiinpunane</item>
+        <item>Monster Energy roheline</item>
+        <item>Nextbiti piparmündiroheline</item>
+        <item>OnePlus punane</item>
+        <item>Pepsi sinine</item>
+        <item>Pixeli sinine</item>
+        <item>Pocophone kollane</item>
+        <item>Razeri roheline</item>
+        <item>Samsungi sinine</item>
+        <item>Spotify roheline</item>
+        <item>Starbucksi roheline</item>
+        <item>Twitchi lilla</item>
+        <item>Twitteri sinine</item>
+        <item>Xiaomi oranž</item>
+        <item>Merevaik</item>
+        <item>"Must"</item>
+        <item>"Sinine"</item>
+        <item>Sinakashall</item>
+        <item>Pruun</item>
+        <item>"Tsüaan"</item>
+        <item>Tumeoranž</item>
+        <item>Tumelilla</item>
+        <item>"Roheline"</item>
+        <item>"Hall"</item>
+        <item>"Indigosinine"</item>
+        <item>Helesinine</item>
+        <item>Laim</item>
+        <item>"Oranž"</item>
+        <item>"Roosa"</item>
+        <item>"Lilla"</item>
+        <item>"Punane"</item>
+        <item>"Sinakasroheline"</item>
+        <item>Kasutaja viis</item>
+        <item>Kasutaja neli</item>
+        <item>Kasutaja üks</item>
+        <item>Kasutaja seitse</item>
+        <item>Kasutaja kuus</item>
+        <item>Kasutaja kolm</item>
+        <item>Kasutaja kaks</item>
+        <item>"Valge"</item>
+        <item>"Kollane"</item>
+    </string-array>
+</resources>

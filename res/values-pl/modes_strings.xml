@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Wygląd dla każdego z Twoich trybów</string>
+    <string name="remix_modes_everyday">Codzienny wygląd</string>
+    <string name="remix_modes_everyday_summary">Wraca, gdy żaden tryb z wyglądem nie jest włączony</string>
+    <string name="remix_modes_wallpaper">Tapeta zmienia się wraz z wyglądem</string>
+    <string name="remix_modes_wallpaper_summary">Tryb może też zmienić tapetę</string>
+    <string name="remix_modes_modes">Twoje tryby</string>
+    <string name="remix_modes_no_change">Bez zmian</string>
+    <string name="remix_modes_none">Najpierw zapisz wygląd w Motyw › Wygląd</string>
+    <string name="remix_modes_pick">Wygląd dla: <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

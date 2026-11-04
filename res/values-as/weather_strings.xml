@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"সবিশেষ"</string>
     <string name="lockscreen_weather_location_title">"অৱস্থান"</string>
+    <string name="lockscreen_weather_title">লক স্ক্ৰীনত বতৰ</string>
+    <string name="lockscreen_weather_location_summary">চহৰৰ নাম দেখুৱাওক</string>
+    <string name="lockscreen_weather_text_title">অৱস্থা</string>
+    <string name="lockscreen_weather_text_summary">অৱস্থা দেখুৱাওক, যেনে মেঘলা বা পৰিষ্কাৰ আকাশ</string>
+    <string name="lockscreen_weather_wind_title">বতাহ</string>
+    <string name="lockscreen_weather_wind_summary">বতাহৰ বেগ আৰু দিশ দেখুৱাওক</string>
+    <string name="lockscreen_weather_humidity_title">আর্দ্ৰতা</string>
+    <string name="lockscreen_weather_humidity_summary">আর্দ্ৰতা দেখুৱাওক</string>
+    <string name="custom_clock_weather_title">ঘড়ীৰ মুখত বতৰ</string>
+    <string name="custom_clock_weather_summary">ঠাই থকা ঘড়ীৰ মুখত বতৰ দেখুৱাওক</string>
+    <string name="remixer_weather_service">বতৰ সেৱা</string>
+    <string name="remixer_weather_page_summary">লক স্ক্ৰীনৰ বতৰ আৰু ইয়াত কি দেখা যায়</string>
 </resources>

@@ -4,4 +4,33 @@
     <string name="sb_clock_chip_angle_title">Góc độ gradient</string>
     <string name="sb_weather_category">"Thời tiết"</string>
     <string name="sb_weather_position_title">Vị trí</string>
+    <string name="sb_clock_category">Đồng hồ &amp; ngày</string>
+    <string name="sb_clock_bold_title">Đồng hồ đậm</string>
+    <string name="sb_clock_bold_summary">Hiển thị đồng hồ thanh trạng thái bằng chữ đậm</string>
+    <string name="sb_clock_period_separator_title">Dấu phân cách giờ</string>
+    <string name="sb_clock_period_separator_summary">10.45 thay vì 10:45</string>
+    <string name="sb_clock_date_position_title">Vị trí ngày</string>
+    <string name="sb_clock_date_style_title">Kiểu chữ ngày</string>
+    <string name="sb_clock_date_format_title">Định dạng ngày</string>
+    <string name="sb_clock_chip_category">Nền đồng hồ</string>
+    <string name="sb_clock_chip_title">Kiểu nền</string>
+    <string name="sb_clock_chip_start_title">Màu gradient bắt đầu</string>
+    <string name="sb_clock_chip_end_title">Màu gradient kết thúc</string>
+    <string name="sb_clock_chip_mask_title">Cắt giờ khỏi gradient</string>
+    <string name="sb_clock_chip_mask_summary">Gradient hiển thị xuyên qua các chữ số thay vì nằm phía sau</string>
+    <string name="sb_weather_title">Thời tiết trên thanh trạng thái</string>
+    <string name="status_bar_clock_rr_style_title">Kiểu đồng hồ</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Mặc định"</item>
+        <item>Neon</item>
+        <item>Tách đôi</item>
+        <item>Dấu RR</item>
+        <item>Mono</item>
+        <item>Nhịp</item>
+        <item>Xếp chồng</item>
+        <item>Than hồng</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Đường Flatline bên cạnh giờ</string>
+    <string name="sb_clock_flatline_summary">Đường nhịp tim của RR bên trong chip: đập theo nhạc, tăng vọt khi có thông báo đến</string>
 </resources>

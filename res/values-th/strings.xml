@@ -85,4 +85,213 @@
     <string name="wallpaper_apply_lock">"หน้าจอล็อก"</string>
     <string name="remixer_settings_style_original">"ต้นฉบับ"</string>
     <string name="remixer_navbar_category">"แถบนำทาง"</string>
+    <string name="remixer_dashboard_summary">สถานะ แถบ ธีม หน้าจอล็อก และอื่น ๆ</string>
+    <string name="rr_homepage_battery_saver">โหมดประหยัดแบตเตอรี่</string>
+    <string name="rr_homepage_personalize">ปรับแต่ง</string>
+    <string name="rr_homepage_free">ว่าง <xliff:g id="size" example="194 GB">%1$s</xliff:g></string>
+    <string name="rr_homepage_charged">ชาร์จเต็มแล้ว</string>
+    <string name="rr_homepage_on_battery">ใช้แบตเตอรี่</string>
+    <string name="rr_homepage_saver_on">เปิดโหมดประหยัดแบตเตอรี่อยู่</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> อุปกรณ์</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> อุปกรณ์</item>
+    </plurals>
+    <string name="rr_homepage_extras">การตั้งค่าเพิ่มเติม</string>
+    <string name="rr_homepage_saver">ประหยัด</string>
+    <string name="rr_homepage_signed_out">ยังไม่ได้ลงชื่อเข้าใช้</string>
+    <string name="rr_homepage_remixer_tagline">ปรับให้เป็นของคุณ แถบสถานะ ธีม หน้าจอล็อก และอื่น ๆ</string>
+    <string name="rr_homepage_device_tagline">ปุ่มสลับเสียง จอแสดงผล การชาร์จ และ GameBar</string>
+    <string name="rr_homepage_device_action">ปรับแต่ง</string>
+    <string name="rr_group_network">เครือข่ายและอุปกรณ์</string>
+    <string name="rr_group_network_summary">Wi‑Fi มือถือ บลูทูธ</string>
+    <string name="rr_group_apps_summary">แอป การแจ้งเตือน โหมด</string>
+    <string name="rr_group_display">จอแสดงผลและเสียง</string>
+    <string name="rr_group_display_summary">จอแสดงผล วอลเปเปอร์ เสียง</string>
+    <string name="rr_group_security_summary">ล็อก ตำแหน่ง ฉุกเฉิน</string>
+    <string name="rr_group_security_center">ศูนย์ความปลอดภัย</string>
+    <string name="rr_group_accounts">Google และบัญชี</string>
+    <string name="rr_group_accounts_summary">Google รหัสผ่าน การสำรองข้อมูล</string>
+    <string name="rr_group_accounts_plain_summary">รหัสผ่าน บัญชี การสำรองข้อมูล</string>
+    <string name="rr_group_system_summary">ภาษา ท่าทาง การอัปเดต</string>
+    <string name="remixer_tagline">ปรับให้เป็นของคุณ</string>
+    <string name="remixer_remix">รีมิกซ์</string>
+    <string name="remixer_remixed">รีมิกซ์ด้วย <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">เฉด · ค่าเริ่มต้น</string>
+    <string name="remixer_quick">รีมิกซ์ด่วน</string>
+    <string name="remixer_everything">ทั้งหมด</string>
+    <string name="remixer_quick_accents">ชุดตั้งค่าหรือสีใดก็ได้</string>
+    <string name="remixer_quick_fonts">รูปแบบแบบอักษรของระบบ</string>
+    <string name="remixer_quick_walls">คอลเลกชัน RR</string>
+    <string name="remixer_quick_header">ส่วนหัวการตั้งค่าด่วน</string>
+    <string name="remixer_quick_header_summary">รูปภาพส่วนหัว</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">นาฬิกา แบตเตอรี่ ไอคอน และความเร็วเครือข่าย</string>
+    <string name="remixer_qs_summary">รูปภาพส่วนหัว</string>
+    <string name="remixer_notifications_summary">ไฟขอบจอ ไอคอนแอป และเสียงการชาร์จ</string>
+    <string name="remixer_theme_summary">แบบอักษร สีเน้น และวอลเปเปอร์</string>
+    <string name="remixer_lockscreen_summary">UDFPS ข้อมูลการชาร์จ และสภาพอากาศ</string>
+    <string name="remixer_udfps_icon">ไอคอน UDFPS</string>
+    <string name="remixer_udfps_icon_summary">แสดงทับเซ็นเซอร์ลายนิ้วมือ</string>
+    <string name="remixer_udfps_animation">แอนิเมชัน UDFPS</string>
+    <string name="remixer_udfps_animation_summary">เล่นขณะที่นิ้วของคุณแตะเซ็นเซอร์</string>
+    <string name="remixer_navigation">การนำทาง</string>
+    <string name="remixer_navigation_summary">Pulse ปุ่ม และแถบนำทาง</string>
+    <string name="remixer_misc_summary">ระดับเสียง การสำรองข้อมูล การปลอมอุปกรณ์ การเลื่อน และ USB</string>
+    <string name="scroll_haptics_title">แตะเมื่อสุดการเลื่อน</string>
+    <string name="scroll_haptics_summary">สั่นเบา ๆ เมื่อรายการหรือหน้าเลื่อนต่อไม่ได้</string>
+    <string name="usb_mode_picker_title">ตัวเลือกโหมด USB</string>
+    <string name="usb_mode_picker_summary">เลือกโหมดเมื่อเสียบกับคอมพิวเตอร์</string>
+    <string name="remixer_fonts_summary">แบบอักษรระบบ</string>
+    <string name="remixer_wallpapers_summary">วอลเปเปอร์ Resurrected Remix</string>
+    <string name="remixer_accents">สีเน้น</string>
+    <string name="remixer_accents_summary">สีเน้น</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">ตัวแสดงผลเพลงตามขอบล่างของหน้าจอ</string>
+    <string name="pulse_switch">ใช้ Pulse</string>
+    <string name="pulse_switch_summary">แถบเพลงตามขอบล่างของหน้าจอขณะเล่นสื่อ</string>
+    <string name="pulse_style_lines">เส้น</string>
+    <string name="pulse_style_fading">ค่อยจาง</string>
+    <string name="pulse_style_blocks">บล็อก</string>
+    <string name="pulse_style_mirror">กระจก</string>
+    <string name="pulse_color_custom">กำหนดเอง</string>
+    <string name="pulse_color_gradient">สายรุ้ง</string>
+    <string name="pulse_bars">แท่ง</string>
+    <string name="pulse_bars_value">แท่ง · %1$d</string>
+    <string name="pulse_height">ความสูง</string>
+    <string name="pulse_height_value">ความสูง · %1$d dp</string>
+    <string name="pulse_opacity">ความทึบ</string>
+    <string name="pulse_opacity_value">ความทึบ · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">แสดงแท่งบนหน้าจอล็อกขณะเล่นเพลง</string>
+    <string name="pulse_failed">บันทึกการตั้งค่า Pulse ไม่ได้</string>
+    <string name="accent_applied">ใช้สีเน้นแล้ว</string>
+    <string name="accent_current">สีเน้น · %1$s</string>
+    <string name="accent_current_custom">สีเน้น · กำหนดเอง</string>
+    <string name="accent_preview_tonal">โทนเดียวกัน</string>
+    <string name="accent_failed">ใช้สีเน้นนั้นไม่ได้</string>
+    <string name="accent_custom">กำหนดเอง</string>
+    <string name="accent_custom_summary">เลือกสีใดก็ได้ ยังใช้เฉดได้ด้วย</string>
+    <string name="accent_custom_pad">ความอิ่มตัวและความสว่าง</string>
+    <string name="accent_custom_use">ใช้ <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">เฉด</string>
+    <string name="accent_shade_darker">เข้มขึ้น</string>
+    <string name="accent_shade_lighter">สว่างขึ้น</string>
+    <string name="accent_shade_darker_value">เข้มขึ้น · %1$d</string>
+    <string name="accent_shade_lighter_value">สว่างขึ้น · %1$d</string>
+    <string name="remixer_qs_style">รูปแบบการตั้งค่าด่วน</string>
+    <string name="remixer_qs_style_preview">ตัวอย่าง · %1$s</string>
+    <string name="remixer_qs_style_note">ทุกรูปแบบใช้สีเน้นของคุณ แผงระดับเสียงมีชุดตั้งค่าที่เข้ากันอย่าง Bento, Shapes, Blueprint, Duo และ Soft ส่วน Stock Lineage คงการ์ด Android 17 ไว้ตามเดิม</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">การ์ด Android 17 ที่ไม่เปลี่ยนแปลง</string>
+    <string name="remixer_qs_style_remix">รีมิกซ์</string>
+    <string name="remixer_qs_style_remix_summary">ความสว่างในการ์ดสีเน้น การ์ดเติมด้วยการไล่สีเน้น</string>
+    <string name="remixer_qs_style_compact">กระชับ</string>
+    <string name="remixer_qs_style_compact_summary">การ์ดขนาดเล็กลง แสดงได้มากขึ้นในหน้าเดียว</string>
+    <string name="remixer_qs_style_glass">กระจกใส</string>
+    <string name="remixer_qs_style_glass_summary">การ์ดโปร่งมีขอบเรืองแสงด้วยสีเน้นเมื่อเปิด</string>
+    <string name="remixer_qs_style_circles">วงกลม</string>
+    <string name="remixer_qs_style_circles_summary">ปุ่มกลมพร้อมป้ายชื่อ การ์ดกว้างจะกลายเป็นการ์ดใหญ่</string>
+    <string name="remixer_qs_style_classic">คลาสสิก</string>
+    <string name="remixer_qs_style_classic_summary">สไตล์ RR เดิม ไอคอนเปล่าพร้อมป้ายชื่อ ห้าช่องต่อแถว และแถบเลื่อนบาง</string>
+    <string name="remixer_qs_style_cards">การ์ด</string>
+    <string name="remixer_qs_style_cards_summary">การ์ดใหญ่พร้อมสถานะใต้ชื่อ สามช่องต่อแถว</string>
+    <string name="remixer_qs_style_neon">นีออน</string>
+    <string name="remixer_qs_style_neon_summary">การ์ดขอบเรืองแสงด้วยสีเน้นเมื่อเปิด</string>
+    <string name="remixer_qs_style_bento_summary">บล็อกมนขนาดใหญ่เติมด้วยสีเน้น มีป้ายชื่อใต้การ์ดขนาดเล็ก</string>
+    <string name="remixer_qs_style_shapes">รูปทรง</string>
+    <string name="remixer_qs_style_shapes_summary">ปุ่มกลมที่ขยายเป็นกลีบเมื่อเปิด ห้าช่องต่อแถว</string>
+    <string name="remixer_qs_style_blueprint">พิมพ์เขียว</string>
+    <string name="remixer_qs_style_blueprint_summary">เส้นบางและตัวพิมพ์ใหญ่แบบโมโนสเปซ</string>
+    <string name="remixer_qs_style_duo">คู่</string>
+    <string name="remixer_qs_style_duo_summary">การ์ดแบ่งสอง ครึ่งไอคอนจะสว่างและสลับเมื่อแตะ</string>
+    <string name="remixer_qs_style_soft">นุ่ม</string>
+    <string name="remixer_qs_style_soft_summary">การ์ดนูนที่กดลงเมื่อเปิด</string>
+    <string name="remixer_lock_media_style">รูปแบบตัวเล่นสื่อ</string>
+    <string name="remixer_lock_media_same">เหมือนการตั้งค่าด่วน</string>
+    <string name="remixer_lock_media_same_summary">ตามการ์ดสื่อในการตั้งค่าด่วน ตอนนี้เป็น %1$s</string>
+    <string name="remixer_lock_media_off_summary">ไม่มีตัวเล่นบนหน้าจอล็อก</string>
+    <string name="remixer_lock_media_note">การ์ดจะแสดงบนหน้าจอล็อกขณะมีการเล่นสื่อ รูปแบบโปร่งใสจะมีพื้นหลังเข้มเพื่อให้อ่านได้บนวอลเปเปอร์</string>
+    <string name="remixer_lock_media_stock_summary">ภาพอัลบั้มเต็มการ์ด</string>
+    <string name="remixer_lock_media_remix_summary">การ์ดสีเข้ม ปุ่มเล่นสีเน้น</string>
+    <string name="remixer_lock_media_compact_summary">การ์ดมนขึ้น ภาพกลม</string>
+    <string name="remixer_lock_media_glass_summary">การ์ดโปร่งมีขอบ</string>
+    <string name="remixer_lock_media_circles_summary">การ์ดนุ่ม ปุ่มเล่นสีเน้น</string>
+    <string name="remixer_lock_media_classic_summary">การ์ดเหลี่ยมขึ้น ปุ่มเล่นมีขอบ</string>
+    <string name="remixer_lock_media_cards_summary">การ์ดนุ่ม ปุ่มเล่นสีเน้น เหมือนวงกลม</string>
+    <string name="remixer_lock_media_neon_summary">การ์ดสีดำมีขอบสีเน้น</string>
+    <string name="remixer_lock_media_bento_summary">การ์ดนุ่ม ปุ่มเล่นสีเน้น</string>
+    <string name="remixer_lock_media_shapes_summary">การ์ดมนขึ้น ปุ่มเล่นสีเน้น</string>
+    <string name="remixer_lock_media_blueprint_summary">ขอบบาง ปุ่มเล่นมีขอบ</string>
+    <string name="remixer_lock_media_duo_summary">การ์ดสองโทน ปุ่มเล่นสีเน้น</string>
+    <string name="remixer_lock_media_soft_summary">การ์ดนูนมีขอบเฉียง</string>
+    <string name="remixer_headers">รูปภาพส่วนหัว</string>
+    <string name="remixer_headers_summary">เลือกภาพพื้นหลังสำหรับการตั้งค่าด่วน</string>
+    <string name="header_switch">ใช้รูปภาพส่วนหัว</string>
+    <string name="header_switch_summary">แสดงภาพอยู่หลังการตั้งค่าด่วน</string>
+    <string name="header_source">แหล่งที่มา</string>
+    <string name="header_source_collection">คอลเลกชัน</string>
+    <string name="header_collections_summary_daylight">ส่วนหัวจะเปลี่ยนตามเวลาของวัน หรือสลับไปตามคอลเลกชัน</string>
+    <string name="header_collections_summary_static">เปิดคอลเลกชันแล้วแตะภาพเพื่อใช้</string>
+    <string name="header_collections_empty">ไม่มีคอลเลกชันส่วนหัวที่ติดตั้งอยู่</string>
+    <string name="header_images_daylight">ในคอลเลกชันนี้</string>
+    <plurals name="header_image_count">
+        <item quantity="one">%d ภาพ</item>
+        <item quantity="other">%d ภาพ</item>
+    </plurals>
+    <string name="header_photo_summary">รูปถ่ายหรือ GIF เคลื่อนไหวจากแกลเลอรีของคุณ</string>
+    <string name="header_height">ความสูง</string>
+    <string name="header_height_value">ความสูง · %1$d dp</string>
+    <string name="header_shadow">หรี่</string>
+    <string name="header_shadow_value">หรี่ · %1$d%%</string>
+    <string name="header_failed">บันทึกการตั้งค่าส่วนหัวไม่ได้</string>
+    <string name="remixer_weather_summary">บริการและหน่วยสภาพอากาศ</string>
+    <string name="font_preview_notification">นี่คือวิธีที่โทรศัพท์ของคุณจะแสดงผล</string>
+    <string name="font_try_text">ลองใช้ข้อความของคุณเอง</string>
+    <string name="font_previewing">กำลังแสดงตัวอย่าง</string>
+    <string name="font_current">แบบอักษรปัจจุบัน</string>
+    <string name="font_badge_current">ปัจจุบัน</string>
+    <string name="font_apply_done">ใช้แล้ว</string>
+    <string name="font_filter_sans">ซานส์</string>
+    <string name="font_filter_display">การแสดงผล</string>
+    <string name="font_filter_script">สคริปต์</string>
+    <string name="font_filter_mono">โมโน</string>
+    <string name="font_applied">ใช้แบบอักษรแล้ว</string>
+    <string name="font_failed">ใช้แบบอักษรนั้นไม่ได้</string>
+    <string name="wallpaper_set">ตั้งวอลเปเปอร์แล้ว</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">วอลเปเปอร์ %d ภาพจาก Resurrected Remix แตะเพื่อดูตัวอย่าง</item>
+        <item quantity="other">วอลเปเปอร์ %d ภาพจาก Resurrected Remix แตะเพื่อดูตัวอย่าง</item>
+    </plurals>
+    <string name="wallpaper_apply_both">ทั้งสอง</string>
+    <string name="wallpaper_failed">ตั้งวอลเปเปอร์นั้นไม่ได้</string>
+    <string name="missing_app">ยังไม่ได้ติดตั้งแอปนั้น</string>
+    <string name="remixer_spoofing">การปลอมอุปกรณ์</string>
+    <string name="remixer_spoofing_summary">Play Integrity ตัวตนอุปกรณ์ และการปลอมแปลงรายแอป</string>
+    <string name="remixer_settings_style">รูปแบบการตั้งค่า</string>
+    <string name="rr_maintainer">ผู้ดูแล</string>
+    <string name="remixer_navbar_summary">ความยาว ความหนา และรูปแบบของ Pill</string>
+    <string name="remixer_navbar_pill_length">ความยาวของ Pill ท่าทาง</string>
+    <string name="remixer_navbar_pill_thickness">ความหนาของ Pill ท่าทาง</string>
+    <string name="remixer_navbar_pill_auto_hide">จางหาย Pill ท่าทาง</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">ซ่อน Pill หลังไม่กี่วินาที จะกลับมาเมื่อคุณแตะหน้าจอ</string>
+    <string name="remixer_navbar_ime">ปุ่มคีย์บอร์ด</string>
+    <string name="remixer_navbar_ime_summary">แสดงปุ่มย้อนกลับและปุ่มสลับคีย์บอร์ดใต้คีย์บอร์ด</string>
+    <string name="remixer_navbar_layout">รูปแบบปุ่ม</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>สั้น</item>
+        <item>ปกติ</item>
+        <item>ยาว</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>บางที่สุด</item>
+        <item>บางลง</item>
+        <item>บาง</item>
+        <item>ปกติ</item>
+        <item>หนา</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>ปกติ</item>
+        <item>กระชับ</item>
+        <item>"เอนไปทางซ้าย"</item>
+        <item>"เอนไปทางขวา"</item>
+    </string-array>
 </resources>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="slider_reset">"ഡിഫോൾട്ടിലേക്ക് റീസെറ്റ് ചെയ്യൂ"</string>
+    <string name="slider_reset_hint">ഡിഫോൾട്ടിലേക്ക് തിരികെ എത്താൻ അമർത്തിപ്പിടിക്കുക</string>
 </resources>

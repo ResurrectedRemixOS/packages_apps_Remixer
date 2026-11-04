@@ -3,4 +3,31 @@
     <string name="charge_report_battery">"ਬੈਟਰੀ"</string>
     <string name="charge_report_temp">"ਤਾਪਮਾਨ"</string>
     <string name="charge_report_time">"ਸਮਾਂ"</string>
+    <string name="charge_report_title">ਚਾਰਜ ਰਿਪੋਰਟਾਂ</string>
+    <string name="charge_report_summary">ਹਰ ਚਾਰਜ ਦਾ ਸਾਰ ਜਦੋਂ ਤੁਸੀਂ ਅਨਪਲੱਗ ਕਰੋ</string>
+    <string name="charge_report_min_title">ਸਿਰਫ਼ ਉਦੋਂ ਜੇ ਇਸ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ ਵਾਧਾ ਹੋਇਆ ਹੋਵੇ</string>
+    <string name="charge_report_keep_title">ਰੱਖੋ</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 ਦਿਨ</item>
+        <item>7 ਦਿਨ</item>
+        <item>14 ਦਿਨ</item>
+        <item>30 ਦਿਨ</item>
+    </string-array>
+    <string name="charge_report_history_days">ਪਿਛਲੇ <xliff:g id="days" example="7">%1$d</xliff:g> ਦਿਨ</string>
+    <string name="charge_report_today">ਅੱਜ, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">ਕੱਲ੍ਹ, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> ਮਿੰਟ</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ਘੰਟੇ <xliff:g id="minutes" example="02">%2$02d</xliff:g> ਮਿੰਟ</string>
+    <string name="charge_report_watts">ਵਾਟ</string>
+    <string name="charge_report_added">ਜੋੜਿਆ ਗਿਆ</string>
+    <string name="charge_report_peak">ਸਿਖਰ</string>
+    <string name="charge_report_average">ਔਸਤ</string>
+    <string name="charge_report_max_temp">ਵੱਧ ਤੋਂ ਵੱਧ ਤਾਪਮਾਨ</string>
+    <string name="charge_report_charger">ਚਾਰਜਰ</string>
+    <string name="charge_report_started">ਸ਼ੁਰੂ ਹੋਇਆ</string>
+    <string name="charge_report_wired">ਵਾਇਰਡ</string>
+    <string name="charge_report_wireless">ਵਾਇਰਲੈੱਸ</string>
+    <string name="charge_report_dock">ਡੌਕ</string>
+    <string name="charge_report_empty">ਅਜੇ ਕੋਈ ਚਾਰਜ ਨਹੀਂ</string>
+    <string name="charge_report_footer">ਜਦੋਂ ਫ਼ੋਨ ਲੱਗਾ ਹੋਵੇ, ਸਿਸਟਮਯੂਆਈ ਹਰ 30 ਸਕਿੰਟ ਬਾਅਦ ਬੈਟਰੀ ਦਾ ਕਰੰਟ, ਵੋਲਟੇਜ ਅਤੇ ਤਾਪਮਾਨ ਪੜ੍ਹਦਾ ਹੈ। ਵਾਟ ਉਹ ਹਨ ਜੋ ਫ਼ੋਨ ਮਾਪਦਾ ਹੈ, ਇਸ ਲਈ ਇਹ ਚਾਰਜਰ \'ਤੇ ਲਿਖੀ ਗਿਣਤੀ ਨਾਲੋਂ ਵੱਖਰੇ ਹੋ ਸਕਦੇ ਹਨ। ਰਿਪੋਰਟਾਂ ਫ਼ੋਨ \'ਤੇ ਹੀ ਰਹਿੰਦੀਆਂ ਹਨ; ਕੁਝ ਵੀ ਅਪਲੋਡ ਨਹੀਂ ਹੁੰਦਾ।</string>
 </resources>

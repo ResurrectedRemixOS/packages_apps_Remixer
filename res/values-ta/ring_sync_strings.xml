@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">வளைய ஒத்திசைவு</string>
+    <string name="ring_sync_tap">வளையம் குறியுடன் சேரும்போது தட்டவும்</string>
+    <string name="ring_sync_best">சிறந்தது <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">சரியானது</string>
+    <string name="ring_sync_new_best">புதிய சிறந்தது</string>
+    <string name="ring_sync_again">மீண்டும் விளையாட தட்டவும்</string>
+    <string name="ring_sync_ember">எம்பர் உச்சரிப்பு திறக்கப்பட்டது</string>
+    <string name="ring_sync_use_ember">எம்பரைப் பயன்படுத்து</string>
+    <string name="ring_sync_android">ஆண்ட்ராய்டின் ஈஸ்டர் முட்டை</string>
+    <string name="ring_sync_vibrate_on">தாக்கத்தில் அதிர்வு · இயக்கத்தில்</string>
+    <string name="ring_sync_vibrate_off">தாக்கத்தில் அதிர்வு · நிறுத்தத்தில்</string>
+    <string name="accent_ember">Ember</string>
+</resources>

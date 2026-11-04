@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Maelezo"</string>
     <string name="lockscreen_weather_location_title">"Eneo"</string>
+    <string name="lockscreen_weather_title">Hali ya hewa kwenye skrini iliyofungwa</string>
+    <string name="lockscreen_weather_location_summary">Onyesha jina la jiji</string>
+    <string name="lockscreen_weather_text_title">Hali</string>
+    <string name="lockscreen_weather_text_summary">Onyesha hali, kama Mawingu au Anga safi</string>
+    <string name="lockscreen_weather_wind_title">Upepo</string>
+    <string name="lockscreen_weather_wind_summary">Onyesha kasi na mwelekeo wa upepo</string>
+    <string name="lockscreen_weather_humidity_title">Unyevunyevu</string>
+    <string name="lockscreen_weather_humidity_summary">Onyesha unyevunyevu</string>
+    <string name="custom_clock_weather_title">Hali ya hewa kwenye nyuso za saa</string>
+    <string name="custom_clock_weather_summary">Onyesha hali ya hewa ndani ya nyuso za saa zenye nafasi ya kutosha</string>
+    <string name="remixer_weather_service">Huduma ya hali ya hewa</string>
+    <string name="remixer_weather_page_summary">Hali ya hewa ya skrini iliyofungwa na inachoonyesha</string>
 </resources>

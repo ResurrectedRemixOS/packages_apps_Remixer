@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Горим бүрт тохирох Look</string>
+    <string name="remix_modes_everyday">Өдөр тутмын Look</string>
+    <string name="remix_modes_everyday_summary">Look-тай горим асаагүй үед буцаж ирнэ</string>
+    <string name="remix_modes_wallpaper">Дэлгэцийн зураг Look-ийг дагана</string>
+    <string name="remix_modes_wallpaper_summary">Горим дэлгэцийн зургийг мөн солиж болно</string>
+    <string name="remix_modes_modes">Таны горимууд</string>
+    <string name="remix_modes_no_change">Өөрчлөлтгүй</string>
+    <string name="remix_modes_none">Эхлээд Theme › Looks-оос Look хадгална уу</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g>-д зориулсан Look</string>
+</resources>

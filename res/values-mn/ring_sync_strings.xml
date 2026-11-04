@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Хонхны синк</string>
+    <string name="ring_sync_tap">Хонх тэмдэгтэй зэрэгцэх үед дарна уу</string>
+    <string name="ring_sync_best">Хамгийн сайн <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">ТӨГСӨЛТЭЙ</string>
+    <string name="ring_sync_new_best">Шинэ шилдэг үр дүн</string>
+    <string name="ring_sync_again">Дахин тоглохын тулд дарна уу</string>
+    <string name="ring_sync_ember">Ember өнгө нээгдлээ</string>
+    <string name="ring_sync_use_ember">Ember ашиглах</string>
+    <string name="ring_sync_android">Android-ийн нууц онцлог</string>
+    <string name="ring_sync_vibrate_on">Цохилтод чичрэх · Асаалттай</string>
+    <string name="ring_sync_vibrate_off">Цохилтод чичрэх · Унтраалттай</string>
+    <string name="accent_ember">Ember</string>
+</resources>

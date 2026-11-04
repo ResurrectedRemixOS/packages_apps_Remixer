@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">Երբ</string>
+    <string name="nightstand_title">Գիշերային ժամացույց</string>
+    <string name="nightstand_summary">Մգացած մահճակալի ժամացույց՝ միշտ միացած էկրանին, գիշերը լիցքավորվելիս</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Անջատված է"</item>
+        <item>Գիշերը լիցքավորիչի վրա</item>
+        <item>Ամեն գիշեր, ըստ ժամանակացույցի</item>
+        <item>Քնելու ռեժիմի միացված ժամանակ</item>
+    </string-array>
+    <string name="nightstand_from">Գիշերը սկսվում է</string>
+    <string name="nightstand_to">Գիշերը ավարտվում է</string>
+    <string name="nightstand_brightness">Պայծառության սահման</string>
+    <string name="nightstand_brightness_summary">Որքան պայծառ կարող է լինել միշտ միացած էկրանը, երբ Գիշերային ժամացույցը միացված է</string>
+    <string name="nightstand_face">Ժամացույցի ոճ</string>
+    <string name="nightstand_face_keep">Պահել ընթացիկ ոճը</string>
+    <string name="nightstand_footer">Գիշերային ժամացույցը աշխատելու ընթացքում միացնում է միշտ միացած էկրանը և հետո վերադարձնում։ Ավարտվում է, երբ լիցքավորիչը հանվում է, զարթուցիչը հնչում կամ գիշերն ավարտվում է։ Ոճը փոխում է միայն երկու հատուկ ոճերի միջև. համակարգային ժամացույցը մնում է։</string>
 </resources>

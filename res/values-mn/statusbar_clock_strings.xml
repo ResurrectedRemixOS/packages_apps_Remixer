@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Огноо"</string>
     <string name="sb_weather_category">"Цаг агаар"</string>
+    <string name="sb_clock_category">Цаг ба огноо</string>
+    <string name="sb_clock_bold_title">Тод цаг</string>
+    <string name="sb_clock_bold_summary">Статус самбарын цагийг тод харуулах</string>
+    <string name="sb_clock_period_separator_title">Цаг ба минутын тусгаарлагч</string>
+    <string name="sb_clock_period_separator_summary">10:45-ийн оронд 10.45</string>
+    <string name="sb_clock_date_position_title">Огнооны байрлал</string>
+    <string name="sb_clock_date_style_title">Огнооны үсгийн хэлбэр</string>
+    <string name="sb_clock_date_format_title">Огнооны формат</string>
+    <string name="sb_clock_chip_category">Цагийн дэвсгэр</string>
+    <string name="sb_clock_chip_title">Дэвсгэрийн хэв маяг</string>
+    <string name="sb_clock_chip_start_title">Градиентийн эхлэл</string>
+    <string name="sb_clock_chip_end_title">Градиентийн төгсгөл</string>
+    <string name="sb_clock_chip_angle_title">Градиентийн өнцөг</string>
+    <string name="sb_clock_chip_mask_title">Цагийг градиентээс тайрах</string>
+    <string name="sb_clock_chip_mask_summary">Градиент цифрүүдийн ард биш, цифрүүдээр дамжин харагдана</string>
+    <string name="sb_weather_title">Статус самбар дахь цаг агаар</string>
+    <string name="sb_weather_position_title">Байрлал</string>
+    <string name="status_bar_clock_rr_style_title">Цагийн хэв маяг</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Өгөгдмөл"</item>
+        <item>Неон</item>
+        <item>Хуваасан</item>
+        <item>RR тэмдэг</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Овойлгосон</item>
+        <item>Ember</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Цагны хажуугийн Flatline</string>
+    <string name="sb_clock_flatline_summary">RR-ийн зүрхний цохилтын шугам тэмдгийн дотор: хөгжимтэй хамт цохилж, мэдэгдэл ирэхэд оргилдог</string>
 </resources>

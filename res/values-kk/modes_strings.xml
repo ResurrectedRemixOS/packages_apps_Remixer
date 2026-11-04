@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Әр Mode үшін бөлек Look</string>
+    <string name="remix_modes_everyday">Күнделікті Look</string>
+    <string name="remix_modes_everyday_summary">Look берілген Mode қосылмаған кезде қайта оралады</string>
+    <string name="remix_modes_wallpaper">Тұсқағаз Look-ке ілеседі</string>
+    <string name="remix_modes_wallpaper_summary">Mode тұсқағазды да өзгертуі мүмкін</string>
+    <string name="remix_modes_modes">Сіздің Mode-тарыңыз</string>
+    <string name="remix_modes_no_change">Өзгеріссіз</string>
+    <string name="remix_modes_none">Алдымен Theme › Looks ішінде Look сақтаңыз</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g> үшін Look</string>
+</resources>

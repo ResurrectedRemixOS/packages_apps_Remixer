@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Skambėjimo sinchronizavimas</string>
+    <string name="ring_sync_tap">Palieskite, kai žiedas sutampa su žymekliu</string>
+    <string name="ring_sync_best">Geriausias <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">PUIKIAI</string>
+    <string name="ring_sync_new_best">Naujas rekordas</string>
+    <string name="ring_sync_again">Palieskite, kad žaistumėte dar kartą</string>
+    <string name="ring_sync_ember">Atrakinta „Ember“ akcentinė spalva</string>
+    <string name="ring_sync_use_ember">Naudoti „Ember“</string>
+    <string name="ring_sync_android">Android\'o paslaptis</string>
+    <string name="ring_sync_vibrate_on">Vibracija per smūgius · Įjungta</string>
+    <string name="ring_sync_vibrate_off">Vibracija per smūgius · Išjungta</string>
+    <string name="accent_ember">Anglis</string>
+</resources>

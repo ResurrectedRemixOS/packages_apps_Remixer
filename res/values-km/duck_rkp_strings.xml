@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">ប្រើ device RKP</string>
+    <string name="ts_rkp_enabled_summary">ប្រើ keybox ដែលបានបង្កើត។ ការនាំចូល keybox នឹងបិទមុខងារនេះ</string>
+    <string name="ts_rkp_provision">បង្កើត keybox</string>
+    <string name="ts_rkp_provision_summary">ស្នើសុំ keybox ពី Google តាមរយៈសេវាកម្មផ្តល់ការអនុញ្ញាតរបស់ឧបករណ៍នេះ។ ត្រូវការ firmware Qualcomm ដែលត្រូវគ្នា។</string>
+    <string name="ts_rkp_status">ស្ថានភាពការផ្តល់ការអនុញ្ញាត</string>
+    <string name="ts_rkp_owner_only">គ្រប់គ្រង RKP នៃឧបករណ៍ពីប្រវត្តិរូបម្ចាស់ឧបករណ៍</string>
+    <string name="ts_rkp_unavailable">Device RKP មិនអាចប្រើបាន</string>
+    <string name="ts_rkp_imported">បិទនៅពេលដែល keybox ដែលបាននាំចូលត្រូវបានដំឡើង</string>
+    <string name="ts_rkp_disabled">បិទ។ បើក device RKP ដើម្បីប្រើ ឬបង្កើត keybox។</string>
+    <string name="ts_rkp_idle">ត្រៀមខ្លួនស្នើសុំ keybox</string>
+    <string name="ts_rkp_fetching">កំពុងទទួលបាន provisioning challenge…</string>
+    <string name="ts_rkp_hardware">កំពុងរង់ចាំសេវាកម្មផ្តល់ការអនុញ្ញាតរបស់ឧបករណ៍…</string>
+    <string name="ts_rkp_signing">កំពុងស្នើសុំ certificate ពី Google…</string>
+    <string name="ts_rkp_validating">កំពុងផ្ទៀងផ្ទាត់ និងរក្សាទុក keybox…</string>
+    <string name="ts_rkp_ready">Keybox ដែលបានបង្កើតកំពុងដំណើរការ។ នឹងបន្តដោយស្វ័យប្រវត្តិមុន %1$s</string>
+    <string name="ts_rkp_keybox_stored">បានរក្សាទុក keybox device RKP</string>
+    <string name="ts_rkp_expired">Keybox ដែលបានបង្កើតផុតកំណត់ហើយ។ សូមបង្កើតមួយជំនួស។</string>
+    <string name="ts_rkp_hal_rejected">firmware បានបដិសេធសំណើ (កូដ %1$d)។ អាចមិនគាំទ្រ Duck V1</string>
+    <string name="ts_rkp_http_error">ម៉ាស៊ីនមេផ្តល់ការអនុញ្ញាតបានបដិសេធសំណើ (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">ឧបករណ៍មិនបានបង្ហាញ interface provisioning V1 ដែលត្រូវគ្នាទេ</string>
+    <string name="ts_rkp_network_error">មិនអាចទាក់ទងម៉ាស៊ីនមេផ្តល់ការអនុញ្ញាតបានទេ។ សូមពិនិត្យការតភ្ជាប់របស់អ្នក។</string>
+    <string name="ts_rkp_submission_unknown">ការឆ្លើយតបពីម៉ាស៊ីនមេបានបាត់។ សំណើអាចត្រូវបានដំណើរការហើយ; មិនមានការព្យាយាមម្តងទៀតដោយស្វ័យប្រវត្តិទេ។</string>
+    <string name="ts_rkp_invalid_chain">ការផ្ទៀងផ្ទាត់ certificate របស់ keybox បានបរាជ័យ។ keybox ដែលមានស្រាប់ត្រូវបានរក្សាទុក។</string>
+    <string name="ts_rkp_timeout">ការផ្តល់ការអនុញ្ញាតអស់ពេល។ បើសេវាកម្មឧបករណ៍នៅតែរវល់ សូមចាប់ផ្តើមឧបករណ៍ឡើងវិញមុនពេលព្យាយាមម្តងទៀត។</string>
+    <string name="ts_rkp_canceled">សំណើត្រូវបានបោះបង់ ព្រោះការកំណត់ keybox បានផ្លាស់ប្តូរ</string>
+    <string name="ts_rkp_save_failed">មិនអាចរក្សាទុក keybox ដែលបានបង្កើតបានទេ</string>
+    <string name="ts_rkp_action_failed">មិនអាចបញ្ចប់ប្រតិបត្តិការ keybox បានទេ</string>
+</resources>

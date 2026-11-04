@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Ring sync → Soittoäänen synkronointi</string>
+    <string name="ring_sync_tap">Napauta, kun rengas osuu merkkiin</string>
+    <string name="ring_sync_best">Paras: <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">TÄYDELLINEN</string>
+    <string name="ring_sync_new_best">Uusi ennätys</string>
+    <string name="ring_sync_again">Napauta pelataksesi uudelleen</string>
+    <string name="ring_sync_ember">Ember-korostusväri avattu</string>
+    <string name="ring_sync_use_ember">Käytä Emberiä</string>
+    <string name="ring_sync_android">Androidin piilotettu pääsiäismuna</string>
+    <string name="ring_sync_vibrate_on">Värinä osumista · Päällä</string>
+    <string name="ring_sync_vibrate_off">Värinä osumista · Pois</string>
+    <string name="accent_ember">Hehku</string>
+</resources>

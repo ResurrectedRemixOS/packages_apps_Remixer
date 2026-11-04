@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Időzítő</string>
     <string name="quick_launch_undo">"Visszavonás"</string>
     <string name="quick_launch_off">"Ki"</string>
+    <string name="quick_launch_title">Gyorsindítás</string>
+    <string name="quick_launch_main">Ujjlenyomatos gyorsindítás</string>
+    <string name="quick_launch_main_summary">Feloldás után tartsa az ujját az érzékelőn a parancsikon megnyitásához</string>
+    <string name="quick_launch_hint">Koppintson egy parancsikonra a módosításhoz, tartsa nyomva az eltávolításhoz, vagy húzza az átrendezéshez.</string>
+    <string name="quick_launch_behavior">Viselkedés</string>
+    <string name="quick_launch_hold">Nyomva tartási idő</string>
+    <string name="quick_launch_haptics">Rezgés minden parancsikonnál</string>
+    <string name="quick_launch_add">Hozzáadás</string>
+    <string name="quick_launch_video">Videó</string>
+    <string name="quick_launch_qr">QR-kód beolvasása</string>
+    <string name="quick_launch_app">Alkalmazás…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> eltávolítva</string>
 </resources>

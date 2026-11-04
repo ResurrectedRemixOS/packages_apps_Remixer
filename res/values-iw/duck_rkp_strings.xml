@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">שימוש ב-RKP של המכשיר</string>
+    <string name="ts_rkp_enabled_summary">שימוש ב-keybox שנוצר. ייבוא keybox מכבה אפשרות זו.</string>
+    <string name="ts_rkp_provision">יצירת keybox</string>
+    <string name="ts_rkp_provision_summary">בקשת keybox מ-Google באמצעות שירות ההכנה של המכשיר. דורש קושחת Qualcomm תואמת.</string>
+    <string name="ts_rkp_status">סטטוס הכנה</string>
+    <string name="ts_rkp_owner_only">ניהול RKP של המכשיר מהפרופיל של בעל המכשיר</string>
+    <string name="ts_rkp_unavailable">RKP של המכשיר אינו זמין</string>
+    <string name="ts_rkp_imported">מושבת בזמן שמותקן keybox מיובא</string>
+    <string name="ts_rkp_disabled">כבוי. הפעילו RKP של המכשיר כדי להשתמש ב-keybox או ליצור אחד.</string>
+    <string name="ts_rkp_idle">מוכן לבקש keybox</string>
+    <string name="ts_rkp_fetching">מקבל אתגר הכנה…</string>
+    <string name="ts_rkp_hardware">ממתין לשירות ההכנה של המכשיר…</string>
+    <string name="ts_rkp_signing">מבקש אישורים מ-Google…</string>
+    <string name="ts_rkp_validating">מאמת ושומר את ה-keybox…</string>
+    <string name="ts_rkp_ready">keybox שנוצר פעיל. מתחדש באופן עצמאי לפני %1$s</string>
+    <string name="ts_rkp_keybox_stored">keybox RKP של המכשיר נשמר</string>
+    <string name="ts_rkp_expired">ה-keybox שנוצר פג. צרו keybox חלופי.</string>
+    <string name="ts_rkp_hal_rejected">הקושחה דחתה את הבקשה (קוד %1$d). ייתכן ש-Duck V1 אינו נתמך.</string>
+    <string name="ts_rkp_http_error">שרת ההכנה דחה את הבקשה (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">המכשיר אינו חושף ממשק הכנה V1 תואם</string>
+    <string name="ts_rkp_network_error">לא ניתן להגיע לשרת ההכנה. בדקו את החיבור.</string>
+    <string name="ts_rkp_submission_unknown">תשובת השרת אבדה. ייתכן שהבקשה עובדה; לא בוצע ניסיון חוזר אוטומטי.</string>
+    <string name="ts_rkp_invalid_chain">אישורי ה-keybox נכשלו באימות. ה-keybox הקיים נשמר.</string>
+    <string name="ts_rkp_timeout">הפעולה פגה. אם שירות המכשיר עדיין עסוק, הפעילו מחדש את המכשיר לפני ניסיון נוסף.</string>
+    <string name="ts_rkp_canceled">הבקשה בוטלה מאחר שתצורת ה-keybox השתנתה</string>
+    <string name="ts_rkp_save_failed">לא ניתן היה לשמור את ה-keybox שנוצר</string>
+    <string name="ts_rkp_action_failed">לא ניתן היה להשלים את פעולת ה-keybox</string>
+</resources>

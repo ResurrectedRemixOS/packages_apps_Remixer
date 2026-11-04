@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="nightstand_title">Ноќна ламба</string>
+    <string name="nightstand_summary">Затемнет часовник за покрај креветот на екранот што секогаш е вклучен додека се полни ноќе</string>
+    <string name="nightstand_when">Кога</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Исклучено"</item>
+        <item>На полнач ноќе</item>
+        <item>Секоја ноќ, по распоред</item>
+        <item>Додека е вклучен режим за спиење</item>
+    </string-array>
+    <string name="nightstand_from">Ноќта почнува</string>
+    <string name="nightstand_to">Ноќта завршува</string>
+    <string name="nightstand_brightness">Ограничување на осветленост</string>
+    <string name="nightstand_brightness_summary">Колку најмногу може да светли екранот што секогаш е вклучен додека е вклучена Ноќна ламба</string>
+    <string name="nightstand_face">Лице на часовникот</string>
+    <string name="nightstand_face_keep">Задржи го тековното лице</string>
+    <string name="nightstand_footer">Ноќната ламба го вклучува екранот што секогаш е вклучен додека работи и го враќа потоа. Завршува кога ќе се исклучи полначот, кога ѕвони алармот или кога ќе заврши ноќта. Лицето само менува меѓу две приспособени лица; системскиот часовник останува.</string>
 </resources>

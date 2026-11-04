@@ -8,4 +8,50 @@
         <item>"Vidējs"</item>
         <item>"Liels"</item>
     </string-array>
+    <string name="pie_title">Pīrāga vadības elementi</string>
+    <string name="pie_summary">Turiet malas apakšējo daļu, lai atvērtu īsceļu pīrāgu</string>
+    <string name="pie_zone">Malas daļa</string>
+    <string name="pie_clock">Pulkstenis un akumulators virs tā</string>
+    <string name="pie_items">Segmenti</string>
+    <string-array name="pie_items_entries">
+        <item>"Atpakaļ"</item>
+        <item>Sākums</item>
+        <item>"Nesenie"</item>
+        <item>"Paziņojumi"</item>
+        <item>"Lukturītis"</item>
+        <item>"Ekrānuzņēmums"</item>
+        <item>"Barošanas izvēlne"</item>
+        <item>"Asistents"</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Nepieciešams ceturtdaļsekundes turējums bez kustības, tāpēc ātrs velkiens no malas joprojām atgriež atpakaļ. Tas neatveras bloķēšanas ekrānā.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Pa kreisi"</item>
+        <item>"Pa labi"</item>
+        <item>Abas</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Apakšējā trešdaļa</item>
+        <item>Vidus</item>
+        <item>Visa mala</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neona</item>
+        <item>Stikls</item>
+        <item>Klasiskais</item>
+    </string-array>
+    <string name="sidebar_style_title">Lietotņu paneļa izskats</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klasiskais</item>
+        <item>RR stikls</item>
+        <item>Neona</item>
+    </string-array>
+    <string name="sidebar_settings_title">Lietotņu panelis</string>
+    <string name="sidebar_settings_summary">Velciet no roktura, lai atvērtu lietotnes un rīkus</string>
+    <string name="sidebar_apps_title">Lietotnes, rokturis un starpliktuve</string>
+    <string name="sidebar_apps_summary">Ieslējiet rokturi, izvēlieties lietotnes un iestatiet viedo starpliktuvi</string>
+    <string name="sidebar_handle_size_title">Roktura izmērs</string>
+    <string name="sidebar_tools_title">Rīku rinda</string>
+    <string name="sidebar_tools_summary">Ekrānuzņēmums un lukturītis zem jūsu lietotnēm</string>
+    <string name="sidebar_footer">Rokturis ir plāna akcenta krāsas līnija; velciet to, lai pārvietotu pa malu. Ar žestu navigāciju tas aptver tikai savu malas daļu, un atpakaļ darbojas visur citur.</string>
 </resources>

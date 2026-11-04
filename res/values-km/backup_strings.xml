@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">"ចលនា"</string>
     <string name="backup_group_other">"ផ្សេងៗ"</string>
     <string name="backup_done">"រួចរាល់"</string>
+    <string name="backup_summary">ការកំណត់ RR ទាំងអស់ក្នុងឯកសារតែមួយ</string>
+    <string name="backup_now">បម្រុងទុកឥឡូវនេះ</string>
+    <string name="backup_never">បម្រុងទុកចុងក្រោយ៖ មិនដែល</string>
+    <string name="backup_last">បម្រុងទុកចុងក្រោយ៖ <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">ស្តារពីឯកសារ</string>
+    <string name="backup_restore_summary">ជ្រើសឯកសារបម្រុងទុក</string>
+    <string name="backup_included">រួមបញ្ចូល</string>
+    <string name="backup_part_theme">ពណ៌សំខាន់ ពុម្ពអក្សរ និងរូបតំណាង</string>
+    <string name="backup_part_header">រូបភាពក្បាល</string>
+    <string name="backup_part_photo">រូបភាពក្បាល (រូបថតរបស់អ្នក)</string>
+    <string name="backup_part_photo_summary">ធ្វើឲ្យឯកសារធំជាងមុន</string>
+    <string name="backup_part_boot">ចលនាចាប់ផ្តើម</string>
+    <string name="backup_part_looks">រូបរាងរបស់ខ្ញុំ</string>
+    <string name="backup_weekly">បម្រុងទុកប្រចាំសប្ដាហ៍</string>
+    <string name="backup_weekly_summary">ទៅកាន់ថតដែលអ្នកជ្រើស</string>
+    <string name="backup_weekly_on">រាល់សប្ដាហ៍ទៅ <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">ផ្ដល់ការបម្រុងទុកមុនពេលធ្វើបច្ចុប្បន្នភាព</string>
+    <string name="backup_offer_summary">កម្មវិធីអាប់ដេតសួរមុនពេលដំឡើង</string>
+    <string name="backup_sets">កំណត់ការកំណត់ <xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_saved">បានរក្សាទុកការកំណត់ <xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_restored">បានស្ដារការកំណត់ <xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_restored_message">SystemUI នឹងចាប់ផ្ដើមឡើងវិញដើម្បីអនុវត្តការកំណត់ទាំងនេះ។</string>
+    <string name="backup_skipped">ការកំណត់ <xliff:g id="count" example="2">%1$d</xliff:g> មិនមាននៅក្នុងកំណែនេះទេ ហើយត្រូវបានរំលង។</string>
+    <string name="backup_failed">មិនអាចរក្សាទុកការបម្រុងទុកបានទេ</string>
+    <string name="backup_invalid">ឯកសារនេះមិនមែនជាការបម្រុងទុក Resurrected Remix ទេ</string>
+    <string name="backup_footer">មានតែការកំណត់ RR ប៉ុណ្ណោះដែលនៅក្នុងឯកសារ៖ គ្មានគណនី ពាក្យសម្ងាត់ បណ្ដាញ Wi-Fi កម្មវិធី ឬសារទេ។ ការស្តារតែសរសេរការកំណត់ដែលនៅក្នុងបញ្ជី RR របស់ខ្លួនប៉ុណ្ណោះ ដូច្នេះឯកសារបម្រុងទុកមិនអាចផ្លាស់ប្តូរអ្វីផ្សេងទៀតនៅលើទូរសព្ទបានទេ។ រូបភាពផ្ទាំងក្បាលរបស់អ្នកនឹងត្រូវបានរួមបញ្ចូលតែនៅពេលប៊ូតុងរបស់វាត្រូវបានបើកប៉ុណ្ណោះ ព្រោះវាធ្វើឱ្យឯកសារធំជាង។</string>
+    <string name="volume_style_title">រចនាប័ទ្មផ្ទាំងកម្រិតសំឡេង</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>នេអុង</item>
+        <item>កញ្ចក់</item>
+        <item>ផ្ទាំង</item>
+        <item>RR បុរាណ</item>
+        <item>Bento</item>
+        <item>រូបរាង</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>ទន់</item>
+    </string-array>
 </resources>

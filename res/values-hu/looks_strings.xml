@@ -17,4 +17,52 @@
     <string name="looks_save_look">"Mentés"</string>
     <string name="looks_custom_color">"Egyéni szín"</string>
     <string name="looks_part_clock_color">"Óra színe"</string>
+    <string name="looks_title">Stílusok</string>
+    <string name="looks_summary">Teljes beállítás egy koppintással</string>
+    <string name="looks_rr">RR stílusok</string>
+    <string name="looks_yours">Saját stílusok</string>
+    <string name="looks_none">Még nincs mentett elem</string>
+    <string name="looks_save">Jelenlegi mentése</string>
+    <string name="looks_import_clipboard">Vágólapról</string>
+    <string name="looks_import_file">Fájlból</string>
+    <string name="looks_mine">Saját stílus</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> alkalmazva</string>
+    <string name="looks_failed">Nem sikerült mindent alkalmazni</string>
+    <string name="looks_invalid">Ez nem RR-stílus</string>
+    <string name="looks_part_qs">Gyorsbeállítások stílusa</string>
+    <string name="looks_part_clock_face">Lezárási képernyő órastílusa</string>
+    <string name="looks_part_clock_look">Állapotsori óra</string>
+    <string name="looks_part_edge">Élvilágítás</string>
+    <string name="looks_part_haptics">Haptic Remix mintázatok</string>
+    <string name="looks_saturation">Telítettség <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Kiemelés</string>
+    <string name="looks_share_title">„<xliff:g id="name" example="Neon night">%1$s</xliff:g>” megosztása</string>
+    <string name="looks_share_hint">Olvassa be egy másik RR-telefon kamerájával, vagy a Stílusok › Importálás menüpontban</string>
+    <string name="looks_share_file">Fájl megosztása</string>
+    <string name="looks_save_file">Fájl mentése</string>
+    <string name="looks_import_scan">QR-kód beolvasása</string>
+    <string name="looks_import_title">Stílus importálása</string>
+    <string name="looks_from_qr">QR-kódból</string>
+    <string name="looks_from_file">fájlból</string>
+    <string name="looks_from_clipboard">vágólapról</string>
+    <string name="looks_import_same">Már megegyezik a beállításaival.</string>
+    <string name="looks_new">Új stílus</string>
+    <string name="looks_edit_title">Stílus szerkesztése</string>
+    <string name="looks_in_look">Ebben a stílusban</string>
+    <string name="looks_not_included">Nincs ebben a stílusban</string>
+    <string name="looks_save_apply">Mentés és alkalmazás</string>
+    <string name="looks_saved">„<xliff:g id="name" example="Sunday">%1$s</xliff:g>” mentve</string>
+    <string name="looks_delete_confirm">Törli: „<xliff:g id="name" example="Sunday">%1$s</xliff:g>”?</string>
+    <string name="looks_rr_wallpaper">RR háttérkép <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Kiemelőszín telítettsége</string>
+    <string name="looks_part_clock_chip">Állapotsori óra jelvénye</string>
+    <string name="looks_part_edge_style">Élvilágítás stílusa</string>
+    <string name="looks_scan_hint">Irányítsa a kamerát a stílus QR-kódjára</string>
+    <string name="looks_scan_failed">A kamera nem nyitható meg</string>
+    <string name="look_roulette_title">Stílus-körforgás</string>
+    <string-array name="look_roulette_entries">
+        <item>"Ki"</item>
+        <item>Minden feloldáskor más stílus</item>
+        <item>Minden nap más stílus</item>
+    </string-array>
 </resources>

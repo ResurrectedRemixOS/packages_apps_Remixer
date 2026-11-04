@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Blu"</string>
     <string name="haptic_remix_color_green">"Verde"</string>
     <string name="haptic_remix_color_white">"Bianco"</string>
+    <string name="haptic_remix_summary">Tocca a ritmo per creare schemi di vibrazione per chiamate, app, sveglie e sblocchi</string>
+    <string name="haptic_remix_record">Registra</string>
+    <string name="haptic_remix_pad">tocca il ritmo</string>
+    <string name="haptic_remix_strength">Intensità</string>
+    <string name="haptic_remix_clear">Cancella</string>
+    <string name="haptic_remix_play">Riproduci</string>
+    <string name="haptic_remix_name">Nome dello schema</string>
+    <string name="haptic_remix_empty">Nessuna registrazione ancora</string>
+    <string name="haptic_remix_too_long">Uno schema può durare 30 secondi</string>
+    <string name="haptic_remix_presets">Predefiniti</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Vetro</string>
+    <string name="haptic_remix_preset_ringtone">Ritmo della suoneria</string>
+    <string name="haptic_remix_listening">Analisi della suoneria in corso…</string>
+    <string name="haptic_remix_no_ringtone">Impossibile leggere la suoneria</string>
+    <string name="haptic_remix_patterns">I tuoi schemi</string>
+    <string name="haptic_remix_patterns_none">Prima salva uno schema. Tienilo premuto per eliminarlo.</string>
+    <string name="haptic_remix_broken">Questo schema non può essere letto</string>
+    <string name="haptic_remix_delete">Eliminare <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Assegna a</string>
+    <string name="haptic_remix_alarm">Sveglia e timer</string>
+    <string name="haptic_remix_plug">Collegato</string>
+    <string name="haptic_remix_fingerprint">Impronta riconosciuta</string>
+    <string name="haptic_remix_add_contact">Aggiungi un contatto</string>
+    <string name="haptic_remix_edge_color">Luce sul bordo per i messaggi di <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">Accento</string>
+    <string name="haptic_remix_color_crimson">Cremisi</string>
+    <string name="haptic_remix_color_amber">Ambra</string>
+    <string name="haptic_remix_add_app">Aggiungi le notifiche di un\'app</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · tocca per modificare, tieni premuto per il colore del bordo</string>
+    <string name="haptic_remix_no_contacts">Nessun numero restituito dai Contatti</string>
 </resources>

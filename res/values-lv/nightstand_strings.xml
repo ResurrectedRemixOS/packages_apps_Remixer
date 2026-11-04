@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Kad"</string>
+    <string name="nightstand_title">Naktsgaidāmais</string>
+    <string name="nightstand_summary">Tumšs guļamistabas pulkstenis pastāvīgi ieslēgtajā ekrānā, kamēr tālrunis naktī uzlādējas</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Izslēgts"</item>
+        <item>Naktī uz lādētāja</item>
+        <item>Katru nakti pēc grafika</item>
+        <item>Kamēr ieslēgts gulētiešanas režīms</item>
+    </string-array>
+    <string name="nightstand_from">Nakts sākas</string>
+    <string name="nightstand_to">Nakts beidzas</string>
+    <string name="nightstand_brightness">Spilgtuma ierobežojums</string>
+    <string name="nightstand_brightness_summary">Cik spilgti pastāvīgi ieslēgtais ekrāns drīkst būt, kamēr ieslēgts Naktsgaidāmais</string>
+    <string name="nightstand_face">Pulksteņa ciparnīca</string>
+    <string name="nightstand_face_keep">Paturēt pašreizējo ciparnīcu</string>
+    <string name="nightstand_footer">Naktsgaidāmais, kamēr darbojas, ieslēdz pastāvīgi ieslēgto ekrānu un pēc tam to atgriež. Tas beidzas, kad atvienots lādētājs, skan signāls vai beidzas nakts. Ciparnīca tikai pārslēdz starp diviem pielāgotiem ciparnīcu, sistēmas pulkstenis paliek.</string>
 </resources>

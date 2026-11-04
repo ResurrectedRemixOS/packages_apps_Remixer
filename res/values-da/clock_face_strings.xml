@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Standard"</string>
     <string name="clock_faces_size">"Størrelse"</string>
     <string name="clock_faces_restart">"Genstart"</string>
+    <string name="remixer_clock_faces">Urmotiver</string>
+    <string name="clock_faces_system">Systemur</string>
+    <string name="clock_faces_system_desc">Uret fra Baggrund og stil</string>
+    <string name="clock_faces_position">%1$d af %2$d</string>
+    <string name="clock_faces_applied">Anvendt</string>
+    <string name="clock_faces_preview_unavailable">Forhåndsvisning ikke tilgængelig</string>
+    <string name="clock_faces_failed">Uret kunne ikke ændres</string>
+    <string name="clock_faces_color_accent">Accent</string>
+    <string name="clock_faces_color_custom">Tilpasset</string>
+    <string name="clock_faces_color_album">Albumcover</string>
+    <string name="clock_faces_color_gradient">Overgang</string>
+    <string name="clock_faces_own_colors">Dette motiv beholder sine egne farver.</string>
+    <string name="clock_faces_album_hint">Får sin farve fra albumcoveret, mens musik spiller.</string>
+    <string name="clock_faces_size_position">Størrelse og placering</string>
+    <string name="clock_faces_size_value">Størrelse · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Afstand fra toppen</string>
+    <string name="clock_faces_top_value">Afstand fra toppen · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Vandret placering</string>
+    <string name="clock_faces_horizontal_center">Vandret placering · Midten</string>
+    <string name="clock_faces_horizontal_right">Vandret placering · <xliff:g id="dp" example="24">%1$d</xliff:g> dp til højre</string>
+    <string name="clock_faces_horizontal_left">Vandret placering · <xliff:g id="dp" example="24">%1$d</xliff:g> dp til venstre</string>
+    <string name="clock_faces_horizontal_fixed">Dette motiv forbliver centreret.</string>
+    <string name="clock_faces_opacity">Gennemsigtighed</string>
+    <string name="clock_faces_opacity_value">Synlighed · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Bevægelse</string>
+    <string name="clock_faces_wobble">Vipper, mens telefonen oplades</string>
+    <string name="clock_faces_wobble_summary">Hopper én gang, når du tilslutter opladeren</string>
+    <string name="clock_faces_aod_anim">Overgang til det altid tændte display</string>
+    <string name="clock_faces_aod_anim_summary">Krymper og toner uret ud i det altid tændte display</string>
+    <string name="clock_faces_restart_title">Genstart låseskærmen?</string>
+    <string name="clock_faces_restart_message">Når du skifter mellem systemuret og egne urmotiver, genstartes SystemUI. Skærmen bliver sort i et sekund.</string>
+    <string name="clock_faces_note">Forhåndsvisningerne tegnes af SystemUI på din baggrund til låseskærmen. Farve, størrelse og placering ændrer låseskærmen med det samme.</string>
 </resources>

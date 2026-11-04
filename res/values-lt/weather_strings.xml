@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Išsami informacija"</string>
     <string name="lockscreen_weather_location_title">"Vietovė"</string>
+    <string name="lockscreen_weather_title">Orai užrakinimo ekrane</string>
+    <string name="lockscreen_weather_location_summary">Rodyti miesto pavadinimą</string>
+    <string name="lockscreen_weather_text_title">Sąlygos</string>
+    <string name="lockscreen_weather_text_summary">Rodyti sąlygas, pvz., Debesuota ar Giedras dangus</string>
+    <string name="lockscreen_weather_wind_title">Vėjas</string>
+    <string name="lockscreen_weather_wind_summary">Rodyti vėjo greitį ir kryptį</string>
+    <string name="lockscreen_weather_humidity_title">Drėgmė</string>
+    <string name="lockscreen_weather_humidity_summary">Rodyti drėgmę</string>
+    <string name="custom_clock_weather_title">Orai laikrodžio ciferblatuose</string>
+    <string name="custom_clock_weather_summary">Rodyti orus laikrodžio ciferblatuose, kur yra vietos</string>
+    <string name="remixer_weather_service">Orų paslauga</string>
+    <string name="remixer_weather_page_summary">Užrakinimo ekrano orai ir ką jie rodo</string>
 </resources>

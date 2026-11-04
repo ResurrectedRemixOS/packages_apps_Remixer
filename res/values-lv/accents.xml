@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Fona tapete"</item>
+        <item>Resurrected</item>
+        <item>Android One zaļā</item>
+        <item>Aospa zaļā</item>
+        <item>Coca Cola sarkanā</item>
+        <item>Discord violetā</item>
+        <item>Facebook zilā</item>
+        <item>Instagram ķiršu</item>
+        <item>Jollibee karmīna</item>
+        <item>Monster Energy zaļā</item>
+        <item>Nextbit mētru</item>
+        <item>OnePlus sarkanā</item>
+        <item>Pepsi zilā</item>
+        <item>Pixel zilā</item>
+        <item>Pocophone dzeltenā</item>
+        <item>Razer zaļā</item>
+        <item>Samsung zilā</item>
+        <item>Spotify zaļā</item>
+        <item>Starbucks zaļā</item>
+        <item>Twitch violetā</item>
+        <item>Twitter zilā</item>
+        <item>Xiaomi oranžā</item>
+        <item>Dzintars</item>
+        <item>"Melna"</item>
+        <item>"Zila"</item>
+        <item>Pelēkzilā</item>
+        <item>Brūnā</item>
+        <item>"Ciānzila"</item>
+        <item>Tumši oranžā</item>
+        <item>Tumši violetā</item>
+        <item>"Zaļa"</item>
+        <item>"Pelēka"</item>
+        <item>Indigo</item>
+        <item>Gaišzilā</item>
+        <item>Laima zaļā</item>
+        <item>"Oranža"</item>
+        <item>"Rozā"</item>
+        <item>"Violeta"</item>
+        <item>"Sarkana"</item>
+        <item>"Zilganzaļa"</item>
+        <item>Piektais lietotājs</item>
+        <item>Ceturtais lietotājs</item>
+        <item>Pirmais lietotājs</item>
+        <item>Septītais lietotājs</item>
+        <item>Sestais lietotājs</item>
+        <item>Trešais lietotājs</item>
+        <item>Otrais lietotājs</item>
+        <item>"Balta"</item>
+        <item>"Dzeltena"</item>
+    </string-array>
+</resources>

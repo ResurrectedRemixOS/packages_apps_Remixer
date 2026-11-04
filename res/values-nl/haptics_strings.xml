@@ -7,4 +7,36 @@
     <string name="haptic_remix_color_blue">"Blauw"</string>
     <string name="haptic_remix_color_green">"Groen"</string>
     <string name="haptic_remix_color_white">"Wit"</string>
+    <string name="haptic_remix_summary">Tik trillingspatronen uit voor oproepen, apps, wekkers en ontgrendelingen</string>
+    <string name="haptic_remix_record">Opnemen</string>
+    <string name="haptic_remix_pad">tik het ritme</string>
+    <string name="haptic_remix_strength">Sterkte</string>
+    <string name="haptic_remix_clear">Wissen</string>
+    <string name="haptic_remix_play">Afspelen</string>
+    <string name="haptic_remix_name">Naam van patroon</string>
+    <string name="haptic_remix_empty">Nog niets opgenomen</string>
+    <string name="haptic_remix_too_long">Een patroon kan 30 seconden duren</string>
+    <string name="haptic_remix_presets">Voorinstellingen</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Glas</string>
+    <string name="haptic_remix_preset_ringtone">Ritme van de beltoon</string>
+    <string name="haptic_remix_listening">Beltoon wordt beluisterd…</string>
+    <string name="haptic_remix_no_ringtone">De beltoon kon niet worden gelezen</string>
+    <string name="haptic_remix_patterns">Je patronen</string>
+    <string name="haptic_remix_patterns_none">Sla eerst een patroon op. Houd er één ingedrukt om hem te verwijderen.</string>
+    <string name="haptic_remix_broken">Dat patroon kan niet worden gelezen</string>
+    <string name="haptic_remix_delete"><xliff:g id="name" example="Heartbeat">%1$s</xliff:g> verwijderen?</string>
+    <string name="haptic_remix_assign">Toewijzen aan</string>
+    <string name="haptic_remix_alarm">Wekker en timer</string>
+    <string name="haptic_remix_plug">Aangesloten</string>
+    <string name="haptic_remix_fingerprint">Vingerafdruk geslaagd</string>
+    <string name="haptic_remix_add_contact">Een contact toevoegen</string>
+    <string name="haptic_remix_edge_color">Randverlichting voor de berichten van <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">Accent</string>
+    <string name="haptic_remix_color_crimson">Karmozijn</string>
+    <string name="haptic_remix_color_violet">Paars</string>
+    <string name="haptic_remix_color_amber">Amber</string>
+    <string name="haptic_remix_add_app">Meldingen van een app toevoegen</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · tik om te wijzigen, houd ingedrukt voor de randkleur</string>
+    <string name="haptic_remix_no_contacts">Geen nummer ontvangen van Contacten</string>
 </resources>

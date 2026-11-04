@@ -85,4 +85,205 @@
     <string name="wallpaper_apply_lock">"ჩაკეტილი ეკრანი"</string>
     <string name="remixer_settings_style_original">"ორიგინალი"</string>
     <string name="remixer_navbar_category">"ნავიგაციის ზოლი"</string>
+    <string name="remixer_dashboard_summary">სტატუსის ზოლი, თემა, ჩაკეტილი ეკრანი და სხვა</string>
+    <string name="rr_homepage_battery_saver">ბატარეის დამზოგი</string>
+    <string name="rr_homepage_personalize">პერსონალიზაცია</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> თავისუფალი</string>
+    <string name="rr_homepage_charged">სრულად დატენილი</string>
+    <string name="rr_homepage_on_battery">ბატარეაზე</string>
+    <string name="rr_homepage_saver_on">ბატარეის დამზოგი ჩართულია</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> მოწყობილობა</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> მოწყობილობა</item>
+    </plurals>
+    <string name="rr_homepage_extras">დამატებითი პარამეტრები</string>
+    <string name="rr_homepage_saver">დამზოგი</string>
+    <string name="rr_homepage_signed_out">არ ხართ შესული</string>
+    <string name="rr_homepage_remixer_tagline">მოარგეთ თქვენს გემოვნებას. სტატუსის ზოლი, თემა, ჩაკეტილი ეკრანი და სხვა.</string>
+    <string name="rr_homepage_device_tagline">ხმის სლაიდერი, ეკრანი, დატენვა და GameBar.</string>
+    <string name="rr_homepage_device_action">მოარგეთ</string>
+    <string name="rr_group_network">ქსელი და მოწყობილობები</string>
+    <string name="rr_group_network_summary">Wi‑Fi, მობილური, Bluetooth</string>
+    <string name="rr_group_apps_summary">აპები, შეტყობინებები, რეჟიმები</string>
+    <string name="rr_group_display">ეკრანი და ხმა</string>
+    <string name="rr_group_display_summary">ეკრანი, ფონი, ხმა</string>
+    <string name="rr_group_security_summary">ჩაკეტვა, მდებარეობა, გადაუდებელი დახმარება</string>
+    <string name="rr_group_security_center">უსაფრთხოების ცენტრი</string>
+    <string name="rr_group_accounts">Google და ანგარიშები</string>
+    <string name="rr_group_accounts_summary">Google, პაროლები, სარეზერვო კოპირება</string>
+    <string name="rr_group_accounts_plain_summary">პაროლები, ანგარიშები, სარეზერვო კოპირება</string>
+    <string name="rr_group_system_summary">ენები, ჟესტები, განახლებები</string>
+    <string name="remixer_tagline">მოარგეთ თქვენს გემოვნებას.</string>
+    <string name="remixer_remix">გადაამუშავეთ</string>
+    <string name="remixer_remixed">გადამუშავებულია <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g>-ით</string>
+    <string name="remixer_chip_shade_default">ჩრდილი · ნაგულისხმევი</string>
+    <string name="remixer_quick">სწრაფი გადამუშავება</string>
+    <string name="remixer_everything">ყველაფერი</string>
+    <string name="remixer_quick_accents">წინასწარ შექმნილი ან ნებისმიერი ფერი</string>
+    <string name="remixer_quick_fonts">სისტემური შრიფტის სტილები</string>
+    <string name="remixer_quick_walls">RR კოლექცია</string>
+    <string name="remixer_quick_header">სწრაფი პარამეტრების სათაური</string>
+    <string name="remixer_quick_header_summary">სათაურის სურათები</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">საათი, ბატარეა, ხატულები და ქსელის ტრაფიკი</string>
+    <string name="remixer_qs_summary">სათაურის სურათი</string>
+    <string name="remixer_notifications_summary">კიდის განათება, აპის ხატულები და დატენვის ხმები</string>
+    <string name="remixer_theme_summary">შრიფტები, აქცენტები და ფონები</string>
+    <string name="remixer_lockscreen_summary">UDFPS, დატენვის ინფორმაცია და ამინდი</string>
+    <string name="remixer_udfps_icon">UDFPS ხატულა</string>
+    <string name="remixer_udfps_icon_summary">ნაჩვენებია თითის ანაბეჭდის სენსორზე</string>
+    <string name="remixer_udfps_animation">UDFPS ანიმაცია</string>
+    <string name="remixer_udfps_animation_summary">უკრავს, სანამ თითი სენსორზეა</string>
+    <string name="remixer_navigation_summary">Pulse, ღილაკები და ნავიგაციის ზოლი</string>
+    <string name="remixer_misc_summary">ხმა, სარეზერვო კოპირება, სპუფინგი, გადახვევა და USB</string>
+    <string name="scroll_haptics_title">შეხება გადახვევის ბოლოს</string>
+    <string name="scroll_haptics_summary">მსუბუქი ვიბრაცია, როცა სია ან გვერდი ვეღარ გადაინაცვლებს</string>
+    <string name="usb_mode_picker_title">USB რეჟიმის ამრჩევი</string>
+    <string name="usb_mode_picker_summary">აირჩიეთ რეჟიმი კომპიუტერთან შეერთებისას</string>
+    <string name="remixer_fonts_summary">სისტემური შრიფტი</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix ფონები</string>
+    <string name="remixer_accents">აქცენტები</string>
+    <string name="remixer_accents_summary">აქცენტის ფერი</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">მუსიკალური ვიზუალიზატორი ეკრანის ქვედა ნაწილში</string>
+    <string name="pulse_switch">Pulse-ის გამოყენება</string>
+    <string name="pulse_switch_summary">მუსიკის ზოლები ეკრანის ქვედა ნაწილში მედიის დაკვრისას</string>
+    <string name="pulse_preview_title">ახლა უკრავს</string>
+    <string name="pulse_style_lines">ხაზები</string>
+    <string name="pulse_style_fading">გამქრალი</string>
+    <string name="pulse_style_blocks">ბლოკები</string>
+    <string name="pulse_style_mirror">სარკისებური</string>
+    <string name="pulse_color_custom">მორგებული</string>
+    <string name="pulse_color_gradient">ცისარტყელა</string>
+    <string name="pulse_bars">ზოლები</string>
+    <string name="pulse_bars_value">ზოლები · %1$d</string>
+    <string name="pulse_height">სიმაღლე</string>
+    <string name="pulse_height_value">სიმაღლე · %1$d dp</string>
+    <string name="pulse_opacity">გამჭვირვალობა</string>
+    <string name="pulse_opacity_value">გამჭვირვალობა · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">ზოლები ჩაკეტილ ეკრანზე მუსიკის დაკვრისას</string>
+    <string name="pulse_failed">ამ Pulse პარამეტრის შენახვა ვერ მოხერხდა</string>
+    <string name="accent_applied">აქცენტი გამოყენებულია</string>
+    <string name="accent_current">აქცენტი · %1$s</string>
+    <string name="accent_current_custom">აქცენტი · მორგებული</string>
+    <string name="accent_preview_tonal">ტონალური</string>
+    <string name="accent_failed">ამ აქცენტის გამოყენება ვერ მოხერხდა</string>
+    <string name="accent_custom">მორგებული</string>
+    <string name="accent_custom_summary">ნებისმიერი ფერი მუშაობს. ჩრდილი მაინც გამოიყენება მის თავზე.</string>
+    <string name="accent_custom_pad">სიჭარბე და სიკაშკაშე</string>
+    <string name="accent_custom_use">გამოყენება: <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">ჩრდილი</string>
+    <string name="accent_shade_darker">მუქი</string>
+    <string name="accent_shade_lighter">ღია</string>
+    <string name="accent_shade_darker_value">მუქი · %1$d</string>
+    <string name="accent_shade_lighter_value">ღია · %1$d</string>
+    <string name="remixer_qs_style">სწრაფი პარამეტრების სტილი</string>
+    <string name="remixer_qs_style_preview">გადახედვა · %1$s</string>
+    <string name="remixer_qs_style_note">ყველა სტილი აქცენტის ფერს მიჰყვება. ხმის პანელს აქვს შესაბამისი Bento, Shapes, Blueprint, Duo და Soft სტილები. Stock Lineage ინარჩუნებს Android 17 ფილებს უცვლელად.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Android 17 ფილები, უცვლელი</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">სიკაშკაშე აქცენტის ბარათში. ფილები ივსება აქცენტის გრადიენტით</string>
+    <string name="remixer_qs_style_compact">კომპაქტური</string>
+    <string name="remixer_qs_style_compact_summary">უფრო დაბალი ფილები. ერთ ეკრანზე მეტი ჩანს</string>
+    <string name="remixer_qs_style_glass">მინა</string>
+    <string name="remixer_qs_style_glass_summary">გამჭვირვალე კონტურიანი ფილები, რომლებიც ჩართვისას აქცენტით ანათებს</string>
+    <string name="remixer_qs_style_circles">წრეები</string>
+    <string name="remixer_qs_style_circles_summary">მრგვალი გადამრთველები წარწერებით. ფართო ფილები ბარათებად იქცევა</string>
+    <string name="remixer_qs_style_classic">კლასიკური</string>
+    <string name="remixer_qs_style_classic_summary">ძველი სტილის RR: უბრალო ხატულები წარწერებით, ხუთი ერთ რიგში, თხელი სლაიდერი</string>
+    <string name="remixer_qs_style_cards">ბარათები</string>
+    <string name="remixer_qs_style_cards_summary">ბლოკები დიდი ბარათებით, სახელის ქვეშ მდგომარეობით, სამი ერთ რიგში</string>
+    <string name="remixer_qs_style_neon">ნეონი</string>
+    <string name="remixer_qs_style_neon_summary">კონტურიანი ფილები, რომლებიც ანათებს აქცენტის ფერით, როცა ჩართულია</string>
+    <string name="remixer_qs_style_bento_summary">დიდი მომრგვალებული ბლოკები, შევსებული აქცენტის ფერით, მცირე ბლოკებზე წარწერები ქვემოთ</string>
+    <string name="remixer_qs_style_shapes">ფორმები</string>
+    <string name="remixer_qs_style_shapes_summary">მრგვალი გადამრთველები, როცა ჩართულია, ბორცვებად იზრდება, ხუთი ერთ რიგში</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">თხელი კონტურები და მონოსივრცული დიდი ასოები</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">გაყოფილი ფილები. ხატულის ნახევარი ინათება და ირთვება</string>
+    <string name="remixer_qs_style_soft">რბილი</string>
+    <string name="remixer_qs_style_soft_summary">ამოზნექილი ფილები, რომლებიც ჩართვისას ჩაიჭერა</string>
+    <string name="remixer_lock_media_style">მედია დამკვრელის სტილი</string>
+    <string name="remixer_lock_media_same">იგივე, რაც სწრაფი პარამეტრები</string>
+    <string name="remixer_lock_media_same_summary">მიჰყვება სწრაფი პარამეტრების მედიის ფილას, ახლა %1$s</string>
+    <string name="remixer_lock_media_off_summary">ჩაკეტილ ეკრანზე დამკვრელი არ არის</string>
+    <string name="remixer_lock_media_note">ბარათი ჩანს ჩაკეტილ ეკრანზე მაშინ, როცა რაიმე იკვრება. გამჭვირვალე სტილები იღებს მუქ ფონს, რომ ფონზე კარგად იკითხებოდეს.</string>
+    <string name="remixer_lock_media_stock_summary">ალბომის სურათი ავსებს ბარათს</string>
+    <string name="remixer_lock_media_remix_summary">მუქი ბარათი, აქცენტის ფერის დაკვრის ღილაკი</string>
+    <string name="remixer_lock_media_compact_summary">მომრგვალებული ბარათი, მრგვალი ილუსტრაცია</string>
+    <string name="remixer_lock_media_glass_summary">კონტურიანი, გამჭვირვალე ბარათი</string>
+    <string name="remixer_lock_media_circles_summary">რბილი ბარათი, აქცენტის დაკვრის ღილაკით</string>
+    <string name="remixer_lock_media_classic_summary">უფრო კვადრატული ბარათი, კონტურიანი დაკვრის ღილაკი</string>
+    <string name="remixer_lock_media_cards_summary">რბილი ბარათი, აქცენტის ფერის დაკვრის ღილაკი, როგორც წრეებში</string>
+    <string name="remixer_lock_media_neon_summary">შავი ბარათი აქცენტის ფერის კონტურით</string>
+    <string name="remixer_lock_media_bento_summary">რბილი ბარათი, აქცენტის დაკვრის ღილაკით</string>
+    <string name="remixer_lock_media_shapes_summary">მომრგვალებული ბარათი, აქცენტის დაკვრის ღილაკით</string>
+    <string name="remixer_lock_media_blueprint_summary">თხელი კონტური, კონტურიანი დაკვრის ღილაკი</string>
+    <string name="remixer_lock_media_duo_summary">ორტონიანი ბარათი, აქცენტის ფერის დაკვრის ღილაკი</string>
+    <string name="remixer_lock_media_soft_summary">ამაღლებული ბარათი დაფასონებული კიდით</string>
+    <string name="remixer_headers">სათაურის სურათი</string>
+    <string name="remixer_headers_summary">აირჩიეთ ფონის სურათი სწრაფი პარამეტრებისთვის</string>
+    <string name="header_switch">სათაურის სურათის გამოყენება</string>
+    <string name="header_switch_summary">სურათის ჩვენება სწრაფი პარამეტრების უკან</string>
+    <string name="header_source">წყარო</string>
+    <string name="header_source_collection">კოლექცია</string>
+    <string name="header_collections_summary_daylight">სათაური დღის დროს მიჰყვება ან კოლექციის სურათებს მონაცვლეობით აჩვენებს</string>
+    <string name="header_collections_summary_static">გახსენი კოლექცია, შემდეგ შეეხე სურათს მის გამოსაყენებლად</string>
+    <string name="header_collections_empty">სათაურის კოლექციები არ არის დაინსტალირებული</string>
+    <string name="header_images_daylight">ამ კოლექციაში</string>
+    <string name="header_photo_summary">ნებისმიერი ფოტო ან ანიმირებული GIF თქვენი galerey-დან</string>
+    <string name="header_height">სიმაღლე</string>
+    <string name="header_height_value">სიმაღლე · %1$d dp</string>
+    <string name="header_shadow">დაბინდული</string>
+    <string name="header_shadow_value">ჩაბნელება · %1$d%%</string>
+    <string name="header_failed">ამ სათაურის პარამეტრის შენახვა ვერ მოხერხდა</string>
+    <string name="remixer_weather_summary">ამინდის სერვისი და ერთეულები</string>
+    <string name="font_preview_notification">ასე იქნება თქვენი ტელეფონის ტექსტი.</string>
+    <string name="font_try_text">სცადეთ საკუთარი ტექსტი</string>
+    <string name="font_previewing">გადახედვა</string>
+    <string name="font_current">მიმდინარე შრიფტი</string>
+    <string name="font_badge_current">მიმდინარე</string>
+    <string name="font_apply_done">გამოყენებულია</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Display</string>
+    <string name="font_filter_script">Script</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">შრიფტი გამოყენებულია</string>
+    <string name="font_failed">ამ შრიფტის გამოყენება ვერ მოხერხდა</string>
+    <string name="wallpaper_set">ფონი დაყენებულია</string>
+    <string name="wallpaper_apply_both">ორივე</string>
+    <string name="wallpaper_failed">ამ ფონის დაყენება ვერ მოხერხდა</string>
+    <string name="missing_app">ეს აპლიკაცია დაინსტალირებული არ არის</string>
+    <string name="remixer_spoofing">მოწყობილობის იმიტაცია</string>
+    <string name="remixer_spoofing_summary">Play Integrity, მოწყობილობის identity და აპებისთვის ცალკეული spoofing</string>
+    <string name="remixer_settings_style">პარამეტრების სტილი</string>
+    <string name="rr_maintainer">მეინთეინერი</string>
+    <string name="remixer_navbar_summary">ნავიგაციის ზოლის სიგრძე, სისქე და განლაგება</string>
+    <string name="remixer_navbar_pill_length">ჟესტების ზოლის სიგრძე</string>
+    <string name="remixer_navbar_pill_thickness">ჟესტების ზოლის სისქე</string>
+    <string name="remixer_navbar_pill_auto_hide">ჟესტების ზოლის გაქრობა</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">ზოლი რამდენიმე წამში იმალება; ეკრანზე შეხებისას ისევ გამოჩნდება</string>
+    <string name="remixer_navbar_ime">კლავიატურის ღილაკები</string>
+    <string name="remixer_navbar_ime_summary">უკან და კლავიატურის გადამრთველი ღილაკების ჩვენება კლავიატურის ქვეშ</string>
+    <string name="remixer_navbar_layout">ღილაკების განლაგება</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>მოკლე</item>
+        <item>ჩვეულებრივი</item>
+        <item>გრძელი</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>ყველაზე თხელი</item>
+        <item>უფრო თხელი</item>
+        <item>თხელი</item>
+        <item>ჩვეულებრივი</item>
+        <item>სქელი</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>ჩვეულებრივი</item>
+        <item>კომპაქტური</item>
+        <item>"მარცხნივ გადახრილი"</item>
+        <item>"მარჯვნივ გადახრილი"</item>
+    </string-array>
 </resources>

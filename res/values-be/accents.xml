@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Шпалеры"</item>
+        <item>Resurrected</item>
+        <item>Android One Green</item>
+        <item>Aospa Green</item>
+        <item>Coca Cola Red</item>
+        <item>Discord Purple</item>
+        <item>Facebook Blue</item>
+        <item>Instagram Cerise</item>
+        <item>Jollibee Crimson</item>
+        <item>Monster Energy Green</item>
+        <item>Nextbit Mint</item>
+        <item>Oneplus Red</item>
+        <item>Pepsi Blue</item>
+        <item>Pixel Blue</item>
+        <item>Pocophone Yellow</item>
+        <item>Razer Green</item>
+        <item>Samsung Blue</item>
+        <item>Spotify Green</item>
+        <item>Starbucks Green</item>
+        <item>Twitch Purple</item>
+        <item>Twitter Blue</item>
+        <item>Xiaomi Orange</item>
+        <item>Бурштынавы</item>
+        <item>"Чорны"</item>
+        <item>"Сіні"</item>
+        <item>Блакітна шэрань</item>
+        <item>Карычневы</item>
+        <item>"Блакітны"</item>
+        <item>Глыбокі aранжавы</item>
+        <item>Глыбокі фіялетавы</item>
+        <item>"Зялёны"</item>
+        <item>"Шэры"</item>
+        <item>"Індыга"</item>
+        <item>Светла-блакітны</item>
+        <item>Лаймавы</item>
+        <item>"Аранжавы"</item>
+        <item>"Ружовы"</item>
+        <item>"Фіялетавы"</item>
+        <item>"Чырвоны"</item>
+        <item>"Сіне-зялёны"</item>
+        <item>Карыстальнік пяць</item>
+        <item>Карыстальнік чатыры</item>
+        <item>Карыстальнік адзін</item>
+        <item>Карыстальнік сем</item>
+        <item>Карыстальнік шэсць</item>
+        <item>Карыстальнік тры</item>
+        <item>Карыстальнік два</item>
+        <item>"Белы"</item>
+        <item>"Жоўты"</item>
+    </string-array>
+</resources>

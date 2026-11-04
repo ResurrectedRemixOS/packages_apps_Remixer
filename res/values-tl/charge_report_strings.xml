@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Baterya"</string>
     <string name="charge_report_temp">"Temperatura"</string>
     <string name="charge_report_time">"Oras"</string>
+    <string name="charge_report_title">Mga charge report</string>
+    <string name="charge_report_summary">Buod ng bawat charge kapag tinanggal ang charger</string>
+    <string name="charge_report_min_title">Ipakita lang kung nadagdagan ng kahit</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 araw</item>
+        <item>7 araw</item>
+        <item>14 na araw</item>
+        <item>30 araw</item>
+    </string-array>
+    <string name="charge_report_history_days">Huling <xliff:g id="days" example="7">%1$d</xliff:g> na araw</string>
+    <string name="charge_report_today">Ngayon, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Kahapon, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> h <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Watts</string>
+    <string name="charge_report_added">Nadagdagan</string>
+    <string name="charge_report_peak">Pinakamataas</string>
+    <string name="charge_report_average">Average</string>
+    <string name="charge_report_max_temp">Pinakamataas na temp</string>
+    <string name="charge_report_charger">Charger</string>
+    <string name="charge_report_started">Nagsimula noong</string>
+    <string name="charge_report_wired">Wired</string>
+    <string name="charge_report_wireless">Wireless</string>
+    <string name="charge_report_dock">Dock</string>
+    <string name="charge_report_empty">Walang singil pa</string>
+    <string name="charge_report_footer">Binabasa ng SystemUI ang kasalukuyang, boltahe at temperatura ng baterya tuwing 30 segundo habang nakasaksak. Ang watts ay sinusukat ng telepono, kaya maaaring magkaiba ito sa numerong nasa charger. Mananatili sa telepono ang mga ulat; walang ina-upload.</string>
 </resources>

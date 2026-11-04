@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Ozadje"</item>
+        <item>Resurrected</item>
+        <item>Android One zelena</item>
+        <item>Aospa zelena</item>
+        <item>Coca Cola rdeča</item>
+        <item>Discord vijolična</item>
+        <item>Facebook modra</item>
+        <item>Instagram češnjeva</item>
+        <item>Jollibee karminska</item>
+        <item>Monster Energy zelena</item>
+        <item>Nextbit mentolna</item>
+        <item>OnePlus rdeča</item>
+        <item>Pepsi modra</item>
+        <item>Pixel modra</item>
+        <item>Pocophone rumena</item>
+        <item>Razer zelena</item>
+        <item>Samsung modra</item>
+        <item>Spotify zelena</item>
+        <item>Starbucks zelena</item>
+        <item>Twitch vijolična</item>
+        <item>Twitter modra</item>
+        <item>Xiaomi oranžna</item>
+        <item>Jantarna</item>
+        <item>"Črna"</item>
+        <item>"Modra"</item>
+        <item>Modro siva</item>
+        <item>Rjava</item>
+        <item>"Cijan"</item>
+        <item>Temno oranžna</item>
+        <item>Temno vijolična</item>
+        <item>"Zelena"</item>
+        <item>"Siva"</item>
+        <item>Indigo</item>
+        <item>Svetlo modra</item>
+        <item>Limeta</item>
+        <item>"Oranžna"</item>
+        <item>"Rožnata"</item>
+        <item>"Vijolična"</item>
+        <item>"Rdeča"</item>
+        <item>"Zelenomodra"</item>
+        <item>Uporabnik pet</item>
+        <item>Uporabnik štiri</item>
+        <item>Uporabnik ena</item>
+        <item>Uporabnik sedem</item>
+        <item>Uporabnik šest</item>
+        <item>Uporabnik tri</item>
+        <item>Uporabnik dve</item>
+        <item>"Bela"</item>
+        <item>"Rumena"</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glance_title">Na prvi pogled</string>
+    <string name="glance_summary">Googlov datum, vreme in kartice pod navadno uro, kot na Pixlu. Videz ure ohrani svojo vrstico</string>
+</resources>

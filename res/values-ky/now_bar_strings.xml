@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"Баскычтар"</string>
     <string name="now_bar_text">"SMS жөнөтүү"</string>
     <string name="now_bar_text_size">"Тексттин көлөмү"</string>
+    <string name="now_bar_summary">Кулпуланган экрандын ылдыйкы бөлүгүндөгү жандуу иш-аракеттер</string>
+    <string name="now_bar_show">Көрсөтүү</string>
+    <string name="now_bar_music">Музыка жана видео</string>
+    <string name="now_bar_timers">Таймерлер, секундомер жана ойготкучтар</string>
+    <string name="now_bar_hide_call">Чалуу билдирмесин жашыруу</string>
+    <string name="now_bar_hide_call_summary">Кулпуланган экранда Now Bar\'дагы чалуу ошону менен бирге билдирме катарында көрсөтүлбөйт</string>
+    <string name="now_bar_live">Жандуу жаңылыктар</string>
+    <string name="now_bar_live_summary">Навигация, сапарлар, жеткирүүлөр, упайлар</string>
+    <string name="now_bar_scores">Жандуу упайлар</string>
+    <string name="now_bar_live_apps">Жандуу жаңылыктар үчүн колдонмолор</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> колдонмо</string>
+    <string name="now_bar_pin">Always-on displayге бекитилген</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> бошотулсунбу?</string>
+    <string name="now_bar_unpin">Бошотуу</string>
+    <string name="now_bar_scores_summary">At a Glance\'те сиз ээрчиген оюндар</string>
+    <string name="now_bar_recording">Экранды жана үндү жаздыруу</string>
+    <string name="now_bar_buds">Гарнитуралар жана сааттар</string>
+    <string name="now_bar_buds_summary">Туташкан түзмөктүн батареясы: гарнитуранын сол, оң жана кутусу</string>
+    <string name="now_bar_wave">Толкун анимациясы</string>
+    <string name="now_bar_aod">Always-on displayде көрсөтүү</string>
+    <string name="now_bar_chip">Абал тилкесиндеги чип</string>
+    <string name="now_bar_chip_summary">Кулпусу ачылганда сааттын жанында музыка жана таймерлер көрсөтүлөт</string>
+    <string name="now_bar_footer">Now Bar\'да музыка болгондо, чоң кулпуланган экрандагы плеер жашырылат. Иш-аракеттерди которуу үчүн тилкени сүрүңүз, башкаруу элементтерин ачуу үчүн басыңыз, ал бүткөнгө чейин жашыруу үчүн узак басыңыз. Токтотулган ырды тилкеден сүрүп таштаңыз.\n\nЖандуу упайлар Google колдонмосунда ээрчиген командаларыңыздын оюндарын көрсөтөт. Smartspacer менен ошол жерге спорттук максат кошсоңуз, упайлары бул жерде чыгат.</string>
+    <string name="now_bar_looks">Көрүнүштөр</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Демейки"</item>
+        <item>Liquid Glass</item>
+        <item>Мини</item>
+        <item>Чоң</item>
+        <item>Неон</item>
+        <item>Айнек карта</item>
+    </string-array>
+    <string name="now_bar_material">Материал</string>
+    <string name="now_bar_material_summary">Liquid Glass Теманын жөндөөсүндөгү айнекти колдонот</string>
+    <string-array name="now_bar_material_entries">
+        <item>Бир түстүү</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Альбом сүрөтү</item>
+        <item>Акцент</item>
+        <item>Караңгы</item>
+    </string-array>
+    <string name="now_bar_opacity">Мөлдүрлүгү</string>
+    <string name="now_bar_opacity_summary">Liquid Glass менен айнекти канча түс боёйт</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Жок"</item>
+        <item>Жука</item>
+        <item>Акцент</item>
+    </string-array>
+    <string name="now_bar_shadow">Көлөкө</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Өчүк"</item>
+        <item>Жумшак</item>
+        <item>Жаркыроо</item>
+    </string-array>
+    <string name="now_bar_more">Башка иш-аракеттер</string>
+    <string-array name="now_bar_more_entries">
+        <item>Жөн гана сүрүңүз</item>
+        <item>Чекиттер</item>
+        <item>Артына кароо</item>
+    </string-array>
+    <string name="now_bar_size">Өлчөмү жана формасы</string>
+    <string name="now_bar_height">Бийиктиги</string>
+    <string name="now_bar_width_summary">Full ыкмасында төмөнкү жарлыктар тилкенин үстүнө көчөт</string>
+    <string-array name="now_bar_width_entries">
+        <item>Тар</item>
+        <item>Жарлыктардын ортосунда</item>
+        <item>Толук</item>
+    </string-array>
+    <string name="now_bar_corners">Бурчтар</string>
+    <string name="now_bar_raise">Көтөрүү</string>
+    <string name="now_bar_art">Альбом сүрөтү</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Тегерек"</item>
+        <item>Тегерек</item>
+        <item>"Чарчы"</item>
+        <item>"Өчүк"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Өткөрүп жиберүү жана ойнотуу</item>
+        <item>Ойнотуу гана</item>
+        <item>"Жок"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Бир сап</item>
+        <item>Эки сап</item>
+        <item>Ыр гана</item>
+    </string-array>
+    <string name="now_bar_show_page">Тилкеде эмне көрсөтүлөт</string>
+    <string name="now_bar_show_page_summary">Музыка жана видео, таймерлер, чалуулар жана башкалар</string>
+    <string name="now_bar_where">Дагы кайда</string>
 </resources>

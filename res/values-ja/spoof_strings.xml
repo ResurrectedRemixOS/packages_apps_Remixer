@@ -164,4 +164,20 @@
     <string name="user_select_spoofing_profile_title">偽装プロファイルを選択</string>
     <string name="user_selectable_app_spoofing_summary">特定のアプリやゲームに対してデバイス情報を偽装します</string>
     <string name="user_selectable_app_spoofing_title">アプリ &amp; ゲームの偽装</string>
+    <string name="custom_spoof_profile_name">プロファイル名</string>
+    <string name="pif_reset_advanced_summary">上のすべてのスイッチを既定値に戻します。フィンガープリントは保持されます。</string>
+    <string name="pif_spoof_build_summary">フィンガープリントのビルド項目（モデル、デバイス、フィンガープリントなど）を DroidGuard に提示する</string>
+    <string name="spoofing_app_specific_category">アプリごとの上書き設定</string>
+    <string name="spoofing_reset_defaults_title">初期値に戻す</string>
+    <string name="spoofing_title">スプーフィング</string>
+    <string name="tensor_spoof_title">Tensor 機能の対象</string>
+    <string name="ts_delete_keybox_title">keybox を削除しますか？</string>
+    <string name="ts_fetch_keybox_summary">公式 keybox をダウンロード</string>
+    <string name="ts_keybox_deleted">keybox を削除しました</string>
+    <string name="ts_keybox_installed">keybox をインストールしました</string>
+    <string name="ts_mode_leaf">リーフ</string>
+    <string name="ts_mode_skip">スキップ</string>
+    <string name="ts_target_list_imported">対象リストをインポートしました</string>
+    <string name="ts_untrusted_root_message">この keybox の証明書チェーンは、Resurrected Remix が認識しない認証局をルートとしています。一部の端末では引き続き Strong Integrity に合格する場合があります。インストールしたままにしますか、それとも公式 keybox に置き換えますか？</string>
+    <string name="ts_verification_leaf_count">末端証明書 %1$d 件</string>
 </resources>

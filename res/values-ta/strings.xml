@@ -86,4 +86,212 @@
     <string name="wallpaper_apply_lock">"பூட்டுத் திரை"</string>
     <string name="remixer_settings_style_original">"அசல்"</string>
     <string name="remixer_navbar_category">"வழிசெலுத்தல் பட்டி"</string>
+    <string name="remixer_dashboard_summary">நிலைப் பட்டி, தீம், பூட்டுத் திரை மற்றும் பல</string>
+    <string name="rr_homepage_battery_saver">பேட்டரி சேமிப்பான்</string>
+    <string name="rr_homepage_personalize">தனிப்பயனாக்கு</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> இலவசம்</string>
+    <string name="rr_homepage_charged">முழுமையாக சார்ஜ் ஆனது</string>
+    <string name="rr_homepage_on_battery">பேட்டரியில் இயங்குகிறது</string>
+    <string name="rr_homepage_saver_on">பேட்டரி சேமிப்பான் இயக்கத்தில் உள்ளது</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> சாதனம்</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> சாதனங்கள்</item>
+    </plurals>
+    <string name="rr_homepage_extras">கூடுதல் அமைப்புகள்</string>
+    <string name="rr_homepage_saver">சேமிப்பான்</string>
+    <string name="rr_homepage_signed_out">உள்நுழையவில்லை</string>
+    <string name="rr_homepage_remixer_tagline">உங்களுக்கேற்ப மாற்றுங்கள். நிலைப் பட்டி, தீம், பூட்டுத் திரை மற்றும் பல.</string>
+    <string name="rr_homepage_device_tagline">எச்சரிக்கை ஸ்லைடர், டிஸ்ப்ளே, சார்ஜிங் மற்றும் GameBar.</string>
+    <string name="rr_homepage_device_action">சரிசெய்யுங்கள்</string>
+    <string name="rr_group_network">நெட்வொர்க் &amp; சாதனங்கள்</string>
+    <string name="rr_group_network_summary">Wi‑Fi, மொபைல், Bluetooth</string>
+    <string name="rr_group_apps_summary">ஆப்ஸ், அறிவிப்புகள், Modes</string>
+    <string name="rr_group_display">டிஸ்ப்ளே &amp; ஒலி</string>
+    <string name="rr_group_display_summary">டிஸ்ப்ளே, வால்பேப்பர், ஒலி</string>
+    <string name="rr_group_security_summary">பூட்டு, இருப்பிடம், அவசரநிலை</string>
+    <string name="rr_group_security_center">பாதுகாப்பு மையம்</string>
+    <string name="rr_group_accounts">Google &amp; கணக்குகள்</string>
+    <string name="rr_group_accounts_summary">Google, கடவுச்சொற்கள், காப்புப் பிரதி</string>
+    <string name="rr_group_accounts_plain_summary">கடவுச்சொற்கள், கணக்குகள், காப்புப் பிரதி</string>
+    <string name="rr_group_system_summary">மொழிகள், சைகைகள், புதுப்பிப்புகள்</string>
+    <string name="remixer_tagline">உங்களுக்கேற்ப மாற்றுங்கள்.</string>
+    <string name="remixer_remix">Remix செய்யுங்கள்</string>
+    <string name="remixer_remixed"><xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g> மூலம் Remix செய்யப்பட்டது</string>
+    <string name="remixer_chip_shade_default">நிழல் · இயல்புநிலை</string>
+    <string name="remixer_quick">விரைவு Remix</string>
+    <string name="remixer_everything">அனைத்தும்</string>
+    <string name="remixer_quick_accents">முன்னமைவுகள் அல்லது எந்த நிறமும்</string>
+    <string name="remixer_quick_fonts">கணினி எழுத்துரு பாணிகள்</string>
+    <string name="remixer_quick_walls">RR தொகுப்பு</string>
+    <string name="remixer_quick_header">QS தலைப்பு</string>
+    <string name="remixer_quick_header_summary">தலைப்புப் படங்கள்</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">கடிகாரம், பேட்டரி, ஐகான்கள் மற்றும் நெட்வொர்க் டிராஃபிக்</string>
+    <string name="remixer_qs_summary">தலைப்புப் படம்</string>
+    <string name="remixer_notifications_summary">விளிம்பு ஒளி, ஆப் ஐகான்கள் மற்றும் சார்ஜிங் ஒலிகள்</string>
+    <string name="remixer_theme_summary">எழுத்துருக்கள், உச்சரிப்புகள் மற்றும் வால்பேப்பர்கள்</string>
+    <string name="remixer_lockscreen_summary">UDFPS, சார்ஜிங் தகவல் மற்றும் வானிலை</string>
+    <string name="remixer_udfps_icon">UDFPS ஐகான்</string>
+    <string name="remixer_udfps_icon_summary">கைரேகை சென்சாருக்கு மேல் காட்டப்படும்</string>
+    <string name="remixer_udfps_animation">UDFPS அனிமேஷன்</string>
+    <string name="remixer_udfps_animation_summary">உங்கள் விரல் சென்சாரில் இருக்கும்போது இயங்கும்</string>
+    <string name="remixer_navigation_summary">Pulse, பொத்தான்கள் மற்றும் வழிசெலுத்தல் பட்டி</string>
+    <string name="remixer_misc_summary">ஒலியளவு, காப்புப் பிரதி, ஆள்மாறாட்டம், ஸ்க்ரோல் மற்றும் USB</string>
+    <string name="scroll_haptics_title">ஸ்க்ரோலின் முடிவில் தட்டவும்</string>
+    <string name="scroll_haptics_summary">பட்டியல் அல்லது பக்கம் மேலே செல்ல முடியாதபோது லேசான அதிர்வு</string>
+    <string name="usb_mode_picker_title">USB பயன்முறைத் தேர்வி</string>
+    <string name="usb_mode_picker_summary">கணினியுடன் இணைக்கும்போது ஒரு பயன்முறையைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="remixer_fonts_summary">கணினி எழுத்துரு</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix வால்பேப்பர்கள்</string>
+    <string name="remixer_accents">உச்சரிப்புகள்</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">திரையின் அடிப்பகுதியில் இசை காட்சி</string>
+    <string name="pulse_switch">Pulse ஐப் பயன்படுத்து</string>
+    <string name="pulse_switch_summary">மீடியா இயங்கும்போது திரையின் அடியில் இசைப் பட்டைகள்</string>
+    <string name="pulse_style_lines">கோடுகள்</string>
+    <string name="pulse_style_fading">மங்கும்</string>
+    <string name="pulse_style_blocks">கட்டங்கள்</string>
+    <string name="pulse_style_mirror">பிரதிபலிப்பு</string>
+    <string name="pulse_color_custom">தனிப்பயன்</string>
+    <string name="pulse_color_gradient">வானவில்</string>
+    <string name="pulse_bars">பட்டைகள்</string>
+    <string name="pulse_bars_value">பட்டைகள் · %1$d</string>
+    <string name="pulse_height">உயரம்</string>
+    <string name="pulse_height_value">உயரம் · %1$d dp</string>
+    <string name="pulse_opacity">ஒளிபுகாநிலை</string>
+    <string name="pulse_opacity_value">ஒளிபுகாநிலை · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">இசை இயங்கும்போது பூட்டுத் திரையில் பட்டைகளைக் காட்டு</string>
+    <string name="pulse_failed">அந்த pulse அமைப்பைச் சேமிக்க முடியவில்லை</string>
+    <string name="accent_applied">உச்சரிப்பு பயன்படுத்தப்பட்டது</string>
+    <string name="accent_current">உச்சரிப்பு · %1$s</string>
+    <string name="accent_current_custom">உச்சரிப்பு · தனிப்பயன்</string>
+    <string name="accent_preview_tonal">டோனல்</string>
+    <string name="accent_failed">அந்த உச்சரிப்பைப் பயன்படுத்த முடியவில்லை</string>
+    <string name="accent_custom">தனிப்பயன்</string>
+    <string name="accent_custom_summary">எந்த நிறமும் வேலை செய்யும். நிழல் அதன்மேல் தொடர்ந்து பொருந்தும்.</string>
+    <string name="accent_custom_pad">செறிவு மற்றும் பிரகாசம்</string>
+    <string name="accent_custom_use"><xliff:g id="color" example="#12B5A6">%1$s</xliff:g> ஐப் பயன்படுத்து</string>
+    <string name="accent_shade">நிழல்</string>
+    <string name="accent_shade_darker">அடர் நிறம்</string>
+    <string name="accent_shade_lighter">வெளிர் நிறம்</string>
+    <string name="accent_shade_darker_value">அடர் நிறம் · %1$d</string>
+    <string name="accent_shade_lighter_value">வெளிர் நிறம் · %1$d</string>
+    <string name="remixer_qs_style">QS பாணி</string>
+    <string name="remixer_qs_style_preview">முன்னோட்டம் · %1$s</string>
+    <string name="remixer_qs_style_note">ஒவ்வொரு பாணியும் உங்கள் உச்சரிப்பு நிறத்தைப் பின்பற்றும். ஒலியளவுப் பேனலில் பொருத்தமான Bento, Shapes, Blueprint, Duo மற்றும் Soft தோற்றங்கள் உள்ளன. Stock Lineage Android 17 டைல்களை மாற்றாமல் வைத்திருக்கும்.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Android 17 டைல்கள், மாற்றப்படாதவை</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">உச்சரிப்பு அட்டையில் பிரகாசம். டைல்கள் உச்சரிப்பு சாய்வால் நிரப்பப்படும்</string>
+    <string name="remixer_qs_style_compact">சுருக்கம்</string>
+    <string name="remixer_qs_style_compact_summary">குறுகிய டைல்கள். ஒரே திரையில் அதிகம்</string>
+    <string name="remixer_qs_style_glass">கண்ணாடி</string>
+    <string name="remixer_qs_style_glass_summary">ஆன் செய்யும்போது உங்கள் உச்சரிப்பில் ஒளிரும் வெளிப்படையான விளிம்பு டைல்கள்</string>
+    <string name="remixer_qs_style_circles">வட்டங்கள்</string>
+    <string name="remixer_qs_style_circles_summary">லேபிளுடன் வட்ட மாற்றிகள். அகல டைல்கள் அட்டைகளாக மாறும்</string>
+    <string name="remixer_qs_style_classic">கிளாசிக்</string>
+    <string name="remixer_qs_style_classic_summary">பழைய RR பாணி: லேபிளுடன் கூடிய எளிய ஐகான்கள், ஒரு வரிசையில் ஐந்து, மெல்லிய ஸ்லைடர்</string>
+    <string name="remixer_qs_style_cards">அட்டைகள்</string>
+    <string name="remixer_qs_style_cards_summary">ஒவ்வொரு பெயருக்கு கீழும் நிலையுடன் பெரிய அட்டைகள், ஒரு வரிசையில் மூன்று</string>
+    <string name="remixer_qs_style_neon">நியான்</string>
+    <string name="remixer_qs_style_neon_summary">ஆன் செய்யும்போது உங்கள் உச்சரிப்பில் ஒளிரும் விளிம்பு டைல்கள்</string>
+    <string name="remixer_qs_style_bento_summary">உங்கள் உச்சரிப்பால் நிரப்பப்பட்ட பெரிய வட்டமான தொகுதிகள், சிறியவற்றின் கீழ் லேபிள்கள்</string>
+    <string name="remixer_qs_style_shapes">வடிவங்கள்</string>
+    <string name="remixer_qs_style_shapes_summary">ஆன் செய்யும்போது விளிம்புகள் வளரும் வட்ட மாற்றிகள், ஒரு வரிசையில் ஐந்து</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">மெல்லிய விளிம்புகள் மற்றும் monospace பெரிய எழுத்துகள்</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">பிளவுபட்ட டைல்கள். ஐகான் பாதி ஒளிர்ந்து மாற்றும்</string>
+    <string name="remixer_qs_style_soft">மென்மை</string>
+    <string name="remixer_qs_style_soft_summary">ஆன் செய்யும்போது அழுத்தி உள்ளே செல்லும் உயர்த்தப்பட்ட டைல்கள்</string>
+    <string name="remixer_lock_media_style">மீடியா பிளேயர் பாணி</string>
+    <string name="remixer_lock_media_same">விரைவு அமைப்புகளைப் போல</string>
+    <string name="remixer_lock_media_same_summary">உங்கள் QS Media டைலைப் பின்பற்றுகிறது, இப்போது %1$s</string>
+    <string name="remixer_lock_media_off_summary">பூட்டுத் திரையில் பிளேயர் இல்லை</string>
+    <string name="remixer_lock_media_note">ஏதேனும் இயங்கும்போது பூட்டுத் திரையில் அட்டை தோன்றும். வெளிப்படையான பாணிகள் வால்பேப்பருக்கு மேல் படிக்க எளிதாக இருக்க இருண்ட பின்னணி பெறும்.</string>
+    <string name="remixer_lock_media_stock_summary">ஆல்பம் கலை அட்டையை நிரப்பும்</string>
+    <string name="remixer_lock_media_remix_summary">அடர் அட்டை, உச்சரிப்பு இயக்கு பொத்தான்</string>
+    <string name="remixer_lock_media_compact_summary">வட்டமான அட்டை, வட்ட கலைப்படைப்பு</string>
+    <string name="remixer_lock_media_glass_summary">விளிம்பு கொண்ட வெளிப்படையான அட்டை</string>
+    <string name="remixer_lock_media_circles_summary">மென்மையான அட்டை, உச்சரிப்பு இயக்கு பொத்தான்</string>
+    <string name="remixer_lock_media_classic_summary">சதுரமான அட்டை, விளிம்பு இயக்கு பொத்தான்</string>
+    <string name="remixer_lock_media_cards_summary">மென்மையான அட்டை, உச்சரிப்பு இயக்கு பொத்தான், வட்டங்கள் போல</string>
+    <string name="remixer_lock_media_neon_summary">உச்சரிப்பு விளிம்புடன் கருப்பு அட்டை</string>
+    <string name="remixer_lock_media_bento_summary">மென்மையான அட்டை, உச்சரிப்பு இயக்கு பொத்தான்</string>
+    <string name="remixer_lock_media_shapes_summary">வட்டமான அட்டை, உச்சரிப்பு இயக்கு பொத்தான்</string>
+    <string name="remixer_lock_media_blueprint_summary">மெல்லிய விளிம்பு, விளிம்பு இயக்கு பொத்தான்</string>
+    <string name="remixer_lock_media_duo_summary">இரண்டு வண்ண அட்டை, உச்சரிப்பு இயக்கு பொத்தான்</string>
+    <string name="remixer_lock_media_soft_summary">விளிம்புடன் உயர்த்தப்பட்ட அட்டை</string>
+    <string name="remixer_headers">தலைப்புப் படம்</string>
+    <string name="remixer_headers_summary">விரைவு அமைப்புகளுக்கான பின்னணிப் படத்தைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="header_switch">தலைப்புப் படத்தைப் பயன்படுத்து</string>
+    <string name="header_switch_summary">விரைவு அமைப்புகளுக்குப் பின்னால் படத்தைக் காட்டு</string>
+    <string name="header_source">மூலம்</string>
+    <string name="header_source_collection">தொகுப்பு</string>
+    <string name="header_collections_summary_daylight">தலைப்பு நாளின் நேரத்தைப் பின்பற்றும் அல்லது தொகுப்பிலிருந்து சுழலும்</string>
+    <string name="header_collections_summary_static">ஒரு தொகுப்பைத் திறந்து, பயன்படுத்த ஒரு படத்தைத் தட்டவும்</string>
+    <string name="header_collections_empty">தலைப்புத் தொகுப்புகள் நிறுவப்படவில்லை</string>
+    <string name="header_images">படங்கள்</string>
+    <string name="header_images_daylight">இந்தத் தொகுப்பில்</string>
+    <plurals name="header_image_count">
+        <item quantity="one">%d படம்</item>
+        <item quantity="other">%d படங்கள்</item>
+    </plurals>
+    <string name="header_photo_summary">உங்கள் கேலரியில் உள்ள எந்தப் புகைப்படம் அல்லது அனிமேஷன் GIF</string>
+    <string name="header_height">உயரம்</string>
+    <string name="header_height_value">உயரம் · %1$d dp</string>
+    <string name="header_shadow">மங்கல்</string>
+    <string name="header_shadow_value">மங்கல் · %1$d%%</string>
+    <string name="header_failed">அந்த தலைப்பு அமைப்பைச் சேமிக்க முடியவில்லை</string>
+    <string name="remixer_weather_summary">வானிலை சேவை மற்றும் அலகுகள்</string>
+    <string name="font_preview_notification">உங்கள் ஃபோன் இப்படித்தான் படிக்கும்.</string>
+    <string name="font_try_text">உங்கள் சொந்த உரையை முயற்சிக்கவும்</string>
+    <string name="font_previewing">முன்னோட்டம்</string>
+    <string name="font_current">தற்போதைய எழுத்துரு</string>
+    <string name="font_badge_current">தற்போதைய</string>
+    <string name="font_apply_done">பயன்படுத்தப்பட்டது</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">டிஸ்ப்ளே</string>
+    <string name="font_filter_script">ஸ்கிரிப்ட்</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">எழுத்துரு பயன்படுத்தப்பட்டது</string>
+    <string name="font_failed">அந்த எழுத்துருவைப் பயன்படுத்த முடியவில்லை</string>
+    <string name="wallpaper_set">வால்பேப்பர் அமைக்கப்பட்டது</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">Resurrected Remix இலிருந்து %d வால்பேப்பர். முன்னோட்டம் காண ஒன்றைத் தட்டவும்.</item>
+        <item quantity="other">Resurrected Remix இலிருந்து %d வால்பேப்பர்கள். முன்னோட்டம் காண ஒன்றைத் தட்டவும்.</item>
+    </plurals>
+    <string name="wallpaper_apply_both">இரண்டும்</string>
+    <string name="wallpaper_failed">அந்த வால்பேப்பரை அமைக்க முடியவில்லை</string>
+    <string name="missing_app">அந்த ஆப் நிறுவப்படவில்லை</string>
+    <string name="remixer_spoofing">ஆள்மாறாட்டம்</string>
+    <string name="remixer_spoofing_summary">Play Integrity, சாதன அடையாளம் மற்றும் ஆப் வாரியான ஆள்மாறாட்டம்</string>
+    <string name="remixer_settings_style">அமைப்புகள் பாணி</string>
+    <string name="rr_maintainer">பராமரிப்பாளர்</string>
+    <string name="remixer_navbar_summary">Pill நீளம், தடிமன் மற்றும் அமைப்பு</string>
+    <string name="remixer_navbar_pill_length">சைகை Pill நீளம்</string>
+    <string name="remixer_navbar_pill_thickness">சைகை Pill தடிமன்</string>
+    <string name="remixer_navbar_pill_auto_hide">சைகை Pill மங்கச் செய்</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">சில வினாடிகளுக்குப் பிறகு Pill மறைக்கப்படும்; திரையைத் தொட்டால் மீண்டும் தோன்றும்</string>
+    <string name="remixer_navbar_ime">கீபோர்டு பொத்தான்கள்</string>
+    <string name="remixer_navbar_ime_summary">கீபோர்டுக்குக் கீழே பின் மற்றும் கீபோர்டு மாற்றி பொத்தான்களைக் காட்டு</string>
+    <string name="remixer_navbar_layout">பொத்தான் அமைப்பு</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>குறுகிய</item>
+        <item>சாதாரண</item>
+        <item>நீளமான</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>மிக மெல்லிய</item>
+        <item>மெல்லிய</item>
+        <item>ஒல்லியான</item>
+        <item>சாதாரண</item>
+        <item>தடிமனான</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>சாதாரண</item>
+        <item>சுருக்கம்</item>
+        <item>"இடப்புறம் சாய்ந்தது"</item>
+        <item>"வலப்புறம் சாய்ந்தது"</item>
+    </string-array>
 </resources>

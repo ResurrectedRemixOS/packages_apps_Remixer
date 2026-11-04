@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Usawazishaji wa mlio</string>
+    <string name="ring_sync_tap">Gusa mlio unapolingana na alama</string>
+    <string name="ring_sync_best">Bora zaidi <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">KAMILI</string>
+    <string name="ring_sync_new_best">Rekodi mpya</string>
+    <string name="ring_sync_again">Gusa iliucheze tena</string>
+    <string name="ring_sync_ember">Lafudhi ya Ember imefunguliwa</string>
+    <string name="ring_sync_use_ember">Tumia Ember</string>
+    <string name="ring_sync_android">Yai la Pasaka la Android</string>
+    <string name="ring_sync_vibrate_on">Mtetemo kwenye migongano · Imewashwa</string>
+    <string name="ring_sync_vibrate_off">Mtetemo kwenye migongano · Imezimwa</string>
+    <string name="accent_ember">Makaa</string>
+</resources>

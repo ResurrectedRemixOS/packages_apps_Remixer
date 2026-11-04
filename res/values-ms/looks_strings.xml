@@ -13,4 +13,56 @@
     <string name="looks_save_look">"Simpan"</string>
     <string name="looks_custom_color">"Warna tersuai"</string>
     <string name="looks_part_clock_color">"Warna jam"</string>
+    <string name="looks_title">Gaya</string>
+    <string name="looks_summary">Keseluruhan tetapan anda dalam satu ketikan</string>
+    <string name="looks_rr">Gaya RR</string>
+    <string name="looks_yours">Gaya anda</string>
+    <string name="looks_none">Belum ada yang disimpan</string>
+    <string name="looks_save">Simpan semasa</string>
+    <string name="looks_import">Import</string>
+    <string name="looks_import_clipboard">Dari papan keratan</string>
+    <string name="looks_import_file">Dari fail</string>
+    <string name="looks_mine">Gaya saya</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> digunakan</string>
+    <string name="looks_failed">Tidak dapat menggunakan semuanya</string>
+    <string name="looks_invalid">Itu bukan gaya RR</string>
+    <string name="looks_part_accent">Warna aksen</string>
+    <string name="looks_part_qs">Gaya TP</string>
+    <string name="looks_part_clock_face">Gaya jam skrin kunci</string>
+    <string name="looks_part_clock_look">Jam bar status</string>
+    <string name="looks_part_edge">Pencahayaan tepi</string>
+    <string name="looks_part_boot">Animasi but</string>
+    <string name="looks_part_haptics">Corak Haptic Remix</string>
+    <string name="looks_saturation">Ketepuan <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Aksen</string>
+    <string name="looks_share_title">Kongsi “<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">Imbas dengan kamera telefon RR lain, atau dalam Gaya › Import</string>
+    <string name="looks_share_file">Kongsi fail</string>
+    <string name="looks_save_file">Simpan fail</string>
+    <string name="looks_import_scan">Imbas kod QR</string>
+    <string name="looks_import_title">Import gaya</string>
+    <string name="looks_from_qr">daripada kod QR</string>
+    <string name="looks_from_file">daripada fail</string>
+    <string name="looks_from_clipboard">daripada papan keratan</string>
+    <string name="looks_import_same">Ia sudah sepadan dengan tetapan anda.</string>
+    <string name="looks_new">Gaya baharu</string>
+    <string name="looks_edit">Sunting</string>
+    <string name="looks_edit_title">Sunting look</string>
+    <string name="looks_in_look">Dalam look ini</string>
+    <string name="looks_not_included">Tiada dalam look ini</string>
+    <string name="looks_save_apply">Simpan dan guna</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” disimpan</string>
+    <string name="looks_delete_confirm">Padam “<xliff:g id="name" example="Sunday">%1$s</xliff:g>”?</string>
+    <string name="looks_rr_wallpaper">Hiasan latar RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Ketepuan aksen</string>
+    <string name="looks_part_clock_chip">Cip jam bar status</string>
+    <string name="looks_part_edge_style">Gaya pencahayaan tepi</string>
+    <string name="looks_scan_hint">Halakan kamera ke kod QR look</string>
+    <string name="looks_scan_failed">Tidak dapat membuka kamera</string>
+    <string name="look_roulette_title">Roulet Look</string>
+    <string-array name="look_roulette_entries">
+        <item>"Mati"</item>
+        <item>Look yang berbeza setiap kali membuka kunci</item>
+        <item>Look yang berbeza setiap hari</item>
+    </string-array>
 </resources>

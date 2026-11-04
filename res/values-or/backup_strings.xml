@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">ଅଙ୍ଗଭଙ୍ଗୀ</string>
     <string name="backup_group_other">"ଅନ୍ୟ"</string>
     <string name="backup_done">"ହୋଇଗଲା"</string>
+    <string name="backup_summary">ଗୋଟିଏ ଫାଇଲରେ ସବୁ RR କଷ୍ଟମାଇଜେସନ୍</string>
+    <string name="backup_now">ବର୍ତ୍ତମାନ ବ୍ୟାକଅପ୍ ନିଅନ୍ତୁ</string>
+    <string name="backup_never">ଶେଷ ବ୍ୟାକଅପ୍: କେବେ ନୁହେଁ</string>
+    <string name="backup_last">ଶେଷ ବ୍ୟାକଅପ୍: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">ଫାଇଲରୁ ପୁନଃସ୍ଥାପନ କରନ୍ତୁ</string>
+    <string name="backup_restore_summary">ଏକ ବ୍ୟାକଅପ୍ ଫାଇଲ ବାଛନ୍ତୁ</string>
+    <string name="backup_included">ଅନ୍ତର୍ଭୁକ୍ତ</string>
+    <string name="backup_part_theme">ଆକ୍ସେଣ୍ଟ, ଫଣ୍ଟ ଓ ଆଇକନ୍</string>
+    <string name="backup_part_header">ହେଡର ଛବି</string>
+    <string name="backup_part_photo">ହେଡର୍ ଛବି (ଆପଣଙ୍କ ଫଟୋ)</string>
+    <string name="backup_part_photo_summary">ଫାଇଲ ବଡ଼ କରେ</string>
+    <string name="backup_part_boot">ବୁଟ ଆନିମେସନ</string>
+    <string name="backup_part_looks">ଆପଣଙ୍କ ଲୁକ</string>
+    <string name="backup_weekly">ସାପ୍ତାହିକ ବ୍ୟାକଅପ୍</string>
+    <string name="backup_weekly_summary">ଆପଣ ବାଛିଥିବା ଫୋଲ୍ଡରକୁ</string>
+    <string name="backup_weekly_on">ପ୍ରତି ସପ୍ତାହରେ <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g> କୁ</string>
+    <string name="backup_offer">ଅପଡେଟ୍ ପୂର୍ବରୁ ବ୍ୟାକଅପ୍ ପ୍ରସ୍ତାବ ଦିଅନ୍ତୁ</string>
+    <string name="backup_offer_summary">ଅପଡେଟର୍ ସଂସ୍ଥାପନ ପୂର୍ବରୁ ପଚାରିବ</string>
+    <string name="backup_sets"><xliff:g id="count" example="64">%1$d</xliff:g> ସେଟିଂସ ସେଟ କରେ</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> ସେଟିଂସ ସଞ୍ଚିତ</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> ସେଟିଂସ ପୁନଃସ୍ଥାପିତ</string>
+    <string name="backup_restored_message">ଏଗୁଡ଼ିକ ପ୍ରୟୋଗ କରିବାକୁ SystemUI ପୁନଃଆରମ୍ଭ ହୁଏ।</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> ସେଟିଂସ ଏହି ବିଲ୍ଡରେ ନାହିଁ ଏବଂ ଛାଡ଼ି ଦିଆଗଲା।</string>
+    <string name="backup_failed">ବ୍ୟାକଅପ୍ ସଞ୍ଚୟ କରିହେଲା ନାହିଁ</string>
+    <string name="backup_invalid">ଏହା ଏକ Resurrected Remix ବ୍ୟାକଅପ୍ ଫାଇଲ ନୁହେଁ</string>
+    <string name="backup_footer">ଏହି ଫାଇଲରେ କେବଳ RR ସେଟିଂସ ରହିବ: କୌଣସି ଆକାଉଣ୍ଟ, ପାସୱାର୍ଡ, ୱାଇ-ଫାଇ ନେଟୱାର୍କ, ଆପ କିମ୍ବା ମେସେଜ ରହିବ ନାହିଁ। ରିଷ୍ଟୋର କେବଳ RR ର ନିଜ ତାଲିକାର ସେଟିଂସ ଲେଖେ, ତେଣୁ ବେକଅପ ଫାଇଲ ଫୋନର ଅନ୍ୟ କିଛି ବଦଳାଇ ପାରିବ ନାହିଁ। ଫାଇଲ ବଡ଼ ହୁଏ ବୋଲି ଆପଣଙ୍କ ହେଡର ଫଟୋ କେବଳ ସ୍ୱିଚ ଅନ ଥିଲେ ଅନ୍ତର୍ଭୁକ୍ତ ହୁଏ।</string>
+    <string name="volume_style_title">ଭଲ୍ୟୁମ ପ୍ୟାନେଲ ଷ୍ଟାଇଲ</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>ନିଅନ</item>
+        <item>ଗ୍ଲାସ</item>
+        <item>ପିଲ</item>
+        <item>କ୍ଲାସିକ RR</item>
+        <item>Bento</item>
+        <item>ଶେପ</item>
+        <item>ବ୍ଲୁପ୍ରିଣ୍ଟ</item>
+        <item>ଡୁଓ</item>
+        <item>ସଫ୍ଟ</item>
+    </string-array>
 </resources>

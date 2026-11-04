@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"വാൾപേപ്പർ"</item>
+        <item>റിസറക്ടഡ്</item>
+        <item>ആൻഡ്രോയിഡ് വൺ ഗ്രീൻ</item>
+        <item>ആസ്പാ ഗ്രീൻ</item>
+        <item>കൊക്ക കോള റെഡ്</item>
+        <item>ഡിസ്കോർഡ് പർപ്പിൾ</item>
+        <item>ഫേസ്ബുക്ക് ബ്ലൂ</item>
+        <item>ഇൻസ്റ്റാഗ്രാം സെറീസ്</item>
+        <item>ജോളിബീ ക്രിംസൺ</item>
+        <item>മോൺസ്റ്റർ എനർജി ഗ്രീൻ</item>
+        <item>നെക്‌സ്റ്റ്ബിറ്റ് മിന്റ്</item>
+        <item>വൺപ്ലസ് റെഡ്</item>
+        <item>പെപ്സി ബ്ലൂ</item>
+        <item>പിക്സൽ ബ്ലൂ</item>
+        <item>പോക്കോഫോൺ യെല്ലോ</item>
+        <item>റേസർ ഗ്രീൻ</item>
+        <item>സാംസങ് ബ്ലൂ</item>
+        <item>സ്പോട്ടിഫൈ ഗ്രീൻ</item>
+        <item>സ്റ്റാർബക്സ് ഗ്രീൻ</item>
+        <item>ട്വിച്ച് പർപ്പിൾ</item>
+        <item>ട്വിറ്റർ ബ്ലൂ</item>
+        <item>ഷവോമി ഓറഞ്ച്</item>
+        <item>ആമ്പർ</item>
+        <item>"കറുപ്പ്"</item>
+        <item>"നീല"</item>
+        <item>ബ്ലൂ ഗ്രേ</item>
+        <item>ബ്രൗൺ</item>
+        <item>"സിയാൻ"</item>
+        <item>ഡീപ് ഓറഞ്ച്</item>
+        <item>ഡീപ് പർപ്പിൾ</item>
+        <item>"പച്ച"</item>
+        <item>"ചാരനിറം"</item>
+        <item>"ഇൻഡിഗോ"</item>
+        <item>ലൈറ്റ് ബ്ലൂ</item>
+        <item>ലൈം</item>
+        <item>"ഓറഞ്ച്"</item>
+        <item>"പിങ്ക്"</item>
+        <item>"പര്‍പ്പിള്‍"</item>
+        <item>"ചുവപ്പ്"</item>
+        <item>"ടീൽ"</item>
+        <item>യൂസർ അഞ്ച്</item>
+        <item>യൂസർ നാല്</item>
+        <item>യൂസർ ഒന്ന്</item>
+        <item>യൂസർ ഏഴ്</item>
+        <item>യൂസർ ആറ്</item>
+        <item>യൂസർ മൂന്ന്</item>
+        <item>യൂസർ രണ്ട്</item>
+        <item>"വെളുപ്പ്"</item>
+        <item>"മഞ്ഞ"</item>
+    </string-array>
+</resources>

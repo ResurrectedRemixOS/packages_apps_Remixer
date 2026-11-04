@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">ৰিং ছিংক</string>
+    <string name="ring_sync_tap">ৰিঙ্গটো চিহ্নৰ সৈতে মিলিলে টেপ কৰক</string>
+    <string name="ring_sync_best">সৰ্বোত্তম <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">নিখুঁত</string>
+    <string name="ring_sync_new_best">নতুন সৰ্বোত্তম</string>
+    <string name="ring_sync_again">পুনৰ খেলিবলৈ টেপ কৰক</string>
+    <string name="ring_sync_ember">এম্বাৰ এক্সেন্ট আনলক হ\'ল</string>
+    <string name="ring_sync_use_ember">এম্বাৰ ব্যৱহাৰ কৰক</string>
+    <string name="ring_sync_android">Androidৰ ইষ্টাৰ এগ</string>
+    <string name="ring_sync_vibrate_on">আঘাতত কম্পন · অন</string>
+    <string name="ring_sync_vibrate_off">আঘাতত কম্পন · অফ</string>
+    <string name="accent_ember">এম্বাৰ</string>
+</resources>

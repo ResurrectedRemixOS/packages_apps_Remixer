@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="volume_page_title">Paneli ya sauti</string>
+    <string name="volume_page_summary">Neon, Kioo, Kidonge au RR ya Kawaida</string>
+    <string name="volume_behavior">Tabia</string>
+    <string name="volume_on_left_title">Paneli upande wa kushoto</string>
+    <string name="volume_on_left_summary">RR ya Kawaida huwa juu kila wakati</string>
+    <string name="volume_ringer_title">Kitufe cha hali ya mlio</string>
+    <string name="volume_tick_title">Mlio kila unapotelezesha</string>
+    <string name="volume_percent_title">Onyesha kiwango kwa asilimia</string>
+    <string name="volume_timeout_title">Ficha baada ya</string>
+    <string name="volume_footer">Mwonekano hubadilisha jinsi paneli inavyoonekana, si jinsi inavyofanya kazi. Android huhifadhi paneli ya kawaida. Gusa nukta ili kuona vijito vyote; paneli iliyopanuliwa hutumia mwonekano uleule.</string>
+</resources>

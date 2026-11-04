@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Օգտագործել սարքի RKP-ն</string>
+    <string name="ts_rkp_enabled_summary">Օգտագործել ստեղծված keybox։ Keybox ներմուծելիս սա անջատվում է։</string>
+    <string name="ts_rkp_provision">Ստեղծել keybox</string>
+    <string name="ts_rkp_provision_summary">Հարցում ուղարկել Google-ին՝ սարքի մատակարարման ծառայության միջոցով։ Պահանջում է համատեղելի Qualcomm firmware։</string>
+    <string name="ts_rkp_status">Մատակարարման կարգավիճակ</string>
+    <string name="ts_rkp_owner_only">Կառավարել սարքի RKP-ն սարքի սեփականատիրոջ պրոֆիլից</string>
+    <string name="ts_rkp_unavailable">Սարքի RKP-ն հասանելի չէ</string>
+    <string name="ts_rkp_imported">Անջատված է, քանի դեռ տեղադրված է ներմուծված keybox</string>
+    <string name="ts_rkp_disabled">Անջատված է։ Միացրեք սարքի RKP-ն՝ keybox օգտագործելու կամ ստեղծելու համար։</string>
+    <string name="ts_rkp_idle">Պատրաստ է keybox հարցում ուղարկելու</string>
+    <string name="ts_rkp_fetching">Ստացվում է մատակարարման մարտահրավերը…</string>
+    <string name="ts_rkp_hardware">Սպասվում է սարքի մատակարարման ծառայությանը…</string>
+    <string name="ts_rkp_signing">Վկայագրերը պահանջվում են Google-ից…</string>
+    <string name="ts_rkp_validating">Keybox-ը ստուգվում և պահվում է…</string>
+    <string name="ts_rkp_ready">Ստեղծված keybox-ը ակտիվ է։ Կթարմացվի ինքնուրույն մինչև %1$s</string>
+    <string name="ts_rkp_keybox_stored">Սարքի RKP keybox-ը պահված է</string>
+    <string name="ts_rkp_expired">Ստեղծված keybox-ի ժամկետը լրացել է։ Ստեղծեք փոխարինող։</string>
+    <string name="ts_rkp_hal_rejected">Firmware-ը մերժեց հարցումը (կոդ %1$d)։ Duck V1-ը կարող է չաջակցվել։</string>
+    <string name="ts_rkp_http_error">Մատակարարման սերվերը մերժեց հարցումը (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Սարքը չի ներկայացնում համատեղելի V1 մատակարարման ինտերֆեյս</string>
+    <string name="ts_rkp_network_error">Չհաջողվեց կապ հաստատել մատակարարման սերվերի հետ։ Ստուգեք ինտերնետ կապը։</string>
+    <string name="ts_rkp_submission_unknown">Սերվերի պատասխանը կորավ։ Հարցումը կարող էր մշակվել․ ավտոմատ նորից փորձ չի արվել։</string>
+    <string name="ts_rkp_invalid_chain">Keybox-ի վկայագրերը ստուգումը չանցան։ Գոյություն ունեցող keybox-ը պահպանվեց։</string>
+    <string name="ts_rkp_timeout">Մատակարարումը ժամանակից դուրս եկավ։ Եթե սարքի ծառայությունը դեռ զբաղված է, նորից փորձելուց առաջ վերագործարկեք սարքը։</string>
+    <string name="ts_rkp_canceled">Հարցումը չեղարկվեց, քանի որ keybox-ի կարգավորումը փոխվեց</string>
+    <string name="ts_rkp_save_failed">Չհաջողվեց պահել ստեղծված keybox-ը</string>
+    <string name="ts_rkp_action_failed">Չհաջողվեց ավարտել keybox-ի գործողությունը</string>
+</resources>

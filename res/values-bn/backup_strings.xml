@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">আকৃতি</string>
     <string name="backup_group_other">"অন্যান্য"</string>
     <string name="backup_done">"হয়ে গেছে"</string>
+    <string name="backup_summary">RR-এর সব কাস্টমাইজেশন এক ফাইলে</string>
+    <string name="backup_now">এখনই ব্যাক-আপ নিন</string>
+    <string name="backup_never">শেষ ব্যাক-আপ: কখনও না</string>
+    <string name="backup_last">শেষ ব্যাক-আপ: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">ফাইল থেকে পুনরুদ্ধার</string>
+    <string name="backup_restore_summary">একটি ব্যাক-আপ ফাইল বেছে নিন</string>
+    <string name="backup_included">অন্তর্ভুক্ত</string>
+    <string name="backup_part_theme">অ্যাকসেন্ট, ফন্ট ও আইকন</string>
+    <string name="backup_part_header">হেডার ছবি</string>
+    <string name="backup_part_photo">হেডার ছবি (আপনার ছবি)</string>
+    <string name="backup_part_photo_summary">ফাইলের আকার বাড়ায়</string>
+    <string name="backup_part_boot">বুট অ্যানিমেশন</string>
+    <string name="backup_part_looks">আপনার লুক</string>
+    <string name="backup_weekly">সাপ্তাহিক ব্যাক-আপ</string>
+    <string name="backup_weekly_summary">আপনার বেছে নেওয়া একটি ফোল্ডারে</string>
+    <string name="backup_weekly_on">প্রতি সপ্তাহে <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g>-এ</string>
+    <string name="backup_offer">আপডেটের আগে ব্যাক-আপের প্রস্তাব দিন</string>
+    <string name="backup_offer_summary">আপডেটার ইনস্টল করার আগে জিজ্ঞেস করবে</string>
+    <string name="backup_sets"><xliff:g id="count" example="64">%1$d</xliff:g>টি সেটিং সেট করে</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g>টি সেটিং সংরক্ষিত হয়েছে</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g>টি সেটিং পুনরুদ্ধার হয়েছে</string>
+    <string name="backup_restored_message">প্রয়োগের জন্য SystemUI পুনরায় চালু হবে।</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g>টি সেটিং এই বিল্ডে নেই, তাই বাদ দেওয়া হয়েছে।</string>
+    <string name="backup_failed">ব্যাক-আপ সংরক্ষণ করা যায়নি</string>
+    <string name="backup_invalid">ফাইলটি Resurrected Remix-এর ব্যাক-আপ নয়</string>
+    <string name="backup_footer">ফাইলে শুধু RR-এর সেটিং থাকে: কোনো অ্যাকাউন্ট, পাসওয়ার্ড, ওয়াই-ফাই নেটওয়ার্ক, অ্যাপ বা বার্তা থাকে না। পুনরুদ্ধার শুধু RR-এর নিজস্ব তালিকার সেটিংই লেখে, তাই ব্যাক-আপ ফাইল ফোনের অন্য কিছু বদলাতে পারে না। হেডার ছবি শুধু তার সুইচ চালু থাকলেই যুক্ত হয়, কারণ এতে ফাইলের আকার বাড়ে।</string>
+    <string name="volume_style_title">ভলিউম প্যানেলের রূপ</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>নিয়ন</item>
+        <item>গ্লাস</item>
+        <item>পিল</item>
+        <item>ক্লাসিক RR</item>
+        <item>Bento</item>
+        <item>শেপস</item>
+        <item>ব্লুপ্রিন্ট</item>
+        <item>ডুও</item>
+        <item>সফট</item>
+    </string-array>
 </resources>

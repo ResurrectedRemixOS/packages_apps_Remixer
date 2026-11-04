@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"ផ្ទាំង​រូបភាព"</item>
+        <item>Resurrected</item>
+        <item>Android One Green</item>
+        <item>Aospa Green</item>
+        <item>Coca Cola Red</item>
+        <item>Discord Purple</item>
+        <item>Facebook Blue</item>
+        <item>Instagram Cerise</item>
+        <item>Jollibee Crimson</item>
+        <item>Monster Energy Green</item>
+        <item>Nextbit Mint</item>
+        <item>Oneplus Red</item>
+        <item>Pepsi Blue</item>
+        <item>Pixel Blue</item>
+        <item>Pocophone Yellow</item>
+        <item>Razer Green</item>
+        <item>Samsung Blue</item>
+        <item>Spotify Green</item>
+        <item>Starbucks Green</item>
+        <item>Twitch Purple</item>
+        <item>Twitter Blue</item>
+        <item>Xiaomi Orange</item>
+        <item>ពណ៌អំព័រ</item>
+        <item>"ខ្មៅ"</item>
+        <item>"ខៀវ"</item>
+        <item>ប្រផេះខៀវ</item>
+        <item>ត្នោត</item>
+        <item>"ពងក្រសា"</item>
+        <item>ទឹកក្រូចចាស់</item>
+        <item>ស្វាយចាស់</item>
+        <item>"បៃតង"</item>
+        <item>"ប្រផេះ"</item>
+        <item>"ទឹកប៊ិក"</item>
+        <item>ខៀវស្រាល</item>
+        <item>ក្រូចឆ្មារ</item>
+        <item>"ទឹកក្រូច"</item>
+        <item>"ផ្កាឈូក"</item>
+        <item>"ពណ៍ស្វាយ"</item>
+        <item>"ក្រហម"</item>
+        <item>"បៃតងចាស់"</item>
+        <item>អ្នកប្រើទីប្រាំ</item>
+        <item>អ្នកប្រើទីបួន</item>
+        <item>អ្នកប្រើទីមួយ</item>
+        <item>អ្នកប្រើទីប្រាំពីរ</item>
+        <item>អ្នកប្រើទីប្រាំមួយ</item>
+        <item>អ្នកប្រើទីបី</item>
+        <item>អ្នកប្រើទីពីរ</item>
+        <item>"ស"</item>
+        <item>"លឿង"</item>
+    </string-array>
+</resources>

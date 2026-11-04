@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Achtergrond"</item>
+        <item>Resurrected</item>
+        <item>Android One Groen</item>
+        <item>Aospa Groen</item>
+        <item>Coca-Cola Rood</item>
+        <item>Discord Paars</item>
+        <item>Facebook Blauw</item>
+        <item>Instagram Kersenrood</item>
+        <item>Jollibee Karmozijn</item>
+        <item>Monster Energy Groen</item>
+        <item>Nextbit Mint</item>
+        <item>OnePlus Rood</item>
+        <item>Pepsi Blauw</item>
+        <item>Pixel Blauw</item>
+        <item>Pocophone Geel</item>
+        <item>Razer Groen</item>
+        <item>Samsung Blauw</item>
+        <item>Spotify Groen</item>
+        <item>Starbucks Groen</item>
+        <item>Twitch Paars</item>
+        <item>Twitter Blauw</item>
+        <item>Xiaomi Oranje</item>
+        <item>Amber</item>
+        <item>"Zwart"</item>
+        <item>"Blauw"</item>
+        <item>Blauwgrijs</item>
+        <item>Bruin</item>
+        <item>"Cyaan"</item>
+        <item>Diep Oranje</item>
+        <item>Diep Paars</item>
+        <item>"Groen"</item>
+        <item>"Grijs"</item>
+        <item>Indigo</item>
+        <item>Lichtblauw</item>
+        <item>Limoen</item>
+        <item>"Oranje"</item>
+        <item>"Roze"</item>
+        <item>"Paars"</item>
+        <item>"Rood"</item>
+        <item>"Blauwgroen"</item>
+        <item>Gebruiker vijf</item>
+        <item>Gebruiker vier</item>
+        <item>Gebruiker één</item>
+        <item>Gebruiker zeven</item>
+        <item>Gebruiker zes</item>
+        <item>Gebruiker drie</item>
+        <item>Gebruiker twee</item>
+        <item>"Wit"</item>
+        <item>"Geel"</item>
+    </string-array>
+</resources>

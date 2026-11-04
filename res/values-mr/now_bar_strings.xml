@@ -11,4 +11,95 @@
     <string name="now_bar_buttons">"बटणे"</string>
     <string name="now_bar_text">"मजकूर"</string>
     <string name="now_bar_text_size">"मजकूर आकार"</string>
+    <string name="now_bar_summary">लॉक स्क्रीनच्या तळाशी लाइव्ह अ‍ॅक्टिव्हिटी</string>
+    <string name="now_bar_show">दाखवा</string>
+    <string name="now_bar_music">संगीत आणि व्हिडिओ</string>
+    <string name="now_bar_timers">टायमर, स्टॉपवॉच आणि अलार्म</string>
+    <string name="now_bar_hide_call">कॉल सूचना लपवा</string>
+    <string name="now_bar_live">लाइव्ह अपडेट्स</string>
+    <string name="now_bar_live_summary">नेव्हिगेशन, राइड्स, डिलिव्हरी, स्कोअर</string>
+    <string name="now_bar_scores">लाइव्ह स्कोअर</string>
+    <string name="now_bar_live_apps">लाइव्ह अपडेट्ससाठी अ‍ॅप्स</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> अ‍ॅप्स</string>
+    <string name="now_bar_pin">नेहमी-चालू डिस्प्लेवर पिन केलेले</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> अनपिन करायचा?</string>
+    <string name="now_bar_unpin">अनपिन करा</string>
+    <string name="now_bar_scores_summary">ॲट अ ग्लान्समध्ये फॉलो करत असलेले गेम्स</string>
+    <string name="now_bar_recording">स्क्रीन आणि आवाज रेकॉर्डिंग</string>
+    <string name="now_bar_buds">इयरबड्स आणि वॉच</string>
+    <string name="now_bar_buds_summary">जोडलेल्या डिव्हाइसची बॅटरी: इयरबड्सचा डावा, उजवा आणि केस</string>
+    <string name="now_bar_wave">वेव्ह अ‍ॅनिमेशन</string>
+    <string name="now_bar_aod">नेहमी-चालू डिस्प्लेवर दाखवा</string>
+    <string name="now_bar_chip">स्टेटस बारमधील चिप</string>
+    <string name="now_bar_chip_summary">अनलॉक असताना घड्याळाजवळ संगीत आणि टायमर दाखवा</string>
+    <string name="now_bar_looks">लूक</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"डीफॉल्ट"</item>
+        <item>Liquid Glass</item>
+        <item>मिनी</item>
+        <item>मोठा</item>
+        <item>निऑन</item>
+        <item>ग्लास कार्ड</item>
+    </string-array>
+    <string name="now_bar_material">मटेरियल</string>
+    <string name="now_bar_material_summary">Liquid Glass थीममध्ये सेट केलेली ग्लास वापरते</string>
+    <string-array name="now_bar_material_entries">
+        <item>सॉलिड</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>अल्बम आर्ट</item>
+        <item>ॲक्सेंट</item>
+        <item>डार्क</item>
+    </string-array>
+    <string name="now_bar_opacity">अपारदर्शकता</string>
+    <string name="now_bar_opacity_summary">Liquid Glass मध्ये ग्लासला किती रंग मिळतो</string>
+    <string name="now_bar_outline">आउटलाइन</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"काहीही नाही"</item>
+        <item>बारीक</item>
+        <item>ॲक्सेंट</item>
+    </string-array>
+    <string name="now_bar_shadow">सावली</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"बंद आहे"</item>
+        <item>सॉफ्ट</item>
+        <item>ग्लो</item>
+    </string-array>
+    <string name="now_bar_more">अधिक ॲक्टिव्हिटी</string>
+    <string-array name="now_bar_more_entries">
+        <item>फक्त स्वाइप करा</item>
+        <item>ठिपके</item>
+        <item>मागे डोकावा</item>
+    </string-array>
+    <string name="now_bar_size">आकार आणि प्रकार</string>
+    <string name="now_bar_height">उंची</string>
+    <string name="now_bar_width_summary">पूर्ण निवडल्यास शॉर्टकट वर बारच्या वर हलतात</string>
+    <string-array name="now_bar_width_entries">
+        <item>अरुंद</item>
+        <item>शॉर्टकटच्या दरम्यान</item>
+        <item>पूर्ण</item>
+    </string-array>
+    <string name="now_bar_corners">कोपरे</string>
+    <string name="now_bar_raise">उंच करा</string>
+    <string name="now_bar_art">अल्बम आर्ट</string>
+    <string-array name="now_bar_art_entries">
+        <item>"मंडळ"</item>
+        <item>गोलाकार</item>
+        <item>"चौरस"</item>
+        <item>"बंद आहे"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>वगळा आणि प्ले करा</item>
+        <item>फक्त प्ले</item>
+        <item>"काहीही नाही"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>एक ओळ</item>
+        <item>दोन ओळी</item>
+        <item>फक्त गाणे</item>
+    </string-array>
+    <string name="now_bar_show_page">बारमध्ये काय दिसते</string>
+    <string name="now_bar_show_page_summary">संगीत आणि व्हिडिओ, टायमर, कॉल आणि बरेच काही</string>
+    <string name="now_bar_where">आणखी कुठे</string>
 </resources>

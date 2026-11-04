@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">タイマー</string>
     <string name="quick_launch_undo">"元に戻す"</string>
     <string name="quick_launch_off">"OFF"</string>
+    <string name="quick_launch_title">クイック起動</string>
+    <string name="quick_launch_main">指紋のクイック起動</string>
+    <string name="quick_launch_main_summary">ロック解除後もセンサーに指を置いたままにするとショートカットを開きます</string>
+    <string name="quick_launch_hint">ショートカットをタップして変更、長押しして削除、ドラッグして並べ替えできます。</string>
+    <string name="quick_launch_behavior">動作</string>
+    <string name="quick_launch_hold">長押しの時間</string>
+    <string name="quick_launch_haptics">各ショートカットで振動</string>
+    <string name="quick_launch_add">追加</string>
+    <string name="quick_launch_video">動画</string>
+    <string name="quick_launch_qr">QR コードをスキャン</string>
+    <string name="quick_launch_app">アプリ…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> を削除しました</string>
 </resources>

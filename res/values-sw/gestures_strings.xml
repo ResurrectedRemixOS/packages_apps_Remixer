@@ -8,4 +8,50 @@
         <item>"Wastani"</item>
         <item>"Kubwa"</item>
     </string-array>
+    <string name="pie_title">Vidhibiti vya pai</string>
+    <string name="pie_summary">Shikilia sehemu ya chini ya ukingo kwa muda ili kupata pai ya njia za mkato</string>
+    <string name="pie_zone">Sehemu ya ukingo</string>
+    <string name="pie_clock">Saa na betri juu yake</string>
+    <string name="pie_items">Vipande</string>
+    <string-array name="pie_items_entries">
+        <item>"Nyuma"</item>
+        <item>Nyumbani</item>
+        <item>"Zilizotumika majuzi"</item>
+        <item>"Arifa"</item>
+        <item>"Tochi"</item>
+        <item>"Picha ya skrini"</item>
+        <item>"Menyu ya kuzima/kuwasha"</item>
+        <item>"Programu ya Mratibu"</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Inahitaji kushikilia kwa robo sekunde bila kusogeza, kwa hivyo kutelezesha haraka kutoka ukingoni bado kurudisha nyuma. Haifunguki kwenye skrini iliyofungwa.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Kushoto"</item>
+        <item>"Kulia"</item>
+        <item>Zote mbili</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Theluthi ya chini</item>
+        <item>Katikati</item>
+        <item>Ukingo mzima</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Kioo</item>
+        <item>Classic</item>
+    </string-array>
+    <string name="sidebar_style_title">Mwonekano wa upau wa programu</string>
+    <string-array name="sidebar_style_entries">
+        <item>Classic</item>
+        <item>Kioo cha RR</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Upau wa programu</string>
+    <string name="sidebar_settings_summary">Telezesha kutoka kwenye mpini kupata programu na zana zako</string>
+    <string name="sidebar_apps_title">Programu, mpini na ubao wa kunakili</string>
+    <string name="sidebar_apps_summary">Washa mpini, chagua programu na uweke ubao mahiri wa kunakili</string>
+    <string name="sidebar_handle_size_title">Ukubwa wa mpini</string>
+    <string name="sidebar_tools_title">Safu ya zana</string>
+    <string name="sidebar_tools_summary">Picha ya skrini na tochi chini ya programu zako</string>
+    <string name="sidebar_footer">Mpini ni mstari mwembamba wa rangi yako ya lafudhi; uburute ili kuusogeza kando ya ukingo. Kwa miguso ya kuvinjari kwa ishara, unashughulikia sehemu yake tu ya ukingo, na kurudi nyuma hufanya kazi kila mahali pengine.</string>
 </resources>

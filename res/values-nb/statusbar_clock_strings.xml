@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Dato"</string>
     <string name="sb_weather_category">"Været"</string>
+    <string name="sb_clock_category">Klokke og dato</string>
+    <string name="sb_clock_bold_title">Fet klokke</string>
+    <string name="sb_clock_bold_summary">Vis klokken i statusraden med fet skrift</string>
+    <string name="sb_clock_period_separator_title">Tidsskiller</string>
+    <string name="sb_clock_period_separator_summary">10.45 i stedet for 10:45</string>
+    <string name="sb_clock_date_position_title">Datoposisjon</string>
+    <string name="sb_clock_date_style_title">Bokstavstil for dato</string>
+    <string name="sb_clock_date_format_title">Datoformat</string>
+    <string name="sb_clock_chip_category">Klokkebakgrunn</string>
+    <string name="sb_clock_chip_title">Bakgrunnsstil</string>
+    <string name="sb_clock_chip_start_title">Gradient, start</string>
+    <string name="sb_clock_chip_end_title">Gradient, slutt</string>
+    <string name="sb_clock_chip_angle_title">Gradientvinkel</string>
+    <string name="sb_clock_chip_mask_title">Kutt tiden ut av gradienten</string>
+    <string name="sb_clock_chip_mask_summary">Gradienten vises gjennom sifrene i stedet for bak dem</string>
+    <string name="sb_weather_title">Vær i statusraden</string>
+    <string name="sb_weather_position_title">Posisjon</string>
+    <string name="status_bar_clock_rr_style_title">Klokkeutseende</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Standard"</item>
+        <item>Neon</item>
+        <item>Delt</item>
+        <item>RR-merke</item>
+        <item>Mono</item>
+        <item>Puls</item>
+        <item>Stablet</item>
+        <item>Glød</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline ved siden av klokken</string>
+    <string name="sb_clock_flatline_summary">RRs hjerteslag-linje inni brikken: slår med musikk, og topper seg når et varsel kommer</string>
 </resources>

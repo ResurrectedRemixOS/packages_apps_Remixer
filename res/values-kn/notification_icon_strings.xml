@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="notification_icons_category">"ಐಕಾನ್‌ಗಳು"</string>
+    <string name="notification_app_icons_title">ಆ್ಯಪ್ ಐಕಾನ್‌ಗಳು</string>
+    <string name="notification_app_icons_summary">ನೋಟಿಫಿಕೇಶನ್‌ಗಳಲ್ಲಿ ಚಿಕ್ಕ ಚಿಹ್ನೆಯ ಬದಲು ಆ್ಯಪ್‌ನ ಐಕಾನ್ ತೋರಿಸಿ</string>
 </resources>

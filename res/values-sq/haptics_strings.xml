@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Blu"</string>
     <string name="haptic_remix_color_green">"E gjelbër"</string>
     <string name="haptic_remix_color_white">"E bardhë"</string>
+    <string name="haptic_remix_summary">Trokit modelet e dridhjes për thirrjet, aplikacionet, alarmet dhe zhbllokimet</string>
+    <string name="haptic_remix_record">Regjistro</string>
+    <string name="haptic_remix_pad">trokit ritmin</string>
+    <string name="haptic_remix_strength">Fuqia</string>
+    <string name="haptic_remix_clear">Pastro</string>
+    <string name="haptic_remix_play">Luaj</string>
+    <string name="haptic_remix_name">Emri i modelit</string>
+    <string name="haptic_remix_empty">Asgjë e regjistruar ende</string>
+    <string name="haptic_remix_too_long">Një model mund të zgjasë 30 sekonda</string>
+    <string name="haptic_remix_presets">Parafabrikuara</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Xham</string>
+    <string name="haptic_remix_preset_ringtone">Ritmi i zërit të ziles</string>
+    <string name="haptic_remix_listening">Duke dëgjuar zërin e ziles…</string>
+    <string name="haptic_remix_no_ringtone">Zëri i ziles nuk mund të lexohet</string>
+    <string name="haptic_remix_patterns">Modelet e tua</string>
+    <string name="haptic_remix_patterns_none">Ruaj së pari një model. Mbaj shtypur një që ta fshish.</string>
+    <string name="haptic_remix_broken">Ky model nuk mund të lexohet</string>
+    <string name="haptic_remix_delete">Të fshihet <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Cakto te</string>
+    <string name="haptic_remix_alarm">Alarmi dhe kohëmatësi</string>
+    <string name="haptic_remix_plug">Me energji të lidhur</string>
+    <string name="haptic_remix_fingerprint">Gjurmë gishti e suksesshme</string>
+    <string name="haptic_remix_add_contact">Shto një kontakt</string>
+    <string name="haptic_remix_edge_color">Dritë në skaj për mesazhet e <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">Theksi</string>
+    <string name="haptic_remix_color_crimson">Kuqe e thellë</string>
+    <string name="haptic_remix_color_amber">Qehibar</string>
+    <string name="haptic_remix_add_app">Shto njoftimet e një aplikacioni</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · prek për ndryshim, mbaj për ngjyrën e skajit</string>
+    <string name="haptic_remix_no_contacts">Nuk u kthye asnjë numër nga Kontaktet</string>
 </resources>

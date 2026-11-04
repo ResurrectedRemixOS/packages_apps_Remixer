@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"ဘက်ထရီ"</string>
     <string name="battery_style_title">"ပုံစံ"</string>
+    <string-array name="battery_style_entries">
+        <item>ဒေါင်လိုက်</item>
+        <item>"စက်ဝိုင်း"</item>
+        <item>အစက်ကွက်ပါ စက်ဝိုင်း</item>
+        <item>နီယွန် လက်စွပ်</item>
+        <item>ပါးလွှာသော ပလ်ပ်</item>
+        <item>ကြီးသော ရာခိုင်နှုန်း</item>
+        <item>"စာပို့ရန်"</item>
+    </string-array>
+    <string name="battery_percent_title">ရာခိုင်နှုန်း</string>
+    <string-array name="battery_percent_entries">
+        <item>"ဝှက်ထား၏"</item>
+        <item>သင်္ကေတ အတွင်းတွင်</item>
+        <item>အနားတွင်</item>
+    </string-array>
+    <string name="battery_ring_color_title">နီယွန် လက်စွပ်အရောင်</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s။ အဆင့်အလိုက်ဆိုရင် accent သည် 20%%ကျော်ရင် အပြာ၊ အောက်ရောက်ရင် အနီ၊ Battery Saver တွင် အဝါရောင်ဖြစ်သည်။</string>
+    <string-array name="battery_ring_color_entries">
+        <item>အဆင့်အလိုက်</item>
+        <item>အဓိကအရောင်</item>
+        <item>"အဖြူ"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">အားသွင်းနေစဉ် ဖြာထွက်ခြင်း</string>
+    <string name="battery_ring_tile_title">အမြန်ဆက်တင် အကွက်ငယ်ပေါ်ရှိ လက်စွပ်တူညီ</string>
+    <string name="battery_ring_tile_summary">အဆင့်နှင့် ဖန်သားပြင် ဖွင့်ထားသည့်အချိန်နှင့်အတူ</string>
 </resources>

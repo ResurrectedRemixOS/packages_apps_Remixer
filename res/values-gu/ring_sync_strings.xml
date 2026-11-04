@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Ring sync</string>
+    <string name="ring_sync_tap">જ્યારે રિંગ માર્ક સાથે મેળ ખાય ત્યારે ટૅપ કરો</string>
+    <string name="ring_sync_best">શ્રેષ્ઠ <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">PERFECT</string>
+    <string name="ring_sync_new_best">નવો શ્રેષ્ઠ સ્કોર</string>
+    <string name="ring_sync_again">ફરી રમવા માટે ટૅપ કરો</string>
+    <string name="ring_sync_ember">Ember ઍક્સેન્ટ અનલૉક થયો</string>
+    <string name="ring_sync_use_ember">Ember વાપરો</string>
+    <string name="ring_sync_android">Android નો ઇસ્ટર એગ</string>
+    <string name="ring_sync_vibrate_on">હિટ પર વાઇબ્રેટ · ચાલુ</string>
+    <string name="ring_sync_vibrate_off">હિટ પર વાઇબ્રેટ · બંધ</string>
+    <string name="accent_ember">એમ્બર</string>
+</resources>

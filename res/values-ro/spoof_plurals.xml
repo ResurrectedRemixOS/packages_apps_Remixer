@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="ts_added_installed_count">
+        <item quantity="one">A fost adăugată %d aplicație la ținte</item>
+        <item quantity="two">Au fost adăugate %d aplicații la ținte</item>
+        <item quantity="few">Au fost adăugate %d aplicații la ținte</item>
+        <item quantity="many">Au fost adăugate %d de aplicații la ținte</item>
+        <item quantity="other">Au fost adăugate %d aplicații la ținte</item>
+    </plurals>
+</resources>

@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">ტაიმერი</string>
     <string name="quick_launch_undo">"მოქმედების გაუქმება"</string>
     <string name="quick_launch_off">"გამორთული"</string>
+    <string name="quick_launch_title">სწრაფი გაშვება</string>
+    <string name="quick_launch_main">თითის ანაბეჭდით სწრაფი გაშვება</string>
+    <string name="quick_launch_main_summary">განბლოკვის შემდეგ დატოვეთ თითი სენსორზე მალსახმობის გასახსნელად</string>
+    <string name="quick_launch_hint">შეეხეთ მალსახმობს შესაცვლელად, დააჭირეთ ხანგრძლივად წასაშლელად ან გადაათრიეთ თანმიმდევრობის შესაცვლელად.</string>
+    <string name="quick_launch_behavior">ქცევა</string>
+    <string name="quick_launch_hold">დაჭერის დრო</string>
+    <string name="quick_launch_haptics">ვიბრაცია თითოეულ მალსახმობზე</string>
+    <string name="quick_launch_add">დამატება</string>
+    <string name="quick_launch_video">ვიდეო</string>
+    <string name="quick_launch_qr">QR კოდის სკანირება</string>
+    <string name="quick_launch_app">აპი…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> წაიშალა</string>
 </resources>

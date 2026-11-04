@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Батерија"</string>
     <string name="charge_report_temp">"Температура"</string>
     <string name="charge_report_time">"Време"</string>
+    <string name="charge_report_title">Извештаи за полнење</string>
+    <string name="charge_report_summary">Резиме за секое полнење при исклучување</string>
+    <string name="charge_report_min_title">Само ако додаде најмалку</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 дена</item>
+        <item>7 дена</item>
+        <item>14 дена</item>
+        <item>30 дена</item>
+    </string-array>
+    <string name="charge_report_history_days">Последни <xliff:g id="days" example="7">%1$d</xliff:g> дена</string>
+    <string name="charge_report_today">Денес, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Вчера, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> мин</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ч <xliff:g id="minutes" example="02">%2$02d</xliff:g> мин</string>
+    <string name="charge_report_watts">Вати</string>
+    <string name="charge_report_added">Додадено</string>
+    <string name="charge_report_peak">Врв</string>
+    <string name="charge_report_average">Просек</string>
+    <string name="charge_report_max_temp">Макс. температура</string>
+    <string name="charge_report_charger">Полнач</string>
+    <string name="charge_report_started">Почнато во</string>
+    <string name="charge_report_wired">Жичен</string>
+    <string name="charge_report_wireless">Безжичен</string>
+    <string name="charge_report_dock">Док</string>
+    <string name="charge_report_empty">Сè уште нема полнења</string>
+    <string name="charge_report_footer">SystemUI ја чита струјата, напонот и температурата на батеријата на секои 30 секунди додека е приклучен. Ватите се она што го мери телефонот, па можат да се разликуваат од бројката на полначот. Извештаите остануваат на телефонот; ништо не се прикачува.</string>
 </resources>

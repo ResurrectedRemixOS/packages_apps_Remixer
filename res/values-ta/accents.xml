@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"வால்பேப்பர்"</item>
+        <item>ரிசர்ரெக்டட்</item>
+        <item>ஆண்ட்ராய்டு ஒன் பச்சை</item>
+        <item>ஆஸ்பா பச்சை</item>
+        <item>கோகா கோலா சிவப்பு</item>
+        <item>டிஸ்கார்ட் ஊதா</item>
+        <item>ஃபேஸ்புக் நீலம்</item>
+        <item>இன்ஸ்டாகிராம் செர்ரி</item>
+        <item>ஜோலிபீ கருஞ்சிவப்பு</item>
+        <item>மான்ஸ்டர் எனர்ஜி பச்சை</item>
+        <item>நெக்ஸ்பிட் மின்ட்</item>
+        <item>ஒன்பிளஸ் சிவப்பு</item>
+        <item>பெப்சி நீலம்</item>
+        <item>பிக்சல் நீலம்</item>
+        <item>போகோஃபோன் மஞ்சள்</item>
+        <item>ரேசர் பச்சை</item>
+        <item>சாம்சங் நீலம்</item>
+        <item>ஸ்பாட்டிஃபை பச்சை</item>
+        <item>ஸ்டார்பக்ஸ் பச்சை</item>
+        <item>ட்விட்ச் ஊதா</item>
+        <item>ட்விட்டர் நீலம்</item>
+        <item>சியோமி ஆரஞ்சு</item>
+        <item>அம்பர்</item>
+        <item>"கருப்பு"</item>
+        <item>"நீலம்"</item>
+        <item>நீல சாம்பல்</item>
+        <item>பழுப்பு</item>
+        <item>"சியான்"</item>
+        <item>ஆழ்ந்த ஆரஞ்சு</item>
+        <item>ஆழ்ந்த ஊதா</item>
+        <item>"பச்சை"</item>
+        <item>"சாம்பல்"</item>
+        <item>"அடர் நீலம்"</item>
+        <item>வெளிர் நீலம்</item>
+        <item>எலுமிச்சை பச்சை</item>
+        <item>"ஆரஞ்சு"</item>
+        <item>"பிங்க்"</item>
+        <item>"ஊதா"</item>
+        <item>"சிவப்பு"</item>
+        <item>"பசும் நீலம்"</item>
+        <item>பயனர் ஐந்து</item>
+        <item>பயனர் நான்கு</item>
+        <item>பயனர் ஒன்று</item>
+        <item>பயனர் ஏழு</item>
+        <item>பயனர் ஆறு</item>
+        <item>பயனர் மூன்று</item>
+        <item>பயனர் இரண்டு</item>
+        <item>"வெள்ளை"</item>
+        <item>"மஞ்சள்"</item>
+    </string-array>
+</resources>

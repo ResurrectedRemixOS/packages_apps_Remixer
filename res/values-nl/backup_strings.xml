@@ -10,4 +10,44 @@
     <string name="backup_group_notifications">"Meldingen"</string>
     <string name="backup_group_other">"Overig"</string>
     <string name="backup_done">"Klaar"</string>
+    <string name="backup_summary">Elke RR-aanpassing in één bestand</string>
+    <string name="backup_now">Nu back-up maken</string>
+    <string name="backup_never">Laatste back-up: nooit</string>
+    <string name="backup_last">Laatste back-up: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Herstellen uit een bestand</string>
+    <string name="backup_restore_summary">Kies een back-upbestand</string>
+    <string name="backup_included">Inbegrepen</string>
+    <string name="backup_part_theme">Accent, lettertype en pictogrammen</string>
+    <string name="backup_part_header">Kopafbeelding</string>
+    <string name="backup_part_photo">Koptekstafbeelding (je eigen foto)</string>
+    <string name="backup_part_photo_summary">Maakt het bestand groter</string>
+    <string name="backup_part_boot">Opstartanimatie</string>
+    <string name="backup_part_looks">Jouw looks</string>
+    <string name="backup_weekly">Wekelijkse back-up</string>
+    <string name="backup_weekly_summary">Naar een map die je kiest</string>
+    <string name="backup_weekly_on">Elke week naar <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Een back-up aanbieden vóór updates</string>
+    <string name="backup_offer_summary">De Updater vraagt het voordat hij installeert</string>
+    <string name="backup_sets">Stelt <xliff:g id="count" example="64">%1$d</xliff:g> instellingen in</string>
+    <string name="backup_group_gestures">Gebaren</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> instellingen opgeslagen</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> instellingen hersteld</string>
+    <string name="backup_restored_message">SystemUI wordt opnieuw gestart om ze toe te passen.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> instellingen bestaan niet in deze build en zijn overgeslagen.</string>
+    <string name="backup_failed">De back-up kon niet worden opgeslagen</string>
+    <string name="backup_invalid">Dit bestand is geen Resurrected Remix-back-up</string>
+    <string name="backup_footer">Alleen RR-instellingen gaan in het bestand: geen accounts, wachtwoorden, wifi-netwerken, apps of berichten. Herstellen schrijft alleen instellingen op RR\'s eigen lijst, dus een back-upbestand kan niets anders op de telefoon wijzigen. Je koptekstfoto is alleen inbegrepen als de schakelaar aan staat, omdat die het bestand groter maakt.</string>
+    <string name="volume_style_title">Stijl volumepaneel</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Glas</item>
+        <item>Pil</item>
+        <item>Klassieke RR</item>
+        <item>Bento</item>
+        <item>Vormen</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Zacht</item>
+    </string-array>
 </resources>

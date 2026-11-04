@@ -13,4 +13,41 @@
     <string name="backup_group_other">"その他"</string>
     <string name="backup_done">"完了"</string>
     <string name="volume_style_title">音量パネルのスタイル</string>
+    <string name="backup_summary">RR のカスタマイズをすべて 1 つのファイルに</string>
+    <string name="backup_now">今すぐバックアップ</string>
+    <string name="backup_never">前回のバックアップ: なし</string>
+    <string name="backup_last">前回のバックアップ: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">ファイルから復元</string>
+    <string name="backup_restore_summary">バックアップファイルを選択</string>
+    <string name="backup_included">含まれる項目</string>
+    <string name="backup_part_theme">アクセントカラー、フォント、アイコン</string>
+    <string name="backup_part_header">ヘッダー画像</string>
+    <string name="backup_part_photo">ヘッダー画像(自分の写真)</string>
+    <string name="backup_part_photo_summary">ファイルサイズが大きくなります</string>
+    <string name="backup_part_looks">あなたのルック</string>
+    <string name="backup_weekly">毎週のバックアップ</string>
+    <string name="backup_weekly_summary">選択したフォルダーに</string>
+    <string name="backup_weekly_on">毎週 <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g> に保存</string>
+    <string name="backup_offer">アップデート前にバックアップを提案</string>
+    <string name="backup_offer_summary">アップデーターはインストール前に確認します</string>
+    <string name="backup_sets"><xliff:g id="count" example="64">%1$d</xliff:g> 件の設定を設定します</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> 件の設定を保存しました</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> 件の設定を復元しました</string>
+    <string name="backup_restored_message">適用するために SystemUI を再起動します。</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> 件の設定はこのビルドに存在しないため、スキップされました。</string>
+    <string name="backup_failed">バックアップを保存できませんでした</string>
+    <string name="backup_invalid">このファイルは Resurrected Remix のバックアップではありません</string>
+    <string name="backup_footer">ファイルに含まれるのは RR の設定だけです。アカウント、パスワード、Wi-Fi ネットワーク、アプリ、メッセージは含まれません。復元時は RR の設定リストに載っている項目だけを書き込むため、バックアップファイルで端末の他の部分が変更されることはありません。ヘッダー写真は、スイッチがオンの場合にのみ含まれます。ファイルサイズが大きくなるためです。</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>ネオン</item>
+        <item>ガラス</item>
+        <item>ピル</item>
+        <item>クラシック RR</item>
+        <item>Bento</item>
+        <item>シェイプ</item>
+        <item>ブループリント</item>
+        <item>デュオ</item>
+        <item>ソフト</item>
+    </string-array>
 </resources>

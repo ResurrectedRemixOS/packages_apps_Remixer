@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">ডিভাইচ RKP ব্যৱহাৰ কৰক</string>
+    <string name="ts_rkp_enabled_summary">এটা সৃষ্টি কৰা keybox ব্যৱহাৰ কৰক। keybox আমদানি কৰিলে এইটো বন্ধ হ\'ব।</string>
+    <string name="ts_rkp_provision">keybox সৃষ্টি কৰক</string>
+    <string name="ts_rkp_provision_summary">এই ডিভাইচৰ provisioning সেৱাৰে Google ৰ পৰা keybox এটা অনুৰোধ কৰক। উপযুক্ত Qualcomm ফাৰ্মৱেৰ লাগে।</string>
+    <string name="ts_rkp_status">প্ৰ\'ভিশনিং স্থিতি</string>
+    <string name="ts_rkp_owner_only">ডিভাইচৰ মালিকৰ প্ৰ\'ফাইলৰ পৰা ডিভাইচ RKP পৰিচালনা কৰক</string>
+    <string name="ts_rkp_unavailable">ডিভাইচ RKP উপলব্ধ নহয়</string>
+    <string name="ts_rkp_imported">আমদানি কৰা keybox ইনস্তল থকাৰ সময়ত অক্ষম</string>
+    <string name="ts_rkp_disabled">বন্ধ। keybox ব্যৱহাৰ বা সৃষ্টি কৰিবলৈ ডিভাইচ RKP সক্ষম কৰক।</string>
+    <string name="ts_rkp_idle">keybox ৰ বাবে অনুৰোধ কৰিবলৈ সাজু</string>
+    <string name="ts_rkp_fetching">Provisioning challenge লোৱা হৈছে…</string>
+    <string name="ts_rkp_hardware">ডিভাইচৰ provisioning সেৱাৰ বাবে অপেক্ষা কৰি আছে…</string>
+    <string name="ts_rkp_signing">Google ৰ পৰা প্ৰমাণপত্ৰ অনুৰোধ কৰি আছে…</string>
+    <string name="ts_rkp_validating">keybox বৈধ কৰি ছেভ কৰি আছে…</string>
+    <string name="ts_rkp_ready">সৃষ্টি কৰা keybox সক্ৰিয়। %1$s ৰ আগতে নিজে নবীকৰণ হ’ব</string>
+    <string name="ts_rkp_keybox_stored">ডিভাইচ RKP keybox ছেভ কৰা হৈছে</string>
+    <string name="ts_rkp_expired">সৃষ্টি কৰা keybox শেষ হৈছে। এটা প্ৰতিস্থাপন সৃষ্টি কৰক।</string>
+    <string name="ts_rkp_hal_rejected">ফাৰ্মৱেৰে অনুৰোধ প্ৰত্যাখ্যান কৰিলে (কোড %1$d)। Duck V1 সমৰ্থিত নহ’বও পাৰে।</string>
+    <string name="ts_rkp_http_error">প্ৰ\'ভিশনিং ছাৰ্ভাৰে অনুৰোধ প্ৰত্যাখ্যান কৰিলে (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">ডিভাইচে উপযুক্ত V1 provisioning interface উন্মুক্ত কৰা নাই</string>
+    <string name="ts_rkp_network_error">Provisioning সাৰ্ভাৰলৈ সংযোগ কৰিব পৰা নগ\'ল। আপোনাৰ সংযোগ পৰীক্ষা কৰক।</string>
+    <string name="ts_rkp_submission_unknown">সাৰ্ভাৰৰ সঁহাৰি হেৰাই গ\'ল। অনুৰোধটো প্ৰক্ৰিয়া কৰা হ\'ব পাৰে; স্বয়ংক্ৰিয়ভাৱে পুনৰ চেষ্টা কৰা হোৱা নাই।</string>
+    <string name="ts_rkp_invalid_chain">Keybox প্ৰমাণপত্ৰৰ বৈধতা যাচাই ব্যৰ্থ হ\'ল। বৰ্তমানৰ keybox ৰখা হ\'ল।</string>
+    <string name="ts_rkp_timeout">প্ৰভিশ্বনিং সময় শেষ হ\'ল। ডিভাইচ সেৱা এতিয়াও ব্যস্ত হ\'লে, পুনৰ চেষ্টা কৰাৰ আগতে ডিভাইচটো পুনৰাৰম্ভ কৰক।</string>
+    <string name="ts_rkp_canceled">keybox কনফিগাৰেশ্বন সলনি হোৱাৰ বাবে অনুৰোধ বাতিল কৰা হ\'ল</string>
+    <string name="ts_rkp_save_failed">সৃষ্টি কৰা keybox সংৰক্ষণ কৰিব নোৱাৰি</string>
+    <string name="ts_rkp_action_failed">keybox কাৰ্য্যটো সম্পূৰ্ণ কৰিব নোৱাৰি</string>
+</resources>

@@ -13,4 +13,21 @@
     <string name="rr_about_this_phone">"Điện thoại này"</string>
     <string name="rr_about_network">"Mạng"</string>
     <string name="rr_about_hidden">Ẩn</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Chính thức</string>
+    <string name="rr_about_vanilla">Gốc</string>
+    <string name="rr_about_hardware">Phần cứng</string>
+    <string name="rr_about_processor">Bộ xử lý</string>
+    <string name="rr_about_processor_sub">%1$d nhân · tối đa %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d nhân</string>
+    <string name="rr_about_storage_used">Đã dùng %1$s</string>
+    <string name="rr_about_display">Hiển thị</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · Đang sạc</string>
+    <string name="rr_about_kernel_linux">Nhân Linux</string>
+    <string name="rr_about_software_purpose">Phiên bản Android, bản cập nhật bảo mật, ngày bản dựng và số bản dựng</string>
+    <string name="rr_about_maintainer">Người duy trì</string>
+    <string name="rr_about_show">Hiện</string>
+    <string name="rr_about_hide">Ẩn</string>
 </resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Koristi RKP uređaja</string>
+    <string name="ts_rkp_enabled_summary">Koristi generisani keybox. Uvoz keyboxa ovo isključuje.</string>
+    <string name="ts_rkp_provision">Generiši keybox</string>
+    <string name="ts_rkp_provision_summary">Zatraži keybox od Googlea putem servisa za provisioning ovog uređaja. Zahtijeva kompatibilan Qualcomm firmver.</string>
+    <string name="ts_rkp_status">Status provisioninga</string>
+    <string name="ts_rkp_owner_only">Upravljajte RKP uređaja s profila vlasnika uređaja</string>
+    <string name="ts_rkp_unavailable">RKP uređaja nije dostupan</string>
+    <string name="ts_rkp_imported">Onemogućeno dok je instaliran uvezeni keybox</string>
+    <string name="ts_rkp_disabled">Isključeno. Omogućite RKP uređaja da biste koristili ili generisali keybox.</string>
+    <string name="ts_rkp_idle">Spremno za zahtjev za keybox</string>
+    <string name="ts_rkp_fetching">Preuzimanje izazova za provisioning…</string>
+    <string name="ts_rkp_hardware">Čeka se servis za provisioning uređaja…</string>
+    <string name="ts_rkp_signing">Traženje certifikata od Googlea…</string>
+    <string name="ts_rkp_validating">Provjera i spremanje keyboxa…</string>
+    <string name="ts_rkp_ready">Generisani keybox je aktivan. Obnavlja se sam prije %1$s</string>
+    <string name="ts_rkp_keybox_stored">RKP keybox uređaja je sačuvan</string>
+    <string name="ts_rkp_expired">Generisani keybox je istekao. Generišite zamjenu.</string>
+    <string name="ts_rkp_hal_rejected">Firmver je odbio zahtjev (kod %1$d). Duck V1 možda nije podržan.</string>
+    <string name="ts_rkp_http_error">Server za provisioning je odbio zahtjev (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Uređaj ne nudi kompatibilan V1 interfejs za provisioning</string>
+    <string name="ts_rkp_network_error">Nije moguće doći do servera za provisioning. Provjerite vezu.</string>
+    <string name="ts_rkp_submission_unknown">Odgovor servera je izgubljen. Zahtjev je možda obrađen; automatski ponovni pokušaj nije izvršen.</string>
+    <string name="ts_rkp_invalid_chain">Provjera certifikata keyboxa nije uspjela. Postojeći keybox je zadržan.</string>
+    <string name="ts_rkp_timeout">Isteklo je vrijeme za provisioning. Ako je servis uređaja i dalje zauzet, ponovo pokrenite uređaj pa pokušajte ponovo.</string>
+    <string name="ts_rkp_canceled">Zahtjev je otkazan jer je konfiguracija keyboxa promijenjena</string>
+    <string name="ts_rkp_save_failed">Generisani keybox nije moguće sačuvati</string>
+    <string name="ts_rkp_action_failed">Operaciju s keyboxom nije moguće završiti</string>
+</resources>

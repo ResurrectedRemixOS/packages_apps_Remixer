@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Un Look per ciascuna delle tue Modalità</string>
+    <string name="remix_modes_everyday">Look quotidiano</string>
+    <string name="remix_modes_everyday_summary">Torna attivo quando nessuna Modalità con un Look è attiva</string>
+    <string name="remix_modes_wallpaper">Lo sfondo segue il Look</string>
+    <string name="remix_modes_wallpaper_summary">Una Modalità può cambiare anche lo sfondo</string>
+    <string name="remix_modes_modes">Le tue Modalità</string>
+    <string name="remix_modes_no_change">Nessuna modifica</string>
+    <string name="remix_modes_none">Salva prima un Look in Tema › Look</string>
+    <string name="remix_modes_pick">Look per <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_profile_title">Hồ sơ rung</string>
+    <string name="haptic_profile_crisp">Rõ nét</string>
+    <string name="haptic_profile_gentle">Nhẹ nhàng</string>
+    <string name="haptic_profile_op13crisp">OP13 Rõ nét</string>
+    <string name="haptic_profile_op13gentle">OP13 Nhẹ nhàng</string>
+</resources>

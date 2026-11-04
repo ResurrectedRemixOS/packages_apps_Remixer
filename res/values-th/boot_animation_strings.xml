@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">แอนิเมชันการบูต</string>
+    <string name="boot_animation_note">จะเล่นในครั้งถัดไปที่เปิดเครื่อง</string>
+    <string name="boot_animation_custom">ไฟล์ของคุณ</string>
+    <string name="boot_animation_custom_pick">เลือกไฟล์…</string>
+    <string name="boot_animation_custom_invalid">ไฟล์นั้นไม่ใช่แอนิเมชันการบูต</string>
+    <string name="boot_animation_failed">ไม่สามารถเปลี่ยนแอนิเมชันการบูตได้</string>
+</resources>

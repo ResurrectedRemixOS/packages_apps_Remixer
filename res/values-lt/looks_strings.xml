@@ -15,4 +15,54 @@
     <string name="looks_save_look">"Išsaugoti"</string>
     <string name="looks_custom_color">"Tinkinta spalva"</string>
     <string name="looks_part_clock_color">"Laikrodžio spalva"</string>
+    <string name="looks_title">Išvaizdos</string>
+    <string name="looks_summary">Visa jūsų sąranka vienu bakstelėjimu</string>
+    <string name="looks_rr">RR išvaizdos</string>
+    <string name="looks_yours">Jūsų išvaizdos</string>
+    <string name="looks_none">Kol kas nieko neišsaugota</string>
+    <string name="looks_save">Išsaugoti dabartinę</string>
+    <string name="looks_import_clipboard">Iš iškarpinės</string>
+    <string name="looks_import_file">Iš failo</string>
+    <string name="looks_mine">Mano išvaizda</string>
+    <string name="looks_applied">Pritaikyta: <xliff:g id="name" example="Neon night">%1$s</xliff:g></string>
+    <string name="looks_failed">Ne viską pavyko pritaikyti</string>
+    <string name="looks_invalid">Tai nėra RR išvaizda</string>
+    <string name="looks_part_accent">Akcento spalva</string>
+    <string name="looks_part_qs">Spartiųjų nustatymų stilius</string>
+    <string name="looks_part_clock_face">Užrakinimo ekrano laikrodžio stilius</string>
+    <string name="looks_part_clock_look">Būsenos juostos laikrodis</string>
+    <string name="looks_part_edge">Krašto apšvietimas</string>
+    <string name="looks_part_boot">Paleisties animacija</string>
+    <string name="looks_part_haptics">Haptic Remix šablonai</string>
+    <string name="looks_saturation">Sotumas <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Akcentas</string>
+    <string name="looks_share_title">Bendrinti „<xliff:g id="name" example="Neon night">%1$s</xliff:g>“</string>
+    <string name="looks_share_hint">Nuskaitykite kito RR telefono kamera arba Išvaizdos › Importuoti</string>
+    <string name="looks_share_file">Bendrinti failą</string>
+    <string name="looks_save_file">Išsaugoti failą</string>
+    <string name="looks_import_scan">Nuskaityti QR kodą</string>
+    <string name="looks_import_title">Importuoti išvaizdą</string>
+    <string name="looks_from_qr">iš QR kodo</string>
+    <string name="looks_from_file">iš failo</string>
+    <string name="looks_from_clipboard">iš iškarpinės</string>
+    <string name="looks_import_same">Jau atitinka jūsų sąranką.</string>
+    <string name="looks_new">Nauja išvaizda</string>
+    <string name="looks_edit_title">Redaguoti išvaizdą</string>
+    <string name="looks_in_look">Šioje išvaizdoje</string>
+    <string name="looks_not_included">Ne šioje išvaizdoje</string>
+    <string name="looks_save_apply">Išsaugoti ir pritaikyti</string>
+    <string name="looks_saved">„<xliff:g id="name" example="Sunday">%1$s</xliff:g>“ įrašyta</string>
+    <string name="looks_delete_confirm">Ištrinti „<xliff:g id="name" example="Sunday">%1$s</xliff:g>“?</string>
+    <string name="looks_rr_wallpaper">RR ekrano fonas <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Pagrindinio akcento sotumas</string>
+    <string name="looks_part_clock_chip">Būsenos juostos laikrodžio žetonas</string>
+    <string name="looks_part_edge_style">Krašto apšvietimo stilius</string>
+    <string name="looks_scan_hint">Nukreipkite kamerą į išklotinės QR kodą</string>
+    <string name="looks_scan_failed">Nepavyko atidaryti kameros</string>
+    <string name="look_roulette_title">Išklotinės ruletė</string>
+    <string-array name="look_roulette_entries">
+        <item>"Išjungta"</item>
+        <item>Kitokia išklotinė kiekvieną kartą atrakinus</item>
+        <item>Kitokia išklotinė kiekvieną dieną</item>
+    </string-array>
 </resources>

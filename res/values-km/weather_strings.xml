@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"ព័ត៌មាន​លម្អិត"</string>
     <string name="lockscreen_weather_location_title">"ទី​តាំង​"</string>
+    <string name="lockscreen_weather_title">អាកាសធាតុនៅអេក្រង់ចាក់សោ</string>
+    <string name="lockscreen_weather_location_summary">បង្ហាញឈ្មោះក្រុង</string>
+    <string name="lockscreen_weather_text_title">ស្ថានភាព</string>
+    <string name="lockscreen_weather_text_summary">បង្ហាញស្ថានភាព ដូចជាមានពពក ឬមេឃថ្លា</string>
+    <string name="lockscreen_weather_wind_title">ខ្យល់</string>
+    <string name="lockscreen_weather_wind_summary">បង្ហាញល្បឿន និងទិសខ្យល់</string>
+    <string name="lockscreen_weather_humidity_title">សំណើម</string>
+    <string name="lockscreen_weather_humidity_summary">បង្ហាញសំណើម</string>
+    <string name="custom_clock_weather_title">អាកាសធាតុនៅលើទម្រង់នាឡិកា</string>
+    <string name="custom_clock_weather_summary">បង្ហាញអាកាសធាតុក្នុងទម្រង់នាឡិកាដែលមានកន្លែង</string>
+    <string name="remixer_weather_service">សេវាអាកាសធាតុ</string>
+    <string name="remixer_weather_page_summary">អាកាសធាតុនៅអេក្រង់ចាក់សោ និងអ្វីដែលវាបង្ហាញ</string>
 </resources>

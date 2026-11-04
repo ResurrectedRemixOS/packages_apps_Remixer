@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">ჟესტები</string>
     <string name="backup_group_other">"სხვა"</string>
     <string name="backup_done">"მზადაა"</string>
+    <string name="backup_summary">RR-ის ყველა მორგება ერთ ფაილში</string>
+    <string name="backup_now">სარეზერვო კოპირება ახლა</string>
+    <string name="backup_never">ბოლო სარეზერვო კოპირება: არასდროს</string>
+    <string name="backup_last">ბოლო სარეზერვო კოპირება: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">აღდგენა ფაილიდან</string>
+    <string name="backup_restore_summary">აირჩიეთ სარეზერვო ფაილი</string>
+    <string name="backup_included">შედის</string>
+    <string name="backup_part_theme">აქცენტი, შრიფტი და ხატულები</string>
+    <string name="backup_part_header">სათაურის სურათი</string>
+    <string name="backup_part_photo">სათაურის სურათი (თქვენი ფოტო)</string>
+    <string name="backup_part_photo_summary">ფაილს ზრდის</string>
+    <string name="backup_part_boot">ჩატვირთვის ანიმაცია</string>
+    <string name="backup_part_looks">თქვენი ლუქები</string>
+    <string name="backup_weekly">კვირეული სარეზერვო კოპირება</string>
+    <string name="backup_weekly_summary">თქვენ მიერ არჩეულ საქაღალდეში</string>
+    <string name="backup_weekly_on">ყოველ კვირას <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g>-ში</string>
+    <string name="backup_offer">სარეზერვო კოპირების შეთავაზება განახლებამდე</string>
+    <string name="backup_offer_summary">განახლების დაყენებამდე Updater იკითხავს</string>
+    <string name="backup_sets">ადგენს <xliff:g id="count" example="64">%1$d</xliff:g> პარამეტრს</string>
+    <string name="backup_saved">შენახულია <xliff:g id="count" example="64">%1$d</xliff:g> პარამეტრი</string>
+    <string name="backup_restored">აღდგენილია <xliff:g id="count" example="64">%1$d</xliff:g> პარამეტრი</string>
+    <string name="backup_restored_message">გამოსაყენებლად SystemUI თავიდან აინთება.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> პარამეტრი ამ build-ზე არ არსებობს და გამოტოვებულია.</string>
+    <string name="backup_failed">სარეზერვო კოპირების შენახვა ვერ მოხერხდა</string>
+    <string name="backup_invalid">ეს ფაილი Resurrected Remix-ის სარეზერვო კოპირება არ არის</string>
+    <string name="backup_footer">ფაილში მხოლოდ RR-ის პარამეტრები ჩაიწერება: ანგარიშები, პაროლები, Wi-Fi ქსელები, აპები ან შეტყობინებები არ შედის. აღდგენა წერს მხოლოდ RR-ის სიაში არსებულ პარამეტრებს, ამიტომ სარეზერვო ფაილი ტელეფონის სხვა არაფერს ვერ შეცვლის. თქვენი სათაურის ფოტო ფაილში შედის მხოლოდ იმ შემთხვევაში, თუ მისი გადამრთველი ჩართულია, რადგან ის ფაილს ზრდის.</string>
+    <string name="volume_style_title">ხმის პანელის სტილი</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>ნეონი</item>
+        <item>მინა</item>
+        <item>ტაბლეტი</item>
+        <item>კლასიკური RR</item>
+        <item>Bento</item>
+        <item>ფორმები</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>რბილი</item>
+    </string-array>
 </resources>

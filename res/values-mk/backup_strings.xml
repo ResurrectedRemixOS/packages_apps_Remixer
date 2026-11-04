@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">"Движења"</string>
     <string name="backup_group_other">"Друго"</string>
     <string name="backup_done">"Готово"</string>
+    <string name="backup_summary">Сите RR прилагодувања во една датотека</string>
+    <string name="backup_now">Направи бекап сега</string>
+    <string name="backup_never">Последен бекап: никогаш</string>
+    <string name="backup_last">Последен бекап: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Врати од датотека</string>
+    <string name="backup_restore_summary">Изберете датотека за бекап</string>
+    <string name="backup_included">Вклучено</string>
+    <string name="backup_part_theme">Акцентна боја, фонт и икони</string>
+    <string name="backup_part_header">Слика за заглавие</string>
+    <string name="backup_part_photo">Слика за заглавие (ваша фотографија)</string>
+    <string name="backup_part_photo_summary">Ја зголемува датотеката</string>
+    <string name="backup_part_boot">Анимација при подигање</string>
+    <string name="backup_part_looks">Вашите изгледи</string>
+    <string name="backup_weekly">Неделен бекап</string>
+    <string name="backup_weekly_summary">Во папка што ја изберете</string>
+    <string name="backup_weekly_on">Секоја недела во <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Понуди бекап пред ажурирања</string>
+    <string name="backup_offer_summary">Ажурирачот прашува пред да инсталира</string>
+    <string name="backup_sets">Поставува <xliff:g id="count" example="64">%1$d</xliff:g> поставки</string>
+    <string name="backup_saved">Зачувани <xliff:g id="count" example="64">%1$d</xliff:g> поставки</string>
+    <string name="backup_restored">Вратени <xliff:g id="count" example="64">%1$d</xliff:g> поставки</string>
+    <string name="backup_restored_message">SystemUI се рестартира за да ги примени.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> поставки не постојат на оваа верзија и беа прескокнати.</string>
+    <string name="backup_failed">Бекапот не можеше да се зачува</string>
+    <string name="backup_invalid">Таа датотека не е бекап од Resurrected Remix</string>
+    <string name="backup_footer">Во датотеката се внесуваат само RR поставки: без сметки, лозинки, Wi-Fi мрежи, апликации или пораки. Враќањето пишува само поставки од списокот на RR, па датотеката за бекап не може да промени ништо друго на телефонот. Вашата фотографија за заглавие е вклучена само ако нејзиниот прекинувач е вклучен, бидејќи ја зголемува датотеката.</string>
+    <string name="volume_style_title">Стил на панелот за јачина на звук</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Неон</item>
+        <item>Стакло</item>
+        <item>Таблетка</item>
+        <item>Класичен RR</item>
+        <item>Bento</item>
+        <item>Облици</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Меки</item>
+    </string-array>
 </resources>

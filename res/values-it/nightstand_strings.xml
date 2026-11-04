@@ -2,4 +2,18 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Intervallo di tempo"</string>
     <string name="nightstand_face">Quadrante</string>
+    <string name="nightstand_title">Comodino</string>
+    <string name="nightstand_summary">Un orologio da comodino attenuato sul display sempre attivo mentre si ricarica di notte</string>
+    <string-array name="nightstand_when_entries">
+        <item>Disattivato</item>
+        <item>In carica di notte</item>
+        <item>Ogni notte, secondo una pianificazione</item>
+        <item>Mentre una modalità Nanna è attiva</item>
+    </string-array>
+    <string name="nightstand_from">Inizio notte</string>
+    <string name="nightstand_to">Fine notte</string>
+    <string name="nightstand_brightness">Limite di luminosità</string>
+    <string name="nightstand_brightness_summary">Quanto può diventare luminoso il display sempre attivo mentre Comodino è attivo</string>
+    <string name="nightstand_face_keep">Mantieni il quadrante attuale</string>
+    <string name="nightstand_footer">Comodino attiva il display sempre attivo mentre è in funzione e poi lo ripristina. Termina quando si scollega il caricatore, suona la sveglia o finisce la notte. Il quadrante alterna solo tra due quadranti personalizzati; l\'orologio di sistema resta.</string>
 </resources>

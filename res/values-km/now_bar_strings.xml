@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"ប៊ូតុង"</string>
     <string name="now_bar_text">"ផ្ញើសារជាអក្សរ"</string>
     <string name="now_bar_text_size">"ទំហំ​អត្ថបទ"</string>
+    <string name="now_bar_summary">សកម្មភាពផ្ទាល់នៅផ្នែកខាងក្រោមអេក្រង់ចាក់សោ</string>
+    <string name="now_bar_show">បង្ហាញ</string>
+    <string name="now_bar_music">តន្ត្រី និងវីដេអូ</string>
+    <string name="now_bar_timers">ម៉ោងកំណត់ នាឡិកាចាប់ពេល និងម៉ោងរោទ៍</string>
+    <string name="now_bar_hide_call">លាក់ការជូនដំណឹងការហៅ</string>
+    <string name="now_bar_hide_call_summary">នៅលើអេក្រង់ចាក់សោ ការហៅនៅក្នុង Now Bar នឹងមិនបង្ហាញជាការជូនដំណឹងទៀតទេ</string>
+    <string name="now_bar_live">ការអាប់ដេតផ្ទាល់</string>
+    <string name="now_bar_live_summary">ការណែនាំផ្លូវ ការជិះ ការដឹកជញ្ជូន ពិន្ទុ</string>
+    <string name="now_bar_scores">ពិន្ទុផ្ទាល់</string>
+    <string name="now_bar_live_apps">កម្មវិធីសម្រាប់ការអាប់ដេតផ្ទាល់</string>
+    <string name="now_bar_live_apps_count">កម្មវិធី <xliff:g id="count" example="2">%1$d</xliff:g></string>
+    <string name="now_bar_pin">បានខ្ទាស់នៅអេក្រង់បង្ហាញជានិច្ច</string>
+    <string name="now_bar_unpin_question">ដកការខ្ទាស់ <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">ដកការខ្ទាស់</string>
+    <string name="now_bar_scores_summary">ហ្គេមដែលអ្នកតាមដានក្នុង At a Glance</string>
+    <string name="now_bar_recording">ការថតអេក្រង់ និងសំឡេង</string>
+    <string name="now_bar_buds">កាស និងនាឡិកា</string>
+    <string name="now_bar_buds_summary">ថ្មឧបករណ៍ដែលភ្ជាប់៖ ខាងឆ្វេង ខាងស្តាំ និងករណីសម្រាប់កាស</string>
+    <string name="now_bar_wave">ចលនារលក</string>
+    <string name="now_bar_aod">បង្ហាញនៅអេក្រង់បង្ហាញជានិច្ច</string>
+    <string name="now_bar_chip">ប្រអប់នៅរបារស្ថានភាព</string>
+    <string name="now_bar_chip_summary">ចាក់តន្ត្រី និងម៉ោងកំណត់ក្បែរនាឡិកា ពេលដោះសោរួច</string>
+    <string name="now_bar_footer">ពេលមានតន្ត្រីនៅ Now Bar អេក្រង់ចាក់សោធំនឹងត្រូវលាក់។ រុញរបារដើម្បីប្តូររវាងសកម្មភាព ចុចដើម្បីបើកការគ្រប់គ្រង ហើយសង្កត់ដើម្បីលាក់សកម្មភាពមួយរហូតដល់វាបញ្ចប់។ រុញចង្វាក់ដែលផ្អាកចេញពីរបារដើម្បីលុប។\n\nការអាប់ដេតកីឡាផ្ទាល់បង្ហាញពិន្ទុនៃក្រុមដែលអ្នកតាមដាននៅក្នុងកម្មវិធី Google។ ជាមួយ Smartspacer បន្ថែមគោលដៅកីឡានៅទីនោះ ហើយពិន្ទុរបស់វានឹងមកទីនេះ។</string>
+    <string name="now_bar_looks">រូបរាង</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"លំនាំដើម"</item>
+        <item>Liquid Glass</item>
+        <item>តូច</item>
+        <item>ធំ</item>
+        <item>នេអុង</item>
+        <item>កាតកញ្ចក់</item>
+    </string-array>
+    <string name="now_bar_material">ម៉ាទេរៀល</string>
+    <string name="now_bar_material_summary">Liquid Glass ប្រើកញ្ចក់ដែលអ្នកកំណត់ក្នុង ទម្រង់រចនា</string>
+    <string-array name="now_bar_material_entries">
+        <item>ពណ៌តែមួយ</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>សិល្បៈអាល់ប៊ុម</item>
+        <item>ពណ៌សំខាន់</item>
+        <item>ងងឹត</item>
+    </string-array>
+    <string name="now_bar_opacity">ភាពថ្លា</string>
+    <string name="now_bar_opacity_summary">ជាមួយ Liquid Glass ពណ៌ប៉ុន្មានលាបពណ៌លើកញ្ចក់</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"គ្មាន"</item>
+        <item>ស្តើង</item>
+        <item>ពណ៌សំខាន់</item>
+    </string-array>
+    <string name="now_bar_shadow">ស្រមោល</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"បិទ"</item>
+        <item>ទន់</item>
+        <item>ពន្លឺរលោង</item>
+    </string-array>
+    <string name="now_bar_more">សកម្មភាពបន្ថែម</string>
+    <string-array name="now_bar_more_entries">
+        <item>គ្រាន់តែរុញ</item>
+        <item>ចំណុច</item>
+        <item>មើលពីក្រោយ</item>
+    </string-array>
+    <string name="now_bar_size">ទំហំ និងរូបរាង</string>
+    <string name="now_bar_height">កម្ពស់</string>
+    <string name="now_bar_width_summary">ពេញ ផ្លាស់ទីផ្លូវកាត់ទៅខាងលើរបារ</string>
+    <string-array name="now_bar_width_entries">
+        <item>ចង្អៀត</item>
+        <item>រវាងផ្លូវកាត់</item>
+        <item>ពេញ</item>
+    </string-array>
+    <string name="now_bar_corners">ជ្រុង</string>
+    <string name="now_bar_raise">លើកឡើង</string>
+    <string name="now_bar_art">សិល្បៈអាល់ប៊ុម</string>
+    <string-array name="now_bar_art_entries">
+        <item>"រង្វង់"</item>
+        <item>មូល</item>
+        <item>"ការ៉េ"</item>
+        <item>"បិទ"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>រំលង និងចាក់</item>
+        <item>ចាក់តែប៉ុណ្ណោះ</item>
+        <item>"គ្មាន"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>មួយបន្ទាត់</item>
+        <item>ពីរបន្ទាត់</item>
+        <item>តែបទចម្រៀង</item>
+    </string-array>
+    <string name="now_bar_show_page">អ្វីដែលបង្ហាញក្នុងរបារ</string>
+    <string name="now_bar_show_page_summary">តន្ត្រី និងវីដេអូ ម៉ោងកំណត់ ការហៅ និងផ្សេងៗទៀត</string>
+    <string name="now_bar_where">កន្លែងផ្សេងទៀត</string>
 </resources>

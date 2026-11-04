@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Blár"</string>
     <string name="haptic_remix_color_green">"Grænn"</string>
     <string name="haptic_remix_color_white">"Hvítur"</string>
+    <string name="haptic_remix_summary">Pikkaðu út titringsmynstur fyrir símtöl, forrit, vekjara og opnanir</string>
+    <string name="haptic_remix_record">Taka upp</string>
+    <string name="haptic_remix_pad">pikkaðu taktinn</string>
+    <string name="haptic_remix_strength">Styrkur</string>
+    <string name="haptic_remix_clear">Hreinsa</string>
+    <string name="haptic_remix_play">Spila</string>
+    <string name="haptic_remix_name">Heiti mynsturs</string>
+    <string name="haptic_remix_empty">Ekkert tekið upp enn</string>
+    <string name="haptic_remix_too_long">Mynstur getur varað í 30 sekúndur</string>
+    <string name="haptic_remix_presets">Forstillingar</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Gler</string>
+    <string name="haptic_remix_preset_ringtone">Takt hringitónsins</string>
+    <string name="haptic_remix_listening">Hlusta á hringitóninn…</string>
+    <string name="haptic_remix_no_ringtone">Ekki var hægt að lesa hringitóninn</string>
+    <string name="haptic_remix_patterns">Mynstrin þín</string>
+    <string name="haptic_remix_patterns_none">Vistaðu mynstur fyrst. Haltu inni til að eyða því.</string>
+    <string name="haptic_remix_broken">Ekki er hægt að lesa þetta mynstur</string>
+    <string name="haptic_remix_delete">Eyða <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Úthluta á</string>
+    <string name="haptic_remix_alarm">Vekjari og tímamælir</string>
+    <string name="haptic_remix_plug">Í hleðslu</string>
+    <string name="haptic_remix_fingerprint">Fingrafar staðfest</string>
+    <string name="haptic_remix_add_contact">Bæta við tengilið</string>
+    <string name="haptic_remix_edge_color">Kantljós fyrir skilaboð frá <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">Áherslulitur</string>
+    <string name="haptic_remix_color_crimson">Karmínrautt</string>
+    <string name="haptic_remix_color_amber">Gulbrúnt</string>
+    <string name="haptic_remix_add_app">Bæta við tilkynningum forrits</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · pikkaðu til að breyta, haltu inni fyrir lit kantsins</string>
+    <string name="haptic_remix_no_contacts">Engt númer barst frá Tengiliðum</string>
 </resources>

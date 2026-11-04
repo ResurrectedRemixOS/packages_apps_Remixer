@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Использовать RKP устройства</string>
+    <string name="ts_rkp_enabled_summary">Использовать сгенерированный keybox. Импорт keybox отключает эту функцию.</string>
+    <string name="ts_rkp_provision">Сгенерировать keybox</string>
+    <string name="ts_rkp_provision_summary">Запросить keybox у Google через службу подготовки этого устройства. Требуется совместимая прошивка Qualcomm.</string>
+    <string name="ts_rkp_status">Статус подготовки</string>
+    <string name="ts_rkp_owner_only">Управляйте RKP устройства из профиля владельца устройства</string>
+    <string name="ts_rkp_unavailable">RKP устройства недоступен</string>
+    <string name="ts_rkp_imported">Отключено, пока установлен импортированный keybox</string>
+    <string name="ts_rkp_disabled">Выключено. Включите RKP устройства, чтобы использовать или сгенерировать keybox.</string>
+    <string name="ts_rkp_idle">Готово к запросу keybox</string>
+    <string name="ts_rkp_fetching">Получение запроса на подготовку…</string>
+    <string name="ts_rkp_hardware">Ожидание службы подготовки устройства…</string>
+    <string name="ts_rkp_signing">Запрос сертификатов у Google…</string>
+    <string name="ts_rkp_validating">Проверка и сохранение keybox…</string>
+    <string name="ts_rkp_ready">Сгенерированный keybox активен. Продлевается автоматически до %1$s</string>
+    <string name="ts_rkp_keybox_stored">Keybox RKP устройства сохранён</string>
+    <string name="ts_rkp_expired">Срок действия сгенерированного keybox истёк. Сгенерируйте новый.</string>
+    <string name="ts_rkp_hal_rejected">Прошивка отклонила запрос (код %1$d). Duck V1 может не поддерживаться.</string>
+    <string name="ts_rkp_http_error">Сервер подготовки отклонил запрос (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Устройство не предоставляет совместимый интерфейс подготовки V1</string>
+    <string name="ts_rkp_network_error">Не удалось подключиться к серверу подготовки. Проверьте подключение.</string>
+    <string name="ts_rkp_submission_unknown">Ответ сервера потерян. Запрос мог быть обработан; автоматический повтор не выполнялся.</string>
+    <string name="ts_rkp_invalid_chain">Сертификаты keybox не прошли проверку. Существующий keybox сохранён.</string>
+    <string name="ts_rkp_timeout">Время ожидания подготовки истекло. Если служба устройства всё ещё занята, перезагрузите устройство и повторите попытку.</string>
+    <string name="ts_rkp_canceled">Запрос отменён, так как конфигурация keybox изменилась</string>
+    <string name="ts_rkp_save_failed">Не удалось сохранить сгенерированный keybox</string>
+    <string name="ts_rkp_action_failed">Не удалось выполнить операцию с keybox</string>
+</resources>

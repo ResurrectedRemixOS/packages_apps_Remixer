@@ -8,4 +8,50 @@
         <item>"Mediu"</item>
         <item>"Mare"</item>
     </string-array>
+    <string name="pie_title">Controale cu meniu radial</string>
+    <string name="pie_summary">Ține apăsată partea de jos a unei margini ca să deschizi un meniu radial de scurtături</string>
+    <string name="pie_zone">O parte din margine</string>
+    <string name="pie_clock">Ceasul și bateria deasupra ei</string>
+    <string name="pie_items">Felii</string>
+    <string-array name="pie_items_entries">
+        <item>"Înapoi"</item>
+        <item>Pornire</item>
+        <item>"Recente"</item>
+        <item>"Notificări"</item>
+        <item>Lanternă</item>
+        <item>"Captură de ecran"</item>
+        <item>"Meniul de pornire"</item>
+        <item>"Asistent"</item>
+        <item>"Cameră foto"</item>
+    </string-array>
+    <string name="pie_footer">Are nevoie de o apăsare de un sfert de secundă fără mișcare, astfel încât un glisaj rapid de pe margine tot te readuce înapoi. Nu se deschide pe ecranul de blocare.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Stânga"</item>
+        <item>"Dreapta"</item>
+        <item>Ambele</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Treimea de jos</item>
+        <item>Mijloc</item>
+        <item>Toată marginea</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Sticlă</item>
+        <item>Clasic</item>
+    </string-array>
+    <string name="sidebar_style_title">Aspectul barei laterale de aplicații</string>
+    <string-array name="sidebar_style_entries">
+        <item>Clasic</item>
+        <item>Sticla RR</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Bara laterală de aplicații</string>
+    <string name="sidebar_settings_summary">Glisează dinspre mâner ca să accesezi aplicațiile și uneltele tale</string>
+    <string name="sidebar_apps_title">Aplicații, mâner și clipboard</string>
+    <string name="sidebar_apps_summary">Activează mânerul, alege aplicațiile și configurează clipboardul inteligent</string>
+    <string name="sidebar_handle_size_title">Dimensiunea mânerului</string>
+    <string name="sidebar_tools_title">Rând de unelte</string>
+    <string name="sidebar_tools_summary">Captură de ecran și lanternă sub aplicațiile tale</string>
+    <string name="sidebar_footer">Mânerul este o linie subțire în culoarea accentului; trage-l ca să-l muți de-a lungul marginii. Cu navigarea prin gesturi, acoperă doar propria porțiune a marginii, iar înapoi funcționează în rest.</string>
 </resources>

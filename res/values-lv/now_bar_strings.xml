@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"Pogas"</string>
     <string name="now_bar_text">"Sūtīt īsziņu"</string>
     <string name="now_bar_text_size">"Teksta lielums"</string>
+    <string name="now_bar_summary">Aktīvās darbības bloķēšanas ekrāna apakšdaļā</string>
+    <string name="now_bar_show">Rādīt</string>
+    <string name="now_bar_music">Mūzika un video</string>
+    <string name="now_bar_timers">Taimeri, hronometrs un signāli</string>
+    <string name="now_bar_hide_call">Paslēpt zvana paziņojumu</string>
+    <string name="now_bar_hide_call_summary">Bloķēšanas ekrānā zvans Now Bar joslā netiek rādīts arī kā paziņojums</string>
+    <string name="now_bar_live">Tiešraides atjauninājumi</string>
+    <string name="now_bar_live_summary">Navigācija, braucieni, piegādes, rezultāti</string>
+    <string name="now_bar_scores">Tiešraides rezultāti</string>
+    <string name="now_bar_live_apps">Lietotnes tiešraides atjauninājumiem</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> lietotnes</string>
+    <string name="now_bar_pin">Piespraustas pastāvīgi ieslēgtajā ekrānā</string>
+    <string name="now_bar_unpin_question">Atspraust <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Atspraust</string>
+    <string name="now_bar_scores_summary">Spēles, kuras sekojat lietotnē At a Glance</string>
+    <string name="now_bar_recording">Ekrāna un balss ierakstīšana</string>
+    <string name="now_bar_buds">Austiņas un pulksteņi</string>
+    <string name="now_bar_buds_summary">Pievienotas ierīces akumulators: kreisā, labā austiņa un futrālis</string>
+    <string name="now_bar_wave">Viļņa animācija</string>
+    <string name="now_bar_aod">Rādīt pastāvīgi ieslēgtajā ekrānā</string>
+    <string name="now_bar_chip">Čips statusa joslā</string>
+    <string name="now_bar_chip_summary">Atskaņošana un taimeri blakus pulkstenim, kamēr ierīce ir atbloķēta</string>
+    <string name="now_bar_footer">Kad Now Bar joslā ir mūzika, lielais atskaņotājs bloķēšanas ekrānā ir paslēpts. Pavelciet joslu, lai pārslēgtu darbības, pieskarieties tai, lai atvērtu vadību, un turiet, lai paslēptu vienu līdz tās beigām. Pavelciet pauzētu dziesmu nost no joslas, lai to notīrītu.\n\nTiešraides rezultāti rāda Google lietotnē sekoto komandu spēles. Ar Smartspacer pievienojiet tur sporta mērķi, un tā rezultāti parādīsies šeit.</string>
+    <string name="now_bar_looks">Izskati</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Noklusējums"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Liels</item>
+        <item>Neona</item>
+        <item>Stikla kartīte</item>
+    </string-array>
+    <string name="now_bar_material">Materiāls</string>
+    <string name="now_bar_material_summary">Liquid Glass izmanto stiklu, ko iestatījāt motīvā</string>
+    <string-array name="now_bar_material_entries">
+        <item>Ciets</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Albuma vāciņš</item>
+        <item>Akcents</item>
+        <item>Tumšs</item>
+    </string-array>
+    <string name="now_bar_opacity">Caurspīdīgums</string>
+    <string name="now_bar_opacity_summary">Ar Liquid Glass — cik daudz krāsas tonē stiklu</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Nav"</item>
+        <item>Plāns</item>
+        <item>Akcents</item>
+    </string-array>
+    <string name="now_bar_shadow">Ēna</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Izslēgts"</item>
+        <item>Maigais</item>
+        <item>Spīdums</item>
+    </string-array>
+    <string name="now_bar_more">Citas aktivitātes</string>
+    <string-array name="now_bar_more_entries">
+        <item>Vienkārši pavelciet</item>
+        <item>Punkti</item>
+        <item>Skatīties aiz</item>
+    </string-array>
+    <string name="now_bar_size">Izmērs un forma</string>
+    <string name="now_bar_height">Augstums</string>
+    <string name="now_bar_width_summary">Pilns pārvieto saīsnes virs joslas</string>
+    <string-array name="now_bar_width_entries">
+        <item>Šaurs</item>
+        <item>Starp saīsnēm</item>
+        <item>Pilns</item>
+    </string-array>
+    <string name="now_bar_corners">Stūri</string>
+    <string name="now_bar_raise">Paaugstināts</string>
+    <string name="now_bar_art">Albuma vāciņš</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Loks"</item>
+        <item>Noapaļots</item>
+        <item>"Kvadrāts"</item>
+        <item>"Izslēgts"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Izlaist un atskaņot</item>
+        <item>Tikai atskaņošana</item>
+        <item>"Nav"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Viena rindiņa</item>
+        <item>Divas rindiņas</item>
+        <item>Tikai dziesma</item>
+    </string-array>
+    <string name="now_bar_show_page">Kas tiek rādīts joslā</string>
+    <string name="now_bar_show_page_summary">Mūzika un video, taimeri, zvani un vēl</string>
+    <string name="now_bar_where">Kur citur</string>
 </resources>

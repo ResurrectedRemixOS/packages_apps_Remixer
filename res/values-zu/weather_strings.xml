@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Imininingwane"</string>
     <string name="lockscreen_weather_location_title">"Indawo"</string>
+    <string name="lockscreen_weather_title">Isimo sezulu esikrinini sokukhiya</string>
+    <string name="lockscreen_weather_location_summary">Bonisa igama ledolobha</string>
+    <string name="lockscreen_weather_text_title">Isimo</string>
+    <string name="lockscreen_weather_text_summary">Bonisa isimo, njengo-Kunamafu noma Isibhakabhaka esicacile</string>
+    <string name="lockscreen_weather_wind_title">Umoya</string>
+    <string name="lockscreen_weather_wind_summary">Bonisa isivinini somoya nendlela</string>
+    <string name="lockscreen_weather_humidity_title">Umswakama</string>
+    <string name="lockscreen_weather_humidity_summary">Bonisa umswakama</string>
+    <string name="custom_clock_weather_title">Isimo sezulu ezisikhathini zewashi</string>
+    <string name="custom_clock_weather_summary">Bonisa isimo sezulu ngaphakathi kwezisikhathi zewashi ezinendawo yakho</string>
+    <string name="remixer_weather_service">Insiza yesimo sezulu</string>
+    <string name="remixer_weather_page_summary">Isimo sezulu esikrinini sokukhiya nokuthi sibonisani</string>
 </resources>

@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="remixer_boot_animation">Анімація завантаження</string>
+    <string name="boot_animation_note">Відтвориться під час наступного запуску телефона.</string>
+    <string name="boot_animation_custom">Ваш файл</string>
+    <string name="boot_animation_custom_pick">Виберіть файл…</string>
+    <string name="boot_animation_custom_invalid">Цей файл не є анімацією завантаження</string>
+    <string name="boot_animation_failed">Не вдалося змінити анімацію завантаження</string>
 </resources>

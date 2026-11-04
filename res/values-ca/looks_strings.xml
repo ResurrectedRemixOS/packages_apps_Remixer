@@ -15,4 +15,54 @@
     <string name="looks_save_look">"Desa"</string>
     <string name="looks_custom_color">"Color personalitzat"</string>
     <string name="looks_part_clock_color">"Color del rellotge"</string>
+    <string name="looks_title">Aspectes</string>
+    <string name="looks_summary">Tota la configuració en un sol toc</string>
+    <string name="looks_rr">Aspectes de RR</string>
+    <string name="looks_yours">Els teus aspectes</string>
+    <string name="looks_none">Encara no n\'hi ha cap de desat</string>
+    <string name="looks_save">Desa l\'actual</string>
+    <string name="looks_import_clipboard">Des del porta-retalls</string>
+    <string name="looks_import_file">Des d\'un fitxer</string>
+    <string name="looks_mine">El meu aspecte</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> aplicat</string>
+    <string name="looks_failed">No s\'ha pogut aplicar tot</string>
+    <string name="looks_invalid">Això no és un aspecte de RR</string>
+    <string name="looks_part_accent">Color d\'accent</string>
+    <string name="looks_part_qs">Estil de la configuració ràpida</string>
+    <string name="looks_part_clock_face">Esfera del rellotge de la pantalla de bloqueig</string>
+    <string name="looks_part_clock_look">Rellotge de la barra d\'estat</string>
+    <string name="looks_part_edge">Il·luminació de vora</string>
+    <string name="looks_part_boot">Animació d\'arrencada</string>
+    <string name="looks_part_haptics">Patrons de Haptic Remix</string>
+    <string name="looks_saturation">Saturació <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Accent</string>
+    <string name="looks_share_title">Comparteix «<xliff:g id="name" example="Neon night">%1$s</xliff:g>»</string>
+    <string name="looks_share_hint">Escaneja amb la càmera d\'un altre telèfon amb RR, o a Looks › Importa</string>
+    <string name="looks_share_file">Comparteix el fitxer</string>
+    <string name="looks_save_file">Desa el fitxer</string>
+    <string name="looks_import_scan">Escaneja un codi QR</string>
+    <string name="looks_import_title">Importa un look</string>
+    <string name="looks_from_qr">des d\'un codi QR</string>
+    <string name="looks_from_file">des d\'un fitxer</string>
+    <string name="looks_from_clipboard">des del porta-retalls</string>
+    <string name="looks_import_same">Ja coincideix amb la teva configuració.</string>
+    <string name="looks_new">Aspecte nou</string>
+    <string name="looks_edit_title">Edita l\'aspecte</string>
+    <string name="looks_in_look">En aquest aspecte</string>
+    <string name="looks_not_included">No està en aquest aspecte</string>
+    <string name="looks_save_apply">Desa i aplica</string>
+    <string name="looks_saved">S\'ha desat «<xliff:g id="name" example="Sunday">%1$s</xliff:g>»</string>
+    <string name="looks_delete_confirm">Vols suprimir «<xliff:g id="name" example="Sunday">%1$s</xliff:g>»?</string>
+    <string name="looks_rr_wallpaper">Fons de pantalla de RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Saturació de l\'accent</string>
+    <string name="looks_part_clock_chip">Xip del rellotge a la barra d\'estat</string>
+    <string name="looks_part_edge_style">Estil de la il·luminació de vora</string>
+    <string name="looks_scan_hint">Apunta la càmera al codi QR d\'un look</string>
+    <string name="looks_scan_failed">No s\'ha pogut obrir la càmera</string>
+    <string name="look_roulette_title">Ruleta de looks</string>
+    <string-array name="look_roulette_entries">
+        <item>"Desactivat"</item>
+        <item>Un look diferent cada vegada que desbloquegis</item>
+        <item>Un look diferent cada dia</item>
+    </string-array>
 </resources>

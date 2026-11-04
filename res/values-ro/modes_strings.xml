@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Un look pentru fiecare dintre modurile tale</string>
+    <string name="remix_modes_everyday">Look obișnuit</string>
+    <string name="remix_modes_everyday_summary">Revine când niciun mod cu look nu este activ</string>
+    <string name="remix_modes_wallpaper">Imaginea de fundal urmează look-ul</string>
+    <string name="remix_modes_wallpaper_summary">Un mod poate schimba și imaginea de fundal</string>
+    <string name="remix_modes_modes">Modurile tale</string>
+    <string name="remix_modes_no_change">Fără schimbare</string>
+    <string name="remix_modes_none">Salvează mai întâi un look, din Temă › Look-uri</string>
+    <string name="remix_modes_pick">Look pentru <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

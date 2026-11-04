@@ -11,4 +11,23 @@
     <string name="rr_about_this_phone">"Þessi sími"</string>
     <string name="rr_about_network">"Netkerfi"</string>
     <string name="rr_about_hidden">Falið</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Opinbert</string>
+    <string name="rr_about_unofficial">Óopinbert</string>
+    <string name="rr_about_vanilla">Upprunalegt</string>
+    <string name="rr_about_hardware">Vélbúnaður</string>
+    <string name="rr_about_processor">Örgjörvi</string>
+    <string name="rr_about_processor_sub">%1$d kjarnar · allt að %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d kjarnar</string>
+    <string name="rr_about_storage_used">%1$s notað</string>
+    <string name="rr_about_display">Skjár</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · Í hleðslu</string>
+    <string name="rr_about_kernel_linux">Linux-kjarni</string>
+    <string name="rr_about_software_purpose">Android-útgáfa, öryggisuppfærsla, smíðadagsetning og smíðanúmer</string>
+    <string name="rr_about_security_patch">Öryggisuppfærsla</string>
+    <string name="rr_about_maintainer">Umsjónaraðili</string>
+    <string name="rr_about_show">Sýna</string>
+    <string name="rr_about_hide">Fela</string>
 </resources>

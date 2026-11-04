@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"വിശദാംശങ്ങൾ"</string>
     <string name="lockscreen_weather_location_title">"ലൊക്കേഷൻ"</string>
+    <string name="lockscreen_weather_title">ലോക്ക് സ്‌ക്രീനിലെ കാലാവസ്ഥ</string>
+    <string name="lockscreen_weather_location_summary">നഗരത്തിന്റെ പേര് കാണിക്കുക</string>
+    <string name="lockscreen_weather_text_title">അവസ്ഥ</string>
+    <string name="lockscreen_weather_text_summary">മേഘാവൃതം അല്ലെങ്കിൽ തെളിഞ്ഞ ആകാശം പോലെ അവസ്ഥ കാണിക്കുക</string>
+    <string name="lockscreen_weather_wind_title">കാറ്റ്</string>
+    <string name="lockscreen_weather_wind_summary">കാറ്റിന്റെ വേഗതയും ദിശയും കാണിക്കുക</string>
+    <string name="lockscreen_weather_humidity_title">ആർദ്രത</string>
+    <string name="lockscreen_weather_humidity_summary">ആർദ്രത കാണിക്കുക</string>
+    <string name="custom_clock_weather_title">ക്ലോക്ക് ഫെയ്‌സുകളിലെ കാലാവസ്ഥ</string>
+    <string name="custom_clock_weather_summary">സ്ഥലമുള്ള ക്ലോക്ക് ഫെയ്‌സുകളിൽ കാലാവസ്ഥ കാണിക്കുക</string>
+    <string name="remixer_weather_service">കാലാവസ്ഥാ സേവനം</string>
+    <string name="remixer_weather_page_summary">ലോക്ക് സ്‌ക്രീനിലെ കാലാവസ്ഥയും അത് കാണിക്കുന്നതും</string>
 </resources>

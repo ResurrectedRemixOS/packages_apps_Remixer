@@ -15,4 +15,54 @@
     <string name="looks_save_look">"አስቀምጥ"</string>
     <string name="looks_custom_color">"ብጁ ቀለም"</string>
     <string name="looks_part_clock_color">"የሰዓት ቀለም"</string>
+    <string name="looks_title">ቅንብሮች</string>
+    <string name="looks_summary">አጠቃላይ ቅንብርህን በአንድ ንክኪ</string>
+    <string name="looks_rr">የRR ቅንብሮች</string>
+    <string name="looks_yours">ቅንብሮችህ</string>
+    <string name="looks_none">እስካሁን ምንም አልተቀመጠም</string>
+    <string name="looks_save">የአሁኑን አስቀምጥ</string>
+    <string name="looks_import_clipboard">ከክሊፕቦርድ</string>
+    <string name="looks_import_file">ከፋይል</string>
+    <string name="looks_mine">የኔ ቅንብር</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> ተተግብሯል</string>
+    <string name="looks_failed">ሁሉንም መተግበር አልተቻለም</string>
+    <string name="looks_invalid">ይህ የRR ቅንብር አይደለም</string>
+    <string name="looks_part_accent">የአክሰንት ቀለም</string>
+    <string name="looks_part_qs">የQS ዘይቤ</string>
+    <string name="looks_part_clock_face">የማያ ቁልፍ ሰዓት ዲዛይን</string>
+    <string name="looks_part_clock_look">የሁኔታ አሞሌ ሰዓት</string>
+    <string name="looks_part_edge">የጠርዝ ብርሃን</string>
+    <string name="looks_part_boot">የማስነሻ አኒሜሽን</string>
+    <string name="looks_part_haptics">የHaptic Remix ንዝረቶች</string>
+    <string name="looks_saturation">ሙሌት <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">ማድመቂያ</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>” አጋራ</string>
+    <string name="looks_share_hint">በሌላ RR ስልክ ካሜራ ወይም በቅንብሮች › አስመጣ ቃኝ</string>
+    <string name="looks_share_file">ፋይል አጋራ</string>
+    <string name="looks_save_file">ፋይል አስቀምጥ</string>
+    <string name="looks_import_scan">QR ኮድ ቃኝ</string>
+    <string name="looks_import_title">ቅንብር አስመጣ</string>
+    <string name="looks_from_qr">ከQR ኮድ</string>
+    <string name="looks_from_file">ከፋይል</string>
+    <string name="looks_from_clipboard">ከክሊፕቦርድ</string>
+    <string name="looks_import_same">ከአሁኑ ማዋቀርህ ጋር ቀድሞውኑ ይጣጣማል።</string>
+    <string name="looks_new">አዲስ ቅንብር</string>
+    <string name="looks_edit_title">ቅንብር አርትዕ</string>
+    <string name="looks_in_look">በዚህ ቅንብር ውስጥ</string>
+    <string name="looks_not_included">በዚህ ቅንብር ውስጥ የለም</string>
+    <string name="looks_save_apply">አስቀምጥና ተግብር</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” ተቀምጧል</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>”ን ይሰረዝ?</string>
+    <string name="looks_rr_wallpaper">RR ልጣፍ <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">የአነጋገር ቀለም ጥንካሬ</string>
+    <string name="looks_part_clock_chip">በሁኔታ አሞሌው ላይ የሰዓት ቺፕ</string>
+    <string name="looks_part_edge_style">የጠርዝ ብርሃን ዘይቤ</string>
+    <string name="looks_scan_hint">ካሜራውን ወደ ገጽታ QR ኮድ ያዙ</string>
+    <string name="looks_scan_failed">ካሜራውን መክፈት አልተቻለም</string>
+    <string name="look_roulette_title">የገጽታ ሩሌት</string>
+    <string-array name="look_roulette_entries">
+        <item>"ጠፍቷል"</item>
+        <item>በእያንዳንዱ መክፈቻ የተለየ ገጽታ</item>
+        <item>በእያንዳንዱ ቀን የተለየ ገጽታ</item>
+    </string-array>
 </resources>

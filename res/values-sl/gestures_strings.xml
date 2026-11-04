@@ -8,4 +8,50 @@
         <item>"Srednje"</item>
         <item>"Velika"</item>
     </string-array>
+    <string name="pie_title">Krožni meniji</string>
+    <string name="pie_summary">Za krožni meni bližnjic držite spodnji del roba</string>
+    <string name="pie_zone">Del roba</string>
+    <string name="pie_clock">Ura in baterija nad njim</string>
+    <string name="pie_items">Rezine</string>
+    <string-array name="pie_items_entries">
+        <item>"Nazaj"</item>
+        <item>Domov</item>
+        <item>"Nedavno"</item>
+        <item>"Obvestila"</item>
+        <item>Svetilka</item>
+        <item>"Posnetek zaslona"</item>
+        <item>"Meni za vklop/izklop"</item>
+        <item>"Pomočnik"</item>
+        <item>"Fotoaparat"</item>
+    </string-array>
+    <string name="pie_footer">Potrebno je zadržati prst na mestu četrt sekunde, da se ne premakne, tako da hitra poteza od roba še vedno vrne nazaj. Ne odpre se na zaklenjenem zaslonu.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Levo"</item>
+        <item>"Desno"</item>
+        <item>Obe</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Spodnja tretjina</item>
+        <item>Sredina</item>
+        <item>Celoten rob</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Steklo</item>
+        <item>Klasično</item>
+    </string-array>
+    <string name="sidebar_style_title">Videz stranskega menija aplikacij</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klasično</item>
+        <item>RR steklo</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Stranski meni aplikacij</string>
+    <string name="sidebar_settings_summary">Podrsajte z ročaja za svoje aplikacije in orodja</string>
+    <string name="sidebar_apps_title">Aplikacije, ročaj in odložišče</string>
+    <string name="sidebar_apps_summary">Vklopite ročaj, izberite aplikacije in nastavite pametno odložišče</string>
+    <string name="sidebar_handle_size_title">Velikost ročaja</string>
+    <string name="sidebar_tools_title">Vrstica orodij</string>
+    <string name="sidebar_tools_summary">Posnetek zaslona in svetilka pod vašimi aplikacijami</string>
+    <string name="sidebar_footer">Ročaj je tanka črta v barvi poudarka; povlecite ga, da ga premaknete ob robu. Pri krmarjenju s potezami pokriva le svoj del roba, nazaj pa deluje povsod drugje.</string>
 </resources>

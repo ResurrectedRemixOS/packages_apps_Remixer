@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"ਪੂਰਵ-ਨਿਰਧਾਰਿਤ"</string>
     <string name="clock_faces_size">"ਆਕਾਰ"</string>
     <string name="clock_faces_restart">"ਮੁੜ-ਸ਼ੁਰੂ ਕਰੋ"</string>
+    <string name="remixer_clock_faces">ਘੜੀ ਦੇ ਡਿਜ਼ਾਈਨ</string>
+    <string name="clock_faces_system">ਸਿਸਟਮ ਘੜੀ</string>
+    <string name="clock_faces_system_desc">ਵਾਲਪੇਪਰ ਅਤੇ ਸਟਾਈਲ ਤੋਂ ਘੜੀ</string>
+    <string name="clock_faces_position">%1$d ਵਿੱਚੋਂ %2$d</string>
+    <string name="clock_faces_applied">ਲਾਗੂ ਕੀਤਾ ਗਿਆ</string>
+    <string name="clock_faces_preview_unavailable">ਪ੍ਰੀਵਿਊ ਉਪਲਬਧ ਨਹੀਂ</string>
+    <string name="clock_faces_failed">ਘੜੀ ਨਹੀਂ ਬਦਲ ਸਕੀ</string>
+    <string name="clock_faces_color_accent">ਐਕਸੈਂਟ</string>
+    <string name="clock_faces_color_custom">ਕਸਟਮ</string>
+    <string name="clock_faces_color_album">ਐਲਬਮ ਆਰਟ</string>
+    <string name="clock_faces_color_gradient">ਗ੍ਰੇਡੀਐਂਟ</string>
+    <string name="clock_faces_own_colors">ਇਸ ਡਿਜ਼ਾਈਨ ਦੇ ਆਪਣੇ ਰੰਗ ਹਨ।</string>
+    <string name="clock_faces_album_hint">ਸੰਗੀਤ ਚੱਲਣ ਵੇਲੇ ਐਲਬਮ ਆਰਟ ਤੋਂ ਰੰਗ ਲੈਂਦਾ ਹੈ।</string>
+    <string name="clock_faces_size_position">ਆਕਾਰ ਅਤੇ ਸਥਿਤੀ</string>
+    <string name="clock_faces_size_value">ਆਕਾਰ · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">ਉੱਪਰੋਂ ਦੂਰੀ</string>
+    <string name="clock_faces_top_value">ਉੱਪਰੋਂ ਦੂਰੀ · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">ਖਿਤਿਜੀ ਸਥਿਤੀ</string>
+    <string name="clock_faces_horizontal_center">ਖਿਤਿਜੀ ਸਥਿਤੀ · ਵਿਚਕਾਰ</string>
+    <string name="clock_faces_horizontal_right">ਖਿਤਿਜੀ ਸਥਿਤੀ · ਸੱਜੇ ਪਾਸੇ <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_left">ਖਿਤਿਜੀ ਸਥਿਤੀ · ਖੱਬੇ ਪਾਸੇ <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_fixed">ਇਹ ਡਿਜ਼ਾਈਨ ਵਿਚਕਾਰ ਰਹਿੰਦਾ ਹੈ।</string>
+    <string name="clock_faces_opacity">ਧੁੰਦਲਾਪਨ</string>
+    <string name="clock_faces_opacity_value">ਧੁੰਦਲਾਪਨ · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">ਗਤੀ</string>
+    <string name="clock_faces_wobble">ਚਾਰਜ ਹੋਣ ਦੌਰਾਨ ਹਿੱਲੇ</string>
+    <string name="clock_faces_wobble_summary">ਪਲੱਗ ਲਗਾਉਣ \'ਤੇ ਇੱਕ ਵਾਰ ਉਛਲਦਾ ਹੈ</string>
+    <string name="clock_faces_aod_anim">ਐਲਵੇਜ਼-ਆਨ ਡਿਸਪਲੇ ਤਬਦੀਲੀ</string>
+    <string name="clock_faces_aod_anim_summary">ਘੜੀ ਨੂੰ ਛੋਟਾ ਕਰ ਕੇ ਐਲਵੇਜ਼-ਆਨ ਡਿਸਪਲੇ ਵਿੱਚ ਫਿੱਕਾ ਕਰਦਾ ਹੈ</string>
+    <string name="clock_faces_restart_title">ਲਾਕ ਸਕ੍ਰੀਨ ਮੁੜ ਚਾਲੂ ਕਰਨੀ ਹੈ?</string>
+    <string name="clock_faces_restart_message">ਸਿਸਟਮ ਘੜੀ ਅਤੇ ਕਸਟਮ ਡਿਜ਼ਾਈਨਾਂ ਵਿਚਕਾਰ ਬਦਲਣ ਨਾਲ SystemUI ਮੁੜ ਚਾਲੂ ਹੁੰਦਾ ਹੈ। ਸਕ੍ਰੀਨ ਇੱਕ ਸਕਿੰਟ ਲਈ ਕਾਲੀ ਹੋ ਜਾਂਦੀ ਹੈ।</string>
+    <string name="clock_faces_note">ਪ੍ਰੀਵਿਊ ਤੁਹਾਡੇ ਲਾਕ ਸਕ੍ਰੀਨ ਵਾਲਪੇਪਰ \'ਤੇ SystemUI ਵੱਲੋਂ ਬਣਾਏ ਜਾਂਦੇ ਹਨ। ਰੰਗ, ਆਕਾਰ ਅਤੇ ਸਥਿਤੀ ਤੁਰੰਤ ਲਾਕ ਸਕ੍ਰੀਨ ਬਦਲਦੇ ਹਨ।</string>
 </resources>

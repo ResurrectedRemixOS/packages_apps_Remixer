@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Προεπιλογή"</string>
     <string name="clock_faces_size">"Μέγεθος"</string>
     <string name="clock_faces_restart">"Επανεκκίνηση"</string>
+    <string name="remixer_clock_faces">Όψεις ρολογιού</string>
+    <string name="clock_faces_system">Ρολόι συστήματος</string>
+    <string name="clock_faces_system_desc">Το ρολόι από Ταπετσαρία &amp; στυλ</string>
+    <string name="clock_faces_position">%1$d από %2$d</string>
+    <string name="clock_faces_applied">Εφαρμόστηκε</string>
+    <string name="clock_faces_preview_unavailable">Η προεπισκόπηση δεν είναι διαθέσιμη</string>
+    <string name="clock_faces_failed">Δεν ήταν δυνατή η αλλαγή ρολογιού</string>
+    <string name="clock_faces_color_accent">Έμφαση</string>
+    <string name="clock_faces_color_custom">Προσαρμογή</string>
+    <string name="clock_faces_color_album">Εξώφυλλο άλμπουμ</string>
+    <string name="clock_faces_color_gradient">Διαβάθμιση</string>
+    <string name="clock_faces_own_colors">Αυτή η όψη διατηρεί τα δικά της χρώματα.</string>
+    <string name="clock_faces_album_hint">Παίρνει το χρώμα της από το εξώφυλλο όσο παίζει μουσική.</string>
+    <string name="clock_faces_size_position">Μέγεθος και θέση</string>
+    <string name="clock_faces_size_value">Μέγεθος · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Απόσταση από πάνω</string>
+    <string name="clock_faces_top_value">Απόσταση από πάνω · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Οριζόντια θέση</string>
+    <string name="clock_faces_horizontal_center">Οριζόντια θέση · Κέντρο</string>
+    <string name="clock_faces_horizontal_right">Οριζόντια θέση · <xliff:g id="dp" example="24">%1$d</xliff:g> dp δεξιά</string>
+    <string name="clock_faces_horizontal_left">Οριζόντια θέση · <xliff:g id="dp" example="24">%1$d</xliff:g> dp αριστερά</string>
+    <string name="clock_faces_horizontal_fixed">Αυτή η όψη παραμένει στο κέντρο.</string>
+    <string name="clock_faces_opacity">Αδιαφάνεια</string>
+    <string name="clock_faces_opacity_value">Αδιαφάνεια · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Κίνηση</string>
+    <string name="clock_faces_wobble">Ταλάντευση κατά τη φόρτιση</string>
+    <string name="clock_faces_wobble_summary">Αναπηδά μία φορά όταν συνδέετε τη συσκευή</string>
+    <string name="clock_faces_aod_anim">Μετάβαση στην οθόνη πάντα σε λειτουργία</string>
+    <string name="clock_faces_aod_anim_summary">Συρρικνώνει και σβήνει το ρολόι στην οθόνη πάντα σε λειτουργία</string>
+    <string name="clock_faces_restart_title">Επανεκκίνηση της οθόνης κλειδώματος;</string>
+    <string name="clock_faces_restart_message">Η εναλλαγή μεταξύ του ρολογιού συστήματος και των προσαρμοσμένων όψεων επανεκκινεί το SystemUI. Η οθόνη σβήνει για ένα δευτερόλεπτο.</string>
+    <string name="clock_faces_note">Οι προεπισκοπήσεις σχεδιάζονται από το SystemUI πάνω στην ταπετσαρία της οθόνης κλειδώματος. Το χρώμα, το μέγεθος και η θέση αλλάζουν αμέσως την οθόνη κλειδώματος.</string>
 </resources>

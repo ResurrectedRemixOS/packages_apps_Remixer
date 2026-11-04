@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">Butonat</string>
     <string name="now_bar_text">Tekst</string>
     <string name="now_bar_text_size">"Madhësia e tekstit"</string>
+    <string name="now_bar_summary">Aktivitete live në fund të ekranit të kyçjes</string>
+    <string name="now_bar_show">Shfaq</string>
+    <string name="now_bar_music">Muzika dhe video</string>
+    <string name="now_bar_timers">Kohëmatësit, kronometri dhe alarmet</string>
+    <string name="now_bar_hide_call">Fshih njoftimin e thirrjes</string>
+    <string name="now_bar_hide_call_summary">Në ekranin e kyçjes, një thirrje në Now Bar nuk shfaqet edhe si njoftim</string>
+    <string name="now_bar_live">Përditësimet live</string>
+    <string name="now_bar_live_summary">Navigimi, udhëtimet, dorëzimet, rezultatet</string>
+    <string name="now_bar_scores">Rezultatet live</string>
+    <string name="now_bar_live_apps">Aplikacionet për përditësimet live</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> aplikacione</string>
+    <string name="now_bar_pin">Fiksuar në ekranin e përhershëm</string>
+    <string name="now_bar_unpin_question">Të hiqet fiksimi i <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Hiq fiksimin</string>
+    <string name="now_bar_scores_summary">Lojërat që ndjek në At a Glance</string>
+    <string name="now_bar_recording">Regjistrimi i ekranit dhe zërit</string>
+    <string name="now_bar_buds">Kufjet dhe orët</string>
+    <string name="now_bar_buds_summary">Bateria e një pajisjeje të lidhur: e majta, e djathta dhe kutia për kufjet</string>
+    <string name="now_bar_wave">Animacioni i valës</string>
+    <string name="now_bar_aod">Shfaq në ekranin e përhershëm</string>
+    <string name="now_bar_chip">Çip në shiritin e statusit</string>
+    <string name="now_bar_chip_summary">Muzika dhe kohëmatësit pranë orës kur telefoni është i zhbllokuar</string>
+    <string name="now_bar_footer">Me muzikë në Now Bar, lojtari i madh i ekranit të kyçjes fshihet. Rrëshqit shiritin për të ndërruar aktivitetet, prek për të hapur kontrollet dhe mbaj shtypur për ta fshehur një aktivitet deri në përfundim. Rrëshqit një këngë të ndalur jashtë shiritit për ta pastruar.\n\nRezultatet live shfaqin lojërat e skuadrave që ndjek në aplikacionin Google. Me Smartspacer, shto aty një target sportiv dhe rezultatet e tij do të shfaqen këtu.</string>
+    <string name="now_bar_looks">Pamjet</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"E parazgjedhur"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Madhe</item>
+        <item>Neon</item>
+        <item>Kartelë xhami</item>
+    </string-array>
+    <string name="now_bar_material">Material</string>
+    <string name="now_bar_material_summary">Liquid Glass përdor xhamin që ke zgjedhur te Tema</string>
+    <string-array name="now_bar_material_entries">
+        <item>Solid</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Artwork i albumit</item>
+        <item>Theksi</item>
+        <item>E errët</item>
+    </string-array>
+    <string name="now_bar_opacity">Opacitet</string>
+    <string name="now_bar_opacity_summary">Me Liquid Glass, sa ngjyrë e ngjyros xhamin</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Asnjë"</item>
+        <item>I hollë</item>
+        <item>Theksi</item>
+    </string-array>
+    <string name="now_bar_shadow">Hija</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Joaktiv"</item>
+        <item>Soft</item>
+        <item>Shkëlqimi</item>
+    </string-array>
+    <string name="now_bar_more">Më shumë aktivitete</string>
+    <string-array name="now_bar_more_entries">
+        <item>Thjesht rrëshqit</item>
+        <item>Pika</item>
+        <item>Shiko prapa</item>
+    </string-array>
+    <string name="now_bar_size">Madhësia dhe forma</string>
+    <string name="now_bar_height">Lartësia</string>
+    <string name="now_bar_width_summary">Full i zhvendos shkurtoret mbi shirit</string>
+    <string-array name="now_bar_width_entries">
+        <item>E ngushtë</item>
+        <item>Midis shkurtoreve</item>
+        <item>E plotë</item>
+    </string-array>
+    <string name="now_bar_corners">Qoshet</string>
+    <string name="now_bar_raise">Ngritur</string>
+    <string name="now_bar_art">Artwork i albumit</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Rrethi"</item>
+        <item>Të rrumbullakosura</item>
+        <item>"Katror"</item>
+        <item>"Joaktiv"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Kalo dhe luaj</item>
+        <item>Vetëm luajtja</item>
+        <item>"Asnjë"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Një rresht</item>
+        <item>Dy rreshta</item>
+        <item>Vetëm këngë</item>
+    </string-array>
+    <string name="now_bar_show_page">Çfarë shfaqet në shirit</string>
+    <string name="now_bar_show_page_summary">Muzika dhe video, kohëmatësit, thirrjet e më shumë</string>
+    <string name="now_bar_where">Ku tjetër</string>
 </resources>

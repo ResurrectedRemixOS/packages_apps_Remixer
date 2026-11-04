@@ -83,4 +83,209 @@
     <string name="wallpaper_apply_lock">"Құлыптаулы экран"</string>
     <string name="remixer_settings_style_original">"Түпнұсқа"</string>
     <string name="remixer_navbar_category">"Навигация жолағы"</string>
+    <string name="remixer_dashboard_summary">Күйін көрсету жолағы, тақырып, құлыптаулы экран және басқа да</string>
+    <string name="rr_homepage_battery_saver">Батарея үнемдеу</string>
+    <string name="rr_homepage_personalize">Жекелендіру</string>
+    <string name="rr_homepage_privacy">Құпиялылық пен қауіпсіздік</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> бос</string>
+    <string name="rr_homepage_charged">Толық зарядталды</string>
+    <string name="rr_homepage_on_battery">Батареядан жұмыс істеуде</string>
+    <string name="rr_homepage_saver_on">Батарея үнемдеу қосулы</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> құрылғы</item>
+        <item quantity="few"><xliff:g id="count" example="2">%d</xliff:g> құрылғы</item>
+        <item quantity="many"><xliff:g id="count" example="2">%d</xliff:g> құрылғы</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> құрылғы</item>
+    </plurals>
+    <string name="rr_homepage_extras">Қосымша параметрлер</string>
+    <string name="rr_homepage_saver">Үнемдеу</string>
+    <string name="rr_homepage_signed_out">Кірілмеген</string>
+    <string name="rr_homepage_remixer_tagline">Өзіңізге лайықтаңыз. Күйін көрсету жолағы, тақырып, құлыптаулы экран және басқасы.</string>
+    <string name="rr_homepage_device_tagline">Дыбыс режимі жылжытқышы, дисплей, зарядтау және GameBar.</string>
+    <string name="rr_homepage_device_action">Баптаңыз</string>
+    <string name="rr_group_network">Желі және құрылғылар</string>
+    <string name="rr_group_network_summary">Wi‑Fi, мобильді, Bluetooth</string>
+    <string name="rr_group_apps_summary">Қолданбалар, хабарландырулар, режимдер</string>
+    <string name="rr_group_display">Дисплей және дыбыс</string>
+    <string name="rr_group_display_summary">Дисплей, тұсқағаз, дыбыс</string>
+    <string name="rr_group_security_summary">Құлып, орын, төтенше жағдай</string>
+    <string name="rr_group_security_center">Қауіпсіздік орталығы</string>
+    <string name="rr_group_accounts">Google және аккаунттар</string>
+    <string name="rr_group_accounts_summary">Google, құпия сөздер, сақтық көшірме жасау</string>
+    <string name="rr_group_accounts_plain_summary">Құпия сөздер, аккаунттар, сақтық көшірме жасау</string>
+    <string name="rr_group_system_summary">Тілдер, қимылдар, жаңартулар</string>
+    <string name="remixer_tagline">Өзіңізге лайықтаңыз.</string>
+    <string name="remixer_remix">Қайта өңдеңіз</string>
+    <string name="remixer_remixed"><xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g> арқылы қайта өңделген</string>
+    <string name="remixer_chip_shade_default">Реңк · Әдепкі</string>
+    <string name="remixer_quick">Жылдам өңдеу</string>
+    <string name="remixer_everything">Барлығы</string>
+    <string name="remixer_quick_accents">Дайын пресеттер немесе кез келген түс</string>
+    <string name="remixer_quick_fonts">Жүйелік қаріп стильдері</string>
+    <string name="remixer_quick_walls">RR жинағы</string>
+    <string name="remixer_quick_header">Жылдам параметрлер тақырыбы</string>
+    <string name="remixer_quick_header_summary">Тақырып суреттері</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Сағат, батарея, белгішелер және желі трафигі</string>
+    <string name="remixer_qs_summary">Тақырып суреті</string>
+    <string name="remixer_notifications_summary">Шеткі жарық, қолданба белгішелері және зарядтау дыбыстары</string>
+    <string name="remixer_theme_summary">Қаріптер, акцент түстері және тұсқағаздар</string>
+    <string name="remixer_lockscreen_summary">UDFPS, зарядтау ақпараты және ауа райы</string>
+    <string name="remixer_udfps_icon">UDFPS белгішесі</string>
+    <string name="remixer_udfps_icon_summary">Саусақ ізі сенсорының үстінде көрсетіледі</string>
+    <string name="remixer_udfps_animation">UDFPS анимациясы</string>
+    <string name="remixer_udfps_animation_summary">Саусағыңыз сенсорда тұрғанда ойнайды</string>
+    <string name="remixer_navigation">Навигация</string>
+    <string name="remixer_navigation_summary">Pulse, түймелер және навигация жолағы</string>
+    <string name="remixer_misc_summary">Дыбыс деңгейі, сақтық көшірме, басқа құрылғы ретінде көрсету, айналдыру және USB</string>
+    <string name="scroll_haptics_title">Айналдыру соңында түрту</string>
+    <string name="scroll_haptics_summary">Тізім немесе бет одан әрі жылжи алмаса, жеңіл діріл</string>
+    <string name="usb_mode_picker_title">USB режимін таңдау</string>
+    <string name="usb_mode_picker_summary">Компьютерге қосылғанда режимді таңдаңыз</string>
+    <string name="remixer_fonts_summary">Жүйелік қаріп</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix тұсқағаздары</string>
+    <string name="remixer_accents">Акценттер</string>
+    <string name="remixer_accents_summary">Акцент түсі</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">Экран төменгі жағындағы музыка визуализаторы</string>
+    <string name="pulse_switch">Pulse қолдану</string>
+    <string name="pulse_switch_summary">Медиа ойнап тұрғанда экран төменгі жағында музыка жолақтары</string>
+    <string name="pulse_preview_title">Қазір ойнатылып жатыр</string>
+    <string name="pulse_style_lines">Сызықтар</string>
+    <string name="pulse_style_fading">Өшетін</string>
+    <string name="pulse_style_blocks">Блоктар</string>
+    <string name="pulse_style_mirror">Айна</string>
+    <string name="pulse_color_custom">Теңшелген</string>
+    <string name="pulse_color_gradient">Кемпірқосақ</string>
+    <string name="pulse_bars">Жолақтар</string>
+    <string name="pulse_bars_value">Жолақтар · %1$d</string>
+    <string name="pulse_height">Биіктік</string>
+    <string name="pulse_height_value">Биіктік · %1$d dp</string>
+    <string name="pulse_opacity">Мөлдірлік</string>
+    <string name="pulse_opacity_value">Мөлдірлік · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Музыка ойнап тұрғанда жолақтарды құлыптаулы экранда қалдыру</string>
+    <string name="pulse_failed">Pulse параметрін сақтау мүмкін болмады</string>
+    <string name="accent_applied">Акцент қолданылды</string>
+    <string name="accent_current">Акцент · %1$s</string>
+    <string name="accent_current_custom">Акцент · Теңшелген</string>
+    <string name="accent_preview_tonal">Тоналды</string>
+    <string name="accent_failed">Бұл акцентті қолдану мүмкін болмады</string>
+    <string name="accent_custom">Теңшелген</string>
+    <string name="accent_custom_summary">Кез келген түс жұмыс істейді. Реңк үстінен де қолданылады.</string>
+    <string name="accent_custom_pad">Қаныққандық және жарықтық</string>
+    <string name="accent_custom_use"><xliff:g id="color" example="#12B5A6">%1$s</xliff:g> қолдану</string>
+    <string name="accent_shade">Реңк</string>
+    <string name="accent_shade_darker">Қараңғырақ</string>
+    <string name="accent_shade_lighter">Ашығырақ</string>
+    <string name="accent_shade_darker_value">Қараңғырақ · %1$d</string>
+    <string name="accent_shade_lighter_value">Ашығырақ · %1$d</string>
+    <string name="remixer_qs_style">Жылдам параметрлер стилі</string>
+    <string name="remixer_qs_style_preview">Алдын ала қарау · %1$s</string>
+    <string name="remixer_qs_style_note">Барлық стильдер акцент түсіне сәйкес келеді. Дыбыс деңгейі панелінде Bento, Shapes, Blueprint, Duo және Soft стильдері бар. Stock Lineage бөлшектерді Android 17 күйінде қалдырады.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Android 17 бөлшектері, өзгеріссіз</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Акцент картасындағы жарықтық. Бөлшектер акцент градиентімен толтырылады</string>
+    <string name="remixer_qs_style_compact">Ықшам</string>
+    <string name="remixer_qs_style_compact_summary">Қысқа бөлшектер. Бір экранда көбірек орналасады</string>
+    <string name="remixer_qs_style_glass">Шыны</string>
+    <string name="remixer_qs_style_glass_summary">Қосылғанда акцент түсімен жанатын мөлдір контурлы бөлшектер</string>
+    <string name="remixer_qs_style_circles">Шеңберлер</string>
+    <string name="remixer_qs_style_circles_summary">Жапсырмалары бар дөңгелек ауыстырғыштар. Кең бөлшектер карточка болады</string>
+    <string name="remixer_qs_style_classic">Классикалық</string>
+    <string name="remixer_qs_style_classic_summary">Ескі RR: жапсырмалары бар жалаң белгішелер, бір қатарда бес, жіңішке жылжытқыш</string>
+    <string name="remixer_qs_style_cards">Карточкалар</string>
+    <string name="remixer_qs_style_cards_summary">Әр атаудың астында күйі бар үлкен карточкалар, бір қатарда үшеу</string>
+    <string name="remixer_qs_style_neon">Неон</string>
+    <string name="remixer_qs_style_neon_summary">Қосылғанда акцент түсімен жанатын контурлы бөлшектер</string>
+    <string name="remixer_qs_style_bento_summary">Акцент түсімен толтырылған үлкен дөңгелектенген блоктар, кішілерінің жапсырмалары астында</string>
+    <string name="remixer_qs_style_shapes">Пішіндер</string>
+    <string name="remixer_qs_style_shapes_summary">Қосылғанда бүрлері шығатын дөңгелек ауыстырғыштар, бір қатарда бес</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Жіңішке контурлар және моноқаріптегі бас әріптер</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Екіге бөлінген бөлшектер. Белгіше жағы жанып, ауысады</string>
+    <string name="remixer_qs_style_soft">Жұмсақ</string>
+    <string name="remixer_qs_style_soft_summary">Қосылғанда ішке басылатын көтерілген бөлшектер</string>
+    <string name="remixer_lock_media_style">Медиа ойнатқыш стилі</string>
+    <string name="remixer_lock_media_same">Жылдам параметрлермен бірдей</string>
+    <string name="remixer_lock_media_same_summary">Жылдам параметрлердегі QS Media бөлшегіне сәйкес, қазір %1$s</string>
+    <string name="remixer_lock_media_off_summary">Құлыптаулы экранда ойнатқыш жоқ</string>
+    <string name="remixer_lock_media_note">Бірдеңе ойнап тұрғанда карточка құлыптаулы экранда көрінеді. Мөлдір стильдерде тұсқағаз үстінде оқылуы үшін қара астыңғы қабат болады.</string>
+    <string name="remixer_lock_media_stock_summary">Альбом суреті карточканы толтырады</string>
+    <string name="remixer_lock_media_remix_summary">Қара карточка, акцентті ойнату түймесі</string>
+    <string name="remixer_lock_media_compact_summary">Дөңгелегірек карточка, дөңгелек суреттер</string>
+    <string name="remixer_lock_media_glass_summary">Мөлдір карточка, контурлы</string>
+    <string name="remixer_lock_media_circles_summary">Жұмсақ карточка, акцентті ойнату түймесі</string>
+    <string name="remixer_lock_media_classic_summary">Тік бұрышты карточка, контурлы ойнату түймесі</string>
+    <string name="remixer_lock_media_cards_summary">Жұмсақ карточка, акцентті ойнату түймесі, Шеңберлер сияқты</string>
+    <string name="remixer_lock_media_neon_summary">Акцент контуры бар қара карточка</string>
+    <string name="remixer_lock_media_bento_summary">Жұмсақ карточка, акцентті ойнату түймесі</string>
+    <string name="remixer_lock_media_shapes_summary">Дөңгелегірек карточка, акцентті ойнату түймесі</string>
+    <string name="remixer_lock_media_blueprint_summary">Жіңішке контур, контурлы ойнату түймесі</string>
+    <string name="remixer_lock_media_duo_summary">Екі реңкті карточка, акцентті ойнату түймесі</string>
+    <string name="remixer_lock_media_soft_summary">Жиегі қырланған көтерілген карточка</string>
+    <string name="remixer_headers">Тақырып суреті</string>
+    <string name="remixer_headers_summary">Жылдам параметрлердің артындағы фондық суретті таңдаңыз</string>
+    <string name="header_switch">Тақырып суретін қолдану</string>
+    <string name="header_switch_summary">Жылдам параметрлердің артында сурет көрсету</string>
+    <string name="header_source">Дереккөз</string>
+    <string name="header_source_collection">Жинақ</string>
+    <string name="header_collections_summary_daylight">Тақырып тәулік уақытына сәйкес өзгереді немесе жинақтағы суреттер бойынша ауысады</string>
+    <string name="header_collections_summary_static">Жинақты ашып, қолдану үшін суретті түртіңіз</string>
+    <string name="header_collections_empty">Тақырып жинақтары орнатылмаған</string>
+    <string name="header_images_daylight">Осы жинақта</string>
+    <string name="header_photo_summary">Галереядағы кез келген фото немесе анимациялы GIF</string>
+    <string name="header_height">Биіктік</string>
+    <string name="header_height_value">Биіктік · %1$d dp</string>
+    <string name="header_shadow">Жарықтығы төмен</string>
+    <string name="header_shadow_value">Жарықтығы төмен · %1$d%%</string>
+    <string name="header_failed">Тақырып параметрін сақтау мүмкін болмады</string>
+    <string name="remixer_weather_summary">Ауа райы қызметі және өлшем бірліктері</string>
+    <string name="font_preview_notification">Телефон осылай оқиды.</string>
+    <string name="font_try_text">Өз мәтініңізді енгізіңіз</string>
+    <string name="font_previewing">Алдын ала қаралуда</string>
+    <string name="font_current">Ағымдағы қаріп</string>
+    <string name="font_badge_current">Ағымдағы</string>
+    <string name="font_apply_done">Қолданылды</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Дисплей</string>
+    <string name="font_filter_script">Script</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Қаріп қолданылды</string>
+    <string name="font_failed">Бұл қаріпті қолдану мүмкін болмады</string>
+    <string name="wallpaper_set">Тұсқағаз орнатылды</string>
+    <string name="wallpaper_apply_both">Екеуі</string>
+    <string name="wallpaper_failed">Бұл тұсқағазды орнату мүмкін болмады</string>
+    <string name="missing_app">Бұл қолданба орнатылмаған</string>
+    <string name="remixer_spoofing">Басқа құрылғы ретінде көрсету</string>
+    <string name="remixer_spoofing_summary">Play Integrity, құрылғы идентификаторы және қолданбаларға жеке көрсету</string>
+    <string name="remixer_settings_style">Параметрлер стилі</string>
+    <string name="rr_maintainer">Maintainer</string>
+    <string name="remixer_navbar_summary">Пішін ұзындығы, қалыңдығы және орналасуы</string>
+    <string name="remixer_navbar_pill_length">Қимыл жолағының ұзындығы</string>
+    <string name="remixer_navbar_pill_thickness">Қимыл жолағының қалыңдығы</string>
+    <string name="remixer_navbar_pill_auto_hide">Қимыл жолағын біртіндеп өшіру</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Жолақты бірнеше секундтан кейін жасырады; экранды түрткенде қайта шығады</string>
+    <string name="remixer_navbar_ime">Пернетақта түймелері</string>
+    <string name="remixer_navbar_ime_summary">Пернетақта астында артқа және пернетақта ауыстырғыш түймелерін көрсету</string>
+    <string name="remixer_navbar_layout">Түйме орналасуы</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Қысқа</item>
+        <item>Қалыпты</item>
+        <item>Ұзын</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Ең жіңішке</item>
+        <item>Жіңішке</item>
+        <item>Жұқа</item>
+        <item>Қалыпты</item>
+        <item>Қалың</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Қалыпты</item>
+        <item>Ықшам</item>
+        <item>"Сол жақтан"</item>
+        <item>"Оң жақтан"</item>
+    </string-array>
 </resources>

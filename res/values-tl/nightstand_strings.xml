@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Kailan"</string>
+    <string name="nightstand_title">Nightstand</string>
+    <string name="nightstand_summary">Malabong orasan sa tabi ng kama sa always-on display habang nagcha-charge sa gabi</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Naka-off"</item>
+        <item>Nakasaksak sa charger sa gabi</item>
+        <item>Tuwing gabi, ayon sa iskedyul</item>
+        <item>Habang may naka-on na Bedtime mode</item>
+    </string-array>
+    <string name="nightstand_from">Magsisimula ang gabi</string>
+    <string name="nightstand_to">Matatapos ang gabi</string>
+    <string name="nightstand_brightness">Limitasyon ng liwanag</string>
+    <string name="nightstand_brightness_summary">Pinakamaliwanag na puwedeng maging always-on display habang naka-on ang Nightstand</string>
+    <string name="nightstand_face">Clock face</string>
+    <string name="nightstand_face_keep">Panatilihin ang kasalukuyang face</string>
+    <string name="nightstand_footer">Ina-on ng Nightstand ang always-on display habang tumatakbo ito at ibinabalik pagkatapos. Natatapos ito kapag tinanggal ang charger, tumunog ang alarm, o natapos ang gabi. Dalawang custom face lang ang pinapalitan nito; nananatili ang system clock.</string>
 </resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Cihaz RKP\'sini kullan</string>
+    <string name="ts_rkp_enabled_summary">Oluşturulmuş bir keybox kullan. Keybox içe aktarılırsa bu kapanır.</string>
+    <string name="ts_rkp_provision">Keybox oluştur</string>
+    <string name="ts_rkp_provision_summary">Bu cihazın hazırlama hizmetini kullanarak Google\'dan keybox iste. Uyumlu Qualcomm yazılımı gerekir.</string>
+    <string name="ts_rkp_status">Hazırlama durumu</string>
+    <string name="ts_rkp_owner_only">Cihaz RKP\'sini cihaz sahibinin profilinden yönet</string>
+    <string name="ts_rkp_unavailable">Cihaz RKP\'si kullanılamıyor</string>
+    <string name="ts_rkp_imported">Yüklü bir keybox içe aktarılmışken devre dışı</string>
+    <string name="ts_rkp_disabled">Kapalı. Keybox kullanmak veya oluşturmak için cihaz RKP\'sini etkinleştirin.</string>
+    <string name="ts_rkp_idle">Keybox istemeye hazır</string>
+    <string name="ts_rkp_fetching">Hazırlama sorgusu alınıyor…</string>
+    <string name="ts_rkp_hardware">Cihazın hazırlama hizmeti bekleniyor…</string>
+    <string name="ts_rkp_signing">Google\'dan sertifikalar isteniyor…</string>
+    <string name="ts_rkp_validating">Keybox doğrulanıyor ve kaydediliyor…</string>
+    <string name="ts_rkp_ready">Oluşturulmuş keybox etkin. %1$s tarihinden önce kendiliğinden yenilenir</string>
+    <string name="ts_rkp_keybox_stored">Cihaz RKP keybox\'ı kaydedildi</string>
+    <string name="ts_rkp_expired">Oluşturulmuş keybox\'ın süresi doldu. Yerine yeni bir tane oluşturun.</string>
+    <string name="ts_rkp_hal_rejected">Yazılım isteği reddetti (kod %1$d). Duck V1 desteklenmiyor olabilir.</string>
+    <string name="ts_rkp_http_error">Hazırlama sunucusu isteği reddetti (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Cihaz uyumlu bir V1 hazırlama arayüzü sunmuyor</string>
+    <string name="ts_rkp_network_error">Sağlama sunucusuna ulaşılamadı. Bağlantınızı kontrol edin.</string>
+    <string name="ts_rkp_submission_unknown">Sunucu yanıtı kayboldu. İstek işlenmiş olabilir; otomatik yeniden deneme yapılmadı.</string>
+    <string name="ts_rkp_invalid_chain">Keybox sertifikaları doğrulanamadı. Mevcut keybox korundu.</string>
+    <string name="ts_rkp_timeout">Sağlama zaman aşımına uğradı. Cihaz hizmeti hâlâ meşgulse yeniden denemeden önce cihazı yeniden başlatın.</string>
+    <string name="ts_rkp_canceled">Keybox yapılandırması değiştiği için istek iptal edildi</string>
+    <string name="ts_rkp_save_failed">Oluşturulan keybox kaydedilemedi</string>
+    <string name="ts_rkp_action_failed">Keybox işlemi tamamlanamadı</string>
+</resources>

@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Tarikh"</string>
     <string name="sb_weather_category">"Cuaca"</string>
+    <string name="sb_clock_category">Jam &amp; tarikh</string>
+    <string name="sb_clock_bold_title">Jam tebal</string>
+    <string name="sb_clock_bold_summary">Tunjukkan jam bar status dalam huruf tebal</string>
+    <string name="sb_clock_period_separator_title">Pemisah tempoh</string>
+    <string name="sb_clock_period_separator_summary">10.45 dan bukannya 10:45</string>
+    <string name="sb_clock_date_position_title">Kedudukan tarikh</string>
+    <string name="sb_clock_date_style_title">Huruf tarikh</string>
+    <string name="sb_clock_date_format_title">Format tarikh</string>
+    <string name="sb_clock_chip_category">Latar belakang jam</string>
+    <string name="sb_clock_chip_title">Gaya latar belakang</string>
+    <string name="sb_clock_chip_start_title">Permulaan kecerunan</string>
+    <string name="sb_clock_chip_end_title">Penamat kecerunan</string>
+    <string name="sb_clock_chip_angle_title">Sudut kecerunan</string>
+    <string name="sb_clock_chip_mask_title">Potong masa daripada kecerunan</string>
+    <string name="sb_clock_chip_mask_summary">Kecerunan ditunjukkan melalui digit dan bukannya di belakangnya</string>
+    <string name="sb_weather_title">Cuaca dalam bar status</string>
+    <string name="sb_weather_position_title">Kedudukan</string>
+    <string name="status_bar_clock_rr_style_title">Gaya jam</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Lalai"</item>
+        <item>Neon</item>
+        <item>Dipisah</item>
+        <item>Tanda RR</item>
+        <item>Mono</item>
+        <item>Denyut</item>
+        <item>Bertindan</item>
+        <item>Ember</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline di sebelah masa</string>
+    <string name="sb_clock_flatline_summary">Garisan degup jantung RR dalam cip: berdenyut mengikut muzik, melonjak apabila pemberitahuan tiba</string>
 </resources>

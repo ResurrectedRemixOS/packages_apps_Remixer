@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Imagine de fundal"</item>
+        <item>Resurrected</item>
+        <item>Android One Green</item>
+        <item>Aospa Green</item>
+        <item>Coca Cola Red</item>
+        <item>Discord Purple</item>
+        <item>Facebook Blue</item>
+        <item>Instagram Cerise</item>
+        <item>Jollibee Crimson</item>
+        <item>Monster Energy Green</item>
+        <item>Nextbit Mint</item>
+        <item>Oneplus Red</item>
+        <item>Pepsi Blue</item>
+        <item>Pixel Blue</item>
+        <item>Pocophone Yellow</item>
+        <item>Razer Green</item>
+        <item>Samsung Blue</item>
+        <item>Spotify Green</item>
+        <item>Starbucks Green</item>
+        <item>Twitch Purple</item>
+        <item>Twitter Blue</item>
+        <item>Xiaomi Orange</item>
+        <item>Chihlimbar</item>
+        <item>"Negru"</item>
+        <item>"Albastru"</item>
+        <item>Gri-albastru</item>
+        <item>Maro</item>
+        <item>Cyan</item>
+        <item>Portocaliu intens</item>
+        <item>Mov intens</item>
+        <item>"Verde"</item>
+        <item>"Gri"</item>
+        <item>Indigo</item>
+        <item>Albastru deschis</item>
+        <item>Lime</item>
+        <item>"Portocaliu"</item>
+        <item>"Roz"</item>
+        <item>"Violet"</item>
+        <item>"Roșu"</item>
+        <item>"Turcoaz"</item>
+        <item>Utilizator cinci</item>
+        <item>Utilizator patru</item>
+        <item>Utilizator unu</item>
+        <item>Utilizator șapte</item>
+        <item>Utilizator șase</item>
+        <item>Utilizator trei</item>
+        <item>Utilizator doi</item>
+        <item>"Alb"</item>
+        <item>"Galben"</item>
+    </string-array>
+</resources>

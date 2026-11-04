@@ -84,4 +84,217 @@
     <string name="wallpaper_apply_home">"Ecran de pornire"</string>
     <string name="wallpaper_apply_lock">"Ecran de blocare"</string>
     <string name="remixer_navbar_category">"Bară de navigare"</string>
+    <string name="remixer_dashboard_summary">Bară de stare, temă, ecran de blocare și altele</string>
+    <string name="rr_homepage_battery_saver">Economisire baterie</string>
+    <string name="rr_homepage_personalize">Personalizare</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> liberi</string>
+    <string name="rr_homepage_charged">Complet încărcată</string>
+    <string name="rr_homepage_on_battery">Pe baterie</string>
+    <string name="rr_homepage_saver_on">Economisire baterie activată</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> dispozitiv</item>
+        <item quantity="few"><xliff:g id="count" example="2">%d</xliff:g> dispozitive</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> de dispozitive</item>
+    </plurals>
+    <string name="rr_homepage_extras">Setări suplimentare</string>
+    <string name="rr_homepage_saver">Economisire</string>
+    <string name="rr_homepage_signed_out">Nu ești conectat</string>
+    <string name="rr_homepage_remixer_tagline">Personalizează-l. Bară de stare, temă, ecran de blocare și altele.</string>
+    <string name="rr_homepage_device_tagline">Comutatorul de alertă, ecranul, încărcarea și GameBar.</string>
+    <string name="rr_homepage_device_action">Ajustează-l</string>
+    <string name="rr_group_network">Rețea și dispozitive</string>
+    <string name="rr_group_network_summary">Wi‑Fi, mobil, Bluetooth</string>
+    <string name="rr_group_apps_summary">Aplicații, notificări, moduri</string>
+    <string name="rr_group_display">Afișaj și sunet</string>
+    <string name="rr_group_display_summary">Afișaj, imagine de fundal, sunet</string>
+    <string name="rr_group_security_summary">Blocare, locație, urgențe</string>
+    <string name="rr_group_security_center">Centru de securitate</string>
+    <string name="rr_group_accounts">Google și conturi</string>
+    <string name="rr_group_accounts_summary">Google, parole, backup</string>
+    <string name="rr_group_accounts_plain_summary">Parole, conturi, backup</string>
+    <string name="rr_group_system_summary">Limbi, gesturi, actualizări</string>
+    <string name="remixer_tagline">Personalizează-l.</string>
+    <string name="remixer_remix">Remixează-l</string>
+    <string name="remixer_remixed">Remixat cu <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Nuanță · Implicit</string>
+    <string name="remixer_quick">Remix rapid</string>
+    <string name="remixer_everything">Tot</string>
+    <string name="remixer_quick_accents">Presetări sau orice culoare</string>
+    <string name="remixer_quick_fonts">Stiluri de fonturi de sistem</string>
+    <string name="remixer_quick_walls">Colecția RR</string>
+    <string name="remixer_quick_header">Antet SQ</string>
+    <string name="remixer_quick_header_summary">Imagini de antet</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Ceas, baterie, pictograme și trafic de rețea</string>
+    <string name="remixer_qs_summary">Imagine de antet</string>
+    <string name="remixer_notifications_summary">Iluminare de margine, pictograme de aplicații și sunete de încărcare</string>
+    <string name="remixer_theme_summary">Fonturi, accente și imagini de fundal</string>
+    <string name="remixer_lockscreen_summary">UDFPS, informații despre încărcare și meteo</string>
+    <string name="remixer_udfps_icon">Pictogramă UDFPS</string>
+    <string name="remixer_udfps_icon_summary">Afișată deasupra senzorului de amprentă</string>
+    <string name="remixer_udfps_animation">Animație UDFPS</string>
+    <string name="remixer_udfps_animation_summary">Se redă cât timp degetul este pe senzor</string>
+    <string name="remixer_navigation_summary">Pulse, butoane și bara de navigare</string>
+    <string name="remixer_misc_summary">Volum, backup, falsificare, derulare și USB</string>
+    <string name="misc_category_backup">Backup</string>
+    <string name="scroll_haptics_title">Atingere la sfârșitul derulării</string>
+    <string name="scroll_haptics_summary">Vibrație ușoară când o listă sau o pagină nu mai poate fi derulată</string>
+    <string name="usb_mode_picker_title">Selector mod USB</string>
+    <string name="usb_mode_picker_summary">Alege un mod când conectezi la un computer</string>
+    <string name="remixer_fonts_summary">Font de sistem</string>
+    <string name="remixer_wallpapers_summary">Imagini de fundal Resurrected Remix</string>
+    <string name="remixer_accents">Accente</string>
+    <string name="remixer_accents_summary">Culoare de accent</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">Vizualizator muzical pe partea de jos a ecranului</string>
+    <string name="pulse_switch">Folosește Pulse</string>
+    <string name="pulse_switch_summary">Bare muzicale pe partea de jos a ecranului în timp ce se redă media</string>
+    <string name="pulse_style_lines">Linii</string>
+    <string name="pulse_style_fading">Estompat</string>
+    <string name="pulse_style_blocks">Blocuri</string>
+    <string name="pulse_style_mirror">Oglindă</string>
+    <string name="pulse_color_custom">Personalizat</string>
+    <string name="pulse_color_gradient">Curcubeu</string>
+    <string name="pulse_bars">Bare</string>
+    <string name="pulse_bars_value">Bare · %1$d</string>
+    <string name="pulse_height">Înălțime</string>
+    <string name="pulse_height_value">Înălțime · %1$d dp</string>
+    <string name="pulse_opacity">Opacitate</string>
+    <string name="pulse_opacity_value">Opacitate · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Păstrează barele pe ecranul de blocare cât timp se redă muzică</string>
+    <string name="pulse_failed">Nu s-a putut salva setarea Pulse</string>
+    <string name="accent_applied">Accent aplicat</string>
+    <string name="accent_current">Accent · %1$s</string>
+    <string name="accent_current_custom">Accent · Personalizat</string>
+    <string name="accent_preview_tonal">Tonal</string>
+    <string name="accent_failed">Nu s-a putut aplica accentul</string>
+    <string name="accent_custom">Personalizat</string>
+    <string name="accent_custom_summary">Orice culoare funcționează. Nuanța se aplică în continuare peste ea.</string>
+    <string name="accent_custom_pad">Saturație și luminozitate</string>
+    <string name="accent_custom_use">Folosește <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">Nuanță</string>
+    <string name="accent_shade_darker">Mai închis</string>
+    <string name="accent_shade_lighter">Mai deschis</string>
+    <string name="accent_shade_darker_value">Mai închis · %1$d</string>
+    <string name="accent_shade_lighter_value">Mai deschis · %1$d</string>
+    <string name="remixer_qs_style">Stil QS</string>
+    <string name="remixer_qs_style_preview">Previzualizare · %1$s</string>
+    <string name="remixer_qs_style_note">Fiecare stil urmează culoarea accentului. Panoul de volum are aspecte corespunzătoare: Bento, Forme, Blueprint, Duo și Soft. Stock Lineage păstrează cardurile Android 17 neschimbate.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Cardurile Android 17, neschimbate</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Luminozitate într-un card cu accent. Cardurile se umplu cu un gradient de accent</string>
+    <string name="remixer_qs_style_compact">Compact</string>
+    <string name="remixer_qs_style_compact_summary">Carduri mai scurte. Mai multe pe un ecran</string>
+    <string name="remixer_qs_style_glass">Sticlă</string>
+    <string name="remixer_qs_style_glass_summary">Carduri contur transparente care strălucesc în culoarea accentului când sunt active</string>
+    <string name="remixer_qs_style_circles">Cercuri</string>
+    <string name="remixer_qs_style_circles_summary">Comutatoare rotunde cu etichete. Cardurile late devin carduri</string>
+    <string name="remixer_qs_style_classic">Clasic</string>
+    <string name="remixer_qs_style_classic_summary">RR de altădată: pictograme simple cu etichete, cinci pe rând, un cursor subțire</string>
+    <string name="remixer_qs_style_cards">Carduri</string>
+    <string name="remixer_qs_style_cards_summary">Carduri mari cu starea sub fiecare nume, trei pe rând</string>
+    <string name="remixer_qs_style_neon">Neon</string>
+    <string name="remixer_qs_style_neon_summary">Carduri cu contur care strălucesc în culoarea accentului când sunt active</string>
+    <string name="remixer_qs_style_bento_summary">Blocuri mari rotunjite umplute cu accentul, etichete sub cele mici</string>
+    <string name="remixer_qs_style_shapes">Forme</string>
+    <string name="remixer_qs_style_shapes_summary">Comutatoare rotunde care își măresc lobii când sunt active, cinci pe rând</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Contururi fine și majuscule monospațiate</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Carduri împărțite. Jumătatea cu pictograma se aprinde și comută</string>
+    <string name="remixer_qs_style_soft">Soft</string>
+    <string name="remixer_qs_style_soft_summary">Carduri ridicate care se apasă când sunt active</string>
+    <string name="remixer_lock_media_style">Stil player media</string>
+    <string name="remixer_lock_media_same">Același ca la Setările rapide</string>
+    <string name="remixer_lock_media_same_summary">Urmează cardul media din Setările rapide, acum %1$s</string>
+    <string name="remixer_lock_media_off_summary">Niciun player pe ecranul de blocare</string>
+    <string name="remixer_lock_media_note">Cardul apare pe ecranul de blocare cât timp se redă ceva. Stilurile transparente primesc un fundal întunecat ca să rămână lizibile peste imaginea de fundal.</string>
+    <string name="remixer_lock_media_stock_summary">Coperta albumului umple cardul</string>
+    <string name="remixer_lock_media_remix_summary">Card întunecat, buton de redare în culoarea accentului</string>
+    <string name="remixer_lock_media_compact_summary">Card mai rotunjit, copertă rotundă</string>
+    <string name="remixer_lock_media_glass_summary">Card transparent cu contur</string>
+    <string name="remixer_lock_media_circles_summary">Card moale, buton de redare în culoarea accentului</string>
+    <string name="remixer_lock_media_classic_summary">Card mai pătrat, buton de redare cu contur</string>
+    <string name="remixer_lock_media_cards_summary">Card moale, buton de redare în culoarea accentului, ca la Cercuri</string>
+    <string name="remixer_lock_media_neon_summary">Card negru cu contur în culoarea accentului</string>
+    <string name="remixer_lock_media_bento_summary">Card moale, buton de redare în culoarea accentului</string>
+    <string name="remixer_lock_media_shapes_summary">Card mai rotunjit, buton de redare în culoarea accentului</string>
+    <string name="remixer_lock_media_blueprint_summary">Contur fin, buton de redare cu contur</string>
+    <string name="remixer_lock_media_duo_summary">Card bicolor, buton de redare în culoarea accentului</string>
+    <string name="remixer_lock_media_soft_summary">Card ridicat cu margine teșită</string>
+    <string name="remixer_headers">Imagine de antet</string>
+    <string name="remixer_headers_summary">Selectează o imagine de fundal pentru Setările rapide</string>
+    <string name="header_switch">Folosește imaginea de antet</string>
+    <string name="header_switch_summary">Afișează o imagine în spatele Setărilor rapide</string>
+    <string name="header_source">Sursă</string>
+    <string name="header_source_collection">Colecție</string>
+    <string name="header_collections_summary_daylight">Antetul urmează ora din zi sau trece prin colecție</string>
+    <string name="header_collections_summary_static">Deschide o colecție, apoi atinge o imagine ca să o folosești</string>
+    <string name="header_collections_empty">Nu sunt instalate colecții de antet</string>
+    <string name="header_images_daylight">În această colecție</string>
+    <plurals name="header_image_count">
+        <item quantity="one">%d imagine</item>
+        <item quantity="few">%d imagini</item>
+        <item quantity="other">%d de imagini</item>
+    </plurals>
+    <string name="header_photo_summary">Orice fotografie sau GIF animat din galerie</string>
+    <string name="header_height">Înălțime</string>
+    <string name="header_height_value">Înălțime · %1$d dp</string>
+    <string name="header_shadow">Întunecat</string>
+    <string name="header_shadow_value">Întunecare · %1$d%%</string>
+    <string name="header_failed">Nu s-a putut salva setarea antetului</string>
+    <string name="remixer_weather_summary">Serviciul meteo și unități</string>
+    <string name="font_preview_notification">Așa va citi telefonul tău.</string>
+    <string name="font_try_text">Încearcă propriul text</string>
+    <string name="font_previewing">Previzualizare</string>
+    <string name="font_current">Font curent</string>
+    <string name="font_badge_current">Curent</string>
+    <string name="font_apply_done">Aplicat</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Afișaj</string>
+    <string name="font_filter_script">Scriere</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Font aplicat</string>
+    <string name="font_failed">Nu s-a putut aplica fontul</string>
+    <string name="wallpaper_set">Imagine de fundal setată</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">%d imagine de fundal din Resurrected Remix. Atinge una ca să o previzualizezi.</item>
+        <item quantity="few">%d imagini de fundal din Resurrected Remix. Atinge una ca să o previzualizezi.</item>
+        <item quantity="other">%d de imagini de fundal din Resurrected Remix. Atinge una ca să o previzualizezi.</item>
+    </plurals>
+    <string name="wallpaper_apply_both">Ambele</string>
+    <string name="wallpaper_failed">Nu s-a putut seta imaginea de fundal</string>
+    <string name="missing_app">Aplicația nu este instalată</string>
+    <string name="remixer_spoofing">Falsificare</string>
+    <string name="remixer_spoofing_summary">Play Integrity, identitatea dispozitivului și falsificare pe aplicație</string>
+    <string name="remixer_settings_style">Stil setări</string>
+    <string name="remixer_settings_style_original">Original</string>
+    <string name="rr_maintainer">Întreținător</string>
+    <string name="remixer_navbar_summary">Lungimea, grosimea și aspectul pastilei</string>
+    <string name="remixer_navbar_pill_length">Lungime pastilă de gesturi</string>
+    <string name="remixer_navbar_pill_thickness">Grosime pastilă de gesturi</string>
+    <string name="remixer_navbar_pill_auto_hide">Estompează pastila de gesturi</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Ascunde pastila după câteva secunde; reapare când atingi ecranul</string>
+    <string name="remixer_navbar_ime">Butoane de tastatură</string>
+    <string name="remixer_navbar_ime_summary">Afișează butoanele înapoi și de comutare a tastaturii sub tastatură</string>
+    <string name="remixer_navbar_layout">Aspect butoane</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Scurt</item>
+        <item>Normal</item>
+        <item>Lung</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Cel mai subțire</item>
+        <item>Mai subțire</item>
+        <item>Subțire</item>
+        <item>Normal</item>
+        <item>Gros</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Normal</item>
+        <item>Compact</item>
+        <item>"Înclinat spre stânga"</item>
+        <item>"Înclinat spre dreapta"</item>
+    </string-array>
 </resources>

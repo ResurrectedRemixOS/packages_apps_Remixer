@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Rafhlaða"</string>
     <string name="battery_style_title">"Stíll"</string>
+    <string-array name="battery_style_entries">
+        <item>Andlitsmynd</item>
+        <item>"Hringur"</item>
+        <item>Punktahringur</item>
+        <item>Neonhringur</item>
+        <item>Mjó pilla</item>
+        <item>Stórt prósentuhlutfall</item>
+        <item>Texti</item>
+    </string-array>
+    <string name="battery_percent_title">Prósentuhlutfall</string>
+    <string-array name="battery_percent_entries">
+        <item>Falið</item>
+        <item>Innan í táknmynd</item>
+        <item>Við hliðina</item>
+    </string-array>
+    <string name="battery_ring_color_title">Litur neonhrings</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Eftir stigi er áherslulitur yfir 20%%, rauður undir því og gulbrúnn í rafhlöðusparnaði.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Eftir stigi</item>
+        <item>Áherslulitur</item>
+        <item>"Hvítur"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Neisti við hleðslu</string>
+    <string name="battery_ring_tile_title">Sami hringur á flýtistillingareitnum</string>
+    <string name="battery_ring_tile_summary">Með stigi og skjátíma</string>
 </resources>

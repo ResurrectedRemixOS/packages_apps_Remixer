@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">যখন</string>
+    <string name="nightstand_title">নাইটস্ট্যান্ড</string>
+    <string name="nightstand_summary">রাতে চার্জে থাকার সময় অ্যালওয়েজ-অন ডিসপ্লেতে একটি ম্লান বেডসাইড ঘড়ি</string>
+    <string-array name="nightstand_when_entries">
+        <item>"বন্ধ আছে"</item>
+        <item>রাতে চার্জারে থাকলে</item>
+        <item>প্রতি রাতে, নির্ধারিত সময়ে</item>
+        <item>ঘুমানোর মোড চালু থাকলে</item>
+    </string-array>
+    <string name="nightstand_from">রাত শুরু</string>
+    <string name="nightstand_to">রাত শেষ</string>
+    <string name="nightstand_brightness">উজ্জ্বলতার সীমা</string>
+    <string name="nightstand_brightness_summary">নাইটস্ট্যান্ড চালু থাকলে অ্যালওয়েজ-অন ডিসপ্লে সর্বোচ্চ কতটা উজ্জ্বল হতে পারবে</string>
+    <string name="nightstand_face">ঘড়ির ফেস</string>
+    <string name="nightstand_face_keep">বর্তমান ফেস রাখুন</string>
+    <string name="nightstand_footer">নাইটস্ট্যান্ড চলার সময় অ্যালওয়েজ-অন ডিসপ্লে চালু করে এবং পরে আগের অবস্থায় ফেরায়। চার্জার খুললে, অ্যালার্ম বাজলে বা রাত শেষ হলে এটি বন্ধ হয়। ফেস শুধু দুটি কাস্টম ফেসের মধ্যে বদলায়; সিস্টেম ঘড়ি একই থাকে।</string>
 </resources>

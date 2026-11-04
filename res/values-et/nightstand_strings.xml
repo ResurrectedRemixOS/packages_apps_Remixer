@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Millal?"</string>
+    <string name="nightstand_title">Öökell</string>
+    <string name="nightstand_summary">Hämar voodikell püsivalt sees oleval ekraanil laadimise ajal öösel</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Väljas"</item>
+        <item>Laadijal öösel</item>
+        <item>Igal õhtul, ajakava järgi</item>
+        <item>Kui magamisrežiim on sees</item>
+    </string-array>
+    <string name="nightstand_from">Öö algab</string>
+    <string name="nightstand_to">Öö lõpeb</string>
+    <string name="nightstand_brightness">Heleduse piirang</string>
+    <string name="nightstand_brightness_summary">Kui hele võib püsivalt sees olev ekraan öökella ajal olla</string>
+    <string name="nightstand_face">Kellakujundus</string>
+    <string name="nightstand_face_keep">Hoia praegune kujundus</string>
+    <string name="nightstand_footer">Öökell lülitab püsivalt sees oleva ekraani töötamise ajaks sisse ja pärast seda tagasi. See lõpeb, kui laadija eemaldatakse, alarm heliseb või öö lõpeb. Kujundus vahetab ainult kahe kohandatud kujunduse vahel; süsteemne kell jääb samaks.</string>
 </resources>

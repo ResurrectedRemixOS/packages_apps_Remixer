@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glance_title">एका नजरेत</string>
+    <string name="glance_summary">स्टॉक घड्याळाखाली Google ची तारीख, हवामान आणि कार्ड्स दाखवा, Pixel प्रमाणे. घड्याळाच्या डिझाइनची स्वतःची ओळ कायम राहते</string>
+</resources>

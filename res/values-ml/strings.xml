@@ -83,4 +83,215 @@
     <string name="wallpaper_apply_lock">"ലോക്ക് സ്‌ക്രീൻ"</string>
     <string name="remixer_settings_style_original">"യഥാർത്ഥമായത്"</string>
     <string name="remixer_navbar_category">"നാവിഗേഷൻ ബാർ"</string>
+    <string name="remixer_dashboard_summary">സ്റ്റാറ്റസ് ബാർ, തീം, ലോക്ക് സ്‌ക്രീൻ, എന്നിവയും മറ്റും</string>
+    <string name="rr_homepage_battery_saver">ബാറ്ററി സേവർ</string>
+    <string name="rr_homepage_personalize">വ്യക്തിഗതമാക്കുക</string>
+    <string name="rr_homepage_privacy">സ്വകാര്യതയും സുരക്ഷയും</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> സൗജന്യം</string>
+    <string name="rr_homepage_charged">പൂർണ്ണമായി ചാർജ് ചെയ്തു</string>
+    <string name="rr_homepage_on_battery">ബാറ്ററിയിൽ</string>
+    <string name="rr_homepage_saver_on">ബാറ്ററി സേവർ ഓൺ</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> ഉപകരണം</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> ഉപകരണങ്ങൾ</item>
+    </plurals>
+    <string name="rr_homepage_extras">അധിക ക്രമീകരണങ്ങൾ</string>
+    <string name="rr_homepage_saver">സേവർ</string>
+    <string name="rr_homepage_signed_out">സൈൻ ഇൻ ചെയ്തിട്ടില്ല</string>
+    <string name="rr_homepage_remixer_tagline">ഇത് നിങ്ങളുടേതാക്കുക. സ്റ്റാറ്റസ് ബാർ, തീം, ലോക്ക് സ്‌ക്രീൻ എന്നിവയും മറ്റും.</string>
+    <string name="rr_homepage_device_tagline">അലർട്ട് സ്ലൈഡർ, ഡിസ്പ്ലേ, ചാർജിംഗ്, GameBar.</string>
+    <string name="rr_homepage_device_action">ക്രമീകരിക്കുക</string>
+    <string name="rr_group_network">നെറ്റ്‌വർക്കും ഉപകരണങ്ങളും</string>
+    <string name="rr_group_network_summary">Wi‑Fi, മൊബൈൽ, ബ്ലൂടൂത്ത്</string>
+    <string name="rr_group_apps_summary">ആപ്പുകൾ, അറിയിപ്പുകൾ, Modes</string>
+    <string name="rr_group_display">ഡിസ്പ്ലേയും ശബ്ദവും</string>
+    <string name="rr_group_display_summary">ഡിസ്പ്ലേ, വാൾപേപ്പർ, ശബ്ദം</string>
+    <string name="rr_group_security_summary">ലോക്ക്, ലൊക്കേഷൻ, അടിയന്തരം</string>
+    <string name="rr_group_security_center">സെക്യൂരിറ്റി സെന്റർ</string>
+    <string name="rr_group_accounts">Google, അക്കൗണ്ടുകൾ</string>
+    <string name="rr_group_accounts_summary">Google, പാസ്‌വേഡുകൾ, ബാക്കപ്പ്</string>
+    <string name="rr_group_accounts_plain_summary">പാസ്‌വേഡുകൾ, അക്കൗണ്ടുകൾ, ബാക്കപ്പ്</string>
+    <string name="rr_group_system_summary">ഭാഷകൾ, ഗസ്റ്ററുകൾ, അപ്‌ഡേറ്റുകൾ</string>
+    <string name="remixer_tagline">ഇത് നിങ്ങളുടേതാക്കുക.</string>
+    <string name="remixer_remix">റീമിക്സ് ചെയ്യുക</string>
+    <string name="remixer_remixed"><xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g> ഉപയോഗിച്ച് റീമിക്സ് ചെയ്തത്</string>
+    <string name="remixer_chip_shade_default">ഷേഡ് · ഡിഫോൾട്ട്</string>
+    <string name="remixer_quick">വേഗത്തിലുള്ള റീമിക്സ്</string>
+    <string name="remixer_everything">എല്ലാം</string>
+    <string name="remixer_quick_accents">പ്രീസെറ്റുകളോ ഏത് നിറവുമോ</string>
+    <string name="remixer_quick_fonts">സിസ്റ്റം ഫോണ്ട് ശൈലികൾ</string>
+    <string name="remixer_quick_walls">RR ശേഖരം</string>
+    <string name="remixer_quick_header">QS ഹെഡർ</string>
+    <string name="remixer_quick_header_summary">ഹെഡർ ചിത്രങ്ങൾ</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">ക്ലോക്ക്, ബാറ്ററി, ഐക്കണുകൾ, നെറ്റ്‌വർക്ക് ട്രാഫിക് എന്നിവ</string>
+    <string name="remixer_qs_summary">ഹെഡർ ചിത്രം</string>
+    <string name="remixer_notifications_summary">എഡ്ജ് ലൈറ്റിംഗ്, ആപ്പ് ഐക്കണുകൾ, ചാർജിംഗ് ശബ്ദങ്ങൾ</string>
+    <string name="remixer_theme_summary">ഫോണ്ടുകൾ, ആക്സന്റുകൾ, വാൾപേപ്പറുകൾ</string>
+    <string name="remixer_lockscreen_summary">UDFPS, ചാർജിംഗ് വിവരം, കാലാവസ്ഥ</string>
+    <string name="remixer_udfps_icon">UDFPS ഐക്കൺ</string>
+    <string name="remixer_udfps_icon_summary">ഫിംഗർപ്രിന്റ് സെൻസറിന് മുകളിൽ കാണിക്കും</string>
+    <string name="remixer_udfps_animation">UDFPS ആനിമേഷൻ</string>
+    <string name="remixer_udfps_animation_summary">വിരൽ സെൻസറിൽ ഉള്ളപ്പോൾ പ്രവർത്തിക്കും</string>
+    <string name="remixer_navigation">നാവിഗേഷൻ</string>
+    <string name="remixer_navigation_summary">Pulse, ബട്ടണുകൾ, നാവിഗേഷൻ ബാർ</string>
+    <string name="remixer_misc_summary">വോള്യം, ബാക്കപ്പ്, സ്പൂഫിംഗ്, സ്ക്രോളിംഗ്, USB</string>
+    <string name="scroll_haptics_title">സ്ക്രോളിന്റെ അവസാനത്തിൽ ടാപ്പ് ചെയ്യുക</string>
+    <string name="scroll_haptics_summary">ലിസ്റ്റോ പേജോ മുന്നോട്ട് പോകാനാകാത്തപ്പോൾ നേരിയ വൈബ്രേഷൻ</string>
+    <string name="usb_mode_picker_title">USB മോഡ് തിരഞ്ഞെടുക്കൽ</string>
+    <string name="usb_mode_picker_summary">കമ്പ്യൂട്ടറിലേക്ക് കണക്ട് ചെയ്യുമ്പോൾ ഒരു മോഡ് തിരഞ്ഞെടുക്കുക</string>
+    <string name="remixer_fonts_summary">സിസ്റ്റം ഫോണ്ട്</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix വാൾപേപ്പറുകൾ</string>
+    <string name="remixer_accents">ആക്സന്റുകൾ</string>
+    <string name="remixer_accents_summary">ആക്സന്റ് നിറം</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">സ്ക്രീനിന്റെ അടിഭാഗത്തുള്ള മ്യൂസിക് വിഷ്വലൈസർ</string>
+    <string name="pulse_switch">Pulse ഉപയോഗിക്കുക</string>
+    <string name="pulse_switch_summary">മീഡിയ പ്ലേ ചെയ്യുമ്പോൾ സ്ക്രീനിന്റെ അടിഭാഗത്ത് മ്യൂസിക് ബാറുകൾ</string>
+    <string name="pulse_preview_title">ഇപ്പോൾ പ്ലേ ചെയ്യുന്നത്</string>
+    <string name="pulse_style_lines">ലൈനുകൾ</string>
+    <string name="pulse_style_fading">ഫേഡിംഗ്</string>
+    <string name="pulse_style_blocks">ബ്ലോക്കുകൾ</string>
+    <string name="pulse_style_mirror">മിറർ</string>
+    <string name="pulse_color_custom">ഇഷ്ടാനുസൃതം</string>
+    <string name="pulse_color_gradient">മഴവില്ല്</string>
+    <string name="pulse_bars">ബാറുകൾ</string>
+    <string name="pulse_bars_value">ബാറുകൾ · %1$d</string>
+    <string name="pulse_height">ഉയരം</string>
+    <string name="pulse_height_value">ഉയരം · %1$d dp</string>
+    <string name="pulse_opacity">അതാര്യത</string>
+    <string name="pulse_opacity_value">അതാര്യത · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">സംഗീതം പ്ലേ ചെയ്യുമ്പോൾ ലോക്ക് സ്‌ക്രീനിൽ ബാറുകൾ നിലനിർത്തുക</string>
+    <string name="pulse_failed">ആ Pulse ക്രമീകരണം സേവ് ചെയ്യാനായില്ല</string>
+    <string name="accent_applied">ആക്സന്റ് പ്രയോഗിച്ചു</string>
+    <string name="accent_current">ആക്സന്റ് · %1$s</string>
+    <string name="accent_current_custom">ആക്സന്റ് · ഇഷ്ടാനുസൃതം</string>
+    <string name="accent_preview_tonal">ടോണൽ</string>
+    <string name="accent_failed">ആ ആക്സന്റ് പ്രയോഗിക്കാനായില്ല</string>
+    <string name="accent_custom">ഇഷ്ടാനുസൃതം</string>
+    <string name="accent_custom_summary">ഏത് നിറവും ഉപയോഗിക്കാം. ഷേഡ് ഇതിന് മുകളിൽ ബാധകമാകും.</string>
+    <string name="accent_custom_pad">സാച്ചുറേഷനും തെളിച്ചവും</string>
+    <string name="accent_custom_use"><xliff:g id="color" example="#12B5A6">%1$s</xliff:g> ഉപയോഗിക്കുക</string>
+    <string name="accent_shade">ഷേഡ്</string>
+    <string name="accent_shade_darker">ഇരുണ്ടത്</string>
+    <string name="accent_shade_lighter">ഇളം</string>
+    <string name="accent_shade_darker_value">ഇരുണ്ടത് · %1$d</string>
+    <string name="accent_shade_lighter_value">ഇളം · %1$d</string>
+    <string name="remixer_qs_style">QS ശൈലി</string>
+    <string name="remixer_qs_style_preview">പ്രിവ്യൂ · %1$s</string>
+    <string name="remixer_qs_style_note">എല്ലാ ശൈലികളും നിങ്ങളുടെ ആക്സന്റ് നിറം പിന്തുടരും. വോളിയം പാനലിൽ Bento, Shapes, Blueprint, Duo, Soft ശൈലികളുമുണ്ട്. Stock Lineage ആൻഡ്രോയിഡ് 17 ടൈലുകൾ മാറ്റാതെ നിലനിർത്തും.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">ആൻഡ്രോയിഡ് 17 ടൈലുകൾ, മാറ്റമില്ലാതെ</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">ആക്സന്റ് കാർഡിൽ തെളിച്ചം. ടൈലുകൾ ആക്സന്റ് ഗ്രേഡിയന്റിൽ നിറയും</string>
+    <string name="remixer_qs_style_compact">കോംപാക്റ്റ്</string>
+    <string name="remixer_qs_style_compact_summary">ചെറിയ ടൈലുകൾ. ഒരു സ്ക്രീനിൽ കൂടുതൽ ടൈലുകൾ</string>
+    <string name="remixer_qs_style_glass">Glass</string>
+    <string name="remixer_qs_style_glass_summary">ഓൺ ആകുമ്പോൾ ആക്സന്റിൽ തിളങ്ങുന്ന, സുതാര്യമായ രൂപരേഖ ടൈലുകൾ</string>
+    <string name="remixer_qs_style_circles">സർക്കിളുകൾ</string>
+    <string name="remixer_qs_style_circles_summary">ലേബലുകളുള്ള വൃത്താകൃതിയിലുള്ള ടോഗിളുകൾ. വീതിയുള്ള ടൈലുകൾ കാർഡുകളാകും</string>
+    <string name="remixer_qs_style_classic">ക്ലാസിക്</string>
+    <string name="remixer_qs_style_classic_summary">ഓൾഡ് സ്കൂൾ RR: ലേബലോടുകൂടിയ ഐക്കണുകൾ, ഒരു വരിയിൽ അഞ്ച്, നേർത്ത സ്ലൈഡർ</string>
+    <string name="remixer_qs_style_cards">കാർഡുകൾ</string>
+    <string name="remixer_qs_style_cards_summary">ഓരോ പേരിനും താഴെ നിലവിലെ അവസ്ഥയുള്ള വലിയ കാർഡുകൾ, ഒരു വരിയിൽ മൂന്നെണ്ണം</string>
+    <string name="remixer_qs_style_neon">Neon</string>
+    <string name="remixer_qs_style_neon_summary">ഓൺ ആകുമ്പോൾ ആക്സന്റിൽ തിളങ്ങുന്ന രൂപരേഖ ടൈലുകൾ</string>
+    <string name="remixer_qs_style_bento_summary">ആക്സന്റ് നിറച്ച വലിയ വൃത്താകൃതിയിലുള്ള ബ്ലോക്കുകൾ, ചെറിയവയ്ക്ക് താഴെ ലേബലുകൾ</string>
+    <string name="remixer_qs_style_shapes">ഷേപ്പുകൾ</string>
+    <string name="remixer_qs_style_shapes_summary">ഓൺ ആകുമ്പോൾ ലോബുകൾ വളരുന്ന വൃത്താകൃതിയിലുള്ള ടോഗിളുകൾ, ഒരു വരിയിൽ അഞ്ചെണ്ണം</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">നേർത്ത രൂപരേഖകളും മോണോസ്പേസ് വലിയ അക്ഷരങ്ങളും</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">രണ്ടായി പിരിഞ്ഞ ടൈലുകൾ. ഐക്കൺ ഭാഗം തെളിഞ്ഞ് ടോഗിൾ ചെയ്യും</string>
+    <string name="remixer_qs_style_soft">Soft</string>
+    <string name="remixer_qs_style_soft_summary">ഓൺ ആകുമ്പോൾ അമർത്തിയതുപോലെ ഉയർന്ന ടൈലുകൾ</string>
+    <string name="remixer_lock_media_style">മീഡിയ പ്ലെയർ ശൈലി</string>
+    <string name="remixer_lock_media_same">ദ്രുത ക്രമീകരണത്തിന്റെ അതേത്</string>
+    <string name="remixer_lock_media_same_summary">QS മീഡിയ ടൈൽ പിന്തുടരുന്നു, ഇപ്പോൾ %1$s</string>
+    <string name="remixer_lock_media_off_summary">ലോക്ക് സ്‌ക്രീനിൽ പ്ലെയർ ഇല്ല</string>
+    <string name="remixer_lock_media_note">എന്തെങ്കിലും പ്ലേ ചെയ്യുമ്പോൾ ലോക്ക് സ്‌ക്രീനിൽ കാർഡ് കാണിക്കും. സുതാര്യ ശൈലികൾക്ക് വാൾപേപ്പറിന് മുകളിലും വായിക്കാൻ കഴിയുന്നതിനായി ഇരുണ്ട പശ്ചാത്തലം ലഭിക്കും.</string>
+    <string name="remixer_lock_media_stock_summary">ആൽബം ആർട്ട് കാർഡ് നിറയ്ക്കും</string>
+    <string name="remixer_lock_media_remix_summary">ഇരുണ്ട കാർഡ്, ആക്സന്റ് പ്ലേ ബട്ടൺ</string>
+    <string name="remixer_lock_media_compact_summary">കൂടുതൽ വൃത്താകൃതിയിലുള്ള കാർഡ്, വൃത്താകൃതിയിലുള്ള ആർട്ട്‌വർക്ക്</string>
+    <string name="remixer_lock_media_glass_summary">രൂപരേഖയുള്ള സുതാര്യ കാർഡ്</string>
+    <string name="remixer_lock_media_circles_summary">മൃദുവായ കാർഡ്, ആക്സന്റ് പ്ലേ ബട്ടൺ</string>
+    <string name="remixer_lock_media_classic_summary">ചതുരാകൃതി കൂടിയ കാർഡ്, രൂപരേഖയുള്ള പ്ലേ ബട്ടൺ</string>
+    <string name="remixer_lock_media_cards_summary">മൃദുവായ കാർഡ്, ആക്സന്റ് പ്ലേ ബട്ടൺ, സർക്കിളുകൾ പോലെ</string>
+    <string name="remixer_lock_media_neon_summary">ആക്സന്റ് രൂപരേഖയുള്ള കറുത്ത കാർഡ്</string>
+    <string name="remixer_lock_media_bento_summary">മൃദുവായ കാർഡ്, ആക്സന്റ് പ്ലേ ബട്ടൺ</string>
+    <string name="remixer_lock_media_shapes_summary">കൂടുതൽ വൃത്താകൃതിയിലുള്ള കാർഡ്, ആക്സന്റ് പ്ലേ ബട്ടൺ</string>
+    <string name="remixer_lock_media_blueprint_summary">നേർത്ത രൂപരേഖ, രൂപരേഖയുള്ള പ്ലേ ബട്ടൺ</string>
+    <string name="remixer_lock_media_duo_summary">രണ്ട് നിറങ്ങളുള്ള കാർഡ്, ആക്സന്റ് പ്ലേ ബട്ടൺ</string>
+    <string name="remixer_lock_media_soft_summary">ബെവൽ ചെയ്ത അരികുള്ള ഉയർന്ന കാർഡ്</string>
+    <string name="remixer_headers">ഹെഡർ ചിത്രം</string>
+    <string name="remixer_headers_summary">ദ്രുത ക്രമീകരണത്തിനായി പശ്ചാത്തല ചിത്രം തിരഞ്ഞെടുക്കുക</string>
+    <string name="header_switch">ഹെഡർ ചിത്രം ഉപയോഗിക്കുക</string>
+    <string name="header_switch_summary">ദ്രുത ക്രമീകരണത്തിന് പിന്നിൽ ഒരു ചിത്രം കാണിക്കുക</string>
+    <string name="header_source">ഉറവിടം</string>
+    <string name="header_source_collection">ശേഖരം</string>
+    <string name="header_collections_summary_daylight">ദിവസത്തിന്റെ സമയമനുസരിച്ച് ഹെഡർ മാറും, അല്ലെങ്കിൽ ശേഖരത്തിൽ നിന്ന് മാറിമാറി വരും</string>
+    <string name="header_collections_summary_static">ഒരു ശേഖരം തുറന്ന് ഒരു ചിത്രത്തിൽ ടാപ്പ് ചെയ്ത് ഉപയോഗിക്കുക</string>
+    <string name="header_collections_empty">ഹെഡർ ശേഖരങ്ങളൊന്നും ഇൻസ്റ്റാൾ ചെയ്തിട്ടില്ല</string>
+    <string name="header_images_daylight">ഈ ശേഖരത്തിൽ</string>
+    <plurals name="header_image_count">
+        <item quantity="one">%d ചിത്രം</item>
+        <item quantity="other">%d ചിത്രങ്ങൾ</item>
+    </plurals>
+    <string name="header_photo_summary">നിങ്ങളുടെ ഗാലറിയിലെ ഏത് ഫോട്ടോയും അല്ലെങ്കിൽ ആനിമേറ്റഡ് GIF-ഉം</string>
+    <string name="header_height">ഉയരം</string>
+    <string name="header_height_value">ഉയരം · %1$d dp</string>
+    <string name="header_shadow">മങ്ങിയത്</string>
+    <string name="header_shadow_value">മങ്ങിയത് · %1$d%%</string>
+    <string name="header_failed">ആ ഹെഡർ ക്രമീകരണം സേവ് ചെയ്യാനായില്ല</string>
+    <string name="remixer_weather_summary">കാലാവസ്ഥാ സേവനവും യൂണിറ്റുകളും</string>
+    <string name="font_preview_notification">നിങ്ങളുടെ ഫോൺ ഇങ്ങനെയായിരിക്കും വായിക്കുക.</string>
+    <string name="font_try_text">നിങ്ങളുടെ സ്വന്തം ടെക്സ്റ്റ് പരീക്ഷിക്കുക</string>
+    <string name="font_previewing">പ്രിവ്യൂ ചെയ്യുന്നു</string>
+    <string name="font_current">നിലവിലെ ഫോണ്ട്</string>
+    <string name="font_badge_current">നിലവിലുള്ളത്</string>
+    <string name="font_apply_done">പ്രയോഗിച്ചു</string>
+    <string name="font_filter_sans">സാൻസ്</string>
+    <string name="font_filter_display">ഡിസ്പ്ലേ</string>
+    <string name="font_filter_script">സ്ക്രിപ്റ്റ്</string>
+    <string name="font_filter_mono">മോണോ</string>
+    <string name="font_applied">ഫോണ്ട് പ്രയോഗിച്ചു</string>
+    <string name="font_failed">ആ ഫോണ്ട് പ്രയോഗിക്കാനായില്ല</string>
+    <string name="wallpaper_set">വാൾപേപ്പർ സെറ്റ് ചെയ്തു</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">Resurrected Remix-ൽ നിന്നുള്ള %d വാൾപേപ്പർ. പ്രിവ്യൂ കാണാൻ ഒന്നിൽ ടാപ്പ് ചെയ്യുക.</item>
+        <item quantity="other">Resurrected Remix-ൽ നിന്നുള്ള %d വാൾപേപ്പറുകൾ. പ്രിവ്യൂ കാണാൻ ഒന്നിൽ ടാപ്പ് ചെയ്യുക.</item>
+    </plurals>
+    <string name="wallpaper_apply_both">രണ്ടും</string>
+    <string name="wallpaper_failed">ആ വാൾപേപ്പർ സെറ്റ് ചെയ്യാനായില്ല</string>
+    <string name="missing_app">ആ ആപ്പ് ഇൻസ്റ്റാൾ ചെയ്തിട്ടില്ല</string>
+    <string name="remixer_spoofing">സ്പൂഫിംഗ്</string>
+    <string name="remixer_spoofing_summary">Play Integrity, ഉപകരണ ഐഡന്റിറ്റി, ഓരോ ആപ്പിനുമുള്ള സ്പൂഫിംഗ്</string>
+    <string name="remixer_settings_style">ക്രമീകരണ ശൈലി</string>
+    <string name="rr_maintainer">മെയിന്റെയ്നർ</string>
+    <string name="remixer_navbar_summary">Pill നീളം, കനം, ലേഔട്ട്</string>
+    <string name="remixer_navbar_pill_length">ഗസ്റ്റർ Pill നീളം</string>
+    <string name="remixer_navbar_pill_thickness">ഗസ്റ്റർ Pill കനം</string>
+    <string name="remixer_navbar_pill_auto_hide">ഗസ്റ്റർ Pill മങ്ങിക്കുക</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">കുറച്ച് സെക്കൻഡിന് ശേഷം Pill മറയ്ക്കുക; സ്ക്രീനിൽ തൊടുമ്പോൾ അത് തിരികെ വരും</string>
+    <string name="remixer_navbar_ime">കീബോർഡ് ബട്ടണുകൾ</string>
+    <string name="remixer_navbar_ime_summary">കീബോർഡിന് താഴെ ബാക്ക്, കീബോർഡ് സ്വിച്ചർ ബട്ടണുകൾ കാണിക്കുക</string>
+    <string name="remixer_navbar_layout">ബട്ടൺ ലേഔട്ട്</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>ചെറുത്</item>
+        <item>സാധാരണം</item>
+        <item>നീളമുള്ളത്</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>ഏറ്റവും നേർത്തത്</item>
+        <item>കൂടുതൽ നേർത്തത്</item>
+        <item>നേർത്തത്</item>
+        <item>സാധാരണം</item>
+        <item>കട്ടിയുള്ളത്</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>സാധാരണം</item>
+        <item>കോംപാക്റ്റ്</item>
+        <item>"ഇടത്തേക്ക് ചാഞ്ഞിരിക്കുന്നത്"</item>
+        <item>"വലത്തേക്ക് ചാഞ്ഞിരിക്കുന്നത്"</item>
+    </string-array>
 </resources>

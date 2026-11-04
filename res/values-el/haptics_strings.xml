@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Μπλε"</string>
     <string name="haptic_remix_color_green">"Πράσινο"</string>
     <string name="haptic_remix_color_white">"Λευκό"</string>
+    <string name="haptic_remix_summary">Πατήστε για να δημιουργήσετε μοτίβα δόνησης για κλήσεις, εφαρμογές, ξυπνητήρια και ξεκλειδώματα</string>
+    <string name="haptic_remix_record">Εγγραφή</string>
+    <string name="haptic_remix_pad">πατήστε τον ρυθμό</string>
+    <string name="haptic_remix_strength">Ένταση</string>
+    <string name="haptic_remix_clear">Εκκαθάριση</string>
+    <string name="haptic_remix_play">Αναπαραγωγή</string>
+    <string name="haptic_remix_name">Όνομα μοτίβου</string>
+    <string name="haptic_remix_empty">Δεν έχει εγγραφεί τίποτα ακόμα</string>
+    <string name="haptic_remix_too_long">Ένα μοτίβο μπορεί να διαρκεί έως 30 δευτερόλεπτα</string>
+    <string name="haptic_remix_presets">Προεπιλογές</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Γυαλί</string>
+    <string name="haptic_remix_preset_ringtone">Ρυθμός του ήχου κλήσης</string>
+    <string name="haptic_remix_listening">Ακούγεται ο ήχος κλήσης…</string>
+    <string name="haptic_remix_no_ringtone">Ο ήχος κλήσης δεν μπόρεσε να διαβαστεί</string>
+    <string name="haptic_remix_patterns">Τα μοτίβα σας</string>
+    <string name="haptic_remix_patterns_none">Αποθηκεύστε πρώτα ένα μοτίβο. Πατήστε παρατεταμένα για να το διαγράψετε.</string>
+    <string name="haptic_remix_broken">Αυτό το μοτίβο δεν μπορεί να διαβαστεί</string>
+    <string name="haptic_remix_delete">Διαγραφή του <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>;</string>
+    <string name="haptic_remix_assign">Αντιστοίχιση σε</string>
+    <string name="haptic_remix_alarm">Ξυπνητήρι και χρονόμετρο</string>
+    <string name="haptic_remix_plug">Συνδεδεμένο στο ρεύμα</string>
+    <string name="haptic_remix_fingerprint">Επιτυχία δακτυλικού αποτυπώματος</string>
+    <string name="haptic_remix_add_contact">Προσθήκη επαφής</string>
+    <string name="haptic_remix_edge_color">Φωτισμός άκρων για τα μηνύματα του <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">Έμφαση</string>
+    <string name="haptic_remix_color_crimson">Καρμίνι</string>
+    <string name="haptic_remix_color_amber">Κεχριμπαρί</string>
+    <string name="haptic_remix_add_app">Προσθήκη ειδοποιήσεων εφαρμογής</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · Πατήστε για αλλαγή, κρατήστε πατημένο για το χρώμα άκρων</string>
+    <string name="haptic_remix_no_contacts">Δεν επέστρεψε αριθμός από τις Επαφές</string>
 </resources>

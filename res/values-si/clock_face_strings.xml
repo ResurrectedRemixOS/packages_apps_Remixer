@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"පෙරනිමි"</string>
     <string name="clock_faces_size">"තරම"</string>
     <string name="clock_faces_restart">"යළි අරඹන්න"</string>
+    <string name="remixer_clock_faces">ඔරලෝසු මුහුණු</string>
+    <string name="clock_faces_system">පද්ධති ඔරලෝසුව</string>
+    <string name="clock_faces_system_desc">වෝල්පේපර සහ ශෛලිය වෙතින් ඇති ඔරලෝසුව</string>
+    <string name="clock_faces_position">%2$d න් %1$d</string>
+    <string name="clock_faces_applied">යොදන ලදි</string>
+    <string name="clock_faces_preview_unavailable">පෙරදසුන ලබා ගත නොහැක</string>
+    <string name="clock_faces_failed">ඔරලෝසුව වෙනස් කළ නොහැකි විය</string>
+    <string name="clock_faces_color_accent">උච්චාරණ</string>
+    <string name="clock_faces_color_custom">අභිරුචි</string>
+    <string name="clock_faces_color_album">ඇල්බම කලාව</string>
+    <string name="clock_faces_color_gradient">අනුක්‍රමණය</string>
+    <string name="clock_faces_own_colors">මෙම මුහුණ තමාගේම වර්ණ තබා ගනී.</string>
+    <string name="clock_faces_album_hint">ගීතය වාදනය වන විට ඇල්බම කලාවෙන් එහි වර්ණය ලබා ගනී.</string>
+    <string name="clock_faces_size_position">ප්‍රමාණය සහ පිහිටීම</string>
+    <string name="clock_faces_size_value">ප්‍රමාණය · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">මුදුනේ සිට දුර</string>
+    <string name="clock_faces_top_value">මුදුනේ සිට දුර · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">තිරස් පිහිටීම</string>
+    <string name="clock_faces_horizontal_center">තිරස් පිහිටීම · මැද</string>
+    <string name="clock_faces_horizontal_right">තිරස් පිහිටීම · දකුණට <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_left">තිරස් පිහිටීම · වමට <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_fixed">මෙම මුහුණ මැදම රැඳේ.</string>
+    <string name="clock_faces_opacity">අපාරදෘශ්‍යතාව</string>
+    <string name="clock_faces_opacity_value">අපාරදෘශ්‍යතාව · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">චලනය</string>
+    <string name="clock_faces_wobble">ආරෝපණය වෙමින් සැලීම</string>
+    <string name="clock_faces_wobble_summary">ප්ලග් කළ විට එක් වරක් පනියි</string>
+    <string name="clock_faces_aod_anim">සැමවිටම-පෙන්වන සිරස් තිර සංක්‍රමණය</string>
+    <string name="clock_faces_aod_anim_summary">සැමවිටම-පෙන්වන තිරයට ඔරලෝසුව හැකිලී මැකී යයි</string>
+    <string name="clock_faces_restart_title">අගුලු තිරය යළි ආරම්භ කරන්නද?</string>
+    <string name="clock_faces_restart_message">පද්ධති ඔරලෝසුව සහ අභිරුචි මුහුණු අතර මාරු වීම SystemUI යළි ආරම්භ කරයි. තිරය තත්පරයක් අඳුරු වේ.</string>
+    <string name="clock_faces_note">පෙරදසුන් ඔබේ අගුලු තිර වෝල්පේපරය මත SystemUI විසින් අඳින ලදී. වර්ණය, ප්‍රමාණය සහ පිහිටීම අගුලු තිරය වහාම වෙනස් කරයි.</string>
 </resources>

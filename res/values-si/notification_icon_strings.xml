@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="notification_icons_category">"නිරූපක"</string>
+    <string name="notification_app_icons_title">යෙදුම් නිරූපක</string>
+    <string name="notification_app_icons_summary">කුඩා සංකේතය වෙනුවට දැනුම්දීම් මත යෙදුමේ නිරූපකය පෙන්වන්න</string>
 </resources>

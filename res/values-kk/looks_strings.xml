@@ -15,4 +15,54 @@
     <string name="looks_save_look">"Сақтау"</string>
     <string name="looks_custom_color">"Арнаулы түс"</string>
     <string name="looks_part_clock_color">"Сағаттың түсі"</string>
+    <string name="looks_title">Looks</string>
+    <string name="looks_summary">Бүкіл баптауыңыз бір түртуде</string>
+    <string name="looks_rr">RR looks</string>
+    <string name="looks_yours">Сіздің looks</string>
+    <string name="looks_none">Әзірге сақталған жоқ</string>
+    <string name="looks_save">Ағымдағысын сақтау</string>
+    <string name="looks_import_clipboard">Алмасу буферінен</string>
+    <string name="looks_import_file">Файлдан</string>
+    <string name="looks_mine">Менің look</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> қолданылды</string>
+    <string name="looks_failed">Барлығын қолдану мүмкін болмады</string>
+    <string name="looks_invalid">Бұл RR look емес</string>
+    <string name="looks_part_accent">Акцент түсі</string>
+    <string name="looks_part_qs">Жылдам параметрлер стилі</string>
+    <string name="looks_part_clock_face">Құлыптаулы экран сағатының үлгісі</string>
+    <string name="looks_part_clock_look">Күйін көрсету жолағындағы сағат</string>
+    <string name="looks_part_edge">Шеттік жарық</string>
+    <string name="looks_part_boot">Жүктеу анимациясы</string>
+    <string name="looks_part_haptics">Haptic Remix үлгілері</string>
+    <string name="looks_saturation">Қанықтыру <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Акцент</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>” бөлісу</string>
+    <string name="looks_share_hint">Басқа RR телефонының камерасымен сканерлеңіз немесе Looks › Импорт бөлімінде</string>
+    <string name="looks_share_file">Файлмен бөлісу</string>
+    <string name="looks_save_file">Файлды сақтау</string>
+    <string name="looks_import_scan">QR кодты сканерлеу</string>
+    <string name="looks_import_title">Look импорттау</string>
+    <string name="looks_from_qr">QR кодтан</string>
+    <string name="looks_from_file">файлдан</string>
+    <string name="looks_from_clipboard">алмасу буферінен</string>
+    <string name="looks_import_same">Ол сіздің баптауыңызға сәйкес келеді.</string>
+    <string name="looks_new">Жаңа look</string>
+    <string name="looks_edit_title">Look өңдеу</string>
+    <string name="looks_in_look">Осы look ішінде</string>
+    <string name="looks_not_included">Осы look ішінде жоқ</string>
+    <string name="looks_save_apply">Сақтап, қолдану</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” сақталды</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” өшірілсін бе?</string>
+    <string name="looks_rr_wallpaper">RR тұсқағазы <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Акцент қанықтығы</string>
+    <string name="looks_part_clock_chip">Күйін көрсету жолағындағы сағат белгішесі</string>
+    <string name="looks_part_edge_style">Жиек жарықтандыру стилі</string>
+    <string name="looks_scan_hint">Look-тің QR кодына камераны бағыттаңыз</string>
+    <string name="looks_scan_failed">Камераны ашу мүмкін болмады</string>
+    <string name="look_roulette_title">Look рулеткасы</string>
+    <string-array name="look_roulette_entries">
+        <item>"Өшірулі"</item>
+        <item>Әр құлыптаудан кейін басқа Look</item>
+        <item>Әр күн сайын басқа Look</item>
+    </string-array>
 </resources>

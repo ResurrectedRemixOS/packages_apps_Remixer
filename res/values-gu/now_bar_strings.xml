@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"બટન"</string>
     <string name="now_bar_text">"ટેક્સ્ટ કરો"</string>
     <string name="now_bar_text_size">"ટેક્સ્ટ કદ"</string>
+    <string name="now_bar_summary">લૉક સ્ક્રીનના તળિયે લાઇવ પ્રવૃત્તિઓ</string>
+    <string name="now_bar_show">બતાવો</string>
+    <string name="now_bar_music">સંગીત અને વિડિયો</string>
+    <string name="now_bar_timers">ટાઇમર, સ્ટૉપવૉચ અને અલાર્મ</string>
+    <string name="now_bar_hide_call">કૉલ નોટિફિકેશન છુપાવો</string>
+    <string name="now_bar_hide_call_summary">લૉક સ્ક્રીન પર, Now Bar માં દેખાતો કૉલ નોટિફિકેશન તરીકે પણ સૂચિબદ્ધ થતો નથી</string>
+    <string name="now_bar_live">લાઇવ અપડેટ્સ</string>
+    <string name="now_bar_live_summary">નેવિગેશન, સવારી, ડિલિવરી, સ્કોર</string>
+    <string name="now_bar_scores">લાઇવ સ્કોર</string>
+    <string name="now_bar_live_apps">લાઇવ અપડેટ્સ માટેની ઍપ</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> ઍપ</string>
+    <string name="now_bar_pin">ઍલ્વેઝ-ઑન ડિસ્પ્લે પર પિન કરેલું</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> અનપિન કરીએ?</string>
+    <string name="now_bar_unpin">અનપિન કરો</string>
+    <string name="now_bar_scores_summary">ઍટ અ ગ્લાન્સમાં તમે ફૉલો કરો છો તે ગેમ્સ</string>
+    <string name="now_bar_recording">સ્ક્રીન અને અવાજ રેકૉર્ડિંગ</string>
+    <string name="now_bar_buds">ઇયરબડ્સ અને વૉચ</string>
+    <string name="now_bar_buds_summary">જોડાયેલ ઉપકરણની બૅટરી: ઇયરબડ્સ માટે ડાબું, જમણું અને કેસ</string>
+    <string name="now_bar_wave">વેવ ઍનિમેશન</string>
+    <string name="now_bar_aod">ઍલ્વેઝ-ઑન ડિસ્પ્લે પર બતાવો</string>
+    <string name="now_bar_chip">સ્ટેટસ બારમાં ચિપ</string>
+    <string name="now_bar_chip_summary">અનલૉક હોય ત્યારે ઘડિયાળની બાજુમાં સંગીત અને ટાઇમર ચાલતા હોય ત્યારે બતાવો</string>
+    <string name="now_bar_footer">Now Bar માં મ્યુઝિક હોય ત્યારે મોટું લૉક સ્ક્રીન પ્લેયર છુપાયેલું રહે છે. પ્રવૃત્તિઓ વચ્ચે બદલવા માટે બારને સ્વાઇપ કરો, નિયંત્રણો ખોલવા માટે તેને ટૅપ કરો, અને તે સમાપ્ત થાય ત્યાં સુધી કોઈ એકને છુપાવવા માટે લાંબો દબાવો. થોભાવેલું ગીત બારમાંથી કાઢવા માટે તેને સ્વાઇપ કરો.\n\nલાઇવ સ્કોર્સ Google ઍપમાં તમે અનુસરો છો તે ટીમોની રમતો બતાવે છે. Smartspacer સાથે, ત્યાં સ્પોર્ટ્સ ટાર્ગેટ ઉમેરો અને તેના સ્કોર અહીં દેખાશે.</string>
+    <string name="now_bar_looks">લૂક્સ</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"ડિફૉલ્ટ"</item>
+        <item>Liquid Glass</item>
+        <item>નાનું</item>
+        <item>મોટું</item>
+        <item>નિયૉન</item>
+        <item>ગ્લાસ કાર્ડ</item>
+    </string-array>
+    <string name="now_bar_material">મટિરિયલ</string>
+    <string name="now_bar_material_summary">Liquid Glass થીમમાં સેટ કરેલો ગ્લાસ વાપરે છે</string>
+    <string-array name="now_bar_material_entries">
+        <item>સૉલિડ</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>આલ્બમ આર્ટ</item>
+        <item>ઍક્સેન્ટ</item>
+        <item>ડાર્ક</item>
+    </string-array>
+    <string name="now_bar_opacity">અપારદર્શકતા</string>
+    <string name="now_bar_opacity_summary">Liquid Glass માં, ગ્લાસને કેટલો રંગ ટિન્ટ કરે છે</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"કોઈ નહીં"</item>
+        <item>હળવું પાતળું</item>
+        <item>ઍક્સેન્ટ</item>
+    </string-array>
+    <string name="now_bar_shadow">શેડો</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"બંધ છે"</item>
+        <item>સૉફ્ટ</item>
+        <item>ગ્લો</item>
+    </string-array>
+    <string name="now_bar_more">વધુ પ્રવૃત્તિઓ</string>
+    <string-array name="now_bar_more_entries">
+        <item>ફક્ત સ્વાઇપ કરો</item>
+        <item>ટપકાં</item>
+        <item>પાછળ જુઓ</item>
+    </string-array>
+    <string name="now_bar_size">કદ અને આકાર</string>
+    <string name="now_bar_height">ઊંચાઈ</string>
+    <string name="now_bar_width_summary">ફુલ પસંદ કરવાથી શૉર્ટકટ ઉપર બારમાં જાય છે</string>
+    <string-array name="now_bar_width_entries">
+        <item>સાંકડું</item>
+        <item>શૉર્ટકટ વચ્ચે</item>
+        <item>પૂર્ણ</item>
+    </string-array>
+    <string name="now_bar_corners">ખૂણા</string>
+    <string name="now_bar_raise">ઊંચું</string>
+    <string name="now_bar_art">આલ્બમ આર્ટ</string>
+    <string-array name="now_bar_art_entries">
+        <item>"વર્તુળ"</item>
+        <item>ગોળાકાર</item>
+        <item>"ચોરસ"</item>
+        <item>"બંધ છે"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>સ્કિપ અને પ્લે</item>
+        <item>ફક્ત ચલાવો</item>
+        <item>"કોઈ નહીં"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>એક લાઇન</item>
+        <item>બે લાઇન</item>
+        <item>ફક્ત ગીત</item>
+    </string-array>
+    <string name="now_bar_show_page">બારમાં શું દેખાય છે</string>
+    <string name="now_bar_show_page_summary">સંગીત અને વિડિયો, ટાઇમર, કૉલ અને વધુ</string>
+    <string name="now_bar_where">બીજું ક્યાં</string>
 </resources>

@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"Botóns"</string>
     <string name="now_bar_text">"Enviar unha mensaxe"</string>
     <string name="now_bar_text_size">"Tamaño do texto"</string>
+    <string name="now_bar_summary">Actividades en directo na parte inferior da pantalla de bloqueo</string>
+    <string name="now_bar_show">Mostrar</string>
+    <string name="now_bar_music">Música e vídeo</string>
+    <string name="now_bar_timers">Temporizadores, cronómetro e alarmas</string>
+    <string name="now_bar_hide_call">Ocultar a notificación de chamada</string>
+    <string name="now_bar_hide_call_summary">Nunha pantalla de bloqueo, unha chamada na Now Bar non aparece tamén como notificación</string>
+    <string name="now_bar_live">Actualizacións en directo</string>
+    <string name="now_bar_live_summary">Navegación, viaxes, entregas, marcadores</string>
+    <string name="now_bar_scores">Marcadores en directo</string>
+    <string name="now_bar_live_apps">Aplicacións para actualizacións en directo</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> aplicacións</string>
+    <string name="now_bar_pin">Fixadas na pantalla sempre activa</string>
+    <string name="now_bar_unpin_question">Desfixar <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Desfixar</string>
+    <string name="now_bar_scores_summary">Xogos que segues en Ao Relance</string>
+    <string name="now_bar_recording">Gravación de pantalla e voz</string>
+    <string name="now_bar_buds">Auriculares e reloxos</string>
+    <string name="now_bar_buds_summary">Batería dun dispositivo conectado: esquerdo, dereito e estoxo dos auriculares</string>
+    <string name="now_bar_wave">Animación de onda</string>
+    <string name="now_bar_aod">Mostrar na pantalla sempre activa</string>
+    <string name="now_bar_chip">Chip na barra de estado</string>
+    <string name="now_bar_chip_summary">Música e temporizadores xunto ao reloxo mentres o dispositivo está desbloqueado</string>
+    <string name="now_bar_footer">Con música na Now Bar, o reprodutor grande da pantalla de bloqueo está oculto. Desliza a barra para cambiar entre actividades, tócaa para abrir os controis e mantén premido para ocultar unha ata que remate. Desliza unha canción pausada fóra da barra para a borrar.\n\nOs marcadores en directo mostran os partidos dos equipos que sigues na aplicación de Google. Con Smartspacer, engade ahí un obxectivo deportivo e os seus marcadores aparecerán aquí.</string>
+    <string name="now_bar_looks">Aspectos</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Predeterminado"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Grande</item>
+        <item>Neón</item>
+        <item>Tarxeta de cristal</item>
+    </string-array>
+    <string name="now_bar_material">Material</string>
+    <string name="now_bar_material_summary">Liquid Glass usa o cristal que configuras en Tema</string>
+    <string-array name="now_bar_material_entries">
+        <item>Sólido</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Portada do álbum</item>
+        <item>Acento</item>
+        <item>Escuro</item>
+    </string-array>
+    <string name="now_bar_opacity">Opacidade</string>
+    <string name="now_bar_opacity_summary">Con Liquid Glass, canta cor tinxe o cristal</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Ningún"</item>
+        <item>Fina</item>
+        <item>Acento</item>
+    </string-array>
+    <string name="now_bar_shadow">Sombra</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Desactivado"</item>
+        <item>Suave</item>
+        <item>Brillo</item>
+    </string-array>
+    <string name="now_bar_more">Máis actividades</string>
+    <string-array name="now_bar_more_entries">
+        <item>Só desliza</item>
+        <item>Puntos</item>
+        <item>Asomar por detrás</item>
+    </string-array>
+    <string name="now_bar_size">Tamaño e forma</string>
+    <string name="now_bar_height">Altura</string>
+    <string name="now_bar_width_summary">Completo move os atallos por riba da barra</string>
+    <string-array name="now_bar_width_entries">
+        <item>Estreito</item>
+        <item>Entre atallos</item>
+        <item>Completa</item>
+    </string-array>
+    <string name="now_bar_corners">Esquinas</string>
+    <string name="now_bar_raise">Elevado</string>
+    <string name="now_bar_art">Portada do álbum</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Círculo"</item>
+        <item>Redondeado</item>
+        <item>"Cadrado"</item>
+        <item>"Desactivado"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Saltar e reproducir</item>
+        <item>Só reprodución</item>
+        <item>"Ningún"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Unha liña</item>
+        <item>Dúas liñas</item>
+        <item>Só canción</item>
+    </string-array>
+    <string name="now_bar_show_page">Que se mostra na barra</string>
+    <string name="now_bar_show_page_summary">Música e vídeo, temporizadores, chamadas e máis</string>
+    <string name="now_bar_where">Onde máis</string>
 </resources>

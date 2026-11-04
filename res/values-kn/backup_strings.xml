@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">ಸನ್ನೆಗಳು</string>
     <string name="backup_group_other">"ಇತರೆ"</string>
     <string name="backup_done">"ಮುಗಿದಿದೆ"</string>
+    <string name="backup_summary">ಎಲ್ಲಾ RR ಕಸ್ಟಮೈಸೇಶನ್‌ಗಳು ಒಂದೇ ಫೈಲ್‌ನಲ್ಲಿ</string>
+    <string name="backup_now">ಈಗ ಬ್ಯಾಕಪ್ ಮಾಡಿ</string>
+    <string name="backup_never">ಕೊನೆಯ ಬ್ಯಾಕಪ್: ಎಂದಿಗೂ ಇಲ್ಲ</string>
+    <string name="backup_last">ಕೊನೆಯ ಬ್ಯಾಕಪ್: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">ಫೈಲ್‌ನಿಂದ ಮರುಸ್ಥಾಪಿಸಿ</string>
+    <string name="backup_restore_summary">ಬ್ಯಾಕಪ್ ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="backup_included">ಒಳಗೊಂಡಿದೆ</string>
+    <string name="backup_part_theme">ಆಕ್ಸೆಂಟ್, ಫಾಂಟ್ ಮತ್ತು ಐಕಾನ್‌ಗಳು</string>
+    <string name="backup_part_header">ಹೆಡರ್ ಚಿತ್ರ</string>
+    <string name="backup_part_photo">ಹೆಡರ್ ಚಿತ್ರ (ನಿಮ್ಮ ಫೋಟೋ)</string>
+    <string name="backup_part_photo_summary">ಫೈಲ್ ದೊಡ್ಡದಾಗುತ್ತದೆ</string>
+    <string name="backup_part_boot">ಬೂಟ್ ಅನಿಮೇಶನ್</string>
+    <string name="backup_part_looks">ನಿಮ್ಮ ಲುಕ್‌ಗಳು</string>
+    <string name="backup_weekly">ವಾರದ ಬ್ಯಾಕಪ್</string>
+    <string name="backup_weekly_summary">ನೀವು ಆಯ್ಕೆಮಾಡಿದ ಫೋಲ್ಡರ್‌ಗೆ</string>
+    <string name="backup_weekly_on">ಪ್ರತಿ ವಾರ <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g> ಗೆ</string>
+    <string name="backup_offer">ಅಪ್‌ಡೇಟ್‌ಗಳ ಮೊದಲು ಬ್ಯಾಕಪ್ ನೀಡಿ</string>
+    <string name="backup_offer_summary">ಅಪ್‌ಡೇಟರ್ ಸ್ಥಾಪಿಸುವ ಮೊದಲು ಕೇಳುತ್ತದೆ</string>
+    <string name="backup_sets"><xliff:g id="count" example="64">%1$d</xliff:g> ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಹೊಂದಿಸುತ್ತದೆ</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಲಾಗಿದೆ</string>
+    <string name="backup_restored_message">ಅನ್ವಯಿಸಲು SystemUI ಮರುಪ್ರಾರಂಭವಾಗುತ್ತದೆ.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಈ ಬಿಲ್ಡ್‌ನಲ್ಲಿ ಇಲ್ಲ ಮತ್ತು ಬಿಟ್ಟುಬಿಡಲಾಗಿದೆ.</string>
+    <string name="backup_failed">ಬ್ಯಾಕಪ್ ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+    <string name="backup_invalid">ಆ ಫೈಲ್ Resurrected Remix ಬ್ಯಾಕಪ್ ಅಲ್ಲ</string>
+    <string name="backup_footer">ಫೈಲ್‌ನಲ್ಲಿ RR ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಮಾತ್ರ ಇರುತ್ತವೆ: ಖಾತೆಗಳು, ಪಾಸ್‌ವರ್ಡ್‌ಗಳು, ವೈ-ಫೈ ನೆಟ್‌ವರ್ಕ್‌ಗಳು, ಆ್ಯಪ್‌ಗಳು ಅಥವಾ ಸಂದೇಶಗಳು ಇರುವುದಿಲ್ಲ. ಮರುಸ್ಥಾಪನೆ RR ನ ಸ್ವಂತ ಪಟ್ಟಿಯಲ್ಲಿರುವ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಮಾತ್ರ ಬರೆಯುತ್ತದೆ, ಆದ್ದರಿಂದ ಬ್ಯಾಕಪ್ ಫೈಲ್ ಫೋನ್‌ನಲ್ಲಿ ಬೇರೆ ಯಾವುದನ್ನೂ ಬದಲಿಸಲಾರದು. ನಿಮ್ಮ ಹೆಡರ್ ಫೋಟೋ ಅದರ ಸ್ವಿಚ್ ಆನ್ ಆಗಿದ್ದರೆ ಮಾತ್ರ ಸೇರಿಸಲಾಗುತ್ತದೆ, ಏಕೆಂದರೆ ಅದು ಫೈಲ್ ಅನ್ನು ದೊಡ್ಡದಾಗಿಸುತ್ತದೆ.</string>
+    <string name="volume_style_title">ವಾಲ್ಯೂಮ್ ಪ್ಯಾನೆಲ್ ಶೈಲಿ</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>ನಿಯಾನ್</item>
+        <item>ಗ್ಲಾಸ್</item>
+        <item>ಪಿಲ್</item>
+        <item>ಕ್ಲಾಸಿಕ್ RR</item>
+        <item>Bento</item>
+        <item>ಶೇಪ್‌ಗಳು</item>
+        <item>ಬ್ಲೂಪ್ರಿಂಟ್</item>
+        <item>ಡ್ಯುಯೊ</item>
+        <item>ಸಾಫ್ಟ್</item>
+    </string-array>
 </resources>

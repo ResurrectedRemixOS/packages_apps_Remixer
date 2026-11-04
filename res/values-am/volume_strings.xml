@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="volume_page_title">የድምጽ ፓነል</string>
+    <string name="volume_page_summary">ኒዮን፣ መስታወት፣ ክኒን ወይም ክላሲክ RR</string>
+    <string name="volume_behavior">ባህሪ</string>
+    <string name="volume_on_left_title">ፓነሉ በግራ በኩል</string>
+    <string name="volume_on_left_summary">ክላሲክ RR ሁልጊዜ ከላይ ይቀመጣል</string>
+    <string name="volume_ringer_title">የጥሪ ድምፅ ሁነታ ቁልፍ</string>
+    <string name="volume_tick_title">ሲያንሸራትቱ ምልክት ያድርጉ</string>
+    <string name="volume_percent_title">ደረጃውን በመቶኛ አሳይ</string>
+    <string name="volume_timeout_title">ከዚህ በኋላ ደብቅ</string>
+    <string name="volume_footer">ገጽታ የፓነሉን መልክ ይቀይራል እንጂ አሰራሩን አይቀይርም። አንድሮይድ መደበኛውን ፓነል ይይዛል። ሁሉንም ዥረቶች ለማየት ነጥቦቹን ይንኩ፤ የተዘረጋው ፓነል ተመሳሳይ ገጽታ ይጠቀማል።</string>
+</resources>

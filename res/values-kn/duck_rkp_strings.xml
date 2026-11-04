@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">ಡಿವೈಸ್ RKP ಬಳಸಿ</string>
+    <string name="ts_rkp_enabled_summary">ಜನರೇಟ್ ಮಾಡಿದ ಕೀಬಾಕ್ಸ್ ಬಳಸಿ. ಕೀಬಾಕ್ಸ್ ಆಮದು ಮಾಡಿದರೆ ಇದು ಆಫ್ ಆಗುತ್ತದೆ.</string>
+    <string name="ts_rkp_provision">ಕೀಬಾಕ್ಸ್ ಜನರೇಟ್ ಮಾಡಿ</string>
+    <string name="ts_rkp_provision_summary">ಈ ಸಾಧನದ ಪ್ರೊವಿಷನಿಂಗ್ ಸೇವೆಯನ್ನು ಬಳಸಿ Google ನಿಂದ ಕೀಬಾಕ್ಸ್ ವಿನಂತಿಸಿ. ಹೊಂದಾಣಿಕೆಯ Qualcomm ಫರ್ಮ್‌ವೇರ್ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="ts_rkp_status">ಪ್ರೊವಿಷನಿಂಗ್ ಸ್ಥಿತಿ</string>
+    <string name="ts_rkp_owner_only">ಡಿವೈಸ್ RKP ಅನ್ನು ಸಾಧನ ಮಾಲೀಕರ ಪ್ರೊಫೈಲ್‌ನಿಂದ ನಿರ್ವಹಿಸಿ</string>
+    <string name="ts_rkp_unavailable">ಡಿವೈಸ್ RKP ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="ts_rkp_imported">ಆಮದು ಮಾಡಿದ ಕೀಬಾಕ್ಸ್ ಇನ್‌ಸ್ಟಾಲ್ ಆಗಿರುವಾಗ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="ts_rkp_disabled">ಆಫ್ ಆಗಿದೆ. ಕೀಬಾಕ್ಸ್ ಬಳಸಲು ಅಥವಾ ಜನರೇಟ್ ಮಾಡಲು ಡಿವೈಸ್ RKP ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+    <string name="ts_rkp_idle">ಕೀಬಾಕ್ಸ್ ವಿನಂತಿಸಲು ಸಿದ್ಧ</string>
+    <string name="ts_rkp_fetching">ಪ್ರೊವಿಷನಿಂಗ್ ಚಾಲೆಂಜ್ ಪಡೆಯಲಾಗುತ್ತಿದೆ…</string>
+    <string name="ts_rkp_hardware">ಸಾಧನದ ಪ್ರೊವಿಷನಿಂಗ್ ಸೇವೆಗಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ…</string>
+    <string name="ts_rkp_signing">Google ನಿಂದ ಸರ್ಟಿಫಿಕೇಟ್‌ಗಳನ್ನು ವಿನಂತಿಸಲಾಗುತ್ತಿದೆ…</string>
+    <string name="ts_rkp_validating">ಕೀಬಾಕ್ಸ್ ಮೌಲ್ಯೀಕರಿಸಲಾಗುತ್ತಿದೆ ಮತ್ತು ಉಳಿಸಲಾಗುತ್ತಿದೆ…</string>
+    <string name="ts_rkp_ready">ಜನರೇಟ್ ಮಾಡಿದ ಕೀಬಾಕ್ಸ್ ಸಕ್ರಿಯವಾಗಿದೆ. %1$s ಮೊದಲು ತನ್ನಷ್ಟಕ್ಕೆ ನವೀಕರಣಗೊಳ್ಳುತ್ತದೆ</string>
+    <string name="ts_rkp_keybox_stored">ಡಿವೈಸ್ RKP ಕೀಬಾಕ್ಸ್ ಸಂಗ್ರಹಿಸಲಾಗಿದೆ</string>
+    <string name="ts_rkp_expired">ಜನರೇಟ್ ಮಾಡಿದ ಕೀಬಾಕ್ಸ್ ಅವಧಿ ಮುಗಿದಿದೆ. ಬದಲಿ ಜನರೇಟ್ ಮಾಡಿ.</string>
+    <string name="ts_rkp_hal_rejected">ಫರ್ಮ್‌ವೇರ್ ವಿನಂತಿಯನ್ನು ತಿರಸ್ಕರಿಸಿದೆ (ಕೋಡ್ %1$d). Duck V1 ಬೆಂಬಲಿತವಾಗಿಲ್ಲದಿರಬಹುದು.</string>
+    <string name="ts_rkp_http_error">ಪ್ರೊವಿಷನಿಂಗ್ ಸರ್ವರ್ ವಿನಂತಿಯನ್ನು ತಿರಸ್ಕರಿಸಿದೆ (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">ಸಾಧನವು ಹೊಂದಾಣಿಕೆಯ V1 ಪ್ರೊವಿಷನಿಂಗ್ ಇಂಟರ್‌ಫೇಸ್ ಅನ್ನು ಒದಗಿಸುವುದಿಲ್ಲ</string>
+    <string name="ts_rkp_network_error">ಪ್ರೊವಿಷನಿಂಗ್ ಸರ್ವರ್ ತಲುಪಲಾಗಲಿಲ್ಲ. ನಿಮ್ಮ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ.</string>
+    <string name="ts_rkp_submission_unknown">ಸರ್ವರ್ ಪ್ರತಿಕ್ರಿಯೆ ಕಳೆದುಹೋಗಿದೆ. ವಿನಂತಿಯನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಿರಬಹುದು; ಸ್ವಯಂಚಾಲಿತ ಮರುಪ್ರಯತ್ನ ಮಾಡಲಾಗಿಲ್ಲ.</string>
+    <string name="ts_rkp_invalid_chain">ಕೀಬಾಕ್ಸ್ ಸರ್ಟಿಫಿಕೇಟ್‌ಗಳ ಮೌಲ್ಯೀಕರಣ ವಿಫಲವಾಗಿದೆ. ಇರುವ ಕೀಬಾಕ್ಸ್ ಉಳಿಸಲಾಗಿದೆ.</string>
+    <string name="ts_rkp_timeout">ಪ್ರೊವಿಷನಿಂಗ್ ಸಮಯ ಮೀರಿದೆ. ಸಾಧನ ಸೇವೆ ಇನ್ನೂ ಬ್ಯುಸಿಯಾಗಿದ್ದರೆ, ಮತ್ತೆ ಪ್ರಯತ್ನಿಸುವ ಮೊದಲು ಸಾಧನವನ್ನು ರೀಸ್ಟಾರ್ಟ್ ಮಾಡಿ.</string>
+    <string name="ts_rkp_canceled">ಕೀಬಾಕ್ಸ್ ಕಾನ್ಫಿಗರೇಶನ್ ಬದಲಾದ ಕಾರಣ ವಿನಂತಿ ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="ts_rkp_save_failed">ಜನರೇಟ್ ಮಾಡಿದ ಕೀಬಾಕ್ಸ್ ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+    <string name="ts_rkp_action_failed">ಕೀಬಾಕ್ಸ್ ಕಾರ್ಯಾಚರಣೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+</resources>

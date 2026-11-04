@@ -10,4 +10,24 @@
     <string name="rr_about_this_phone">"Энэ утас"</string>
     <string name="rr_about_network">"Сүлжээ"</string>
     <string name="rr_about_hidden">"Нуусан"</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Албан ёсны</string>
+    <string name="rr_about_unofficial">Албан бус</string>
+    <string name="rr_about_vanilla">Вэнилла</string>
+    <string name="rr_about_hardware">Техник хангамж</string>
+    <string name="rr_about_processor">Процессор</string>
+    <string name="rr_about_processor_sub">%1$d цөм · хамгийн ихдээ %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d цөм</string>
+    <string name="rr_about_storage_used">%1$s ашигласан</string>
+    <string name="rr_about_display">Дэлгэц</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · Цэнэглэж байна</string>
+    <string name="rr_about_kernel_linux">Linux цөм</string>
+    <string name="rr_about_software_purpose">Android хувилбар, аюулгүй байдлын шинэчлэл, бүтээсэн огноо ба дугаар</string>
+    <string name="rr_about_security_patch">Аюулгүй байдлын шинэчлэл</string>
+    <string name="rr_about_build_date">Бүтээсэн огноо</string>
+    <string name="rr_about_maintainer">Хариуцагч</string>
+    <string name="rr_about_show">Харуулах</string>
+    <string name="rr_about_hide">Нуух</string>
 </resources>

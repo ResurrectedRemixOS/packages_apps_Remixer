@@ -8,4 +8,50 @@
         <item>"Miðlungs"</item>
         <item>"Stórt"</item>
     </string-array>
+    <string name="pie_title">Sneiðastýringar</string>
+    <string name="pie_summary">Haltu neðri hluta brúnar inni fyrir sneiðar af flýtileiðum</string>
+    <string name="pie_zone">Hluti brúnarinnar</string>
+    <string name="pie_clock">Klukka og rafhlaða fyrir ofan hana</string>
+    <string name="pie_items">Sneiðar</string>
+    <string-array name="pie_items_entries">
+        <item>"Til baka"</item>
+        <item>Heim</item>
+        <item>"Nýlegt"</item>
+        <item>"Tilkynningar"</item>
+        <item>"Vasaljós"</item>
+        <item>"Skjámynd"</item>
+        <item>"Aflrofavalmynd"</item>
+        <item>"Hjálpari"</item>
+        <item>"Myndavél"</item>
+    </string-array>
+    <string name="pie_footer">Það þarf hálfrar sekúndu haldi án hreyfingar, þannig að fljótlegt strok frá kanti fer enn til baka. Það opnast ekki á lásskjánum.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Vinstri"</item>
+        <item>"Hægri"</item>
+        <item>Bæði</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Neðsti þriðjungur</item>
+        <item>Miðja</item>
+        <item>Öll brúnin</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Gler</item>
+        <item>Klassískt</item>
+    </string-array>
+    <string name="sidebar_style_title">Útlit hliðarstiku forrita</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klassískt</item>
+        <item>RR gler</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Hliðarstika forrita</string>
+    <string name="sidebar_settings_summary">Strjúktu inn frá handfanginu fyrir forritin þín og verkfæri</string>
+    <string name="sidebar_apps_title">Forrit, handfang og klippiborð</string>
+    <string name="sidebar_apps_summary">Kveiktu á handfanginu, veldu forritin og settu upp snjalla klippiborðið</string>
+    <string name="sidebar_handle_size_title">Stærð handfangs</string>
+    <string name="sidebar_tools_title">Verkfæraröð</string>
+    <string name="sidebar_tools_summary">Skjámynd og vasaljós undir forritunum þínum</string>
+    <string name="sidebar_footer">Handfangið er þunn lína í áherslulitnum þínum; dragðu það til að færa það eftir brúninni. Með yfirlitsbendingum nær það aðeins yfir sinn hluta brúnarinnar og til baka virkar annars staðar.</string>
 </resources>

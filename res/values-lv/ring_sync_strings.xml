@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Gredzenu sinhronizācija</string>
+    <string name="ring_sync_tap">Pieskarieties, kad gredzens sakrīt ar atzīmi</string>
+    <string name="ring_sync_best">Labākais: <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">PERFEKTI</string>
+    <string name="ring_sync_new_best">Jauns labākais rezultāts</string>
+    <string name="ring_sync_again">Pieskarieties, lai spēlētu vēlreiz</string>
+    <string name="ring_sync_ember">Ember akcents atbloķēts</string>
+    <string name="ring_sync_use_ember">Izmantot Ember</string>
+    <string name="ring_sync_android">Android slēptais noslēpums</string>
+    <string name="ring_sync_vibrate_on">Vibrācija trāpījumos · Ieslēgta</string>
+    <string name="ring_sync_vibrate_off">Vibrācija trāpījumos · Izslēgta</string>
+    <string name="accent_ember">Spožs</string>
+</resources>

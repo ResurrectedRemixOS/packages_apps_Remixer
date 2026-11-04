@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Batteri"</string>
     <string name="battery_style_title">"Stil"</string>
+    <string-array name="battery_style_entries">
+        <item>Portræt</item>
+        <item>"Cirkel"</item>
+        <item>Prikket cirkel</item>
+        <item>Neonring</item>
+        <item>Smal pille</item>
+        <item>Stor procentdel</item>
+        <item>Tekst</item>
+    </string-array>
+    <string name="battery_percent_title">Procentdel</string>
+    <string-array name="battery_percent_entries">
+        <item>Skjult</item>
+        <item>Indeni ikonet</item>
+        <item>Ved siden af</item>
+    </string-array>
+    <string name="battery_ring_color_title">Neonringens farve</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Efter niveau er accenten over 20 %%, rød under og gul i batterisparetilstand.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Efter niveau</item>
+        <item>Accent</item>
+        <item>"Hvid"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Gnist under opladning</string>
+    <string name="battery_ring_tile_title">Samme ring på kvikmenuens handlingsfelt</string>
+    <string name="battery_ring_tile_summary">Med niveau og skærmens tændtid</string>
 </resources>

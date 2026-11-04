@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">"လက်ဟန်"</string>
     <string name="backup_group_other">"တခြား"</string>
     <string name="backup_done">"ပြီးပြီ"</string>
+    <string name="backup_summary">RR စိတ်ကြိုက်ပြင်ဆင်ချက်အားလုံးကို ဖိုင်တစ်ခုတည်းတွင်</string>
+    <string name="backup_now">ယခု အရန်သိမ်းမည်</string>
+    <string name="backup_never">နောက်ဆုံး အရန်သိမ်းချက်- ဘယ်တော့မှ မရှိ</string>
+    <string name="backup_last">နောက်ဆုံး အရန်သိမ်းချက်- <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">ဖိုင်မှ ပြန်ယူရန်</string>
+    <string name="backup_restore_summary">အရန်ဖိုင်ကို ရွေးပါ</string>
+    <string name="backup_included">ပါဝင်သည်များ</string>
+    <string name="backup_part_theme">အာဆင့်အရောင်၊ ဖောင့်နှင့် အိုင်ကွန်များ</string>
+    <string name="backup_part_header">ခေါင်းစီးပုံ</string>
+    <string name="backup_part_photo">ခေါင်းစီးပုံ (သင့်ဓာတ်ပုံ)</string>
+    <string name="backup_part_photo_summary">ဖိုင်ကို ပိုကြီးစေသည်</string>
+    <string name="backup_part_boot">စတင်ဖွင့်ရာ အန်နီမေးရှင်း</string>
+    <string name="backup_part_looks">သင့်ပုံစံများ</string>
+    <string name="backup_weekly">အပတ်စဉ် အရန်သိမ်းခြင်း</string>
+    <string name="backup_weekly_summary">ရွေးထားသော ဖိုလ်ဒါသို့</string>
+    <string name="backup_weekly_on">အပတ်တိုင်း <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g> သို့</string>
+    <string name="backup_offer">အပ်ဒိတ်များမတိုင်မီ အရန်သိမ်းရန် ကမ်းလှမ်းပါ</string>
+    <string name="backup_offer_summary">Updater သည် ထည့်သွင်းမီ မေးမြန်းသည်</string>
+    <string name="backup_sets">ဆက်တင် <xliff:g id="count" example="64">%1$d</xliff:g> ခု သတ်မှတ်သည်</string>
+    <string name="backup_saved">ဆက်တင် <xliff:g id="count" example="64">%1$d</xliff:g> ခု သိမ်းပြီးပြီ</string>
+    <string name="backup_restored">ဆက်တင် <xliff:g id="count" example="64">%1$d</xliff:g> ခု ပြန်ယူပြီးပြီ</string>
+    <string name="backup_restored_message">ထိုအပြောင်းအလဲများကို အသုံးပြုရန် SystemUI ကို ပြန်စတင်မည်။</string>
+    <string name="backup_skipped">ဤဗားရှင်းတွင် ဆက်တင် <xliff:g id="count" example="2">%1$d</xliff:g> ခု မရှိသဖြင့် ကျော်သွားသည်။</string>
+    <string name="backup_failed">အရန်ကို သိမ်း၍ မရပါ</string>
+    <string name="backup_invalid">ထိုဖိုင်သည် Resurrected Remix အရန်ဖိုင် မဟုတ်ပါ</string>
+    <string name="backup_footer">ဤဖိုင်တွင် RR ဆက်တင်များသာ ပါဝင်ပါမည်- အကောင့်များ၊ စကားဝှက်များ၊ Wi-Fi ကွန်ရက်များ၊ အက်ပ်များ သို့မဟုတ် မက်ဆေ့ချ်များ မပါဝင်ပါ။ ပြန်လည်ထူထောင်ခြင်းသည် RR ၏ကိုယ်ပိုင်စာရင်းပါ ဆက်တင်များကိုသာ ရေးသားသောကြောင့် အရန်ဖိုင်က ဖုန်းရှိ အခြားအရာများကို မပြောင်းလဲနိုင်ပါ။ သင့်ခေါင်းစီးဓာတ်ပုံကို ခလုတ်ဖွင့်ထားမှသာ ထည့်သွင်းမည်ဖြစ်ပြီး ၎င်းသည် ဖိုင်ကို ပိုကြီးစေသည်။</string>
+    <string name="volume_style_title">အသံပြတင်းပေါက်ပုံစံ</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>နီယွန်</item>
+        <item>မှန်</item>
+        <item>ပင်နံပါတ်</item>
+        <item>ရိုးရာ RR</item>
+        <item>Bento</item>
+        <item>ပုံသဏ္ဍာန်များ</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Soft</item>
+    </string-array>
 </resources>

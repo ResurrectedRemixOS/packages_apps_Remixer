@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Detalls"</string>
     <string name="lockscreen_weather_location_title">"Ubicació"</string>
+    <string name="lockscreen_weather_title">Temps a la pantalla de bloqueig</string>
+    <string name="lockscreen_weather_location_summary">Mostra el nom de la ciutat</string>
+    <string name="lockscreen_weather_text_title">Estat</string>
+    <string name="lockscreen_weather_text_summary">Mostra l\'estat, com ara Ennuvolat o Cel clar</string>
+    <string name="lockscreen_weather_wind_title">Vent</string>
+    <string name="lockscreen_weather_wind_summary">Mostra la velocitat i la direcció del vent</string>
+    <string name="lockscreen_weather_humidity_title">Humitat</string>
+    <string name="lockscreen_weather_humidity_summary">Mostra la humitat</string>
+    <string name="custom_clock_weather_title">Temps als rellotges</string>
+    <string name="custom_clock_weather_summary">Mostra el temps dins dels rellotges que hi tinguin espai</string>
+    <string name="remixer_weather_service">Servei del temps</string>
+    <string name="remixer_weather_page_summary">El temps de la pantalla de bloqueig i què mostra</string>
 </resources>

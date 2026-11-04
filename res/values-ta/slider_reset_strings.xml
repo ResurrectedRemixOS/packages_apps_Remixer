@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="slider_reset">"இயல்புநிலைக்கு மீட்டமை"</string>
+    <string name="slider_reset_hint">இயல்புநிலைக்கு மீட்டமைக்க அழுத்திப் பிடிக்கவும்</string>
 </resources>

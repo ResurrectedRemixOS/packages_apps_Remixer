@@ -6,4 +6,31 @@
     <string name="sb_clock_date_format_title">Формат на датата</string>
     <string name="sb_weather_category">"Времето"</string>
     <string name="sb_weather_position_title">Позиция</string>
+    <string name="sb_clock_bold_title">Удебелен часовник</string>
+    <string name="sb_clock_bold_summary">Удебеляване на часовника в лентата на състоянието</string>
+    <string name="sb_clock_period_separator_title">Разделител на часа</string>
+    <string name="sb_clock_period_separator_summary">10.45 вместо 10:45</string>
+    <string name="sb_clock_date_style_title">Регистър на датата</string>
+    <string name="sb_clock_chip_category">Фон на часовника</string>
+    <string name="sb_clock_chip_title">Стил на фона</string>
+    <string name="sb_clock_chip_start_title">Начален цвят на преливането</string>
+    <string name="sb_clock_chip_end_title">Краен цвят на преливането</string>
+    <string name="sb_clock_chip_angle_title">Ъгъл на преливането</string>
+    <string name="sb_clock_chip_mask_title">Изрязване на часа от преливането</string>
+    <string name="sb_clock_chip_mask_summary">Преливането се показва през цифрите, а не зад тях</string>
+    <string name="sb_weather_title">Време в лентата на състоянието</string>
+    <string name="status_bar_clock_rr_style_title">Вид на часовника</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"По подразбиране"</item>
+        <item>Неон</item>
+        <item>Разделен</item>
+        <item>Знак RR</item>
+        <item>Моноширинен</item>
+        <item>Пулс</item>
+        <item>Подредени</item>
+        <item>Жар</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline до часа</string>
+    <string name="sb_clock_flatline_summary">Линията на сърцебиене на RR в чипа: пулсира с музиката и се извисява при ново известие</string>
 </resources>

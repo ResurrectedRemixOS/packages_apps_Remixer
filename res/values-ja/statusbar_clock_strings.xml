@@ -6,4 +6,31 @@
     <string name="sb_clock_chip_angle_title">グラデーションの角度</string>
     <string name="sb_weather_category">天気</string>
     <string name="sb_weather_position_title">位置</string>
+    <string name="sb_clock_category">時計と日付</string>
+    <string name="sb_clock_bold_summary">ステータスバーの時計を太字で表示</string>
+    <string name="sb_clock_period_separator_summary">10:45 ではなく 10.45 と表示</string>
+    <string name="sb_clock_date_position_title">日付の位置</string>
+    <string name="sb_clock_date_style_title">日付の大文字・小文字</string>
+    <string name="sb_clock_date_format_title">日付の形式</string>
+    <string name="sb_clock_chip_category">時計の背景</string>
+    <string name="sb_clock_chip_title">背景スタイル</string>
+    <string name="sb_clock_chip_start_title">グラデーションの開始色</string>
+    <string name="sb_clock_chip_end_title">グラデーションの終了色</string>
+    <string name="sb_clock_chip_mask_title">時刻をグラデーションから切り抜く</string>
+    <string name="sb_clock_chip_mask_summary">グラデーションを背面ではなく数字越しに表示します</string>
+    <string name="sb_weather_title">ステータスバーに天気を表示</string>
+    <string name="status_bar_clock_rr_style_title">時計のルック</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"デフォルト"</item>
+        <item>ネオン</item>
+        <item>分割</item>
+        <item>RR マーク</item>
+        <item>等幅</item>
+        <item>Pulse</item>
+        <item>積み重ね</item>
+        <item>エンバー</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">時刻の横に Flatline</string>
+    <string name="sb_clock_flatline_summary">チップ内の RR のハートビート ライン。音楽に合わせて脈打ち、通知が届くと跳ね上がります</string>
 </resources>

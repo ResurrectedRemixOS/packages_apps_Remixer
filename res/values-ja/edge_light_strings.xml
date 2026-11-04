@@ -16,4 +16,26 @@
     <string name="edge_light_moment_battery_low">残量低下</string>
     <string name="edge_light_moment_unlock">"ロック解除済み"</string>
     <string name="remixer_color_default">"デフォルト"</string>
+    <string name="edge_light_title">エッジライティング</string>
+    <string name="edge_light_summary">通知、通話、アラームなどで画面の端を光らせます</string>
+    <string name="edge_light_color_rainbow">レインボー</string>
+    <string name="edge_light_color_custom">カスタム</string>
+    <string name="edge_light_style_default">両側</string>
+    <string name="edge_light_style_frame">画面全体</string>
+    <string name="edge_light_animation_effect_none">標準</string>
+    <string name="edge_light_animation_effect_breathing">呼吸</string>
+    <string name="edge_light_animation_effect_wave">波形</string>
+    <string name="edge_light_animation_effect_sparkle">きらめき</string>
+    <string name="edge_light_pulse_count_title">点滅</string>
+    <string name="edge_light_pulse_count_summary">画面の端が光る回数</string>
+    <string name="edge_light_stroke_width_title">太さ</string>
+    <string name="edge_light_stroke_width_summary">光の幅（dp）</string>
+    <string name="edge_light_spread_summary">端から内側へ光が広がる距離</string>
+    <string name="edge_light_intensity_summary">光の明るさ。0 にするとオフになります</string>
+    <string name="edge_light_moments_title">タイミング</string>
+    <string name="edge_light_moment_alarms">アラームとタイマー</string>
+    <string name="edge_light_moment_plugged">充電中</string>
+    <string name="edge_light_moment_color">色を変更</string>
+    <string name="edge_light_moments_footer">時刻の点をタップすると色を変更できます。通話とアラームは鳴っている間、サイレント モードでも点灯します。それ以外の時刻はサイレント モードでは点灯しません。</string>
+    <string name="edge_light_look_title">ルック</string>
 </resources>

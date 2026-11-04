@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">متى</string>
+    <string name="nightstand_title">وضع الساعة الليلية</string>
+    <string name="nightstand_summary">ساعة ليلية خافتة على الشاشة الدائمة أثناء الشحن ليلًا</string>
+    <string-array name="nightstand_when_entries">
+        <item>"الميزة غير مفعّلة"</item>
+        <item>على الشاحن ليلًا</item>
+        <item>كل ليلة وفق جدول</item>
+        <item>أثناء تفعيل وضع وقت النوم</item>
+    </string-array>
+    <string name="nightstand_from">يبدأ الليل</string>
+    <string name="nightstand_to">ينتهي الليل</string>
+    <string name="nightstand_brightness">حد السطوع</string>
+    <string name="nightstand_brightness_summary">أقصى سطوع للشاشة الدائمة أثناء تفعيل الساعة الليلية</string>
+    <string name="nightstand_face">واجهة الساعة</string>
+    <string name="nightstand_face_keep">الإبقاء على الواجهة الحالية</string>
+    <string name="nightstand_footer">يُفعّل وضع الساعة الليلية الشاشة الدائمة أثناء عمله ويعيدها بعد انتهائه. ينتهي عند فصل الشاحن أو رنين المنبّه أو انتهاء الليل. تتبدل الواجهة بين واجهتين مخصصتين فقط؛ وتبقى ساعة النظام كما هي.</string>
 </resources>

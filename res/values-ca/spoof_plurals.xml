@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="ts_added_installed_count">
+        <item quantity="one">S\'ha afegit %d aplicació als objectius</item>
+        <item quantity="other">S\'han afegit %d aplicacions als objectius</item>
+    </plurals>
+</resources>

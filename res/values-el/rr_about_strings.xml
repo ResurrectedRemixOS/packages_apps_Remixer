@@ -12,4 +12,22 @@
     <string name="rr_about_this_phone">"Αυτό το τηλέφωνο"</string>
     <string name="rr_about_network">"Δίκτυο"</string>
     <string name="rr_about_hidden">Κρυφό</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Επίσημο</string>
+    <string name="rr_about_unofficial">Ανεπίσημο</string>
+    <string name="rr_about_vanilla">Vanilla</string>
+    <string name="rr_about_hardware">Υλικό</string>
+    <string name="rr_about_processor">Επεξεργαστής</string>
+    <string name="rr_about_processor_sub">%1$d πυρήνες · έως %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d πυρήνες</string>
+    <string name="rr_about_storage_used">Χρησιμοποιείται %1$s</string>
+    <string name="rr_about_display">Οθόνη</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · Φόρτιση</string>
+    <string name="rr_about_kernel_linux">Πυρήνας Linux</string>
+    <string name="rr_about_software_purpose">Έκδοση Android, ενημέρωση ασφαλείας, ημερομηνία και αριθμός έκδοσης</string>
+    <string name="rr_about_maintainer">Συντηρητής</string>
+    <string name="rr_about_show">Εμφάνιση</string>
+    <string name="rr_about_hide">Απόκρυψη</string>
 </resources>

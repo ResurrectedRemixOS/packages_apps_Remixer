@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">ການຊິງຄ໌ສຽງຣິງ</string>
+    <string name="ring_sync_tap">ແຕະເມື່ອວົງແຫວນຕົງກັບເຄື່ອງໝາຍ</string>
+    <string name="ring_sync_best">ສະຖິຕິດີທີ່ສຸດ <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">ສົມບູນແບບ</string>
+    <string name="ring_sync_new_best">ສະຖິຕິໃໝ່</string>
+    <string name="ring_sync_again">ແຕະເພື່ອຫຼິ້ນອີກຄັ້ງ</string>
+    <string name="ring_sync_ember">ປົດລັອກສີເນັ້ນ Ember ແລ້ວ</string>
+    <string name="ring_sync_use_ember">ໃຊ້ Ember</string>
+    <string name="ring_sync_android">ໄຂ່ອີສເຕີຂອງ Android</string>
+    <string name="ring_sync_vibrate_on">ສັ່ນເມື່ອຖືກຕີ · ເປີດ</string>
+    <string name="ring_sync_vibrate_off">ສັ່ນເມື່ອຖືກຕີ · ປິດ</string>
+    <string name="accent_ember">Ember</string>
+</resources>

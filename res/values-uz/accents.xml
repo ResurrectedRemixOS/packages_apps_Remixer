@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Fon rasmi"</item>
+        <item>Resurrected</item>
+        <item>Android One yashil</item>
+        <item>Aospa yashil</item>
+        <item>Coca Cola qizil</item>
+        <item>Discord binafsha</item>
+        <item>Facebook ko\'k</item>
+        <item>Instagram qizg\'ish</item>
+        <item>Jollibee to\'q qizil</item>
+        <item>Monster Energy yashil</item>
+        <item>Nextbit yashil-ko\'k</item>
+        <item>OnePlus qizil</item>
+        <item>Pepsi ko\'k</item>
+        <item>Pixel ko\'k</item>
+        <item>Pocophone sariq</item>
+        <item>Razer yashil</item>
+        <item>Samsung ko\'k</item>
+        <item>Spotify yashil</item>
+        <item>Starbucks yashil</item>
+        <item>Twitch binafsha</item>
+        <item>Twitter ko\'k</item>
+        <item>Xiaomi to\'q sariq</item>
+        <item>Kahrabo</item>
+        <item>"Qora"</item>
+        <item>"Koʻk"</item>
+        <item>Ko\'kimtir kulrang</item>
+        <item>Jigarrang</item>
+        <item>"Zangori"</item>
+        <item>To\'q to\'q sariq</item>
+        <item>To\'q binafsha</item>
+        <item>"Yashil"</item>
+        <item>"Kulrang"</item>
+        <item>Indigo</item>
+        <item>Och ko\'k</item>
+        <item>Limon yashil</item>
+        <item>"Toʻq sariq"</item>
+        <item>"Pushti"</item>
+        <item>"Siyohrang"</item>
+        <item>"Qizil"</item>
+        <item>"Moviy"</item>
+        <item>Foydalanuvchi beshinchi</item>
+        <item>Foydalanuvchi to\'rtinchi</item>
+        <item>Foydalanuvchi birinchi</item>
+        <item>Foydalanuvchi yettinchi</item>
+        <item>Foydalanuvchi oltinchi</item>
+        <item>Foydalanuvchi uchinchi</item>
+        <item>Foydalanuvchi ikkinchi</item>
+        <item>"Oq"</item>
+        <item>"Sariq"</item>
+    </string-array>
+</resources>

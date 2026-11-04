@@ -8,4 +8,50 @@
         <item>"보통"</item>
         <item>"크게"</item>
     </string-array>
+    <string name="pie_title">파이 컨트롤</string>
+    <string name="pie_summary">가장자리 아래쪽을 길게 누르면 바로가기 파이 메뉴가 열립니다</string>
+    <string name="pie_zone">가장자리 일부</string>
+    <string name="pie_clock">그 위에 시계와 배터리 표시</string>
+    <string name="pie_items">조각</string>
+    <string-array name="pie_items_entries">
+        <item>"뒤로"</item>
+        <item>홈</item>
+        <item>"최근"</item>
+        <item>"알림"</item>
+        <item>손전등</item>
+        <item>"스크린샷"</item>
+        <item>"전원 메뉴"</item>
+        <item>"어시스턴트"</item>
+        <item>"카메라"</item>
+    </string-array>
+    <string name="pie_footer">0.25초 동안 움직이지 않고 누르고 있어야 합니다. 그래서 가장자리에서 빠르게 스와이프하면 여전히 뒤로 갑니다. 잠금 화면에서는 열리지 않습니다.</string>
+    <string-array name="pie_edges_entries">
+        <item>"왼쪽"</item>
+        <item>"오른쪽"</item>
+        <item>둘 다</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>아래쪽 3분의 1</item>
+        <item>가운데</item>
+        <item>가장자리 전체</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>네온</item>
+        <item>글래스</item>
+        <item>클래식</item>
+    </string-array>
+    <string name="sidebar_style_title">앱 사이드바 스타일</string>
+    <string-array name="sidebar_style_entries">
+        <item>클래식</item>
+        <item>RR 글래스</item>
+        <item>네온</item>
+    </string-array>
+    <string name="sidebar_settings_title">앱 사이드바</string>
+    <string name="sidebar_settings_summary">핸들에서 안쪽으로 스와이프하여 앱과 도구를 확인하세요</string>
+    <string name="sidebar_apps_title">앱, 핸들 및 클립보드</string>
+    <string name="sidebar_apps_summary">핸들을 켜고 앱을 고른 뒤 스마트 클립보드를 설정하세요</string>
+    <string name="sidebar_handle_size_title">핸들 크기</string>
+    <string name="sidebar_tools_title">도구 줄</string>
+    <string name="sidebar_tools_summary">앱 아래에 스크린샷과 손전등 표시</string>
+    <string name="sidebar_footer">핸들은 강조색의 얇은 선입니다. 드래그하면 가장자리를 따라 이동합니다. 제스처 탐색을 사용하면 핸들은 자기 영역의 가장자리만 차지하고, 나머지 가장자리에서는 뒤로 가기가 동작합니다.</string>
 </resources>

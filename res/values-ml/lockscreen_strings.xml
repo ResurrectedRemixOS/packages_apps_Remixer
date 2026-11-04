@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">യാദൃച്ഛികമായി സജീവമാകുന്നത് തടയുക</string>
+    <string name="lockscreen_battery_info_title">ചാർജിംഗ് വിവരം</string>
+    <string name="lockscreen_battery_info_summary">ചാർജ് ചെയ്യുമ്പോൾ കറന്റ്, വാട്ട്, വോൾട്ടേജ്, ബാറ്ററി താപനില കാണിക്കുക</string>
+    <string name="charging_ring_title">SuperVOOC ചാർജിംഗ് ആനിമേഷൻ</string>
+    <string name="charging_ring_summary">ചാർജർ കണക്ട് ചെയ്യുമ്പോൾ ചാർജിംഗ് റിംഗും വേഗവും കാണിക്കുക</string>
+    <string name="pocket_mode_summary">പ്രോക്സിമിറ്റി സെൻസർ മൂടിയിരിക്കുമ്പോൾ സ്ക്രീൻ ഓൺ ആകില്ല, ടച്ചുകൾ അവഗണിക്കും</string>
+    <string name="screen_on_time_title">സ്ക്രീൻ-ഓൺ സമയം</string>
+    <string name="screen_on_time_summary">ചാർജ് ചെയ്യുമ്പോഴും Battery Saver ടൈലിലും, അവസാന പൂർണ ചാർജ് മുതലുള്ള സ്ക്രീൻ-ഓൺ സമയം ലോക്ക് സ്‌ക്രീനിൽ കാണിക്കുക</string>
 </resources>

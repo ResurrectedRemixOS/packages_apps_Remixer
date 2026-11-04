@@ -8,4 +8,50 @@
         <item>"মাঝারি"</item>
         <item>"বড়"</item>
     </string-array>
+    <string name="pie_title">পাই কন্ট্রোল</string>
+    <string name="pie_summary">প্রান্তের নিচের অংশ ধরে রাখলে শর্টকাটের পাই খুলবে</string>
+    <string name="pie_zone">প্রান্তের একটি অংশ</string>
+    <string name="pie_clock">উপরে ঘড়ি ও ব্যাটারি</string>
+    <string name="pie_items">স্লাইস</string>
+    <string-array name="pie_items_entries">
+        <item>"ফিরে যান"</item>
+        <item>হোম</item>
+        <item>"সাম্প্রতিক"</item>
+        <item>"বিজ্ঞপ্তি"</item>
+        <item>"ফ্ল্যাশলাইট"</item>
+        <item>"স্ক্রিনশট নিন"</item>
+        <item>"পাওয়ার মেনু"</item>
+        <item>অ্যাসিস্ট্যান্ট</item>
+        <item>"ক্যামেরা"</item>
+    </string-array>
+    <string name="pie_footer">এটি এক সেকেন্ডের চার ভাগের এক ভাগ চেপে ধরে নড়াচড়া না করে রাখতে হবে, যাতে প্রান্ত থেকে দ্রুত সোয়াইপ করলে এখনও পিছনে যাওয়া যায়। লক স্ক্রিনে এটি খোলে না।</string>
+    <string-array name="pie_edges_entries">
+        <item>"বাঁদিক"</item>
+        <item>"ডান"</item>
+        <item>উভয়</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>নিচের এক-তৃতীয়াংশ</item>
+        <item>মাঝখান</item>
+        <item>পুরো প্রান্ত</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>নিয়ন</item>
+        <item>গ্লাস</item>
+        <item>ক্লাসিক</item>
+    </string-array>
+    <string name="sidebar_style_title">অ্যাপ সাইডবারের রূপ</string>
+    <string-array name="sidebar_style_entries">
+        <item>ক্লাসিক</item>
+        <item>RR কাচ</item>
+        <item>নিয়ন</item>
+    </string-array>
+    <string name="sidebar_settings_title">অ্যাপ সাইডবার</string>
+    <string name="sidebar_settings_summary">হ্যান্ডেল থেকে ডানে সোয়াইপ করে আপনার অ্যাপ ও টুল খুলুন</string>
+    <string name="sidebar_apps_title">অ্যাপ, হ্যান্ডেল ও ক্লিপবোর্ড</string>
+    <string name="sidebar_apps_summary">হ্যান্ডেল চালু করুন, অ্যাপ বেছে নিন এবং স্মার্ট ক্লিপবোর্ড সেট করুন</string>
+    <string name="sidebar_handle_size_title">হ্যান্ডেলের আকার</string>
+    <string name="sidebar_tools_title">টুলের সারি</string>
+    <string name="sidebar_tools_summary">অ্যাপের নিচে স্ক্রিনশট ও ফ্ল্যাশলাইট</string>
+    <string name="sidebar_footer">হ্যান্ডেল হলো আপনার অ্যাকসেন্ট রঙের একটি পাতলা রেখা; প্রান্ত বরাবর সরাতে টেনে নিন। জেসচার নেভিগেশনে এটি শুধু নিজের অংশে থাকে, বাকি প্রান্তে পেছনে যাওয়ার কাজ চলে।</string>
 </resources>

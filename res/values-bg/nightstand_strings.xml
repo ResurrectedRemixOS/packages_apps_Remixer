@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Кога"</string>
+    <string name="nightstand_title">Нощна лампа</string>
+    <string name="nightstand_summary">Тих нощен часовник на екрана за постоянен дисплей, докато телефонът се зарежда през нощта</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Изкл."</item>
+        <item>На зарядно през нощта</item>
+        <item>Всяка нощ по график</item>
+        <item>Докато е включен режим „Преди сън“</item>
+    </string-array>
+    <string name="nightstand_from">Нощта започва</string>
+    <string name="nightstand_to">Нощта свършва</string>
+    <string name="nightstand_brightness">Ограничение на яркостта</string>
+    <string name="nightstand_brightness_summary">Колко ярък може да бъде екранът за постоянен дисплей, докато нощната лампа е включена</string>
+    <string name="nightstand_face">Циферблат</string>
+    <string name="nightstand_face_keep">Запазване на текущия циферблат</string>
+    <string name="nightstand_footer">Нощната лампа включва екрана за постоянен дисплей, докато работи, и го връща след това. Спира, когато зарядното се извади, алармата звънне или нощта свърши. Циферблатът сменя само между два персонализирани; системният часовник остава.</string>
 </resources>

@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Detaljer"</string>
     <string name="lockscreen_weather_location_title">"Posisjon"</string>
+    <string name="lockscreen_weather_title">Været på låseskjermen</string>
+    <string name="lockscreen_weather_location_summary">Vis bynavnet</string>
+    <string name="lockscreen_weather_text_title">Forhold</string>
+    <string name="lockscreen_weather_text_summary">Vis forholdet, som Skyet eller Klar himmel</string>
+    <string name="lockscreen_weather_wind_title">Vind</string>
+    <string name="lockscreen_weather_wind_summary">Vis vindstyrke og retning</string>
+    <string name="lockscreen_weather_humidity_title">Fuktighet</string>
+    <string name="lockscreen_weather_humidity_summary">Vis luftfuktigheten</string>
+    <string name="custom_clock_weather_title">Vær på klokkeflater</string>
+    <string name="custom_clock_weather_summary">Vis været i klokkeflater som har plass til det</string>
+    <string name="remixer_weather_service">Værtjeneste</string>
+    <string name="remixer_weather_page_summary">Været på låseskjermen og hva det viser</string>
 </resources>

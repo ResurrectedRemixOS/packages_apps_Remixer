@@ -91,4 +91,195 @@
     <string name="remixer_settings_style">設定のスタイル</string>
     <string name="remixer_settings_style_original">"オリジナル"</string>
     <string name="remixer_navbar_category">"ナビゲーション バー"</string>
+    <string name="remixer_dashboard_summary">ステータスバー、テーマ、ロック画面など</string>
+    <string name="rr_homepage_battery_saver">バッテリー セーバー</string>
+    <string name="rr_homepage_personalize">パーソナライズ</string>
+    <string name="rr_homepage_free">残り <xliff:g id="size" example="194 GB">%1$s</xliff:g></string>
+    <string name="rr_homepage_charged">充電完了</string>
+    <string name="rr_homepage_on_battery">バッテリー使用中</string>
+    <string name="rr_homepage_saver_on">バッテリー セーバー オン</string>
+    <string name="rr_homepage_extras">その他の設定</string>
+    <string name="rr_homepage_saver">セーバー</string>
+    <string name="rr_homepage_signed_out">サインインしていません</string>
+    <string name="rr_homepage_remixer_tagline">自分好みにカスタマイズ。ステータスバー、テーマ、ロック画面などを設定できます。</string>
+    <string name="rr_homepage_device_tagline">アラート スライダー、ディスプレイ、充電、GameBar。</string>
+    <string name="rr_homepage_device_action">調整する</string>
+    <string name="rr_group_network">ネットワークとデバイス</string>
+    <string name="rr_group_network_summary">Wi‑Fi、モバイル、Bluetooth</string>
+    <string name="rr_group_apps_summary">アプリ、通知、モード</string>
+    <string name="rr_group_display">ディスプレイとサウンド</string>
+    <string name="rr_group_display_summary">ディスプレイ、壁紙、サウンド</string>
+    <string name="rr_group_security_summary">ロック、位置情報、緊急通報</string>
+    <string name="rr_group_security_center">セキュリティ センター</string>
+    <string name="rr_group_accounts">Google とアカウント</string>
+    <string name="rr_group_accounts_summary">Google、パスワード、バックアップ</string>
+    <string name="rr_group_accounts_plain_summary">パスワード、アカウント、バックアップ</string>
+    <string name="rr_group_system_summary">言語、ジェスチャー、アップデート</string>
+    <string name="remixer_tagline">自分好みにしましょう。</string>
+    <string name="remixer_remix">リミックスする</string>
+    <string name="remixer_remixed"><xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g> でリミックス済み</string>
+    <string name="remixer_chip_shade_default">シェード · デフォルト</string>
+    <string name="remixer_quick">クイック リミックス</string>
+    <string name="remixer_everything">すべて</string>
+    <string name="remixer_quick_accents">プリセットまたは任意の色</string>
+    <string name="remixer_quick_fonts">システム フォント スタイル</string>
+    <string name="remixer_quick_walls">RR コレクション</string>
+    <string name="remixer_quick_header">QS ヘッダー</string>
+    <string name="remixer_quick_header_summary">ヘッダー画像</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">時計、バッテリー、アイコン、ネットワーク速度</string>
+    <string name="remixer_qs_summary">ヘッダー画像</string>
+    <string name="remixer_notifications_summary">エッジ ライティング、アプリアイコン、充電音</string>
+    <string name="remixer_theme_summary">フォント、アクセント、壁紙</string>
+    <string name="remixer_lockscreen_summary">UDFPS、充電情報、天気</string>
+    <string name="remixer_udfps_icon_summary">指紋センサーの上に表示</string>
+    <string name="remixer_udfps_animation_summary">指がセンサーに触れている間に再生</string>
+    <string name="remixer_navigation_summary">Pulse、ボタン、ナビゲーション バー</string>
+    <string name="remixer_misc_summary">音量、バックアップ、スプーフィング、スクロール、USB</string>
+    <string name="scroll_haptics_title">スクロールの終端でタップ</string>
+    <string name="scroll_haptics_summary">リストやページがそれ以上スクロールできないときに軽く振動</string>
+    <string name="usb_mode_picker_title">USB モードの選択</string>
+    <string name="usb_mode_picker_summary">パソコンに接続したときにモードを選択</string>
+    <string name="remixer_fonts_summary">システム フォント</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix の壁紙</string>
+    <string name="remixer_accents">アクセント</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">画面下部に表示される音楽ビジュアライザー</string>
+    <string name="pulse_switch">Pulse を使用</string>
+    <string name="pulse_switch_summary">メディア再生中、画面下部に音楽のバーを表示</string>
+    <string name="pulse_style_lines">ライン</string>
+    <string name="pulse_style_fading">フェード</string>
+    <string name="pulse_style_blocks">ブロック</string>
+    <string name="pulse_style_mirror">ミラー</string>
+    <string name="pulse_color_custom">カスタム</string>
+    <string name="pulse_color_gradient">レインボー</string>
+    <string name="pulse_bars">バー</string>
+    <string name="pulse_bars_value">バー · %1$d</string>
+    <string name="pulse_height">高さ</string>
+    <string name="pulse_height_value">高さ · %1$d dp</string>
+    <string name="pulse_opacity">不透明度</string>
+    <string name="pulse_opacity_value">不透明度 · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">音楽再生中、ロック画面にバーを表示し続ける</string>
+    <string name="pulse_failed">Pulse の設定を保存できませんでした</string>
+    <string name="accent_applied">アクセントを適用しました</string>
+    <string name="accent_current">アクセント · %1$s</string>
+    <string name="accent_current_custom">アクセント · カスタム</string>
+    <string name="accent_preview_tonal">トーン</string>
+    <string name="accent_failed">そのアクセントを適用できませんでした</string>
+    <string name="accent_custom">カスタム</string>
+    <string name="accent_custom_summary">どの色も選べます。シェードは上から引き続き適用されます。</string>
+    <string name="accent_custom_pad">彩度と明るさ</string>
+    <string name="accent_custom_use"><xliff:g id="color" example="#12B5A6">%1$s</xliff:g> を使用</string>
+    <string name="accent_shade">シェード</string>
+    <string name="accent_shade_darker">ダーク</string>
+    <string name="accent_shade_lighter">ライト</string>
+    <string name="accent_shade_darker_value">ダーク · %1$d</string>
+    <string name="accent_shade_lighter_value">ライト · %1$d</string>
+    <string name="remixer_qs_style">QS スタイル</string>
+    <string name="remixer_qs_style_preview">プレビュー · %1$s</string>
+    <string name="remixer_qs_style_note">すべてのスタイルはアクセントカラーに合わせて表示されます。音量パネルには Bento、Shapes、Blueprint、Duo、Soft に対応するルックがあります。Stock Lineage は Android 17 のタイルをそのまま維持します。</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Android 17 のタイルをそのまま使用</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">アクセントのカードに明るさを表示。タイルはアクセントのグラデーションで塗られます</string>
+    <string name="remixer_qs_style_compact">コンパクト</string>
+    <string name="remixer_qs_style_compact_summary">タイルを小さくして、一画面により多く表示</string>
+    <string name="remixer_qs_style_glass">ガラス</string>
+    <string name="remixer_qs_style_glass_summary">透けたアウトラインのタイル。オンのときアクセントで発光します</string>
+    <string name="remixer_qs_style_circles">サークル</string>
+    <string name="remixer_qs_style_circles_summary">丸いトグルにラベルを付けます。横長のタイルはカードになります。</string>
+    <string name="remixer_qs_style_classic">クラシック</string>
+    <string name="remixer_qs_style_classic_summary">RR の伝統的なスタイル。ラベル付きのシンプルなアイコンを一列に5つ並べ、細いスライダーを表示</string>
+    <string name="remixer_qs_style_cards">カード</string>
+    <string name="remixer_qs_style_cards_summary">大きなカードに各名称の下に状態を表示。一列に3つ並べます</string>
+    <string name="remixer_qs_style_neon">ネオン</string>
+    <string name="remixer_qs_style_neon_summary">アウトラインのタイルで、オンのときアクセントで発光します</string>
+    <string name="remixer_qs_style_bento_summary">アクセントで塗られた大きな角丸ブロック。小さいタイルはラベルを下に表示</string>
+    <string name="remixer_qs_style_shapes">シェイプ</string>
+    <string name="remixer_qs_style_shapes_summary">オンのときに花びらのように膨らむ丸いトグル。一列に5つ並べます</string>
+    <string name="remixer_qs_style_blueprint">ブループリント</string>
+    <string name="remixer_qs_style_blueprint_summary">細い罫線と等幅の大文字</string>
+    <string name="remixer_qs_style_duo">デュオ</string>
+    <string name="remixer_qs_style_duo_summary">2分割のタイル。アイコン側が点灯し、切り替えます</string>
+    <string name="remixer_qs_style_soft">ソフト</string>
+    <string name="remixer_qs_style_soft_summary">オンのときに押し込まれるように見える浮き出しタイル</string>
+    <string name="remixer_lock_media_style">メディア プレーヤーのスタイル</string>
+    <string name="remixer_lock_media_same">クイック設定と同じ</string>
+    <string name="remixer_lock_media_same_summary">クイック設定の QS メディア タイルに従います（現在 %1$s）</string>
+    <string name="remixer_lock_media_off_summary">ロック画面にプレーヤーはありません</string>
+    <string name="remixer_lock_media_note">再生中はロック画面にカードが表示されます。透けたスタイルは壁紙の上でも読みやすいよう暗い背景が付きます。</string>
+    <string name="remixer_lock_media_stock_summary">アルバムアートをカードいっぱいに表示</string>
+    <string name="remixer_lock_media_remix_summary">ダークのカード、アクセントの再生ボタン</string>
+    <string name="remixer_lock_media_compact_summary">より丸いカード、丸いアートワーク</string>
+    <string name="remixer_lock_media_glass_summary">透けたアウトラインのカード</string>
+    <string name="remixer_lock_media_circles_summary">ソフトなカード、アクセントの再生ボタン</string>
+    <string name="remixer_lock_media_classic_summary">より角張ったカード、アウトラインの再生ボタン</string>
+    <string name="remixer_lock_media_cards_summary">ソフトなカード、アクセントの再生ボタン（サークルと同じ）</string>
+    <string name="remixer_lock_media_neon_summary">黒いカードにアクセントのアウトライン</string>
+    <string name="remixer_lock_media_bento_summary">ソフトなカード、アクセントの再生ボタン</string>
+    <string name="remixer_lock_media_shapes_summary">より丸いカード、アクセントの再生ボタン</string>
+    <string name="remixer_lock_media_blueprint_summary">細いアウトライン、アウトラインの再生ボタン</string>
+    <string name="remixer_lock_media_duo_summary">2色のカード、アクセントの再生ボタン</string>
+    <string name="remixer_lock_media_soft_summary">ベベル加工の縁を持つ浮き出しカード</string>
+    <string name="remixer_headers">ヘッダー画像</string>
+    <string name="header_switch">ヘッダー画像を使用</string>
+    <string name="header_switch_summary">クイック設定の背後に画像を表示</string>
+    <string name="header_source">ソース</string>
+    <string name="header_source_collection">コレクション</string>
+    <string name="header_collections_summary_daylight">ヘッダーは時間帯に応じて変わるか、コレクション内で切り替わります</string>
+    <string name="header_collections_summary_static">コレクションを開き、画像をタップして使用します</string>
+    <string name="header_collections_empty">ヘッダー コレクションがインストールされていません</string>
+    <string name="header_images_daylight">このコレクション内</string>
+    <string name="header_photo_summary">ギャラリー内の任意の写真またはアニメーション GIF</string>
+    <string name="header_height">高さ</string>
+    <string name="header_height_value">高さ · %1$d dp</string>
+    <string name="header_shadow">減光</string>
+    <string name="header_shadow_value">減光 · %1$d%%</string>
+    <string name="header_failed">ヘッダーの設定を保存できませんでした</string>
+    <string name="remixer_weather_summary">天気サービスと単位</string>
+    <string name="font_preview_notification">スマートフォンでの表示イメージです。</string>
+    <string name="font_try_text">任意のテキストを試す</string>
+    <string name="font_previewing">プレビュー中</string>
+    <string name="font_current">現在のフォント</string>
+    <string name="font_badge_current">現在</string>
+    <string name="font_apply_done">適用済み</string>
+    <string name="font_filter_sans">サンセリフ</string>
+    <string name="font_filter_display">ディスプレイ</string>
+    <string name="font_filter_script">スクリプト</string>
+    <string name="font_filter_mono">等幅</string>
+    <string name="font_applied">フォントを適用しました</string>
+    <string name="font_failed">フォントを適用できませんでした</string>
+    <string name="wallpaper_set">壁紙を設定しました</string>
+    <string name="wallpaper_apply_both">両方</string>
+    <string name="wallpaper_failed">壁紙を設定できませんでした</string>
+    <string name="missing_app">そのアプリはインストールされていません</string>
+    <string name="remixer_spoofing">スプーフィング</string>
+    <string name="remixer_spoofing_summary">Play Integrity、デバイス識別情報、アプリごとのスプーフィング</string>
+    <string name="rr_maintainer">メンテナー</string>
+    <string name="remixer_navbar_summary">Pill の長さ、太さ、レイアウト</string>
+    <string name="remixer_navbar_pill_length">ジェスチャー Pill の長さ</string>
+    <string name="remixer_navbar_pill_thickness">ジェスチャー Pill の太さ</string>
+    <string name="remixer_navbar_pill_auto_hide">ジェスチャー Pill をフェードアウト</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">数秒後に Pill を非表示にし、画面に触れると再表示します</string>
+    <string name="remixer_navbar_ime">キーボード ボタン</string>
+    <string name="remixer_navbar_ime_summary">キーボードの下に戻るボタンとキーボード切り替えボタンを表示</string>
+    <string name="remixer_navbar_layout">ボタン レイアウト</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>短い</item>
+        <item>標準</item>
+        <item>長い</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>最も細い</item>
+        <item>より細い</item>
+        <item>細い</item>
+        <item>標準</item>
+        <item>太い</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>標準</item>
+        <item>コンパクト</item>
+        <item>"左寄り"</item>
+        <item>"右寄り"</item>
+    </string-array>
 </resources>

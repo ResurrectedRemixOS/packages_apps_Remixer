@@ -5,4 +5,32 @@
     <string name="sb_clock_date_format_title">தேதி வடிவம்</string>
     <string name="sb_weather_category">"வானிலை"</string>
     <string name="sb_weather_position_title">நிலை</string>
+    <string name="sb_clock_bold_title">தடித்த கடிகாரம்</string>
+    <string name="sb_clock_bold_summary">நிலைப் பட்டி கடிகாரத்தை தடிமனாகக் காட்டு</string>
+    <string name="sb_clock_period_separator_title">புள்ளி பிரிப்பான்</string>
+    <string name="sb_clock_period_separator_summary">10:45-க்கு பதிலாக 10.45</string>
+    <string name="sb_clock_date_position_title">தேதியின் நிலை</string>
+    <string name="sb_clock_date_style_title">தேதியின் எழுத்து வடிவம்</string>
+    <string name="sb_clock_chip_category">கடிகாரப் பின்னணி</string>
+    <string name="sb_clock_chip_title">பின்னணி பாணி</string>
+    <string name="sb_clock_chip_start_title">சாய்வு தொடக்கம்</string>
+    <string name="sb_clock_chip_end_title">சாய்வு முடிவு</string>
+    <string name="sb_clock_chip_angle_title">சாய்வு கோணம்</string>
+    <string name="sb_clock_chip_mask_title">சாய்விலிருந்து நேரத்தை வெட்டு</string>
+    <string name="sb_clock_chip_mask_summary">இலக்கங்களுக்குப் பின்னால் இல்லாமல் சாய்வு இலக்கங்கள் வழியாகத் தெரியும்</string>
+    <string name="sb_weather_title">நிலைப் பட்டியில் வானிலை</string>
+    <string name="status_bar_clock_rr_style_title">கடிகார தோற்றம்</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"இயல்பு"</item>
+        <item>நியான்</item>
+        <item>பிரிக்கப்பட்டது</item>
+        <item>RR குறி</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>அடுக்கு</item>
+        <item>Ember</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">நேரத்தின் அருகில் Flatline</string>
+    <string name="sb_clock_flatline_summary">சிப்பினுள் RR-இன் இதயத் துடிப்பு கோடு: இசையுடன் துடிக்கும், அறிவிப்பு வரும்போது உச்சம் தொடும்</string>
 </resources>

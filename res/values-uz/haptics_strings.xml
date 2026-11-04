@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Koʻk"</string>
     <string name="haptic_remix_color_green">"Yashil"</string>
     <string name="haptic_remix_color_white">"Oq"</string>
+    <string name="haptic_remix_summary">Qo‘ng‘iroqlar, ilovalar, signallar va qulflashlar uchun tebranish naqshlarini bosib kiriting</string>
+    <string name="haptic_remix_record">Yozish</string>
+    <string name="haptic_remix_pad">ritmni bosing</string>
+    <string name="haptic_remix_strength">Kuch</string>
+    <string name="haptic_remix_clear">Tozalash</string>
+    <string name="haptic_remix_play">Ijro etish</string>
+    <string name="haptic_remix_name">Naqsh nomi</string>
+    <string name="haptic_remix_empty">Hali hech narsa yozilmagan</string>
+    <string name="haptic_remix_too_long">Naqsh 30 soniyagacha davom etishi mumkin</string>
+    <string name="haptic_remix_presets">Tayyor sozlamalar</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Oynasimon</string>
+    <string name="haptic_remix_preset_ringtone">Qo‘ng‘iroq ohangi zarbi</string>
+    <string name="haptic_remix_listening">Qo‘ng‘iroq ohangi tinglanmoqda…</string>
+    <string name="haptic_remix_no_ringtone">Qo‘ng‘iroq ohangini o‘qib bo‘lmadi</string>
+    <string name="haptic_remix_patterns">Sizning naqshlaringiz</string>
+    <string name="haptic_remix_patterns_none">Avval naqsh saqlang. O‘chirish uchun ushlab turing.</string>
+    <string name="haptic_remix_broken">Bu naqshni o‘qib bo‘lmaydi</string>
+    <string name="haptic_remix_delete"><xliff:g id="name" example="Heartbeat">%1$s</xliff:g> o‘chirilsinmi?</string>
+    <string name="haptic_remix_assign">Biriktirish</string>
+    <string name="haptic_remix_alarm">Signal va taymer</string>
+    <string name="haptic_remix_plug">Ulangan</string>
+    <string name="haptic_remix_fingerprint">Barmoq izi muvaffaqiyatli</string>
+    <string name="haptic_remix_add_contact">Kontakt qo‘shish</string>
+    <string name="haptic_remix_edge_color"><xliff:g id="name" example="Mia">%1$s</xliff:g> xabarlari uchun chekka yorug‘ligi</string>
+    <string name="haptic_remix_color_accent">Aksent</string>
+    <string name="haptic_remix_color_crimson">Qirmizi</string>
+    <string name="haptic_remix_color_amber">Kahrabo</string>
+    <string name="haptic_remix_add_app">Ilova bildirishnomalarini qo‘shish</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · o‘zgartirish uchun bosing, chekka rangi uchun ushlab turing</string>
+    <string name="haptic_remix_no_contacts">Kontaktlardan raqam olinmadi</string>
 </resources>

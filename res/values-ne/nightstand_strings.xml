@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">कहिले</string>
+    <string name="nightstand_title">नाइटस्ट्यान्ड</string>
+    <string name="nightstand_summary">चार्ज हुँदा रातमा सधैं खुल्ने स्क्रिनमा मधुरो सिरानी घडी</string>
+    <string-array name="nightstand_when_entries">
+        <item>"अफ छ"</item>
+        <item>रातमा चार्जरमा</item>
+        <item>हरेक रात, तोकिएको समयमा</item>
+        <item>सुत्ने मोड सक्रिय हुँदा</item>
+    </string-array>
+    <string name="nightstand_from">रात सुरु हुन्छ</string>
+    <string name="nightstand_to">रात समाप्त हुन्छ</string>
+    <string name="nightstand_brightness">चमकको सीमा</string>
+    <string name="nightstand_brightness_summary">नाइटस्ट्यान्ड सक्रिय हुँदा सधैं खुल्ने स्क्रिन कति उज्यालो हुन सक्छ</string>
+    <string name="nightstand_face">घडीको डिजाइन</string>
+    <string name="nightstand_face_keep">हालको डिजाइन राख्नुहोस्</string>
+    <string name="nightstand_footer">नाइटस्ट्यान्ड चल्दा सधैं खुल्ने स्क्रिन सक्रिय गर्छ र सकिएपछि फिर्ता राख्छ। चार्जर हट्दा, अलार्म बज्दा वा रात सकिँदा यो समाप्त हुन्छ। डिजाइनले दुई कस्टम डिजाइनबीच मात्र बदल्छ; प्रणालीको घडी रहन्छ।</string>
 </resources>

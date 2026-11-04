@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Tenporizadorea</string>
     <string name="quick_launch_undo">"Desegin"</string>
     <string name="quick_launch_off">"Desaktibatuta"</string>
+    <string name="quick_launch_title">Abiarazte azkarra</string>
+    <string name="quick_launch_main">Hatz-markaren abiarazte azkarra</string>
+    <string name="quick_launch_main_summary">Desblokeatu ondoren, mantendu hatza sentsorean lasterbide bat irekitzeko</string>
+    <string name="quick_launch_hint">Sakatu lasterbide bat aldatzeko, luze sakatu kentzeko edo arrastatu berriro ordenatzeko.</string>
+    <string name="quick_launch_behavior">Portaera</string>
+    <string name="quick_launch_hold">Eusteko denbora</string>
+    <string name="quick_launch_haptics">Dardara egin lasterbide bakoitzean</string>
+    <string name="quick_launch_add">Gehitu</string>
+    <string name="quick_launch_video">Bideoa</string>
+    <string name="quick_launch_qr">Eskaneatu QR</string>
+    <string name="quick_launch_app">Aplikazioa…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> kendu da</string>
 </resources>

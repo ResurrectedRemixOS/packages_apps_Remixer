@@ -10,4 +10,24 @@
     <string name="rr_about_this_phone">"ഈ ഫോൺ"</string>
     <string name="rr_about_network">"നെറ്റ്‌വർക്ക്"</string>
     <string name="rr_about_hidden">"മറച്ചത്"</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">ഔദ്യോഗികം</string>
+    <string name="rr_about_unofficial">അനൗദ്യോഗികം</string>
+    <string name="rr_about_vanilla">വാനില</string>
+    <string name="rr_about_hardware">ഹാർഡ്‌വെയർ</string>
+    <string name="rr_about_processor">പ്രോസസർ</string>
+    <string name="rr_about_processor_sub">%1$d കോറുകൾ · പരമാവധി %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d കോറുകൾ</string>
+    <string name="rr_about_storage_used">%1$s ഉപയോഗിച്ചു</string>
+    <string name="rr_about_display">ഡിസ്പ്ലേ</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · ചാർജ് ചെയ്യുന്നു</string>
+    <string name="rr_about_kernel_linux">Linux കേർണൽ</string>
+    <string name="rr_about_software_purpose">Android പതിപ്പ്, സുരക്ഷാ അപ്‌ഡേറ്റ്, ബിൽഡ് തീയതി, ബിൽഡ് നമ്പർ</string>
+    <string name="rr_about_security_patch">സുരക്ഷാ അപ്‌ഡേറ്റ്</string>
+    <string name="rr_about_build_date">ബിൽഡ് തീയതി</string>
+    <string name="rr_about_maintainer">മെയിന്റെയ്നർ</string>
+    <string name="rr_about_show">കാണിക്കുക</string>
+    <string name="rr_about_hide">മറയ്ക്കുക</string>
 </resources>

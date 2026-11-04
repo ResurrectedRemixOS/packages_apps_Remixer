@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Tila jokaiselle Tilallesi</string>
+    <string name="remix_modes_everyday">Arkinen tila</string>
+    <string name="remix_modes_everyday_summary">Palaa, kun mikään tila, jolla on tila, ei ole päällä</string>
+    <string name="remix_modes_wallpaper">Taustakuva seuraa tilaa</string>
+    <string name="remix_modes_wallpaper_summary">Tila voi vaihtaa myös taustakuvan</string>
+    <string name="remix_modes_modes">Tilasi</string>
+    <string name="remix_modes_no_change">Ei muutosta</string>
+    <string name="remix_modes_none">Tallenna ensin tila kohdassa Teema › Tilat</string>
+    <string name="remix_modes_pick">Tila kohteelle <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

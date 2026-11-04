@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Device RKP प्रयोग गर्नुहोस्</string>
+    <string name="ts_rkp_enabled_summary">उत्पन्न गरिएको keybox प्रयोग गर्नुहोस्। keybox आयात गर्दा यो बन्द हुन्छ।</string>
+    <string name="ts_rkp_provision">Keybox उत्पन्न गर्नुहोस्</string>
+    <string name="ts_rkp_provision_summary">यस उपकरणको provisioning सेवा प्रयोग गरेर Google बाट keybox अनुरोध गर्नुहोस्। सुसंगत Qualcomm firmware आवश्यक छ।</string>
+    <string name="ts_rkp_status">Provisioning स्थिति</string>
+    <string name="ts_rkp_owner_only">Device owner को प्रोफाइलबाट device RKP व्यवस्थापन गर्नुहोस्</string>
+    <string name="ts_rkp_unavailable">Device RKP उपलब्ध छैन</string>
+    <string name="ts_rkp_imported">आयात गरिएको keybox स्थापित हुँदा बन्द गरिएको छ</string>
+    <string name="ts_rkp_disabled">बन्द छ। keybox प्रयोग वा उत्पन्न गर्न device RKP सक्षम गर्नुहोस्।</string>
+    <string name="ts_rkp_idle">Keybox अनुरोध गर्न तयार</string>
+    <string name="ts_rkp_fetching">Provisioning challenge प्राप्त गर्दै…</string>
+    <string name="ts_rkp_hardware">उपकरणको provisioning सेवाको प्रतीक्षा गर्दै…</string>
+    <string name="ts_rkp_signing">Google बाट certificate अनुरोध गर्दै…</string>
+    <string name="ts_rkp_validating">Keybox प्रमाणित गर्दै र सुरक्षित गर्दै…</string>
+    <string name="ts_rkp_ready">उत्पन्न गरिएको keybox सक्रिय छ। %1$s अगाडि आफैँ नवीकरण हुन्छ</string>
+    <string name="ts_rkp_keybox_stored">Device RKP keybox भण्डारण गरियो</string>
+    <string name="ts_rkp_expired">उत्पन्न गरिएको keybox म्याद सकियो। नयाँ एउटा उत्पन्न गर्नुहोस्।</string>
+    <string name="ts_rkp_hal_rejected">Firmware ले अनुरोध अस्वीकार गर्‍यो (कोड %1$d)। Duck V1 समर्थित नहुन सक्छ।</string>
+    <string name="ts_rkp_http_error">Provisioning सर्भरले अनुरोध अस्वीकार गर्‍यो (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">उपकरणले सुसंगत V1 provisioning इन्टरफेस देखाउँदैन</string>
+    <string name="ts_rkp_network_error">Provisioning सर्भरसम्म पुग्न सकिएन। आफ्नो जडान जाँच गर्नुहोस्।</string>
+    <string name="ts_rkp_submission_unknown">सर्भरको प्रतिक्रिया हराएको छ। अनुरोध प्रशोधन भएको हुन सक्छ; स्वचालित पुन: प्रयास गरिएको छैन।</string>
+    <string name="ts_rkp_invalid_chain">Keybox certificate हरूले प्रमाणीकरण असफल गरे। अवस्थित keybox राखियो।</string>
+    <string name="ts_rkp_timeout">Provisioning समय सकियो। उपकरण सेवा अझै व्यस्त छ भने, फेरि प्रयास गर्नु अघि उपकरण रिस्टार्ट गर्नुहोस्।</string>
+    <string name="ts_rkp_canceled">Keybox कन्फिगरेसन परिवर्तन भएकाले अनुरोध रद्द गरियो</string>
+    <string name="ts_rkp_save_failed">उत्पन्न गरिएको keybox सुरक्षित गर्न सकिएन</string>
+    <string name="ts_rkp_action_failed">Keybox कार्य पूरा गर्न सकिएन</string>
+</resources>

@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">کب</string>
+    <string name="nightstand_title">نائٹ اسٹینڈ</string>
+    <string name="nightstand_summary">رات کو چارج ہوتے وقت ہمیشہ آن ڈسپلے پر مدھم بیڈ سائیڈ گھڑی</string>
+    <string-array name="nightstand_when_entries">
+        <item>"آف"</item>
+        <item>رات کو چارجر پر</item>
+        <item>ہر رات، شیڈول کے مطابق</item>
+        <item>جب بیڈ ٹائم موڈ آن ہو</item>
+    </string-array>
+    <string name="nightstand_from">رات شروع</string>
+    <string name="nightstand_to">رات ختم</string>
+    <string name="nightstand_brightness">چمک کی حد</string>
+    <string name="nightstand_brightness_summary">نائٹ اسٹینڈ آن ہونے پر ہمیشہ آن ڈسپلے کی زیادہ سے زیادہ چمک</string>
+    <string name="nightstand_face">گھڑی کا چہرہ</string>
+    <string name="nightstand_face_keep">موجودہ چہرہ رکھیں</string>
+    <string name="nightstand_footer">نائٹ اسٹینڈ چلنے کے دوران ہمیشہ آن ڈسپلے آن کرتا ہے اور بعد میں اسے واپس کر دیتا ہے۔ یہ چارجر نکلنے، الارم بجنے یا رات ختم ہونے پر بند ہوتا ہے۔ چہرہ صرف دو حسبِ ضرورت چہروں کے درمیان بدلتا ہے؛ سسٹم گھڑی وہی رہتی ہے۔</string>
 </resources>

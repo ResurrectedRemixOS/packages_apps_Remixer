@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Bila"</string>
+    <string name="nightstand_title">Meja tidur</string>
+    <string name="nightstand_summary">Jam tidur malap pada paparan sentiasa hidup semasa mengecas pada waktu malam</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Mati"</item>
+        <item>Pada pengecas pada waktu malam</item>
+        <item>Setiap malam, mengikut jadual</item>
+        <item>Semasa mod Waktu tidur dihidupkan</item>
+    </string-array>
+    <string name="nightstand_from">Malam bermula</string>
+    <string name="nightstand_to">Malam tamat</string>
+    <string name="nightstand_brightness">Had kecerahan</string>
+    <string name="nightstand_brightness_summary">Sejauh mana paparan sentiasa hidup boleh menjadi cerah semasa Meja tidur dihidupkan</string>
+    <string name="nightstand_face">Muka jam</string>
+    <string name="nightstand_face_keep">Kekalkan muka semasa</string>
+    <string name="nightstand_footer">Meja tidur menghidupkan paparan sentiasa hidup semasa ia berjalan dan memulihkannya selepas itu. Ia tamat apabila pengecas dicabut, penggera berbunyi atau malam tamat. Muka jam hanya bertukar antara dua muka tersuai; jam sistem kekal.</string>
 </resources>

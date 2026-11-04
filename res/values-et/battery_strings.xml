@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Aku"</string>
     <string name="battery_style_title">"Stiil"</string>
+    <string-array name="battery_style_entries">
+        <item>Portree</item>
+        <item>"Ring"</item>
+        <item>Täppidest ring</item>
+        <item>Neoonrõngas</item>
+        <item>Kitsas akuriba</item>
+        <item>Suur protsent</item>
+        <item>Tekst</item>
+    </string-array>
+    <string name="battery_percent_title">Protsent</string>
+    <string-array name="battery_percent_entries">
+        <item>Peidetud</item>
+        <item>Ikooni sees</item>
+        <item>Selle kõrval</item>
+    </string-array>
+    <string name="battery_ring_color_title">Neoonrõnga värv</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Taseme järgi on aktsent üle 20%%, punane alla selle ja kollane akusäästurežiimis.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Taseme järgi</item>
+        <item>Aktsent</item>
+        <item>"Valge"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Sädemed laadimise ajal</string>
+    <string name="battery_ring_tile_title">Sama rõngas kiirseadete paanil</string>
+    <string name="battery_ring_tile_summary">Taseme ja ekraani sisselülitusajaga</string>
 </resources>

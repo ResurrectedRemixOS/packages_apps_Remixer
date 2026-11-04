@@ -15,4 +15,54 @@
     <string name="looks_save_look">"Stoor"</string>
     <string name="looks_custom_color">"Gepasmaakte kleur"</string>
     <string name="looks_part_clock_color">"Horlosiekleur"</string>
+    <string name="looks_title">Voorkomste</string>
+    <string name="looks_summary">Jou hele opstelling in een tik</string>
+    <string name="looks_rr">RR-voorkomste</string>
+    <string name="looks_yours">Jou voorkomste</string>
+    <string name="looks_none">Niks nog gestoor nie</string>
+    <string name="looks_save">Stoor huidige</string>
+    <string name="looks_import_clipboard">Vanaf die knipbord</string>
+    <string name="looks_import_file">Vanaf \'n lêer</string>
+    <string name="looks_mine">My voorkoms</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> toegepas</string>
+    <string name="looks_failed">Kon nie alles toepas nie</string>
+    <string name="looks_invalid">Dit is nie \'n RR-voorkoms nie</string>
+    <string name="looks_part_accent">Aksentkleur</string>
+    <string name="looks_part_qs">KS-styl</string>
+    <string name="looks_part_clock_face">Sluitskerm-klokgesig</string>
+    <string name="looks_part_clock_look">Statusbalk-klok</string>
+    <string name="looks_part_edge">Kantverligting</string>
+    <string name="looks_part_boot">Selfoonaanskakelanimasie</string>
+    <string name="looks_part_haptics">Haptic Remix-patrone</string>
+    <string name="looks_saturation">Versadiging <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Aksent</string>
+    <string name="looks_share_title">Deel “<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">Skandeer met \'n ander RR-foon se kamera, of in Voorkomste › Invoer</string>
+    <string name="looks_share_file">Deel lêer</string>
+    <string name="looks_save_file">Stoor lêer</string>
+    <string name="looks_import_scan">Skandeer \'n QR-kode</string>
+    <string name="looks_import_title">Voer voorkoms in</string>
+    <string name="looks_from_qr">vanaf \'n QR-kode</string>
+    <string name="looks_from_file">vanaf \'n lêer</string>
+    <string name="looks_from_clipboard">vanaf die knipbord</string>
+    <string name="looks_import_same">Dit stem reeds met jou opstelling ooreen.</string>
+    <string name="looks_new">Nuwe voorkoms</string>
+    <string name="looks_edit_title">Wysig voorkoms</string>
+    <string name="looks_in_look">In hierdie voorkoms</string>
+    <string name="looks_not_included">Nie in hierdie uitleg nie</string>
+    <string name="looks_save_apply">Stoor en pas toe</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” gestoor</string>
+    <string name="looks_delete_confirm">Vee “<xliff:g id="name" example="Sunday">%1$s</xliff:g>” uit?</string>
+    <string name="looks_rr_wallpaper">RR-muurpapier <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Aksentversadiging</string>
+    <string name="looks_part_clock_chip">Statusbalk-klokkie-skyfie</string>
+    <string name="looks_part_edge_style">Randligstyl</string>
+    <string name="looks_scan_hint">Rig die kamera op ’n uitleg se QR-kode</string>
+    <string name="looks_scan_failed">Kon nie die kamera oopmaak nie</string>
+    <string name="look_roulette_title">Uitleg-roulette</string>
+    <string-array name="look_roulette_entries">
+        <item>"Af"</item>
+        <item>’n Ander uitleg by elke ontsluiting</item>
+        <item>’n Ander uitleg elke dag</item>
+    </string-array>
 </resources>

@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"ရက်စွဲ"</string>
     <string name="sb_weather_category">"မိုးလေဝသ"</string>
+    <string name="sb_clock_category">နာရီနှင့် ရက်စွဲ</string>
+    <string name="sb_clock_bold_title">ထူသော နာရီ</string>
+    <string name="sb_clock_bold_summary">အခြေအနေပြနေရာ နာရီကို ထူပြပါ</string>
+    <string name="sb_clock_period_separator_title">ကာလခြားကိရိယာ</string>
+    <string name="sb_clock_period_separator_summary">အစား 10:45 ကို 10.45</string>
+    <string name="sb_clock_date_position_title">ရက်စွဲနေရာ</string>
+    <string name="sb_clock_date_style_title">ရက်စွဲ စာလုံးပုံစံ</string>
+    <string name="sb_clock_date_format_title">ရက်စွဲပုံစံ</string>
+    <string name="sb_clock_chip_category">နာရီနောက်ခံ</string>
+    <string name="sb_clock_chip_title">နောက်ခံပုံစံ</string>
+    <string name="sb_clock_chip_start_title">Gradient စတင်အရောင်</string>
+    <string name="sb_clock_chip_end_title">Gradient အဆုံးအရောင်</string>
+    <string name="sb_clock_chip_angle_title">Gradient ထောင့်</string>
+    <string name="sb_clock_chip_mask_title">အချိန်ကို gradient မှ ဖြတ်ထုတ်ပါ</string>
+    <string name="sb_clock_chip_mask_summary">ဂဏန်းများနောက်တွင် မဟုတ်ဘဲ ဂဏန်းများမှတစ်ဆင့် gradient ပေါ်ပါသည်</string>
+    <string name="sb_weather_title">အခြေအနေပြနေရာတွင် ရာသီဥတု</string>
+    <string name="sb_weather_position_title">နေရာ</string>
+    <string name="status_bar_clock_rr_style_title">နာရီ ပုံစံ</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"မူရင်း"</item>
+        <item>နီယွန်</item>
+        <item>ခွဲ</item>
+        <item>RR အမှတ်တံဆိပ်</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>ထပ်ပုံ</item>
+        <item>Ember</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">အချိန်ဘေးရှိ Flatline</string>
+    <string name="sb_clock_flatline_summary">RR ၏ နှလုံးခုန်လိုင်းသည် အကွက်အတွင်း၌ သီချင်းနှင့်အတူ ခုန်ပြီး အကြောင်းကြားချက် ရောက်သောအခါ တက်လာသည်</string>
 </resources>

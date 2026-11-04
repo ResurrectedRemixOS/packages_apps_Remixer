@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">מחוות</string>
     <string name="backup_group_other">"אחר"</string>
     <string name="backup_done">"סיום"</string>
+    <string name="backup_summary">כל התאמות RR בקובץ אחד</string>
+    <string name="backup_now">גבו עכשיו</string>
+    <string name="backup_never">גיבוי אחרון: אף פעם</string>
+    <string name="backup_last">גיבוי אחרון: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">שחזור מקובץ</string>
+    <string name="backup_restore_summary">בחרו קובץ גיבוי</string>
+    <string name="backup_included">כלול</string>
+    <string name="backup_part_theme">הצבע הראשי, גופן וסמלים</string>
+    <string name="backup_part_header">תמונת כותרת</string>
+    <string name="backup_part_photo">תמונת כותרת (התמונה שלכם)</string>
+    <string name="backup_part_photo_summary">הופך את הקובץ לגדול יותר</string>
+    <string name="backup_part_boot">אנימציית אתחול</string>
+    <string name="backup_part_looks">התבניות שלך</string>
+    <string name="backup_weekly">גיבוי שבועי</string>
+    <string name="backup_weekly_summary">לתיקייה שתבחרו</string>
+    <string name="backup_weekly_on">כל שבוע אל <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">להציע גיבוי לפני עדכונים</string>
+    <string name="backup_offer_summary">העדכון שואל לפני שהוא מתקין</string>
+    <string name="backup_sets">מגדיר <xliff:g id="count" example="64">%1$d</xliff:g> הגדרות</string>
+    <string name="backup_saved">נשמרו <xliff:g id="count" example="64">%1$d</xliff:g> הגדרות</string>
+    <string name="backup_restored">שוחזרו <xliff:g id="count" example="64">%1$d</xliff:g> הגדרות</string>
+    <string name="backup_restored_message">SystemUI יופעל מחדש כדי להחיל אותן.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> הגדרות לא קיימות בבנייה הזו ודולגו.</string>
+    <string name="backup_failed">לא ניתן לשמור את הגיבוי</string>
+    <string name="backup_invalid">הקובץ הזה אינו גיבוי של Resurrected Remix</string>
+    <string name="backup_footer">בקובץ נכללות רק הגדרות RR: בלי חשבונות, סיסמאות, רשתות Wi-Fi, אפליקציות או הודעות. השחזור כותב רק הגדרות מהרשימה של RR עצמה, כך שקובץ גיבוי לא יכול לשנות שום דבר אחר בטלפון. תמונת הכותרת שלכם נכללת רק אם המתג שלה פעיל, כי היא הופכת את הקובץ לגדול יותר.</string>
+    <string name="volume_style_title">סגנון לוח עוצמה</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>ניאון</item>
+        <item>זכוכית</item>
+        <item>קפסולה</item>
+        <item>RR קלאסי</item>
+        <item>Bento</item>
+        <item>צורות</item>
+        <item>שרטוט</item>
+        <item>Duo</item>
+        <item>רך</item>
+    </string-array>
 </resources>

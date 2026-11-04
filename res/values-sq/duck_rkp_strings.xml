@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Përdor RKP të pajisjes</string>
+    <string name="ts_rkp_enabled_summary">Përdor një keybox të gjeneruar. Importimi i një keybox-i e çaktivizon këtë.</string>
+    <string name="ts_rkp_provision">Gjenero keybox</string>
+    <string name="ts_rkp_provision_summary">Kërko një keybox nga Google duke përdorur shërbimin e provizionimit të kësaj pajisjeje. Kërkon firmware Qualcomm të përputhshëm.</string>
+    <string name="ts_rkp_status">Statusi i provizionimit</string>
+    <string name="ts_rkp_owner_only">Menaxho RKP-në e pajisjes nga profili i pronarit të pajisjes</string>
+    <string name="ts_rkp_unavailable">RKP i pajisjes nuk është i disponueshëm</string>
+    <string name="ts_rkp_imported">Çaktivizuar ndërsa është instaluar një keybox i importuar</string>
+    <string name="ts_rkp_disabled">Çaktivizuar. Aktivizo RKP-në e pajisjes për të përdorur ose gjeneruar një keybox.</string>
+    <string name="ts_rkp_idle">Gati për të kërkuar një keybox</string>
+    <string name="ts_rkp_fetching">Po merret sfida e provizionimit…</string>
+    <string name="ts_rkp_hardware">Po pritet shërbimi i provizionimit të pajisjes…</string>
+    <string name="ts_rkp_signing">Po kërkohen certifikata nga Google…</string>
+    <string name="ts_rkp_validating">Po validohet dhe ruhet keybox-i…</string>
+    <string name="ts_rkp_ready">Keybox i gjeneruar aktiv. Rinovohet vetvetiu përpara %1$s</string>
+    <string name="ts_rkp_keybox_stored">Keybox RKP i pajisjes u ruajt</string>
+    <string name="ts_rkp_expired">Keybox i gjeneruar ka skaduar. Gjenero një zëvendësues.</string>
+    <string name="ts_rkp_hal_rejected">Firmware-i refuzoi kërkesën (kodi %1$d). Duck V1 mund të mos mbështetet.</string>
+    <string name="ts_rkp_http_error">Serveri i provizionimit refuzoi kërkesën (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Pajisja nuk ekspozon një ndërfaqe provizionimi V1 të përputhshme</string>
+    <string name="ts_rkp_network_error">Nuk u arrit serveri i provizionimit. Kontrollo lidhjen.</string>
+    <string name="ts_rkp_submission_unknown">Përgjigja e serverit u humb. Kërkesa mund të jetë përpunuar; nuk u bë rifillim automatik.</string>
+    <string name="ts_rkp_invalid_chain">Certifikatat e keybox-it dështuan validimin. Keybox-i ekzistues u mbajt.</string>
+    <string name="ts_rkp_timeout">Konfigurimi skadoi. Nëse shërbimi i pajisjes është ende i zënë, rinisni pajisjen përpara se të provoni përsëri.</string>
+    <string name="ts_rkp_canceled">Kërkesa u anulua sepse konfigurimi i keybox-it ndryshoi</string>
+    <string name="ts_rkp_save_failed">Nuk u ruajt dot keybox-i i gjeneruar</string>
+    <string name="ts_rkp_action_failed">Nuk u kry dot veprimi me keybox-in</string>
+</resources>

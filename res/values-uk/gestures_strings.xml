@@ -8,4 +8,50 @@
         <item>"Середній"</item>
         <item>"Великий"</item>
     </string-array>
+    <string name="pie_title">Елементи керування «Pie»</string>
+    <string name="pie_summary">Утримуйте нижню частину краю, щоб відкрити коло ярликів</string>
+    <string name="pie_zone">Частина краю</string>
+    <string name="pie_clock">Годинник і батарея над ним</string>
+    <string name="pie_items">Сегменти</string>
+    <string-array name="pie_items_entries">
+        <item>"Назад"</item>
+        <item>Головний</item>
+        <item>"Нещодавні"</item>
+        <item>"Сповіщення"</item>
+        <item>Ліхтарик</item>
+        <item>"Знімок екрана"</item>
+        <item>"Меню кнопки живлення"</item>
+        <item>"Асистент"</item>
+        <item>"Камера"</item>
+    </string-array>
+    <string name="pie_footer">Потрібно утримувати палець без руху протягом чверті секунди, тож швидке проведення від краю все ще повертає назад. На заблокованому екрані не відкривається.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Ліворуч"</item>
+        <item>"Праворуч"</item>
+        <item>Обидва</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Нижня третина</item>
+        <item>Середина</item>
+        <item>Увесь край</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Неон</item>
+        <item>Скло</item>
+        <item>Класичний</item>
+    </string-array>
+    <string name="sidebar_style_title">Вигляд бічної панелі застосунків</string>
+    <string-array name="sidebar_style_entries">
+        <item>Класичний</item>
+        <item>Скло RR</item>
+        <item>Неон</item>
+    </string-array>
+    <string name="sidebar_settings_title">Бічна панель застосунків</string>
+    <string name="sidebar_settings_summary">Проведіть від ручки, щоб відкрити застосунки та інструменти</string>
+    <string name="sidebar_apps_title">Застосунки, ручка та буфер обміну</string>
+    <string name="sidebar_apps_summary">Увімкніть ручку, виберіть застосунки та налаштуйте розумний буфер обміну</string>
+    <string name="sidebar_handle_size_title">Розмір ручки</string>
+    <string name="sidebar_tools_title">Рядок інструментів</string>
+    <string name="sidebar_tools_summary">Знімок екрана та ліхтарик під вашими застосунками</string>
+    <string name="sidebar_footer">Ручка — тонка лінія у колорі акценту; перетягніть її, щоб перемістити вздовж краю. За жестової навігації вона займає лише свою ділянку краю, а «назад» працює в решті місць.</string>
 </resources>

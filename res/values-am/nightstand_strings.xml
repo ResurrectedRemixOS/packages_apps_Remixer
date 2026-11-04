@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"መቼ"</string>
+    <string name="nightstand_title">የአልጋ አጠገብ ሰዓት</string>
+    <string name="nightstand_summary">በሌሊት በቻርጅ ላይ ሳለ በሁልጊዜ ማሳያው ላይ ደብዘዝ ያለ የአልጋ አጠገብ ሰዓት</string>
+    <string-array name="nightstand_when_entries">
+        <item>"ጠፍቷል"</item>
+        <item>በሌሊት በቻርጀር ላይ</item>
+        <item>በየሌሊቱ፣ በመርሃ ግብር</item>
+        <item>የመኝታ ሁነታ በበራ ጊዜ</item>
+    </string-array>
+    <string name="nightstand_from">ሌሊቱ ይጀምራል</string>
+    <string name="nightstand_to">ሌሊቱ ያበቃል</string>
+    <string name="nightstand_brightness">የብሩህነት ገደብ</string>
+    <string name="nightstand_brightness_summary">የአልጋ አጠገብ ሰዓት በበራ ጊዜ ሁልጊዜ ማሳያው ምን ያህል ብሩህ ሊሆን እንደሚችል</string>
+    <string name="nightstand_face">የሰዓት ፊት</string>
+    <string name="nightstand_face_keep">አሁን ያለውን ፊት ያቆዩ</string>
+    <string name="nightstand_footer">የአልጋ አጠገብ ሰዓት በሚሰራበት ጊዜ ሁልጊዜ ማሳያውን ያበራል፤ ካለቀ በኋላ ወደ ቀድሞው ይመልሰዋል። ቻርጀሩ ሲነቀል፣ ማንቂያው ሲጮህ ወይም ሌሊቱ ሲያልቅ ይቆማል። ፊቱ በሁለት ብጁ ፊቶች መካከል ብቻ ይቀያየራል፤ የስርዓቱ ሰዓት ግን ይቀራል።</string>
 </resources>

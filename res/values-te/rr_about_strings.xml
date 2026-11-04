@@ -10,4 +10,24 @@
     <string name="rr_about_this_phone">"ఈ ఫోన్"</string>
     <string name="rr_about_network">"నెట్‌వర్క్"</string>
     <string name="rr_about_hidden">"దాచబడింది"</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">అధికారిక</string>
+    <string name="rr_about_unofficial">అనధికారిక</string>
+    <string name="rr_about_vanilla">వనిల్లా</string>
+    <string name="rr_about_hardware">హార్డ్‌వేర్</string>
+    <string name="rr_about_processor">ప్రాసెసర్</string>
+    <string name="rr_about_processor_sub">%1$d కోర్‌లు · గరిష్ఠంగా %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d కోర్‌లు</string>
+    <string name="rr_about_storage_used">%1$s ఉపయోగించబడింది</string>
+    <string name="rr_about_display">డిస్‌ప్లే</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · ఛార్జ్ అవుతోంది</string>
+    <string name="rr_about_kernel_linux">Linux కెర్నల్</string>
+    <string name="rr_about_software_purpose">Android వెర్షన్, భద్రతా అప్‌డేట్, బిల్డ్ తేదీ, బిల్డ్ నంబర్</string>
+    <string name="rr_about_security_patch">భద్రతా అప్‌డేట్</string>
+    <string name="rr_about_build_date">బిల్డ్ తేదీ</string>
+    <string name="rr_about_maintainer">మెయింటైనర్‌</string>
+    <string name="rr_about_show">చూపించు</string>
+    <string name="rr_about_hide">దాచు</string>
 </resources>

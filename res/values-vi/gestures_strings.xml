@@ -8,4 +8,50 @@
         <item>"Trung bình"</item>
         <item>"Lớn"</item>
     </string-array>
+    <string name="pie_title">Điều khiển hình quạt</string>
+    <string name="pie_summary">Giữ phần dưới của một cạnh để mở quạt phím tắt</string>
+    <string name="pie_zone">Một phần của cạnh</string>
+    <string name="pie_clock">Đồng hồ và pin nằm phía trên</string>
+    <string name="pie_items">Lát</string>
+    <string-array name="pie_items_entries">
+        <item>"Quay lại"</item>
+        <item>Màn hình chính</item>
+        <item>"Gần đây"</item>
+        <item>"Thông báo"</item>
+        <item>Đèn pin</item>
+        <item>"Ảnh chụp màn hình"</item>
+        <item>"Trình đơn nguồn"</item>
+        <item>"Trợ lý"</item>
+        <item>"Máy ảnh"</item>
+    </string-array>
+    <string name="pie_footer">Cần giữ yên khoảng một phần tư giây, nên vuốt nhanh từ cạnh vẫn quay lại được. Tính năng này không mở trên màn hình khóa.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Trái"</item>
+        <item>"Phải"</item>
+        <item>Cả hai</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Một phần ba dưới</item>
+        <item>Giữa</item>
+        <item>Toàn bộ cạnh</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Kính</item>
+        <item>Cổ điển</item>
+    </string-array>
+    <string name="sidebar_style_title">Giao diện thanh ứng dụng bên</string>
+    <string-array name="sidebar_style_entries">
+        <item>Cổ điển</item>
+        <item>Kính RR</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Thanh ứng dụng bên</string>
+    <string name="sidebar_settings_summary">Vuốt vào từ tay nắm để mở ứng dụng và công cụ của bạn</string>
+    <string name="sidebar_apps_title">Ứng dụng, tay nắm và bảng nhớ tạm</string>
+    <string name="sidebar_apps_summary">Bật tay nắm, chọn ứng dụng và thiết lập bảng nhớ tạm thông minh</string>
+    <string name="sidebar_handle_size_title">Kích thước tay nắm</string>
+    <string name="sidebar_tools_title">Hàng công cụ</string>
+    <string name="sidebar_tools_summary">Ảnh chụp màn hình và đèn pin nằm dưới ứng dụng của bạn</string>
+    <string name="sidebar_footer">Tay nắm là một vạch mảnh cùng màu nhấn; kéo để di chuyển dọc theo cạnh. Khi dùng cử chỉ điều hướng, tay nắm chỉ chiếm phần cạnh của riêng nó, còn nút quay lại hoạt động ở mọi nơi khác.</string>
 </resources>

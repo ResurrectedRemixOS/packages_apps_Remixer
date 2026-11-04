@@ -8,4 +8,50 @@
         <item>"Medio"</item>
         <item>"Grande"</item>
     </string-array>
+    <string name="pie_title">Controis de pía</string>
+    <string name="pie_summary">Mantén premida a parte inferior dunha marxe para abrir unha pía de atallos</string>
+    <string name="pie_zone">Parte do bordo</string>
+    <string name="pie_clock">Reloxo e batería por riba</string>
+    <string name="pie_items">Sectores</string>
+    <string-array name="pie_items_entries">
+        <item>"Atrás"</item>
+        <item>Inicio</item>
+        <item>"Recentes"</item>
+        <item>"Notificacións"</item>
+        <item>Lanterna</item>
+        <item>"Captura de pantalla"</item>
+        <item>"Menú de acendido"</item>
+        <item>"Asistente"</item>
+        <item>"Cámara"</item>
+    </string-array>
+    <string name="pie_footer">Require mantelo premido un cuarto de segundo sen moverse, así que un deslizamento rápido desde o bordo segue volvendo atrás. Non se abre na pantalla de bloqueo.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Esquerdo"</item>
+        <item>"Dereito"</item>
+        <item>Ambos</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Terzo inferior</item>
+        <item>Centro</item>
+        <item>Bordo completo</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neón</item>
+        <item>Cristal</item>
+        <item>Clásico</item>
+    </string-array>
+    <string name="sidebar_style_title">Aspecto da barra lateral de apps</string>
+    <string-array name="sidebar_style_entries">
+        <item>Clásico</item>
+        <item>Vidro RR</item>
+        <item>Neón</item>
+    </string-array>
+    <string name="sidebar_settings_title">Barra lateral de apps</string>
+    <string name="sidebar_settings_summary">Desliza desde a asa para ver as túas apps e ferramentas</string>
+    <string name="sidebar_apps_title">Apps, asa e portapapeis</string>
+    <string name="sidebar_apps_summary">Activa a asa, escolle as apps e configura o portapapeis intelixente</string>
+    <string name="sidebar_handle_size_title">Tamaño da asa</string>
+    <string name="sidebar_tools_title">Fila de ferramentas</string>
+    <string name="sidebar_tools_summary">Captura de pantalla e lanterna debaixo das túas apps</string>
+    <string name="sidebar_footer">A asa é unha liña fina coa túa cor de acento; arrástrala para movela ao longo do bordo. Con xestos de navegación só ocupa a súa parte do bordo, e o atrás funciona no resto.</string>
 </resources>

@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Batteri"</string>
     <string name="charge_report_temp">"Temperatur"</string>
     <string name="charge_report_time">"Tid"</string>
+    <string name="charge_report_title">Laddningsrapporter</string>
+    <string name="charge_report_summary">En sammanfattning av varje laddning när du kopplar bort</string>
+    <string name="charge_report_min_title">Endast om den lade till minst</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 dagar</item>
+        <item>7 dagar</item>
+        <item>14 dagar</item>
+        <item>30 dagar</item>
+    </string-array>
+    <string name="charge_report_history_days">Senaste <xliff:g id="days" example="7">%1$d</xliff:g> dagarna</string>
+    <string name="charge_report_today">I dag, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">I går, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> t <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Watt</string>
+    <string name="charge_report_added">Tillagt</string>
+    <string name="charge_report_peak">Topp</string>
+    <string name="charge_report_average">Medel</string>
+    <string name="charge_report_max_temp">Högsta temp</string>
+    <string name="charge_report_charger">Laddare</string>
+    <string name="charge_report_started">Startade vid</string>
+    <string name="charge_report_wired">Kabel</string>
+    <string name="charge_report_wireless">Trådlös</string>
+    <string name="charge_report_dock">Dockning</string>
+    <string name="charge_report_empty">Inga laddningar ännu</string>
+    <string name="charge_report_footer">SystemUI läser batteriets ström, spänning och temperatur var 30:e sekund medan telefonen är ansluten. Wattvärdena är vad telefonen mäter, så de kan skilja sig från siffran på laddaren. Rapporterna stannar i telefonen; inget laddas upp.</string>
 </resources>

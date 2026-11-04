@@ -16,4 +16,26 @@
     <string name="edge_light_moment_battery_low">Bateria rozładowana</string>
     <string name="edge_light_moment_unlock">"Odblokowano"</string>
     <string name="remixer_color_default">"Domyślny"</string>
+    <string name="edge_light_title">Podświetlenie krawędzi</string>
+    <string name="edge_light_summary">Podświetl krawędzie ekranu dla powiadomień, połączeń, alarmów i nie tylko</string>
+    <string name="edge_light_color_rainbow">Tęcza</string>
+    <string name="edge_light_color_custom">Własny</string>
+    <string name="edge_light_style_default">Boki</string>
+    <string name="edge_light_style_frame">Cała ramka</string>
+    <string name="edge_light_animation_effect_none">Standardowe</string>
+    <string name="edge_light_animation_effect_breathing">Oddychające</string>
+    <string name="edge_light_animation_effect_wave">Fala</string>
+    <string name="edge_light_animation_effect_sparkle">Iskrzące</string>
+    <string name="edge_light_pulse_count_title">Pulsowanie</string>
+    <string name="edge_light_pulse_count_summary">Ile razy zapalą się krawędzie</string>
+    <string name="edge_light_stroke_width_title">Grubość</string>
+    <string name="edge_light_stroke_width_summary">Szerokość światła w dp</string>
+    <string name="edge_light_spread_summary">Jak głęboko poświata sięga od krawędzi</string>
+    <string name="edge_light_intensity_summary">Jasność poświaty. 0 wyłącza ją</string>
+    <string name="edge_light_moments_title">Momenty</string>
+    <string name="edge_light_moment_alarms">Alarm i minutnik</string>
+    <string name="edge_light_moment_plugged">Podłączono</string>
+    <string name="edge_light_moment_color">Zmień kolor</string>
+    <string name="edge_light_moments_footer">Dotknij kropki chwili, aby zmienić jej kolor. Połączenia i alarmy świecą się podczas dzwonienia, nawet w trybie cichym. Pozostałe chwile nie odtwarzają się w trybie Nie przeszkadzać.</string>
+    <string name="edge_light_look_title">Wygląd</string>
 </resources>

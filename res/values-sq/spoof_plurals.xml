@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="ts_added_installed_count">
+        <item quantity="one">U shtua %d aplikacion te synimet</item>
+        <item quantity="two">U shtuan %d aplikacione te synimet</item>
+        <item quantity="few">U shtuan %d aplikacione te synimet</item>
+        <item quantity="many">U shtuan %d aplikacione te synimet</item>
+        <item quantity="zero">U shtuan %d aplikacione te synimet</item>
+        <item quantity="other">U shtuan %d aplikacione te synimet</item>
+    </plurals>
+</resources>

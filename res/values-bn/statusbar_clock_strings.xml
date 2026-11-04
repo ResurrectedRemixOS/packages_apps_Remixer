@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"তারিখ"</string>
     <string name="sb_weather_position_title">অবস্থান</string>
+    <string name="sb_clock_category">ঘড়ি ও তারিখ</string>
+    <string name="sb_clock_bold_title">বোল্ড ঘড়ি</string>
+    <string name="sb_clock_bold_summary">স্ট্যাটাস বারের ঘড়ি বোল্ড দেখান</string>
+    <string name="sb_clock_period_separator_title">সময়ের বিভাজক</string>
+    <string name="sb_clock_period_separator_summary">10:45-এর বদলে 10.45</string>
+    <string name="sb_clock_date_position_title">তারিখের অবস্থান</string>
+    <string name="sb_clock_date_style_title">তারিখের ধরন</string>
+    <string name="sb_clock_date_format_title">তারিখের ফরম্যাট</string>
+    <string name="sb_clock_chip_category">ঘড়ির পটভূমি</string>
+    <string name="sb_clock_chip_title">পটভূমির স্টাইল</string>
+    <string name="sb_clock_chip_start_title">গ্রেডিয়েন্টের শুরু</string>
+    <string name="sb_clock_chip_end_title">গ্রেডিয়েন্টের শেষ</string>
+    <string name="sb_clock_chip_angle_title">গ্রেডিয়েন্টের কোণ</string>
+    <string name="sb_clock_chip_mask_title">গ্রেডিয়েন্ট থেকে সময় কেটে দিন</string>
+    <string name="sb_clock_chip_mask_summary">অঙ্কের পেছনে নয়, অঙ্কের ভেতর দিয়ে গ্রেডিয়েন্ট দেখাবে</string>
+    <string name="sb_weather_category">আবহাওয়া</string>
+    <string name="sb_weather_title">স্ট্যাটাস বারে আবহাওয়া</string>
+    <string name="status_bar_clock_rr_style_title">ঘড়ির চেহারা</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"ডিফল্ট"</item>
+        <item>নিয়ন</item>
+        <item>ভাগ করা</item>
+        <item>RR চিহ্ন</item>
+        <item>মোনো</item>
+        <item>পালস</item>
+        <item>স্তরে স্তরে</item>
+        <item>এম্বার</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">সময়ের পাশে Flatline</string>
+    <string name="sb_clock_flatline_summary">চিপের ভেতরে RR-এর হার্টবিট রেখা: গানের সাথে স্পন্দিত হয়, বিজ্ঞপ্তি এলে তীক্ষ্ণ হয়</string>
 </resources>

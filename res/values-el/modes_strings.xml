@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Ένα Look για κάθε Λειτουργία σας</string>
+    <string name="remix_modes_everyday">Καθημερινό Look</string>
+    <string name="remix_modes_everyday_summary">Επανέρχεται όταν δεν είναι ενεργή καμία Λειτουργία με Look</string>
+    <string name="remix_modes_wallpaper">Η ταπετσαρία ακολουθεί το Look</string>
+    <string name="remix_modes_wallpaper_summary">Μια Λειτουργία μπορεί να αλλάξει και την ταπετσαρία</string>
+    <string name="remix_modes_modes">Οι Λειτουργίες σας</string>
+    <string name="remix_modes_no_change">Καμία αλλαγή</string>
+    <string name="remix_modes_none">Αποθηκεύστε πρώτα ένα Look, στο Θέμα › Looks</string>
+    <string name="remix_modes_pick">Look για <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

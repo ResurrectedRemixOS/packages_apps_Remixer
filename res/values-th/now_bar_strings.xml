@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"ปุ่ม"</string>
     <string name="now_bar_text">"ส่งข้อความ"</string>
     <string name="now_bar_text_size">"ขนาดข้อความ"</string>
+    <string name="now_bar_summary">กิจกรรมสดที่ด้านล่างของหน้าจอล็อก</string>
+    <string name="now_bar_show">แสดง</string>
+    <string name="now_bar_music">เพลงและวิดีโอ</string>
+    <string name="now_bar_timers">ตัวจับเวลา นาฬิกาจับเวลา และนาฬิกาปลุก</string>
+    <string name="now_bar_hide_call">ซ่อนการแจ้งเตือนสาย</string>
+    <string name="now_bar_hide_call_summary">บนหน้าจอล็อก สายที่แสดงใน Now Bar จะไม่แสดงเป็นการแจ้งเตือนซ้ำ</string>
+    <string name="now_bar_live">การอัปเดตสด</string>
+    <string name="now_bar_live_summary">การนำทาง การเดินทาง การจัดส่ง คะแนน</string>
+    <string name="now_bar_scores">คะแนนสด</string>
+    <string name="now_bar_live_apps">แอปสำหรับการอัปเดตสด</string>
+    <string name="now_bar_live_apps_count">แอป <xliff:g id="count" example="2">%1$d</xliff:g></string>
+    <string name="now_bar_pin">ปักหมุดไว้ที่จอแสดงผลตลอดเวลา</string>
+    <string name="now_bar_unpin_question">เลิกปักหมุด <xliff:g id="app" example="Uber">%1$s</xliff:g> ใช่ไหม?</string>
+    <string name="now_bar_unpin">เลิกปักหมุด</string>
+    <string name="now_bar_scores_summary">เกมที่ติดตามใน At a Glance</string>
+    <string name="now_bar_recording">การบันทึกหน้าจอและเสียง</string>
+    <string name="now_bar_buds">หูฟังและนาฬิกา</string>
+    <string name="now_bar_buds_summary">แบตเตอรี่ของอุปกรณ์ที่เชื่อมต่อ: ข้างซ้าย ข้างขวา และเคสของหูฟัง</string>
+    <string name="now_bar_wave">แอนิเมชันคลื่น</string>
+    <string name="now_bar_aod">แสดงบนจอแสดงผลตลอดเวลา</string>
+    <string name="now_bar_chip">ชิปในแถบสถานะ</string>
+    <string name="now_bar_chip_summary">แสดงเพลงและตัวจับเวลาที่กำลังทำงานข้างนาฬิกาเมื่อปลดล็อกแล้ว</string>
+    <string name="now_bar_footer">เมื่อมีเพลงใน Now Bar หน้าจอล็อกจะไม่แสดงตัวเล่นเพลงขนาดใหญ่ ปัดแถบเพื่อสลับกิจกรรม แตะเพื่อเปิดตัวควบคุม และกดค้างเพื่อซ่อนกิจกรรมนั้นจนกว่าจะสิ้นสุด ปัดเพลงที่หยุดชั่วคราวออกจากแถบเพื่อล้างออก\n\nคะแนนสดแสดงผลการแข่งขันของทีมที่คุณติดตามในแอป Google เมื่อเพิ่มเป้าหมายกีฬาใน Smartspacer ผลคะแนนจะแสดงที่นี่ด้วย</string>
+    <string name="now_bar_looks">ลุค</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"ค่าเริ่มต้น"</item>
+        <item>Liquid Glass</item>
+        <item>เล็ก</item>
+        <item>ใหญ่</item>
+        <item>นีออน</item>
+        <item>การ์ดกระจก</item>
+    </string-array>
+    <string name="now_bar_material">วัสดุ</string>
+    <string name="now_bar_material_summary">Liquid Glass ใช้กระจกที่คุณตั้งไว้ในธีม</string>
+    <string-array name="now_bar_material_entries">
+        <item>ทึบ</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>ปกอัลบั้ม</item>
+        <item>สีเน้น</item>
+        <item>เข้ม</item>
+    </string-array>
+    <string name="now_bar_opacity">ความทึบ</string>
+    <string name="now_bar_opacity_summary">เมื่อใช้ Liquid Glass สีจะย้อมกระจกมากเพียงใด</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"ไม่มี"</item>
+        <item>บาง</item>
+        <item>สีเน้น</item>
+    </string-array>
+    <string name="now_bar_shadow">เงา</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"ปิด"</item>
+        <item>นุ่ม</item>
+        <item>เรืองแสง</item>
+    </string-array>
+    <string name="now_bar_more">กิจกรรมอื่นๆ</string>
+    <string-array name="now_bar_more_entries">
+        <item>แค่ปัด</item>
+        <item>จุด</item>
+        <item>แอบดู</item>
+    </string-array>
+    <string name="now_bar_size">ขนาดและรูปร่าง</string>
+    <string name="now_bar_height">ความสูง</string>
+    <string name="now_bar_width_summary">เต็ม ย้ายทางลัดด้านบนไปไว้เหนือแถบ</string>
+    <string-array name="now_bar_width_entries">
+        <item>แคบ</item>
+        <item>ระหว่างทางลัด</item>
+        <item>เต็ม</item>
+    </string-array>
+    <string name="now_bar_corners">มุม</string>
+    <string name="now_bar_raise">ยกขึ้น</string>
+    <string name="now_bar_art">ปกอัลบั้ม</string>
+    <string-array name="now_bar_art_entries">
+        <item>"แวดวง"</item>
+        <item>มน</item>
+        <item>"สี่เหลี่ยมจัตุรัส"</item>
+        <item>"ปิด"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>ข้ามและเล่น</item>
+        <item>เล่นอย่างเดียว</item>
+        <item>"ไม่มี"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>บรรทัดเดียว</item>
+        <item>สองบรรทัด</item>
+        <item>เฉพาะเพลง</item>
+    </string-array>
+    <string name="now_bar_show_page">สิ่งที่แสดงในแถบ</string>
+    <string name="now_bar_show_page_summary">เพลงและวิดีโอ ตัวจับเวลา สาย และอื่นๆ</string>
+    <string name="now_bar_where">อื่นๆ</string>
 </resources>

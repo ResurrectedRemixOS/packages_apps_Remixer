@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">"Зангаа"</string>
     <string name="backup_group_other">"Бусад"</string>
     <string name="backup_done">"Болсон"</string>
+    <string name="backup_summary">Бүх RR тохиргоог нэг файлд</string>
+    <string name="backup_now">Одоо нөөцлөх</string>
+    <string name="backup_never">Сүүлийн нөөц: хэзээ ч үгүй</string>
+    <string name="backup_last">Сүүлийн нөөц: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Файлаас сэргээх</string>
+    <string name="backup_restore_summary">Нөөцийн файл сонгох</string>
+    <string name="backup_included">Багтсан</string>
+    <string name="backup_part_theme">Гол өнгө, фонт ба дүрс</string>
+    <string name="backup_part_header">Толгойн зураг</string>
+    <string name="backup_part_photo">Толгойн зураг (таны зураг)</string>
+    <string name="backup_part_photo_summary">Файлыг томруулдаг</string>
+    <string name="backup_part_boot">Асаалтын анимаци</string>
+    <string name="backup_part_looks">Таны харагдацууд</string>
+    <string name="backup_weekly">Долоо хоног тутмын нөөц</string>
+    <string name="backup_weekly_summary">Таны сонгосон хавтас руу</string>
+    <string name="backup_weekly_on">Долоо хоног бүр <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g> руу</string>
+    <string name="backup_offer">Шинэчлэлтийн өмнө нөөц санал болгох</string>
+    <string name="backup_offer_summary">Шинэчлэгч суулгахаас өмнө асууна</string>
+    <string name="backup_sets"><xliff:g id="count" example="64">%1$d</xliff:g> тохиргоог тогтооно</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> тохиргоог хадгаллаа</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> тохиргоог сэргээлээ</string>
+    <string name="backup_restored_message">Хэрэглэхийн тулд SystemUI дахин эхэлнэ.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> тохиргоо энэ хувилбарт байхгүй тул алгасагдлаа.</string>
+    <string name="backup_failed">Нөөцийг хадгалж чадсангүй</string>
+    <string name="backup_invalid">Энэ файл Resurrected Remix-ийн нөөц биш байна</string>
+    <string name="backup_footer">Зөвхөн RR-ийн тохиргоо файлд орно: данс, нууц үг, Wi-Fi сүлжээ, аппликейшн эсвэл мессеж орохгүй. Сэргээх нь зөвхөн RR-ийн жагсаалтад байгаа тохиргоог бичдэг тул нөөцлөх файл утасны бусад зүйлийг өөрчлөхгүй. Таны толгойн зураг зөвхөн унтраалга асаалттай үед орно, учир нь энэ нь файлыг томруулдаг.</string>
+    <string name="volume_style_title">Дууны самбарын загвар</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Неон</item>
+        <item>Шил</item>
+        <item>Капсул</item>
+        <item>Сонгодог RR</item>
+        <item>Bento</item>
+        <item>Хэлбэрүүд</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Soft</item>
+    </string-array>
 </resources>

@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Акумулятар"</string>
     <string name="battery_style_title">"Стыль"</string>
+    <string-array name="battery_style_entries">
+        <item>Партрэт</item>
+        <item>"Круг"</item>
+        <item>Пункцірны круг</item>
+        <item>Неонавае кола</item>
+        <item>Тонкая капсула</item>
+        <item>Вялікі працэнт</item>
+        <item>"Тэкст"</item>
+    </string-array>
+    <string name="battery_percent_title">Працэнт</string>
+    <string-array name="battery_percent_entries">
+        <item>"Схаваны"</item>
+        <item>Унутры значка</item>
+        <item>Побач з ім</item>
+    </string-array>
+    <string name="battery_ring_color_title">Колер неонавага кола</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. «Па ўзроўні» — акцэнт вышэй за 20%%, чырвоны ніжэй і жоўты ў рэжыме эканоміі.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Па ўзроўні</item>
+        <item>Акцэнт</item>
+        <item>"Белы"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Іскра падчас зарадкі</string>
+    <string name="battery_ring_tile_title">Тое ж кола на плітцы хуткіх налад</string>
+    <string name="battery_ring_tile_summary">З узроўнем і часам працы экрана</string>
 </resources>

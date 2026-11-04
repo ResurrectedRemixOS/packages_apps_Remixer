@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"ବିବରଣୀ"</string>
     <string name="lockscreen_weather_location_title">"ଲୋକେସନ"</string>
+    <string name="lockscreen_weather_title">ଲକ ସ୍କ୍ରିନରେ ପାଗ</string>
+    <string name="lockscreen_weather_location_summary">ସହରର ନାମ ଦେଖାନ୍ତୁ</string>
+    <string name="lockscreen_weather_text_title">ଅବସ୍ଥା</string>
+    <string name="lockscreen_weather_text_summary">ଅବସ୍ଥା ଦେଖାନ୍ତୁ, ଯେପରି ମେଘୁଆ ବା ସଫା ଆକାଶ</string>
+    <string name="lockscreen_weather_wind_title">ପବନ</string>
+    <string name="lockscreen_weather_wind_summary">ପବନ ବେଗ ଓ ଦିଗ ଦେଖାନ୍ତୁ</string>
+    <string name="lockscreen_weather_humidity_title">ଆର୍ଦ୍ରତା</string>
+    <string name="lockscreen_weather_humidity_summary">ଆର୍ଦ୍ରତା ଦେଖାନ୍ତୁ</string>
+    <string name="custom_clock_weather_title">ଘଡ଼ି ଫେସରେ ପାଗ</string>
+    <string name="custom_clock_weather_summary">ଜାଗା ଥିବା ଘଡ଼ି ଫେସ ଭିତରେ ପାଗ ଦେଖାନ୍ତୁ</string>
+    <string name="remixer_weather_service">ପାଗ ସେବା</string>
+    <string name="remixer_weather_page_summary">ଲକ ସ୍କ୍ରିନ ପାଗ ଓ ଏହା କ\'ଣ ଦେଖାଏ</string>
 </resources>

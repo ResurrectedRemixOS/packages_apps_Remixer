@@ -15,4 +15,54 @@
     <string name="looks_save_look">"Opslaan"</string>
     <string name="looks_custom_color">"Aangepaste kleur"</string>
     <string name="looks_part_clock_color">"Kleur van klok"</string>
+    <string name="looks_title">Looks</string>
+    <string name="looks_summary">Je volledige instelling in één tik</string>
+    <string name="looks_rr">RR-looks</string>
+    <string name="looks_yours">Jouw looks</string>
+    <string name="looks_none">Nog niets opgeslagen</string>
+    <string name="looks_save">Huidige opslaan</string>
+    <string name="looks_import_clipboard">Vanaf het klembord</string>
+    <string name="looks_import_file">Vanuit een bestand</string>
+    <string name="looks_mine">Mijn look</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> toegepast</string>
+    <string name="looks_failed">Niet alles kon worden toegepast</string>
+    <string name="looks_invalid">Dit is geen RR-look</string>
+    <string name="looks_part_accent">Accentkleur</string>
+    <string name="looks_part_qs">Stijl snelle instellingen</string>
+    <string name="looks_part_clock_face">Wijzerplaat van vergrendelscherm</string>
+    <string name="looks_part_clock_look">Klok in statusbalk</string>
+    <string name="looks_part_edge">Randverlichting</string>
+    <string name="looks_part_boot">Opstartanimatie</string>
+    <string name="looks_part_haptics">Haptic Remix-patronen</string>
+    <string name="looks_saturation">Verzadiging <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Accent</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>” delen</string>
+    <string name="looks_share_hint">Scan met de camera van een andere RR-telefoon, of kies Looks › Importeren</string>
+    <string name="looks_share_file">Bestand delen</string>
+    <string name="looks_save_file">Bestand opslaan</string>
+    <string name="looks_import_scan">QR-code scannen</string>
+    <string name="looks_import_title">Look importeren</string>
+    <string name="looks_from_qr">via QR-code</string>
+    <string name="looks_from_file">via bestand</string>
+    <string name="looks_from_clipboard">vanaf het klembord</string>
+    <string name="looks_import_same">Dit komt al overeen met je instelling.</string>
+    <string name="looks_new">Nieuwe look</string>
+    <string name="looks_edit_title">Look bewerken</string>
+    <string name="looks_in_look">In deze look</string>
+    <string name="looks_not_included">Niet in deze look</string>
+    <string name="looks_save_apply">Opslaan en toepassen</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” opgeslagen</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” verwijderen?</string>
+    <string name="looks_rr_wallpaper">RR-achtergrond <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Verzadiging accentkleur</string>
+    <string name="looks_part_clock_chip">Klokchip in statusbalk</string>
+    <string name="looks_part_edge_style">Stijl van randverlichting</string>
+    <string name="looks_scan_hint">Richt de camera op de QR-code van een look</string>
+    <string name="looks_scan_failed">Camera kon niet worden geopend</string>
+    <string name="look_roulette_title">Look-roulette</string>
+    <string-array name="look_roulette_entries">
+        <item>"Uit"</item>
+        <item>Bij elke ontgrendeling een andere look</item>
+        <item>Elke dag een andere look</item>
+    </string-array>
 </resources>

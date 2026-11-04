@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="volume_page_title">Ձայնի վահանակ</string>
+    <string name="volume_page_summary">Neon, Glass, Pill կամ Classic RR</string>
+    <string name="volume_behavior">Վարքագիծ</string>
+    <string name="volume_on_left_title">Վահանակ ձախ կողմում</string>
+    <string name="volume_on_left_summary">Classic RR-ը միշտ գտնվում է վերևում</string>
+    <string name="volume_ringer_title">Զանգի ռեժիմի կոճակ</string>
+    <string name="volume_tick_title">Նշեք՝ սահեցնելիս</string>
+    <string name="volume_percent_title">Ցուցադրել մակարդակը տոկոսներով</string>
+    <string name="volume_timeout_title">Թաքցնել հետո</string>
+    <string name="volume_footer">Տեսքը փոխում է վահանակի արտաքինը, ոչ աշխատանքը։ Android-ը պահում է ստանդարտ վահանակը։ Հպեք կետերին՝ բոլոր հոսքերը տեսնելու համար. ընդլայնված վահանակն ունի նույն տեսքը։</string>
+</resources>

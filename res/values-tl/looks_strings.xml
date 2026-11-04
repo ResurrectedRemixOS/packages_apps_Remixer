@@ -12,4 +12,57 @@
     <string name="looks_save_look">"I-save"</string>
     <string name="looks_custom_color">"Custom na kulay"</string>
     <string name="looks_part_clock_color">"Kulay ng orasan"</string>
+    <string name="looks_title">Mga Look</string>
+    <string name="looks_summary">Ang buong setup mo sa isang tap</string>
+    <string name="looks_rr">Mga RR look</string>
+    <string name="looks_yours">Mga look mo</string>
+    <string name="looks_none">Wala pang naka-save</string>
+    <string name="looks_save">I-save ang kasalukuyan</string>
+    <string name="looks_import_clipboard">Mula sa clipboard</string>
+    <string name="looks_import_file">Mula sa file</string>
+    <string name="looks_mine">Look ko</string>
+    <string name="looks_applied">Nailapat na ang <xliff:g id="name" example="Neon night">%1$s</xliff:g></string>
+    <string name="looks_failed">Hindi ma-apply ang lahat</string>
+    <string name="looks_invalid">Hindi ito isang RR look</string>
+    <string name="looks_part_accent">Kulay ng accent</string>
+    <string name="looks_part_qs">Istilo ng QS</string>
+    <string name="looks_part_clock_face">Estilo ng orasan sa lock screen</string>
+    <string name="looks_part_font">Font</string>
+    <string name="looks_part_clock_look">Orasan sa status bar</string>
+    <string name="looks_part_edge">Edge lighting</string>
+    <string name="looks_part_wallpaper">Wallpaper</string>
+    <string name="looks_part_boot">Boot animation</string>
+    <string name="looks_part_haptics">Mga pattern ng Haptic Remix</string>
+    <string name="looks_saturation">Saturation <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Accent</string>
+    <string name="looks_color_default">Default</string>
+    <string name="looks_share_title">I-share ang “<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">I-scan gamit ang camera ng ibang telepono na may RR, o sa Looks › Import</string>
+    <string name="looks_share_file">I-share ang file</string>
+    <string name="looks_save_file">I-save ang file</string>
+    <string name="looks_import_scan">I-scan ang QR code</string>
+    <string name="looks_import_title">I-import ang look</string>
+    <string name="looks_from_qr">mula sa QR code</string>
+    <string name="looks_from_file">mula sa file</string>
+    <string name="looks_from_clipboard">mula sa clipboard</string>
+    <string name="looks_import_same">Tugma na ito sa iyong setup.</string>
+    <string name="looks_new">Bagong look</string>
+    <string name="looks_edit_title">I-edit ang look</string>
+    <string name="looks_in_look">Nasa look na ito</string>
+    <string name="looks_not_included">Wala sa look na ito</string>
+    <string name="looks_save_apply">I-save at i-apply</string>
+    <string name="looks_saved">Na-save ang “<xliff:g id="name" example="Sunday">%1$s</xliff:g>”</string>
+    <string name="looks_delete_confirm">Burahin ang “<xliff:g id="name" example="Sunday">%1$s</xliff:g>”?</string>
+    <string name="looks_rr_wallpaper">RR wallpaper <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Saturation ng accent</string>
+    <string name="looks_part_clock_chip">Chip ng orasan sa status bar</string>
+    <string name="looks_part_edge_style">Estilo ng edge lighting</string>
+    <string name="looks_scan_hint">Itutok ang camera sa QR code ng isang look</string>
+    <string name="looks_scan_failed">Hindi mabuksan ang camera</string>
+    <string name="look_roulette_title">Look roulette</string>
+    <string-array name="look_roulette_entries">
+        <item>"Naka-off"</item>
+        <item>Ibang Look sa bawat unlock</item>
+        <item>Ibang Look sa bawat araw</item>
+    </string-array>
 </resources>

@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"น้ำเงิน"</string>
     <string name="haptic_remix_color_green">"เขียว"</string>
     <string name="haptic_remix_color_white">"ขาว"</string>
+    <string name="haptic_remix_summary">แตะเพื่อสร้างรูปแบบการสั่นสำหรับสาย แอป การปลุก และการปลดล็อก</string>
+    <string name="haptic_remix_record">บันทึก</string>
+    <string name="haptic_remix_pad">แตะตามจังหวะ</string>
+    <string name="haptic_remix_strength">ความแรง</string>
+    <string name="haptic_remix_clear">ล้าง</string>
+    <string name="haptic_remix_play">เล่น</string>
+    <string name="haptic_remix_name">ชื่อรูปแบบ</string>
+    <string name="haptic_remix_empty">ยังไม่มีการบันทึก</string>
+    <string name="haptic_remix_too_long">รูปแบบหนึ่งอาจยาวได้ถึง 30 วินาที</string>
+    <string name="haptic_remix_presets">ค่าที่ตั้งไว้</string>
+    <string name="haptic_remix_preset_neon">นีออน</string>
+    <string name="haptic_remix_preset_glass">กระจกใส</string>
+    <string name="haptic_remix_preset_ringtone">จังหวะของเสียงเรียกเข้า</string>
+    <string name="haptic_remix_listening">กำลังฟังเสียงเรียกเข้า…</string>
+    <string name="haptic_remix_no_ringtone">ไม่สามารถอ่านเสียงเรียกเข้าได้</string>
+    <string name="haptic_remix_patterns">รูปแบบของคุณ</string>
+    <string name="haptic_remix_patterns_none">บันทึกรูปแบบก่อน แตะค้างเพื่อลบ</string>
+    <string name="haptic_remix_broken">ไม่สามารถอ่านรูปแบบนี้ได้</string>
+    <string name="haptic_remix_delete">ลบ <xliff:g id="name" example="Heartbeat">%1$s</xliff:g> ใช่ไหม?</string>
+    <string name="haptic_remix_assign">กำหนดให้</string>
+    <string name="haptic_remix_alarm">นาฬิกาปลุกและตัวจับเวลา</string>
+    <string name="haptic_remix_plug">เสียบสายอยู่</string>
+    <string name="haptic_remix_fingerprint">ลายนิ้วมือสำเร็จ</string>
+    <string name="haptic_remix_add_contact">เพิ่มรายชื่อ</string>
+    <string name="haptic_remix_edge_color">ไฟขอบจอสำหรับข้อความของ <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">สีเน้น</string>
+    <string name="haptic_remix_color_crimson">แดงเข้ม</string>
+    <string name="haptic_remix_color_amber">อำพัน</string>
+    <string name="haptic_remix_add_app">เพิ่มการแจ้งเตือนของแอป</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · แตะเพื่อเปลี่ยน แตะค้างเพื่อเลือกสีขอบ</string>
+    <string name="haptic_remix_no_contacts">ไม่ได้รับหมายเลขจากรายชื่อ</string>
 </resources>

@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"વિગતો"</string>
     <string name="lockscreen_weather_location_title">"લોકેશન"</string>
+    <string name="lockscreen_weather_title">લૉક સ્ક્રીન પર હવામાન</string>
+    <string name="lockscreen_weather_location_summary">શહેરનું નામ બતાવો</string>
+    <string name="lockscreen_weather_text_title">સ્થિતિ</string>
+    <string name="lockscreen_weather_text_summary">સ્થિતિ બતાવો, જેમ કે વાદળછાયું અથવા સ્વચ્છ આકાશ</string>
+    <string name="lockscreen_weather_wind_title">પવન</string>
+    <string name="lockscreen_weather_wind_summary">પવનની ગતિ અને દિશા બતાવો</string>
+    <string name="lockscreen_weather_humidity_title">ભેજ</string>
+    <string name="lockscreen_weather_humidity_summary">ભેજ બતાવો</string>
+    <string name="custom_clock_weather_title">ઘડિયાળના ચહેરા પર હવામાન</string>
+    <string name="custom_clock_weather_summary">જગ્યા હોય એવા ઘડિયાળના ચહેરામાં હવામાન બતાવો</string>
+    <string name="remixer_weather_service">હવામાન સેવા</string>
+    <string name="remixer_weather_page_summary">લૉક સ્ક્રીન હવામાન અને તે શું બતાવે છે</string>
 </resources>

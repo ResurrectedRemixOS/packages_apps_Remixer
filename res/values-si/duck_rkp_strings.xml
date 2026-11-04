@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">උපාංග RKP භාවිතා කරන්න</string>
+    <string name="ts_rkp_enabled_summary">ජනනය කළ keybox එකක් භාවිතා කරන්න. keybox එකක් ආයාත කිරීමෙන් මෙය අක්‍රිය වේ.</string>
+    <string name="ts_rkp_provision">keybox එකක් ජනනය කරන්න</string>
+    <string name="ts_rkp_provision_summary">මෙම උපාංගයේ සැපයුම් සේවාව භාවිතා කර Google වෙතින් keybox එකක් ඉල්ලන්න. අනුකූල Qualcomm firmware අවශ්‍ය වේ.</string>
+    <string name="ts_rkp_status">සැපයුම් තත්ත්වය</string>
+    <string name="ts_rkp_owner_only">උපාංග හිමිකරුගේ පැතිකඩෙන් උපාංග RKP කළමනාකරණය කරන්න</string>
+    <string name="ts_rkp_unavailable">උපාංග RKP ලබා ගත නොහැක</string>
+    <string name="ts_rkp_imported">ආයාත කළ keybox එකක් ස්ථාපිතව ඇති විට අක්‍රියයි</string>
+    <string name="ts_rkp_disabled">අක්‍රියයි. keybox එකක් භාවිතා කිරීමට හෝ ජනනය කිරීමට උපාංග RKP සක්‍රිය කරන්න.</string>
+    <string name="ts_rkp_idle">keybox එකක් ඉල්ලීමට සූදානම්</string>
+    <string name="ts_rkp_fetching">සැපයුම් අභියෝගය ලබා ගැනෙමින්…</string>
+    <string name="ts_rkp_hardware">උපාංගයේ සැපයුම් සේවාව සඳහා රැඳී සිටිමින්…</string>
+    <string name="ts_rkp_signing">Google වෙතින් සහතික ඉල්ලමින්…</string>
+    <string name="ts_rkp_validating">keybox එක වලංගු කර සුරකිමින්…</string>
+    <string name="ts_rkp_ready">ජනනය කළ keybox එක ක්‍රියාකාරීයි. %1$s ට පෙර ස්වයංක්‍රීයව අලුත් වේ</string>
+    <string name="ts_rkp_keybox_stored">උපාංග RKP keybox එක ගබඩා කර ඇත</string>
+    <string name="ts_rkp_expired">ජනනය කළ keybox එක කල් ඉකුත් වී ඇත. ප්‍රතිස්ථාපනයක් ජනනය කරන්න.</string>
+    <string name="ts_rkp_hal_rejected">Firmware විසින් ඉල්ලීම ප්‍රතික්ෂේප කරන ලදි (කේතය %1$d). Duck V1 සහාය නොදක්වන්න ඇත.</string>
+    <string name="ts_rkp_http_error">සැපයුම් සේවාදායකය ඉල්ලීම ප්‍රතික්ෂේප කළේය (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">උපාංගය අනුකූල V1 සැපයුම් අතුරුමුහුණතක් ඉදිරිපත් නොකරයි</string>
+    <string name="ts_rkp_network_error">සැපයුම් සේවාදායකය වෙත ළඟා විය නොහැක. ඔබේ සම්බන්ධතාව පරීක්ෂා කරන්න.</string>
+    <string name="ts_rkp_submission_unknown">සේවාදායක ප්‍රතිචාරය නැති විය. ඉල්ලීම සැකසී තිබිය හැක; ස්වයංක්‍රීය නැවත උත්සාහයක් සිදු නොකෙරිණි.</string>
+    <string name="ts_rkp_invalid_chain">Keybox සහතික වලංගුකරණය අසාර්ථක විය. පවතින keybox එක තබා ගන්නා ලදි.</string>
+    <string name="ts_rkp_timeout">සැපයුම් කාලය ඉක්මවා ගියේය. උපාංග සේවාව තවමත් කාර්යබahul නම්, නැවත උත්සාහ කිරීමට පෙර උපාංගය යළි අරඹන්න.</string>
+    <string name="ts_rkp_canceled">Keybox වින්‍යාසය වෙනස් වූ නිසා ඉල්ලීම අවලංගු කරන ලදි</string>
+    <string name="ts_rkp_save_failed">ජනනය කළ keybox එක සුරැකිය නොහැකි විය</string>
+    <string name="ts_rkp_action_failed">Keybox මෙහෙයුම සම්පූර්ණ කළ නොහැකි විය</string>
+</resources>

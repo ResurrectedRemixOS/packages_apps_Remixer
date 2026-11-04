@@ -8,4 +8,50 @@
         <item>"Орташа"</item>
         <item>"Үлкен"</item>
     </string-array>
+    <string name="pie_title">Пирог басқару элементтері</string>
+    <string name="pie_summary">Жиектің төменгі бөлігін ұстап, жылдам жолдар пирогын ашыңыз</string>
+    <string name="pie_zone">Жиектің бір бөлігі</string>
+    <string name="pie_clock">Оның үстінде сағат пен батарея</string>
+    <string name="pie_items">Сегменттер</string>
+    <string-array name="pie_items_entries">
+        <item>"Артқа"</item>
+        <item>Үй</item>
+        <item>"Жақындағылар"</item>
+        <item>"Хабарландырулар"</item>
+        <item>"Қолшам"</item>
+        <item>"Скриншот"</item>
+        <item>"Қуат мәзірі"</item>
+        <item>Көмекші</item>
+        <item>"Камера"</item>
+    </string-array>
+    <string name="pie_footer">Қозғалтпай ширек секундқа ұстау керек, сондықтан жиектен жылдам сырғытсаңыз, әлі артқа қайтады. Құлыптаулы экранда ашылмайды.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Сол жақ"</item>
+        <item>"Оң жақ"</item>
+        <item>Екеуі</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Төменгі үштен бір</item>
+        <item>Ортасы</item>
+        <item>Бүкіл жиек</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Неон</item>
+        <item>Шыны</item>
+        <item>Классикалық</item>
+    </string-array>
+    <string name="sidebar_style_title">Қолданба бүйір панелінің көрінісі</string>
+    <string-array name="sidebar_style_entries">
+        <item>Классикалық</item>
+        <item>RR шынысы</item>
+        <item>Неон</item>
+    </string-array>
+    <string name="sidebar_settings_title">Қолданба бүйір панелі</string>
+    <string name="sidebar_settings_summary">Қолданбалар мен құралдар үшін тұтқадан сырғытыңыз</string>
+    <string name="sidebar_apps_title">Қолданбалар, тұтқа және буфер</string>
+    <string name="sidebar_apps_summary">Тұтқаны қосып, қолданбаларды таңдап, ақылды буферді орнатыңыз</string>
+    <string name="sidebar_handle_size_title">Тұтқа өлшемі</string>
+    <string name="sidebar_tools_title">Құралдар жолы</string>
+    <string name="sidebar_tools_summary">Қолданбалардың астында скриншот және қолшам</string>
+    <string name="sidebar_footer">Тұтқа акцент түсіңіздегі жіңішке сызық; оны жиек бойымен жылжыту үшін сүйреңіз. Қимыл навигациясы болғанда ол жиектің тек өз бөлігін қамтиды, ал артқа қайту қалған жерде жұмыс істейді.</string>
 </resources>

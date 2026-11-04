@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"파란색"</string>
     <string name="haptic_remix_color_green">"녹색"</string>
     <string name="haptic_remix_color_white">"흰색"</string>
+    <string name="haptic_remix_summary">통화, 앱, 알람, 잠금 해제에 사용할 진동 패턴을 탭하여 설정합니다</string>
+    <string name="haptic_remix_record">기록</string>
+    <string name="haptic_remix_pad">박자에 맞춰 탭하세요</string>
+    <string name="haptic_remix_strength">강도</string>
+    <string name="haptic_remix_clear">지우기</string>
+    <string name="haptic_remix_play">재생</string>
+    <string name="haptic_remix_name">패턴 이름</string>
+    <string name="haptic_remix_empty">아직 기록된 것이 없습니다</string>
+    <string name="haptic_remix_too_long">패턴은 최대 30초까지 가능합니다</string>
+    <string name="haptic_remix_presets">프리셋</string>
+    <string name="haptic_remix_preset_neon">네온</string>
+    <string name="haptic_remix_preset_glass">글래스</string>
+    <string name="haptic_remix_preset_ringtone">벨소리 박자</string>
+    <string name="haptic_remix_listening">벨소리를 듣는 중…</string>
+    <string name="haptic_remix_no_ringtone">벨소리를 읽을 수 없습니다</string>
+    <string name="haptic_remix_patterns">내 패턴</string>
+    <string name="haptic_remix_patterns_none">먼저 패턴을 저장하세요. 길게 누르면 삭제됩니다.</string>
+    <string name="haptic_remix_broken">이 패턴은 인식할 수 없습니다</string>
+    <string name="haptic_remix_delete"><xliff:g id="name" example="Heartbeat">%1$s</xliff:g>을(를) 삭제하시겠습니까?</string>
+    <string name="haptic_remix_assign">지정 대상</string>
+    <string name="haptic_remix_alarm">알람 및 타이머</string>
+    <string name="haptic_remix_plug">충전 중</string>
+    <string name="haptic_remix_fingerprint">지문 인식 성공</string>
+    <string name="haptic_remix_add_contact">연락처 추가</string>
+    <string name="haptic_remix_edge_color"><xliff:g id="name" example="Mia">%1$s</xliff:g>의 메시지에 가장자리 조명 켜기</string>
+    <string name="haptic_remix_color_accent">강조</string>
+    <string name="haptic_remix_color_crimson">크림슨</string>
+    <string name="haptic_remix_color_amber">앰버</string>
+    <string name="haptic_remix_add_app">앱 알림 추가</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · 눌러서 변경, 길게 눌러서 가장자리 색상 설정</string>
+    <string name="haptic_remix_no_contacts">연락처에서 번호를 가져오지 못했습니다</string>
 </resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"وال پیپر"</item>
+        <item>ریزرکٹڈ</item>
+        <item>اینڈرائیڈ ون گرین</item>
+        <item>اوپا گرین</item>
+        <item>کوکا کولا ریڈ</item>
+        <item>ڈسکورڈ پرپل</item>
+        <item>فیس بک بلیو</item>
+        <item>انسٹاگرام سیرس</item>
+        <item>جولی بی کرمسن</item>
+        <item>مونسٹر انرجی گرین</item>
+        <item>نیکسٹ بٹ منٹ</item>
+        <item>ون پلس ریڈ</item>
+        <item>پیپسی بلیو</item>
+        <item>پکسل بلیو</item>
+        <item>پوکو فون یلو</item>
+        <item>ریزر گرین</item>
+        <item>سیمسنگ بلیو</item>
+        <item>اسپاٹیفائی گرین</item>
+        <item>اسٹاربکس گرین</item>
+        <item>ٹوئچ پرپل</item>
+        <item>ٹویٹر بلیو</item>
+        <item>شاومی اورنج</item>
+        <item>امبر</item>
+        <item>"سیاہ"</item>
+        <item>"نیلا"</item>
+        <item>بلیو گرے</item>
+        <item>بھورا</item>
+        <item>"سیان"</item>
+        <item>ڈیپ اورنج</item>
+        <item>ڈیپ پرپل</item>
+        <item>"سبز"</item>
+        <item>"خاکستری"</item>
+        <item>"گہرا نیلا"</item>
+        <item>لائٹ بلیو</item>
+        <item>لائم</item>
+        <item>"نارنجی"</item>
+        <item>"گلابی"</item>
+        <item>"جامنی"</item>
+        <item>"سرخ"</item>
+        <item>"نیلگوں سبز"</item>
+        <item>صارف پانچ</item>
+        <item>صارف چار</item>
+        <item>صارف ایک</item>
+        <item>صارف سات</item>
+        <item>صارف چھ</item>
+        <item>صارف تین</item>
+        <item>صارف دو</item>
+        <item>"سفید"</item>
+        <item>"پیلا"</item>
+    </string-array>
+</resources>

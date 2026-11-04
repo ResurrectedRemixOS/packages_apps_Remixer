@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Idethi"</string>
     <string name="sb_weather_category">"Isimo sezulu"</string>
+    <string name="sb_clock_category">Iwashi nosuku</string>
+    <string name="sb_clock_bold_title">Iwashi elinamafonti aqinile</string>
+    <string name="sb_clock_bold_summary">Bonisa iwashi le-status bar ngamafonti aqinile</string>
+    <string name="sb_clock_period_separator_title">Isihlukanisi sesikhathi</string>
+    <string name="sb_clock_period_separator_summary">10.45 esikhundleni sika-10:45</string>
+    <string name="sb_clock_date_position_title">Indawo kasuku</string>
+    <string name="sb_clock_date_style_title">Ukubhalwa kosuku</string>
+    <string name="sb_clock_date_format_title">Ifomethi kasuku</string>
+    <string name="sb_clock_chip_category">Ingemuva lewashi</string>
+    <string name="sb_clock_chip_title">Isitayela sengemuva</string>
+    <string name="sb_clock_chip_start_title">Ukuqala kwegradient</string>
+    <string name="sb_clock_chip_end_title">Ukuphela kwegradient</string>
+    <string name="sb_clock_chip_angle_title">Ukuthambeka kwegradient</string>
+    <string name="sb_clock_chip_mask_title">Sika isikhathi ku-gradient</string>
+    <string name="sb_clock_chip_mask_summary">I-gradient ibonakala ngaphakathi kwamadijithi esikhundleni sokuba ngemuva kwawo</string>
+    <string name="sb_weather_title">Isimo sezulu ku-status bar</string>
+    <string name="sb_weather_position_title">Indawo</string>
+    <string name="status_bar_clock_rr_style_title">Ukubukeka kewashi</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Okuzenzakalelayo"</item>
+        <item>I-Neon</item>
+        <item>Hlukanisa</item>
+        <item>Uphawu lwe-RR</item>
+        <item>Mono</item>
+        <item>I-Pulse</item>
+        <item>Ibekwe phezulu</item>
+        <item>Ember</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Umugca we-Flatline eduze kwesikhathi</string>
+    <string name="sb_clock_flatline_summary">Umugca wenhliziyo ye-RR ngaphakathi kwechip: uyashaya ngomculo, uphakama lapho isaziso sifika</string>
 </resources>

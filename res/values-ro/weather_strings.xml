@@ -4,4 +4,14 @@
     <string name="lockscreen_weather_location_title">"Locație"</string>
     <string name="lockscreen_weather_wind_title">Vânt</string>
     <string name="lockscreen_weather_humidity_title">Umiditate</string>
+    <string name="lockscreen_weather_title">Vremea pe ecranul de blocare</string>
+    <string name="lockscreen_weather_location_summary">Arată numele orașului</string>
+    <string name="lockscreen_weather_text_title">Starea</string>
+    <string name="lockscreen_weather_text_summary">Arată starea, de exemplu Noros sau Cer senin</string>
+    <string name="lockscreen_weather_wind_summary">Arată viteza și direcția vântului</string>
+    <string name="lockscreen_weather_humidity_summary">Arată umiditatea</string>
+    <string name="custom_clock_weather_title">Vremea pe cadranele ceasului</string>
+    <string name="custom_clock_weather_summary">Arată vremea în cadranele de ceas care au loc pentru ea</string>
+    <string name="remixer_weather_service">Serviciul meteo</string>
+    <string name="remixer_weather_page_summary">Vremea de pe ecranul de blocare și ce afișează</string>
 </resources>

@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Taymer</string>
     <string name="quick_launch_undo">"Bekor qilish"</string>
     <string name="quick_launch_off">"Oʻchiq"</string>
+    <string name="quick_launch_title">Tezkor ishga tushirish</string>
+    <string name="quick_launch_main">Barmoq izi bilan tezkor ishga tushirish</string>
+    <string name="quick_launch_main_summary">Ochilgandan keyin barmog\'ingizni sensorda ushlab turing, yorliqni ochish uchun</string>
+    <string name="quick_launch_hint">Yorliqni o\'zgartirish uchun bosing, olib tashlash uchun ushlab turing yoki tartibini o\'zgartirish uchun suring.</string>
+    <string name="quick_launch_behavior">Xulq-atvor</string>
+    <string name="quick_launch_hold">Ushlab turish vaqti</string>
+    <string name="quick_launch_haptics">Har bir yorliqda tebranish</string>
+    <string name="quick_launch_add">Qo‘shish</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">QR kodni skanerlash</string>
+    <string name="quick_launch_app">Ilova…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> olib tashlandi</string>
 </resources>

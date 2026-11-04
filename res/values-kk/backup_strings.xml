@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">"Қимылдар"</string>
     <string name="backup_group_other">"Басқа"</string>
     <string name="backup_done">"Дайын"</string>
+    <string name="backup_summary">Барлық RR теңшеулері бір файлда</string>
+    <string name="backup_now">Қазір сақтық көшірме жасау</string>
+    <string name="backup_never">Соңғы сақтық көшірме: ешқашан</string>
+    <string name="backup_last">Соңғы сақтық көшірме: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Файлдан қалпына келтіру</string>
+    <string name="backup_restore_summary">Сақтық көшірме файлын таңдау</string>
+    <string name="backup_included">Қамтылғандар</string>
+    <string name="backup_part_theme">Акцент, қаріп және белгішелер</string>
+    <string name="backup_part_header">Тақырып суреті</string>
+    <string name="backup_part_photo">Тақырып суреті (сіздің фотоңыз)</string>
+    <string name="backup_part_photo_summary">Файлды үлкейтеді</string>
+    <string name="backup_part_boot">Жүктеу анимациясы</string>
+    <string name="backup_part_looks">Сіздің looks</string>
+    <string name="backup_weekly">Апталық сақтық көшірме</string>
+    <string name="backup_weekly_summary">Таңдаған қалтаға</string>
+    <string name="backup_weekly_on">Әр апта сайын <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g> жеріне</string>
+    <string name="backup_offer">Жаңартулар алдында сақтық көшірме ұсыну</string>
+    <string name="backup_offer_summary">Жаңартушы орнатар алдында сұрайды</string>
+    <string name="backup_sets"><xliff:g id="count" example="64">%1$d</xliff:g> параметрін орнатады</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> параметр сақталды</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> параметр қалпына келтірілді</string>
+    <string name="backup_restored_message">Оларды қолдану үшін SystemUI қайта іске қосылады.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> параметр осы нұсқада жоқ және өткізіп жіберілді.</string>
+    <string name="backup_failed">Сақтық көшірмені сақтау мүмкін болмады</string>
+    <string name="backup_invalid">Бұл файл Resurrected Remix сақтық көшірмесі емес</string>
+    <string name="backup_footer">Тек RR параметрлері ғана файлға жазылады: аккаунттар, құпия сөздер, Wi-Fi желілері, қолданбалар немесе хабарламалар жазылмайды. Қалпына келтіру тек RR-дің өз тізіміндегі параметрлерді жазады, сондықтан сақтық көшірме файлы телефондағы басқа ештеңені өзгерте алмайды. Тақырып суретіңіз тек оның қосқышы қосулы болғанда ғана қосылады, себебі ол файлды үлкейтеді.</string>
+    <string name="volume_style_title">Дыбыс панелінің стилі</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Неон</item>
+        <item>Шыны</item>
+        <item>Пилл</item>
+        <item>Классикалық RR</item>
+        <item>Bento</item>
+        <item>Пішіндер</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Жұмсақ</item>
+    </string-array>
 </resources>

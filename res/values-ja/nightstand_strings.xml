@@ -2,4 +2,18 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"日時"</string>
     <string name="nightstand_face">時計の見た目</string>
+    <string name="nightstand_title">ナイトスタンド</string>
+    <string name="nightstand_summary">充電中の夜間に、常時表示ディスプレイで暗めのベッドサイド時計を表示</string>
+    <string-array name="nightstand_when_entries">
+        <item>"OFF"</item>
+        <item>夜間に充電器に接続中</item>
+        <item>毎晩、スケジュールどおり</item>
+        <item>就寝モード中</item>
+    </string-array>
+    <string name="nightstand_from">夜の開始</string>
+    <string name="nightstand_to">夜の終了</string>
+    <string name="nightstand_brightness">明るさの上限</string>
+    <string name="nightstand_brightness_summary">ナイトスタンドの有効中に常時表示ディスプレイが明るくなる上限</string>
+    <string name="nightstand_face_keep">現在の文字盤を維持</string>
+    <string name="nightstand_footer">ナイトスタンドの実行中は常時表示ディスプレイをオンにし、終了後に元に戻します。充電器を外したとき、アラームが鳴ったとき、または夜が終わったときに終了します。文字盤は2つのカスタム文字盤を切り替えるだけで、システム時計はそのままです。</string>
 </resources>

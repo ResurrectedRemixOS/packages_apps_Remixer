@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"বেটাৰী"</string>
     <string name="battery_style_title">"শৈলী"</string>
+    <string-array name="battery_style_entries">
+        <item>উলম্ব</item>
+        <item>"পৰিচিত মানুহৰ গোট"</item>
+        <item>বিন্দুযুক্ত বৃত্ত</item>
+        <item>নিয়ন বলয়</item>
+        <item>পাতল পাইল</item>
+        <item>ডাঙৰ শতাংশ</item>
+        <item>"বাৰ্তা পঠিয়াওক"</item>
+    </string-array>
+    <string name="battery_percent_title">শতাংশ</string>
+    <string-array name="battery_percent_entries">
+        <item>"লুকাই আছে"</item>
+        <item>আইকনৰ ভিতৰত</item>
+        <item>ইয়াৰ কাষত</item>
+    </string-array>
+    <string name="battery_ring_color_title">নিয়ন বলয়ৰ ৰং</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s। স্তৰ অনুসাৰে মানে ২০%%ৰ ওপৰত উচ্চাৰণ ৰং, তলত ৰঙা আৰু বেটাৰী সঞ্চয়ত হালধীয়া।</string>
+    <string-array name="battery_ring_color_entries">
+        <item>স্তৰ অনুসাৰে</item>
+        <item>এক্সেণ্ট</item>
+        <item>"বগা"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">চাৰ্জ হৈ থকাৰ সময়ত স্পাৰ্ক</string>
+    <string name="battery_ring_tile_title">ক্ষিপ্ৰ ছেটিং টাইলত একে বলয়</string>
+    <string name="battery_ring_tile_summary">স্তৰ আৰু স্ক্ৰীন অন থকা সময়ৰ সৈতে</string>
 </resources>

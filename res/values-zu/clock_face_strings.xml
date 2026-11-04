@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Okuzenzakalelayo"</string>
     <string name="clock_faces_size">"Usayizi"</string>
     <string name="clock_faces_restart">"Qala kabusha"</string>
+    <string name="remixer_clock_faces">Izinkathi zewashi</string>
+    <string name="clock_faces_system">Iwashi lesistimu</string>
+    <string name="clock_faces_system_desc">Iwashi elisuka ku-Isithombe sangemuva nesitayela</string>
+    <string name="clock_faces_position">%1$d kwangu-%2$d</string>
+    <string name="clock_faces_applied">Kusetshenzisiwe</string>
+    <string name="clock_faces_preview_unavailable">Ukubuka kuyatholakala</string>
+    <string name="clock_faces_failed">Iwashi alikwazanga ukushintshwa</string>
+    <string name="clock_faces_color_accent">Umbala oyinhloko</string>
+    <string name="clock_faces_color_custom">Ngokwezifiso</string>
+    <string name="clock_faces_color_album">Ubuciko bekhava</string>
+    <string name="clock_faces_color_gradient">Ukuhlanganiswa kombala</string>
+    <string name="clock_faces_own_colors">Le nkathi igcina imibala yayo.</string>
+    <string name="clock_faces_album_hint">Ithatha umbala wayo ku-album art lapho umculo udlala.</string>
+    <string name="clock_faces_size_position">Usayizi nendawo</string>
+    <string name="clock_faces_size_value">Usayizi · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Ibanga kusuka phezulu</string>
+    <string name="clock_faces_top_value">Ibanga kusuka phezulu · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Indawo ngokuthi isuka ngakwesokunxele</string>
+    <string name="clock_faces_horizontal_center">Indawo ngokuthi isuka ngakwesokunxele · Phakathi</string>
+    <string name="clock_faces_horizontal_right">Indawo ngokuthi isuka ngakwesokunxele · <xliff:g id="dp" example="24">%1$d</xliff:g> dp ngakwesokudla</string>
+    <string name="clock_faces_horizontal_left">Indawo ngokuthi isuka ngakwesokunxele · <xliff:g id="dp" example="24">%1$d</xliff:g> dp ngakwesokunxele</string>
+    <string name="clock_faces_horizontal_fixed">Le nkathi ihlala iphakathi.</string>
+    <string name="clock_faces_opacity">Ukungaqondakali</string>
+    <string name="clock_faces_opacity_value">Ukukhanya · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Ukunyakaza</string>
+    <string name="clock_faces_wobble">Ukuqhuqhazela ngenkathi ushaja</string>
+    <string name="clock_faces_wobble_summary">Iqhuma kanye lapho uxhuma</string>
+    <string name="clock_faces_aod_anim">Ukuguquka kwesikrini esivulekile njalo</string>
+    <string name="clock_faces_aod_anim_summary">Inciphisa futhi ifiphaze iwashi ibe esikrinini esivulekile njalo</string>
+    <string name="clock_faces_restart_title">Qala kabusha isikrini sokukhiya?</string>
+    <string name="clock_faces_restart_message">Ukushintsha phakathi kwewashi lesistimu namanye amawashi kuqala kabusha i-SystemUI. Isikrini sizofiphala isikhashana.</string>
+    <string name="clock_faces_note">I-SystemUI idweba ukubuka kwangaphambili esithombeni sangemuva sesikrini sokukhiya. Umbala, usayizi nendawo kushintsha isikrini sokukhiya ngokushesha.</string>
 </resources>

@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Әдепкі"</string>
     <string name="clock_faces_size">"Өлшем"</string>
     <string name="clock_faces_restart">"Өшіріп қосу"</string>
+    <string name="remixer_clock_faces">Сағат үлгілері</string>
+    <string name="clock_faces_system">Жүйелік сағат</string>
+    <string name="clock_faces_system_desc">Тұсқағаз және стильдегі сағат</string>
+    <string name="clock_faces_position">%2$d-нің %1$d</string>
+    <string name="clock_faces_applied">Қолданылды</string>
+    <string name="clock_faces_preview_unavailable">Алдын ала қарау қолжетімсіз</string>
+    <string name="clock_faces_failed">Сағатты өзгерту мүмкін болмады</string>
+    <string name="clock_faces_color_accent">Акцент</string>
+    <string name="clock_faces_color_custom">Теңшелген</string>
+    <string name="clock_faces_color_album">Альбом мұқабасы</string>
+    <string name="clock_faces_color_gradient">Градиент</string>
+    <string name="clock_faces_own_colors">Бұл үлгінің өз түстері бар.</string>
+    <string name="clock_faces_album_hint">Музыка ойнап тұрғанда түсін альбом мұқабасынан алады.</string>
+    <string name="clock_faces_size_position">Өлшемі мен орны</string>
+    <string name="clock_faces_size_value">Өлшемі · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Жоғарыдан қашықтық</string>
+    <string name="clock_faces_top_value">Жоғарыдан қашықтық · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Көлденең орны</string>
+    <string name="clock_faces_horizontal_center">Көлденең орны · Ортасы</string>
+    <string name="clock_faces_horizontal_right">Көлденең орны · оңға <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_left">Көлденең орны · солға <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_fixed">Бұл үлгі ортада қалады.</string>
+    <string name="clock_faces_opacity">Мөлдірлік</string>
+    <string name="clock_faces_opacity_value">Мөлдірлік · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Қозғалыс</string>
+    <string name="clock_faces_wobble">Зарядтау кезінде тербелу</string>
+    <string name="clock_faces_wobble_summary">Қуатқа қосқанда бір рет серпіледі</string>
+    <string name="clock_faces_aod_anim">Әрдайым көрініп тұратын экранға ауысу</string>
+    <string name="clock_faces_aod_anim_summary">Сағатты әрдайым көрініп тұратын экранға кішірейтіп, сөндіреді</string>
+    <string name="clock_faces_restart_title">Құлыптаулы экранды қайта іске қосу керек пе?</string>
+    <string name="clock_faces_restart_message">Жүйелік сағат пен арнайы үлгілер арасында ауысқанда SystemUI қайта іске қосылады. Экран бір секундқа қараңғыланады.</string>
+    <string name="clock_faces_note">Алдын ала қарау SystemUI арқылы құлыптаулы экран тұсқағазында салынады. Түс, өлшем және орын құлыптаулы экранда бірден өзгереді.</string>
 </resources>

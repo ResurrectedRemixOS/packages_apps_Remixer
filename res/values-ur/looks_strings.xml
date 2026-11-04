@@ -16,4 +16,53 @@
     <string name="looks_save_look">"محفوظ کریں"</string>
     <string name="looks_custom_color">"حسب ضرورت رنگ"</string>
     <string name="looks_part_clock_color">"گھڑی کا رنگ"</string>
+    <string name="looks_title">Looks</string>
+    <string name="looks_summary">ایک ٹیپ میں آپ کا پورا سیٹ اپ</string>
+    <string name="looks_rr">RR Looks</string>
+    <string name="looks_yours">آپ کے Looks</string>
+    <string name="looks_none">ابھی کچھ محفوظ نہیں</string>
+    <string name="looks_save">موجودہ محفوظ کریں</string>
+    <string name="looks_import_clipboard">کلپ بورڈ سے</string>
+    <string name="looks_import_file">فائل سے</string>
+    <string name="looks_mine">میرا Look</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> لاگو ہو گیا</string>
+    <string name="looks_failed">سب کچھ لاگو نہیں ہو سکا</string>
+    <string name="looks_invalid">یہ RR Look نہیں ہے</string>
+    <string name="looks_part_qs">QS اسٹائل</string>
+    <string name="looks_part_clock_face">مقفل اسکرین کلاک کا ڈیزائن</string>
+    <string name="looks_part_clock_look">اسٹیٹس بار کلاک</string>
+    <string name="looks_part_edge">ایج لائٹنگ</string>
+    <string name="looks_part_boot">بوٹ اینیمیشن</string>
+    <string name="looks_part_haptics">Haptic Remix کے پیٹرن</string>
+    <string name="looks_saturation">سیچوریشن <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">لہجہ</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>” شیئر کریں</string>
+    <string name="looks_share_hint">کسی اور RR فون کے کیمرے سے اسکین کریں، یا Looks › Import میں جائیں</string>
+    <string name="looks_share_file">فائل شیئر کریں</string>
+    <string name="looks_save_file">فائل محفوظ کریں</string>
+    <string name="looks_import_scan">QR کوڈ اسکین کریں</string>
+    <string name="looks_import_title">Look درآمد کریں</string>
+    <string name="looks_from_qr">QR کوڈ سے</string>
+    <string name="looks_from_file">فائل سے</string>
+    <string name="looks_from_clipboard">کلپ بورڈ سے</string>
+    <string name="looks_import_same">یہ پہلے ہی آپ کے سیٹ اپ سے مطابقت رکھتا ہے۔</string>
+    <string name="looks_new">نیا Look</string>
+    <string name="looks_edit_title">Look میں ترمیم کریں</string>
+    <string name="looks_in_look">اس Look میں</string>
+    <string name="looks_not_included">اس Look میں نہیں</string>
+    <string name="looks_save_apply">محفوظ کریں اور لاگو کریں</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” محفوظ ہو گیا</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” حذف کریں؟</string>
+    <string name="looks_rr_wallpaper">RR وال پیپر <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">لہجے کی شدت</string>
+    <string name="looks_part_clock_chip">اسٹیٹس بار گھڑی چِپ</string>
+    <string name="looks_part_edge_style">کنارے کی روشنی کا انداز</string>
+    <string name="looks_scan_hint">کیمرے کو ایک لُک کے QR کوڈ پر رکھیں</string>
+    <string name="looks_scan_failed">کیمرہ نہیں کھل سکا</string>
+    <string name="look_roulette_title">لُک رولیٹ</string>
+    <string-array name="look_roulette_entries">
+        <item>"آف"</item>
+        <item>ہر بار انلاک پر ایک مختلف لُک</item>
+        <item>ہر روز ایک مختلف لُک</item>
+    </string-array>
 </resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">ใช้ RKP ของอุปกรณ์</string>
+    <string name="ts_rkp_enabled_summary">ใช้ keybox ที่สร้างขึ้น การนำเข้า keybox จะปิดการทำงานนี้</string>
+    <string name="ts_rkp_provision">สร้าง keybox</string>
+    <string name="ts_rkp_provision_summary">ขอ keybox จาก Google ผ่านบริการจัดเตรียมของอุปกรณ์นี้ ต้องใช้เฟิร์มแวร์ Qualcomm ที่รองรับ</string>
+    <string name="ts_rkp_status">สถานะการจัดเตรียม</string>
+    <string name="ts_rkp_owner_only">จัดการ RKP ของอุปกรณ์จากโปรไฟล์เจ้าของอุปกรณ์</string>
+    <string name="ts_rkp_unavailable">ไม่สามารถใช้ RKP ของอุปกรณ์ได้</string>
+    <string name="ts_rkp_imported">ปิดใช้งานขณะมี keybox ที่นำเข้าติดตั้งอยู่</string>
+    <string name="ts_rkp_disabled">ปิดอยู่ เปิดใช้ RKP ของอุปกรณ์เพื่อใช้หรือสร้าง keybox</string>
+    <string name="ts_rkp_idle">พร้อมขอ keybox</string>
+    <string name="ts_rkp_fetching">กำลังขอ provisioning challenge…</string>
+    <string name="ts_rkp_hardware">กำลังรอบริการจัดเตรียมของอุปกรณ์…</string>
+    <string name="ts_rkp_signing">กำลังขอใบรับรองจาก Google…</string>
+    <string name="ts_rkp_validating">กำลังตรวจสอบและบันทึก keybox…</string>
+    <string name="ts_rkp_ready">keybox ที่สร้างขึ้นใช้งานอยู่ จะต่ออายุอัตโนมัติก่อน %1$s</string>
+    <string name="ts_rkp_keybox_stored">จัดเก็บ keybox RKP ของอุปกรณ์แล้ว</string>
+    <string name="ts_rkp_expired">keybox ที่สร้างขึ้นหมดอายุแล้ว กรุณาสร้างใหม่</string>
+    <string name="ts_rkp_hal_rejected">เฟิร์มแวร์ปฏิเสธคำขอ (รหัส %1$d) อาจไม่รองรับ Duck V1</string>
+    <string name="ts_rkp_http_error">เซิร์ฟเวอร์การจัดเตรียมปฏิเสธคำขอ (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">อุปกรณ์ไม่มีอินเทอร์เฟซการจัดเตรียม V1 ที่รองรับ</string>
+    <string name="ts_rkp_network_error">ไม่สามารถเชื่อมต่อเซิร์ฟเวอร์การจัดเตรียมได้ กรุณาตรวจสอบการเชื่อมต่อ</string>
+    <string name="ts_rkp_submission_unknown">การตอบกลับจากเซิร์ฟเวอร์สูญหาย คำขออาจถูกประมวลผลแล้ว ระบบไม่ได้ลองใหม่อัตโนมัติ</string>
+    <string name="ts_rkp_invalid_chain">ใบรับรอง keybox ไม่ผ่านการตรวจสอบ ระบบจึงคง keybox เดิมไว้</string>
+    <string name="ts_rkp_timeout">การจัดเตรียมหมดเวลา หากบริการของอุปกรณ์ยังไม่ว่าง ให้รีสตาร์ทอุปกรณ์แล้วลองใหม่</string>
+    <string name="ts_rkp_canceled">ยกเลิกคำขอเนื่องจากการตั้งค่า keybox เปลี่ยนแปลง</string>
+    <string name="ts_rkp_save_failed">ไม่สามารถบันทึก keybox ที่สร้างขึ้นได้</string>
+    <string name="ts_rkp_action_failed">ไม่สามารถดำเนินการ keybox ให้เสร็จสมบูรณ์ได้</string>
+</resources>

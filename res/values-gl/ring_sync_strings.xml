@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Sincronización do timbre</string>
+    <string name="ring_sync_tap">Toca cando un anel se aliñe coa marca</string>
+    <string name="ring_sync_best">Mellor <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">PERFECTO</string>
+    <string name="ring_sync_new_best">Novo mellor</string>
+    <string name="ring_sync_again">Toca para xogar de novo</string>
+    <string name="ring_sync_ember">Acento Ember desbloqueado</string>
+    <string name="ring_sync_use_ember">Usar Ember</string>
+    <string name="ring_sync_android">O easter egg de Android</string>
+    <string name="ring_sync_vibrate_on">Vibrar ao acertar · Activado</string>
+    <string name="ring_sync_vibrate_off">Vibrar ao acertar · Desactivado</string>
+    <string name="accent_ember">Brasa</string>
+</resources>

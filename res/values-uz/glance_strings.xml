@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glance_title">Bir qarashda</string>
+    <string name="glance_summary">Pixel kabi, standart soat ostida Google sanasi, ob-havosi va kartalari. Soat ciferblatlari o‘z qatorini saqlaydi</string>
+</resources>

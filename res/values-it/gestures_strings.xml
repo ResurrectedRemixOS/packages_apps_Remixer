@@ -8,4 +8,50 @@
         <item>"Medio"</item>
         <item>"Grande"</item>
     </string-array>
+    <string name="pie_title">Controlli a torta</string>
+    <string name="pie_summary">Tieni premuta la parte inferiore di un bordo per una torta di scorciatoie</string>
+    <string name="pie_zone">Parte del bordo</string>
+    <string name="pie_clock">Orologio e batteria sopra</string>
+    <string name="pie_items">Fette</string>
+    <string-array name="pie_items_entries">
+        <item>"Indietro"</item>
+        <item>Home</item>
+        <item>"Recenti"</item>
+        <item>"Notifiche"</item>
+        <item>Torcia</item>
+        <item>"Screenshot"</item>
+        <item>"Menu del tasto di accensione"</item>
+        <item>"Assistente"</item>
+        <item>"Fotocamera"</item>
+    </string-array>
+    <string name="pie_footer">Serve una pressione di un quarto di secondo senza muovere il dito, così uno scorrimento rapido dal bordo torna comunque indietro. Non si apre nella schermata di blocco.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Sinistra"</item>
+        <item>"Destra"</item>
+        <item>Entrambi</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Terzo inferiore</item>
+        <item>Centro</item>
+        <item>Intero bordo</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Vetro</item>
+        <item>Classico</item>
+    </string-array>
+    <string name="sidebar_style_title">Aspetto della barra laterale delle app</string>
+    <string-array name="sidebar_style_entries">
+        <item>Classico</item>
+        <item>Vetro RR</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Barra laterale delle app</string>
+    <string name="sidebar_settings_summary">Scorri dal maniglia per le tue app e gli strumenti</string>
+    <string name="sidebar_apps_title">App, maniglia e appunti</string>
+    <string name="sidebar_apps_summary">Attiva il maniglia, scegli le app e configura gli appunti intelligenti</string>
+    <string name="sidebar_handle_size_title">Dimensione del maniglia</string>
+    <string name="sidebar_tools_title">Riga degli strumenti</string>
+    <string name="sidebar_tools_summary">Screenshot e torcia sotto le tue app</string>
+    <string name="sidebar_footer">La maniglia è una linea sottile del colore primario; trascinala per spostarla lungo il bordo. Con i gesti di navigazione copre solo la sua parte del bordo, e il ritorno funziona nel resto.</string>
 </resources>

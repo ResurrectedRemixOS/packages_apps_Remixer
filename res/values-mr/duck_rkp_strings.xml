@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">डिव्हाइस RKP वापरा</string>
+    <string name="ts_rkp_enabled_summary">तयार केलेला keybox वापरा. keybox इम्पोर्ट केल्यास हे बंद होते.</string>
+    <string name="ts_rkp_provision">Keybox तयार करा</string>
+    <string name="ts_rkp_provision_summary">या डिव्हाइसच्या provisioning सेवेद्वारे Google कडून keybox मागवा. सुसंगत Qualcomm फर्मवेअर आवश्यक आहे.</string>
+    <string name="ts_rkp_status">Provisioning स्थिती</string>
+    <string name="ts_rkp_owner_only">डिव्हाइस मालकाच्या प्रोफाइलमधून डिव्हाइस RKP व्यवस्थापित करा</string>
+    <string name="ts_rkp_unavailable">डिव्हाइस RKP उपलब्ध नाही</string>
+    <string name="ts_rkp_imported">इम्पोर्ट केलेला keybox इन्स्टॉल असताना बंद</string>
+    <string name="ts_rkp_disabled">बंद. keybox वापरण्यासाठी किंवा तयार करण्यासाठी डिव्हाइस RKP सुरू करा.</string>
+    <string name="ts_rkp_idle">Keybox मागवण्यासाठी तयार</string>
+    <string name="ts_rkp_fetching">Provisioning challenge मिळवला जात आहे…</string>
+    <string name="ts_rkp_hardware">डिव्हाइसच्या provisioning सेवेची प्रतीक्षा केली जात आहे…</string>
+    <string name="ts_rkp_signing">Google कडून certificates मागवले जात आहेत…</string>
+    <string name="ts_rkp_validating">Keybox पडताळला आणि जतन केला जात आहे…</string>
+    <string name="ts_rkp_ready">तयार केलेला keybox सक्रिय आहे. %1$s पूर्वी स्वयं-नूतनीकरण होईल</string>
+    <string name="ts_rkp_keybox_stored">डिव्हाइस RKP keybox साठवला</string>
+    <string name="ts_rkp_expired">तयार केलेला keybox कालबाह्य झाला आहे. बदली तयार करा.</string>
+    <string name="ts_rkp_hal_rejected">फर्मवेअरने विनंती नाकारली (कोड %1$d). Duck V1 समर्थित नसू शकते.</string>
+    <string name="ts_rkp_http_error">Provisioning सर्व्हरने विनंती नाकारली (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">डिव्हाइस सुसंगत V1 provisioning इंटरफेस उघड करत नाही</string>
+    <string name="ts_rkp_network_error">Provisioning सर्व्हरपर्यंत पोहोचता आले नाही. तुमचे कनेक्शन तपासा.</string>
+    <string name="ts_rkp_submission_unknown">सर्व्हर प्रतिसाद हरवला. विनंती प्रक्रिया झाली असावी; स्वयंचलित पुन्हा प्रयत्न केला नाही.</string>
+    <string name="ts_rkp_invalid_chain">Keybox certificates पडताळणी अयशस्वी झाली. विद्यमान keybox ठेवला.</string>
+    <string name="ts_rkp_timeout">Provisioning वेळ संपली. डिव्हाइस सेवा अजून व्यस्त असल्यास पुन्हा प्रयत्न करण्यापूर्वी डिव्हाइस रीस्टार्ट करा.</string>
+    <string name="ts_rkp_canceled">Keybox कॉन्फिगरेशन बदलल्यामुळे विनंती रद्द केली</string>
+    <string name="ts_rkp_save_failed">तयार केलेला keybox जतन करता आला नाही</string>
+    <string name="ts_rkp_action_failed">Keybox ऑपरेशन पूर्ण करता आले नाही</string>
+</resources>

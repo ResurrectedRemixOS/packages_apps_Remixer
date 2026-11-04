@@ -10,4 +10,24 @@
     <string name="rr_about_this_phone">"এই ফ’নটো"</string>
     <string name="rr_about_network">"নেটৱৰ্ক"</string>
     <string name="rr_about_hidden">"লুকাই আছে"</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">চৰকাৰী</string>
+    <string name="rr_about_unofficial">অচৰকাৰী</string>
+    <string name="rr_about_vanilla">ভেনিলা</string>
+    <string name="rr_about_hardware">হাৰ্ডৱেৰ</string>
+    <string name="rr_about_processor">প্ৰচেছৰ</string>
+    <string name="rr_about_processor_sub">%1$d টা কোৰ · %2$s GHz পৰ্যন্ত</string>
+    <string name="rr_about_processor_cores">%1$d টা কোৰ</string>
+    <string name="rr_about_storage_used">%1$s ব্যৱহৃত</string>
+    <string name="rr_about_display">ডিছপ্লে</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · চাৰ্জ হৈ আছে</string>
+    <string name="rr_about_kernel_linux">Linux কাৰ্নেল</string>
+    <string name="rr_about_software_purpose">Android সংস্কৰণ, সুৰক্ষা আপডেট, বিল্ড তাৰিখ আৰু বিল্ড নম্বৰ</string>
+    <string name="rr_about_security_patch">সুৰক্ষা আপডেট</string>
+    <string name="rr_about_build_date">বিল্ড তাৰিখ</string>
+    <string name="rr_about_maintainer">ৰক্ষণাবেক্ষণকাৰী</string>
+    <string name="rr_about_show">দেখুৱাওক</string>
+    <string name="rr_about_hide">লুকুৱাওক</string>
 </resources>

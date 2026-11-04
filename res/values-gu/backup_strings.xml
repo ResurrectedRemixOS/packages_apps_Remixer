@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">જેસ્ચર્સ</string>
     <string name="backup_group_other">"અન્ય"</string>
     <string name="backup_done">"થઈ ગયું"</string>
+    <string name="backup_summary">દરેક RR કસ્ટમાઇઝેશન એક ફાઇલમાં</string>
+    <string name="backup_now">હમણાં બૅકઅપ લો</string>
+    <string name="backup_never">છેલ્લો બૅકઅપ: ક્યારેય નહીં</string>
+    <string name="backup_last">છેલ્લો બૅકઅપ: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">ફાઇલમાંથી પુનઃસ્થાપિત કરો</string>
+    <string name="backup_restore_summary">બૅકઅપ ફાઇલ પસંદ કરો</string>
+    <string name="backup_included">સામેલ</string>
+    <string name="backup_part_theme">એક્સેન્ટ, ફોન્ટ અને આઇકન</string>
+    <string name="backup_part_header">હેડર છબી</string>
+    <string name="backup_part_photo">હેડર ઇમેજ (તમારો ફોટો)</string>
+    <string name="backup_part_photo_summary">ફાઇલ મોટી બનાવે છે</string>
+    <string name="backup_part_boot">બૂટ ઍનિમેશન</string>
+    <string name="backup_part_looks">તમારા લૂક્સ</string>
+    <string name="backup_weekly">સાપ્તાહિક બૅકઅપ</string>
+    <string name="backup_weekly_summary">તમે પસંદ કરેલા ફોલ્ડરમાં</string>
+    <string name="backup_weekly_on">દર અઠવાડિયે <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g> પર</string>
+    <string name="backup_offer">અપડેટ પહેલાં બૅકઅપ ઑફર કરો</string>
+    <string name="backup_offer_summary">ઇન્સ્ટોલ કરતાં પહેલાં અપડેટર પૂછે છે</string>
+    <string name="backup_sets"><xliff:g id="count" example="64">%1$d</xliff:g> સેટિંગ્સ સેટ કરે છે</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> સેટિંગ્સ સાચવી</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> સેટિંગ્સ પુનઃસ્થાપિત</string>
+    <string name="backup_restored_message">લાગુ કરવા માટે SystemUI ફરી શરૂ થાય છે.</string>
+    <string name="backup_skipped">આ બિલ્ડમાં <xliff:g id="count" example="2">%1$d</xliff:g> સેટિંગ્સ નથી અને છોડી દેવાઈ.</string>
+    <string name="backup_failed">બૅકઅપ સાચવી શકાયું નહીં</string>
+    <string name="backup_invalid">તે ફાઇલ Resurrected Remix બૅકઅપ નથી</string>
+    <string name="backup_footer">RR સેટિંગ્સ જ ફાઇલમાં જાય છે: કોઈ એકાઉન્ટ, પાસવર્ડ, Wi-Fi નેટવર્ક, ઍપ કે મેસેજ નહીં. રિસ્ટોર ફક્ત RR ની પોતાની યાદીમાંની સેટિંગ્સ જ લખે છે, એટલે બૅકઅપ ફાઇલ ફોન પરની બીજી કોઈ વસ્તુ બદલી શકતી નથી. તમારો હેડર ફોટો ત્યારે જ શામેલ થાય છે જ્યારે તેનું સ્વિચ ચાલુ હોય, કારણ કે તેનાથી ફાઇલ મોટી થાય છે.</string>
+    <string name="volume_style_title">વૉલ્યુમ પૅનલ સ્ટાઇલ</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>નિયૉન</item>
+        <item>ગ્લાસ</item>
+        <item>પિલ</item>
+        <item>ક્લાસિક RR</item>
+        <item>Bento</item>
+        <item>શેપ</item>
+        <item>બ્લૂપ્રિન્ટ</item>
+        <item>ડ્યુઓ</item>
+        <item>સૉફ્ટ</item>
+    </string-array>
 </resources>

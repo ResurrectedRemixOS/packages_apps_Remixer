@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glance_title">ഒറ്റനോട്ടത്തിൽ</string>
+    <string name="glance_summary">പിക്സൽ പോലെ, സ്റ്റോക്ക് ക്ലോക്കിന് താഴെ Google-ന്റെ തീയതി, കാലാവസ്ഥ, കാർഡുകൾ. ക്ലോക്ക് ഫെയ്‌സുകൾ അവയുടെ സ്വന്തം വരി നിലനിർത്തും</string>
+</resources>

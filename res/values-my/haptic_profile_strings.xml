@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_profile_title">Haptic ပရိုဖိုင်</string>
+    <string name="haptic_profile_crisp">ထက်မြက်</string>
+    <string name="haptic_profile_gentle">ညင်သာ</string>
+    <string name="haptic_profile_op13crisp">OP13 ထက်မြက်</string>
+    <string name="haptic_profile_op13gentle">OP13 ညင်သာ</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">துவக்கு அனிமேஷன்</string>
+    <string name="boot_animation_note">அடுத்த முறை ஃபோன் தொடங்கும்போது இயங்கும்.</string>
+    <string name="boot_animation_custom">உங்கள் கோப்பு</string>
+    <string name="boot_animation_custom_pick">கோப்பைத் தேர்ந்தெடுக்கவும்…</string>
+    <string name="boot_animation_custom_invalid">அது துவக்க அனிமேஷன் கோப்பு அல்ல</string>
+    <string name="boot_animation_failed">துவக்க அனிமேஷனை மாற்ற முடியவில்லை</string>
+</resources>

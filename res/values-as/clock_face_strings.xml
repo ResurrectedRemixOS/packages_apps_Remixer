@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"ডিফ’ল্ট"</string>
     <string name="clock_faces_size">"আকাৰ"</string>
     <string name="clock_faces_restart">"ৰিষ্টাৰ্ট কৰক"</string>
+    <string name="remixer_clock_faces">ঘড়ীৰ ধৰণ</string>
+    <string name="clock_faces_system">ছিষ্টেম ঘড়ী</string>
+    <string name="clock_faces_system_desc">ৱালপেপাৰ আৰু শৈলীৰ পৰা ঘড়ী</string>
+    <string name="clock_faces_position">%2$dৰ মাজত %1$d</string>
+    <string name="clock_faces_applied">প্ৰয়োগ কৰা হ\'ল</string>
+    <string name="clock_faces_preview_unavailable">পূৰ্বদৃশ্য উপলব্ধ নহয়</string>
+    <string name="clock_faces_failed">ঘড়ী সলনি কৰিব পৰা নগ\'ল</string>
+    <string name="clock_faces_color_accent">এক্সেণ্ট</string>
+    <string name="clock_faces_color_custom">কাষ্টম</string>
+    <string name="clock_faces_color_album">এলবাম আৰ্ট</string>
+    <string name="clock_faces_color_gradient">গ্ৰেডিয়েণ্ট</string>
+    <string name="clock_faces_own_colors">এই ধৰণে নিজা ৰং ৰাখে।</string>
+    <string name="clock_faces_album_hint">সংগীত বজোৱাৰ সময়ত এলবাম আৰ্টৰ পৰা ৰং লয়।</string>
+    <string name="clock_faces_size_position">আকাৰ আৰু স্থান</string>
+    <string name="clock_faces_size_value">আকাৰ · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">ওপৰৰ পৰা দূৰত্ব</string>
+    <string name="clock_faces_top_value">ওপৰৰ পৰা দূৰত্ব · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">অনুভূমিক স্থান</string>
+    <string name="clock_faces_horizontal_center">অনুভূমিক স্থান · মাজত</string>
+    <string name="clock_faces_horizontal_right">অনুভূমিক স্থান · <xliff:g id="dp" example="24">%1$d</xliff:g> dp সোঁফালে</string>
+    <string name="clock_faces_horizontal_left">অনুভূমিক স্থান · <xliff:g id="dp" example="24">%1$d</xliff:g> dp বাওঁফালে</string>
+    <string name="clock_faces_horizontal_fixed">এই ধৰণে মাজত থাকে।</string>
+    <string name="clock_faces_opacity">অস্বচ্ছতা</string>
+    <string name="clock_faces_opacity_value">অস্বচ্ছতা · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">গতি</string>
+    <string name="clock_faces_wobble">চাৰ্জ হওঁতে দোল খায়</string>
+    <string name="clock_faces_wobble_summary">প্লাগ ইন কৰোঁতে এবাৰ লাফ মাৰে</string>
+    <string name="clock_faces_aod_anim">সদা-অন ডিছপ্লেৰ ৰূপান্তৰ</string>
+    <string name="clock_faces_aod_anim_summary">সদা-অন ডিছপ্লেত ঘড়ীটো সৰু হৈ বিলীন হয়</string>
+    <string name="clock_faces_restart_title">লক স্ক্ৰীন পুনৰাৰম্ভ কৰিবনে?</string>
+    <string name="clock_faces_restart_message">ছিষ্টেম ঘড়ী আৰু নিজা ঘড়ীৰ মাজত সলনি কৰিলে SystemUI পুনৰাৰম্ভ হয়। স্ক্ৰীন এক ছেকেণ্ডৰ বাবে ডাৰ্ক হ\'ব।</string>
+    <string name="clock_faces_note">পূৰ্বদৃশ্যসমূহ আপোনাৰ লক স্ক্ৰীন ৱালপেপাৰত SystemUI ৱে আঁকে। ৰং, আকাৰ আৰু স্থানে লক স্ক্ৰীন তৎক্ষণাত সলনি কৰে।</string>
 </resources>

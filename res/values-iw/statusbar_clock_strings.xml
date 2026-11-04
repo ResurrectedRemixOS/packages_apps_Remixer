@@ -3,4 +3,34 @@
     <string name="sb_clock_date_title">"תאריך"</string>
     <string name="sb_weather_category">"מזג אוויר"</string>
     <string name="sb_weather_position_title">מיקום</string>
+    <string name="sb_clock_category">שעון ותאריך</string>
+    <string name="sb_clock_bold_title">שעון מודגש</string>
+    <string name="sb_clock_bold_summary">הצגת שעון שורת הסטטוס מודגש</string>
+    <string name="sb_clock_period_separator_title">מפריד שעות</string>
+    <string name="sb_clock_period_separator_summary">10.45 במקום 10:45</string>
+    <string name="sb_clock_date_position_title">מיקום התאריך</string>
+    <string name="sb_clock_date_style_title">אותיות התאריך</string>
+    <string name="sb_clock_date_format_title">פורמט תאריך</string>
+    <string name="sb_clock_chip_category">רקע השעון</string>
+    <string name="sb_clock_chip_title">סגנון רקע</string>
+    <string name="sb_clock_chip_start_title">תחילת מעבר צבע</string>
+    <string name="sb_clock_chip_end_title">סוף מעבר צבע</string>
+    <string name="sb_clock_chip_angle_title">זווית מעבר הצבע</string>
+    <string name="sb_clock_chip_mask_title">חיתוך השעה מתוך מעבר הצבע</string>
+    <string name="sb_clock_chip_mask_summary">מעבר הצבע נראה דרך הספרות במקום מאחוריהן</string>
+    <string name="sb_weather_title">מזג אוויר בשורת הסטטוס</string>
+    <string name="status_bar_clock_rr_style_title">מראה השעון</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"ברירת מחדל"</item>
+        <item>ניאון</item>
+        <item>מפוצל</item>
+        <item>סימון RR</item>
+        <item>מונו</item>
+        <item>Pulse</item>
+        <item>מוערם</item>
+        <item>Ember</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline לצד השעה</string>
+    <string name="sb_clock_flatline_summary">קו הלב של RR בתוך השבב: פועם עם המוזיקה, מזנק כשמגיעה התראה</string>
 </resources>

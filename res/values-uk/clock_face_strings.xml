@@ -7,4 +7,34 @@
     <string name="clock_faces_size_position">Розмір і положення</string>
     <string name="clock_faces_size">"Розмір"</string>
     <string name="clock_faces_restart">"Перезапустити"</string>
+    <string name="remixer_clock_faces">Циферблати годинника</string>
+    <string name="clock_faces_system">Системний годинник</string>
+    <string name="clock_faces_system_desc">Годинник з розділу «Фоновий малюнок &amp; стиль»</string>
+    <string name="clock_faces_position">%1$d з %2$d</string>
+    <string name="clock_faces_applied">Застосовано</string>
+    <string name="clock_faces_preview_unavailable">Попередній перегляд недоступний</string>
+    <string name="clock_faces_failed">Не вдалося змінити годинник</string>
+    <string name="clock_faces_color_accent">Акцент</string>
+    <string name="clock_faces_color_custom">Власний</string>
+    <string name="clock_faces_color_gradient">Градієнт</string>
+    <string name="clock_faces_own_colors">Цей циферблат зберігає власні кольори.</string>
+    <string name="clock_faces_album_hint">Бере колір з обкладинки альбому, поки грає музика.</string>
+    <string name="clock_faces_size_value">Розмір · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Відступ зверху</string>
+    <string name="clock_faces_top_value">Відступ зверху · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Горизонтальне положення</string>
+    <string name="clock_faces_horizontal_center">Горизонтальне положення · По центру</string>
+    <string name="clock_faces_horizontal_right">Горизонтальне положення · <xliff:g id="dp" example="24">%1$d</xliff:g> dp праворуч</string>
+    <string name="clock_faces_horizontal_left">Горизонтальне положення · <xliff:g id="dp" example="24">%1$d</xliff:g> dp ліворуч</string>
+    <string name="clock_faces_horizontal_fixed">Цей циферблат завжди по центру.</string>
+    <string name="clock_faces_opacity">Непрозорість</string>
+    <string name="clock_faces_opacity_value">Непрозорість · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Рух</string>
+    <string name="clock_faces_wobble">Похитування під час заряджання</string>
+    <string name="clock_faces_wobble_summary">Підстрибує один раз під час підключення</string>
+    <string name="clock_faces_aod_anim">Перехід на завжди увімкнений дисплей</string>
+    <string name="clock_faces_aod_anim_summary">Зменшує годинник і плавно переходить до завжди увімкненого дисплея</string>
+    <string name="clock_faces_restart_title">Перезапустити заблокований екран?</string>
+    <string name="clock_faces_restart_message">Перемикання між системним годинником і власними циферблатами перезапускає SystemUI. Екран на секунду гасне.</string>
+    <string name="clock_faces_note">SystemUI малює попередній перегляд на фоновому малюнку заблокованого екрана. Колір, розмір і положення одразу змінюють заблокований екран.</string>
 </resources>

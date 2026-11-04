@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">"Miguso"</string>
     <string name="backup_group_other">"Nyinginezo"</string>
     <string name="backup_done">"Nimemaliza"</string>
+    <string name="backup_summary">Ubinafsishaji wote wa RR katika faili moja</string>
+    <string name="backup_now">Hifadhi nakala sasa</string>
+    <string name="backup_never">Nakala ya mwisho: haijawahi</string>
+    <string name="backup_last">Nakala ya mwisho: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Rejesha kutoka faili</string>
+    <string name="backup_restore_summary">Chagua faili la nakala</string>
+    <string name="backup_included">Imejumuishwa</string>
+    <string name="backup_part_theme">Lafudhi, fonti na aikoni</string>
+    <string name="backup_part_header">Picha ya kichwa</string>
+    <string name="backup_part_photo">Picha ya kichwa (picha yako)</string>
+    <string name="backup_part_photo_summary">Hufanya faili kuwa kubwa zaidi</string>
+    <string name="backup_part_boot">Uhuishaji wa kuwasha</string>
+    <string name="backup_part_looks">Mionekano yako</string>
+    <string name="backup_weekly">Nakala ya kila wiki</string>
+    <string name="backup_weekly_summary">Kwenye folda uliyochagua</string>
+    <string name="backup_weekly_on">Kila wiki hadi <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Toa nakala kabla ya masasisho</string>
+    <string name="backup_offer_summary">Kisasisho huuliza kabla ya kusakinisha</string>
+    <string name="backup_sets">Huweka mipangilio <xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_saved">Mipangilio <xliff:g id="count" example="64">%1$d</xliff:g> imehifadhiwa</string>
+    <string name="backup_restored">Mipangilio <xliff:g id="count" example="64">%1$d</xliff:g> imerejeshwa</string>
+    <string name="backup_restored_message">SystemUI itaanzishwa upya ili kuzitumia.</string>
+    <string name="backup_skipped">Mipangilio <xliff:g id="count" example="2">%1$d</xliff:g> haipo kwenye toleo hili na imeruka.</string>
+    <string name="backup_failed">Imeshindwa kuhifadhi nakala</string>
+    <string name="backup_invalid">Faili hilo si nakala ya Resurrected Remix</string>
+    <string name="backup_footer">Nakala rudufu ya mipangilio ya RR pekee ndiyo itaingizwa kwenye faili: hakuna akaunti, nenosiri, mitandao ya Wi-Fi, programu wala ujumbe. Kurejesha kunaandika tu mipangilio iliyo kwenye orodha ya RR, hivyo faili la nakala rudufu haliwezi kubadilisha kitu kingine chochote kwenye simu. Picha yako ya kichwa imejumuishwa tu ikiwa swichi yake imewashwa, kwa sababu huongeza ukubwa wa faili.</string>
+    <string name="volume_style_title">Mtindo wa paneli ya sauti</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Kioo</item>
+        <item>Kidonge</item>
+        <item>RR ya Kawaida</item>
+        <item>Bento</item>
+        <item>Maumbo</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Laini</item>
+    </string-array>
 </resources>

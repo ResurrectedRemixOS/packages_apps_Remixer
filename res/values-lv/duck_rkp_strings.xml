@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Izmantot ierīces RKP</string>
+    <string name="ts_rkp_enabled_summary">Izmantot ģenerētu keybox. Importējot keybox, šī opcija tiek izslēgta.</string>
+    <string name="ts_rkp_provision">Ģenerēt keybox</string>
+    <string name="ts_rkp_provision_summary">Pieprasīt keybox no Google, izmantojot šīs ierīces nodrošināšanas pakalpojumu. Nepieciešama saderīga Qualcomm programmaparatūra.</string>
+    <string name="ts_rkp_status">Nodrošināšanas statuss</string>
+    <string name="ts_rkp_owner_only">Pārvaldīt ierīces RKP no ierīces īpašnieka profila</string>
+    <string name="ts_rkp_unavailable">Ierīces RKP nav pieejams</string>
+    <string name="ts_rkp_imported">Atspējots, kamēr ir instalēts importēts keybox</string>
+    <string name="ts_rkp_disabled">Izslēgts. Iespējojiet ierīces RKP, lai izmantotu vai ģenerētu keybox.</string>
+    <string name="ts_rkp_idle">Gatavs pieprasīt keybox</string>
+    <string name="ts_rkp_fetching">Notiek nodrošināšanas izaicinājuma iegūšana…</string>
+    <string name="ts_rkp_hardware">Gaida ierīces nodrošināšanas pakalpojumu…</string>
+    <string name="ts_rkp_signing">Notiek sertifikātu pieprasīšana no Google…</string>
+    <string name="ts_rkp_validating">Notiek keybox validēšana un saglabāšana…</string>
+    <string name="ts_rkp_ready">Ģenerētais keybox ir aktīvs. Tas automātiski atjaunosies pirms %1$s</string>
+    <string name="ts_rkp_keybox_stored">Ierīces RKP keybox saglabāts</string>
+    <string name="ts_rkp_expired">Ģenerētā keybox derīgums beidzies. Ģenerējiet jaunu.</string>
+    <string name="ts_rkp_hal_rejected">Programmaparatūra noraidīja pieprasījumu (kods %1$d). Duck V1 var nebūt atbalstīts.</string>
+    <string name="ts_rkp_http_error">Nodrošināšanas serveris noraidīja pieprasījumu (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Ierīce neatklāj saderīgu V1 nodrošināšanas saskarni</string>
+    <string name="ts_rkp_network_error">Nevarēja sazināties ar nodrošināšanas serveri. Pārbaudiet savienojumu.</string>
+    <string name="ts_rkp_submission_unknown">Servera atbilde tika zaudēta. Pieprasījums, iespējams, tika apstrādāts; automātiska atkārtota mēģinājuma nebija.</string>
+    <string name="ts_rkp_invalid_chain">Keybox sertifikātu validēšana neizdevās. Esošais keybox tika paturēts.</string>
+    <string name="ts_rkp_timeout">Nodrošināšanas noilgums. Ja ierīces pakalpojums joprojām ir aizņemts, pirms atkārtota mēģinājuma restartējiet ierīci.</string>
+    <string name="ts_rkp_canceled">Pieprasījums atcelts, jo mainījās keybox konfigurācija</string>
+    <string name="ts_rkp_save_failed">Nevarēja saglabāt ģenerēto keybox</string>
+    <string name="ts_rkp_action_failed">Nevarēja pabeigt keybox darbību</string>
+</resources>

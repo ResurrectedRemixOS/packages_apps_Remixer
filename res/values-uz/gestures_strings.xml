@@ -8,4 +8,50 @@
         <item>"Oʻrtacha"</item>
         <item>"Katta"</item>
     </string-array>
+    <string name="pie_title">Pie boshqaruvlari</string>
+    <string name="pie_summary">Chekkaning pastki qismini ushlab, yorliqlar pirogini oching</string>
+    <string name="pie_zone">Chekkaning bir qismi</string>
+    <string name="pie_clock">Undan yuqorida soat va batareya</string>
+    <string name="pie_items">Bo\'laklar</string>
+    <string-array name="pie_items_entries">
+        <item>"Orqaga"</item>
+        <item>Bosh ekran</item>
+        <item>"Oxirgilar"</item>
+        <item>"Bildirishnomalar"</item>
+        <item>"Fonar"</item>
+        <item>"Skrinshot"</item>
+        <item>"Quvvat menyusi"</item>
+        <item>"Assistent"</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Harakatsiz bir chorak soniya ushlash kerak, shuning uchun chekkadan tez surish hamon orqaga qaytaradi. Qulf ekranida ochilmaydi.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Chap"</item>
+        <item>"Oʻng"</item>
+        <item>Ikkalasi</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Pastki uchdan bir</item>
+        <item>O\'rta</item>
+        <item>Butun chekka</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Oynasimon</item>
+        <item>Klassik</item>
+    </string-array>
+    <string name="sidebar_style_title">Ilova yon paneli ko\'rinishi</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klassik</item>
+        <item>RR shisha</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Ilova yon paneli</string>
+    <string name="sidebar_settings_summary">Ilovalaringiz va vositalaringiz uchun dastak orqali chapdan suring</string>
+    <string name="sidebar_apps_title">Ilovalar, dastak va buferlar</string>
+    <string name="sidebar_apps_summary">Dastakni yoqing, ilovalarni tanlang va aqlli buferni sozlang</string>
+    <string name="sidebar_handle_size_title">Dastak o\'lchami</string>
+    <string name="sidebar_tools_title">Vositalar qatori</string>
+    <string name="sidebar_tools_summary">Ilovalaringiz ostida skrinshot va fonar</string>
+    <string name="sidebar_footer">Dastak urg\'u rangidagi ingichka chiziq; uni chekka bo\'ylab sudrab ko\'chiring. Imo-ishora navigatsiyasida u faqat o\'z qismini egallaydi, orqaga qaytish esa boshqa joylarda ishlaydi.</string>
 </resources>

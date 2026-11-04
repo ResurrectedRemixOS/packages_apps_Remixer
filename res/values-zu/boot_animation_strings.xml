@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Upopayi wokuqalisa</string>
+    <string name="boot_animation_note">Iyadlala ngesikhathi esilandelayo ifoni iqala.</string>
+    <string name="boot_animation_custom">Ifayela lakho</string>
+    <string name="boot_animation_custom_pick">Khetha ifayela…</string>
+    <string name="boot_animation_custom_invalid">Leli fayela akuyona i-boot animation</string>
+    <string name="boot_animation_failed">Ayikwazanga ukushintsha i-boot animation</string>
+</resources>

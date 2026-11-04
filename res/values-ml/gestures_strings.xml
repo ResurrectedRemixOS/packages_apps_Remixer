@@ -8,4 +8,50 @@
         <item>"ഇടത്തരം"</item>
         <item>"വലുത്"</item>
     </string-array>
+    <string name="pie_title">പൈ നിയന്ത്രണങ്ങൾ</string>
+    <string name="pie_summary">ഒരു അരികിന്റെ താഴത്തെ ഭാഗത്ത് അമർത്തിപ്പിടിച്ചാൽ ഷോർട്ട്കട്ടുകളുടെ പൈ തുറക്കും</string>
+    <string name="pie_zone">അരികിന്റെ ഭാഗം</string>
+    <string name="pie_clock">അതിനു മുകളിൽ ക്ലോക്കും ബാറ്ററിയും</string>
+    <string name="pie_items">സ്ലൈസുകൾ</string>
+    <string-array name="pie_items_entries">
+        <item>"മടങ്ങുക"</item>
+        <item>ഹോം</item>
+        <item>"പുതിയവ"</item>
+        <item>"അറിയിപ്പുകൾ"</item>
+        <item>"ടോർച്ച്"</item>
+        <item>"സ്ക്രീൻഷോട്ട്"</item>
+        <item>"പവർ മെനു"</item>
+        <item>അസിസ്റ്റന്റ്</item>
+        <item>"ക്യാമറ"</item>
+    </string-array>
+    <string name="pie_footer">കാൽ സെക്കൻഡ് അനങ്ങാതെ പിടിക്കണം, അതിനാൽ അരികിൽ നിന്നുള്ള വേഗത്തിലുള്ള സ്വൈപ്പ് ഇപ്പോഴും ബാക്ക് ആയി പ്രവർത്തിക്കും. ലോക്ക് സ്‌ക്രീനിൽ ഇത് തുറക്കില്ല.</string>
+    <string-array name="pie_edges_entries">
+        <item>"ഇടത്"</item>
+        <item>"വലത്"</item>
+        <item>രണ്ടും</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>താഴത്തെ മൂന്നിലൊന്ന്</item>
+        <item>മധ്യഭാഗം</item>
+        <item>മുഴുവൻ അരികും</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Glass</item>
+        <item>ക്ലാസിക്</item>
+    </string-array>
+    <string name="sidebar_style_title">ആപ്പ് സൈഡ്ബാർ ലുക്ക്</string>
+    <string-array name="sidebar_style_entries">
+        <item>ക്ലാസിക്</item>
+        <item>RR ഗ്ലാസ്</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">ആപ്പ് സൈഡ്ബാർ</string>
+    <string name="sidebar_settings_summary">നിങ്ങളുടെ ആപ്പുകൾക്കും ടൂളുകൾക്കുമായി ഹാൻഡിൽ നിന്ന് അകത്തേക്ക് സ്വൈപ്പ് ചെയ്യുക</string>
+    <string name="sidebar_apps_title">ആപ്പുകളും ഹാൻഡിലും ക്ലിപ്പ്ബോർഡും</string>
+    <string name="sidebar_apps_summary">ഹാൻഡിൽ ഓണാക്കി ആപ്പുകൾ തിരഞ്ഞെടുത്ത് സ്മാർട്ട് ക്ലിപ്പ്ബോർഡ് സജ്ജമാക്കുക</string>
+    <string name="sidebar_handle_size_title">ഹാൻഡിൽ വലുപ്പം</string>
+    <string name="sidebar_tools_title">ടൂൾ വരി</string>
+    <string name="sidebar_tools_summary">നിങ്ങളുടെ ആപ്പുകൾക്ക് താഴെ സ്ക്രീൻഷോട്ടും ടോർച്ചും</string>
+    <string name="sidebar_footer">ഹാൻഡിൽ നിങ്ങളുടെ ആക്സന്റ് നിറത്തിലുള്ള നേർത്ത വരയാണ്; അരികിലൂടെ നീക്കാൻ വലിച്ചിടുക. ജെസ്ചർ നാവിഗേഷനോടൊപ്പം ഇത് അതിന്റെ ഭാഗത്തെ അരികിൽ മാത്രമേ ഉണ്ടാകൂ, മറ്റിടങ്ങളിൽ ബാക്ക് പ്രവർത്തിക്കും.</string>
 </resources>

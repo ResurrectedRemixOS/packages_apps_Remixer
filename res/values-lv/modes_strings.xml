@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Skats katram jūsu režīmam</string>
+    <string name="remix_modes_everyday">Ikdienas skats</string>
+    <string name="remix_modes_everyday_summary">Atgriežas, kad nav ieslēgts neviens režīms ar skatu</string>
+    <string name="remix_modes_wallpaper">Fona tapete seko skatam</string>
+    <string name="remix_modes_wallpaper_summary">Režīms var mainīt arī fona tapeti</string>
+    <string name="remix_modes_modes">Jūsu režīmi</string>
+    <string name="remix_modes_no_change">Bez izmaiņām</string>
+    <string name="remix_modes_none">Vispirms saglabājiet skatu sadaļā Motīvs › Skati</string>
+    <string name="remix_modes_pick">Skats <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

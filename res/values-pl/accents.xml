@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Tapeta"</item>
+        <item>Resurrected</item>
+        <item>Android One Green</item>
+        <item>Aospa Green</item>
+        <item>Coca Cola Red</item>
+        <item>Discord Purple</item>
+        <item>Facebook Blue</item>
+        <item>Instagram Cerise</item>
+        <item>Jollibee Crimson</item>
+        <item>Monster Energy Green</item>
+        <item>Nextbit Mint</item>
+        <item>Oneplus Red</item>
+        <item>Pepsi Blue</item>
+        <item>Pixel Blue</item>
+        <item>Pocophone Yellow</item>
+        <item>Razer Green</item>
+        <item>Samsung Blue</item>
+        <item>Spotify Green</item>
+        <item>Starbucks Green</item>
+        <item>Twitch Purple</item>
+        <item>Twitter Blue</item>
+        <item>Xiaomi Orange</item>
+        <item>Bursztynowy</item>
+        <item>"Czarny"</item>
+        <item>"Niebieski"</item>
+        <item>Szaroniebieski</item>
+        <item>Brązowy</item>
+        <item>"Cyjan"</item>
+        <item>Głęboki pomarańcz</item>
+        <item>Głęboki fiolet</item>
+        <item>"Zielony"</item>
+        <item>"Szary"</item>
+        <item>"Indygo"</item>
+        <item>Jasnoniebieski</item>
+        <item>Limonkowy</item>
+        <item>"Pomarańczowy"</item>
+        <item>"Różowy"</item>
+        <item>"Fioletowy"</item>
+        <item>"Czerwony"</item>
+        <item>"Morski"</item>
+        <item>Użytkownik piąty</item>
+        <item>Użytkownik czwarty</item>
+        <item>Użytkownik pierwszy</item>
+        <item>Użytkownik siódmy</item>
+        <item>Użytkownik szósty</item>
+        <item>Użytkownik trzeci</item>
+        <item>Użytkownik drugi</item>
+        <item>"Biały"</item>
+        <item>"Żółty"</item>
+    </string-array>
+</resources>

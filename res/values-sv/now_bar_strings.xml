@@ -13,4 +13,95 @@
     <string name="now_bar_art">Albumomslag</string>
     <string name="now_bar_buttons">Knappar</string>
     <string name="now_bar_text_size">"Textstorlek"</string>
+    <string name="now_bar_summary">Pågående aktiviteter längst ned på låsskärmen</string>
+    <string name="now_bar_show">Visa</string>
+    <string name="now_bar_music">Musik och video</string>
+    <string name="now_bar_timers">Timers, stoppur och alarm</string>
+    <string name="now_bar_hide_call">Dölj samtalsavisering</string>
+    <string name="now_bar_hide_call_summary">På låsskärmen visas ett samtal i Now Bar inte också som avisering</string>
+    <string name="now_bar_live">Liveuppdateringar</string>
+    <string name="now_bar_live_summary">Navigering, resor, leveranser, resultat</string>
+    <string name="now_bar_scores">Liveresultat</string>
+    <string name="now_bar_live_apps">Appar för liveuppdateringar</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> appar</string>
+    <string name="now_bar_pin">Fäst på alltid-på-skärmen</string>
+    <string name="now_bar_unpin_question">Lösgör <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Lösgör</string>
+    <string name="now_bar_scores_summary">Spel du följer i At a Glance</string>
+    <string name="now_bar_recording">Skärm- och röstinspelning</string>
+    <string name="now_bar_buds">Hörlurar och klockor</string>
+    <string name="now_bar_buds_summary">Batteri för ansluten enhet: vänster, höger och fodral för hörlurar</string>
+    <string name="now_bar_wave">Våganimation</string>
+    <string name="now_bar_chip">Chip i statusfältet</string>
+    <string name="now_bar_chip_summary">Spelar musik och timers bredvid klockan när upplåst</string>
+    <string name="now_bar_footer">Med musik i Now Bar döljs den stora musikspelaren på låsskärmen. Svep fältet för att byta aktivitet, tryck på det för att öppna reglagen och håll inne för att dölja en aktivitet tills den är slut. Svep bort en pausad låt från fältet för att rensa den.\n\nLiveresultat visar matcher för lag du följer i Google-appen. Med Smartspacer lägger du till ett sportmål där så visas resultaten här.</string>
+    <string name="now_bar_looks">Lägen</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Standard"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Stor</item>
+        <item>Neon</item>
+        <item>Glaskort</item>
+    </string-array>
+    <string name="now_bar_material">Material</string>
+    <string name="now_bar_material_summary">Liquid Glass använder glaset du valt i Tema</string>
+    <string-array name="now_bar_material_entries">
+        <item>Enfärgad</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Albumomslag</item>
+        <item>Accent</item>
+        <item>Mörk</item>
+    </string-array>
+    <string name="now_bar_opacity">Opacitet</string>
+    <string name="now_bar_opacity_summary">Med Liquid Glass, hur mycket färg som tonar glaset</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Inga"</item>
+        <item>Tunn</item>
+        <item>Accent</item>
+    </string-array>
+    <string name="now_bar_shadow">Skugga</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Av"</item>
+        <item>Mjuk</item>
+        <item>Glöd</item>
+    </string-array>
+    <string name="now_bar_more">Fler aktiviteter</string>
+    <string-array name="now_bar_more_entries">
+        <item>Bara svep</item>
+        <item>Punkter</item>
+        <item>Titta bakom</item>
+    </string-array>
+    <string name="now_bar_size">Storlek och form</string>
+    <string name="now_bar_height">Höjd</string>
+    <string name="now_bar_width_summary">Full flyttar genvägarna ovanför fältet</string>
+    <string-array name="now_bar_width_entries">
+        <item>Smal</item>
+        <item>Mellan genvägar</item>
+        <item>Full</item>
+    </string-array>
+    <string name="now_bar_corners">Hörn</string>
+    <string name="now_bar_raise">Höjd</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Cirkel"</item>
+        <item>Rundad</item>
+        <item>"Kvadrat"</item>
+        <item>"Av"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Hoppa över och spela</item>
+        <item>Endast uppspelning</item>
+        <item>"Inga"</item>
+    </string-array>
+    <string name="now_bar_text">Text</string>
+    <string-array name="now_bar_text_entries">
+        <item>En rad</item>
+        <item>Två rader</item>
+        <item>Endast låt</item>
+    </string-array>
+    <string name="now_bar_show_page">Vad som visas i fältet</string>
+    <string name="now_bar_show_page_summary">Musik och video, timers, samtal och mer</string>
+    <string name="now_bar_where">Övrigt</string>
 </resources>

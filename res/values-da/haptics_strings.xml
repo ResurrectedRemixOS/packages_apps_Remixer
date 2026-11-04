@@ -7,4 +7,36 @@
     <string name="haptic_remix_color_blue">"Blå"</string>
     <string name="haptic_remix_color_green">"Grøn"</string>
     <string name="haptic_remix_color_white">"Hvid"</string>
+    <string name="haptic_remix_summary">Tap vibrationsmønstre til opkald, apps, alarmer og oplåsninger</string>
+    <string name="haptic_remix_record">Optag</string>
+    <string name="haptic_remix_pad">tryk rytmen</string>
+    <string name="haptic_remix_strength">Styrke</string>
+    <string name="haptic_remix_clear">Ryd</string>
+    <string name="haptic_remix_play">Afspil</string>
+    <string name="haptic_remix_name">Mønstrets navn</string>
+    <string name="haptic_remix_empty">Intet optaget endnu</string>
+    <string name="haptic_remix_too_long">Et mønster kan vare 30 sekunder</string>
+    <string name="haptic_remix_presets">Forudindstillinger</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Glas</string>
+    <string name="haptic_remix_preset_ringtone">Ringetonens rytme</string>
+    <string name="haptic_remix_listening">Lytter til ringetonen…</string>
+    <string name="haptic_remix_no_ringtone">Ringetonen kunne ikke læses</string>
+    <string name="haptic_remix_patterns">Dine mønstre</string>
+    <string name="haptic_remix_patterns_none">Gem først et mønster. Hold et mønster nede for at slette det.</string>
+    <string name="haptic_remix_broken">Mønsteret kan ikke læses</string>
+    <string name="haptic_remix_delete">Slet <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Tildel til</string>
+    <string name="haptic_remix_alarm">Alarm og timer</string>
+    <string name="haptic_remix_plug">Tilsluttet opladeren</string>
+    <string name="haptic_remix_fingerprint">Fingeraftryk genkendt</string>
+    <string name="haptic_remix_add_contact">Tilføj en kontakt</string>
+    <string name="haptic_remix_edge_color">Kantlys til <xliff:g id="name" example="Mia">%1$s</xliff:g>s beskeder</string>
+    <string name="haptic_remix_color_accent">Accent</string>
+    <string name="haptic_remix_color_crimson">Karmosinrød</string>
+    <string name="haptic_remix_color_violet">Violet</string>
+    <string name="haptic_remix_color_amber">Rav</string>
+    <string name="haptic_remix_add_app">Tilføj en apps notifikationer</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · tryk for at ændre, hold for kantfarve</string>
+    <string name="haptic_remix_no_contacts">Der kom intet nummer tilbage fra Kontakter</string>
 </resources>

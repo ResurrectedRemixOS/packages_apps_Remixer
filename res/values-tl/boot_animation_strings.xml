@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Boot animation</string>
+    <string name="boot_animation_note">Tatakbo sa susunod na pag-start ng telepono.</string>
+    <string name="boot_animation_custom">Ang file mo</string>
+    <string name="boot_animation_custom_pick">Pumili ng file…</string>
+    <string name="boot_animation_custom_invalid">Hindi boot animation ang file na ito</string>
+    <string name="boot_animation_failed">Hindi mapalitan ang boot animation</string>
+</resources>

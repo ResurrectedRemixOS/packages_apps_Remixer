@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"أزرق"</string>
     <string name="haptic_remix_color_green">"أخضر"</string>
     <string name="haptic_remix_color_white">"أبيض"</string>
+    <string name="haptic_remix_summary">اضرب أنماط الاهتزاز للمكالمات والتطبيقات والمنبهات وفتح القفل</string>
+    <string name="haptic_remix_record">تسجيل</string>
+    <string name="haptic_remix_pad">اضرب الإيقاع</string>
+    <string name="haptic_remix_strength">القوة</string>
+    <string name="haptic_remix_clear">مسح</string>
+    <string name="haptic_remix_play">تشغيل</string>
+    <string name="haptic_remix_name">اسم النمط</string>
+    <string name="haptic_remix_empty">لم يُسجَّل شيء بعد</string>
+    <string name="haptic_remix_too_long">يمكن أن يستمر النمط 30 ثانية</string>
+    <string name="haptic_remix_presets">الإعدادات المسبقة</string>
+    <string name="haptic_remix_preset_neon">نيون</string>
+    <string name="haptic_remix_preset_glass">زجاجي</string>
+    <string name="haptic_remix_preset_ringtone">إيقاع نغمة الرنين</string>
+    <string name="haptic_remix_listening">جارٍ الاستماع إلى نغمة الرنين…</string>
+    <string name="haptic_remix_no_ringtone">تعذّر قراءة نغمة الرنين</string>
+    <string name="haptic_remix_patterns">أنماطك</string>
+    <string name="haptic_remix_patterns_none">احفظ نمطاً أولاً. اضغط مطولاً على نمط لحذفه.</string>
+    <string name="haptic_remix_broken">تعذّر قراءة هذا النمط</string>
+    <string name="haptic_remix_delete">حذف <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>؟</string>
+    <string name="haptic_remix_assign">تعيين إلى</string>
+    <string name="haptic_remix_alarm">المنبه والمؤقت</string>
+    <string name="haptic_remix_plug">أثناء الشحن</string>
+    <string name="haptic_remix_fingerprint">نجاح بصمة الإصبع</string>
+    <string name="haptic_remix_add_contact">إضافة جهة اتصال</string>
+    <string name="haptic_remix_edge_color">إضاءة حواف الشاشة لرسائل <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">التمييز</string>
+    <string name="haptic_remix_color_crimson">قرمزي</string>
+    <string name="haptic_remix_color_amber">كهرماني</string>
+    <string name="haptic_remix_add_app">إضافة إشعارات تطبيق</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · اضغط للتغيير، واضغط مطولاً للون الحافة</string>
+    <string name="haptic_remix_no_contacts">لم تُرجع جهات الاتصال أي رقم</string>
 </resources>

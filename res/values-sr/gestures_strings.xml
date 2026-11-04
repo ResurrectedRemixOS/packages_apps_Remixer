@@ -8,4 +8,50 @@
         <item>"Средње"</item>
         <item>"Велики"</item>
     </string-array>
+    <string name="pie_title">Кружне контроле</string>
+    <string name="pie_summary">Држите доњи део ивице за кружни мени пречица</string>
+    <string name="pie_zone">Део ивице</string>
+    <string name="pie_clock">Сат и батерија изнад њега</string>
+    <string name="pie_items">Исечци</string>
+    <string-array name="pie_items_entries">
+        <item>"Назад"</item>
+        <item>Почетна</item>
+        <item>"Недавно"</item>
+        <item>"Обавештења"</item>
+        <item>"Лампа"</item>
+        <item>"Снимак екрана"</item>
+        <item>"Мени дугмета за укључивање"</item>
+        <item>"Помоћник"</item>
+        <item>"Камера"</item>
+    </string-array>
+    <string name="pie_footer">Потребно је задржавање од четвртине секунде без померања, па брзо превлачење од ивице и даље враћа назад. Не отвара се на закључаном екрану.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Лево"</item>
+        <item>"Десно"</item>
+        <item>Обе</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Доња трећина</item>
+        <item>Средина</item>
+        <item>Цела ивица</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Неон</item>
+        <item>Стакло</item>
+        <item>Класично</item>
+    </string-array>
+    <string name="sidebar_style_title">Изглед бочне траке апликација</string>
+    <string-array name="sidebar_style_entries">
+        <item>Класично</item>
+        <item>RR стакло</item>
+        <item>Неон</item>
+    </string-array>
+    <string name="sidebar_settings_title">Бочна трака апликација</string>
+    <string name="sidebar_settings_summary">Превуците од ручице за своје апликације и алатке</string>
+    <string name="sidebar_apps_title">Апликације, ручица и оставе</string>
+    <string name="sidebar_apps_summary">Укључите ручицу, изаберите апликације и подесите паметну оставу</string>
+    <string name="sidebar_handle_size_title">Величина ручице</string>
+    <string name="sidebar_tools_title">Ред алатки</string>
+    <string name="sidebar_tools_summary">Снимак екрана и лампа испод ваших апликација</string>
+    <string name="sidebar_footer">Ручица је танка линија у акцентној боји; превуците је да је померите дуж ивице. Уз навигацију покретима покрива само свој део ивице, а назад ради свуда другде.</string>
 </resources>

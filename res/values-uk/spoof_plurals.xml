@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="ts_added_installed_count">
+        <item quantity="one">Додано %d застосунок до цілей</item>
+        <item quantity="few">Додано %d застосунки до цілей</item>
+        <item quantity="many">Додано %d застосунків до цілей</item>
+        <item quantity="other">Додано %d застосунку до цілей</item>
+    </plurals>
+</resources>

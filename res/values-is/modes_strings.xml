@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Stemming fyrir hverja af stillingunum þínum</string>
+    <string name="remix_modes_everyday">Dagleg stemming</string>
+    <string name="remix_modes_everyday_summary">Kemur aftur þegar engin stilling með stemmingu er virk</string>
+    <string name="remix_modes_wallpaper">Veggfóður fylgir stemmingunni</string>
+    <string name="remix_modes_wallpaper_summary">Stilling getur líka breytt veggfóðrinu</string>
+    <string name="remix_modes_modes">Stillingarnar þínar</string>
+    <string name="remix_modes_no_change">Engin breyting</string>
+    <string name="remix_modes_none">Vistaðu stemmingu fyrst, í Þema › Stemmingar</string>
+    <string name="remix_modes_pick">Stemming fyrir <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

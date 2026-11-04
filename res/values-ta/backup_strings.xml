@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">சைகைகள்</string>
     <string name="backup_group_other">"மற்றவை"</string>
     <string name="backup_done">"முடிந்தது"</string>
+    <string name="backup_summary">ஒரு கோப்பில் அனைத்து RR தனிப்பயனாக்கங்களும்</string>
+    <string name="backup_now">இப்போதே காப்புப் பிரதி எடு</string>
+    <string name="backup_never">கடைசி காப்புப் பிரதி: ஒருபோதும் இல்லை</string>
+    <string name="backup_last">கடைசி காப்புப் பிரதி: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">கோப்பிலிருந்து மீட்டெடு</string>
+    <string name="backup_restore_summary">காப்புப் பிரதி கோப்பைத் தேர்ந்தெடு</string>
+    <string name="backup_included">உள்ளடக்கியவை</string>
+    <string name="backup_part_theme">உச்சரிப்பு, எழுத்துரு மற்றும் ஐகான்கள்</string>
+    <string name="backup_part_header">தலைப்புப் படம்</string>
+    <string name="backup_part_photo">தலைப்புப் படம் (உங்கள் புகைப்படம்)</string>
+    <string name="backup_part_photo_summary">கோப்பின் அளவை அதிகரிக்கும்</string>
+    <string name="backup_part_boot">துவக்கு அனிமேஷன்</string>
+    <string name="backup_part_looks">உங்கள் தோற்றங்கள்</string>
+    <string name="backup_weekly">வாராந்திர காப்புப் பிரதி</string>
+    <string name="backup_weekly_summary">நீங்கள் தேர்ந்தெடுத்த கோப்புறைக்கு</string>
+    <string name="backup_weekly_on">ஒவ்வொரு வாரமும் <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g> க்கு</string>
+    <string name="backup_offer">புதுப்பிப்புகளுக்கு முன் காப்புப் பிரதியை வழங்கு</string>
+    <string name="backup_offer_summary">நிறுவும் முன் புதுப்பிப்பான் கேட்கும்</string>
+    <string name="backup_sets"><xliff:g id="count" example="64">%1$d</xliff:g> அமைப்புகளை அமைக்கும்</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> அமைப்புகள் சேமிக்கப்பட்டன</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> அமைப்புகள் மீட்டெடுக்கப்பட்டன</string>
+    <string name="backup_restored_message">இவற்றைப் பயன்படுத்த SystemUI மறுதொடக்கம் செய்யும்.</string>
+    <string name="backup_skipped">இந்த உருவாக்கத்தில் <xliff:g id="count" example="2">%1$d</xliff:g> அமைப்புகள் இல்லை, அவை தவிர்க்கப்பட்டன.</string>
+    <string name="backup_failed">காப்புப் பிரதியைச் சேமிக்க முடியவில்லை</string>
+    <string name="backup_invalid">இது ஒரு Resurrected Remix காப்புப் பிரதி கோப்பு அல்ல</string>
+    <string name="backup_footer">கோப்பில் RR அமைப்புகள் மட்டுமே இருக்கும்: கணக்குகள், கடவுச்சொற்கள், வை-ஃபை நெட்வொர்க்குகள், பயன்பாடுகள் அல்லது செய்திகள் இல்லை. மீட்டெடுப்பு RR இன் சொந்தப் பட்டியலில் உள்ள அமைப்புகளை மட்டுமே எழுதும், எனவே காப்புப் பிரதி கோப்பு ஃபோனின் மற்ற எதையும் மாற்றாது. கோப்புறை மிகப் பெரியதாக ஆக்குவதால், உங்கள் தலைப்புப் புகைப்படம் அதன் பொத்தான் இயக்கத்தில் இருந்தால் மட்டுமே சேர்க்கப்படும்.</string>
+    <string name="volume_style_title">ஒலி பலக வடிவம்</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>நியான்</item>
+        <item>கண்ணாடி</item>
+        <item>பில்</item>
+        <item>கிளாசிக் RR</item>
+        <item>Bento</item>
+        <item>வடிவங்கள்</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>மென்மை</item>
+    </string-array>
 </resources>

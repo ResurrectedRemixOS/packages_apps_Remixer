@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="volume_page_title">Ovoz paneli</string>
+    <string name="volume_page_summary">Neon, shisha, kapsula yoki klassik RR</string>
+    <string name="volume_behavior">Xulq-atvor</string>
+    <string name="volume_on_left_title">Panel chapda</string>
+    <string name="volume_on_left_summary">Klassik RR doim yuqorida turadi</string>
+    <string name="volume_ringer_title">Jiringlatish rejimi tugmasi</string>
+    <string name="volume_tick_title">Surganda belgilar chiqadi</string>
+    <string name="volume_percent_title">Darajani foizda ko\'rsatish</string>
+    <string name="volume_timeout_title">Keyin yashirish</string>
+    <string name="volume_footer">Ko\'rinish paneli faqat ko\'rinishini o\'zgartiradi, ishlashini emas. Android standart panelni saqlaydi. Barcha oqimlarni ko\'rish uchun nuqtalarni bosing; kengaytirilgan panel ham shu ko\'rinishda bo\'ladi.</string>
+</resources>

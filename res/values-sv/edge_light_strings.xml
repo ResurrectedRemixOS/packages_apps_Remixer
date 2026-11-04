@@ -16,4 +16,26 @@
     <string name="edge_light_moment_battery_low">Låg batterinivå</string>
     <string name="edge_light_moment_unlock">"Upplåst"</string>
     <string name="remixer_color_default">"Standard"</string>
+    <string name="edge_light_title">Kantbelysning</string>
+    <string name="edge_light_summary">Lys upp skärmkanterna för aviseringar, samtal, alarm och mer</string>
+    <string name="edge_light_color_rainbow">Regnbåge</string>
+    <string name="edge_light_color_custom">Anpassad</string>
+    <string name="edge_light_style_default">Sidor</string>
+    <string name="edge_light_style_frame">Hela ramen</string>
+    <string name="edge_light_animation_effect_none">Standard</string>
+    <string name="edge_light_animation_effect_breathing">Andning</string>
+    <string name="edge_light_animation_effect_wave">Våg</string>
+    <string name="edge_light_animation_effect_sparkle">Gnista</string>
+    <string name="edge_light_pulse_count_title">Pulser</string>
+    <string name="edge_light_pulse_count_summary">Hur många gånger skärmkanterna lyser</string>
+    <string name="edge_light_stroke_width_title">Tjocklek</string>
+    <string name="edge_light_stroke_width_summary">Ljusets bredd i dp</string>
+    <string name="edge_light_spread_summary">Hur långt glöden når in från kanten</string>
+    <string name="edge_light_intensity_summary">Glödens ljusstyrka. 0 stänger av den</string>
+    <string name="edge_light_moments_title">Ögonblick</string>
+    <string name="edge_light_moment_alarms">Alarm och timer</string>
+    <string name="edge_light_moment_plugged">Ansluten</string>
+    <string name="edge_light_moment_color">Ändra färg</string>
+    <string name="edge_light_moments_footer">Tryck på ett ögonblicks prick för att ändra dess färg. Samtal och alarm lyser upp medan de ringer, även i tyst läge. De andra ögonblicken spelas inte upp i Stör ej.</string>
+    <string name="edge_light_look_title">Läge</string>
 </resources>

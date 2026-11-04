@@ -83,4 +83,224 @@
     <string name="wallpaper_apply_lock">"Түгжээтэй дэлгэц"</string>
     <string name="remixer_settings_style_original">"Эх хувь"</string>
     <string name="remixer_navbar_category">"Навигацын самбар"</string>
+    <string name="remixer_dashboard_summary">Статус самбар, загвар, түгжээтэй дэлгэц болон бусад</string>
+    <string name="rr_homepage_battery_saver">Батарейг хэмнэгч</string>
+    <string name="rr_homepage_personalize">Хувийн болгох</string>
+    <string name="rr_homepage_privacy">Нууцлал ба аюулгүй байдал</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> чөлөөтэй</string>
+    <string name="rr_homepage_charged">Бүрэн цэнэглэгдсэн</string>
+    <string name="rr_homepage_on_battery">Батарейгаар ажиллаж байна</string>
+    <string name="rr_homepage_saver_on">Батарейг хэмнэгч асаалттай</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> төхөөрөмж</item>
+        <item quantity="two"><xliff:g id="count" example="2">%d</xliff:g> төхөөрөмж</item>
+        <item quantity="few"><xliff:g id="count" example="2">%d</xliff:g> төхөөрөмж</item>
+        <item quantity="many"><xliff:g id="count" example="2">%d</xliff:g> төхөөрөмж</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> төхөөрөмж</item>
+    </plurals>
+    <string name="rr_homepage_extras">Нэмэлт тохиргоо</string>
+    <string name="rr_homepage_saver">Хэмнэгч</string>
+    <string name="rr_homepage_signed_out">Нэвтрээгүй байна</string>
+    <string name="rr_homepage_remixer_tagline">Өөрийнхөө болгоорой. Статус самбар, загвар, түгжээтэй дэлгэц болон бусад.</string>
+    <string name="rr_homepage_device_tagline">Дуу хөнгөрүүлэгч, дэлгэц, цэнэглэлт болон GameBar.</string>
+    <string name="rr_homepage_device_action">Тохируулах</string>
+    <string name="rr_group_network">Сүлжээ ба төхөөрөмжүүд</string>
+    <string name="rr_group_network_summary">Wi‑Fi, мобайл, Bluetooth</string>
+    <string name="rr_group_apps_summary">Аппууд, мэдэгдэл, горимууд</string>
+    <string name="rr_group_display">Дэлгэц ба дуу</string>
+    <string name="rr_group_display_summary">Дэлгэц, дэлгэцийн зураг, дуу</string>
+    <string name="rr_group_security_summary">Түгжээ, байршил, яаралтай тусламж</string>
+    <string name="rr_group_security_center">Аюулгүй байдлын төв</string>
+    <string name="rr_group_accounts">Google ба бүртгэлүүд</string>
+    <string name="rr_group_accounts_summary">Google, нууц үг, нөөцлөх</string>
+    <string name="rr_group_accounts_plain_summary">Нууц үг, бүртгэл, нөөцлөх</string>
+    <string name="rr_group_system_summary">Хэл, зангаа, шинэчлэлт</string>
+    <string name="remixer_tagline">Өөрийнхөө болгоорой.</string>
+    <string name="remixer_remix">Өөрчлөх</string>
+    <string name="remixer_remixed"><xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g>-ээр өөрчлөгдсөн</string>
+    <string name="remixer_chip_shade_default">Сүүдэр · Үндсэн</string>
+    <string name="remixer_quick">Шуурхай өөрчлөлт</string>
+    <string name="remixer_everything">Бүгд</string>
+    <string name="remixer_quick_accents">Бэлэн загвар эсвэл дурын өнгө</string>
+    <string name="remixer_quick_fonts">Системийн фонтын хэв маяг</string>
+    <string name="remixer_quick_walls">RR цуглуулга</string>
+    <string name="remixer_quick_header">QS толгой</string>
+    <string name="remixer_quick_header_summary">Толгойн зургууд</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Цаг, батарей, дүрс тэмдэг ба сүлжээний хурд</string>
+    <string name="remixer_qs_summary">Толгойн зураг</string>
+    <string name="remixer_notifications_summary">Ирмэгийн гэрэл, аппын дүрс тэмдэг ба цэнэглэлтийн дуу</string>
+    <string name="remixer_theme_summary">Фонт, өнгөний акцент ба дэлгэцийн зургууд</string>
+    <string name="remixer_lockscreen_summary">UDFPS, цэнэглэлтийн мэдээлэл ба цаг агаар</string>
+    <string name="remixer_udfps_icon">UDFPS дүрс тэмдэг</string>
+    <string name="remixer_udfps_icon_summary">Хурууны мөрний мэдрэгчийн дээр харагдана</string>
+    <string name="remixer_udfps_animation">UDFPS хөдөлгөөн</string>
+    <string name="remixer_udfps_animation_summary">Хуруу мэдрэгчид байх үед ажиллана</string>
+    <string name="remixer_navigation">Навигаци</string>
+    <string name="remixer_navigation_summary">Pulse, товчлуур ба навигацын самбар</string>
+    <string name="remixer_misc_summary">Дуу, нөөцлөлт, хуурамчлал, гүйлгээ ба USB</string>
+    <string name="scroll_haptics_title">Гүйлгээ дууссан үед товшилт</string>
+    <string name="scroll_haptics_summary">Жагсаалт эсвэл хуудас цааш явж чадахгүй үед бага зэрэг чичирнэ</string>
+    <string name="usb_mode_picker_title">USB горимын сонгогч</string>
+    <string name="usb_mode_picker_summary">Компьютерт холбогдоход горим сонгоно</string>
+    <string name="remixer_fonts_summary">Системийн фонт</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix дэлгэцийн зургууд</string>
+    <string name="remixer_accents">Акцентууд</string>
+    <string name="remixer_accents_summary">Акцент өнгө</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">Дэлгэцийн доод хэсэгт хөгжмийн визуализатор</string>
+    <string name="pulse_switch">Pulse ашиглах</string>
+    <string name="pulse_switch_summary">Медиа тоглох үед дэлгэцийн доод хэсэгт хөгжмийн баганууд</string>
+    <string name="pulse_preview_title">Одоо тоглож байна</string>
+    <string name="pulse_style_lines">Шугамууд</string>
+    <string name="pulse_style_fading">Бүдгэрэх</string>
+    <string name="pulse_style_blocks">Блокууд</string>
+    <string name="pulse_style_mirror">Толин тусгал</string>
+    <string name="pulse_color_custom">Өөрийн</string>
+    <string name="pulse_color_gradient">Солонго</string>
+    <string name="pulse_bars">Баганууд</string>
+    <string name="pulse_bars_value">Баганууд · %1$d</string>
+    <string name="pulse_height">Өндөр</string>
+    <string name="pulse_height_value">Өндөр · %1$d dp</string>
+    <string name="pulse_opacity">Тунгалаг байдал</string>
+    <string name="pulse_opacity_value">Тунгалаг байдал · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Хөгжим тоглох үед түгжээтэй дэлгэц дээр баганыг үлдээх</string>
+    <string name="pulse_failed">Pulse тохиргоог хадгалж чадсангүй</string>
+    <string name="accent_applied">Акцент хэрэглэгдлээ</string>
+    <string name="accent_current">Акцент · %1$s</string>
+    <string name="accent_current_custom">Акцент · Өөрийн</string>
+    <string name="accent_preview_tonal">Тональ</string>
+    <string name="accent_failed">Энэ акцентыг хэрэглэж чадсангүй</string>
+    <string name="accent_custom">Өөрийн</string>
+    <string name="accent_custom_summary">Дурын өнгө ажиллана. Сүүдэр дээрээ нэмэгдэнэ.</string>
+    <string name="accent_custom_pad">Ханалт ба гэрэлтүүлэг</string>
+    <string name="accent_custom_use"><xliff:g id="color" example="#12B5A6">%1$s</xliff:g> ашиглах</string>
+    <string name="accent_shade">Сүүдэр</string>
+    <string name="accent_shade_darker">Бараан</string>
+    <string name="accent_shade_lighter">Тод</string>
+    <string name="accent_shade_darker_value">Бараан · %1$d</string>
+    <string name="accent_shade_lighter_value">Тод · %1$d</string>
+    <string name="remixer_qs_style">QS хэв маяг</string>
+    <string name="remixer_qs_style_preview">Урьдчилан харах · %1$s</string>
+    <string name="remixer_qs_style_note">Хэв маяг бүр таны акцент өнгийг дагана. Дууны самбар нь Bento, Shapes, Blueprint, Duo ба Soft хэв маягтай. Stock Lineage нь Android 17 хавтануудыг өөрчлөхгүй.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Android 17-ийн хавтангууд, өөрчлөгдөөгүй</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Акцент картанд тод байдал. Хавтанг акцент градиентаар дүүргэнэ</string>
+    <string name="remixer_qs_style_compact">Шахмал</string>
+    <string name="remixer_qs_style_compact_summary">Богино хавтангууд. Нэг дэлгэцэд илүү олон харагдана</string>
+    <string name="remixer_qs_style_glass">Шил</string>
+    <string name="remixer_qs_style_glass_summary">Тунгалаг хүрээтэй хавтанг асаахад акцентаараа гэрэлтэнэ</string>
+    <string name="remixer_qs_style_circles">Дугуйнууд</string>
+    <string name="remixer_qs_style_circles_summary">Шошготой дугуй унтраалга. Өргөн хавтан нь карт болно</string>
+    <string name="remixer_qs_style_classic">Сонгодог</string>
+    <string name="remixer_qs_style_classic_summary">Хуучин RR: шошготой энгийн дүрс, таван зэрэгцээ, нимгэн слайдер</string>
+    <string name="remixer_qs_style_cards">Картууд</string>
+    <string name="remixer_qs_style_cards_summary">Том карт, төлөв нэр бүрийн доор, гурван зэрэгцээ</string>
+    <string name="remixer_qs_style_neon">Неон</string>
+    <string name="remixer_qs_style_neon_summary">Тунгалаг хүрээтэй хавтанг асаахад акцентаараа гэрэлтэнэ</string>
+    <string name="remixer_qs_style_bento_summary">Том дугуйран блокууд, акцентаар дүүргэсэн, жижиг хавтануудын доор шошго</string>
+    <string name="remixer_qs_style_shapes">Хэлбэрүүд</string>
+    <string name="remixer_qs_style_shapes_summary">Асаахад дугуй унтраалга бөөрөнхий хэсгүүд ургана, таван зэрэгцээ</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Нимгэн хүрээ ба монospace том үсэг</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Хоёр хэсэгтэй хавтан. Дүрсний хэсэг асаж, асаах-унтраана</string>
+    <string name="remixer_qs_style_soft">Soft</string>
+    <string name="remixer_qs_style_soft_summary">Асаахад дарагдсан мэт харагдах өргөгдсөн хавтан</string>
+    <string name="remixer_lock_media_style">Медиа тоглуулагчийн хэв маяг</string>
+    <string name="remixer_lock_media_same">Шуурхай тохиргоотой адил</string>
+    <string name="remixer_lock_media_same_summary">QS Media хавтантай адил, одоо %1$s</string>
+    <string name="remixer_lock_media_off_summary">Түгжээтэй дэлгэц дээр тоглуулагч байхгүй</string>
+    <string name="remixer_lock_media_note">Ямар нэг зүйл тоглож байх үед карт түгжээтэй дэлгэц дээр гарна. Тунгалаг хэв маяг нь дэвсгэр дээр уншихад хялбар байхаар бараан дэвсгэртэй байна.</string>
+    <string name="remixer_lock_media_stock_summary">Цомгийн зураг картыг дүүргэнэ</string>
+    <string name="remixer_lock_media_remix_summary">Бараан карт, акцент тоглуулах товч</string>
+    <string name="remixer_lock_media_compact_summary">Илүү дугуй карт, дугуй зураг</string>
+    <string name="remixer_lock_media_glass_summary">Хүрээтэй тунгалаг карт</string>
+    <string name="remixer_lock_media_circles_summary">Зөөлөн карт, акцент тоглуулах товч</string>
+    <string name="remixer_lock_media_classic_summary">Илүү дөрвөлжин карт, хүрээтэй тоглуулах товч</string>
+    <string name="remixer_lock_media_cards_summary">Зөөлөн карт, акцент тоглуулах товч, Circles шиг</string>
+    <string name="remixer_lock_media_neon_summary">Акцент хүрээтэй хар карт</string>
+    <string name="remixer_lock_media_bento_summary">Зөөлөн карт, акцент тоглуулах товч</string>
+    <string name="remixer_lock_media_shapes_summary">Илүү дугуй карт, акцент тоглуулах товч</string>
+    <string name="remixer_lock_media_blueprint_summary">Нимгэн хүрээ, хүрээтэй тоглуулах товч</string>
+    <string name="remixer_lock_media_duo_summary">Хоёр өнгөтэй карт, акцент тоглуулах товч</string>
+    <string name="remixer_lock_media_soft_summary">Ирмэгтэй өргөгдсөн карт</string>
+    <string name="remixer_headers">Толгойн зураг</string>
+    <string name="remixer_headers_summary">Шуурхай тохиргооны дэвсгэр зураг сонгоно уу</string>
+    <string name="header_switch">Толгойн зураг ашиглах</string>
+    <string name="header_switch_summary">Шуурхай тохиргооны ард зураг харуулна</string>
+    <string name="header_source">Эх сурвалж</string>
+    <string name="header_source_collection">Цуглуулга</string>
+    <string name="header_collections_summary_daylight">Толгой нь цагаас хамааран солигдох эсвэл цуглуулгаас эргэлдэнэ</string>
+    <string name="header_collections_summary_static">Цуглуулга нээгээд зургийг товшвол хэрэглэгдэнэ</string>
+    <string name="header_collections_empty">Толгойн цуглуулга суулгагдаагүй байна</string>
+    <string name="header_images_daylight">Энэ цуглуулгад</string>
+    <plurals name="header_image_count">
+        <item quantity="one">%d зураг</item>
+        <item quantity="two">%d зураг</item>
+        <item quantity="few">%d зураг</item>
+        <item quantity="many">%d зураг</item>
+        <item quantity="other">%d зураг</item>
+    </plurals>
+    <string name="header_photo_summary">Галерейгаас ямар ч зураг эсвэл GIF</string>
+    <string name="header_height">Өндөр</string>
+    <string name="header_height_value">Өндөр · %1$d dp</string>
+    <string name="header_shadow">Бүдгэрүүлэх</string>
+    <string name="header_shadow_value">Бүдгэрүүлэх · %1$d%%</string>
+    <string name="header_failed">Толгойн тохиргоог хадгалж чадсангүй</string>
+    <string name="remixer_weather_summary">Цаг агаарын үйлчилгээ ба нэгжүүд</string>
+    <string name="font_preview_notification">Таны утас ингэж уншина.</string>
+    <string name="font_try_text">Өөрийн текст туршаарай</string>
+    <string name="font_previewing">Урьдчилан харж байна</string>
+    <string name="font_current">Одоогийн фонт</string>
+    <string name="font_badge_current">Одоогийн</string>
+    <string name="font_apply_done">Хэрэглэгдсэн</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Дэлгэц</string>
+    <string name="font_filter_script">Бичиг</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Фонт хэрэглэгдлээ</string>
+    <string name="font_failed">Энэ фонтыг хэрэглэж чадсангүй</string>
+    <string name="wallpaper_set">Дэвсгэр зураг тохирууллаа</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">Resurrected Remix-ийн %d дэвсгэр зураг. Урьдчилан харахын тулд нэгийг нь товшино уу.</item>
+        <item quantity="two">Resurrected Remix-ийн %d дэвсгэр зураг. Урьдчилан харахын тулд нэгийг нь товшино уу.</item>
+        <item quantity="few">Resurrected Remix-ийн %d дэвсгэр зураг. Урьдчилан харахын тулд нэгийг нь товшино уу.</item>
+        <item quantity="many">Resurrected Remix-ийн %d дэвсгэр зураг. Урьдчилан харахын тулд нэгийг нь товшино уу.</item>
+        <item quantity="other">Resurrected Remix-ийн %d дэвсгэр зураг. Урьдчилан харахын тулд нэгийг нь товшино уу.</item>
+    </plurals>
+    <string name="wallpaper_apply_both">Хоёулаа</string>
+    <string name="wallpaper_failed">Энэ дэвсгэр зургийг тохируулж чадсангүй</string>
+    <string name="missing_app">Энэ апп суулгагдаагүй байна</string>
+    <string name="remixer_spoofing">Хуурамчлал</string>
+    <string name="remixer_spoofing_summary">Play Integrity, төхөөрөмжийн таних тэмдэг ба аппын тус бүрийн хуурамчлал</string>
+    <string name="remixer_settings_style">Тохиргооны хэв маяг</string>
+    <string name="rr_maintainer">Хариуцагч</string>
+    <string name="remixer_navbar_summary">Pulse-ийн урт, зузаан ба байрлал</string>
+    <string name="remixer_navbar_pill_length">Зангааны Pulse-ийн урт</string>
+    <string name="remixer_navbar_pill_thickness">Зангааны Pulse-ийн зузаан</string>
+    <string name="remixer_navbar_pill_auto_hide">Зангааны Pulse-ийг бүдгэрүүлэх</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Хэдэн секундын дараа Pulse-ийг нуух; дэлгэц дээр хүрэхэд эргэж гарна</string>
+    <string name="remixer_navbar_ime">Гар товчлуурууд</string>
+    <string name="remixer_navbar_ime_summary">Гарын доор буцах болон гар сэлгэгчийн товчлууруудыг харуулна</string>
+    <string name="remixer_navbar_layout">Товчлуурын байрлал</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Богино</item>
+        <item>Энгийн</item>
+        <item>Урт</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Хамгийн нимгэн</item>
+        <item>Илүү нимгэн</item>
+        <item>Нимгэн</item>
+        <item>Энгийн</item>
+        <item>Зузаан</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Энгийн</item>
+        <item>Шахмал</item>
+        <item>"Зүүн налуу"</item>
+        <item>"Баруун налуу"</item>
+    </string-array>
 </resources>

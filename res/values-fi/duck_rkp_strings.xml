@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Käytä laitteen RKP:tä</string>
+    <string name="ts_rkp_enabled_summary">Käytä luotua keyboxia. Keyboxin tuominen kytkee tämän pois.</string>
+    <string name="ts_rkp_provision">Luo keybox</string>
+    <string name="ts_rkp_provision_summary">Pyydä keybox Googlelta tämän laitteen provisiointipalvelun kautta. Vaatii yhteensopivan Qualcomm-laiteohjelmiston.</string>
+    <string name="ts_rkp_status">Provisioinnin tila</string>
+    <string name="ts_rkp_owner_only">Hallitse laitteen RKP:tä laitteen omistajan profiilista</string>
+    <string name="ts_rkp_unavailable">Laitteen RKP ei ole käytettävissä</string>
+    <string name="ts_rkp_imported">Ei käytössä, kun tuotu keybox on asennettuna</string>
+    <string name="ts_rkp_disabled">Ei käytössä. Ota laitteen RKP käyttöön, jotta keyboxia voi käyttää tai luoda.</string>
+    <string name="ts_rkp_idle">Valmis pyytämään keyboxia</string>
+    <string name="ts_rkp_fetching">Haetaan provisiointihaastetta…</string>
+    <string name="ts_rkp_hardware">Odotetaan laitteen provisiointipalvelua…</string>
+    <string name="ts_rkp_signing">Pyydetään varmenteita Googlelta…</string>
+    <string name="ts_rkp_validating">Vahvistetaan ja tallennetaan keybox…</string>
+    <string name="ts_rkp_ready">Luotu keybox on aktiivinen. Se uusiutuu itsestään ennen %1$s</string>
+    <string name="ts_rkp_keybox_stored">Laitteen RKP-keybox tallennettu</string>
+    <string name="ts_rkp_expired">Luotu keybox on vanhentunut. Luo korvaava.</string>
+    <string name="ts_rkp_hal_rejected">Laitteisto hylkäsi pyynnön (koodi %1$d). Duck V1 ei ehkä ole tuettu.</string>
+    <string name="ts_rkp_http_error">Provisiointipalvelin hylkäsi pyynnön (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Laite ei tarjoa yhteensopivaa V1-provisiointirajapintaa</string>
+    <string name="ts_rkp_network_error">Provisiointipalvelimeen ei saatu yhteyttä. Tarkista yhteytesi.</string>
+    <string name="ts_rkp_submission_unknown">Palvelimen vastaus katosi. Pyyntö on ehkä käsitelty, eikä automaattista uusintayritystä tehty.</string>
+    <string name="ts_rkp_invalid_chain">Keyboxin varmenteet eivät läpäisseet vahvistusta. Nykyinen keybox säilytettiin.</string>
+    <string name="ts_rkp_timeout">Provisiointi aikakatkaistiin. Jos laitepalvelu on yhä varattu, käynnistä laite uudelleen ennen uutta yritystä.</string>
+    <string name="ts_rkp_canceled">Pyyntö peruttiin, koska keyboxin asetukset muuttuivat</string>
+    <string name="ts_rkp_save_failed">Luotua keyboxia ei voitu tallentaa</string>
+    <string name="ts_rkp_action_failed">Keybox-toimintoa ei voitu suorittaa loppuun</string>
+</resources>

@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Стандартна"</string>
     <string name="clock_faces_size">"Памер"</string>
     <string name="clock_faces_restart">"Перазапусціць"</string>
+    <string name="remixer_clock_faces">Цыферблаты гадзінніка</string>
+    <string name="clock_faces_system">Сістэмны гадзіннік</string>
+    <string name="clock_faces_system_desc">Гадзіннік з Шпалеры і стыль</string>
+    <string name="clock_faces_position">%1$d з %2$d</string>
+    <string name="clock_faces_applied">Прымянёна</string>
+    <string name="clock_faces_preview_unavailable">Перадпрагляд недаступны</string>
+    <string name="clock_faces_failed">Не ўдалося змяніць гадзіннік</string>
+    <string name="clock_faces_color_accent">Акцэнт</string>
+    <string name="clock_faces_color_custom">Уласны</string>
+    <string name="clock_faces_color_album">Вокладка альбома</string>
+    <string name="clock_faces_color_gradient">Градыент</string>
+    <string name="clock_faces_own_colors">Гэты цыферблат захоўвае свае колеры.</string>
+    <string name="clock_faces_album_hint">Колер бярэцца з вокладкі альбома, пакуль гучыць музыка.</string>
+    <string name="clock_faces_size_position">Памер і становішча</string>
+    <string name="clock_faces_size_value">Памер · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Адлегласць ад верху</string>
+    <string name="clock_faces_top_value">Адлегласць ад верху · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Гарызантальнае становішча</string>
+    <string name="clock_faces_horizontal_center">Гарызантальнае становішча · Па цэнтры</string>
+    <string name="clock_faces_horizontal_right">Гарызантальнае становішча · <xliff:g id="dp" example="24">%1$d</xliff:g> dp направа</string>
+    <string name="clock_faces_horizontal_left">Гарызантальнае становішча · <xliff:g id="dp" example="24">%1$d</xliff:g> dp налева</string>
+    <string name="clock_faces_horizontal_fixed">Гэты цыферблат застаецца па цэнтры.</string>
+    <string name="clock_faces_opacity">Непразрыстасць</string>
+    <string name="clock_faces_opacity_value">Непразрыстасць · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Рух</string>
+    <string name="clock_faces_wobble">Хістанне падчас зарадкі</string>
+    <string name="clock_faces_wobble_summary">Падскоквае адзін раз пры падключэнні</string>
+    <string name="clock_faces_aod_anim">Пераход на экран з заўсёды ўключаным дысплеем</string>
+    <string name="clock_faces_aod_anim_summary">Памяншае і выцвітае гадзіннік пры пераходзе на экран з заўсёды ўключаным дысплеем</string>
+    <string name="clock_faces_restart_title">Перазапусціць экран блакіроўкі?</string>
+    <string name="clock_faces_restart_message">Пераключэнне паміж сістэмным гадзіннікам і свае цыферблаты перазапускае SystemUI. Экран на секунду гасне.</string>
+    <string name="clock_faces_note">Перадпрагляд малюе SystemUI на шпалерах экрана блакіроўкі. Колер, памер і становішча мяняюць экран блакіроўкі адразу.</string>
 </resources>

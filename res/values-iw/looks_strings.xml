@@ -15,4 +15,62 @@
     <string name="looks_save_look">"שמירה"</string>
     <string name="looks_custom_color">"צבע מותאם אישית"</string>
     <string name="looks_part_clock_color">"צבע השעון"</string>
+    <string name="looks_title">תבניות</string>
+    <string name="looks_summary">כל ההגדרות שלך בהקשה אחת</string>
+    <string name="looks_rr">תבניות RR</string>
+    <string name="looks_yours">התבניות שלך</string>
+    <string name="looks_none">עדיין לא נשמר דבר</string>
+    <string name="looks_save">שמור נוכחי</string>
+    <string name="looks_import_clipboard">מהלוח</string>
+    <string name="looks_import_file">מקובץ</string>
+    <string name="looks_mine">התבנית שלי</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> הוחל</string>
+    <string name="looks_failed">לא ניתן להחיל הכול</string>
+    <string name="looks_invalid">זו אינה תבנית RR</string>
+    <string name="looks_part_accent">צבע הדגשה</string>
+    <string name="looks_part_qs">סגנון הגדרות מהירות</string>
+    <string name="looks_part_clock_face">סגנון שעון מסך הנעילה</string>
+    <string name="looks_part_clock_look">שעון שורת הסטטוס</string>
+    <string name="looks_part_edge">תאורת קצוות</string>
+    <string name="looks_part_boot">אנימציית אתחול</string>
+    <string name="looks_part_haptics">דפוסי Haptic Remix</string>
+    <plurals name="looks_haptic_patterns">
+        <item quantity="many">%d דפוסים והשיוכים שלהם</item>
+        <item quantity="other">%d דפוסים והשיוכים שלהם</item>
+    </plurals>
+    <string name="looks_saturation">רוויה <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">הדגשה</string>
+    <string name="looks_share_title">שתף את “<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">סרוק במצלמה של טלפון RR אחר, או ב\"תבניות › ייבוא\"</string>
+    <string name="looks_share_file">שתף קובץ</string>
+    <string name="looks_save_file">שמור קובץ</string>
+    <string name="looks_import_scan">סרוק קוד QR</string>
+    <string name="looks_import_title">ייבא תבנית</string>
+    <string name="looks_from_qr">מקוד QR</string>
+    <string name="looks_from_file">מקובץ</string>
+    <string name="looks_from_clipboard">מהלוח</string>
+    <string name="looks_import_same">זה כבר תואם להגדרות שלך.</string>
+    <plurals name="looks_import_changes">
+        <item quantity="many">משנה <xliff:g id="count" example="4">%d</xliff:g> דברים:</item>
+        <item quantity="other">משנה <xliff:g id="count" example="4">%d</xliff:g> דברים:</item>
+    </plurals>
+    <string name="looks_new">תבנית חדשה</string>
+    <string name="looks_edit_title">ערוך תבנית</string>
+    <string name="looks_in_look">בתבנית זו</string>
+    <string name="looks_not_included">לא בתבנית זו</string>
+    <string name="looks_save_apply">שמור והחל</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” נשמר</string>
+    <string name="looks_delete_confirm">למחוק את “<xliff:g id="name" example="Sunday">%1$s</xliff:g>”?</string>
+    <string name="looks_rr_wallpaper">טפט RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">רוויה של הצבע המבליט</string>
+    <string name="looks_part_clock_chip">שבב שעון בשורת הסטטוס</string>
+    <string name="looks_part_edge_style">סגנון תאורת קצוות</string>
+    <string name="looks_scan_hint">כוונו את המצלמה אל קוד ה-QR של Look</string>
+    <string name="looks_scan_failed">לא ניתן לפתוח את המצלמה</string>
+    <string name="look_roulette_title">רולטת Look</string>
+    <string-array name="look_roulette_entries">
+        <item>"כבוי"</item>
+        <item>Look אחר בכל פתיחת נעילה</item>
+        <item>Look אחר בכל יום</item>
+    </string-array>
 </resources>

@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">Knoppen</string>
     <string name="now_bar_text">Tekst</string>
     <string name="now_bar_text_size">"Lettergrootte"</string>
+    <string name="now_bar_summary">Live-activiteiten onderaan het vergrendelscherm</string>
+    <string name="now_bar_show">Tonen</string>
+    <string name="now_bar_music">Muziek en video</string>
+    <string name="now_bar_timers">Timers, stopwatch en wekkers</string>
+    <string name="now_bar_hide_call">Oproepmelding verbergen</string>
+    <string name="now_bar_hide_call_summary">Op het vergrendelscherm wordt een oproep in de Now Bar niet ook als melding getoond</string>
+    <string name="now_bar_live">Live-updates</string>
+    <string name="now_bar_live_summary">Navigatie, ritten, bezorgingen, scores</string>
+    <string name="now_bar_scores">Live-scores</string>
+    <string name="now_bar_live_apps">Apps voor live-updates</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> apps</string>
+    <string name="now_bar_pin">Vastgezet op het always-on display</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> losmaken?</string>
+    <string name="now_bar_unpin">Losmaken</string>
+    <string name="now_bar_scores_summary">Games die je volgt in At a Glance</string>
+    <string name="now_bar_recording">Scherm- en spraakopname</string>
+    <string name="now_bar_buds">Oordopjes en horloges</string>
+    <string name="now_bar_buds_summary">Batterij van een verbonden apparaat: links, rechts en hoesje bij oordopjes</string>
+    <string name="now_bar_wave">Golfanimatie</string>
+    <string name="now_bar_aod">Tonen op always-on display</string>
+    <string name="now_bar_chip">Chip in de statusbalk</string>
+    <string name="now_bar_chip_summary">Afspelende muziek en timers naast de klok terwijl het toestel ontgrendeld is</string>
+    <string name="now_bar_footer">Met muziek in de Now Bar wordt de grote speler op het vergrendelscherm verborgen. Veeg over de balk om tussen activiteiten te wisselen, tik erop om de bediening te openen en houd ingedrukt om er één te verbergen tot hij eindigt. Veeg een gepauzeerd nummer van de balk om het te wissen.\n\nLive-scores tonen wedstrijden van de teams die je volgt in de Google-app. Voeg met Smartspacer daar een sporttarget toe, dan komen de scores hier.</string>
+    <string name="now_bar_looks">Looks</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Standaard"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Groot</item>
+        <item>Neon</item>
+        <item>Glazen kaart</item>
+    </string-array>
+    <string name="now_bar_material">Material</string>
+    <string name="now_bar_material_summary">Liquid Glass gebruikt het glas dat je instelt in Thema</string>
+    <string-array name="now_bar_material_entries">
+        <item>Effen</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Albumhoes</item>
+        <item>Accent</item>
+        <item>Donker</item>
+    </string-array>
+    <string name="now_bar_opacity">Dekking</string>
+    <string name="now_bar_opacity_summary">Hoeveel kleur het glas bij Liquid Glass tint</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Geen"</item>
+        <item>Dun</item>
+        <item>Accent</item>
+    </string-array>
+    <string name="now_bar_shadow">Schaduw</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Uit"</item>
+        <item>Zacht</item>
+        <item>Gloed</item>
+    </string-array>
+    <string name="now_bar_more">Meer activiteiten</string>
+    <string-array name="now_bar_more_entries">
+        <item>Gewoon vegen</item>
+        <item>Stippen</item>
+        <item>Kijk erachter</item>
+    </string-array>
+    <string name="now_bar_size">Grootte en vorm</string>
+    <string name="now_bar_height">Hoogte</string>
+    <string name="now_bar_width_summary">Vol verplaatst de snelkoppelingen boven de balk</string>
+    <string-array name="now_bar_width_entries">
+        <item>Smal</item>
+        <item>Tussen snelkoppelingen</item>
+        <item>Volledig</item>
+    </string-array>
+    <string name="now_bar_corners">Hoeken</string>
+    <string name="now_bar_raise">Verhoogd</string>
+    <string name="now_bar_art">Albumhoes</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Cirkel"</item>
+        <item>Afgerond</item>
+        <item>"Vierkant"</item>
+        <item>"Uit"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Overslaan en afspelen</item>
+        <item>Alleen afspelen</item>
+        <item>"Geen"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Eén regel</item>
+        <item>Twee regels</item>
+        <item>Alleen nummer</item>
+    </string-array>
+    <string name="now_bar_show_page">Wat er in de balk wordt getoond</string>
+    <string name="now_bar_show_page_summary">Muziek en video, timers, oproepen en meer</string>
+    <string name="now_bar_where">Waar anders</string>
 </resources>

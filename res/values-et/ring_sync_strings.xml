@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Rõnga sünkroonimine</string>
+    <string name="ring_sync_tap">Puuduta, kui rõngas joondub märgiga</string>
+    <string name="ring_sync_best">Parim <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">PERFEKTNE</string>
+    <string name="ring_sync_new_best">Uus rekord</string>
+    <string name="ring_sync_again">Puuduta, et uuesti mängida</string>
+    <string name="ring_sync_ember">Ember-aktsent avatud</string>
+    <string name="ring_sync_use_ember">Kasuta Emberit</string>
+    <string name="ring_sync_android">Androidi munaaed</string>
+    <string name="ring_sync_vibrate_on">Vibreeri tabamisel · Sees</string>
+    <string name="ring_sync_vibrate_off">Vibreeri tabamisel · Väljas</string>
+    <string name="accent_ember">Hõõg</string>
+</resources>

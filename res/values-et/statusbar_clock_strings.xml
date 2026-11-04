@@ -6,4 +6,31 @@
     <string name="sb_clock_date_format_title">Kuupäeva vorming</string>
     <string name="sb_weather_category">"Ilm"</string>
     <string name="sb_weather_position_title">Asukoht</string>
+    <string name="sb_clock_bold_title">Paks kell</string>
+    <string name="sb_clock_bold_summary">Kuva olekuriba kell paksu kirjaga</string>
+    <string name="sb_clock_period_separator_title">Ajaeraldaja</string>
+    <string name="sb_clock_period_separator_summary">10.45 kooloni 10:45 asemel</string>
+    <string name="sb_clock_date_style_title">Kuupäeva tõstutundlikkus</string>
+    <string name="sb_clock_chip_category">Kella taust</string>
+    <string name="sb_clock_chip_title">Tausta stiil</string>
+    <string name="sb_clock_chip_start_title">Gradiendi algus</string>
+    <string name="sb_clock_chip_end_title">Gradiendi lõpp</string>
+    <string name="sb_clock_chip_angle_title">Gradiendi nurk</string>
+    <string name="sb_clock_chip_mask_title">Lõika aeg gradiendist välja</string>
+    <string name="sb_clock_chip_mask_summary">Gradient paistab läbi numbritest, mitte ei asu nende taga</string>
+    <string name="sb_weather_title">Ilm olekuribal</string>
+    <string name="status_bar_clock_rr_style_title">Kella välimus</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Vaikeseade"</item>
+        <item>Neoon</item>
+        <item>Jagatud</item>
+        <item>RR-märk</item>
+        <item>Mono</item>
+        <item>Pulss</item>
+        <item>Virnastatud</item>
+        <item>Hõõg</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline kellaaja kõrval</string>
+    <string name="sb_clock_flatline_summary">RR-i südamelöögijoon sildi sees: lööb muusika taktis ja tõuseb, kui saabub märguanne</string>
 </resources>

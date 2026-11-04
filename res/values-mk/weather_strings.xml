@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Детали"</string>
     <string name="lockscreen_weather_location_title">"Локација"</string>
+    <string name="lockscreen_weather_title">Времето на заклучен екран</string>
+    <string name="lockscreen_weather_location_summary">Прикажи го името на градот</string>
+    <string name="lockscreen_weather_text_title">Состојба</string>
+    <string name="lockscreen_weather_text_summary">Прикажи ја состојбата, како Облачно или Ведро</string>
+    <string name="lockscreen_weather_wind_title">Ветер</string>
+    <string name="lockscreen_weather_wind_summary">Прикажи брзина и правец на ветрот</string>
+    <string name="lockscreen_weather_humidity_title">Влажност</string>
+    <string name="lockscreen_weather_humidity_summary">Прикажи ја влажноста</string>
+    <string name="custom_clock_weather_title">Време на лица на часовник</string>
+    <string name="custom_clock_weather_summary">Прикажи време во лицата на часовникот каде има место за тоа</string>
+    <string name="remixer_weather_service">Услуга за време</string>
+    <string name="remixer_weather_page_summary">Времето на заклучен екран и што прикажува</string>
 </resources>

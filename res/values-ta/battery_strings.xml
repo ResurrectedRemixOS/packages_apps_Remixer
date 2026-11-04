@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"பேட்டரி"</string>
     <string name="battery_style_title">"ஸ்டைல்"</string>
+    <string-array name="battery_style_entries">
+        <item>நிலைப்படம்</item>
+        <item>"வட்டம்"</item>
+        <item>புள்ளி வட்டம்</item>
+        <item>நியான் வளையம்</item>
+        <item>மெல்லிய பில்</item>
+        <item>பெரிய சதவீதம்</item>
+        <item>உரை</item>
+    </string-array>
+    <string name="battery_percent_title">சதவீதம்</string>
+    <string-array name="battery_percent_entries">
+        <item>"மறைக்கப்பட்டவை"</item>
+        <item>படவுருக்குள்</item>
+        <item>அதற்கு அடுத்து</item>
+    </string-array>
+    <string name="battery_ring_color_title">நியான் வளைய நிறம்</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. நிலையின்படி என்றால் 20%% க்கு மேல் உச்சரிப்பு நிறம், கீழே சிவப்பு, பேட்டரி சேவரில் ஆம்பர்.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>நிலையின்படி</item>
+        <item>உச்சரிப்பு</item>
+        <item>"வெள்ளை"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">சார்ஜ் ஆகும்போது மின்னல்</string>
+    <string name="battery_ring_tile_title">விரைவு அமைப்புகள் கட்டத்திலும் அதே வளையம்</string>
+    <string name="battery_ring_tile_summary">நிலையும் திரை இயங்கும் நேரமும் உடன்</string>
 </resources>

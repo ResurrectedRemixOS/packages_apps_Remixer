@@ -6,4 +6,35 @@
     <string name="clock_faces_color_album">앨범 아트</string>
     <string name="clock_faces_size">"크기"</string>
     <string name="clock_faces_restart">"다시 시작"</string>
+    <string name="remixer_clock_faces">시계 디자인</string>
+    <string name="clock_faces_system">시스템 시계</string>
+    <string name="clock_faces_system_desc">배경화면 및 스타일의 시계</string>
+    <string name="clock_faces_position">%2$d개 중 %1$d번째</string>
+    <string name="clock_faces_applied">적용됨</string>
+    <string name="clock_faces_preview_unavailable">미리보기를 사용할 수 없음</string>
+    <string name="clock_faces_failed">시계를 변경할 수 없습니다</string>
+    <string name="clock_faces_color_accent">강조</string>
+    <string name="clock_faces_color_custom">사용자 지정</string>
+    <string name="clock_faces_color_gradient">그라데이션</string>
+    <string name="clock_faces_own_colors">이 디자인은 고유한 색상을 유지합니다.</string>
+    <string name="clock_faces_album_hint">음악 재생 중에는 앨범 아트에서 색상을 가져옵니다.</string>
+    <string name="clock_faces_size_position">크기 및 위치</string>
+    <string name="clock_faces_size_value">크기 · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">위쪽 거리</string>
+    <string name="clock_faces_top_value">위쪽 거리 · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">가로 위치</string>
+    <string name="clock_faces_horizontal_center">가로 위치 · 가운데</string>
+    <string name="clock_faces_horizontal_right">가로 위치 · 오른쪽으로 <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_left">가로 위치 · 왼쪽으로 <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_fixed">이 디자인은 가운데에 고정됩니다.</string>
+    <string name="clock_faces_opacity">불투명도</string>
+    <string name="clock_faces_opacity_value">불투명도 · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">동작</string>
+    <string name="clock_faces_wobble">충전 중 흔들림</string>
+    <string name="clock_faces_wobble_summary">충전기를 연결하면 한 번 튕깁니다</string>
+    <string name="clock_faces_aod_anim">상시 표시 화면 전환</string>
+    <string name="clock_faces_aod_anim_summary">시계를 줄이고 흐리게 하여 상시 표시 화면으로 넘깁니다</string>
+    <string name="clock_faces_restart_title">잠금 화면을 다시 시작할까요?</string>
+    <string name="clock_faces_restart_message">시스템 시계와 사용자 지정 디자인을 전환하면 SystemUI가 다시 시작됩니다. 화면이 잠시 꺼집니다.</string>
+    <string name="clock_faces_note">미리보기는 잠금 화면 배경화면에 SystemUI가 그립니다. 색상, 크기, 위치 변경은 잠금 화면에 즉시 적용됩니다.</string>
 </resources>

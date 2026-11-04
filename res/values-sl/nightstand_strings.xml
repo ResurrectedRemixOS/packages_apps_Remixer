@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Kdaj"</string>
+    <string name="nightstand_title">Nočna ura</string>
+    <string name="nightstand_summary">Zatemnjena ura ob postelji na zaslonu, ki je vedno vklopljen, med polnjenjem ponoči</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Izklopljeno"</item>
+        <item>Na polnilniku ponoči</item>
+        <item>Vsako noč po urniku</item>
+        <item>Med vklopljenim načinom za spanje</item>
+    </string-array>
+    <string name="nightstand_from">Noč se začne</string>
+    <string name="nightstand_to">Noč se konča</string>
+    <string name="nightstand_brightness">Omejitev svetlosti</string>
+    <string name="nightstand_brightness_summary">Kako svetel sme biti zaslon, ki je vedno vklopljen, ko je nočna ura vklopljena</string>
+    <string name="nightstand_face">Videz ure</string>
+    <string name="nightstand_face_keep">Ohrani trenutni videz</string>
+    <string name="nightstand_footer">Nočna ura med delovanjem vklopi zaslon, ki je vedno vklopljen, in ga po koncu vrne nazaj. Konča se, ko odklopite polnilnik, zazvoni alarm ali se noč konča. Videz preklaplja le med dvema uporabniškima videzoma; sistemska ura ostane.</string>
 </resources>

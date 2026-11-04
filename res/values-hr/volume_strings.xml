@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Ploča glasnoće</string>
+    <string name="volume_page_summary">Neon, staklo, pilula ili klasični RR</string>
+    <string name="volume_behavior">Ponašanje</string>
+    <string name="volume_on_left_title">Ploča lijevo</string>
+    <string name="volume_on_left_summary">Klasični RR uvijek je na vrhu</string>
+    <string name="volume_ringer_title">Gumb načina zvona</string>
+    <string name="volume_tick_title">Kvači dok klizite</string>
+    <string name="volume_percent_title">Prikaži razinu u postocima</string>
+    <string name="volume_timeout_title">Sakrij nakon</string>
+    <string name="volume_footer">Izgled mijenja samo izgled ploče, a ne njezin rad. Android zadržava standardnu ploču. Dodirnite točkice da vidite sve tokove; proširena ploča koristi isti izgled.</string>
 </resources>

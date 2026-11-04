@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Կանխադրված"</string>
     <string name="clock_faces_size">"Չափսը"</string>
     <string name="clock_faces_restart">"Վերագործարկել"</string>
+    <string name="remixer_clock_faces">Ժամացույցի ձևեր</string>
+    <string name="clock_faces_system">Համակարգային ժամացույց</string>
+    <string name="clock_faces_system_desc">Ժամացույցը «Պաստառ և ոճ» բաժնից</string>
+    <string name="clock_faces_position">%1$d՝ %2$d-ից</string>
+    <string name="clock_faces_applied">Կիրառված է</string>
+    <string name="clock_faces_preview_unavailable">Նախադիտումը հասանելի չէ</string>
+    <string name="clock_faces_failed">Չհաջողվեց փոխել ժամացույցը</string>
+    <string name="clock_faces_color_accent">Շեշտ</string>
+    <string name="clock_faces_color_custom">Հատուկ</string>
+    <string name="clock_faces_color_album">Ալբոմի արտ</string>
+    <string name="clock_faces_color_gradient">Գրադիենտ</string>
+    <string name="clock_faces_own_colors">Այս ձևը պահում է իր գույները։</string>
+    <string name="clock_faces_album_hint">Երաժշտության ընթացքում գույնը վերցվում է ալբոմի արտից։</string>
+    <string name="clock_faces_size_position">Չափ և դիրք</string>
+    <string name="clock_faces_size_value">Չափ · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Հեռավորություն վերևից</string>
+    <string name="clock_faces_top_value">Հեռավորություն վերևից · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Հորիզոնական դիրք</string>
+    <string name="clock_faces_horizontal_center">Հորիզոնական դիրք · Կենտրոն</string>
+    <string name="clock_faces_horizontal_right">Հորիզոնական դիրք · <xliff:g id="dp" example="24">%1$d</xliff:g> dp աջ</string>
+    <string name="clock_faces_horizontal_left">Հորիզոնական դիրք · <xliff:g id="dp" example="24">%1$d</xliff:g> dp ձախ</string>
+    <string name="clock_faces_horizontal_fixed">Այս ձևը մնում է կենտրոնում։</string>
+    <string name="clock_faces_opacity">Անթափանցություն</string>
+    <string name="clock_faces_opacity_value">Թափանցիկություն · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Շարժում</string>
+    <string name="clock_faces_wobble">Օրորում լիցքավորվելիս</string>
+    <string name="clock_faces_wobble_summary">Մեկ անգամ ցատկում է միացնելիս</string>
+    <string name="clock_faces_aod_anim">Միշտ միացած էկրանի անցում</string>
+    <string name="clock_faces_aod_anim_summary">Ժամացույցը փոքրանում և մարում է միշտ միացած էկրանին</string>
+    <string name="clock_faces_restart_title">Վերամեկնարկե՞լ կողպէկրանը:</string>
+    <string name="clock_faces_restart_message">Համակարգային ժամացույցի և հատուկ ձևերի փոխարկումը վերամեկնարկում է SystemUI-ը։ Էկրանը մեկ վայրկյան մթնում է։</string>
+    <string name="clock_faces_note">Նախադիտումները նկարվում են SystemUI-ի կողմից ձեր կողպէկրանի պաստառին։ Գույնը, չափը և դիրքը անմիջապես փոխում են կողպէկրանը։</string>
 </resources>

@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"நீலம்"</string>
     <string name="haptic_remix_color_green">"பச்சை"</string>
     <string name="haptic_remix_color_white">"வெள்ளை"</string>
+    <string name="haptic_remix_summary">அழைப்புகள், செயலிகள், அலாரங்கள் மற்றும் திறத்தல்களுக்கான அதிர்வு வடிவங்களை தட்டி உருவாக்கவும்</string>
+    <string name="haptic_remix_record">பதிவு</string>
+    <string name="haptic_remix_pad">தாளத்தைத் தட்டவும்</string>
+    <string name="haptic_remix_strength">வலிமை</string>
+    <string name="haptic_remix_clear">அழி</string>
+    <string name="haptic_remix_play">இயக்கு</string>
+    <string name="haptic_remix_name">வடிவப் பெயர்</string>
+    <string name="haptic_remix_empty">இதுவரை எதுவும் பதிவு செய்யப்படவில்லை</string>
+    <string name="haptic_remix_too_long">ஒரு வடிவம் 30 வினாடிகள் வரை நீடிக்கலாம்</string>
+    <string name="haptic_remix_presets">முன்னமைவுகள்</string>
+    <string name="haptic_remix_preset_neon">நியான்</string>
+    <string name="haptic_remix_preset_glass">கண்ணாடி</string>
+    <string name="haptic_remix_preset_ringtone">ரிங்டோனின் துடிப்பு</string>
+    <string name="haptic_remix_listening">ரிங்டோனைக் கேட்கிறது…</string>
+    <string name="haptic_remix_no_ringtone">ரிங்டோனைப் படிக்க முடியவில்லை</string>
+    <string name="haptic_remix_patterns">உங்கள் வடிவங்கள்</string>
+    <string name="haptic_remix_patterns_none">முதலில் ஒரு வடிவத்தைச் சேமிக்கவும். நீக்க அழுத்திப் பிடிக்கவும்.</string>
+    <string name="haptic_remix_broken">அந்த வடிவத்தைப் படிக்க முடியாது</string>
+    <string name="haptic_remix_delete"><xliff:g id="name" example="Heartbeat">%1$s</xliff:g>-ஐ நீக்கவா?</string>
+    <string name="haptic_remix_assign">இதற்கு ஒதுக்கு</string>
+    <string name="haptic_remix_alarm">அலாரம் மற்றும் டைமர்</string>
+    <string name="haptic_remix_plug">சார்ஜ் ஆகிறது</string>
+    <string name="haptic_remix_fingerprint">கைரேகை வெற்றி</string>
+    <string name="haptic_remix_add_contact">தொடர்பைச் சேர்</string>
+    <string name="haptic_remix_edge_color"><xliff:g id="name" example="Mia">%1$s</xliff:g>-இன் செய்திகளுக்கான விளிம்பு ஒளி</string>
+    <string name="haptic_remix_color_accent">உச்சரிப்பு</string>
+    <string name="haptic_remix_color_crimson">அடர் சிவப்பு</string>
+    <string name="haptic_remix_color_amber">அம்பர்</string>
+    <string name="haptic_remix_add_app">ஒரு செயலியின் அறிவிப்புகளைச் சேர்</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · மாற்ற தட்டவும், விளிம்பு நிறத்திற்கு அழுத்திப் பிடிக்கவும்</string>
+    <string name="haptic_remix_no_contacts">தொடர்புகளிலிருந்து எண் கிடைக்கவில்லை</string>
 </resources>

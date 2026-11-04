@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Taimeris</string>
     <string name="quick_launch_undo">"Atsaukt"</string>
     <string name="quick_launch_off">"Izslēgts"</string>
+    <string name="quick_launch_title">Ātrā palaišana</string>
+    <string name="quick_launch_main">Pirksta nospieduma ātrā palaišana</string>
+    <string name="quick_launch_main_summary">Pēc atbloķēšanas turiet pirkstu uz sensora, lai atvērtu īsceļu</string>
+    <string name="quick_launch_hint">Pieskarieties īsceļam, lai to mainītu, turiet, lai noņemtu, vai velciet, lai mainītu secību.</string>
+    <string name="quick_launch_behavior">Uzvedība</string>
+    <string name="quick_launch_hold">Turēšanas laiks</string>
+    <string name="quick_launch_haptics">Vibrēt katram īsceļam</string>
+    <string name="quick_launch_add">Pievienot</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">Skenēt QR kodu</string>
+    <string name="quick_launch_app">Lietotne…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> noņemts</string>
 </resources>

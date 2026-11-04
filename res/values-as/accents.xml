@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"ৱালপেপাৰ"</item>
+        <item>পুনৰুজ্জীৱিত</item>
+        <item>Android One সেউজ</item>
+        <item>Aospa সেউজ</item>
+        <item>Coca Cola ৰঙা</item>
+        <item>Discord বেঙুনীয়া</item>
+        <item>Facebook নীলা</item>
+        <item>Instagram চেৰিজ</item>
+        <item>Jollibee ক্ৰিম্প্ৰন</item>
+        <item>Monster Energy সেউজ</item>
+        <item>Nextbit মিণ্ট</item>
+        <item>Oneplus ৰঙা</item>
+        <item>Pepsi নীলা</item>
+        <item>Pixel নীলা</item>
+        <item>Pocophone হালধীয়া</item>
+        <item>Razer সেউজ</item>
+        <item>Samsung নীলা</item>
+        <item>Spotify সেউজ</item>
+        <item>Starbucks সেউজ</item>
+        <item>Twitch বেঙুনীয়া</item>
+        <item>Twitter নীলা</item>
+        <item>Xiaomi কমলা</item>
+        <item>আম্বাৰ</item>
+        <item>"ক\'লা"</item>
+        <item>"নীলা"</item>
+        <item>নীলা ধূসৰ</item>
+        <item>বাদামী</item>
+        <item>"সেউজ নীলা"</item>
+        <item>গাঢ় কমলা</item>
+        <item>গাঢ় বেঙুনীয়া</item>
+        <item>"সেউজীয়া"</item>
+        <item>"ধোঁৱাবৰণীয়া"</item>
+        <item>"ইণ্ডিগ’"</item>
+        <item>পোহৰ নীলা</item>
+        <item>লাইম</item>
+        <item>"কমলা"</item>
+        <item>"গুলপীয়া"</item>
+        <item>"বেঙুনীয়া"</item>
+        <item>"ৰঙা"</item>
+        <item>"গাঢ় সেউজ-নীলা"</item>
+        <item>ব্যৱহাৰকাৰী পাঁচ</item>
+        <item>ব্যৱহাৰকাৰী চাৰি</item>
+        <item>ব্যৱহাৰকাৰী এক</item>
+        <item>ব্যৱহাৰকাৰী সাত</item>
+        <item>ব্যৱহাৰকাৰী ছয়</item>
+        <item>ব্যৱহাৰকাৰী তিনি</item>
+        <item>ব্যৱহাৰকাৰী দুই</item>
+        <item>"বগা"</item>
+        <item>"হালধীয়া"</item>
+    </string-array>
+</resources>

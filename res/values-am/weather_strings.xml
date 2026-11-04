@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"ዝርዝሮች"</string>
     <string name="lockscreen_weather_location_title">"አካባቢ"</string>
+    <string name="lockscreen_weather_title">በማያ ገጽ ቁልፍ ላይ የአየር ሁኔታ</string>
+    <string name="lockscreen_weather_location_summary">የከተማውን ስም አሳይ</string>
+    <string name="lockscreen_weather_text_title">ሁኔታ</string>
+    <string name="lockscreen_weather_text_summary">እንደ ደመናማ ወይም ጠራ ያለ ሰማይ ያለ ሁኔታ አሳይ</string>
+    <string name="lockscreen_weather_wind_title">ነፋስ</string>
+    <string name="lockscreen_weather_wind_summary">የነፋሱን ፍጥነትና አቅጣጫ አሳይ</string>
+    <string name="lockscreen_weather_humidity_title">እርጥበት</string>
+    <string name="lockscreen_weather_humidity_summary">እርጥበቱን አሳይ</string>
+    <string name="custom_clock_weather_title">በሰዓት ፊቶች ላይ የአየር ሁኔታ</string>
+    <string name="custom_clock_weather_summary">ቦታ ላላቸው የሰዓት ፊቶች ውስጥ የአየር ሁኔታን አሳይ</string>
+    <string name="remixer_weather_service">የአየር ሁኔታ አገልግሎት</string>
+    <string name="remixer_weather_page_summary">በማያ ገጽ ቁልፍ ላይ ያለው የአየር ሁኔታና የሚያሳየው</string>
 </resources>

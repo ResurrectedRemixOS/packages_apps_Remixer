@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="volume_page_title">ਵਾਲੀਅਮ ਪੈਨਲ</string>
+    <string name="volume_page_summary">ਨੀਓਨ, ਸ਼ੀਸ਼ਾ, ਪਿੱਲ ਜਾਂ ਕਲਾਸਿਕ RR</string>
+    <string name="volume_behavior">ਵਿਹਾਰ</string>
+    <string name="volume_on_left_title">ਪੈਨਲ ਖੱਬੇ ਪਾਸੇ</string>
+    <string name="volume_on_left_summary">ਕਲਾਸਿਕ RR ਹਮੇਸ਼ਾ ਸਿਖਰ \'ਤੇ ਰਹਿੰਦਾ ਹੈ</string>
+    <string name="volume_ringer_title">ਰਿੰਗਰ ਮੋਡ ਬਟਨ</string>
+    <string name="volume_tick_title">ਸਲਾਈਡ ਕਰਦੇ ਸਮੇਂ ਟਿੱਕ ਕਰੋ</string>
+    <string name="volume_percent_title">ਪੱਧਰ ਪ੍ਰਤੀਸ਼ਤ ਵਿੱਚ ਦਿਖਾਓ</string>
+    <string name="volume_timeout_title">ਇਸ ਤੋਂ ਬਾਅਦ ਲੁਕਾਓ</string>
+    <string name="volume_footer">ਦਿੱਖ ਪੈਨਲ ਦੀ ਸ਼ਕਲ ਬਦਲਦੀ ਹੈ, ਕੰਮ ਨਹੀਂ। ਐਂਡਰਾਇਡ ਸਟਾਕ ਪੈਨਲ ਰੱਖਦਾ ਹੈ। ਹਰ ਸਟ੍ਰੀਮ ਦੇਖਣ ਲਈ ਬਿੰਦੀਆਂ \'ਤੇ ਟੈਪ ਕਰੋ; ਫੈਲਿਆ ਪੈਨਲ ਵੀ ਇਹੀ ਦਿੱਖ ਵਰਤਦਾ ਹੈ।</string>
+</resources>

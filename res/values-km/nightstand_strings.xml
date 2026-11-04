@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">ពេលណា</string>
+    <string name="nightstand_title">នាឡិកាទឹកដៃ</string>
+    <string name="nightstand_summary">នាឡិកាមើលងាយពេលដេកលើអេក្រង់ជានិច្ច ខណៈកំពុងសាកនៅពេលយប់</string>
+    <string-array name="nightstand_when_entries">
+        <item>"បិទ"</item>
+        <item>នៅលើឆ្នាំងសាកពេលយប់</item>
+        <item>រាល់យប់ តាមកាលវិភាគ</item>
+        <item>ខណៈមុខងារពេលចូលគេងកំពុងបើក</item>
+    </string-array>
+    <string name="nightstand_from">យប់ចាប់ផ្ដើម</string>
+    <string name="nightstand_to">យប់បញ្ចប់</string>
+    <string name="nightstand_brightness">កម្រិតភ្លឺអតិបរមា</string>
+    <string name="nightstand_brightness_summary">ភាពភ្លឺអតិបរមារបស់អេក្រង់ជានិច្ច ខណៈនាឡិកាទឹកដៃកំពុងបើក</string>
+    <string name="nightstand_face">ទម្រង់នាឡិកា</string>
+    <string name="nightstand_face_keep">រក្សាទម្រង់បច្ចុប្បន្ន</string>
+    <string name="nightstand_footer">នាឡិកាទឹកដៃបើកអេក្រង់ជានិច្ចខណៈកំពុងដំណើរការ ហើយបិទវាវិញបន្ទាប់ពី។ វាបញ្ឈប់នៅពេលឆ្នាំងសាកដកចេញ ម៉ោងរំលឹករោទ៍ ឬយប់បញ្ចប់។ ទម្រង់នេះគ្រាន់តែប្ដូររវាងទម្រង់ផ្ទាល់ខ្លួនពីរប៉ុណ្ណោះ; នាឡិកាប្រព័ន្ធនៅដដែល។</string>
 </resources>

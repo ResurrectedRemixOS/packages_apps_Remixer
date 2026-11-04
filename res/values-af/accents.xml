@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Muurpapier"</item>
+        <item>Verjonge</item>
+        <item>Android One-groen</item>
+        <item>Aospa-groen</item>
+        <item>Coca Cola-rooi</item>
+        <item>Discord-pers</item>
+        <item>Facebook-blou</item>
+        <item>Instagram-kersrooi</item>
+        <item>Jollibee-karmosyn</item>
+        <item>Monster Energy-groen</item>
+        <item>Nextbit-mint</item>
+        <item>OnePlus-rooi</item>
+        <item>Pepsi-blou</item>
+        <item>Pixel-blou</item>
+        <item>Pocophone-geel</item>
+        <item>Razer-groen</item>
+        <item>Samsung-blou</item>
+        <item>Spotify-groen</item>
+        <item>Starbucks-groen</item>
+        <item>Twitch-pers</item>
+        <item>Twitter-blou</item>
+        <item>Xiaomi-oranje</item>
+        <item>Amber</item>
+        <item>"Swart"</item>
+        <item>"Blou"</item>
+        <item>Blougrys</item>
+        <item>Bruin</item>
+        <item>"Siaan"</item>
+        <item>Dieporanje</item>
+        <item>Dieppers</item>
+        <item>"Groen"</item>
+        <item>"Grys"</item>
+        <item>Indigo</item>
+        <item>Ligblou</item>
+        <item>Limoen</item>
+        <item>"Oranje"</item>
+        <item>"Pienk"</item>
+        <item>"Pers"</item>
+        <item>"Rooi"</item>
+        <item>"Blougroen"</item>
+        <item>Gebruiker vyf</item>
+        <item>Gebruiker vier</item>
+        <item>Gebruiker een</item>
+        <item>Gebruiker sewe</item>
+        <item>Gebruiker ses</item>
+        <item>Gebruiker drie</item>
+        <item>Gebruiker twee</item>
+        <item>"Wit"</item>
+        <item>"Geel"</item>
+    </string-array>
+</resources>

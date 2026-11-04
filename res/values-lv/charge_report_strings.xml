@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Akumulators"</string>
     <string name="charge_report_temp">"Temperatūra"</string>
     <string name="charge_report_time">"Laiks"</string>
+    <string name="charge_report_title">Uzlādes pārskati</string>
+    <string name="charge_report_summary">Katras uzlādes kopsavilkums, kad atvienojat</string>
+    <string name="charge_report_min_title">Tikai tad, ja tas pievienoja vismaz</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 dienas</item>
+        <item>7 dienas</item>
+        <item>14 dienas</item>
+        <item>30 dienas</item>
+    </string-array>
+    <string name="charge_report_history_days">Pēdējās <xliff:g id="days" example="7">%1$d</xliff:g> dienas</string>
+    <string name="charge_report_today">Šodien, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Vakar, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> h <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Vati</string>
+    <string name="charge_report_added">Pievienots</string>
+    <string name="charge_report_peak">Maksimums</string>
+    <string name="charge_report_average">Vidēji</string>
+    <string name="charge_report_max_temp">Maks. temperatūra</string>
+    <string name="charge_report_charger">Lādētājs</string>
+    <string name="charge_report_started">Sākās plkst.</string>
+    <string name="charge_report_wired">Ar vadu</string>
+    <string name="charge_report_wireless">Bezvadu</string>
+    <string name="charge_report_dock">Dokstacija</string>
+    <string name="charge_report_empty">Uzlādes vēl nav</string>
+    <string name="charge_report_footer">SystemUI nolasa akumulatora strāvu, spriegumu un temperatūru ik pēc 30 sekundēm, kamēr tas ir pievienots lādētājam. Vati ir tālrunī izmērītā vērtība, tāpēc tie var atšķirties no lādētāja norādītā skaita. Pārskati paliek tālrunī; nekas netiek augšupielādēts.</string>
 </resources>

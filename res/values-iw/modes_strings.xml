@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Look לכל אחד מה-Modes שלכם</string>
+    <string name="remix_modes_everyday">Look יומיומי</string>
+    <string name="remix_modes_everyday_summary">חוזר כשאין Mode עם Look פעיל</string>
+    <string name="remix_modes_wallpaper">הטפט עוקב אחר ה-Look</string>
+    <string name="remix_modes_wallpaper_summary">Mode יכול לשנות גם את הטפט</string>
+    <string name="remix_modes_modes">ה-Modes שלכם</string>
+    <string name="remix_modes_no_change">ללא שינוי</string>
+    <string name="remix_modes_none">שמרו קודם Look בתוך Theme › Looks</string>
+    <string name="remix_modes_pick">Look עבור <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

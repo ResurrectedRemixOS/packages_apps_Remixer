@@ -15,4 +15,54 @@
     <string name="looks_save_look">"Сачувај"</string>
     <string name="looks_custom_color">"Прилагођена боја"</string>
     <string name="looks_part_clock_color">"Боја сата"</string>
+    <string name="looks_title">Изгледи</string>
+    <string name="looks_summary">Цело подешавање једним додиром</string>
+    <string name="looks_rr">RR изгледи</string>
+    <string name="looks_yours">Ваши изгледи</string>
+    <string name="looks_none">Ништа још није сачувано</string>
+    <string name="looks_save">Сачувај тренутно</string>
+    <string name="looks_import_clipboard">Из оставе</string>
+    <string name="looks_import_file">Из датотеке</string>
+    <string name="looks_mine">Мој изглед</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> је примењено</string>
+    <string name="looks_failed">Није могуће применити све</string>
+    <string name="looks_invalid">Ово није RR изглед</string>
+    <string name="looks_part_accent">Боја акцента</string>
+    <string name="looks_part_qs">Стил брзих подешавања</string>
+    <string name="looks_part_clock_face">Изглед сата на закључаном екрану</string>
+    <string name="looks_part_clock_look">Сат у статусној траци</string>
+    <string name="looks_part_edge">Ивично осветљење</string>
+    <string name="looks_part_boot">Анимација покретања</string>
+    <string name="looks_part_haptics">Обрасци Haptic Remix-а</string>
+    <string name="looks_saturation">Засићеност <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Акценат</string>
+    <string name="looks_share_title">Подели „<xliff:g id="name" example="Neon night">%1$s</xliff:g>“</string>
+    <string name="looks_share_hint">Скенирајте камером другог RR телефона или у Изгледи › Увези</string>
+    <string name="looks_share_file">Подели датотеку</string>
+    <string name="looks_save_file">Сачувај датотеку</string>
+    <string name="looks_import_scan">Скенирај QR код</string>
+    <string name="looks_import_title">Увези изглед</string>
+    <string name="looks_from_qr">из QR кода</string>
+    <string name="looks_from_file">из датотеке</string>
+    <string name="looks_from_clipboard">из оставе</string>
+    <string name="looks_import_same">Већ одговара вашем подешавању.</string>
+    <string name="looks_new">Нови изглед</string>
+    <string name="looks_edit_title">Измени изглед</string>
+    <string name="looks_in_look">У овом изгледу</string>
+    <string name="looks_not_included">Није у овом изгледу</string>
+    <string name="looks_save_apply">Сачувај и примени</string>
+    <string name="looks_saved">„<xliff:g id="name" example="Sunday">%1$s</xliff:g>“ је сачуван</string>
+    <string name="looks_delete_confirm">Обрисати „<xliff:g id="name" example="Sunday">%1$s</xliff:g>“?</string>
+    <string name="looks_rr_wallpaper">RR позадина <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Засићеност акцента</string>
+    <string name="looks_part_clock_chip">Чип сата у статусној траци</string>
+    <string name="looks_part_edge_style">Стил осветљења ивица</string>
+    <string name="looks_scan_hint">Усмерите камеру на QR код подешавања</string>
+    <string name="looks_scan_failed">Камера није могла да се отвори</string>
+    <string name="look_roulette_title">Рулет подешавања</string>
+    <string-array name="look_roulette_entries">
+        <item>"Искључено"</item>
+        <item>Другачије подешавање при сваком откључавању</item>
+        <item>Другачије подешавање сваки дан</item>
+    </string-array>
 </resources>

@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">Запобігання випадкового пробудження</string>
+    <string name="lockscreen_battery_info_title">Інформація про заряджання</string>
+    <string name="lockscreen_battery_info_summary">Показувати силу струму, потужність, напругу й температуру акумулятора під час заряджання</string>
+    <string name="charging_ring_title">Анімація заряджання SuperVOOC</string>
+    <string name="charging_ring_summary">Показувати кільце заряджання та швидкість під час підключення</string>
+    <string name="pocket_mode_summary">Поки датчик наближення закритий, екран не вмикається і ігнорує дотики</string>
+    <string name="screen_on_time_title">Час увімкненого екрана</string>
+    <string name="screen_on_time_summary">Показувати час увімкненого екрана з моменту останнього повного заряджання на заблокованому екрані під час заряджання та на плитці «Економія заряду»</string>
 </resources>

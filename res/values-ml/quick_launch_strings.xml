@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">ടൈമർ</string>
     <string name="quick_launch_undo">"പഴയപടിയാക്കുക"</string>
     <string name="quick_launch_off">"ഓഫാണ്"</string>
+    <string name="quick_launch_title">ദ്രുത ലോഞ്ച്</string>
+    <string name="quick_launch_main">ഫിംഗർപ്രിന്റ് ദ്രുത ലോഞ്ച്</string>
+    <string name="quick_launch_main_summary">അൺലോക്ക് ചെയ്ത ശേഷവും സെൻസറിൽ വിരൽ വെച്ചാൽ ഒരു ഷോർട്ട്കട്ട് തുറക്കും</string>
+    <string name="quick_launch_hint">ഷോർട്ട്കട്ട് മാറ്റാൻ ടാപ് ചെയ്യുക, നീക്കം ചെയ്യാൻ അമർത്തിപ്പിടിക്കുക, ക്രമം മാറ്റാൻ വലിച്ചിടുക.</string>
+    <string name="quick_launch_behavior">പെരുമാറ്റം</string>
+    <string name="quick_launch_hold">അമർത്തിപ്പിടിക്കുന്ന സമയം</string>
+    <string name="quick_launch_haptics">ഓരോ ഷോർട്ട്കട്ടിലും വൈബ്രേറ്റ് ചെയ്യുക</string>
+    <string name="quick_launch_add">ചേർക്കുക</string>
+    <string name="quick_launch_video">വീഡിയോ</string>
+    <string name="quick_launch_qr">QR സ്കാൻ ചെയ്യുക</string>
+    <string name="quick_launch_app">ആപ്പ്…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> നീക്കം ചെയ്തു</string>
 </resources>

@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Batteri"</string>
     <string name="charge_report_temp">"Temperatur"</string>
     <string name="charge_report_time">"Tid"</string>
+    <string name="charge_report_title">Laderapporter</string>
+    <string name="charge_report_summary">Et sammendrag av hver lading når du kobler fra</string>
+    <string name="charge_report_min_title">Bare hvis den la til minst</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 dager</item>
+        <item>7 dager</item>
+        <item>14 dager</item>
+        <item>30 dager</item>
+    </string-array>
+    <string name="charge_report_history_days">Siste <xliff:g id="days" example="7">%1$d</xliff:g> dager</string>
+    <string name="charge_report_today">I dag, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">I går, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> t <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Watt</string>
+    <string name="charge_report_added">Lagt til</string>
+    <string name="charge_report_peak">Topp</string>
+    <string name="charge_report_average">Gjennomsnitt</string>
+    <string name="charge_report_max_temp">Maks temp</string>
+    <string name="charge_report_charger">Lader</string>
+    <string name="charge_report_started">Startet kl.</string>
+    <string name="charge_report_wired">Kablet</string>
+    <string name="charge_report_wireless">Trådløs</string>
+    <string name="charge_report_dock">Dokk</string>
+    <string name="charge_report_empty">Ingen ladinger ennå</string>
+    <string name="charge_report_footer">SystemUI leser batteriets strøm, spenning og temperatur hvert 30. sekund mens telefonen er koblet til. Wattene er det telefonen måler, så de kan avvike fra tallet på laderen. Rapportene blir på telefonen; ingenting lastes opp.</string>
 </resources>

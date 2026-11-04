@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">টাইমাৰ</string>
     <string name="quick_launch_undo">"আনডু কৰক"</string>
     <string name="quick_launch_off">"অফ আছে"</string>
+    <string name="quick_launch_title">দ্ৰুত আৰম্ভ</string>
+    <string name="quick_launch_main">ফিংগাৰপ্ৰিণ্ট দ্ৰুত আৰম্ভ</string>
+    <string name="quick_launch_main_summary">আনলক কৰাৰ পিছত সংবেদকত আঙুলি ৰাখিলে এটা শৰ্টকাট খোল খায়</string>
+    <string name="quick_launch_hint">শৰ্টকাট সলনি কৰিবলৈ টিপক, আঁতৰাবলৈ ধৰি ৰাখক, বা পুনৰ সজাবলৈ টানক।</string>
+    <string name="quick_launch_behavior">আচৰণ</string>
+    <string name="quick_launch_hold">ধৰি ৰখাৰ সময়</string>
+    <string name="quick_launch_haptics">প্ৰতিটো শৰ্টকাটত কম্পন</string>
+    <string name="quick_launch_add">যোগ কৰক</string>
+    <string name="quick_launch_video">ভিডিঅ\'</string>
+    <string name="quick_launch_qr">QR স্কেন কৰক</string>
+    <string name="quick_launch_app">এপ…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> আঁতৰোৱা হ\'ল</string>
 </resources>

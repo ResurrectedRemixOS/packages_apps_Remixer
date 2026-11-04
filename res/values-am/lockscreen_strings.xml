@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lockscreen_battery_info_title">የመሙያ መረጃ</string>
+    <string name="lockscreen_battery_info_summary">በሚሞላበት ጊዜ የአሁን፣ ዋት፣ ቮልቴጅ እና የባትሪ ሙቀት አሳይ</string>
+    <string name="charging_ring_title">SuperVOOC የመሙያ እነማ</string>
+    <string name="charging_ring_summary">ሲሰኩ የመሙያ ቀለበቱን እና ፍጥነቱን አሳይ</string>
+    <string name="pocket_mode_title">የኪስ ሁነታ</string>
+    <string name="pocket_mode_summary">የቅርበት ዳሳሹ ሲሸፈን ማያ ገጹ አይነቃም እና ንክኪዎችን ችላ ይላል</string>
+    <string name="screen_on_time_title">ማያ ገጹ የበራበት ጊዜ</string>
+    <string name="screen_on_time_summary">ከመጨረሻው ሙሉ ባትሪ መሙላት ጀምሮ የማያ ገጹ የበራበትን ጊዜ በማያ ገጽ ቁልፍ ላይ በመሙላት ወቅት እና በባትሪ ቆጣቢ ሰቅ ላይ አሳይ</string>
+</resources>

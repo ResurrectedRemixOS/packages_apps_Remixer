@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">စတင်ဖွင့်ရာ အန်နီမေးရှင်း</string>
+    <string name="boot_animation_note">ဖုန်းနောက်တစ်ကြိမ် စတင်သောအခါ ကစားပါမည်။</string>
+    <string name="boot_animation_custom">သင့်ဖိုင်</string>
+    <string name="boot_animation_custom_pick">ဖိုင်ရွေးရန်…</string>
+    <string name="boot_animation_custom_invalid">ထိုဖိုင်သည် boot animation မဟုတ်ပါ</string>
+    <string name="boot_animation_failed">boot animation ကို ပြောင်းလဲ၍ မရပါ</string>
+</resources>

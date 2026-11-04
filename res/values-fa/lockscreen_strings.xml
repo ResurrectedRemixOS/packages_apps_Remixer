@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">جلوگیری از بیدار شدن تصادفی</string>
+    <string name="lockscreen_battery_info_title">اطلاعات شارژ</string>
+    <string name="lockscreen_battery_info_summary">نمایش جریان، وات، ولتاژ و دمای باتری هنگام شارژ</string>
+    <string name="charging_ring_title">انیمیشن شارژ SuperVOOC</string>
+    <string name="charging_ring_summary">هنگام وصل شدن، حلقه شارژ و سرعت را نشان بده</string>
+    <string name="pocket_mode_summary">وقتی حسگر نزدیکی پوشانده شود، صفحه روشن نمی‌شود و لمس‌ها نادیده گرفته می‌شوند</string>
+    <string name="screen_on_time_title">زمان روشن بودن صفحه</string>
+    <string name="screen_on_time_summary">نمایش زمان روشن بودن صفحه از آخرین شارژ کامل، در صفحه قفل هنگام شارژ و در کاشی «صرفه‌جویی باتری»</string>
 </resources>

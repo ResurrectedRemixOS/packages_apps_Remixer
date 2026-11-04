@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">റിങ് സിങ്ക്</string>
+    <string name="ring_sync_tap">ഒരു റിങ് അടയാളവുമായി യോജിക്കുമ്പോൾ ടാപ്പ് ചെയ്യുക</string>
+    <string name="ring_sync_best">മികച്ചത് <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">പെർഫെക്റ്റ്</string>
+    <string name="ring_sync_new_best">പുതിയ മികച്ച സ്കോർ</string>
+    <string name="ring_sync_again">വീണ്ടും കളിക്കാൻ ടാപ്പ് ചെയ്യുക</string>
+    <string name="ring_sync_ember">എംബർ ആക്സന്റ് അൺലോക്ക് ചെയ്തു</string>
+    <string name="ring_sync_use_ember">എംബർ ഉപയോഗിക്കുക</string>
+    <string name="ring_sync_android">ആൻഡ്രോയിഡിന്റെ ഈസ്റ്റർ എഗ്</string>
+    <string name="ring_sync_vibrate_on">ഹിറ്റുകളിൽ വൈബ്രേറ്റ് · ഓൺ</string>
+    <string name="ring_sync_vibrate_off">ഹിറ്റുകളിൽ വൈബ്രേറ്റ് · ഓഫ്</string>
+    <string name="accent_ember">എംബർ</string>
+</resources>

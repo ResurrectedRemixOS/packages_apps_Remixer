@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glance_title">ஒரு பார்வையில்</string>
+    <string name="glance_summary">ஸ்டாக் கடிகாரத்தின் கீழ் Google-இன் தேதி, வானிலை மற்றும் கார்டுகள், பிக்சல் போல. கடிகார முகங்கள் அவற்றின் சொந்த வரிசையைத் தக்கவைக்கும்</string>
+</resources>

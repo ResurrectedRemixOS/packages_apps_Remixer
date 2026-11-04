@@ -4,4 +4,14 @@
     <string name="lockscreen_weather_location_title">"Hely"</string>
     <string name="lockscreen_weather_wind_title">Szél</string>
     <string name="lockscreen_weather_humidity_title">Páratartalom</string>
+    <string name="lockscreen_weather_title">Időjárás a lezárási képernyőn</string>
+    <string name="lockscreen_weather_location_summary">Városnév megjelenítése</string>
+    <string name="lockscreen_weather_text_title">Állapot</string>
+    <string name="lockscreen_weather_text_summary">Állapot megjelenítése, például Felhős vagy Tiszta égbolt</string>
+    <string name="lockscreen_weather_wind_summary">Szélsebesség és -irány megjelenítése</string>
+    <string name="lockscreen_weather_humidity_summary">Páratartalom megjelenítése</string>
+    <string name="custom_clock_weather_title">Időjárás az óralapokon</string>
+    <string name="custom_clock_weather_summary">Időjárás megjelenítése azokon az óralapokon, ahol van rá hely</string>
+    <string name="remixer_weather_service">Időjárás-szolgáltatás</string>
+    <string name="remixer_weather_page_summary">A lezárási képernyő időjárása és annak tartalma</string>
 </resources>

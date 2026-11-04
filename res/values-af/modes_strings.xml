@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">’n Uitleg vir elk van jou Modusse</string>
+    <string name="remix_modes_everyday">Alledaagse uitleg</string>
+    <string name="remix_modes_everyday_summary">Kom terug wanneer geen Modus met ’n uitleg aan is nie</string>
+    <string name="remix_modes_wallpaper">Muurpapier volg die uitleg</string>
+    <string name="remix_modes_wallpaper_summary">’n Modus kan ook die muurpapier verander</string>
+    <string name="remix_modes_modes">Jou Modusse</string>
+    <string name="remix_modes_no_change">Geen verandering</string>
+    <string name="remix_modes_none">Stoor eers ’n uitleg, in Tema › Uitlegte</string>
+    <string name="remix_modes_pick">Uitleg vir <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

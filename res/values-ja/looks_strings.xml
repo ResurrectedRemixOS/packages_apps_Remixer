@@ -17,4 +17,52 @@
     <string name="looks_save_look">"保存"</string>
     <string name="looks_custom_color">"カスタム色"</string>
     <string name="looks_part_clock_color">"時計の色"</string>
+    <string name="looks_title">ルック</string>
+    <string name="looks_summary">全設定をワンタップで適用</string>
+    <string name="looks_rr">RR ルック</string>
+    <string name="looks_yours">あなたのルック</string>
+    <string name="looks_none">保存されたルックはありません</string>
+    <string name="looks_save">現在の設定を保存</string>
+    <string name="looks_import_clipboard">クリップボードから</string>
+    <string name="looks_import_file">ファイルから</string>
+    <string name="looks_mine">マイルック</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> を適用しました</string>
+    <string name="looks_failed">すべてを適用できませんでした</string>
+    <string name="looks_invalid">RR のルックではありません</string>
+    <string name="looks_part_qs">QS スタイル</string>
+    <string name="looks_part_clock_face">ロック画面の時計のデザイン</string>
+    <string name="looks_part_clock_look">ステータスバーの時計</string>
+    <string name="looks_part_edge">エッジライティング</string>
+    <string name="looks_part_haptics">Haptic Remix のパターン</string>
+    <string name="looks_saturation">彩度 <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">アクセント</string>
+    <string name="looks_share_title">「<xliff:g id="name" example="Neon night">%1$s</xliff:g>」を共有</string>
+    <string name="looks_share_hint">別の RR 端末のカメラでスキャンするか、ルック › インポートから読み込んでください</string>
+    <string name="looks_share_file">ファイルを共有</string>
+    <string name="looks_save_file">ファイルを保存</string>
+    <string name="looks_import_scan">QR コードをスキャン</string>
+    <string name="looks_import_title">ルックをインポート</string>
+    <string name="looks_from_qr">QR コードから</string>
+    <string name="looks_from_file">ファイルから</string>
+    <string name="looks_from_clipboard">クリップボードから</string>
+    <string name="looks_import_same">現在の設定と同じです。</string>
+    <string name="looks_new">新しいルック</string>
+    <string name="looks_edit_title">ルックを編集</string>
+    <string name="looks_in_look">このルックに含まれる</string>
+    <string name="looks_not_included">このルックに含まれない</string>
+    <string name="looks_save_apply">保存して適用</string>
+    <string name="looks_saved">「<xliff:g id="name" example="Sunday">%1$s</xliff:g>」を保存しました</string>
+    <string name="looks_delete_confirm">「<xliff:g id="name" example="Sunday">%1$s</xliff:g>」を削除しますか？</string>
+    <string name="looks_rr_wallpaper">RR 壁紙 <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">アクセントの彩度</string>
+    <string name="looks_part_clock_chip">ステータスバーの時計チップ</string>
+    <string name="looks_part_edge_style">エッジライティングのスタイル</string>
+    <string name="looks_scan_hint">ルックの QR コードにカメラを向けてください</string>
+    <string name="looks_scan_failed">カメラを開けませんでした</string>
+    <string name="look_roulette_title">ルックのルーレット</string>
+    <string-array name="look_roulette_entries">
+        <item>"OFF"</item>
+        <item>ロック解除のたびに別のルック</item>
+        <item>毎日別のルック</item>
+    </string-array>
 </resources>

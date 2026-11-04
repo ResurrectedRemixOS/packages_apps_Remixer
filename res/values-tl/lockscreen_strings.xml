@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lockscreen_battery_info_title">Impormasyon sa pag-charge</string>
+    <string name="lockscreen_battery_info_summary">Ipakita ang kasalukuyang, watts, boltahe at temperatura ng baterya habang nagcha-charge</string>
+    <string name="charging_ring_title">Animation ng SuperVOOC charging</string>
+    <string name="charging_ring_summary">Ipakita ang charging ring at bilis kapag nagsaksak ka</string>
+    <string name="pocket_mode_title">Pocket mode</string>
+    <string name="pocket_mode_summary">Habang natatakpan ang proximity sensor, hindi mag-o-on ang screen at hindi papansinin ang mga touch</string>
+    <string name="screen_on_time_title">Oras ng screen na naka-on</string>
+    <string name="screen_on_time_summary">Ipakita sa lock screen habang nagcha-charge at sa tile ng Battery Saver ang oras ng screen na naka-on mula sa huling buong charge</string>
+</resources>

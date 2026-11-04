@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Palaišanas animācija</string>
+    <string name="boot_animation_note">Tiks atskaņots nākamreiz, kad tālrunis tiks palaists.</string>
+    <string name="boot_animation_custom">Jūsu fails</string>
+    <string name="boot_animation_custom_pick">Izvēlēties failu…</string>
+    <string name="boot_animation_custom_invalid">Šis fails nav sāknēšanas animācija</string>
+    <string name="boot_animation_failed">Nevarēja mainīt sāknēšanas animāciju</string>
+</resources>

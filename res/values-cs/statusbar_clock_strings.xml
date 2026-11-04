@@ -3,4 +3,34 @@
     <string name="sb_clock_date_title">"Datum"</string>
     <string name="sb_weather_category">Počasí</string>
     <string name="sb_weather_position_title">Pozice</string>
+    <string name="sb_clock_category">Hodiny a datum</string>
+    <string name="sb_clock_bold_title">Tučné hodiny</string>
+    <string name="sb_clock_bold_summary">Zobrazit hodiny ve stavovém řádku tučně</string>
+    <string name="sb_clock_period_separator_title">Oddělovač času</string>
+    <string name="sb_clock_period_separator_summary">10.45 místo 10:45</string>
+    <string name="sb_clock_date_position_title">Poloha data</string>
+    <string name="sb_clock_date_style_title">Velikost písmen data</string>
+    <string name="sb_clock_date_format_title">Formát data</string>
+    <string name="sb_clock_chip_category">Pozadí hodin</string>
+    <string name="sb_clock_chip_title">Styl pozadí</string>
+    <string name="sb_clock_chip_start_title">Začátek přechodu</string>
+    <string name="sb_clock_chip_end_title">Konec přechodu</string>
+    <string name="sb_clock_chip_angle_title">Úhel přechodu</string>
+    <string name="sb_clock_chip_mask_title">Vystřihnout čas z přechodu</string>
+    <string name="sb_clock_chip_mask_summary">Přechod se zobrazuje přes číslice namísto za nimi</string>
+    <string name="sb_weather_title">Počasí ve stavovém řádku</string>
+    <string name="status_bar_clock_rr_style_title">Vzhled hodin</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Výchozí"</item>
+        <item>Neon</item>
+        <item>Rozdělené</item>
+        <item>Znak RR</item>
+        <item>Neproporcionální</item>
+        <item>Pulz</item>
+        <item>Pod sebou</item>
+        <item>Žhavý</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Linka Flatline vedle času</string>
+    <string name="sb_clock_flatline_summary">Srdeční linka RR uvnitř čipu: tepe s hudbou, při oznámení vystřelí</string>
 </resources>

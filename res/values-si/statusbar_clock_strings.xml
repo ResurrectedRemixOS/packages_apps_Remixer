@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"දිනය"</string>
     <string name="sb_weather_category">"කාලගුණය"</string>
+    <string name="sb_clock_category">ඔරලෝසුව සහ දිනය</string>
+    <string name="sb_clock_bold_title">තද ඔරලෝසුව</string>
+    <string name="sb_clock_bold_summary">තත්ත්ව තීරුවේ ඔරලෝසුව තද අකුරින් පෙන්වන්න</string>
+    <string name="sb_clock_period_separator_title">කාල වෙන්කරු</string>
+    <string name="sb_clock_period_separator_summary">10:45 වෙනුවට 10.45</string>
+    <string name="sb_clock_date_position_title">දින පිහිටීම</string>
+    <string name="sb_clock_date_style_title">දින අකුරු ආකෘතිය</string>
+    <string name="sb_clock_date_format_title">දින ආකෘතිය</string>
+    <string name="sb_clock_chip_category">ඔරලෝසු පසුබිම</string>
+    <string name="sb_clock_chip_title">පසුබිම් ශෛලිය</string>
+    <string name="sb_clock_chip_start_title">අනුක්‍රමණ ආරම්භය</string>
+    <string name="sb_clock_chip_end_title">අනුක්‍රමණ අවසානය</string>
+    <string name="sb_clock_chip_angle_title">අනුක්‍රමණ කෝණය</string>
+    <string name="sb_clock_chip_mask_title">අනුක්‍රමණයෙන් වේලාව කපා දමන්න</string>
+    <string name="sb_clock_chip_mask_summary">අනුක්‍රමණය පසුබිමට වඩා ඉලක්කම් හරහා පෙනේ</string>
+    <string name="sb_weather_title">තත්ත්ව තීරුවේ කාලගුණය</string>
+    <string name="sb_weather_position_title">පිහිටීම</string>
+    <string name="status_bar_clock_rr_style_title">ඔරලෝසුවේ පෙනුම</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"පෙරනිමි"</item>
+        <item>නියොන්</item>
+        <item>බෙදූ</item>
+        <item>RR ලකුණ</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>ගොඩගැසූ</item>
+        <item>ජ්වලිත අඟුරු</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">වේලාව ළඟ Flatline</string>
+    <string name="sb_clock_flatline_summary">චිප් එක ඇතුළේ RR හි හෘදයස්පන්දන රේඛාව: සංගීතයට ගැසේ, දැනුම්දීමක් ලැබෙන විට උච්චයට යයි</string>
 </resources>

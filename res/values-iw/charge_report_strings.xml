@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"סוללה"</string>
     <string name="charge_report_temp">"טמפרטורה"</string>
     <string name="charge_report_time">"שעה"</string>
+    <string name="charge_report_title">דוחות טעינה</string>
+    <string name="charge_report_summary">סיכום של כל טעינה כשמנתקים את המטען</string>
+    <string name="charge_report_min_title">רק אם נוספו לפחות</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 ימים</item>
+        <item>7 ימים</item>
+        <item>14 ימים</item>
+        <item>30 ימים</item>
+    </string-array>
+    <string name="charge_report_history_days"><xliff:g id="days" example="7">%1$d</xliff:g> הימים האחרונים</string>
+    <string name="charge_report_today">היום, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">אתמול, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> דק׳</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ש׳ <xliff:g id="minutes" example="02">%2$02d</xliff:g> דק׳</string>
+    <string name="charge_report_watts">וואט</string>
+    <string name="charge_report_added">נוספו</string>
+    <string name="charge_report_peak">שיא</string>
+    <string name="charge_report_average">ממוצע</string>
+    <string name="charge_report_max_temp">טמפרטורה מקסימלית</string>
+    <string name="charge_report_charger">מטען</string>
+    <string name="charge_report_started">התחיל ב</string>
+    <string name="charge_report_wired">חוטית</string>
+    <string name="charge_report_wireless">אלחוטית</string>
+    <string name="charge_report_dock">עגינה</string>
+    <string name="charge_report_empty">עדיין אין טעינות</string>
+    <string name="charge_report_footer">SystemUI קורא את הזרם, המתח והטמפרטורה של הסוללה כל 30 שניות בזמן חיבור למטען. הוואטים הם מה שהטלפון מודד, ולכן הם יכולים להיות שונים מהמספר שמודפס על המטען. הדוחות נשארים בטלפון; שום דבר לא מועלה.</string>
 </resources>

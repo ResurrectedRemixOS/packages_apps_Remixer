@@ -164,4 +164,20 @@
     <string name="user_selectable_app_spoofing_summary">特定应用和游戏的伪装设备属性</string>
     <string name="user_selectable_app_spoofing_title">应用和游戏伪装</string>
     <string name="ts_mode_skip">跳过</string>
+    <string name="pif_reset_advanced_message">要将所有高级伪装选项恢复为默认值吗?当前指纹将保留。</string>
+    <string name="pif_reset_advanced_summary">将上方每个开关恢复为默认值。指纹将保留。</string>
+    <string name="pif_reset_advanced_title">重置高级伪装</string>
+    <string name="pif_spoof_build_summary">向 DroidGuard 提供指纹的 Build 字段(型号、设备、指纹等)</string>
+    <string name="pif_spoof_build_title">伪装 Build 字段</string>
+    <string name="pif_spoof_props_summary">向 DroidGuard 提供指纹的 build ID、安全补丁、API 级别和产品标识</string>
+    <string name="pif_spoof_props_title">伪装系统属性</string>
+    <string name="pif_spoof_provider_summary">使 DroidGuard 的证书链请求失败。这会绕过 keybox 认证,因此使用 keybox 时请保持关闭</string>
+    <string name="pif_spoof_provider_title">伪装 keystore 提供程序</string>
+    <string name="pif_spoof_signature_summary">实验性功能。绕过 DroidGuard 对测试密钥 ROM 的禁用</string>
+    <string name="pif_spoof_signature_title">伪装 ROM 签名</string>
+    <string name="pif_vending_finger_custom_summary">自定义指纹:%1$s</string>
+    <string name="spoofing_app_specific_category">应用专属覆盖</string>
+    <string name="tensor_spoof_title">Tensor 功能目标</string>
+    <string name="ts_fetch_keybox_summary">下载官方 keybox</string>
+    <string name="ts_untrusted_root_message">此 keybox 的证书链根植于 Resurrected Remix 无法识别的机构。在某些设备上它仍可能通过 Strong Integrity 验证。保留已安装的 keybox,还是替换为官方 keybox?</string>
 </resources>

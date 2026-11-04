@@ -2,4 +2,18 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Коли"</string>
     <string name="nightstand_face">Циферблат</string>
+    <string name="nightstand_title">Нічний годинник</string>
+    <string name="nightstand_summary">Тьмяний годинник біля ліжка на екрані завжди увімкненому, поки телефон заряджається вночі</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Вимкнено"</item>
+        <item>Уночі на зарядці</item>
+        <item>Щоночі за розкладом</item>
+        <item>Поки ввімкнено режим сну</item>
+    </string-array>
+    <string name="nightstand_from">Ніч починається</string>
+    <string name="nightstand_to">Ніч закінчується</string>
+    <string name="nightstand_brightness">Обмеження яскравості</string>
+    <string name="nightstand_brightness_summary">Найвища яскравість екрана завжди увімкненого, коли ввімкнено нічний годинник</string>
+    <string name="nightstand_face_keep">Залишити поточний циферблат</string>
+    <string name="nightstand_footer">Нічний годинник вмикає екран завжди увімкненим на час роботи й повертає його назад після. Він завершується, коли відключають зарядку, спрацьовує будильник або закінчується ніч. Циферблат лише змінює між двома власними циферблатами; системний годинник залишається.</string>
 </resources>

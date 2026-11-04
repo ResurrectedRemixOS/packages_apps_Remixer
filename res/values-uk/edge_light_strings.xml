@@ -16,4 +16,26 @@
     <string name="edge_light_moment_battery_low">Батарея розряджена</string>
     <string name="edge_light_moment_unlock">"Розблоковано"</string>
     <string name="remixer_color_default">"За умовчанням"</string>
+    <string name="edge_light_title">Підсвічування країв</string>
+    <string name="edge_light_summary">Підсвічувати краї екрана для сповіщень, дзвінків, будильників та іншого</string>
+    <string name="edge_light_color_rainbow">Веселка</string>
+    <string name="edge_light_color_custom">Власний</string>
+    <string name="edge_light_style_default">Сторони</string>
+    <string name="edge_light_style_frame">Повна рамка</string>
+    <string name="edge_light_animation_effect_none">Стандартний</string>
+    <string name="edge_light_animation_effect_breathing">Дихання</string>
+    <string name="edge_light_animation_effect_wave">Хвиля</string>
+    <string name="edge_light_animation_effect_sparkle">Іскристий</string>
+    <string name="edge_light_pulse_count_title">Пульсація</string>
+    <string name="edge_light_pulse_count_summary">Скільки разів спалахують краї</string>
+    <string name="edge_light_stroke_width_title">Товщина</string>
+    <string name="edge_light_stroke_width_summary">Ширина світла в dp</string>
+    <string name="edge_light_spread_summary">Наскільки далеко сяйво проникає від краю</string>
+    <string name="edge_light_intensity_summary">Яскравість сяйва. 0 вимикає його</string>
+    <string name="edge_light_moments_title">Моменти</string>
+    <string name="edge_light_moment_alarms">Будильник і таймер</string>
+    <string name="edge_light_moment_plugged">Підключено до живлення</string>
+    <string name="edge_light_moment_color">Змінити колір</string>
+    <string name="edge_light_moments_footer">Торкніться крапки моменту, щоб змінити його колір. Дзвінки й будильники спалахують під час дзвону, навіть у беззвучному режимі. Інші моменти не відтворюються в режимі «Не турбувати».</string>
+    <string name="edge_light_look_title">Образ</string>
 </resources>

@@ -10,4 +10,24 @@
     <string name="rr_about_this_phone">"Ovaj telefon"</string>
     <string name="rr_about_network">"Mreža"</string>
     <string name="rr_about_hidden">"Sakriven"</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Zvanično</string>
+    <string name="rr_about_unofficial">Nezvanično</string>
+    <string name="rr_about_vanilla">Vanilla</string>
+    <string name="rr_about_hardware">Hardver</string>
+    <string name="rr_about_processor">Procesor</string>
+    <string name="rr_about_processor_sub">%1$d jezgara · do %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d jezgara</string>
+    <string name="rr_about_storage_used">%1$s iskorišteno</string>
+    <string name="rr_about_display">Ekran</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · Punjenje</string>
+    <string name="rr_about_kernel_linux">Linux kernel</string>
+    <string name="rr_about_software_purpose">Verzija Androida, sigurnosno ažuriranje, datum izrade i broj verzije</string>
+    <string name="rr_about_security_patch">Sigurnosno ažuriranje</string>
+    <string name="rr_about_build_date">Datum izrade</string>
+    <string name="rr_about_maintainer">Održavalac</string>
+    <string name="rr_about_show">Prikaži</string>
+    <string name="rr_about_hide">Sakrij</string>
 </resources>

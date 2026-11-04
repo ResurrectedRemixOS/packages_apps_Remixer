@@ -12,4 +12,42 @@
     <string name="backup_group_gestures">الإيماءت</string>
     <string name="backup_group_other">"غير ذلك"</string>
     <string name="backup_done">"تم"</string>
+    <string name="backup_summary">كل تخصيصات RR في ملف واحد</string>
+    <string name="backup_now">النسخ الاحتياطي الآن</string>
+    <string name="backup_never">آخر نسخة احتياطية: لا يوجد</string>
+    <string name="backup_last">آخر نسخة احتياطية: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">الاستعادة من ملف</string>
+    <string name="backup_restore_summary">اختر ملف النسخ الاحتياطي</string>
+    <string name="backup_included">المتضمَّن</string>
+    <string name="backup_part_theme">لون التمييز والخط والأيقونات</string>
+    <string name="backup_part_header">صورة الترويسة</string>
+    <string name="backup_part_photo">صورة الرأس (صورتك)</string>
+    <string name="backup_part_photo_summary">يزيد حجم الملف</string>
+    <string name="backup_part_looks">أنماطك</string>
+    <string name="backup_weekly">نسخ احتياطي أسبوعي</string>
+    <string name="backup_weekly_summary">إلى مجلد تختاره</string>
+    <string name="backup_weekly_on">كل أسبوع إلى <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">اقتراح نسخ احتياطي قبل التحديثات</string>
+    <string name="backup_offer_summary">يسأل المحدِّث قبل التثبيت</string>
+    <string name="backup_sets">يضبط <xliff:g id="count" example="64">%1$d</xliff:g> إعدادًا</string>
+    <string name="backup_saved">تم حفظ <xliff:g id="count" example="64">%1$d</xliff:g> إعدادًا</string>
+    <string name="backup_restored">تمت استعادة <xliff:g id="count" example="64">%1$d</xliff:g> إعدادًا</string>
+    <string name="backup_restored_message">يُعاد تشغيل SystemUI لتطبيقها.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> إعدادًا غير موجود في هذا البناء وتم تخطيه.</string>
+    <string name="backup_failed">تعذّر حفظ النسخة الاحتياطية</string>
+    <string name="backup_invalid">هذا الملف ليس نسخة احتياطية من Resurrected Remix</string>
+    <string name="backup_footer">تُحفظ في الملف إعدادات RR فقط: لا حسابات ولا كلمات مرور ولا شبكات Wi-Fi ولا تطبيقات ولا رسائل. تكتب الاستعادة الإعدادات الواردة في قائمة RR فقط، فلا يمكن لملف النسخ تغيير أي شيء آخر في الهاتف. تُدرج صورة الرأس فقط إذا كان مفتاحها مفعّلًا، لأنها تزيد حجم الملف.</string>
+    <string name="volume_style_title">نمط لوحة الصوت</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>نيون</item>
+        <item>زجاجي</item>
+        <item>الشريط</item>
+        <item>RR الكلاسيكي</item>
+        <item>Bento</item>
+        <item>أشكال</item>
+        <item>مخطط</item>
+        <item>ثنائي</item>
+        <item>ناعم</item>
+    </string-array>
 </resources>

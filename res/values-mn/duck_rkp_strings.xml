@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Төхөөрөмжийн RKP ашиглах</string>
+    <string name="ts_rkp_enabled_summary">Үүсгэсэн keybox ашиглах. Keybox импортлоход энэ унтарна.</string>
+    <string name="ts_rkp_provision">Keybox үүсгэх</string>
+    <string name="ts_rkp_provision_summary">Энэ төхөөрөмжийн provisioning үйлчилгээгээр Google-ээс keybox хүсэх. Тохирох Qualcomm firmware шаардлагатай.</string>
+    <string name="ts_rkp_status">Provisioning статус</string>
+    <string name="ts_rkp_owner_only">Төхөөрөмжийн RKP-г эзэмшигчийн профайлаас удирдах</string>
+    <string name="ts_rkp_unavailable">Төхөөрөмжийн RKP боломжгүй</string>
+    <string name="ts_rkp_imported">Импортлосон keybox суулгагдсан үед идэвхгүй</string>
+    <string name="ts_rkp_disabled">Унтраасан. Keybox ашиглах эсвэл үүсгэхийн тулд төхөөрөмжийн RKP-г идэвхжүүлнэ үү.</string>
+    <string name="ts_rkp_idle">Keybox хүсэхэд бэлэн</string>
+    <string name="ts_rkp_fetching">Provisioning challenge авч байна…</string>
+    <string name="ts_rkp_hardware">Төхөөрөмжийн provisioning үйлчилгээг хүлээж байна…</string>
+    <string name="ts_rkp_signing">Google-ээс гэрчилгээ хүсэж байна…</string>
+    <string name="ts_rkp_validating">Keybox-ыг баталгаажуулж хадгалж байна…</string>
+    <string name="ts_rkp_ready">Үүсгэсэн keybox идэвхтэй. %1$s-ээс өмнө автоматаар шинэчлэгдэнэ</string>
+    <string name="ts_rkp_keybox_stored">Төхөөрөмжийн RKP keybox хадгалагдсан</string>
+    <string name="ts_rkp_expired">Үүсгэсэн keybox дууссан. Шинийг үүсгэнэ үү.</string>
+    <string name="ts_rkp_hal_rejected">Firmware хүсэлтийг татгалзлаа (код %1$d). Duck V1 дэмжигдэхгүй байж магадгүй.</string>
+    <string name="ts_rkp_http_error">Provisioning сервер хүсэлтийг татгалзлаа (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Төхөөрөмж тохирох V1 provisioning интерфэйсийг ил гаргаагүй байна</string>
+    <string name="ts_rkp_network_error">Provisioning сервертэй холбогдож чадсангүй. Интернет холболтоо шалгана уу.</string>
+    <string name="ts_rkp_submission_unknown">Серверийн хариу алдагдсан. Хүсэлт боловсруулагдсан байж магадгүй; автоматаар дахин оролдоогүй.</string>
+    <string name="ts_rkp_invalid_chain">Keybox-ийн гэрчилгээ баталгаажуулалтад амжилтгүй. Одоо байгаа keybox хэвээр үлдлээ.</string>
+    <string name="ts_rkp_timeout">Provisioning хугацаа хэтэрлээ. Төхөөрөмжийн үйлчилгээ завгүй хэвээр байвал дахин оролдохоосоо өмнө төхөөрөмжөө дахин асаана уу.</string>
+    <string name="ts_rkp_canceled">Keybox-ийн тохиргоо өөрчлөгдсөн тул хүсэлтийг цуцаллаа</string>
+    <string name="ts_rkp_save_failed">Үүсгэсэн keybox-ыг хадгалж чадсангүй</string>
+    <string name="ts_rkp_action_failed">Keybox-ийн үйлдлийг дуусгаж чадсангүй</string>
+</resources>

@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"ವಿವರಗಳು"</string>
     <string name="lockscreen_weather_location_title">"ಸ್ಥಳ"</string>
+    <string name="lockscreen_weather_title">ಲಾಕ್ ಪರದೆಯಲ್ಲಿ ಹವಾಮಾನ</string>
+    <string name="lockscreen_weather_location_summary">ನಗರದ ಹೆಸರನ್ನು ತೋರಿಸಿ</string>
+    <string name="lockscreen_weather_text_title">ಸ್ಥಿತಿ</string>
+    <string name="lockscreen_weather_text_summary">ಮೋಡ ಅಥವಾ ಸ್ಪಷ್ಟ ಆಕಾಶದಂತಹ ಸ್ಥಿತಿಯನ್ನು ತೋರಿಸಿ</string>
+    <string name="lockscreen_weather_wind_title">ಗಾಳಿ</string>
+    <string name="lockscreen_weather_wind_summary">ಗಾಳಿಯ ವೇಗ ಮತ್ತು ದಿಕ್ಕನ್ನು ತೋರಿಸಿ</string>
+    <string name="lockscreen_weather_humidity_title">ಆರ್ದ್ರತೆ</string>
+    <string name="lockscreen_weather_humidity_summary">ಆರ್ದ್ರತೆಯನ್ನು ತೋರಿಸಿ</string>
+    <string name="custom_clock_weather_title">ಗಡಿಯಾರ ಮುಖಗಳಲ್ಲಿ ಹವಾಮಾನ</string>
+    <string name="custom_clock_weather_summary">ಸ್ಥಳವಿರುವ ಗಡಿಯಾರ ಮುಖಗಳಲ್ಲಿ ಹವಾಮಾನವನ್ನು ತೋರಿಸಿ</string>
+    <string name="remixer_weather_service">ಹವಾಮಾನ ಸೇವೆ</string>
+    <string name="remixer_weather_page_summary">ಲಾಕ್ ಪರದೆಯ ಹವಾಮಾನ ಮತ್ತು ಅದು ತೋರಿಸುವುದು</string>
 </resources>

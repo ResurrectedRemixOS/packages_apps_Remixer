@@ -8,4 +8,50 @@
         <item>"Ertaina"</item>
         <item>"Handia"</item>
     </string-array>
+    <string name="pie_title">Pie kontrolak</string>
+    <string name="pie_summary">Mantendu ertzaren beheko zatia pie lasterbide-multzo bat irekitzeko</string>
+    <string name="pie_zone">Ertzaren zatia</string>
+    <string name="pie_clock">Erlojua eta bateria gainean</string>
+    <string name="pie_items">Xerkak</string>
+    <string-array name="pie_items_entries">
+        <item>"Atzera"</item>
+        <item>Hasiera</item>
+        <item>"Azkenaldikoak"</item>
+        <item>"Jakinarazpenak"</item>
+        <item>Linterna</item>
+        <item>"Pantaila-argazkia"</item>
+        <item>"Itzaltzeko menua"</item>
+        <item>"Laguntzailea"</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Laurdeneko segundo bat eutsi behar da mugitu gabe, beraz ertzetik azkar pasatzeak atzera egiten du oraindik. Ez da irekitzen desblokeo-pantailan.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Ezkerrekoa"</item>
+        <item>"Eskuinekoa"</item>
+        <item>Biak</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Beheko hirugarrena</item>
+        <item>Erdia</item>
+        <item>Ertz osoa</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neoia</item>
+        <item>Kristala</item>
+        <item>Klasikoa</item>
+    </string-array>
+    <string name="sidebar_style_title">Aplikazio-albokoaren itxura</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klasikoa</item>
+        <item>RR kristala</item>
+        <item>Neoia</item>
+    </string-array>
+    <string name="sidebar_settings_title">Aplikazio-albokoa</string>
+    <string name="sidebar_settings_summary">Irristatu heldulekutik zure aplikazioak eta tresnak ikusteko</string>
+    <string name="sidebar_apps_title">Aplikazioak, heldulekua eta arbela</string>
+    <string name="sidebar_apps_summary">Aktibatu heldulekua, aukeratu aplikazioak eta konfiguratu arbela adimenduna</string>
+    <string name="sidebar_handle_size_title">Heldulekuaren tamaina</string>
+    <string name="sidebar_tools_title">Tresna-errenkada</string>
+    <string name="sidebar_tools_summary">Pantaila-argazkia eta linterna zure aplikazioen azpian</string>
+    <string name="sidebar_footer">Heldulekua zure azentuko lerro mehea da; arrastatu ertzean zehar mugitzeko. Keinu bidezko nabigazioarekin ertzaren bere zatia baino ez du hartzen, eta atzera joateak beste leku guztietan funtzionatzen du.</string>
 </resources>

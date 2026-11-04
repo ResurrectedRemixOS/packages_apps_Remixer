@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">تایمر</string>
     <string name="quick_launch_undo">"واگرد"</string>
     <string name="quick_launch_off">"خاموش"</string>
+    <string name="quick_launch_title">میان‌بر سریع</string>
+    <string name="quick_launch_main">میان‌بر سریع اثر انگشت</string>
+    <string name="quick_launch_main_summary">پس از باز کردن قفل، انگشت را روی حسگر نگه دارید تا یک میان‌بر باز شود</string>
+    <string name="quick_launch_hint">برای تغییر میان‌بر ضربه بزنید، برای حذف نگه دارید، یا برای چیدن دوباره بکشید.</string>
+    <string name="quick_launch_behavior">رفتار</string>
+    <string name="quick_launch_hold">مدت نگه داشتن</string>
+    <string name="quick_launch_haptics">ارتعاش برای هر میان‌بر</string>
+    <string name="quick_launch_add">افزودن</string>
+    <string name="quick_launch_video">ویدیو</string>
+    <string name="quick_launch_qr">اسکن کد QR</string>
+    <string name="quick_launch_app">برنامه…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> حذف شد</string>
 </resources>

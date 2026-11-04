@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">מקשים</string>
     <string name="now_bar_text">טקסט</string>
     <string name="now_bar_text_size">"גודל טקסט"</string>
+    <string name="now_bar_summary">פעילויות חיות בתחתית מסך הנעילה</string>
+    <string name="now_bar_show">הצג</string>
+    <string name="now_bar_music">מוזיקה וסרטונים</string>
+    <string name="now_bar_timers">טיימרים, שעון עצר ותוכניות מעורר</string>
+    <string name="now_bar_hide_call">הסתרת התראת השיחה</string>
+    <string name="now_bar_hide_call_summary">במסך הנעילה, שיחה בסרגל Now Bar לא תופיע גם כהתראה</string>
+    <string name="now_bar_live">עדכונים חיים</string>
+    <string name="now_bar_live_summary">ניווט, נסיעות, משלוחים, תוצאות משחקים</string>
+    <string name="now_bar_scores">תוצאות חיות</string>
+    <string name="now_bar_live_apps">אפליקציות לעדכונים חיים</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> אפליקציות</string>
+    <string name="now_bar_pin">מוצמדים לתצוגה תמיד פעילה</string>
+    <string name="now_bar_unpin_question">לבטל את ההצמדה של <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">ביטול הצמדה</string>
+    <string name="now_bar_scores_summary">משחקים שאתם עוקבים אחריהם ב-At a Glance</string>
+    <string name="now_bar_recording">הקלטת מסך וקול</string>
+    <string name="now_bar_buds">אוזניות ושעונים</string>
+    <string name="now_bar_buds_summary">סוללת מכשיר מחובר: שמאל, ימין והנרתיק של האוזניות</string>
+    <string name="now_bar_wave">אנימציית גל</string>
+    <string name="now_bar_aod">הצגה בתצוגה תמיד פעילה</string>
+    <string name="now_bar_chip">שבב בשורת הסטטוס</string>
+    <string name="now_bar_chip_summary">הצגת מוזיקה וטיימרים לצד השעון בזמן שהמכשיר פתוח</string>
+    <string name="now_bar_footer">כשיש מוזיקה ב-Now Bar, נגן המוזיקה הגדול במסך הנעילה מוסתר. החליקו את הסרגל כדי לעבור בין הפעילויות, הקישו עליו כדי לפתוח את הפקדים, והחזיקו לחוץ כדי להסתיר פעילות עד לסיומה. החליקו שיר מושהה מחוץ לסרגל כדי לנקות אותו.\n\nתוצאות חיות מציגות משחקים של הקבוצות שאתם עוקבים אחריהן באפליקציית Google. עם Smartspacer, הוסיפו שם יעד ספורט והתוצאות יופיעו כאן.</string>
+    <string name="now_bar_looks">תבניות</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"ברירת מחדל"</item>
+        <item>Liquid Glass</item>
+        <item>מיני</item>
+        <item>גדול</item>
+        <item>ניאון</item>
+        <item>כרטיס זכוכית</item>
+    </string-array>
+    <string name="now_bar_material">חומר</string>
+    <string name="now_bar_material_summary">Liquid Glass משתמש בזכוכית שבחרתם ב-Theme</string>
+    <string-array name="now_bar_material_entries">
+        <item>מלא</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>עטיפת אלבום</item>
+        <item>הדגשה</item>
+        <item>כהה</item>
+    </string-array>
+    <string name="now_bar_opacity">אטימות</string>
+    <string name="now_bar_opacity_summary">עם Liquid Glass, כמה צבע צובע את הזכוכית</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"ללא"</item>
+        <item>דק</item>
+        <item>הדגשה</item>
+    </string-array>
+    <string name="now_bar_shadow">צל</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"כבוי"</item>
+        <item>רך</item>
+        <item>זוהר</item>
+    </string-array>
+    <string name="now_bar_more">פעילויות נוספות</string>
+    <string-array name="now_bar_more_entries">
+        <item>פשוט החליקו</item>
+        <item>נקודות</item>
+        <item>הצצה מאחור</item>
+    </string-array>
+    <string name="now_bar_size">גודל וצורה</string>
+    <string name="now_bar_height">גובה</string>
+    <string name="now_bar_width_summary">במצב מלא, הקיצורים מוצגים מעל הסרגל</string>
+    <string-array name="now_bar_width_entries">
+        <item>צר</item>
+        <item>בין הקיצורים</item>
+        <item>מלא</item>
+    </string-array>
+    <string name="now_bar_corners">פינות</string>
+    <string name="now_bar_raise">הרמה</string>
+    <string name="now_bar_art">עטיפת אלבום</string>
+    <string-array name="now_bar_art_entries">
+        <item>"מעגל"</item>
+        <item>מעוגל</item>
+        <item>"ריבוע"</item>
+        <item>"כבוי"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>דילוג והפעלה</item>
+        <item>הפעלה בלבד</item>
+        <item>"ללא"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>שורה אחת</item>
+        <item>שתי שורות</item>
+        <item>שיר בלבד</item>
+    </string-array>
+    <string name="now_bar_show_page">מה מוצג בסרגל</string>
+    <string name="now_bar_show_page_summary">מוזיקה וסרטונים, טיימרים, שיחות ועוד</string>
+    <string name="now_bar_where">מקומות נוספים</string>
 </resources>

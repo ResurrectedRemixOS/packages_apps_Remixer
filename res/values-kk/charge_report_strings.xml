@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Батарея"</string>
     <string name="charge_report_temp">"Температура"</string>
     <string name="charge_report_time">"Уақыт"</string>
+    <string name="charge_report_title">Зарядтау есептері</string>
+    <string name="charge_report_summary">Ажыратқан сайын әр зарядтың қысқаша мәліметі</string>
+    <string name="charge_report_min_title">Тек егер кемінде қосса</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 күн</item>
+        <item>7 күн</item>
+        <item>14 күн</item>
+        <item>30 күн</item>
+    </string-array>
+    <string name="charge_report_history_days">Соңғы <xliff:g id="days" example="7">%1$d</xliff:g> күн</string>
+    <string name="charge_report_today">Бүгін, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Кеше, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> мин</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> сағ <xliff:g id="minutes" example="02">%2$02d</xliff:g> мин</string>
+    <string name="charge_report_watts">Ватт</string>
+    <string name="charge_report_added">Қосылған</string>
+    <string name="charge_report_peak">Ең жоғары</string>
+    <string name="charge_report_average">Орташа</string>
+    <string name="charge_report_max_temp">Ең жоғары температура</string>
+    <string name="charge_report_charger">Зарядтағыш</string>
+    <string name="charge_report_started">Басталу уақыты</string>
+    <string name="charge_report_wired">Сымды</string>
+    <string name="charge_report_wireless">Сымсыз</string>
+    <string name="charge_report_dock">Док</string>
+    <string name="charge_report_empty">Әзірге зарядтау жоқ</string>
+    <string name="charge_report_footer">SystemUI зарядталып тұрғанда батареяның ағымдағы күшін, кернеуін және температурасын әр 30 секунд сайын оқиды. Ваттар телефон өлшейтін мән, сондықтан зарядтағыштағы санмен сәйкес келмеуі мүмкін. Есептер телефонда сақталады; жүктеп салынбайды.</string>
 </resources>

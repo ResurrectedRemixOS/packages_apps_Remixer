@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Цаг хэмжигч</string>
     <string name="quick_launch_undo">"Болих"</string>
     <string name="quick_launch_off">"Унтраалттай"</string>
+    <string name="quick_launch_title">Хурдан нээлт</string>
+    <string name="quick_launch_main">Хурууны хээний хурдан нээлт</string>
+    <string name="quick_launch_main_summary">Түгжээг тайлсны дараа хурууных мэдрэгчинд дараад товчлол нээнэ</string>
+    <string name="quick_launch_hint">Товчлолыг товшвол өөрчилнө, удаан дарвал устгана, чирвэл дахин эрэмбэлнэ.</string>
+    <string name="quick_launch_behavior">Үйлдэл</string>
+    <string name="quick_launch_hold">Дарах хугацаа</string>
+    <string name="quick_launch_haptics">Товчлол бүрт чичрэх</string>
+    <string name="quick_launch_add">Нэмэх</string>
+    <string name="quick_launch_video">Видео</string>
+    <string name="quick_launch_qr">QR уншуулах</string>
+    <string name="quick_launch_app">Апп…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> устгагдсан</string>
 </resources>

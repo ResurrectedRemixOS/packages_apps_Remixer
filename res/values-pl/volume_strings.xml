@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Panel głośności</string>
+    <string name="volume_page_summary">Neon, Szkło, Pigułka lub Klasyczny RR</string>
+    <string name="volume_behavior">Zachowanie</string>
+    <string name="volume_on_left_title">Panel po lewej</string>
+    <string name="volume_on_left_summary">Klasyczny RR zawsze znajduje się na górze</string>
+    <string name="volume_ringer_title">Przycisk trybu dzwonka</string>
+    <string name="volume_tick_title">Sygnalizuj przy przesuwaniu</string>
+    <string name="volume_percent_title">Pokazuj poziom w procentach</string>
+    <string name="volume_timeout_title">Ukryj po</string>
+    <string name="volume_footer">Wygląd zmienia tylko wygląd panelu, nie jego działanie. Android zachowuje standardowy panel. Dotknij kropek, aby zobaczyć wszystkie strumienie; rozwinięty panel używa tego samego wyglądu.</string>
 </resources>

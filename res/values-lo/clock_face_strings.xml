@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"ຄ່າເລີ່ມຕົ້ນ"</string>
     <string name="clock_faces_size">"ຂະໜາດ"</string>
     <string name="clock_faces_restart">"ຣີສະຕາດ"</string>
+    <string name="remixer_clock_faces">ຮູບແບບໂມງ</string>
+    <string name="clock_faces_system">ໂມງລະບົບ</string>
+    <string name="clock_faces_system_desc">ໂມງຈາກ ຮູບພື້ນຫຼັງ ແລະ ຮູບແບບ</string>
+    <string name="clock_faces_position">%1$d ຈາກ %2$d</string>
+    <string name="clock_faces_applied">ນຳໃຊ້ແລ້ວ</string>
+    <string name="clock_faces_preview_unavailable">ບໍ່ສາມາດສະແດງຕົວຢ່າງໄດ້</string>
+    <string name="clock_faces_failed">ບໍ່ສາມາດປ່ຽນໂມງໄດ້</string>
+    <string name="clock_faces_color_accent">ສີເນັ້ນ</string>
+    <string name="clock_faces_color_custom">ກຳນົດເອງ</string>
+    <string name="clock_faces_color_album">ປົກອະລະບ້ຳ</string>
+    <string name="clock_faces_color_gradient">ໄລ່ລະດັບສີ</string>
+    <string name="clock_faces_own_colors">ຮູບແບບນີ້ມີສີຂອງຕົນເອງ.</string>
+    <string name="clock_faces_album_hint">ໃຊ້ສີຈາກປົກອະລະບ້ຳໃນຂະນະທີ່ເພງກຳລັງຫຼິ້ນ.</string>
+    <string name="clock_faces_size_position">ຂະໜາດ ແລະ ຕຳແໜ່ງ</string>
+    <string name="clock_faces_size_value">ຂະໜາດ · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">ໄລຍະຈາກເທິງ</string>
+    <string name="clock_faces_top_value">ໄລຍະຈາກເທິງ · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">ຕຳແໜ່ງແນວນອນ</string>
+    <string name="clock_faces_horizontal_center">ຕຳແໜ່ງແນວນອນ · ກາງ</string>
+    <string name="clock_faces_horizontal_right">ຕຳແໜ່ງແນວນອນ · ຂວາ <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_left">ຕຳແໜ່ງແນວນອນ · ຊ້າຍ <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_fixed">ຮູບແບບນີ້ຢູ່ກາງສະເໝີ.</string>
+    <string name="clock_faces_opacity">ຄວາມໂປ່ງໃສ</string>
+    <string name="clock_faces_opacity_value">ຄວາມໂປ່ງໃສ · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">ການເຄື່ອນໄຫວ</string>
+    <string name="clock_faces_wobble">ແກວ່ງເມື່ອສາກ</string>
+    <string name="clock_faces_wobble_summary">ເດັ້ງໜຶ່ງຄັ້ງເມື່ອສຽບສາຍ</string>
+    <string name="clock_faces_aod_anim">ການປ່ຽນແປງໜ້າຈໍສະແດງຜົນຕະຫຼອດເວລາ</string>
+    <string name="clock_faces_aod_anim_summary">ຫຍໍ້ ແລະ ຈາງໂມງເຂົ້າໄປໃນໜ້າຈໍສະແດງຜົນຕະຫຼອດເວລາ</string>
+    <string name="clock_faces_restart_title">ເລີ່ມໜ້າຈໍລັອກໃໝ່ບໍ?</string>
+    <string name="clock_faces_restart_message">ການສະຫຼັບລະຫວ່າງໂມງລະບົບ ແລະ ຮູບແບບໂມງກຳນົດເອງຈະເລີ່ມ SystemUI ໃໝ່. ໜ້າຈໍຈະມືດໄປໜຶ່ງວິນາທີ.</string>
+    <string name="clock_faces_note">ຕົວຢ່າງຖືກວາດໂດຍ SystemUI ເທິງຮູບພື້ນຫຼັງໜ້າຈໍລັອກຂອງທ່ານ. ສີ, ຂະໜາດ ແລະ ຕຳແໜ່ງຈະປ່ຽນໜ້າຈໍລັອກທັນທີ.</string>
 </resources>

@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Standaard"</string>
     <string name="clock_faces_size">"Grootte"</string>
     <string name="clock_faces_restart">"Opnieuw opstarten"</string>
+    <string name="remixer_clock_faces">Klokstijlen</string>
+    <string name="clock_faces_system">Systeemklok</string>
+    <string name="clock_faces_system_desc">De klok uit Achtergrond en stijl</string>
+    <string name="clock_faces_position">%1$d van %2$d</string>
+    <string name="clock_faces_applied">Toegepast</string>
+    <string name="clock_faces_preview_unavailable">Voorbeeld niet beschikbaar</string>
+    <string name="clock_faces_failed">Klok kon niet worden gewijzigd</string>
+    <string name="clock_faces_color_accent">Accent</string>
+    <string name="clock_faces_color_custom">Aangepast</string>
+    <string name="clock_faces_color_album">Albumhoes</string>
+    <string name="clock_faces_color_gradient">Verloop</string>
+    <string name="clock_faces_own_colors">Deze stijl behoudt zijn eigen kleuren.</string>
+    <string name="clock_faces_album_hint">Neemt zijn kleur over van de albumhoes terwijl muziek speelt.</string>
+    <string name="clock_faces_size_position">Grootte en positie</string>
+    <string name="clock_faces_size_value">Grootte · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Afstand van boven</string>
+    <string name="clock_faces_top_value">Afstand van boven · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Horizontale positie</string>
+    <string name="clock_faces_horizontal_center">Horizontale positie · Midden</string>
+    <string name="clock_faces_horizontal_right">Horizontale positie · <xliff:g id="dp" example="24">%1$d</xliff:g> dp rechts</string>
+    <string name="clock_faces_horizontal_left">Horizontale positie · <xliff:g id="dp" example="24">%1$d</xliff:g> dp links</string>
+    <string name="clock_faces_horizontal_fixed">Deze stijl blijft gecentreerd.</string>
+    <string name="clock_faces_opacity">Dekking</string>
+    <string name="clock_faces_opacity_value">Dekking · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Beweging</string>
+    <string name="clock_faces_wobble">Wiebelen tijdens het opladen</string>
+    <string name="clock_faces_wobble_summary">Stuitert één keer wanneer je het toestel aansluit</string>
+    <string name="clock_faces_aod_anim">Overgang naar always-on display</string>
+    <string name="clock_faces_aod_anim_summary">Laat de klok krimpen en vervagen naar het always-on display</string>
+    <string name="clock_faces_restart_title">Vergrendelscherm opnieuw starten?</string>
+    <string name="clock_faces_restart_message">Wisselen tussen de systeemklok en aangepaste stijlen start SystemUI opnieuw. Het scherm wordt een seconde donker.</string>
+    <string name="clock_faces_note">Voorbeelden worden door SystemUI getekend op je achtergrond voor het vergrendelscherm. Kleur, grootte en positie passen het vergrendelscherm meteen aan.</string>
 </resources>

@@ -10,4 +10,24 @@
     <string name="rr_about_this_phone">"Այս հեռախոսը"</string>
     <string name="rr_about_network">"Ցանց"</string>
     <string name="rr_about_hidden">"Թաքցված"</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Պաշտոնական</string>
+    <string name="rr_about_unofficial">Ոչ պաշտոնական</string>
+    <string name="rr_about_vanilla">Vanilla</string>
+    <string name="rr_about_hardware">Սարքավորում</string>
+    <string name="rr_about_processor">Պրոցեսոր</string>
+    <string name="rr_about_processor_sub">%1$d միջուկ · մինչև %2$s ԳՀց</string>
+    <string name="rr_about_processor_cores">%1$d միջուկ</string>
+    <string name="rr_about_storage_used">Օգտագործված է %1$s</string>
+    <string name="rr_about_display">Էկրան</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Հց</string>
+    <string name="rr_about_battery_capacity">%1$s մԱ·ժ</string>
+    <string name="rr_about_battery_charging">%1$s · Լիցքավորում</string>
+    <string name="rr_about_kernel_linux">Linux միջուկ</string>
+    <string name="rr_about_software_purpose">Android տարբերակը, անվտանգության թարմացումը, կառուցման ամսաթիվը և համարը</string>
+    <string name="rr_about_security_patch">Անվտանգության թարմացում</string>
+    <string name="rr_about_build_date">Կառուցման ամսաթիվ</string>
+    <string name="rr_about_maintainer">Պահպանող</string>
+    <string name="rr_about_show">Ցույց տալ</string>
+    <string name="rr_about_hide">Թաքցնել</string>
 </resources>

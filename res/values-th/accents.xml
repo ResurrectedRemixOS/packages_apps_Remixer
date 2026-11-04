@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"วอลเปเปอร์"</item>
+        <item>Resurrected</item>
+        <item>Android One Green</item>
+        <item>Aospa Green</item>
+        <item>Coca Cola Red</item>
+        <item>Discord Purple</item>
+        <item>Facebook Blue</item>
+        <item>Instagram Cerise</item>
+        <item>Jollibee Crimson</item>
+        <item>Monster Energy Green</item>
+        <item>Nextbit Mint</item>
+        <item>Oneplus Red</item>
+        <item>Pepsi Blue</item>
+        <item>Pixel Blue</item>
+        <item>Pocophone Yellow</item>
+        <item>Razer Green</item>
+        <item>Samsung Blue</item>
+        <item>Spotify Green</item>
+        <item>Starbucks Green</item>
+        <item>Twitch Purple</item>
+        <item>Twitter Blue</item>
+        <item>Xiaomi Orange</item>
+        <item>อำพัน</item>
+        <item>"ดำ"</item>
+        <item>"น้ำเงิน"</item>
+        <item>เทาอมน้ำเงิน</item>
+        <item>น้ำตาล</item>
+        <item>"ฟ้า"</item>
+        <item>ส้มเข้ม</item>
+        <item>ม่วงเข้ม</item>
+        <item>"เขียว"</item>
+        <item>"เทา"</item>
+        <item>"น้ำเงินอมม่วง"</item>
+        <item>ฟ้าอ่อน</item>
+        <item>เขียวมะนาว</item>
+        <item>"ส้ม"</item>
+        <item>"ชมพู"</item>
+        <item>"ม่วง"</item>
+        <item>"แดง"</item>
+        <item>"น้ำเงินอมเขียว"</item>
+        <item>ผู้ใช้ที่ห้า</item>
+        <item>ผู้ใช้ที่สี่</item>
+        <item>ผู้ใช้ที่หนึ่ง</item>
+        <item>ผู้ใช้ที่เจ็ด</item>
+        <item>ผู้ใช้ที่หก</item>
+        <item>ผู้ใช้ที่สาม</item>
+        <item>ผู้ใช้ที่สอง</item>
+        <item>"ขาว"</item>
+        <item>"เหลือง"</item>
+    </string-array>
+</resources>

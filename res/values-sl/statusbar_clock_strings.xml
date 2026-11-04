@@ -6,4 +6,31 @@
     <string name="sb_clock_date_format_title">Oblika datuma</string>
     <string name="sb_weather_category">"Vreme"</string>
     <string name="sb_weather_position_title">Položaj</string>
+    <string name="sb_clock_bold_title">Krepka ura</string>
+    <string name="sb_clock_bold_summary">Uro v vrstici stanja prikaži krepko</string>
+    <string name="sb_clock_period_separator_title">Ločilo ure</string>
+    <string name="sb_clock_period_separator_summary">10.45 namesto 10:45</string>
+    <string name="sb_clock_date_style_title">Velikost črk datuma</string>
+    <string name="sb_clock_chip_category">Ozadje ure</string>
+    <string name="sb_clock_chip_title">Slog ozadja</string>
+    <string name="sb_clock_chip_start_title">Začetek preliva</string>
+    <string name="sb_clock_chip_end_title">Konec preliva</string>
+    <string name="sb_clock_chip_angle_title">Kot preliva</string>
+    <string name="sb_clock_chip_mask_title">Izreži čas iz preliva</string>
+    <string name="sb_clock_chip_mask_summary">Preliv se prikaže skozi števke namesto za njimi</string>
+    <string name="sb_weather_title">Vreme v vrstici stanja</string>
+    <string name="status_bar_clock_rr_style_title">Videz ure</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Privzeto"</item>
+        <item>Neon</item>
+        <item>Razdeljeno</item>
+        <item>Oznaka RR</item>
+        <item>Mono</item>
+        <item>Utrip</item>
+        <item>Zloženo</item>
+        <item>Žerjavica</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline poleg časa</string>
+    <string name="sb_clock_flatline_summary">Srčni utrip RR v čipu: utripa z glasbo, ob obvestilu se sunkovito dvigne</string>
 </resources>

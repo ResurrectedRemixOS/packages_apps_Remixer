@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Baterie"</string>
     <string name="battery_style_title">"Stil"</string>
+    <string-array name="battery_style_entries">
+        <item>Portret</item>
+        <item>"Cerc"</item>
+        <item>Cerc punctat</item>
+        <item>Inel neon</item>
+        <item>Bară subțire</item>
+        <item>Procent mare</item>
+        <item>Text</item>
+    </string-array>
+    <string name="battery_percent_title">Procent</string>
+    <string-array name="battery_percent_entries">
+        <item>Ascuns</item>
+        <item>În interiorul pictogramei</item>
+        <item>Lângă ea</item>
+    </string-array>
+    <string name="battery_ring_color_title">Culoarea inelului neon</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. După nivel înseamnă accentul peste 20%%, roșu sub acest prag și chihlimbariu în modul Economisire baterie.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>După nivel</item>
+        <item>Accent</item>
+        <item>"Alb"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Scânteie la încărcare</string>
+    <string name="battery_ring_tile_title">Același inel și pe cardul din Setări rapide</string>
+    <string name="battery_ring_tile_summary">Cu nivelul și timpul cu ecranul aprins</string>
 </resources>

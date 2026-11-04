@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Laikmatis</string>
     <string name="quick_launch_undo">"Anuliuoti"</string>
     <string name="quick_launch_off">"Išjungta"</string>
+    <string name="quick_launch_title">Greitas paleidimas</string>
+    <string name="quick_launch_main">Piršto atspaudo greitas paleidimas</string>
+    <string name="quick_launch_main_summary">Atrakinus laikykite pirštą ant jutiklio, kad atidarytumėte spartųjį klavišą</string>
+    <string name="quick_launch_hint">Palieskite spartųjį klavišą, kad jį pakeistumėte, palaikykite, kad pašalintumėte, arba vilkite, kad pertvarkytumėte.</string>
+    <string name="quick_launch_behavior">Elgsena</string>
+    <string name="quick_launch_hold">Laikymo trukmė</string>
+    <string name="quick_launch_haptics">Virpėti kiekvienam spartiajam klavišui</string>
+    <string name="quick_launch_add">Pridėti</string>
+    <string name="quick_launch_video">Vaizdas</string>
+    <string name="quick_launch_qr">Nuskaityti QR kodą</string>
+    <string name="quick_launch_app">Programa…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> pašalinta</string>
 </resources>

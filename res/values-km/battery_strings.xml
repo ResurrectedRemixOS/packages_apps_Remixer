@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"ថ្ម"</string>
     <string name="battery_style_title">"រចនាប័ទ្ម"</string>
+    <string-array name="battery_style_entries">
+        <item>បញ្ឈរ</item>
+        <item>"រង្វង់"</item>
+        <item>រង្វង់ចំណុច</item>
+        <item>រង្វង់នេអុង</item>
+        <item>ថ្នាំងស្តើង</item>
+        <item>ភាគរយធំ</item>
+        <item>"ផ្ញើសារជាអក្សរ"</item>
+    </string-array>
+    <string name="battery_percent_title">ភាគរយ</string>
+    <string-array name="battery_percent_entries">
+        <item>"បាន​លាក់"</item>
+        <item>នៅក្នុងរូបតំណាង</item>
+        <item>នៅជាប់នឹងវា</item>
+    </string-array>
+    <string name="battery_ring_color_title">ពណ៌រង្វង់នេអុង</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s។ តាមកម្រិតគឺពណ៌សំខាន់ខ្ពស់ជាង 20%%, ក្រហមទាបជាង និងលឿងនៅពេលសន្សំថាមពល។</string>
+    <string-array name="battery_ring_color_entries">
+        <item>តាមកម្រិត</item>
+        <item>ពណ៌សំខាន់</item>
+        <item>"ស"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">ភ្លឺពេលកំពុងសាក</string>
+    <string name="battery_ring_tile_title">រង្វង់ដូចគ្នានៅប្រអប់ការកំណត់រហ័ស</string>
+    <string name="battery_ring_tile_summary">ជាមួយកម្រិត និងរយៈពេលអេក្រង់បើក</string>
 </resources>

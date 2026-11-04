@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"ປຸ່ມ"</string>
     <string name="now_bar_text">"ສົ່ງຂໍ້ຄວາມ"</string>
     <string name="now_bar_text_size">"ຂະໜາດຕົວອັກສອນ"</string>
+    <string name="now_bar_summary">ກິດຈະກຳສົດຢູ່ດ້ານລຸ່ມໜ້າຈໍລັອກ</string>
+    <string name="now_bar_show">ສະແດງ</string>
+    <string name="now_bar_music">ເພງ ແລະ ວິດີໂອ</string>
+    <string name="now_bar_timers">ໂຕຈັບເວລາ, ໂຕຈັບເວລານັບ ແລະ ໂມງປຸກ</string>
+    <string name="now_bar_hide_call">ເຊື່ອງການແຈ້ງເຕືອນການໂທ</string>
+    <string name="now_bar_hide_call_summary">ເມື່ອຢູ່ໜ້າຈໍລັອກ ການໂທໃນ Now Bar ຈະບໍ່ຖືກລາຍຊື່ເປັນການແຈ້ງເຕືອນອີກ</string>
+    <string name="now_bar_live">ການອັບເດດສົດ</string>
+    <string name="now_bar_live_summary">ການນຳທາງ, ການເດີນທາງ, ການຈັດສົ່ງ, ຄະແນນ</string>
+    <string name="now_bar_scores">ຄະແນນສົດ</string>
+    <string name="now_bar_live_apps">ແອັບສຳລັບການອັບເດດສົດ</string>
+    <string name="now_bar_live_apps_count">ແອັບ <xliff:g id="count" example="2">%1$d</xliff:g></string>
+    <string name="now_bar_pin">ປັກໝຸດໄວ້ໃນໜ້າຈໍສະແດງຜົນຕະຫຼອດເວລາ</string>
+    <string name="now_bar_unpin_question">ຖອນປັກໝຸດ <xliff:g id="app" example="Uber">%1$s</xliff:g> ບໍ?</string>
+    <string name="now_bar_unpin">ຖອນປັກໝຸດ</string>
+    <string name="now_bar_scores_summary">ເກມທີ່ທ່ານຕິດຕາມໃນ At a Glance</string>
+    <string name="now_bar_recording">ການບັນທຶກໜ້າຈໍ ແລະ ສຽງ</string>
+    <string name="now_bar_buds">ຫູຟັງ ແລະ ໂມງຂໍ້ມື</string>
+    <string name="now_bar_buds_summary">ແບັດເຕີຣີຂອງອຸປະກອນທີ່ເຊື່ອມຕໍ່: ຊ້າຍ, ຂວາ ແລະ ກ່ອງສຳລັບຫູຟັງ</string>
+    <string name="now_bar_wave">ອະນິເມຊັນຄື້ນ</string>
+    <string name="now_bar_aod">ສະແດງໃນໜ້າຈໍສະແດງຜົນຕະຫຼອດເວລາ</string>
+    <string name="now_bar_chip">ຊິບໃນແຖບສະຖານະ</string>
+    <string name="now_bar_chip_summary">ສະແດງເພງ ແລະ ໂຕຈັບເວລາທີ່ກຳລັງເຮັດວຽກຢູ່ຂ້າງໂມງເມື່ອປົດລັອກ</string>
+    <string name="now_bar_footer">ເມື່ອມີເພງຢູ່ໃນ Now Bar ຕົວເຄື່ອງຫຼິ້ນເພງຂະໜາດໃຫຍ່ໃນໜ້າຈໍລັອກຈະຖືກເຊື່ອງ. ປັດແຖບເພື່ອສະຫຼັບລະຫວ່າງກິດຈະກຳ, ແຕະເພື່ອເປີດການຄວບຄຸມ, ແລະ ກົດຄ້າງເພື່ອເຊື່ອງກິດຈະກຳໜຶ່ງຈົນກວ່າມັນຈະສິ້ນສຸດ. ປັດເພງທີ່ຢຸດຊົ່ວຄາວອອກຈາກແຖບເພື່ອລຶບມັນ.\n\nຄະແນນສົດສະແດງເກມຂອງທີມທີ່ທ່ານຕິດຕາມໃນແອັບ Google. ເມື່ອໃຊ້ Smartspacer, ເພີ່ມເປົ້າໝາຍກິລາໃນນັ້ນ ແລະ ຄະແນນຂອງມັນຈະມາສະແດງທີ່ນີ້.</string>
+    <string name="now_bar_looks">ຮູບແບບ</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"ຄ່າເລີ່ມຕົ້ນ"</item>
+        <item>Liquid Glass</item>
+        <item>ນ້ອຍ</item>
+        <item>ໃຫຍ່</item>
+        <item>ນີອອນ</item>
+        <item>ການ์ດແກ້ວ</item>
+    </string-array>
+    <string name="now_bar_material">ວັດສະດຸ</string>
+    <string name="now_bar_material_summary">Liquid Glass ໃຊ້ແກ້ວທີ່ທ່ານຕັ້ງໄວ້ໃນຮູບແບບສີສັນ</string>
+    <string-array name="now_bar_material_entries">
+        <item>ທຶບ</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>ປົກອະລະບ້ຳ</item>
+        <item>ສີເນັ້ນ</item>
+        <item>ມືດ</item>
+    </string-array>
+    <string name="now_bar_opacity">ຄວາມໂປ່ງໃສ</string>
+    <string name="now_bar_opacity_summary">ເມື່ອໃຊ້ Liquid Glass ສີຈະປ່ຽນແກ້ວຫຼາຍປານໃດ</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"ບໍ່ມີ"</item>
+        <item>ບາງ</item>
+        <item>ສີເນັ້ນ</item>
+    </string-array>
+    <string name="now_bar_shadow">ເງົາ</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"ປິດ"</item>
+        <item>ນຸ່ມ</item>
+        <item>ແສງເຮືອງ</item>
+    </string-array>
+    <string name="now_bar_more">ກິດຈະກຳເພີ່ມເຕີມ</string>
+    <string-array name="now_bar_more_entries">
+        <item>ພຽງແຕ່ປັດ</item>
+        <item>ຈຸດ</item>
+        <item>ແອບເບິ່ງດ້ານຫຼັງ</item>
+    </string-array>
+    <string name="now_bar_size">ຂະໜາດ ແລະ ຮູບຊົງ</string>
+    <string name="now_bar_height">ຄວາມສູງ</string>
+    <string name="now_bar_width_summary">Full ຈະຍ້າຍທາງລັດຂຶ້ນເທິງແຖບ</string>
+    <string-array name="now_bar_width_entries">
+        <item>ແຄບ</item>
+        <item>ລະຫວ່າງທາງລັດ</item>
+        <item>ເຕັມ</item>
+    </string-array>
+    <string name="now_bar_corners">ມຸມ</string>
+    <string name="now_bar_raise">ຍົກຂຶ້ນ</string>
+    <string name="now_bar_art">ປົກອະລະບ້ຳ</string>
+    <string-array name="now_bar_art_entries">
+        <item>"ວົງມົນ"</item>
+        <item>ໂຄ້ງມົນ</item>
+        <item>"ສີ່ຫຼ່ຽມຈະຕຸລັດ"</item>
+        <item>"ປິດ"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>ຂ້າມ ແລະ ຫຼິ້ນ</item>
+        <item>ສະເພາະການຫຼິ້ນ</item>
+        <item>"ບໍ່ມີ"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>ໜຶ່ງແຖວ</item>
+        <item>ສອງແຖວ</item>
+        <item>ສະເພາະເພງ</item>
+    </string-array>
+    <string name="now_bar_show_page">ສິ່ງທີ່ສະແດງໃນແຖບ</string>
+    <string name="now_bar_show_page_summary">ເພງ ແລະ ວິດີໂອ, ໂຕຈັບເວລາ, ການໂທ ແລະ ອື່ນໆ</string>
+    <string name="now_bar_where">ບ່ອນອື່ນ</string>
 </resources>

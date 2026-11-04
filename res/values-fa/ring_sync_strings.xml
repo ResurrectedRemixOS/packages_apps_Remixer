@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">همگام‌سازی زنگ</string>
+    <string name="ring_sync_tap">وقتی حلقه با نشانه هم‌تراز شد بزنید</string>
+    <string name="ring_sync_best">بهترین <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">عالی</string>
+    <string name="ring_sync_new_best">رکورد جدید</string>
+    <string name="ring_sync_again">برای بازی دوباره بزنید</string>
+    <string name="ring_sync_ember">قفل تأکیدی Ember باز شد</string>
+    <string name="ring_sync_use_ember">استفاده از Ember</string>
+    <string name="ring_sync_android">تخم‌مرغ عید اندروید</string>
+    <string name="ring_sync_vibrate_on">ارتعاش هنگام برخورد · روشن</string>
+    <string name="ring_sync_vibrate_off">ارتعاش هنگام برخورد · خاموش</string>
+    <string name="accent_ember">اخگر</string>
+</resources>

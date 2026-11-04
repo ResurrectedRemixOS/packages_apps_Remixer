@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="notification_icons_category">"Ikonoak"</string>
+    <string name="notification_app_icons_title">Iconos de aplicaciones</string>
+    <string name="notification_app_icons_summary">Mostrar el icono de la aplicación en las notificaciones en lugar de su símbolo pequeño</string>
 </resources>

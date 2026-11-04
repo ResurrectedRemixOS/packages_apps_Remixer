@@ -6,4 +6,31 @@
     <string name="sb_clock_chip_angle_title">A színátmenet dőlésszöge</string>
     <string name="sb_weather_category">"Időjárás"</string>
     <string name="sb_weather_position_title">Pozíció</string>
+    <string name="sb_clock_category">Óra és dátum</string>
+    <string name="sb_clock_bold_summary">Az állapotsor órájának félkövér megjelenítése</string>
+    <string name="sb_clock_period_separator_summary">10.45 a 10:45 helyett</string>
+    <string name="sb_clock_date_position_title">Dátum helye</string>
+    <string name="sb_clock_date_style_title">Dátumformátum</string>
+    <string name="sb_clock_date_format_title">Dátumformátum</string>
+    <string name="sb_clock_chip_category">Óra háttere</string>
+    <string name="sb_clock_chip_title">Háttér stílusa</string>
+    <string name="sb_clock_chip_start_title">Átmenet kezdete</string>
+    <string name="sb_clock_chip_end_title">Átmenet vége</string>
+    <string name="sb_clock_chip_mask_title">Az idő kivágása az átmenetből</string>
+    <string name="sb_clock_chip_mask_summary">Az átmenet a számjegyeken keresztül látszik a háttér helyett</string>
+    <string name="sb_weather_title">Időjárás az állapotsorban</string>
+    <string name="status_bar_clock_rr_style_title">Óra megjelenése</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Alapértelmezett"</item>
+        <item>Neon</item>
+        <item>Osztott</item>
+        <item>RR jelzés</item>
+        <item>Mono</item>
+        <item>Pulzus</item>
+        <item>Egymásra helyezett</item>
+        <item>Parázs</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline az idő mellett</string>
+    <string name="sb_clock_flatline_summary">Az RR szívverés-vonala a chipen belül: zenére lüktet, értesítés érkezésekor kiugrik</string>
 </resources>

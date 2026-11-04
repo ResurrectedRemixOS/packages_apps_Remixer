@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Bateri"</string>
     <string name="charge_report_temp">"Suhu"</string>
     <string name="charge_report_time">"Masa"</string>
+    <string name="charge_report_title">Laporan pengecasan</string>
+    <string name="charge_report_summary">Ringkasan setiap cas apabila anda mencabut</string>
+    <string name="charge_report_min_title">Hanya jika ia menambah sekurang-kurangnya</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 hari</item>
+        <item>7 hari</item>
+        <item>14 hari</item>
+        <item>30 hari</item>
+    </string-array>
+    <string name="charge_report_history_days"><xliff:g id="days" example="7">%1$d</xliff:g> hari terakhir</string>
+    <string name="charge_report_today">Hari ini, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Semalam, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> j <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Watt</string>
+    <string name="charge_report_added">Ditambah</string>
+    <string name="charge_report_peak">Puncak</string>
+    <string name="charge_report_average">Purata</string>
+    <string name="charge_report_max_temp">Suhu maks</string>
+    <string name="charge_report_charger">Pengecas</string>
+    <string name="charge_report_started">Bermula pada</string>
+    <string name="charge_report_wired">Berwayar</string>
+    <string name="charge_report_wireless">Tanpa wayar</string>
+    <string name="charge_report_dock">Dok</string>
+    <string name="charge_report_empty">Tiada cas lagi</string>
+    <string name="charge_report_footer">SystemUI membaca arus, voltan dan suhu bateri setiap 30 saat semasa disambungkan ke pengecas. Nilai watt ialah ukuran peranti, jadi ia mungkin berbeza daripada nombor pada pengecas. Laporan kekal pada peranti; tiada yang dimuat naik.</string>
 </resources>

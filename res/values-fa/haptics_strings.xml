@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"آبی"</string>
     <string name="haptic_remix_color_green">"سبز"</string>
     <string name="haptic_remix_color_white">"سفید"</string>
+    <string name="haptic_remix_summary">الگوهای لرزش را برای تماس‌ها، برنامه‌ها، هشدارها و باز کردن قفل با ضربه زدن بساز</string>
+    <string name="haptic_remix_record">ضبط</string>
+    <string name="haptic_remix_pad">ریتم را با ضربه زدن بزن</string>
+    <string name="haptic_remix_strength">شدت</string>
+    <string name="haptic_remix_clear">پاک کردن</string>
+    <string name="haptic_remix_play">پخش</string>
+    <string name="haptic_remix_name">نام الگو</string>
+    <string name="haptic_remix_empty">هنوز چیزی ضبط نشده</string>
+    <string name="haptic_remix_too_long">هر الگو می‌تواند تا ۳۰ ثانیه طول بکشد</string>
+    <string name="haptic_remix_presets">پیش‌تنظیم‌ها</string>
+    <string name="haptic_remix_preset_neon">نئونی</string>
+    <string name="haptic_remix_preset_glass">شیشه‌ای</string>
+    <string name="haptic_remix_preset_ringtone">ضرب زنگ‌خورِ آهنگ</string>
+    <string name="haptic_remix_listening">در حال گوش دادن به زنگ‌خور…</string>
+    <string name="haptic_remix_no_ringtone">زنگ‌خور خوانده نشد</string>
+    <string name="haptic_remix_patterns">الگوهای تو</string>
+    <string name="haptic_remix_patterns_none">ابتدا یک الگو ذخیره کن. برای حذف، نگه دار.</string>
+    <string name="haptic_remix_broken">این الگو خوانده نمی‌شود</string>
+    <string name="haptic_remix_delete"><xliff:g id="name" example="Heartbeat">%1$s</xliff:g> حذف شود؟</string>
+    <string name="haptic_remix_assign">اختصاص به</string>
+    <string name="haptic_remix_alarm">هشدار و تایمر</string>
+    <string name="haptic_remix_plug">وصل به برق</string>
+    <string name="haptic_remix_fingerprint">اثر انگشت موفق</string>
+    <string name="haptic_remix_add_contact">افزودن مخاطب</string>
+    <string name="haptic_remix_edge_color">نور لبه‌ی صفحه برای پیام‌های <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">لهجه</string>
+    <string name="haptic_remix_color_crimson">زرشکی</string>
+    <string name="haptic_remix_color_amber">کهربایی</string>
+    <string name="haptic_remix_add_app">افزودن اعلان‌های یک برنامه</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · برای تغییر ضربه بزن، برای رنگ لبه نگه دار</string>
+    <string name="haptic_remix_no_contacts">هیچ شماره‌ای از مخاطبین برنگشت</string>
 </resources>

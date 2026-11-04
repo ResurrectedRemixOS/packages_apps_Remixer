@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Ringsynk</string>
+    <string name="ring_sync_tap">Tryck när en ring linjerar med markeringen</string>
+    <string name="ring_sync_best">Bästa <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">PERFEKT</string>
+    <string name="ring_sync_new_best">Nytt rekord</string>
+    <string name="ring_sync_again">Tryck för att spela igen</string>
+    <string name="ring_sync_ember">Glöd-accent upplåst</string>
+    <string name="ring_sync_use_ember">Använd Glöd</string>
+    <string name="ring_sync_android">Androids påskägg</string>
+    <string name="ring_sync_vibrate_on">Vibrera vid träffar · På</string>
+    <string name="ring_sync_vibrate_off">Vibrera vid träffar · Av</string>
+    <string name="accent_ember">Glöd</string>
+</resources>

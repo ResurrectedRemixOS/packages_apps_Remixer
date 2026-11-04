@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Μπαταρία"</string>
     <string name="charge_report_temp">"Θερμοκρασία"</string>
     <string name="charge_report_time">"Ώρα"</string>
+    <string name="charge_report_title">Αναφορές φόρτισης</string>
+    <string name="charge_report_summary">Σύνοψη κάθε φόρτισης όταν αποσυνδέετε</string>
+    <string name="charge_report_min_title">Μόνο αν πρόσθεσε τουλάχιστον</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 ημέρες</item>
+        <item>7 ημέρες</item>
+        <item>14 ημέρες</item>
+        <item>30 ημέρες</item>
+    </string-array>
+    <string name="charge_report_history_days">Οι τελευταίες <xliff:g id="days" example="7">%1$d</xliff:g> ημέρες</string>
+    <string name="charge_report_today">Σήμερα, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Χθες, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> λεπτ.</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ώ <xliff:g id="minutes" example="02">%2$02d</xliff:g> λεπτ.</string>
+    <string name="charge_report_watts">Watt</string>
+    <string name="charge_report_added">Προστέθηκε</string>
+    <string name="charge_report_peak">Μέγιστο</string>
+    <string name="charge_report_average">Μέσος όρος</string>
+    <string name="charge_report_max_temp">Μέγ. θερμοκρασία</string>
+    <string name="charge_report_charger">Φορτιστής</string>
+    <string name="charge_report_started">Ξεκίνησε στις</string>
+    <string name="charge_report_wired">Με καλώδιο</string>
+    <string name="charge_report_wireless">Ασύρματη</string>
+    <string name="charge_report_dock">Βάση σύνδεσης</string>
+    <string name="charge_report_empty">Καμία φόρτιση ακόμα</string>
+    <string name="charge_report_footer">Το SystemUI διαβάζει το ρεύμα, την τάση και τη θερμοκρασία της μπαταρίας κάθε 30 δευτερόλεπτα όσο είναι συνδεδεμένη. Τα watt είναι όσα μετρά το τηλέφωνο, οπότε μπορεί να διαφέρουν από τον αριθμό στον φορτιστή. Οι αναφορές μένουν στο τηλέφωνο· τίποτα δεν ανεβαίνει.</string>
 </resources>

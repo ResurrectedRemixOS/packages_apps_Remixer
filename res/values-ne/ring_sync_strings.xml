@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">घन्टी सिंक</string>
+    <string name="ring_sync_tap">घन्टी चिन्हसँग मिल्दा ट्याप गर्नुहोस्</string>
+    <string name="ring_sync_best">उत्तम <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">उत्कृष्ट</string>
+    <string name="ring_sync_new_best">नयाँ उत्तम</string>
+    <string name="ring_sync_again">फेरि खेल्न ट्याप गर्नुहोस्</string>
+    <string name="ring_sync_ember">एम्बर एक्सेन्ट अनलक भयो</string>
+    <string name="ring_sync_use_ember">एम्बर प्रयोग गर्नुहोस्</string>
+    <string name="ring_sync_android">Android को इस्टर एग</string>
+    <string name="ring_sync_vibrate_on">हिटमा भाइब्रेट · अन</string>
+    <string name="ring_sync_vibrate_off">हिटमा भाइब्रेट · अफ</string>
+    <string name="accent_ember">इम्बर</string>
+</resources>

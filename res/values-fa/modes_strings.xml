@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">حالت‌های خودت را هرکدام با یک زمینه</string>
+    <string name="remix_modes_everyday">زمینه‌ی روزمره</string>
+    <string name="remix_modes_everyday_summary">وقتی هیچ حالتی با زمینه روشن نباشد، برمی‌گردد</string>
+    <string name="remix_modes_wallpaper">کاغذدیواری از زمینه پیروی می‌کند</string>
+    <string name="remix_modes_wallpaper_summary">یک حالت ممکن است کاغذدیواری را هم عوض کند</string>
+    <string name="remix_modes_modes">حالت‌های تو</string>
+    <string name="remix_modes_no_change">بدون تغییر</string>
+    <string name="remix_modes_none">ابتدا یک زمینه ذخیره کن، در زمینه › زمینه‌ها</string>
+    <string name="remix_modes_pick">زمینه برای <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

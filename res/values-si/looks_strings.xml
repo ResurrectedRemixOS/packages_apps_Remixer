@@ -15,4 +15,54 @@
     <string name="looks_save_look">"සුරකින්න"</string>
     <string name="looks_custom_color">"අභිරුචි වර්ණය"</string>
     <string name="looks_part_clock_color">"ඔරලෝසු වර්ණය"</string>
+    <string name="looks_title">පෙනුම්</string>
+    <string name="looks_summary">ඔබේ සම්පූර්ණ සැකසුම එක ස්පර්ශයකින්</string>
+    <string name="looks_rr">RR පෙනුම්</string>
+    <string name="looks_yours">ඔබේ පෙනුම්</string>
+    <string name="looks_none">තවම කිසිවක් සුරැකී නැත</string>
+    <string name="looks_save">වත්මන් සුරකින්න</string>
+    <string name="looks_import_clipboard">පසුරු පුවරුවෙන්</string>
+    <string name="looks_import_file">ගොනුවෙන්</string>
+    <string name="looks_mine">මගේ පෙනුම</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> යොදන ලදී</string>
+    <string name="looks_failed">සියල්ල යෙදිය නොහැකි විය</string>
+    <string name="looks_invalid">එය RR පෙනුමක් නොවේ</string>
+    <string name="looks_part_accent">උච්චාරණ වර්ණය</string>
+    <string name="looks_part_qs">ක්ෂණික සැකසීම් ශෛලිය</string>
+    <string name="looks_part_clock_face">අගුලු තිර ඔරලෝසු මුහුණ</string>
+    <string name="looks_part_clock_look">තත්ත්ව තීරු ඔරලෝසුව</string>
+    <string name="looks_part_edge">දාර ආලෝකය</string>
+    <string name="looks_part_boot">ආරම්භක සජීවිකරණය</string>
+    <string name="looks_part_haptics">Haptic Remix රටා</string>
+    <string name="looks_saturation">සංතෘප්තිය <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">උච්චාරණ</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>” බෙදාගන්න</string>
+    <string name="looks_share_hint">වෙනත් RR දුරකථනයක කැමරාවෙන් හෝ පෙනුම් › ආයාත කිරීමෙන් ස්කෑන් කරන්න</string>
+    <string name="looks_share_file">ගොනුව බෙදාගන්න</string>
+    <string name="looks_save_file">ගොනුව සුරකින්න</string>
+    <string name="looks_import_scan">QR කේතයක් ස්කෑන් කරන්න</string>
+    <string name="looks_import_title">පෙනුම ආයාත කරන්න</string>
+    <string name="looks_from_qr">QR කේතයෙන්</string>
+    <string name="looks_from_file">ගොනුවෙන්</string>
+    <string name="looks_from_clipboard">පසුරු පුවරුවෙන්</string>
+    <string name="looks_import_same">එය දැනටමත් ඔබේ සැකසුම හා ගැලපේ.</string>
+    <string name="looks_new">නව පෙනුම</string>
+    <string name="looks_edit_title">පෙනුම සංස්කරණය</string>
+    <string name="looks_in_look">මෙම පෙනුමේ</string>
+    <string name="looks_not_included">මෙම පෙනුමේ නොමැත</string>
+    <string name="looks_save_apply">සුරකින්න සහ යොදන්න</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” සුරකින ලදී</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” මකන්නද?</string>
+    <string name="looks_rr_wallpaper">RR වෝල්පේපරය <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">උච්චාරණ සංතृප්තිය</string>
+    <string name="looks_part_clock_chip">තත්ත්ව තීරුවේ ඔරලෝසු චිප්ස්</string>
+    <string name="looks_part_edge_style">දාර ආලෝකන ශෛලිය</string>
+    <string name="looks_scan_hint">ලුක් එකක QR කේතය වෙත කැමරාව යොමු කරන්න</string>
+    <string name="looks_scan_failed">කැමරාව විවෘත කළ නොහැකි විය</string>
+    <string name="look_roulette_title">ලුක් රුලට්</string>
+    <string-array name="look_roulette_entries">
+        <item>"ක්‍රියාවිරහිතයි"</item>
+        <item>සෑම අගුළු හැරීමකදීම වෙනස් ලුක්</item>
+        <item>සෑම දිනකම වෙනස් ලුක්</item>
+    </string-array>
 </resources>

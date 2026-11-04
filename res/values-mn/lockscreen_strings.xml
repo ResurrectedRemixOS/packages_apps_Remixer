@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lockscreen_battery_info_title">Цэнэглэлтийн мэдээлэл</string>
+    <string name="lockscreen_battery_info_summary">Цэнэглэх үед гүй, ватт, хүчдэл, батерейн температурыг харуулна</string>
+    <string name="charging_ring_title">SuperVOOC цэнэглэлтийн хөдөлгөөн</string>
+    <string name="charging_ring_summary">Залгах үед цэнэглэлтийн тойрог ба хурдыг харуулна</string>
+    <string name="pocket_mode_title">Халаасны горим</string>
+    <string name="pocket_mode_summary">Ойрын мэдрэгч таглагдсан үед дэлгэц асахгүй бөгөөд хүрэлтийг үл тоонo</string>
+    <string name="screen_on_time_title">Дэлгэц асаалттай байсан хугацаа</string>
+    <string name="screen_on_time_summary">Цэнэглэж байх үед болон Battery Saver хавтан дээр сүүлийн бүрэн цэнэглэлтээс хойшхи дэлгэц асаалттай хугацааг түгжээтэй дэлгэцэд харуулна</string>
+</resources>

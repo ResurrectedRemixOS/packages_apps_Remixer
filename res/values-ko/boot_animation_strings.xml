@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="remixer_boot_animation">부트 애니메이션</string>
+    <string name="boot_animation_note">다음에 휴대폰을 시작할 때 재생됩니다.</string>
+    <string name="boot_animation_custom">내 파일</string>
+    <string name="boot_animation_custom_pick">파일 선택…</string>
+    <string name="boot_animation_custom_invalid">부팅 애니메이션 파일이 아닙니다</string>
+    <string name="boot_animation_failed">부팅 애니메이션을 변경하지 못했습니다</string>
 </resources>

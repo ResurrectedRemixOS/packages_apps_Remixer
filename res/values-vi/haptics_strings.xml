@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Lam"</string>
     <string name="haptic_remix_color_green">"Xanh lục"</string>
     <string name="haptic_remix_color_white">"Trắng"</string>
+    <string name="haptic_remix_summary">Chạm theo nhịp để tạo mẫu rung cho cuộc gọi, ứng dụng, báo thức và mở khóa</string>
+    <string name="haptic_remix_record">Ghi</string>
+    <string name="haptic_remix_pad">chạm theo nhịp</string>
+    <string name="haptic_remix_strength">Cường độ</string>
+    <string name="haptic_remix_clear">Xoá</string>
+    <string name="haptic_remix_play">Phát</string>
+    <string name="haptic_remix_name">Tên mẫu</string>
+    <string name="haptic_remix_empty">Chưa ghi gì</string>
+    <string name="haptic_remix_too_long">Một mẫu có thể dài tới 30 giây</string>
+    <string name="haptic_remix_presets">Cài sẵn</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Kính</string>
+    <string name="haptic_remix_preset_ringtone">Nhịp của nhạc chuông</string>
+    <string name="haptic_remix_listening">Đang nghe nhạc chuông…</string>
+    <string name="haptic_remix_no_ringtone">Không thể đọc nhạc chuông</string>
+    <string name="haptic_remix_patterns">Các mẫu của bạn</string>
+    <string name="haptic_remix_patterns_none">Hãy lưu một mẫu trước. Nhấn giữ để xóa.</string>
+    <string name="haptic_remix_broken">Không thể đọc mẫu này</string>
+    <string name="haptic_remix_delete">Xóa <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Gán cho</string>
+    <string name="haptic_remix_alarm">Báo thức và bộ hẹn giờ</string>
+    <string name="haptic_remix_plug">Đang cắm sạc</string>
+    <string name="haptic_remix_fingerprint">Vân tay thành công</string>
+    <string name="haptic_remix_add_contact">Thêm liên hệ</string>
+    <string name="haptic_remix_edge_color">Đèn viền cho tin nhắn của <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">Nhấn mạnh</string>
+    <string name="haptic_remix_color_crimson">Đỏ thẫm</string>
+    <string name="haptic_remix_color_amber">Hổ phách</string>
+    <string name="haptic_remix_add_app">Thêm thông báo của ứng dụng</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · chạm để đổi, nhấn giữ để đổi màu viền</string>
+    <string name="haptic_remix_no_contacts">Danh bạ không trả về số nào</string>
 </resources>

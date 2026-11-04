@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Gesturi</string>
     <string name="backup_group_other">"Altele"</string>
     <string name="backup_done">"Gata"</string>
+    <string name="backup_summary">Toate personalizările RR într-un singur fișier</string>
+    <string name="backup_now">Fă o copie de rezervă acum</string>
+    <string name="backup_never">Ultima copie: niciodată</string>
+    <string name="backup_last">Ultima copie: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Restaurează dintr-un fișier</string>
+    <string name="backup_restore_summary">Alege un fișier de copie de rezervă</string>
+    <string name="backup_included">Inclus</string>
+    <string name="backup_part_theme">Accent, font și pictograme</string>
+    <string name="backup_part_header">Imagine de antet</string>
+    <string name="backup_part_photo">Imagine de antet (fotografia ta)</string>
+    <string name="backup_part_photo_summary">Mărește fișierul</string>
+    <string name="backup_part_boot">Animația de pornire</string>
+    <string name="backup_part_looks">Aspectele tale</string>
+    <string name="backup_weekly">Copie săptămânală</string>
+    <string name="backup_weekly_summary">Într-un dosar ales de tine</string>
+    <string name="backup_weekly_on">În fiecare săptămână în <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Propune o copie înainte de actualizări</string>
+    <string name="backup_offer_summary">Actualizatorul întreabă înainte să instaleze</string>
+    <string name="backup_sets">Setează <xliff:g id="count" example="64">%1$d</xliff:g> setări</string>
+    <string name="backup_saved">Au fost salvate <xliff:g id="count" example="64">%1$d</xliff:g> setări</string>
+    <string name="backup_restored">Au fost restaurate <xliff:g id="count" example="64">%1$d</xliff:g> setări</string>
+    <string name="backup_restored_message">SystemUI repornește ca să le aplice.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> setări nu există în această versiune și au fost ignorate.</string>
+    <string name="backup_failed">Copia de rezervă nu a putut fi salvată</string>
+    <string name="backup_invalid">Fișierul acesta nu este o copie de rezervă Resurrected Remix</string>
+    <string name="backup_footer">În fișier intră doar setările RR: fără conturi, parole, rețele Wi-Fi, aplicații sau mesaje. Restaurarea scrie doar setările de pe lista proprie a RR, deci un fișier de copie de rezervă nu poate modifica altceva de pe telefon. Fotografia de antet este inclusă doar dacă comutatorul ei este activat, pentru că mărește fișierul.</string>
+    <string name="volume_style_title">Stilul panoului de volum</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Sticlă</item>
+        <item>Pastilă</item>
+        <item>RR clasic</item>
+        <item>Bento</item>
+        <item>Forme</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Soft</item>
+    </string-array>
 </resources>

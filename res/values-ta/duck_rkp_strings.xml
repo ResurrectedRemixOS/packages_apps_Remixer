@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">சாதன RKP ஐப் பயன்படுத்து</string>
+    <string name="ts_rkp_enabled_summary">உருவாக்கப்பட்ட keybox ஐப் பயன்படுத்து. keybox இறக்குமதி செய்தால் இது அணைக்கப்படும்.</string>
+    <string name="ts_rkp_provision">keybox உருவாக்கு</string>
+    <string name="ts_rkp_provision_summary">இந்தச் சாதனத்தின் provisioning சேவையைப் பயன்படுத்தி Google இடமிருந்து keybox கோரு. இணக்கமான Qualcomm firmware தேவை.</string>
+    <string name="ts_rkp_status">Provisioning நிலை</string>
+    <string name="ts_rkp_owner_only">சாதன உரிமையாளரின் சுயவிவரத்திலிருந்து சாதன RKP ஐ நிர்வகி</string>
+    <string name="ts_rkp_unavailable">சாதன RKP கிடைக்கவில்லை</string>
+    <string name="ts_rkp_imported">இறக்குமதி செய்யப்பட்ட keybox நிறுவப்பட்டிருக்கும்போது முடக்கப்பட்டுள்ளது</string>
+    <string name="ts_rkp_disabled">அணைக்கப்பட்டுள்ளது. keybox ஐப் பயன்படுத்த அல்லது உருவாக்க சாதன RKP ஐ இயக்கு.</string>
+    <string name="ts_rkp_idle">keybox கோர தயார்</string>
+    <string name="ts_rkp_fetching">Provisioning சவாலைப் பெறுகிறது…</string>
+    <string name="ts_rkp_hardware">சாதனத்தின் provisioning சேவைக்காகக் காத்திருக்கிறது…</string>
+    <string name="ts_rkp_signing">Google இடமிருந்து சான்றிதழ்களைக் கோருகிறது…</string>
+    <string name="ts_rkp_validating">keybox ஐ சரிபார்த்து சேமிக்கிறது…</string>
+    <string name="ts_rkp_ready">உருவாக்கப்பட்ட keybox செயலில் உள்ளது. %1$s க்கு முன் தானாகவே புதுப்பிக்கப்படும்</string>
+    <string name="ts_rkp_keybox_stored">சாதன RKP keybox சேமிக்கப்பட்டது</string>
+    <string name="ts_rkp_expired">உருவாக்கப்பட்ட keybox காலாவதியானது. மாற்று ஒன்றை உருவாக்கு.</string>
+    <string name="ts_rkp_hal_rejected">Firmware கோரிக்கையை நிராகரித்தது (குறியீடு %1$d). Duck V1 ஆதரிக்கப்படாமல் இருக்கலாம்.</string>
+    <string name="ts_rkp_http_error">Provisioning சேவையகம் கோரிக்கையை நிராகரித்தது (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">சாதனம் இணக்கமான V1 provisioning இடைமுகத்தை வழங்கவில்லை</string>
+    <string name="ts_rkp_network_error">Provisioning சேவையகத்தை அடைய முடியவில்லை. உங்கள் இணைப்பைச் சரிபார்க்கவும்.</string>
+    <string name="ts_rkp_submission_unknown">சேவையகப் பதில் இழக்கப்பட்டது. கோரிக்கை செயலாக்கப்பட்டிருக்கலாம்; தானியங்கி மறுமுயற்சி செய்யப்படவில்லை.</string>
+    <string name="ts_rkp_invalid_chain">keybox சான்றிதழ்கள் சரிபார்ப்பில் தோல்வியடைந்தன. இருக்கும் keybox வைக்கப்பட்டது.</string>
+    <string name="ts_rkp_timeout">Provisioning நேரம் முடிந்தது. சாதன சேவை இன்னும் பிஸியாக இருந்தால், மீண்டும் முயற்சிக்கும் முன் சாதனத்தை மறுதொடக்கம் செய்யவும்.</string>
+    <string name="ts_rkp_canceled">keybox அமைப்பு மாறியதால் கோரிக்கை ரத்து செய்யப்பட்டது</string>
+    <string name="ts_rkp_save_failed">உருவாக்கப்பட்ட keybox ஐ சேமிக்க முடியவில்லை</string>
+    <string name="ts_rkp_action_failed">keybox செயல்பாட்டை முடிக்க முடியவில்லை</string>
+</resources>

@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Wanneer"</string>
+    <string name="nightstand_title">Nachtkastje</string>
+    <string name="nightstand_summary">Een gedimde wekkerklok op het always-on-scherm terwijl het \'s nachts aan de lader ligt</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Uit"</item>
+        <item>Aan de lader \'s nachts</item>
+        <item>Elke nacht, volgens schema</item>
+        <item>Terwijl een slaapmodus aan staat</item>
+    </string-array>
+    <string name="nightstand_from">Nacht begint</string>
+    <string name="nightstand_to">Nacht eindigt</string>
+    <string name="nightstand_brightness">Maximale helderheid</string>
+    <string name="nightstand_brightness_summary">Hoe helder het always-on-scherm mag worden terwijl Nachtkastje aan staat</string>
+    <string name="nightstand_face">Klokwijzerplaat</string>
+    <string name="nightstand_face_keep">Huidige wijzerplaat behouden</string>
+    <string name="nightstand_footer">Nachtkastje zet het always-on-scherm aan terwijl het loopt en zet het daarna terug. Het stopt wanneer de lader wordt losgekoppeld, de wekker afgaat of de nacht eindigt. De wijzerplaat wisselt alleen tussen twee aangepaste wijzerplaten; de systeemklok blijft.</string>
 </resources>

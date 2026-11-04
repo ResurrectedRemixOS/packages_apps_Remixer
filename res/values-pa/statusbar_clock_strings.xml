@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"ਤਾਰੀਖ"</string>
     <string name="sb_weather_category">"ਮੌਸਮ"</string>
+    <string name="sb_clock_category">ਘੜੀ ਅਤੇ ਮਿਤੀ</string>
+    <string name="sb_clock_bold_title">ਬੋਲਡ ਘੜੀ</string>
+    <string name="sb_clock_bold_summary">ਸਥਿਤੀ ਪੱਟੀ ਦੀ ਘੜੀ ਬੋਲਡ ਦਿਖਾਓ</string>
+    <string name="sb_clock_period_separator_title">ਸਮਾਂ ਵੱਖ ਕਰਨ ਵਾਲਾ ਚਿੰਨ੍ਹ</string>
+    <string name="sb_clock_period_separator_summary">10.45 ਦੀ ਥਾਂ 10:45</string>
+    <string name="sb_clock_date_position_title">ਮਿਤੀ ਦੀ ਸਥਿਤੀ</string>
+    <string name="sb_clock_date_style_title">ਮਿਤੀ ਦੇ ਅੱਖਰ</string>
+    <string name="sb_clock_date_format_title">ਮਿਤੀ ਫਾਰਮੈਟ</string>
+    <string name="sb_clock_chip_category">ਘੜੀ ਦਾ ਪਿਛੋਕੜ</string>
+    <string name="sb_clock_chip_title">ਪਿਛੋਕੜ ਸਟਾਈਲ</string>
+    <string name="sb_clock_chip_start_title">ਗ੍ਰੇਡੀਐਂਟ ਸ਼ੁਰੂ</string>
+    <string name="sb_clock_chip_end_title">ਗ੍ਰੇਡੀਐਂਟ ਅੰਤ</string>
+    <string name="sb_clock_chip_angle_title">ਗ੍ਰੇਡੀਐਂਟ ਕੋਣ</string>
+    <string name="sb_clock_chip_mask_title">ਗ੍ਰੇਡੀਐਂਟ ਵਿੱਚੋਂ ਸਮਾਂ ਕੱਟੋ</string>
+    <string name="sb_clock_chip_mask_summary">ਅੰਕਾਂ ਦੇ ਪਿੱਛੇ ਦੀ ਥਾਂ ਗ੍ਰੇਡੀਐਂਟ ਦੀ ਥਾਂ ਅੰਕਾਂ ਰਾਹੀਂ ਦਿਖਦਾ ਹੈ</string>
+    <string name="sb_weather_title">ਸਥਿਤੀ ਪੱਟੀ ਵਿੱਚ ਮੌਸਮ</string>
+    <string name="sb_weather_position_title">ਸਥਿਤੀ</string>
+    <string name="status_bar_clock_rr_style_title">ਘੜੀ ਦਿੱਖ</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"ਪੂਰਵ-ਨਿਰਧਾਰਿਤ"</item>
+        <item>ਨਿਓਨ</item>
+        <item>ਵੰਡਿਆ ਹੋਇਆ</item>
+        <item>RR ਨਿਸ਼ਾਨ</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>ਇੱਕ ਦੇ ਉੱਪਰ ਇੱਕ</item>
+        <item>ਅੰਗਾਰ</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">ਸਮੇਂ ਦੇ ਨਾਲ Flatline</string>
+    <string name="sb_clock_flatline_summary">ਚਿੱਪ ਦੇ ਅੰਦਰ RR ਦੀ ਧੜਕਣ ਵਾਲੀ ਲਾਈਨ: ਸੰਗੀਤ ਨਾਲ ਧੜਕਦੀ ਹੈ, ਸੂਚਨਾ ਆਉਣ \'ਤੇ ਉੱਪਰ ਉੱਠਦੀ ਹੈ</string>
 </resources>

@@ -84,4 +84,220 @@
     <string name="wallpaper_apply_lock">"Užrakinimo ekranas"</string>
     <string name="remixer_settings_style_original">"Originalus"</string>
     <string name="remixer_navbar_category">"Naršymo juosta"</string>
+    <string name="remixer_dashboard_summary">Būsenos juosta, tema, užrakinimo ekranas ir kita</string>
+    <string name="rr_homepage_battery_saver">Akumuliatoriaus taupymas</string>
+    <string name="rr_homepage_personalize">Personalizavimas</string>
+    <string name="rr_homepage_privacy">Privatumas ir sauga</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> nemokamai</string>
+    <string name="rr_homepage_charged">Visiškai įkrauta</string>
+    <string name="rr_homepage_on_battery">Naudojama baterija</string>
+    <string name="rr_homepage_saver_on">Įjungtas akumuliatoriaus taupymas</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> įrenginys</item>
+        <item quantity="few"><xliff:g id="count" example="2">%d</xliff:g> įrenginiai</item>
+        <item quantity="many"><xliff:g id="count" example="2">%d</xliff:g> įrenginio</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> įrenginių</item>
+    </plurals>
+    <string name="rr_homepage_extras">Papildomi nustatymai</string>
+    <string name="rr_homepage_saver">Taupymas</string>
+    <string name="rr_homepage_signed_out">Neprisijungta</string>
+    <string name="rr_homepage_remixer_tagline">Pritaikykite sau. Būsenos juosta, tema, užrakinimo ekranas ir kita.</string>
+    <string name="rr_homepage_device_tagline">Garsumo perjungiklis, ekranas, įkrovimas ir GameBar.</string>
+    <string name="rr_homepage_device_action">Pritaikykite</string>
+    <string name="rr_group_network">Tinklas ir įrenginiai</string>
+    <string name="rr_group_network_summary">Wi‑Fi, mobilusis ryšys, Bluetooth</string>
+    <string name="rr_group_apps_summary">Programos, pranešimai, režimai</string>
+    <string name="rr_group_display">Ekranas ir garsas</string>
+    <string name="rr_group_display_summary">Ekranas, ekrano fonas, garsas</string>
+    <string name="rr_group_security_summary">Užrakinimas, vieta, skubios pagalbos</string>
+    <string name="rr_group_security_center">Saugos centras</string>
+    <string name="rr_group_accounts">Google ir paskyros</string>
+    <string name="rr_group_accounts_summary">Google, slaptažodžiai, atsarginė kopija</string>
+    <string name="rr_group_accounts_plain_summary">Slaptažodžiai, paskyros, atsarginė kopija</string>
+    <string name="rr_group_system_summary">Kalbos, gestai, naujinimai</string>
+    <string name="remixer_tagline">Pritaikykite sau.</string>
+    <string name="remixer_remix">Perdarykite</string>
+    <string name="remixer_remixed">Perdaryta su <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Atspalvis · Numatytasis</string>
+    <string name="remixer_quick">Greitas pakeitimas</string>
+    <string name="remixer_everything">Viskas</string>
+    <string name="remixer_quick_accents">Paruoštukai arba bet kokia spalva</string>
+    <string name="remixer_quick_fonts">Sistemos šriftų stiliai</string>
+    <string name="remixer_quick_walls">RR kolekcija</string>
+    <string name="remixer_quick_header">Spartiųjų nustatymų antraštė</string>
+    <string name="remixer_quick_header_summary">Antraštės vaizdai</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Laikrodis, baterija, piktogramos ir tinklo srautas</string>
+    <string name="remixer_qs_summary">Antraštės vaizdas</string>
+    <string name="remixer_notifications_summary">Krašto apšvietimas, programų piktogramos ir įkrovimo garsai</string>
+    <string name="remixer_theme_summary">Šriftai, akcentai ir ekrano fonai</string>
+    <string name="remixer_lockscreen_summary">UDFPS, įkrovimo informacija ir orai</string>
+    <string name="remixer_udfps_icon">UDFPS piktograma</string>
+    <string name="remixer_udfps_icon_summary">Rodoma virš piršto atspaudo jutiklio</string>
+    <string name="remixer_udfps_animation">UDFPS animacija</string>
+    <string name="remixer_udfps_animation_summary">Rodoma, kol pirštas yra ant jutiklio</string>
+    <string name="remixer_navigation">Naršymas</string>
+    <string name="remixer_navigation_summary">Pulsas, mygtukai ir naršymo juosta</string>
+    <string name="remixer_misc_summary">Garsumas, atsarginė kopija, klastojimas, slinkimas ir USB</string>
+    <string name="scroll_haptics_title">Bakstelėkite slinkties pabaigoje</string>
+    <string name="scroll_haptics_summary">Lengvas virpesys, kai sąrašas ar puslapis nebegali slinkti toliau</string>
+    <string name="usb_mode_picker_title">USB režimo pasirinkimas</string>
+    <string name="usb_mode_picker_summary">Pasirinkite režimą, kai prijungiate prie kompiuterio</string>
+    <string name="remixer_fonts_summary">Sistemos šriftas</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix ekrano fonai</string>
+    <string name="remixer_accents">Akcentai</string>
+    <string name="remixer_accents_summary">Akcento spalva</string>
+    <string name="remixer_pulse">Pulsas</string>
+    <string name="remixer_pulse_summary">Muzikos vizualizatorius ekrano apačioje</string>
+    <string name="pulse_switch">Naudoti pulsą</string>
+    <string name="pulse_switch_summary">Muzikos juostos ekrano apačioje, kol grojama medija</string>
+    <string name="pulse_style_lines">Linijos</string>
+    <string name="pulse_style_fading">Blėstantis</string>
+    <string name="pulse_style_blocks">Blokai</string>
+    <string name="pulse_style_mirror">Veidrodinis</string>
+    <string name="pulse_color_custom">Pasirinktinis</string>
+    <string name="pulse_color_gradient">Vaivorykštė</string>
+    <string name="pulse_bars">Juostos</string>
+    <string name="pulse_bars_value">Juostos · %1$d</string>
+    <string name="pulse_height">Aukštis</string>
+    <string name="pulse_height_value">Aukštis · %1$d dp</string>
+    <string name="pulse_opacity">Nepermatomumas</string>
+    <string name="pulse_opacity_value">Nepermatomumas · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Rodyti juostas užrakinimo ekrane, kol grojama muzika</string>
+    <string name="pulse_failed">Nepavyko išsaugoti pulso nustatymo</string>
+    <string name="accent_applied">Akcentas pritaikytas</string>
+    <string name="accent_current">Akcentas · %1$s</string>
+    <string name="accent_current_custom">Akcentas · Pasirinktinis</string>
+    <string name="accent_preview_tonal">Tonalus</string>
+    <string name="accent_failed">Nepavyko pritaikyti akcento</string>
+    <string name="accent_custom">Pasirinktinis</string>
+    <string name="accent_custom_summary">Tinka bet kokia spalva. Atspalvis taikomas ir viršuje.</string>
+    <string name="accent_custom_pad">Sodrumas ir ryškumas</string>
+    <string name="accent_custom_use">Naudoti <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">Atspalvis</string>
+    <string name="accent_shade_darker">Tamsesnis</string>
+    <string name="accent_shade_lighter">Šviesesnis</string>
+    <string name="accent_shade_darker_value">Tamsesnis · %1$d</string>
+    <string name="accent_shade_lighter_value">Šviesesnis · %1$d</string>
+    <string name="remixer_qs_style">Spartiųjų nustatymų stilius</string>
+    <string name="remixer_qs_style_preview">Peržiūra · %1$s</string>
+    <string name="remixer_qs_style_note">Kiekvienas stilius seka jūsų akcento spalvą. Garsumo skydelis turi atitinkamus Bento, Shapes, Blueprint, Duo ir Soft stilius. Stock Lineage palieka Android 17 elementus nepakeistus.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Android 17 elementai, nepakeisti</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Ryškumas akcento kortelėje. Elementai užpildomi akcento gradientu</string>
+    <string name="remixer_qs_style_compact">Kompaktiškas</string>
+    <string name="remixer_qs_style_compact_summary">Trumpesni elementai. Vienu metu tilpsta daugiau</string>
+    <string name="remixer_qs_style_glass">Stiklas</string>
+    <string name="remixer_qs_style_glass_summary">Permatomi, kontūriniai elementai, kurie įjungti švyti akcento spalva</string>
+    <string name="remixer_qs_style_circles">Apskritimai</string>
+    <string name="remixer_qs_style_circles_summary">Apvalūs jungikliai su pavadinimais. Platūs elementai tampa kortelėmis</string>
+    <string name="remixer_qs_style_classic">Klasikinis</string>
+    <string name="remixer_qs_style_classic_summary">Senasis RR: plikos piktogramos su pavadinimais, penki vienoje eilėje, plonas slankiklis</string>
+    <string name="remixer_qs_style_cards">Kortelės</string>
+    <string name="remixer_qs_style_cards_summary">Didelės kortelės su būsena po kiekvienu pavadinimu, trys vienoje eilėje</string>
+    <string name="remixer_qs_style_neon">Neoninis</string>
+    <string name="remixer_qs_style_neon_summary">Kontūriniai elementai, kurie įjungti švyti akcento spalva</string>
+    <string name="remixer_qs_style_bento_summary">Dideli suapvalinti blokai, užpildyti akcentu, pavadinimai po mažaisiais</string>
+    <string name="remixer_qs_style_shapes">Figūros</string>
+    <string name="remixer_qs_style_shapes_summary">Apvalūs jungikliai, kurie įjungti išauga išsikišimais, penki vienoje eilėje</string>
+    <string name="remixer_qs_style_blueprint">Brėžinys</string>
+    <string name="remixer_qs_style_blueprint_summary">Plonos kontūrinės linijos ir pastoviojo pločio didžiosios raidės</string>
+    <string name="remixer_qs_style_duo">Duetas</string>
+    <string name="remixer_qs_style_duo_summary">Padalyti elementai. Piktogramos pusė užsidega ir perjungia</string>
+    <string name="remixer_qs_style_soft">Minkštas</string>
+    <string name="remixer_qs_style_soft_summary">Pakelti elementai, kurie įjungti įspaudžiami</string>
+    <string name="remixer_lock_media_style">Medijos grotuvo stilius</string>
+    <string name="remixer_lock_media_same">Kaip spartiesiems nustatymams</string>
+    <string name="remixer_lock_media_same_summary">Seka spartiųjų nustatymų medijos elementą, dabar %1$s</string>
+    <string name="remixer_lock_media_off_summary">Grotuvas užrakinimo ekrane nerodomas</string>
+    <string name="remixer_lock_media_note">Kortelė rodoma užrakinimo ekrane, kol kažkas groja. Permatomi stiliai gauna tamsų pagrindą, kad ekrano fone būtų įskaitomi.</string>
+    <string name="remixer_lock_media_stock_summary">Viršelis užpildo kortelę</string>
+    <string name="remixer_lock_media_remix_summary">Tamsi kortelė, akcentinis grojimo mygtukas</string>
+    <string name="remixer_lock_media_compact_summary">Apvalesnė kortelė, apvalus viršelis</string>
+    <string name="remixer_lock_media_glass_summary">Kontūrinė permatoma kortelė</string>
+    <string name="remixer_lock_media_circles_summary">Minkšta kortelė, akcentinis grojimo mygtukas</string>
+    <string name="remixer_lock_media_classic_summary">Kvadratiškesnė kortelė, kontūrinis grojimo mygtukas</string>
+    <string name="remixer_lock_media_cards_summary">Minkšta kortelė, akcentinis grojimo mygtukas, kaip Apskritimai</string>
+    <string name="remixer_lock_media_neon_summary">Juoda kortelė su akcento kontūru</string>
+    <string name="remixer_lock_media_bento_summary">Minkšta kortelė, akcentinis grojimo mygtukas</string>
+    <string name="remixer_lock_media_shapes_summary">Apvalesnė kortelė, akcentinis grojimo mygtukas</string>
+    <string name="remixer_lock_media_blueprint_summary">Plona kontūro linija, kontūrinis grojimo mygtukas</string>
+    <string name="remixer_lock_media_duo_summary">Dviejų spalvų kortelė, akcentinis grojimo mygtukas</string>
+    <string name="remixer_lock_media_soft_summary">Pakelta kortelė su nuožulniu kraštu</string>
+    <string name="remixer_headers">Antraštės vaizdas</string>
+    <string name="remixer_headers_summary">Pasirinkite foninį vaizdą spartiesiems nustatymams</string>
+    <string name="header_switch">Naudoti antraštės vaizdą</string>
+    <string name="header_switch_summary">Rodyti paveikslėlį už spartiųjų nustatymų</string>
+    <string name="header_source">Šaltinis</string>
+    <string name="header_source_collection">Kolekcija</string>
+    <string name="header_collections_summary_daylight">Antraštė seka dienos laiką arba keičiasi per kolekciją</string>
+    <string name="header_collections_summary_static">Atverkite kolekciją, tada bakstelėkite vaizdą, kad jį naudotumėte</string>
+    <string name="header_collections_empty">Nėra įdiegtų antraštės kolekcijų</string>
+    <string name="header_images_daylight">Šioje kolekcijoje</string>
+    <plurals name="header_image_count">
+        <item quantity="one">%d vaizdas</item>
+        <item quantity="few">%d vaizdai</item>
+        <item quantity="many">%d vaizdo</item>
+        <item quantity="other">%d vaizdų</item>
+    </plurals>
+    <string name="header_photo_summary">Bet kuri nuotrauka ar animuotas GIF iš galerijos</string>
+    <string name="header_height">Aukštis</string>
+    <string name="header_height_value">Aukštis · %1$d dp</string>
+    <string name="header_shadow">Prigesinimas</string>
+    <string name="header_shadow_value">Prigesinimas · %1$d%%</string>
+    <string name="header_failed">Nepavyko išsaugoti antraštės nustatymo</string>
+    <string name="remixer_weather_summary">Orų paslauga ir vienetai</string>
+    <string name="font_preview_notification">Taip jūsų telefonas skaitys.</string>
+    <string name="font_try_text">Išbandykite savo tekstą</string>
+    <string name="font_previewing">Peržiūrima</string>
+    <string name="font_current">Dabartinis šriftas</string>
+    <string name="font_badge_current">Dabartinis</string>
+    <string name="font_apply_done">Pritaikyta</string>
+    <string name="font_filter_sans">Be serifų</string>
+    <string name="font_filter_display">Ekranas</string>
+    <string name="font_filter_script">Rašto ženklai</string>
+    <string name="font_filter_mono">Pastovaus pločio</string>
+    <string name="font_applied">Šriftas pritaikytas</string>
+    <string name="font_failed">Nepavyko pritaikyti šrifto</string>
+    <string name="wallpaper_set">Ekrano fonas nustatytas</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">%d ekrano fonas iš Resurrected Remix. Bakstelėkite, kad peržiūrėtumėte.</item>
+        <item quantity="few">%d ekrano fonai iš Resurrected Remix. Bakstelėkite, kad peržiūrėtumėte.</item>
+        <item quantity="many">%d ekrano fono iš Resurrected Remix. Bakstelėkite, kad peržiūrėtumėte.</item>
+        <item quantity="other">%d ekrano fonų iš Resurrected Remix. Bakstelėkite, kad peržiūrėtumėte.</item>
+    </plurals>
+    <string name="wallpaper_apply_both">Abu</string>
+    <string name="wallpaper_failed">Nepavyko nustatyti ekrano fono</string>
+    <string name="missing_app">Ši programa neįdiegta</string>
+    <string name="remixer_spoofing">Klastojimas</string>
+    <string name="remixer_spoofing_summary">Play Integrity, įrenginio tapatybė ir klastojimas pagal programą</string>
+    <string name="remixer_settings_style">Nustatymų stilius</string>
+    <string name="rr_maintainer">Prižiūrėtojas</string>
+    <string name="remixer_navbar_summary">Pulso ilgis, storis ir išdėstymas</string>
+    <string name="remixer_navbar_pill_length">Gestų pulso ilgis</string>
+    <string name="remixer_navbar_pill_thickness">Gestų pulso storis</string>
+    <string name="remixer_navbar_pill_auto_hide">Išblukinti gestų pulsą</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Paslėpti pulsą po kelių sekundžių; jis grįžta, kai palietžiate ekraną</string>
+    <string name="remixer_navbar_ime">Klaviatūros mygtukai</string>
+    <string name="remixer_navbar_ime_summary">Rodyti atgal ir klaviatūros perjungimo mygtukus po klaviatūra</string>
+    <string name="remixer_navbar_layout">Mygtukų išdėstymas</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Trumpas</item>
+        <item>Įprastas</item>
+        <item>Ilgas</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Plonesnis</item>
+        <item>Plonas</item>
+        <item>Plonas</item>
+        <item>Įprastas</item>
+        <item>Storas</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Įprastas</item>
+        <item>Kompaktiškas</item>
+        <item>"Kairėje"</item>
+        <item>"Dešinėje"</item>
+    </string-array>
 </resources>

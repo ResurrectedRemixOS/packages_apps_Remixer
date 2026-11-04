@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Дэлгэрэнгүй"</string>
     <string name="lockscreen_weather_location_title">"Байршил"</string>
+    <string name="lockscreen_weather_title">Түгжээтэй дэлгэц дээрх цаг агаар</string>
+    <string name="lockscreen_weather_location_summary">Хотын нэрийг харуулах</string>
+    <string name="lockscreen_weather_text_title">Байдал</string>
+    <string name="lockscreen_weather_text_summary">Үүлтэй, Тунгалаг тэнгэр гэх мэт байдлыг харуулах</string>
+    <string name="lockscreen_weather_wind_title">Салхи</string>
+    <string name="lockscreen_weather_wind_summary">Салхины хурд ба чиглэлийг харуулах</string>
+    <string name="lockscreen_weather_humidity_title">Чийгшил</string>
+    <string name="lockscreen_weather_humidity_summary">Чийгшлийг харуулах</string>
+    <string name="custom_clock_weather_title">Цаг агаар цагийн дэлгэцэн дээр</string>
+    <string name="custom_clock_weather_summary">Зай байгаа цагийн дэлгэцэнд цаг агаарыг харуулах</string>
+    <string name="remixer_weather_service">Цаг агаарын үйлчилгээ</string>
+    <string name="remixer_weather_page_summary">Түгжээтэй дэлгэцийн цаг агаар ба түүний харуулах зүйлс</string>
 </resources>

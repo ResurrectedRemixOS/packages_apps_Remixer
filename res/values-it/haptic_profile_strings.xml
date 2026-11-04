@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_profile_title">Profilo aptico</string>
+    <string name="haptic_profile_crisp">Netto</string>
+    <string name="haptic_profile_gentle">Morbido</string>
+    <string name="haptic_profile_op13crisp">OP13 netto</string>
+    <string name="haptic_profile_op13gentle">OP13 morbido</string>
+</resources>

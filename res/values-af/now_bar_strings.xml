@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"Knoppies"</string>
     <string name="now_bar_text">"Teks"</string>
     <string name="now_bar_text_size">"Teksgrootte"</string>
+    <string name="now_bar_summary">Lewendige aktiwiteite onderaan die sluitskerm</string>
+    <string name="now_bar_show">Wys</string>
+    <string name="now_bar_music">Musiek en video</string>
+    <string name="now_bar_timers">Timers, stophorlosie en wekkers</string>
+    <string name="now_bar_hide_call">Verberg die oproepkennisgewing</string>
+    <string name="now_bar_hide_call_summary">Op die sluitskerm word \'n oproep in die Now Bar nie ook as \'n kennisgewing gelys nie</string>
+    <string name="now_bar_live">Lewendige opdaterings</string>
+    <string name="now_bar_live_summary">Navigasie, ritte, aflewerings, tellings</string>
+    <string name="now_bar_scores">Lewendige tellings</string>
+    <string name="now_bar_live_apps">Programme vir Lewendige opdaterings</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> programme</string>
+    <string name="now_bar_pin">Vasgepen op die altyd-aan-skerm</string>
+    <string name="now_bar_unpin_question">Ontpen <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Ontpen</string>
+    <string name="now_bar_scores_summary">Speletjies wat jy in Eers-kyk volg</string>
+    <string name="now_bar_recording">Skerm- en stemopname</string>
+    <string name="now_bar_buds">Oorfone en horlosies</string>
+    <string name="now_bar_buds_summary">Battery van ’n gekoppelde toestel: links, regs en houer vir oorfone</string>
+    <string name="now_bar_wave">Golfanimasie</string>
+    <string name="now_bar_aod">Wys op altyd-aan-skerm</string>
+    <string name="now_bar_chip">Skyfie in die statusbalk</string>
+    <string name="now_bar_chip_summary">Speel musiek en timers langs die klok terwyl dit ontsluit is</string>
+    <string name="now_bar_footer">Met musiek in die Now Bar word die groot sluitskerm-speler versteek. Swiep die balk om tussen aktiwiteite te wissel, tik dit om die kontroles oop te maak, en hou dit ingedruk om een te versteek totdat dit eindig. Swiep \'n gepouseerde liedjie van die balk af om dit uit te vee.\n\nLewendige tellings wys wedstryde van die spanne wat jy volg in die Google-app. Met Smartspacer kan jy \'n sporteiker daar byvoeg, en die tellings kom dan hier.</string>
+    <string name="now_bar_looks">Voorkomste</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Verstek"</item>
+        <item>Liquid Glass</item>
+        <item>Klein</item>
+        <item>Groot</item>
+        <item>Neon</item>
+        <item>Glaskaart</item>
+    </string-array>
+    <string name="now_bar_material">Materiaal</string>
+    <string name="now_bar_material_summary">Liquid Glass gebruik die glas wat jy in Tema stel</string>
+    <string-array name="now_bar_material_entries">
+        <item>Eenkleurig</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Albumkuns</item>
+        <item>Aksent</item>
+        <item>Donker</item>
+    </string-array>
+    <string name="now_bar_opacity">Ondoorsigtigheid</string>
+    <string name="now_bar_opacity_summary">Met Liquid Glass, hoeveel kleur tint die glas</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Geen"</item>
+        <item>Dun</item>
+        <item>Aksent</item>
+    </string-array>
+    <string name="now_bar_shadow">Skaduwee</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Af"</item>
+        <item>Sag</item>
+        <item>Gloed</item>
+    </string-array>
+    <string name="now_bar_more">Meer aktiwiteite</string>
+    <string-array name="now_bar_more_entries">
+        <item>Net swiep</item>
+        <item>Kolletjies</item>
+        <item>Kyk agter</item>
+    </string-array>
+    <string name="now_bar_size">Grootte en vorm</string>
+    <string name="now_bar_height">Hoogte</string>
+    <string name="now_bar_width_summary">Vol skuif die kortpaaie bo die balk</string>
+    <string-array name="now_bar_width_entries">
+        <item>Smal</item>
+        <item>Tussen kortpaaie</item>
+        <item>Vol</item>
+    </string-array>
+    <string name="now_bar_corners">Hoeke</string>
+    <string name="now_bar_raise">Verhef</string>
+    <string name="now_bar_art">Albumkuns</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Sirkel"</item>
+        <item>Afgerond</item>
+        <item>"Vierkant"</item>
+        <item>"Af"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Slaan oor en speel</item>
+        <item>Slegs speel</item>
+        <item>"Geen"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Een reël</item>
+        <item>Twee reëls</item>
+        <item>Net liedjie</item>
+    </string-array>
+    <string name="now_bar_show_page">Wat in die balk wys</string>
+    <string name="now_bar_show_page_summary">Musiek en video, timers, oproepe en meer</string>
+    <string name="now_bar_where">Waar anders</string>
 </resources>

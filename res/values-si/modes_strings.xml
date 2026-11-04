@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">ඔබේ මාදිලි සෑම එකකටම ලුක් එකක්</string>
+    <string name="remix_modes_everyday">එදිනෙදා ලුක්</string>
+    <string name="remix_modes_everyday_summary">ලුක් ඇති මාදිලියක් ක්‍රියාත්මක නොවන විට නැවත එයි</string>
+    <string name="remix_modes_wallpaper">වෝල්පේපරය ලුක් අනුගමනය කරයි</string>
+    <string name="remix_modes_wallpaper_summary">මාදිලියක් වෝල්පේපරයද වෙනස් කළ හැක</string>
+    <string name="remix_modes_modes">ඔබේ මාදිලි</string>
+    <string name="remix_modes_no_change">වෙනසක් නැත</string>
+    <string name="remix_modes_none">පළමුව තේමාව › ලුක් තුළ ලුක් එකක් සුරකින්න</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g> සඳහා ලුක්</string>
+</resources>

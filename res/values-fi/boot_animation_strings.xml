@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Käynnistysanimaatio</string>
+    <string name="boot_animation_note">Toistetaan seuraavan kerran, kun puhelin käynnistyy.</string>
+    <string name="boot_animation_custom">Tiedostosi</string>
+    <string name="boot_animation_custom_pick">Valitse tiedosto…</string>
+    <string name="boot_animation_custom_invalid">Tämä tiedosto ei ole käynnistysanimaatio</string>
+    <string name="boot_animation_failed">Käynnistysanimaatiota ei voitu vaihtaa</string>
+</resources>

@@ -15,4 +15,60 @@
     <string name="looks_save_look">"Хадгалах"</string>
     <string name="looks_custom_color">"Захиалгат өнгө"</string>
     <string name="looks_part_clock_color">"Цагны өнгө"</string>
+    <string name="looks_title">Харагдацууд</string>
+    <string name="looks_summary">Бүх тохиргоо нэг товшилтоор</string>
+    <string name="looks_rr">RR харагдац</string>
+    <string name="looks_yours">Таны харагдацууд</string>
+    <string name="looks_none">Одоогоор хадгалсан зүйл алга</string>
+    <string name="looks_save">Одоогийнхыг хадгалах</string>
+    <string name="looks_import_clipboard">Түр санах ойгоос</string>
+    <string name="looks_import_file">Файлаас</string>
+    <string name="looks_mine">Миний харагдац</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> хэрэглэгдлээ</string>
+    <string name="looks_failed">Бүгдийг нь хэрэглэж чадсангүй</string>
+    <string name="looks_invalid">Энэ нь RR харагдац биш</string>
+    <string name="looks_part_accent">Акцент өнгө</string>
+    <string name="looks_part_qs">QS хэв маяг</string>
+    <string name="looks_part_clock_face">Түгжээтэй дэлгэцийн цагийн хэлбэр</string>
+    <string name="looks_part_clock_look">Статус самбарын цаг</string>
+    <string name="looks_part_edge">Ирмэгийн гэрэлтүүлэг</string>
+    <string name="looks_part_boot">Асаалтын анимаци</string>
+    <string name="looks_part_haptics">Haptic Remix хэв маяг</string>
+    <plurals name="looks_haptic_patterns">
+        <item quantity="other">%d хэв маяг ба тэдгээрийн оноолт</item>
+    </plurals>
+    <string name="looks_saturation">Ханалт <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Акцент</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>”-г хуваалцах</string>
+    <string name="looks_share_hint">Өөр RR утасны камераар уншуулах эсвэл Харагдац › Импорт хэсгээс</string>
+    <string name="looks_share_file">Файл хуваалцах</string>
+    <string name="looks_save_file">Файл хадгалах</string>
+    <string name="looks_import_scan">QR код уншуулах</string>
+    <string name="looks_import_title">Харагдац импортлох</string>
+    <string name="looks_from_qr">QR кодоос</string>
+    <string name="looks_from_file">файлаас</string>
+    <string name="looks_from_clipboard">түр санах ойгоос</string>
+    <string name="looks_import_same">Энэ аль хэдийн таны тохиргоотой таарч байна.</string>
+    <plurals name="looks_import_changes">
+        <item quantity="other">Энэ <xliff:g id="count" example="4">%d</xliff:g> зүйлийг өөрчилнө:</item>
+    </plurals>
+    <string name="looks_new">Шинэ харагдац</string>
+    <string name="looks_edit_title">Харагдац засах</string>
+    <string name="looks_in_look">Энэ харагдацад</string>
+    <string name="looks_not_included">Энэ харагдацад байхгүй</string>
+    <string name="looks_save_apply">Хадгалаад хэрэглэх</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” хадгалагдлаа</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>”-г устгах уу?</string>
+    <string name="looks_rr_wallpaper">RR дэлгэцийн зураг <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Акцентын ханалт</string>
+    <string name="looks_part_clock_chip">Статус самбарын цагийн тэмдэг</string>
+    <string name="looks_part_edge_style">Ирмэгийн гэрлийн хэв маяг</string>
+    <string name="looks_scan_hint">Камераа Look-ийн QR кодонд чиглүүлнэ үү</string>
+    <string name="looks_scan_failed">Камерыг нээж чадсангүй</string>
+    <string name="look_roulette_title">Look рулет</string>
+    <string-array name="look_roulette_entries">
+        <item>"Унтраалттай"</item>
+        <item>Түгжээ тайлах бүрт өөр Look</item>
+        <item>Өдөр бүр өөр Look</item>
+    </string-array>
 </resources>

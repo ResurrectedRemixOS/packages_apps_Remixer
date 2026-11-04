@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"तारीख"</string>
     <string name="sb_weather_category">"मौसम"</string>
+    <string name="sb_clock_category">घड़ी और तारीख</string>
+    <string name="sb_clock_bold_title">बोल्ड घड़ी</string>
+    <string name="sb_clock_bold_summary">स्टेटस बार की घड़ी बोल्ड दिखाएं</string>
+    <string name="sb_clock_period_separator_title">समय विभाजक</string>
+    <string name="sb_clock_period_separator_summary">10.45 की जगह 10:45</string>
+    <string name="sb_clock_date_position_title">तारीख की स्थिति</string>
+    <string name="sb_clock_date_style_title">तारीख का स्वरूप</string>
+    <string name="sb_clock_date_format_title">तारीख का फ़ॉर्मैट</string>
+    <string name="sb_clock_chip_category">घड़ी की पृष्ठभूमि</string>
+    <string name="sb_clock_chip_title">पृष्ठभूमि की शैली</string>
+    <string name="sb_clock_chip_start_title">ग्रेडिएंट की शुरुआत</string>
+    <string name="sb_clock_chip_end_title">ग्रेडिएंट का अंत</string>
+    <string name="sb_clock_chip_angle_title">ग्रेडिएंट का कोण</string>
+    <string name="sb_clock_chip_mask_title">ग्रेडिएंट में से समय काटें</string>
+    <string name="sb_clock_chip_mask_summary">ग्रेडिएंट अंकों के पीछे नहीं, अंकों के बीच से दिखेगा</string>
+    <string name="sb_weather_title">स्टेटस बार में मौसम</string>
+    <string name="sb_weather_position_title">स्थिति</string>
+    <string name="status_bar_clock_rr_style_title">घड़ी का रूप</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"डिफ़ॉल्ट"</item>
+        <item>नियॉन</item>
+        <item>बंटा हुआ</item>
+        <item>RR चिह्न</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>एक के ऊपर एक</item>
+        <item>अंगारा</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">समय के बगल में Flatline</string>
+    <string name="sb_clock_flatline_summary">चिप के अंदर RR की धड़कन वाली रेखा: संगीत के साथ धड़कती है, सूचना आने पर उछलती है</string>
 </resources>

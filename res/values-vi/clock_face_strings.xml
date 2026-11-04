@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Mặc định"</string>
     <string name="clock_faces_size">"Kích thước"</string>
     <string name="clock_faces_restart">"Khởi động lại"</string>
+    <string name="remixer_clock_faces">Mặt đồng hồ</string>
+    <string name="clock_faces_system">Đồng hồ hệ thống</string>
+    <string name="clock_faces_system_desc">Đồng hồ từ Hình nền &amp; kiểu</string>
+    <string name="clock_faces_position">%1$d trên %2$d</string>
+    <string name="clock_faces_applied">Đã áp dụng</string>
+    <string name="clock_faces_preview_unavailable">Không có bản xem trước</string>
+    <string name="clock_faces_failed">Không thể thay đổi đồng hồ</string>
+    <string name="clock_faces_color_accent">Nhấn mạnh</string>
+    <string name="clock_faces_color_custom">Tùy chỉnh</string>
+    <string name="clock_faces_color_album">Ảnh bìa album</string>
+    <string name="clock_faces_color_gradient">Chuyển màu</string>
+    <string name="clock_faces_own_colors">Mặt này giữ màu riêng của nó.</string>
+    <string name="clock_faces_album_hint">Lấy màu từ ảnh bìa album khi đang phát nhạc.</string>
+    <string name="clock_faces_size_position">Kích thước và vị trí</string>
+    <string name="clock_faces_size_value">Kích thước · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Khoảng cách từ đầu</string>
+    <string name="clock_faces_top_value">Khoảng cách từ đầu · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Vị trí ngang</string>
+    <string name="clock_faces_horizontal_center">Vị trí ngang · Giữa</string>
+    <string name="clock_faces_horizontal_right">Vị trí ngang · Lệch phải <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_left">Vị trí ngang · Lệch trái <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_fixed">Mặt này luôn được căn giữa.</string>
+    <string name="clock_faces_opacity">Độ mờ</string>
+    <string name="clock_faces_opacity_value">Độ mờ · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Chuyển động</string>
+    <string name="clock_faces_wobble">Rung nhẹ khi đang sạc</string>
+    <string name="clock_faces_wobble_summary">Nảy một lần khi cắm máy</string>
+    <string name="clock_faces_aod_anim">Chuyển tiếp màn hình luôn bật</string>
+    <string name="clock_faces_aod_anim_summary">Thu nhỏ và mờ dần đồng hồ khi chuyển sang màn hình luôn bật</string>
+    <string name="clock_faces_restart_title">Khởi động lại màn hình khóa?</string>
+    <string name="clock_faces_restart_message">Chuyển giữa đồng hồ hệ thống và mặt tùy chỉnh sẽ khởi động lại SystemUI. Màn hình sẽ tối trong một giây.</string>
+    <string name="clock_faces_note">SystemUI vẽ bản xem trước trên hình nền màn hình khóa của bạn. Màu, kích thước và vị trí thay đổi ngay trên màn hình khóa.</string>
 </resources>

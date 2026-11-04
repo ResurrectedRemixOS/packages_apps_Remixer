@@ -8,4 +8,50 @@
         <item>"મધ્યમ"</item>
         <item>"મોટું"</item>
     </string-array>
+    <string name="pie_title">પાઇ કંટ્રોલ્સ</string>
+    <string name="pie_summary">શૉર્ટકટ્સની પાઇ માટે કિનારીના નીચેના ભાગને દબાવી રાખો</string>
+    <string name="pie_zone">કિનારીનો ભાગ</string>
+    <string name="pie_clock">તેની ઉપર ઘડિયાળ અને બૅટરી</string>
+    <string name="pie_items">સ્લાઇસ</string>
+    <string-array name="pie_items_entries">
+        <item>"પાછળ"</item>
+        <item>હોમ</item>
+        <item>"તાજેતરના"</item>
+        <item>"નોટિફિકેશન"</item>
+        <item>ફ્લેશલાઇટ</item>
+        <item>"સ્ક્રીનશૉટ"</item>
+        <item>"પાવર મેનૂ"</item>
+        <item>સહાયક</item>
+        <item>"કૅમેરા"</item>
+    </string-array>
+    <string name="pie_footer">તેને સ્થિર રીતે પા સેકન્ડ દબાવી રાખવું પડે છે, જેથી કિનારીથી ઝડપી સ્વાઇપ હજુ પણ પાછળ લઈ જાય. તે લૉક સ્ક્રીન પર ખુલતું નથી.</string>
+    <string-array name="pie_edges_entries">
+        <item>"ડાબે"</item>
+        <item>"જમણે"</item>
+        <item>બંને</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>નીચેનો ત્રીજો ભાગ</item>
+        <item>મધ્ય</item>
+        <item>આખી કિનારી</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>નિયૉન</item>
+        <item>ગ્લાસ</item>
+        <item>ક્લાસિક</item>
+    </string-array>
+    <string name="sidebar_style_title">ઍપ સાઇડબારનો દેખાવ</string>
+    <string-array name="sidebar_style_entries">
+        <item>ક્લાસિક</item>
+        <item>RR કાચ</item>
+        <item>નિયૉન</item>
+    </string-array>
+    <string name="sidebar_settings_title">ઍપ સાઇડબાર</string>
+    <string name="sidebar_settings_summary">ઍપ અને ટૂલ્સ માટે હૅન્ડલ પરથી અંદર સ્વાઇપ કરો</string>
+    <string name="sidebar_apps_title">ઍપ્સ, હૅન્ડલ અને ક્લિપબોર્ડ</string>
+    <string name="sidebar_apps_summary">હૅન્ડલ ચાલુ કરો, ઍપ્સ પસંદ કરો અને સ્માર્ટ ક્લિપબોર્ડ સેટ કરો</string>
+    <string name="sidebar_handle_size_title">હૅન્ડલનું કદ</string>
+    <string name="sidebar_tools_title">ટૂલ્સની હાર</string>
+    <string name="sidebar_tools_summary">તમારી ઍપ્સ નીચે સ્ક્રીનશૉટ અને ફ્લેશલાઇટ</string>
+    <string name="sidebar_footer">હૅન્ડલ એ તમારા એક્સેન્ટ રંગની પાતળી રેખા છે; તેને કિનારી સાથે ખસેડવા ખેંચો. જેસ્ચર નૅવિગેશનમાં તે કિનારીના પોતાના ભાગમાં જ રહે છે, અને બીજે બધે બૅક કામ કરે છે.</string>
 </resources>

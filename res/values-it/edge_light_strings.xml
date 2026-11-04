@@ -16,4 +16,26 @@
     <string name="edge_light_moment_battery_low">Batteria scarica</string>
     <string name="edge_light_moment_unlock">"Sbloccato"</string>
     <string name="remixer_color_default">"Predefinito"</string>
+    <string name="edge_light_title">Illuminazione dei bordi</string>
+    <string name="edge_light_summary">Accendi i bordi dello schermo per notifiche, chiamate, sveglie e altro</string>
+    <string name="edge_light_color_rainbow">Arcobaleno</string>
+    <string name="edge_light_color_custom">Personalizzato</string>
+    <string name="edge_light_style_default">Lati</string>
+    <string name="edge_light_style_frame">Intero bordo</string>
+    <string name="edge_light_animation_effect_none">Standard</string>
+    <string name="edge_light_animation_effect_breathing">Respiro</string>
+    <string name="edge_light_animation_effect_wave">Onda</string>
+    <string name="edge_light_animation_effect_sparkle">Scintilla</string>
+    <string name="edge_light_pulse_count_title">Impulsi</string>
+    <string name="edge_light_pulse_count_summary">Quante volte si accendono i bordi</string>
+    <string name="edge_light_stroke_width_title">Spessore</string>
+    <string name="edge_light_stroke_width_summary">Larghezza della luce in dp</string>
+    <string name="edge_light_spread_summary">Quanto si estende il bagliore dal bordo verso l\'interno</string>
+    <string name="edge_light_intensity_summary">Luminosità del bagliore. 0 lo disattiva</string>
+    <string name="edge_light_moments_title">Momenti</string>
+    <string name="edge_light_moment_alarms">Sveglia e timer</string>
+    <string name="edge_light_moment_plugged">Collegato</string>
+    <string name="edge_light_moment_color">Cambia colore</string>
+    <string name="edge_light_moments_footer">Tocca il punto di un momento per cambiarne il colore. Chiamate e sveglie si accendono mentre suonano, anche in modalità silenziosa. Gli altri momenti non si attivano con Non disturbare.</string>
+    <string name="edge_light_look_title">Preset</string>
 </resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="volume_page_title">အသံအဆင့်ပြား</string>
+    <string name="volume_page_summary">နီယွန်၊ ဖန်ခွက်၊ ပလ်ပ် သို့မဟုတ် ဂန္ထဝင် RR</string>
+    <string name="volume_behavior">အပြုအမူ</string>
+    <string name="volume_on_left_title">ဘယ်ဘက်ရှိ ဘောင်</string>
+    <string name="volume_on_left_summary">ဂန္ထဝင် RR သည် အမြဲတမ်း ထိပ်တွင် ရှိသည်</string>
+    <string name="volume_ringer_title">နှိုးစက်မုဒ် ခလုတ်</string>
+    <string name="volume_tick_title">ပွတ်ဆွဲစဉ် အမှတ်အသား ပြ</string>
+    <string name="volume_percent_title">ရာခိုင်နှုန်းဖြင့် အဆင့် ပြ</string>
+    <string name="volume_timeout_title">ပြီးနောက် ဖျောက်ရန်</string>
+    <string name="volume_footer">ပုံစံသည် ဘောင်၏ အသွင်အပြင်ကိုသာ ပြောင်းလဲပြီး အလုပ်လုပ်ပုံကို မပြောင်းပါ။ Android သည် စတော့ဘောင်ကို ဆက်ထားသည်။ အစက်များကို နှိပ်၍ အသံအမျိုးအစားအားလုံးကို ကြည့်ပါ၊ ချဲ့ထားသော ဘောင်သည်လည်း တူညီသောပုံစံကို အသုံးပြုသည်။</string>
+</resources>

@@ -10,4 +10,24 @@
     <string name="rr_about_this_phone">"یہ فون"</string>
     <string name="rr_about_network">"نیٹ ورک"</string>
     <string name="rr_about_hidden">"مخفی"</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">سرکاری</string>
+    <string name="rr_about_unofficial">غیر سرکاری</string>
+    <string name="rr_about_vanilla">ونیلا</string>
+    <string name="rr_about_hardware">ہارڈویئر</string>
+    <string name="rr_about_processor">پروسیسر</string>
+    <string name="rr_about_processor_sub">%1$d کور · %2$s GHz تک</string>
+    <string name="rr_about_processor_cores">%1$d کور</string>
+    <string name="rr_about_storage_used">%1$s استعمال ہوئی</string>
+    <string name="rr_about_display">ڈسپلے</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · چارج ہو رہی ہے</string>
+    <string name="rr_about_kernel_linux">Linux کرنل</string>
+    <string name="rr_about_software_purpose">Android ورژن، سیکیورٹی اپڈیٹ، بلڈ کی تاریخ اور بلڈ نمبر</string>
+    <string name="rr_about_security_patch">سیکیورٹی اپڈیٹ</string>
+    <string name="rr_about_build_date">بلڈ کی تاریخ</string>
+    <string name="rr_about_maintainer">مینٹینر</string>
+    <string name="rr_about_show">دکھائیں</string>
+    <string name="rr_about_hide">چھپائیں</string>
 </resources>

@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Πίνακας έντασης ήχου</string>
+    <string name="volume_page_summary">Νέον, Γυαλί, Κάψουλα ή Κλασικό RR</string>
+    <string name="volume_behavior">Συμπεριφορά</string>
+    <string name="volume_on_left_title">Πίνακας αριστερά</string>
+    <string name="volume_on_left_summary">Το Κλασικό RR βρίσκεται πάντα πάνω</string>
+    <string name="volume_ringer_title">Κουμπί λειτουργίας κλήσης</string>
+    <string name="volume_tick_title">Ελαφρύ κλικ όσο σύρετε</string>
+    <string name="volume_percent_title">Εμφάνιση του επιπέδου σε ποσοστό</string>
+    <string name="volume_timeout_title">Απόκρυψη μετά από</string>
+    <string name="volume_footer">Μια προεπιλογή αλλάζει την όψη του πίνακα, όχι τη λειτουργία του. Το Android διατηρεί τον τυπικό πίνακα. Πατήστε τις τελείες για να δείτε κάθε ροή· ο ανοιχτός πίνακας χρησιμοποιεί την ίδια εμφάνιση.</string>
 </resources>

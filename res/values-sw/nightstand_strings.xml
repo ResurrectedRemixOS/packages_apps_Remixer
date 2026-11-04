@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Lini"</string>
+    <string name="nightstand_title">Saa ya kitandani</string>
+    <string name="nightstand_summary">Saa ndogo yenye mwanga hafifu kitandani kwenye onyesho la kila wakati wakati wa kuchaji usiku</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Imezimwa"</item>
+        <item>Kwenye chaja usiku</item>
+        <item>Kila usiku, kwa ratiba</item>
+        <item>Wakati hali ya Muda wa kulala iko wazi</item>
+    </string-array>
+    <string name="nightstand_from">Usiku unaanza</string>
+    <string name="nightstand_to">Usiku unaisha</string>
+    <string name="nightstand_brightness">Kikomo cha mwangaza</string>
+    <string name="nightstand_brightness_summary">Mwangaza wa juu zaidi ambao onyesho la kila wakati linaweza kufikia wakati Saa ya kitandani iko wazi</string>
+    <string name="nightstand_face">Muundo wa saa</string>
+    <string name="nightstand_face_keep">Endelea na muundo wa sasa</string>
+    <string name="nightstand_footer">Saa ya kitandani huwasha onyesho la kila wakati wakati inafanya kazi na kulirudisha baadaye. Huisha chaja ikitolewa, kengele ikilia au usiku ukiisha. Muundo hubadilisha tu kati ya miundo miwili maalum; saa ya mfumo inabaki.</string>
 </resources>

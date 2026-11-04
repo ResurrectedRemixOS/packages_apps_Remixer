@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"البطارية"</string>
     <string name="charge_report_temp">"درجة الحرارة"</string>
     <string name="charge_report_time">"الوقت"</string>
+    <string name="charge_report_title">تقارير الشحن</string>
+    <string name="charge_report_summary">ملخص لكل عملية شحن عند فصل الشاحن</string>
+    <string name="charge_report_min_title">فقط إن أضاف على الأقل</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 أيام</item>
+        <item>7 أيام</item>
+        <item>14 يومًا</item>
+        <item>30 يومًا</item>
+    </string-array>
+    <string name="charge_report_history_days">آخر <xliff:g id="days" example="7">%1$d</xliff:g> أيام</string>
+    <string name="charge_report_today">اليوم، <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">أمس، <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> د</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> س <xliff:g id="minutes" example="02">%2$02d</xliff:g> د</string>
+    <string name="charge_report_watts">واط</string>
+    <string name="charge_report_added">المضاف</string>
+    <string name="charge_report_peak">الذروة</string>
+    <string name="charge_report_average">المتوسط</string>
+    <string name="charge_report_max_temp">أعلى حرارة</string>
+    <string name="charge_report_charger">الشاحن</string>
+    <string name="charge_report_started">بدأ عند</string>
+    <string name="charge_report_wired">سلكي</string>
+    <string name="charge_report_wireless">لاسلكي</string>
+    <string name="charge_report_dock">القاعدة</string>
+    <string name="charge_report_empty">لا توجد عمليات شحن بعد</string>
+    <string name="charge_report_footer">تقرأ SystemUI تيار البطارية وجهدها وحرارتها كل 30 ثانية أثناء التوصيل. قيم الواط هي ما يقيسه الهاتف، لذا قد تختلف عن الرقم المكتوب على الشاحن. تبقى التقارير على الهاتف؛ لا يُرفع شيء.</string>
 </resources>

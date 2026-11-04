@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Λεπτομέρειες"</string>
     <string name="lockscreen_weather_location_title">"Τοποθεσία"</string>
+    <string name="lockscreen_weather_title">Καιρός στην οθόνη κλειδώματος</string>
+    <string name="lockscreen_weather_location_summary">Εμφάνιση ονόματος πόλης</string>
+    <string name="lockscreen_weather_text_title">Συνθήκες</string>
+    <string name="lockscreen_weather_text_summary">Εμφάνιση των συνθηκών, όπως Συννεφιά ή Αίθριος ουρανός</string>
+    <string name="lockscreen_weather_wind_title">Άνεμος</string>
+    <string name="lockscreen_weather_wind_summary">Εμφάνιση ταχύτητας και κατεύθυνσης ανέμου</string>
+    <string name="lockscreen_weather_humidity_title">Υγρασία</string>
+    <string name="lockscreen_weather_humidity_summary">Εμφάνιση της υγρασίας</string>
+    <string name="custom_clock_weather_title">Καιρός σε όψεις ρολογιού</string>
+    <string name="custom_clock_weather_summary">Εμφάνιση καιρού μέσα στις όψεις ρολογιού που έχουν χώρο γι\' αυτόν</string>
+    <string name="remixer_weather_service">Υπηρεσία καιρού</string>
+    <string name="remixer_weather_page_summary">Καιρός οθόνης κλειδώματος και τι εμφανίζει</string>
 </resources>

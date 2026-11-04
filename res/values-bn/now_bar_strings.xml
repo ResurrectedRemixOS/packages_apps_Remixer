@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"বোতাম"</string>
     <string name="now_bar_text">"পাঠ্য"</string>
     <string name="now_bar_text_size">"পাঠ্যের আকার"</string>
+    <string name="now_bar_summary">লক স্ক্রিনের নিচে লাইভ অ্যাক্টিভিটি</string>
+    <string name="now_bar_show">দেখান</string>
+    <string name="now_bar_music">মিউজিক ও ভিডিও</string>
+    <string name="now_bar_timers">টাইমার, স্টপওয়াচ ও অ্যালার্ম</string>
+    <string name="now_bar_hide_call">কলের বিজ্ঞপ্তি লুকান</string>
+    <string name="now_bar_hide_call_summary">লক স্ক্রিনে নাও Now Bar-এর কল আলাদা বিজ্ঞপ্তি হিসেবে দেখানো হবে না</string>
+    <string name="now_bar_live">লাইভ আপডেট</string>
+    <string name="now_bar_live_summary">নেভিগেশন, রাইড, ডেলিভারি, স্কোর</string>
+    <string name="now_bar_scores">লাইভ স্কোর</string>
+    <string name="now_bar_live_apps">লাইভ আপডেটের অ্যাপ</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g>টি অ্যাপ</string>
+    <string name="now_bar_pin">অ্যালওয়েজ-অন ডিসপ্লেতে পিন করা</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> আনপিন করবেন?</string>
+    <string name="now_bar_unpin">আনপিন</string>
+    <string name="now_bar_scores_summary">অ্যাট আ গ্লান্সে অনুসরণ করা গেম</string>
+    <string name="now_bar_recording">স্ক্রিন ও ভয়েস রেকর্ডিং</string>
+    <string name="now_bar_buds">ইয়ারবাড ও ওয়াচ</string>
+    <string name="now_bar_buds_summary">সংযুক্ত ডিভাইসের ব্যাটারি: ইয়ারবাডের বাঁ, ডান ও কেস</string>
+    <string name="now_bar_wave">ওয়েভ অ্যানিমেশন</string>
+    <string name="now_bar_aod">অ্যালওয়েজ-অন ডিসপ্লেতে দেখান</string>
+    <string name="now_bar_chip">স্ট্যাটাস বারে চিপ</string>
+    <string name="now_bar_chip_summary">আনলক অবস্থায় ঘড়ির পাশে মিউজিক ও টাইমার দেখান</string>
+    <string name="now_bar_footer">Now Bar-এ মিউজিক থাকলে লক স্ক্রিনের বড় প্লেয়ার লুকানো থাকে। অ্যাক্টিভিটি বদলাতে বারে সোয়াইপ করুন, নিয়ন্ত্রণ খুলতে ট্যাপ করুন, আর শেষ না হওয়া পর্যন্ত কোনো একটি লুকাতে দীর্ঘক্ষণ চাপুন। পজ করা গান বার থেকে সোয়াইপ করে সরিয়ে দিন।\n\nলাইভ স্কোর দেখায় Google অ্যাপে আপনার অনুসরণ করা দলের গেম। Smartspacer দিয়ে সেখানে একটি স্পোর্টস টার্গেট যোগ করলে স্কোর এখানে আসবে।</string>
+    <string name="now_bar_looks">লুক</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"ডিফল্ট"</item>
+        <item>Liquid Glass</item>
+        <item>ছোট</item>
+        <item>বড়</item>
+        <item>নিয়ন</item>
+        <item>গ্লাস কার্ড</item>
+    </string-array>
+    <string name="now_bar_material">ম্যাটেরিয়াল</string>
+    <string name="now_bar_material_summary">Liquid Glass থিমে সেট করা গ্লাস ব্যবহার করে</string>
+    <string-array name="now_bar_material_entries">
+        <item>কঠিন</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>অ্যালবাম আর্ট</item>
+        <item>অ্যাকসেন্ট</item>
+        <item>গাঢ়</item>
+    </string-array>
+    <string name="now_bar_opacity">স্বচ্ছতা</string>
+    <string name="now_bar_opacity_summary">Liquid Glass-এ রং কতটা গ্লাসে মিশবে</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"কোনওটিই নয়"</item>
+        <item>চিকন</item>
+        <item>অ্যাকসেন্ট</item>
+    </string-array>
+    <string name="now_bar_shadow">ছায়া</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"বন্ধ আছে"</item>
+        <item>সফট</item>
+        <item>গ্লো</item>
+    </string-array>
+    <string name="now_bar_more">আরও অ্যাক্টিভিটি</string>
+    <string-array name="now_bar_more_entries">
+        <item>শুধু সোয়াইপ করুন</item>
+        <item>বিন্দু</item>
+        <item>পেছনে উঁকি</item>
+    </string-array>
+    <string name="now_bar_size">আকার ও আকৃতি</string>
+    <string name="now_bar_height">উচ্চতা</string>
+    <string name="now_bar_width_summary">পুরোটা বারের উপরে শর্টকাট সরাবে</string>
+    <string-array name="now_bar_width_entries">
+        <item>সরু</item>
+        <item>শর্টকাটের মাঝে</item>
+        <item>পূর্ণ</item>
+    </string-array>
+    <string name="now_bar_corners">কোণ</string>
+    <string name="now_bar_raise">তোলো</string>
+    <string name="now_bar_art">অ্যালবাম আর্ট</string>
+    <string-array name="now_bar_art_entries">
+        <item>"চেনাশোনা"</item>
+        <item>গোলাকার</item>
+        <item>"বর্গাকার"</item>
+        <item>"বন্ধ আছে"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>এড়িয়ে যান ও চালান</item>
+        <item>শুধু চালান</item>
+        <item>"কোনওটিই নয়"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>এক লাইন</item>
+        <item>দুই লাইন</item>
+        <item>শুধু গান</item>
+    </string-array>
+    <string name="now_bar_show_page">বারে যা দেখাবে</string>
+    <string name="now_bar_show_page_summary">মিউজিক ও ভিডিও, টাইমার, কল ও আরও কিছু</string>
+    <string name="now_bar_where">আর কোথায়</string>
 </resources>

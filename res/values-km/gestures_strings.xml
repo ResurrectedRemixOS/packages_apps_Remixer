@@ -8,4 +8,50 @@
         <item>"មធ្យម"</item>
         <item>"ធំ"</item>
     </string-array>
+    <string name="pie_title">ម៉ឺនុយរាងនំភី</string>
+    <string name="pie_summary">សង្កត់ផ្នែកខាងក្រោមនៃគែមដើម្បីបើកផ្លូវកាត់រាងនំភី</string>
+    <string name="pie_zone">ផ្នែកមួយនៃគែម</string>
+    <string name="pie_clock">នាឡិកា និងថ្មនៅខាងលើវា</string>
+    <string name="pie_items">ផ្នែកតូចៗ</string>
+    <string-array name="pie_items_entries">
+        <item>"ថយក្រោយ"</item>
+        <item>ផ្ទះ</item>
+        <item>"ថ្មីៗ"</item>
+        <item>"ការ​ជូនដំណឹង"</item>
+        <item>"ពិល"</item>
+        <item>"រូបថតអេក្រង់"</item>
+        <item>"ម៉ឺនុយ​ថាមពល"</item>
+        <item>"Google Assistant"</item>
+        <item>"កាមេរ៉ា"</item>
+    </string-array>
+    <string name="pie_footer">ត្រូវការសង្កត់មួយត្រីមាសវិនាទីដោយមិនរំកិល ដូច្នេះការអូសលឿនពីគែមនៅតែត្រឡប់ក្រោយបាន។ វាមិនបើកនៅលើអេក្រង់ចាក់សោទេ។</string>
+    <string-array name="pie_edges_entries">
+        <item>"ឆ្វេង"</item>
+        <item>"ស្ដាំ"</item>
+        <item>ទាំងពីរ</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>ផ្នែកទាបមួយភាគបី</item>
+        <item>កណ្ដាល</item>
+        <item>គែមទាំងមូល</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>នេអុង</item>
+        <item>កញ្ចក់</item>
+        <item>បុរាណ</item>
+    </string-array>
+    <string name="sidebar_style_title">រូបរាងរបារចំហៀងកម្មវិធី</string>
+    <string-array name="sidebar_style_entries">
+        <item>បុរាណ</item>
+        <item>កញ្ចក់ RR</item>
+        <item>នេអុង</item>
+    </string-array>
+    <string name="sidebar_settings_title">របារចំហៀងកម្មវិធី</string>
+    <string name="sidebar_settings_summary">អូសចូលពីដៃចាប់ដើម្បីចូលកម្មវិធី និងឧបករណ៍</string>
+    <string name="sidebar_apps_title">កម្មវិធី ដៃចាប់ និងclipboard</string>
+    <string name="sidebar_apps_summary">បើកដៃចាប់ ជ្រើសកម្មវិធី និងកំណត់ clipboard ឆ្លាតវៃ</string>
+    <string name="sidebar_handle_size_title">ទំហំដៃចាប់</string>
+    <string name="sidebar_tools_title">ជួរឧបករណ៍</string>
+    <string name="sidebar_tools_summary">រូបថតអេក្រង់ និងពិល នៅក្រោមកម្មវិធីរបស់អ្នក</string>
+    <string name="sidebar_footer">ដៃចាប់ជាបន្ទាត់ស្តើងពណ៌សំខាន់របស់អ្នក អូសវាដើម្បីផ្លាស់ទីតាមគែម។ ជាមួយចលនារុករក វាគ្របតែផ្នែកខ្លួនវាប៉ុណ្ណោះ ហើយត្រឡប់ក្រោយដំណើរការនៅកន្លែងផ្សេងទៀត។</string>
 </resources>

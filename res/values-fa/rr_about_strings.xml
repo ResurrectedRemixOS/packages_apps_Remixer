@@ -14,4 +14,20 @@
     <string name="rr_about_this_phone">"این تلفن"</string>
     <string name="rr_about_network">"شبکه"</string>
     <string name="rr_about_hidden">"پنهان"</string>
+    <string name="rr_about_android">اندروید %1$s</string>
+    <string name="rr_about_official">رسمی</string>
+    <string name="rr_about_vanilla">وانیلا</string>
+    <string name="rr_about_processor">پردازنده</string>
+    <string name="rr_about_processor_sub">%1$d هسته · تا %2$s گیگاهرتز</string>
+    <string name="rr_about_processor_cores">%1$d هسته</string>
+    <string name="rr_about_storage_used">%1$s استفاده شده</string>
+    <string name="rr_about_display">نمایش</string>
+    <string name="rr_about_display_value">%1$s اینچ · %2$d هرتز</string>
+    <string name="rr_about_battery_capacity">%1$s میلی‌آمپرساعت</string>
+    <string name="rr_about_battery_charging">%1$s · در حال شارژ</string>
+    <string name="rr_about_kernel_linux">هسته لینوکس</string>
+    <string name="rr_about_software_purpose">نسخه اندروید، به‌روزرسانی امنیتی، تاریخ ساخت و شماره ساخت</string>
+    <string name="rr_about_maintainer">نگهدارنده</string>
+    <string name="rr_about_show">نمایش</string>
+    <string name="rr_about_hide">پنهان</string>
 </resources>

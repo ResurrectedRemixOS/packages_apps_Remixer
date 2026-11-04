@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"തീയതി"</string>
     <string name="sb_weather_category">"കാലാവസ്ഥ"</string>
+    <string name="sb_clock_category">ക്ലോക്കും തീയതിയും</string>
+    <string name="sb_clock_bold_title">ബോൾഡ് ക്ലോക്ക്</string>
+    <string name="sb_clock_bold_summary">സ്റ്റാറ്റസ് ബാർ ക്ലോക്ക് ബോൾഡിൽ കാണിക്കുക</string>
+    <string name="sb_clock_period_separator_title">സമയ വിഭജകം</string>
+    <string name="sb_clock_period_separator_summary">10:45-ന് പകരം 10.45</string>
+    <string name="sb_clock_date_position_title">തീയതിയുടെ സ്ഥാനം</string>
+    <string name="sb_clock_date_style_title">തീയതിയുടെ അക്ഷരരീതി</string>
+    <string name="sb_clock_date_format_title">തീയതിയുടെ ഫോർമാറ്റ്</string>
+    <string name="sb_clock_chip_category">ക്ലോക്കിന്റെ പശ്ചാത്തലം</string>
+    <string name="sb_clock_chip_title">പശ്ചാത്തല ശൈലി</string>
+    <string name="sb_clock_chip_start_title">ഗ്രേഡിയന്റ് ആരംഭം</string>
+    <string name="sb_clock_chip_end_title">ഗ്രേഡിയന്റ് അവസാനം</string>
+    <string name="sb_clock_chip_angle_title">ഗ്രേഡിയന്റ് കോൺ</string>
+    <string name="sb_clock_chip_mask_title">ഗ്രേഡിയന്റിൽനിന്ന് സമയം മുറിച്ചെടുക്കുക</string>
+    <string name="sb_clock_chip_mask_summary">അക്കങ്ങൾക്ക് പിന്നിലല്ല, അക്കങ്ങളിലൂടെ ഗ്രേഡിയന്റ് കാണിക്കും</string>
+    <string name="sb_weather_title">സ്റ്റാറ്റസ് ബാറിൽ കാലാവസ്ഥ</string>
+    <string name="sb_weather_position_title">സ്ഥാനം</string>
+    <string name="status_bar_clock_rr_style_title">ക്ലോക്കിന്റെ രൂപം</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"ഡിഫോൾട്ട്"</item>
+        <item>Neon</item>
+        <item>വിഭജിച്ചത്</item>
+        <item>RR മാർക്ക്</item>
+        <item>മോണോ</item>
+        <item>Pulse</item>
+        <item>അടുക്കിയത്</item>
+        <item>എംബർ</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">സമയത്തിനരികെ Flatline</string>
+    <string name="sb_clock_flatline_summary">ചിപ്പിനകത്തെ RR-ന്റെ ഹൃദയമിടിപ്പ് രേഖ: സംഗീതത്തിനൊപ്പം മിടിക്കും, അറിയിപ്പ് വരുമ്പോൾ കുതിച്ചുയരും</string>
 </resources>

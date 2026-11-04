@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">டைமர்</string>
     <string name="quick_launch_undo">"செயல்தவிர்"</string>
     <string name="quick_launch_off">"ஆஃப்"</string>
+    <string name="quick_launch_title">விரைவு துவக்கம்</string>
+    <string name="quick_launch_main">கைரேகை விரைவு துவக்கம்</string>
+    <string name="quick_launch_main_summary">திறந்த பிறகு குறுக்குவழியைத் திறக்க, சென்சாரில் விரலை வைத்திருங்கள்</string>
+    <string name="quick_launch_hint">குறுக்குவழியை மாற்ற அதைத் தட்டவும், அகற்ற அழுத்திப் பிடிக்கவும், வரிசையை மாற்ற இழுக்கவும்.</string>
+    <string name="quick_launch_behavior">நடத்தை</string>
+    <string name="quick_launch_hold">அழுத்தும் நேரம்</string>
+    <string name="quick_launch_haptics">ஒவ்வொரு குறுக்குவழிக்கும் அதிர்வு</string>
+    <string name="quick_launch_add">சேர்</string>
+    <string name="quick_launch_video">வீடியோ</string>
+    <string name="quick_launch_qr">QR ஸ்கேன் செய்</string>
+    <string name="quick_launch_app">பயன்பாடு…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> அகற்றப்பட்டது</string>
 </resources>

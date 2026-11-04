@@ -14,4 +14,55 @@
     <string name="looks_save_look">"Salvează"</string>
     <string name="looks_custom_color">"Culoare personalizată"</string>
     <string name="looks_part_clock_color">"Culoare ceas"</string>
+    <string name="looks_title">Aspecte</string>
+    <string name="looks_summary">Toată configurația ta dintr-o atingere</string>
+    <string name="looks_rr">Aspecte RR</string>
+    <string name="looks_yours">Aspectele tale</string>
+    <string name="looks_none">Nimic salvat încă</string>
+    <string name="looks_save">Salvează configurația curentă</string>
+    <string name="looks_import_clipboard">Din clipboard</string>
+    <string name="looks_import_file">Dintr-un fișier</string>
+    <string name="looks_mine">Aspectul meu</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> aplicat</string>
+    <string name="looks_failed">Nu s-a putut aplica tot</string>
+    <string name="looks_invalid">Acesta nu este un aspect RR</string>
+    <string name="looks_part_accent">Culoare de accent</string>
+    <string name="looks_part_qs">Stil QS</string>
+    <string name="looks_part_clock_face">Stilul ceasului de pe ecranul de blocare</string>
+    <string name="looks_part_font">Font</string>
+    <string name="looks_part_clock_look">Ceasul din bara de stare</string>
+    <string name="looks_part_edge">Iluminare margini</string>
+    <string name="looks_part_boot">Animația de pornire</string>
+    <string name="looks_part_haptics">Modele Haptic Remix</string>
+    <string name="looks_saturation">Saturație <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Accent</string>
+    <string name="looks_share_title">Trimite „<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">Scanează cu camera altui telefon RR sau în Aspecte › Importă</string>
+    <string name="looks_share_file">Trimite fișierul</string>
+    <string name="looks_save_file">Salvează fișierul</string>
+    <string name="looks_import_scan">Scanează un cod QR</string>
+    <string name="looks_import_title">Importă aspectul</string>
+    <string name="looks_from_qr">dintr-un cod QR</string>
+    <string name="looks_from_file">dintr-un fișier</string>
+    <string name="looks_from_clipboard">din clipboard</string>
+    <string name="looks_import_same">Se potrivește deja cu configurația ta.</string>
+    <string name="looks_new">Aspect nou</string>
+    <string name="looks_edit_title">Editează aspectul</string>
+    <string name="looks_in_look">În acest look</string>
+    <string name="looks_not_included">Nu în acest look</string>
+    <string name="looks_save_apply">Salvează și aplică</string>
+    <string name="looks_saved">„<xliff:g id="name" example="Sunday">%1$s</xliff:g>” salvat</string>
+    <string name="looks_delete_confirm">Ștergi „<xliff:g id="name" example="Sunday">%1$s</xliff:g>”?</string>
+    <string name="looks_rr_wallpaper">Imagine de fundal RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Saturația accentului</string>
+    <string name="looks_part_clock_chip">Cip al ceasului din bara de stare</string>
+    <string name="looks_part_edge_style">Stilul iluminării marginilor</string>
+    <string name="looks_scan_hint">Îndreaptă camera spre codul QR al unui look</string>
+    <string name="looks_scan_failed">Camera nu a putut fi deschisă</string>
+    <string name="look_roulette_title">Ruletă de look-uri</string>
+    <string-array name="look_roulette_entries">
+        <item>"Dezactivat"</item>
+        <item>Un alt look la fiecare deblocare</item>
+        <item>Un alt look în fiecare zi</item>
+    </string-array>
 </resources>

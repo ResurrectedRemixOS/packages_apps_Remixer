@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"Izinkinobho"</string>
     <string name="now_bar_text">"Umbhalo"</string>
     <string name="now_bar_text_size">"Usayizi wombhalo"</string>
+    <string name="now_bar_summary">Imisebenzi ephilayo ngaphansi kwesikrini sokukhiya</string>
+    <string name="now_bar_show">Bonisa</string>
+    <string name="now_bar_music">Umculo nevidiyo</string>
+    <string name="now_bar_timers">Izibali-sikhathi, i-stopwatch nama-alamu</string>
+    <string name="now_bar_hide_call">Fihla isaziso sekholi</string>
+    <string name="now_bar_hide_call_summary">Esikrinini sokukhiya, ikholi ekwi-Now Bar ayisatholakali njengesaziso</string>
+    <string name="now_bar_live">Izibuyekezo Eziphilayo</string>
+    <string name="now_bar_live_summary">Ukuzulazula, izinhlelo zokuhamba, izinikezo, amaphuzu</string>
+    <string name="now_bar_scores">Amaphuzu aphilayo</string>
+    <string name="now_bar_live_apps">Izinhlelo zezibuyekezo eziphilayo</string>
+    <string name="now_bar_live_apps_count">izinhlelo ezingu-<xliff:g id="count" example="2">%1$d</xliff:g></string>
+    <string name="now_bar_pin">Ibekwe ku-always-on display</string>
+    <string name="now_bar_unpin_question">Khipha ukubekwa kwe-<xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Khipha ukubekwa</string>
+    <string name="now_bar_scores_summary">Amageyimu olandela wona ku-At a Glance</string>
+    <string name="now_bar_recording">Ukurekhoda isikrini nezwi</string>
+    <string name="now_bar_buds">Amahedifoni nemawotshi</string>
+    <string name="now_bar_buds_summary">Ibhethriledivayisi exhunyiwe: lolunye nolunye uhlangothi nekesi lamahedifoni</string>
+    <string name="now_bar_wave">Ukunyakaza kwamagagasi</string>
+    <string name="now_bar_aod">Bonisa ku-always-on display</string>
+    <string name="now_bar_chip">Ichip ku-status bar</string>
+    <string name="now_bar_chip_summary">Ukudlala umculo nezibali-sikhathi eduze kwewashi uma uvuliwe</string>
+    <string name="now_bar_footer">Uma umculo usesikhundleni se-Now Bar, umdlali omkhulu wesikrini sokukhiya uyafihlwa. Swayiphela ibha ukuze ushintshe phakathi kwemisebenzi, thepha ukuze uvule izilawuli, bese uyibamba isikhathi eside ukuze uyifihle kuze kuphele. Swayiphela ingoma emisiwe ukuze uyisuse ku-bar.\n\nAmaphuzu aphilayo akhombisa amageyimu amaqembu alandelayo ku-app ye-Google. Uma usebenzisa i-Smartspacer, engeza ukuhlola kwezemidlalo lapho, bese amaphuzu awo eza lapha.</string>
+    <string name="now_bar_looks">Izimbukeko</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Okuzenzakalelayo"</item>
+        <item>Liquid Glass</item>
+        <item>Ncane</item>
+        <item>Enkulu</item>
+        <item>I-Neon</item>
+        <item>Ikhadi lengilazi</item>
+    </string-array>
+    <string name="now_bar_material">Okwempahla</string>
+    <string name="now_bar_material_summary">I-Liquid Glass isebenzisa ingilazi oyisethe ku-Itimu</string>
+    <string-array name="now_bar_material_entries">
+        <item>Okuqinile</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Ubuciko bekhava</item>
+        <item>Umbala oyinhloko</item>
+        <item>Mnyama</item>
+    </string-array>
+    <string name="now_bar_opacity">Ukungaqondakali</string>
+    <string name="now_bar_opacity_summary">Ngeza-Liquid Glass, umbala ongakanani okudayisa ingilazi</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Lutho"</item>
+        <item>Mncane</item>
+        <item>Umbala oyinhloko</item>
+    </string-array>
+    <string name="now_bar_shadow">Isithunzi</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Valiwe"</item>
+        <item>Soft</item>
+        <item>Ukukhanya</item>
+    </string-array>
+    <string name="now_bar_more">Imisebenzi eminingi</string>
+    <string-array name="now_bar_more_entries">
+        <item>Swayiphela nje</item>
+        <item>Amachashaza</item>
+        <item>Bheka ngemuva</item>
+    </string-array>
+    <string name="now_bar_size">Usayizi nesimo</string>
+    <string name="now_bar_height">Ubude</string>
+    <string name="now_bar_width_summary">Igcwele ibeka izinqamuleli phezu kwe-bar</string>
+    <string-array name="now_bar_width_entries">
+        <item>Okuncane</item>
+        <item>Phakathi kwezinqamuleli</item>
+        <item>Igcwele</item>
+    </string-array>
+    <string name="now_bar_corners">Amakhona</string>
+    <string name="now_bar_raise">Phakamisa</string>
+    <string name="now_bar_art">Ubuciko bekhava</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Indingiliza"</item>
+        <item>Okuzungezile</item>
+        <item>"Isikwele"</item>
+        <item>"Valiwe"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Yeqa bese udlala</item>
+        <item>Dlala kuphela</item>
+        <item>"Lutho"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Umugca owodwa</item>
+        <item>Imigqa emibili</item>
+        <item>Iculo kuphela</item>
+    </string-array>
+    <string name="now_bar_show_page">Okubonakala kwebha</string>
+    <string name="now_bar_show_page_summary">Umculo nevidiyo, izibali-sikhathi, amakholi nokunye</string>
+    <string name="now_bar_where">Okunye okuphezulu</string>
 </resources>

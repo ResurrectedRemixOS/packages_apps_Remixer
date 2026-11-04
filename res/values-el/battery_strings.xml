@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Μπαταρία"</string>
     <string name="battery_style_title">"Στιλ"</string>
+    <string-array name="battery_style_entries">
+        <item>Κατακόρυφος</item>
+        <item>"Κύκλος"</item>
+        <item>Διακεκομμένος κύκλος</item>
+        <item>Νέον δακτύλιος</item>
+        <item>Λεπτή κάψουλα</item>
+        <item>Μεγάλο ποσοστό</item>
+        <item>Κείμενο</item>
+    </string-array>
+    <string name="battery_percent_title">Ποσοστό</string>
+    <string-array name="battery_percent_entries">
+        <item>Κρυφό</item>
+        <item>Μέσα στο εικονίδιο</item>
+        <item>Δίπλα του</item>
+    </string-array>
+    <string name="battery_ring_color_title">Χρώμα νέον δακτυλίου</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Κατά επίπεδο: έμφαση πάνω από 20%%, κόκκινο κάτω, και πορτοκαλί στην Εξοικονόμηση μπαταρίας.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Κατά επίπεδο</item>
+        <item>Έμφαση</item>
+        <item>"Λευκό"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Σπινθήρας κατά τη φόρτιση</string>
+    <string name="battery_ring_tile_title">Ο ίδιος δακτύλιος στο πλακίδιο των Γρήγορων ρυθμίσεων</string>
+    <string name="battery_ring_tile_summary">Με το επίπεδο και τον χρόνο ενεργής οθόνης</string>
 </resources>

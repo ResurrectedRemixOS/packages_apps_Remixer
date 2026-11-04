@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Mėlyna"</string>
     <string name="haptic_remix_color_green">"Žalia"</string>
     <string name="haptic_remix_color_white">"Balta"</string>
+    <string name="haptic_remix_summary">Bakstelėkite vibracijos šablonus skambučiams, programoms, signalams ir atrakinimams</string>
+    <string name="haptic_remix_record">Įrašyti</string>
+    <string name="haptic_remix_pad">bakstelėkite ritmą</string>
+    <string name="haptic_remix_strength">Stiprumas</string>
+    <string name="haptic_remix_clear">Išvalyti</string>
+    <string name="haptic_remix_play">Groti</string>
+    <string name="haptic_remix_name">Šablono pavadinimas</string>
+    <string name="haptic_remix_empty">Dar nieko neįrašyta</string>
+    <string name="haptic_remix_too_long">Šablonas gali trukti iki 30 sekundžių</string>
+    <string name="haptic_remix_presets">Išankstiniai nustatymai</string>
+    <string name="haptic_remix_preset_neon">Neoninis</string>
+    <string name="haptic_remix_preset_glass">Stiklas</string>
+    <string name="haptic_remix_preset_ringtone">Skambėjimo tono ritmas</string>
+    <string name="haptic_remix_listening">Klausomasi skambėjimo tono…</string>
+    <string name="haptic_remix_no_ringtone">Skambėjimo tono nepavyko nuskaityti</string>
+    <string name="haptic_remix_patterns">Jūsų šablonai</string>
+    <string name="haptic_remix_patterns_none">Pirmiausia išsaugokite šabloną. Kad jį ištrintumėte, palaikykite.</string>
+    <string name="haptic_remix_broken">Šio šablono nepavyko nuskaityti</string>
+    <string name="haptic_remix_delete">Ištrinti <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Priskirti</string>
+    <string name="haptic_remix_alarm">Signalas ir laikmatis</string>
+    <string name="haptic_remix_plug">Prijungta</string>
+    <string name="haptic_remix_fingerprint">Piršto atspaudo atpažinimas pavyko</string>
+    <string name="haptic_remix_add_contact">Pridėti kontaktą</string>
+    <string name="haptic_remix_edge_color">Krašto šviesa <xliff:g id="name" example="Mia">%1$s</xliff:g> pranešimams</string>
+    <string name="haptic_remix_color_accent">Akcentas</string>
+    <string name="haptic_remix_color_crimson">Karmino</string>
+    <string name="haptic_remix_color_amber">Gintaro</string>
+    <string name="haptic_remix_add_app">Pridėti programos pranešimus</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · bakstelėkite, kad pakeistumėte, palaikykite, kad pakeistumėte krašto spalvą</string>
+    <string name="haptic_remix_no_contacts">Kontaktai nepateikė jokio numerio</string>
 </resources>

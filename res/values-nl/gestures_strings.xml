@@ -8,4 +8,50 @@
         <item>"Gemiddeld"</item>
         <item>"Groot"</item>
     </string-array>
+    <string name="pie_title">Pie-besturing</string>
+    <string name="pie_summary">Houd het onderste deel van een rand ingedrukt voor een pie met snelkoppelingen</string>
+    <string name="pie_zone">Deel van de rand</string>
+    <string name="pie_clock">Klok en batterij erboven</string>
+    <string name="pie_items">Segmenten</string>
+    <string-array name="pie_items_entries">
+        <item>"Terug"</item>
+        <item>Start</item>
+        <item>"Recent"</item>
+        <item>"Meldingen"</item>
+        <item>Zaklamp</item>
+        <item>"Screenshot"</item>
+        <item>"Aan/uit-menu"</item>
+        <item>"Assistent"</item>
+        <item>Camera</item>
+    </string-array>
+    <string name="pie_footer">Het vereist een kwart seconde vasthouden zonder te bewegen, zodat een snelle veeg vanaf de rand nog steeds teruggaat. Het opent niet op het vergrendelscherm.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Links"</item>
+        <item>"Rechts"</item>
+        <item>Beide</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Onderste derde</item>
+        <item>Midden</item>
+        <item>Hele rand</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Glas</item>
+        <item>Klassiek</item>
+    </string-array>
+    <string name="sidebar_style_title">Uiterlijk van app-zijbalk</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klassiek</item>
+        <item>RR-glas</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">App-zijbalk</string>
+    <string name="sidebar_settings_summary">Veeg vanaf het handvat naar binnen voor je apps en hulpmiddelen</string>
+    <string name="sidebar_apps_title">Apps, handvat en klembord</string>
+    <string name="sidebar_apps_summary">Zet het handvat aan, kies de apps en stel het slimme klembord in</string>
+    <string name="sidebar_handle_size_title">Grootte handvat</string>
+    <string name="sidebar_tools_title">Hulpmiddelenrij</string>
+    <string name="sidebar_tools_summary">Screenshot en zaklamp onder je apps</string>
+    <string name="sidebar_footer">Het handvat is een dunne lijn in je accentkleur; sleep het om het langs de rand te verplaatsen. Met gebaarnavigatie beslaat het alleen zijn eigen deel van de rand, en terug werkt overal anders.</string>
 </resources>

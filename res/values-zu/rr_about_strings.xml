@@ -10,4 +10,24 @@
     <string name="rr_about_this_phone">"Le foni"</string>
     <string name="rr_about_network">"Inethiwekhi"</string>
     <string name="rr_about_hidden">"Okufihliwe"</string>
+    <string name="rr_about_android">I-Android %1$s</string>
+    <string name="rr_about_official">Ngokusemthethweni</string>
+    <string name="rr_about_unofficial">Ngaphandle kokusemthethweni</string>
+    <string name="rr_about_vanilla">Okujwayelekile</string>
+    <string name="rr_about_hardware">Izingxenyekazi</string>
+    <string name="rr_about_processor">Iprosesa</string>
+    <string name="rr_about_processor_sub">Amakhona %1$d · kuya ku-%2$s GHz</string>
+    <string name="rr_about_processor_cores">Amakhona %1$d</string>
+    <string name="rr_about_storage_used">%1$s sekusetshenzisiwe</string>
+    <string name="rr_about_display">Isibonisi</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · Iyashaja</string>
+    <string name="rr_about_kernel_linux">Ikherinali ye-Linux</string>
+    <string name="rr_about_software_purpose">Inguqulo ye-Android, isibuyekezo sokuphepha, usuku lokwakha nenombolo yokwakha</string>
+    <string name="rr_about_security_patch">Isibuyekezo sokuphepha</string>
+    <string name="rr_about_build_date">Usuku lokwakha</string>
+    <string name="rr_about_maintainer">Umlondolozi</string>
+    <string name="rr_about_show">Bonisa</string>
+    <string name="rr_about_hide">Fihla</string>
 </resources>

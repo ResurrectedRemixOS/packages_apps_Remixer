@@ -8,4 +8,50 @@
         <item>"Keskmine"</item>
         <item>"Suur"</item>
     </string-array>
+    <string name="pie_title">Pie-juhtnupud</string>
+    <string name="pie_summary">Hoia servaosa alumist osa all, et avada otseteede pie</string>
+    <string name="pie_zone">Osa servast</string>
+    <string name="pie_clock">Kell ja aku selle kohal</string>
+    <string name="pie_items">Lõigud</string>
+    <string-array name="pie_items_entries">
+        <item>"Tagasi"</item>
+        <item>Avaleht</item>
+        <item>"Hiljutised"</item>
+        <item>"Märguanded"</item>
+        <item>Taskulamp</item>
+        <item>"Ekraanipilt"</item>
+        <item>"Toitemenüü"</item>
+        <item>"Assistent"</item>
+        <item>"Kaamera"</item>
+    </string-array>
+    <string name="pie_footer">Selleks on vaja veerandsekundit paigal hoidmist, nii et kiire servast pühkimine viib ikka tagasi. Lukustuskuval see ei avane.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Vasak"</item>
+        <item>"Parem"</item>
+        <item>Mõlemad</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Alumine kolmandik</item>
+        <item>Keskel</item>
+        <item>Kogu serv</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neoon</item>
+        <item>Klaas</item>
+        <item>Klassikaline</item>
+    </string-array>
+    <string name="sidebar_style_title">Rakenduste külgriba välimus</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klassikaline</item>
+        <item>RR-klaas</item>
+        <item>Neoon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Rakenduste külgriba</string>
+    <string name="sidebar_settings_summary">Pühi käepidemest sisse oma rakenduste ja tööriistade juurde</string>
+    <string name="sidebar_apps_title">Rakendused, käepide ja lõikelaud</string>
+    <string name="sidebar_apps_summary">Lülita käepide sisse, vali rakendused ja seadista nutikas lõikelaud</string>
+    <string name="sidebar_handle_size_title">Käepideme suurus</string>
+    <string name="sidebar_tools_title">Tööriistarida</string>
+    <string name="sidebar_tools_summary">Ekraanipilt ja taskulamp rakenduste all</string>
+    <string name="sidebar_footer">Käepide on õhuke joon sinu aktsenttoonis; lohista seda, et liigutada seda mööda serva. Žestinavigeerimise korral katab see ainult oma osa servast ja tagasi töötab mujal.</string>
 </resources>

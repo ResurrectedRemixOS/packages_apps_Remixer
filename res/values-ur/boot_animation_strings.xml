@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">بوٹ اینیمیشن</string>
+    <string name="boot_animation_note">اگلی بار فون شروع ہونے پر چلے گا۔</string>
+    <string name="boot_animation_custom">آپ کی فائل</string>
+    <string name="boot_animation_custom_pick">فائل منتخب کریں…</string>
+    <string name="boot_animation_custom_invalid">یہ فائل بوٹ اینیمیشن نہیں ہے</string>
+    <string name="boot_animation_failed">بوٹ اینیمیشن تبدیل نہیں ہو سکی</string>
+</resources>

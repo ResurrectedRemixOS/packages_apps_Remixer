@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"ລາຍລະອຽດ"</string>
     <string name="lockscreen_weather_location_title">"ສະຖານທີ່"</string>
+    <string name="lockscreen_weather_title">ສະພາບອາກາດໃນໜ້າຈໍລັອກ</string>
+    <string name="lockscreen_weather_location_summary">ສະແດງຊື່ເມືອງ</string>
+    <string name="lockscreen_weather_text_title">ສະພາບ</string>
+    <string name="lockscreen_weather_text_summary">ສະແດງສະພາບ ເຊັ່ນ ມີເມກ ຫຼື ທ້ອງຟ້າແຈ່ມໃສ</string>
+    <string name="lockscreen_weather_wind_title">ລົມ</string>
+    <string name="lockscreen_weather_wind_summary">ສະແດງຄວາມໄວ ແລະ ທິດທາງລົມ</string>
+    <string name="lockscreen_weather_humidity_title">ຄວາມຊຸ່ມ</string>
+    <string name="lockscreen_weather_humidity_summary">ສະແດງຄວາມຊຸ່ມຊື່ນ</string>
+    <string name="custom_clock_weather_title">ສະພາບອາກາດໃນໜ້າປັດໂມງ</string>
+    <string name="custom_clock_weather_summary">ສະແດງສະພາບອາກາດໃນໜ້າປັດໂມງທີ່ມີບ່ອນພໍ</string>
+    <string name="remixer_weather_service">ບໍລິການສະພາບອາກາດ</string>
+    <string name="remixer_weather_page_summary">ສະພາບອາກາດໜ້າຈໍລັອກ ແລະ ສິ່ງທີ່ສະແດງ</string>
 </resources>

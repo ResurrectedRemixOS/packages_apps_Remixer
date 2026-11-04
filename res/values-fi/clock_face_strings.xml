@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Oletus"</string>
     <string name="clock_faces_size">"Koko"</string>
     <string name="clock_faces_restart">"Käynnistä uudelleen"</string>
+    <string name="remixer_clock_faces">Kellotaulut</string>
+    <string name="clock_faces_system">Järjestelmän kello</string>
+    <string name="clock_faces_system_desc">Kello Taustakuva ja tyyli -kohdasta</string>
+    <string name="clock_faces_position">%1$d / %2$d</string>
+    <string name="clock_faces_applied">Otettu käyttöön</string>
+    <string name="clock_faces_preview_unavailable">Esikatselu ei ole käytettävissä</string>
+    <string name="clock_faces_failed">Kellon vaihtaminen epäonnistui</string>
+    <string name="clock_faces_color_accent">Korostusväri</string>
+    <string name="clock_faces_color_custom">Mukautettu</string>
+    <string name="clock_faces_color_album">Albumin kansikuva</string>
+    <string name="clock_faces_color_gradient">Liukuväri</string>
+    <string name="clock_faces_own_colors">Tämä taulu säilyttää omat värinsä.</string>
+    <string name="clock_faces_album_hint">Ottaa värin albumin kansikuvasta musiikin soidessa.</string>
+    <string name="clock_faces_size_position">Koko ja sijainti</string>
+    <string name="clock_faces_size_value">Koko · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Etäisyys yläreunasta</string>
+    <string name="clock_faces_top_value">Etäisyys yläreunasta · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Vaakasijainti</string>
+    <string name="clock_faces_horizontal_center">Vaakasijainti · Keskellä</string>
+    <string name="clock_faces_horizontal_right">Vaakasijainti · <xliff:g id="dp" example="24">%1$d</xliff:g> dp oikealle</string>
+    <string name="clock_faces_horizontal_left">Vaakasijainti · <xliff:g id="dp" example="24">%1$d</xliff:g> dp vasemmalle</string>
+    <string name="clock_faces_horizontal_fixed">Tämä taulu pysyy keskellä.</string>
+    <string name="clock_faces_opacity">Läpinäkyvyys</string>
+    <string name="clock_faces_opacity_value">Peittävyys · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Liike</string>
+    <string name="clock_faces_wobble">Heilahdus latauksen aikana</string>
+    <string name="clock_faces_wobble_summary">Hyppää kerran, kun kytket laturin</string>
+    <string name="clock_faces_aod_anim">Siirtymä aina päällä -näytölle</string>
+    <string name="clock_faces_aod_anim_summary">Pienentää ja himmentää kellon aina päällä -näytölle</string>
+    <string name="clock_faces_restart_title">Käynnistetäänkö lukitusnäyttö uudelleen?</string>
+    <string name="clock_faces_restart_message">Järjestelmän kellon ja omien taulujen vaihtaminen käynnistää SystemUI-käyttöliittymän uudelleen. Näyttö pimenee hetkeksi.</string>
+    <string name="clock_faces_note">SystemUI piirtää esikatselut lukitusnäytön taustakuvaan. Väri, koko ja sijainti muuttavat lukitusnäyttöä heti.</string>
 </resources>

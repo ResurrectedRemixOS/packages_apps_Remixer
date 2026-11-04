@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Tumia RKP ya kifaa</string>
+    <string name="ts_rkp_enabled_summary">Tumia keybox iliyotengenezwa. Kuingiza keybox kutazima hii.</string>
+    <string name="ts_rkp_provision">Zalisha keybox</string>
+    <string name="ts_rkp_provision_summary">Omba keybox kutoka Google kupitia huduma ya utoaji ya kifaa hiki. Inahitaji firmware ya Qualcomm inayooana.</string>
+    <string name="ts_rkp_status">Hali ya utoaji</string>
+    <string name="ts_rkp_owner_only">Dhibiti RKP ya kifaa kutoka wasifu wa mmiliki wa kifaa</string>
+    <string name="ts_rkp_unavailable">RKP ya kifaa haipatikani</string>
+    <string name="ts_rkp_imported">Imezimwa wakati keybox iliyoingizwa imesakinishwa</string>
+    <string name="ts_rkp_disabled">Imezimwa. Washa RKP ya kifaa ili kutumia au kuzalisha keybox.</string>
+    <string name="ts_rkp_idle">Tayari kuomba keybox</string>
+    <string name="ts_rkp_fetching">Inapata changamoto ya utoaji…</string>
+    <string name="ts_rkp_hardware">Inasubiri huduma ya utoaji ya kifaa…</string>
+    <string name="ts_rkp_signing">Inaomba vyeti kutoka Google…</string>
+    <string name="ts_rkp_validating">Inathibitisha na kuhifadhi keybox…</string>
+    <string name="ts_rkp_ready">Keybox iliyozalishwa inatumika. Itajifanyia upya kabla ya %1$s</string>
+    <string name="ts_rkp_keybox_stored">Keybox ya RKP ya kifaa imehifadhiwa</string>
+    <string name="ts_rkp_expired">Keybox iliyozalishwa imeisha muda. Zalisha mbadala.</string>
+    <string name="ts_rkp_hal_rejected">Firmware imekataa ombi (msimbo %1$d). Huenda Duck V1 isiungwe mkono.</string>
+    <string name="ts_rkp_http_error">Seva ya utoaji imekataa ombi (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Kifaa hakionyeshi kiolesura kinachooana cha utoaji cha V1</string>
+    <string name="ts_rkp_network_error">Imeshindwa kufikia seva ya utoaji. Angalia muunganisho wako.</string>
+    <string name="ts_rkp_submission_unknown">Jibu la seva lilipotea. Ombi huenda lilishughulikiwa; hakuna jaribio la kiotomatiki lililofanywa.</string>
+    <string name="ts_rkp_invalid_chain">Vyeti vya keybox vimeshindwa uthibitishaji. Keybox iliyopo imehifadhiwa.</string>
+    <string name="ts_rkp_timeout">Muda wa utoaji umeisha. Ikiwa huduma ya kifaa bado ina shughuli nyingi, washa upya kifaa kabla ya kujaribu tena.</string>
+    <string name="ts_rkp_canceled">Ombi limeghairiwa kwa sababu usanidi wa keybox umebadilika</string>
+    <string name="ts_rkp_save_failed">Imeshindwa kuhifadhi keybox iliyozalishwa</string>
+    <string name="ts_rkp_action_failed">Imeshindwa kukamilisha kitendo cha keybox</string>
+</resources>

@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">Sprječavanje slučajnog buđenja</string>
+    <string name="lockscreen_battery_info_title">Podaci o punjenju</string>
+    <string name="lockscreen_battery_info_summary">Prikaži struju, vate, napon i temperaturu baterije tijekom punjenja</string>
+    <string name="charging_ring_title">Animacija punjenja SuperVOOC</string>
+    <string name="charging_ring_summary">Prikaži prsten punjenja i brzinu kad uređaj priključite</string>
+    <string name="pocket_mode_summary">Dok je senzor blizine prekriven, zaslon se ne budi i ignorira dodire</string>
+    <string name="screen_on_time_title">Vrijeme uključenog zaslona</string>
+    <string name="screen_on_time_summary">Prikaži vrijeme uključenog zaslona od posljednjeg potpunog punjenja na zaključanom zaslonu tijekom punjenja i na pločici Battery Saver</string>
 </resources>

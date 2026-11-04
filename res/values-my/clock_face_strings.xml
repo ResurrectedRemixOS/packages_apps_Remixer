@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"မူရင်း"</string>
     <string name="clock_faces_size">"အရွယ်အစား"</string>
     <string name="clock_faces_restart">"ပြန်စရန်"</string>
+    <string name="remixer_clock_faces">နာရီပုံစံများ</string>
+    <string name="clock_faces_system">စနစ်နာရီ</string>
+    <string name="clock_faces_system_desc">နောက်ခံနှင့် ပုံစံမှ နာရီ</string>
+    <string name="clock_faces_position">%2$d ခုအနက် %1$d</string>
+    <string name="clock_faces_applied">သုံးထားသည်</string>
+    <string name="clock_faces_preview_unavailable">အစမ်းကြည့်ရှု၍မရပါ</string>
+    <string name="clock_faces_failed">နာရီကို ပြောင်း၍မရပါ</string>
+    <string name="clock_faces_color_accent">အဓိကအရောင်</string>
+    <string name="clock_faces_color_custom">စိတ်ကြိုက်</string>
+    <string name="clock_faces_color_album">အယ်လ်ဘမ်ပုံ</string>
+    <string name="clock_faces_color_gradient">ဂရေဒီယင့်</string>
+    <string name="clock_faces_own_colors">ဤပုံစံသည် ကိုယ်ပိုင်အရောင်များကို ထိန်းသိမ်းထားသည်။</string>
+    <string name="clock_faces_album_hint">သီချင်းဖွင့်နေစဉ် အယ်လ်ဘမ်ပုံမှ အရောင်ကို ယူသည်။</string>
+    <string name="clock_faces_size_position">အရွယ်အစားနှင့် နေရာ</string>
+    <string name="clock_faces_size_value">အရွယ်အစား · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">ထိပ်မှ အကွာအဝေး</string>
+    <string name="clock_faces_top_value">ထိပ်မှ အကွာအဝေး · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">အလျားလိုက် နေရာ</string>
+    <string name="clock_faces_horizontal_center">အလျားလိုက် နေရာ · အလယ်</string>
+    <string name="clock_faces_horizontal_right">အလျားလိုက် နေရာ · ညာဘက် <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_left">အလျားလိုက် နေရာ · ဘယ်ဘက် <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_fixed">ဤပုံစံသည် အလယ်တွင် တည်နေသည်။</string>
+    <string name="clock_faces_opacity">အလင်းမျက်နှာပြင် ပွင့်လင်းမှု</string>
+    <string name="clock_faces_opacity_value">အလင်းဝင်နိုင်မှု · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">လှုပ်ရှားမှု</string>
+    <string name="clock_faces_wobble">အားသွင်းနေစဉ် တုန်ခါမှု</string>
+    <string name="clock_faces_wobble_summary">ဖုန်းချိတ်လိုက်သည့်အခါ တစ်ကြိမ် ခုန်ပေါ်သည်</string>
+    <string name="clock_faces_aod_anim">Always-on display သို့ ကူးပြောင်းမှု</string>
+    <string name="clock_faces_aod_anim_summary">နာရီကို ကျုံ့ပြီး မှိန်သွားစေကာ Always-on display သို့ ပြောင်းသည်</string>
+    <string name="clock_faces_restart_title">လော့ခ်စခရင်ကို ပြန်စမလား?</string>
+    <string name="clock_faces_restart_message">စနစ်နာရီနှင့် စိတ်ကြိုက်ပုံစံများကြား ပြောင်းသောအခါ SystemUI ကို ပြန်စတင်ပါမည်။ ဖန်သားပြင် တစ်စက္ကန့်ခန့် မှောင်သွားပါမည်။</string>
+    <string name="clock_faces_note">အစမ်းကြည့်ရှုမှုများကို သင့်လော့ခ်စခရင်နောက်ခံပေါ်တွင် SystemUI က ဆွဲပါသည်။ အရောင်၊ အရွယ်အစားနှင့် နေရာများသည် လော့ခ်စခရင်ကို ချက်ချင်း ပြောင်းလဲစေပါသည်။</string>
 </resources>

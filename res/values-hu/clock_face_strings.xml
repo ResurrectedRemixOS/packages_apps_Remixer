@@ -7,4 +7,34 @@
     <string name="clock_faces_size_position">Méret és helyzet</string>
     <string name="clock_faces_size">"Méret"</string>
     <string name="clock_faces_restart">"Újraindítás"</string>
+    <string name="remixer_clock_faces">Órastílusok</string>
+    <string name="clock_faces_system">Rendszeróra</string>
+    <string name="clock_faces_system_desc">A Háttérkép és stílus órája</string>
+    <string name="clock_faces_position">%1$d / %2$d</string>
+    <string name="clock_faces_applied">Alkalmazva</string>
+    <string name="clock_faces_preview_unavailable">Előnézet nem érhető el</string>
+    <string name="clock_faces_failed">Az órát nem lehetett módosítani</string>
+    <string name="clock_faces_color_accent">Kiemelés</string>
+    <string name="clock_faces_color_custom">Egyéni</string>
+    <string name="clock_faces_color_gradient">Átmenet</string>
+    <string name="clock_faces_own_colors">Ez a stílus a saját színeit használja.</string>
+    <string name="clock_faces_album_hint">Zene szólása közben a borítókép színét veszi fel.</string>
+    <string name="clock_faces_size_value">Méret · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Távolság a felső széltől</string>
+    <string name="clock_faces_top_value">Távolság a felső széltől · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Vízszintes helyzet</string>
+    <string name="clock_faces_horizontal_center">Vízszintes helyzet · Közép</string>
+    <string name="clock_faces_horizontal_right">Vízszintes helyzet · <xliff:g id="dp" example="24">%1$d</xliff:g> dp-vel jobbra</string>
+    <string name="clock_faces_horizontal_left">Vízszintes helyzet · <xliff:g id="dp" example="24">%1$d</xliff:g> dp-vel balra</string>
+    <string name="clock_faces_horizontal_fixed">Ez a stílus középen marad.</string>
+    <string name="clock_faces_opacity">Átlátszatlanság</string>
+    <string name="clock_faces_opacity_value">Átlátszatlanság · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Mozgás</string>
+    <string name="clock_faces_wobble">Ringatózás töltés közben</string>
+    <string name="clock_faces_wobble_summary">Csatlakoztatáskor egyszer visszapattan</string>
+    <string name="clock_faces_aod_anim">Átmenet az állandó kijelzőre</string>
+    <string name="clock_faces_aod_anim_summary">Az órát összezsugorítja és elhalványítja az állandó kijelzőhöz</string>
+    <string name="clock_faces_restart_title">Újraindítja a zárolási képernyőt?</string>
+    <string name="clock_faces_restart_message">A rendszeróra és az egyéni stílusok közötti váltás újraindítja a SystemUI-t. A képernyő egy másodpercre elsötétül.</string>
+    <string name="clock_faces_note">Az előnézeteket a SystemUI rajzolja a zárolási képernyő háttérképén. A szín, a méret és a helyzet azonnal megváltoztatja a zárolási képernyőt.</string>
 </resources>

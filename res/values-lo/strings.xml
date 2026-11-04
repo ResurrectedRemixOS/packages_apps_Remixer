@@ -83,4 +83,215 @@
     <string name="wallpaper_apply_lock">"ໜ້າຈໍລັອກ"</string>
     <string name="remixer_settings_style_original">"ຕົ້ນສະບັບ"</string>
     <string name="remixer_navbar_category">"ແຖບການນຳທາງ"</string>
+    <string name="remixer_dashboard_summary">ແຖບສະຖານະ, ຮູບແບບສີສັນ, ໜ້າຈໍລັອກ ແລະອື່ນໆ</string>
+    <string name="rr_homepage_battery_saver">ໂໝດປະຢັດແບັດເຕີຣີ</string>
+    <string name="rr_homepage_personalize">ປັບແຕ່ງ</string>
+    <string name="rr_homepage_privacy">ຄວາມເປັນສ່ວນຕົວ ແລະ ຄວາມປອດໄພ</string>
+    <string name="rr_homepage_free">ຫວ່າງ <xliff:g id="size" example="194 GB">%1$s</xliff:g></string>
+    <string name="rr_homepage_charged">ສາກເຕັມແລ້ວ</string>
+    <string name="rr_homepage_on_battery">ໃຊ້ແບັດເຕີຣີ</string>
+    <string name="rr_homepage_saver_on">ເປີດໂໝດປະຢັດແບັດເຕີຣີ</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> ອຸປະກອນ</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> ອຸປະກອນ</item>
+    </plurals>
+    <string name="rr_homepage_extras">ການຕັ້ງຄ່າເພີ່ມເຕີມ</string>
+    <string name="rr_homepage_saver">ປະຢັດ</string>
+    <string name="rr_homepage_signed_out">ຍັງບໍ່ໄດ້ເຂົ້າສູ່ລະບົບ</string>
+    <string name="rr_homepage_remixer_tagline">ປັບແຕ່ງໃຫ້ເປັນແບບຂອງທ່ານ. ແຖບສະຖານະ, ຮູບແບບສີສັນ, ໜ້າຈໍລັອກ ແລະອື່ນໆ.</string>
+    <string name="rr_homepage_device_tagline">ສະໄລເດີແຈ້ງເຕືອນ, ໜ້າຈໍ, ການສາກໄຟ ແລະ GameBar.</string>
+    <string name="rr_homepage_device_action">ປັບແຕ່ງ</string>
+    <string name="rr_group_network">ເຄືອຂ່າຍ ແລະ ອຸປະກອນ</string>
+    <string name="rr_group_network_summary">Wi‑Fi, ມືຖື, Bluetooth</string>
+    <string name="rr_group_apps_summary">ແອັບ, ການແຈ້ງເຕືອນ, ໂໝດ</string>
+    <string name="rr_group_display">ການສະແດງຜົນ ແລະ ສຽງ</string>
+    <string name="rr_group_display_summary">ການສະແດງຜົນ, ຮູບພື້ນຫຼັງ, ສຽງ</string>
+    <string name="rr_group_security_summary">ລັອກ, ສະຖານທີ່, ສຸກເສີນ</string>
+    <string name="rr_group_security_center">ສູນຄວາມປອດໄພ</string>
+    <string name="rr_group_accounts">Google ແລະ ບັນຊີ</string>
+    <string name="rr_group_accounts_summary">Google, ລະຫັດຜ່ານ, ສຳຮອງຂໍ້ມູນ</string>
+    <string name="rr_group_accounts_plain_summary">ລະຫັດຜ່ານ, ບັນຊີ, ສຳຮອງຂໍ້ມູນ</string>
+    <string name="rr_group_system_summary">ພາສາ, ທ່າທາງ, ການອັບເດດ</string>
+    <string name="remixer_tagline">ປັບແຕ່ງໃຫ້ເປັນແບບຂອງທ່ານ.</string>
+    <string name="remixer_remix">ປັບແຕ່ງໃໝ່</string>
+    <string name="remixer_remixed">ປັບແຕ່ງດ້ວຍ <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">ເງົາ · ຄ່າເລີ່ມຕົ້ນ</string>
+    <string name="remixer_quick">ປັບແຕ່ງດ່ວນ</string>
+    <string name="remixer_everything">ທັງໝົດ</string>
+    <string name="remixer_quick_accents">ຊຸດຕັ້ງຄ່າ ຫຼື ສີໃດກໍໄດ້</string>
+    <string name="remixer_quick_fonts">ຮູບແບບຟອນຂອງລະບົບ</string>
+    <string name="remixer_quick_walls">ຊຸດ RR</string>
+    <string name="remixer_quick_header">ສ່ວນຫົວການຕັ້ງຄ່າດ່ວນ</string>
+    <string name="remixer_quick_header_summary">ຮູບສ່ວນຫົວ</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">ໂມງ, ແບັດເຕີຣີ, ໄອຄອນ ແລະ ການໃຊ້ເຄືອຂ່າຍ</string>
+    <string name="remixer_qs_summary">ຮູບສ່ວນຫົວ</string>
+    <string name="remixer_notifications_summary">ແສງຂອບ, ໄອຄອນແອັບ ແລະ ສຽງສາກໄຟ</string>
+    <string name="remixer_theme_summary">ຟອນ, ສີເນັ້ນ ແລະ ຮູບພື້ນຫຼັງ</string>
+    <string name="remixer_lockscreen_summary">UDFPS, ຂໍ້ມູນການສາກໄຟ ແລະ ສະພາບອາກາດ</string>
+    <string name="remixer_udfps_icon">ໄອຄອນ UDFPS</string>
+    <string name="remixer_udfps_icon_summary">ສະແດງຢູ່ເທິງເຊັນເຊີລາຍນິ້ວມື</string>
+    <string name="remixer_udfps_animation">ອະນິເມຊັນ UDFPS</string>
+    <string name="remixer_udfps_animation_summary">ຫຼິ້ນໃນຂະນະທີ່ນິ້ວຢູ່ເທິງເຊັນເຊີ</string>
+    <string name="remixer_navigation">ການນຳທາງ</string>
+    <string name="remixer_navigation_summary">Pulse, ປຸ່ມ ແລະ ແຖບການນຳທາງ</string>
+    <string name="remixer_misc_summary">ສຽງ, ສຳຮອງຂໍ້ມູນ, ການປອມແປງ, ການເລື່ອນ ແລະ USB</string>
+    <string name="scroll_haptics_title">ແຕະເມື່ອເລື່ອນສຸດ</string>
+    <string name="scroll_haptics_summary">ສັ່ນເບົາໆເມື່ອລາຍການ ຫຼື ໜ້າບໍ່ສາມາດເລື່ອນໄດ້ອີກ</string>
+    <string name="usb_mode_picker_title">ຕົວເລືອກໂໝດ USB</string>
+    <string name="usb_mode_picker_summary">ເລືອກໂໝດເມື່ອເສຍບເຂົ້າຄອມພິວເຕີ</string>
+    <string name="remixer_fonts_summary">ຟອນຂອງລະບົບ</string>
+    <string name="remixer_wallpapers_summary">ຮູບພື້ນຫຼັງ Resurrected Remix</string>
+    <string name="remixer_accents">ສີເນັ້ນ</string>
+    <string name="remixer_accents_summary">ສີເນັ້ນ</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">ແຖບເພງເຄື່ອນໄຫວຢູ່ດ້ານລຸ່ມຂອງໜ້າຈໍ</string>
+    <string name="pulse_switch">ໃຊ້ Pulse</string>
+    <string name="pulse_switch_summary">ແຖບເພງຢູ່ດ້ານລຸ່ມຂອງໜ້າຈໍ ໃນຂະນະທີ່ມີການຫຼິ້ນສື່</string>
+    <string name="pulse_preview_title">ກຳລັງຫຼິ້ນ</string>
+    <string name="pulse_style_lines">ເສັ້ນ</string>
+    <string name="pulse_style_fading">ຄ່ອຍໆຈາງ</string>
+    <string name="pulse_style_blocks">ບລັອກ</string>
+    <string name="pulse_style_mirror">ກະຈົກ</string>
+    <string name="pulse_color_custom">ກຳນົດເອງ</string>
+    <string name="pulse_color_gradient">ສາຍຮຸ້ງ</string>
+    <string name="pulse_bars">ແທ່ງ</string>
+    <string name="pulse_bars_value">ແທ່ງ · %1$d</string>
+    <string name="pulse_height">ຄວາມສູງ</string>
+    <string name="pulse_height_value">ຄວາມສູງ · %1$d dp</string>
+    <string name="pulse_opacity">ຄວາມໂປ່ງໃສ</string>
+    <string name="pulse_opacity_value">ຄວາມໂປ່ງໃສ · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">ສະແດງແທ່ງເພງໄວ້ໃນໜ້າຈໍລັອກ ໃນຂະນະທີ່ມີການຫຼິ້ນເພງ</string>
+    <string name="pulse_failed">ບໍ່ສາມາດບັນທຶກການຕັ້ງຄ່າ Pulse ນັ້ນໄດ້</string>
+    <string name="accent_applied">ນຳໃຊ້ສີເນັ້ນແລ້ວ</string>
+    <string name="accent_current">ສີເນັ້ນ · %1$s</string>
+    <string name="accent_current_custom">ສີເນັ້ນ · ກຳນົດເອງ</string>
+    <string name="accent_preview_tonal">ໂທນເດຍວກັນ</string>
+    <string name="accent_failed">ບໍ່ສາມາດນຳໃຊ້ສີເນັ້ນນັ້ນໄດ້</string>
+    <string name="accent_custom">ກຳນົດເອງ</string>
+    <string name="accent_custom_summary">ເລືອກສີໃດກໍໄດ້. ເງົາຍັງໃຊ້ໄດ້ຢູ່ດ້ານເທິງ.</string>
+    <string name="accent_custom_pad">ຄວາມອີ່ມຕົວ ແລະ ຄວາມສະຫວ່າງ</string>
+    <string name="accent_custom_use">ໃຊ້ <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">ເງົາ</string>
+    <string name="accent_shade_darker">ເຂັ້ມກວ່າ</string>
+    <string name="accent_shade_lighter">ອ່ອນກວ່າ</string>
+    <string name="accent_shade_darker_value">ເຂັ້ມກວ່າ · %1$d</string>
+    <string name="accent_shade_lighter_value">ອ່ອນກວ່າ · %1$d</string>
+    <string name="remixer_qs_style">ຮູບແບບການຕັ້ງຄ່າດ່ວນ</string>
+    <string name="remixer_qs_style_preview">ຕົວຢ່າງ · %1$s</string>
+    <string name="remixer_qs_style_note">ທຸກຮູບແບບຈະປະຕາມສີເນັ້ນຂອງທ່ານ. ແຜງລະດັບສຽງມີຮູບແບບ Bento, Shapes, Blueprint, Duo ແລະ Soft ທີ່ກົງກັນ. Stock Lineage ຈະຄົງແຜ່ນ Android 17 ໄວ້ຕາມເດີມ.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">ແຜ່ນ Android 17 ຕາມເດີມ</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">ຄວາມສະຫວ່າງໃນກາດສີເນັ້ນ. ແຜ່ນຕ່າງໆຈະເຕັມດ້ວຍສີເນັ້ນແບບໄລ່ລະດັບ</string>
+    <string name="remixer_qs_style_compact">ກະທັດຮັດ</string>
+    <string name="remixer_qs_style_compact_summary">ແຜ່ນທີ່ສັ້ນກວ່າ. ສະແດງໄດ້ຫຼາຍຂຶ້ນໃນໜ້າດຽວ</string>
+    <string name="remixer_qs_style_glass">ແກ້ວ</string>
+    <string name="remixer_qs_style_glass_summary">ແຜ່ນເສັ້ນຂອບໂປ່ງໃສ ທີ່ສະແດງແສງສີເນັ້ນເມື່ອເປີດ</string>
+    <string name="remixer_qs_style_circles">ວົງມົນ</string>
+    <string name="remixer_qs_style_circles_summary">ປຸ່ມສະຫຼັບເປັນວົງມົນພ້ອມປ້າຍຊື່. ແຜ່ນກວ້າງກາຍເປັນກາດ</string>
+    <string name="remixer_qs_style_classic">ຄລາສສິກ</string>
+    <string name="remixer_qs_style_classic_summary">ແບບ RR ເກົ່າ: ໄອຄອນເປົ່າພ້ອມປ້າຍຊື່, ຫ້າແຖວ, ແຖບເລື່ອນບາງ</string>
+    <string name="remixer_qs_style_cards">ກາດ</string>
+    <string name="remixer_qs_style_cards_summary">ກາດໃຫຍ່ ພ້ອມສະຖານະໃຕ້ແຕ່ລະຊື່, ສາມແຖວ</string>
+    <string name="remixer_qs_style_neon">ນີອອນ</string>
+    <string name="remixer_qs_style_neon_summary">ແຜ່ນເສັ້ນຂອບທີ່ສະແດງແສງສີເນັ້ນເມື່ອເປີດ</string>
+    <string name="remixer_qs_style_bento_summary">ບລັອກມົນໃຫຍ່ເຕັມດ້ວຍສີເນັ້ນ, ມີປ້າຍຊື່ຢູ່ດ້ານລຸ່ມແຜ່ນນ້ອຍ</string>
+    <string name="remixer_qs_style_shapes">ຮູບຊົງ</string>
+    <string name="remixer_qs_style_shapes_summary">ປຸ່ມສະຫຼັບມົນທີ່ງອກແຂນເມື່ອເປີດ, ຫ້າແຖວ</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">ເສັ້ນຂອບບາງ ແລະ ຕົວພິມໃຫຍ່ແບບ monospace</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">ແຜ່ນແບ່ງສອງສ່ວນ. ສ່ວນໄອຄອນຈະສະຫວ່າງ ແລະ ສະຫຼັບໄດ້</string>
+    <string name="remixer_qs_style_soft">ນຸ່ມ</string>
+    <string name="remixer_qs_style_soft_summary">ແຜ່ນຍົກຂຶ້ນທີ່ຈົມລົງເມື່ອເປີດ</string>
+    <string name="remixer_lock_media_style">ຮູບແບບເຄື່ອງຫຼິ້ນສື່</string>
+    <string name="remixer_lock_media_same">ຄືກັບການຕັ້ງຄ່າດ່ວນ</string>
+    <string name="remixer_lock_media_same_summary">ປະຕາມແຜ່ນສື່ໃນການຕັ້ງຄ່າດ່ວນ, ປັດຈຸບັນເປັນ %1$s</string>
+    <string name="remixer_lock_media_off_summary">ບໍ່ມີເຄື່ອງຫຼິ້ນໃນໜ້າຈໍລັອກ</string>
+    <string name="remixer_lock_media_note">ກາດຈະສະແດງໃນໜ້າຈໍລັອກໃນຂະນະທີ່ມີສິ່ງໃດໜຶ່ງກຳລັງຫຼິ້ນ. ຮູບແບບໂປ່ງໃສຈະມີພື້ນຫຼັງສີເຂັ້ມເພື່ອໃຫ້ອ່ານງ່າຍເທິງຮູບພື້ນຫຼັງ.</string>
+    <string name="remixer_lock_media_stock_summary">ຮູບປົກອັລບັ້ມເຕັມກາດ</string>
+    <string name="remixer_lock_media_remix_summary">ກາດສີເຂັ້ມ, ປຸ່ມຫຼິ້ນສີເນັ້ນ</string>
+    <string name="remixer_lock_media_compact_summary">ກາດມົນກວ່າ, ຮູບມົນ</string>
+    <string name="remixer_lock_media_glass_summary">ກາດໂປ່ງໃສທີ່ມີເສັ້ນຂອບ</string>
+    <string name="remixer_lock_media_circles_summary">ກາດນຸ່ມ, ປຸ່ມຫຼິ້ນສີເນັ້ນ</string>
+    <string name="remixer_lock_media_classic_summary">ກາດເປັນສີ່ຫຼ່ຽມກວ່າ, ປຸ່ມຫຼິ້ນມີເສັ້ນຂອບ</string>
+    <string name="remixer_lock_media_cards_summary">ກາດນຸ່ມ, ປຸ່ມຫຼິ້ນສີເນັ້ນ, ຄືກັບວົງມົນ</string>
+    <string name="remixer_lock_media_neon_summary">ກາດສີດຳທີ່ມີເສັ້ນຂອບສີເນັ້ນ</string>
+    <string name="remixer_lock_media_bento_summary">ກາດນຸ່ມ, ປຸ່ມຫຼິ້ນສີເນັ້ນ</string>
+    <string name="remixer_lock_media_shapes_summary">ກາດມົນກວ່າ, ປຸ່ມຫຼິ້ນສີເນັ້ນ</string>
+    <string name="remixer_lock_media_blueprint_summary">ເສັ້ນຂອບບາງ, ປຸ່ມຫຼິ້ນມີເສັ້ນຂອບ</string>
+    <string name="remixer_lock_media_duo_summary">ກາດສອງສີ, ປຸ່ມຫຼິ້ນສີເນັ້ນ</string>
+    <string name="remixer_lock_media_soft_summary">ກາດຍົກຂຶ້ນພ້ອມຂອບລາດ</string>
+    <string name="remixer_headers">ຮູບສ່ວນຫົວ</string>
+    <string name="remixer_headers_summary">ເລືອກຮູບພື້ນຫຼັງສຳລັບການຕັ້ງຄ່າດ່ວນ</string>
+    <string name="header_switch">ໃຊ້ຮູບສ່ວນຫົວ</string>
+    <string name="header_switch_summary">ສະແດງຮູບໄວ້ເບື້ອງຫຼັງການຕັ້ງຄ່າດ່ວນ</string>
+    <string name="header_source">ແຫຼ່ງ</string>
+    <string name="header_source_collection">ຊຸດຮູບ</string>
+    <string name="header_collections_summary_daylight">ສ່ວນຫົວຈະປ່ຽນຕາມເວລາຂອງມື້ ຫຼື ໝູນວຽນຜ່ານຊຸດຮູບ</string>
+    <string name="header_collections_summary_static">ເປີດຊຸດຮູບ ແລ້ວແຕະຮູບເພື່ອນຳໃຊ້</string>
+    <string name="header_collections_empty">ບໍ່ມີຊຸດຮູບສ່ວນຫົວທີ່ຕິດຕັ້ງ</string>
+    <string name="header_images_daylight">ໃນຊຸດຮູບນີ້</string>
+    <plurals name="header_image_count">
+        <item quantity="one">%d ຮູບ</item>
+        <item quantity="other">%d ຮູບ</item>
+    </plurals>
+    <string name="header_photo_summary">ຮູບຖ່າຍ ຫຼື GIF ແບບເຄື່ອນໄຫວຈາກຄັງຮູບຂອງທ່ານ</string>
+    <string name="header_height">ຄວາມສູງ</string>
+    <string name="header_height_value">ຄວາມສູງ · %1$d dp</string>
+    <string name="header_shadow">ຈາງ</string>
+    <string name="header_shadow_value">ຈາງ · %1$d%%</string>
+    <string name="header_failed">ບໍ່ສາມາດບັນທຶກການຕັ້ງຄ່າສ່ວນຫົວນັ້ນໄດ້</string>
+    <string name="remixer_weather_summary">ບໍລິການສະພາບອາກາດ ແລະ ຫົວໜ່ວຍ</string>
+    <string name="font_preview_notification">ນີ້ແມ່ນວິທີທີ່ໂທລະສັບຂອງທ່ານຈະສະແດງຜົນ.</string>
+    <string name="font_try_text">ລອງໃສ່ຂໍ້ຄວາມຂອງທ່ານເອງ</string>
+    <string name="font_previewing">ກຳລັງສະແດງຕົວຢ່າງ</string>
+    <string name="font_current">ຟອນປັດຈຸບັນ</string>
+    <string name="font_badge_current">ປັດຈຸບັນ</string>
+    <string name="font_apply_done">ນຳໃຊ້ແລ້ວ</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">ການສະແດງຜົນ</string>
+    <string name="font_filter_script">Script</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">ນຳໃຊ້ຟອນແລ້ວ</string>
+    <string name="font_failed">ບໍ່ສາມາດນຳໃຊ້ຟອນນັ້ນໄດ້</string>
+    <string name="wallpaper_set">ຕັ້ງຮູບພື້ນຫຼັງແລ້ວ</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">ຮູບພື້ນຫຼັງ %d ຮູບຈາກ Resurrected Remix. ແຕະເພື່ອເບິ່ງຕົວຢ່າງ.</item>
+        <item quantity="other">ຮູບພື້ນຫຼັງ %d ຮູບຈາກ Resurrected Remix. ແຕະເພື່ອເບິ່ງຕົວຢ່າງ.</item>
+    </plurals>
+    <string name="wallpaper_apply_both">ທັງສອງ</string>
+    <string name="wallpaper_failed">ບໍ່ສາມາດຕັ້ງຮູບພື້ນຫຼັງນັ້ນໄດ້</string>
+    <string name="missing_app">ບໍ່ໄດ້ຕິດຕັ້ງແອັບນັ້ນ</string>
+    <string name="remixer_spoofing">ການປອມແປງ</string>
+    <string name="remixer_spoofing_summary">Play Integrity, ເອກລັກສະນະອຸປະກອນ ແລະ ການປອມແປງຕໍ່ແອັບ</string>
+    <string name="remixer_settings_style">ຮູບແບບການຕັ້ງຄ່າ</string>
+    <string name="rr_maintainer">ຜູ້ດູແລ</string>
+    <string name="remixer_navbar_summary">ຄວາມຍາວ, ຄວາມໜາ ແລະ ຮູບແບບຂອງ Pill</string>
+    <string name="remixer_navbar_pill_length">ຄວາມຍາວຂອງ Pill ທ່າທາງ</string>
+    <string name="remixer_navbar_pill_thickness">ຄວາມໜາຂອງ Pill ທ່າທາງ</string>
+    <string name="remixer_navbar_pill_auto_hide">ຄ່ອຍໆເຊື່ອງ Pill ທ່າທາງ</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">ເຊື່ອງ Pill ຫຼັງຈາກສອງສາມວິນາທີ; ມັນຈະກັບມາເມື່ອທ່ານແຕະໜ້າຈໍ</string>
+    <string name="remixer_navbar_ime">ປຸ່ມແປ້ນພິມ</string>
+    <string name="remixer_navbar_ime_summary">ສະແດງປຸ່ມກັບຄືນ ແລະ ສະຫຼັບແປ້ນພິມໄວ້ໃຕ້ແປ້ນພິມ</string>
+    <string name="remixer_navbar_layout">ຮູບແບບປຸ່ມ</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>ສັ້ນ</item>
+        <item>ປົກກະຕິ</item>
+        <item>ຍາວ</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>ບາງທີ່ສຸດ</item>
+        <item>ບາງກວ່າ</item>
+        <item>ບາງ</item>
+        <item>ປົກກະຕິ</item>
+        <item>ໜາ</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>ປົກກະຕິ</item>
+        <item>ກະທັດຮັດ</item>
+        <item>"ອຽງຊ້າຍ"</item>
+        <item>"ອຽງຂວາ"</item>
+    </string-array>
 </resources>

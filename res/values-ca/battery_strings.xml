@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Bateria"</string>
     <string name="battery_style_title">"Estil"</string>
+    <string-array name="battery_style_entries">
+        <item>Vertical</item>
+        <item>"Cercle"</item>
+        <item>Cercle puntejat</item>
+        <item>Anell de neó</item>
+        <item>Píndola prima</item>
+        <item>Percentatge gran</item>
+        <item>Text</item>
+    </string-array>
+    <string name="battery_percent_title">Percentatge</string>
+    <string-array name="battery_percent_entries">
+        <item>Amagat</item>
+        <item>Dins la icona</item>
+        <item>Al costat</item>
+    </string-array>
+    <string name="battery_ring_color_title">Color de l\'anell de neó</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Per nivell és l\'accent per sobre del 20%%, vermell per sota i ambre amb l\'estalvi de bateria.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Per nivell</item>
+        <item>Accent</item>
+        <item>"Blanc"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Guspira en carregar</string>
+    <string name="battery_ring_tile_title">El mateix anell a la icona de configuració ràpida</string>
+    <string name="battery_ring_tile_summary">Amb el nivell i el temps amb la pantalla encesa</string>
 </resources>

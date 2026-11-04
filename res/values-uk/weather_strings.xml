@@ -4,4 +4,14 @@
     <string name="lockscreen_weather_location_title">"Місцезнаходження"</string>
     <string name="lockscreen_weather_wind_title">Вітряно</string>
     <string name="lockscreen_weather_humidity_title">Вологість</string>
+    <string name="lockscreen_weather_title">Погода на заблокованому екрані</string>
+    <string name="lockscreen_weather_location_summary">Показувати назву міста</string>
+    <string name="lockscreen_weather_text_title">Стан</string>
+    <string name="lockscreen_weather_text_summary">Показувати стан, наприклад «Хмарно» або «Ясно»</string>
+    <string name="lockscreen_weather_wind_summary">Показувати швидкість і напрямок вітру</string>
+    <string name="lockscreen_weather_humidity_summary">Показувати вологість</string>
+    <string name="custom_clock_weather_title">Погода на циферблатах годинника</string>
+    <string name="custom_clock_weather_summary">Показувати погоду на циферблатах, де для неї є місце</string>
+    <string name="remixer_weather_service">Служба погоди</string>
+    <string name="remixer_weather_page_summary">Погода на заблокованому екрані та що вона показує</string>
 </resources>

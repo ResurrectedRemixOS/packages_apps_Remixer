@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_profile_title">Haptiese profiel</string>
+    <string name="haptic_profile_crisp">Skerp</string>
+    <string name="haptic_profile_gentle">Sag</string>
+    <string name="haptic_profile_op13crisp">OP13 Skerp</string>
+    <string name="haptic_profile_op13gentle">OP13 Sag</string>
+</resources>

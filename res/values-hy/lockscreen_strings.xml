@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lockscreen_battery_info_title">Լիցքավորման տվյալներ</string>
+    <string name="lockscreen_battery_info_summary">Լիցքավորման ժամանակ ցուցադրել հոսանքը, վաթերը, լարումը և մարտկոցի ջերմաստիճանը</string>
+    <string name="charging_ring_title">SuperVOOC լիցքավորման անիմացիա</string>
+    <string name="charging_ring_summary">Ցուցադրել լիցքավորման օղակը և արագությունը միացնելիս</string>
+    <string name="pocket_mode_title">Գրպանի ռեժիմ</string>
+    <string name="pocket_mode_summary">Մինչ մոտեցման սենսորը ծածկված է, էկրանը չի արթնանում և անտեսում է հպումները</string>
+    <string name="screen_on_time_title">Էկրանի միացված ժամանակ</string>
+    <string name="screen_on_time_summary">Լիցքավորման ժամանակ և Battery Saver սալիկում ցուցադրել էկրանի միացված ժամանակը վերջին լրիվ լիցքավորումից ի վեր</string>
+</resources>

@@ -8,4 +8,50 @@
         <item>"საშუალო"</item>
         <item>"დიდი"</item>
     </string-array>
+    <string name="pie_title">წრიული მენიუ</string>
+    <string name="pie_summary">ეკრანის კიდის ქვედა ნაწილს დააჭირეთ ხანგრძლივად მალსახმობების წრიული მენიუსთვის</string>
+    <string name="pie_zone">კიდის ნაწილი</string>
+    <string name="pie_clock">საათი და ბატარეა მის ზემოთ</string>
+    <string name="pie_items">სეგმენტები</string>
+    <string-array name="pie_items_entries">
+        <item>"უკან"</item>
+        <item>მთავარი</item>
+        <item>"ბოლოდროინდელი"</item>
+        <item>"შეტყობინებები"</item>
+        <item>"ფანარი"</item>
+        <item>"ეკრანის ანაბეჭდი"</item>
+        <item>"ჩართვის მენიუ"</item>
+        <item>"ასისტენტი"</item>
+        <item>"კამერა"</item>
+    </string-array>
+    <string name="pie_footer">საჭიროა წამის მეოთხედი უმოძრაოდ დაჭერა, ამიტომ კიდიდან სწრაფი გადასმა მაინც უკან აბრუნებს. ჩაკეტილ ეკრანზე არ იხსნება.</string>
+    <string-array name="pie_edges_entries">
+        <item>"მარცხენა"</item>
+        <item>"მარჯვენა"</item>
+        <item>ორივე</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>ქვედა მესამედი</item>
+        <item>შუა</item>
+        <item>მთელი კიდე</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>ნეონი</item>
+        <item>მინა</item>
+        <item>კლასიკური</item>
+    </string-array>
+    <string name="sidebar_style_title">აპების გვერდითი პანელის სტილი</string>
+    <string-array name="sidebar_style_entries">
+        <item>კლასიკური</item>
+        <item>RR მინა</item>
+        <item>ნეონი</item>
+    </string-array>
+    <string name="sidebar_settings_title">აპების გვერდითი პანელი</string>
+    <string name="sidebar_settings_summary">გადაასრიალეთ სახელურიდან შიგნით თქვენი აპებისა და ხელსაწყოებისთვის</string>
+    <string name="sidebar_apps_title">აპები, სახელური და ბუფერი</string>
+    <string name="sidebar_apps_summary">ჩართეთ სახელური, აირჩიეთ აპები და დააყენეთ ჭკვიანი ბუფერი</string>
+    <string name="sidebar_handle_size_title">სახელურის ზომა</string>
+    <string name="sidebar_tools_title">ხელსაწყოების პანელი</string>
+    <string name="sidebar_tools_summary">ეკრანის ანაბეჭდი და ფანარი თქვენს აპებს ქვემოთ</string>
+    <string name="sidebar_footer">სახელური თხელი ხაზია თქვენი აქცენტის ფერით; გადაათრიეთ კიდის გასწვრივ მის გადასატანად. ჟესტებით ნავიგაციისას ის მხოლოდ საკუთარ ნაწილს ფარავს, უკან დაბრუნება კი დანარჩენ კიდეზე მუშაობს.</string>
 </resources>

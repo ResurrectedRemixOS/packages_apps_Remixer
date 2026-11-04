@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glance_title">Pillantás</string>
+    <string name="glance_summary">A Google dátuma, időjárása és kártyái a gyári óra alatt, Pixel módra. Az óralapok saját sorukat tartják meg</string>
+</resources>

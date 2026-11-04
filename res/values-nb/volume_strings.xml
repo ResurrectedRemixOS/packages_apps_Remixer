@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="volume_page_title">Volumpanel</string>
+    <string name="volume_page_summary">Neon, glass, pille eller klassisk RR</string>
+    <string name="volume_behavior">Oppførsel</string>
+    <string name="volume_on_left_title">Panel til venstre</string>
+    <string name="volume_on_left_summary">Klassisk RR står alltid øverst</string>
+    <string name="volume_ringer_title">Knapp for ringemodus</string>
+    <string name="volume_tick_title">Klikk når du glir</string>
+    <string name="volume_percent_title">Vis nivået i prosent</string>
+    <string name="volume_timeout_title">Skjul etter</string>
+    <string name="volume_footer">Et utseende endrer hvordan panelet ser ut, ikke hvordan det fungerer. Android beholder standardpanelet. Trykk på prikkene for å se alle strømmene; det utvidede panelet bruker samme utseende.</string>
+</resources>

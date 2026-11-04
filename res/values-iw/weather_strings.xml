@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"פרטים"</string>
     <string name="lockscreen_weather_location_title">"מיקום"</string>
+    <string name="lockscreen_weather_title">מזג אוויר במסך הנעילה</string>
+    <string name="lockscreen_weather_location_summary">הצג את שם העיר</string>
+    <string name="lockscreen_weather_text_title">מצב</string>
+    <string name="lockscreen_weather_text_summary">הצג את המצב, כמו מעונן או שמיים בהירים</string>
+    <string name="lockscreen_weather_wind_title">רוח</string>
+    <string name="lockscreen_weather_wind_summary">הצג את מהירות הרוח וכיוונה</string>
+    <string name="lockscreen_weather_humidity_title">לחות</string>
+    <string name="lockscreen_weather_humidity_summary">הצג את הלחות</string>
+    <string name="custom_clock_weather_title">מזג אוויר בעיצובי שעון</string>
+    <string name="custom_clock_weather_summary">הצג מזג אוויר בתוך עיצובי שעון שיש בהם מקום לכך</string>
+    <string name="remixer_weather_service">שירות מזג אוויר</string>
+    <string name="remixer_weather_page_summary">מזג אוויר במסך הנעילה ומה הוא מציג</string>
 </resources>

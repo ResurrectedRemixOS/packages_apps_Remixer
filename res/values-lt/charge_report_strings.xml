@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Akumuliatorius"</string>
     <string name="charge_report_temp">"Temperatūra"</string>
     <string name="charge_report_time">"Laikas"</string>
+    <string name="charge_report_title">Įkrovimo ataskaitos</string>
+    <string name="charge_report_summary">Kiekvieno įkrovimo santrauka, kai atjungiate</string>
+    <string name="charge_report_min_title">Tik jei pridėjo bent</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 dienos</item>
+        <item>7 dienos</item>
+        <item>14 dienų</item>
+        <item>30 dienų</item>
+    </string-array>
+    <string name="charge_report_history_days">Paskutinės <xliff:g id="days" example="7">%1$d</xliff:g> dienos</string>
+    <string name="charge_report_today">Šiandien, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Vakar, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> val. <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Vatai</string>
+    <string name="charge_report_added">Pridėta</string>
+    <string name="charge_report_peak">Pikas</string>
+    <string name="charge_report_average">Vidurkis</string>
+    <string name="charge_report_max_temp">Maks. temperatūra</string>
+    <string name="charge_report_charger">Įkroviklis</string>
+    <string name="charge_report_started">Pradėta</string>
+    <string name="charge_report_wired">Laidinis</string>
+    <string name="charge_report_wireless">Belaidis</string>
+    <string name="charge_report_dock">Lizdas</string>
+    <string name="charge_report_empty">Įkrovimų dar nėra</string>
+    <string name="charge_report_footer">SystemUI kas 30 sekundžių nuskaito akumuliatoriaus srovę, įtampą ir temperatūrą, kol prijungtas. Vatai – tai telefono išmatuota vertė, todėl gali skirtis nuo įkroviklio skaičiaus. Ataskaitos lieka telefone; nieko neįkeliama.</string>
 </resources>

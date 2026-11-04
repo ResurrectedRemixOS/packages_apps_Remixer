@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">ڈیوائس RKP استعمال کریں</string>
+    <string name="ts_rkp_enabled_summary">تیار کردہ کی باکس استعمال کریں۔ کی باکس درآمد کرنے سے یہ بند ہو جاتا ہے۔</string>
+    <string name="ts_rkp_provision">کی باکس تیار کریں</string>
+    <string name="ts_rkp_provision_summary">اس آلے کی پروویژننگ سروس کے ذریعے Google سے کی باکس کی درخواست کریں۔ مطابقت رکھنے والا Qualcomm فرم ویئر درکار ہے۔</string>
+    <string name="ts_rkp_status">پروویژننگ کی حیثیت</string>
+    <string name="ts_rkp_owner_only">ڈیوائس RKP کا نظم آلے کے مالک کی پروفائل سے کریں</string>
+    <string name="ts_rkp_unavailable">ڈیوائس RKP دستیاب نہیں ہے</string>
+    <string name="ts_rkp_imported">درآمد شدہ کی باکس انسٹال ہونے کی وجہ سے بند ہے</string>
+    <string name="ts_rkp_disabled">بند ہے۔ کی باکس استعمال یا تیار کرنے کے لیے ڈیوائس RKP فعال کریں۔</string>
+    <string name="ts_rkp_idle">کی باکس کی درخواست کے لیے تیار</string>
+    <string name="ts_rkp_fetching">پروویژننگ چیلنج حاصل ہو رہا ہے…</string>
+    <string name="ts_rkp_hardware">آلے کی پروویژننگ سروس کا انتظار ہے…</string>
+    <string name="ts_rkp_signing">Google سے سرٹیفکیٹ کی درخواست ہو رہی ہے…</string>
+    <string name="ts_rkp_validating">کی باکس کی تصدیق اور محفوظ کیا جا رہا ہے…</string>
+    <string name="ts_rkp_ready">تیار کردہ کی باکس فعال ہے۔ %1$s سے پہلے خودکار طور پر تجدید ہوگی</string>
+    <string name="ts_rkp_keybox_stored">ڈیوائس RKP کی باکس محفوظ ہو گئی</string>
+    <string name="ts_rkp_expired">تیار کردہ کی باکس کی میعاد ختم ہو گئی۔ متبادل تیار کریں۔</string>
+    <string name="ts_rkp_hal_rejected">فرم ویئر نے درخواست مسترد کر دی (کوڈ %1$d)۔ Duck V1 شاید تعاون یافتہ نہ ہو۔</string>
+    <string name="ts_rkp_http_error">پروویژننگ سرور نے درخواست مسترد کر دی (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">آلہ مطابقت رکھنے والا V1 پروویژننگ انٹرفیس ظاہر نہیں کرتا</string>
+    <string name="ts_rkp_network_error">پروویژننگ سرور تک رسائی نہیں ہو سکی۔ اپنا کنیکشن چیک کریں۔</string>
+    <string name="ts_rkp_submission_unknown">سرور کا جواب ضائع ہو گیا۔ درخواست پروسیس ہو چکی ہو سکتی ہے؛ خودکار دوبارہ کوشش نہیں کی گئی۔</string>
+    <string name="ts_rkp_invalid_chain">کی باکس سرٹیفکیٹ کی تصدیق ناکام ہوئی۔ موجودہ کی باکس برقرار رکھا گیا۔</string>
+    <string name="ts_rkp_timeout">پروویژننگ کا وقت ختم ہو گیا۔ اگر ڈیوائس سروس ابھی بھی مصروف ہے تو دوبارہ کوشش سے پہلے آلہ ری اسٹارٹ کریں۔</string>
+    <string name="ts_rkp_canceled">کی باکس کی ترتیب تبدیل ہونے کی وجہ سے درخواست منسوخ کر دی گئی</string>
+    <string name="ts_rkp_save_failed">تیار کردہ کی باکس محفوظ نہیں ہو سکا</string>
+    <string name="ts_rkp_action_failed">کی باکس کا عمل مکمل نہیں ہو سکا</string>
+</resources>

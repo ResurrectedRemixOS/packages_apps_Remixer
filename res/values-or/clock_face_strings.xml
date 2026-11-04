@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"ଡିଫଲ୍ଟ"</string>
     <string name="clock_faces_size">"ଆକାର"</string>
     <string name="clock_faces_restart">"ରିଷ୍ଟାର୍ଟ କରନ୍ତୁ"</string>
+    <string name="remixer_clock_faces">ଘଡ଼ି ଡିଜାଇନ</string>
+    <string name="clock_faces_system">ସିଷ୍ଟମ ଘଡ଼ି</string>
+    <string name="clock_faces_system_desc">ୱାଲପେପର ଓ ଶୈଳୀରୁ ଘଡ଼ି</string>
+    <string name="clock_faces_position">%1$d ମଧ୍ୟରୁ %2$d</string>
+    <string name="clock_faces_applied">ପ୍ରୟୋଗ ହୋଇଛି</string>
+    <string name="clock_faces_preview_unavailable">ପୂର୍ବାବଲୋକନ ଉପଲବ୍ଧ ନାହିଁ</string>
+    <string name="clock_faces_failed">ଘଡ଼ି ବଦଳାଯାଇପାରିଲା ନାହିଁ</string>
+    <string name="clock_faces_color_accent">ଆକ୍ସେଣ୍ଟ</string>
+    <string name="clock_faces_color_custom">କଷ୍ଟମ</string>
+    <string name="clock_faces_color_album">ଆଲବମ ଆର୍ଟ</string>
+    <string name="clock_faces_color_gradient">ଗ୍ରେଡିଏଣ୍ଟ</string>
+    <string name="clock_faces_own_colors">ଏହି ଡିଜାଇନ ନିଜ ରଙ୍ଗ ରଖେ।</string>
+    <string name="clock_faces_album_hint">ସଙ୍ଗୀତ ବାଜିଲେ ଆଲବମ ଆର୍ଟରୁ ରଙ୍ଗ ନିଏ।</string>
+    <string name="clock_faces_size_position">ଆକାର ଓ ସ୍ଥିତି</string>
+    <string name="clock_faces_size_value">ଆକାର · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">ଉପରୁ ଦୂରତା</string>
+    <string name="clock_faces_top_value">ଉପରୁ ଦୂରତା · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">ଭୂସମାନ୍ତର ସ୍ଥିତି</string>
+    <string name="clock_faces_horizontal_center">ଭୂସମାନ୍ତର ସ୍ଥିତି · ମଝି</string>
+    <string name="clock_faces_horizontal_right">ଭୂସମାନ୍ତର ସ୍ଥିତି · <xliff:g id="dp" example="24">%1$d</xliff:g> dp ଡାହାଣକୁ</string>
+    <string name="clock_faces_horizontal_left">ଭୂସମାନ୍ତର ସ୍ଥିତି · <xliff:g id="dp" example="24">%1$d</xliff:g> dp ବାମକୁ</string>
+    <string name="clock_faces_horizontal_fixed">ଏହି ଡିଜାଇନ ମଝିରେ ରହେ।</string>
+    <string name="clock_faces_opacity">ଅପାସିଟି</string>
+    <string name="clock_faces_opacity_value">ଅସ୍ପଷ୍ଟତା · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">ଗତି</string>
+    <string name="clock_faces_wobble">ଚାର୍ଜ ହେବା ସମୟରେ ଦୋହଲିବା</string>
+    <string name="clock_faces_wobble_summary">ଚାର୍ଜର ସଂଯୋଗ କଲେ ଥରେ ଉଛୁଳେ</string>
+    <string name="clock_faces_aod_anim">ଆଲୱେଜ୍‍-ଅନ୍ ଡିସ୍‌ପ୍ଲେ ପରିବର୍ତ୍ତନ</string>
+    <string name="clock_faces_aod_anim_summary">ଘଡ଼ିକୁ ଛୋଟ କରି ଆଲୱେଜ୍‍-ଅନ୍ ଡିସ୍‌ପ୍ଲେରେ ଫିକା କରେ</string>
+    <string name="clock_faces_restart_title">ଲକ ସ୍କ୍ରିନ ପୁନଃଆରମ୍ଭ କରିବେ?</string>
+    <string name="clock_faces_restart_message">ସିଷ୍ଟମ ଘଡ଼ି ଓ କଷ୍ଟମ ଡିଜାଇନ ମଧ୍ୟରେ ବଦଳାଇଲେ SystemUI ପୁନଃଆରମ୍ଭ ହେବ। ସ୍କ୍ରିନ ଏକ ସେକେଣ୍ଡ ପାଇଁ କଳା ହେବ।</string>
+    <string name="clock_faces_note">ପୂର୍ବାବଲୋକନ SystemUI ଦ୍ୱାରା ଆପଣଙ୍କ ଲକ ସ୍କ୍ରିନ ୱାଲପେପରରେ ଅଙ୍କିତ ହୁଏ। ରଙ୍ଗ, ଆକାର ଓ ସ୍ଥିତି ତୁରନ୍ତ ଲକ ସ୍କ୍ରିନ ବଦଳାଏ।</string>
 </resources>

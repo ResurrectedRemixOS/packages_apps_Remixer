@@ -9,4 +9,45 @@
     <string name="backup_group_gestures">"Mga Galaw"</string>
     <string name="backup_group_other">"Iba pa"</string>
     <string name="backup_done">"Tapos na"</string>
+    <string name="backup_summary">Lahat ng customization ng RR sa iisang file</string>
+    <string name="backup_now">I-back up ngayon</string>
+    <string name="backup_never">Huling backup: wala pa</string>
+    <string name="backup_last">Huling backup: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">I-restore mula sa file</string>
+    <string name="backup_restore_summary">Pumili ng backup file</string>
+    <string name="backup_included">Kasama</string>
+    <string name="backup_part_theme">Accent, font at mga icon</string>
+    <string name="backup_part_header">Larawan ng header</string>
+    <string name="backup_part_photo">Header image (sarili mong larawan)</string>
+    <string name="backup_part_photo_summary">Nagpapalaki sa file</string>
+    <string name="backup_part_boot">Boot animation</string>
+    <string name="backup_part_looks">Mga look mo</string>
+    <string name="backup_weekly">Lingguhang backup</string>
+    <string name="backup_weekly_summary">Sa folder na pipiliin mo</string>
+    <string name="backup_weekly_on">Tuwing linggo sa <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Mag-alok ng backup bago ang mga update</string>
+    <string name="backup_offer_summary">Magtatanong muna ang Updater bago mag-install</string>
+    <string name="backup_sets">Itatakda ang <xliff:g id="count" example="64">%1$d</xliff:g> na setting</string>
+    <string name="backup_group_status_bar">Status bar</string>
+    <string name="backup_group_lock_screen">Lock screen</string>
+    <string name="backup_saved">Na-save ang <xliff:g id="count" example="64">%1$d</xliff:g> na setting</string>
+    <string name="backup_restored">Na-restore ang <xliff:g id="count" example="64">%1$d</xliff:g> na setting</string>
+    <string name="backup_restored_message">Magre-restart ang SystemUI para ilapat ang mga ito.</string>
+    <string name="backup_skipped">Hindi umiiral ang <xliff:g id="count" example="2">%1$d</xliff:g> na setting sa build na ito at nilaktawan.</string>
+    <string name="backup_failed">Hindi na-save ang backup</string>
+    <string name="backup_invalid">Hindi ito backup file ng Resurrected Remix</string>
+    <string name="backup_footer">Mga setting ng RR lang ang nasa file: walang account, password, Wi-Fi network, app o mensahe. Ang restore ay nagsusulat lang ng mga setting na nasa listahan ng RR, kaya walang ibang mababago sa telepono. Kasama lang ang header photo mo kung naka-on ang switch nito, dahil nagpapalaki ito sa file.</string>
+    <string name="volume_style_title">Istilo ng volume panel</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Glass</item>
+        <item>Pill</item>
+        <item>Classic RR</item>
+        <item>Bento</item>
+        <item>Mga hugis</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Malambot</item>
+    </string-array>
 </resources>

@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">"Жаңсоолор"</string>
     <string name="backup_group_other">"Башка"</string>
     <string name="backup_done">"Бүттү"</string>
+    <string name="backup_summary">Бардык RR ыңгайлаштыруулары бир файлда</string>
+    <string name="backup_now">Азыр камдык көчүрмөнү сактоо</string>
+    <string name="backup_never">Акыркы камдык көчүрмө: эч качан</string>
+    <string name="backup_last">Акыркы камдык көчүрмө: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Файлдан калыбына келтирүү</string>
+    <string name="backup_restore_summary">Камдык көчүрмө файлын тандоо</string>
+    <string name="backup_included">Кошулган</string>
+    <string name="backup_part_theme">Акцент, арип жана сүрөтчөлөр</string>
+    <string name="backup_part_header">Башкы сүрөт</string>
+    <string name="backup_part_photo">Баш сүрөт (сиздин сүрөтүңүз)</string>
+    <string name="backup_part_photo_summary">Файлды чоңойтот</string>
+    <string name="backup_part_boot">Жүктөө анимациясы</string>
+    <string name="backup_part_looks">Сиздин көрүнүштөр</string>
+    <string name="backup_weekly">Апта сайын камдык көчүрмө</string>
+    <string name="backup_weekly_summary">Сиз тандаган папкага</string>
+    <string name="backup_weekly_on">Ар апта <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g> папкасына</string>
+    <string name="backup_offer">Жаңыртуулардан мурун камдык көчүрмө сунуштоо</string>
+    <string name="backup_offer_summary">Жаңыртуучу орнотуудан мурун сурайт</string>
+    <string name="backup_sets"><xliff:g id="count" example="64">%1$d</xliff:g> жөндөөнү орнотот</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> жөндөө сакталды</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> жөндөө калыбына келтирилди</string>
+    <string name="backup_restored_message">Аларды колдонуу үчүн SystemUI кайра ишке киргизилет.</string>
+    <string name="backup_skipped">Бул курулушта <xliff:g id="count" example="2">%1$d</xliff:g> жөндөө жок жана өткөрүп жиберилди.</string>
+    <string name="backup_failed">Камдык көчүрмөнү сактоо мүмкүн болбоду</string>
+    <string name="backup_invalid">Бул файл Resurrected Remix камдык көчүрмөсү эмес</string>
+    <string name="backup_footer">Файлга RR жөндөөлөрү гана кирет: эсептер, сырсөздөр, Wi-Fi тармактары, колдонмолор же билдирүүлөр жок. Калыбына келтирүү RR\'дин өз тизмесиндеги жөндөөлөрдү гана жазат, ошондуктан резервдик файл телефондогу башка нерсеге таасир эте албайт. Башкы сүрөтүңүз жалпы файлдын көлөмүн чоңойтпош үчүн, ал өчүк жана күйүк абалынан көз каранды болуп, өзүнчө гана кошулат.</string>
+    <string name="volume_style_title">Үн панелинин стили</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Неон</item>
+        <item>Айнек</item>
+        <item>Таблетка</item>
+        <item>Классикалык RR</item>
+        <item>Bento</item>
+        <item>Фигуралар</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Жумшак</item>
+    </string-array>
 </resources>

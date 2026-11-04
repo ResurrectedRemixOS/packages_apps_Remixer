@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">మీ ప్రతి మోడ్‌కు ఒక లుక్</string>
+    <string name="remix_modes_everyday">రోజువారీ లుక్</string>
+    <string name="remix_modes_everyday_summary">లుక్ ఉన్న మోడ్ ఏదీ ఆన్ లేనప్పుడు ఇది తిరిగి వస్తుంది</string>
+    <string name="remix_modes_wallpaper">వాల్‌పేపర్ లుక్‌ను అనుసరిస్తుంది</string>
+    <string name="remix_modes_wallpaper_summary">మోడ్ వాల్‌పేపర్‌ను కూడా మార్చవచ్చు</string>
+    <string name="remix_modes_modes">మీ మోడ్‌లు</string>
+    <string name="remix_modes_no_change">మార్పు లేదు</string>
+    <string name="remix_modes_none">ముందుగా థీమ్ › లుక్స్‌లో ఒక లుక్‌ను సేవ్ చేయండి</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g> కోసం లుక్</string>
+</resources>

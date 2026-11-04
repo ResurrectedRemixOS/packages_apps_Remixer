@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">အချိန်</string>
+    <string name="nightstand_title">ညဘက်စားပွဲနားနာရီ</string>
+    <string name="nightstand_summary">ည အားသွင်းနေစဉ် Always-on ဖန်သားပြင်ပေါ်တွင် မှိန်သော အိပ်ယာဘေးနာရီ</string>
+    <string-array name="nightstand_when_entries">
+        <item>"ပိတ်"</item>
+        <item>ည အားသွင်းကိရိယာပေါ်တွင်</item>
+        <item>အချိန်ဇယားအတိုင်း နေ့တိုင်း</item>
+        <item>အိပ်ချိန်မုဒ် ဖွင့်ထားစဉ်</item>
+    </string-array>
+    <string name="nightstand_from">ည စတင်ချိန်</string>
+    <string name="nightstand_to">ည ပြီးဆုံးချိန်</string>
+    <string name="nightstand_brightness">အမြင့်ဆုံး အလင်းရောင်</string>
+    <string name="nightstand_brightness_summary">ညဘက်စားပွဲနား ဖွင့်ထားစဉ် Always-on ဖန်သားပြင် အလင်းရောင် အမြင့်ဆုံးအဆင့်</string>
+    <string name="nightstand_face">နာရီမျက်နှာပြင်</string>
+    <string name="nightstand_face_keep">လက်ရှိ မျက်နှာပြင်ကို ဆက်ထားရန်</string>
+    <string name="nightstand_footer">ညဘက်စားပွဲနား လည်ပတ်စဉ် Always-on ဖန်သားပြင်ကို ဖွင့်ပြီး ပြီးနောက် ပြန်ထားသည်။ အားသွင်းကိရိယာ ဖြုတ်သည့်အခါ၊ နှိုးစက် မြည်သည့်အခါ သို့မဟုတ် ည ပြီးဆုံးသည့်အခါ ပြီးဆုံးသည်။ မျက်နှာပြင်သည် စိတ်ကြိုက်မျက်နှာပြင်နှစ်ခုကြားတွင်သာ ပြောင်းသည်၊ စနစ်နာရီကတော့ ဆက်ရှိနေသည်။</string>
 </resources>

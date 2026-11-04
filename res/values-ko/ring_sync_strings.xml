@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">링 동기화</string>
+    <string name="ring_sync_tap">링이 표시와 겹칠 때 탭하세요</string>
+    <string name="ring_sync_best">최고 <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">퍼펙트</string>
+    <string name="ring_sync_new_best">새로운 최고 기록</string>
+    <string name="ring_sync_again">탭하여 다시 시작</string>
+    <string name="ring_sync_ember">Ember 강조색 잠금 해제됨</string>
+    <string name="ring_sync_use_ember">Ember 사용</string>
+    <string name="ring_sync_android">Android의 이스터 에그</string>
+    <string name="ring_sync_vibrate_on">타격 시 진동 · 켜짐</string>
+    <string name="ring_sync_vibrate_off">타격 시 진동 · 꺼짐</string>
+    <string name="accent_ember">엠버</string>
+</resources>

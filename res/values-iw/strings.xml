@@ -86,4 +86,218 @@
     <string name="wallpaper_apply_lock">"מסך הנעילה"</string>
     <string name="remixer_settings_style_original">"מקור"</string>
     <string name="remixer_navbar_category">"סרגל הניווט"</string>
+    <string name="remixer_dashboard_summary">שורת סטטוס, עיצוב, מסך הנעילה ועוד</string>
+    <string name="rr_homepage_battery_saver">חיסכון בסוללה</string>
+    <string name="rr_homepage_personalize">התאמה אישית</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> פנויים</string>
+    <string name="rr_homepage_charged">טעונה במלואה</string>
+    <string name="rr_homepage_on_battery">על סוללה</string>
+    <string name="rr_homepage_saver_on">חיסכון בסוללה פעיל</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> מכשיר</item>
+        <item quantity="two"><xliff:g id="count" example="2">%d</xliff:g> מכשירים</item>
+        <item quantity="many"><xliff:g id="count" example="2">%d</xliff:g> מכשירים</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> מכשירים</item>
+    </plurals>
+    <string name="rr_homepage_extras">הגדרות נוספות</string>
+    <string name="rr_homepage_saver">חיסכון</string>
+    <string name="rr_homepage_signed_out">לא מחובר</string>
+    <string name="rr_homepage_remixer_tagline">התאם את המכשיר לטעמך. שורת סטטוס, עיצוב, מסך הנעילה ועוד.</string>
+    <string name="rr_homepage_device_tagline">מתג התראות, תצוגה, טעינה ו-GameBar.</string>
+    <string name="rr_homepage_device_action">כוונן אותו</string>
+    <string name="rr_group_network">רשת ומכשירים</string>
+    <string name="rr_group_network_summary">Wi‑Fi, סלולרי, Bluetooth</string>
+    <string name="rr_group_apps_summary">אפליקציות, התראות, מצבים</string>
+    <string name="rr_group_display">תצוגה וצליל</string>
+    <string name="rr_group_display_summary">תצוגה, טפט, צליל</string>
+    <string name="rr_group_security_summary">נעילה, מיקום, חירום</string>
+    <string name="rr_group_security_center">מרכז האבטחה</string>
+    <string name="rr_group_accounts">Google וחשבונות</string>
+    <string name="rr_group_accounts_summary">Google, סיסמאות, גיבוי</string>
+    <string name="rr_group_accounts_plain_summary">סיסמאות, חשבונות, גיבוי</string>
+    <string name="rr_group_system_summary">שפות, מחוות, עדכונים</string>
+    <string name="remixer_tagline">התאם לטעמך.</string>
+    <string name="remixer_remix">עצב מחדש</string>
+    <string name="remixer_remixed">עוצב מחדש עם <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">גוון · ברירת מחדל</string>
+    <string name="remixer_quick">עיצוב מהיר</string>
+    <string name="remixer_everything">הכול</string>
+    <string name="remixer_quick_accents">הגדרות קבועות או כל צבע</string>
+    <string name="remixer_quick_fonts">סגנונות גופן מערכת</string>
+    <string name="remixer_quick_walls">אוסף RR</string>
+    <string name="remixer_quick_header">כותרת הגדרות מהירות</string>
+    <string name="remixer_quick_header_summary">תמונות כותרת</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">שעון, סוללה, סמלים ותעבורת רשת</string>
+    <string name="remixer_qs_summary">תמונת כותרת</string>
+    <string name="remixer_notifications_summary">תאורת קצה, סמלי אפליקציות וצלילי טעינה</string>
+    <string name="remixer_theme_summary">גופנים, צבעי הדגשה וטפטים</string>
+    <string name="remixer_lockscreen_summary">UDFPS, מידע טעינה ומזג אוויר</string>
+    <string name="remixer_udfps_icon">סמל UDFPS</string>
+    <string name="remixer_udfps_icon_summary">מוצג מעל חיישן טביעות האצבע</string>
+    <string name="remixer_udfps_animation">הנפשת UDFPS</string>
+    <string name="remixer_udfps_animation_summary">מופעלת כשהאצבע על החיישן</string>
+    <string name="remixer_navigation_summary">Pulse, כפתורים וסרגל הניווט</string>
+    <string name="remixer_misc_summary">עוצמת קול, גיבוי, התחזות, גלילה ו-USB</string>
+    <string name="scroll_haptics_title">הקשה בסוף גלילה</string>
+    <string name="scroll_haptics_summary">רטט קל כשאי אפשר להמשיך לגלול ברשימה או בדף</string>
+    <string name="usb_mode_picker_title">בוחר מצב USB</string>
+    <string name="usb_mode_picker_summary">בחר מצב כשמחברים למחשב</string>
+    <string name="remixer_fonts_summary">גופן מערכת</string>
+    <string name="remixer_wallpapers_summary">טפטים של Resurrected Remix</string>
+    <string name="remixer_accents">צבעי הדגשה</string>
+    <string name="remixer_accents_summary">צבע הדגשה</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">מציג ויזואלי למוזיקה לאורך תחתית המסך</string>
+    <string name="pulse_switch">השתמש ב-Pulse</string>
+    <string name="pulse_switch_summary">פסי מוזיקה לאורך תחתית המסך בזמן השמעת מדיה</string>
+    <string name="pulse_style_lines">קווים</string>
+    <string name="pulse_style_fading">דהייה</string>
+    <string name="pulse_style_blocks">בלוקים</string>
+    <string name="pulse_style_mirror">מראה</string>
+    <string name="pulse_color_custom">מותאם אישית</string>
+    <string name="pulse_color_gradient">קשת</string>
+    <string name="pulse_bars">פסים</string>
+    <string name="pulse_bars_value">פסים · %1$d</string>
+    <string name="pulse_height">גובה</string>
+    <string name="pulse_height_value">גובה · %1$d dp</string>
+    <string name="pulse_opacity">אטימות</string>
+    <string name="pulse_opacity_value">אטימות · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">השאר את הפסים על מסך הנעילה בזמן השמעת מוזיקה</string>
+    <string name="pulse_failed">לא ניתן לשמור את הגדרת Pulse</string>
+    <string name="accent_applied">צבע ההדגשה הוחל</string>
+    <string name="accent_current">צבע הדגשה · %1$s</string>
+    <string name="accent_current_custom">צבע הדגשה · מותאם אישית</string>
+    <string name="accent_preview_tonal">טונלי</string>
+    <string name="accent_failed">לא ניתן להחיל את צבע ההדגשה</string>
+    <string name="accent_custom">מותאם אישית</string>
+    <string name="accent_custom_summary">כל צבע מתאים. גוון עדיין מוחל מעליו.</string>
+    <string name="accent_custom_pad">רוויה ובהירות</string>
+    <string name="accent_custom_use">השתמש ב-<xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">גוון</string>
+    <string name="accent_shade_darker">כהה יותר</string>
+    <string name="accent_shade_lighter">בהיר יותר</string>
+    <string name="accent_shade_darker_value">כהה יותר · %1$d</string>
+    <string name="accent_shade_lighter_value">בהיר יותר · %1$d</string>
+    <string name="remixer_qs_style">סגנון הגדרות מהירות</string>
+    <string name="remixer_qs_style_preview">תצוגה מקדימה · %1$s</string>
+    <string name="remixer_qs_style_note">כל סגנון עוקב אחר צבע ההדגשה שלך. לפאנל עוצמת הקול יש מראים תואמים: Bento, Shapes, Blueprint, Duo ו-Soft. Stock Lineage משאיר את כפתורי Android 17 ללא שינוי.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">כפתורי Android 17, ללא שינוי</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">בהירות בכרטיס צבע הדגשה. הכפתורים ממולאים בהדרגת צבע הדגשה</string>
+    <string name="remixer_qs_style_compact">קומפקטי</string>
+    <string name="remixer_qs_style_compact_summary">כפתורים קצרים יותר. יותר מהם במסך אחד</string>
+    <string name="remixer_qs_style_glass">זכוכית</string>
+    <string name="remixer_qs_style_glass_summary">כפתורים שקופים עם קווי מתאר שנדלקים בצבע ההדגשה כשהם פעילים</string>
+    <string name="remixer_qs_style_circles">עיגולים</string>
+    <string name="remixer_qs_style_circles_summary">מתגים עגולים עם תוויות. כפתורים רחבים הופכים לכרטיסים</string>
+    <string name="remixer_qs_style_classic">קלאסי</string>
+    <string name="remixer_qs_style_classic_summary">RR בסגנון ישן: סמלים חשופים עם תוויות, חמישה בשורה, מחוון דק</string>
+    <string name="remixer_qs_style_cards">כרטיסים</string>
+    <string name="remixer_qs_style_cards_summary">כרטיסים גדולים עם המצב מתחת לכל שם, שלושה בשורה</string>
+    <string name="remixer_qs_style_neon">ניאון</string>
+    <string name="remixer_qs_style_neon_summary">כפתורים עם קווי מתאר שזוהרים בצבע ההדגשה כשהם פעילים</string>
+    <string name="remixer_qs_style_bento_summary">בלוקים גדולים ומעוגלים שממולאים בצבע ההדגשה, תוויות מתחת לקטנים</string>
+    <string name="remixer_qs_style_shapes">צורות</string>
+    <string name="remixer_qs_style_shapes_summary">מתגים עגולים שמקבלים אונות כשהם פעילים, חמישה בשורה</string>
+    <string name="remixer_qs_style_blueprint">שרטוט</string>
+    <string name="remixer_qs_style_blueprint_summary">קווי מתאר דקים ואותיות רוחב קבוע באותיות גדולות</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">כפתורים מפוצלים. חצי הסמל נדלק ומחליף מצב</string>
+    <string name="remixer_qs_style_soft">רך</string>
+    <string name="remixer_qs_style_soft_summary">כפתורים בולטים שנלחצים פנימה כשהם פעילים</string>
+    <string name="remixer_lock_media_style">סגנון נגן מדיה</string>
+    <string name="remixer_lock_media_same">כמו בהגדרות מהירות</string>
+    <string name="remixer_lock_media_same_summary">עוקב אחר כפתור המדיה בהגדרות מהירות, כעת %1$s</string>
+    <string name="remixer_lock_media_off_summary">אין נגן במסך הנעילה</string>
+    <string name="remixer_lock_media_note">הכרטיס מוצג במסך הנעילה בזמן שמשהו מתנגן. לסגנונות שקופים מתווסף רקע כהה כדי שהטקסט יישאר קריא על הטפט.</string>
+    <string name="remixer_lock_media_stock_summary">עטיפת האלבום ממלאת את הכרטיס</string>
+    <string name="remixer_lock_media_remix_summary">כרטיס כהה, כפתור ניגון בצבע הדגשה</string>
+    <string name="remixer_lock_media_compact_summary">כרטיס מעוגל יותר, עטיפה עגולה</string>
+    <string name="remixer_lock_media_glass_summary">כרטיס שקוף עם קו מתאר</string>
+    <string name="remixer_lock_media_circles_summary">כרטיס רך, כפתור ניגון בצבע הדגשה</string>
+    <string name="remixer_lock_media_classic_summary">כרטיס מרובע יותר, כפתור ניגון עם קו מתאר</string>
+    <string name="remixer_lock_media_cards_summary">כרטיס רך, כפתור ניגון בצבע הדגשה, כמו עיגולים</string>
+    <string name="remixer_lock_media_neon_summary">כרטיס שחור עם קו מתאר בצבע הדגשה</string>
+    <string name="remixer_lock_media_bento_summary">כרטיס רך, כפתור ניגון בצבע הדגשה</string>
+    <string name="remixer_lock_media_shapes_summary">כרטיס מעוגל יותר, כפתור ניגון בצבע הדגשה</string>
+    <string name="remixer_lock_media_blueprint_summary">קו מתאר דק, כפתור ניגון עם קו מתאר</string>
+    <string name="remixer_lock_media_duo_summary">כרטיס בשני גוונים, כפתור ניגון בצבע הדגשה</string>
+    <string name="remixer_lock_media_soft_summary">כרטיס בולט עם שפה מופחתת</string>
+    <string name="remixer_headers">תמונת כותרת</string>
+    <string name="remixer_headers_summary">בחר תמונת רקע להגדרות מהירות</string>
+    <string name="header_switch">השתמש בתמונת כותרת</string>
+    <string name="header_switch_summary">הצג תמונה מאחורי ההגדרות המהירות</string>
+    <string name="header_source">מקור</string>
+    <string name="header_source_collection">אוסף</string>
+    <string name="header_collections_summary_daylight">הכותרת עוקבת אחר שעת היום או מתחלפת באוסף</string>
+    <string name="header_collections_summary_static">פתח אוסף, ואז הקש על תמונה כדי להשתמש בה</string>
+    <string name="header_collections_empty">לא מותקנים אוספי כותרות</string>
+    <string name="header_images_daylight">באוסף הזה</string>
+    <plurals name="header_image_count">
+        <item quantity="one">%d תמונה</item>
+        <item quantity="two">%d תמונות</item>
+        <item quantity="many">%d תמונות</item>
+        <item quantity="other">%d תמונות</item>
+    </plurals>
+    <string name="header_photo_summary">כל תמונה או GIF מונפש מהגלריה שלך</string>
+    <string name="header_height">גובה</string>
+    <string name="header_height_value">גובה · %1$d dp</string>
+    <string name="header_shadow">עמום</string>
+    <string name="header_shadow_value">עמום · %1$d%%</string>
+    <string name="header_failed">לא ניתן לשמור את הגדרת הכותרת</string>
+    <string name="remixer_weather_summary">שירות מזג אוויר ויחידות</string>
+    <string name="font_preview_notification">כך ייראה הטקסט בטלפון שלך.</string>
+    <string name="font_try_text">נסה טקסט משלך</string>
+    <string name="font_previewing">מציג תצוגה מקדימה</string>
+    <string name="font_current">הגופן הנוכחי</string>
+    <string name="font_badge_current">נוכחי</string>
+    <string name="font_apply_done">הוחל</string>
+    <string name="font_filter_sans">סאנס</string>
+    <string name="font_filter_display">תצוגה</string>
+    <string name="font_filter_script">כתב</string>
+    <string name="font_filter_mono">מונו</string>
+    <string name="font_applied">הגופן הוחל</string>
+    <string name="font_failed">לא ניתן להחיל את הגופן</string>
+    <string name="wallpaper_set">הטפט הוגדר</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">%d טפט מ-Resurrected Remix. הקש עליו לתצוגה מקדימה.</item>
+        <item quantity="two">%d טפטים מ-Resurrected Remix. הקש על אחד מהם לתצוגה מקדימה.</item>
+        <item quantity="many">%d טפטים מ-Resurrected Remix. הקש על אחד מהם לתצוגה מקדימה.</item>
+        <item quantity="other">%d טפטים מ-Resurrected Remix. הקש על אחד מהם לתצוגה מקדימה.</item>
+    </plurals>
+    <string name="wallpaper_apply_both">שניהם</string>
+    <string name="wallpaper_failed">לא ניתן להגדיר את הטפט</string>
+    <string name="missing_app">האפליקציה הזו לא מותקנת</string>
+    <string name="remixer_spoofing">התחזות</string>
+    <string name="remixer_spoofing_summary">Play Integrity, זהות המכשיר והתחזות לכל אפליקציה</string>
+    <string name="remixer_settings_style">סגנון הגדרות</string>
+    <string name="rr_maintainer">מתחזק</string>
+    <string name="remixer_navbar_summary">אורך, עובי ופריסה של הפס</string>
+    <string name="remixer_navbar_pill_length">אורך פס המחוות</string>
+    <string name="remixer_navbar_pill_thickness">עובי פס המחוות</string>
+    <string name="remixer_navbar_pill_auto_hide">דהיית פס המחוות</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">הסתר את הפס אחרי כמה שניות; הוא חוזר כשנוגעים במסך</string>
+    <string name="remixer_navbar_ime">כפתורי מקלדת</string>
+    <string name="remixer_navbar_ime_summary">הצג כפתורי חזרה ומחליף מקלדת מתחת למקלדת</string>
+    <string name="remixer_navbar_layout">פריסת כפתורים</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>קצר</item>
+        <item>רגיל</item>
+        <item>ארוך</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>הדק ביותר</item>
+        <item>דק יותר</item>
+        <item>דק</item>
+        <item>רגיל</item>
+        <item>עבה</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>רגיל</item>
+        <item>קומפקטי</item>
+        <item>"נטייה שמאלה"</item>
+        <item>"נטייה ימינה"</item>
+    </string-array>
 </resources>

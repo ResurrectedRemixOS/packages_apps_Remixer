@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"वॉलपेपर"</item>
+        <item>Resurrected</item>
+        <item>Android One Green</item>
+        <item>Aospa Green</item>
+        <item>Coca Cola Red</item>
+        <item>Discord Purple</item>
+        <item>Facebook Blue</item>
+        <item>Instagram Cerise</item>
+        <item>Jollibee Crimson</item>
+        <item>Monster Energy Green</item>
+        <item>Nextbit Mint</item>
+        <item>OnePlus Red</item>
+        <item>Pepsi Blue</item>
+        <item>Pixel Blue</item>
+        <item>Pocophone Yellow</item>
+        <item>Razer Green</item>
+        <item>Samsung Blue</item>
+        <item>Spotify Green</item>
+        <item>Starbucks Green</item>
+        <item>Twitch Purple</item>
+        <item>Twitter Blue</item>
+        <item>Xiaomi Orange</item>
+        <item>एम्बर</item>
+        <item>"काला"</item>
+        <item>"नीला"</item>
+        <item>ब्लू ग्रे</item>
+        <item>ब्राउन</item>
+        <item>"सायन"</item>
+        <item>डीप ऑरेंज</item>
+        <item>डीप पर्पल</item>
+        <item>"हरा"</item>
+        <item>"स्लेटी"</item>
+        <item>"इंडिगो"</item>
+        <item>लाइट ब्लू</item>
+        <item>लाइम</item>
+        <item>"नारंगी"</item>
+        <item>"गुलाबी"</item>
+        <item>"बैंगनी"</item>
+        <item>"लाल"</item>
+        <item>"टील"</item>
+        <item>उपयोगकर्ता पांच</item>
+        <item>उपयोगकर्ता चार</item>
+        <item>उपयोगकर्ता एक</item>
+        <item>उपयोगकर्ता सात</item>
+        <item>उपयोगकर्ता छह</item>
+        <item>उपयोगकर्ता तीन</item>
+        <item>उपयोगकर्ता दो</item>
+        <item>"सफ़ेद"</item>
+        <item>"पीला"</item>
+    </string-array>
+</resources>

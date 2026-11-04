@@ -4,4 +4,14 @@
     <string name="lockscreen_weather_location_title">"مکان"</string>
     <string name="lockscreen_weather_wind_title">باد</string>
     <string name="lockscreen_weather_humidity_title">رطوبت</string>
+    <string name="lockscreen_weather_title">آب‌وهوا در صفحه قفل</string>
+    <string name="lockscreen_weather_location_summary">نمایش نام شهر</string>
+    <string name="lockscreen_weather_text_title">وضعیت</string>
+    <string name="lockscreen_weather_text_summary">نمایش وضعیت، مانند ابری یا آسمان صاف</string>
+    <string name="lockscreen_weather_wind_summary">نمایش سرعت و جهت باد</string>
+    <string name="lockscreen_weather_humidity_summary">نمایش رطوبت</string>
+    <string name="custom_clock_weather_title">آب‌وهوا روی صفحه‌های ساعت</string>
+    <string name="custom_clock_weather_summary">نمایش آب‌وهوا درون صفحه‌های ساعتی که جا دارند</string>
+    <string name="remixer_weather_service">سرویس آب‌وهوا</string>
+    <string name="remixer_weather_page_summary">آب‌وهوای صفحه قفل و آنچه نشان می‌دهد</string>
 </resources>

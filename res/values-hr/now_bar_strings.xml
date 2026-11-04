@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">Tipke</string>
     <string name="now_bar_text">"Tekst"</string>
     <string name="now_bar_text_size">"Veličina teksta"</string>
+    <string name="now_bar_summary">Aktivnosti uživo na dnu zaključanog zaslona</string>
+    <string name="now_bar_show">Prikaži</string>
+    <string name="now_bar_music">Glazba i video</string>
+    <string name="now_bar_timers">Tajmeri, štoperica i alarmi</string>
+    <string name="now_bar_hide_call">Sakrij obavijest o pozivu</string>
+    <string name="now_bar_hide_call_summary">Na zaključanom zaslonu poziv u Now Baru ne prikazuje se i kao obavijest</string>
+    <string name="now_bar_live">Ažuriranja uživo</string>
+    <string name="now_bar_live_summary">Navigacija, vožnje, dostave, rezultati</string>
+    <string name="now_bar_scores">Rezultati uživo</string>
+    <string name="now_bar_live_apps">Aplikacije za ažuriranja uživo</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> aplikacija</string>
+    <string name="now_bar_pin">Prikvačeno na zaslonu uvijek uključenom</string>
+    <string name="now_bar_unpin_question">Otkvačiti <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Otkvači</string>
+    <string name="now_bar_scores_summary">Igre koje pratite u At a Glanceu</string>
+    <string name="now_bar_recording">Snimanje zaslona i glasa</string>
+    <string name="now_bar_buds">Slušalice i satovi</string>
+    <string name="now_bar_buds_summary">Baterija povezanog uređaja: lijeva, desna i kutija za slušalice</string>
+    <string name="now_bar_wave">Animacija valova</string>
+    <string name="now_bar_aod">Prikaži na zaslonu uvijek uključenom</string>
+    <string name="now_bar_chip">Pločica u traci statusa</string>
+    <string name="now_bar_chip_summary">Reprodukcija glazbe i tajmeri uz sat dok je uređaj otključan</string>
+    <string name="now_bar_footer">Dok je glazba u Now Baru, velik player na zaključanom zaslonu je skriven. Prevucite traku za prebacivanje između aktivnosti, dodirnite je za otvaranje kontrola, a dugo pritisnite da sakrijete aktivnost dok ne završi. Pauziranu pjesmu prevucite s trake da je uklonite.\n\nRezultati uživo prikazuju igre timova koje pratite u aplikaciji Google. Uz Smartspacer dodajte tamo sportski cilj i njegovi rezultati će se prikazati ovdje.</string>
+    <string name="now_bar_looks">Izgledi</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Zadano"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Veliki</item>
+        <item>Neon</item>
+        <item>Staklena kartica</item>
+    </string-array>
+    <string name="now_bar_material">Materijal</string>
+    <string name="now_bar_material_summary">Liquid Glass koristi staklo koje ste postavili u Temi</string>
+    <string-array name="now_bar_material_entries">
+        <item>Puno</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Naslovnica albuma</item>
+        <item>Naglasak</item>
+        <item>Tamno</item>
+    </string-array>
+    <string name="now_bar_opacity">Neprozirnost</string>
+    <string name="now_bar_opacity_summary">Koliko boja boji staklo kod Liquid Glassa</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Ništa"</item>
+        <item>Tanko</item>
+        <item>Naglasak</item>
+    </string-array>
+    <string name="now_bar_shadow">Sjena</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Isključeno"</item>
+        <item>Soft</item>
+        <item>Sjaj</item>
+    </string-array>
+    <string name="now_bar_more">Više aktivnosti</string>
+    <string-array name="now_bar_more_entries">
+        <item>Samo prevucite</item>
+        <item>Točkice</item>
+        <item>Pogledaj iza</item>
+    </string-array>
+    <string name="now_bar_size">Veličina i oblik</string>
+    <string name="now_bar_height">Visina</string>
+    <string name="now_bar_width_summary">Puno pomiče prečace iznad trake</string>
+    <string-array name="now_bar_width_entries">
+        <item>Uska</item>
+        <item>Između prečaca</item>
+        <item>Puno</item>
+    </string-array>
+    <string name="now_bar_corners">Kutovi</string>
+    <string name="now_bar_raise">Podignuta</string>
+    <string name="now_bar_art">Naslovnica albuma</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Krug"</item>
+        <item>Zaobljeno</item>
+        <item>"Kvadrat"</item>
+        <item>"Isključeno"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Preskoči i reproduciraj</item>
+        <item>Samo reprodukcija</item>
+        <item>"Ništa"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Jedan redak</item>
+        <item>Dva retka</item>
+        <item>Samo pjesma</item>
+    </string-array>
+    <string name="now_bar_show_page">Što se prikazuje na traci</string>
+    <string name="now_bar_show_page_summary">Glazba i video, tajmeri, pozivi i više</string>
+    <string name="now_bar_where">Ostalo</string>
 </resources>

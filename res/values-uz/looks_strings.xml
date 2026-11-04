@@ -15,4 +15,54 @@
     <string name="looks_save_look">"Saqlash"</string>
     <string name="looks_custom_color">"Maxsus rang"</string>
     <string name="looks_part_clock_color">"Soat rangi"</string>
+    <string name="looks_title">Namunalar</string>
+    <string name="looks_summary">Butun sozlamangiz bir bosishda</string>
+    <string name="looks_rr">RR namunalari</string>
+    <string name="looks_yours">Sizning namunalaringiz</string>
+    <string name="looks_none">Hali hech narsa saqlanmagan</string>
+    <string name="looks_save">Joriy holatni saqlash</string>
+    <string name="looks_import_clipboard">Bufferdan</string>
+    <string name="looks_import_file">Fayldan</string>
+    <string name="looks_mine">Mening namunam</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> qo‘llanildi</string>
+    <string name="looks_failed">Hammasini qo‘llab bo‘lmadi</string>
+    <string name="looks_invalid">Bu RR namunasi emas</string>
+    <string name="looks_part_accent">Urg‘u rangi</string>
+    <string name="looks_part_qs">Tezkor sozlamalar uslubi</string>
+    <string name="looks_part_clock_face">Ekran qulfi soat uslubi</string>
+    <string name="looks_part_clock_look">Holat qatori soati</string>
+    <string name="looks_part_edge">Chekka yoritish</string>
+    <string name="looks_part_boot">Yuklash animatsiyasi</string>
+    <string name="looks_part_haptics">Haptic Remix naqshlari</string>
+    <string name="looks_saturation">To‘yinganlik <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Aksent</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>” ni ulashish</string>
+    <string name="looks_share_hint">Boshqa RR telefonining kamerasi bilan skanerlang yoki Namunalar › Import bo‘limida</string>
+    <string name="looks_share_file">Faylni ulashish</string>
+    <string name="looks_save_file">Faylni saqlash</string>
+    <string name="looks_import_scan">QR kodni skanerlash</string>
+    <string name="looks_import_title">Namunani import qilish</string>
+    <string name="looks_from_qr">QR koddan</string>
+    <string name="looks_from_file">Fayldan</string>
+    <string name="looks_from_clipboard">Bufferdan</string>
+    <string name="looks_import_same">Bu allaqachon sozlamalaringizga mos keladi.</string>
+    <string name="looks_new">Yangi namuna</string>
+    <string name="looks_edit_title">Namunani tahrirlash</string>
+    <string name="looks_in_look">Bu namunada</string>
+    <string name="looks_not_included">Bu ko‘rinishda yo‘q</string>
+    <string name="looks_save_apply">Saqlash va qo‘llash</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” saqlandi</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” o‘chirilsinmi?</string>
+    <string name="looks_rr_wallpaper">RR fon rasmi <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Urg‘u rangining to‘yinganligi</string>
+    <string name="looks_part_clock_chip">Holat qatori soat belgisi</string>
+    <string name="looks_part_edge_style">Chekka yoritish uslubi</string>
+    <string name="looks_scan_hint">Kamerani ko‘rinish QR kodiga yo‘naltiring</string>
+    <string name="looks_scan_failed">Kamerani ochib bo‘lmadi</string>
+    <string name="look_roulette_title">Ko‘rinish ruleti</string>
+    <string-array name="look_roulette_entries">
+        <item>"Oʻchiq"</item>
+        <item>Har qulflashda boshqa ko‘rinish</item>
+        <item>Har kuni boshqa ko‘rinish</item>
+    </string-array>
 </resources>

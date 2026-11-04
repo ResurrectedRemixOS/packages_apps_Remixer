@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Një Look për secilin nga Modet e tua</string>
+    <string name="remix_modes_everyday">Look i përditshëm</string>
+    <string name="remix_modes_everyday_summary">Kthehet kur nuk është aktiv asnjë Mode me Look</string>
+    <string name="remix_modes_wallpaper">Imazhi i sfondit ndjek Look-un</string>
+    <string name="remix_modes_wallpaper_summary">Një Mode mund ta ndryshojë edhe imazhin e sfondit</string>
+    <string name="remix_modes_modes">Modet e tua</string>
+    <string name="remix_modes_no_change">Pa ndryshim</string>
+    <string name="remix_modes_none">Ruaj së pari një Look, te Tema › Looks</string>
+    <string name="remix_modes_pick">Look për <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

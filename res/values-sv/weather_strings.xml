@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Information"</string>
     <string name="lockscreen_weather_location_title">"Plats"</string>
+    <string name="lockscreen_weather_title">Väder på låsskärmen</string>
+    <string name="lockscreen_weather_location_summary">Visa stadens namn</string>
+    <string name="lockscreen_weather_text_title">Väderförhållanden</string>
+    <string name="lockscreen_weather_text_summary">Visa väderförhållandet, till exempel Molnigt eller Klar himmel</string>
+    <string name="lockscreen_weather_wind_title">Vind</string>
+    <string name="lockscreen_weather_wind_summary">Visa vindens hastighet och riktning</string>
+    <string name="lockscreen_weather_humidity_title">Luftfuktighet</string>
+    <string name="lockscreen_weather_humidity_summary">Visa luftfuktigheten</string>
+    <string name="custom_clock_weather_title">Väder på klockskärmar</string>
+    <string name="custom_clock_weather_summary">Visa väder i klockskärmar som har plats för det</string>
+    <string name="remixer_weather_service">Vädertjänst</string>
+    <string name="remixer_weather_page_summary">Väder på låsskärmen och vad det visar</string>
 </resources>

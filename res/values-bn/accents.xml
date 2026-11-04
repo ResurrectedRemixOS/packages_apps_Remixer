@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"ওয়ালপেপার"</item>
+        <item>রিজারেক্টেড</item>
+        <item>অ্যান্ড্রয়েড ওয়ান সবুজ</item>
+        <item>অ্যাসপা সবুজ</item>
+        <item>কোকা-কোলা লাল</item>
+        <item>ডিসকর্ড বেগুনি</item>
+        <item>ফেসবুক নীল</item>
+        <item>ইনস্টাগ্রাম সেরিজ</item>
+        <item>জলিবি ক্রিমসন</item>
+        <item>মনস্টার এনার্জি সবুজ</item>
+        <item>নেক্সটবিট মিন্ট</item>
+        <item>ওয়ানপ্লাস লাল</item>
+        <item>পেপসি নীল</item>
+        <item>পিক্সেল নীল</item>
+        <item>পোকোফোন হলুদ</item>
+        <item>রেজার সবুজ</item>
+        <item>স্যামসাং নীল</item>
+        <item>স্পটিফাই সবুজ</item>
+        <item>স্টারবাকস সবুজ</item>
+        <item>টুইচ বেগুনি</item>
+        <item>টুইটার নীল</item>
+        <item>শাওমি কমলা</item>
+        <item>অ্যাম্বার</item>
+        <item>"কালো"</item>
+        <item>"নীল"</item>
+        <item>নীলচে ধূসর</item>
+        <item>বাদামি</item>
+        <item>"নীলাভ সবুজ"</item>
+        <item>গাঢ় কমলা</item>
+        <item>গাঢ় বেগুনি</item>
+        <item>"সবুজ"</item>
+        <item>"ধূসর"</item>
+        <item>"নীলচে বেগুনি"</item>
+        <item>হালকা নীল</item>
+        <item>লাইম</item>
+        <item>"কমলা"</item>
+        <item>"গোলাপী"</item>
+        <item>"বেগুনী"</item>
+        <item>"লাল"</item>
+        <item>"নীলচে সবুজ"</item>
+        <item>ব্যবহারকারী পাঁচ</item>
+        <item>ব্যবহারকারী চার</item>
+        <item>ব্যবহারকারী এক</item>
+        <item>ব্যবহারকারী সাত</item>
+        <item>ব্যবহারকারী ছয়</item>
+        <item>ব্যবহারকারী তিন</item>
+        <item>ব্যবহারকারী দুই</item>
+        <item>"সাদা"</item>
+        <item>"হলুদ"</item>
+    </string-array>
+</resources>

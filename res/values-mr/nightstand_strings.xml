@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">केव्हा</string>
+    <string name="nightstand_title">नाईटस्टँड</string>
+    <string name="nightstand_summary">रात्री चार्जिंगवर असताना, ॲलवेज-ऑन डिस्प्लेवर मंद बेडसाईड घड्याळ</string>
+    <string-array name="nightstand_when_entries">
+        <item>"बंद आहे"</item>
+        <item>रात्री चार्जरवर</item>
+        <item>दररोज रात्री, वेळापत्रकानुसार</item>
+        <item>झोपण्याचा मोड चालू असताना</item>
+    </string-array>
+    <string name="nightstand_from">रात्र सुरू</string>
+    <string name="nightstand_to">रात्र संपते</string>
+    <string name="nightstand_brightness">ब्राइटनेसची मर्यादा</string>
+    <string name="nightstand_brightness_summary">नाईटस्टँड चालू असताना ॲलवेज-ऑन डिस्प्ले किती उजळू शकतो</string>
+    <string name="nightstand_face">घड्याळ डिझाइन</string>
+    <string name="nightstand_face_keep">सध्याचे डिझाइन ठेवा</string>
+    <string name="nightstand_footer">नाईटस्टँड चालत असताना ॲलवेज-ऑन डिस्प्ले चालू करतो आणि नंतर पूर्ववत करतो. चार्जर काढल्यावर, अलार्म वाजल्यावर किंवा रात्र संपल्यावर ते बंद होते. डिझाइन फक्त दोन सानुकूल डिझाइनमध्ये बदलते; सिस्टम घड्याळ तसेच राहते.</string>
 </resources>

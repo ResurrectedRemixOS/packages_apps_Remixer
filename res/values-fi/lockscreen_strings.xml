@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">Estä herätys vahingossa</string>
+    <string name="lockscreen_battery_info_title">Latauksen tiedot</string>
+    <string name="lockscreen_battery_info_summary">Näytä virta, watit, jännite ja akun lämpötila latauksen aikana</string>
+    <string name="charging_ring_title">SuperVOOC-latausanimaatio</string>
+    <string name="charging_ring_summary">Näytä latausrengas ja nopeus, kun kytket laturin</string>
+    <string name="pocket_mode_summary">Kun läheisyysanturi on peitettynä, näyttö ei herää eikä reagoi kosketuksiin</string>
+    <string name="screen_on_time_title">Näytön päällä oloaika</string>
+    <string name="screen_on_time_summary">Näytä näytön päällä oloaika viimeisestä täydestä latauksesta lukitusnäytöllä latauksen aikana ja Akkusäästö-pikaasetuksessa</string>
 </resources>

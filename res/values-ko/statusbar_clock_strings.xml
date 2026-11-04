@@ -4,4 +4,33 @@
     <string name="sb_clock_chip_angle_title">기울기 각도</string>
     <string name="sb_weather_category">"날씨"</string>
     <string name="sb_weather_position_title">위치</string>
+    <string name="sb_clock_category">시계 및 날짜</string>
+    <string name="sb_clock_bold_title">굵은 시계</string>
+    <string name="sb_clock_bold_summary">상태 표시줄 시계를 굵게 표시합니다</string>
+    <string name="sb_clock_period_separator_title">구분 기호</string>
+    <string name="sb_clock_period_separator_summary">10:45 대신 10.45로 표시합니다</string>
+    <string name="sb_clock_date_position_title">날짜 위치</string>
+    <string name="sb_clock_date_style_title">날짜 대소문자</string>
+    <string name="sb_clock_date_format_title">날짜 형식</string>
+    <string name="sb_clock_chip_category">시계 배경</string>
+    <string name="sb_clock_chip_title">배경 스타일</string>
+    <string name="sb_clock_chip_start_title">그라데이션 시작</string>
+    <string name="sb_clock_chip_end_title">그라데이션 끝</string>
+    <string name="sb_clock_chip_mask_title">그라데이션에서 시간 잘라내기</string>
+    <string name="sb_clock_chip_mask_summary">숫자 뒤가 아니라 숫자를 통해 그라데이션이 보입니다</string>
+    <string name="sb_weather_title">상태 표시줄에 날씨 표시</string>
+    <string name="status_bar_clock_rr_style_title">시계 스타일</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"기본값"</item>
+        <item>네온</item>
+        <item>분할</item>
+        <item>RR 마크</item>
+        <item>모노</item>
+        <item>Pulse</item>
+        <item>쌓기</item>
+        <item>엠버</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">시간 옆 Flatline</string>
+    <string name="sb_clock_flatline_summary">칩 안에 RR의 심박 선이 표시됩니다. 음악에 맞춰 뛰고, 알림이 도착하면 튑니다</string>
 </resources>

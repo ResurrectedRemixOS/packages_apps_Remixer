@@ -17,4 +17,52 @@
     <string name="looks_save_look">"Salva"</string>
     <string name="looks_custom_color">"Colore personalizzato"</string>
     <string name="looks_part_clock_color">"Colore orologio"</string>
+    <string name="looks_title">Preset</string>
+    <string name="looks_summary">Tutta la configurazione con un tocco</string>
+    <string name="looks_rr">Preset RR</string>
+    <string name="looks_yours">I tuoi preset</string>
+    <string name="looks_none">Nessun preset salvato</string>
+    <string name="looks_save">Salva attuale</string>
+    <string name="looks_import_clipboard">Dagli appunti</string>
+    <string name="looks_import_file">Da un file</string>
+    <string name="looks_mine">Il mio preset</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> applicato</string>
+    <string name="looks_failed">Non è stato possibile applicare tutto</string>
+    <string name="looks_invalid">Questo non è un preset RR</string>
+    <string name="looks_part_qs">Stile Impostazioni rapide</string>
+    <string name="looks_part_clock_face">Stile orologio della schermata di blocco</string>
+    <string name="looks_part_clock_look">Orologio della barra di stato</string>
+    <string name="looks_part_edge">Illuminazione dei bordi</string>
+    <string name="looks_part_haptics">Schemi di Haptic Remix</string>
+    <string name="looks_saturation">Saturazione <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Accento</string>
+    <string name="looks_share_title">Condividi “<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">Scansiona con la fotocamera di un altro telefono RR, oppure in Preset › Importa</string>
+    <string name="looks_share_file">Condividi file</string>
+    <string name="looks_save_file">Salva file</string>
+    <string name="looks_import_scan">Scansiona un codice QR</string>
+    <string name="looks_import_title">Importa preset</string>
+    <string name="looks_from_qr">da un codice QR</string>
+    <string name="looks_from_file">da un file</string>
+    <string name="looks_from_clipboard">dagli appunti</string>
+    <string name="looks_import_same">Corrisponde già alla tua configurazione.</string>
+    <string name="looks_new">Nuovo preset</string>
+    <string name="looks_edit_title">Modifica preset</string>
+    <string name="looks_in_look">In questo preset</string>
+    <string name="looks_not_included">Non in questo preset</string>
+    <string name="looks_save_apply">Salva e applica</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” salvato</string>
+    <string name="looks_delete_confirm">Eliminare “<xliff:g id="name" example="Sunday">%1$s</xliff:g>”?</string>
+    <string name="looks_rr_wallpaper">Sfondo RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Saturazione colore primario</string>
+    <string name="looks_part_clock_chip">Chip orologio della barra di stato</string>
+    <string name="looks_part_edge_style">Stile illuminazione dei bordi</string>
+    <string name="looks_scan_hint">Inquadra il codice QR di un preset con la fotocamera</string>
+    <string name="looks_scan_failed">Impossibile aprire la fotocamera</string>
+    <string name="look_roulette_title">Roulette dei preset</string>
+    <string-array name="look_roulette_entries">
+        <item>Disattivato</item>
+        <item>Un preset diverso a ogni sblocco</item>
+        <item>Un preset diverso ogni giorno</item>
+    </string-array>
 </resources>

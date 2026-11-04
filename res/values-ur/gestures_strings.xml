@@ -8,4 +8,50 @@
         <item>"متوسط"</item>
         <item>"بڑا"</item>
     </string-array>
+    <string name="pie_title">پائی کنٹرولز</string>
+    <string name="pie_summary">کنارے کے نچلے حصے کو دیر تک دبائے رکھیں تاکہ شارٹ کٹس کی پائی کھلے</string>
+    <string name="pie_zone">کنارے کا حصہ</string>
+    <string name="pie_clock">اس کے اوپر گھڑی اور بیٹری</string>
+    <string name="pie_items">ٹکڑے</string>
+    <string-array name="pie_items_entries">
+        <item>"پیچھے"</item>
+        <item>ہوم</item>
+        <item>"حالیہ"</item>
+        <item>"اطلاعات"</item>
+        <item>"فلیش لائٹ"</item>
+        <item>"اسکرین شاٹ"</item>
+        <item>"پاور مینیو"</item>
+        <item>"اسسٹنٹ"</item>
+        <item>"کیمرا"</item>
+    </string-array>
+    <string name="pie_footer">اس کے لیے چوتھائی سیکنڈ تک بغیر ہلائے دبانا ہوتا ہے، اس لیے کنارے سے تیز سوائپ اب بھی واپس لے جاتا ہے۔ یہ مقفل اسکرین پر نہیں کھلتا۔</string>
+    <string-array name="pie_edges_entries">
+        <item>"بائیں"</item>
+        <item>"دائیں"</item>
+        <item>دونوں</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>نچلا تہائی</item>
+        <item>درمیان</item>
+        <item>پورا کنارہ</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>نیون</item>
+        <item>گلاس</item>
+        <item>کلاسک</item>
+    </string-array>
+    <string name="sidebar_style_title">ایپ سائیڈ بار کا انداز</string>
+    <string-array name="sidebar_style_entries">
+        <item>کلاسک</item>
+        <item>RR شیشہ</item>
+        <item>نیون</item>
+    </string-array>
+    <string name="sidebar_settings_title">ایپ سائیڈ بار</string>
+    <string name="sidebar_settings_summary">اپنی ایپس اور ٹولز کے لیے ہینڈل سے اندر سوائپ کریں</string>
+    <string name="sidebar_apps_title">ایپس، ہینڈل اور کلپ بورڈ</string>
+    <string name="sidebar_apps_summary">ہینڈل آن کریں، ایپس منتخب کریں اور اسمارٹ کلپ بورڈ ترتیب دیں</string>
+    <string name="sidebar_handle_size_title">ہینڈل کا سائز</string>
+    <string name="sidebar_tools_title">ٹولز قطار</string>
+    <string name="sidebar_tools_summary">ایپس کے نیچے اسکرین شاٹ اور فلیش لائٹ</string>
+    <string name="sidebar_footer">ہینڈل آپ کے لہجے کے رنگ کی ایک باریک لکیر ہے؛ اسے کنارے کے ساتھ منتقل کرنے کے لیے گھسیٹیں۔ اشاروں والے نیویگیشن کے ساتھ یہ صرف اپنے حصے کے کنارے کو گھیرتا ہے، اور باقی جگہوں پر واپس کا اشارہ کام کرتا ہے۔</string>
 </resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Tapeta"</item>
+        <item>Resurrected</item>
+        <item>Android One Green</item>
+        <item>Aospa Green</item>
+        <item>Coca Cola Red</item>
+        <item>Discord Purple</item>
+        <item>Facebook Blue</item>
+        <item>Instagram Cerise</item>
+        <item>Jollibee Crimson</item>
+        <item>Monster Energy Green</item>
+        <item>Nextbit Mint</item>
+        <item>Oneplus Red</item>
+        <item>Pepsi Blue</item>
+        <item>Pixel Blue</item>
+        <item>Pocophone Yellow</item>
+        <item>Razer Green</item>
+        <item>Samsung Blue</item>
+        <item>Spotify Green</item>
+        <item>Starbucks Green</item>
+        <item>Twitch Purple</item>
+        <item>Twitter Blue</item>
+        <item>Xiaomi Orange</item>
+        <item>Jantarová</item>
+        <item>"Černá"</item>
+        <item>"Modrá"</item>
+        <item>Modrošedá</item>
+        <item>Hnědá</item>
+        <item>"Azurová"</item>
+        <item>Tmavě oranžová</item>
+        <item>Tmavě fialová</item>
+        <item>"Zelená"</item>
+        <item>"Šedá"</item>
+        <item>"Indigová"</item>
+        <item>Světle modrá</item>
+        <item>Limetková</item>
+        <item>"Oranžová"</item>
+        <item>"Růžová"</item>
+        <item>"Fialová"</item>
+        <item>"Červená"</item>
+        <item>"Modrozelená"</item>
+        <item>Uživatel pět</item>
+        <item>Uživatel čtyři</item>
+        <item>Uživatel jedna</item>
+        <item>Uživatel sedm</item>
+        <item>Uživatel šest</item>
+        <item>Uživatel tři</item>
+        <item>Uživatel dva</item>
+        <item>"Bílá"</item>
+        <item>"Žlutá"</item>
+    </string-array>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Користи RKP на уредот</string>
+    <string name="ts_rkp_enabled_summary">Користи генериран клуч. Увезувањето клуч го исклучува ова.</string>
+    <string name="ts_rkp_provision">Генерирај клуч</string>
+    <string name="ts_rkp_provision_summary">Побарајте клуч од Google preку овој уред со неговата услуга за обезбедување. Бара компатибилен Qualcomm фирмвер.</string>
+    <string name="ts_rkp_status">Статус на обезбедување</string>
+    <string name="ts_rkp_owner_only">Управувајте со уредниот RKP од профилот на сопственикот на уредот</string>
+    <string name="ts_rkp_unavailable">Уредниот RKP не е достапен</string>
+    <string name="ts_rkp_imported">Оневозможено додека е инсталиран увезен клуч</string>
+    <string name="ts_rkp_disabled">Исклучено. Овозможете уреден RKP за да користите или генерирате клуч.</string>
+    <string name="ts_rkp_idle">Подготвено за барање клуч</string>
+    <string name="ts_rkp_fetching">Се добива предизвик за обезбедување…</string>
+    <string name="ts_rkp_hardware">Се чека услугата за обезбедување на уредот…</string>
+    <string name="ts_rkp_signing">Се бараат сертификати од Google…</string>
+    <string name="ts_rkp_validating">Се валидира и зачувува клучот…</string>
+    <string name="ts_rkp_ready">Генерираниот клуч е активен. Се обновува автоматски пред %1$s</string>
+    <string name="ts_rkp_keybox_stored">Уредниот RKP клуч е зачуван</string>
+    <string name="ts_rkp_expired">Генерираниот клуч истече. Генерирајте замена.</string>
+    <string name="ts_rkp_hal_rejected">Фирмверот го одби барањето (код %1$d). Duck V1 можеби не е поддржан.</string>
+    <string name="ts_rkp_http_error">Серверот за обезбедување го одби барањето (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Уредот не нуди компатибилен V1 интерфејс за обезбедување</string>
+    <string name="ts_rkp_network_error">Не може да се поврзе со серверот за обезбедување. Проверете ја врската.</string>
+    <string name="ts_rkp_submission_unknown">Одговорот од серверот се изгуби. Барањето можеби е обработено; нема автоматски повторен обид.</string>
+    <string name="ts_rkp_invalid_chain">Сертификатите на клучот не поминаа валидација. Постоечкиот клуч е задржан.</string>
+    <string name="ts_rkp_timeout">Обезбедувањето истече на време. Ако услугата на уредот е сè уште зафатена, рестартирајте го уредот пред повторен обид.</string>
+    <string name="ts_rkp_canceled">Барањето е откажано бидејќи конфигурацијата на клучот се промени</string>
+    <string name="ts_rkp_save_failed">Генерираниот клуч не може да се зачува</string>
+    <string name="ts_rkp_action_failed">Операцијата со клучот не можеше да се заврши</string>
+</resources>

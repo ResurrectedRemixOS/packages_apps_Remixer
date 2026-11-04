@@ -3,4 +3,34 @@
     <string name="sb_clock_date_title">"Data"</string>
     <string name="sb_weather_category">"Moti"</string>
     <string name="sb_weather_position_title">Pozicioni</string>
+    <string name="sb_clock_category">Ora dhe data</string>
+    <string name="sb_clock_bold_title">Ora me shkronja të trasha</string>
+    <string name="sb_clock_bold_summary">Shfaq orën e shiritit të statusit me shkronja të trasha</string>
+    <string name="sb_clock_period_separator_title">Ndarësi i periudhës</string>
+    <string name="sb_clock_period_separator_summary">10.45 në vend të 10:45</string>
+    <string name="sb_clock_date_position_title">Pozicioni i datës</string>
+    <string name="sb_clock_date_style_title">Shkronjat e datës</string>
+    <string name="sb_clock_date_format_title">Formati i datës</string>
+    <string name="sb_clock_chip_category">Sfondi i orës</string>
+    <string name="sb_clock_chip_title">Stili i sfondit</string>
+    <string name="sb_clock_chip_start_title">Fillimi i gradientit</string>
+    <string name="sb_clock_chip_end_title">Fundi i gradientit</string>
+    <string name="sb_clock_chip_angle_title">Këndi i gradientit</string>
+    <string name="sb_clock_chip_mask_title">Pritë kohën nga gradienti</string>
+    <string name="sb_clock_chip_mask_summary">Gradienti shfaqet nëpër shifra në vend që të jetë prapa tyre</string>
+    <string name="sb_weather_title">Moti në shiritin e statusit</string>
+    <string name="status_bar_clock_rr_style_title">Pamja e orës</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"E parazgjedhur"</item>
+        <item>Neon</item>
+        <item>Ndarë</item>
+        <item>Shenja RR</item>
+        <item>Mono</item>
+        <item>Pulsi</item>
+        <item>Të grumbulluara</item>
+        <item>Prush</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Rreshti Flatline pranë orës</string>
+    <string name="sb_clock_flatline_summary">Rreshti i zemrës së RR brenda çipit: rreh me muzikën, bën kulme kur vjen një njoftim</string>
 </resources>

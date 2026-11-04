@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Vaxtölçən</string>
     <string name="quick_launch_undo">"Geri qaytarın"</string>
     <string name="quick_launch_off">"Deaktiv"</string>
+    <string name="quick_launch_title">Sürətli başlatma</string>
+    <string name="quick_launch_main">Barmaq izi ilə sürətli başlatma</string>
+    <string name="quick_launch_main_summary">Kiliddən çıxdıqdan sonra barmağınızı sensorda saxlayaraq qısayolu açın</string>
+    <string name="quick_launch_hint">Qısayolu dəyişmək üçün toxunun, silmək üçün saxlayın və ya sıranı dəyişmək üçün sürükləyin.</string>
+    <string name="quick_launch_behavior">Davranış</string>
+    <string name="quick_launch_hold">Saxlama müddəti</string>
+    <string name="quick_launch_haptics">Hər qısayolda titrəsin</string>
+    <string name="quick_launch_add">Əlavə et</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">QR kodu skan edin</string>
+    <string name="quick_launch_app">Tətbiq…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> silindi</string>
 </resources>

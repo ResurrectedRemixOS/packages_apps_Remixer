@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Batteri"</string>
     <string name="charge_report_temp">"Temperatur"</string>
     <string name="charge_report_time">"Klokkeslæt"</string>
+    <string name="charge_report_title">Opladningsrapporter</string>
+    <string name="charge_report_summary">Et resumé af hver opladning, når du tager stikket ud</string>
+    <string name="charge_report_min_title">Kun hvis den tilføjede mindst</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 dage</item>
+        <item>7 dage</item>
+        <item>14 dage</item>
+        <item>30 dage</item>
+    </string-array>
+    <string name="charge_report_history_days">Sidste <xliff:g id="days" example="7">%1$d</xliff:g> dage</string>
+    <string name="charge_report_today">I dag, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">I går, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> t <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Watt</string>
+    <string name="charge_report_added">Tilføjet</string>
+    <string name="charge_report_peak">Højeste</string>
+    <string name="charge_report_average">Gennemsnit</string>
+    <string name="charge_report_max_temp">Maks. temp.</string>
+    <string name="charge_report_charger">Oplader</string>
+    <string name="charge_report_started">Startede kl.</string>
+    <string name="charge_report_wired">Kabel</string>
+    <string name="charge_report_wireless">Trådløs</string>
+    <string name="charge_report_dock">Dock</string>
+    <string name="charge_report_empty">Ingen opladninger endnu</string>
+    <string name="charge_report_footer">SystemUI læser batteriets strøm, spænding og temperatur hvert 30. sekund, mens telefonen er tilsluttet. Watt er det telefonen måler, så de kan afvige fra tallet på opladeren. Rapporterne bliver på telefonen; intet uploades.</string>
 </resources>

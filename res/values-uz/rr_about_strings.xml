@@ -10,4 +10,24 @@
     <string name="rr_about_this_phone">"Shu telefon"</string>
     <string name="rr_about_network">"Tarmoq"</string>
     <string name="rr_about_hidden">"Yashirin"</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Rasmiy</string>
+    <string name="rr_about_unofficial">Norasmiy</string>
+    <string name="rr_about_vanilla">Asl</string>
+    <string name="rr_about_hardware">Uskuna</string>
+    <string name="rr_about_processor">Protsessor</string>
+    <string name="rr_about_processor_sub">%1$d yadro · %2$s GHz gacha</string>
+    <string name="rr_about_processor_cores">%1$d yadro</string>
+    <string name="rr_about_storage_used">%1$s ishlatilgan</string>
+    <string name="rr_about_display">Displey</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · Zaryadlanmoqda</string>
+    <string name="rr_about_kernel_linux">Linux yadrosi</string>
+    <string name="rr_about_software_purpose">Android versiyasi, xavfsizlik yangilanishi, yig‘ilgan sana va yig‘ish raqami</string>
+    <string name="rr_about_security_patch">Xavfsizlik yangilanishi</string>
+    <string name="rr_about_build_date">Yig‘ilgan sana</string>
+    <string name="rr_about_maintainer">Maintainer</string>
+    <string name="rr_about_show">Ko‘rsatish</string>
+    <string name="rr_about_hide">Yashirish</string>
 </resources>

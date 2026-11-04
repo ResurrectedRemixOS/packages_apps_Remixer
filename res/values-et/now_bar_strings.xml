@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">Nupud</string>
     <string name="now_bar_text">Tekst</string>
     <string name="now_bar_text_size">"Teksti suurus"</string>
+    <string name="now_bar_summary">Aktiivsed tegevused lukustuskuva allosas</string>
+    <string name="now_bar_show">Näita</string>
+    <string name="now_bar_music">Muusika ja video</string>
+    <string name="now_bar_timers">Taimerid, stopper ja äratused</string>
+    <string name="now_bar_hide_call">Peida kõnemärguanne</string>
+    <string name="now_bar_hide_call_summary">Lukustuskuval ei kuvata kõnet Now Bar\'is ka märguandena</string>
+    <string name="now_bar_live">Reaalajas uuendused</string>
+    <string name="now_bar_live_summary">Navigatsioon, sõidud, tarned, tulemused</string>
+    <string name="now_bar_scores">Reaalajas tulemused</string>
+    <string name="now_bar_live_apps">Reaalajas uuenduste rakendused</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> rakendust</string>
+    <string name="now_bar_pin">Kinnitatud püsikuvale</string>
+    <string name="now_bar_unpin_question">Kas eemaldada <xliff:g id="app" example="Uber">%1$s</xliff:g> kinnitus?</string>
+    <string name="now_bar_unpin">Eemalda kinnitus</string>
+    <string name="now_bar_scores_summary">At a Glance\'is jälgitavad mängud</string>
+    <string name="now_bar_recording">Ekraani ja hääle salvestamine</string>
+    <string name="now_bar_buds">Kõrvaklapid ja kellad</string>
+    <string name="now_bar_buds_summary">Ühendatud seadme aku: vasak, parem ja kõrvaklappide karp</string>
+    <string name="now_bar_wave">Laineanimatsioon</string>
+    <string name="now_bar_aod">Kuva püsikuval</string>
+    <string name="now_bar_chip">Silt olekuribal</string>
+    <string name="now_bar_chip_summary">Muusika ja taimerite mängimine kella kõrval lukustamata seadmel</string>
+    <string name="now_bar_footer">Kui Now Bar\'is on muusika, siis suur lukustuskuva mängija on peidetud. Tegevuste vahetamiseks libista ribal, juhtnuppude avamiseks puuduta seda ning ühe peitmiseks hoia seda all, kuni see lõpeb. Pausil laulu eemaldamiseks libista see ribalt välja.\n\nReaalajas tulemused näitavad Google\'i rakenduses jälgitavate meeskondade mänge. Smartspaceriga lisa sinna spordisihtmärk ja selle tulemused ilmuvad siia.</string>
+    <string name="now_bar_looks">Vaated</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Vaikeseade"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Suur</item>
+        <item>Neoon</item>
+        <item>Klaasist kaart</item>
+    </string-array>
+    <string name="now_bar_material">Materjal</string>
+    <string name="now_bar_material_summary">Liquid Glass kasutab teemas määratud klaasi</string>
+    <string-array name="now_bar_material_entries">
+        <item>Ühtlane</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Albumi kaas</item>
+        <item>Aktsent</item>
+        <item>Tume</item>
+    </string-array>
+    <string name="now_bar_opacity">Läbipaistmatus</string>
+    <string name="now_bar_opacity_summary">Liquid Glassi korral, kui palju värv klaasi toonib</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Puudub"</item>
+        <item>Õhuke</item>
+        <item>Aktsent</item>
+    </string-array>
+    <string name="now_bar_shadow">Vari</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Väljas"</item>
+        <item>Pehme</item>
+        <item>Hõõgumine</item>
+    </string-array>
+    <string name="now_bar_more">Rohkem tegevusi</string>
+    <string-array name="now_bar_more_entries">
+        <item>Lihtsalt libista</item>
+        <item>Punktid</item>
+        <item>Vaata taha</item>
+    </string-array>
+    <string name="now_bar_size">Suurus ja kuju</string>
+    <string name="now_bar_height">Kõrgus</string>
+    <string name="now_bar_width_summary">Täielik tõstab otseteed ribast kõrgemale</string>
+    <string-array name="now_bar_width_entries">
+        <item>Kitsas</item>
+        <item>Otseteede vahel</item>
+        <item>Täielik</item>
+    </string-array>
+    <string name="now_bar_corners">Nurgad</string>
+    <string name="now_bar_raise">Tõsta</string>
+    <string name="now_bar_art">Albumi kaas</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Ring"</item>
+        <item>Ümarad</item>
+        <item>"Ruut"</item>
+        <item>"Väljas"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Jäta vahele ja mängi</item>
+        <item>Ainult esitamine</item>
+        <item>"Puudub"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Üks rida</item>
+        <item>Kaks rida</item>
+        <item>Ainult laul</item>
+    </string-array>
+    <string name="now_bar_show_page">Mis ribal kuvatakse</string>
+    <string name="now_bar_show_page_summary">Muusika ja video, taimerid, kõned ja muu</string>
+    <string name="now_bar_where">Muu</string>
 </resources>

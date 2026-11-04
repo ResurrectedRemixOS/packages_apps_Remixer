@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Bevegelser</string>
     <string name="backup_group_other">"Annet"</string>
     <string name="backup_done">"Ferdig"</string>
+    <string name="backup_summary">Alle RR-tilpasninger i én fil</string>
+    <string name="backup_now">Sikkerhetskopier nå</string>
+    <string name="backup_never">Siste sikkerhetskopi: aldri</string>
+    <string name="backup_last">Siste sikkerhetskopi: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Gjenopprett fra en fil</string>
+    <string name="backup_restore_summary">Velg en sikkerhetskopifil</string>
+    <string name="backup_included">Inkludert</string>
+    <string name="backup_part_theme">Aksentfarge, skrifttype og ikoner</string>
+    <string name="backup_part_header">Toppbilde</string>
+    <string name="backup_part_photo">Toppbilde (ditt bilde)</string>
+    <string name="backup_part_photo_summary">Gjør filen større</string>
+    <string name="backup_part_boot">Oppstartsanimasjon</string>
+    <string name="backup_part_looks">Dine utseender</string>
+    <string name="backup_weekly">Ukentlig sikkerhetskopi</string>
+    <string name="backup_weekly_summary">Til en mappe du velger</string>
+    <string name="backup_weekly_on">Hver uke til <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Tilby sikkerhetskopi før oppdateringer</string>
+    <string name="backup_offer_summary">Oppdateringsprogrammet spør før det installerer</string>
+    <string name="backup_sets">Angir <xliff:g id="count" example="64">%1$d</xliff:g> innstillinger</string>
+    <string name="backup_saved">Lagret <xliff:g id="count" example="64">%1$d</xliff:g> innstillinger</string>
+    <string name="backup_restored">Gjenopprettet <xliff:g id="count" example="64">%1$d</xliff:g> innstillinger</string>
+    <string name="backup_restored_message">SystemUI starter på nytt for å ta dem i bruk.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> innstillinger finnes ikke i denne versjonen og ble hoppet over.</string>
+    <string name="backup_failed">Kunne ikke lagre sikkerhetskopien</string>
+    <string name="backup_invalid">Den filen er ikke en Resurrected Remix-sikkerhetskopi</string>
+    <string name="backup_footer">Bare RR-innstillinger tas med i filen: ingen kontoer, passord, Wi-Fi-nettverk, apper eller meldinger. Gjenoppretting skriver bare innstillinger på RRs egen liste, så en sikkerhetskopifil kan ikke endre noe annet på telefonen. Toppbildet ditt er med bare hvis bryteren for det er på, siden det gjør filen større.</string>
+    <string name="volume_style_title">Stil for lydstyrkepanel</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Glass</item>
+        <item>Pille</item>
+        <item>Klassisk RR</item>
+        <item>Bento</item>
+        <item>Former</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Myk</item>
+    </string-array>
 </resources>

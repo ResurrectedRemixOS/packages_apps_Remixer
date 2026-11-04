@@ -91,4 +91,212 @@
     <string name="remixer_settings_style">نمط الإعدادات</string>
     <string name="remixer_settings_style_original">"أصلية"</string>
     <string name="remixer_navbar_category">"شريط التنقل"</string>
+    <string name="remixer_dashboard_summary">الحالة والمظهر وشاشة القفل والمزيد</string>
+    <string name="rr_homepage_battery_saver">توفير البطارية</string>
+    <string name="rr_homepage_personalize">تخصيص</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> حر</string>
+    <string name="rr_homepage_charged">مشحون بالكامل</string>
+    <string name="rr_homepage_on_battery">يعمل بالبطارية</string>
+    <string name="rr_homepage_saver_on">توفير البطارية مفعّل</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one">جهاز واحد <xliff:g id="count" example="2">%d</xliff:g></item>
+        <item quantity="two">جهازان <xliff:g id="count" example="2">%d</xliff:g></item>
+        <item quantity="few"><xliff:g id="count" example="2">%d</xliff:g> أجهزة</item>
+        <item quantity="many"><xliff:g id="count" example="2">%d</xliff:g> جهازًا</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> جهاز</item>
+    </plurals>
+    <string name="rr_homepage_extras">إعدادات إضافية</string>
+    <string name="rr_homepage_saver">التوفير</string>
+    <string name="rr_homepage_signed_out">غير مسجّل الدخول</string>
+    <string name="rr_homepage_remixer_tagline">خصّص هاتفك. الحالة والمظهر وشاشة القفل والمزيد.</string>
+    <string name="rr_homepage_device_tagline">مفتاح التنبيه والشاشة والشحن وGameBar.</string>
+    <string name="rr_homepage_device_action">اضبطه</string>
+    <string name="rr_group_network">الشبكة والأجهزة</string>
+    <string name="rr_group_network_summary">Wi‑Fi والبيانات الخلوية وBluetooth</string>
+    <string name="rr_group_apps_summary">التطبيقات والإشعارات والأوضاع</string>
+    <string name="rr_group_display">العرض والصوت</string>
+    <string name="rr_group_display_summary">العرض والخلفية والصوت</string>
+    <string name="rr_group_security_summary">القفل والموقع والطوارئ</string>
+    <string name="rr_group_security_center">مركز الأمان</string>
+    <string name="rr_group_accounts">Google والحسابات</string>
+    <string name="rr_group_accounts_summary">Google وكلمات المرور والاحتفاظ بنسخة احتياطية</string>
+    <string name="rr_group_accounts_plain_summary">كلمات المرور والحسابات والاحتفاظ بنسخة احتياطية</string>
+    <string name="rr_group_system_summary">اللغات والإيماءات والتحديثات</string>
+    <string name="remixer_tagline">خصّص هاتفك.</string>
+    <string name="remixer_remix">أعِد الصياغة</string>
+    <string name="remixer_remixed">أُعيدت صياغته باستخدام <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">الدرجة · الافتراضي</string>
+    <string name="remixer_quick">إعادة صياغة سريعة</string>
+    <string name="remixer_everything">كل شيء</string>
+    <string name="remixer_quick_accents">إعدادات جاهزة أو أي لون</string>
+    <string name="remixer_quick_fonts">أنماط خط النظام</string>
+    <string name="remixer_quick_walls">مجموعة RR</string>
+    <string name="remixer_quick_header">ترويسة الإعدادات السريعة</string>
+    <string name="remixer_quick_header_summary">صور الترويسة</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">الساعة والبطارية والأيقونات وحركة الشبكة</string>
+    <string name="remixer_qs_summary">صورة الترويسة</string>
+    <string name="remixer_notifications_summary">الإضاءة الحافة وأيقونات التطبيقات وأصوات الشحن</string>
+    <string name="remixer_theme_summary">الخطوط والألوان والخلفيات</string>
+    <string name="remixer_lockscreen_summary">بصمة الشاشة والشحن ومعلومات الطقس</string>
+    <string name="remixer_udfps_icon_summary">يظهر فوق مستشعر البصمة</string>
+    <string name="remixer_udfps_animation_summary">يعمل أثناء وضع إصبعك على المستشعر</string>
+    <string name="remixer_navigation_summary">Pulse والأزرار وشريط التنقل</string>
+    <string name="remixer_misc_summary">الصوت والاحتفاظ بنسخة احتياطية وانتحال الهوية والتمرير وUSB</string>
+    <string name="scroll_haptics_title">النقر في نهاية التمرير</string>
+    <string name="scroll_haptics_summary">اهتزاز خفيف عند الوصول إلى نهاية القائمة أو الصفحة</string>
+    <string name="usb_mode_picker_title">منتقي وضع USB</string>
+    <string name="usb_mode_picker_summary">اختر وضعًا عند توصيل الهاتف بحاسوب</string>
+    <string name="remixer_fonts_summary">خط النظام</string>
+    <string name="remixer_wallpapers_summary">خلفيات Resurrected Remix</string>
+    <string name="remixer_accents">ألوان التمييز</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">مؤثر موسيقي على أسفل الشاشة</string>
+    <string name="pulse_switch">استخدام Pulse</string>
+    <string name="pulse_switch_summary">أعمدة موسيقية أسفل الشاشة أثناء تشغيل الوسائط</string>
+    <string name="pulse_style_lines">خطوط</string>
+    <string name="pulse_style_fading">تلاشي</string>
+    <string name="pulse_style_blocks">كتل</string>
+    <string name="pulse_style_mirror">مرآة</string>
+    <string name="pulse_color_custom">مخصص</string>
+    <string name="pulse_color_gradient">قوس قزح</string>
+    <string name="pulse_bars">أعمدة</string>
+    <string name="pulse_bars_value">الأعمدة · %1$d</string>
+    <string name="pulse_height">الارتفاع</string>
+    <string name="pulse_height_value">الارتفاع · %1$d dp</string>
+    <string name="pulse_opacity">العتامة</string>
+    <string name="pulse_opacity_value">العتامة · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">إبقاء الأعمدة على شاشة القفل أثناء تشغيل الموسيقى</string>
+    <string name="pulse_failed">تعذّر حفظ إعداد Pulse هذا</string>
+    <string name="accent_applied">تم تطبيق لون التمييز</string>
+    <string name="accent_current">لون التمييز · %1$s</string>
+    <string name="accent_current_custom">لون التمييز · مخصص</string>
+    <string name="accent_preview_tonal">تدرّجي</string>
+    <string name="accent_failed">تعذّر تطبيق لون التمييز هذا</string>
+    <string name="accent_custom">مخصص</string>
+    <string name="accent_custom_summary">أي لون مقبول. الدرجة تُطبَّق فوقه أيضًا.</string>
+    <string name="accent_custom_pad">التشبّع والسطوع</string>
+    <string name="accent_custom_use">استخدام <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">الدرجة</string>
+    <string name="accent_shade_darker">أغمق</string>
+    <string name="accent_shade_lighter">أفتح</string>
+    <string name="accent_shade_darker_value">أغمق · %1$d</string>
+    <string name="accent_shade_lighter_value">أفتح · %1$d</string>
+    <string name="remixer_qs_style">نمط الإعدادات السريعة</string>
+    <string name="remixer_qs_style_preview">معاينة · %1$s</string>
+    <string name="remixer_qs_style_note">يتبع كل نمط لون التمييز. ولوحة الصوت تتوفر بمظاهر Bento وShapes وBlueprint وDuo وSoft المتناسقة. يحافظ Stock Lineage على مربّعات Android 17 كما هي.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">مربّعات Android 17 دون تغيير</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">سطوع في بطاقة بلون التمييز. تُملأ المربّعات بتدرّج لون التمييز</string>
+    <string name="remixer_qs_style_compact">مدمج</string>
+    <string name="remixer_qs_style_compact_summary">مربّعات أقصر. عدد أكبر منها في شاشة واحدة</string>
+    <string name="remixer_qs_style_glass">زجاجي</string>
+    <string name="remixer_qs_style_glass_summary">مربّعات شفافة بإطار تتوهّج بلون التمييز عند تشغيلها</string>
+    <string name="remixer_qs_style_circles">دوائر</string>
+    <string name="remixer_qs_style_circles_summary">مفاتيح دائرية مع تسميات. تتحوّل المربّعات العريضة إلى بطاقات</string>
+    <string name="remixer_qs_style_classic">كلاسيكي</string>
+    <string name="remixer_qs_style_classic_summary">نمط RR القديم: أيقونات بسيطة مع تسميات، خمسة في الصف، ومنزلق رفيع</string>
+    <string name="remixer_qs_style_cards">بطاقات</string>
+    <string name="remixer_qs_style_cards_summary">بطاقات كبيرة مع الحالة أسفل كل اسم، ثلاثة في الصف</string>
+    <string name="remixer_qs_style_neon">نيون</string>
+    <string name="remixer_qs_style_neon_summary">مربّعات بإطار تتوهّج بلون التمييز عند تشغيلها</string>
+    <string name="remixer_qs_style_bento_summary">كتل مستديرة كبيرة مملوءة بلون التمييز، والتسميات أسفل المربّعات الصغيرة</string>
+    <string name="remixer_qs_style_shapes">أشكال</string>
+    <string name="remixer_qs_style_shapes_summary">مفاتيح دائرية تنتفخ فصوصها عند التشغيل، خمسة في الصف</string>
+    <string name="remixer_qs_style_blueprint">مخطط</string>
+    <string name="remixer_qs_style_blueprint_summary">إطارات رفيعة وأحرف لاتينية بعرض ثابت</string>
+    <string name="remixer_qs_style_duo">ثنائي</string>
+    <string name="remixer_qs_style_duo_summary">مربّعات مقسّمة. يضيء نصف الأيقونة ويبدّل الحالة</string>
+    <string name="remixer_qs_style_soft">ناعم</string>
+    <string name="remixer_qs_style_soft_summary">مربّعات بارزة تنغمس عند التشغيل</string>
+    <string name="remixer_lock_media_style">نمط مشغّل الوسائط</string>
+    <string name="remixer_lock_media_same">مطابق للإعدادات السريعة</string>
+    <string name="remixer_lock_media_same_summary">يتبع مربّع الوسائط في الإعدادات السريعة، والآن %1$s</string>
+    <string name="remixer_lock_media_off_summary">لا يوجد مشغّل على شاشة القفل</string>
+    <string name="remixer_lock_media_note">تظهر البطاقة على شاشة القفل أثناء تشغيل شيء ما. تحصل الأنماط الشفافة على خلفية داكنة لتبقى مقروءة فوق الخلفية.</string>
+    <string name="remixer_lock_media_stock_summary">صورة الألبوم تملأ البطاقة</string>
+    <string name="remixer_lock_media_remix_summary">بطاقة داكنة وزر تشغيل بلون التمييز</string>
+    <string name="remixer_lock_media_compact_summary">بطاقة أكثر استدارة وصورة دائرية</string>
+    <string name="remixer_lock_media_glass_summary">بطاقة شفافة بإطار</string>
+    <string name="remixer_lock_media_circles_summary">بطاقة ناعمة وزر تشغيل بلون التمييز</string>
+    <string name="remixer_lock_media_classic_summary">بطاقة أكثر تربيعًا وزر تشغيل بإطار</string>
+    <string name="remixer_lock_media_cards_summary">بطاقة ناعمة وزر تشغيل بلون التمييز، مثل الدوائر</string>
+    <string name="remixer_lock_media_neon_summary">بطاقة سوداء بإطار بلون التمييز</string>
+    <string name="remixer_lock_media_bento_summary">بطاقة ناعمة وزر تشغيل بلون التمييز</string>
+    <string name="remixer_lock_media_shapes_summary">بطاقة أكثر استدارة وزر تشغيل بلون التمييز</string>
+    <string name="remixer_lock_media_blueprint_summary">إطار رفيع وزر تشغيل بإطار</string>
+    <string name="remixer_lock_media_duo_summary">بطاقة بلونين وزر تشغيل بلون التمييز</string>
+    <string name="remixer_lock_media_soft_summary">بطاقة بارزة بحافة مائلة</string>
+    <string name="remixer_headers">صورة الترويسة</string>
+    <string name="header_switch">استخدام صورة الترويسة</string>
+    <string name="header_switch_summary">إظهار صورة خلف الإعدادات السريعة</string>
+    <string name="header_source">المصدر</string>
+    <string name="header_source_collection">المجموعة</string>
+    <string name="header_collections_summary_daylight">تتبع الترويسة وقت اليوم أو تتناوب بين صور المجموعة</string>
+    <string name="header_collections_summary_static">افتح مجموعة ثم اضغط على صورة لاستخدامها</string>
+    <string name="header_collections_empty">لا توجد مجموعات ترويسة مثبّتة</string>
+    <string name="header_images_daylight">في هذه المجموعة</string>
+    <plurals name="header_image_count">
+        <item quantity="few">%d صور</item>
+        <item quantity="many">%d صورة</item>
+        <item quantity="other">%d صورة</item>
+    </plurals>
+    <string name="header_photo_summary">أي صورة أو GIF متحرّك من معرض الصور</string>
+    <string name="header_height">الارتفاع</string>
+    <string name="header_height_value">الارتفاع · %1$d dp</string>
+    <string name="header_shadow">تعتيم</string>
+    <string name="header_shadow_value">تعتيم · %1$d%%</string>
+    <string name="header_failed">تعذّر حفظ إعداد الترويسة هذا</string>
+    <string name="remixer_weather_summary">خدمة الطقس والوحدات</string>
+    <string name="font_preview_notification">هكذا سيقرأ هاتفك.</string>
+    <string name="font_try_text">جرّب نصك الخاص</string>
+    <string name="font_previewing">المعاينة</string>
+    <string name="font_current">الخط الحالي</string>
+    <string name="font_badge_current">الحالي</string>
+    <string name="font_apply_done">مُطبَّق</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">العرض</string>
+    <string name="font_filter_script">الكتابة</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">تم تطبيق الخط</string>
+    <string name="font_failed">تعذّر تطبيق هذا الخط</string>
+    <string name="wallpaper_set">تم تعيين الخلفية</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="few">%d خلفيات من Resurrected Remix. اضغط على إحداها لمعاينتها.</item>
+        <item quantity="many">%d خلفية من Resurrected Remix. اضغط على إحداها لمعاينتها.</item>
+        <item quantity="other">%d خلفية من Resurrected Remix. اضغط على إحداها لمعاينتها.</item>
+    </plurals>
+    <string name="wallpaper_apply_both">كلاهما</string>
+    <string name="wallpaper_failed">تعذّر تعيين هذه الخلفية</string>
+    <string name="missing_app">هذا التطبيق غير مثبّت</string>
+    <string name="remixer_spoofing">انتحال الهوية</string>
+    <string name="remixer_spoofing_summary">Play Integrity وهوية الجهاز وانتحال الهوية لكل تطبيق</string>
+    <string name="rr_maintainer">المشرف</string>
+    <string name="remixer_navbar_summary">طول Pill وسمكه وتخطيطه</string>
+    <string name="remixer_navbar_pill_length">طول Pill للإيماءات</string>
+    <string name="remixer_navbar_pill_thickness">سمك Pill للإيماءات</string>
+    <string name="remixer_navbar_pill_auto_hide">إخفاء Pill للإيماءات تدريجيًا</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">إخفاء الشريط بعد بضع ثوانٍ؛ يعود عند لمس الشاشة</string>
+    <string name="remixer_navbar_ime">أزرار لوحة المفاتيح</string>
+    <string name="remixer_navbar_ime_summary">إظهار زري الرجوع وتبديل لوحة المفاتيح أسفل لوحة المفاتيح</string>
+    <string name="remixer_navbar_layout">تخطيط الأزرار</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>قصير</item>
+        <item>عادي</item>
+        <item>طويل</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>الأنحف</item>
+        <item>أنحف</item>
+        <item>رفيع</item>
+        <item>عادي</item>
+        <item>سميك</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>عادي</item>
+        <item>مدمج</item>
+        <item>"مائل لليسار"</item>
+        <item>"مائل لليمين"</item>
+    </string-array>
 </resources>

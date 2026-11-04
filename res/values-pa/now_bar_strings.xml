@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"ਬਟਨ"</string>
     <string name="now_bar_text">"ਸੁਨੇਹਾ ਭੇਜੋ"</string>
     <string name="now_bar_text_size">"ਲਿਖਤ ਦਾ ਆਕਾਰ"</string>
+    <string name="now_bar_summary">ਲਾਕ ਸਕ੍ਰੀਨ ਦੇ ਹੇਠਾਂ ਲਾਈਵ ਗਤੀਵਿਧੀਆਂ</string>
+    <string name="now_bar_show">ਦਿਖਾਓ</string>
+    <string name="now_bar_music">ਸੰਗੀਤ ਅਤੇ ਵੀਡੀਓ</string>
+    <string name="now_bar_timers">ਟਾਈਮਰ, ਸਟopਵਾਚ ਅਤੇ ਅਲਾਰਮ</string>
+    <string name="now_bar_hide_call">ਕਾਲ ਸੂਚਨਾ ਲੁਕਾਓ</string>
+    <string name="now_bar_hide_call_summary">ਲਾਕ ਸਕ੍ਰੀਨ \'ਤੇ, Now Bar ਵਿੱਚ ਕਾਲ ਨੂੰ ਸੂਚਨਾ ਵਜੋਂ ਨਹੀਂ ਦਿਖਾਇਆ ਜਾਂਦਾ</string>
+    <string name="now_bar_live">ਲਾਈਵ ਅੱਪਡੇਟ</string>
+    <string name="now_bar_live_summary">ਨੈਵੀਗੇਸ਼ਨ, ਸਫ਼ਰ, ਡਿਲੀਵਰੀ, ਸਕੋਰ</string>
+    <string name="now_bar_scores">ਲਾਈਵ ਸਕੋਰ</string>
+    <string name="now_bar_live_apps">ਲਾਈਵ ਅੱਪਡੇਟ ਵਾਲੀਆਂ ਐਪਾਂ</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> ਐਪਾਂ</string>
+    <string name="now_bar_pin">ਐਲਵੇਜ਼-ਆਨ ਡਿਸਪਲੇ \'ਤੇ ਪਿੰਨ ਕੀਤਾ</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> ਦਾ ਪਿੰਨ ਹਟਾਉਣਾ ਹੈ?</string>
+    <string name="now_bar_unpin">ਪਿੰਨ ਹਟਾਓ</string>
+    <string name="now_bar_scores_summary">ਐਟ ਏ ਗਲੈਂਸ ਵਿੱਚ ਤੁਹਾਡੀਆਂ ਫਾਲੋ ਕੀਤੀਆਂ ਖੇਡਾਂ</string>
+    <string name="now_bar_recording">ਸਕ੍ਰੀਨ ਅਤੇ ਆਵਾਜ਼ ਰਿਕਾਰਡਿੰਗ</string>
+    <string name="now_bar_buds">ਈਅਰਬਡ ਅਤੇ ਵਾਚ</string>
+    <string name="now_bar_buds_summary">ਜੁੜੇ ਡਿਵਾਈਸ ਦੀ ਬੈਟਰੀ: ਈਅਰਬਡਾਂ ਲਈ ਖੱਬਾ, ਸੱਜਾ ਅਤੇ ਕੇਸ</string>
+    <string name="now_bar_wave">ਵੇਵ ਐਨੀਮੇਸ਼ਨ</string>
+    <string name="now_bar_aod">ਐਲਵੇਜ਼-ਆਨ ਡਿਸਪਲੇ \'ਤੇ ਦਿਖਾਓ</string>
+    <string name="now_bar_chip">ਸਥਿਤੀ ਪੱਟੀ ਵਿੱਚ ਚਿੱਪ</string>
+    <string name="now_bar_chip_summary">ਅਨਲਾਕ ਹੋਣ \'ਤੇ ਘੜੀ ਦੇ ਨਾਲ ਚੱਲ ਰਿਹਾ ਸੰਗੀਤ ਅਤੇ ਟਾਈਮਰ ਦਿਖਾਓ</string>
+    <string name="now_bar_footer">Now Bar ਵਿੱਚ ਸੰਗੀਤ ਚੱਲਣ ਵੇਲੇ, ਵੱਡਾ ਲਾਕ ਸਕ੍ਰੀਨ ਪਲੇਅਰ ਲੁਕਿਆ ਰਹਿੰਦਾ ਹੈ। ਗਤੀਵਿਧੀਆਂ ਵਿਚਕਾਰ ਬਦਲਣ ਲਈ ਪੱਟੀ ਨੂੰ ਸਵਾਈਪ ਕਰੋ, ਕੰਟਰੋਲ ਖੋਲ੍ਹਣ ਲਈ ਟੈਪ ਕਰੋ, ਅਤੇ ਕਿਸੇ ਇੱਕ ਨੂੰ ਉਸ ਦੇ ਖ਼ਤਮ ਹੋਣ ਤੱਕ ਲੁਕਾਉਣ ਲਈ ਲੰਮਾ ਦਬਾਓ। ਰੁਕੇ ਹੋਏ ਗੀਤ ਨੂੰ ਕਲੀਅਰ ਕਰਨ ਲਈ ਉਸਨੂੰ ਪੱਟੀ ਤੋਂ ਸਵਾਈਪ ਕਰੋ।\n\nਲਾਈਵ ਸਕੋਰ Google ਐਪ ਵਿੱਚ ਤੁਹਾਡੀਆਂ ਫਾਲੋ ਕੀਤੀਆਂ ਟੀਮਾਂ ਦੀਆਂ ਖੇਡਾਂ ਦਿਖਾਉਂਦੇ ਹਨ। Smartspacer ਨਾਲ ਉੱਥੇ ਖੇਡਾਂ ਦਾ ਟਾਰਗੇਟ ਜੋੜੋ, ਤਾਂ ਇਹ ਸਕੋਰ ਇੱਥੇ ਦਿਖਾਈ ਦੇਣਗੇ।</string>
+    <string name="now_bar_looks">ਲੁੱਕਸ</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"ਪੂਰਵ-ਨਿਰਧਾਰਿਤ"</item>
+        <item>Liquid Glass</item>
+        <item>ਮਿੰਨੀ</item>
+        <item>ਵੱਡਾ</item>
+        <item>ਨਿਓਨ</item>
+        <item>ਗਲਾਸ ਕਾਰਡ</item>
+    </string-array>
+    <string name="now_bar_material">ਮਟੀਰੀਅਲ</string>
+    <string name="now_bar_material_summary">Liquid Glass ਥੀਮ ਵਿੱਚ ਚੁਣਿਆ ਗਲਾਸ ਵਰਤਦਾ ਹੈ</string>
+    <string-array name="now_bar_material_entries">
+        <item>ਠੋਸ</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>ਐਲਬਮ ਆਰਟ</item>
+        <item>ਐਕਸੈਂਟ</item>
+        <item>ਗੂੜ੍ਹਾ</item>
+    </string-array>
+    <string name="now_bar_opacity">ਧੁੰਦਲਾਪਨ</string>
+    <string name="now_bar_opacity_summary">Liquid Glass ਵਿੱਚ ਰੰਗ ਗਲਾਸ ਨੂੰ ਕਿੰਨਾ ਰੰਗਿਆ ਹੋਵੇ</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"ਕੋਈ ਨਹੀਂ"</item>
+        <item>ਪਤਲਾ</item>
+        <item>ਐਕਸੈਂਟ</item>
+    </string-array>
+    <string name="now_bar_shadow">ਪਰਛਾਵਾਂ</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"ਬੰਦ"</item>
+        <item>ਸਾਫਟ</item>
+        <item>ਗਲੋ</item>
+    </string-array>
+    <string name="now_bar_more">ਹੋਰ ਗਤੀਵਿਧੀਆਂ</string>
+    <string-array name="now_bar_more_entries">
+        <item>ਬੱਸ ਸਵਾਈਪ ਕਰੋ</item>
+        <item>ਬਿੰਦੀਆਂ</item>
+        <item>ਪਿੱਛੇ ਝਾਂਕੋ</item>
+    </string-array>
+    <string name="now_bar_size">ਆਕਾਰ ਅਤੇ ਸ਼ਕਲ</string>
+    <string name="now_bar_height">ਉਚਾਈ</string>
+    <string name="now_bar_width_summary">ਪੂਰਾ ਸ਼ਾਰਟਕੱਟਾਂ ਨੂੰ ਉੱਪਰ ਪੱਟੀ ਤੋਂ ਉੱਪਰ ਲੈ ਜਾਂਦਾ ਹੈ</string>
+    <string-array name="now_bar_width_entries">
+        <item>ਤੰਗ</item>
+        <item>ਸ਼ਾਰਟਕੱਟਾਂ ਵਿਚਕਾਰ</item>
+        <item>ਪੂਰਾ</item>
+    </string-array>
+    <string name="now_bar_corners">ਕੋਨੇ</string>
+    <string name="now_bar_raise">ਉੱਚਾ</string>
+    <string name="now_bar_art">ਐਲਬਮ ਆਰਟ</string>
+    <string-array name="now_bar_art_entries">
+        <item>"ਚੱਕਰ"</item>
+        <item>ਗੋਲ</item>
+        <item>"ਵਰਗ"</item>
+        <item>"ਬੰਦ"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>ਛੱਡੋ ਅਤੇ ਚਲਾਓ</item>
+        <item>ਸਿਰਫ਼ ਚਲਾਓ</item>
+        <item>"ਕੋਈ ਨਹੀਂ"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>ਇੱਕ ਲਾਈਨ</item>
+        <item>ਦੋ ਲਾਈਨਾਂ</item>
+        <item>ਸਿਰਫ਼ ਗਾਣਾ</item>
+    </string-array>
+    <string name="now_bar_show_page">ਪੱਟੀ ਵਿੱਚ ਕੀ ਦਿਖਦਾ ਹੈ</string>
+    <string name="now_bar_show_page_summary">ਸੰਗੀਤ ਅਤੇ ਵੀਡੀਓ, ਟਾਈਮਰ, ਕਾਲਾਂ ਅਤੇ ਹੋਰ</string>
+    <string name="now_bar_where">ਹੋਰ ਕਿੱਥੇ</string>
 </resources>

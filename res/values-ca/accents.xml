@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Fons de pantalla"</item>
+        <item>Resurrected</item>
+        <item>Android One Green</item>
+        <item>Aospa Green</item>
+        <item>Coca Cola Red</item>
+        <item>Discord Purple</item>
+        <item>Facebook Blue</item>
+        <item>Instagram Cerise</item>
+        <item>Jollibee Crimson</item>
+        <item>Monster Energy Green</item>
+        <item>Nextbit Mint</item>
+        <item>Oneplus Red</item>
+        <item>Pepsi Blue</item>
+        <item>Pixel Blue</item>
+        <item>Pocophone Yellow</item>
+        <item>Razer Green</item>
+        <item>Samsung Blue</item>
+        <item>Spotify Green</item>
+        <item>Starbucks Green</item>
+        <item>Twitch Purple</item>
+        <item>Twitter Blue</item>
+        <item>Xiaomi Orange</item>
+        <item>Ambre</item>
+        <item>"Negre"</item>
+        <item>"Blau"</item>
+        <item>Blau grisós</item>
+        <item>Marró</item>
+        <item>"Cian"</item>
+        <item>Taronja fosc</item>
+        <item>Lila fosc</item>
+        <item>"Verd"</item>
+        <item>"Gris"</item>
+        <item>"Anyil"</item>
+        <item>Blau clar</item>
+        <item>Lima</item>
+        <item>"Taronja"</item>
+        <item>"Rosa"</item>
+        <item>"Porpra"</item>
+        <item>"Vermell"</item>
+        <item>"Xarxet"</item>
+        <item>Usuari cinc</item>
+        <item>Usuari quatre</item>
+        <item>Usuari u</item>
+        <item>Usuari set</item>
+        <item>Usuari sis</item>
+        <item>Usuari tres</item>
+        <item>Usuari dos</item>
+        <item>"Blanc"</item>
+        <item>"Groc"</item>
+    </string-array>
+</resources>

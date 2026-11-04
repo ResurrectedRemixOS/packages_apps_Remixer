@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"วันที่"</string>
     <string name="sb_weather_category">"สภาพอากาศ"</string>
+    <string name="sb_clock_category">นาฬิกาและวันที่</string>
+    <string name="sb_clock_bold_title">นาฬิกาตัวหนา</string>
+    <string name="sb_clock_bold_summary">แสดงนาฬิกาในแถบสถานะเป็นตัวหนา</string>
+    <string name="sb_clock_period_separator_title">ตัวคั่นเวลา</string>
+    <string name="sb_clock_period_separator_summary">10.45 แทน 10:45</string>
+    <string name="sb_clock_date_position_title">ตำแหน่งวันที่</string>
+    <string name="sb_clock_date_style_title">รูปแบบตัวพิมพ์ของวันที่</string>
+    <string name="sb_clock_date_format_title">รูปแบบวันที่</string>
+    <string name="sb_clock_chip_category">พื้นหลังนาฬิกา</string>
+    <string name="sb_clock_chip_title">สไตล์พื้นหลัง</string>
+    <string name="sb_clock_chip_start_title">สีเริ่มไล่ระดับ</string>
+    <string name="sb_clock_chip_end_title">สีสิ้นสุดการไล่ระดับ</string>
+    <string name="sb_clock_chip_angle_title">มุมการไล่ระดับ</string>
+    <string name="sb_clock_chip_mask_title">ตัดเวลาออกจากการไล่ระดับ</string>
+    <string name="sb_clock_chip_mask_summary">การไล่ระดับจะปรากฏผ่านตัวเลขแทนที่จะอยู่ด้านหลัง</string>
+    <string name="sb_weather_title">สภาพอากาศในแถบสถานะ</string>
+    <string name="sb_weather_position_title">ตำแหน่ง</string>
+    <string name="status_bar_clock_rr_style_title">ลักษณะนาฬิกา</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"ค่าเริ่มต้น"</item>
+        <item>นีออน</item>
+        <item>แยก</item>
+        <item>เครื่องหมาย RR</item>
+        <item>โมโน</item>
+        <item>Pulse</item>
+        <item>ซ้อน</item>
+        <item>ถ่านไฟ</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">เส้น Flatline ข้างเวลา</string>
+    <string name="sb_clock_flatline_summary">เส้นการเต้นของหัวใจของ RR ภายในชิป เต้นตามเพลงและพุ่งขึ้นเมื่อมีการแจ้งเตือนเข้ามา</string>
 </resources>

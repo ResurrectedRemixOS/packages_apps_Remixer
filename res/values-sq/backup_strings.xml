@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Gjestet</string>
     <string name="backup_group_other">"Tjetër"</string>
     <string name="backup_done">"U krye"</string>
+    <string name="backup_summary">Çdo personalizim RR në një skedar</string>
+    <string name="backup_now">Rezervo tani</string>
+    <string name="backup_never">Rezervimi i fundit: asnjëherë</string>
+    <string name="backup_last">Rezervimi i fundit: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Rikthe nga një skedar</string>
+    <string name="backup_restore_summary">Zgjidh një skedar rezervimi</string>
+    <string name="backup_included">Të përfshira</string>
+    <string name="backup_part_theme">Theksi, fonti dhe ikonat</string>
+    <string name="backup_part_header">Imazhi i kokës</string>
+    <string name="backup_part_photo">Imazhi i kokës (fotoja jote)</string>
+    <string name="backup_part_photo_summary">E bën skedarin më të madh</string>
+    <string name="backup_part_boot">Animacioni i nisjes</string>
+    <string name="backup_part_looks">Pamjet e tua</string>
+    <string name="backup_weekly">Rezervim javor</string>
+    <string name="backup_weekly_summary">Në një dosje që zgjedh</string>
+    <string name="backup_weekly_on">Çdo javë te <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Ofro rezervim para përditësimeve</string>
+    <string name="backup_offer_summary">Përditësuesi pyet përpara se të instalojë</string>
+    <string name="backup_sets">Vendos <xliff:g id="count" example="64">%1$d</xliff:g> cilësime</string>
+    <string name="backup_saved">U ruajtën <xliff:g id="count" example="64">%1$d</xliff:g> cilësime</string>
+    <string name="backup_restored">U rikthyen <xliff:g id="count" example="64">%1$d</xliff:g> cilësime</string>
+    <string name="backup_restored_message">SystemUI rinisët për t\'i zbatuar.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> cilësime nuk ekzistojnë në këtë build dhe u anashkaluan.</string>
+    <string name="backup_failed">Rezervimi nuk u ruajt</string>
+    <string name="backup_invalid">Ky skedar nuk është një rezervim i Resurrected Remix</string>
+    <string name="backup_footer">Në skedar hyjnë vetëm cilësimet e RR: asnjë llogari, fjalëkalim, rrjet Wi-Fi, aplikacion ose mesazh. Rikthimi shkruan vetëm cilësimet në listën e vetë RR, kështu që një skedar rezervimi nuk mund të ndryshojë asgjë tjetër në telefon. Fotoja e kokës përfshihet vetëm nëse çelësi i saj është i ndezur, sepse e bën skedarin më të madh.</string>
+    <string name="volume_style_title">Stili i panelit të volumit</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Xham</item>
+        <item>Pilula</item>
+        <item>RR Klasik</item>
+        <item>Bento</item>
+        <item>Forma</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Soft</item>
+    </string-array>
 </resources>

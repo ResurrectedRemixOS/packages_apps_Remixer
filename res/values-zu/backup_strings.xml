@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">"Ukuthinta"</string>
     <string name="backup_group_other">"Okunye"</string>
     <string name="backup_done">"Kwenziwe"</string>
+    <string name="backup_summary">Zonke izenziso ze-RR kufayela elilodwa</string>
+    <string name="backup_now">Yenza isipele manje</string>
+    <string name="backup_never">Isipele sokugcina: akukaze</string>
+    <string name="backup_last">Isipele sokugcina: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Buyisela kusuka kufayela</string>
+    <string name="backup_restore_summary">Khetha ifayela lesipele</string>
+    <string name="backup_included">Okufakiwe</string>
+    <string name="backup_part_theme">Umbala wokugqamisa, ifonti nezithonjana</string>
+    <string name="backup_part_header">Isithombe sekhanda</string>
+    <string name="backup_part_photo">Isithombe sekhanda (isithombe sakho)</string>
+    <string name="backup_part_photo_summary">Yenza ifayela libe likhulu</string>
+    <string name="backup_part_boot">Upopayi wokuqalisa</string>
+    <string name="backup_part_looks">Izimbukeko zakho</string>
+    <string name="backup_weekly">Isipele sesonto ngalinye</string>
+    <string name="backup_weekly_summary">Kufolda oyikhethayo</string>
+    <string name="backup_weekly_on">Njalo ngesonto ku-<xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Nikeza isipele ngaphambi kwezibuyekezo</string>
+    <string name="backup_offer_summary">I-Updater icela ngaphambi kokufaka</string>
+    <string name="backup_sets">Isetha izilungiselelo ezingu-<xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_saved">Ilondoloze izilungiselelo ezingu-<xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_restored">Ibuyisele izilungiselelo ezingu-<xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_restored_message">I-SystemUI iyaqala kabusha ukuze isebenzise lezi.</string>
+    <string name="backup_skipped">Izilungiselelo ezingu-<xliff:g id="count" example="2">%1$d</xliff:g> azikho kulesi sakhiwo futhi zadlulwa.</string>
+    <string name="backup_failed">Ayikwazanga ukulondoloza isipele</string>
+    <string name="backup_invalid">Leli fayela alisona isipele se-Resurrected Remix</string>
+    <string name="backup_footer">Okungamasethingi e-RR kuphela okufakwa kulo fayela: akukho ama-akhawunti, amaphasiwedi, amanethiwekhi we-Wi-Fi, izinhlelo zokusebenza noma imilayezo. Ukubuyisela kubhala kuphela izilungiselelo ezisohlwini lwe-RR lwayo, ngakho ifayela lokusekela alikwazi ukushintsha okunye kufoni. Isithombe sakho sesihloko sifakwa kuphela uma isiwichi sayo sivulekile, njengoba sikhulisa ifayela.</string>
+    <string name="volume_style_title">Isitayela sephaneli yevolumu</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>I-Neon</item>
+        <item>Iglasi</item>
+        <item>Upilisi</item>
+        <item>I-Classic RR</item>
+        <item>Bento</item>
+        <item>Izimo</item>
+        <item>I-Blueprint</item>
+        <item>Duo</item>
+        <item>Soft</item>
+    </string-array>
 </resources>

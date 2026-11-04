@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Standard"</string>
     <string name="clock_faces_size">"Størrelse"</string>
     <string name="clock_faces_restart">"Start på nytt"</string>
+    <string name="remixer_clock_faces">Klokkestiler</string>
+    <string name="clock_faces_system">Systemklokke</string>
+    <string name="clock_faces_system_desc">Klokken fra Bakgrunn og stil</string>
+    <string name="clock_faces_position">%1$d av %2$d</string>
+    <string name="clock_faces_applied">Brukt</string>
+    <string name="clock_faces_preview_unavailable">Forhåndsvisning utilgjengelig</string>
+    <string name="clock_faces_failed">Kunne ikke endre klokken</string>
+    <string name="clock_faces_color_accent">Aksent</string>
+    <string name="clock_faces_color_custom">Egendefinert</string>
+    <string name="clock_faces_color_album">Albumomslag</string>
+    <string name="clock_faces_color_gradient">Gradient</string>
+    <string name="clock_faces_own_colors">Denne stilen beholder sine egne farger.</string>
+    <string name="clock_faces_album_hint">Henter fargen fra albumomslaget mens musikk spilles.</string>
+    <string name="clock_faces_size_position">Størrelse og posisjon</string>
+    <string name="clock_faces_size_value">Størrelse · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Avstand fra toppen</string>
+    <string name="clock_faces_top_value">Avstand fra toppen · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Horisontal posisjon</string>
+    <string name="clock_faces_horizontal_center">Horisontal posisjon · Midtstilt</string>
+    <string name="clock_faces_horizontal_right">Horisontal posisjon · <xliff:g id="dp" example="24">%1$d</xliff:g> dp til høyre</string>
+    <string name="clock_faces_horizontal_left">Horisontal posisjon · <xliff:g id="dp" example="24">%1$d</xliff:g> dp til venstre</string>
+    <string name="clock_faces_horizontal_fixed">Denne stilen holdes midtstilt.</string>
+    <string name="clock_faces_opacity">Ugjennomsiktighet</string>
+    <string name="clock_faces_opacity_value">Synlighet · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Bevegelse</string>
+    <string name="clock_faces_wobble">Dingler under lading</string>
+    <string name="clock_faces_wobble_summary">Spretter én gang når du kobler til</string>
+    <string name="clock_faces_aod_anim">Overgang til alltid-på-skjermen</string>
+    <string name="clock_faces_aod_anim_summary">Krymper og toner klokken ut i alltid-på-skjermen</string>
+    <string name="clock_faces_restart_title">Starte låseskjermen på nytt?</string>
+    <string name="clock_faces_restart_message">Bytte mellom systemklokken og egne stiler starter SystemUI på nytt. Skjermen blir mørk i et sekund.</string>
+    <string name="clock_faces_note">Forhåndsvisningene tegnes av SystemUI på bakgrunnen din for låseskjermen. Farge, størrelse og posisjon endrer låseskjermen med en gang.</string>
 </resources>

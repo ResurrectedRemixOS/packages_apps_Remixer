@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">デバイスの RKP を使用</string>
+    <string name="ts_rkp_enabled_summary">生成された keybox を使用します。keybox をインポートするとオフになります。</string>
+    <string name="ts_rkp_provision">keybox を生成</string>
+    <string name="ts_rkp_provision_summary">この端末のプロビジョニング サービスを使って Google に keybox を要求します。対応する Qualcomm ファームウェアが必要です。</string>
+    <string name="ts_rkp_status">プロビジョニングの状態</string>
+    <string name="ts_rkp_owner_only">デバイス RKP は端末の所有者プロファイルから管理してください</string>
+    <string name="ts_rkp_unavailable">デバイス RKP は利用できません</string>
+    <string name="ts_rkp_imported">インポートした keybox がインストールされている間は無効です</string>
+    <string name="ts_rkp_disabled">オフ。keybox を使用または生成するにはデバイス RKP を有効にしてください。</string>
+    <string name="ts_rkp_idle">keybox を要求する準備ができました</string>
+    <string name="ts_rkp_fetching">プロビジョニング チャレンジを取得しています…</string>
+    <string name="ts_rkp_hardware">端末のプロビジョニング サービスを待機しています…</string>
+    <string name="ts_rkp_signing">Google に証明書を要求しています…</string>
+    <string name="ts_rkp_validating">keybox を検証して保存しています…</string>
+    <string name="ts_rkp_ready">生成された keybox が有効です。%1$s の前に自動で更新されます</string>
+    <string name="ts_rkp_keybox_stored">デバイス RKP の keybox を保存しました</string>
+    <string name="ts_rkp_expired">生成された keybox の有効期限が切れました。新しく生成してください。</string>
+    <string name="ts_rkp_hal_rejected">ファームウェアが要求を拒否しました（コード %1$d）。Duck V1 に対応していない可能性があります。</string>
+    <string name="ts_rkp_http_error">プロビジョニング サーバーが要求を拒否しました（HTTP %1$d）</string>
+    <string name="ts_rkp_unsupported">この端末は対応する V1 プロビジョニング インターフェースを提供していません</string>
+    <string name="ts_rkp_network_error">プロビジョニング サーバーに接続できませんでした。接続を確認してください。</string>
+    <string name="ts_rkp_submission_unknown">サーバーからの応答が失われました。要求は処理された可能性があるため、自動再試行は行われていません。</string>
+    <string name="ts_rkp_invalid_chain">keybox の証明書の検証に失敗しました。既存の keybox は保持されました。</string>
+    <string name="ts_rkp_timeout">プロビジョニングがタイムアウトしました。端末のサービスがまだ混み合っている場合は、端末を再起動してから再試行してください。</string>
+    <string name="ts_rkp_canceled">keybox の設定が変更されたため、要求はキャンセルされました</string>
+    <string name="ts_rkp_save_failed">生成された keybox を保存できませんでした</string>
+    <string name="ts_rkp_action_failed">keybox の操作を完了できませんでした</string>
+</resources>

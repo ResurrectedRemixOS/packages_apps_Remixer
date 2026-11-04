@@ -15,4 +15,54 @@
     <string name="looks_save_look">"შენახვა"</string>
     <string name="looks_custom_color">"მორგებული ფერი"</string>
     <string name="looks_part_clock_color">"საათის ფერი"</string>
+    <string name="looks_title">ლუქები</string>
+    <string name="looks_summary">მთელი თქვენი პარამეტრები ერთი შეხებით</string>
+    <string name="looks_rr">RR ლუქები</string>
+    <string name="looks_yours">თქვენი ლუქები</string>
+    <string name="looks_none">ჯერ არაფერია შენახული</string>
+    <string name="looks_save">მიმდინარეს შენახვა</string>
+    <string name="looks_import_clipboard">ბუფერიდან</string>
+    <string name="looks_import_file">ფაილიდან</string>
+    <string name="looks_mine">ჩემი ლუქი</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> გამოყენებულია</string>
+    <string name="looks_failed">ყველა არ გამოიყენა</string>
+    <string name="looks_invalid">ეს RR ლუქი არ არის</string>
+    <string name="looks_part_accent">აქცენტის ფერი</string>
+    <string name="looks_part_qs">სწრაფი პარამეტრების სტილი</string>
+    <string name="looks_part_clock_face">ჩაკეტილი ეკრანის საათის სტილი</string>
+    <string name="looks_part_clock_look">სტატუსის ზოლის საათი</string>
+    <string name="looks_part_edge">კიდის განათება</string>
+    <string name="looks_part_boot">ჩატვირთვის ანიმაცია</string>
+    <string name="looks_part_haptics">Haptic Remix-ის ნიმუშები</string>
+    <string name="looks_saturation">გაჯერება <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">აქცენტი</string>
+    <string name="looks_share_title">გაზიარება “<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">დაასკანერეთ სხვა RR ტელეფონის კამერით ან ლუქები › იმპორტი</string>
+    <string name="looks_share_file">ფაილის გაზიარება</string>
+    <string name="looks_save_file">ფაილის შენახვა</string>
+    <string name="looks_import_scan">QR კოდის სკანირება</string>
+    <string name="looks_import_title">ლუქის იმპორტი</string>
+    <string name="looks_from_qr">QR კოდიდან</string>
+    <string name="looks_from_file">ფაილიდან</string>
+    <string name="looks_from_clipboard">ბუფერიდან</string>
+    <string name="looks_import_same">უკვე ემთხვევა თქვენს პარამეტრებს.</string>
+    <string name="looks_new">ახალი ლუქი</string>
+    <string name="looks_edit_title">ლუქის რედაქტირება</string>
+    <string name="looks_in_look">ამ ლუქში</string>
+    <string name="looks_not_included">ამ ლუქში არ არის</string>
+    <string name="looks_save_apply">შენახვა და გამოყენება</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” შენახულია</string>
+    <string name="looks_delete_confirm">წავშალოთ „<xliff:g id="name" example="Sunday">%1$s</xliff:g>“?</string>
+    <string name="looks_rr_wallpaper">RR ფონი <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">აქცენტის სიმძაფრე</string>
+    <string name="looks_part_clock_chip">სტატუსის ზოლის საათის ჩიპი</string>
+    <string name="looks_part_edge_style">კიდის განათების სტილი</string>
+    <string name="looks_scan_hint">მიუშვირეთ კამერა Look-ის QR კოდს</string>
+    <string name="looks_scan_failed">კამერის გახსნა ვერ მოხერხდა</string>
+    <string name="look_roulette_title">Look-ის რულეტკა</string>
+    <string-array name="look_roulette_entries">
+        <item>"გამორთული"</item>
+        <item>ყოველ განბლოკვაზე სხვა Look</item>
+        <item>ყოველ დღე სხვა Look</item>
+    </string-array>
 </resources>

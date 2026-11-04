@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"باتری"</string>
     <string name="charge_report_temp">"دما"</string>
     <string name="charge_report_time">"زمان"</string>
+    <string name="charge_report_title">گزارش‌های شارژ</string>
+    <string name="charge_report_summary">خلاصه‌ای از هر شارژ هنگام جدا کردن گوشی</string>
+    <string name="charge_report_min_title">فقط اگر حداقل این مقدار را اضافه کرده باشد</string>
+    <string-array name="charge_report_keep_entries">
+        <item>۳ روز</item>
+        <item>۷ روز</item>
+        <item>۱۴ روز</item>
+        <item>۳۰ روز</item>
+    </string-array>
+    <string name="charge_report_history_days"><xliff:g id="days" example="7">%1$d</xliff:g> روز گذشته</string>
+    <string name="charge_report_today">امروز، <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">دیروز، <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> دقیقه</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ساعت و <xliff:g id="minutes" example="02">%2$02d</xliff:g> دقیقه</string>
+    <string name="charge_report_watts">وات</string>
+    <string name="charge_report_added">افزوده‌شده</string>
+    <string name="charge_report_peak">اوج</string>
+    <string name="charge_report_average">میانگین</string>
+    <string name="charge_report_max_temp">حداکثر دما</string>
+    <string name="charge_report_charger">شارژر</string>
+    <string name="charge_report_started">شروع در</string>
+    <string name="charge_report_wired">سیمی</string>
+    <string name="charge_report_wireless">بی‌سیم</string>
+    <string name="charge_report_dock">داک</string>
+    <string name="charge_report_empty">هنوز شارژی ثبت نشده</string>
+    <string name="charge_report_footer">SystemUI هر ۳۰ ثانیه جریان، ولتاژ و دمای فعلی باتری را هنگام وصل بودن می‌خواند. وات‌ها همان چیزی است که گوشی اندازه می‌گیرد، پس ممکن است با عددی که روی شارژر نوشته شده فرق داشته باشد. گزارش‌ها روی گوشی می‌مانند و چیزی بارگذاری نمی‌شود.</string>
 </resources>

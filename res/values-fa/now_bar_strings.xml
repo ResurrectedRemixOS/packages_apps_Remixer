@@ -13,4 +13,93 @@
     <string name="now_bar_buttons">دکمه‌ها</string>
     <string name="now_bar_text">متن</string>
     <string name="now_bar_text_size">"اندازه نوشتار"</string>
+    <string name="now_bar_summary">فعالیت‌های زنده در پایین صفحه قفل</string>
+    <string name="now_bar_show">نمایش</string>
+    <string name="now_bar_music">موسیقی و ویدیو</string>
+    <string name="now_bar_timers">تایمرها، کronometer و زنگ‌ها</string>
+    <string name="now_bar_hide_call">پنهان کردن اعلان تماس</string>
+    <string name="now_bar_live">به‌روزرسانی‌های زنده</string>
+    <string name="now_bar_live_summary">ناوبری، سواری‌ها، تحویل‌ها، نتایج</string>
+    <string name="now_bar_scores">نتایج زنده</string>
+    <string name="now_bar_live_apps">برنامه‌های به‌روزرسانی‌های زنده</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> برنامه</string>
+    <string name="now_bar_pin">سنجاق‌شده روی نمایش همیشه روشن</string>
+    <string name="now_bar_unpin_question">سنجاق <xliff:g id="app" example="Uber">%1$s</xliff:g> برداشته شود؟</string>
+    <string name="now_bar_unpin">برداشتن سنجاق</string>
+    <string name="now_bar_scores_summary">بازی‌هایی که در «نگاه اجمالی» دنبال می‌کنید</string>
+    <string name="now_bar_recording">ضبط صفحه و صدا</string>
+    <string name="now_bar_buds">ایرفون‌ها و ساعت‌ها</string>
+    <string name="now_bar_buds_summary">باتری دستگاه متصل: چپ، راست و محفظه برای ایرفون‌ها</string>
+    <string name="now_bar_wave">انیمیشن موج</string>
+    <string name="now_bar_aod">نمایش روی نمایش همیشه روشن</string>
+    <string name="now_bar_chip">تراشه در نوار وضعیت</string>
+    <string name="now_bar_chip_summary">نمایش پخش موسیقی و تایمرها کنار ساعت هنگام باز بودن قفل</string>
+    <string name="now_bar_looks">ظاهرها</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"پیش‌فرض"</item>
+        <item>Liquid Glass</item>
+        <item>کوچک</item>
+        <item>بزرگ</item>
+        <item>نئونی</item>
+        <item>کارت شیشه‌ای</item>
+    </string-array>
+    <string name="now_bar_material_summary">Liquid Glass از شیشه‌ای استفاده می‌کند که در زمینه تنظیم کرده‌اید</string>
+    <string-array name="now_bar_material_entries">
+        <item>توپر</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>جلد آلبوم</item>
+        <item>لهجه</item>
+        <item>تیره</item>
+    </string-array>
+    <string name="now_bar_opacity">کدورت</string>
+    <string name="now_bar_opacity_summary">در Liquid Glass، رنگ تا چه اندازه شیشه را رنگی کند</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"خالی"</item>
+        <item>نازک</item>
+        <item>لهجه</item>
+    </string-array>
+    <string name="now_bar_shadow">سایه</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"خاموش"</item>
+        <item>نرم</item>
+        <item>درخشش</item>
+    </string-array>
+    <string name="now_bar_more">فعالیت‌های بیشتر</string>
+    <string-array name="now_bar_more_entries">
+        <item>فقط بکشید</item>
+        <item>نقطه‌ها</item>
+        <item>نگاه از پشت</item>
+    </string-array>
+    <string name="now_bar_size">اندازه و شکل</string>
+    <string name="now_bar_height">ارتفاع</string>
+    <string name="now_bar_width_summary">با «کامل»، میان‌برها بالای نوار قرار می‌گیرند</string>
+    <string-array name="now_bar_width_entries">
+        <item>باریک</item>
+        <item>بین میان‌برها</item>
+        <item>کامل</item>
+    </string-array>
+    <string name="now_bar_corners">گوشه‌ها</string>
+    <string name="now_bar_raise">برجسته</string>
+    <string name="now_bar_art">جلد آلبوم</string>
+    <string-array name="now_bar_art_entries">
+        <item>"دایره"</item>
+        <item>گرد</item>
+        <item>"مربع"</item>
+        <item>"خاموش"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>رد کردن و پخش</item>
+        <item>فقط پخش</item>
+        <item>"خالی"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>یک خط</item>
+        <item>دو خط</item>
+        <item>فقط آهنگ</item>
+    </string-array>
+    <string name="now_bar_show_page">آنچه در نوار نمایش داده می‌شود</string>
+    <string name="now_bar_show_page_summary">موسیقی و ویدیو، تایمرها، تماس‌ها و موارد دیگر</string>
+    <string name="now_bar_where">جاهای دیگر</string>
 </resources>

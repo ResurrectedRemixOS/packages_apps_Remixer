@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"वॉलपेपर"</item>
+        <item>पुनरुज्जीवित</item>
+        <item>ॲंड्रॉइड वन ग्रीन</item>
+        <item>ॲस्पा ग्रीन</item>
+        <item>कोका कोला रेड</item>
+        <item>डिस्कॉर्ड पर्पल</item>
+        <item>फेसबुक ब्लू</item>
+        <item>इन्स्टाग्राम चेरीज</item>
+        <item>जोलिबी क्रिमसन</item>
+        <item>मॉन्स्टर एनर्जी ग्रीन</item>
+        <item>नेक्स्टबिट मिंट</item>
+        <item>वनप्लस रेड</item>
+        <item>पेप्सी ब्लू</item>
+        <item>पिक्सेल ब्लू</item>
+        <item>पोकोफोन यलो</item>
+        <item>रेझर ग्रीन</item>
+        <item>सॅमसंग ब्लू</item>
+        <item>स्पॉटिफाय ग्रीन</item>
+        <item>स्टारबक्स ग्रीन</item>
+        <item>ट्विच पर्पल</item>
+        <item>ट्विटर ब्लू</item>
+        <item>झिओमी ऑरेंज</item>
+        <item>अंबर</item>
+        <item>"काळा"</item>
+        <item>"निळा"</item>
+        <item>ब्लू ग्रे</item>
+        <item>तपकिरी</item>
+        <item>"निळसर"</item>
+        <item>डीप ऑरेंज</item>
+        <item>डीप पर्पल</item>
+        <item>"हिरवा"</item>
+        <item>"राखाडी"</item>
+        <item>"गडद निळा"</item>
+        <item>लाइट ब्लू</item>
+        <item>लाइम</item>
+        <item>"नारिंगी"</item>
+        <item>"गुलाबी"</item>
+        <item>"जांभळा"</item>
+        <item>"लाल"</item>
+        <item>"हिरवट निळा"</item>
+        <item>वापरकर्ता पाच</item>
+        <item>वापरकर्ता चार</item>
+        <item>वापरकर्ता एक</item>
+        <item>वापरकर्ता सात</item>
+        <item>वापरकर्ता सहा</item>
+        <item>वापरकर्ता तीन</item>
+        <item>वापरकर्ता दोन</item>
+        <item>"पांढरा"</item>
+        <item>"पिवळा"</item>
+    </string-array>
+</resources>

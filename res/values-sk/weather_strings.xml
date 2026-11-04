@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Podrobnosti"</string>
     <string name="lockscreen_weather_location_title">"Poloha"</string>
+    <string name="lockscreen_weather_title">Počasie na uzamknutej obrazovke</string>
+    <string name="lockscreen_weather_location_summary">Zobraziť názov mesta</string>
+    <string name="lockscreen_weather_text_title">Stav</string>
+    <string name="lockscreen_weather_text_summary">Zobraziť stav, napríklad Oblačno alebo Jasno</string>
+    <string name="lockscreen_weather_wind_title">Vietor</string>
+    <string name="lockscreen_weather_wind_summary">Zobraziť rýchlosť a smer vetra</string>
+    <string name="lockscreen_weather_humidity_title">Vlhkosť</string>
+    <string name="lockscreen_weather_humidity_summary">Zobraziť vlhkosť vzduchu</string>
+    <string name="custom_clock_weather_title">Počasie na ciferníkoch hodín</string>
+    <string name="custom_clock_weather_summary">Zobraziť počasie v ciferníkoch hodín, kde je na to miesto</string>
+    <string name="remixer_weather_service">Služba počasia</string>
+    <string name="remixer_weather_page_summary">Počasie na uzamknutej obrazovke a čo zobrazuje</string>
 </resources>

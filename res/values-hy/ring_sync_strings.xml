@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Զանգի համաժամեցում</string>
+    <string name="ring_sync_tap">Հպեք, երբ զանգը համընկնում է նշանին</string>
+    <string name="ring_sync_best">Լավագույնը՝ <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">ԿԱՏԱՐԵԼԱՏԵՍ</string>
+    <string name="ring_sync_new_best">Նոր լավագույն արդյունք</string>
+    <string name="ring_sync_again">Հպեք՝ նորից խաղալու համար</string>
+    <string name="ring_sync_ember">Ember գույնը ապակողպված է</string>
+    <string name="ring_sync_use_ember">Օգտագործել Ember</string>
+    <string name="ring_sync_android">Android-ի զվարճալի գաղտնիք</string>
+    <string name="ring_sync_vibrate_on">Թրթռալ հարվածների ժամանակ · Միացված</string>
+    <string name="ring_sync_vibrate_off">Թրթռալ հարվածների ժամանակ · Անջատված</string>
+    <string name="accent_ember">Ածուխ</string>
+</resources>

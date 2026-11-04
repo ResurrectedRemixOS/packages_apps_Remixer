@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"Vitufe"</string>
     <string name="now_bar_text">"SMS"</string>
     <string name="now_bar_text_size">"Ukubwa wa maandishi"</string>
+    <string name="now_bar_summary">Shughuli za moja kwa moja chini ya skrini iliyofungwa</string>
+    <string name="now_bar_show">Onyesha</string>
+    <string name="now_bar_music">Muziki na video</string>
+    <string name="now_bar_timers">Vipima muda, saa ya kusimama na kengele</string>
+    <string name="now_bar_hide_call">Ficha arifa ya simu</string>
+    <string name="now_bar_hide_call_summary">Kwenye skrini iliyofungwa, simu inayoonyeshwa kwenye Now Bar haitaorodheshwa tena kama arifa</string>
+    <string name="now_bar_live">Masasisho ya Moja kwa Moja</string>
+    <string name="now_bar_live_summary">Urambazaji, safari, uwasilishaji, alama</string>
+    <string name="now_bar_scores">Alama za moja kwa moja</string>
+    <string name="now_bar_live_apps">Programu za Masasisho ya Moja kwa Moja</string>
+    <string name="now_bar_live_apps_count">Programu <xliff:g id="count" example="2">%1$d</xliff:g></string>
+    <string name="now_bar_pin">Imebandikwa kwenye onyesho la kila wakati</string>
+    <string name="now_bar_unpin_question">Ondoa kubandika <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Ondoa kubandika</string>
+    <string name="now_bar_scores_summary">Michezo unayofuata kwenye At a Glance</string>
+    <string name="now_bar_recording">Kurekodi skrini na sauti</string>
+    <string name="now_bar_buds">Vifaa vya masikioni na saa</string>
+    <string name="now_bar_buds_summary">Betri ya kifaa kilichounganishwa: kushoto, kulia na chaji ya vifaa vya masikioni</string>
+    <string name="now_bar_wave">Uhuishaji wa wimbi</string>
+    <string name="now_bar_aod">Onyesha kwenye onyesho la kila wakati</string>
+    <string name="now_bar_chip">Kigae kwenye sehemu ya kuonyesha hali</string>
+    <string name="now_bar_chip_summary">Kucheza muziki na vipima muda karibu na saa ukiwa umefungua kifaa</string>
+    <string name="now_bar_footer">Muziki ukiwa kwenye Now Bar, kicheza kikubwa cha skrini iliyofungwa kinafichwa. Telezesha upau kubadilisha shughuli, gusa ili kufungua vidhibiti, na bonyeza kwa muda ili kuficha shughuli hadi iishe. Telezesha wimbo uliositishwa nje ya upau ili kuufuta.\n\nAlama za moja kwa moja zinaonyesha michezo ya timu unazofuata kwenye programu ya Google. Ukiwa na Smartspacer, ongeza lengo la michezo hapo na alama zake zitaonekana hapa.</string>
+    <string name="now_bar_looks">Mionekano</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Chaguomsingi"</item>
+        <item>Liquid Glass</item>
+        <item>Ndogo</item>
+        <item>Kubwa</item>
+        <item>Neon</item>
+        <item>Kadi ya kioo</item>
+    </string-array>
+    <string name="now_bar_material">Nyenzo</string>
+    <string name="now_bar_material_summary">Liquid Glass hutumia kioo ulichoweka kwenye Mandhari</string>
+    <string-array name="now_bar_material_entries">
+        <item>Imara</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Picha ya albamu</item>
+        <item>Lafudhi</item>
+        <item>Giza</item>
+    </string-array>
+    <string name="now_bar_opacity">Uwazi</string>
+    <string name="now_bar_opacity_summary">Kwa Liquid Glass, rangi inavyopaka kioo kwa kiasi gani</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Hamna"</item>
+        <item>Myembamba</item>
+        <item>Lafudhi</item>
+    </string-array>
+    <string name="now_bar_shadow">Kivuli</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Imezimwa"</item>
+        <item>Laini</item>
+        <item>Mng\'aro</item>
+    </string-array>
+    <string name="now_bar_more">Shughuli zaidi</string>
+    <string-array name="now_bar_more_entries">
+        <item>Telezesha tu</item>
+        <item>Nukta</item>
+        <item>Chungulia nyuma</item>
+    </string-array>
+    <string name="now_bar_size">Ukubwa na umbo</string>
+    <string name="now_bar_height">Urefu</string>
+    <string name="now_bar_width_summary">Full huweka njia za mkato juu ya upau</string>
+    <string-array name="now_bar_width_entries">
+        <item>Nyembamba</item>
+        <item>Kati ya njia za mkato</item>
+        <item>Kamili</item>
+    </string-array>
+    <string name="now_bar_corners">Pembe</string>
+    <string name="now_bar_raise">Inua</string>
+    <string name="now_bar_art">Picha ya albamu</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Mduara"</item>
+        <item>Mviringo</item>
+        <item>"Mraba"</item>
+        <item>"Imezimwa"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Ruka na cheza</item>
+        <item>Kucheza tu</item>
+        <item>"Hamna"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Mstari mmoja</item>
+        <item>Mistari miwili</item>
+        <item>Wimbo tu</item>
+    </string-array>
+    <string name="now_bar_show_page">Kinachoonekana kwenye upau</string>
+    <string name="now_bar_show_page_summary">Muziki na video, vipima muda, simu na zaidi</string>
+    <string name="now_bar_where">Mahali pengine</string>
 </resources>

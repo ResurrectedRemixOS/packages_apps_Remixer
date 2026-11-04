@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Bateria"</string>
     <string name="charge_report_temp">"Temperatura"</string>
     <string name="charge_report_time">"Hora"</string>
+    <string name="charge_report_title">Informes de càrrega</string>
+    <string name="charge_report_summary">Un resum de cada càrrega en desconnectar</string>
+    <string name="charge_report_min_title">Només si n\'ha afegit almenys</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 dies</item>
+        <item>7 dies</item>
+        <item>14 dies</item>
+        <item>30 dies</item>
+    </string-array>
+    <string name="charge_report_history_days">Últims <xliff:g id="days" example="7">%1$d</xliff:g> dies</string>
+    <string name="charge_report_today">Avui, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Ahir, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> h <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Watts</string>
+    <string name="charge_report_added">Afegit</string>
+    <string name="charge_report_peak">Pic</string>
+    <string name="charge_report_average">Mitjana</string>
+    <string name="charge_report_max_temp">Temperatura màx.</string>
+    <string name="charge_report_charger">Carregador</string>
+    <string name="charge_report_started">Va començar a</string>
+    <string name="charge_report_wired">Amb cable</string>
+    <string name="charge_report_wireless">Sense fil</string>
+    <string name="charge_report_dock">Base</string>
+    <string name="charge_report_empty">Encara no hi ha cap càrrega</string>
+    <string name="charge_report_footer">SystemUI llegeix el corrent, el voltatge i la temperatura de la bateria cada 30 segons mentre està connectat. Els watts són els que mesura el telèfon, de manera que poden diferir del número del carregador. Els informes es queden al telèfon; no es puja res.</string>
 </resources>

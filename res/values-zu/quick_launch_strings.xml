@@ -6,4 +6,20 @@
     <string name="quick_launch_timer">Isikali sesikhathi</string>
     <string name="quick_launch_undo">"Hlehlisa"</string>
     <string name="quick_launch_off">"Valiwe"</string>
+    <string name="quick_launch_title">Ukuqalisa okusheshayo</string>
+    <string name="quick_launch_main">Ukuqalisa okusheshayo ngezigxivizo zomunwe</string>
+    <string name="quick_launch_main_summary">Gcina umunwe wakho esensorini emva kokuvula ukuze uvule inqamuleli</string>
+    <string name="quick_launch_hint">Thepha inqamuleli ukuze uyishintshe, yibambe ukuze uyisuse, noma uyidonse ukuze uyihlele kabusha.</string>
+    <string name="quick_launch_behavior">Ukuziphatha</string>
+    <string name="quick_launch_hold">Isikhathi sokubamba</string>
+    <string name="quick_launch_haptics">Dlidliza ku-inqamuleli ngayinye</string>
+    <string name="quick_launch_add">Engeza</string>
+    <string name="quick_launch_video">Ividiyo</string>
+    <string name="quick_launch_qr">Skena i-QR</string>
+    <string name="quick_launch_app">Uhlelo lokusebenza…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> kususiwe</string>
+    <plurals name="quick_launch_on">
+        <item quantity="one">Kuvuliwe · inqamuleli eyi-<xliff:g id="count" example="4">%d</xliff:g></item>
+        <item quantity="other">Kuvuliwe · izinqamuleli eziyi-<xliff:g id="count" example="4">%d</xliff:g></item>
+    </plurals>
 </resources>

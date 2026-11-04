@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Eleet</string>
     <string name="backup_group_other">"Muu"</string>
     <string name="backup_done">"Valmis"</string>
+    <string name="backup_summary">Kaikki RR-mukautukset yhdessä tiedostossa</string>
+    <string name="backup_now">Varmuuskopioi nyt</string>
+    <string name="backup_never">Viimeisin varmuuskopio: ei koskaan</string>
+    <string name="backup_last">Viimeisin varmuuskopio: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Palauta tiedostosta</string>
+    <string name="backup_restore_summary">Valitse varmuuskopiotiedosto</string>
+    <string name="backup_included">Mukana</string>
+    <string name="backup_part_theme">Korostusväri, fontti ja kuvakkeet</string>
+    <string name="backup_part_header">Yläosan kuva</string>
+    <string name="backup_part_photo">Otsikkokuva (oma kuva)</string>
+    <string name="backup_part_photo_summary">Kasvattaa tiedoston kokoa</string>
+    <string name="backup_part_boot">Käynnistysanimaatio</string>
+    <string name="backup_part_looks">Omat lookit</string>
+    <string name="backup_weekly">Viikoittainen varmuuskopio</string>
+    <string name="backup_weekly_summary">Valitsemaasi kansioon</string>
+    <string name="backup_weekly_on">Joka viikko kohteeseen <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Tarjoa varmuuskopiota ennen päivityksiä</string>
+    <string name="backup_offer_summary">Päivitysohjelma kysyy ennen asentamista</string>
+    <string name="backup_sets">Asettaa <xliff:g id="count" example="64">%1$d</xliff:g> asetusta</string>
+    <string name="backup_saved">Tallennettiin <xliff:g id="count" example="64">%1$d</xliff:g> asetusta</string>
+    <string name="backup_restored">Palautettiin <xliff:g id="count" example="64">%1$d</xliff:g> asetusta</string>
+    <string name="backup_restored_message">SystemUI käynnistyy uudelleen niiden ottamiseksi käyttöön.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> asetusta ei ole tässä versiossa, ja ne ohitettiin.</string>
+    <string name="backup_failed">Varmuuskopiota ei voitu tallentaa</string>
+    <string name="backup_invalid">Tämä tiedosto ei ole Resurrected Remix -varmuuskopio</string>
+    <string name="backup_footer">Tiedostoon tallennetaan vain RR-asetukset: ei tilejä, salasanoja, Wi-Fi-verkkoja, sovelluksia tai viestejä. Palautus kirjoittaa vain RR:n omalla listalla olevia asetuksia, joten varmuuskopiotiedosto ei voi muuttaa mitään muuta puhelimessa. Otsikkokuva sisältyy vain, jos sen kytkin on päällä, koska se kasvattaa tiedoston kokoa.</string>
+    <string name="volume_style_title">Volume panel style → Äänenvoimakkuuspaneelin tyyli</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Lasi</item>
+        <item>Kapseli</item>
+        <item>Classic RR</item>
+        <item>Bento</item>
+        <item>Muodot</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Pehmeä</item>
+    </string-array>
 </resources>

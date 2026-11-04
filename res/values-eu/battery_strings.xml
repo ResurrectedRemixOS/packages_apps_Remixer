@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Bateria"</string>
     <string name="battery_style_title">"Estiloa"</string>
+    <string-array name="battery_style_entries">
+        <item>Bertikala</item>
+        <item>"Zirkulua"</item>
+        <item>Puntuzko zirkulua</item>
+        <item>Neon eraztuna</item>
+        <item>Pilula mehea</item>
+        <item>Ehuneko handia</item>
+        <item>"Bidali testu-mezua"</item>
+    </string-array>
+    <string name="battery_percent_title">Ehunekoa</string>
+    <string-array name="battery_percent_entries">
+        <item>Ezkutatua</item>
+        <item>Ikonoaren barruan</item>
+        <item>Ondoan</item>
+    </string-array>
+    <string name="battery_ring_color_title">Neon eraztunaren kolorea</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Mailaren arabera azentua %%20tik gora, gorria azpitik eta anbarra Bateria-aurrezlean.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Mailaren arabera</item>
+        <item>Azentua</item>
+        <item>"Zuria"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Txinpartak kargatzen ari denean</string>
+    <string name="battery_ring_tile_title">Eraztun bera Ezarpen bizkorren lauzan</string>
+    <string name="battery_ring_tile_summary">Mailarekin eta pantaila piztuta dagoen denborarekin</string>
 </resources>

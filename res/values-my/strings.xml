@@ -84,4 +84,202 @@
     <string name="wallpaper_apply_lock">"လော့ခ်စခရင်"</string>
     <string name="remixer_settings_style_original">"မူလ"</string>
     <string name="remixer_navbar_category">"လမ်းညွှန်ဘား"</string>
+    <string name="remixer_dashboard_summary">အခြေအနေပြနေရာ၊ အပြင်အဆင်နှင့် အခြားအရာများ</string>
+    <string name="rr_homepage_battery_saver">ဘက်ထရီအားထိန်းစနစ်</string>
+    <string name="rr_homepage_personalize">ကိုယ်ပိုင်ပြင်ဆင်ခြင်း</string>
+    <string name="rr_homepage_privacy">ကိုယ်ရေးအချက်အလက်နှင့် လုံခြုံရေး</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> လွတ်နေသည်</string>
+    <string name="rr_homepage_charged">အပြည့်အဝ အားသွင်းပြီး</string>
+    <string name="rr_homepage_on_battery">ဘက်ထရီဖြင့် အသုံးပြနေသည်</string>
+    <string name="rr_homepage_saver_on">ဘက်ထရီအားထိန်းစနစ် ဖွင့်ထားသည်</string>
+    <string name="rr_homepage_extras">နောက်ထပ်ဆက်တင်များ</string>
+    <string name="rr_homepage_saver">အားထိန်းစနစ်</string>
+    <string name="rr_homepage_signed_out">အကောင့်ဝင်ထားခြင်း မရှိပါ</string>
+    <string name="rr_homepage_remixer_tagline">သင့်စိတ်ကြိုက်ပြင်ပါ။ အခြေအနေပြနေရာ၊ အပြင်အဆင်၊ လော့ခ်စခရင်နှင့် အခြားအရာများ။</string>
+    <string name="rr_homepage_device_tagline">အသံပြောင်းခလုတ်၊ ဖန်သားပြင်၊ အားသွင်းခြင်းနှင့် GameBar။</string>
+    <string name="rr_homepage_device_action">ချိန်ညှိရန်</string>
+    <string name="rr_group_network">ကွန်ရက်နှင့် စက်ပစ္စည်းများ</string>
+    <string name="rr_group_network_summary">Wi‑Fi၊ မိုဘိုင်း၊ Bluetooth</string>
+    <string name="rr_group_apps_summary">အက်ပ်များ၊ အကြောင်းကြားချက်များ၊ Modes</string>
+    <string name="rr_group_display">ဖန်သားပြင်နှင့် အသံ</string>
+    <string name="rr_group_display_summary">ဖန်သားပြင်၊ နောက်ခံ၊ အသံ</string>
+    <string name="rr_group_security_summary">လော့ခ်၊ တည်နေရာ၊ အရေးပေါ်</string>
+    <string name="rr_group_security_center">လုံခြုံရေးစင်တာ</string>
+    <string name="rr_group_accounts">Google နှင့် အကောင့်များ</string>
+    <string name="rr_group_accounts_summary">Google၊ စကားဝှက်များ၊ အရန်သိမ်းခြင်း</string>
+    <string name="rr_group_accounts_plain_summary">စကားဝှက်များ၊ အကောင့်များ၊ အရန်သိမ်းခြင်း</string>
+    <string name="rr_group_system_summary">ဘာသာစကားများ၊ လက်ဟန်များ၊ အပ်ဒိတ်များ</string>
+    <string name="remixer_tagline">သင့်စိတ်ကြိုက်ပြင်ပါ။</string>
+    <string name="remixer_remix">ပြန်ပြင်ဖန်တီးပါ</string>
+    <string name="remixer_remixed"><xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g> ဖြင့် ပြန်ပြင်ထားသည်</string>
+    <string name="remixer_chip_shade_default">အရောင်အရိပ် · မူလ</string>
+    <string name="remixer_quick">အမြန်ပြင်ဆင်ခြင်း</string>
+    <string name="remixer_everything">အားလုံး</string>
+    <string name="remixer_quick_accents">ကြိုတင်သတ်မှတ်ချက်များ သို့မဟုတ် မည်သည့်အရောင်မဆို</string>
+    <string name="remixer_quick_fonts">စနစ်ဖောင့်ပုံစံများ</string>
+    <string name="remixer_quick_walls">RR စုစည်းမှု</string>
+    <string name="remixer_quick_header">အမြန်ဆက်တင် ခေါင်းစီး</string>
+    <string name="remixer_quick_header_summary">ခေါင်းစီးပုံများ</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">နာရီ၊ ဘက်ထရီ၊ အိုင်ကွန်များနှင့် ကွန်ရက်အသုံးပြုမှု</string>
+    <string name="remixer_qs_summary">ခေါင်းစီးပုံ</string>
+    <string name="remixer_notifications_summary">အစွန်းမီး၊ အက်ပ်အိုင်ကွန်များနှင့် အားသွင်းအသံများ</string>
+    <string name="remixer_theme_summary">ဖောင့်များ၊ အရောင်များနှင့် နောက်ခံများ</string>
+    <string name="remixer_lockscreen_summary">UDFPS၊ အားသွင်းအချက်အလက်နှင့် ရာသီဥတု</string>
+    <string name="remixer_udfps_icon">UDFPS အိုင်ကွန်</string>
+    <string name="remixer_udfps_icon_summary">လက်ဗွေအာရုံခံကိရိယာ အပေါ်တွင် ပြသမည်</string>
+    <string name="remixer_udfps_animation">UDFPS လှုပ်ရှားမှု</string>
+    <string name="remixer_udfps_animation_summary">သင့်လက်ချောင်းသည် အာရုံခံကိရိယာပေါ်တွင် ရှိနေစဉ် ဖွင့်ပါမည်</string>
+    <string name="remixer_navigation_summary">Pulse၊ ခလုတ်များနှင့် လမ်းညွှန်ဘား</string>
+    <string name="remixer_misc_summary">အသံ၊ အရန်သိမ်းခြင်း၊ အတုအယောင်ပြုခြင်း၊ လှိမ့်ခြင်းနှင့် USB</string>
+    <string name="scroll_haptics_title">လှိမ့်ခြင်းအဆုံးတွင် တို့ပါ</string>
+    <string name="scroll_haptics_summary">စာရင်း သို့မဟုတ် စာမျက်နှာ ထပ်မသွားနိုင်တော့သည့်အခါ အလင်းပေါ့ပေါ့ တုန်ခါမည်</string>
+    <string name="usb_mode_picker_title">USB မုဒ်ရွေးချယ်ကိရိယာ</string>
+    <string name="usb_mode_picker_summary">ကွန်ပျူတာနှင့် ချိတ်ဆက်သည့်အခါ မုဒ်တစ်ခုကို ရွေးပါ</string>
+    <string name="remixer_fonts_summary">စနစ်ဖောင့်</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix နောက်ခံများ</string>
+    <string name="remixer_accents">အရောင်များ</string>
+    <string name="remixer_accents_summary">အဓိကအရောင်</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">ဖန်သားပြင်အောက်ခြေတွင် မျက်နှာပြင်သီချင်းမြင်ကွင်း</string>
+    <string name="pulse_switch">Pulse ကို သုံးရန်</string>
+    <string name="pulse_switch_summary">မီဒီယာဖွင့်နေချိန် ဖန်သားပြင်အောက်ခြေတွင် သီချင်းဘားများ</string>
+    <string name="pulse_preview_title">ယခုဖွင့်နေသည်</string>
+    <string name="pulse_style_lines">မျဉ်းများ</string>
+    <string name="pulse_style_fading">မှိန်ဝင်သွားသော</string>
+    <string name="pulse_style_blocks">ရုပ်သွင်ပိတ်ပုံများ</string>
+    <string name="pulse_style_mirror">ထင်ဟပ်သော</string>
+    <string name="pulse_color_custom">စိတ်ကြိုက်</string>
+    <string name="pulse_color_gradient">အရောင်ခုနစ်ဖျင်း</string>
+    <string name="pulse_bars">ဘားများ</string>
+    <string name="pulse_bars_value">ဘား · %1$d</string>
+    <string name="pulse_height">အမြင့်</string>
+    <string name="pulse_height_value">အမြင့် · %1$d dp</string>
+    <string name="pulse_opacity">အလင်းမျက်နှာပြင် ပွင့်လင်းမှု</string>
+    <string name="pulse_opacity_value">ပွင့်လင်းမှု · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">သီချင်းဖွင့်နေစဉ် လော့ခ်စခရင်ပေါ်တွင် ဘားများကို ဆက်ထားပါ</string>
+    <string name="pulse_failed">Pulse ဆက်တင်ကို သိမ်းဆည်း၍ မရပါ</string>
+    <string name="accent_applied">အရောင်ကို အသုံးပြုပြီးပါပြီ</string>
+    <string name="accent_current">အရောင် · %1$s</string>
+    <string name="accent_current_custom">အရောင် · စိတ်ကြိုက်</string>
+    <string name="accent_preview_tonal">အရောင်တူ</string>
+    <string name="accent_failed">အဲဒီအရောင်ကို အသုံးပြု၍ မရပါ</string>
+    <string name="accent_custom">စိတ်ကြိုက်</string>
+    <string name="accent_custom_summary">မည်သည့်အရောင်မဆိုရနိုင်သည်။ အရိပ်အရောင်ကို အထက်တွင် ဆက်လက်အသုံးပြုသည်။</string>
+    <string name="accent_custom_pad">ရောင်စဉ်နှင့် အလင်းအမှောင်</string>
+    <string name="accent_custom_use"><xliff:g id="color" example="#12B5A6">%1$s</xliff:g> ကို သုံးရန်</string>
+    <string name="accent_shade">အရိပ်</string>
+    <string name="accent_shade_darker">ပိုမှောင်သော</string>
+    <string name="accent_shade_lighter">ပိုတောက်သော</string>
+    <string name="accent_shade_darker_value">ပိုမှောင်သော · %1$d</string>
+    <string name="accent_shade_lighter_value">ပိုတောက်သော · %1$d</string>
+    <string name="remixer_qs_style">အမြန်ဆက်တင် ပုံစံ</string>
+    <string name="remixer_qs_style_preview">ကြိုတင်ကြည့်ရှုခြင်း · %1$s</string>
+    <string name="remixer_qs_style_note">အရောင်အားလုံးသည် သင့်အသုံးပြုထားသော အရောင်ကို လိုက်နာသည်။ အသံပြောင်းပြတင်းပြင်တွင် Bento၊ Shapes၊ Blueprint၊ Duo နှင့် Soft ပုံစံများ ရှိသည်။ Stock Lineage သည် Android 17 အကွက်များကို မပြောင်းလဲဘဲ ထားသည်။</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Android 17 အကွက်များ၊ မပြောင်းလဲထား</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">အရောင်ကတ်ထဲတွင် တောက်ပမှု။ အကွက်များသည် အရောင်ပြောင်းဂရေဒီယင့် ဖြည့်ထားသည်</string>
+    <string name="remixer_qs_style_compact">ကျစ်လစ်သော</string>
+    <string name="remixer_qs_style_compact_summary">တိုတောင်းသော အကွက်များ။ စခရင်တစ်ခုတည်းတွင် ပိုများသည်</string>
+    <string name="remixer_qs_style_glass">မှန်</string>
+    <string name="remixer_qs_style_glass_summary">ဖွင့်သည့်အခါ သင့်အရောင်ဖြင့် တောက်ပသော ကြည်လင်သည့် ဘောင်ရှိ အကွက်များ</string>
+    <string name="remixer_qs_style_circles">စက်ဝိုင်းများ</string>
+    <string name="remixer_qs_style_circles_summary">အညွှန်းပါသော အဝိုင်းခလုတ်များ။ ကျယ်သော အကွက်များသည် ကတ်များဖြစ်လာသည်</string>
+    <string name="remixer_qs_style_classic">ဂန္တဝင်</string>
+    <string name="remixer_qs_style_classic_summary">RR အဟောင်းပုံစံ: အမည်ပါ အိုင်ကွန်များ၊ တစ်တန်းလျှင် ငါးခု၊ ပါးလွှာသော စလိုက်ဒါ</string>
+    <string name="remixer_qs_style_cards">ကတ်များ</string>
+    <string name="remixer_qs_style_cards_summary">အကြီးစား ကဒ်များ၊ အမည်အောက်တွင် အခြေအနေ၊ တစ်တန်းလျှင် သုံးခု</string>
+    <string name="remixer_qs_style_neon">နီယွန်</string>
+    <string name="remixer_qs_style_neon_summary">ဖွင့်ထားချိန် အသားပေးမှုဖြင့် တောက်ပနေသော အနားသတ်ပါ အကွက်ငယ်များ</string>
+    <string name="remixer_qs_style_bento_summary">အကြီးစား ထောင့်ဝိုင်း ဘလောက်များ၊ သင့်အဓိကအရောင်ဖြင့် ဖြည့်ထား၊ သေးငယ်သောအတွက် အမည်များ အောက်တွင်</string>
+    <string name="remixer_qs_style_shapes">ပုံသဏ္ဍာန်များ</string>
+    <string name="remixer_qs_style_shapes_summary">ဝိုင်းသော ခလုတ်များ၊ ဖွင့်လိုက်လျှင် အနားများ ထွက်လာ၊ တစ်တန်းလျှင် ငါးခု</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">ပါးလွှာသော မျဉ်းဘောင်များနှင့် မိုနိုစပေ့စ် စာလုံးအကြီးများ</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">ခွဲထားသော အကွက်များ။ အိုင်ကွန်ဘက်ခြမ်းသည် လင်းပြီး ဖွင့်ပိတ်သည်</string>
+    <string name="remixer_qs_style_soft">Soft</string>
+    <string name="remixer_qs_style_soft_summary">ဖွင့်ထားချိန် နှိပ်ထားသလို ဝင်နေသော အကွက်ငယ်များ</string>
+    <string name="remixer_lock_media_style">မီဒီယာပလေယာ ပုံစံ</string>
+    <string name="remixer_lock_media_same">အမြန်ဆက်တင်များနှင့် တူသည်</string>
+    <string name="remixer_lock_media_same_summary">QS မီဒီယာ အကွက်ကို လိုက်သည်၊ ယခု %1$s</string>
+    <string name="remixer_lock_media_off_summary">လော့ခ်စခရင်တွင် ပလေယာမရှိ</string>
+    <string name="remixer_lock_media_note">ဖန်သားပြင်ပိတ်ထားစဉ် သီချင်းဖွင့်နေချိန်တွင် ဤကဒ်ကို လော့ခ်စခရင်တွင် ပြသပါမည်။ မြင်ရသော ပုံစံများအတွက် နောက်ခံ၏ အပေါ်တွင် စာဖတ်ရလွယ်စေရန် အမည်းရောင်နောက်ခံ ထည့်ပေးပါမည်။</string>
+    <string name="remixer_lock_media_stock_summary">အယ်လ်ဘမ်ပုံဖြင့် ကတ်ကို ဖြည့်ထားမည်</string>
+    <string name="remixer_lock_media_remix_summary">မှောင်သောကတ်၊ accent ဖြင့် ဖွင့်/ပိတ်ခလုတ်</string>
+    <string name="remixer_lock_media_compact_summary">ပိုဝိုင်းသောကတ်၊ စက်ဝိုင်းပုံ</string>
+    <string name="remixer_lock_media_glass_summary">အနားသတ်သာပါသော ပွင့်လင်းသောကတ်</string>
+    <string name="remixer_lock_media_circles_summary">Soft ကတ်၊ accent ဖြင့် ဖွင့်/ပိတ်ခလုတ်</string>
+    <string name="remixer_lock_media_classic_summary">ပိုထောင့်ပြားသောကတ်၊ အနားသတ်ပါသော ဖွင့်/ပိတ်ခလုတ်</string>
+    <string name="remixer_lock_media_cards_summary">Soft ကတ်၊ accent ဖြင့် ဖွင့်/ပိတ်ခလုတ်၊ Circles ကဲ့သို့</string>
+    <string name="remixer_lock_media_neon_summary">အနားသတ် accent ပါသော အမည်းရောင်ကတ်</string>
+    <string name="remixer_lock_media_bento_summary">Soft ကတ်၊ accent ဖြင့် ဖွင့်/ပိတ်ခလုတ်</string>
+    <string name="remixer_lock_media_shapes_summary">ပိုဝိုင်းသောကတ်၊ accent ဖြင့် ဖွင့်/ပိတ်ခလုတ်</string>
+    <string name="remixer_lock_media_blueprint_summary">ပါးလွှာသောအနားသတ်၊ အနားသတ်ပါသော ဖွင့်/ပိတ်ခလုတ်</string>
+    <string name="remixer_lock_media_duo_summary">အရောင်နှစ်ရောင်ကတ်၊ accent ဖြင့် ဖွင့်/ပိတ်ခလုတ်</string>
+    <string name="remixer_lock_media_soft_summary">အနားစွန်း ဆွဲထားသော မြင့်တက်နေသောကတ်</string>
+    <string name="remixer_headers">ခေါင်းစီးပုံ</string>
+    <string name="remixer_headers_summary">အမြန်ဆက်တင်များအတွက် နောက်ခံပုံ ရွေးပါ</string>
+    <string name="header_switch">ခေါင်းစီးပုံကို သုံးရန်</string>
+    <string name="header_switch_summary">အမြန်ဆက်တင်များနောက်တွင် ပုံပြရန်</string>
+    <string name="header_source">ရင်းမြစ်</string>
+    <string name="header_source_collection">စုစည်းမှု</string>
+    <string name="header_collections_summary_daylight">ခေါင်းစီးသည် နေ့အချိန်ကို လိုက်ပါသည် သို့မဟုတ် စုစည်းမှုမှ လှည့်ပြသည်</string>
+    <string name="header_collections_summary_static">စုစည်းမှုကို ဖွင့်ပြီး ပုံတစ်ပုံကို နှိပ်၍ သုံးပါ</string>
+    <string name="header_collections_empty">ထည့်သွင်းထားသော ခေါင်းစီးစုစည်းမှု မရှိပါ</string>
+    <string name="header_images_daylight">ဤစုစည်းမှုတွင်</string>
+    <string name="header_photo_summary">ဂယ်လာရီမှ မည်သည့်ဓာတ်ပုံ သို့မဟုတ် GIF ကိုမဆို</string>
+    <string name="header_height">အမြင့်</string>
+    <string name="header_height_value">အမြင့် · %1$d dp</string>
+    <string name="header_shadow">မှိန်</string>
+    <string name="header_shadow_value">မှိန် · %1$d%%</string>
+    <string name="header_failed">ထိုခေါင်းစီးဆက်တင်ကို သိမ်းဆည်း၍ မရပါ</string>
+    <string name="remixer_weather_summary">ရာသီဥတုဝန်ဆောင်မှုနှင့် ယူနစ်များ</string>
+    <string name="font_preview_notification">ဒါက သင့်ဖုန်းဖတ်ပြမည့်ပုံစံဖြစ်သည်။</string>
+    <string name="font_try_text">ကိုယ်ပိုင်စာသားကို စမ်းကြည့်ပါ</string>
+    <string name="font_previewing">ကြိုတင်ကြည့်ရှုနေသည်</string>
+    <string name="font_current">လက်ရှိဖောင့်</string>
+    <string name="font_badge_current">လက်ရှိ</string>
+    <string name="font_apply_done">သုံးထားသည်</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">ဖန်သားပြင်</string>
+    <string name="font_filter_script">စာလုံးပုံစံ</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">ဖောင့်ကို သုံးပြီးပါပြီ</string>
+    <string name="font_failed">ထိုဖောင့်ကို သုံး၍ မရပါ</string>
+    <string name="wallpaper_set">နောက်ခံ သတ်မှတ်ပြီးပါပြီ</string>
+    <string name="wallpaper_apply_both">နှစ်ခုလုံး</string>
+    <string name="wallpaper_failed">ထိုနောက်ခံကို သတ်မှတ်၍ မရပါ</string>
+    <string name="missing_app">ထိုအက်ပ်ကို ထည့်သွင်းထားခြင်း မရှိပါ</string>
+    <string name="remixer_spoofing">အတုအယောင်ပြုခြင်း</string>
+    <string name="remixer_spoofing_summary">Play Integrity၊ စက်ပစ္စည်းအမှတ်အသား နှင့် အက်ပ်တစ်ခုချင်းစီ၏ အတုအယောင်ပြုခြင်း</string>
+    <string name="remixer_settings_style">ဆက်တင်များ ပုံစံ</string>
+    <string name="rr_maintainer">ထိန်းသိမ်းသူ</string>
+    <string name="remixer_navbar_summary">Pill အရှည်၊ အထူနှင့် အပြင်အဆင်</string>
+    <string name="remixer_navbar_pill_length">လက်ဟန် Pill အရှည်</string>
+    <string name="remixer_navbar_pill_thickness">လက်ဟန် Pill အထူ</string>
+    <string name="remixer_navbar_pill_auto_hide">လက်ဟန် Pill ကို မှိန်ဝင်စေရန်</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">စက္ကန့်အနည်းငယ်အကြာတွင် Pill ကို ဖျောက်ပါ၊ ဖန်သားပြင်ကို ထိလျှင် ပြန်ပေါ်လာမည်</string>
+    <string name="remixer_navbar_ime">ကီးဘုတ်ခလုတ်များ</string>
+    <string name="remixer_navbar_ime_summary">ကီးဘုတ်အောက်တွင် နောက်သို့ နှင့် ကီးဘုတ်ပြောင်းခလုတ်များကို ပြပါ</string>
+    <string name="remixer_navbar_layout">ခလုတ်အပြင်အဆင်</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>တို</item>
+        <item>ပုံမှန်</item>
+        <item>ရှည်</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>အပါးဆုံး</item>
+        <item>ပါးလွှာ</item>
+        <item>ပါး</item>
+        <item>ပုံမှန်</item>
+        <item>ထူ</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>ပုံမှန်</item>
+        <item>ကျစ်လစ်သော</item>
+        <item>"လက်ဝဲဖက် ကပ်လျက်"</item>
+        <item>"လက်ယာဖက် ကပ်လျက်"</item>
+    </string-array>
 </resources>

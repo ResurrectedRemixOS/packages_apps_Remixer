@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Look bat zure Mode bakoitzerako</string>
+    <string name="remix_modes_everyday">Egunerokoa Look</string>
+    <string name="remix_modes_everyday_summary">Look bat duen Mode-rik aktibo ez dagoenean itzultzen da</string>
+    <string name="remix_modes_wallpaper">Horma-papera Look-ari jarraitzen dio</string>
+    <string name="remix_modes_wallpaper_summary">Mode batek horma-papera ere alda dezake</string>
+    <string name="remix_modes_modes">Zure Mode-ak</string>
+    <string name="remix_modes_no_change">Aldaketarik ez</string>
+    <string name="remix_modes_none">Gorde Look bat lehenik, Gaia › Looks-en</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g>-(r)en Look</string>
+</resources>

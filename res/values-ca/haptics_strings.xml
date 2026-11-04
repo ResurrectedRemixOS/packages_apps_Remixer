@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Blau"</string>
     <string name="haptic_remix_color_green">"Verd"</string>
     <string name="haptic_remix_color_white">"Blanc"</string>
+    <string name="haptic_remix_summary">Toca els patrons de vibració per a trucades, aplicacions, alarmes i desbloquejos</string>
+    <string name="haptic_remix_record">Grava</string>
+    <string name="haptic_remix_pad">toca el ritme</string>
+    <string name="haptic_remix_strength">Intensitat</string>
+    <string name="haptic_remix_clear">Esborra</string>
+    <string name="haptic_remix_play">Reprodueix</string>
+    <string name="haptic_remix_name">Nom del patró</string>
+    <string name="haptic_remix_empty">Encara no s\'ha gravat res</string>
+    <string name="haptic_remix_too_long">Un patró pot durar 30 segons</string>
+    <string name="haptic_remix_presets">Predefinits</string>
+    <string name="haptic_remix_preset_neon">Neó</string>
+    <string name="haptic_remix_preset_glass">Vidre</string>
+    <string name="haptic_remix_preset_ringtone">Pulsació del to de trucada</string>
+    <string name="haptic_remix_listening">S\'està escoltant el to de trucada…</string>
+    <string name="haptic_remix_no_ringtone">No s\'ha pogut llegir el to de trucada</string>
+    <string name="haptic_remix_patterns">Els teus patrons</string>
+    <string name="haptic_remix_patterns_none">Primer desa un patró. Mantén-lo premut per suprimir-lo.</string>
+    <string name="haptic_remix_broken">No es pot llegir aquest patró</string>
+    <string name="haptic_remix_delete">Vols suprimir <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Assigna a</string>
+    <string name="haptic_remix_alarm">Alarma i temporitzador</string>
+    <string name="haptic_remix_plug">Connectat</string>
+    <string name="haptic_remix_fingerprint">Èxit de l\'empremta digital</string>
+    <string name="haptic_remix_add_contact">Afegeix un contacte</string>
+    <string name="haptic_remix_edge_color">Il·luminació de vora per als missatges de <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">Accent</string>
+    <string name="haptic_remix_color_crimson">Carmesí</string>
+    <string name="haptic_remix_color_amber">Ambre</string>
+    <string name="haptic_remix_add_app">Afegeix les notificacions d\'una aplicació</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · toca per canviar, mantén premut per al color de la vora</string>
+    <string name="haptic_remix_no_contacts">Contactes no ha retornat cap número</string>
 </resources>

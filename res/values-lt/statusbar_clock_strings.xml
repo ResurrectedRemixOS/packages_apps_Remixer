@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Data"</string>
     <string name="sb_weather_category">"Orai"</string>
+    <string name="sb_clock_category">Laikrodis ir data</string>
+    <string name="sb_clock_bold_title">Paryškintas laikrodis</string>
+    <string name="sb_clock_bold_summary">Būsenos juostos laikrodį rodyti paryškintą</string>
+    <string name="sb_clock_period_separator_title">Skirtukas tarp valandų ir minučių</string>
+    <string name="sb_clock_period_separator_summary">10.45 vietoj 10:45</string>
+    <string name="sb_clock_date_position_title">Datos padėtis</string>
+    <string name="sb_clock_date_style_title">Datos rašymo būdas</string>
+    <string name="sb_clock_date_format_title">Datos formatas</string>
+    <string name="sb_clock_chip_category">Laikrodžio fonas</string>
+    <string name="sb_clock_chip_title">Fono stilius</string>
+    <string name="sb_clock_chip_start_title">Gradiento pradžia</string>
+    <string name="sb_clock_chip_end_title">Gradiento pabaiga</string>
+    <string name="sb_clock_chip_angle_title">Gradiento kampas</string>
+    <string name="sb_clock_chip_mask_title">Išpjauti laiką iš gradiento</string>
+    <string name="sb_clock_chip_mask_summary">Gradientas matomas per skaitmenis, o ne už jų</string>
+    <string name="sb_weather_title">Orai būsenos juostoje</string>
+    <string name="sb_weather_position_title">Padėtis</string>
+    <string name="status_bar_clock_rr_style_title">Laikrodžio išvaizda</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Numatytasis"</item>
+        <item>Neoninis</item>
+        <item>Padalytas</item>
+        <item>RR ženklas</item>
+        <item>Pastovaus pločio</item>
+        <item>Pulsas</item>
+        <item>Sudėtas</item>
+        <item>Anglis</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline šalia laiko</string>
+    <string name="sb_clock_flatline_summary">RR širdies ritmo linija kapsulėje: pulsuoja su muzika, šokinėja gavus pranešimą</string>
 </resources>

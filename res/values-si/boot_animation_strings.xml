@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">ආරම්භක සජීවිකරණය</string>
+    <string name="boot_animation_note">දුරකථනය ඊළඟ වරට ආරම්භ වන විට වාදනය වේ.</string>
+    <string name="boot_animation_custom">ඔබේ ගොනුව</string>
+    <string name="boot_animation_custom_pick">ගොනුවක් තෝරන්න…</string>
+    <string name="boot_animation_custom_invalid">එය බූට් ඇනිමේෂන් ගොනුවක් නොවේ</string>
+    <string name="boot_animation_failed">බූට් ඇනිමේෂනය වෙනස් කළ නොහැකි විය</string>
+</resources>

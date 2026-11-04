@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Батарея"</string>
     <string name="charge_report_temp">"Температура"</string>
     <string name="charge_report_time">"Убакыт"</string>
+    <string name="charge_report_title">Кубаттоо отчёттору</string>
+    <string name="charge_report_summary">Ар бир кубаттоо аяктаганда кыскача маалымат</string>
+    <string name="charge_report_min_title">Эгерде ал кеминде кошкон болсо гана</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 күн</item>
+        <item>7 күн</item>
+        <item>14 күн</item>
+        <item>30 күн</item>
+    </string-array>
+    <string name="charge_report_history_days">Акыркы <xliff:g id="days" example="7">%1$d</xliff:g> күн</string>
+    <string name="charge_report_today">Бүгүн, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Кечээ, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> мүн.</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> са <xliff:g id="minutes" example="02">%2$02d</xliff:g> мүн.</string>
+    <string name="charge_report_watts">Ватт</string>
+    <string name="charge_report_added">Кошулду</string>
+    <string name="charge_report_peak">Эң жогорку</string>
+    <string name="charge_report_average">Орточо</string>
+    <string name="charge_report_max_temp">Макс. температура</string>
+    <string name="charge_report_charger">Кубаттагыч</string>
+    <string name="charge_report_started">Башталды</string>
+    <string name="charge_report_wired">Зым менен</string>
+    <string name="charge_report_wireless">Зымсыз</string>
+    <string name="charge_report_dock">Док</string>
+    <string name="charge_report_empty">Азырынча кубаттоолор жок</string>
+    <string name="charge_report_footer">SystemUI кубатталып турганда батареянын токун, чыңалуусун жана температурасын ар 30 секунд сайын окуйт. Ваттар телефон өлчөгөн маани, ошондуктан кубаттагычтагы санынан айырмаланышы мүмкүн. Отчеттор телефондо калат; эч нерсе жүктөлбөйт.</string>
 </resources>

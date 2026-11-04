@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Kasuta seadme RKP-d</string>
+    <string name="ts_rkp_enabled_summary">Kasuta genereeritud võtmekasti. Võtmekasti importimine lülitab selle välja.</string>
+    <string name="ts_rkp_provision">Loo keybox</string>
+    <string name="ts_rkp_provision_summary">Taotle Googlelt võtmekasti selle seadme sättimisteenuse kaudu. Nõuab ühilduvat Qualcomm\'i püsivara.</string>
+    <string name="ts_rkp_status">Seadistuse olek</string>
+    <string name="ts_rkp_owner_only">Halda seadme RKP-d seadme omaniku profiilist</string>
+    <string name="ts_rkp_unavailable">Seadme RKP pole saadaval</string>
+    <string name="ts_rkp_imported">Keelatud, kuni imporditud võtmekast on installitud</string>
+    <string name="ts_rkp_disabled">Väljas. Lubage seadme RKP, et võtmekasti kasutada või genereerida.</string>
+    <string name="ts_rkp_idle">Valmis võtmekasti taotlemiseks</string>
+    <string name="ts_rkp_fetching">Sättimise väljakutset hangitakse…</string>
+    <string name="ts_rkp_hardware">Ootan seadme sättimisteenust…</string>
+    <string name="ts_rkp_signing">Taotlen Googlelt sertifikaate…</string>
+    <string name="ts_rkp_validating">Kontrollin ja salvestan võtmekasti…</string>
+    <string name="ts_rkp_ready">Loodud keybox on aktiivne. Uuendatakse automaatselt enne %1$s</string>
+    <string name="ts_rkp_keybox_stored">Seadme RKP keybox on salvestatud</string>
+    <string name="ts_rkp_expired">Genereeritud võtmekasti kehtivus on lõppenud. Genereeri asendus.</string>
+    <string name="ts_rkp_hal_rejected">Püsivara lükkas taotluse tagasi (kood %1$d). Duck V1 ei pruugi olla toetatud.</string>
+    <string name="ts_rkp_http_error">Sättimisserver lükkas taotluse tagasi (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Seade ei paku ühilduvat V1 sättimisliidest</string>
+    <string name="ts_rkp_network_error">Sättimisserveriga ei õnnestu ühendust luua. Kontrolli oma internetiühendust.</string>
+    <string name="ts_rkp_submission_unknown">Serveri vastus kadus. Taotlus võidi töödelda; automaatset uuesti proovimist ei tehtud.</string>
+    <string name="ts_rkp_invalid_chain">Võtmekasti sertifikaadid ei läbinud kontrolli. Olemasolev võtmekast jäeti alles.</string>
+    <string name="ts_rkp_timeout">Sättimine aegus. Kui seadme teenus on endiselt hõivatud, taaskäivita seade ja proovi uuesti.</string>
+    <string name="ts_rkp_canceled">Taotlus tühistati, kuna võtmekasti seadistus muutus</string>
+    <string name="ts_rkp_save_failed">Genereeritud võtmekasti ei õnnestunud salvestada</string>
+    <string name="ts_rkp_action_failed">Võtmekasti toimingut ei õnnestunud lõpule viia</string>
+</resources>

@@ -3,4 +3,55 @@
     <string name="pie_edges">"Kante"</string>
     <string name="pie_style">"Styl"</string>
     <string name="pie_size">"Grootte"</string>
+    <string name="pie_title">Pastei-kontroles</string>
+    <string name="pie_summary">Hou die onderste deel van \'n rand vas vir \'n pastei van kortpaaie</string>
+    <string name="pie_zone">Deel van die rand</string>
+    <string name="pie_clock">Klok en battery daarbo</string>
+    <string name="pie_items">Snitte</string>
+    <string-array name="pie_items_entries">
+        <item>"Terug"</item>
+        <item>Tuis</item>
+        <item>"Onlangs"</item>
+        <item>"Kennisgewings"</item>
+        <item>"Flitslig"</item>
+        <item>"Skermskoot"</item>
+        <item>"Aan/af-kieslys"</item>
+        <item>"Assistent"</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Dit benodig \'n kwart sekonde se vashou sonder beweging, sodat \'n vinnige veeg vanaf die rand steeds terug gaan. Dit oopmaak nie op die ontsluitskerm nie.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Links"</item>
+        <item>"Regs"</item>
+        <item>Albei</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Onderste derde</item>
+        <item>Middel</item>
+        <item>Hele rand</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Glas</item>
+        <item>Klassiek</item>
+    </string-array>
+    <string name="sidebar_style_title">Voorkoms van die program-sybalk</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klassiek</item>
+        <item>RR-glas</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Program-sybalk</string>
+    <string name="sidebar_settings_summary">Veeg vanaf die handvatsel in vir jou programme en gereedskap</string>
+    <string name="sidebar_apps_title">Programme, handvatsel en knipbord</string>
+    <string name="sidebar_apps_summary">Skakel die handvatsel aan, kies die programme en stel die slimknipbord op</string>
+    <string name="sidebar_handle_size_title">Grootte van handvatsel</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>"Klein"</item>
+        <item>Medium</item>
+        <item>"Groot"</item>
+    </string-array>
+    <string name="sidebar_tools_title">Gereedskapry</string>
+    <string name="sidebar_tools_summary">Skermskoot en flitslig onder jou programme</string>
+    <string name="sidebar_footer">Die handvatsel is \'n dun lyn in jou aksentkleur; sleep dit om dit langs die rand te skuif. Met gebaarnavigasie dek dit net sy eie deel van die rand, en terug werk oral anders.</string>
 </resources>

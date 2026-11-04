@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Đồng bộ vòng</string>
+    <string name="ring_sync_tap">Chạm khi một vòng thẳng hàng với vạch đánh dấu</string>
+    <string name="ring_sync_best">Tốt nhất <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">HOÀN HẢO</string>
+    <string name="ring_sync_new_best">Kỷ lục mới</string>
+    <string name="ring_sync_again">Chạm để chơi lại</string>
+    <string name="ring_sync_ember">Đã mở khóa màu nhấn Ember</string>
+    <string name="ring_sync_use_ember">Dùng Ember</string>
+    <string name="ring_sync_android">Trứng Phục Sinh của Android</string>
+    <string name="ring_sync_vibrate_on">Rung khi trúng · Bật</string>
+    <string name="ring_sync_vibrate_off">Rung khi trúng · Tắt</string>
+    <string name="accent_ember">Than hồng</string>
+</resources>

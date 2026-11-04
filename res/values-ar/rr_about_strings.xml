@@ -12,4 +12,22 @@
     <string name="rr_about_this_phone">"هذا الهاتف"</string>
     <string name="rr_about_network">"الشبكة"</string>
     <string name="rr_about_hidden">مخفي</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">رسمي</string>
+    <string name="rr_about_vanilla">Vanilla</string>
+    <string name="rr_about_hardware">العتاد</string>
+    <string name="rr_about_processor">المعالج</string>
+    <string name="rr_about_processor_sub">%1$d نوى · حتى %2$s جيجاهرتز</string>
+    <string name="rr_about_processor_cores">%1$d نوى</string>
+    <string name="rr_about_storage_used">%1$s مستخدم</string>
+    <string name="rr_about_display">العرض</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d هرتز</string>
+    <string name="rr_about_battery_capacity">%1$s مللي أمبير/ساعة</string>
+    <string name="rr_about_battery_charging">%1$s · جارٍ الشحن</string>
+    <string name="rr_about_kernel_linux">نواة Linux</string>
+    <string name="rr_about_software_purpose">إصدار Android وتحديث الأمان وتاريخ البناء ورقم البناء</string>
+    <string name="rr_about_security_patch">تحديث الأمان</string>
+    <string name="rr_about_maintainer">المشرف</string>
+    <string name="rr_about_show">إظهار</string>
+    <string name="rr_about_hide">إخفاء</string>
 </resources>

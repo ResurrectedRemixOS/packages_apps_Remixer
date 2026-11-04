@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"ဘက်ထရီ"</string>
     <string name="charge_report_temp">"အပူချိန်"</string>
     <string name="charge_report_time">"အချိန်"</string>
+    <string name="charge_report_title">အားသွင်းအစီရင်ခံစာများ</string>
+    <string name="charge_report_summary">ဖြုတ်သည့်အခါ အားသွင်းမှုတိုင်း၏ အနှစ်ချုပ်</string>
+    <string name="charge_report_min_title">အနည်းဆုံး ဤမျှ ထည့်ပြီးမှသာ</string>
+    <string-array name="charge_report_keep_entries">
+        <item>ရက် ၃ ရက်</item>
+        <item>ရက် ၇ ရက်</item>
+        <item>ရက် ၁၄ ရက်</item>
+        <item>ရက် ၃၀</item>
+    </string-array>
+    <string name="charge_report_history_days">နောက်ဆုံး ရက် <xliff:g id="days" example="7">%1$d</xliff:g> ရက်</string>
+    <string name="charge_report_today">ယနေ့၊ <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">မနေ့က၊ <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes">မိနစ် <xliff:g id="minutes" example="31">%1$d</xliff:g></string>
+    <string name="charge_report_hours">နာရီ <xliff:g id="hours" example="6">%1$d</xliff:g> နာရီ မိနစ် <xliff:g id="minutes" example="02">%2$02d</xliff:g></string>
+    <string name="charge_report_watts">ဝပ်</string>
+    <string name="charge_report_added">ထည့်ထား</string>
+    <string name="charge_report_peak">အမြင့်ဆုံး</string>
+    <string name="charge_report_average">ပျမ်းမျှ</string>
+    <string name="charge_report_max_temp">အများဆုံး အပူချိန်</string>
+    <string name="charge_report_charger">အားသွင်းကိရိယာ</string>
+    <string name="charge_report_started">စတင်ချိန်</string>
+    <string name="charge_report_wired">ကြိုး</string>
+    <string name="charge_report_wireless">ကြိုးမဲ့</string>
+    <string name="charge_report_dock">ဒေါ့ခ်</string>
+    <string name="charge_report_empty">အားသွင်းမှု မရှိသေးပါ</string>
+    <string name="charge_report_footer">SystemUI သည် ချိတ်ဆက်ထားစဉ် ၃၀ စက္ကန့်တိုင်း ဘက်ထရီ၏ လျှပ်စီးကြောင်း၊ voltage နှင့် အပူချိန်ကို ဖတ်သည်။ ဝပ်များသည် ဖုန်းမှ တိုင်းတာသော တန်ဖိုးဖြစ်သဖြင့် အားသွင်းကိရိယာပေါ်ရှိ နံပါတ်နှင့် ကွဲပြားနိုင်သည်။ အစီရင်ခံစာများသည် ဖုန်းတွင်သာ ရှိနေပြီး မတင်ပါ။</string>
 </resources>

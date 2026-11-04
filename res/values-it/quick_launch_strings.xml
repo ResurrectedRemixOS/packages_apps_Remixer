@@ -5,4 +5,17 @@
     <string name="quick_launch_flashlight">Torcia</string>
     <string name="quick_launch_timer">Timer</string>
     <string name="quick_launch_undo">"Annulla"</string>
+    <string name="quick_launch_title">Avvio rapido</string>
+    <string name="quick_launch_main">Avvio rapido dall\'impronta</string>
+    <string name="quick_launch_main_summary">Tieni il dito sul sensore dopo lo sblocco per aprire una scorciatoia</string>
+    <string name="quick_launch_hint">Tocca una scorciatoia per cambiarla, tienila premuta per rimuoverla o trascinala per riordinarla.</string>
+    <string name="quick_launch_behavior">Comportamento</string>
+    <string name="quick_launch_hold">Tempo di pressione</string>
+    <string name="quick_launch_haptics">Vibra a ogni scorciatoia</string>
+    <string name="quick_launch_add">Aggiungi</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">Scansiona QR</string>
+    <string name="quick_launch_app">App…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> rimosso</string>
+    <string name="quick_launch_off">Disattivato</string>
 </resources>

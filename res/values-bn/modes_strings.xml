@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">আপনার প্রতিটি মোডের জন্য একটি লুক</string>
+    <string name="remix_modes_everyday">প্রতিদিনের লুক</string>
+    <string name="remix_modes_everyday_summary">লুকযুক্ত কোনো মোড চালু না থাকলে এটি ফিরে আসবে</string>
+    <string name="remix_modes_wallpaper">ওয়ালপেপার লুক অনুসরণ করবে</string>
+    <string name="remix_modes_wallpaper_summary">মোড ওয়ালপেপারও বদলাতে পারে</string>
+    <string name="remix_modes_modes">আপনার মোডসমূহ</string>
+    <string name="remix_modes_no_change">কোনো পরিবর্তন নেই</string>
+    <string name="remix_modes_none">আগে থিম › লুকস-এ একটি লুক সংরক্ষণ করুন</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g>-এর জন্য লুক</string>
+</resources>

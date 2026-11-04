@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">डिवाइस RKP उपयोग करें</string>
+    <string name="ts_rkp_enabled_summary">जनरेट किया गया कीबॉक्स उपयोग करें। कीबॉक्स आयात करने पर यह बंद हो जाता है।</string>
+    <string name="ts_rkp_provision">कीबॉक्स जनरेट करें</string>
+    <string name="ts_rkp_provision_summary">इस डिवाइस की प्रावधान सेवा का उपयोग करके Google से कीबॉक्स का अनुरोध करें। संगत Qualcomm फ़र्मवेयर आवश्यक है।</string>
+    <string name="ts_rkp_status">प्रावधान स्थिति</string>
+    <string name="ts_rkp_owner_only">डिवाइस RKP प्रबंधित करें डिवाइस मालिक की प्रोफ़ाइल से</string>
+    <string name="ts_rkp_unavailable">डिवाइस RKP उपलब्ध नहीं है</string>
+    <string name="ts_rkp_imported">आयातित कीबॉक्स इंस्टॉल होने पर यह बंद है</string>
+    <string name="ts_rkp_disabled">बंद है। कीबॉक्स उपयोग या जनरेट करने के लिए डिवाइस RKP चालू करें।</string>
+    <string name="ts_rkp_idle">कीबॉक्स का अनुरोध करने के लिए तैयार</string>
+    <string name="ts_rkp_fetching">प्रावधान चुनौती प्राप्त की जा रही है…</string>
+    <string name="ts_rkp_hardware">डिवाइस की प्रावधान सेवा की प्रतीक्षा है…</string>
+    <string name="ts_rkp_signing">Google से सर्टिफ़िकेट का अनुरोध किया जा रहा है…</string>
+    <string name="ts_rkp_validating">कीबॉक्स सत्यापित और सहेजा जा रहा है…</string>
+    <string name="ts_rkp_ready">जनरेट किया गया कीबॉक्स सक्रिय है। %1$s से पहले अपने-आप नवीनीकृत होगा</string>
+    <string name="ts_rkp_keybox_stored">डिवाइस RKP कीबॉक्स सहेजा गया</string>
+    <string name="ts_rkp_expired">जनरेट किया गया कीबॉक्स समाप्त हो गया। नया जनरेट करें।</string>
+    <string name="ts_rkp_hal_rejected">फ़र्मवेयर ने अनुरोध अस्वीकार किया (कोड %1$d)। हो सकता है Duck V1 समर्थित न हो।</string>
+    <string name="ts_rkp_http_error">प्रावधान सर्वर ने अनुरोध अस्वीकार किया (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">डिवाइस संगत V1 प्रावधान इंटरफ़ेस नहीं दिखाता</string>
+    <string name="ts_rkp_network_error">प्रावधान सर्वर तक नहीं पहुंच सका। अपना कनेक्शन जांचें।</string>
+    <string name="ts_rkp_submission_unknown">सर्वर का जवाब खो गया। अनुरोध संसाधित हो चुका हो सकता है; कोई स्वचालित पुनः प्रयास नहीं किया गया।</string>
+    <string name="ts_rkp_invalid_chain">कीबॉक्स सर्टिफ़िकेट सत्यापन में विफल। मौजूदा कीबॉक्स रखा गया।</string>
+    <string name="ts_rkp_timeout">प्रावधान का समय समाप्त हो गया। यदि डिवाइस सेवा अब भी व्यस्त है, तो फिर से कोशिश करने से पहले डिवाइस रीस्टार्ट करें।</string>
+    <string name="ts_rkp_canceled">कीबॉक्स कॉन्फ़िगरेशन बदलने के कारण अनुरोध रद्द किया गया</string>
+    <string name="ts_rkp_save_failed">जनरेट किया गया कीबॉक्स सहेजा नहीं जा सका</string>
+    <string name="ts_rkp_action_failed">कीबॉक्स का कार्य पूरा नहीं हो सका</string>
+</resources>

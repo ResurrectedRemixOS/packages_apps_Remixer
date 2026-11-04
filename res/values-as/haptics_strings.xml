@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"নীলা"</string>
     <string name="haptic_remix_color_green">"সেউজীয়া"</string>
     <string name="haptic_remix_color_white">"বগা"</string>
+    <string name="haptic_remix_summary">কল, এপ, এলাৰ্ম আৰু আনলকৰ বাবে কম্পনৰ ধৰণ টিপি সৃষ্টি কৰক</string>
+    <string name="haptic_remix_record">ৰেকৰ্ড কৰক</string>
+    <string name="haptic_remix_pad">ছন্দ টিপক</string>
+    <string name="haptic_remix_strength">শক্তি</string>
+    <string name="haptic_remix_clear">পৰিষ্কাৰ কৰক</string>
+    <string name="haptic_remix_play">চলাওক</string>
+    <string name="haptic_remix_name">ধৰণৰ নাম</string>
+    <string name="haptic_remix_empty">এতিয়ালৈ একো ৰেকৰ্ড হোৱা নাই</string>
+    <string name="haptic_remix_too_long">এটা ধৰণ ৩০ ছেকেণ্ড পৰ্যন্ত হ\'ব পাৰে</string>
+    <string name="haptic_remix_presets">পূৰ্বনিৰ্ধাৰিত</string>
+    <string name="haptic_remix_preset_neon">নিঅ\'ন</string>
+    <string name="haptic_remix_preset_glass">গ্লাছ</string>
+    <string name="haptic_remix_preset_ringtone">ৰিংটোনৰ ছন্দ</string>
+    <string name="haptic_remix_listening">ৰিংটোন শুনি আছে…</string>
+    <string name="haptic_remix_no_ringtone">ৰিংটোন পঢ়িব পৰা নগ\'ল</string>
+    <string name="haptic_remix_patterns">আপোনাৰ ধৰণসমূহ</string>
+    <string name="haptic_remix_patterns_none">প্ৰথমে এটা ধৰণ সংৰক্ষণ কৰক। মচিবলৈ এটা দীঘলীয়াকৈ টিপক।</string>
+    <string name="haptic_remix_broken">এই ধৰণটো পঢ়িব নোৱাৰি</string>
+    <string name="haptic_remix_delete"><xliff:g id="name" example="Heartbeat">%1$s</xliff:g> মচিবনে?</string>
+    <string name="haptic_remix_assign">ইয়াক নিযুক্ত কৰক</string>
+    <string name="haptic_remix_alarm">এলাৰ্ম আৰু টাইমাৰ</string>
+    <string name="haptic_remix_plug">প্লাগ ইন কৰা</string>
+    <string name="haptic_remix_fingerprint">আঙুলিছাপ সফল</string>
+    <string name="haptic_remix_add_contact">এটা সম্পৰ্ক যোগ কৰক</string>
+    <string name="haptic_remix_edge_color"><xliff:g id="name" example="Mia">%1$s</xliff:g>ৰ বাৰ্তাৰ বাবে কিনাৰাৰ পোহৰ</string>
+    <string name="haptic_remix_color_accent">এক্সেণ্ট</string>
+    <string name="haptic_remix_color_crimson">ক্ৰিমছন</string>
+    <string name="haptic_remix_color_amber">আম্বাৰ</string>
+    <string name="haptic_remix_add_app">এপৰ জাননী যোগ কৰক</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · সলনি কৰিবলৈ টিপক, কিনাৰাৰ ৰঙৰ বাবে দীঘলীয়াকৈ টিপক</string>
+    <string name="haptic_remix_no_contacts">সম্পৰ্কৰ পৰা কোনো নম্বৰ পোৱা নগ\'ল</string>
 </resources>

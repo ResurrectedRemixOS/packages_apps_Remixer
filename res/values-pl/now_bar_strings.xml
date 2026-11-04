@@ -15,4 +15,93 @@
     <string name="now_bar_buttons">Przyciski</string>
     <string name="now_bar_text">Tekst</string>
     <string name="now_bar_text_size">"Rozmiar tekstu"</string>
+    <string name="now_bar_summary">Aktywności na żywo na dole ekranu blokady</string>
+    <string name="now_bar_show">Pokaż</string>
+    <string name="now_bar_music">Muzyka i wideo</string>
+    <string name="now_bar_timers">Timery, stoper i alarmy</string>
+    <string name="now_bar_hide_call">Ukryj powiadomienie o połączeniu</string>
+    <string name="now_bar_hide_call_summary">Na ekranie blokady połączenie w Now Bar nie jest też wyświetlane jako powiadomienie</string>
+    <string name="now_bar_live">Aktualizacje na żywo</string>
+    <string name="now_bar_live_summary">Nawigacja, przejazdy, dostawy, wyniki</string>
+    <string name="now_bar_live_apps">Aplikacje z aktualizacjami na żywo</string>
+    <string name="now_bar_live_apps_count">Aplikacje: <xliff:g id="count" example="2">%1$d</xliff:g></string>
+    <string name="now_bar_pin">Przypięte na wyświetlaczu zawsze włączonym</string>
+    <string name="now_bar_unpin_question">Odpiąć <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Odepnij</string>
+    <string name="now_bar_scores_summary">Gry, które obserwujesz w Na pierwszy rzut oka</string>
+    <string name="now_bar_recording">Nagrywanie ekranu i głosu</string>
+    <string name="now_bar_buds">Słuchawki i zegarki</string>
+    <string name="now_bar_buds_summary">Bateria podłączonego urządzenia: lewa, prawa i etui w przypadku słuchawek</string>
+    <string name="now_bar_wave">Animacja fali</string>
+    <string name="now_bar_chip">Chip na pasku stanu</string>
+    <string name="now_bar_chip_summary">Odtwarzanie muzyki i minutniki obok zegara podczas odblokowanego ekranu</string>
+    <string name="now_bar_footer">Przy muzyce w Now Bar duży odtwarzacz na ekranie blokady jest ukryty. Przesuń pasek, aby przełączać aktywności, dotknij go, aby otworzyć sterowanie, a przytrzymaj, aby ukryć jedną do jej zakończenia. Przesuń wstrzymany utwór poza pasek, aby go usunąć.\n\nWyniki na żywo pokazują mecze drużyn, które obserwujesz w aplikacji Google. Dodaj cel sportowy w Smartspacerze, a jego wyniki pojawią się tutaj.</string>
+    <string name="now_bar_looks">Look</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Domyślny"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Duży</item>
+        <item>Neon</item>
+        <item>Szklana karta</item>
+    </string-array>
+    <string name="now_bar_material">Materiał</string>
+    <string name="now_bar_material_summary">Liquid Glass używa szkła ustawionego w Motywie</string>
+    <string-array name="now_bar_material_entries">
+        <item>Pełny</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Okładka albumu</item>
+        <item>Akcent</item>
+        <item>Ciemny</item>
+    </string-array>
+    <string name="now_bar_opacity">Krycie</string>
+    <string name="now_bar_opacity_summary">W Liquid Glass ile koloru barwi szkło</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Brak"</item>
+        <item>Cienki</item>
+        <item>Akcent</item>
+    </string-array>
+    <string name="now_bar_shadow">Cień</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Wyłączono"</item>
+        <item>Miękkie</item>
+        <item>Poświata</item>
+    </string-array>
+    <string name="now_bar_more">Więcej aktywności</string>
+    <string-array name="now_bar_more_entries">
+        <item>Wystarczy przesunąć</item>
+        <item>Kropki</item>
+        <item>Zajrzyj za</item>
+    </string-array>
+    <string name="now_bar_size">Rozmiar i kształt</string>
+    <string name="now_bar_height">Wysokość</string>
+    <string name="now_bar_width_summary">Pełny przenosi skróty nad pasek</string>
+    <string-array name="now_bar_width_entries">
+        <item>Wąski</item>
+        <item>Między skrótami</item>
+        <item>Pełny</item>
+    </string-array>
+    <string name="now_bar_corners">Zaokrąglenie rogów</string>
+    <string name="now_bar_raise">Podnieś</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Okrąg"</item>
+        <item>Zaokrąglone</item>
+        <item>"Kwadrat"</item>
+        <item>"Wyłączono"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Pomiń i odtwarzaj</item>
+        <item>Tylko odtwarzanie</item>
+        <item>"Brak"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Jedna linia</item>
+        <item>Dwie linie</item>
+        <item>Tylko piosenka</item>
+    </string-array>
+    <string name="now_bar_show_page">Co pokazuje pasek</string>
+    <string name="now_bar_show_page_summary">Muzyka i wideo, minutniki, połączenia i więcej</string>
+    <string name="now_bar_where">Inne miejsca</string>
 </resources>

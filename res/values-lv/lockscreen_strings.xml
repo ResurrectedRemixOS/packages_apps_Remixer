@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">Novērsiet nejaušu pamodināšanu</string>
+    <string name="lockscreen_battery_info_title">Uzlādes informācija</string>
+    <string name="lockscreen_battery_info_summary">Rādīt strāvu, vatus, spriegumu un akumulatora temperatūru uzlādes laikā</string>
+    <string name="charging_ring_title">SuperVOOC uzlādes animācija</string>
+    <string name="charging_ring_summary">Rādīt uzlādes gredzenu un ātrumu, kad pievienojat ierīci</string>
+    <string name="pocket_mode_summary">Kamēr tuvuma sensors ir aizklāts, ekrāns neieslēdzas un ignorē pieskārienus</string>
+    <string name="screen_on_time_title">Ekrāna ieslēgtais laiks</string>
+    <string name="screen_on_time_summary">Rādīt ekrāna ieslēgto laiku kopš pēdējās pilnas uzlādes bloķēšanas ekrānā uzlādes laikā un akumulatora taupītāja kartītē</string>
 </resources>

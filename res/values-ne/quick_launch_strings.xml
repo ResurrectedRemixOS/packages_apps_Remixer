@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">घडी</string>
     <string name="quick_launch_undo">"अन्डू गर्नुहोस्"</string>
     <string name="quick_launch_off">"अफ छ"</string>
+    <string name="quick_launch_title">द्रुत लन्च</string>
+    <string name="quick_launch_main">फिंगरप्रिन्ट द्रुत लन्च</string>
+    <string name="quick_launch_main_summary">अनलक गरेपछि सर्टकट खोल्न सेन्सरमा औंला राखिराख्नुहोस्</string>
+    <string name="quick_launch_hint">सर्टकट परिवर्तन गर्न ट्याप गर्नुहोस्, हटाउन थिच्नुहोस्, वा क्रम मिलाउन तान्नुहोस्।</string>
+    <string name="quick_launch_behavior">व्यवहार</string>
+    <string name="quick_launch_hold">थिचिराख्ने समय</string>
+    <string name="quick_launch_haptics">हरेक सर्टकटमा कम्पन गर्नुहोस्</string>
+    <string name="quick_launch_add">थप्नुहोस्</string>
+    <string name="quick_launch_video">भिडियो</string>
+    <string name="quick_launch_qr">QR स्क्यान गर्नुहोस्</string>
+    <string name="quick_launch_app">एप…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> हटाइयो</string>
 </resources>

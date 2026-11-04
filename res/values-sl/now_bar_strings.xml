@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">Gumbi</string>
     <string name="now_bar_text">Besedilo</string>
     <string name="now_bar_text_size">"Velikost besedila"</string>
+    <string name="now_bar_summary">Žive aktivnosti na dnu zaklenjenega zaslona</string>
+    <string name="now_bar_show">Prikaži</string>
+    <string name="now_bar_music">Glasba in video</string>
+    <string name="now_bar_timers">Časovniki, štoparica in alarmi</string>
+    <string name="now_bar_hide_call">Skrij obvestilo o klicu</string>
+    <string name="now_bar_hide_call_summary">Na zaklenjenem zaslonu klic v Now Bar ni hkrati naveden tudi kot obvestilo</string>
+    <string name="now_bar_live">Žive posodobitve</string>
+    <string name="now_bar_live_summary">Navigacija, vožnje, dostave, rezultati</string>
+    <string name="now_bar_scores">Živi rezultati</string>
+    <string name="now_bar_live_apps">Aplikacije za žive posodobitve</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> aplikacij</string>
+    <string name="now_bar_pin">Pripeto na zaslon, ki je vedno vklopljen</string>
+    <string name="now_bar_unpin_question">Odpnem <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Odpni</string>
+    <string name="now_bar_scores_summary">Igre, ki jim sledite v Pogledu</string>
+    <string name="now_bar_recording">Snemanje zaslona in glasu</string>
+    <string name="now_bar_buds">Slušalke in ure</string>
+    <string name="now_bar_buds_summary">Baterija priključene naprave: levo, desno in ohišje za slušalke</string>
+    <string name="now_bar_wave">Animacija valov</string>
+    <string name="now_bar_aod">Prikaži na zaslonu, ki je vedno vklopljen</string>
+    <string name="now_bar_chip">Čip v vrstici stanja</string>
+    <string name="now_bar_chip_summary">Predvajanje glasbe in časovnikov poleg ure med odklenjenim zaslonom</string>
+    <string name="now_bar_footer">Ko je glasba v Now Bar, je velik predvajalnik na zaklenjenem zaslonu skrit. Podrsnite vrstico za preklop med aktivnostmi, tapnite jo za odprtje kontrolnikov in jo pridržite, da skrijete aktivnost do konca. Ustavljeno pesem odstranite z vrstice s podrsanjem.\n\nŽivi rezultati prikazujejo tekme ekip, ki jim sledite v aplikaciji Google. S Smartspacerjem tam dodajte ciljno športno aplikacijo, njeni rezultati pa bodo prikazani tukaj.</string>
+    <string name="now_bar_looks">Videzi</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Privzeto"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Velik</item>
+        <item>Neon</item>
+        <item>Steklena kartica</item>
+    </string-array>
+    <string name="now_bar_material">Material</string>
+    <string name="now_bar_material_summary">Liquid Glass uporablja steklo, ki ste ga nastavili v Temi</string>
+    <string-array name="now_bar_material_entries">
+        <item>Polno</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Naslovnica albuma</item>
+        <item>Poudarek</item>
+        <item>Temno</item>
+    </string-array>
+    <string name="now_bar_opacity">Neprosojnost</string>
+    <string name="now_bar_opacity_summary">Pri Liquid Glass koliko barve obarva steklo</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Brez"</item>
+        <item>Tanko</item>
+        <item>Poudarek</item>
+    </string-array>
+    <string name="now_bar_shadow">Senca</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Izklopljeno"</item>
+        <item>Mehko</item>
+        <item>Sij</item>
+    </string-array>
+    <string name="now_bar_more">Več aktivnosti</string>
+    <string-array name="now_bar_more_entries">
+        <item>Samo podrsnite</item>
+        <item>Pike</item>
+        <item>Pogled spodaj</item>
+    </string-array>
+    <string name="now_bar_size">Velikost in oblika</string>
+    <string name="now_bar_height">Višina</string>
+    <string name="now_bar_width_summary">Polno premakne bližnjice nad vrstico</string>
+    <string-array name="now_bar_width_entries">
+        <item>Ozko</item>
+        <item>Med bližnjicama</item>
+        <item>Polno</item>
+    </string-array>
+    <string name="now_bar_corners">Vogali</string>
+    <string name="now_bar_raise">Dvig</string>
+    <string name="now_bar_art">Naslovnica albuma</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Krog"</item>
+        <item>Zaobljeno</item>
+        <item>"Kvadrat"</item>
+        <item>"Izklopljeno"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Preskoči in predvajaj</item>
+        <item>Samo predvajanje</item>
+        <item>"Brez"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Ena vrstica</item>
+        <item>Dve vrstici</item>
+        <item>Samo pesem</item>
+    </string-array>
+    <string name="now_bar_show_page">Kaj se prikaže v vrstici</string>
+    <string name="now_bar_show_page_summary">Glasba in video, časovniki, klici in več</string>
+    <string name="now_bar_where">Kje drugje</string>
 </resources>

@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"Takkar"</string>
     <string name="now_bar_text">Texti</string>
     <string name="now_bar_text_size">"Leturstærð"</string>
+    <string name="now_bar_summary">Virkar tilkynningar neðst á lásskjánum</string>
+    <string name="now_bar_show">Sýna</string>
+    <string name="now_bar_music">Tónlist og myndskeið</string>
+    <string name="now_bar_timers">Tímamælar, skeiðklukka og vekjarar</string>
+    <string name="now_bar_hide_call">Fela símtalstilkynningu</string>
+    <string name="now_bar_hide_call_summary">Á lásskjánum er símtal í Now Bar ekki líka skráð sem tilkynning</string>
+    <string name="now_bar_live">Lifandi uppfærslur</string>
+    <string name="now_bar_live_summary">Leiðsögn, ferðir, sendingar, stig</string>
+    <string name="now_bar_scores">Lifandi stig</string>
+    <string name="now_bar_live_apps">Forrit fyrir lifandi uppfærslur</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> forrit</string>
+    <string name="now_bar_pin">Fest á alltaf-á-skjánum</string>
+    <string name="now_bar_unpin_question">Losa <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Losa</string>
+    <string name="now_bar_scores_summary">Leikir sem þú fylgist með í At a Glance</string>
+    <string name="now_bar_recording">Skjá- og raddupptaka</string>
+    <string name="now_bar_buds">Heyrnartól og úr</string>
+    <string name="now_bar_buds_summary">Rafhlaða tengds tækis: vinstra, hægra og hleðsluhulstur fyrir heyrnartól</string>
+    <string name="now_bar_wave">Bylgjuhreyfing</string>
+    <string name="now_bar_aod">Sýna á alltaf-á-skjánum</string>
+    <string name="now_bar_chip">Merki í stöðustiku</string>
+    <string name="now_bar_chip_summary">Spilun tónlistar og tímamæla við hlið klukkunnar meðan tækið er opið</string>
+    <string name="now_bar_footer">Þegar tónlist er í Now Bar er stóri spilarinn á lásskjánum falinn. Strjúktu stikunni til að skipta á milli virkni, pikkaðu á hana til að opna stýringar og haltu inni til að fela virkni þar til henni lýkur. Strjúktu af stikunni lag sem er í bið til að hreinsa það.\n\nLifandi stig sýna leiki liðanna sem þú fylgist með í Google-forritinu. Með Smartspacer skaltu bæta þar við íþróttamarkmiði og stigin birtast hér.</string>
+    <string name="now_bar_looks">Útlit</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Sjálfgefið"</item>
+        <item>Liquid Glass</item>
+        <item>Lítið</item>
+        <item>Stórt</item>
+        <item>Neon</item>
+        <item>Glerspjald</item>
+    </string-array>
+    <string name="now_bar_material">Efni</string>
+    <string name="now_bar_material_summary">Liquid Glass notar þemað sem þú stillir í Þema</string>
+    <string-array name="now_bar_material_entries">
+        <item>Heilt</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Plötuumslag</item>
+        <item>Áherslulitur</item>
+        <item>Dökkt</item>
+    </string-array>
+    <string name="now_bar_opacity">Ógegnsæi</string>
+    <string name="now_bar_opacity_summary">Með Liquid Glass, hversu mikill litur litar glerið</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Ekkert"</item>
+        <item>Þunnt</item>
+        <item>Áherslulitur</item>
+    </string-array>
+    <string name="now_bar_shadow">Skuggi</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Slökkt"</item>
+        <item>Mjúkt</item>
+        <item>Glóð</item>
+    </string-array>
+    <string name="now_bar_more">Fleiri virkni</string>
+    <string-array name="now_bar_more_entries">
+        <item>Strjúktu bara</item>
+        <item>Punktar</item>
+        <item>Kíktu á bakvið</item>
+    </string-array>
+    <string name="now_bar_size">Stærð og lögun</string>
+    <string name="now_bar_height">Hæð</string>
+    <string name="now_bar_width_summary">Fullt færir flýtileiðirnar fyrir ofan stikuna</string>
+    <string-array name="now_bar_width_entries">
+        <item>Mjótt</item>
+        <item>Á milli flýtileiða</item>
+        <item>Fullt</item>
+    </string-array>
+    <string name="now_bar_corners">Horn</string>
+    <string name="now_bar_raise">Hækka</string>
+    <string name="now_bar_art">Plötuumslag</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Hringur"</item>
+        <item>Ávöl</item>
+        <item>"Ferningur"</item>
+        <item>"Slökkt"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Sleppa og spila</item>
+        <item>Aðeins spilun</item>
+        <item>"Ekkert"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Ein lína</item>
+        <item>Tvær línur</item>
+        <item>Aðeins lag</item>
+    </string-array>
+    <string name="now_bar_show_page">Hvað birtist í stikunni</string>
+    <string name="now_bar_show_page_summary">Tónlist og myndskeið, tímamælar, símtöl og fleira</string>
+    <string name="now_bar_where">Annað</string>
 </resources>

@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Verstek"</string>
     <string name="clock_faces_size">"Grootte"</string>
     <string name="clock_faces_restart">"Herbegin"</string>
+    <string name="remixer_clock_faces">Klokgesigte</string>
+    <string name="clock_faces_system">Stelselklok</string>
+    <string name="clock_faces_system_desc">Die klok uit Muurpapier en styl</string>
+    <string name="clock_faces_position">%1$d van %2$d</string>
+    <string name="clock_faces_applied">Toegepas</string>
+    <string name="clock_faces_preview_unavailable">Voorskou nie beskikbaar nie</string>
+    <string name="clock_faces_failed">Kon nie die klok verander nie</string>
+    <string name="clock_faces_color_accent">Aksent</string>
+    <string name="clock_faces_color_custom">Pasgemaak</string>
+    <string name="clock_faces_color_album">Albumkuns</string>
+    <string name="clock_faces_color_gradient">Gradiënt</string>
+    <string name="clock_faces_own_colors">Hierdie gesig behou sy eie kleure.</string>
+    <string name="clock_faces_album_hint">Neem sy kleur van die albumkuns terwyl musiek speel.</string>
+    <string name="clock_faces_size_position">Grootte en posisie</string>
+    <string name="clock_faces_size_value">Grootte · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Afstand van bo</string>
+    <string name="clock_faces_top_value">Afstand van bo · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Horisontale posisie</string>
+    <string name="clock_faces_horizontal_center">Horisontale posisie · Middel</string>
+    <string name="clock_faces_horizontal_right">Horisontale posisie · <xliff:g id="dp" example="24">%1$d</xliff:g> dp regs</string>
+    <string name="clock_faces_horizontal_left">Horisontale posisie · <xliff:g id="dp" example="24">%1$d</xliff:g> dp links</string>
+    <string name="clock_faces_horizontal_fixed">Hierdie gesig bly in die middel.</string>
+    <string name="clock_faces_opacity">Ondoorsigtigheid</string>
+    <string name="clock_faces_opacity_value">Ondeursigtigheid · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Beweging</string>
+    <string name="clock_faces_wobble">Wiegel tydens laai</string>
+    <string name="clock_faces_wobble_summary">Bons een keer wanneer jy inprop</string>
+    <string name="clock_faces_aod_anim">Oorgang na altyd-aan-skerm</string>
+    <string name="clock_faces_aod_anim_summary">Krimp en vervaag die klok in die altyd-aan-skerm</string>
+    <string name="clock_faces_restart_title">Herlaai die sluitskerm?</string>
+    <string name="clock_faces_restart_message">Wisselings tussen die stelselklok en pasgemaakte gesigte herlaai SystemUI. Die skerm word vir ’n sekonde donker.</string>
+    <string name="clock_faces_note">Voorskoue word deur SystemUI op jou sluitskerm-muurpapier geteken. Kleur, grootte en posisie verander die sluitskerm dadelik.</string>
 </resources>

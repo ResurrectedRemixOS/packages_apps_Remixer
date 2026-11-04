@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"E parazgjedhur"</string>
     <string name="clock_faces_size">"Madhësia"</string>
     <string name="clock_faces_restart">"Rinis"</string>
+    <string name="remixer_clock_faces">Pamjet e orës</string>
+    <string name="clock_faces_system">Ora e sistemit</string>
+    <string name="clock_faces_system_desc">Ora nga Wallpaper &amp; style</string>
+    <string name="clock_faces_position">%1$d nga %2$d</string>
+    <string name="clock_faces_applied">Aplikuar</string>
+    <string name="clock_faces_preview_unavailable">Pamja paraprake nuk është e disponueshme</string>
+    <string name="clock_faces_failed">Orës nuk mund t’i ndryshohet pamja</string>
+    <string name="clock_faces_color_accent">Theksi</string>
+    <string name="clock_faces_color_custom">Të personalizuar</string>
+    <string name="clock_faces_color_album">Artwork i albumit</string>
+    <string name="clock_faces_color_gradient">Gradient</string>
+    <string name="clock_faces_own_colors">Kjo pamje mban ngjyrat e veta.</string>
+    <string name="clock_faces_album_hint">Merr ngjyrën nga artwork i albumit kur luan muzika.</string>
+    <string name="clock_faces_size_position">Madhësia dhe pozicioni</string>
+    <string name="clock_faces_size_value">Madhësia · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Distanca nga lart</string>
+    <string name="clock_faces_top_value">Distanca nga lart · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Pozicioni horizontal</string>
+    <string name="clock_faces_horizontal_center">Pozicioni horizontal · Në qendër</string>
+    <string name="clock_faces_horizontal_right">Pozicioni horizontal · <xliff:g id="dp" example="24">%1$d</xliff:g> dp djathtas</string>
+    <string name="clock_faces_horizontal_left">Pozicioni horizontal · <xliff:g id="dp" example="24">%1$d</xliff:g> dp majtas</string>
+    <string name="clock_faces_horizontal_fixed">Kjo pamje qëndron gjithmonë në qendër.</string>
+    <string name="clock_faces_opacity">Opacitet</string>
+    <string name="clock_faces_opacity_value">Errësira · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Lëvizja</string>
+    <string name="clock_faces_wobble">Lëkundet gjatë ngarkimit</string>
+    <string name="clock_faces_wobble_summary">Kërcen një herë kur lidh telefonin</string>
+    <string name="clock_faces_aod_anim">Tranzicioni i ekranit të përhershëm</string>
+    <string name="clock_faces_aod_anim_summary">E zvogëlon dhe e zbehë orën në ekranin e përhershëm</string>
+    <string name="clock_faces_restart_title">Të rinisët ekrani i kyçjes?</string>
+    <string name="clock_faces_restart_message">Kalimi midis orës së sistemit dhe pamjeve të personalizuara e rinis SystemUI. Ekrani errësohet për një sekondë.</string>
+    <string name="clock_faces_note">Pamjet vizatohen nga SystemUI mbi imazhin e sfondit të ekranit të kyçjes. Ngjyra, madhësia dhe pozicioni ndryshojnë menjëherë ekranin e kyçjes.</string>
 </resources>

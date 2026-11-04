@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Har bir Rejim uchun ko‘rinish</string>
+    <string name="remix_modes_everyday">Kundalik ko‘rinish</string>
+    <string name="remix_modes_everyday_summary">Ko‘rinishli Rejim yoqilmagan bo‘lsa, qaytadi</string>
+    <string name="remix_modes_wallpaper">Fon rasmi ko‘rinishga ergashadi</string>
+    <string name="remix_modes_wallpaper_summary">Rejim fon rasmini ham o‘zgartirishi mumkin</string>
+    <string name="remix_modes_modes">Sizning Rejimlaringiz</string>
+    <string name="remix_modes_no_change">O‘zgarishsiz</string>
+    <string name="remix_modes_none">Avval Mavzu › Ko‘rinishlar bo‘limida ko‘rinish saqlang</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g> uchun ko‘rinish</string>
+</resources>

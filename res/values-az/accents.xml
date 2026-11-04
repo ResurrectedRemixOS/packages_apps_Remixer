@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Divar kağızı"</item>
+        <item>Resurrected</item>
+        <item>Android One yaşılı</item>
+        <item>Aospa yaşılı</item>
+        <item>Coca Cola qırmızısı</item>
+        <item>Discord bənövşəyi</item>
+        <item>Facebook mavisi</item>
+        <item>Instagram albalı</item>
+        <item>Jollibee qırmızı-tünd</item>
+        <item>Monster Energy yaşılı</item>
+        <item>Nextbit nanə</item>
+        <item>Oneplus qırmızısı</item>
+        <item>Pepsi mavisi</item>
+        <item>Pixel mavisi</item>
+        <item>Pocophone sarısı</item>
+        <item>Razer yaşılı</item>
+        <item>Samsung mavisi</item>
+        <item>Spotify yaşılı</item>
+        <item>Starbucks yaşılı</item>
+        <item>Twitch bənövşəyi</item>
+        <item>Twitter mavisi</item>
+        <item>Xiaomi narıncı</item>
+        <item>Kəhrəba</item>
+        <item>"Qara"</item>
+        <item>"Göy"</item>
+        <item>Boz-mavi</item>
+        <item>Qəhvəyi</item>
+        <item>"Mavi"</item>
+        <item>Tünd narıncı</item>
+        <item>Tünd bənövşəyi</item>
+        <item>"Yaşıl"</item>
+        <item>"Boz"</item>
+        <item>"Tünd-göy"</item>
+        <item>Açıq mavi</item>
+        <item>Əhəng yaşılı</item>
+        <item>"Narıncı"</item>
+        <item>"Çəhrayı"</item>
+        <item>"Bənövşəyi"</item>
+        <item>"Qırmızı"</item>
+        <item>"Yaşılımtıl mavi"</item>
+        <item>İstifadəçi beş</item>
+        <item>İstifadəçi dörd</item>
+        <item>İstifadəçi bir</item>
+        <item>İstifadəçi yeddi</item>
+        <item>İstifadəçi altı</item>
+        <item>İstifadəçi üç</item>
+        <item>İstifadəçi iki</item>
+        <item>"Ağ"</item>
+        <item>"Sarı"</item>
+    </string-array>
+</resources>

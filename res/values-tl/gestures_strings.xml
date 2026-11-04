@@ -8,4 +8,50 @@
         <item>"Katamtaman"</item>
         <item>"Malaki"</item>
     </string-array>
+    <string name="pie_title">Pie controls</string>
+    <string name="pie_summary">Pindutin nang matagal ang ibabang bahagi ng gilid para sa pie ng mga shortcut</string>
+    <string name="pie_zone">Bahagi ng gilid</string>
+    <string name="pie_clock">Orasan at baterya sa itaas nito</string>
+    <string name="pie_items">Mga hiwa</string>
+    <string-array name="pie_items_entries">
+        <item>"Bumalik"</item>
+        <item>Home</item>
+        <item>"Mga Kamakailan"</item>
+        <item>"Mga Notification"</item>
+        <item>Flashlight</item>
+        <item>"Screenshot"</item>
+        <item>Power menu</item>
+        <item>Assistant</item>
+        <item>Camera</item>
+    </string-array>
+    <string name="pie_footer">Kailangan ng isang-kapat na segundong pagpindot nang hindi gumagalaw, kaya ang mabilisang swipe mula sa gilid ay babalik pa rin. Hindi ito bumubukas sa lock screen.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Kaliwa"</item>
+        <item>"Kanan"</item>
+        <item>Pareho</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Ibabang ikatlo</item>
+        <item>Gitna</item>
+        <item>Buong gilid</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Glass</item>
+        <item>Klasiko</item>
+    </string-array>
+    <string name="sidebar_style_title">Itsura ng app sidebar</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klasiko</item>
+        <item>Salamin ng RR</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">App sidebar</string>
+    <string name="sidebar_settings_summary">Mag-swipe papasok mula sa handle para sa iyong mga app at tool</string>
+    <string name="sidebar_apps_title">Mga app, handle, at clipboard</string>
+    <string name="sidebar_apps_summary">I-on ang handle, piliin ang mga app, at i-set up ang smart clipboard</string>
+    <string name="sidebar_handle_size_title">Laki ng handle</string>
+    <string name="sidebar_tools_title">Hanay ng mga tool</string>
+    <string name="sidebar_tools_summary">Screenshot at flashlight sa ilalim ng iyong mga app</string>
+    <string name="sidebar_footer">Manipis na linya sa kulay ng iyong accent ang handle; i-drag ito para ilipat sa gilid. Sa gesture navigation, sakop lang nito ang sarili nitong bahagi ng gilid, at gumagana ang back sa iba pang bahagi.</string>
 </resources>

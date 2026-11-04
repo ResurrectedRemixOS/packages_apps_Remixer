@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"تفصیلات"</string>
     <string name="lockscreen_weather_location_title">"مقام"</string>
+    <string name="lockscreen_weather_title">مقفل اسکرین پر موسم</string>
+    <string name="lockscreen_weather_location_summary">شہر کا نام دکھائیں</string>
+    <string name="lockscreen_weather_text_title">حالت</string>
+    <string name="lockscreen_weather_text_summary">حالت دکھائیں، جیسے ابر آلود یا صاف آسمان</string>
+    <string name="lockscreen_weather_wind_title">ہوا</string>
+    <string name="lockscreen_weather_wind_summary">ہوا کی رفتار اور سمت دکھائیں</string>
+    <string name="lockscreen_weather_humidity_title">نمی</string>
+    <string name="lockscreen_weather_humidity_summary">نمی دکھائیں</string>
+    <string name="custom_clock_weather_title">گھڑی کے چہروں پر موسم</string>
+    <string name="custom_clock_weather_summary">ان گھڑی کے چہروں میں موسم دکھائیں جن میں جگہ ہو</string>
+    <string name="remixer_weather_service">موسم کی سروس</string>
+    <string name="remixer_weather_page_summary">مقفل اسکرین کا موسم اور اس میں کیا دکھتا ہے</string>
 </resources>

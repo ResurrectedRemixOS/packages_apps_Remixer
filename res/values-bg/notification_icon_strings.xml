@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="notification_icons_category">"Икони"</string>
+    <string name="notification_app_icons_title">Икони на приложенията</string>
+    <string name="notification_app_icons_summary">Показване на иконата на приложението в известията вместо малкия символ</string>
 </resources>

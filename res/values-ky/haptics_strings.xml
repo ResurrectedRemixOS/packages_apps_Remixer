@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Көк"</string>
     <string name="haptic_remix_color_green">"Жашыл"</string>
     <string name="haptic_remix_color_white">"Ак"</string>
+    <string name="haptic_remix_summary">Чалуулар, колдонмолор, ойготкучтар жана кулпуну ачуу үчүн дирилдөө үлгүлөрүн басып түзүңүз</string>
+    <string name="haptic_remix_record">Жаздыруу</string>
+    <string name="haptic_remix_pad">ритмди басыңыз</string>
+    <string name="haptic_remix_strength">Күч</string>
+    <string name="haptic_remix_clear">Тазалоо</string>
+    <string name="haptic_remix_play">Ойнотуу</string>
+    <string name="haptic_remix_name">Үлгүнүн аты</string>
+    <string name="haptic_remix_empty">Азырынча эч нерсе жазылган жок</string>
+    <string name="haptic_remix_too_long">Үлгү 30 секундга чейин узакка созулушу мүмкүн</string>
+    <string name="haptic_remix_presets">Даяр көрүнүштөр</string>
+    <string name="haptic_remix_preset_neon">Неон</string>
+    <string name="haptic_remix_preset_glass">Айнек</string>
+    <string name="haptic_remix_preset_ringtone">Рингтондун ритми</string>
+    <string name="haptic_remix_listening">Рингтон угулууда…</string>
+    <string name="haptic_remix_no_ringtone">Рингтонду окуу мүмкүн болгон жок</string>
+    <string name="haptic_remix_patterns">Сиздин үлгүлөр</string>
+    <string name="haptic_remix_patterns_none">Адегенде үлгү сактаңыз. Өчүрүү үчүн басып кармаңыз.</string>
+    <string name="haptic_remix_broken">Бул үлгү окулбайт</string>
+    <string name="haptic_remix_delete"><xliff:g id="name" example="Heartbeat">%1$s</xliff:g> өчүрүлсүнбү?</string>
+    <string name="haptic_remix_assign">Ыйгаруу</string>
+    <string name="haptic_remix_alarm">Ойготкуч жана таймер</string>
+    <string name="haptic_remix_plug">Кубатталууда</string>
+    <string name="haptic_remix_fingerprint">Манжа изи ийгиликтүү</string>
+    <string name="haptic_remix_add_contact">Байланыш кошуу</string>
+    <string name="haptic_remix_edge_color"><xliff:g id="name" example="Mia">%1$s</xliff:g> билдирмелери үчүн четтин жарыгы</string>
+    <string name="haptic_remix_color_accent">Акцент</string>
+    <string name="haptic_remix_color_crimson">Кызыл</string>
+    <string name="haptic_remix_color_amber">Кызгылт сары</string>
+    <string name="haptic_remix_add_app">Колдонмонун билдирмелерин кошуу</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · өзгөртүү үчүн басыңыз, четтин түсү үчүн басып кармаңыз</string>
+    <string name="haptic_remix_no_contacts">Байланыштардан номер келген жок</string>
 </resources>

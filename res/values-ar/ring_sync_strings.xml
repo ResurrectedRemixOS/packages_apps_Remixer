@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">مزامنة الحلقة</string>
+    <string name="ring_sync_tap">اضغط عندما تتوافق حلقة مع العلامة</string>
+    <string name="ring_sync_best">أفضل <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">ممتاز</string>
+    <string name="ring_sync_new_best">أفضل نتيجة جديدة</string>
+    <string name="ring_sync_again">اضغط للعب مجددًا</string>
+    <string name="ring_sync_ember">تم فتح لون التمييز Ember</string>
+    <string name="ring_sync_use_ember">استخدام Ember</string>
+    <string name="ring_sync_android">بيضة عيد الفصح في Android</string>
+    <string name="ring_sync_vibrate_on">اهتزاز عند الإصابة · مفعّل</string>
+    <string name="ring_sync_vibrate_off">اهتزاز عند الإصابة · معطّل</string>
+    <string name="accent_ember">جمري</string>
+</resources>

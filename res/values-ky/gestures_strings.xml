@@ -8,4 +8,50 @@
         <item>"Орточо"</item>
         <item>"Чоң"</item>
     </string-array>
+    <string name="pie_title">Пирог башкаруусу</string>
+    <string name="pie_summary">Четтин ылдыйкы бөлүгүн басып, ыкчам баскычтардын пирогун ачыңыз</string>
+    <string name="pie_zone">Четтин бир бөлүгү</string>
+    <string name="pie_clock">Анын үстүндө саат жана батарея</string>
+    <string name="pie_items">Бөлүктөр</string>
+    <string-array name="pie_items_entries">
+        <item>"Артка"</item>
+        <item>Башкы экран</item>
+        <item>"Акыркылар"</item>
+        <item>"Билдирмелер"</item>
+        <item>"Кол чырак"</item>
+        <item>"Скриншот"</item>
+        <item>"Кубат баскычынын менюсу"</item>
+        <item>"Жардамчы"</item>
+        <item>"Камера"</item>
+    </string-array>
+    <string name="pie_footer">Чейрек секунд жылбай басып туруу керек, ошондуктан четтен тез сыпыруу артка кайтарат. Кулпуланган экранда ачылбайт.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Сол"</item>
+        <item>"Оң"</item>
+        <item>Экөө тең</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Ылдыйкы үчтөн бир</item>
+        <item>Ортосу</item>
+        <item>Бүт чети</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Неон</item>
+        <item>Айнек</item>
+        <item>Классикалык</item>
+    </string-array>
+    <string name="sidebar_style_title">Колдонмолор тилкесинин көрүнүшү</string>
+    <string-array name="sidebar_style_entries">
+        <item>Классикалык</item>
+        <item>RR айнеги</item>
+        <item>Неон</item>
+    </string-array>
+    <string name="sidebar_settings_title">Колдонмолор тилкеси</string>
+    <string name="sidebar_settings_summary">Колдонмолор жана куралдар үчүн тутқичтан ичкери сыпырыңыз</string>
+    <string name="sidebar_apps_title">Колдонмолор, тутқыч жана буфер</string>
+    <string name="sidebar_apps_summary">Тутқычты иштетип, колдонмолорду тандап, акылдуу буферди орнотуңуз</string>
+    <string name="sidebar_handle_size_title">Тутқычтын өлчөмү</string>
+    <string name="sidebar_tools_title">Тийүүчү таблица</string>
+    <string name="sidebar_tools_summary">Колдонмолордун астында скриншот жана кол чырак</string>
+    <string name="sidebar_footer">Тутқыч акцент түсүндөгү жука сызык; аны чети боюнча жылдыруу үчүн сүйрөңүз. Жаңсоо менен чабыттоодо ал өз бөлүгүн гана каптайт, ал эми артка кайтуу башка жерлерде иштейт.</string>
 </resources>

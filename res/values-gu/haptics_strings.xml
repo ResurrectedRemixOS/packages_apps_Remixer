@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"વાદળી"</string>
     <string name="haptic_remix_color_green">"લીલો"</string>
     <string name="haptic_remix_color_white">"સફેદ"</string>
+    <string name="haptic_remix_summary">કૉલ, ઍપ, અલાર્મ અને અનલૉક માટે વાઇબ્રેશન પૅટર્ન ટૅપ કરીને બનાવો</string>
+    <string name="haptic_remix_record">રેકૉર્ડ</string>
+    <string name="haptic_remix_pad">લય ટૅપ કરો</string>
+    <string name="haptic_remix_strength">તીવ્રતા</string>
+    <string name="haptic_remix_clear">સાફ કરો</string>
+    <string name="haptic_remix_play">ચલાવો</string>
+    <string name="haptic_remix_name">પૅટર્નનું નામ</string>
+    <string name="haptic_remix_empty">હજી કંઈ રેકૉર્ડ થયું નથી</string>
+    <string name="haptic_remix_too_long">પૅટર્ન 30 સેકન્ડ સુધી ચાલી શકે છે</string>
+    <string name="haptic_remix_presets">પ્રીસેટ</string>
+    <string name="haptic_remix_preset_neon">નિયૉન</string>
+    <string name="haptic_remix_preset_glass">ગ્લાસ</string>
+    <string name="haptic_remix_preset_ringtone">રિંગટોનનો ધબકારો</string>
+    <string name="haptic_remix_listening">રિંગટોન સાંભળી રહ્યા છીએ…</string>
+    <string name="haptic_remix_no_ringtone">રિંગટોન વાંચી શકાઈ નહીં</string>
+    <string name="haptic_remix_patterns">તમારી પૅટર્ન</string>
+    <string name="haptic_remix_patterns_none">પહેલા પૅટર્ન સાચવો. કાઢી નાખવા માટે દબાવી રાખો.</string>
+    <string name="haptic_remix_broken">આ પૅટર્ન વાંચી શકાતી નથી</string>
+    <string name="haptic_remix_delete"><xliff:g id="name" example="Heartbeat">%1$s</xliff:g> કાઢી નાખીએ?</string>
+    <string name="haptic_remix_assign">આને સોંપો</string>
+    <string name="haptic_remix_alarm">અલાર્મ અને ટાઇમર</string>
+    <string name="haptic_remix_plug">પ્લગ ઇન થયેલું</string>
+    <string name="haptic_remix_fingerprint">ફિંગરપ્રિન્ટ સફળ</string>
+    <string name="haptic_remix_add_contact">સંપર્ક ઉમેરો</string>
+    <string name="haptic_remix_edge_color"><xliff:g id="name" example="Mia">%1$s</xliff:g>ના સંદેશા માટે ધારની લાઇટ</string>
+    <string name="haptic_remix_color_accent">ઍક્સેન્ટ</string>
+    <string name="haptic_remix_color_crimson">ક્રિમસન</string>
+    <string name="haptic_remix_color_amber">ઍમ્બર</string>
+    <string name="haptic_remix_add_app">ઍપના નોટિફિકેશન ઉમેરો</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · બદલવા માટે ટૅપ કરો, ધારનો રંગ માટે દબાવી રાખો</string>
+    <string name="haptic_remix_no_contacts">સંપર્કોમાંથી કોઈ નંબર મળ્યો નહીં</string>
 </resources>

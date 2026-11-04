@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lockscreen_battery_info_title">Zaryadlash haqida ma’lumot</string>
+    <string name="lockscreen_battery_info_summary">Zaryadlash vaqtida tok, vatt, kuchlanish va batareya haroratini ko‘rsatish</string>
+    <string name="charging_ring_title">SuperVOOC zaryadlash animatsiyasi</string>
+    <string name="charging_ring_summary">Ulanganda zaryadlash halqasi va tezligini ko‘rsatish</string>
+    <string name="pocket_mode_title">Cho‘ntak rejimi</string>
+    <string name="pocket_mode_summary">Yaqinlik sensori yopilganda ekran uyg‘onmaydi va teginishlar e’tiborga olinmaydi</string>
+    <string name="screen_on_time_title">Ekran yoniq vaqti</string>
+    <string name="screen_on_time_summary">Zaryadlash vaqtida va Batareya tejash’da oxirgi to‘liq zaryaddan beri ekran yoniq vaqtini ekran qulfida ko‘rsatish</string>
+</resources>

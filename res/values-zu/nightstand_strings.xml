@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Nini"</string>
+    <string name="nightstand_title">Itafula lasebhedeni</string>
+    <string name="nightstand_summary">Iwashi elifiphele lasebhedeni esikrinini esihlala sivulekile uma sishaja ebusuku</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Valiwe"</item>
+        <item>Ngesishaja ebusuku</item>
+        <item>Njalo ebusuku, ngesikhathi esihleliwe</item>
+        <item>Lapho imodi yokulala ivulekile</item>
+    </string-array>
+    <string name="nightstand_from">Ubusuku buqala</string>
+    <string name="nightstand_to">Ubusuku buphela</string>
+    <string name="nightstand_brightness">Umkhawulo wokukhanya</string>
+    <string name="nightstand_brightness_summary">Ukuthi isikrini esihlala sivulekile singakhanya kangakanani lapho Itafula lasebhedeni livulekile</string>
+    <string name="nightstand_face">Isikhathi sewashi</string>
+    <string name="nightstand_face_keep">Gcina ubuso bamanje</string>
+    <string name="nightstand_footer">Itafula lasebhedeni livula isikrini esihlala sivulekile lapho lisebenza bese liyasibuyisela ngemva kwalokho. Liyeka uma isishaja sihlukaniswa, ialamu liqhamuka noma ubusuku buphela. Ubuso buguqula kuphela phakathi kwezinhlobo ezimbili zamawashi ezenziwe ngezifiso; iwashi lesistimu liyahlala.</string>
 </resources>

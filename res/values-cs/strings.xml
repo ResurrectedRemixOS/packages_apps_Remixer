@@ -86,4 +86,200 @@
     <string name="wallpaper_apply_lock">"Obrazovka uzamčení"</string>
     <string name="remixer_settings_style_original">"Původní"</string>
     <string name="remixer_navbar_category">"Navigační panel"</string>
+    <string name="remixer_dashboard_summary">Stavový řádek, motiv, obrazovka uzamčení a další</string>
+    <string name="rr_homepage_battery_saver">Šetřič baterie</string>
+    <string name="rr_homepage_personalize">Přizpůsobit</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> volných</string>
+    <string name="rr_homepage_charged">Plně nabito</string>
+    <string name="rr_homepage_on_battery">Na baterii</string>
+    <string name="rr_homepage_saver_on">Šetřič baterie zapnut</string>
+    <string name="rr_homepage_extras">Další nastavení</string>
+    <string name="rr_homepage_saver">Šetřič</string>
+    <string name="rr_homepage_signed_out">Nepřihlášen</string>
+    <string name="rr_homepage_remixer_tagline">Přizpůsobte si to. Stavový řádek, motiv, obrazovka uzamčení a další.</string>
+    <string name="rr_homepage_device_tagline">Posuvník upozornění, displej, nabíjení a GameBar.</string>
+    <string name="rr_homepage_device_action">Doladit</string>
+    <string name="rr_group_network">Síť a zařízení</string>
+    <string name="rr_group_network_summary">Wi‑Fi, mobilní síť, Bluetooth</string>
+    <string name="rr_group_apps_summary">Aplikace, oznámení, režimy</string>
+    <string name="rr_group_display">Displej a zvuk</string>
+    <string name="rr_group_display_summary">Displej, tapeta, zvuk</string>
+    <string name="rr_group_security_summary">Uzamčení, poloha, tíseň</string>
+    <string name="rr_group_security_center">Centrum zabezpečení</string>
+    <string name="rr_group_accounts">Google a účty</string>
+    <string name="rr_group_accounts_summary">Google, hesla, záloha</string>
+    <string name="rr_group_accounts_plain_summary">Hesla, účty, záloha</string>
+    <string name="rr_group_system_summary">Jazyky, gesta, aktualizace</string>
+    <string name="remixer_tagline">Přizpůsobte si to.</string>
+    <string name="remixer_remix">Předělat</string>
+    <string name="remixer_remixed">Předěláno pomocí <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Odstín · Výchozí</string>
+    <string name="remixer_quick">Rychlé předělání</string>
+    <string name="remixer_everything">Vše</string>
+    <string name="remixer_quick_accents">Předvolby nebo libovolná barva</string>
+    <string name="remixer_quick_fonts">Styly systémového písma</string>
+    <string name="remixer_quick_walls">Kolekce RR</string>
+    <string name="remixer_quick_header">Záhlaví rychlého nastavení</string>
+    <string name="remixer_quick_header_summary">Obrázky záhlaví</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Hodiny, baterie, ikony a síťový provoz</string>
+    <string name="remixer_qs_summary">Obrázek záhlaví</string>
+    <string name="remixer_notifications_summary">Osvětlení okrajů, ikony aplikací a zvuky nabíjení</string>
+    <string name="remixer_theme_summary">Písma, akcenty a tapety</string>
+    <string name="remixer_lockscreen_summary">Snímač otisků, informace o nabíjení a počasí</string>
+    <string name="remixer_udfps_icon">Ikona snímače otisků</string>
+    <string name="remixer_udfps_icon_summary">Zobrazí se nad snímačem otisků</string>
+    <string name="remixer_udfps_animation">Animace snímače otisků</string>
+    <string name="remixer_udfps_animation_summary">Přehraje se, zatímco máte prst na snímači</string>
+    <string name="remixer_navigation_summary">Pulz, tlačítka a navigační panel</string>
+    <string name="remixer_misc_summary">Hlasitost, záloha, předstírání zařízení, rolování a USB</string>
+    <string name="scroll_haptics_title">Dotyk na konci rolování</string>
+    <string name="scroll_haptics_summary">Lehké zavibrování, když seznam nebo stránka nejde dál posunout</string>
+    <string name="usb_mode_picker_title">Výběr režimu USB</string>
+    <string name="usb_mode_picker_summary">Při připojení k počítači vyberte režim</string>
+    <string name="remixer_fonts_summary">Systémové písmo</string>
+    <string name="remixer_wallpapers_summary">Tapety Resurrected Remix</string>
+    <string name="remixer_accents">Akcenty</string>
+    <string name="remixer_accents_summary">Barva akcentu</string>
+    <string name="remixer_pulse">Pulz</string>
+    <string name="remixer_pulse_summary">Hudební vizualizér při spodním okraji displeje</string>
+    <string name="pulse_switch">Použít pulz</string>
+    <string name="pulse_switch_summary">Při přehrávání médií se u spodního okraje zobrazí hudební sloupce</string>
+    <string name="pulse_style_lines">Čáry</string>
+    <string name="pulse_style_fading">Blednoucí</string>
+    <string name="pulse_style_blocks">Bloky</string>
+    <string name="pulse_style_mirror">Zrcadlo</string>
+    <string name="pulse_color_custom">Vlastní</string>
+    <string name="pulse_color_gradient">Duha</string>
+    <string name="pulse_bars">Sloupce</string>
+    <string name="pulse_bars_value">Sloupce · %1$d</string>
+    <string name="pulse_height">Výška</string>
+    <string name="pulse_height_value">Výška · %1$d dp</string>
+    <string name="pulse_opacity">Krytí</string>
+    <string name="pulse_opacity_value">Krytí · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Při přehrávání hudby ponechat sloupce na obrazovce uzamčení</string>
+    <string name="pulse_failed">Nastavení pulzu se nepodařilo uložit</string>
+    <string name="accent_applied">Akcent použit</string>
+    <string name="accent_current">Akcent · %1$s</string>
+    <string name="accent_current_custom">Akcent · Vlastní</string>
+    <string name="accent_preview_tonal">Tónový</string>
+    <string name="accent_failed">Tento akcent se nepodařilo použít</string>
+    <string name="accent_custom">Vlastní</string>
+    <string name="accent_custom_summary">Funguje libovolná barva. Odstín se použije i nad ní.</string>
+    <string name="accent_custom_pad">Sytost a jas</string>
+    <string name="accent_custom_use">Použít <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">Odstín</string>
+    <string name="accent_shade_darker">Tmavší</string>
+    <string name="accent_shade_lighter">Světlejší</string>
+    <string name="accent_shade_darker_value">Tmavší · %1$d</string>
+    <string name="accent_shade_lighter_value">Světlejší · %1$d</string>
+    <string name="remixer_qs_style">Styl rychlého nastavení</string>
+    <string name="remixer_qs_style_preview">Náhled · %1$s</string>
+    <string name="remixer_qs_style_note">Každý styl sleduje barvu akcentu. Panel hlasitosti má odpovídající vzhledy Bento, Tvary, Blueprint, Duo a Měkký. Stock Lineage ponechá dlaždice Androidu 17 beze změny.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Dlaždice Androidu 17 beze změny</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Jas v kartě akcentu. Dlaždice se vyplní přechodem akcentu</string>
+    <string name="remixer_qs_style_compact">Kompaktní</string>
+    <string name="remixer_qs_style_compact_summary">Nižší dlaždice. Více jich na jedné obrazovce</string>
+    <string name="remixer_qs_style_glass">Sklo</string>
+    <string name="remixer_qs_style_glass_summary">Průhledné obrysové dlaždice, které po zapnutí zářím v barvě akcentu</string>
+    <string name="remixer_qs_style_circles">Kruhy</string>
+    <string name="remixer_qs_style_circles_summary">Kulatá tlačítka s popisky. Široké dlaždice se mění na karty</string>
+    <string name="remixer_qs_style_classic">Klasický</string>
+    <string name="remixer_qs_style_classic_summary">Staré dobré RR: holé ikony s popisky, pět v řadě a tenký posuvník</string>
+    <string name="remixer_qs_style_cards">Karty</string>
+    <string name="remixer_qs_style_cards_summary">Velké karty se stavem pod každým názvem, tři v řadě</string>
+    <string name="remixer_qs_style_neon">Neon</string>
+    <string name="remixer_qs_style_neon_summary">Obrysové dlaždice, které po zapnutí zářím v barvě akcentu</string>
+    <string name="remixer_qs_style_bento_summary">Velké zaoblené bloky vyplněné akcentem, popisky pod malými</string>
+    <string name="remixer_qs_style_shapes">Tvary</string>
+    <string name="remixer_qs_style_shapes_summary">Kulatá tlačítka, která se po zapnutí roztáhnou do laloků, pět v řadě</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Tenké obrysy a monospace velká písmena</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Rozdělené dlaždice. Polovina s ikonou se po zapnutí rozsvítí a přepíná</string>
+    <string name="remixer_qs_style_soft">Měkký</string>
+    <string name="remixer_qs_style_soft_summary">Vystouplé dlaždice, které se po zapnutí propadnou</string>
+    <string name="remixer_lock_media_style">Styl přehrávače médií</string>
+    <string name="remixer_lock_media_same">Stejné jako Rychlé nastavení</string>
+    <string name="remixer_lock_media_same_summary">Sleduje vaši dlaždici média v Rychlém nastavení, nyní %1$s</string>
+    <string name="remixer_lock_media_off_summary">Na obrazovce uzamčení není žádný přehrávač</string>
+    <string name="remixer_lock_media_note">Karta se zobrazí na obrazovce uzamčení, když něco hraje. Průhledné styly dostanou tmavé podklad, aby byly čitelné na tapetě.</string>
+    <string name="remixer_lock_media_stock_summary">Obal alba vyplní kartu</string>
+    <string name="remixer_lock_media_remix_summary">Tmavá karta, tlačítko přehrávání v barvě akcentu</string>
+    <string name="remixer_lock_media_compact_summary">Zaoblenější karta, kulatý obrázek</string>
+    <string name="remixer_lock_media_glass_summary">Průhledná karta s obrysem</string>
+    <string name="remixer_lock_media_circles_summary">Měkká karta, tlačítko přehrávání v barvě akcentu</string>
+    <string name="remixer_lock_media_classic_summary">Hranatější karta, tlačítko přehrávání s obrysem</string>
+    <string name="remixer_lock_media_cards_summary">Měkká karta, tlačítko přehrávání v barvě akcentu, jako Kruhy</string>
+    <string name="remixer_lock_media_neon_summary">Černá karta s obrysem v barvě akcentu</string>
+    <string name="remixer_lock_media_bento_summary">Měkká karta, tlačítko přehrávání v barvě akcentu</string>
+    <string name="remixer_lock_media_shapes_summary">Zaoblenější karta, tlačítko přehrávání v barvě akcentu</string>
+    <string name="remixer_lock_media_blueprint_summary">Tenký obrys, tlačítko přehrávání s obrysem</string>
+    <string name="remixer_lock_media_duo_summary">Dvoubarevná karta, tlačítko přehrávání v barvě akcentu</string>
+    <string name="remixer_lock_media_soft_summary">Vystouplá karta s zkoseným okrajem</string>
+    <string name="remixer_headers">Obrázek záhlaví</string>
+    <string name="remixer_headers_summary">Vyberte obrázek na pozadí pro rychlé nastavení</string>
+    <string name="header_switch">Použít obrázek záhlaví</string>
+    <string name="header_switch_summary">Zobrazit obrázek za rychlým nastavením</string>
+    <string name="header_source">Zdroj</string>
+    <string name="header_source_collection">Kolekce</string>
+    <string name="header_collections_summary_daylight">Záhlaví se řídí denní dobou nebo se střídá v kolekci</string>
+    <string name="header_collections_summary_static">Otevřete kolekci a klepnutím na obrázek ho použijte</string>
+    <string name="header_collections_empty">Nejsou nainstalovány žádné kolekce záhlaví</string>
+    <string name="header_images_daylight">V této kolekci</string>
+    <string name="header_photo_summary">Libovolná fotka nebo animovaný GIF z galerie</string>
+    <string name="header_height">Výška</string>
+    <string name="header_height_value">Výška · %1$d dp</string>
+    <string name="header_shadow">Ztlumit</string>
+    <string name="header_shadow_value">Ztlumit · %1$d%%</string>
+    <string name="header_failed">Nastavení záhlaví se nepodařilo uložit</string>
+    <string name="remixer_weather_summary">Služba počasí a jednotky</string>
+    <string name="font_preview_notification">Takto bude váš telefon číst.</string>
+    <string name="font_try_text">Vyzkoušejte vlastní text</string>
+    <string name="font_previewing">Náhled</string>
+    <string name="font_current">Aktuální písmo</string>
+    <string name="font_badge_current">Aktuální</string>
+    <string name="font_apply_done">Použito</string>
+    <string name="font_filter_sans">Bezpatkové</string>
+    <string name="font_filter_display">Zobrazení</string>
+    <string name="font_filter_script">Psací</string>
+    <string name="font_filter_mono">Neproporcionální</string>
+    <string name="font_applied">Písmo použito</string>
+    <string name="font_failed">Toto písmo se nepodařilo použít</string>
+    <string name="wallpaper_set">Tapeta nastavena</string>
+    <string name="wallpaper_apply_both">Obě</string>
+    <string name="wallpaper_failed">Tuto tapetu se nepodařilo nastavit</string>
+    <string name="missing_app">Tato aplikace není nainstalována</string>
+    <string name="remixer_spoofing">Předstírání zařízení</string>
+    <string name="remixer_spoofing_summary">Play Integrity, identita zařízení a předstírání pro jednotlivé aplikace</string>
+    <string name="remixer_settings_style">Styl nastavení</string>
+    <string name="rr_maintainer">Správce</string>
+    <string name="remixer_navbar_summary">Délka, tloušťka a rozložení pruhu pro gesta</string>
+    <string name="remixer_navbar_pill_length">Délka pruhu pro gesta</string>
+    <string name="remixer_navbar_pill_thickness">Tloušťka pruhu pro gesta</string>
+    <string name="remixer_navbar_pill_auto_hide">Vyblednutí pruhu pro gesta</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Po několika sekundách pruh skryje; po dotyku displeje se znovu objeví</string>
+    <string name="remixer_navbar_ime">Tlačítka klávesnice</string>
+    <string name="remixer_navbar_ime_summary">Zobrazit pod klávesnicí tlačítka zpět a přepínání klávesnice</string>
+    <string name="remixer_navbar_layout">Rozložení tlačítek</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Krátké</item>
+        <item>Normální</item>
+        <item>Dlouhé</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Nejtenčí</item>
+        <item>Tenčí</item>
+        <item>Tenké</item>
+        <item>Normální</item>
+        <item>Tlusté</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Normální</item>
+        <item>Kompaktní</item>
+        <item>"Přichyceno vlevo"</item>
+        <item>"Přichyceno vpravo"</item>
+    </string-array>
 </resources>

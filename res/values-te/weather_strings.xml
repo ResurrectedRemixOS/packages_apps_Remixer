@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"వివరాలు"</string>
     <string name="lockscreen_weather_location_title">"లొకేషన్"</string>
+    <string name="lockscreen_weather_title">లాక్ స్క్రీన్‌పై వాతావరణం</string>
+    <string name="lockscreen_weather_location_summary">నగర పేరు చూపండి</string>
+    <string name="lockscreen_weather_text_title">పరిస్థితి</string>
+    <string name="lockscreen_weather_text_summary">మేఘావృతం లేదా స్పష్టమైన ఆకాశం వంటి పరిస్థితిని చూపండి</string>
+    <string name="lockscreen_weather_wind_title">గాలి</string>
+    <string name="lockscreen_weather_wind_summary">గాలి వేగం మరియు దిశను చూపండి</string>
+    <string name="lockscreen_weather_humidity_title">తేమ</string>
+    <string name="lockscreen_weather_humidity_summary">తేమను చూపండి</string>
+    <string name="custom_clock_weather_title">క్లాక్ ఫేస్‌లపై వాతావరణం</string>
+    <string name="custom_clock_weather_summary">స్థలం ఉన్న క్లాక్ ఫేస్‌ల లోపల వాతావరణాన్ని చూపండి</string>
+    <string name="remixer_weather_service">వాతావరణ సేవ</string>
+    <string name="remixer_weather_page_summary">లాక్ స్క్రీన్ వాతావరణం మరియు అది చూపేవి</string>
 </resources>

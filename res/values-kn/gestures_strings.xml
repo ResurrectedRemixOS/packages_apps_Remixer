@@ -8,4 +8,50 @@
         <item>"ಮಧ್ಯಮ"</item>
         <item>"ದೊಡ್ಡದು"</item>
     </string-array>
+    <string name="pie_title">ಪೈ ನಿಯಂತ್ರಣಗಳು</string>
+    <string name="pie_summary">ಶಾರ್ಟ್‌ಕಟ್‌ಗಳ ಪೈ ತೆರೆಯಲು ಅಂಚಿನ ಕೆಳಭಾಗವನ್ನು ಹಿಡಿದುಕೊಳ್ಳಿ</string>
+    <string name="pie_zone">ಅಂಚಿನ ಒಂದು ಭಾಗ</string>
+    <string name="pie_clock">ಅದರ ಮೇಲೆ ಗಡಿಯಾರ ಮತ್ತು ಬ್ಯಾಟರಿ</string>
+    <string name="pie_items">ಸ್ಲೈಸ್‌ಗಳು</string>
+    <string-array name="pie_items_entries">
+        <item>"ಹಿಂದಕ್ಕೆ"</item>
+        <item>ಹೋಮ್</item>
+        <item>"ಇತ್ತೀಚಿನವು"</item>
+        <item>"ನೋಟಿಫಿಕೇಶನ್‌ಗಳು"</item>
+        <item>"ಫ್ಲಾಶ್‌ಲೈಟ್‌"</item>
+        <item>"ಸ್ಕ್ರೀನ್‌ಶಾಟ್"</item>
+        <item>"ಪವರ್ ಮೆನು"</item>
+        <item>ಅಸಿಸ್ಟೆಂಟ್</item>
+        <item>"ಕ್ಯಾಮರಾ"</item>
+    </string-array>
+    <string name="pie_footer">ಇದಕ್ಕೆ ಚಲಿಸದೆ ಕಾಲು ಸೆಕೆಂಡ್ ಹಿಡಿದಿಡಬೇಕು, ಆದ್ದರಿಂದ ಅಂಚಿನಿಂದ ತ್ವರಿತ ಸ್ವೈಪ್ ಇನ್ನೂ ಹಿಂದಕ್ಕೆ ಕರೆದೊಯ್ಯುತ್ತದೆ. ಇದು ಲಾಕ್ ಪರದೆಯಲ್ಲಿ ತೆರೆಯುವುದಿಲ್ಲ.</string>
+    <string-array name="pie_edges_entries">
+        <item>"ಎಡ"</item>
+        <item>"ಬಲ"</item>
+        <item>ಎರಡೂ</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>ಕೆಳಗಿನ ಮೂರನೇ ಭಾಗ</item>
+        <item>ಮಧ್ಯ</item>
+        <item>ಇಡೀ ಅಂಚು</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>ನಿಯಾನ್</item>
+        <item>ಗ್ಲಾಸ್</item>
+        <item>ಕ್ಲಾಸಿಕ್</item>
+    </string-array>
+    <string name="sidebar_style_title">ಆ್ಯಪ್ ಸೈಡ್‌ಬಾರ್ ನೋಟ</string>
+    <string-array name="sidebar_style_entries">
+        <item>ಕ್ಲಾಸಿಕ್</item>
+        <item>RR ಗ್ಲಾಸ್</item>
+        <item>ನಿಯಾನ್</item>
+    </string-array>
+    <string name="sidebar_settings_title">ಆ್ಯಪ್ ಸೈಡ್‌ಬಾರ್</string>
+    <string name="sidebar_settings_summary">ನಿಮ್ಮ ಆ್ಯಪ್‌ಗಳು ಮತ್ತು ಟೂಲ್‌ಗಳಿಗಾಗಿ ಹ್ಯಾಂಡಲ್‌ನಿಂದ ಸ್ವೈಪ್ ಮಾಡಿ</string>
+    <string name="sidebar_apps_title">ಆ್ಯಪ್‌ಗಳು, ಹ್ಯಾಂಡಲ್ ಮತ್ತು ಕ್ಲಿಪ್‌ಬೋರ್ಡ್</string>
+    <string name="sidebar_apps_summary">ಹ್ಯಾಂಡಲ್ ಆನ್ ಮಾಡಿ, ಆ್ಯಪ್‌ಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು ಸ್ಮಾರ್ಟ್ ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ಅನ್ನು ಹೊಂದಿಸಿ</string>
+    <string name="sidebar_handle_size_title">ಹ್ಯಾಂಡಲ್ ಗಾತ್ರ</string>
+    <string name="sidebar_tools_title">ಟೂಲ್ಸ್ ಸಾಲು</string>
+    <string name="sidebar_tools_summary">ನಿಮ್ಮ ಆ್ಯಪ್‌ಗಳ ಕೆಳಗೆ ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಮತ್ತು ಫ್ಲಾಶ್‌ಲೈಟ್</string>
+    <string name="sidebar_footer">ಹ್ಯಾಂಡಲ್ ನಿಮ್ಮ ಆಕ್ಸೆಂಟ್ ಬಣ್ಣದ ತೆಳುವಾದ ಗೆರೆಯಾಗಿರುತ್ತದೆ; ಅಂಚಿನ ಉದ್ದಕ್ಕೂ ಚಲಿಸಲು ಅದನ್ನು ಎಳೆಯಿರಿ. ಸನ್ನೆ ನ್ಯಾವಿಗೇಷನ್ ಇದ್ದಾಗ ಅದು ತನ್ನದೇ ಭಾಗದ ಅಂಚನ್ನು ಮಾತ್ರ ಆವರಿಸುತ್ತದೆ, ಉಳಿದ ಕಡೆಗಳಲ್ಲಿ ಹಿಂದಕ್ಕೆ ಹೋಗುವುದು ಕೆಲಸ ಮಾಡುತ್ತದೆ.</string>
 </resources>

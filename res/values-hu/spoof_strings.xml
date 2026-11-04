@@ -165,4 +165,18 @@
     <string name="user_select_spoofing_profile_title">Válasszon hamis profilt</string>
     <string name="user_selectable_app_spoofing_summary">Eszköztulajdonságok álcázása meghatározott alkalmazásokhoz és játékokhoz</string>
     <string name="user_selectable_app_spoofing_title">Alkalmazás- és játékálcázás</string>
+    <string name="custom_spoof_profile_name">Profil neve</string>
+    <string name="pif_reset_advanced_summary">A fenti kapcsolók mindegyikének visszaállítása alapértelmezettre. Az ujjlenyomat megmarad</string>
+    <string name="pif_spoof_build_summary">Az ujjlenyomat Build mezőinek (modell, eszköz, ujjlenyomat stb.) bemutatása a DroidGuardnak</string>
+    <string name="spoofing_app_specific_category">Alkalmazásspecifikus felülírások</string>
+    <string name="spoofing_reset_defaults_summary">A Play Integrity, a célok listája, a biztonsági frissítési szint és a GameProps alapértelmezettre állítása. A keybox megmarad</string>
+    <string name="spoofing_title">Hamisítás</string>
+    <string name="tensor_spoof_title">Tensor-funkciók célpontjai</string>
+    <string name="ts_delete_keybox_title">Törlöd a keyboxot?</string>
+    <string name="ts_fetch_keybox_summary">Hivatalos keybox letöltése</string>
+    <string name="ts_keybox_deleted">Keybox törölve</string>
+    <string name="ts_keybox_installed">Keybox telepítve</string>
+    <string name="ts_mode_skip">Kihagyás</string>
+    <string name="ts_target_list_imported">Célpontlista importálva</string>
+    <string name="ts_untrusted_root_message">Ennek a keyboxnak olyan tanúsítványlánca van, amelynek gyökere a Resurrected Remix számára ismeretlen hitelesítő szervezethez tartozik. Egyes eszközökön így is átmehet az Erős integritás ellenőrzésen. Megtartod telepítve, vagy lecseréled a hivatalos keyboxra?</string>
 </resources>

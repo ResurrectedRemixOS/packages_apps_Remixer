@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">တိုင်မာ</string>
     <string name="quick_launch_undo">"နောက်ပြန်ရန်"</string>
     <string name="quick_launch_off">"ပိတ်"</string>
+    <string name="quick_launch_title">အမြန်ဖွင့်ခြင်း</string>
+    <string name="quick_launch_main">လက်ဗွေ အမြန်ဖွင့်ခြင်း</string>
+    <string name="quick_launch_main_summary">ပွင့်ခတ်ပြီးနောက် အာရုံခံကိရိယာပေါ်မှ လက်ကို မခွာဘဲ ဖြတ်လမ်းတစ်ခုကို ဖွင့်ပါ</string>
+    <string name="quick_launch_hint">ဖြတ်လမ်းတစ်ခုကို နှိပ်၍ ပြောင်းပါ၊ ဖိ၍ ဖယ်ရှားပါ သို့မဟုတ် ဆွဲ၍ အစီအစဉ်ပြန်ပြင်ပါ။</string>
+    <string name="quick_launch_behavior">အပြုအမူ</string>
+    <string name="quick_launch_hold">ဖိထားချိန်</string>
+    <string name="quick_launch_haptics">ဖြတ်လမ်းတစ်ခုစီတွင် တုန်ခါမှု ပြ</string>
+    <string name="quick_launch_add">ထည့်</string>
+    <string name="quick_launch_video">ဗီဒီယို</string>
+    <string name="quick_launch_qr">QR စကင်ဖတ်ရန်</string>
+    <string name="quick_launch_app">အက်ပ်…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> ကို ဖယ်ရှားပြီးပြီ</string>
 </resources>

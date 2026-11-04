@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">ഡിവൈസ് RKP ഉപയോഗിക്കുക</string>
+    <string name="ts_rkp_enabled_summary">ജനറേറ്റ് ചെയ്ത കീബോക്സ് ഉപയോഗിക്കുക. കീബോക്സ് ഇമ്പോർട്ട് ചെയ്താൽ ഇത് ഓഫാകും.</string>
+    <string name="ts_rkp_provision">കീബോക്സ് ജനറേറ്റ് ചെയ്യുക</string>
+    <string name="ts_rkp_provision_summary">ഈ ഉപകരണത്തിന്റെ പ്രൊവിഷനിംഗ് സേവനം ഉപയോഗിച്ച് Google-ൽ നിന്ന് കീബോക്സ് അഭ്യർത്ഥിക്കുക. അനുയോജ്യമായ Qualcomm ഫേംവെയർ ആവശ്യമാണ്.</string>
+    <string name="ts_rkp_status">പ്രൊവിഷനിംഗ് നില</string>
+    <string name="ts_rkp_owner_only">ഉപകരണ ഉടമയുടെ പ്രൊഫൈലിൽ നിന്ന് ഡിവൈസ് RKP നിയന്ത്രിക്കുക</string>
+    <string name="ts_rkp_unavailable">ഡിവൈസ് RKP ലഭ്യമല്ല</string>
+    <string name="ts_rkp_imported">ഇമ്പോർട്ട് ചെയ്ത കീബോക്സ് ഇൻസ്റ്റാൾ ചെയ്തിരിക്കുമ്പോൾ പ്രവർത്തനരഹിതമാണ്</string>
+    <string name="ts_rkp_disabled">ഓഫാണ്. കീബോക്സ് ഉപയോഗിക്കാനോ ജനറേറ്റ് ചെയ്യാനോ ഡിവൈസ് RKP ഓണാക്കുക.</string>
+    <string name="ts_rkp_idle">കീബോക്സ് അഭ്യർത്ഥിക്കാൻ തയ്യാറാണ്</string>
+    <string name="ts_rkp_fetching">പ്രൊവിഷനിംഗ് ചലഞ്ച് ലഭ്യമാക്കുന്നു…</string>
+    <string name="ts_rkp_hardware">ഉപകരണത്തിന്റെ പ്രൊവിഷനിംഗ് സേവനത്തിനായി കാത്തിരിക്കുന്നു…</string>
+    <string name="ts_rkp_signing">Google-ൽ നിന്ന് സർട്ടിഫിക്കറ്റുകൾ അഭ്യർത്ഥിക്കുന്നു…</string>
+    <string name="ts_rkp_validating">കീബോക്സ് പരിശോധിച്ച് സേവ് ചെയ്യുന്നു…</string>
+    <string name="ts_rkp_ready">ജനറേറ്റ് ചെയ്ത കീബോക്സ് സജീവമാണ്. %1$s-ന് മുമ്പ് സ്വയം പുതുക്കപ്പെടും</string>
+    <string name="ts_rkp_keybox_stored">ഡിവൈസ് RKP കീബോക്സ് സൂക്ഷിച്ചു</string>
+    <string name="ts_rkp_expired">ജനറേറ്റ് ചെയ്ത കീബോക്സ് കാലഹരണപ്പെട്ടു. പകരമായി ഒന്ന് ജനറേറ്റ് ചെയ്യുക.</string>
+    <string name="ts_rkp_hal_rejected">ഫേംവെയർ അഭ്യർത്ഥന നിരസിച്ചു (കോഡ് %1$d). Duck V1 പിന്തുണയ്ക്കപ്പെടണമെന്നില്ല.</string>
+    <string name="ts_rkp_http_error">പ്രൊവിഷനിംഗ് സെർവർ അഭ്യർത്ഥന നിരസിച്ചു (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">ഉപകരണം അനുയോജ്യമായ V1 പ്രൊവിഷനിംഗ് ഇന്റർഫേസ് നൽകുന്നില്ല</string>
+    <string name="ts_rkp_network_error">പ്രൊവിഷനിംഗ് സെർവറിലേക്ക് എത്താനായില്ല. നിങ്ങളുടെ കണക്ഷൻ പരിശോധിക്കുക.</string>
+    <string name="ts_rkp_submission_unknown">സെർവർ പ്രതികരണം നഷ്ടപ്പെട്ടു. അഭ്യർത്ഥന പ്രോസസ്സ് ചെയ്തിരിക്കാം; സ്വയമേവ വീണ്ടും ശ്രമിച്ചിട്ടില്ല.</string>
+    <string name="ts_rkp_invalid_chain">കീബോക്സ് സർട്ടിഫിക്കറ്റുകൾ പരിശോധന പരാജയപ്പെട്ടു. നിലവിലുള്ള കീബോക്സ് നിലനിർത്തി.</string>
+    <string name="ts_rkp_timeout">പ്രൊവിഷനിംഗ് സമയപരിധി കഴിഞ്ഞു. ഉപകരണ സേവനം ഇപ്പോഴും തിരക്കിലാണെങ്കിൽ, വീണ്ടും ശ്രമിക്കുംമുമ്പ് ഉപകരണം റീസ്റ്റാർട്ട് ചെയ്യുക.</string>
+    <string name="ts_rkp_canceled">കീബോക്സ് കോൺഫിഗറേഷൻ മാറിയതിനാൽ അഭ്യർത്ഥന റദ്ദാക്കി</string>
+    <string name="ts_rkp_save_failed">ജനറേറ്റ് ചെയ്ത കീബോക്സ് സേവ് ചെയ്യാനായില്ല</string>
+    <string name="ts_rkp_action_failed">കീബോക്സ് പ്രവർത്തനം പൂർത്തിയാക്കാനായില്ല</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Cihaz RKP-sindən istifadə edin</string>
+    <string name="ts_rkp_enabled_summary">Yaradılmış keybox istifadə edin. Keybox idxal etdikdə bu söndürülür.</string>
+    <string name="ts_rkp_provision">Keybox yaradın</string>
+    <string name="ts_rkp_provision_summary">Bu cihazın təchizat xidmətindən istifadə edərək Google-dan keybox sorğulayın. Uyğun Qualcomm proqram təminatı tələb olunur.</string>
+    <string name="ts_rkp_status">Təchizat statusu</string>
+    <string name="ts_rkp_owner_only">Cihaz RKP-ni cihaz sahibinin profilindən idarə edin</string>
+    <string name="ts_rkp_unavailable">Cihaz RKP-si əlçatmazdır</string>
+    <string name="ts_rkp_imported">Quraşdırılmış idxal keybox olduqda söndürülüb</string>
+    <string name="ts_rkp_disabled">Söndürülüb. Keybox istifadə etmək və ya yaratmaq üçün cihaz RKP-ni aktivləşdirin.</string>
+    <string name="ts_rkp_idle">Keybox sorğusuna hazırdır</string>
+    <string name="ts_rkp_fetching">Təchizat çağırışı alınır…</string>
+    <string name="ts_rkp_hardware">Cihazın təchizat xidmətinin cavabı gözlənilir…</string>
+    <string name="ts_rkp_signing">Google-dan sertifikatlar sorğulanır…</string>
+    <string name="ts_rkp_validating">Keybox yoxlanılır və saxlanılır…</string>
+    <string name="ts_rkp_ready">Yaradılmış keybox aktivdir. %1$s-dən əvvəl özü yenilənəcək</string>
+    <string name="ts_rkp_keybox_stored">Cihaz RKP keyboxu saxlanılıb</string>
+    <string name="ts_rkp_expired">Yaradılmış keybox vaxtı bitib. Əvəzedici yaradın.</string>
+    <string name="ts_rkp_hal_rejected">Proqram təminatı sorğunu rədd etdi (kod %1$d). Duck V1 dəstəklənməyə bilər.</string>
+    <string name="ts_rkp_http_error">Təchizat serveri sorğunu rədd etdi (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Cihaz uyğun V1 təchizat interfeysini təqdim etmir</string>
+    <string name="ts_rkp_network_error">Təchizat serverinə çatmaq mümkün olmadı. Bağlantınızı yoxlayın.</string>
+    <string name="ts_rkp_submission_unknown">Serverin cavabı itdi. Sorğu emal edilmiş ola bilər; avtomatik yenidən cəhd edilmədi.</string>
+    <string name="ts_rkp_invalid_chain">Keybox sertifikatları yoxlamadan keçmədi. Mövcud keybox saxlanıldı.</string>
+    <string name="ts_rkp_timeout">Təchizat vaxtı bitdi. Cihaz xidməti hələ məşğuldursa, yenidən cəhd etməzdən əvvəl cihazı yenidən başladın.</string>
+    <string name="ts_rkp_canceled">Keybox konfiqurasiyası dəyişdiyinə görə sorğu ləğv edildi</string>
+    <string name="ts_rkp_save_failed">Yaradılmış keybox saxlanıla bilmədi</string>
+    <string name="ts_rkp_action_failed">Keybox əməliyyatı tamamlana bilmədi</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">ለእያንዳንዱ ሁነታዎ የተለየ ገጽታ</string>
+    <string name="remix_modes_everyday">የዕለት ተዕለት ገጽታ</string>
+    <string name="remix_modes_everyday_summary">ገጽታ ያለው ሁነታ ሲበራ የማይበራ ጊዜ ይመለሳል</string>
+    <string name="remix_modes_wallpaper">ልጣፍ ገጽታውን ይከተላል</string>
+    <string name="remix_modes_wallpaper_summary">ሁነታ ልጣፉንም ሊለውጥ ይችላል</string>
+    <string name="remix_modes_modes">ሁነታዎችዎ</string>
+    <string name="remix_modes_no_change">ምንም ለውጥ የለም</string>
+    <string name="remix_modes_none">መጀመሪያ ገጽታ ያስቀምጡ፣ በገጽታ › ገጽታዎች ውስጥ</string>
+    <string name="remix_modes_pick">ለ<xliff:g id="mode" example="Sleep">%1$s</xliff:g> ገጽታ</string>
+</resources>

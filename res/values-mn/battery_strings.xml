@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Батарей"</string>
     <string name="battery_style_title">"Загвар"</string>
+    <string-array name="battery_style_entries">
+        <item>Босоо</item>
+        <item>"Хүрээлэл"</item>
+        <item>Цэгэн тойрог</item>
+        <item>Неон бөгж</item>
+        <item>Нимгэн пилл</item>
+        <item>Том хувь</item>
+        <item>"Мессеж илгээх"</item>
+    </string-array>
+    <string name="battery_percent_title">Хувь</string>
+    <string-array name="battery_percent_entries">
+        <item>"Нуусан"</item>
+        <item>Дүрсний дотор</item>
+        <item>Дүрсний дэргэд</item>
+    </string-array>
+    <string name="battery_ring_color_title">Неон бөгжний өнгө</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Түвшнээр гэдэг нь 20%%-иас дээш бол гол өнгө, доош бол улаан, Батерей хэмнэгч үед шар.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Түвшнээр</item>
+        <item>Акцент</item>
+        <item>"Цагаан"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Цэнэглэх үед гялбаа</string>
+    <string name="battery_ring_tile_title">Шуурхай тохиргооны хавтан дээр мөн адил бөгж</string>
+    <string name="battery_ring_tile_summary">Түвшин ба дэлгэц асаалттай байх хугацаатай хамт</string>
 </resources>

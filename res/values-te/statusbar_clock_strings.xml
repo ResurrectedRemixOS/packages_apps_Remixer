@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"తేదీ"</string>
     <string name="sb_weather_category">"వాతావరణం"</string>
+    <string name="sb_clock_category">క్లాక్ &amp; తేదీ</string>
+    <string name="sb_clock_bold_title">బోల్డ్ క్లాక్</string>
+    <string name="sb_clock_bold_summary">స్టేటస్‌ బార్‌ క్లాక్‌ను బోల్డ్‌గా చూపించు</string>
+    <string name="sb_clock_period_separator_title">పీరియడ్ సెపరేటర్</string>
+    <string name="sb_clock_period_separator_summary">10:45కి బదులుగా 10.45</string>
+    <string name="sb_clock_date_position_title">తేదీ స్థానం</string>
+    <string name="sb_clock_date_style_title">తేదీ అక్షరశైలి</string>
+    <string name="sb_clock_date_format_title">తేదీ ఫార్మాట్</string>
+    <string name="sb_clock_chip_category">క్లాక్ నేపథ్యం</string>
+    <string name="sb_clock_chip_title">నేపథ్య శైలి</string>
+    <string name="sb_clock_chip_start_title">గ్రేడియంట్ ప్రారంభం</string>
+    <string name="sb_clock_chip_end_title">గ్రేడియంట్ ముగింపు</string>
+    <string name="sb_clock_chip_angle_title">గ్రేడియంట్ కోణం</string>
+    <string name="sb_clock_chip_mask_title">గ్రేడియంట్ నుండి సమయాన్ని కత్తిరించు</string>
+    <string name="sb_clock_chip_mask_summary">అంకెల వెనుక కాకుండా అంకెల గుండా గ్రేడియంట్ కనిపిస్తుంది</string>
+    <string name="sb_weather_title">స్టేటస్‌ బార్‌లో వాతావరణం</string>
+    <string name="sb_weather_position_title">స్థానం</string>
+    <string name="status_bar_clock_rr_style_title">క్లాక్ రూపం</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"ఆటోమేటిక్"</item>
+        <item>నియాన్‌</item>
+        <item>విభజించు</item>
+        <item>RR గుర్తు</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>పేర్చు</item>
+        <item>ఎంబర్</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">సమయం పక్కన Flatline</string>
+    <string name="sb_clock_flatline_summary">చిప్‌లో RR హార్ట్‌బీట్ లైన్: మ్యూజిక్‌తో కొట్టుకుంటుంది, నోటిఫికేషన్ వచ్చినప్పుడు పైకి లేస్తుంది</string>
 </resources>

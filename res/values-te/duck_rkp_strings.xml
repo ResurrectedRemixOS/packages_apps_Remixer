@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">డివైస్ RKPని ఉపయోగించండి</string>
+    <string name="ts_rkp_enabled_summary">రూపొందించిన కీబాక్స్‌ను ఉపయోగించండి. కీబాక్స్ దిగుమతి చేస్తే ఇది ఆఫ్ అవుతుంది.</string>
+    <string name="ts_rkp_provision">కీబాక్స్ రూపొందించండి</string>
+    <string name="ts_rkp_provision_summary">ఈ పరికరం యొక్క ప్రొవిజనింగ్ సేవను ఉపయోగించి Google నుండి కీబాక్స్ అభ్యర్థించండి. అనుకూలమైన Qualcomm ఫర్మ్‌వేర్ అవసరం.</string>
+    <string name="ts_rkp_status">ప్రొవిజనింగ్ స్థితి</string>
+    <string name="ts_rkp_owner_only">పరికర యజమాని ప్రొఫైల్ నుండి డివైస్ RKPని నిర్వహించండి</string>
+    <string name="ts_rkp_unavailable">డివైస్ RKP అందుబాటులో లేదు</string>
+    <string name="ts_rkp_imported">దిగుమతి చేసిన కీబాక్స్ ఇన్‌స్టాల్ చేయబడి ఉన్నప్పుడు నిలిపివేయబడింది</string>
+    <string name="ts_rkp_disabled">ఆఫ్‌లో ఉంది. కీబాక్స్‌ను ఉపయోగించడానికి లేదా రూపొందించడానికి డివైస్ RKPని ఆన్ చేయండి.</string>
+    <string name="ts_rkp_idle">కీబాక్స్ అభ్యర్థించడానికి సిద్ధంగా ఉంది</string>
+    <string name="ts_rkp_fetching">ప్రొవిజనింగ్ ఛాలెంజ్ పొందుతోంది…</string>
+    <string name="ts_rkp_hardware">పరికర ప్రొవిజనింగ్ సేవ కోసం వేచి ఉంది…</string>
+    <string name="ts_rkp_signing">Google నుండి సర్టిఫికేట్లు అభ్యర్థిస్తోంది…</string>
+    <string name="ts_rkp_validating">కీబాక్స్‌ను ధృవీకరించి సేవ్ చేస్తోంది…</string>
+    <string name="ts_rkp_ready">రూపొందించిన కీబాక్స్ సక్రియంగా ఉంది. %1$s కు ముందు స్వయంగా పునరుద్ధరించబడుతుంది</string>
+    <string name="ts_rkp_keybox_stored">డివైస్ RKP కీబాక్స్ నిల్వ చేయబడింది</string>
+    <string name="ts_rkp_expired">రూపొందించిన కీబాక్స్ గడువు ముగిసింది. ప్రత్యామ్నాయాన్ని రూపొందించండి.</string>
+    <string name="ts_rkp_hal_rejected">ఫర్మ్‌వేర్ అభ్యర్థనను తిరస్కరించింది (కోడ్ %1$d). Duck V1కు మద్దతు లేకపోవచ్చు.</string>
+    <string name="ts_rkp_http_error">ప్రొవిజనింగ్ సర్వర్ అభ్యర్థనను తిరస్కరించింది (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">ఈ పరికరం అనుకూలమైన V1 ప్రొవిజనింగ్ ఇంటర్‌ఫేస్‌ను అందించడం లేదు</string>
+    <string name="ts_rkp_network_error">ప్రొవిజనింగ్ సర్వర్‌ను చేరుకోలేకపోయాం. మీ కనెక్షన్‌ను తనిఖీ చేయండి.</string>
+    <string name="ts_rkp_submission_unknown">సర్వర్ ప్రతిస్పందన కోల్పోయింది. అభ్యర్థన ప్రాసెస్ అయి ఉండవచ్చు; ఆటోమేటిక్ మళ్లీ ప్రయత్నం చేయలేదు.</string>
+    <string name="ts_rkp_invalid_chain">కీబాక్స్ సర్టిఫికేట్లు ధృవీకరణలో విఫలమయ్యాయి. ఉన్న కీబాక్స్ ఉంచబడింది.</string>
+    <string name="ts_rkp_timeout">ప్రొవిజనింగ్ గడువు ముగిసింది. పరికర సేవ ఇంకా బిజీగా ఉంటే, మళ్లీ ప్రయత్నించే ముందు పరికరాన్ని రీస్టార్ట్ చేయండి.</string>
+    <string name="ts_rkp_canceled">కీబాక్స్ కాన్ఫిగరేషన్ మారినందున అభ్యర్థన రద్దు చేయబడింది</string>
+    <string name="ts_rkp_save_failed">రూపొందించిన కీబాక్స్‌ను సేవ్ చేయడం సాధ్యపడలేదు</string>
+    <string name="ts_rkp_action_failed">కీబాక్స్ ఆపరేషన్‌ను పూర్తి చేయడం సాధ్యపడలేదు</string>
+</resources>

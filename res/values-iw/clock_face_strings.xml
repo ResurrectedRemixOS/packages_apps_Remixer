@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"ברירת מחדל"</string>
     <string name="clock_faces_size">"גודל"</string>
     <string name="clock_faces_restart">"הפעלה מחדש"</string>
+    <string name="remixer_clock_faces">עיצובי שעון</string>
+    <string name="clock_faces_system">שעון המערכת</string>
+    <string name="clock_faces_system_desc">השעון מ-Wallpaper &amp; style</string>
+    <string name="clock_faces_position">%1$d מתוך %2$d</string>
+    <string name="clock_faces_applied">הוחל</string>
+    <string name="clock_faces_preview_unavailable">התצוגה המקדימה אינה זמינה</string>
+    <string name="clock_faces_failed">לא ניתן לשנות את השעון</string>
+    <string name="clock_faces_color_accent">הדגשה</string>
+    <string name="clock_faces_color_custom">מותאם אישית</string>
+    <string name="clock_faces_color_album">עטיפת אלבום</string>
+    <string name="clock_faces_color_gradient">מדרגתי</string>
+    <string name="clock_faces_own_colors">לעיצוב הזה יש צבעים משלו.</string>
+    <string name="clock_faces_album_hint">לוקח את הצבע מעטיפת האלבום בזמן ניגון מוזיקה.</string>
+    <string name="clock_faces_size_position">גודל ומיקום</string>
+    <string name="clock_faces_size_value">גודל · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">מרחק מהחלק העליון</string>
+    <string name="clock_faces_top_value">מרחק מהחלק העליון · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">מיקום אופקי</string>
+    <string name="clock_faces_horizontal_center">מיקום אופקי · מרכז</string>
+    <string name="clock_faces_horizontal_right">מיקום אופקי · <xliff:g id="dp" example="24">%1$d</xliff:g> dp מימין</string>
+    <string name="clock_faces_horizontal_left">מיקום אופקי · <xliff:g id="dp" example="24">%1$d</xliff:g> dp משמאל</string>
+    <string name="clock_faces_horizontal_fixed">העיצוב הזה נשאר במרכז.</string>
+    <string name="clock_faces_opacity">אטימות</string>
+    <string name="clock_faces_opacity_value">אטימות · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">תנועה</string>
+    <string name="clock_faces_wobble">רטט בזמן טעינה</string>
+    <string name="clock_faces_wobble_summary">קופץ פעם אחת כשמחברים את המטען</string>
+    <string name="clock_faces_aod_anim">מעבר לתצוגה תמיד פעילה</string>
+    <string name="clock_faces_aod_anim_summary">השעון מתכווץ ומתעמעם בתצוגה תמיד פעילה</string>
+    <string name="clock_faces_restart_title">להפעיל מחדש את מסך הנעילה?</string>
+    <string name="clock_faces_restart_message">המעבר בין שעון המערכת לעיצובים מותאמים מפעיל מחדש את SystemUI. המסך יכבה לשנייה.</string>
+    <string name="clock_faces_note">התצוגות המקדימות מצוירות על ידי SystemUI על טפט מסך הנעילה. צבע, גודל ומיקום משתנים במסך הנעילה מיד.</string>
 </resources>

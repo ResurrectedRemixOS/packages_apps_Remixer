@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Oppstartsanimasjon</string>
+    <string name="boot_animation_note">Spilles neste gang telefonen starter.</string>
+    <string name="boot_animation_custom">Din fil</string>
+    <string name="boot_animation_custom_pick">Velg en fil…</string>
+    <string name="boot_animation_custom_invalid">Filen er ikke en oppstartsanimasjon</string>
+    <string name="boot_animation_failed">Kunne ikke endre oppstartsanimasjonen</string>
+</resources>

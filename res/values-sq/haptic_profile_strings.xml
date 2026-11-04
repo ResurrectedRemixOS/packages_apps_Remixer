@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_profile_title">Profili i dridhjes</string>
+    <string name="haptic_profile_crisp">E mprehtë</string>
+    <string name="haptic_profile_gentle">E butë</string>
+    <string name="haptic_profile_op13crisp">OP13 e mprehtë</string>
+    <string name="haptic_profile_op13gentle">OP13 e butë</string>
+</resources>

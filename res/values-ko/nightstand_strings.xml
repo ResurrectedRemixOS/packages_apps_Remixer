@@ -2,4 +2,18 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"일시"</string>
     <string name="nightstand_face">시계 계기판</string>
+    <string name="nightstand_title">나이트스탠드</string>
+    <string name="nightstand_summary">충전 중 밤에 항상 켜진 화면에 어두운 침실 시계 표시</string>
+    <string-array name="nightstand_when_entries">
+        <item>"사용 안함"</item>
+        <item>밤에 충전기에 연결된 경우</item>
+        <item>매일 밤, 일정에 따라</item>
+        <item>취침 모드가 켜져 있는 동안</item>
+    </string-array>
+    <string name="nightstand_from">밤 시작</string>
+    <string name="nightstand_to">밤 종료</string>
+    <string name="nightstand_brightness">밝기 상한</string>
+    <string name="nightstand_brightness_summary">나이트스탠드가 켜져 있을 때 항상 켜진 화면의 최대 밝기</string>
+    <string name="nightstand_face_keep">현재 화면 유지</string>
+    <string name="nightstand_footer">나이트스탠드가 실행되는 동안 항상 켜진 화면을 켜고, 끝나면 원래대로 되돌립니다. 충전기를 분리하거나, 알람이 울리거나, 밤이 끝나면 종료됩니다. 화면은 사용자 지정 화면 두 가지 사이에서만 바뀌며, 시스템 시계는 그대로 유지됩니다.</string>
 </resources>

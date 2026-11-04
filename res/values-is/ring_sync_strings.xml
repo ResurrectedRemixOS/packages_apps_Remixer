@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Hringisamstilling</string>
+    <string name="ring_sync_tap">Pikkaðu þegar hringur er í takt við merkið</string>
+    <string name="ring_sync_best">Besta <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">FULLKOMIÐ</string>
+    <string name="ring_sync_new_best">Nýtt besta skor</string>
+    <string name="ring_sync_again">Ýttu til að spila aftur</string>
+    <string name="ring_sync_ember">Ember-áherslulitur opnaður</string>
+    <string name="ring_sync_use_ember">Nota Ember</string>
+    <string name="ring_sync_android">Páskaegg Android</string>
+    <string name="ring_sync_vibrate_on">Titra við högg · Kveikt</string>
+    <string name="ring_sync_vibrate_off">Titra við högg · Slökkt</string>
+    <string name="accent_ember">Glóð</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Bruk enhetens RKP</string>
+    <string name="ts_rkp_enabled_summary">Bruk en generert keybox. Import av en keybox slår dette av.</string>
+    <string name="ts_rkp_provision">Generer keybox</string>
+    <string name="ts_rkp_provision_summary">Be om en keybox fra Google via enhetens provisjoneringstjeneste. Krever kompatibel Qualcomm-fastvare.</string>
+    <string name="ts_rkp_status">Provisjoneringsstatus</string>
+    <string name="ts_rkp_owner_only">Administrer enhetens RKP fra eierens profil</string>
+    <string name="ts_rkp_unavailable">Enhetens RKP er ikke tilgjengelig</string>
+    <string name="ts_rkp_imported">Deaktivert mens en importert keybox er installert</string>
+    <string name="ts_rkp_disabled">Av. Aktiver enhetens RKP for å bruke eller generere en keybox.</string>
+    <string name="ts_rkp_idle">Klar til å be om en keybox</string>
+    <string name="ts_rkp_fetching">Henter en provisjoneringsutfordring…</string>
+    <string name="ts_rkp_hardware">Venter på enhetens provisjoneringstjeneste…</string>
+    <string name="ts_rkp_signing">Ber om sertifikater fra Google…</string>
+    <string name="ts_rkp_validating">Validerer og lagrer keyboxen…</string>
+    <string name="ts_rkp_ready">Generert keybox er aktiv. Fornyes automatisk før %1$s</string>
+    <string name="ts_rkp_keybox_stored">Enhetens RKP-keybox er lagret</string>
+    <string name="ts_rkp_expired">Generert keybox har utløpt. Generer en erstatning.</string>
+    <string name="ts_rkp_hal_rejected">Fastvaren avviste forespørselen (kode %1$d). Duck V1 støttes kanskje ikke.</string>
+    <string name="ts_rkp_http_error">Provisjoneringsserveren avviste forespørselen (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Enheten tilbyr ikke et kompatibelt V1-provisjoneringsgrensesnitt</string>
+    <string name="ts_rkp_network_error">Kunne ikke nå provisjoneringsserveren. Sjekk tilkoblingen.</string>
+    <string name="ts_rkp_submission_unknown">Serverresponsen gikk tapt. Forespørselen kan ha blitt behandlet, og det ble ikke gjort et automatisk nytt forsøk.</string>
+    <string name="ts_rkp_invalid_chain">Sertifikatene i keyboxen besto ikke validering. Den eksisterende keyboxen ble beholdt.</string>
+    <string name="ts_rkp_timeout">Provisjoneringen fikk tidsavbrudd. Hvis enhetstjenesten fortsatt er opptatt, start enheten på nytt før du prøver igjen.</string>
+    <string name="ts_rkp_canceled">Forespørselen ble avbrutt fordi keybox-konfigurasjonen endret seg</string>
+    <string name="ts_rkp_save_failed">Kunne ikke lagre den genererte keyboxen</string>
+    <string name="ts_rkp_action_failed">Kunne ikke fullføre keybox-operasjonen</string>
+</resources>

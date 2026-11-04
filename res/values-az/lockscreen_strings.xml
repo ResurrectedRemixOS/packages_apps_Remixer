@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">Təsadüfi oyanmaların qarşısını al</string>
+    <string name="lockscreen_battery_info_title">Şarj məlumatı</string>
+    <string name="lockscreen_battery_info_summary">Şarj olarkən cərəyanı, vattı, gərginliyi və batareyanın temperaturunu göstər</string>
+    <string name="charging_ring_title">SuperVOOC şarj animasiyası</string>
+    <string name="charging_ring_summary">Qoşduqda şarj halqasını və sürəti göstər</string>
+    <string name="pocket_mode_summary">Yaxınlıq sensoru örtüldükdə ekran açılmır və toxunuşlara reaksiya vermir</string>
+    <string name="screen_on_time_title">Ekranın açıq qalma müddəti</string>
+    <string name="screen_on_time_summary">Şarj olarkən son tam şarjdan bəri ekranın açıq qalma müddətini ekran kilidində və Batareya Qənaəti mozaikasında göstər</string>
 </resources>

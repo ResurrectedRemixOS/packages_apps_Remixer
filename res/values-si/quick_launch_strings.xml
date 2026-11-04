@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">කාලමාපකය</string>
     <string name="quick_launch_undo">"අස් කරන්න"</string>
     <string name="quick_launch_off">"ක්‍රියාවිරහිතයි"</string>
+    <string name="quick_launch_title">ඉක්මන් දියත් කිරීම</string>
+    <string name="quick_launch_main">ඇඟිලි සලකුණු ඉක්මන් දියත් කිරීම</string>
+    <string name="quick_launch_main_summary">අගුලු ඇරීමෙන් පසු සංවේදකය මත ඇඟිල්ල තබා ගෙන කෙටිමගක් විවෘත කරන්න</string>
+    <string name="quick_launch_hint">කෙටිමගක් වෙනස් කිරීමට තට්ටු කරන්න, ඉවත් කිරීමට දිගු වේලා ඔබා ගන්න, නැවත පිළිවෙළට ගැනීමට ඇදගෙන යන්න.</string>
+    <string name="quick_launch_behavior">හැසිරීම</string>
+    <string name="quick_launch_hold">රඳවා තබන කාලය</string>
+    <string name="quick_launch_haptics">එක් එක් කෙටිමගෙදී කම්පනය</string>
+    <string name="quick_launch_add">එකතු කරන්න</string>
+    <string name="quick_launch_video">වීඩියෝ</string>
+    <string name="quick_launch_qr">QR ස්කෑන් කරන්න</string>
+    <string name="quick_launch_app">යෙදුම…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> ඉවත් කරන ලදී</string>
 </resources>

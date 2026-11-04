@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"නිල්"</string>
     <string name="haptic_remix_color_green">"කොළ"</string>
     <string name="haptic_remix_color_white">"සුදු"</string>
+    <string name="haptic_remix_summary">ඇමතුම්, යෙදුම්, එලාම් සහ අගුළු හැරීම් සඳහා කම්පන රටා තට්ටු කරන්න</string>
+    <string name="haptic_remix_record">පටිගත කරන්න</string>
+    <string name="haptic_remix_pad">රිද්මය තට්ටු කරන්න</string>
+    <string name="haptic_remix_strength">ශක්තිය</string>
+    <string name="haptic_remix_clear">හිස් කරන්න</string>
+    <string name="haptic_remix_play">ධාවනය</string>
+    <string name="haptic_remix_name">රටාවේ නම</string>
+    <string name="haptic_remix_empty">තවම කිසිවක් පටිගත කර නැත</string>
+    <string name="haptic_remix_too_long">රටාවක් තත්පර 30ක් දක්වා පැවතිය හැක</string>
+    <string name="haptic_remix_presets">පෙර සකසීම්</string>
+    <string name="haptic_remix_preset_neon">නියොන්</string>
+    <string name="haptic_remix_preset_glass">වීදුරු</string>
+    <string name="haptic_remix_preset_ringtone">නාද ශබ්දයේ රිද්මය</string>
+    <string name="haptic_remix_listening">නාද ශබ්දය අසමින්…</string>
+    <string name="haptic_remix_no_ringtone">නාද ශබ්දය කියවිය නොහැකි විය</string>
+    <string name="haptic_remix_patterns">ඔබේ රටා</string>
+    <string name="haptic_remix_patterns_none">පළමුව රටාවක් සුරකින්න. එය මකා දැමීමට එය දිගු වේලා ඔබන්න.</string>
+    <string name="haptic_remix_broken">එම රටාව කියවිය නොහැක</string>
+    <string name="haptic_remix_delete"><xliff:g id="name" example="Heartbeat">%1$s</xliff:g> මකන්නද?</string>
+    <string name="haptic_remix_assign">වෙත පවරන්න</string>
+    <string name="haptic_remix_alarm">එලාම සහ කාලමාපකය</string>
+    <string name="haptic_remix_plug">ප්ලග් කර ඇත</string>
+    <string name="haptic_remix_fingerprint">ඇඟිලි සලකුණු සාර්ථකයි</string>
+    <string name="haptic_remix_add_contact">සම්බන්ධතාවයක් එක් කරන්න</string>
+    <string name="haptic_remix_edge_color"><xliff:g id="name" example="Mia">%1$s</xliff:g> ගේ පණිවිඩ සඳහා දාර ආලෝකය</string>
+    <string name="haptic_remix_color_accent">උච්චාරණ</string>
+    <string name="haptic_remix_color_crimson">තද රතු</string>
+    <string name="haptic_remix_color_amber">ඇම්බර්</string>
+    <string name="haptic_remix_add_app">යෙදුමක දැනුම්දීම් එක් කරන්න</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · වෙනස් කිරීමට තට්ටු කරන්න, දාර වර්ණය සඳහා දිගු වේලා ඔබන්න</string>
+    <string name="haptic_remix_no_contacts">සම්බන්ධතා වලින් අංකයක් ලැබුණේ නැත</string>
 </resources>

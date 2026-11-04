@@ -3,4 +3,31 @@
     <string name="charge_report_battery">"బ్యాటరీ"</string>
     <string name="charge_report_temp">"ఉష్ణోగ్రత"</string>
     <string name="charge_report_time">"సమయం"</string>
+    <string name="charge_report_title">ఛార్జ్ నివేదికలు</string>
+    <string name="charge_report_summary">మీరు అన్‌ప్లగ్ చేసినప్పుడు ప్రతి ఛార్జ్ సారాంశం</string>
+    <string name="charge_report_min_title">కనీసం ఇంత జోడిస్తేనే</string>
+    <string name="charge_report_keep_title">ఉంచు</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 రోజులు</item>
+        <item>7 రోజులు</item>
+        <item>14 రోజులు</item>
+        <item>30 రోజులు</item>
+    </string-array>
+    <string name="charge_report_history_days">చివరి <xliff:g id="days" example="7">%1$d</xliff:g> రోజులు</string>
+    <string name="charge_report_today">ఈరోజు, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">నిన్న, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> నిమి</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> గం <xliff:g id="minutes" example="02">%2$02d</xliff:g> నిమి</string>
+    <string name="charge_report_watts">వాట్స్</string>
+    <string name="charge_report_added">జోడించబడింది</string>
+    <string name="charge_report_peak">గరిష్టం</string>
+    <string name="charge_report_average">సగటు</string>
+    <string name="charge_report_max_temp">గరిష్ట ఉష్ణోగ్రత</string>
+    <string name="charge_report_charger">ఛార్జర్</string>
+    <string name="charge_report_started">ప్రారంభ సమయం</string>
+    <string name="charge_report_wired">వైర్డ్</string>
+    <string name="charge_report_wireless">వైర్‌లెస్</string>
+    <string name="charge_report_dock">డాక్</string>
+    <string name="charge_report_empty">ఇంకా ఛార్జ్‌లు లేవు</string>
+    <string name="charge_report_footer">ప్లగ్ చేసినప్పుడు SystemUI ప్రతి 30 సెకన్లకు బ్యాటరీ కరెంట్, వోల్టేజ్ మరియు ఉష్ణోగ్రతను చదువుతుంది. వాట్స్ ఫోన్ కొలిచినవి, కాబట్టి అవి ఛార్జర్‌పై ఉన్న సంఖ్యకు భిన్నంగా ఉండవచ్చు. నివేదికలు ఫోన్‌లోనే ఉంటాయి; ఏదీ అప్‌లోడ్ కాదు.</string>
 </resources>

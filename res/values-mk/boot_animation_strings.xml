@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Анимација при подигање</string>
+    <string name="boot_animation_note">Ќе се пушти следпат кога ќе се стартува телефонот.</string>
+    <string name="boot_animation_custom">Вашата датотека</string>
+    <string name="boot_animation_custom_pick">Изберете датотека…</string>
+    <string name="boot_animation_custom_invalid">Датотеката не е анимација за подигање</string>
+    <string name="boot_animation_failed">Не може да се промени анимацијата за подигање</string>
+</resources>

@@ -11,4 +11,97 @@
     <string name="now_bar_buttons">"బటన్‌లు"</string>
     <string name="now_bar_text">"వచనం పంపండి"</string>
     <string name="now_bar_text_size">"వచన సైజ్‌"</string>
+    <string name="now_bar_summary">లాక్ స్క్రీన్ దిగువన లైవ్ యాక్టివిటీలు</string>
+    <string name="now_bar_show">చూపించు</string>
+    <string name="now_bar_music">మ్యూజిక్, వీడియో</string>
+    <string name="now_bar_timers">టైమర్‌లు, స్టాప్‌వాచ్, అలారాలు</string>
+    <string name="now_bar_hide_call">కాల్ నోటిఫికేషన్‌ను దాచు</string>
+    <string name="now_bar_hide_call_summary">లాక్ స్క్రీన్‌పై, Now Bar లో ఉన్న కాల్ నోటిఫికేషన్‌లుగా కూడా జాబితా కాదు</string>
+    <string name="now_bar_live">లైవ్ అప్‌డేట్‌లు</string>
+    <string name="now_bar_live_summary">నావిగేషన్, రైడ్‌లు, డెలివరీలు, స్కోర్‌లు</string>
+    <string name="now_bar_scores">లైవ్ స్కోర్‌లు</string>
+    <string name="now_bar_live_apps">లైవ్ అప్‌డేట్‌ల కోసం యాప్‌లు</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> యాప్‌లు</string>
+    <string name="now_bar_pin">ఆల్వేస్-ఆన్ డిస్‌ప్లేపై పిన్ చేయబడింది</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g>ను అన్‌పిన్ చేయాలా?</string>
+    <string name="now_bar_unpin">అన్‌పిన్ చేయి</string>
+    <string name="now_bar_scores_summary">At a Glanceలో మీరు అనుసరించే ఆటలు</string>
+    <string name="now_bar_recording">స్క్రీన్, వాయిస్ రికార్డింగ్</string>
+    <string name="now_bar_buds">ఇయర్‌బడ్‌లు, వాచ్‌లు</string>
+    <string name="now_bar_buds_summary">కనెక్ట్ చేసిన పరికరాల బ్యాటరీ: ఇయర్‌బడ్‌ల కోసం ఎడమ, కుడి, కేస్</string>
+    <string name="now_bar_wave">వేవ్ యానిమేషన్</string>
+    <string name="now_bar_aod">ఆల్వేస్-ఆన్ డిస్‌ప్లేపై చూపించు</string>
+    <string name="now_bar_chip">స్టేటస్‌ బార్‌లో చిప్‌</string>
+    <string name="now_bar_chip_summary">అన్‌లాక్ చేసినప్పుడు క్లాక్ పక్కన మ్యూజిక్, టైమర్‌లను చూపించు</string>
+    <string name="now_bar_footer">Now Bar లో సంగీతం ఉన్నప్పుడు, పెద్ద లాక్ స్క్రీన్ ప్లేయర్ దాచబడుతుంది. కార్యకలాపాల మధ్య మారడానికి బార్‌ను స్వైప్ చేయండి, నియంత్రణలు తెరవడానికి నొక్కండి, ముగిసే వరకు ఒకదాన్ని దాచడానికి దీర్ఘంగా నొక్కండి. పాజ్ అయిన పాటను బార్ నుండి తీసివేయడానికి స్వైప్ చేయండి.\n\nGoogle యాప్‌లో మీరు అనుసరించే జట్ల ప్రత్యక్ష స్కోర్లు చూపబడతాయి. Smartspacer తో అక్కడ స్పోర్ట్స్ టార్గెట్ జోడిస్తే, దాని స్కోర్లు ఇక్కడికి వస్తాయి.</string>
+    <string name="now_bar_looks">లుక్‌లు</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"ఆటోమేటిక్"</item>
+        <item>Liquid Glass</item>
+        <item>మినీ</item>
+        <item>పెద్దది</item>
+        <item>నియాన్‌</item>
+        <item>గ్లాస్ కార్డ్</item>
+    </string-array>
+    <string name="now_bar_material">మెటీరియల్</string>
+    <string name="now_bar_material_summary">Liquid Glass, థీమ్‌లో మీరు సెట్ చేసిన గ్లాస్‌ను ఉపయోగిస్తుంది</string>
+    <string-array name="now_bar_material_entries">
+        <item>సాలిడ్</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>ఆల్బమ్ ఆర్ట్</item>
+        <item>యాక్సెంట్</item>
+        <item>డార్క్</item>
+    </string-array>
+    <string name="now_bar_opacity">అపారదర్శకత</string>
+    <string name="now_bar_opacity_summary">Liquid Glassతో, గ్లాస్‌కు ఎంత రంగు కలుస్తుందో</string>
+    <string name="now_bar_outline">అవుట్‌లైన్</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"ఏదీ వద్దు"</item>
+        <item>సన్నని</item>
+        <item>యాక్సెంట్</item>
+    </string-array>
+    <string name="now_bar_shadow">షాడో</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"ఆఫ్‌లో ఉంది"</item>
+        <item>సాఫ్ట్‌</item>
+        <item>గ్లో</item>
+    </string-array>
+    <string name="now_bar_more">మరిన్ని యాక్టివిటీలు</string>
+    <string-array name="now_bar_more_entries">
+        <item>స్వైప్ చేస్తే చాలు</item>
+        <item>చుక్కలు</item>
+        <item>వెనుక చూడు</item>
+    </string-array>
+    <string name="now_bar_size">పరిమాణం, ఆకారం</string>
+    <string name="now_bar_height">ఎత్తు</string>
+    <string name="now_bar_width_summary">పూర్తిగా ఉంటే షార్ట్‌కట్‌లు పైన బార్‌కి వెళ్తాయి</string>
+    <string-array name="now_bar_width_entries">
+        <item>ఇరుకైన</item>
+        <item>షార్ట్‌కట్‌ల మధ్య</item>
+        <item>ఫుల్</item>
+    </string-array>
+    <string name="now_bar_corners">మూలలు</string>
+    <string name="now_bar_raise">పైకి</string>
+    <string name="now_bar_art">ఆల్బమ్ ఆర్ట్</string>
+    <string-array name="now_bar_art_entries">
+        <item>"సర్కిల్"</item>
+        <item>రౌండెడ్</item>
+        <item>"చతురస్రం"</item>
+        <item>"ఆఫ్‌లో ఉంది"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>దాటవేసి ప్లే చేయి</item>
+        <item>ప్లే మాత్రమే</item>
+        <item>"ఏదీ వద్దు"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>ఒక లైన్</item>
+        <item>రెండు లైన్‌లు</item>
+        <item>పాట మాత్రమే</item>
+    </string-array>
+    <string name="now_bar_show_page">బార్‌లో ఏది కనిపిస్తుంది</string>
+    <string name="now_bar_show_page_summary">మ్యూజిక్, వీడియో, టైమర్‌లు, కాల్‌లు మరిన్ని</string>
+    <string name="now_bar_where">ఇంకా ఎక్కడ</string>
 </resources>

@@ -16,4 +16,53 @@
     <string name="looks_save_look">"சேமி"</string>
     <string name="looks_custom_color">"பிரத்தியேக வண்ணம்"</string>
     <string name="looks_part_clock_color">"கடிகார வண்ணம்"</string>
+    <string name="looks_title">தோற்றங்கள்</string>
+    <string name="looks_summary">உங்கள் முழு அமைப்பும் ஒரே தட்டில்</string>
+    <string name="looks_rr">RR தோற்றங்கள்</string>
+    <string name="looks_yours">உங்கள் தோற்றங்கள்</string>
+    <string name="looks_none">இதுவரை எதுவும் சேமிக்கப்படவில்லை</string>
+    <string name="looks_save">தற்போதையதைச் சேமி</string>
+    <string name="looks_import_clipboard">கிளிப்போர்டிலிருந்து</string>
+    <string name="looks_import_file">கோப்பிலிருந்து</string>
+    <string name="looks_mine">என் தோற்றம்</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> பயன்படுத்தப்பட்டது</string>
+    <string name="looks_failed">அனைத்தையும் பயன்படுத்த முடியவில்லை</string>
+    <string name="looks_invalid">இது RR தோற்றம் அல்ல</string>
+    <string name="looks_part_qs">QS பாணி</string>
+    <string name="looks_part_clock_face">பூட்டுத் திரை கடிகார வடிவம்</string>
+    <string name="looks_part_clock_look">நிலைப் பட்டி கடிகாரம்</string>
+    <string name="looks_part_edge">விளிம்பு ஒளிர்வு</string>
+    <string name="looks_part_boot">துவக்கு அனிமேஷன்</string>
+    <string name="looks_part_haptics">Haptic Remix அதிர்வு முறைகள்</string>
+    <string name="looks_saturation">செறிவு <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">உச்சரிப்பு</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>” பகிர்</string>
+    <string name="looks_share_hint">வேறொரு RR தொலைபேசியின் கேமராவால் ஸ்கேன் செய், அல்லது தோற்றங்கள் › இறக்குமதி என்பதில் செய்</string>
+    <string name="looks_share_file">கோப்பைப் பகிர்</string>
+    <string name="looks_save_file">கோப்பைச் சேமி</string>
+    <string name="looks_import_scan">QR குறியீட்டை ஸ்கேன் செய்</string>
+    <string name="looks_import_title">தோற்றத்தை இறக்குமதி செய்</string>
+    <string name="looks_from_qr">QR குறியீட்டிலிருந்து</string>
+    <string name="looks_from_file">கோப்பிலிருந்து</string>
+    <string name="looks_from_clipboard">கிளிப்போர்டிலிருந்து</string>
+    <string name="looks_import_same">இது ஏற்கனவே உங்கள் அமைப்புடன் பொருந்துகிறது.</string>
+    <string name="looks_new">புதிய தோற்றம்</string>
+    <string name="looks_edit_title">தோற்றத்தைத் திருத்து</string>
+    <string name="looks_in_look">இந்தத் தோற்றத்தில் உள்ளவை</string>
+    <string name="looks_not_included">இந்தத் தோற்றத்தில் இல்லாதவை</string>
+    <string name="looks_save_apply">சேமித்துப் பயன்படுத்து</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” சேமிக்கப்பட்டது</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” நீக்கப்படட்டுமா?</string>
+    <string name="looks_rr_wallpaper">RR வால்பேப்பர் <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">உச்சரிப்பு செறிவு</string>
+    <string name="looks_part_clock_chip">நிலைப் பட்டி கடிகாரச் சிப்</string>
+    <string name="looks_part_edge_style">விளிம்பு ஒளியின் பாணி</string>
+    <string name="looks_scan_hint">ஒரு Look-இன் QR குறியீட்டை கேமராவில் காட்டவும்</string>
+    <string name="looks_scan_failed">கேமராவைத் திறக்க முடியவில்லை</string>
+    <string name="look_roulette_title">Look ரவுலட்</string>
+    <string-array name="look_roulette_entries">
+        <item>"ஆஃப்"</item>
+        <item>ஒவ்வொரு திறத்தலிலும் வேறு Look</item>
+        <item>ஒவ்வொரு நாளும் வேறு Look</item>
+    </string-array>
 </resources>

@@ -8,4 +8,50 @@
         <item>"Keskitaso"</item>
         <item>"Suuri"</item>
     </string-array>
+    <string name="pie_title">Pii-valikot</string>
+    <string name="pie_summary">Pidä reunan alaosaa painettuna avataksesi pikakuvakkeiden piivalikon</string>
+    <string name="pie_zone">Osa reunasta</string>
+    <string name="pie_clock">Kello ja akku sen yläpuolella</string>
+    <string name="pie_items">Osat</string>
+    <string-array name="pie_items_entries">
+        <item>"Takaisin"</item>
+        <item>Koti</item>
+        <item>"Viimeaikaiset"</item>
+        <item>"Ilmoitukset"</item>
+        <item>Taskulamppu</item>
+        <item>"Kuvakaappaus"</item>
+        <item>"Virtavalikko"</item>
+        <item>Avustaja</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Se vaatii neljännessekunnin paikallaan pitämisen, joten nopea pyyhkäisy reunasta vie silti takaisin. Se ei avaudu lukitusnäytöllä.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Vasen"</item>
+        <item>"Oikea"</item>
+        <item>Molemmat</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Alin kolmannes</item>
+        <item>Keskikohta</item>
+        <item>Koko reuna</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Lasi</item>
+        <item>Klassinen</item>
+    </string-array>
+    <string name="sidebar_style_title">Sovellussivupalkin ulkoasu</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klassinen</item>
+        <item>RR-lasi</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Sovellussivupalkki</string>
+    <string name="sidebar_settings_summary">Pyyhkäise sisään kahvasta avataksesi sovelluksesi ja työkalut</string>
+    <string name="sidebar_apps_title">Sovellukset, kahva ja leikepöytä</string>
+    <string name="sidebar_apps_summary">Ota kahva käyttöön, valitse sovellukset ja määritä älykäs leikepöytä</string>
+    <string name="sidebar_handle_size_title">Kahvan koko</string>
+    <string name="sidebar_tools_title">Työkalurivi</string>
+    <string name="sidebar_tools_summary">Kuvakaappaus ja taskulamppu sovellusten alla</string>
+    <string name="sidebar_footer">Kahva on ohut viiva korostusvärilläsi; vedä sitä siirtääksesi sitä pitkin reunaa. Eleohjauksella se kattaa vain oman osuutensa reunasta, ja takaisin pääsee kaikkialla muualla.</string>
 </resources>

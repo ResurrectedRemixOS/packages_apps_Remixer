@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">기기 RKP 사용</string>
+    <string name="ts_rkp_enabled_summary">생성된 키박스를 사용합니다. 키박스를 가져오면 이 기능이 꺼집니다.</string>
+    <string name="ts_rkp_provision">키박스 생성</string>
+    <string name="ts_rkp_provision_summary">이 기기의 프로비저닝 서비스를 사용해 Google에 키박스를 요청합니다. 호환되는 Qualcomm 펌웨어가 필요합니다.</string>
+    <string name="ts_rkp_status">프로비저닝 상태</string>
+    <string name="ts_rkp_owner_only">기기 소유자 프로필에서 기기 RKP를 관리합니다</string>
+    <string name="ts_rkp_unavailable">기기 RKP를 사용할 수 없습니다</string>
+    <string name="ts_rkp_imported">가져온 키박스가 설치되어 있으면 비활성화됩니다</string>
+    <string name="ts_rkp_disabled">꺼짐. 키박스를 사용하거나 생성하려면 기기 RKP를 켜세요.</string>
+    <string name="ts_rkp_idle">키박스를 요청할 준비가 되었습니다</string>
+    <string name="ts_rkp_fetching">프로비저닝 챌린지를 가져오는 중…</string>
+    <string name="ts_rkp_hardware">기기의 프로비저닝 서비스를 기다리는 중…</string>
+    <string name="ts_rkp_signing">Google에서 인증서를 요청하는 중…</string>
+    <string name="ts_rkp_validating">키박스를 검증하고 저장하는 중…</string>
+    <string name="ts_rkp_ready">생성된 키박스가 활성 상태입니다. %1$s 전에 자동으로 갱신됩니다</string>
+    <string name="ts_rkp_keybox_stored">기기 RKP 키박스를 저장했습니다</string>
+    <string name="ts_rkp_expired">생성된 키박스가 만료되었습니다. 새 키박스를 생성하세요.</string>
+    <string name="ts_rkp_hal_rejected">펌웨어가 요청을 거부했습니다(코드 %1$d). Duck V1을 지원하지 않을 수 있습니다.</string>
+    <string name="ts_rkp_http_error">프로비저닝 서버가 요청을 거부했습니다(HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">이 기기는 호환되는 V1 프로비저닝 인터페이스를 제공하지 않습니다</string>
+    <string name="ts_rkp_network_error">프로비저닝 서버에 연결할 수 없습니다. 네트워크 연결을 확인하세요.</string>
+    <string name="ts_rkp_submission_unknown">서버 응답을 받지 못했습니다. 요청이 처리되었을 수 있으며 자동 재시도는 하지 않았습니다.</string>
+    <string name="ts_rkp_invalid_chain">키박스 인증서 검증에 실패했습니다. 기존 키박스를 유지했습니다.</string>
+    <string name="ts_rkp_timeout">프로비저닝 시간이 초과되었습니다. 기기 서비스가 여전히 바쁘면 기기를 재시작한 후 다시 시도하세요.</string>
+    <string name="ts_rkp_canceled">키박스 설정이 변경되어 요청이 취소되었습니다</string>
+    <string name="ts_rkp_save_failed">생성된 키박스를 저장할 수 없습니다</string>
+    <string name="ts_rkp_action_failed">키박스 작업을 완료할 수 없습니다</string>
+</resources>

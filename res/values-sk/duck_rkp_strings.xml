@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Použiť RKP zariadenia</string>
+    <string name="ts_rkp_enabled_summary">Použiť vygenerovaný keybox. Import keybox to vypne.</string>
+    <string name="ts_rkp_provision">Vygenerovať keybox</string>
+    <string name="ts_rkp_provision_summary">Vyžiadať keybox od Google pomocou poskytovacej služby tohto zariadenia. Vyžaduje kompatibilný firmvér Qualcomm.</string>
+    <string name="ts_rkp_status">Stav poskytovania</string>
+    <string name="ts_rkp_owner_only">Spravovať RKP zariadenia v profile vlastníka zariadenia</string>
+    <string name="ts_rkp_unavailable">RKP zariadenia nie je dostupné</string>
+    <string name="ts_rkp_imported">Vypnuté, kým je nainštalovaný importovaný keybox</string>
+    <string name="ts_rkp_disabled">Vypnuté. Povoľte RKP zariadenia, aby ste mohli použiť alebo vygenerovať keybox.</string>
+    <string name="ts_rkp_idle">Pripravené na vyžiadanie keybox</string>
+    <string name="ts_rkp_fetching">Získava sa výzva na poskytnutie…</string>
+    <string name="ts_rkp_hardware">Čaká sa na poskytovaciu službu zariadenia…</string>
+    <string name="ts_rkp_signing">Vyžadujú sa certifikáty od Google…</string>
+    <string name="ts_rkp_validating">Overuje sa a ukladá keybox…</string>
+    <string name="ts_rkp_ready">Vygenerovaný keybox je aktívny. Obnoví sa automaticky pred %1$s</string>
+    <string name="ts_rkp_keybox_stored">RKP zariadenia uložený keybox</string>
+    <string name="ts_rkp_expired">Vygenerovaný keybox vypršal. Vygenerujte náhradu.</string>
+    <string name="ts_rkp_hal_rejected">Firmvér odmietol požiadavku (kód %1$d). Duck V1 nemusí byť podporovaný.</string>
+    <string name="ts_rkp_http_error">Server na zabezpečenie odmietol požiadavku (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Zariadenie nepodporuje kompatibilné rozhranie na zabezpečenie V1</string>
+    <string name="ts_rkp_network_error">Nepodarilo sa pripojiť k serveru na zabezpečenie. Skontrolujte pripojenie.</string>
+    <string name="ts_rkp_submission_unknown">Odpoveď servera sa stratila. Požiadavka mohla byť spracovaná; automatické opakovanie nebolo vykonané.</string>
+    <string name="ts_rkp_invalid_chain">Certifikáty keybox zlyhali pri overení. Existujúci keybox bol zachovaný.</string>
+    <string name="ts_rkp_timeout">Zabezpečenie vypršalo. Ak je služba zariadenia stále zaneprázdnená, reštartujte zariadenie a skúste to znova.</string>
+    <string name="ts_rkp_canceled">Požiadavka bola zrušená, pretože sa zmenila konfigurácia keybox</string>
+    <string name="ts_rkp_save_failed">Vygenerovaný keybox sa nepodarilo uložiť</string>
+    <string name="ts_rkp_action_failed">Operáciu s keybox sa nepodarilo dokončiť</string>
+</resources>

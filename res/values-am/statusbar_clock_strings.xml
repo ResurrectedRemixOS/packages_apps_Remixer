@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"ቀን"</string>
     <string name="sb_weather_category">"የአየር ሁኔታ"</string>
+    <string name="sb_clock_category">ሰዓት እና ቀን</string>
+    <string name="sb_clock_bold_title">ደፋር ሰዓት</string>
+    <string name="sb_clock_bold_summary">የሁኔታ አሞሌው ሰዓት በደፋር ጽሑፍ አሳይ</string>
+    <string name="sb_clock_period_separator_title">የጊዜ መለያ</string>
+    <string name="sb_clock_period_separator_summary">10.45 ከ10:45 ይልቅ</string>
+    <string name="sb_clock_date_position_title">የቀን ቦታ</string>
+    <string name="sb_clock_date_style_title">የቀን ፊደል አጻጻፍ</string>
+    <string name="sb_clock_date_format_title">የቀን ቅርጸት</string>
+    <string name="sb_clock_chip_category">የሰዓት ዳራ</string>
+    <string name="sb_clock_chip_title">የዳራ ዘይቤ</string>
+    <string name="sb_clock_chip_start_title">የቅልመት መጀመሪያ</string>
+    <string name="sb_clock_chip_end_title">የቅልመት መጨረሻ</string>
+    <string name="sb_clock_chip_angle_title">የቅልመት አንግል</string>
+    <string name="sb_clock_chip_mask_title">ሰዓቱን ከቅልመቱ ቁረጥ</string>
+    <string name="sb_clock_chip_mask_summary">ቅልመቱ ከአሃዞቹ ጀርባ ሳይሆን በአሃዞቹ በኩል ይታያል</string>
+    <string name="sb_weather_title">የአየር ሁኔታ በሁኔታ አሞሌው</string>
+    <string name="sb_weather_position_title">ቦታ</string>
+    <string name="status_bar_clock_rr_style_title">የሰዓት መልክ</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"ነባሪ"</item>
+        <item>ኒዮን</item>
+        <item>ተከፋፍሎ</item>
+        <item>RR ምልክት</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>ተደራርቦ</item>
+        <item>ፍም</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">ከሰዓቱ ጎን ያለ Flatline</string>
+    <string name="sb_clock_flatline_summary">የRR የልብ ምት መስመር በቺፑ ውስጥ፦ ከሙዚቃ ጋር ይመታል፣ ማሳወቂያ ሲደርስ ይነሳል</string>
 </resources>

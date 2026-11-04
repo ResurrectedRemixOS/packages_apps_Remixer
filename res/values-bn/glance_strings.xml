@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glance_title">এক নজরে</string>
+    <string name="glance_summary">স্টক ঘড়ির নিচে Pixel-এর মতো Google-এর তারিখ, আবহাওয়া ও কার্ড দেখান। ঘড়ির ফেসের নিজস্ব সারি থাকবে</string>
+</resources>

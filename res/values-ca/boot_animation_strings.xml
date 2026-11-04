@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Animació d\'arrencada</string>
+    <string name="boot_animation_note">Es reproduirà la próxima vegada que s\'inicie el telèfon.</string>
+    <string name="boot_animation_custom">El teu fitxer</string>
+    <string name="boot_animation_custom_pick">Tria un fitxer…</string>
+    <string name="boot_animation_custom_invalid">Aquest fitxer no és una animació d\'arrencada</string>
+    <string name="boot_animation_failed">No s\'ha pogut canviar l\'animació d\'arrencada</string>
+</resources>

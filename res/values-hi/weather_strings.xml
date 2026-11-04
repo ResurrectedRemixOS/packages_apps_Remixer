@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"विवरण"</string>
     <string name="lockscreen_weather_location_title">"जगह"</string>
+    <string name="lockscreen_weather_title">लॉक स्क्रीन पर मौसम</string>
+    <string name="lockscreen_weather_location_summary">शहर का नाम दिखाएं</string>
+    <string name="lockscreen_weather_text_title">स्थिति</string>
+    <string name="lockscreen_weather_text_summary">स्थिति दिखाएं, जैसे बादल या साफ़ आसमान</string>
+    <string name="lockscreen_weather_wind_title">हवा</string>
+    <string name="lockscreen_weather_wind_summary">हवा की गति और दिशा दिखाएं</string>
+    <string name="lockscreen_weather_humidity_title">नमी</string>
+    <string name="lockscreen_weather_humidity_summary">नमी दिखाएं</string>
+    <string name="custom_clock_weather_title">घड़ी के फ़ेस पर मौसम</string>
+    <string name="custom_clock_weather_summary">जिन घड़ी फ़ेस में जगह हो, उनमें मौसम दिखाएं</string>
+    <string name="remixer_weather_service">मौसम सेवा</string>
+    <string name="remixer_weather_page_summary">लॉक स्क्रीन मौसम और उसमें क्या दिखे</string>
 </resources>

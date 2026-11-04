@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Kék"</string>
     <string name="haptic_remix_color_green">"Zöld"</string>
     <string name="haptic_remix_color_white">"Fehér"</string>
+    <string name="haptic_remix_summary">Koppintsa le a rezgésmintákat hívásokhoz, alkalmazásokhoz, ébresztőkhöz és feloldásokhoz</string>
+    <string name="haptic_remix_record">Rögzítés</string>
+    <string name="haptic_remix_pad">koppintson a ritmusra</string>
+    <string name="haptic_remix_strength">Erősség</string>
+    <string name="haptic_remix_clear">Törlés</string>
+    <string name="haptic_remix_play">Lejátszás</string>
+    <string name="haptic_remix_name">Mintanév</string>
+    <string name="haptic_remix_empty">Még nincs rögzítve semmi</string>
+    <string name="haptic_remix_too_long">A minta legfeljebb 30 másodpercig tarthat</string>
+    <string name="haptic_remix_presets">Előbeállítások</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Üveg</string>
+    <string name="haptic_remix_preset_ringtone">A csengőhang ritmusa</string>
+    <string name="haptic_remix_listening">Csengőhang hallgatása…</string>
+    <string name="haptic_remix_no_ringtone">A csengőhangot nem lehetett beolvasni</string>
+    <string name="haptic_remix_patterns">Az Ön mintái</string>
+    <string name="haptic_remix_patterns_none">Előbb mentsen egy mintát. A törléshez tartsa lenyomva.</string>
+    <string name="haptic_remix_broken">Ez a minta nem olvasható</string>
+    <string name="haptic_remix_delete">Törli: <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Hozzárendelés</string>
+    <string name="haptic_remix_alarm">Ébresztő és időzítő</string>
+    <string name="haptic_remix_plug">Csatlakoztatva</string>
+    <string name="haptic_remix_fingerprint">Ujjlenyomat sikeres</string>
+    <string name="haptic_remix_add_contact">Névjegy hozzáadása</string>
+    <string name="haptic_remix_edge_color">Élfény <xliff:g id="name" example="Mia">%1$s</xliff:g> üzenetei számára</string>
+    <string name="haptic_remix_color_accent">Kiemelés</string>
+    <string name="haptic_remix_color_crimson">Bíborvörös</string>
+    <string name="haptic_remix_color_amber">Borostyán</string>
+    <string name="haptic_remix_add_app">Alkalmazás értesítéseinek hozzáadása</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · koppintson a módosításhoz, tartsa lenyomva az élszínhez</string>
+    <string name="haptic_remix_no_contacts">A Névjegyekből nem érkezett szám</string>
 </resources>

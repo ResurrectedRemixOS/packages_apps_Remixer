@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Gestos</string>
     <string name="backup_group_other">"Altres"</string>
     <string name="backup_done">"Fet"</string>
+    <string name="backup_summary">Totes les personalitzacions de RR en un sol fitxer</string>
+    <string name="backup_now">Fes una còpia de seguretat ara</string>
+    <string name="backup_never">Última còpia: mai</string>
+    <string name="backup_last">Última còpia: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Restaura des d\'un fitxer</string>
+    <string name="backup_restore_summary">Tria un fitxer de còpia de seguretat</string>
+    <string name="backup_included">Inclòs</string>
+    <string name="backup_part_theme">Accent, tipus de lletra i icones</string>
+    <string name="backup_part_header">Imatge de capçalera</string>
+    <string name="backup_part_photo">Imatge de capçalera (la teva foto)</string>
+    <string name="backup_part_photo_summary">Fa el fitxer més gran</string>
+    <string name="backup_part_boot">Animació d\'arrencada</string>
+    <string name="backup_part_looks">Els teus aspectes</string>
+    <string name="backup_weekly">Còpia setmanal</string>
+    <string name="backup_weekly_summary">En una carpeta que triïs</string>
+    <string name="backup_weekly_on">Cada setmana a <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Ofereix una còpia abans de les actualitzacions</string>
+    <string name="backup_offer_summary">L\'actualitzador pregunta abans d\'instal·lar</string>
+    <string name="backup_sets">Defineix <xliff:g id="count" example="64">%1$d</xliff:g> ajustaments</string>
+    <string name="backup_saved">S\'han desat <xliff:g id="count" example="64">%1$d</xliff:g> ajustaments</string>
+    <string name="backup_restored">S\'han restaurat <xliff:g id="count" example="64">%1$d</xliff:g> ajustaments</string>
+    <string name="backup_restored_message">SystemUI es reinicia per aplicar-los.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> ajustaments no existeixen en aquesta compilació i s\'han omès.</string>
+    <string name="backup_failed">No s\'ha pogut desar la còpia de seguretat</string>
+    <string name="backup_invalid">Aquest fitxer no és una còpia de seguretat de Resurrected Remix</string>
+    <string name="backup_footer">Al fitxer només hi van ajustaments de RR: ni comptes, ni contrasenyes, ni xarxes Wi-Fi, ni aplicacions ni missatges. La restauració només escriu ajustaments de la llista pròpia de RR, de manera que un fitxer de còpia no pot canviar res més del telèfon. La foto de capçalera només s\'hi inclou si el seu interruptor està activat, ja que fa el fitxer més gran.</string>
+    <string name="volume_style_title">Estil del panell de volum</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neó</item>
+        <item>Vidre</item>
+        <item>Píndola</item>
+        <item>RR clàssic</item>
+        <item>Bento</item>
+        <item>Formes</item>
+        <item>Plànol</item>
+        <item>Duo</item>
+        <item>Suau</item>
+    </string-array>
 </resources>

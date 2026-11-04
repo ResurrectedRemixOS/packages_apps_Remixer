@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Κινούμενο εκκίνησης</string>
+    <string name="boot_animation_note">Θα παιχτεί την επόμενη φορά που θα ξεκινήσει το τηλέφωνο.</string>
+    <string name="boot_animation_custom">Το αρχείο σας</string>
+    <string name="boot_animation_custom_pick">Επιλέξτε αρχείο…</string>
+    <string name="boot_animation_custom_invalid">Το αρχείο δεν είναι κινούμενη εικόνα εκκίνησης</string>
+    <string name="boot_animation_failed">Δεν ήταν δυνατή η αλλαγή της κινούμενης εικόνας εκκίνησης</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Użyj RKP urządzenia</string>
+    <string name="ts_rkp_enabled_summary">Użyj wygenerowanego keyboxa. Zaimportowanie keyboxa wyłącza tę opcję.</string>
+    <string name="ts_rkp_provision">Wygeneruj keybox</string>
+    <string name="ts_rkp_provision_summary">Poproś Google o keybox przez usługę zaopatrywania tego urządzenia. Wymaga zgodnego oprogramowania układowego Qualcomm.</string>
+    <string name="ts_rkp_status">Stan zaopatrywania</string>
+    <string name="ts_rkp_owner_only">Zarządzaj RKP urządzenia z profilu właściciela urządzenia</string>
+    <string name="ts_rkp_unavailable">RKP urządzenia jest niedostępne</string>
+    <string name="ts_rkp_imported">Wyłączone, gdy zainstalowany jest zaimportowany keybox</string>
+    <string name="ts_rkp_disabled">Wyłączone. Włącz RKP urządzenia, aby użyć lub wygenerować keybox.</string>
+    <string name="ts_rkp_idle">Gotowe do żądania keyboxa</string>
+    <string name="ts_rkp_fetching">Pobieranie wyzwania zaopatrywania…</string>
+    <string name="ts_rkp_hardware">Oczekiwanie na usługę zaopatrywania urządzenia…</string>
+    <string name="ts_rkp_signing">Żądanie certyfikatów od Google…</string>
+    <string name="ts_rkp_validating">Weryfikowanie i zapisywanie keyboxa…</string>
+    <string name="ts_rkp_ready">Wygenerowany keybox aktywny. Odnawia się automatycznie przed %1$s</string>
+    <string name="ts_rkp_keybox_stored">Zapisano keybox RKP urządzenia</string>
+    <string name="ts_rkp_expired">Wygenerowany keybox wygasł. Wygeneruj zastępczy.</string>
+    <string name="ts_rkp_hal_rejected">Oprogramowanie układowe odrzuciło żądanie (kod %1$d). Duck V1 może nie być obsługiwane.</string>
+    <string name="ts_rkp_http_error">Serwer zaopatrywania odrzucił żądanie (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Urządzenie nie udostępnia zgodnego interfejsu zaopatrywania V1</string>
+    <string name="ts_rkp_network_error">Nie można połączyć się z serwerem zaopatrywania. Sprawdź połączenie.</string>
+    <string name="ts_rkp_submission_unknown">Odpowiedź serwera zaginęła. Żądanie mogło zostać przetworzone; nie podjęto automatycznej ponownej próby.</string>
+    <string name="ts_rkp_invalid_chain">Certyfikaty keyboxa nie przeszły weryfikacji. Istniejący keybox został zachowany.</string>
+    <string name="ts_rkp_timeout">Upłynął limit czasu zaopatrywania. Jeśli usługa urządzenia nadal jest zajęta, uruchom urządzenie ponownie przed kolejną próbą.</string>
+    <string name="ts_rkp_canceled">Żądanie anulowano, ponieważ zmieniła się konfiguracja keyboxa</string>
+    <string name="ts_rkp_save_failed">Nie udało się zapisać wygenerowanego keyboxa</string>
+    <string name="ts_rkp_action_failed">Nie udało się wykonać operacji na keyboxie</string>
+</resources>

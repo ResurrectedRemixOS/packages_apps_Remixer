@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"កាលបរិច្ឆេទ"</string>
     <string name="sb_weather_category">"អាកាសធាតុ"</string>
+    <string name="sb_clock_category">នាឡិកា &amp; កាលបរិច្ឆេទ</string>
+    <string name="sb_clock_bold_title">នាឡិកាដិត</string>
+    <string name="sb_clock_bold_summary">បង្ហាញនាឡិកានៅរបារស្ថានភាពជាអក្សរដិត</string>
+    <string name="sb_clock_period_separator_title">ចំណែកបំបែករវាងម៉ោង និងនាទី</string>
+    <string name="sb_clock_period_separator_summary">10.45 ជំនួសឱ្យ 10:45</string>
+    <string name="sb_clock_date_position_title">ទីតាំងកាលបរិច្ឆេទ</string>
+    <string name="sb_clock_date_style_title">ទម្រង់អក្សរនៃកាលបរិច្ឆេទ</string>
+    <string name="sb_clock_date_format_title">ទម្រង់កាលបរិច្ឆេទ</string>
+    <string name="sb_clock_chip_category">ផ្ទៃខាងក្រោយនាឡិកា</string>
+    <string name="sb_clock_chip_title">រចនាប័ទ្មផ្ទៃខាងក្រោយ</string>
+    <string name="sb_clock_chip_start_title">ចាប់ផ្តើមហ្គ្រេឌីយ៉ង់</string>
+    <string name="sb_clock_chip_end_title">បញ្ចប់ហ្គ្រេឌីយ៉ង់</string>
+    <string name="sb_clock_chip_angle_title">មុំហ្គ្រេឌីយ៉ង់</string>
+    <string name="sb_clock_chip_mask_title">កាត់ម៉ោងចេញពីហ្គ្រេឌីយ៉ង់</string>
+    <string name="sb_clock_chip_mask_summary">ហ្គ្រេឌីយ៉ង់បង្ហាញតាមលេខ ជំនួសឱ្យនៅខាងក្រោយ</string>
+    <string name="sb_weather_title">អាកាសធាតុនៅរបារស្ថានភាព</string>
+    <string name="sb_weather_position_title">ទីតាំង</string>
+    <string name="status_bar_clock_rr_style_title">រូបរាងនាឡិកា</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"លំនាំដើម"</item>
+        <item>នេអុង</item>
+        <item>បំបែក</item>
+        <item>សញ្ញា RR</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>ជាន់គ្នា</item>
+        <item>អេមប័រ</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline ក្បែរម៉ោង</string>
+    <string name="sb_clock_flatline_summary">បន្ទាត់បេះដូង RR នៅក្នុងប្រអប់ ញ័រតាមតន្ត្រី ហើយឡើងខ្ពស់ពេលមានការជូនដំណឹងចូល</string>
 </resources>

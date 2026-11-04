@@ -2,4 +2,18 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Kiedy"</string>
     <string name="nightstand_face">Tarcza zegara</string>
+    <string name="nightstand_title">Nocna lampka</string>
+    <string name="nightstand_summary">Przygaszony zegar nocny na ekranie stałego wyświetlania podczas nocnego ładowania</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Wyłączono"</item>
+        <item>Na ładowarce w nocy</item>
+        <item>Każdej nocy, według harmonogramu</item>
+        <item>Gdy włączony jest tryb pory snu</item>
+    </string-array>
+    <string name="nightstand_from">Początek nocy</string>
+    <string name="nightstand_to">Koniec nocy</string>
+    <string name="nightstand_brightness">Limit jasności</string>
+    <string name="nightstand_brightness_summary">Jak jasny może być ekran stałego wyświetlania, gdy włączona jest nocna lampka</string>
+    <string name="nightstand_face_keep">Zachowaj obecną tarczę</string>
+    <string name="nightstand_footer">Nocna lampka włącza ekran stałego wyświetlania podczas działania i przywraca go po zakończeniu. Kończy się, gdy odłączysz ładowarkę, zadzwoni alarm lub minie noc. Tarcza przełącza tylko między dwiema własnymi tarczami; zegar systemowy pozostaje.</string>
 </resources>

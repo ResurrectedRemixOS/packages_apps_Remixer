@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Žestid</string>
     <string name="backup_group_other">"Muu"</string>
     <string name="backup_done">"Valmis"</string>
+    <string name="backup_summary">Kõik RR-i kohandused ühes failis</string>
+    <string name="backup_now">Varunda kohe</string>
+    <string name="backup_never">Viimane varundus: puudub</string>
+    <string name="backup_last">Viimane varundus: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Taasta failist</string>
+    <string name="backup_restore_summary">Vali varundusfail</string>
+    <string name="backup_included">Kaasatud</string>
+    <string name="backup_part_theme">Aktsent, font ja ikoonid</string>
+    <string name="backup_part_header">Päisepilt</string>
+    <string name="backup_part_photo">Päise pilt (sinu foto)</string>
+    <string name="backup_part_photo_summary">Muudab faili suuremaks</string>
+    <string name="backup_part_boot">Käivitusanimatsioon</string>
+    <string name="backup_part_looks">Sinu vaated</string>
+    <string name="backup_weekly">Nädalane varundus</string>
+    <string name="backup_weekly_summary">Valitud kausta</string>
+    <string name="backup_weekly_on">Iga nädal kausta <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Paku varundust enne uuendusi</string>
+    <string name="backup_offer_summary">Uuendaja küsib enne paigaldamist</string>
+    <string name="backup_sets">Seab <xliff:g id="count" example="64">%1$d</xliff:g> seadet</string>
+    <string name="backup_saved">Salvestati <xliff:g id="count" example="64">%1$d</xliff:g> seadet</string>
+    <string name="backup_restored">Taastati <xliff:g id="count" example="64">%1$d</xliff:g> seadet</string>
+    <string name="backup_restored_message">SystemUI taaskäivitub, et need rakendada.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> seadeid selles versioonis ei ole ja need jäeti vahele.</string>
+    <string name="backup_failed">Varundust ei õnnestunud salvestada</string>
+    <string name="backup_invalid">See fail ei ole Resurrected Remixi varundus</string>
+    <string name="backup_footer">Faili lähevad ainult RR-i seaded: mitte kontod, paroolid, Wi-Fi võrgud, rakendused ega sõnumid. Taastamine kirjutab ainult RR-i enda nimekirjas olevaid seadeid, nii et varundusfail ei saa telefonis midagi muud muuta. Päise foto lisatakse ainult siis, kui selle lüliti on sees, sest see muudab faili suuremaks.</string>
+    <string name="volume_style_title">Helitugevuspaneeli stiil</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neoon</item>
+        <item>Klaas</item>
+        <item>Navigeerimisriba</item>
+        <item>Klassikaline RR</item>
+        <item>Bento</item>
+        <item>Kujundid</item>
+        <item>Plaan</item>
+        <item>Duo</item>
+        <item>Pehme</item>
+    </string-array>
 </resources>

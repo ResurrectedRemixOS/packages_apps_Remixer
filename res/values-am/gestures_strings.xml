@@ -8,4 +8,50 @@
         <item>"መካከለኛ"</item>
         <item>"ትልቅ"</item>
     </string-array>
+    <string name="pie_title">የፓይ መቆጣጠሪያዎች</string>
+    <string name="pie_summary">ለአቋራጮች ፓይ ለማግኘት የጠርዙን የታችኛውን ክፍል ለሩብ ሰከንድ ይያዙ</string>
+    <string name="pie_zone">የጠርዙ ክፍል</string>
+    <string name="pie_clock">ሰዓትና ባትሪ ከበላዩ</string>
+    <string name="pie_items">ቁራጮች</string>
+    <string-array name="pie_items_entries">
+        <item>"ተመለስ"</item>
+        <item>መነሻ</item>
+        <item>"የቅርብ ጊዜዎቹ"</item>
+        <item>"ማሳወቂያዎች"</item>
+        <item>"የባትሪ ብርሃን"</item>
+        <item>"ቅጽበታዊ ገፅ ዕይታ"</item>
+        <item>"የኃይል ምናሌ"</item>
+        <item>"ረዳት"</item>
+        <item>"ካሜራ"</item>
+    </string-array>
+    <string name="pie_footer">ያለመንቀሳቀስ ለሩብ ሰከንድ መያዝ ያስፈልጋል፤ ስለዚህ ከጠርዙ ፈጣን ማንሸራተት አሁንም ወደ ኋላ ይመልሳል። በመክፈቻ ማያ ገጽ ላይ አይከፈትም።</string>
+    <string-array name="pie_edges_entries">
+        <item>"ግራ"</item>
+        <item>"ቀኝ"</item>
+        <item>ሁለቱም</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>ዝቅተኛ ሦስተኛ</item>
+        <item>መሃል</item>
+        <item>ሙሉ ጠርዝ</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>ኒዮን</item>
+        <item>ብርጭቆ</item>
+        <item>ክላሲክ</item>
+    </string-array>
+    <string name="sidebar_style_title">የመተግበሪያ የጎን አሞሌ ገጽታ</string>
+    <string-array name="sidebar_style_entries">
+        <item>ክላሲክ</item>
+        <item>RR መስታወት</item>
+        <item>ኒዮን</item>
+    </string-array>
+    <string name="sidebar_settings_title">የመተግበሪያ የጎን አሞሌ</string>
+    <string name="sidebar_settings_summary">ለመተግበሪያዎችና መሳሪያዎች ከመያዣው ያንሸራትቱ</string>
+    <string name="sidebar_apps_title">መተግበሪያዎች፣ መያዣና ክሊፕቦርድ</string>
+    <string name="sidebar_apps_summary">መያዣውን ያብሩ፣ መተግበሪያዎቹን ይምረጡ፣ ብልህ ክሊፕቦርዱን ያዋቅሩ</string>
+    <string name="sidebar_handle_size_title">የመያዣ መጠን</string>
+    <string name="sidebar_tools_title">የመሳሪያዎች ረድፍ</string>
+    <string name="sidebar_tools_summary">ቅጽበታዊ ገፅ ዕይታና የባትሪ ብርሃን ከመተግበሪያዎችዎ በታች</string>
+    <string name="sidebar_footer">መያዣው በአክሰንት ቀለምዎ የቀጭን መስመር ነው፤ በጠርዙ ላይ ለማንቀሳቀስ ይጎትቱት። በእጅ ምልክት የአሰሳ ሁነታ መያዣው የራሱን ክፍል ብቻ ይሸፍናል፤ ወደ ኋላ መመለስ በሌላው ጠርዝ ላይ ይሰራል።</string>
 </resources>

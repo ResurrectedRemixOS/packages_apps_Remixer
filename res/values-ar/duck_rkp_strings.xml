@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">استخدام RKP الجهاز</string>
+    <string name="ts_rkp_enabled_summary">استخدم keybox مُنشأً. يؤدي استيراد keybox إلى إيقاف هذا الخيار.</string>
+    <string name="ts_rkp_provision">إنشاء keybox</string>
+    <string name="ts_rkp_provision_summary">اطلب keybox من Google عبر خدمة التزويد في هذا الجهاز. يتطلب برنامجاً ثابتاً متوافقاً من Qualcomm.</string>
+    <string name="ts_rkp_status">حالة التزويد</string>
+    <string name="ts_rkp_owner_only">أدر RKP الجهاز من ملف مالك الجهاز</string>
+    <string name="ts_rkp_unavailable">RKP الجهاز غير متاح</string>
+    <string name="ts_rkp_imported">معطّل أثناء تثبيت keybox مستورد</string>
+    <string name="ts_rkp_disabled">معطّل. فعّل RKP الجهاز لاستخدام keybox أو إنشائه.</string>
+    <string name="ts_rkp_idle">جاهز لطلب keybox</string>
+    <string name="ts_rkp_fetching">جارٍ الحصول على تحدي التزويد…</string>
+    <string name="ts_rkp_hardware">في انتظار خدمة التزويد في الجهاز…</string>
+    <string name="ts_rkp_signing">جارٍ طلب الشهادات من Google…</string>
+    <string name="ts_rkp_validating">جارٍ التحقق من keybox وحفظه…</string>
+    <string name="ts_rkp_ready">keybox المُنشأ نشط. يتجدد تلقائياً قبل %1$s</string>
+    <string name="ts_rkp_keybox_stored">تم حفظ keybox الخاص بـ RKP الجهاز</string>
+    <string name="ts_rkp_expired">انتهت صلاحية keybox المُنشأ. أنشئ بديلاً.</string>
+    <string name="ts_rkp_hal_rejected">رفض البرنامج الثابت الطلب (الرمز %1$d). قد لا يكون Duck V1 مدعوماً.</string>
+    <string name="ts_rkp_http_error">رفض خادم التزويد الطلب (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">لا يوفر الجهاز واجهة تزويد V1 متوافقة</string>
+    <string name="ts_rkp_network_error">تعذّر الوصول إلى خادم التزويد. تحقق من اتصالك.</string>
+    <string name="ts_rkp_submission_unknown">فُقدت استجابة الخادم. ربما تمت معالجة الطلب؛ لم تتم أي إعادة محاولة تلقائية.</string>
+    <string name="ts_rkp_invalid_chain">فشل التحقق من شهادات keybox. تم الاحتفاظ بالـ keybox الحالي.</string>
+    <string name="ts_rkp_timeout">انتهت مهلة التزويد. إذا كانت خدمة الجهاز لا تزال مشغولة، فأعد تشغيل الجهاز قبل المحاولة مجدداً.</string>
+    <string name="ts_rkp_canceled">أُلغي الطلب لأن إعدادات keybox قد تغيّرت</string>
+    <string name="ts_rkp_save_failed">تعذّر حفظ keybox المُنشأ</string>
+    <string name="ts_rkp_action_failed">تعذّر إكمال عملية keybox</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="volume_page_title">ແຜງປັບສຽງ</string>
+    <string name="volume_page_summary">ນີອອນ, ແກ້ວ, ແຖບ ຫຼື RR ແບບຄລາສສິກ</string>
+    <string name="volume_behavior">ພຶດຕິກຳ</string>
+    <string name="volume_on_left_title">ແຜງຢູ່ດ້ານຊ້າຍ</string>
+    <string name="volume_on_left_summary">RR ແບບຄລາສສິກຈະຢູ່ເທິງສຸດສະເໝີ</string>
+    <string name="volume_ringer_title">ປຸ່ມໂໝດສຽງລິງ</string>
+    <string name="volume_tick_title">ມີສຽງຄລິກຕອນເລື່ອນ</string>
+    <string name="volume_percent_title">ສະແດງລະດັບເປັນເປີເຊັນ</string>
+    <string name="volume_timeout_title">ເຊື່ອງຫຼັງຈາກ</string>
+    <string name="volume_footer">ຮູບແບບປ່ຽນລັກສະນະຂອງແຜງ ບໍ່ໄດ້ປ່ຽນວິທີການເຮັດວຽກ. Android ຈະຮັກສາແຜງມາດຕະຖານ. ແຕະຈຸດເພື່ອເບິ່ງທຸກສຽງ; ແຜງທີ່ຂະຫຍາຍກໍໃຊ້ຮູບແບບດຽວກັນ.</string>
+</resources>

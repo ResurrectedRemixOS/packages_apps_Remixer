@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Մանրամասներ"</string>
     <string name="lockscreen_weather_location_title">"Տեղադրություն"</string>
+    <string name="lockscreen_weather_title">Եղանակը կողպէկրանին</string>
+    <string name="lockscreen_weather_location_summary">Ցուցադրել քաղաքի անունը</string>
+    <string name="lockscreen_weather_text_title">Վիճակ</string>
+    <string name="lockscreen_weather_text_summary">Ցուցադրել վիճակը, օրինակ՝ Ամպամած կամ Պարզ երկինք</string>
+    <string name="lockscreen_weather_wind_title">Քամի</string>
+    <string name="lockscreen_weather_wind_summary">Ցուցադրել քամու արագությունն ու ուղղությունը</string>
+    <string name="lockscreen_weather_humidity_title">Խոնավություն</string>
+    <string name="lockscreen_weather_humidity_summary">Ցուցադրել խոնավությունը</string>
+    <string name="custom_clock_weather_title">Եղանակը ժամացույցի ոճերի վրա</string>
+    <string name="custom_clock_weather_summary">Ցուցադրել եղանակը այն ժամացույցի ոճերում, որտեղ տեղ կա</string>
+    <string name="remixer_weather_service">Եղանակի ծառայություն</string>
+    <string name="remixer_weather_page_summary">Կողպէկրանի եղանակը և դրա ցուցադրածը</string>
 </resources>

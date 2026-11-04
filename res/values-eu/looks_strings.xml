@@ -15,4 +15,54 @@
     <string name="looks_save_look">"Gorde"</string>
     <string name="looks_custom_color">"Kolore pertsonalizatua"</string>
     <string name="looks_part_clock_color">"Erloju-kolorea"</string>
+    <string name="looks_title">Looks</string>
+    <string name="looks_summary">Zure ezarpen osoa sakatu bakar batean</string>
+    <string name="looks_rr">RR looks</string>
+    <string name="looks_yours">Zure looks</string>
+    <string name="looks_none">Oraindik ez da ezer gorde</string>
+    <string name="looks_save">Gorde unekoa</string>
+    <string name="looks_import_clipboard">Arbeletik</string>
+    <string name="looks_import_file">Fitxategi batetik</string>
+    <string name="looks_mine">Nire look</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> aplikatuta</string>
+    <string name="looks_failed">Ezin izan da dena aplikatu</string>
+    <string name="looks_invalid">Hau ez da RR look bat</string>
+    <string name="looks_part_accent">Azentu-kolorea</string>
+    <string name="looks_part_qs">Ezarpen bizkorren estiloa</string>
+    <string name="looks_part_clock_face">Pantaila blokeatuaren erloju-estiloa</string>
+    <string name="looks_part_clock_look">Egoera-barraren erlojua</string>
+    <string name="looks_part_edge">Ertzeko argiztapena</string>
+    <string name="looks_part_boot">Abiatze-animazioa</string>
+    <string name="looks_part_haptics">Haptic Remix ereduak</string>
+    <string name="looks_saturation">Saturazioa <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Azentua</string>
+    <string name="looks_share_title">Partekatu “<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">Eskaneatu beste RR telefono baten kamerarekin, edo Looks › Inportatu atalean</string>
+    <string name="looks_share_file">Partekatu fitxategia</string>
+    <string name="looks_save_file">Gorde fitxategia</string>
+    <string name="looks_import_scan">Eskaneatu QR kodea</string>
+    <string name="looks_import_title">Inportatu look</string>
+    <string name="looks_from_qr">QR kodetik</string>
+    <string name="looks_from_file">fitxategitik</string>
+    <string name="looks_from_clipboard">arbeletik</string>
+    <string name="looks_import_same">Dagoeneko zure ezarpenarekin bat dator.</string>
+    <string name="looks_new">Look berria</string>
+    <string name="looks_edit_title">Editatu look</string>
+    <string name="looks_in_look">Look honetan</string>
+    <string name="looks_not_included">Look honetan ez</string>
+    <string name="looks_save_apply">Gorde eta aplikatu</string>
+    <string name="looks_saved">\"<xliff:g id="name" example="Sunday">%1$s</xliff:g>\" gordeta</string>
+    <string name="looks_delete_confirm">\"<xliff:g id="name" example="Sunday">%1$s</xliff:g>\" ezabatu?</string>
+    <string name="looks_rr_wallpaper">RR horma-papera <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Azentuaren saturazioa</string>
+    <string name="looks_part_clock_chip">Egoera-barrako erloju-txipa</string>
+    <string name="looks_part_edge_style">Ertzeko argiztapen-estiloa</string>
+    <string name="looks_scan_hint">Apuntatu kamera Look-aren QR kodera</string>
+    <string name="looks_scan_failed">Ezin izan da kamera ireki</string>
+    <string name="look_roulette_title">Look ruleta</string>
+    <string-array name="look_roulette_entries">
+        <item>"Desaktibatuta"</item>
+        <item>Look desberdin bat desblokeo bakoitzean</item>
+        <item>Look desberdin bat egunero</item>
+    </string-array>
 </resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"વૉલપેપર"</item>
+        <item>રિસરેક્ટેડ</item>
+        <item>Android One ગ્રીન</item>
+        <item>Aospa ગ્રીન</item>
+        <item>Coca Cola રેડ</item>
+        <item>Discord પર્પલ</item>
+        <item>Facebook બ્લૂ</item>
+        <item>Instagram સેરિસ</item>
+        <item>Jollibee ક્રિમસન</item>
+        <item>Monster Energy ગ્રીન</item>
+        <item>Nextbit મિન્ટ</item>
+        <item>OnePlus રેડ</item>
+        <item>Pepsi બ્લૂ</item>
+        <item>Pixel બ્લૂ</item>
+        <item>Pocophone યલો</item>
+        <item>Razer ગ્રીન</item>
+        <item>Samsung બ્લૂ</item>
+        <item>Spotify ગ્રીન</item>
+        <item>Starbucks ગ્રીન</item>
+        <item>Twitch પર્પલ</item>
+        <item>Twitter બ્લૂ</item>
+        <item>Xiaomi ઓરેન્જ</item>
+        <item>ઍમ્બર</item>
+        <item>"કાળો"</item>
+        <item>"વાદળી"</item>
+        <item>બ્લૂ ગ્રે</item>
+        <item>બ્રાઉન</item>
+        <item>"સાયન"</item>
+        <item>ડીપ ઓરેન્જ</item>
+        <item>ડીપ પર્પલ</item>
+        <item>"લીલો"</item>
+        <item>"રાખોડી"</item>
+        <item>"ઘેરો વાદળી રંગ"</item>
+        <item>લાઇટ બ્લૂ</item>
+        <item>લાઇમ</item>
+        <item>"નારંગી"</item>
+        <item>"ગુલાબી"</item>
+        <item>"જાંબલી"</item>
+        <item>"લાલ"</item>
+        <item>"ટીલ"</item>
+        <item>વપરાશકર્તા પાંચ</item>
+        <item>વપરાશકર્તા ચાર</item>
+        <item>વપરાશકર્તા એક</item>
+        <item>વપરાશકર્તા સાત</item>
+        <item>વપરાશકર્તા છ</item>
+        <item>વપરાશકર્તા ત્રણ</item>
+        <item>વપરાશકર્તા બે</item>
+        <item>"સફેદ"</item>
+        <item>"પીળો"</item>
+    </string-array>
+</resources>

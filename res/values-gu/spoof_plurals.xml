@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="ts_added_installed_count">
+        <item quantity="one">%d ઍપ લક્ષ્યોમાં ઉમેરાઈ</item>
+        <item quantity="other">%d ઍપ લક્ષ્યોમાં ઉમેરાઈ</item>
+    </plurals>
+</resources>

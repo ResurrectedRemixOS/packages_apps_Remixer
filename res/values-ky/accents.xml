@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Тушкагаз"</item>
+        <item>Resurrected</item>
+        <item>Android One жашыл</item>
+        <item>Aospa жашыл</item>
+        <item>Coca Cola кызыл</item>
+        <item>Discord күлгүн</item>
+        <item>Facebook көк</item>
+        <item>Instagram алча кызыл</item>
+        <item>Jollibee кочкул кызыл</item>
+        <item>Monster Energy жашыл</item>
+        <item>Nextbit мята</item>
+        <item>OnePlus кызыл</item>
+        <item>Pepsi көк</item>
+        <item>Pixel көк</item>
+        <item>Pocophone сары</item>
+        <item>Razer жашыл</item>
+        <item>Samsung көк</item>
+        <item>Spotify жашыл</item>
+        <item>Starbucks жашыл</item>
+        <item>Twitch күлгүн</item>
+        <item>Twitter көк</item>
+        <item>Xiaomi кызгылт сары</item>
+        <item>Кызгылт сары</item>
+        <item>"Кара"</item>
+        <item>"Көк"</item>
+        <item>Көк боз</item>
+        <item>Күрөң</item>
+        <item>"Көгүш"</item>
+        <item>Терең кызгылт сары</item>
+        <item>Терең күлгүн</item>
+        <item>"Жашыл"</item>
+        <item>"БОЗ"</item>
+        <item>"ИНДИГО"</item>
+        <item>Ачык көк</item>
+        <item>Лайм</item>
+        <item>"Кызгылт сары"</item>
+        <item>"Кызгылтым"</item>
+        <item>"Сыя"</item>
+        <item>"Кызыл"</item>
+        <item>"КӨГҮШ ЖАШЫЛ"</item>
+        <item>Колдонуучу беш</item>
+        <item>Колдонуучу төрт</item>
+        <item>Колдонуучу бир</item>
+        <item>Колдонуучу жети</item>
+        <item>Колдонуучу алты</item>
+        <item>Колдонуучу үч</item>
+        <item>Колдонуучу эки</item>
+        <item>"Ак"</item>
+        <item>"Сары"</item>
+    </string-array>
+</resources>

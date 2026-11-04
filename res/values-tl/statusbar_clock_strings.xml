@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Petsa"</string>
     <string name="sb_weather_category">"Lagay ng panahon"</string>
+    <string name="sb_clock_category">Orasan at petsa</string>
+    <string name="sb_clock_bold_title">Bold na orasan</string>
+    <string name="sb_clock_bold_summary">Ipakita ang orasan ng status bar nang naka-bold</string>
+    <string name="sb_clock_period_separator_title">Separator ng oras</string>
+    <string name="sb_clock_period_separator_summary">10.45 sa halip na 10:45</string>
+    <string name="sb_clock_date_position_title">Posisyon ng petsa</string>
+    <string name="sb_clock_date_style_title">Kaso ng petsa</string>
+    <string name="sb_clock_date_format_title">Format ng petsa</string>
+    <string name="sb_clock_chip_category">Background ng orasan</string>
+    <string name="sb_clock_chip_title">Estilo ng background</string>
+    <string name="sb_clock_chip_start_title">Simula ng gradient</string>
+    <string name="sb_clock_chip_end_title">Dulo ng gradient</string>
+    <string name="sb_clock_chip_angle_title">Anggulo ng gradient</string>
+    <string name="sb_clock_chip_mask_title">Gupitin ang oras mula sa gradient</string>
+    <string name="sb_clock_chip_mask_summary">Lumalabas ang gradient sa loob ng mga numero sa halip na sa likod nito</string>
+    <string name="sb_weather_title">Panahon sa status bar</string>
+    <string name="sb_weather_position_title">Posisyon</string>
+    <string name="status_bar_clock_rr_style_title">Itsura ng orasan</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>Default</item>
+        <item>Neon</item>
+        <item>Hati</item>
+        <item>RR mark</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Nakasalansan</item>
+        <item>Ember</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline sa tabi ng oras</string>
+    <string name="sb_clock_flatline_summary">Ang heartbeat line ng RR sa loob ng chip: tumitibok kasabay ng musika, tumataas kapag may dumating na notification</string>
 </resources>

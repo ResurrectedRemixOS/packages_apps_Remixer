@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">ક્યારે</string>
+    <string name="nightstand_title">નાઇટસ્ટૅન્ડ</string>
+    <string name="nightstand_summary">રાત્રે ચાર્જ થતી વખતે ઓલ-ટાઇમ ડિસ્પ્લે પર મંદ બેડસાઇડ ઘડિયાળ</string>
+    <string-array name="nightstand_when_entries">
+        <item>"બંધ છે"</item>
+        <item>રાત્રે ચાર્જર પર</item>
+        <item>દરરોજ રાત્રે, શેડ્યૂલ મુજબ</item>
+        <item>બેડટાઇમ મોડ ચાલુ હોય ત્યારે</item>
+    </string-array>
+    <string name="nightstand_from">રાત શરૂ</string>
+    <string name="nightstand_to">રાત પૂરી</string>
+    <string name="nightstand_brightness">તેજની મર્યાદા</string>
+    <string name="nightstand_brightness_summary">નાઇટસ્ટૅન્ડ ચાલુ હોય ત્યારે ઓલ-ટાઇમ ડિસ્પ્લે કેટલો તેજસ્વી થઈ શકે</string>
+    <string name="nightstand_face">ઘડિયાળનો ચહેરો</string>
+    <string name="nightstand_face_keep">હાલનો ચહેરો રાખો</string>
+    <string name="nightstand_footer">નાઇટસ્ટૅન્ડ ચાલતી વખતે ઓલ-ટાઇમ ડિસ્પ્લે ચાલુ કરે છે અને પછી તેને પાછું મૂકે છે. ચાર્જર હટે, એલાર્મ વાગે અથવા રાત પૂરી થાય ત્યારે તે બંધ થાય છે. ચહેરો ફક્ત બે કસ્ટમ ચહેરા વચ્ચે બદલાય છે; સિસ્ટમ ઘડિયાળ યથાવત રહે છે.</string>
 </resources>

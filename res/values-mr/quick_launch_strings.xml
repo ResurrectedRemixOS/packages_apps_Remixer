@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">टायमर</string>
     <string name="quick_launch_undo">"पहिल्यासारखे करा"</string>
     <string name="quick_launch_off">"बंद आहे"</string>
+    <string name="quick_launch_title">क्विक लॉन्च</string>
+    <string name="quick_launch_main">फिंगरप्रिंट क्विक लॉन्च</string>
+    <string name="quick_launch_main_summary">अनलॉक केल्यानंतर शॉर्टकट उघडण्यासाठी सेन्सरवर बोट ठेवा</string>
+    <string name="quick_launch_hint">शॉर्टकट बदलण्यासाठी टॅप करा, काढण्यासाठी दाबून धरा किंवा क्रम बदलण्यासाठी ओढा.</string>
+    <string name="quick_launch_behavior">वर्तन</string>
+    <string name="quick_launch_hold">धरून ठेवण्याचा वेळ</string>
+    <string name="quick_launch_haptics">प्रत्येक शॉर्टकटवर कंपन</string>
+    <string name="quick_launch_add">जोडा</string>
+    <string name="quick_launch_video">व्हिडिओ</string>
+    <string name="quick_launch_qr">QR स्कॅन करा</string>
+    <string name="quick_launch_app">ॲप…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> काढला</string>
 </resources>

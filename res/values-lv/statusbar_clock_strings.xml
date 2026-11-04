@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Datums"</string>
     <string name="sb_weather_category">"Laikapstākļi"</string>
+    <string name="sb_clock_category">Pulkstenis un datums</string>
+    <string name="sb_clock_bold_title">Trekns pulkstenis</string>
+    <string name="sb_clock_bold_summary">Rādīt statusa joslas pulksteni treknrakstā</string>
+    <string name="sb_clock_period_separator_title">Laika atdalītājs</string>
+    <string name="sb_clock_period_separator_summary">10.45 nevis 10:45</string>
+    <string name="sb_clock_date_position_title">Datuma novietojums</string>
+    <string name="sb_clock_date_style_title">Datuma burtu lielums</string>
+    <string name="sb_clock_date_format_title">Datuma formāts</string>
+    <string name="sb_clock_chip_category">Pulksteņa fons</string>
+    <string name="sb_clock_chip_title">Fona stils</string>
+    <string name="sb_clock_chip_start_title">Gradienta sākums</string>
+    <string name="sb_clock_chip_end_title">Gradienta beigas</string>
+    <string name="sb_clock_chip_angle_title">Gradienta leņķis</string>
+    <string name="sb_clock_chip_mask_title">Izgriezt laiku no gradienta</string>
+    <string name="sb_clock_chip_mask_summary">Gradients ir redzams caur cipariem, nevis aiz tiem</string>
+    <string name="sb_weather_title">Laikapstākļi statusa joslā</string>
+    <string name="sb_weather_position_title">Novietojums</string>
+    <string name="status_bar_clock_rr_style_title">Pulksteņa izskats</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Noklusējums"</item>
+        <item>Neona</item>
+        <item>Sadalīts</item>
+        <item>RR zīme</item>
+        <item>Monospace</item>
+        <item>Pulss</item>
+        <item>Sakrauts</item>
+        <item>Spožs</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline blakus laikam</string>
+    <string name="sb_clock_flatline_summary">RR sirdspukstu līnija čipā: pulsē kopā ar mūziku, asi pieaug, kad ienāk paziņojums</string>
 </resources>

@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Тајмер</string>
     <string name="quick_launch_undo">"Врати"</string>
     <string name="quick_launch_off">"Исклучено"</string>
+    <string name="quick_launch_title">Брзо стартување</string>
+    <string name="quick_launch_main">Брзо стартување со отпечаток</string>
+    <string name="quick_launch_main_summary">Држете го прстот на сензорот по отклучувањето за да отворите кратенка</string>
+    <string name="quick_launch_hint">Допрете кратенка за да ја промените, задржете ја за да ја отстраните или повлечете ја за да ја преуредите.</string>
+    <string name="quick_launch_behavior">Однесување</string>
+    <string name="quick_launch_hold">Време на držење</string>
+    <string name="quick_launch_haptics">Вибрирај при секоја кратенка</string>
+    <string name="quick_launch_add">Додај</string>
+    <string name="quick_launch_video">Видео</string>
+    <string name="quick_launch_qr">Скенирај QR</string>
+    <string name="quick_launch_app">Апликација…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> е отстранет</string>
 </resources>

@@ -15,4 +15,54 @@
     <string name="looks_save_look">"Gem"</string>
     <string name="looks_custom_color">"Tilpasset farve"</string>
     <string name="looks_part_clock_color">"Urets farve"</string>
+    <string name="looks_title">Looks</string>
+    <string name="looks_summary">Hele din opsætning med ét tryk</string>
+    <string name="looks_rr">RR-looks</string>
+    <string name="looks_yours">Dine looks</string>
+    <string name="looks_none">Intet gemt endnu</string>
+    <string name="looks_save">Gem nuværende</string>
+    <string name="looks_import_clipboard">Fra udklipsholderen</string>
+    <string name="looks_import_file">Fra en fil</string>
+    <string name="looks_mine">Mit look</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> anvendt</string>
+    <string name="looks_failed">Ikke alt kunne anvendes</string>
+    <string name="looks_invalid">Det er ikke et RR-look</string>
+    <string name="looks_part_accent">Accentfarve</string>
+    <string name="looks_part_qs">Kvikmenu-stil</string>
+    <string name="looks_part_clock_face">Urtype på låseskærmen</string>
+    <string name="looks_part_clock_look">Urtype på statusbjælken</string>
+    <string name="looks_part_edge">Kantbelysning</string>
+    <string name="looks_part_boot">Opstartsanimation</string>
+    <string name="looks_part_haptics">Mønstre for Haptic Remix</string>
+    <string name="looks_saturation">Mætning <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Accent</string>
+    <string name="looks_share_title">Del “<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">Scan med en anden RR-telefons kamera, eller under Looks › Importér</string>
+    <string name="looks_share_file">Del fil</string>
+    <string name="looks_save_file">Gem fil</string>
+    <string name="looks_import_scan">Scan en QR-kode</string>
+    <string name="looks_import_title">Importér look</string>
+    <string name="looks_from_qr">fra en QR-kode</string>
+    <string name="looks_from_file">fra en fil</string>
+    <string name="looks_from_clipboard">fra udklipsholderen</string>
+    <string name="looks_import_same">Det matcher allerede din opsætning.</string>
+    <string name="looks_new">Nyt look</string>
+    <string name="looks_edit_title">Redigér look</string>
+    <string name="looks_in_look">I dette look</string>
+    <string name="looks_not_included">Ikke i dette look</string>
+    <string name="looks_save_apply">Gem og anvend</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” er gemt</string>
+    <string name="looks_delete_confirm">Slet “<xliff:g id="name" example="Sunday">%1$s</xliff:g>”?</string>
+    <string name="looks_rr_wallpaper">RR-baggrund <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Accentmætning</string>
+    <string name="looks_part_clock_chip">Ur-chip i statusbjælken</string>
+    <string name="looks_part_edge_style">Stil for kantbelysning</string>
+    <string name="looks_scan_hint">Ret kameraet mod et looks QR-kode</string>
+    <string name="looks_scan_failed">Kameraet kunne ikke åbnes</string>
+    <string name="look_roulette_title">Look-roulette</string>
+    <string-array name="look_roulette_entries">
+        <item>"Fra"</item>
+        <item>Et andet look ved hver oplåsning</item>
+        <item>Et andet look hver dag</item>
+    </string-array>
 </resources>

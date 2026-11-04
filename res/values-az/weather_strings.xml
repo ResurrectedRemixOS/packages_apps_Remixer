@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Detallar"</string>
     <string name="lockscreen_weather_location_title">"Məkan"</string>
+    <string name="lockscreen_weather_title">Kilid ekranında hava proqnozu</string>
+    <string name="lockscreen_weather_location_summary">Şəhərin adını göstər</string>
+    <string name="lockscreen_weather_text_title">Vəziyyət</string>
+    <string name="lockscreen_weather_text_summary">Vəziyyəti göstər, məsələn Buludlu və ya Açıq səma</string>
+    <string name="lockscreen_weather_wind_title">Külək</string>
+    <string name="lockscreen_weather_wind_summary">Küləyin sürətini və istiqamətini göstər</string>
+    <string name="lockscreen_weather_humidity_title">Rütubət</string>
+    <string name="lockscreen_weather_humidity_summary">Rütubəti göstər</string>
+    <string name="custom_clock_weather_title">Saat ciferblatlarında hava proqnozu</string>
+    <string name="custom_clock_weather_summary">Yeri olan saat ciferblatlarında havanı göstər</string>
+    <string name="remixer_weather_service">Hava xidməti</string>
+    <string name="remixer_weather_page_summary">Kilid ekranında hava proqnozu və onun göstərdikləri</string>
 </resources>

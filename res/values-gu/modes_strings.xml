@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">તમારા દરેક મોડ માટે એક લુક</string>
+    <string name="remix_modes_everyday">રોજિંદો લુક</string>
+    <string name="remix_modes_everyday_summary">લુક ધરાવતો કોઈ મોડ ચાલુ ન હોય ત્યારે પાછો આવે છે</string>
+    <string name="remix_modes_wallpaper">વૉલપેપર લુકને અનુસરે છે</string>
+    <string name="remix_modes_wallpaper_summary">મોડ વૉલપેપર પણ બદલી શકે છે</string>
+    <string name="remix_modes_modes">તમારા મોડ</string>
+    <string name="remix_modes_no_change">કોઈ ફેરફાર નહીં</string>
+    <string name="remix_modes_none">પહેલા થીમ › લુક્સમાં લુક સાચવો</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g> માટે લુક</string>
+</resources>

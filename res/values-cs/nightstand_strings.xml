@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Kdy"</string>
+    <string name="nightstand_title">Noční hodiny</string>
+    <string name="nightstand_summary">Ztlumené hodiny u lůžka na obrazovce vždy zapnuté během nabíjení v noci</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Vypnuto"</item>
+        <item>Na nabíječce v noci</item>
+        <item>Každou noc podle plánu</item>
+        <item>Během zapnutého režimu spánku</item>
+    </string-array>
+    <string name="nightstand_from">Noc začíná</string>
+    <string name="nightstand_to">Noc končí</string>
+    <string name="nightstand_brightness">Limit jasu</string>
+    <string name="nightstand_brightness_summary">Jak jasný smí být displej vždy zapnutý, když jsou zapnuté noční hodiny</string>
+    <string name="nightstand_face">Ciferník</string>
+    <string name="nightstand_face_keep">Ponechat současný ciferník</string>
+    <string name="nightstand_footer">Noční hodiny zapnou displej vždy zapnutý, zatímco běží, a poté ho vrátí zpět. Skončí, když odpojíš nabíječku, zazvoní budík nebo skončí noc. Ciferník jen přepíná mezi dvěma vlastními ciferníky; systémové hodiny zůstávají.</string>
 </resources>

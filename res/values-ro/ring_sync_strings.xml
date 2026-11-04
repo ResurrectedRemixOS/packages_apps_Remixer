@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Sincronizare inel</string>
+    <string name="ring_sync_tap">Atinge când un inel se aliniază cu reperul</string>
+    <string name="ring_sync_best">Cel mai bun <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">PERFECT</string>
+    <string name="ring_sync_new_best">Cel mai bun nou</string>
+    <string name="ring_sync_again">Atinge pentru a reda din nou</string>
+    <string name="ring_sync_ember">Accentul Ember a fost deblocat</string>
+    <string name="ring_sync_use_ember">Folosește Ember</string>
+    <string name="ring_sync_android">Easter egg-ul Android</string>
+    <string name="ring_sync_vibrate_on">Vibrații la lovituri · Activat</string>
+    <string name="ring_sync_vibrate_off">Vibrații la lovituri · Dezactivat</string>
+    <string name="accent_ember">Jar</string>
+</resources>

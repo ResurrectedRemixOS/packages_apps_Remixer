@@ -11,4 +11,23 @@
     <string name="rr_about_this_phone">"Deze telefoon"</string>
     <string name="rr_about_network">"Netwerk"</string>
     <string name="rr_about_hidden">Verborgen</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Officieel</string>
+    <string name="rr_about_vanilla">Vanilla</string>
+    <string name="rr_about_hardware">Hardware</string>
+    <string name="rr_about_processor">Processor</string>
+    <string name="rr_about_processor_sub">%1$d kernen · tot %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d kernen</string>
+    <string name="rr_about_storage_used">%1$s gebruikt</string>
+    <string name="rr_about_display">Scherm</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · Opladen</string>
+    <string name="rr_about_kernel_linux">Linux-kernel</string>
+    <string name="rr_about_software_purpose">Android-versie, beveiligingsupdate, builddatum en buildnummer</string>
+    <string name="rr_about_updates">Updates</string>
+    <string name="rr_about_security_patch">Beveiligingsupdate</string>
+    <string name="rr_about_maintainer">Beheerder</string>
+    <string name="rr_about_show">Tonen</string>
+    <string name="rr_about_hide">Verbergen</string>
 </resources>

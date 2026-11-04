@@ -90,4 +90,208 @@
     <string name="wallpaper_apply_lock">"Låsskärm"</string>
     <string name="remixer_settings_style">Inställningsstil</string>
     <string name="remixer_navbar_category">"Navigeringsfält"</string>
+    <string name="remixer_dashboard_summary">Status bar, tema, låsskärm och mer</string>
+    <string name="rr_homepage_battery_saver">Batterisparläge</string>
+    <string name="rr_homepage_personalize">Anpassa</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> ledigt</string>
+    <string name="rr_homepage_charged">Fulladdat</string>
+    <string name="rr_homepage_on_battery">På batteri</string>
+    <string name="rr_homepage_saver_on">Batterisparläge på</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> enhet</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> enheter</item>
+    </plurals>
+    <string name="rr_homepage_extras">Extra inställningar</string>
+    <string name="rr_homepage_saver">Sparläge</string>
+    <string name="rr_homepage_signed_out">Inte inloggad</string>
+    <string name="rr_homepage_remixer_tagline">Gör den till din. Statusfält, tema, låsskärm och mer.</string>
+    <string name="rr_homepage_device_tagline">Ljudreglage, skärm, laddning och GameBar.</string>
+    <string name="rr_homepage_device_action">Justera</string>
+    <string name="rr_group_network">Nätverk och enheter</string>
+    <string name="rr_group_network_summary">Wi‑Fi, mobil, Bluetooth</string>
+    <string name="rr_group_apps_summary">Appar, aviseringar, lägen</string>
+    <string name="rr_group_display">Skärm och ljud</string>
+    <string name="rr_group_display_summary">Skärm, bakgrund, ljud</string>
+    <string name="rr_group_security_summary">Lås, plats, nödsituation</string>
+    <string name="rr_group_security_center">Säkerhetscenter</string>
+    <string name="rr_group_accounts">Google och konton</string>
+    <string name="rr_group_accounts_summary">Google, lösenord, säkerhetskopiering</string>
+    <string name="rr_group_accounts_plain_summary">Lösenord, konton, säkerhetskopiering</string>
+    <string name="rr_group_system_summary">Språk, gester, uppdateringar</string>
+    <string name="remixer_tagline">Gör den till din.</string>
+    <string name="remixer_remix">Remixa</string>
+    <string name="remixer_remixed">Remixad med <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Nyans · Standard</string>
+    <string name="remixer_quick">Snabbremix</string>
+    <string name="remixer_everything">Allt</string>
+    <string name="remixer_quick_accents">Förinställningar eller valfri färg</string>
+    <string name="remixer_quick_fonts">Systemtypsnittsstilar</string>
+    <string name="remixer_quick_walls">RR-samling</string>
+    <string name="remixer_quick_header">QS-sidhuvud</string>
+    <string name="remixer_quick_header_summary">Sidhuvudbilder</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Klocka, batteri, ikoner och nätverkstrafik</string>
+    <string name="remixer_qs_summary">Sidhuvudbild</string>
+    <string name="remixer_notifications_summary">Kantbelysning, appikoner och laddningsljud</string>
+    <string name="remixer_theme_summary">Typsnitt, accenter och bakgrunder</string>
+    <string name="remixer_lockscreen_summary">UDFPS, laddningsinfo och väder</string>
+    <string name="remixer_udfps_icon_summary">Visas över fingeravtryckssensorn</string>
+    <string name="remixer_udfps_animation_summary">Spelas medan fingret ligger på sensorn</string>
+    <string name="remixer_navigation_summary">Pulse, knappar och navigeringsfält</string>
+    <string name="remixer_misc_summary">Volym, säkerhetskopiering, spoofing, rullning och USB</string>
+    <string name="scroll_haptics_title">Tryck i slutet av en rullning</string>
+    <string name="scroll_haptics_summary">En lätt vibration när en lista eller sida inte kan rullas längre</string>
+    <string name="usb_mode_picker_title">Väljare för USB-läge</string>
+    <string name="usb_mode_picker_summary">Välj ett läge när du ansluter till en dator</string>
+    <string name="remixer_fonts_summary">Systemtypsnitt</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix-bakgrunder</string>
+    <string name="remixer_accents">Accenter</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">Musikvisualiserare längs skärmens nederkant</string>
+    <string name="pulse_switch">Använd pulse</string>
+    <string name="pulse_switch_summary">Musikstaplar längs skärmens nederkant medan media spelas</string>
+    <string name="pulse_style_lines">Linjer</string>
+    <string name="pulse_style_fading">Tona ut</string>
+    <string name="pulse_style_blocks">Block</string>
+    <string name="pulse_style_mirror">Spegel</string>
+    <string name="pulse_color_custom">Anpassad</string>
+    <string name="pulse_color_gradient">Regnbåge</string>
+    <string name="pulse_bars">Staplar</string>
+    <string name="pulse_bars_value">Staplar · %1$d</string>
+    <string name="pulse_height">Höjd</string>
+    <string name="pulse_height_value">Höjd · %1$d dp</string>
+    <string name="pulse_opacity">Opacitet</string>
+    <string name="pulse_opacity_value">Opacitet · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Behåll staplarna på låsskärmen medan musik spelas</string>
+    <string name="pulse_failed">Det gick inte att spara pulse-inställningen</string>
+    <string name="accent_applied">Accent tillämpad</string>
+    <string name="accent_current">Accent · %1$s</string>
+    <string name="accent_current_custom">Accent · Anpassad</string>
+    <string name="accent_preview_tonal">Tonal</string>
+    <string name="accent_failed">Det gick inte att tillämpa accenten</string>
+    <string name="accent_custom">Anpassad</string>
+    <string name="accent_custom_summary">Alla färger fungerar. Nyans tillämpas fortfarande ovanpå.</string>
+    <string name="accent_custom_pad">Mättnad och ljusstyrka</string>
+    <string name="accent_custom_use">Använd <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">Nyans</string>
+    <string name="accent_shade_darker">Mörkare</string>
+    <string name="accent_shade_lighter">Ljusare</string>
+    <string name="accent_shade_darker_value">Mörkare · %1$d</string>
+    <string name="accent_shade_lighter_value">Ljusare · %1$d</string>
+    <string name="remixer_qs_style">Snabbinställningsstil</string>
+    <string name="remixer_qs_style_preview">Förhandsvisning · %1$s</string>
+    <string name="remixer_qs_style_note">Alla stilar följer din accentfärg. Volympanelen har matchande Bento-, Shapes-, Blueprint-, Duo- och Soft-utseenden. Stock Lineage lämnar Android 17-rutorna orörda.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Android 17-rutorna, oförändrade</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Ljusstyrka i ett accentkort. Rutor fylls med en accentgradient</string>
+    <string name="remixer_qs_style_compact">Kompakt</string>
+    <string name="remixer_qs_style_compact_summary">Kortare rutor. Fler på en skärm</string>
+    <string name="remixer_qs_style_glass">Glas</string>
+    <string name="remixer_qs_style_glass_summary">Genomskinliga rutor med kontur som lyser i din accentfärg när de är på</string>
+    <string name="remixer_qs_style_circles">Cirklar</string>
+    <string name="remixer_qs_style_circles_summary">Runda reglage med etiketter. Breda rutor blir kort</string>
+    <string name="remixer_qs_style_classic">Klassisk</string>
+    <string name="remixer_qs_style_classic_summary">Gammal RR-stil: nakna ikoner med etiketter, fem i rad och ett tunt reglage</string>
+    <string name="remixer_qs_style_cards">Kort</string>
+    <string name="remixer_qs_style_cards_summary">Stora kort med status under varje namn, tre i rad</string>
+    <string name="remixer_qs_style_neon">Neon</string>
+    <string name="remixer_qs_style_neon_summary">Rutor med kontur som lyser i din accentfärg när de är på</string>
+    <string name="remixer_qs_style_bento_summary">Stora rundade block fyllda med din accent, etiketter under de små</string>
+    <string name="remixer_qs_style_shapes">Former</string>
+    <string name="remixer_qs_style_shapes_summary">Runda reglage som får flikar när de är på, fem i rad</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Hårfina konturer och versaler i fast bredd</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Delade rutor. Ikonhalvan lyser upp och växlar</string>
+    <string name="remixer_qs_style_soft">Mjuk</string>
+    <string name="remixer_qs_style_soft_summary">Upphöjda rutor som trycks in när de är på</string>
+    <string name="remixer_lock_media_style">Mediespelarstil</string>
+    <string name="remixer_lock_media_same">Samma som Snabbinställningar</string>
+    <string name="remixer_lock_media_same_summary">Följer din snabbinställningsruta för media, nu %1$s</string>
+    <string name="remixer_lock_media_off_summary">Ingen spelare på låsskärmen</string>
+    <string name="remixer_lock_media_note">Kortet visas på låsskärmen medan något spelas. Genomskinliga stilar får en mörk bakgrund så att de går att läsa över bakgrunden.</string>
+    <string name="remixer_lock_media_stock_summary">Albumbilden fyller kortet</string>
+    <string name="remixer_lock_media_remix_summary">Mörkt kort, accentfärgad uppspelningsknapp</string>
+    <string name="remixer_lock_media_compact_summary">Rundare kort, runda omslag</string>
+    <string name="remixer_lock_media_glass_summary">Genomskinligt kort med kontur</string>
+    <string name="remixer_lock_media_circles_summary">Mjukt kort, accentfärgad uppspelningsknapp</string>
+    <string name="remixer_lock_media_classic_summary">Kantigare kort, uppspelningsknapp med kontur</string>
+    <string name="remixer_lock_media_cards_summary">Mjukt kort, accentfärgad uppspelningsknapp, som Cirklar</string>
+    <string name="remixer_lock_media_neon_summary">Svart kort med accentfärgad kontur</string>
+    <string name="remixer_lock_media_bento_summary">Mjukt kort, accentfärgad uppspelningsknapp</string>
+    <string name="remixer_lock_media_shapes_summary">Rundare kort, accentfärgad uppspelningsknapp</string>
+    <string name="remixer_lock_media_blueprint_summary">Hårfin kontur, uppspelningsknapp med kontur</string>
+    <string name="remixer_lock_media_duo_summary">Tvåtonat kort, accentfärgad uppspelningsknapp</string>
+    <string name="remixer_lock_media_soft_summary">Upphöjt kort med fasad kant</string>
+    <string name="remixer_headers">Sidhuvudbild</string>
+    <string name="header_switch">Använd sidhuvudbild</string>
+    <string name="header_switch_summary">Visa en bild bakom snabbinställningarna</string>
+    <string name="header_source">Källa</string>
+    <string name="header_source_collection">Samling</string>
+    <string name="header_collections_summary_daylight">Sidhuvudet följer tiden på dygnet eller roterar genom samlingen</string>
+    <string name="header_collections_summary_static">Öppna en samling och tryck sedan på en bild för att använda den</string>
+    <string name="header_collections_empty">Inga sidhuvudsamlingar installerade</string>
+    <string name="header_images_daylight">I den här samlingen</string>
+    <plurals name="header_image_count">
+        <item quantity="one">%d bild</item>
+        <item quantity="other">%d bilder</item>
+    </plurals>
+    <string name="header_photo_summary">Valfritt foto eller animerad GIF från ditt galleri</string>
+    <string name="header_height">Höjd</string>
+    <string name="header_height_value">Höjd · %1$d dp</string>
+    <string name="header_shadow">Dämpa</string>
+    <string name="header_shadow_value">Dämpa · %1$d%%</string>
+    <string name="header_failed">Det gick inte att spara inställningen för sidhuvudet</string>
+    <string name="remixer_weather_summary">Väder­tjänst och enheter</string>
+    <string name="font_preview_notification">Så här kommer din telefon att läsa.</string>
+    <string name="font_try_text">Prova din egen text</string>
+    <string name="font_previewing">Förhandsgranskar</string>
+    <string name="font_current">Nuvarande typsnitt</string>
+    <string name="font_badge_current">Aktuell</string>
+    <string name="font_apply_done">Tillämpad</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Skärm</string>
+    <string name="font_filter_script">Skript</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Typsnittet tillämpades</string>
+    <string name="font_failed">Det gick inte att tillämpa typsnittet</string>
+    <string name="wallpaper_set">Bakgrunden är inställd</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">%d bakgrund från Resurrected Remix. Tryck på en för att förhandsgranska den.</item>
+        <item quantity="other">%d bakgrunder från Resurrected Remix. Tryck på en för att förhandsgranska den.</item>
+    </plurals>
+    <string name="wallpaper_apply_both">Båda</string>
+    <string name="wallpaper_failed">Det gick inte att ange bakgrunden</string>
+    <string name="missing_app">Appen är inte installerad</string>
+    <string name="remixer_spoofing">Spoofing</string>
+    <string name="remixer_spoofing_summary">Play Integrity, enhetsidentitet och spoofing per app</string>
+    <string name="remixer_settings_style_original">Original</string>
+    <string name="rr_maintainer">Underhållare</string>
+    <string name="remixer_navbar_summary">Längd, tjocklek och layout för pillret</string>
+    <string name="remixer_navbar_pill_length">Gester pillerlängd</string>
+    <string name="remixer_navbar_pill_thickness">Gester pillertjocklek</string>
+    <string name="remixer_navbar_pill_auto_hide">Tona ut gesterpillret</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Dölj pillret efter några sekunder; det visas igen när du rör skärmen</string>
+    <string name="remixer_navbar_ime">Tangentbordsknappar</string>
+    <string name="remixer_navbar_ime_summary">Visa tillbaka- och tangentbordsväxlarknappar under tangentbordet</string>
+    <string name="remixer_navbar_layout">Knapplayout</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Kort</item>
+        <item>Normal</item>
+        <item>Lång</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Tunnast</item>
+        <item>Tunnare</item>
+        <item>Tunn</item>
+        <item>Normal</item>
+        <item>Tjock</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Normal</item>
+        <item>Kompakt</item>
+        <item>"Lutande åt vänster"</item>
+        <item>"Lutande åt höger"</item>
+    </string-array>
 </resources>

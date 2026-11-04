@@ -15,4 +15,58 @@
     <string name="looks_save_look">"Saglabāt"</string>
     <string name="looks_custom_color">"Pielāgota krāsa"</string>
     <string name="looks_part_clock_color">"Pulksteņa krāsa"</string>
+    <string name="looks_title">Izskati</string>
+    <string name="looks_summary">Viss jūsu iestatījums vienā pieskārienā</string>
+    <string name="looks_rr">RR izskati</string>
+    <string name="looks_yours">Jūsu izskati</string>
+    <string name="looks_none">Vēl nekas nav saglabāts</string>
+    <string name="looks_save">Saglabāt pašreizējo</string>
+    <string name="looks_import_clipboard">No starpliktuves</string>
+    <string name="looks_import_file">No faila</string>
+    <string name="looks_mine">Mans izskats</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> piemērots</string>
+    <string name="looks_failed">Nevarēja piemērot visu</string>
+    <string name="looks_invalid">Tas nav RR izskats</string>
+    <string name="looks_part_accent">Akcentkrāsa</string>
+    <string name="looks_part_qs">Ātro iestatījumu stils</string>
+    <string name="looks_part_clock_face">Bloķēšanas ekrāna pulksteņa stils</string>
+    <string name="looks_part_clock_look">Statusa joslas pulkstenis</string>
+    <string name="looks_part_edge">Malu apgaismojums</string>
+    <string name="looks_part_boot">Palaišanas animācija</string>
+    <string name="looks_part_haptics">Haptic Remix modeļi</string>
+    <string name="looks_saturation">Piesātinājums <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Akcents</string>
+    <string name="looks_share_title">Kopīgot “<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">Skenējiet ar citas RR ierīces kameru vai izvēlnē Izskati › Importēt</string>
+    <string name="looks_share_file">Kopīgot failu</string>
+    <string name="looks_save_file">Saglabāt failu</string>
+    <string name="looks_import_scan">Skenēt QR kodu</string>
+    <string name="looks_import_title">Importēt izskatu</string>
+    <string name="looks_from_qr">no QR koda</string>
+    <string name="looks_from_file">no faila</string>
+    <string name="looks_from_clipboard">no starpliktuves</string>
+    <string name="looks_import_same">Tas jau atbilst jūsu iestatījumiem.</string>
+    <plurals name="looks_import_changes">
+        <item quantity="one">Izmaiņas: <xliff:g id="count" example="4">%d</xliff:g> lieta</item>
+        <item quantity="other">Izmaiņas: <xliff:g id="count" example="4">%d</xliff:g> lietas</item>
+    </plurals>
+    <string name="looks_new">Jauns izskats</string>
+    <string name="looks_edit_title">Rediģēt izskatu</string>
+    <string name="looks_in_look">Šajā izskatā</string>
+    <string name="looks_not_included">Ne šajā izskatā</string>
+    <string name="looks_save_apply">Saglabāt un piemērot</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” saglabāts</string>
+    <string name="looks_delete_confirm">Dzēst “<xliff:g id="name" example="Sunday">%1$s</xliff:g>”?</string>
+    <string name="looks_rr_wallpaper">RR fona tapete <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Akcenta piesātinājums</string>
+    <string name="looks_part_clock_chip">Statusa joslas pulksteņa čips</string>
+    <string name="looks_part_edge_style">Malu apgaismojuma stils</string>
+    <string name="looks_scan_hint">Vērsiet kameru uz skata QR kodu</string>
+    <string name="looks_scan_failed">Kameru nevarēja atvērt</string>
+    <string name="look_roulette_title">Skatu rulete</string>
+    <string-array name="look_roulette_entries">
+        <item>"Izslēgts"</item>
+        <item>Citu skatu katrā atbloķēšanas reizē</item>
+        <item>Citu skatu katru dienu</item>
+    </string-array>
 </resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">ಬೂಟ್ ಅನಿಮೇಶನ್</string>
+    <string name="boot_animation_note">ಫೋನ್ ಮುಂದಿನ ಬಾರಿ ಪ್ರಾರಂಭವಾದಾಗ ಚಾಲನೆಯಾಗುತ್ತದೆ.</string>
+    <string name="boot_animation_custom">ನಿಮ್ಮ ಫೈಲ್</string>
+    <string name="boot_animation_custom_pick">ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ…</string>
+    <string name="boot_animation_custom_invalid">ಆ ಫೈಲ್ ಬೂಟ್ ಅನಿಮೇಶನ್ ಅಲ್ಲ</string>
+    <string name="boot_animation_failed">ಬೂಟ್ ಅನಿಮೇಶನ್ ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+</resources>

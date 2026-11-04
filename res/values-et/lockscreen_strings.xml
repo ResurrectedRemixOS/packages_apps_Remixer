@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">Väldi juhuslikku ärkamist</string>
+    <string name="lockscreen_battery_info_title">Laadimise teave</string>
+    <string name="lockscreen_battery_info_summary">Kuva laadimise ajal vool, vatid, pinge ja aku temperatuur</string>
+    <string name="charging_ring_title">SuperVOOC laadimise animatsioon</string>
+    <string name="charging_ring_summary">Kuva laadimise ringi ja kiirus, kui seade vooluvõrku ühendatakse</string>
+    <string name="pocket_mode_summary">Kui lähisensor on kaetud, ekraan ei ärka ega reageeri puuteel</string>
+    <string name="screen_on_time_title">Ekraani sisselülituse aeg</string>
+    <string name="screen_on_time_summary">Kuva laadimise ajal ja akusäästu kiirseadel ekraani sisselülituse aeg alates viimasest täielikust laadimisest</string>
 </resources>

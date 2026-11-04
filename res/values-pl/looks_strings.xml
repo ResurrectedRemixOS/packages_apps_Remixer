@@ -17,4 +17,52 @@
     <string name="looks_save_look">"Zapisz"</string>
     <string name="looks_custom_color">"Kolor niestandardowy"</string>
     <string name="looks_part_clock_color">"Kolor zegara"</string>
+    <string name="looks_title">Look</string>
+    <string name="looks_summary">Cała konfiguracja jednym dotknięciem</string>
+    <string name="looks_rr">Look RR</string>
+    <string name="looks_yours">Twoje Look</string>
+    <string name="looks_none">Nic jeszcze nie zapisano</string>
+    <string name="looks_save">Zapisz bieżący</string>
+    <string name="looks_import_clipboard">Ze schowka</string>
+    <string name="looks_import_file">Z pliku</string>
+    <string name="looks_mine">Mój Look</string>
+    <string name="looks_applied">Zastosowano <xliff:g id="name" example="Neon night">%1$s</xliff:g></string>
+    <string name="looks_failed">Nie udało się zastosować wszystkiego</string>
+    <string name="looks_invalid">To nie jest Look RR</string>
+    <string name="looks_part_qs">Styl szybkich ustawień</string>
+    <string name="looks_part_clock_face">Wygląd zegara na ekranie blokady</string>
+    <string name="looks_part_clock_look">Zegar na pasku stanu</string>
+    <string name="looks_part_edge">Podświetlenie krawędzi</string>
+    <string name="looks_part_haptics">Wzory Haptic Remix</string>
+    <string name="looks_saturation">Nasycenie <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Akcent</string>
+    <string name="looks_share_title">Udostępnij „<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">Zeskanuj aparatem innego telefonu z RR lub w Look › Importuj</string>
+    <string name="looks_share_file">Udostępnij plik</string>
+    <string name="looks_save_file">Zapisz plik</string>
+    <string name="looks_import_scan">Zeskanuj kod QR</string>
+    <string name="looks_import_title">Importuj Look</string>
+    <string name="looks_from_qr">z kodu QR</string>
+    <string name="looks_from_file">z pliku</string>
+    <string name="looks_from_clipboard">ze schowka</string>
+    <string name="looks_import_same">To już odpowiada Twojej konfiguracji.</string>
+    <string name="looks_new">Nowy Look</string>
+    <string name="looks_edit_title">Edytuj Look</string>
+    <string name="looks_in_look">W tym Look</string>
+    <string name="looks_not_included">Nie ma w tym Look</string>
+    <string name="looks_save_apply">Zapisz i zastosuj</string>
+    <string name="looks_saved">Zapisano „<xliff:g id="name" example="Sunday">%1$s</xliff:g>”</string>
+    <string name="looks_delete_confirm">Usunąć „<xliff:g id="name" example="Sunday">%1$s</xliff:g>”?</string>
+    <string name="looks_rr_wallpaper">Tapeta RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Nasycenie akcentu</string>
+    <string name="looks_part_clock_chip">Chip zegara na pasku stanu</string>
+    <string name="looks_part_edge_style">Styl podświetlenia krawędzi</string>
+    <string name="looks_scan_hint">Skieruj aparat na kod QR Look</string>
+    <string name="looks_scan_failed">Nie udało się otworzyć aparatu</string>
+    <string name="look_roulette_title">Ruletka Look</string>
+    <string-array name="look_roulette_entries">
+        <item>"Wyłączono"</item>
+        <item>Inny Look przy każdym odblokowaniu</item>
+        <item>Inny Look każdego dnia</item>
+    </string-array>
 </resources>

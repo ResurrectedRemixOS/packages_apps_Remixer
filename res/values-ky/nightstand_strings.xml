@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="nightstand_title">Түнкү саат</string>
+    <string name="nightstand_summary">Түнкү кубаттоодо үзгүлтүксүз экранда томсойгон керебет башындагы саат</string>
+    <string name="nightstand_when">Качан</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Өчүк"</item>
+        <item>Түнкү кубаттагычта</item>
+        <item>Ар түн, график боюнча</item>
+        <item>Уктоо режими күйүк турганда</item>
+    </string-array>
+    <string name="nightstand_from">Түн башталат</string>
+    <string name="nightstand_to">Түн бүтөт</string>
+    <string name="nightstand_brightness">Жарыктыктын чеги</string>
+    <string name="nightstand_brightness_summary">Түнкү саат иштеп турганда үзгүлтүксүз экран канчалык жарык болушу мүмкүн</string>
+    <string name="nightstand_face">Саат циферблаты</string>
+    <string name="nightstand_face_keep">Учурдагы циферблатты сактоо</string>
+    <string name="nightstand_footer">Түнкү саат иштеп жатканда үзгүлтүксүз экранды күйгүзөт, аяктагандан кийин кайра коёт. Кубаттагыч ажыраганда, ойготкуч шыңгырагандан же түн бүткөндө токтойт. Циферблат эки ыңгайлаштырылган циферблаттын ортосунда гана алмашат; тутум сааты калат.</string>
 </resources>

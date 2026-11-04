@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Bendingar</string>
     <string name="backup_group_other">"Annað"</string>
     <string name="backup_done">"Lokið"</string>
+    <string name="backup_summary">Allar RR sérsniðningar í einni skrá</string>
+    <string name="backup_now">Taka öryggisafrit núna</string>
+    <string name="backup_never">Síðasta öryggisafrit: aldrei</string>
+    <string name="backup_last">Síðasta öryggisafrit: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Endurheimta úr skrá</string>
+    <string name="backup_restore_summary">Veldu öryggisafritsskrá</string>
+    <string name="backup_included">Innifalið</string>
+    <string name="backup_part_theme">Áherslulitur, leturgerð og tákn</string>
+    <string name="backup_part_header">Hausmynd</string>
+    <string name="backup_part_photo">Hausmynd (þín mynd)</string>
+    <string name="backup_part_photo_summary">Gerir skrána stærri</string>
+    <string name="backup_part_boot">Ræsimynd</string>
+    <string name="backup_part_looks">Útlitin þín</string>
+    <string name="backup_weekly">Vikulegt öryggisafrit</string>
+    <string name="backup_weekly_summary">Í möppu sem þú velur</string>
+    <string name="backup_weekly_on">Á hverri viku í <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Bjóða öryggisafrit fyrir uppfærslur</string>
+    <string name="backup_offer_summary">Uppfærsluforritið spyr áður en það setur upp</string>
+    <string name="backup_sets">Setur <xliff:g id="count" example="64">%1$d</xliff:g> stillingar</string>
+    <string name="backup_saved">Vistaði <xliff:g id="count" example="64">%1$d</xliff:g> stillingar</string>
+    <string name="backup_restored">Endurheimti <xliff:g id="count" example="64">%1$d</xliff:g> stillingar</string>
+    <string name="backup_restored_message">SystemUI endurræsist til að virkja þær.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> stillingar eru ekki til á þessari útgáfu og var sleppt.</string>
+    <string name="backup_failed">Tókst ekki að vista öryggisafrit</string>
+    <string name="backup_invalid">Þessi skrá er ekki öryggisafrit af Resurrected Remix</string>
+    <string name="backup_footer">Aðeins RR stillingar fara í skrána: engir reikningar, lykilorð, Wi-Fi net, forrit eða skilaboð. Endurheimt skrifar aðeins stillingar á lista RR, svo öryggisafritsskrá getur ekki breytt neinu öðru í símanum. Hausmyndin þín er aðeins með ef rofinn fyrir hana er á, því hún stækkar skrána.</string>
+    <string name="volume_style_title">Stíll hljóðstyrkspjalds</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Gler</item>
+        <item>Pilla</item>
+        <item>Klassískt RR</item>
+        <item>Bento</item>
+        <item>Form</item>
+        <item>Blárprent</item>
+        <item>Tvíþætt</item>
+        <item>Mjúkt</item>
+    </string-array>
 </resources>

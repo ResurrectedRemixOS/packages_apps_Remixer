@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glance_title">Մի հայացքով</string>
+    <string name="glance_summary">Google-ի ամսաթիվը, եղանակը և քարտերը ստանդարտ ժամացույցի տակ, ինչպես Pixel-ում։ Ժամացույցի ձևերը պահում են իրենց սեփական տողը</string>
+</resources>

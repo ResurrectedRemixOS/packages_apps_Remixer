@@ -11,4 +11,23 @@
     <string name="rr_about_this_phone">"এই ফোনটি"</string>
     <string name="rr_about_network">"নেটওয়ার্ক"</string>
     <string name="rr_about_hidden">"লুকানো"</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">অফিশিয়াল</string>
+    <string name="rr_about_vanilla">ভ্যানিলা</string>
+    <string name="rr_about_hardware">হার্ডওয়্যার</string>
+    <string name="rr_about_processor">প্রসেসর</string>
+    <string name="rr_about_processor_sub">%1$d কোর · সর্বোচ্চ %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d কোর</string>
+    <string name="rr_about_storage_used">%1$s ব্যবহৃত</string>
+    <string name="rr_about_display">ডিসপ্লে</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · চার্জ হচ্ছে</string>
+    <string name="rr_about_kernel_linux">Linux কার্নেল</string>
+    <string name="rr_about_software_purpose">Android সংস্করণ, নিরাপত্তা আপডেট, বিল্ড তারিখ ও বিল্ড নম্বর</string>
+    <string name="rr_about_security_patch">নিরাপত্তা আপডেট</string>
+    <string name="rr_about_build_date">বিল্ড তারিখ</string>
+    <string name="rr_about_maintainer">মেইন্টেইনার</string>
+    <string name="rr_about_show">দেখান</string>
+    <string name="rr_about_hide">লুকান</string>
 </resources>

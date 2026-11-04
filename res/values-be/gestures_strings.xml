@@ -7,4 +7,51 @@
         <item>"Сярэдні"</item>
         <item>"Вялікі"</item>
     </string-array>
+    <string name="pie_title">Кругавое меню</string>
+    <string name="pie_summary">Утрымлівайце ніжнюю частку краю, каб адкрыць кругавое меню ярлыкоў</string>
+    <string name="pie_edges">Краі</string>
+    <string name="pie_zone">Частка краю</string>
+    <string name="pie_clock">Гадзіннік і батарэя вышэй за яе</string>
+    <string name="pie_items">Сектары</string>
+    <string-array name="pie_items_entries">
+        <item>"Назад"</item>
+        <item>Галоўная</item>
+        <item>"Нядаўнія"</item>
+        <item>"Апавяшчэнні"</item>
+        <item>Ліхтарык</item>
+        <item>"Здымак экрана"</item>
+        <item>"Меню кнопкі сілкавання"</item>
+        <item>"Памочнік"</item>
+        <item>"Камера"</item>
+    </string-array>
+    <string name="pie_footer">Патрэбна паўсекунды ўтрымання без руху, таму хуткі свайп з краю ўсё яшчэ вяртае назад. Не адкрываецца на экране блакіроўкі.</string>
+    <string-array name="pie_edges_entries">
+        <item>Злева</item>
+        <item>Справа</item>
+        <item>Абодва</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Ніжняя трэць</item>
+        <item>Сярэдзіна</item>
+        <item>Увесь край</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Неон</item>
+        <item>Шкло</item>
+        <item>Класічны</item>
+    </string-array>
+    <string name="sidebar_style_title">Выгляд бакавой панэлі праграм</string>
+    <string-array name="sidebar_style_entries">
+        <item>Класічны</item>
+        <item>Шкло RR</item>
+        <item>Неон</item>
+    </string-array>
+    <string name="sidebar_settings_title">Бакавая панэль праграм</string>
+    <string name="sidebar_settings_summary">Свайпніце ад ручкі, каб адкрыць свае праграмы і інструменты</string>
+    <string name="sidebar_apps_title">Праграмы, ручка і буфер абмену</string>
+    <string name="sidebar_apps_summary">Уключыце ручку, выберыце праграмы і наладзьце разумны буфер абмену</string>
+    <string name="sidebar_handle_size_title">Памер ручкі</string>
+    <string name="sidebar_tools_title">Радок інструментаў</string>
+    <string name="sidebar_tools_summary">Здымак экрана і ліхтарык пад вашымі праграмамі</string>
+    <string name="sidebar_footer">Ручка — тонкая лінія ў вашым акцэнтным колеры; перацягніце яе, каб перамясціць уздоўж краю. Пры навігацыі жэстамі яна займае толькі сваю частку краю, а «назад» працуе ўсюды астатнім.</string>
 </resources>

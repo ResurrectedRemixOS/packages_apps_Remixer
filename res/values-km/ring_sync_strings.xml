@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">ការ​ធ្វើ​សម​កាល​ហ្រ្វេង</string>
+    <string name="ring_sync_tap">ប៉ះនៅពេលហ្រ្វេងត្រូវគ្នាជាមួយសញ្ញាសម្គាល់</string>
+    <string name="ring_sync_best">ល្អបំផុត <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">ល្អឥតខ្ចោះ</string>
+    <string name="ring_sync_new_best">ពិន្ទុល្អបំផុតថ្មី</string>
+    <string name="ring_sync_again">ប៉ះដើម្បីលេងម្ដងទៀត</string>
+    <string name="ring_sync_ember">បានដោះសោពណ៌បន្លិច Ember</string>
+    <string name="ring_sync_use_ember">ប្រើ Ember</string>
+    <string name="ring_sync_android">ភាពលាក់កំបាំងរបស់ Android</string>
+    <string name="ring_sync_vibrate_on">ញ័រពេលប៉ះត្រូវ · បើក</string>
+    <string name="ring_sync_vibrate_off">ញ័រពេលប៉ះត្រូវ · បិទ</string>
+    <string name="accent_ember">អេមប័រ</string>
+</resources>

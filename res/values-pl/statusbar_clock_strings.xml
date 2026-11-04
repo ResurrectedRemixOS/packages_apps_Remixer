@@ -6,4 +6,31 @@
     <string name="sb_clock_chip_angle_title">Kąt gradientu</string>
     <string name="sb_weather_category">"Pogoda"</string>
     <string name="sb_weather_position_title">Położenie</string>
+    <string name="sb_clock_category">Zegar i data</string>
+    <string name="sb_clock_bold_summary">Pokazuj zegar na pasku stanu pogrubiony</string>
+    <string name="sb_clock_period_separator_summary">10.45 zamiast 10:45</string>
+    <string name="sb_clock_date_position_title">Położenie daty</string>
+    <string name="sb_clock_date_style_title">Wielkość liter daty</string>
+    <string name="sb_clock_date_format_title">Format daty</string>
+    <string name="sb_clock_chip_category">Tło zegara</string>
+    <string name="sb_clock_chip_title">Styl tła</string>
+    <string name="sb_clock_chip_start_title">Początek gradientu</string>
+    <string name="sb_clock_chip_end_title">Koniec gradientu</string>
+    <string name="sb_clock_chip_mask_title">Wytnij czas z gradientu</string>
+    <string name="sb_clock_chip_mask_summary">Gradient przebija się przez cyfry zamiast być za nimi</string>
+    <string name="sb_weather_title">Pogoda na pasku stanu</string>
+    <string name="status_bar_clock_rr_style_title">Wygląd zegara</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Domyślny"</item>
+        <item>Neon</item>
+        <item>Podzielony</item>
+        <item>Znak RR</item>
+        <item>Stałej szerokości</item>
+        <item>Pulse</item>
+        <item>Ułożony</item>
+        <item>Żar</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Linia Flatline obok czasu</string>
+    <string name="sb_clock_flatline_summary">Linia tętna RR wewnątrz chipa: bije w rytm muzyki, skacze, gdy przyjdzie powiadomienie</string>
 </resources>

@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"ಬ್ಯಾಟರಿ"</string>
     <string name="battery_style_title">"ಶೈಲಿ"</string>
+    <string-array name="battery_style_entries">
+        <item>ಪೋರ್ಟ್ರೇಟ್</item>
+        <item>"ವಲಯ"</item>
+        <item>ಚುಕ್ಕೆ ವೃತ್ತ</item>
+        <item>ನಿಯಾನ್ ರಿಂಗ್</item>
+        <item>ಸ್ಲಿಮ್ ಪಿಲ್</item>
+        <item>ದೊಡ್ಡ ಶೇಕಡಾವಾರು</item>
+        <item>"ಪಠ್ಯ"</item>
+    </string-array>
+    <string name="battery_percent_title">ಶೇಕಡಾವಾರು</string>
+    <string-array name="battery_percent_entries">
+        <item>ಅಡಗಿದೆ</item>
+        <item>ಚಿಹ್ನೆಯ ಒಳಗೆ</item>
+        <item>ಅದರ ಪಕ್ಕದಲ್ಲಿ</item>
+    </string-array>
+    <string name="battery_ring_color_title">ನಿಯಾನ್ ರಿಂಗ್ ಬಣ್ಣ</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. ಮಟ್ಟದ ಪ್ರಕಾರ ಎಂದರೆ 20%% ಮೇಲೆ ಆಕ್ಸೆಂಟ್, ಕೆಳಗೆ ಕೆಂಪು, ಮತ್ತು ಬ್ಯಾಟರಿ ಸೇವರ್‌ನಲ್ಲಿ ಅಂಬರ್.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>ಮಟ್ಟದ ಪ್ರಕಾರ</item>
+        <item>ಆಕ್ಸೆಂಟ್</item>
+        <item>"ಬಿಳಿ"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">ಚಾರ್ಜ್ ಆಗುವಾಗ ಸ್ಪಾರ್ಕ್</string>
+    <string name="battery_ring_tile_title">ತ್ವರಿತ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಟೈಲ್‌ನಲ್ಲಿಯೂ ಅದೇ ರಿಂಗ್</string>
+    <string name="battery_ring_tile_summary">ಮಟ್ಟ ಮತ್ತು ಪರದೆ ಆನ್ ಇದ್ದ ಸಮಯದೊಂದಿಗೆ</string>
 </resources>

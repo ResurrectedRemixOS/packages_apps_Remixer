@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">ଟାଇମର୍</string>
     <string name="quick_launch_undo">"ଅନଡୁ କରନ୍ତୁ"</string>
     <string name="quick_launch_off">"ବନ୍ଦ ଅଛି"</string>
+    <string name="quick_launch_title">ଦ୍ରୁତ ଲଞ୍ଚ</string>
+    <string name="quick_launch_main">ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ଦ୍ରୁତ ଲଞ୍ଚ</string>
+    <string name="quick_launch_main_summary">ଅନଲକ କରିବା ପରେ ସେନସରରେ ଆଙ୍ଗୁଳି ରଖି ଏକ ସର୍ଟକଟ୍ ଖୋଲନ୍ତୁ</string>
+    <string name="quick_launch_hint">ସର୍ଟକଟ୍ ବଦଳାଇବାକୁ ଟ୍ୟାପ କରନ୍ତୁ, କାଢ଼ିବାକୁ ଦବାଇ ରଖନ୍ତୁ, କିମ୍ବା କ୍ରମ ବଦଳାଇବାକୁ ଟାଣନ୍ତୁ।</string>
+    <string name="quick_launch_behavior">ଆଚରଣ</string>
+    <string name="quick_launch_hold">ଦବାଇ ରଖିବାର ସମୟ</string>
+    <string name="quick_launch_haptics">ପ୍ରତ୍ୟେକ ସର୍ଟକଟ୍‌ରେ କମ୍ପନ</string>
+    <string name="quick_launch_add">ଯୋଡ଼ନ୍ତୁ</string>
+    <string name="quick_launch_video">ଭିଡିଓ</string>
+    <string name="quick_launch_qr">QR ସ୍କାନ କରନ୍ତୁ</string>
+    <string name="quick_launch_app">ଆପ୍…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> କାଢ଼ି ଦିଆଗଲା</string>
 </resources>

@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Подразумевано"</string>
     <string name="clock_faces_size">"Величина"</string>
     <string name="clock_faces_restart">"Рестартуј"</string>
+    <string name="remixer_clock_faces">Изгледи сата</string>
+    <string name="clock_faces_system">Системски сат</string>
+    <string name="clock_faces_system_desc">Сат из Позадина и стил</string>
+    <string name="clock_faces_position">%1$d од %2$d</string>
+    <string name="clock_faces_applied">Примењено</string>
+    <string name="clock_faces_preview_unavailable">Преглед није доступан</string>
+    <string name="clock_faces_failed">Сат није могао да се промени</string>
+    <string name="clock_faces_color_accent">Акценат</string>
+    <string name="clock_faces_color_custom">Прилагођено</string>
+    <string name="clock_faces_color_album">Омот албума</string>
+    <string name="clock_faces_color_gradient">Прелив</string>
+    <string name="clock_faces_own_colors">Овај изглед задржава своје боје.</string>
+    <string name="clock_faces_album_hint">Узима боју из омота албума док свира музика.</string>
+    <string name="clock_faces_size_position">Величина и положај</string>
+    <string name="clock_faces_size_value">Величина · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Удаљеност од врха</string>
+    <string name="clock_faces_top_value">Удаљеност од врха · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Хоризонтални положај</string>
+    <string name="clock_faces_horizontal_center">Хоризонтални положај · Средина</string>
+    <string name="clock_faces_horizontal_right">Хоризонтални положај · <xliff:g id="dp" example="24">%1$d</xliff:g> dp десно</string>
+    <string name="clock_faces_horizontal_left">Хоризонтални положај · <xliff:g id="dp" example="24">%1$d</xliff:g> dp лево</string>
+    <string name="clock_faces_horizontal_fixed">Овај изглед остаје у центру.</string>
+    <string name="clock_faces_opacity">Непрозирност</string>
+    <string name="clock_faces_opacity_value">Непрозирност · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Покрет</string>
+    <string name="clock_faces_wobble">Љуљање током пуњења</string>
+    <string name="clock_faces_wobble_summary">Подскочи једном када се прикључи</string>
+    <string name="clock_faces_aod_anim">Прелаз у режиму стални приказ</string>
+    <string name="clock_faces_aod_anim_summary">Смањује и избледи сат на екрану за стални приказ</string>
+    <string name="clock_faces_restart_title">Поново покренути закључани екран?</string>
+    <string name="clock_faces_restart_message">Пребацивање између системског сата и прилагођених изгледа поново покреће SystemUI. Екран се на секунду искључи.</string>
+    <string name="clock_faces_note">Прегледе црта SystemUI на позадини закључаног екрана. Боја, величина и положај одмах мењају закључани екран.</string>
 </resources>

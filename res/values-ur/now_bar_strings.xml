@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"بٹنز"</string>
     <string name="now_bar_text">"ٹیکسٹ بھیجیں"</string>
     <string name="now_bar_text_size">"ٹیکسٹ کا سائز"</string>
+    <string name="now_bar_summary">مقفل اسکرین کے نیچے لائیو سرگرمیاں</string>
+    <string name="now_bar_show">دکھائیں</string>
+    <string name="now_bar_music">موسیقی اور ویڈیو</string>
+    <string name="now_bar_timers">ٹائمر، اسٹاپ واچ اور الارم</string>
+    <string name="now_bar_hide_call">کال کی اطلاع چھپائیں</string>
+    <string name="now_bar_hide_call_summary">مقفل اسکرین پر، Now Bar میں موجود کال کو الگ سے اطلاعات میں نہیں دکھایا جاتا</string>
+    <string name="now_bar_live">لائیو اپڈیٹس</string>
+    <string name="now_bar_live_summary">نیویگیشن، سواری، ڈیلیوری، اسکور</string>
+    <string name="now_bar_scores">لائیو اسکور</string>
+    <string name="now_bar_live_apps">لائیو اپڈیٹس کی ایپس</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> ایپس</string>
+    <string name="now_bar_pin">ہمیشہ آن ڈسپلے پر پن کی گئی</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> کو ان پن کریں؟</string>
+    <string name="now_bar_unpin">ان پن کریں</string>
+    <string name="now_bar_scores_summary">At a Glance میں فالو کیے گئے گیمز</string>
+    <string name="now_bar_recording">اسکرین اور آواز کی ریکارڈنگ</string>
+    <string name="now_bar_buds">ایئربڈز اور واچز</string>
+    <string name="now_bar_buds_summary">منسلک ڈیوائس کی بیٹری: ایئربڈز کے لیے بائیں، دائیں اور کیس</string>
+    <string name="now_bar_wave">لہر کا اینیمیشن</string>
+    <string name="now_bar_aod">ہمیشہ آن ڈسپلے پر دکھائیں</string>
+    <string name="now_bar_chip">اسٹیٹس بار میں چِپ</string>
+    <string name="now_bar_chip_summary">انلاک ہونے پر گھڑی کے ساتھ چلتی موسیقی اور ٹائمرز دکھائیں</string>
+    <string name="now_bar_footer">Now Bar میں موسیقی ہو تو مقفل اسکرین کا بڑا پلیئر چھپ جاتا ہے۔ سرگرمیوں کے درمیان بدلنے کے لیے بار کو سوائپ کریں، کنٹرولز کھولنے کے لیے دبائیں، اور کوئی سرگرمی ختم ہونے تک چھپانے کے لیے دیر تک دبائے رکھیں۔ رکی ہوئی گانا بار سے ہٹانے کے لیے اسے سوائپ کریں۔\n\nلائیو اسکور میں وہ گیمز دکھائے جاتے ہیں جو Google ایپ میں فالو کی گئی ٹیموں کے ہوں۔ Smartspacer کے ساتھ وہاں اسپورٹس ٹارگٹ شامل کریں تو اس کے اسکور یہاں آ جائیں گے۔</string>
+    <string name="now_bar_looks">Looks</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"ڈیفالٹ"</item>
+        <item>Liquid Glass</item>
+        <item>چھوٹا</item>
+        <item>بڑا</item>
+        <item>نیون</item>
+        <item>شیشے کا کارڈ</item>
+    </string-array>
+    <string name="now_bar_material">میٹیریل</string>
+    <string name="now_bar_material_summary">Liquid Glass وہی شیشہ استعمال کرتا ہے جو آپ نے تھیم میں چُنا ہے</string>
+    <string-array name="now_bar_material_entries">
+        <item>ٹھوس</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>البم آرٹ</item>
+        <item>لہجہ</item>
+        <item>گہرا</item>
+    </string-array>
+    <string name="now_bar_opacity">شفافیت</string>
+    <string name="now_bar_opacity_summary">Liquid Glass میں، شیشے پر رنگ کتنا چڑھے</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"کوئی نہیں"</item>
+        <item>پتلا</item>
+        <item>لہجہ</item>
+    </string-array>
+    <string name="now_bar_shadow">سایہ</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"آف"</item>
+        <item>سافٹ</item>
+        <item>چمک</item>
+    </string-array>
+    <string name="now_bar_more">مزید سرگرمیاں</string>
+    <string-array name="now_bar_more_entries">
+        <item>بس سوائپ کریں</item>
+        <item>نقطے</item>
+        <item>پیچھے جھانکیں</item>
+    </string-array>
+    <string name="now_bar_size">سائز اور شکل</string>
+    <string name="now_bar_height">اونچائی</string>
+    <string name="now_bar_width_summary">Full ہونے پر شارٹ کٹس بار کے اوپر چلے جاتے ہیں</string>
+    <string-array name="now_bar_width_entries">
+        <item>تنگ</item>
+        <item>شارٹ کٹس کے درمیان</item>
+        <item>مکمل</item>
+    </string-array>
+    <string name="now_bar_corners">کونے</string>
+    <string name="now_bar_raise">ابھار</string>
+    <string name="now_bar_art">البم آرٹ</string>
+    <string-array name="now_bar_art_entries">
+        <item>"حلقہ"</item>
+        <item>گول</item>
+        <item>"مربع"</item>
+        <item>"آف"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>چھوڑیں اور چلائیں</item>
+        <item>صرف پلے</item>
+        <item>"کوئی نہیں"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>ایک لائن</item>
+        <item>دو لائنیں</item>
+        <item>صرف گانا</item>
+    </string-array>
+    <string name="now_bar_show_page">بار میں کیا دکھائی دے</string>
+    <string name="now_bar_show_page_summary">موسیقی اور ویڈیو، ٹائمرز، کالز اور مزید</string>
+    <string name="now_bar_where">اور کہاں</string>
 </resources>

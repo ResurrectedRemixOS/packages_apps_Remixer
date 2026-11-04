@@ -6,4 +6,31 @@
     <string name="sb_clock_date_format_title">Format datuma</string>
     <string name="sb_weather_category">"Време"</string>
     <string name="sb_weather_position_title">Pozicija</string>
+    <string name="sb_clock_bold_title">Подебљан сат</string>
+    <string name="sb_clock_bold_summary">Прикажи сат у статусној траци подебљано</string>
+    <string name="sb_clock_period_separator_title">Раздвајач периоде</string>
+    <string name="sb_clock_period_separator_summary">10.45 уместо 10:45</string>
+    <string name="sb_clock_date_style_title">Велика слова датума</string>
+    <string name="sb_clock_chip_category">Позадина сата</string>
+    <string name="sb_clock_chip_title">Стил позадине</string>
+    <string name="sb_clock_chip_start_title">Почетак градијента</string>
+    <string name="sb_clock_chip_end_title">Крај градијента</string>
+    <string name="sb_clock_chip_angle_title">Угао градијента</string>
+    <string name="sb_clock_chip_mask_title">Исеци време из градијента</string>
+    <string name="sb_clock_chip_mask_summary">Градијент се види кроз цифре уместо иза њих</string>
+    <string name="sb_weather_title">Временска прогноза у статусној траци</string>
+    <string name="status_bar_clock_rr_style_title">Изглед сата</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Подразумевано"</item>
+        <item>Неон</item>
+        <item>Подељен</item>
+        <item>RR знак</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Слагано</item>
+        <item>Жар</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline поред времена</string>
+    <string name="sb_clock_flatline_summary">RR-ова линија откуцаја унутар чипа: откуцава уз музику, скаче кад стигне обавештење</string>
 </resources>

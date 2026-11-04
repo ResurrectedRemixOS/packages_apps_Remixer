@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Butiran"</string>
     <string name="lockscreen_weather_location_title">"Lokasi"</string>
+    <string name="lockscreen_weather_title">Cuaca pada skrin kunci</string>
+    <string name="lockscreen_weather_location_summary">Tunjukkan nama bandar</string>
+    <string name="lockscreen_weather_text_title">Keadaan</string>
+    <string name="lockscreen_weather_text_summary">Tunjukkan keadaan, seperti Berawan atau Langit cerah</string>
+    <string name="lockscreen_weather_wind_title">Angin</string>
+    <string name="lockscreen_weather_wind_summary">Tunjukkan kelajuan dan arah angin</string>
+    <string name="lockscreen_weather_humidity_title">Kelembapan</string>
+    <string name="lockscreen_weather_humidity_summary">Tunjukkan kelembapan</string>
+    <string name="custom_clock_weather_title">Cuaca pada muka jam</string>
+    <string name="custom_clock_weather_summary">Tunjukkan cuaca dalam muka jam yang mempunyai ruang untuknya</string>
+    <string name="remixer_weather_service">Perkhidmatan cuaca</string>
+    <string name="remixer_weather_page_summary">Cuaca skrin kunci dan apa yang ditunjukkannya</string>
 </resources>

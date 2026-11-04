@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Blå"</string>
     <string name="haptic_remix_color_green">"Grön"</string>
     <string name="haptic_remix_color_white">"Vit"</string>
+    <string name="haptic_remix_summary">Tryck fram vibrationsmönster för samtal, appar, alarm och upplåsningar</string>
+    <string name="haptic_remix_record">Spela in</string>
+    <string name="haptic_remix_pad">tryck i rytmen</string>
+    <string name="haptic_remix_strength">Styrka</string>
+    <string name="haptic_remix_clear">Rensa</string>
+    <string name="haptic_remix_play">Spela</string>
+    <string name="haptic_remix_name">Mönstrets namn</string>
+    <string name="haptic_remix_empty">Inget inspelat än</string>
+    <string name="haptic_remix_too_long">Ett mönster kan vara 30 sekunder långt</string>
+    <string name="haptic_remix_presets">Förinställningar</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Glas</string>
+    <string name="haptic_remix_preset_ringtone">Ringsignalens rytm</string>
+    <string name="haptic_remix_listening">Läser ringsignalen…</string>
+    <string name="haptic_remix_no_ringtone">Ringsignalen kunde inte läsas</string>
+    <string name="haptic_remix_patterns">Dina mönster</string>
+    <string name="haptic_remix_patterns_none">Spara ett mönster först. Håll in ett för att ta bort det.</string>
+    <string name="haptic_remix_broken">Mönstret kan inte läsas</string>
+    <string name="haptic_remix_delete">Ta bort <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Tilldela till</string>
+    <string name="haptic_remix_alarm">Alarm och timer</string>
+    <string name="haptic_remix_plug">Ansluten</string>
+    <string name="haptic_remix_fingerprint">Fingeravtryck godkänt</string>
+    <string name="haptic_remix_add_contact">Lägg till en kontakt</string>
+    <string name="haptic_remix_edge_color">Kantbelysning för <xliff:g id="name" example="Mia">%1$s</xliff:g>s meddelanden</string>
+    <string name="haptic_remix_color_accent">Accent</string>
+    <string name="haptic_remix_color_crimson">Karmosinröd</string>
+    <string name="haptic_remix_color_amber">Bärnsten</string>
+    <string name="haptic_remix_add_app">Lägg till en apps aviseringar</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · tryck för att ändra, håll in för kantfärg</string>
+    <string name="haptic_remix_no_contacts">Inget nummer kom tillbaka från Kontakter</string>
 </resources>

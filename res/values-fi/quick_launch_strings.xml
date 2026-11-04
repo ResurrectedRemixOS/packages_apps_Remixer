@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Ajastin</string>
     <string name="quick_launch_undo">"Kumoa"</string>
     <string name="quick_launch_off">"Pois päältä"</string>
+    <string name="quick_launch_title">Pikakäynnistys</string>
+    <string name="quick_launch_main">Sormenjälkien pikakäynnistys</string>
+    <string name="quick_launch_main_summary">Pidä sormea anturilla lukituksen avaamisen jälkeen avataksesi pikakuvakkeen</string>
+    <string name="quick_launch_hint">Napauta pikakuvaketta vaihtaaksesi sen, pidä painettuna poistaaksesi sen tai vedä järjestääksesi uudelleen.</string>
+    <string name="quick_launch_behavior">Toiminta</string>
+    <string name="quick_launch_hold">Pitoaika</string>
+    <string name="quick_launch_haptics">Värinä jokaisesta pikakuvakkeesta</string>
+    <string name="quick_launch_add">Lisää</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">Skannaa QR-koodi</string>
+    <string name="quick_launch_app">Sovellus…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> poistettu</string>
 </resources>

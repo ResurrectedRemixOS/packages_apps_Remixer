@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">আপোনাৰ প্ৰতিটো মোডৰ বাবে এটা ৰূপ</string>
+    <string name="remix_modes_everyday">দৈনন্দিন ৰূপ</string>
+    <string name="remix_modes_everyday_summary">ৰূপ থকা কোনো মোড অন নথকাত পুনৰ আহে</string>
+    <string name="remix_modes_wallpaper">ৱালপেপাৰ ৰূপ অনুসৰণ কৰে</string>
+    <string name="remix_modes_wallpaper_summary">এটা মোডে ৱালপেপাৰো সলনি কৰিব পাৰে</string>
+    <string name="remix_modes_modes">আপোনাৰ মোডসমূহ</string>
+    <string name="remix_modes_no_change">কোনো সলনি নাই</string>
+    <string name="remix_modes_none">প্ৰথমে এটা ৰূপ সংৰক্ষণ কৰক, থীম › ৰূপসমূহত</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g>ৰ বাবে ৰূপ</string>
+</resources>

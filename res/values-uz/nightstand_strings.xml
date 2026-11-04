@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="nightstand_title">Tungi soat</string>
+    <string name="nightstand_summary">Tunda zaryadlanayotganda ekran doim yoqilgan rejimda xira tungi soat</string>
+    <string name="nightstand_when">Qachon</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Oʻchiq"</item>
+        <item>Tunda zaryadlagichda</item>
+        <item>Har kecha, jadval bo\'yicha</item>
+        <item>Uyqu rejimi yoqilganda</item>
+    </string-array>
+    <string name="nightstand_from">Tun boshlanadi</string>
+    <string name="nightstand_to">Tun tugaydi</string>
+    <string name="nightstand_brightness">Yorqinlik chegarasi</string>
+    <string name="nightstand_brightness_summary">Tungi soat yoqilganda doim yoqilgan ekran qanchalik yorqin bo\'lishi mumkin</string>
+    <string name="nightstand_face">Ciferblat</string>
+    <string name="nightstand_face_keep">Joriy ciferblatni saqlash</string>
+    <string name="nightstand_footer">Tungi soat ishlayotganda doim yoqilgan ekranni yoqadi va keyin uni asliga qaytaradi. Zaryadlagich uzilganda, signal jiringlaganda yoki tun tugaganda to\'xtaydi. Ciferblat faqat ikkita maxsus ciferblat orasida almashadi; tizim soati o\'zgarmaydi.</string>
 </resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Guna RKP peranti</string>
+    <string name="ts_rkp_enabled_summary">Guna keybox yang dijana. Mengimport keybox akan mematikannya.</string>
+    <string name="ts_rkp_provision">Jana keybox</string>
+    <string name="ts_rkp_provision_summary">Minta keybox daripada Google menggunakan perkhidmatan penyediaan peranti ini. Memerlukan perisian tegar Qualcomm yang serasi.</string>
+    <string name="ts_rkp_status">Status penyediaan</string>
+    <string name="ts_rkp_owner_only">Urus RKP peranti daripada profil pemilik peranti</string>
+    <string name="ts_rkp_unavailable">RKP peranti tidak tersedia</string>
+    <string name="ts_rkp_imported">Dilumpuhkan semasa keybox yang diimport dipasang</string>
+    <string name="ts_rkp_disabled">Mati. Dayakan RKP peranti untuk guna atau jana keybox.</string>
+    <string name="ts_rkp_idle">Sedia untuk meminta keybox</string>
+    <string name="ts_rkp_fetching">Mendapatkan cabaran penyediaan…</string>
+    <string name="ts_rkp_hardware">Menunggu perkhidmatan penyediaan peranti…</string>
+    <string name="ts_rkp_signing">Meminta sijil daripada Google…</string>
+    <string name="ts_rkp_validating">Mengesahkan dan menyimpan keybox…</string>
+    <string name="ts_rkp_ready">Keybox yang dijana aktif. Diperbaharui sendiri sebelum %1$s</string>
+    <string name="ts_rkp_keybox_stored">Keybox RKP peranti disimpan</string>
+    <string name="ts_rkp_expired">Keybox yang dijana telah tamat tempoh. Jana gantian.</string>
+    <string name="ts_rkp_hal_rejected">Perisian tegar menolak permintaan (kod %1$d). Duck V1 mungkin tidak disokong.</string>
+    <string name="ts_rkp_http_error">Pelayan penyediaan menolak permintaan (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Peranti tidak mendedahkan antara muka penyediaan V1 yang serasi</string>
+    <string name="ts_rkp_network_error">Tidak dapat menghubungi pelayan penyediaan. Semak sambungan anda.</string>
+    <string name="ts_rkp_submission_unknown">Respons pelayan hilang. Permintaan mungkin telah diproses; tiada cubaan semula automatik dibuat.</string>
+    <string name="ts_rkp_invalid_chain">Sijil keybox gagal pengesahan. Keybox sedia ada dikekalkan.</string>
+    <string name="ts_rkp_timeout">Penyediaan tamat masa. Jika perkhidmatan peranti masih sibuk, mulakan semula peranti sebelum mencuba lagi.</string>
+    <string name="ts_rkp_canceled">Permintaan dibatalkan kerana konfigurasi keybox berubah</string>
+    <string name="ts_rkp_save_failed">Tidak dapat menyimpan keybox yang dijana</string>
+    <string name="ts_rkp_action_failed">Tidak dapat melengkapkan operasi keybox</string>
+</resources>

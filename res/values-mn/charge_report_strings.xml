@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Батарей"</string>
     <string name="charge_report_temp">"Температур"</string>
     <string name="charge_report_time">"Цаг"</string>
+    <string name="charge_report_title">Цэнэглэлтийн тайлан</string>
+    <string name="charge_report_summary">Салгах бүрт цэнэглэлтийн тойм</string>
+    <string name="charge_report_min_title">Зөвхөн дор хаяж энэ хэмжээгээр нэмэгдсэн бол</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 өдөр</item>
+        <item>7 өдөр</item>
+        <item>14 өдөр</item>
+        <item>30 өдөр</item>
+    </string-array>
+    <string name="charge_report_history_days">Сүүлийн <xliff:g id="days" example="7">%1$d</xliff:g> өдөр</string>
+    <string name="charge_report_today">Өнөөдөр, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Өчигдөр, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> мин</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ц <xliff:g id="minutes" example="02">%2$02d</xliff:g> мин</string>
+    <string name="charge_report_watts">Ватт</string>
+    <string name="charge_report_added">Нэмэгдсэн</string>
+    <string name="charge_report_peak">Дээд</string>
+    <string name="charge_report_average">Дундаж</string>
+    <string name="charge_report_max_temp">Дээд температур</string>
+    <string name="charge_report_charger">Цэнэглэгч</string>
+    <string name="charge_report_started">Эхэлсэн цаг</string>
+    <string name="charge_report_wired">Утастай</string>
+    <string name="charge_report_wireless">Утасгүй</string>
+    <string name="charge_report_dock">Тавцан</string>
+    <string name="charge_report_empty">Одоохондоо цэнэглэлт байхгүй</string>
+    <string name="charge_report_footer">SystemUI нь залгагдсан үед батерейн одоогийн хүчдэл, гүйдэл, температурыг 30 секунд тутам уншина. Ваттууд нь утасны хэмжсэн утга тул цэнэглэгч дээрх тоотой ялгаатай байж болно. Тайлан утсанд л хадгалагдана; илгээгдэхгүй.</string>
 </resources>

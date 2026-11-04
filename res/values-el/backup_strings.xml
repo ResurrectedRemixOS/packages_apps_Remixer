@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Χειρονομίες</string>
     <string name="backup_group_other">"Άλλο"</string>
     <string name="backup_done">"Τέλος"</string>
+    <string name="backup_summary">Όλες οι προσαρμογές RR σε ένα αρχείο</string>
+    <string name="backup_now">Δημιουργία αντιγράφου τώρα</string>
+    <string name="backup_never">Τελευταίο αντίγραφο: ποτέ</string>
+    <string name="backup_last">Τελευταίο αντίγραφο: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Επαναφορά από αρχείο</string>
+    <string name="backup_restore_summary">Επιλέξτε ένα αρχείο αντιγράφου</string>
+    <string name="backup_included">Περιλαμβάνονται</string>
+    <string name="backup_part_theme">Έμφαση, γραμματοσειρά και εικονίδια</string>
+    <string name="backup_part_header">Εικόνα επικεφαλίδας</string>
+    <string name="backup_part_photo">Εικόνα κεφαλίδας (η φωτογραφία σας)</string>
+    <string name="backup_part_photo_summary">Αυξάνει το μέγεθος του αρχείου</string>
+    <string name="backup_part_boot">Κινούμενο εκκίνησης</string>
+    <string name="backup_part_looks">Οι εμφανίσεις σας</string>
+    <string name="backup_weekly">Εβδομαδιαίο αντίγραφο</string>
+    <string name="backup_weekly_summary">Σε φάκελο που επιλέγετε</string>
+    <string name="backup_weekly_on">Κάθε εβδομάδα στο <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Πρόταση αντιγράφου πριν από ενημερώσεις</string>
+    <string name="backup_offer_summary">Ο Updater ρωτά πριν την εγκατάσταση</string>
+    <string name="backup_sets">Ορίζει <xliff:g id="count" example="64">%1$d</xliff:g> ρυθμίσεις</string>
+    <string name="backup_saved">Αποθηκεύτηκαν <xliff:g id="count" example="64">%1$d</xliff:g> ρυθμίσεις</string>
+    <string name="backup_restored">Επαναφέρθηκαν <xliff:g id="count" example="64">%1$d</xliff:g> ρυθμίσεις</string>
+    <string name="backup_restored_message">Το SystemUI επανεκκινείται για να εφαρμοστούν.</string>
+    <string name="backup_skipped">Οι <xliff:g id="count" example="2">%1$d</xliff:g> ρυθμίσεις δεν υπάρχουν σε αυτή την έκδοση και παραλείφθηκαν.</string>
+    <string name="backup_failed">Δεν ήταν δυνατή η αποθήκευση του αντιγράφου</string>
+    <string name="backup_invalid">Το αρχείο δεν είναι αντίγραφο του Resurrected Remix</string>
+    <string name="backup_footer">Στο αρχείο μπαίνουν μόνο οι ρυθμίσεις RR: χωρίς λογαριασμούς, κωδικούς, δίκτυα Wi-Fi, εφαρμογές ή μηνύματα. Η επαναφορά γράφει μόνο ρυθμίσεις από τη δική της λίστα RR, οπότε ένα αρχείο αντιγράφου δεν μπορεί να αλλάξει τίποτα άλλο στο τηλέφωνο. Η φωτογραφία κεφαλίδας περιλαμβάνεται μόνο αν είναι ενεργοποιημένος ο διακόπτης της, αφού αυξάνει το μέγεθος του αρχείου.</string>
+    <string name="volume_style_title">Στυλ πίνακα έντασης</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Γυαλί</item>
+        <item>Ράβδος</item>
+        <item>Κλασικό RR</item>
+        <item>Bento</item>
+        <item>Σχήματα</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Soft</item>
+    </string-array>
 </resources>

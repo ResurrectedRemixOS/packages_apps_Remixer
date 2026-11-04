@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">ভঙ্গিমা</string>
     <string name="backup_group_other">"অন্যান্য"</string>
     <string name="backup_done">"হ’ল"</string>
+    <string name="backup_summary">এটা ফাইলত সকলো RR কাষ্টমাইজেচন</string>
+    <string name="backup_now">এতিয়াই বেকআপ লওক</string>
+    <string name="backup_never">শেহতীয়া বেকআপ: কেতিয়াও নহয়</string>
+    <string name="backup_last">শেহতীয়া বেকআপ: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">ফাইলৰ পৰা পুনঃস্থাপন কৰক</string>
+    <string name="backup_restore_summary">এটা বেকআপ ফাইল বাছক</string>
+    <string name="backup_included">অন্তৰ্ভুক্ত</string>
+    <string name="backup_part_theme">উচ্চাৰণ, ফ\'ণ্ট আৰু আইকন</string>
+    <string name="backup_part_header">শিৰোনাম ছবি</string>
+    <string name="backup_part_photo">হেডাৰ ছবি (আপোনাৰ ফটো)</string>
+    <string name="backup_part_photo_summary">ফাইল ডাঙৰ কৰে</string>
+    <string name="backup_part_boot">বুট এনিমেশ্বন</string>
+    <string name="backup_part_looks">আপোনাৰ ৰূপসমূহ</string>
+    <string name="backup_weekly">সাপ্তাহিক বেকআপ</string>
+    <string name="backup_weekly_summary">আপুনি বাছা এটা ফোল্ডাৰলৈ</string>
+    <string name="backup_weekly_on">প্ৰতি সপ্তাহে <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g>লৈ</string>
+    <string name="backup_offer">আপডেটৰ আগতে বেকআপৰ প্ৰস্তাৱ দিয়ক</string>
+    <string name="backup_offer_summary">আপডেটাৰে ইনষ্টল কৰাৰ আগতে সোধে</string>
+    <string name="backup_sets"><xliff:g id="count" example="64">%1$d</xliff:g> ছেটিং ছেট কৰে</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> ছেটিং সংৰক্ষণ কৰা হ\'ল</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> ছেটিং পুনঃস্থাপন কৰা হ\'ল</string>
+    <string name="backup_restored_message">প্ৰয়োগ কৰিবলৈ SystemUI পুনৰাৰম্ভ হয়।</string>
+    <string name="backup_skipped">এই বিল্ডত <xliff:g id="count" example="2">%1$d</xliff:g> ছেটিং নাই আৰু সেইবোৰ এৰি দিয়া হ\'ল।</string>
+    <string name="backup_failed">বেকআপ সংৰক্ষণ কৰিব নোৱাৰি</string>
+    <string name="backup_invalid">এইটো Resurrected Remix বেকআপ ফাইল নহয়</string>
+    <string name="backup_footer">কেৱল RR ৰ ছেটিংহে ফাইলত থাকিব: একাউণ্ট, পাছৱৰ্ড, ৱাই-ফাই নেটৱৰ্ক, এপ বা বাৰ্তা নহয়। পুনঃস্থাপনে কেৱল RR ৰ নিজা তালিকাৰ ছেটিংহে লিখে, সেয়েহে বেকআপ ফাইলে ফোনৰ আন একো সলনি কৰিব নোৱাৰে। আপোনাৰ হেডাৰ ফটো কেৱল তাৰ সুইচ অন থাকিলেহে অন্তৰ্ভুক্ত হয়, কাৰণ ইয়ে ফাইলটো ডাঙৰ কৰে।</string>
+    <string name="volume_style_title">ভলিউম পেনেলৰ শৈলী</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>নিঅ\'ন</item>
+        <item>গ্লাছ</item>
+        <item>পিল</item>
+        <item>ক্লাছিক RR</item>
+        <item>Bento</item>
+        <item>আকৃতি</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>নৰম</item>
+    </string-array>
 </resources>

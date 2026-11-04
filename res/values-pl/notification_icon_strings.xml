@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="notification_icons_category">"Ikony"</string>
+    <string name="notification_app_icons_title">Ikony aplikacji</string>
+    <string name="notification_app_icons_summary">Pokazuj ikonę aplikacji w powiadomieniach zamiast jej małego symbolu</string>
 </resources>

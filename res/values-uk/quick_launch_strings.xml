@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Таймер</string>
     <string name="quick_launch_undo">"Відмінити"</string>
     <string name="quick_launch_off">"Вимкнено"</string>
+    <string name="quick_launch_title">Швидкий запуск</string>
+    <string name="quick_launch_main">Швидкий запуск за відбитком пальця</string>
+    <string name="quick_launch_main_summary">Після розблокування тримайте палець на датчику, щоб відкрити ярлик</string>
+    <string name="quick_launch_hint">Торкніться ярлика, щоб змінити його, утримайте, щоб вилучити, або перетягніть, щоб змінити порядок.</string>
+    <string name="quick_launch_behavior">Поведінка</string>
+    <string name="quick_launch_hold">Час утримання</string>
+    <string name="quick_launch_haptics">Вібрація на кожному ярлику</string>
+    <string name="quick_launch_add">Додати</string>
+    <string name="quick_launch_video">Відео</string>
+    <string name="quick_launch_qr">Сканувати QR</string>
+    <string name="quick_launch_app">Застосунок…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> вилучено</string>
 </resources>

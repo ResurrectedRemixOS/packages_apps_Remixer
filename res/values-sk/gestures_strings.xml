@@ -8,4 +8,50 @@
         <item>"Stredný"</item>
         <item>"Veľké"</item>
     </string-array>
+    <string name="pie_title">Kruhové ovládanie</string>
+    <string name="pie_summary">Podržte dolnú časť okraja a otvorte kruh skratiek</string>
+    <string name="pie_zone">Časť okraja</string>
+    <string name="pie_clock">Hodiny a batéria nad ním</string>
+    <string name="pie_items">Výseky</string>
+    <string-array name="pie_items_entries">
+        <item>"Späť"</item>
+        <item>Domov</item>
+        <item>"Nedávne"</item>
+        <item>"Upozornenia"</item>
+        <item>Baterka</item>
+        <item>"Snímka obrazovky"</item>
+        <item>"Ponuka vypínača"</item>
+        <item>"Asistent"</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Vyžaduje pridržanie štvrtiny sekundy bez pohybu, takže rýchle potiahnutie od okraja stále vráti späť. Neotvorí sa na uzamknutej obrazovke.</string>
+    <string-array name="pie_edges_entries">
+        <item>Vľavo</item>
+        <item>Vpravo</item>
+        <item>Obe</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Spodná tretina</item>
+        <item>Stred</item>
+        <item>Celý okraj</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neón</item>
+        <item>Sklo</item>
+        <item>Klasický</item>
+    </string-array>
+    <string name="sidebar_style_title">Vzhľad bočného panela aplikácií</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klasický</item>
+        <item>Sklo RR</item>
+        <item>Neón</item>
+    </string-array>
+    <string name="sidebar_settings_title">Bočný panel aplikácií</string>
+    <string name="sidebar_settings_summary">Potiahnutím z úchytu otvoríte aplikácie a nástroje</string>
+    <string name="sidebar_apps_title">Aplikácie, úchyt a schránka</string>
+    <string name="sidebar_apps_summary">Zapnite úchyt, vyberte aplikácie a nastavte inteligentnú schránku</string>
+    <string name="sidebar_handle_size_title">Veľkosť úchytu</string>
+    <string name="sidebar_tools_title">Riadok nástrojov</string>
+    <string name="sidebar_tools_summary">Snímka obrazovky a baterka pod aplikáciami</string>
+    <string name="sidebar_footer">Úchyt je tenká čiara vo vašej farbe zvýraznenia; potiahnutím ju môžete posúvať po okraji. Pri navigácii gestami pokrýva iba svoju časť okraja a spätný krok funguje všade inde.</string>
 </resources>

@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Žesti</string>
     <string name="backup_group_other">"Cits"</string>
     <string name="backup_done">"Gatavs"</string>
+    <string name="backup_summary">Visi RR pielāgojumi vienā failā</string>
+    <string name="backup_now">Dublēt tagad</string>
+    <string name="backup_never">Pēdējā dublēšana: nekad</string>
+    <string name="backup_last">Pēdējā dublēšana: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Atjaunot no faila</string>
+    <string name="backup_restore_summary">Izvēlieties dublēšanas failu</string>
+    <string name="backup_included">Iekļauts</string>
+    <string name="backup_part_theme">Akcents, fonts un ikonas</string>
+    <string name="backup_part_header">Galvenes attēls</string>
+    <string name="backup_part_photo">Galvenes attēls (jūsu foto)</string>
+    <string name="backup_part_photo_summary">Palielina failu</string>
+    <string name="backup_part_boot">Palaišanas animācija</string>
+    <string name="backup_part_looks">Jūsu izskati</string>
+    <string name="backup_weekly">Iknedēļas dublēšana</string>
+    <string name="backup_weekly_summary">Uz izvēlētu mapi</string>
+    <string name="backup_weekly_on">Katru nedēļu uz <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Piedāvāt dublēšanu pirms atjauninājumiem</string>
+    <string name="backup_offer_summary">Atjauninātājs jautā, pirms instalē</string>
+    <string name="backup_sets">Iestata <xliff:g id="count" example="64">%1$d</xliff:g> iestatījumus</string>
+    <string name="backup_saved">Saglabāti <xliff:g id="count" example="64">%1$d</xliff:g> iestatījumi</string>
+    <string name="backup_restored">Atjaunoti <xliff:g id="count" example="64">%1$d</xliff:g> iestatījumi</string>
+    <string name="backup_restored_message">SystemUI tiks restartēts, lai tos piemērotu.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> iestatījumi šajā versijā neeksistē un tika izlaisti.</string>
+    <string name="backup_failed">Dublējumu nevarēja saglabāt</string>
+    <string name="backup_invalid">Šis fails nav Resurrected Remix dublējums</string>
+    <string name="backup_footer">Failā ir tikai RR iestatījumi: nav kontu, paroļu, Wi-Fi tīklu, lietotņu vai ziņu. Atjaunošana raksta tikai iestatījumus RR sarakstā, tāpēc dublēšanas fails nevar mainīt nekā citu tālrunī. Galvenes attēls tiek iekļauts tikai tad, ja tā slēdzis ir ieslēgts, jo tas palielina failu.</string>
+    <string name="volume_style_title">Skaļuma paneļa stils</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neona</item>
+        <item>Stikls</item>
+        <item>Kapsula</item>
+        <item>Klasiskais RR</item>
+        <item>Bento</item>
+        <item>Formas</item>
+        <item>Zilbilde</item>
+        <item>Duo</item>
+        <item>Maigais</item>
+    </string-array>
 </resources>

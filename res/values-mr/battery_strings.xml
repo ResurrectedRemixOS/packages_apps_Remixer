@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"बॅटरी"</string>
     <string name="battery_style_title">"शैली"</string>
+    <string-array name="battery_style_entries">
+        <item>पोर्ट्रेट</item>
+        <item>"मंडळ"</item>
+        <item>ठिपक्यांचे वर्तुळ</item>
+        <item>निऑन रिंग</item>
+        <item>स्लिम पिल</item>
+        <item>मोठी टक्केवारी</item>
+        <item>"मजकूर"</item>
+    </string-array>
+    <string name="battery_percent_title">टक्केवारी</string>
+    <string-array name="battery_percent_entries">
+        <item>"लपविलेले"</item>
+        <item>आयकॉनच्या आत</item>
+        <item>त्याच्या शेजारी</item>
+    </string-array>
+    <string name="battery_ring_color_title">निऑन रिंगचा रंग</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. पातळीनुसार म्हणजे 20%% वरील अॅक्सेंट, खाली लाल आणि बॅटरी सेव्हरमध्ये अंबर.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>पातळीनुसार</item>
+        <item>ॲक्सेंट</item>
+        <item>"पांढरा"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">चार्ज होताना स्पार्क</string>
+    <string name="battery_ring_tile_title">क्विक सेटिंग्ज टाइलवरही तीच रिंग</string>
+    <string name="battery_ring_tile_summary">पातळी आणि स्क्रीन-चालू वेळेसह</string>
 </resources>

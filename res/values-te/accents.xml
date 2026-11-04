@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"వాల్‌పేపర్"</item>
+        <item>రిసరెక్టెడ్</item>
+        <item>ఆండ్రాయిడ్ వన్ గ్రీన్</item>
+        <item>ఏస్‌పా గ్రీన్</item>
+        <item>కోకా కోలా రెడ్</item>
+        <item>డిస్కార్డ్ పర్పుల్</item>
+        <item>ఫేస్‌బుక్ బ్లూ</item>
+        <item>ఇన్‌స్టాగ్రామ్ సెరిస్</item>
+        <item>జొలిబీ క్రిమ్సన్</item>
+        <item>మాన్‌స్టర్ ఎనర్జీ గ్రీన్</item>
+        <item>నెక్స్‌బిట్ మింట్</item>
+        <item>వన్‌ప్లస్ రెడ్</item>
+        <item>పెప్సీ బ్లూ</item>
+        <item>పిక్సెల్ బ్లూ</item>
+        <item>పోకోఫోన్ ఎల్లో</item>
+        <item>రేజర్ గ్రీన్</item>
+        <item>శామ్‌సంగ్ బ్లూ</item>
+        <item>స్పాటిఫై గ్రీన్</item>
+        <item>స్టార్‌బక్స్ గ్రీన్</item>
+        <item>ట్విచ్ పర్పుల్</item>
+        <item>ట్విట్టర్ బ్లూ</item>
+        <item>షియోమి ఆరెంజ్</item>
+        <item>అంబర్</item>
+        <item>"నలుపు రంగు"</item>
+        <item>"నీలి రంగు"</item>
+        <item>బ్లూ గ్రే</item>
+        <item>బ్రౌన్</item>
+        <item>"నీలి ఆకుపచ్చ రంగు"</item>
+        <item>డీప్ ఆరెంజ్</item>
+        <item>డీప్ పర్పుల్</item>
+        <item>"ఆకుపచ్చ రంగు"</item>
+        <item>"బూడిద రంగు"</item>
+        <item>"ఇండిగో రంగు"</item>
+        <item>లైట్ బ్లూ</item>
+        <item>లైమ్</item>
+        <item>"నారింజ రంగు"</item>
+        <item>"గులాబీ"</item>
+        <item>"ఊదా రంగు"</item>
+        <item>"ఎరుపు రంగు"</item>
+        <item>"టీల్ రంగు"</item>
+        <item>యూజర్ ఫైవ్</item>
+        <item>యూజర్ ఫోర్</item>
+        <item>యూజర్ వన్</item>
+        <item>యూజర్ సెవెన్</item>
+        <item>యూజర్ సిక్స్</item>
+        <item>యూజర్ త్రీ</item>
+        <item>యూజర్ టూ</item>
+        <item>"తెలుపు రంగు"</item>
+        <item>"పసుపు రంగు"</item>
+    </string-array>
+</resources>

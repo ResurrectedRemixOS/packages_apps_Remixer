@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Kohëmatësi</string>
     <string name="quick_launch_undo">"Zhbëj"</string>
     <string name="quick_launch_off">"Joaktiv"</string>
+    <string name="quick_launch_title">Nisje e shpejtë</string>
+    <string name="quick_launch_main">Nisje e shpejtë me gjurmën e gishtit</string>
+    <string name="quick_launch_main_summary">Mbaj gishtin në sensor pas shkyçjes për të hapur një shkurtore</string>
+    <string name="quick_launch_hint">Prek një shkurtore për ta ndryshuar, mbaje të shtypur për ta hequr, ose tërhiqe për ta rirenditur.</string>
+    <string name="quick_launch_behavior">Sjellja</string>
+    <string name="quick_launch_hold">Koha e mbajtjes</string>
+    <string name="quick_launch_haptics">Dridhje për çdo shkurtore</string>
+    <string name="quick_launch_add">Shto</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">Skano QR</string>
+    <string name="quick_launch_app">Aplikacion…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> u hoq</string>
 </resources>

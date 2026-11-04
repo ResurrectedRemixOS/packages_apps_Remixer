@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"બૅટરી"</string>
     <string name="charge_report_temp">"તાપમાન"</string>
     <string name="charge_report_time">"સમય"</string>
+    <string name="charge_report_title">ચાર્જ રિપોર્ટ્સ</string>
+    <string name="charge_report_summary">અનપ્લગ કરો ત્યારે દરેક ચાર્જનો સારાંશ</string>
+    <string name="charge_report_min_title">માત્ર ત્યારે જો તેણે ઓછામાં ઓછું ઉમેર્યું હોય</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 દિવસ</item>
+        <item>7 દિવસ</item>
+        <item>14 દિવસ</item>
+        <item>30 દિવસ</item>
+    </string-array>
+    <string name="charge_report_history_days">છેલ્લા <xliff:g id="days" example="7">%1$d</xliff:g> દિવસ</string>
+    <string name="charge_report_today">આજે, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">ગઈકાલે, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> મિનિટ</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> કલાક <xliff:g id="minutes" example="02">%2$02d</xliff:g> મિનિટ</string>
+    <string name="charge_report_watts">વૉટ</string>
+    <string name="charge_report_added">ઉમેરાયેલ</string>
+    <string name="charge_report_peak">ટોચ</string>
+    <string name="charge_report_average">સરેરાશ</string>
+    <string name="charge_report_max_temp">મહત્તમ તાપમાન</string>
+    <string name="charge_report_charger">ચાર્જર</string>
+    <string name="charge_report_started">શરૂ થયું</string>
+    <string name="charge_report_wired">વાયર્ડ</string>
+    <string name="charge_report_wireless">વાયરલેસ</string>
+    <string name="charge_report_dock">ડૉક</string>
+    <string name="charge_report_empty">હજુ સુધી કોઈ ચાર્જ નથી</string>
+    <string name="charge_report_footer">SystemUI પ્લગ ઇન હોય ત્યારે દર 30 સેકન્ડે બૅટરીનો કરંટ, વોલ્ટેજ અને તાપમાન વાંચે છે. વૉટ એ ફોન માપે છે તે છે, તેથી તે ચાર્જર પરના આંકડાથી અલગ હોઈ શકે. રિપોર્ટ ફોન પર જ રહે છે; કશું અપલોડ થતું નથી.</string>
 </resources>

@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Afteller</string>
     <string name="quick_launch_undo">"Ontdoen"</string>
     <string name="quick_launch_off">"Af"</string>
+    <string name="quick_launch_title">Vinnige begin</string>
+    <string name="quick_launch_main">Vingerafdruk-vinnige begin</string>
+    <string name="quick_launch_main_summary">Hou jou vinger na ontsluiting op die sensor om \'n kortpad oop te maak</string>
+    <string name="quick_launch_hint">Tik op \'n kortpad om dit te verander, hou dit vas om dit te verwyder, of sleep dit om dit te herrangskik.</string>
+    <string name="quick_launch_behavior">Gedrag</string>
+    <string name="quick_launch_hold">Hou-tyd</string>
+    <string name="quick_launch_haptics">Vibreer by elke kortpad</string>
+    <string name="quick_launch_add">Voeg by</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">Skandeer QR</string>
+    <string name="quick_launch_app">Program…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> verwyder</string>
 </resources>

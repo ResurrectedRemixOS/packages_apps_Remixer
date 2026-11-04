@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"ಡೀಫಾಲ್ಟ್"</string>
     <string name="clock_faces_size">"ಗಾತ್ರ"</string>
     <string name="clock_faces_restart">"ಮರುಪ್ರಾರಂಭಿಸಿ"</string>
+    <string name="remixer_clock_faces">ಗಡಿಯಾರ ಶೈಲಿಗಳು</string>
+    <string name="clock_faces_system">ಸಿಸ್ಟಂ ಗಡಿಯಾರ</string>
+    <string name="clock_faces_system_desc">ವಾಲ್‌ಪೇಪರ್ ಮತ್ತು ಶೈಲಿಯಿಂದ ಗಡಿಯಾರ</string>
+    <string name="clock_faces_position">%1$d / %2$d</string>
+    <string name="clock_faces_applied">ಅನ್ವಯಿಸಲಾಗಿದೆ</string>
+    <string name="clock_faces_preview_unavailable">ಪೂರ್ವವೀಕ್ಷಣೆ ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="clock_faces_failed">ಗಡಿಯಾರ ಬದಲಾಯಿಸಲಾಗಲಿಲ್ಲ</string>
+    <string name="clock_faces_color_accent">ಆಕ್ಸೆಂಟ್</string>
+    <string name="clock_faces_color_custom">ಕಸ್ಟಮ್</string>
+    <string name="clock_faces_color_album">ಆಲ್ಬಂ ಆರ್ಟ್</string>
+    <string name="clock_faces_color_gradient">ಗ್ರೇಡಿಯಂಟ್</string>
+    <string name="clock_faces_own_colors">ಈ ಶೈಲಿಯು ತನ್ನದೇ ಬಣ್ಣಗಳನ್ನು ಉಳಿಸಿಕೊಳ್ಳುತ್ತದೆ.</string>
+    <string name="clock_faces_album_hint">ಸಂಗೀತ ನುಡಿಸುತ್ತಿರುವಾಗ ಆಲ್ಬಂ ಆರ್ಟ್‌ನಿಂದ ಬಣ್ಣ ಪಡೆಯುತ್ತದೆ.</string>
+    <string name="clock_faces_size_position">ಗಾತ್ರ ಮತ್ತು ಸ್ಥಾನ</string>
+    <string name="clock_faces_size_value">ಗಾತ್ರ · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">ಮೇಲಿನಿಂದ ಅಂತರ</string>
+    <string name="clock_faces_top_value">ಮೇಲಿನಿಂದ ಅಂತರ · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">ಅಡ್ಡ ಸ್ಥಾನ</string>
+    <string name="clock_faces_horizontal_center">ಅಡ್ಡ ಸ್ಥಾನ · ಮಧ್ಯ</string>
+    <string name="clock_faces_horizontal_right">ಅಡ್ಡ ಸ್ಥಾನ · ಬಲಕ್ಕೆ <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_left">ಅಡ್ಡ ಸ್ಥಾನ · ಎಡಕ್ಕೆ <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_fixed">ಈ ಶೈಲಿ ಮಧ್ಯದಲ್ಲೇ ಇರುತ್ತದೆ.</string>
+    <string name="clock_faces_opacity">ಅಪಾರದರ್ಶಕತೆ</string>
+    <string name="clock_faces_opacity_value">ಅಪಾರದರ್ಶಕತೆ · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">ಚಲನೆ</string>
+    <string name="clock_faces_wobble">ಚಾರ್ಜ್ ಆಗುವಾಗ ತೂಗಾಡು</string>
+    <string name="clock_faces_wobble_summary">ಪ್ಲಗ್ ಇನ್ ಮಾಡಿದಾಗ ಒಮ್ಮೆ ಪುಟಿಯುತ್ತದೆ</string>
+    <string name="clock_faces_aod_anim">ಆಲ್ವೇಸ್-ಆನ್ ಡಿಸ್ಪ್ಲೇ ಪರಿವರ್ತನೆ</string>
+    <string name="clock_faces_aod_anim_summary">ಗಡಿಯಾರವನ್ನು ಕುಗ್ಗಿಸಿ ಮಸುಕಾಗಿಸಿ ಆಲ್ವೇಸ್-ಆನ್ ಡಿಸ್ಪ್ಲೇಗೆ ಕಳುಹಿಸುತ್ತದೆ</string>
+    <string name="clock_faces_restart_title">ಲಾಕ್ ಸ್ಕ್ರೀನ್ ಮರುಪ್ರಾರಂಭಿಸಬೇಕೇ?</string>
+    <string name="clock_faces_restart_message">ಸಿಸ್ಟಂ ಗಡಿಯಾರ ಮತ್ತು ಕಸ್ಟಮ್ ಶೈಲಿಗಳ ನಡುವೆ ಬದಲಾಯಿಸಿದಾಗ SystemUI ಮರುಪ್ರಾರಂಭವಾಗುತ್ತದೆ. ಸ್ಕ್ರೀನ್ ಒಂದು ಸೆಕೆಂಡ್ ಕಪ್ಪಾಗುತ್ತದೆ.</string>
+    <string name="clock_faces_note">ಪೂರ್ವವೀಕ್ಷಣೆಗಳನ್ನು ನಿಮ್ಮ ಲಾಕ್ ಸ್ಕ್ರೀನ್ ವಾಲ್‌ಪೇಪರ್ ಮೇಲೆ SystemUI ಚಿತ್ರಿಸುತ್ತದೆ. ಬಣ್ಣ, ಗಾತ್ರ ಮತ್ತು ಸ್ಥಾನ ತಕ್ಷಣ ಲಾಕ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ಬದಲಾಗುತ್ತವೆ.</string>
 </resources>

@@ -10,4 +10,24 @@
     <string name="rr_about_this_phone">"මෙම දුරකථනය"</string>
     <string name="rr_about_network">"ජාලය"</string>
     <string name="rr_about_hidden">"සැඟවුණු"</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">නිල</string>
+    <string name="rr_about_unofficial">නිල නොවන</string>
+    <string name="rr_about_vanilla">වැනිලා</string>
+    <string name="rr_about_hardware">දෘඪාංග</string>
+    <string name="rr_about_processor">සකසනය</string>
+    <string name="rr_about_processor_sub">හරයන් %1$d · %2$s GHz දක්වා</string>
+    <string name="rr_about_processor_cores">හරයන් %1$d</string>
+    <string name="rr_about_storage_used">%1$s භාවිත කර ඇත</string>
+    <string name="rr_about_display">සංදර්ශකය</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · ආරෝපණය වෙමින්</string>
+    <string name="rr_about_kernel_linux">Linux කර්නලය</string>
+    <string name="rr_about_software_purpose">Android අනුවාදය, ආරක්ෂක යාවත්කාලීනය, ගොඩනැගීමේ දිනය සහ ගොඩනැගීමේ අංකය</string>
+    <string name="rr_about_security_patch">ආරක්ෂක යාවත්කාලීනය</string>
+    <string name="rr_about_build_date">ගොඩනැගීමේ දිනය</string>
+    <string name="rr_about_maintainer">නඩත්තුකරු</string>
+    <string name="rr_about_show">පෙන්වන්න</string>
+    <string name="rr_about_hide">සඟවන්න</string>
 </resources>

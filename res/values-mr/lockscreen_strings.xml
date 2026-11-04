@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">अपघाताने जागे करण्यास प्रतिबंध करा</string>
+    <string name="lockscreen_battery_info_title">चार्जिंग माहिती</string>
+    <string name="lockscreen_battery_info_summary">चार्ज होत असताना करंट, वॅट, व्होल्टेज आणि बॅटरी तापमान दाखवा</string>
+    <string name="charging_ring_title">SuperVOOC चार्जिंग अ‍ॅनिमेशन</string>
+    <string name="charging_ring_summary">चार्जर लावल्यावर चार्जिंग रिंग आणि वेग दाखवा</string>
+    <string name="pocket_mode_summary">प्रॉक्सिमिटी सेन्सर झाकलेला असताना स्क्रीन चालू होत नाही आणि स्पर्श दुर्लक्षित केला जातो</string>
+    <string name="screen_on_time_title">स्क्रीन-चालू वेळ</string>
+    <string name="screen_on_time_summary">चार्ज होत असताना लॉक स्क्रीनवर आणि बॅटरी सेव्हर टाइलवर शेवटच्या पूर्ण चार्जपासूनचा स्क्रीन-चालू वेळ दाखवा</string>
 </resources>

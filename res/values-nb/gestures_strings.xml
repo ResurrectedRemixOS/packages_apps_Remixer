@@ -8,4 +8,50 @@
         <item>"Middels"</item>
         <item>"Stor"</item>
     </string-array>
+    <string name="pie_title">Kakemeny-kontroller</string>
+    <string name="pie_summary">Hold den nedre delen av en kant for en kakemeny med snarveier</string>
+    <string name="pie_zone">Del av kanten</string>
+    <string name="pie_clock">Klokke og batteri over den</string>
+    <string name="pie_items">Skiver</string>
+    <string-array name="pie_items_entries">
+        <item>"Tilbake"</item>
+        <item>Hjem</item>
+        <item>"Nylige"</item>
+        <item>"Varsler"</item>
+        <item>"Lommelykt"</item>
+        <item>"Skjermbilde"</item>
+        <item>"Av/på-meny"</item>
+        <item>"Assistent"</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Det krever at du holder i et kvarts sekund uten å flytte fingeren, slik at et raskt sveip fra kanten fortsatt går tilbake. Det åpnes ikke på låseskjermen.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Venstre"</item>
+        <item>"Høyre"</item>
+        <item>Begge</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Nederste tredjedel</item>
+        <item>Midten</item>
+        <item>Hele kanten</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Glass</item>
+        <item>Klassisk</item>
+    </string-array>
+    <string name="sidebar_style_title">Utseende for sidepanelet for apper</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klassisk</item>
+        <item>RR-glass</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Sidepanel for apper</string>
+    <string name="sidebar_settings_summary">Sveip inn fra håndtaket for appene og verktøyene dine</string>
+    <string name="sidebar_apps_title">Apper, håndtak og utklippstavle</string>
+    <string name="sidebar_apps_summary">Slå på håndtaket, velg appene og sett opp den smarte utklippstavlen</string>
+    <string name="sidebar_handle_size_title">Størrelse på håndtak</string>
+    <string name="sidebar_tools_title">Verktøyrad</string>
+    <string name="sidebar_tools_summary">Skjermbilde og lommelykt under appene dine</string>
+    <string name="sidebar_footer">Håndtaket er en tynn strek i aksentfargen din; dra det for å flytte det langs kanten. Med navigasjon via bevegelser dekker det bare sin egen del av kanten, og tilbake fungerer alle andre steder.</string>
 </resources>

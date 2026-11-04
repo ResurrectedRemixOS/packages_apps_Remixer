@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Жүктеу анимациясы</string>
+    <string name="boot_animation_note">Телефон келесі іске қосылғанда ойнайды.</string>
+    <string name="boot_animation_custom">Сіздің файлыңыз</string>
+    <string name="boot_animation_custom_pick">Файлды таңдау…</string>
+    <string name="boot_animation_custom_invalid">Бұл файл жүктеу анимациясы емес</string>
+    <string name="boot_animation_failed">Жүктеу анимациясын өзгерту мүмкін болмады</string>
+</resources>

@@ -86,4 +86,212 @@
     <string name="wallpaper_apply_lock">"Lukustuskuva"</string>
     <string name="remixer_settings_style_original">"Algne"</string>
     <string name="remixer_navbar_category">"Navigeerimisriba"</string>
+    <string name="remixer_dashboard_summary">Olekuriba, teema, lukustuskuva ja muu</string>
+    <string name="rr_homepage_battery_saver">Akusäästja</string>
+    <string name="rr_homepage_personalize">Isikupärasta</string>
+    <string name="rr_homepage_privacy">Privaatsus ja turvalisus</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> vaba</string>
+    <string name="rr_homepage_charged">Täis laetud</string>
+    <string name="rr_homepage_on_battery">Akutoitel</string>
+    <string name="rr_homepage_saver_on">Akusäästja sisse lülitatud</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> seade</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> seadet</item>
+    </plurals>
+    <string name="rr_homepage_extras">Lisaseaded</string>
+    <string name="rr_homepage_saver">Säästja</string>
+    <string name="rr_homepage_signed_out">Pole sisse logitud</string>
+    <string name="rr_homepage_remixer_tagline">Muuda enda moodi. Olekuriba, teema, lukustuskuva ja muu.</string>
+    <string name="rr_homepage_device_tagline">Helinalüliti, ekraan, laadimine ja GameBar.</string>
+    <string name="rr_homepage_device_action">Häälesta</string>
+    <string name="rr_group_network">Võrk ja seadmed</string>
+    <string name="rr_group_network_summary">Wi‑Fi, mobiilside, Bluetooth</string>
+    <string name="rr_group_apps_summary">Rakendused, märguanded, režiimid</string>
+    <string name="rr_group_display">Ekraan ja heli</string>
+    <string name="rr_group_display_summary">Ekraan, taustapilt, heli</string>
+    <string name="rr_group_security_summary">Lukustus, asukoht, hädaolukord</string>
+    <string name="rr_group_security_center">Turvakeskus</string>
+    <string name="rr_group_accounts">Google ja kontod</string>
+    <string name="rr_group_accounts_summary">Google, paroolid, varundamine</string>
+    <string name="rr_group_accounts_plain_summary">Paroolid, kontod, varundamine</string>
+    <string name="rr_group_system_summary">Keeled, žestid, uuendused</string>
+    <string name="remixer_tagline">Muuda enda moodi.</string>
+    <string name="remixer_remix">Remiksi</string>
+    <string name="remixer_remixed">Remiksitud: <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Toon · Vaikimisi</string>
+    <string name="remixer_quick">Kiirremiks</string>
+    <string name="remixer_everything">Kõik</string>
+    <string name="remixer_quick_accents">Eelseadistused või mis tahes värv</string>
+    <string name="remixer_quick_fonts">Süsteemi fondi stiilid</string>
+    <string name="remixer_quick_walls">RR kogu</string>
+    <string name="remixer_quick_header">Kiirseadete päis</string>
+    <string name="remixer_quick_header_summary">Päisepildid</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Kell, aku, ikoonid ja võrguliiklus</string>
+    <string name="remixer_qs_summary">Päisepilt</string>
+    <string name="remixer_notifications_summary">Servavalgustus, rakenduste ikoonid ja laadimisheli</string>
+    <string name="remixer_theme_summary">Fondid, aktsendid ja taustapildid</string>
+    <string name="remixer_lockscreen_summary">UDFPS, laadimisinfo ja ilm</string>
+    <string name="remixer_udfps_icon">UDFPS-ikoon</string>
+    <string name="remixer_udfps_icon_summary">Kuvatakse sõrmejäljeanduri kohal</string>
+    <string name="remixer_udfps_animation">UDFPS-animatsioon</string>
+    <string name="remixer_udfps_animation_summary">Mängib, kui sõrm on anduril</string>
+    <string name="remixer_navigation_summary">Pulss, nupud ja navigeerimisriba</string>
+    <string name="remixer_misc_summary">Helitugevus, varundamine, võltsimine, kerimine ja USB</string>
+    <string name="scroll_haptics_title">Puudutus kerimise lõpus</string>
+    <string name="scroll_haptics_summary">Kerge vibratsioon, kui loend või lehekülg ei saa enam liikuda</string>
+    <string name="usb_mode_picker_title">USB-režiimi valija</string>
+    <string name="usb_mode_picker_summary">Režiimi valimine arvutiga ühendamisel</string>
+    <string name="remixer_fonts_summary">Süsteemi font</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remixi taustapildid</string>
+    <string name="remixer_accents">Aktsendid</string>
+    <string name="remixer_pulse">Pulss</string>
+    <string name="remixer_pulse_summary">Muusikavisualiseerija ekraani allservas</string>
+    <string name="pulse_switch">Kasuta pulssi</string>
+    <string name="pulse_switch_summary">Muusikariba ekraani allservas meedia mängimise ajal</string>
+    <string name="pulse_style_lines">Jooned</string>
+    <string name="pulse_style_fading">Hääbuv</string>
+    <string name="pulse_style_blocks">Plokid</string>
+    <string name="pulse_style_mirror">Peegel</string>
+    <string name="pulse_color_custom">Kohandatud</string>
+    <string name="pulse_color_gradient">Vikerkaar</string>
+    <string name="pulse_bars">Ribad</string>
+    <string name="pulse_bars_value">Ribad · %1$d</string>
+    <string name="pulse_height">Kõrgus</string>
+    <string name="pulse_height_value">Kõrgus · %1$d dp</string>
+    <string name="pulse_opacity">Läbipaistmatus</string>
+    <string name="pulse_opacity_value">Läbipaistmatus · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Hoia ribad lukustuskuval muusika mängimise ajal</string>
+    <string name="pulse_failed">Pulsi seadet ei õnnestunud salvestada</string>
+    <string name="accent_applied">Aktsent rakendatud</string>
+    <string name="accent_current">Aktsent · %1$s</string>
+    <string name="accent_current_custom">Aktsent · Kohandatud</string>
+    <string name="accent_preview_tonal">Toonitud</string>
+    <string name="accent_failed">Seda aktsenti ei õnnestunud rakendada</string>
+    <string name="accent_custom">Kohandatud</string>
+    <string name="accent_custom_summary">Töötab iga värviga. Toon rakendub siiski peale.</string>
+    <string name="accent_custom_pad">Küllastus ja heledus</string>
+    <string name="accent_custom_use">Kasuta <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">Toon</string>
+    <string name="accent_shade_darker">Tumedam</string>
+    <string name="accent_shade_lighter">Heledam</string>
+    <string name="accent_shade_darker_value">Tumedam · %1$d</string>
+    <string name="accent_shade_lighter_value">Heledam · %1$d</string>
+    <string name="remixer_qs_style">Kiirseadete stiil</string>
+    <string name="remixer_qs_style_preview">Eelvaade · %1$s</string>
+    <string name="remixer_qs_style_note">Iga stiil järgib sinu aktsentvärvi. Helitugevuspaneelil on sobivad stiilid Bento, Kujundid, Plaan, Duo ja Pehme. Stock Lineage jätab Android 17 paanid muutmata.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Android 17 paanid, muutmata</string>
+    <string name="remixer_qs_style_remix">Remiks</string>
+    <string name="remixer_qs_style_remix_summary">Heledus aktsendikaardil. Paanid täituvad aktsendi gradiendiga</string>
+    <string name="remixer_qs_style_compact">Kompaktne</string>
+    <string name="remixer_qs_style_compact_summary">Lühemad paanid. Mahub ekraanile rohkem</string>
+    <string name="remixer_qs_style_glass">Klaas</string>
+    <string name="remixer_qs_style_glass_summary">Läbipaistvad ääristatud paanid, mis sisselülitatuna helendavad aktsendivärviga</string>
+    <string name="remixer_qs_style_circles">Ringid</string>
+    <string name="remixer_qs_style_circles_summary">Ümarad lülitid siltidega. Laiad paanid muutuvad kaartideks</string>
+    <string name="remixer_qs_style_classic">Klassikaline</string>
+    <string name="remixer_qs_style_classic_summary">Vana kooli RR: paljad ikoonid siltidega, viis reas ja õhuke liugur</string>
+    <string name="remixer_qs_style_cards">Kaardid</string>
+    <string name="remixer_qs_style_cards_summary">Suured kaardid oleku näitamisega iga nime all, kolm reas</string>
+    <string name="remixer_qs_style_neon">Neoon</string>
+    <string name="remixer_qs_style_neon_summary">Ääristatud paanid, mis sisselülitatuna helendavad aktsendivärviga</string>
+    <string name="remixer_qs_style_bento_summary">Suured ümarad plokid aktsendivärviga, väikeste all sildid</string>
+    <string name="remixer_qs_style_shapes">Kujundid</string>
+    <string name="remixer_qs_style_shapes_summary">Ümarad lülitid, mis sisselülitatuna kasvatavad sakke, viis reas</string>
+    <string name="remixer_qs_style_blueprint">Plaan</string>
+    <string name="remixer_qs_style_blueprint_summary">Õhukesed kontuurid ja monospace-suurtähed</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Jagatud paanid. Ikoonipoolt süttib ja lülitub</string>
+    <string name="remixer_qs_style_soft">Pehme</string>
+    <string name="remixer_qs_style_soft_summary">Tõstetud paanid, mis vajutatuna vajuvad sisse</string>
+    <string name="remixer_lock_media_style">Meediamängija stiil</string>
+    <string name="remixer_lock_media_same">Sama mis kiirseadetel</string>
+    <string name="remixer_lock_media_same_summary">Järgib sinu kiirseadete meedia paanit, praegu %1$s</string>
+    <string name="remixer_lock_media_off_summary">Lukustuskuval pole mängijat</string>
+    <string name="remixer_lock_media_note">Kaart kuvatakse lukustuskuval, kui midagi mängib. Läbipaistvad stiilid saavad tumeda tausta, et taustapildil oleks loetav.</string>
+    <string name="remixer_lock_media_stock_summary">Albumikaas täidab kaardi</string>
+    <string name="remixer_lock_media_remix_summary">Tume kaart, aktsendiga esitusnupp</string>
+    <string name="remixer_lock_media_compact_summary">Ümaram kaart, ümar kaane pilt</string>
+    <string name="remixer_lock_media_glass_summary">Ääristatud läbipaistev kaart</string>
+    <string name="remixer_lock_media_circles_summary">Pehme kaart, aktsendiga esitusnupp</string>
+    <string name="remixer_lock_media_classic_summary">Kandilisem kaart, ääristatud esitusnupp</string>
+    <string name="remixer_lock_media_cards_summary">Pehme kaart, aktsendiga esitusnupp, nagu Ringid</string>
+    <string name="remixer_lock_media_neon_summary">Must kaart aktsendiga ääristusega</string>
+    <string name="remixer_lock_media_bento_summary">Pehme kaart, aktsendiga esitusnupp</string>
+    <string name="remixer_lock_media_shapes_summary">Ümaram kaart, aktsendiga esitusnupp</string>
+    <string name="remixer_lock_media_blueprint_summary">Õhuke kontuur, ääristatud esitusnupp</string>
+    <string name="remixer_lock_media_duo_summary">Kahetoonilne kaart, aktsendiga esitusnupp</string>
+    <string name="remixer_lock_media_soft_summary">Tõstetud kaart faasitud servaga</string>
+    <string name="remixer_headers">Päisepilt</string>
+    <string name="remixer_headers_summary">Vali kiirseadete taustapilt</string>
+    <string name="header_switch">Kasuta päisepilti</string>
+    <string name="header_switch_summary">Näita pilti kiirseadete taga</string>
+    <string name="header_source">Allikas</string>
+    <string name="header_source_collection">Kogu</string>
+    <string name="header_collections_summary_daylight">Päis järgib kellaaega või vahetub kogust</string>
+    <string name="header_collections_summary_static">Ava kogu ja puuduta pilti, et seda kasutada</string>
+    <string name="header_collections_empty">Päisekogusid pole installitud</string>
+    <string name="header_images_daylight">Selles kogus</string>
+    <plurals name="header_image_count">
+        <item quantity="one">%d pilt</item>
+        <item quantity="other">%d pilti</item>
+    </plurals>
+    <string name="header_photo_summary">Mis tahes foto või animeeritud GIF galeriist</string>
+    <string name="header_height">Kõrgus</string>
+    <string name="header_height_value">Kõrgus · %1$d dp</string>
+    <string name="header_shadow">Hämar</string>
+    <string name="header_shadow_value">Hämar · %1$d%%</string>
+    <string name="header_failed">Päise seadet ei õnnestunud salvestada</string>
+    <string name="remixer_weather_summary">Ilmateenus ja ühikud</string>
+    <string name="font_preview_notification">Nii loeb sinu telefon.</string>
+    <string name="font_try_text">Proovi oma teksti</string>
+    <string name="font_previewing">Eelvaade</string>
+    <string name="font_current">Praegune font</string>
+    <string name="font_badge_current">Praegune</string>
+    <string name="font_apply_done">Rakendatud</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Ekraan</string>
+    <string name="font_filter_script">Kiri</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Font rakendatud</string>
+    <string name="font_failed">Seda fonti ei õnnestunud rakendada</string>
+    <string name="wallpaper_set">Taustapilt seatud</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">%d taustapilt Resurrected Remixist. Eelvaate nägemiseks puuduta seda.</item>
+        <item quantity="other">%d taustapilti Resurrected Remixist. Eelvaate nägemiseks puuduta ühte neist.</item>
+    </plurals>
+    <string name="wallpaper_apply_both">Mõlemad</string>
+    <string name="wallpaper_failed">Seda taustapilti ei õnnestunud seada</string>
+    <string name="missing_app">Seda rakendust pole installitud</string>
+    <string name="remixer_spoofing">Võltsimine</string>
+    <string name="remixer_spoofing_summary">Play Integrity, seadme identiteet ja rakenduspõhine võltsimine</string>
+    <string name="remixer_settings_style">Seadete stiil</string>
+    <string name="rr_maintainer">Hooldaja</string>
+    <string name="remixer_navbar_summary">Pulsi pikkus, paksus ja paigutus</string>
+    <string name="remixer_navbar_pill_length">Žesti riba pikkus</string>
+    <string name="remixer_navbar_pill_thickness">Žesti riba paksus</string>
+    <string name="remixer_navbar_pill_auto_hide">Hajuta žesti riba</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Peida riba mõne sekundi pärast; ilmub tagasi, kui ekraani puudutad</string>
+    <string name="remixer_navbar_ime">Klaviatuuri nupud</string>
+    <string name="remixer_navbar_ime_summary">Näita klaviatuuri all tagasi- ja klaviatuurivahetuse nuppe</string>
+    <string name="remixer_navbar_layout">Nuppude paigutus</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Lühike</item>
+        <item>Tavaline</item>
+        <item>Pikk</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Kõige õhem</item>
+        <item>Õhem</item>
+        <item>Õhuke</item>
+        <item>Tavaline</item>
+        <item>Paks</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Tavaline</item>
+        <item>Kompaktne</item>
+        <item>"Vasakule kaldu"</item>
+        <item>"Paremale kaldu"</item>
+    </string-array>
 </resources>

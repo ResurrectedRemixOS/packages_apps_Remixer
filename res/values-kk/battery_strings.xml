@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Батарея"</string>
     <string name="battery_style_title">"Стиль"</string>
+    <string-array name="battery_style_entries">
+        <item>Портрет</item>
+        <item>"Шеңбер"</item>
+        <item>Нүктелі шеңбер</item>
+        <item>Неон сақина</item>
+        <item>Жіңішке таблетка</item>
+        <item>Үлкен пайыз</item>
+        <item>"Мәтін"</item>
+    </string-array>
+    <string name="battery_percent_title">Пайыз</string>
+    <string-array name="battery_percent_entries">
+        <item>"Жасырын"</item>
+        <item>Белгіше ішінде</item>
+        <item>Оның жанында</item>
+    </string-array>
+    <string name="battery_ring_color_title">Неон сақина түсі</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Деңгей бойынша: 20%%-дан жоғары болса акцент, төмен болса қызыл, батарея үнемдегіште қызғылт сары.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Деңгей бойынша</item>
+        <item>Акцент</item>
+        <item>"Ақ"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Зарядтау кезінде ұшқын</string>
+    <string name="battery_ring_tile_title">Жылдам параметрлер бөлшегінде де сол сақина</string>
+    <string name="battery_ring_tile_summary">Деңгей мен экранның қосылу уақытымен</string>
 </resources>

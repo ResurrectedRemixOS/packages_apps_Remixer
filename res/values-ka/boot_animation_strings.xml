@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">ჩატვირთვის ანიმაცია</string>
+    <string name="boot_animation_note">გაეშვება ტელეფონის შემდეგ ჩართვისას.</string>
+    <string name="boot_animation_custom">შენი ფაილი</string>
+    <string name="boot_animation_custom_pick">ფაილის არჩევა…</string>
+    <string name="boot_animation_custom_invalid">ეს ფაილი ჩატვირთვის ანიმაცია არ არის</string>
+    <string name="boot_animation_failed">ჩატვირთვის ანიმაციის შეცვლა ვერ მოხერხდა</string>
+</resources>

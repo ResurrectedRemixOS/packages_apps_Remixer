@@ -17,4 +17,52 @@
     <string name="looks_save_look">"Зберегти"</string>
     <string name="looks_custom_color">"Спеціальний колір"</string>
     <string name="looks_part_clock_color">"Колір годинника"</string>
+    <string name="looks_title">Образи</string>
+    <string name="looks_summary">Усе ваше налаштування одним дотиком</string>
+    <string name="looks_rr">Образи RR</string>
+    <string name="looks_yours">Ваші образи</string>
+    <string name="looks_none">Ще нічого не збережено</string>
+    <string name="looks_save">Зберегти поточний</string>
+    <string name="looks_import_clipboard">З буфера обміну</string>
+    <string name="looks_import_file">З файлу</string>
+    <string name="looks_mine">Мій образ</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> застосовано</string>
+    <string name="looks_failed">Не вдалося застосувати все</string>
+    <string name="looks_invalid">Це не образ RR</string>
+    <string name="looks_part_qs">Стиль швидких налаштувань</string>
+    <string name="looks_part_clock_face">Стиль годинника на заблокованому екрані</string>
+    <string name="looks_part_clock_look">Годинник у рядку стану</string>
+    <string name="looks_part_edge">Підсвічування країв</string>
+    <string name="looks_part_haptics">Шаблони Haptic Remix</string>
+    <string name="looks_saturation">Насиченість <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Акцент</string>
+    <string name="looks_share_title">Поділитися «<xliff:g id="name" example="Neon night">%1$s</xliff:g>»</string>
+    <string name="looks_share_hint">Скануйте камерою іншого телефона RR або в Образи › Імпорт</string>
+    <string name="looks_share_file">Поділитися файлом</string>
+    <string name="looks_save_file">Зберегти файл</string>
+    <string name="looks_import_scan">Сканувати QR-код</string>
+    <string name="looks_import_title">Імпорт образу</string>
+    <string name="looks_from_qr">з QR-коду</string>
+    <string name="looks_from_file">з файлу</string>
+    <string name="looks_from_clipboard">з буфера обміну</string>
+    <string name="looks_import_same">Уже відповідає вашим налаштуванням.</string>
+    <string name="looks_new">Новий образ</string>
+    <string name="looks_edit_title">Редагувати образ</string>
+    <string name="looks_in_look">У цьому образі</string>
+    <string name="looks_not_included">Немає в цьому образі</string>
+    <string name="looks_save_apply">Зберегти й застосувати</string>
+    <string name="looks_saved">«<xliff:g id="name" example="Sunday">%1$s</xliff:g>» збережено</string>
+    <string name="looks_delete_confirm">Видалити «<xliff:g id="name" example="Sunday">%1$s</xliff:g>»?</string>
+    <string name="looks_rr_wallpaper">Фоновий малюнок RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Насиченість акценту</string>
+    <string name="looks_part_clock_chip">Значок годинника в рядку стану</string>
+    <string name="looks_part_edge_style">Стиль підсвічування країв</string>
+    <string name="looks_scan_hint">Наведіть камеру на QR-код образу</string>
+    <string name="looks_scan_failed">Не вдалося відкрити камеру</string>
+    <string name="look_roulette_title">Рулетка образів</string>
+    <string-array name="look_roulette_entries">
+        <item>"Вимкнено"</item>
+        <item>Інший образ при кожному розблокуванні</item>
+        <item>Інший образ щодня</item>
+    </string-array>
 </resources>

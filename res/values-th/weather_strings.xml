@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"รายละเอียด"</string>
     <string name="lockscreen_weather_location_title">"ตำแหน่ง"</string>
+    <string name="lockscreen_weather_title">สภาพอากาศบนหน้าจอล็อก</string>
+    <string name="lockscreen_weather_location_summary">แสดงชื่อเมือง</string>
+    <string name="lockscreen_weather_text_title">สภาพอากาศ</string>
+    <string name="lockscreen_weather_text_summary">แสดงสภาพอากาศ เช่น มีเมฆ หรือท้องฟ้าโปร่ง</string>
+    <string name="lockscreen_weather_wind_title">ลม</string>
+    <string name="lockscreen_weather_wind_summary">แสดงความเร็วและทิศทางลม</string>
+    <string name="lockscreen_weather_humidity_title">ความชื้น</string>
+    <string name="lockscreen_weather_humidity_summary">แสดงความชื้น</string>
+    <string name="custom_clock_weather_title">สภาพอากาศบนหน้าปัดนาฬิกา</string>
+    <string name="custom_clock_weather_summary">แสดงสภาพอากาศในหน้าปัดนาฬิกาที่มีพื้นที่เพียงพอ</string>
+    <string name="remixer_weather_service">บริการสภาพอากาศ</string>
+    <string name="remixer_weather_page_summary">สภาพอากาศบนหน้าจอล็อกและสิ่งที่แสดง</string>
 </resources>

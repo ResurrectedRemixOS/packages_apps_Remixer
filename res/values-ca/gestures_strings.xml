@@ -8,4 +8,50 @@
         <item>"Mitjà"</item>
         <item>"Gran"</item>
     </string-array>
+    <string name="pie_title">Controls en pastís</string>
+    <string name="pie_summary">Mantén premuda la part inferior d\'una vora per obrir un pastís de dreceres</string>
+    <string name="pie_zone">Part de la vora</string>
+    <string name="pie_clock">Rellotge i bateria a sobre</string>
+    <string name="pie_items">Porcions</string>
+    <string-array name="pie_items_entries">
+        <item>"Enrere"</item>
+        <item>Inici</item>
+        <item>Recents</item>
+        <item>"Notificacions"</item>
+        <item>Llanterna</item>
+        <item>"Captura de pantalla"</item>
+        <item>"Menú d\'engegada"</item>
+        <item>"Assistent"</item>
+        <item>"Càmera"</item>
+    </string-array>
+    <string name="pie_footer">Cal mantenir-lo premut un quart de segon sense moure\'s, de manera que un lliscament ràpid des de la vora encara torna enrere. No s\'obre a la pantalla de bloqueig.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Esquerra"</item>
+        <item>"Dreta"</item>
+        <item>Tots dos</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Tercera part inferior</item>
+        <item>Mig</item>
+        <item>Tota la vora</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neó</item>
+        <item>Vidre</item>
+        <item>Clàssic</item>
+    </string-array>
+    <string name="sidebar_style_title">Aspecte de la barra lateral d\'aplicacions</string>
+    <string-array name="sidebar_style_entries">
+        <item>Clàssic</item>
+        <item>Vidre RR</item>
+        <item>Neó</item>
+    </string-array>
+    <string name="sidebar_settings_title">Barra lateral d\'aplicacions</string>
+    <string name="sidebar_settings_summary">Llisca des de l\'anella per veure les teves aplicacions i eines</string>
+    <string name="sidebar_apps_title">Aplicacions, anella i portapapers</string>
+    <string name="sidebar_apps_summary">Activa l\'anella, tria les aplicacions i configura el portapapers intel·ligent</string>
+    <string name="sidebar_handle_size_title">Mida de l\'anella</string>
+    <string name="sidebar_tools_title">Fila d\'eines</string>
+    <string name="sidebar_tools_summary">Captura de pantalla i llanterna sota les teves aplicacions</string>
+    <string name="sidebar_footer">L\'anella és una línia fina de l\'accent; arrossega-la per moure-la al llarg de la vora. Amb la navegació per gestos només cobreix la seva part de la vora, i enrere funciona a la resta.</string>
 </resources>

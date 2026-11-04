@@ -12,4 +12,22 @@
     <string name="rr_about_this_phone">"Aquest telèfon"</string>
     <string name="rr_about_network">"Xarxa"</string>
     <string name="rr_about_hidden">Amagat</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Oficial</string>
+    <string name="rr_about_unofficial">No oficial</string>
+    <string name="rr_about_vanilla">Vanilla</string>
+    <string name="rr_about_hardware">Maquinari</string>
+    <string name="rr_about_processor">Processador</string>
+    <string name="rr_about_processor_sub">%1$d nuclis · fins a %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d nuclis</string>
+    <string name="rr_about_storage_used">%1$s utilitzats</string>
+    <string name="rr_about_display">Pantalla</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · Carregant</string>
+    <string name="rr_about_kernel_linux">Nucli de Linux</string>
+    <string name="rr_about_software_purpose">Versió d\'Android, actualització de seguretat, data de compilació i número de compilació</string>
+    <string name="rr_about_maintainer">Mantenidor</string>
+    <string name="rr_about_show">Mostra</string>
+    <string name="rr_about_hide">Amaga</string>
 </resources>

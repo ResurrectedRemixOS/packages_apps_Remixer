@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Жэсты</string>
     <string name="backup_group_other">"Іншае"</string>
     <string name="backup_done">"Гатова"</string>
+    <string name="backup_summary">Усе наладкі RR у адным файле</string>
+    <string name="backup_now">Зрабіць рэзервовую копію</string>
+    <string name="backup_never">Апошняя копія: ніколі</string>
+    <string name="backup_last">Апошняя копія: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Аднавіць з файла</string>
+    <string name="backup_restore_summary">Выберыце файл рэзервовай копіі</string>
+    <string name="backup_included">Уключана</string>
+    <string name="backup_part_theme">Акцэнт, шрыфт і значкі</string>
+    <string name="backup_part_header">Выява загалоўка</string>
+    <string name="backup_part_photo">Загаловак (ваша фота)</string>
+    <string name="backup_part_photo_summary">Павялічвае памер файла</string>
+    <string name="backup_part_boot">Анімацыя загрузкі</string>
+    <string name="backup_part_looks">Вашы выгляды</string>
+    <string name="backup_weekly">Тыднёвая копія</string>
+    <string name="backup_weekly_summary">У абраную вамі папку</string>
+    <string name="backup_weekly_on">Кожны тыдзень у <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Прапаноўваць копію перад абнаўленнямі</string>
+    <string name="backup_offer_summary">Апдэйтар пытаецца перад усталяваннем</string>
+    <string name="backup_sets">Задае налад: <xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_saved">Захавана налад: <xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_restored">Адноўлена налад: <xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_restored_message">SystemUI перазапусціцца, каб іх ужыць.</string>
+    <string name="backup_skipped">Налад <xliff:g id="count" example="2">%1$d</xliff:g> няма ў гэтай зборцы, таму яны прапушчаны.</string>
+    <string name="backup_failed">Не ўдалося захаваць копію</string>
+    <string name="backup_invalid">Гэта не файл рэзервовай копіі Resurrected Remix</string>
+    <string name="backup_footer">У файл трапляюць толькі налады RR: без уліковых запісаў, пароляў, сетак Wi-Fi, праграм ці паведамленняў. Аднаўленне запісвае толькі налады са спісу RR, таму файл копіі не можа змяніць нічога іншага на тэлефоне. Фота загалоўка ўключаецца, толькі калі ўключаны яго перамыкач, бо яно павялічвае файл.</string>
+    <string name="volume_style_title">Стыль панэлі гучнасці</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Неон</item>
+        <item>Шкло</item>
+        <item>Таблетка</item>
+        <item>Класічны RR</item>
+        <item>Bento</item>
+        <item>Фігуры</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Soft</item>
+    </string-array>
 </resources>

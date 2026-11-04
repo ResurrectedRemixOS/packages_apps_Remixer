@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Isithombe sangemuva"</item>
+        <item>Ukuvuswa</item>
+        <item>Android One Luhlaza</item>
+        <item>Aospa Luhlaza</item>
+        <item>Coca Cola Obomvu</item>
+        <item>Discord Pepuli</item>
+        <item>Facebook Okuluhlaza okwesibhakabhaka</item>
+        <item>Instagram Cerise</item>
+        <item>Jollibee Obomvu okujulile</item>
+        <item>Monster Energy Luhlaza</item>
+        <item>Nextbit Mint</item>
+        <item>OnePlus Obomvu</item>
+        <item>Pepsi Okuluhlaza okwesibhakabhaka</item>
+        <item>Pixel Okuluhlaza okwesibhakabhaka</item>
+        <item>Pocophone Okuphuzi</item>
+        <item>Razer Luhlaza</item>
+        <item>Samsung Okuluhlaza okwesibhakabhaka</item>
+        <item>Spotify Luhlaza</item>
+        <item>Starbucks Luhlaza</item>
+        <item>Twitch Pepuli</item>
+        <item>Twitter Okuluhlaza okwesibhakabhaka</item>
+        <item>Xiaomi Orenji</item>
+        <item>I-Amber</item>
+        <item>"Okumnyama"</item>
+        <item>"Okuluhlaza okwesibhakabhaka"</item>
+        <item>Okuluhlaza okwesibhakabhaka okunsundu</item>
+        <item>Okunsundu</item>
+        <item>"I-Cyan"</item>
+        <item>Orenji Ojulile</item>
+        <item>Pepuli Ojulile</item>
+        <item>"Okuluhlaza okotshani"</item>
+        <item>"Okumpunga"</item>
+        <item>"Oku-Indigo"</item>
+        <item>Okuluhlaza okwesibhakabhaka Okukhanyayo</item>
+        <item>Lime</item>
+        <item>"Okuwolintshi"</item>
+        <item>"Ophinki"</item>
+        <item>"Phephuli"</item>
+        <item>"Okubomvu"</item>
+        <item>"Oku-Teal"</item>
+        <item>Umsebenzisi wesihlanu</item>
+        <item>Umsebenzisi wesine</item>
+        <item>Umsebenzisi wokuqala</item>
+        <item>Umsebenzisi wesikhombisa</item>
+        <item>Umsebenzisi wesithupha</item>
+        <item>Umsebenzisi wesithathu</item>
+        <item>Umsebenzisi wesibili</item>
+        <item>"Okumhlophe"</item>
+        <item>"Okuphuzi"</item>
+    </string-array>
+</resources>

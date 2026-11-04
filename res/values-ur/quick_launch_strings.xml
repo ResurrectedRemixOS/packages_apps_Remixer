@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">ٹائمر</string>
     <string name="quick_launch_undo">"کالعدم کریں"</string>
     <string name="quick_launch_off">"آف"</string>
+    <string name="quick_launch_title">فوری لانچ</string>
+    <string name="quick_launch_main">فنگر پرنٹ فوری لانچ</string>
+    <string name="quick_launch_main_summary">انلاک کرنے کے بعد سینسر پر انگلی رکھیں تاکہ شارٹ کٹ کھلے</string>
+    <string name="quick_launch_hint">شارٹ کٹ بدلنے کے لیے ٹیپ کریں، ہٹانے کے لیے دبائے رکھیں، یا ترتیب بدلنے کے لیے گھسیٹیں۔</string>
+    <string name="quick_launch_behavior">رویہ</string>
+    <string name="quick_launch_hold">دبانے کا وقت</string>
+    <string name="quick_launch_haptics">ہر شارٹ کٹ پر وائبریٹ کریں</string>
+    <string name="quick_launch_add">شامل کریں</string>
+    <string name="quick_launch_video">ویڈیو</string>
+    <string name="quick_launch_qr">QR اسکین کریں</string>
+    <string name="quick_launch_app">ایپ…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> ہٹا دیا گیا</string>
 </resources>

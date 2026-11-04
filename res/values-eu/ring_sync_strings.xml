@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Eraztunaren sinkronizazioa</string>
+    <string name="ring_sync_tap">Sakatu eraztuna markarekin bat datorrenean</string>
+    <string name="ring_sync_best">Onena <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">PERFECTO</string>
+    <string name="ring_sync_new_best">Marca nueva</string>
+    <string name="ring_sync_again">Toca para jugar de nuevo</string>
+    <string name="ring_sync_ember">Ember accent desbloqueado</string>
+    <string name="ring_sync_use_ember">Usar Ember</string>
+    <string name="ring_sync_android">Huevo de Pascua de Android</string>
+    <string name="ring_sync_vibrate_on">Vibrar al acertar · Activado</string>
+    <string name="ring_sync_vibrate_off">Vibrar al acertar · Desactivado</string>
+    <string name="accent_ember">Ikatza</string>
+</resources>

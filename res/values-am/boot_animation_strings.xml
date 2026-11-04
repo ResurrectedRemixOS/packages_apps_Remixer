@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">የማስነሻ አኒሜሽን</string>
+    <string name="boot_animation_note">ስልኩ በሚቀጥለው ጊዜ ሲጀምር ይጫወታል።</string>
+    <string name="boot_animation_custom">የእርስዎ ፋይል</string>
+    <string name="boot_animation_custom_pick">ፋይል ይምረጡ…</string>
+    <string name="boot_animation_custom_invalid">ያ ፋይል የማስነሻ እነማ አይደለም</string>
+    <string name="boot_animation_failed">የማስነሻ እነማውን መቀየር አልተቻለም</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">ਤੁਹਾਡੇ ਹਰ ਮੋਡ ਲਈ ਇੱਕ ਲੁੱਕ</string>
+    <string name="remix_modes_everyday">ਰੋਜ਼ਾਨਾ ਲੁੱਕ</string>
+    <string name="remix_modes_everyday_summary">ਜਦੋਂ ਕੋਈ ਲੁੱਕ ਵਾਲਾ ਮੋਡ ਚਾਲੂ ਨਾ ਹੋਵੇ ਤਾਂ ਵਾਪਸ ਆ ਜਾਂਦੀ ਹੈ</string>
+    <string name="remix_modes_wallpaper">ਵਾਲਪੇਪਰ ਲੁੱਕ ਦੇ ਨਾਲ ਚੱਲਦਾ ਹੈ</string>
+    <string name="remix_modes_wallpaper_summary">ਮੋਡ ਵਾਲਪੇਪਰ ਵੀ ਬਦਲ ਸਕਦਾ ਹੈ</string>
+    <string name="remix_modes_modes">ਤੁਹਾਡੇ ਮੋਡ</string>
+    <string name="remix_modes_no_change">ਕੋਈ ਬਦਲਾਅ ਨਹੀਂ</string>
+    <string name="remix_modes_none">ਪਹਿਲਾਂ ਥੀਮ › ਲੁੱਕਸ ਵਿੱਚ ਇੱਕ ਲੁੱਕ ਸੇਵ ਕਰੋ</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g> ਲਈ ਲੁੱਕ</string>
+</resources>

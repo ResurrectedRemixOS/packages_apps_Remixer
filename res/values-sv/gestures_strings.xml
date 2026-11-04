@@ -8,4 +8,50 @@
         <item>"Medel"</item>
         <item>"Stor"</item>
     </string-array>
+    <string name="pie_title">Cirkelmenyer</string>
+    <string name="pie_summary">Håll nere den nedre delen av en kant för att öppna en cirkelmeny med genvägar</string>
+    <string name="pie_zone">Del av kanten</string>
+    <string name="pie_clock">Klocka och batteri ovanför den</string>
+    <string name="pie_items">Skivor</string>
+    <string-array name="pie_items_entries">
+        <item>"Tillbaka"</item>
+        <item>Hem</item>
+        <item>"Senaste"</item>
+        <item>"Aviseringar"</item>
+        <item>Ficklampa</item>
+        <item>"Skärmbild"</item>
+        <item>"Startmeny"</item>
+        <item>"Assistent"</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Det kräver en fjärdedels sekunds tryck utan att röra sig, så ett snabbt svep från kanten fungerar fortfarande som bakåt. Det öppnas inte på låsskärmen.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Vänster"</item>
+        <item>"Höger"</item>
+        <item>Båda</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Nedre tredjedel</item>
+        <item>Mitten</item>
+        <item>Hela kanten</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Glas</item>
+        <item>Klassisk</item>
+    </string-array>
+    <string name="sidebar_style_title">Utseende för appsidofältet</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klassisk</item>
+        <item>RR-glas</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Appsidofält</string>
+    <string name="sidebar_settings_summary">Svep in från handtaget för dina appar och verktyg</string>
+    <string name="sidebar_apps_title">Appar, handtag och urklipp</string>
+    <string name="sidebar_apps_summary">Aktivera handtaget, välj apparna och konfigurera det smarta urklippet</string>
+    <string name="sidebar_handle_size_title">Handtagets storlek</string>
+    <string name="sidebar_tools_title">Verktygsrad</string>
+    <string name="sidebar_tools_summary">Skärmbild och ficklampa under dina appar</string>
+    <string name="sidebar_footer">Handtaget är en tunn linje i din accentfärg; dra det för att flytta det längs kanten. Med gestnavigering täcker det bara sin egen del av kanten, och tillbaka fungerar överallt annars.</string>
 </resources>

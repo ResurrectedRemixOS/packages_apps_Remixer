@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Panell de volum</string>
+    <string name="volume_page_summary">Neó, Vidre, Píndola o RR clàssic</string>
+    <string name="volume_behavior">Comportament</string>
+    <string name="volume_on_left_title">Panell a l\'esquerra</string>
+    <string name="volume_on_left_summary">El RR clàssic sempre és a dalt</string>
+    <string name="volume_ringer_title">Botó del mode de to</string>
+    <string name="volume_tick_title">Marca en lliscar</string>
+    <string name="volume_percent_title">Mostra el nivell en percentatge</string>
+    <string name="volume_timeout_title">Amaga després de</string>
+    <string name="volume_footer">Un aspecte canvia com es veu el panell, però no com funciona. Android manté el panell original. Toca els punts per veure tots els fluxos; el panell ampliat fa servir el mateix aspecte.</string>
 </resources>

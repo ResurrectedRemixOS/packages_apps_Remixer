@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Bảng âm lượng</string>
+    <string name="volume_page_summary">Neon, Kính, Viên thuốc hoặc RR cổ điển</string>
+    <string name="volume_behavior">Hành vi</string>
+    <string name="volume_on_left_title">Bảng ở bên trái</string>
+    <string name="volume_on_left_summary">RR cổ điển luôn nằm ở trên cùng</string>
+    <string name="volume_ringer_title">Nút chế độ chuông</string>
+    <string name="volume_tick_title">Rung nhẹ khi bạn kéo thanh trượt</string>
+    <string name="volume_percent_title">Hiện mức pin theo phần trăm</string>
+    <string name="volume_timeout_title">Ẩn sau</string>
+    <string name="volume_footer">Kiểu hiển thị chỉ thay đổi diện mạo của bảng, không thay đổi cách hoạt động. Android vẫn giữ bảng gốc. Chạm vào các chấm để xem mọi luồng; bảng mở rộng dùng cùng kiểu hiển thị.</string>
 </resources>

@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">Кнопкі</string>
     <string name="now_bar_text">"Тэкст"</string>
     <string name="now_bar_text_size">"Памер тэксту"</string>
+    <string name="now_bar_summary">Актыўныя дзеянні ўнізе экрана блакіроўкі</string>
+    <string name="now_bar_show">Паказваць</string>
+    <string name="now_bar_music">Музыка і відэа</string>
+    <string name="now_bar_timers">Таймеры, секундамер і будзільнікі</string>
+    <string name="now_bar_hide_call">Схаваць апавяшчэнне пра выклік</string>
+    <string name="now_bar_hide_call_summary">На экране блакіроўкі выклік у Now Bar не паказваецца таксама ў спісе апавяшчэнняў</string>
+    <string name="now_bar_live">Live Updates</string>
+    <string name="now_bar_live_summary">Навігацыя, паездкі, даставка, лічбы</string>
+    <string name="now_bar_scores">Жывы лічбавы рахунак</string>
+    <string name="now_bar_live_apps">Праграмы для Live Updates</string>
+    <string name="now_bar_live_apps_count">Праграм: <xliff:g id="count" example="2">%1$d</xliff:g></string>
+    <string name="now_bar_pin">Замацавана на экране з заўсёды ўключаным дысплеем</string>
+    <string name="now_bar_unpin_question">Адмацаваць <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Адмацаваць</string>
+    <string name="now_bar_scores_summary">Гульні, за якімі вы сочыце ў At a Glance</string>
+    <string name="now_bar_recording">Запіс экрана і голасу</string>
+    <string name="now_bar_buds">Навушнікі і гадзіннікі</string>
+    <string name="now_bar_buds_summary">Зарад падключанай прылады: левы, правы навушнік і футляр</string>
+    <string name="now_bar_wave">Анімацыя хвалі</string>
+    <string name="now_bar_aod">Паказваць на экране з заўсёды ўключаным дысплеем</string>
+    <string name="now_bar_chip">Плітка ў панэлі стану</string>
+    <string name="now_bar_chip_summary">Музыка і таймеры каля гадзінніка, пакуль прылада разблакіравана</string>
+    <string name="now_bar_footer">Калі ў Now Bar ёсць музыка, вялікі плэер на экране блакіроўкі схаваны. Гартайце панэль, каб пераключаць дзеянні, націсніце, каб адкрыць кіраванне, і ўтрымлівайце, каб схаваць дзеянне да яго заканчэння. Каб прыбраць прыпыненую песню, змахніце яе з панэлі.\n\nЖывыя лічбы паказваюць матчы каманд, за якімі вы сочыце ў праграме Google. З Smartspacer дадайце там спартыўны аб\'ект, і лічбы будуць тут.</string>
+    <string name="now_bar_looks">Выгляды</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Стандартна"</item>
+        <item>Liquid Glass</item>
+        <item>Міні</item>
+        <item>Вялікі</item>
+        <item>Неон</item>
+        <item>Шкляная картка</item>
+    </string-array>
+    <string name="now_bar_material">Матэрыял</string>
+    <string name="now_bar_material_summary">Liquid Glass выкарыстоўвае шкло, якое вы задалі ў Тэме</string>
+    <string-array name="now_bar_material_entries">
+        <item>Суцэльны</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Вокладка альбома</item>
+        <item>Акцэнт</item>
+        <item>Цёмны</item>
+    </string-array>
+    <string name="now_bar_opacity">Непразрыстасць</string>
+    <string name="now_bar_opacity_summary">Колькасць колеру, які афарбоўвае шкло ў Liquid Glass</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Няма"</item>
+        <item>Тонкая</item>
+        <item>Акцэнт</item>
+    </string-array>
+    <string name="now_bar_shadow">Цень</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Выключана"</item>
+        <item>Soft</item>
+        <item>Свячэнне</item>
+    </string-array>
+    <string name="now_bar_more">Больш дзеянняў</string>
+    <string-array name="now_bar_more_entries">
+        <item>Проста змахніце</item>
+        <item>Кропкі</item>
+        <item>Загляд за край</item>
+    </string-array>
+    <string name="now_bar_size">Памер і форма</string>
+    <string name="now_bar_height">Вышыня</string>
+    <string name="now_bar_width_summary">Поўны рэжым перамяшчае ярлыкі вышэй панэлі</string>
+    <string-array name="now_bar_width_entries">
+        <item>Вузкі</item>
+        <item>Паміж ярлыкамі</item>
+        <item>Поўная</item>
+    </string-array>
+    <string name="now_bar_corners">Кутнікі</string>
+    <string name="now_bar_raise">Падняць</string>
+    <string name="now_bar_art">Вокладка альбома</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Круг"</item>
+        <item>Закруглёны</item>
+        <item>"Квадрат"</item>
+        <item>"Выключана"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Прапусціць і прайграць</item>
+        <item>Толькі прайгравальнік</item>
+        <item>"Няма"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Адзін радок</item>
+        <item>Два радкі</item>
+        <item>Толькі песня</item>
+    </string-array>
+    <string name="now_bar_show_page">Што паказваецца на панэлі</string>
+    <string name="now_bar_show_page_summary">Музыка і відэа, таймеры, выклікі і іншае</string>
+    <string name="now_bar_where">Дзе яшчэ</string>
 </resources>

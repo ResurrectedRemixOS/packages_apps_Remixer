@@ -83,4 +83,212 @@
     <string name="wallpaper_apply_lock">"អេក្រង់ចាក់សោ"</string>
     <string name="remixer_settings_style_original">"ដើម"</string>
     <string name="remixer_navbar_category">"របាររុករក"</string>
+    <string name="remixer_dashboard_summary">ផ្ទាំងស្ថានភាព ទម្រង់រចនា អេក្រង់ចាក់សោ និងផ្សេងៗ</string>
+    <string name="rr_homepage_battery_saver">ការសន្សំថ្ម</string>
+    <string name="rr_homepage_personalize">ធ្វើឲ្យស្របតាមចំណូលចិត្ត</string>
+    <string name="rr_homepage_privacy">ឯកជនភាព &amp; សុវត្ថិភាព</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> ទំនេរ</string>
+    <string name="rr_homepage_charged">បានសាកពេញ</string>
+    <string name="rr_homepage_on_battery">កំពុងប្រើថ្ម</string>
+    <string name="rr_homepage_saver_on">ការសន្សំថ្មបានបើក</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="other">ឧបករណ៍ <xliff:g id="count" example="2">%d</xliff:g></item>
+    </plurals>
+    <string name="rr_homepage_extras">ការកំណត់បន្ថែម</string>
+    <string name="rr_homepage_saver">ការសន្សំថាមពល</string>
+    <string name="rr_homepage_signed_out">មិនទាន់ចូលគណនី</string>
+    <string name="rr_homepage_remixer_tagline">ធ្វើឲ្យជារបស់អ្នក។ របារស្ថានភាព ទម្រង់រចនា អេក្រង់ចាក់សោ និងផ្សេងៗ។</string>
+    <string name="rr_homepage_device_tagline">ប៊ូតុងជូនដំណឹង ផ្ទាំងបង្ហាញ ការសាក និង GameBar។</string>
+    <string name="rr_homepage_device_action">កែតម្រូវ</string>
+    <string name="rr_group_network">បណ្តាញ &amp; ឧបករណ៍</string>
+    <string name="rr_group_network_summary">Wi‑Fi ទូរស័ព្ទចល័ត Bluetooth</string>
+    <string name="rr_group_apps_summary">កម្មវិធី ការជូនដំណឹង របៀប</string>
+    <string name="rr_group_display">ផ្ទាំងបង្ហាញ និងសំឡេង</string>
+    <string name="rr_group_display_summary">ផ្ទាំងបង្ហាញ ផ្ទាំងរូបភាព សំឡេង</string>
+    <string name="rr_group_security_summary">ចាក់សោ ទីតាំង អាសន្ន</string>
+    <string name="rr_group_security_center">មជ្ឈមណ្ឌលសុវត្ថិភាព</string>
+    <string name="rr_group_accounts">Google &amp; គណនី</string>
+    <string name="rr_group_accounts_summary">Google ពាក្យសម្ងាត់ បម្រុងទុក</string>
+    <string name="rr_group_accounts_plain_summary">ពាក្យសម្ងាត់ គណនី បម្រុងទុក</string>
+    <string name="rr_group_system_summary">ភាសា ចលនា ការអាប់ដេត</string>
+    <string name="remixer_tagline">ធ្វើឲ្យជារបស់អ្នក។</string>
+    <string name="remixer_remix">Remix វា</string>
+    <string name="remixer_remixed">បាន Remix ជាមួយ <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">ស្រទាប់ពណ៌ · លំនាំដើម</string>
+    <string name="remixer_quick">Remix រហ័ស</string>
+    <string name="remixer_everything">ទាំងអស់</string>
+    <string name="remixer_quick_accents">ការកំណត់ជាមុន ឬពណ៌ណាក៏បាន</string>
+    <string name="remixer_quick_fonts">រចនាបថពុម្ពអក្សរប្រព័ន្ធ</string>
+    <string name="remixer_quick_walls">បណ្តុំ RR</string>
+    <string name="remixer_quick_header">ក្បាល QS</string>
+    <string name="remixer_quick_header_summary">រូបភាពក្បាល</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">នាឡិកា ថ្ម រូបតំណាង និងចរាចរណ៍បណ្តាញ</string>
+    <string name="remixer_qs_summary">រូបភាពក្បាល</string>
+    <string name="remixer_notifications_summary">ពន្លឺគែម រូបតំណាងកម្មវិធី និងសំឡេងសាក</string>
+    <string name="remixer_theme_summary">ពុម្ពអក្សរ ពណ៌ដៃ និងផ្ទាំងរូបភាព</string>
+    <string name="remixer_lockscreen_summary">UDFPS ព័ត៌មានសាក និងអាកាសធាតុ</string>
+    <string name="remixer_udfps_icon">រូបតំណាង UDFPS</string>
+    <string name="remixer_udfps_icon_summary">បង្ហាញលើឧបករណ៍ចាប់ស្នាមម្រាមដៃ</string>
+    <string name="remixer_udfps_animation">ចលនា UDFPS</string>
+    <string name="remixer_udfps_animation_summary">លេងខណៈដែលម្រាមដៃអ្នកនៅលើឧបករណ៍ចាប់</string>
+    <string name="remixer_navigation">ការរុករក</string>
+    <string name="remixer_navigation_summary">Pulse ប៊ូតុង និងរបាររុករក</string>
+    <string name="remixer_misc_summary">កម្រិតសំឡេង បម្រុងទុក ការក្លែងបន្លំ ការរំកិល និង USB</string>
+    <string name="scroll_haptics_title">ចុចនៅចុងការរំកិល</string>
+    <string name="scroll_haptics_summary">ញ័រស្រាលនៅពេលបញ្ជី ឬទំព័រមិនអាចរំកិលបន្តបាន</string>
+    <string name="usb_mode_picker_title">ជម្រើសរបៀប USB</string>
+    <string name="usb_mode_picker_summary">ជ្រើសរបៀបនៅពេលអ្នកភ្ជាប់ទៅកុំព្យូទ័រ</string>
+    <string name="remixer_fonts_summary">ពុម្ពអក្សរប្រព័ន្ធ</string>
+    <string name="remixer_wallpapers_summary">ផ្ទាំងរូបភាព Resurrected Remix</string>
+    <string name="remixer_accents">ពណ៌ដៃ</string>
+    <string name="remixer_accents_summary">ពណ៌ដៃ</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">ឧបករណ៍មើលឃើញតន្ត្រីតាមផ្នែកខាងក្រោមអេក្រង់</string>
+    <string name="pulse_switch">ប្រើ Pulse</string>
+    <string name="pulse_switch_summary">របារតន្ត្រីតាមផ្នែកខាងក្រោមអេក្រង់ខណៈមានការចាក់មេឌៀ</string>
+    <string name="pulse_preview_title">កំពុងចាក់</string>
+    <string name="pulse_style_lines">បន្ទាត់</string>
+    <string name="pulse_style_fading">ចាងបាត់</string>
+    <string name="pulse_style_blocks">ប្លុក</string>
+    <string name="pulse_style_mirror">ឆ្លុះ</string>
+    <string name="pulse_color_custom">ផ្ទាល់ខ្លួន</string>
+    <string name="pulse_color_gradient">ឥន្ទធនូ</string>
+    <string name="pulse_bars">របារ</string>
+    <string name="pulse_bars_value">របារ · %1$d</string>
+    <string name="pulse_height">កម្ពស់</string>
+    <string name="pulse_height_value">កម្ពស់ · %1$d dp</string>
+    <string name="pulse_opacity">ភាពថ្លា</string>
+    <string name="pulse_opacity_value">ភាពថ្លា · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">រក្សារបារនៅលើអេក្រង់ចាក់សោ ខណៈមានការចាក់តន្ត្រី</string>
+    <string name="pulse_failed">មិនអាចរក្សាទុកការកំណត់ Pulse នេះបានទេ</string>
+    <string name="accent_applied">បានអនុវត្តពណ៌ដៃ</string>
+    <string name="accent_current">ពណ៌ដៃ · %1$s</string>
+    <string name="accent_current_custom">ពណ៌ដៃ · ផ្ទាល់ខ្លួន</string>
+    <string name="accent_preview_tonal">សម្លេងពណ៌</string>
+    <string name="accent_failed">មិនអាចអនុវត្តពណ៌ដៃនេះបានទេ</string>
+    <string name="accent_custom">ផ្ទាល់ខ្លួន</string>
+    <string name="accent_custom_summary">ពណ៌ណាក៏បាន។ ស្រទាប់ពណ៌នៅតែអនុវត្តលើវា។</string>
+    <string name="accent_custom_pad">ភាពឆ្អែត និងពន្លឺ</string>
+    <string name="accent_custom_use">ប្រើ <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">ស្រទាប់ពណ៌</string>
+    <string name="accent_shade_darker">ងងឹតជាង</string>
+    <string name="accent_shade_lighter">ភ្លឺជាង</string>
+    <string name="accent_shade_darker_value">ងងឹតជាង · %1$d</string>
+    <string name="accent_shade_lighter_value">ភ្លឺជាង · %1$d</string>
+    <string name="remixer_qs_style">រចនាបថ QS</string>
+    <string name="remixer_qs_style_preview">មើលជាមុន · %1$s</string>
+    <string name="remixer_qs_style_note">រចនាបថទាំងអស់ធ្វើតាមពណ៌ដៃរបស់អ្នក។ ផ្ទាំងកម្រិតសំឡេងមានរូបរាង Bento, Shapes, Blueprint, Duo និង Soft ដែលត្រូវគ្នា។ Stock Lineage រក្សាប្រអប់ Android 17 ដោយមិនប្រែប្រួល។</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">ប្រអប់ Android 17 ដដែល</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">ពន្លឺនៅក្នុងកាតពណ៌ដៃ។ ប្រអប់ត្រូវបានបំពេញដោយស្រទាប់ពណ៌ដៃ</string>
+    <string name="remixer_qs_style_compact">ខ្នាតតូច</string>
+    <string name="remixer_qs_style_compact_summary">ប្រអប់ខ្លី។ មានច្រើនជាងនៅលើអេក្រង់មួយ</string>
+    <string name="remixer_qs_style_glass">កញ្ចក់</string>
+    <string name="remixer_qs_style_glass_summary">ប្រអប់ថ្លាមានបន្ទាត់ខ្ទាស់ ដែលភ្លឺដោយពណ៌ដៃនៅពេលបើក</string>
+    <string name="remixer_qs_style_circles">រង្វង់</string>
+    <string name="remixer_qs_style_circles_summary">ប៊ូតុងបិទបើកមូលមានស្លាក។ ប្រអប់ធំក្លាយជាកាត</string>
+    <string name="remixer_qs_style_classic">បុរាណ</string>
+    <string name="remixer_qs_style_classic_summary">RR បុរាណ៖ រូបតំណាងទទេមានស្លាក ប្រាំក្នុងមួយជួរ និងរនុកស្តើង</string>
+    <string name="remixer_qs_style_cards">កាត</string>
+    <string name="remixer_qs_style_cards_summary">កាតធំមានស្ថានភាពនៅក្រោមឈ្មោះនីមួយៗ បីក្នុងមួយជួរ</string>
+    <string name="remixer_qs_style_neon">នេអុង</string>
+    <string name="remixer_qs_style_neon_summary">ប្រអប់មានបន្ទាត់ខ្ទាស់ ដែលភ្លឺដោយពណ៌ដៃនៅពេលបើក</string>
+    <string name="remixer_qs_style_bento_summary">ប្លុកមូលធំបំពេញដោយពណ៌ដៃ មានស្លាកនៅក្រោមប្រអប់តូចៗ</string>
+    <string name="remixer_qs_style_shapes">រូបរាង</string>
+    <string name="remixer_qs_style_shapes_summary">ប៊ូតុងបិទបើកមូលដែលលូតចេញផ្នែកមូលនៅពេលបើក ប្រាំក្នុងមួយជួរ</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">បន្ទាត់ស្តើងខ្ទាស់ និងអក្សរធំទំហំស្មើ</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">ប្រអប់បែកពីរ។ ផ្នែករូបតំណាងភ្លឺ និងបិទបើក</string>
+    <string name="remixer_qs_style_soft">ទន់</string>
+    <string name="remixer_qs_style_soft_summary">ប្រអប់លើកឡើង ដែលចុចចូលនៅពេលបើក</string>
+    <string name="remixer_lock_media_style">រចនាបថកម្មវិធីចាក់មេឌៀ</string>
+    <string name="remixer_lock_media_same">ដូចការកំណត់រហ័ស</string>
+    <string name="remixer_lock_media_same_summary">ធ្វើតាមប្រអប់មេឌៀ QS របស់អ្នក ឥឡូវ %1$s</string>
+    <string name="remixer_lock_media_off_summary">គ្មានកម្មវិធីចាក់នៅលើអេក្រង់ចាក់សោ</string>
+    <string name="remixer_lock_media_note">កាតនេះបង្ហាញនៅលើអេក្រង់ចាក់សោ ខណៈមានអ្វីមួយកំពុងចាក់។ រចនាបថថ្លាទទួលបានផ្ទៃខាងក្រោយងងឹត ដើម្បីឲ្យអាចអាននៅលើផ្ទាំងរូបភាពរបស់អ្នក។</string>
+    <string name="remixer_lock_media_stock_summary">រូបមុខអាល់ប៊ុមបំពេញកាត</string>
+    <string name="remixer_lock_media_remix_summary">កាតងងឹត ប៊ូតុងចាក់ពណ៌ដៃ</string>
+    <string name="remixer_lock_media_compact_summary">កាតមូលជាង រូបមុខមូល</string>
+    <string name="remixer_lock_media_glass_summary">កាតថ្លាមានបន្ទាត់ខ្ទាស់</string>
+    <string name="remixer_lock_media_circles_summary">កាតទន់ ប៊ូតុងចាក់ពណ៌ដៃ</string>
+    <string name="remixer_lock_media_classic_summary">កាតការ៉េជាង ប៊ូតុងចាក់មានបន្ទាត់ខ្ទាស់</string>
+    <string name="remixer_lock_media_cards_summary">កាតទន់ ប៊ូតុងចាក់ពណ៌ដៃ ដូចរង្វង់</string>
+    <string name="remixer_lock_media_neon_summary">កាតពណ៌ខ្មៅ មានបន្ទាត់ខ្ទាស់ពណ៌ដៃ</string>
+    <string name="remixer_lock_media_bento_summary">កាតទន់ ប៊ូតុងចាក់ពណ៌ដៃ</string>
+    <string name="remixer_lock_media_shapes_summary">កាតមូលជាង ប៊ូតុងចាក់ពណ៌ដៃ</string>
+    <string name="remixer_lock_media_blueprint_summary">បន្ទាត់ស្តើង ប៊ូតុងចាក់មានបន្ទាត់ខ្ទាស់</string>
+    <string name="remixer_lock_media_duo_summary">កាតពីរសម្លេង ប៊ូតុងចាក់ពណ៌ដៃ</string>
+    <string name="remixer_lock_media_soft_summary">កាតលើកឡើងមានគែមចោត</string>
+    <string name="remixer_headers">រូបភាពក្បាល</string>
+    <string name="remixer_headers_summary">ជ្រើសរូបភាពផ្ទៃខាងក្រោយសម្រាប់ការកំណត់រហ័ស</string>
+    <string name="header_switch">ប្រើរូបភាពក្បាល</string>
+    <string name="header_switch_summary">បង្ហាញរូបភាពនៅខាងក្រោយការកំណត់រហ័ស</string>
+    <string name="header_source">ប្រភព</string>
+    <string name="header_source_collection">បណ្តុំ</string>
+    <string name="header_collections_summary_daylight">ក្បាលធ្វើតាមម៉ោងក្នុងថ្ងៃ ឬបង្វិលតាមបណ្តុំ</string>
+    <string name="header_collections_summary_static">បើកបណ្តុំ បន្ទាប់មកចុចរូបភាពដើម្បីប្រើ</string>
+    <string name="header_collections_empty">មិនមានបណ្តុំក្បាលដែលបានដំឡើងទេ</string>
+    <string name="header_images_daylight">នៅក្នុងបណ្តុំនេះ</string>
+    <plurals name="header_image_count">
+        <item quantity="other">រូបភាព %d</item>
+    </plurals>
+    <string name="header_photo_summary">រូបថត ឬ GIF ចលនាណាមួយពីបណ្តុំរូបភាពរបស់អ្នក</string>
+    <string name="header_height">កម្ពស់</string>
+    <string name="header_height_value">កម្ពស់ · %1$d dp</string>
+    <string name="header_shadow">ងងឹត</string>
+    <string name="header_shadow_value">ងងឹត · %1$d%%</string>
+    <string name="header_failed">មិនអាចរក្សាទុកការកំណត់ក្បាលនេះបានទេ</string>
+    <string name="remixer_weather_summary">សេវាអាកាសធាតុ និងឯកតា</string>
+    <string name="font_preview_notification">នេះជារបៀបដែលទូរស័ព្ទអ្នកនឹងអាន។</string>
+    <string name="font_try_text">សាកល្បងអក្សររបស់អ្នក</string>
+    <string name="font_previewing">កំពុងមើលជាមុន</string>
+    <string name="font_current">ពុម្ពអក្សរបច្ចុប្បន្ន</string>
+    <string name="font_badge_current">បច្ចុប្បន្ន</string>
+    <string name="font_apply_done">បានអនុវត្ត</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">ផ្ទាំងបង្ហាញ</string>
+    <string name="font_filter_script">សរសេរដៃ</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">បានអនុវត្តពុម្ពអក្សរ</string>
+    <string name="font_failed">មិនអាចអនុវត្តពុម្ពអក្សរនេះបានទេ</string>
+    <string name="wallpaper_set">បានកំណត់ផ្ទាំងរូបភាព</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="other">ផ្ទាំងរូបភាព %d ពី Resurrected Remix។ ចុចមួយដើម្បីមើលជាមុន។</item>
+    </plurals>
+    <string name="wallpaper_apply_both">ទាំងពីរ</string>
+    <string name="wallpaper_failed">មិនអាចកំណត់ផ្ទាំងរូបភាពនេះបានទេ</string>
+    <string name="missing_app">មិនបានដំឡើងកម្មវិធីនេះទេ</string>
+    <string name="remixer_spoofing">ការក្លែងបន្លំ</string>
+    <string name="remixer_spoofing_summary">Play Integrity អត្តសញ្ញាណឧបករណ៍ និងការក្លែងបន្លំក្នុងកម្មវិធី</string>
+    <string name="remixer_settings_style">រចនាបថការកំណត់</string>
+    <string name="rr_maintainer">អ្នកថែទាំ</string>
+    <string name="remixer_navbar_summary">ប្រវែង ទំហំ និងប្លង់ Pill</string>
+    <string name="remixer_navbar_pill_length">ប្រវែង Pill ចលនា</string>
+    <string name="remixer_navbar_pill_thickness">ទំហំ Pill ចលនា</string>
+    <string name="remixer_navbar_pill_auto_hide">ធ្វើឲ្យ Pill ចលនាចាងបាត់</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">លាក់ Pill បន្ទាប់ពីប៉ុន្មានវិនាទី វានឹងលេចឡើងវិញនៅពេលអ្នកប៉ះអេក្រង់</string>
+    <string name="remixer_navbar_ime">ប៊ូតុងក្តារចុច</string>
+    <string name="remixer_navbar_ime_summary">បង្ហាញប៊ូតុងត្រឡប់ក្រោយ និងប៊ូតុងប្តូរក្តារចុចនៅក្រោមក្តារចុច</string>
+    <string name="remixer_navbar_layout">ប្លង់ប៊ូតុង</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>ខ្លី</item>
+        <item>ធម្មតា</item>
+        <item>វែង</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>ស្តើងបំផុត</item>
+        <item>ស្តើងជាង</item>
+        <item>ស្តើង</item>
+        <item>ធម្មតា</item>
+        <item>ក្រាស់</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>ធម្មតា</item>
+        <item>ខ្នាតតូច</item>
+        <item>"ផ្អៀង​ទៅ​ឆ្វេង"</item>
+        <item>"ផ្អៀង​ទៅ​ស្តាំ"</item>
+    </string-array>
 </resources>

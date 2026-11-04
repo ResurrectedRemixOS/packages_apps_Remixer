@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Панэль гучнасці</string>
+    <string name="volume_page_summary">Неон, шкло, капсула або класічны RR</string>
+    <string name="volume_behavior">Паводзіны</string>
+    <string name="volume_on_left_title">Панэль злева</string>
+    <string name="volume_on_left_summary">Класічны RR заўсёды ў верхняй частцы</string>
+    <string name="volume_ringer_title">Кнопка рэжыму званка</string>
+    <string name="volume_tick_title">Пстрыкаць пры перасоўванні</string>
+    <string name="volume_percent_title">Паказваць узровень у працэнтах</string>
+    <string name="volume_timeout_title">Схаваць праз</string>
+    <string name="volume_footer">Выгляд змяняе, як выглядае панэль, але не тое, як яна працуе. Android захоўвае стандартную панэль. Націсніце на кропкі, каб убачыць усе патокі; разгорнутая панэль мае той жа выгляд.</string>
 </resources>

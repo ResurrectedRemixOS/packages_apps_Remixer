@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Når"</string>
+    <string name="nightstand_title">Nattbord</string>
+    <string name="nightstand_summary">En dempet sengeklokke på alltid-på-skjermen mens telefonen lades om natten</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Av"</item>
+        <item>På lader om natten</item>
+        <item>Hver natt, etter en plan</item>
+        <item>Mens en sengetidsmodus er på</item>
+    </string-array>
+    <string name="nightstand_from">Natten starter</string>
+    <string name="nightstand_to">Natten slutter</string>
+    <string name="nightstand_brightness">Lysstyrkegrense</string>
+    <string name="nightstand_brightness_summary">Hvor lys alltid-på-skjermen kan bli mens Nattbord er på</string>
+    <string name="nightstand_face">Klokkeflate</string>
+    <string name="nightstand_face_keep">Behold gjeldende flate</string>
+    <string name="nightstand_footer">Nattbord slår på alltid-på-skjermen mens det kjører, og slår den av igjen etterpå. Det avsluttes når laderen kobles fra, alarmen ringer eller natten tar slutt. Flaten bytter bare mellom to egendefinerte flater; systemklokken forblir.</string>
 </resources>

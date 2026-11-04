@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Көк"</string>
     <string name="haptic_remix_color_green">"Жасыл"</string>
     <string name="haptic_remix_color_white">"Ақ"</string>
+    <string name="haptic_remix_summary">Қоңыраулар, қолданбалар, оятқыштар мен құлыптауларға арналған діріл үлгілерін түртіп жасаңыз</string>
+    <string name="haptic_remix_record">Жазу</string>
+    <string name="haptic_remix_pad">ырғақты түртіңіз</string>
+    <string name="haptic_remix_strength">Күші</string>
+    <string name="haptic_remix_clear">Тазарту</string>
+    <string name="haptic_remix_play">Ойнату</string>
+    <string name="haptic_remix_name">Үлгі атауы</string>
+    <string name="haptic_remix_empty">Әзірге ешнәрсе жазылмады</string>
+    <string name="haptic_remix_too_long">Үлгі 30 секундқа дейін созыла алады</string>
+    <string name="haptic_remix_presets">Дайын үлгілер</string>
+    <string name="haptic_remix_preset_neon">Неон</string>
+    <string name="haptic_remix_preset_glass">Шыны</string>
+    <string name="haptic_remix_preset_ringtone">Қоңырау әнінің соғысы</string>
+    <string name="haptic_remix_listening">Қоңырау әні оқылып жатыр…</string>
+    <string name="haptic_remix_no_ringtone">Қоңырау әнін оқу мүмкін болмады</string>
+    <string name="haptic_remix_patterns">Сіздің үлгілеріңіз</string>
+    <string name="haptic_remix_patterns_none">Алдымен үлгі сақтаңыз. Жою үшін ұстап тұрыңыз.</string>
+    <string name="haptic_remix_broken">Бұл үлгіні оқу мүмкін емес</string>
+    <string name="haptic_remix_delete"><xliff:g id="name" example="Heartbeat">%1$s</xliff:g> өшірілсін бе?</string>
+    <string name="haptic_remix_assign">Мынаған тағайындау</string>
+    <string name="haptic_remix_alarm">Оятқыш пен таймер</string>
+    <string name="haptic_remix_plug">Қуатқа қосылған</string>
+    <string name="haptic_remix_fingerprint">Саусақ ізі сәтті</string>
+    <string name="haptic_remix_add_contact">Контакт қосу</string>
+    <string name="haptic_remix_edge_color"><xliff:g id="name" example="Mia">%1$s</xliff:g> хабарламаларына арналған жиек жарығы</string>
+    <string name="haptic_remix_color_accent">Акцент</string>
+    <string name="haptic_remix_color_crimson">Қызыл</string>
+    <string name="haptic_remix_color_amber">Кәрімтық</string>
+    <string name="haptic_remix_add_app">Қолданбаның хабарландыруларын қосу</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · өзгерту үшін түртіңіз, жиек түсі үшін ұстаңыз</string>
+    <string name="haptic_remix_no_contacts">Контактілерден нөмір алынбады</string>
 </resources>

@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="remixer_boot_animation">Startanimering</string>
+    <string name="boot_animation_note">Spelas nästa gång telefonen startar.</string>
+    <string name="boot_animation_custom">Din fil</string>
+    <string name="boot_animation_custom_pick">Välj en fil…</string>
+    <string name="boot_animation_custom_invalid">Den filen är ingen startanimation</string>
+    <string name="boot_animation_failed">Det gick inte att ändra startanimationen</string>
 </resources>

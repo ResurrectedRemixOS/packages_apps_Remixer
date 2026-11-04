@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"ਬੈਟਰੀ"</string>
     <string name="battery_style_title">"ਸਟਾਈਲ"</string>
+    <string-array name="battery_style_entries">
+        <item>ਪੋਰਟਰੇਟ</item>
+        <item>"ਚੱਕਰ"</item>
+        <item>ਬਿੰਦੀਆਂ ਵਾਲਾ ਗੋਲ</item>
+        <item>ਨੀਓਨ ਰਿੰਗ</item>
+        <item>ਪਤਲੀ ਗੋਲੀ</item>
+        <item>ਵੱਡੀ ਪ੍ਰਤੀਸ਼ਤ</item>
+        <item>"ਸੁਨੇਹਾ ਭੇਜੋ"</item>
+    </string-array>
+    <string name="battery_percent_title">ਪ੍ਰਤੀਸ਼ਤ</string>
+    <string-array name="battery_percent_entries">
+        <item>"ਲੁਕਾਇਆ"</item>
+        <item>ਆਈਕਨ ਦੇ ਅੰਦਰ</item>
+        <item>ਇਸ ਦੇ ਨਾਲ</item>
+    </string-array>
+    <string name="battery_ring_color_title">ਨੀਓਨ ਰਿੰਗ ਦਾ ਰੰਗ</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. ਪੱਧਰ ਅਨੁਸਾਰ ਦਾ ਮਤਲਬ ਹੈ ਕਿ 20%% ਤੋਂ ਉੱਪਰ ਐਕਸੈਂਟ, ਹੇਠਾਂ ਲਾਲ ਅਤੇ ਬੈਟਰੀ ਸੇਵਰ ਵਿੱਚ ਅੰਬਰ।</string>
+    <string-array name="battery_ring_color_entries">
+        <item>ਪੱਧਰ ਅਨੁਸਾਰ</item>
+        <item>ਐਕਸੈਂਟ</item>
+        <item>"ਸਫੈਦ"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">ਚਾਰਜ ਹੋਣ ਵੇਲੇ ਚਮਕ</string>
+    <string name="battery_ring_tile_title">ਤਤਕਾਲ ਸੈਟਿੰਗਾਂ ਟਾਇਲ \'ਤੇ ਵੀ ਉਹੀ ਰਿੰਗ</string>
+    <string name="battery_ring_tile_summary">ਪੱਧਰ ਅਤੇ ਸਕ੍ਰੀਨ ਚਾਲੂ ਰਹਿਣ ਦੇ ਸਮੇਂ ਸਮੇਤ</string>
 </resources>

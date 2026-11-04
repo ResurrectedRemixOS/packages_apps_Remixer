@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Naudoti įrenginio RKP</string>
+    <string name="ts_rkp_enabled_summary">Naudoti sugeneruotą raktų dėžutę. Importavus raktų dėžutę, tai išjungiama.</string>
+    <string name="ts_rkp_provision">Generuoti raktų dėžutę</string>
+    <string name="ts_rkp_provision_summary">Prašyti raktų dėžutės iš Google naudojant šio įrenginio aprūpinimo paslaugą. Reikalinga suderinama Qualcomm programinė įranga.</string>
+    <string name="ts_rkp_status">Aprūpinimo būsena</string>
+    <string name="ts_rkp_owner_only">Įrenginio RKP tvarkomas iš įrenginio savininko profilio</string>
+    <string name="ts_rkp_unavailable">Įrenginio RKP nepasiekiamas</string>
+    <string name="ts_rkp_imported">Išjungta, kol įdiegta importuota raktų dėžutė</string>
+    <string name="ts_rkp_disabled">Išjungta. Įjunkite įrenginio RKP, kad galėtumėte naudoti arba generuoti raktų dėžutę.</string>
+    <string name="ts_rkp_idle">Paruošta prašyti raktų dėžutės</string>
+    <string name="ts_rkp_fetching">Gaunamas aprūpinimo iššūkis…</string>
+    <string name="ts_rkp_hardware">Laukiama įrenginio aprūpinimo paslaugos…</string>
+    <string name="ts_rkp_signing">Prašoma sertifikatų iš Google…</string>
+    <string name="ts_rkp_validating">Tikrinama ir išsaugoma raktų dėžutė…</string>
+    <string name="ts_rkp_ready">Sugeneruota raktų dėžutė aktyvi. Atsinaujins savaime iki %1$s</string>
+    <string name="ts_rkp_keybox_stored">Įrenginio RKP raktų dėžutė išsaugota</string>
+    <string name="ts_rkp_expired">Sugeneruota raktų dėžutė baigė galioti. Sugeneruokite pakaitalą.</string>
+    <string name="ts_rkp_hal_rejected">Programinė įranga atmetė užklausą (kodas %1$d). Duck V1 gali būti nepalaikomas.</string>
+    <string name="ts_rkp_http_error">Aprūpinimo serveris atmetė užklausą (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Įrenginys neturi suderinamos V1 aprūpinimo sąsajos</string>
+    <string name="ts_rkp_network_error">Nepavyko pasiekti aprūpinimo serverio. Patikrinkite ryšį.</string>
+    <string name="ts_rkp_submission_unknown">Serverio atsakymas prarastas. Užklausa galėjo būti apdorota; automatinio bandymo nebuvo.</string>
+    <string name="ts_rkp_invalid_chain">Raktų dėžutės sertifikatai neišlaikė patikros. Esama raktų dėžutė paliekama.</string>
+    <string name="ts_rkp_timeout">Aprūpinimo laikas baigėsi. Jei įrenginio paslauga vis dar užimta, prieš bandydami dar kartą paleiskite įrenginį iš naujo.</string>
+    <string name="ts_rkp_canceled">Užklausa atšaukta, nes pasikeitė raktų dėžutės konfigūracija</string>
+    <string name="ts_rkp_save_failed">Nepavyko išsaugoti sugeneruotos raktų dėžutės</string>
+    <string name="ts_rkp_action_failed">Nepavyko baigti raktų dėžutės operacijos</string>
+</resources>

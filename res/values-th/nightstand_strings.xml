@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"เมื่อใด"</string>
+    <string name="nightstand_title">โหมดนาฬิกาข้างเตียง</string>
+    <string name="nightstand_summary">นาฬิกาข้างเตียงแบบหรี่แสงบนหน้าจอแสดงตลอดเวลาขณะชาร์จตอนกลางคืน</string>
+    <string-array name="nightstand_when_entries">
+        <item>"ปิด"</item>
+        <item>เสียบชาร์จตอนกลางคืน</item>
+        <item>ทุกคืนตามกำหนดเวลา</item>
+        <item>ขณะเปิดโหมดเข้านอน</item>
+    </string-array>
+    <string name="nightstand_from">เริ่มช่วงกลางคืน</string>
+    <string name="nightstand_to">สิ้นสุดช่วงกลางคืน</string>
+    <string name="nightstand_brightness">ความสว่างสูงสุด</string>
+    <string name="nightstand_brightness_summary">ความสว่างสูงสุดของหน้าจอแสดงตลอดเวลาขณะเปิดโหมดนาฬิกาข้างเตียง</string>
+    <string name="nightstand_face">รูปแบบหน้าปัดนาฬิกา</string>
+    <string name="nightstand_face_keep">คงรูปแบบปัจจุบันไว้</string>
+    <string name="nightstand_footer">โหมดนาฬิกาข้างเตียงจะเปิดหน้าจอแสดงตลอดเวลาขณะทำงาน และคืนค่าเดิมเมื่อจบ โหมดจะสิ้นสุดเมื่อถอดที่ชาร์จ นาฬิกาปลุกดัง หรือช่วงกลางคืนจบ รูปแบบหน้าปัดจะสลับเฉพาะระหว่างหน้าปัดที่กำหนดเองสองแบบ ส่วนนาฬิกาของระบบยังคงเดิม</string>
 </resources>

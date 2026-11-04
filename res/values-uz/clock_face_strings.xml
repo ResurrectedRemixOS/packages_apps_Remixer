@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Standart"</string>
     <string name="clock_faces_size">"Hajmi"</string>
     <string name="clock_faces_restart">"Qayta yoqish"</string>
+    <string name="remixer_clock_faces">Soat ko‘rinishlari</string>
+    <string name="clock_faces_system">Tizim soati</string>
+    <string name="clock_faces_system_desc">Fon rasmi va uslub’dagi soat</string>
+    <string name="clock_faces_position">%1$d / %2$d</string>
+    <string name="clock_faces_applied">Qo‘llangan</string>
+    <string name="clock_faces_preview_unavailable">Oldindan ko‘rish mavjud emas</string>
+    <string name="clock_faces_failed">Soatni o‘zgartirib bo‘lmadi</string>
+    <string name="clock_faces_color_accent">Aksent</string>
+    <string name="clock_faces_color_custom">Maxsus</string>
+    <string name="clock_faces_color_album">Albom muqovasi</string>
+    <string name="clock_faces_color_gradient">Gradient</string>
+    <string name="clock_faces_own_colors">Bu ko‘rinish o‘z ranglarini saqlaydi.</string>
+    <string name="clock_faces_album_hint">Musiqa ijro etilganda rangini albom muqovasidan oladi.</string>
+    <string name="clock_faces_size_position">Hajmi va joylashuvi</string>
+    <string name="clock_faces_size_value">Hajmi · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Yuqoridan masofa</string>
+    <string name="clock_faces_top_value">Yuqoridan masofa · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Gorizontal joylashuv</string>
+    <string name="clock_faces_horizontal_center">Gorizontal joylashuv · Markaz</string>
+    <string name="clock_faces_horizontal_right">Gorizontal joylashuv · <xliff:g id="dp" example="24">%1$d</xliff:g> dp o‘ngda</string>
+    <string name="clock_faces_horizontal_left">Gorizontal joylashuv · <xliff:g id="dp" example="24">%1$d</xliff:g> dp chapda</string>
+    <string name="clock_faces_horizontal_fixed">Bu ko‘rinish markazda turadi.</string>
+    <string name="clock_faces_opacity">Shaffoflik</string>
+    <string name="clock_faces_opacity_value">Shaffoflik · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Harakat</string>
+    <string name="clock_faces_wobble">Zaryadlashda tebranish</string>
+    <string name="clock_faces_wobble_summary">Ulanganda bir marta sakraydi</string>
+    <string name="clock_faces_aod_anim">Doimiy displeyga o‘tish</string>
+    <string name="clock_faces_aod_anim_summary">Soatni kichraytirib, doimiy displeyga so‘ndirib kiritadi</string>
+    <string name="clock_faces_restart_title">Ekran qulfi qayta ishga tushirilsinmi?</string>
+    <string name="clock_faces_restart_message">Tizim soati va maxsus ko‘rinishlar o‘rtasida almashtirilganda SystemUI qayta ishga tushadi. Ekran bir soniyaga qorong‘i bo‘ladi.</string>
+    <string name="clock_faces_note">Oldindan ko‘rinishlar ekran qulfi fon rasmingizda SystemUI tomonidan chiziladi. Rang, hajm va joylashuv ekran qulfini darhol o‘zgartiradi.</string>
 </resources>

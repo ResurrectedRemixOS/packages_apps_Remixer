@@ -4,4 +4,37 @@
     <string name="clock_faces_color">"Kulay"</string>
     <string name="clock_faces_size">"Laki"</string>
     <string name="clock_faces_restart">"I-restart"</string>
+    <string name="remixer_clock_faces">Mga estilo ng orasan</string>
+    <string name="clock_faces_system">System clock</string>
+    <string name="clock_faces_system_desc">Ang orasan mula sa Wallpaper &amp; style</string>
+    <string name="clock_faces_position">%1$d sa %2$d</string>
+    <string name="clock_faces_applied">Nailapat</string>
+    <string name="clock_faces_preview_unavailable">Hindi available ang preview</string>
+    <string name="clock_faces_failed">Hindi mabago ang orasan</string>
+    <string name="clock_faces_color_default">Default</string>
+    <string name="clock_faces_color_accent">Accent</string>
+    <string name="clock_faces_color_custom">Custom</string>
+    <string name="clock_faces_color_album">Album art</string>
+    <string name="clock_faces_color_gradient">Gradient</string>
+    <string name="clock_faces_own_colors">Pinapanatili ng estilong ito ang sarili nitong kulay.</string>
+    <string name="clock_faces_album_hint">Kinukuha nito ang kulay mula sa album art habang may tumutugtog na musika.</string>
+    <string name="clock_faces_size_position">Laki at posisyon</string>
+    <string name="clock_faces_size_value">Laki · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Layo mula sa itaas</string>
+    <string name="clock_faces_top_value">Layo mula sa itaas · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Pahalang na posisyon</string>
+    <string name="clock_faces_horizontal_center">Pahalang na posisyon · Gitna</string>
+    <string name="clock_faces_horizontal_right">Pahalang na posisyon · <xliff:g id="dp" example="24">%1$d</xliff:g> dp sa kanan</string>
+    <string name="clock_faces_horizontal_left">Pahalang na posisyon · <xliff:g id="dp" example="24">%1$d</xliff:g> dp sa kaliwa</string>
+    <string name="clock_faces_horizontal_fixed">Nananatiling nasa gitna ang estilong ito.</string>
+    <string name="clock_faces_opacity">Opacity</string>
+    <string name="clock_faces_opacity_value">Opacity · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Galaw</string>
+    <string name="clock_faces_wobble">Kumikilos habang nagcha-charge</string>
+    <string name="clock_faces_wobble_summary">Tumatalbog minsan kapag nagsaksak ka</string>
+    <string name="clock_faces_aod_anim">Transisyon ng always-on display</string>
+    <string name="clock_faces_aod_anim_summary">Pinaliliit at pinapalabo ang orasan papunta sa always-on display</string>
+    <string name="clock_faces_restart_title">I-restart ang lock screen?</string>
+    <string name="clock_faces_restart_message">Kapag lumipat sa pagitan ng system clock at mga custom na estilo, magre-restart ang SystemUI. Magdidilim ang screen nang isang segundo.</string>
+    <string name="clock_faces_note">Iginuguhit ng SystemUI ang mga preview sa wallpaper ng iyong lock screen. Agad na magbabago ang lock screen kapag binago ang kulay, laki at posisyon.</string>
 </resources>

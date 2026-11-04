@@ -16,4 +16,53 @@
     <string name="looks_save_look">"Yadda saxlayın"</string>
     <string name="looks_custom_color">"Fərdi rəng"</string>
     <string name="looks_part_clock_color">"Saatın rəngi"</string>
+    <string name="looks_title">Görünüşlər</string>
+    <string name="looks_summary">Bütün quraşdırmanız bir toxunuşla</string>
+    <string name="looks_rr">RR görünüşləri</string>
+    <string name="looks_yours">Sizin görünüşləriniz</string>
+    <string name="looks_none">Hələ heç nə saxlanılmayıb</string>
+    <string name="looks_save">Cari vəziyyəti saxla</string>
+    <string name="looks_import_clipboard">Buferdən</string>
+    <string name="looks_import_file">Fayldan</string>
+    <string name="looks_mine">Mənim görünüşüm</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> tətbiq olundu</string>
+    <string name="looks_failed">Hamısını tətbiq etmək olmadı</string>
+    <string name="looks_invalid">Bu RR görünüşü deyil</string>
+    <string name="looks_part_qs">Sürətli ayarların üslubu</string>
+    <string name="looks_part_clock_face">Ekran kilidi saatının üslubu</string>
+    <string name="looks_part_clock_look">Status paneli saatı</string>
+    <string name="looks_part_edge">Kənar işıqlandırma</string>
+    <string name="looks_part_boot">Açılış animasiyası</string>
+    <string name="looks_part_haptics">Haptic Remix nümunələri</string>
+    <string name="looks_saturation">Doyma <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Vurğu</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>” paylaşın</string>
+    <string name="looks_share_hint">Başqa RR telefonunun kamerası ilə skan edin və ya Görünüşlər › İdxal bölməsində</string>
+    <string name="looks_share_file">Faylı paylaşın</string>
+    <string name="looks_save_file">Faylı saxlayın</string>
+    <string name="looks_import_scan">QR kodu skan edin</string>
+    <string name="looks_import_title">Görünüşü idxal edin</string>
+    <string name="looks_from_qr">QR koddan</string>
+    <string name="looks_from_file">fayldan</string>
+    <string name="looks_from_clipboard">buferdən</string>
+    <string name="looks_import_same">Artıq quraşdırmanızla uyğundur.</string>
+    <string name="looks_new">Yeni görünüş</string>
+    <string name="looks_edit_title">Görünüşü redaktə edin</string>
+    <string name="looks_in_look">Bu görünüşdə</string>
+    <string name="looks_not_included">Bu görünüşdə deyil</string>
+    <string name="looks_save_apply">Saxlayın və tətbiq edin</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” saxlanıldı</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” silinsin?</string>
+    <string name="looks_rr_wallpaper">RR divar kağızı <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Akssent doyması</string>
+    <string name="looks_part_clock_chip">Status paneli saat çipi</string>
+    <string name="looks_part_edge_style">Kənar işıqlandırma üslubu</string>
+    <string name="looks_scan_hint">Kameranı görünüşün QR kodunə tuşlayın</string>
+    <string name="looks_scan_failed">Kameranı açmaq mümkün olmadı</string>
+    <string name="look_roulette_title">Görünüş ruleti</string>
+    <string-array name="look_roulette_entries">
+        <item>"Deaktiv"</item>
+        <item>Hər kilidaçmada fərqli görünüş</item>
+        <item>Hər gün fərqli görünüş</item>
+    </string-array>
 </resources>

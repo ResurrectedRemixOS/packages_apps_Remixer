@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Použít RKP zařízení</string>
+    <string name="ts_rkp_enabled_summary">Použít vygenerovaný keybox. Importem keyboxu se tato možnost vypne.</string>
+    <string name="ts_rkp_provision">Vygenerovat keybox</string>
+    <string name="ts_rkp_provision_summary">Požádat Google o keybox pomocí poskytovatele zřizování tohoto zařízení. Vyžaduje kompatibilní firmware Qualcomm.</string>
+    <string name="ts_rkp_status">Stav zřizování</string>
+    <string name="ts_rkp_owner_only">Spravovat RKP zařízení v profilu vlastníka zařízení</string>
+    <string name="ts_rkp_unavailable">RKP zařízení není dostupné</string>
+    <string name="ts_rkp_imported">Zakázáno, dokud je nainstalován importovaný keybox</string>
+    <string name="ts_rkp_disabled">Vypnuto. Pro použití nebo vygenerování keyboxu zapněte RKP zařízení.</string>
+    <string name="ts_rkp_idle">Připraveno k žádosti o keybox</string>
+    <string name="ts_rkp_fetching">Získávání výzvy k zřizování…</string>
+    <string name="ts_rkp_hardware">Čekání na službu zřizování zařízení…</string>
+    <string name="ts_rkp_signing">Žádost o certifikáty od Googlu…</string>
+    <string name="ts_rkp_validating">Ověřování a ukládání keyboxu…</string>
+    <string name="ts_rkp_ready">Vygenerovaný keybox je aktivní. Obnoví se automaticky před %1$s</string>
+    <string name="ts_rkp_keybox_stored">Keybox RKP zařízení uložen</string>
+    <string name="ts_rkp_expired">Platnost vygenerovaného keyboxu vypršela. Vygenerujte náhradu.</string>
+    <string name="ts_rkp_hal_rejected">Firmware žádost odmítl (kód %1$d). Duck V1 nemusí být podporován.</string>
+    <string name="ts_rkp_http_error">Server zřizování žádost odmítl (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Zařízení nezpřístupňuje kompatibilní rozhraní zřizování V1</string>
+    <string name="ts_rkp_network_error">Nelze se připojit k serveru zřizování. Zkontrolujte připojení.</string>
+    <string name="ts_rkp_submission_unknown">Odpověď serveru se ztratila. Žádost mohla být zpracována; automatický opakovaný pokus nebyl proveden.</string>
+    <string name="ts_rkp_invalid_chain">Certifikáty keyboxu neprošly ověřením. Stávající keybox byl ponechán.</string>
+    <string name="ts_rkp_timeout">Vypršel časový limit zřizování. Pokud je služba zařízení stále zaneprázdněna, restartujte zařízení a zkuste to znovu.</string>
+    <string name="ts_rkp_canceled">Žádost byla zrušena, protože se změnila konfigurace keyboxu</string>
+    <string name="ts_rkp_save_failed">Vygenerovaný keybox nelze uložit</string>
+    <string name="ts_rkp_action_failed">Operaci s keyboxem nelze dokončit</string>
+</resources>

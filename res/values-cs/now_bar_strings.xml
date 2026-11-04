@@ -11,4 +11,97 @@
     <string name="now_bar_music_category">"Hudba"</string>
     <string name="now_bar_buttons">Tlačítka</string>
     <string name="now_bar_text_size">"Velikost textu"</string>
+    <string name="now_bar_summary">Živé aktivity ve spodní části obrazovky uzamčení</string>
+    <string name="now_bar_show">Zobrazit</string>
+    <string name="now_bar_music">Hudba a video</string>
+    <string name="now_bar_timers">Časovače, stopky a budíky</string>
+    <string name="now_bar_hide_call">Skrýt oznámení o hovoru</string>
+    <string name="now_bar_hide_call_summary">Na obrazovce uzamčení se hovor v Now Baru nezobrazuje zároveň jako oznámení</string>
+    <string name="now_bar_live">Živé aktualizace</string>
+    <string name="now_bar_live_summary">Navigace, jízdy, doručení, výsledky</string>
+    <string name="now_bar_scores">Živé výsledky</string>
+    <string name="now_bar_live_apps">Aplikace pro živé aktualizace</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> aplikací</string>
+    <string name="now_bar_pin">Připnuto na displeji Always-on</string>
+    <string name="now_bar_unpin_question">Odepnout <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Odepnout</string>
+    <string name="now_bar_scores_summary">Hry, které sledujete v Na první pohled</string>
+    <string name="now_bar_recording">Nahrávání obrazovky a hlasu</string>
+    <string name="now_bar_buds">Sluchátka a hodinky</string>
+    <string name="now_bar_buds_summary">Baterie připojeného zařízení: levé, pravé a pouzdro u sluchátek</string>
+    <string name="now_bar_wave">Animace vlny</string>
+    <string name="now_bar_aod">Zobrazit na displeji Always-on</string>
+    <string name="now_bar_chip">Čip ve stavovém řádku</string>
+    <string name="now_bar_chip_summary">Přehrávání hudby a časovačů vedle hodin, když je zařízení odemčené</string>
+    <string name="now_bar_footer">Když je v Now Baru hudba, velký přehrávač na obrazovce uzamčení se skryje. Přejetím lišty přepínáte mezi aktivitami, klepnutím ji otevřete s ovládacími prvky a dlouhým stisknutím jednu skryjete až do konce. Pozastavenou skladbu odstraníte přejetím z lišty.\n\nŽivé výsledky zobrazují zápasy týmů, které sledujete v aplikaci Google. Pokud použijete Smartspacer, přidejte tam cíl pro sport a jeho výsledky se zobrazí zde.</string>
+    <string name="now_bar_looks">Vzhledy</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Výchozí"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Velký</item>
+        <item>Neon</item>
+        <item>Skleněná karta</item>
+    </string-array>
+    <string name="now_bar_material">Materiál</string>
+    <string name="now_bar_material_summary">Liquid Glass používá sklo nastavené v Motivu</string>
+    <string-array name="now_bar_material_entries">
+        <item>Plné</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Obal alba</item>
+        <item>Akcent</item>
+        <item>Tmavé</item>
+    </string-array>
+    <string name="now_bar_opacity">Krytí</string>
+    <string name="now_bar_opacity_summary">U Liquid Glass určuje, kolik barvy se promítne do skla</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Žádné"</item>
+        <item>Tenké</item>
+        <item>Akcent</item>
+    </string-array>
+    <string name="now_bar_shadow">Stín</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Vypnuto"</item>
+        <item>Měkký</item>
+        <item>Záře</item>
+    </string-array>
+    <string name="now_bar_more">Další aktivity</string>
+    <string-array name="now_bar_more_entries">
+        <item>Stačí přejet</item>
+        <item>Tečky</item>
+        <item>Nahlédnout</item>
+    </string-array>
+    <string name="now_bar_size">Velikost a tvar</string>
+    <string name="now_bar_height">Výška</string>
+    <string name="now_bar_width_summary">Úplný přesune zkratky nad lištu</string>
+    <string-array name="now_bar_width_entries">
+        <item>Úzký</item>
+        <item>Mezi zkratkami</item>
+        <item>Celé</item>
+    </string-array>
+    <string name="now_bar_corners">Rohy</string>
+    <string name="now_bar_raise">Zvednutý</string>
+    <string name="now_bar_art">Obal alba</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Kruh"</item>
+        <item>Zaoblené</item>
+        <item>"Čtverec"</item>
+        <item>"Vypnuto"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Přeskočit a přehrát</item>
+        <item>Pouze přehrávání</item>
+        <item>"Žádné"</item>
+    </string-array>
+    <string name="now_bar_text">Text</string>
+    <string-array name="now_bar_text_entries">
+        <item>Jeden řádek</item>
+        <item>Dva řádky</item>
+        <item>Pouze skladba</item>
+    </string-array>
+    <string name="now_bar_show_page">Co se zobrazí v liště</string>
+    <string name="now_bar_show_page_summary">Hudba a video, časovače, hovory a další</string>
+    <string name="now_bar_where">Kde jinde</string>
 </resources>

@@ -8,4 +8,50 @@
         <item>"Střední"</item>
         <item>"Velké"</item>
     </string-array>
+    <string name="pie_title">Kruhové ovládání</string>
+    <string name="pie_summary">Podrž spodní část okraje pro kruhovou nabídku zkratek</string>
+    <string name="pie_zone">Část okraje</string>
+    <string name="pie_clock">Hodiny a baterie nad ním</string>
+    <string name="pie_items">Výseče</string>
+    <string-array name="pie_items_entries">
+        <item>"Zpět"</item>
+        <item>Domů</item>
+        <item>"Poslední"</item>
+        <item>"Oznámení"</item>
+        <item>Svítilna</item>
+        <item>"Snímek obrazovky"</item>
+        <item>"Nabídka vypínače"</item>
+        <item>"Asistent"</item>
+        <item>"Fotoaparát"</item>
+    </string-array>
+    <string name="pie_footer">Potřebuje čtvrt sekundy podržení bez pohybu, aby rychlé přejetí od okraje stále vrátilo zpět. Neotevírá se na obrazovce uzamčení.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Vlevo"</item>
+        <item>"Vpravo"</item>
+        <item>Obě</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Spodní třetina</item>
+        <item>Střed</item>
+        <item>Celý okraj</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Sklo</item>
+        <item>Klasický</item>
+    </string-array>
+    <string name="sidebar_style_title">Vzhled postranního panelu aplikací</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klasický</item>
+        <item>Sklo RR</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Postranní panel aplikací</string>
+    <string name="sidebar_settings_summary">Přejetím od úchytu vytáhni své aplikace a nástroje</string>
+    <string name="sidebar_apps_title">Aplikace, úchyt a schránka</string>
+    <string name="sidebar_apps_summary">Zapni úchyt, vyber aplikace a nastav chytrou schránku</string>
+    <string name="sidebar_handle_size_title">Velikost úchytu</string>
+    <string name="sidebar_tools_title">Řádek nástrojů</string>
+    <string name="sidebar_tools_summary">Snímek obrazovky a svítilna pod aplikacemi</string>
+    <string name="sidebar_footer">Úchyt je tenká čára v akcentní barvě; přetažením ho posuneš podél okraje. Při gestové navigaci pokrývá jen svou část okraje a zpět funguje všude jinde.</string>
 </resources>

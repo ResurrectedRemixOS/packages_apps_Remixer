@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"मिति"</string>
     <string name="sb_weather_category">"मौसम"</string>
+    <string name="sb_clock_category">घडी र मिति</string>
+    <string name="sb_clock_bold_title">बोल्ड घडी</string>
+    <string name="sb_clock_bold_summary">स्थिति पट्टीको घडी बोल्डमा देखाउनुहोस्</string>
+    <string name="sb_clock_period_separator_title">अवधि विभाजक</string>
+    <string name="sb_clock_period_separator_summary">10:45 को सट्टा 10.45</string>
+    <string name="sb_clock_date_position_title">मिति स्थिति</string>
+    <string name="sb_clock_date_style_title">मिति अक्षर</string>
+    <string name="sb_clock_date_format_title">मिति ढाँचा</string>
+    <string name="sb_clock_chip_category">घडी पृष्ठभूमि</string>
+    <string name="sb_clock_chip_title">पृष्ठभूमि शैली</string>
+    <string name="sb_clock_chip_start_title">ग्रेडियन्ट सुरु</string>
+    <string name="sb_clock_chip_end_title">ग्रेडियन्ट अन्त्य</string>
+    <string name="sb_clock_chip_angle_title">ग्रेडियन्ट कोण</string>
+    <string name="sb_clock_chip_mask_title">ग्रेडियन्टबाट समय काट्नुहोस्</string>
+    <string name="sb_clock_chip_mask_summary">ग्रेडियन्ट अङ्कको पछाडि होइन, अङ्कभित्रबाट देखिन्छ</string>
+    <string name="sb_weather_title">स्थिति पट्टीमा मौसम</string>
+    <string name="sb_weather_position_title">स्थिति</string>
+    <string name="status_bar_clock_rr_style_title">घडीको रूप</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"डिफल्ट"</item>
+        <item>Neon</item>
+        <item>विभाजित</item>
+        <item>RR चिन्ह</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>तहगत</item>
+        <item>इम्बर</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">समयको छेउमा Flatline</string>
+    <string name="sb_clock_flatline_summary">चिपभित्र RR को धड्कन रेखा: सङ्गीतसँगै धड्किन्छ, नोटिफिकेसन आउँदा उकालिन्छ</string>
 </resources>

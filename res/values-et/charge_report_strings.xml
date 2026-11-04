@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Aku"</string>
     <string name="charge_report_temp">"Temperatuur"</string>
     <string name="charge_report_time">"Kellaaeg"</string>
+    <string name="charge_report_title">Laadimisaruanded</string>
+    <string name="charge_report_summary">Iga laadimise kokkuvõte lahtiühendamisel</string>
+    <string name="charge_report_min_title">Ainult siis, kui see lisas vähemalt</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 päeva</item>
+        <item>7 päeva</item>
+        <item>14 päeva</item>
+        <item>30 päeva</item>
+    </string-array>
+    <string name="charge_report_history_days">Viimased <xliff:g id="days" example="7">%1$d</xliff:g> päeva</string>
+    <string name="charge_report_today">Täna, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Eile, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> h <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Vatti</string>
+    <string name="charge_report_added">Lisatud</string>
+    <string name="charge_report_peak">Tipp</string>
+    <string name="charge_report_average">Keskmine</string>
+    <string name="charge_report_max_temp">Maks temperatuur</string>
+    <string name="charge_report_charger">Laadija</string>
+    <string name="charge_report_started">Algas kell</string>
+    <string name="charge_report_wired">Juhtmega</string>
+    <string name="charge_report_wireless">Juhtmevaba</string>
+    <string name="charge_report_dock">Dokk</string>
+    <string name="charge_report_empty">Laadimisi pole veel</string>
+    <string name="charge_report_footer">SystemUI loeb akust voolu, pinget ja temperatuuri iga 30 sekundi järel, kui telefon on laadimas. Vatid on telefoni mõõdetud väärtused, seega võivad need erineda laadija küljel olevast numbrist. Aruanded jäävad telefoni; midagi ei laadita üles.</string>
 </resources>

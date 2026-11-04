@@ -15,4 +15,62 @@
     <string name="looks_save_look">"ಸೇವ್ ಮಾಡಿ"</string>
     <string name="looks_custom_color">"ಕಸ್ಟಮ್ ಬಣ್ಣ"</string>
     <string name="looks_part_clock_color">"ಗಡಿಯಾರದ ಬಣ್ಣ"</string>
+    <string name="looks_title">ಲುಕ್‌ಗಳು</string>
+    <string name="looks_summary">ನಿಮ್ಮ ಸಂಪೂರ್ಣ ಸೆಟಪ್ ಒಂದೇ ಸ್ಪರ್ಶದಲ್ಲಿ</string>
+    <string name="looks_rr">RR ಲುಕ್‌ಗಳು</string>
+    <string name="looks_yours">ನಿಮ್ಮ ಲುಕ್‌ಗಳು</string>
+    <string name="looks_none">ಇನ್ನೂ ಏನನ್ನೂ ಉಳಿಸಲಾಗಿಲ್ಲ</string>
+    <string name="looks_save">ಪ್ರಸ್ತುತವನ್ನು ಉಳಿಸಿ</string>
+    <string name="looks_import_clipboard">ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ನಿಂದ</string>
+    <string name="looks_import_file">ಫೈಲ್‌ನಿಂದ</string>
+    <string name="looks_mine">ನನ್ನ ಲುಕ್</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> ಅನ್ವಯಿಸಲಾಗಿದೆ</string>
+    <string name="looks_failed">ಎಲ್ಲವನ್ನೂ ಅನ್ವಯಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+    <string name="looks_invalid">ಇದು RR ಲುಕ್ ಅಲ್ಲ</string>
+    <string name="looks_part_accent">ಆಕ್ಸೆಂಟ್ ಬಣ್ಣ</string>
+    <string name="looks_part_qs">QS ಶೈಲಿ</string>
+    <string name="looks_part_clock_face">ಲಾಕ್ ಸ್ಕ್ರೀನ್ ಗಡಿಯಾರದ ಶೈಲಿ</string>
+    <string name="looks_part_clock_look">ಸ್ಥಿತಿ ಪಟ್ಟಿ ಗಡಿಯಾರ</string>
+    <string name="looks_part_edge">ಎಡ್ಜ್ ಲೈಟಿಂಗ್</string>
+    <string name="looks_part_boot">ಬೂಟ್ ಅನಿಮೇಶನ್</string>
+    <string name="looks_part_haptics">Haptic Remix ಮಾದರಿಗಳು</string>
+    <plurals name="looks_haptic_patterns">
+        <item quantity="one">%d ಮಾದರಿ ಮತ್ತು ಅವುಗಳ ನಿಯೋಜನೆ</item>
+        <item quantity="other">%d ಮಾದರಿಗಳು ಮತ್ತು ಅವುಗಳ ನಿಯೋಜನೆ</item>
+    </plurals>
+    <string name="looks_saturation">ಸ್ಯಾಚುರೇಶನ್ <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">ಆಕ್ಸೆಂಟ್</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>” ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="looks_share_hint">ಇನ್ನೊಂದು RR ಫೋನ್‌ನ ಕ್ಯಾಮೆರಾದಿಂದ ಅಥವಾ ಲುಕ್ಸ್ › ಆಮದು ಮೂಲಕ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ</string>
+    <string name="looks_share_file">ಫೈಲ್ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="looks_save_file">ಫೈಲ್ ಉಳಿಸಿ</string>
+    <string name="looks_import_scan">QR ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ</string>
+    <string name="looks_import_title">ಲುಕ್ ಆಮದು ಮಾಡಿ</string>
+    <string name="looks_from_qr">QR ಕೋಡ್‌ನಿಂದ</string>
+    <string name="looks_from_file">ಫೈಲ್‌ನಿಂದ</string>
+    <string name="looks_from_clipboard">ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ನಿಂದ</string>
+    <string name="looks_import_same">ಇದು ಈಗಾಗಲೇ ನಿಮ್ಮ ಸೆಟಪ್‌ಗೆ ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ.</string>
+    <plurals name="looks_import_changes">
+        <item quantity="one">ಬದಲಾವಣೆಗಳು <xliff:g id="count" example="4">%d</xliff:g> ವಿಷಯ:</item>
+        <item quantity="other">ಬದಲಾವಣೆಗಳು <xliff:g id="count" example="4">%d</xliff:g> ವಿಷಯಗಳು:</item>
+    </plurals>
+    <string name="looks_new">ಹೊಸ ಲುಕ್</string>
+    <string name="looks_edit_title">ಲುಕ್ ಸಂಪಾದಿಸಿ</string>
+    <string name="looks_in_look">ಈ ಲುಕ್‌ನಲ್ಲಿ</string>
+    <string name="looks_not_included">ಈ ನೋಟ್‌ನಲ್ಲಿ ಇಲ್ಲ</string>
+    <string name="looks_save_apply">ಉಳಿಸಿ ಮತ್ತು ಅನ್ವಯಿಸಿ</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” ಉಳಿಸಲಾಗಿದೆ</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” ಅಳಿಸಬೇಕೇ?</string>
+    <string name="looks_rr_wallpaper">RR ವಾಲ್‌ಪೇಪರ್ <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">ಆಕ್ಸೆಂಟ್ ಸ್ಯಾಚುರೇಶನ್</string>
+    <string name="looks_part_clock_chip">ಸ್ಥಿತಿ ಪಟ್ಟಿಯ ಗಡಿಯಾರ ಚಿಪ್</string>
+    <string name="looks_part_edge_style">ಅಂಚಿನ ಬೆಳಕಿನ ಶೈಲಿ</string>
+    <string name="looks_scan_hint">ನೋಟ್‌ನ QR ಕೋಡ್ ಮೇಲೆ ಕ್ಯಾಮೆರಾ ತೋರಿಸಿ</string>
+    <string name="looks_scan_failed">ಕ್ಯಾಮೆರಾ ತೆರೆಯಲಾಗಲಿಲ್ಲ</string>
+    <string name="look_roulette_title">ನೋಟ್ ರೂಲೆಟ್</string>
+    <string-array name="look_roulette_entries">
+        <item>"ಆಫ್"</item>
+        <item>ಪ್ರತಿ ಅನ್‌ಲಾಕ್‌ಗೆ ಬೇರೆ ನೋಟ್</item>
+        <item>ಪ್ರತಿ ದಿನಕ್ಕೆ ಬೇರೆ ನೋಟ್</item>
+    </string-array>
 </resources>

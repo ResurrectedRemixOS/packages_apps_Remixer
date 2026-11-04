@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Temporizator</string>
     <string name="quick_launch_undo">"Anulează"</string>
     <string name="quick_launch_off">"Dezactivat"</string>
+    <string name="quick_launch_title">Lansare rapidă</string>
+    <string name="quick_launch_main">Lansare rapidă cu amprenta</string>
+    <string name="quick_launch_main_summary">Ține degetul pe senzor după deblocare ca să deschizi o scurtătură</string>
+    <string name="quick_launch_hint">Atinge o scurtătură ca să o schimbi, ține apăsat ca să o elimini sau trage-o ca s-o reordonezi.</string>
+    <string name="quick_launch_behavior">Comportament</string>
+    <string name="quick_launch_hold">Durata apăsării</string>
+    <string name="quick_launch_haptics">Vibrează la fiecare scurtătură</string>
+    <string name="quick_launch_add">Adaugă</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">Scanează codul QR</string>
+    <string name="quick_launch_app">Aplicație…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> eliminat</string>
 </resources>

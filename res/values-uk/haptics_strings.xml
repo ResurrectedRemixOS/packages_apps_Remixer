@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Синій"</string>
     <string name="haptic_remix_color_green">"Зелений"</string>
     <string name="haptic_remix_color_white">"Білий"</string>
+    <string name="haptic_remix_summary">Відстукайте шаблони вібрації для дзвінків, застосунків, будильників і розблокування</string>
+    <string name="haptic_remix_record">Записати</string>
+    <string name="haptic_remix_pad">відстукайте ритм</string>
+    <string name="haptic_remix_strength">Сила</string>
+    <string name="haptic_remix_clear">Очистити</string>
+    <string name="haptic_remix_play">Відтворити</string>
+    <string name="haptic_remix_name">Назва шаблону</string>
+    <string name="haptic_remix_empty">Ще нічого не записано</string>
+    <string name="haptic_remix_too_long">Шаблон може тривати 30 секунд</string>
+    <string name="haptic_remix_presets">Готові</string>
+    <string name="haptic_remix_preset_neon">Неон</string>
+    <string name="haptic_remix_preset_glass">Скло</string>
+    <string name="haptic_remix_preset_ringtone">Ритм мелодії дзвінка</string>
+    <string name="haptic_remix_listening">Слухаємо мелодію дзвінка…</string>
+    <string name="haptic_remix_no_ringtone">Не вдалося розпізнати мелодію дзвінка</string>
+    <string name="haptic_remix_patterns">Ваші шаблони</string>
+    <string name="haptic_remix_patterns_none">Спочатку збережіть шаблон. Утримуйте, щоб видалити.</string>
+    <string name="haptic_remix_broken">Цей шаблон неможливо прочитати</string>
+    <string name="haptic_remix_delete">Видалити <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Призначити для</string>
+    <string name="haptic_remix_alarm">Будильник і таймер</string>
+    <string name="haptic_remix_plug">Підключено до живлення</string>
+    <string name="haptic_remix_fingerprint">Успішне розпізнавання відбитка</string>
+    <string name="haptic_remix_add_contact">Додати контакт</string>
+    <string name="haptic_remix_edge_color">Підсвічування країв для повідомлень <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">Акцент</string>
+    <string name="haptic_remix_color_crimson">Малиновий</string>
+    <string name="haptic_remix_color_amber">Бурштиновий</string>
+    <string name="haptic_remix_add_app">Додати сповіщення застосунку</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · торкніться, щоб змінити, утримуйте для кольору країв</string>
+    <string name="haptic_remix_no_contacts">Контакти не повернули номер</string>
 </resources>

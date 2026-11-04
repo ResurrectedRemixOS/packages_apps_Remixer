@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">රින්ග් සමමුහුර්තකරණය</string>
+    <string name="ring_sync_tap">රිංගය ලකුණ සමග පෙළගැසුණු විට තට්ටු කරන්න</string>
+    <string name="ring_sync_best">හොඳම <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">පරිපූර්ණයි</string>
+    <string name="ring_sync_new_best">නව හොඳම</string>
+    <string name="ring_sync_again">නැවත වාදනය කිරීමට තට්ටු කරන්න</string>
+    <string name="ring_sync_ember">එම්බර් අක්ෂර අගුළු හැරිණි</string>
+    <string name="ring_sync_use_ember">එම්බර් භාවිත කරන්න</string>
+    <string name="ring_sync_android">Android හි රහස් ඊස්ටර් අංගය</string>
+    <string name="ring_sync_vibrate_on">පහරවල දී කම්පනය · ක්‍රියාත්මකයි</string>
+    <string name="ring_sync_vibrate_off">පහරවල දී කම්පනය · අක්‍රියයි</string>
+    <string name="accent_ember">ජ්වලිත අඟුරු</string>
+</resources>

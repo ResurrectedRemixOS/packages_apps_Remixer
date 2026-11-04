@@ -4,4 +4,14 @@
     <string name="lockscreen_weather_location_title">"الموقع الجغرافي"</string>
     <string name="lockscreen_weather_wind_title">الرياح</string>
     <string name="lockscreen_weather_humidity_title">الرطوبة</string>
+    <string name="lockscreen_weather_title">الطقس على شاشة القفل</string>
+    <string name="lockscreen_weather_location_summary">إظهار اسم المدينة</string>
+    <string name="lockscreen_weather_text_title">الحالة</string>
+    <string name="lockscreen_weather_text_summary">إظهار الحالة الجوية، مثل غائم أو صافٍ</string>
+    <string name="lockscreen_weather_wind_summary">إظهار سرعة الرياح واتجاهها</string>
+    <string name="lockscreen_weather_humidity_summary">إظهار الرطوبة</string>
+    <string name="custom_clock_weather_title">الطقس على واجهات الساعة</string>
+    <string name="custom_clock_weather_summary">إظهار الطقس داخل واجهات الساعة التي تتسع له</string>
+    <string name="remixer_weather_service">خدمة الطقس</string>
+    <string name="remixer_weather_page_summary">طقس شاشة القفل وما يُعرض فيه</string>
 </resources>

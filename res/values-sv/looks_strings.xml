@@ -16,4 +16,53 @@
     <string name="looks_save_look">"Spara"</string>
     <string name="looks_custom_color">"Anpassad färg"</string>
     <string name="looks_part_clock_color">"Klockfärg"</string>
+    <string name="looks_title">Lägen</string>
+    <string name="looks_summary">Hela din inställning i ett tryck</string>
+    <string name="looks_rr">RR-lägen</string>
+    <string name="looks_yours">Dina lägen</string>
+    <string name="looks_none">Inget sparat än</string>
+    <string name="looks_save">Spara nuvarande</string>
+    <string name="looks_import_clipboard">Från urklipp</string>
+    <string name="looks_import_file">Från fil</string>
+    <string name="looks_mine">Mitt läge</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> tillämpat</string>
+    <string name="looks_failed">Kunde inte tillämpa allt</string>
+    <string name="looks_invalid">Det här är inget RR-läge</string>
+    <string name="looks_part_qs">Snabbinställningsstil</string>
+    <string name="looks_part_clock_face">Klockstil på låsskärmen</string>
+    <string name="looks_part_font">Teckensnitt</string>
+    <string name="looks_part_clock_look">Klocka i statusfältet</string>
+    <string name="looks_part_edge">Kantbelysning</string>
+    <string name="looks_part_haptics">Mönster för Haptic Remix</string>
+    <string name="looks_saturation">Mättnad <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Accent</string>
+    <string name="looks_share_title">Dela ”<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">Skanna med en annan RR-telefons kamera, eller i Lägen › Importera</string>
+    <string name="looks_share_file">Dela fil</string>
+    <string name="looks_save_file">Spara fil</string>
+    <string name="looks_import_scan">Skanna en QR-kod</string>
+    <string name="looks_import_title">Importera läge</string>
+    <string name="looks_from_qr">från en QR-kod</string>
+    <string name="looks_from_file">från en fil</string>
+    <string name="looks_from_clipboard">från urklipp</string>
+    <string name="looks_import_same">Det matchar redan din inställning.</string>
+    <string name="looks_new">Nytt läge</string>
+    <string name="looks_edit_title">Redigera läge</string>
+    <string name="looks_in_look">I det här läget</string>
+    <string name="looks_not_included">Inte i det här läget</string>
+    <string name="looks_save_apply">Spara och tillämpa</string>
+    <string name="looks_saved">”<xliff:g id="name" example="Sunday">%1$s</xliff:g>” sparat</string>
+    <string name="looks_delete_confirm">Ta bort ”<xliff:g id="name" example="Sunday">%1$s</xliff:g>”?</string>
+    <string name="looks_rr_wallpaper">RR-bakgrund <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Accentmättnad</string>
+    <string name="looks_part_clock_chip">Chip för klocka i statusfältet</string>
+    <string name="looks_part_edge_style">Kantstil</string>
+    <string name="looks_scan_hint">Rikta kameran mot en looks QR-kod</string>
+    <string name="looks_scan_failed">Kunde inte öppna kameran</string>
+    <string name="look_roulette_title">Look-roulett</string>
+    <string-array name="look_roulette_entries">
+        <item>"Av"</item>
+        <item>En annan Look vid varje upplåsning</item>
+        <item>En annan Look varje dag</item>
+    </string-array>
 </resources>

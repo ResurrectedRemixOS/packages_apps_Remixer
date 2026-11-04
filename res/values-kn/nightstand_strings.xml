@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">ಯಾವಾಗ</string>
+    <string name="nightstand_title">ನೈಟ್‌ಸ್ಟ್ಯಾಂಡ್</string>
+    <string name="nightstand_summary">ರಾತ್ರಿ ಚಾರ್ಜ್ ಆಗುವಾಗ, ಯಾವಾಗಲೂ-ಆನ್ ಪ್ರದರ್ಶನದಲ್ಲಿ ಮಂದ ಹಾಸಿಗೆ ಪಕ್ಕದ ಗಡಿಯಾರ</string>
+    <string-array name="nightstand_when_entries">
+        <item>"ಆಫ್"</item>
+        <item>ರಾತ್ರಿ ಚಾರ್ಜರ್‌ನಲ್ಲಿ</item>
+        <item>ಪ್ರತಿ ರಾತ್ರಿ, ನಿಗದಿತ ಸಮಯದಲ್ಲಿ</item>
+        <item>ಬೆಡ್‌ಟೈಮ್ ಮೋಡ್ ಆನ್ ಇರುವಾಗ</item>
+    </string-array>
+    <string name="nightstand_from">ರಾತ್ರಿ ಆರಂಭ</string>
+    <string name="nightstand_to">ರಾತ್ರಿ ಅಂತ್ಯ</string>
+    <string name="nightstand_brightness">ಹೊಳಪಿನ ಮಿತಿ</string>
+    <string name="nightstand_brightness_summary">ನೈಟ್‌ಸ್ಟ್ಯಾಂಡ್ ಆನ್ ಇರುವಾಗ ಯಾವಾಗಲೂ-ಆನ್ ಪ್ರದರ್ಶನ ಎಷ್ಟು ಪ್ರಕಾಶಮಾನವಾಗಬಹುದು</string>
+    <string name="nightstand_face">ಗಡಿಯಾರ ಮುಖ</string>
+    <string name="nightstand_face_keep">ಪ್ರಸ್ತುತ ಮುಖವನ್ನು ಇರಿಸಿ</string>
+    <string name="nightstand_footer">ನೈಟ್‌ಸ್ಟ್ಯಾಂಡ್ ನಡೆಯುತ್ತಿರುವಾಗ ಯಾವಾಗಲೂ-ಆನ್ ಪ್ರದರ್ಶನವನ್ನು ಆನ್ ಮಾಡುತ್ತದೆ ಮತ್ತು ಮುಗಿದ ನಂತರ ಹಿಂದಿನ ಸ್ಥಿತಿಗೆ ತರುತ್ತದೆ. ಚಾರ್ಜರ್ ತೆಗೆದರೆ, ಅಲಾರಮ್ ಬಂದರೆ ಅಥವಾ ರಾತ್ರಿ ಮುಗಿದರೆ ಅದು ಕೊನೆಗೊಳ್ಳುತ್ತದೆ. ಮುಖವು ಎರಡು ಕಸ್ಟಮ್ ಮುಖಗಳ ನಡುವೆ ಮಾತ್ರ ಬದಲಾಗುತ್ತದೆ; ಸಿಸ್ಟಮ್ ಗಡಿಯಾರ ಹಾಗೆಯೇ ಇರುತ್ತದೆ.</string>
 </resources>

@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Կապույտ"</string>
     <string name="haptic_remix_color_green">"Կանաչ"</string>
     <string name="haptic_remix_color_white">"Սպիտակ"</string>
+    <string name="haptic_remix_summary">Թակեք թրթռոցի օրինաչափություններ զանգերի, հավելվածների, զարթուցիչների և ապակողպումների համար</string>
+    <string name="haptic_remix_record">Ձայնագրել</string>
+    <string name="haptic_remix_pad">թակեք ռիթմը</string>
+    <string name="haptic_remix_strength">Ուժգնություն</string>
+    <string name="haptic_remix_clear">Մաքրել</string>
+    <string name="haptic_remix_play">Նվագարկել</string>
+    <string name="haptic_remix_name">Օրինաչափության անուն</string>
+    <string name="haptic_remix_empty">Դեռ ոչինչ չի ձայնագրվել</string>
+    <string name="haptic_remix_too_long">Օրինաչափությունը կարող է տևել 30 վայրկյան</string>
+    <string name="haptic_remix_presets">Նախադրումներ</string>
+    <string name="haptic_remix_preset_neon">Նեոն</string>
+    <string name="haptic_remix_preset_glass">Ապակե</string>
+    <string name="haptic_remix_preset_ringtone">Զանգերանգի ռիթմ</string>
+    <string name="haptic_remix_listening">Լսում ենք զանգերանգը…</string>
+    <string name="haptic_remix_no_ringtone">Զանգերանգը չհաջողվեց կարդալ</string>
+    <string name="haptic_remix_patterns">Ձեր օրինաչափությունները</string>
+    <string name="haptic_remix_patterns_none">Նախ պահեք օրինաչափություն։ Երկար սեղմեք՝ ջնջելու համար։</string>
+    <string name="haptic_remix_broken">Այս օրինաչափությունը չի կարող կարդացվել</string>
+    <string name="haptic_remix_delete">Ջնջե՞լ <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>-ը:</string>
+    <string name="haptic_remix_assign">Նշանակել</string>
+    <string name="haptic_remix_alarm">Զարթուցիչ և թայմեր</string>
+    <string name="haptic_remix_plug">Միացված է լիցքավորիչին</string>
+    <string name="haptic_remix_fingerprint">Մատնահետքը հաջողվեց</string>
+    <string name="haptic_remix_add_contact">Ավելացնել կոնտակտ</string>
+    <string name="haptic_remix_edge_color">Եզրի լույս <xliff:g id="name" example="Mia">%1$s</xliff:g>-ի հաղորդագրությունների համար</string>
+    <string name="haptic_remix_color_accent">Շեշտ</string>
+    <string name="haptic_remix_color_crimson">Կարմրամանուշակագույն</string>
+    <string name="haptic_remix_color_amber">Սաթե</string>
+    <string name="haptic_remix_add_app">Ավելացնել հավելվածի ծանուցումներ</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · հպեք փոխելու, սեղմեք եզրի գույնի համար</string>
+    <string name="haptic_remix_no_contacts">Կոնտակտներից համար չստացվեց</string>
 </resources>

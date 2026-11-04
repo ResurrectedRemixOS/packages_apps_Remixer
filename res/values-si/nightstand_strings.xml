@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">කවදාද</string>
+    <string name="nightstand_title">නයිට්ස්ටෑන්ඩ්</string>
+    <string name="nightstand_summary">රාත්‍රියේ චාජරයක ඇති විට සදා ක්‍රියාත්මක තිරයේ මද ආලෝකයෙන් යුත් ඇඳ අසල ඔරලෝසුව</string>
+    <string-array name="nightstand_when_entries">
+        <item>"ක්‍රියාවිරහිතයි"</item>
+        <item>රාත්‍රියේ චාජරයක</item>
+        <item>සෑම රාත්‍රියකම, කාලසටහනකට අනුව</item>
+        <item>නිද්‍රා ප්‍රකාරයක් ක්‍රියාත්මක වන විට</item>
+    </string-array>
+    <string name="nightstand_from">රාත්‍රිය ආරම්භ වේ</string>
+    <string name="nightstand_to">රාත්‍රිය අවසන් වේ</string>
+    <string name="nightstand_brightness">දීප්තිමත් සීමාව</string>
+    <string name="nightstand_brightness_summary">නයිට්ස්ටෑන්ඩ් ක්‍රියාත්මක වන විට සදා ක්‍රියාත්මක තිරය කොපමණ දීප්තිමත් විය හැකිද</string>
+    <string name="nightstand_face">ඔරලෝසු මුහුණුව</string>
+    <string name="nightstand_face_keep">වත්මන් මුහුණුව තබා ගන්න</string>
+    <string name="nightstand_footer">නයිට්ස්ටෑන්ඩ් ක්‍රියාත්මක වන විට සදා ක්‍රියාත්මක තිරය ක්‍රියාත්මක කර, ඉන් පසු එය යථා තත්වයට පත් කරයි. චාජරය ගලවන විට, එලාමය නාද වන විට හෝ රාත්‍රිය අවසන් වන විට එය අවසන් වේ. මුහුණුව මුල් අභිරුචි මුහුණු දෙකක් අතර පමණක් මාරු වේ; පද්ධති ඔරලෝසුව එලෙසම පවතී.</string>
 </resources>

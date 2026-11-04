@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"מתי"</string>
+    <string name="nightstand_title">שעון לילה</string>
+    <string name="nightstand_summary">שעון ליד המיטה עמום במסך התמיד-דלוק בזמן טעינה בלילה</string>
+    <string-array name="nightstand_when_entries">
+        <item>"כבוי"</item>
+        <item>על מטען בלילה</item>
+        <item>כל לילה, לפי לוח זמנים</item>
+        <item>בזמן שמצב שינה פעיל</item>
+    </string-array>
+    <string name="nightstand_from">הלילה מתחיל</string>
+    <string name="nightstand_to">הלילה מסתיים</string>
+    <string name="nightstand_brightness">מגבלת בהירות</string>
+    <string name="nightstand_brightness_summary">כמה בהיר יכול להיות מסך התמיד-דלוק בזמן שעון לילה פעיל</string>
+    <string name="nightstand_face">עיצוב שעון</string>
+    <string name="nightstand_face_keep">שמרו על העיצוב הנוכחי</string>
+    <string name="nightstand_footer">שעון לילה מדליק את מסך התמיד-דלוק בזמן פעולתו ומחזיר אותו אחר כך. הוא מסתיים כשהמטען מתנתק, המעורר מצלצל או הלילה מסתיים. העיצוב רק מחליף בין שני עיצובים מותאמים; השעון של המערכת נשאר.</string>
 </resources>

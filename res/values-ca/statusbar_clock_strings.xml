@@ -3,4 +3,34 @@
     <string name="sb_clock_date_title">"Data"</string>
     <string name="sb_weather_category">"Temps"</string>
     <string name="sb_weather_position_title">Posició</string>
+    <string name="sb_clock_category">Rellotge i data</string>
+    <string name="sb_clock_bold_title">Rellotge en negreta</string>
+    <string name="sb_clock_bold_summary">Mostra el rellotge de la barra d\'estat en negreta</string>
+    <string name="sb_clock_period_separator_title">Separador de període</string>
+    <string name="sb_clock_period_separator_summary">10.45 en lloc de 10:45</string>
+    <string name="sb_clock_date_position_title">Posició de la data</string>
+    <string name="sb_clock_date_style_title">Majúscules de la data</string>
+    <string name="sb_clock_date_format_title">Format de la data</string>
+    <string name="sb_clock_chip_category">Fons del rellotge</string>
+    <string name="sb_clock_chip_title">Estil del fons</string>
+    <string name="sb_clock_chip_start_title">Inici del degradat</string>
+    <string name="sb_clock_chip_end_title">Final del degradat</string>
+    <string name="sb_clock_chip_angle_title">Angle del degradat</string>
+    <string name="sb_clock_chip_mask_title">Retalla l\'hora del degradat</string>
+    <string name="sb_clock_chip_mask_summary">El degradat es veu a través dels dígits en lloc de darrere d\'ells</string>
+    <string name="sb_weather_title">Temps a la barra d\'estat</string>
+    <string name="status_bar_clock_rr_style_title">Aspecte del rellotge</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Predeterminat"</item>
+        <item>Neó</item>
+        <item>Dividit</item>
+        <item>Marca RR</item>
+        <item>Monoespai</item>
+        <item>Pulsació</item>
+        <item>Apilat</item>
+        <item>Brasa</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline al costat de l\'hora</string>
+    <string name="sb_clock_flatline_summary">La línia de pulsacions de RR dins del xip: batega amb la música i fa un pic quan arriba una notificació</string>
 </resources>

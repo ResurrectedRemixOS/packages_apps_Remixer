@@ -13,4 +13,41 @@
     <string name="backup_group_other">"Khác"</string>
     <string name="backup_done">"Xong"</string>
     <string name="volume_style_title">Kiểu bảng âm lượng</string>
+    <string name="backup_summary">Mọi tùy chỉnh RR trong một tệp</string>
+    <string name="backup_now">Sao lưu ngay</string>
+    <string name="backup_never">Lần sao lưu gần nhất: chưa có</string>
+    <string name="backup_last">Lần sao lưu gần nhất: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Khôi phục từ tệp</string>
+    <string name="backup_restore_summary">Chọn tệp sao lưu</string>
+    <string name="backup_included">Bao gồm</string>
+    <string name="backup_part_theme">Màu nhấn, phông chữ và biểu tượng</string>
+    <string name="backup_part_header">Ảnh tiêu đề</string>
+    <string name="backup_part_photo">Ảnh tiêu đề (ảnh của bạn)</string>
+    <string name="backup_part_photo_summary">Làm tệp lớn hơn</string>
+    <string name="backup_part_looks">Bộ cài đặt của bạn</string>
+    <string name="backup_weekly">Sao lưu hằng tuần</string>
+    <string name="backup_weekly_summary">Vào thư mục bạn chọn</string>
+    <string name="backup_weekly_on">Mỗi tuần vào <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Đề nghị sao lưu trước khi cập nhật</string>
+    <string name="backup_offer_summary">Trình cập nhật sẽ hỏi trước khi cài đặt</string>
+    <string name="backup_sets">Đặt <xliff:g id="count" example="64">%1$d</xliff:g> cài đặt</string>
+    <string name="backup_saved">Đã lưu <xliff:g id="count" example="64">%1$d</xliff:g> cài đặt</string>
+    <string name="backup_restored">Đã khôi phục <xliff:g id="count" example="64">%1$d</xliff:g> cài đặt</string>
+    <string name="backup_restored_message">SystemUI sẽ khởi động lại để áp dụng.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> cài đặt không có trên bản dựng này và đã được bỏ qua.</string>
+    <string name="backup_failed">Không thể lưu bản sao lưu</string>
+    <string name="backup_invalid">Tệp này không phải bản sao lưu Resurrected Remix</string>
+    <string name="backup_footer">Tệp chỉ chứa cài đặt RR: không có tài khoản, mật khẩu, mạng Wi-Fi, ứng dụng hay tin nhắn. Khôi phục chỉ ghi các cài đặt nằm trong danh sách của RR, nên tệp sao lưu không thể thay đổi thứ gì khác trên điện thoại. Ảnh tiêu đề của bạn chỉ được đưa vào nếu công tắc của nó đang bật, vì nó làm tệp lớn hơn.</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Kính</item>
+        <item>Viên thuốc</item>
+        <item>RR cổ điển</item>
+        <item>Bento</item>
+        <item>Hình dạng</item>
+        <item>Bản vẽ</item>
+        <item>Đôi</item>
+        <item>Mềm</item>
+    </string-array>
 </resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">ចលនាចាប់ផ្តើម</string>
+    <string name="boot_animation_note">នឹងដំណើរការនៅពេលទូរសព្ទចាប់ផ្តើមម្ដងទៀតបន្ទាប់។</string>
+    <string name="boot_animation_custom">ឯកសាររបស់អ្នក</string>
+    <string name="boot_animation_custom_pick">ជ្រើសរើសឯកសារ…</string>
+    <string name="boot_animation_custom_invalid">ឯកសារនេះមិនមែនជាចលនាចាប់ផ្តើមទេ</string>
+    <string name="boot_animation_failed">មិនអាចផ្លាស់ប្តូរចលនាចាប់ផ្តើមបានទេ</string>
+</resources>

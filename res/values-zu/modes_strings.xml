@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Ukubukeka okukodwa kwe-Mode ngayinye yakho</string>
+    <string name="remix_modes_everyday">Ukubukeka kwansuku zonke</string>
+    <string name="remix_modes_everyday_summary">Kuyabuya lapho kungekho Mode enokubukeka okusebenzayo ivuliwe</string>
+    <string name="remix_modes_wallpaper">Isithombe sangemuva silandela ukubukeka</string>
+    <string name="remix_modes_wallpaper_summary">I-Mode ingashintsha nesithombe sangemuva</string>
+    <string name="remix_modes_modes">Ama-Mode akho</string>
+    <string name="remix_modes_no_change">Akukho okushintshile</string>
+    <string name="remix_modes_none">Qala ulondoloze ukubukeka, ku-Itimu › Ukubukeka</string>
+    <string name="remix_modes_pick">Ukubukeka kwe-<xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

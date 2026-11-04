@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Ring sync</string>
+    <string name="ring_sync_tap">အမှတ်အသားနှင့် တစ်ကြောင်းတည်း ရောက်သောအခါ တို့ပါ</string>
+    <string name="ring_sync_best">အကောင်းဆုံး <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">အပြည့်အဝ</string>
+    <string name="ring_sync_new_best">အကောင်းဆုံးအသစ်</string>
+    <string name="ring_sync_again">ထပ်ကစားရန် တို့ပါ</string>
+    <string name="ring_sync_ember">Ember အရောင်ကို ဖွင့်ပြီးပါပြီ</string>
+    <string name="ring_sync_use_ember">Ember ကို အသုံးပြုရန်</string>
+    <string name="ring_sync_android">Android ၏ ဥာဏ်ပေးသည့်အရာ</string>
+    <string name="ring_sync_vibrate_on">တုံ့ပြန်တိုက်ခိုက်မှုများတွင် တုန်ခါမှု · ဖွင့်</string>
+    <string name="ring_sync_vibrate_off">တုံ့ပြန်တိုက်ခိုက်မှုများတွင် တုန်ခါမှု · ပိတ်</string>
+    <string name="accent_ember">Ember</string>
+</resources>

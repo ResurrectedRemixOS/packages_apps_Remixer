@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Predvolené"</string>
     <string name="clock_faces_size">"Veľkosť"</string>
     <string name="clock_faces_restart">"Reštartovať"</string>
+    <string name="remixer_clock_faces">Ciferníky hodín</string>
+    <string name="clock_faces_system">Systémové hodiny</string>
+    <string name="clock_faces_system_desc">Hodiny z Tapeta a štýl</string>
+    <string name="clock_faces_position">%1$d z %2$d</string>
+    <string name="clock_faces_applied">Použité</string>
+    <string name="clock_faces_preview_unavailable">Náhľad nie je k dispozícii</string>
+    <string name="clock_faces_failed">Hodiny sa nepodarilo zmeniť</string>
+    <string name="clock_faces_color_accent">Zvýraznenie</string>
+    <string name="clock_faces_color_custom">Vlastné</string>
+    <string name="clock_faces_color_album">Obal albumu</string>
+    <string name="clock_faces_color_gradient">Prechod</string>
+    <string name="clock_faces_own_colors">Tento ciferník si zachováva vlastné farby.</string>
+    <string name="clock_faces_album_hint">Počas prehrávania hudby preberá farbu z obalu albumu.</string>
+    <string name="clock_faces_size_position">Veľkosť a poloha</string>
+    <string name="clock_faces_size_value">Veľkosť · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Vzdialenosť od hornej hrany</string>
+    <string name="clock_faces_top_value">Vzdialenosť od hornej hrany · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Vodorovná poloha</string>
+    <string name="clock_faces_horizontal_center">Vodorovná poloha · Stred</string>
+    <string name="clock_faces_horizontal_right">Vodorovná poloha · <xliff:g id="dp" example="24">%1$d</xliff:g> dp vpravo</string>
+    <string name="clock_faces_horizontal_left">Vodorovná poloha · <xliff:g id="dp" example="24">%1$d</xliff:g> dp vľavo</string>
+    <string name="clock_faces_horizontal_fixed">Tento ciferník zostáva v strede.</string>
+    <string name="clock_faces_opacity">Krytie</string>
+    <string name="clock_faces_opacity_value">Nepriehľadnosť · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Pohyb</string>
+    <string name="clock_faces_wobble">Pohyb pri nabíjaní</string>
+    <string name="clock_faces_wobble_summary">Pri pripojení nabíjačky sa raz odrazí</string>
+    <string name="clock_faces_aod_anim">Prechod na displej stále zapnutý</string>
+    <string name="clock_faces_aod_anim_summary">Zmenší a vyblední hodiny na displeji stále zapnutom</string>
+    <string name="clock_faces_restart_title">Reštartovať uzamknutú obrazovku?</string>
+    <string name="clock_faces_restart_message">Prepínanie medzi systémovými hodinami a vlastnými ciferníkmi reštartuje SystemUI. Obrazovka na sekundu zhasne.</string>
+    <string name="clock_faces_note">Náhľady vykresľuje SystemUI na tapete uzamknutej obrazovky. Farba, veľkosť a poloha sa na uzamknutej obrazovke zmenia okamžite.</string>
 </resources>

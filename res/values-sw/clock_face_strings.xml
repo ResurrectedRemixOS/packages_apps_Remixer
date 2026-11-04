@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Chaguomsingi"</string>
     <string name="clock_faces_size">"Ukubwa"</string>
     <string name="clock_faces_restart">"Zima kisha uwashe"</string>
+    <string name="remixer_clock_faces">Mionekano ya saa</string>
+    <string name="clock_faces_system">Saa ya mfumo</string>
+    <string name="clock_faces_system_desc">Saa kutoka Mandhari &amp; mtindo</string>
+    <string name="clock_faces_position">%1$d kati ya %2$d</string>
+    <string name="clock_faces_applied">Imetumika</string>
+    <string name="clock_faces_preview_unavailable">Hakiwezi kuonyeshwa kwa sasa</string>
+    <string name="clock_faces_failed">Imeshindikana kubadilisha saa</string>
+    <string name="clock_faces_color_accent">Lafudhi</string>
+    <string name="clock_faces_color_custom">Maalum</string>
+    <string name="clock_faces_color_album">Picha ya albamu</string>
+    <string name="clock_faces_color_gradient">Gradient</string>
+    <string name="clock_faces_own_colors">Mwonekano huu una rangi zake.</string>
+    <string name="clock_faces_album_hint">Huchukua rangi kutoka kwenye picha ya albamu muziki unapocheza.</string>
+    <string name="clock_faces_size_position">Ukubwa na mahali</string>
+    <string name="clock_faces_size_value">Ukubwa · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Umbali kutoka juu</string>
+    <string name="clock_faces_top_value">Umbali kutoka juu · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Mahali kwa mlalo</string>
+    <string name="clock_faces_horizontal_center">Mahali kwa mlalo · Katikati</string>
+    <string name="clock_faces_horizontal_right">Mahali kwa mlalo · <xliff:g id="dp" example="24">%1$d</xliff:g> dp kulia</string>
+    <string name="clock_faces_horizontal_left">Mahali kwa mlalo · <xliff:g id="dp" example="24">%1$d</xliff:g> dp kushoto</string>
+    <string name="clock_faces_horizontal_fixed">Mwonekano huu unabaki katikati.</string>
+    <string name="clock_faces_opacity">Uwazi</string>
+    <string name="clock_faces_opacity_value">Uwazi · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Mwendo</string>
+    <string name="clock_faces_wobble">Kutikisika wakati wa kuchaji</string>
+    <string name="clock_faces_wobble_summary">Hudunda mara moja unapochomeka</string>
+    <string name="clock_faces_aod_anim">Mpito wa onyesho la kila wakati</string>
+    <string name="clock_faces_aod_anim_summary">Hupunguza ukubwa na kufifisha saa kuingia kwenye onyesho la kila wakati</string>
+    <string name="clock_faces_restart_title">Kuanzisha upya skrini iliyofungwa?</string>
+    <string name="clock_faces_restart_message">Kubadilisha kati ya saa ya mfumo na mionekano maalum kunaanzisha upya SystemUI. Skrini itazimika kwa sekunde moja.</string>
+    <string name="clock_faces_note">Onyesho la kukagua linachorwa na SystemUI kwenye mandhari ya skrini iliyofungwa. Rangi, ukubwa na mahali hubadilisha skrini iliyofungwa mara moja.</string>
 </resources>

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="notification_icons_category">"Ikoner"</string>
+    <string name="notification_app_icons_title">Appikoner</string>
+    <string name="notification_app_icons_summary">Visa appens ikon i aviseringar i stället för dess lilla symbol</string>
 </resources>

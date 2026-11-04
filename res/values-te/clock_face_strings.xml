@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"ఆటోమేటిక్"</string>
     <string name="clock_faces_size">"సైజ్‌"</string>
     <string name="clock_faces_restart">"రీస్టార్ట్ చేయండి"</string>
+    <string name="remixer_clock_faces">క్లాక్ ఫేస్‌లు</string>
+    <string name="clock_faces_system">సిస్టమ్ క్లాక్</string>
+    <string name="clock_faces_system_desc">వాల్‌పేపర్ &amp; స్టైల్ నుండి క్లాక్</string>
+    <string name="clock_faces_position">%2$dలో %1$d</string>
+    <string name="clock_faces_applied">వర్తింపజేయబడింది</string>
+    <string name="clock_faces_preview_unavailable">ప్రివ్యూ అందుబాటులో లేదు</string>
+    <string name="clock_faces_failed">క్లాక్‌ను మార్చలేకపోయాం</string>
+    <string name="clock_faces_color_accent">యాక్సెంట్</string>
+    <string name="clock_faces_color_custom">కస్టమ్‌</string>
+    <string name="clock_faces_color_album">ఆల్బమ్ ఆర్ట్</string>
+    <string name="clock_faces_color_gradient">గ్రేడియంట్</string>
+    <string name="clock_faces_own_colors">ఈ ఫేస్ తన సొంత రంగులను ఉంచుకుంటుంది.</string>
+    <string name="clock_faces_album_hint">మ్యూజిక్ ప్లే అవుతున్నప్పుడు ఆల్బమ్ ఆర్ట్ నుండి రంగు తీసుకుంటుంది.</string>
+    <string name="clock_faces_size_position">పరిమాణం, స్థానం</string>
+    <string name="clock_faces_size_value">పరిమాణం · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">పైనుండి దూరం</string>
+    <string name="clock_faces_top_value">పైనుండి దూరం · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">అడ్డు స్థానం</string>
+    <string name="clock_faces_horizontal_center">అడ్డు స్థానం · మధ్యలో</string>
+    <string name="clock_faces_horizontal_right">అడ్డు స్థానం · కుడివైపు <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_left">అడ్డు స్థానం · ఎడమవైపు <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_fixed">ఈ ఫేస్ మధ్యలోనే ఉంటుంది.</string>
+    <string name="clock_faces_opacity">అపారదర్శకత</string>
+    <string name="clock_faces_opacity_value">అపారదర్శకత · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">కదలిక</string>
+    <string name="clock_faces_wobble">ఛార్జ్ అవుతున్నప్పుడు ఊగుతుంది</string>
+    <string name="clock_faces_wobble_summary">ప్లగ్ చేసినప్పుడు ఒకసారి ఎగురుతుంది</string>
+    <string name="clock_faces_aod_anim">ఆల్వేస్-ఆన్ డిస్‌ప్లే పరివర్తన</string>
+    <string name="clock_faces_aod_anim_summary">క్లాక్‌ను కుదించి ఆల్వేస్-ఆన్ డిస్‌ప్లేలోకి మసకబారుస్తుంది</string>
+    <string name="clock_faces_restart_title">లాక్ స్క్రీన్‌ను పునఃప్రారంభించాలా?</string>
+    <string name="clock_faces_restart_message">సిస్టమ్ క్లాక్, కస్టమ్ ఫేస్‌ల మధ్య మారితే SystemUI పునఃప్రారంభమవుతుంది. స్క్రీన్ ఒక సెకను నల్లగా మారుతుంది.</string>
+    <string name="clock_faces_note">ప్రివ్యూలను మీ లాక్ స్క్రీన్ వాల్‌పేపర్‌పై SystemUI గీస్తుంది. రంగు, పరిమాణం, స్థానం వెంటనే లాక్ స్క్రీన్‌ను మారుస్తాయి.</string>
 </resources>

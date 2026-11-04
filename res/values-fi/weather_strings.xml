@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Tiedot"</string>
     <string name="lockscreen_weather_location_title">"Sijainti"</string>
+    <string name="lockscreen_weather_title">Sää lukitusnäytöllä</string>
+    <string name="lockscreen_weather_location_summary">Näytä kaupungin nimi</string>
+    <string name="lockscreen_weather_text_title">Sääolot</string>
+    <string name="lockscreen_weather_text_summary">Näytä sääolot, kuten Pilvistä tai Selkeää</string>
+    <string name="lockscreen_weather_wind_title">Tuuli</string>
+    <string name="lockscreen_weather_wind_summary">Näytä tuulen nopeus ja suunta</string>
+    <string name="lockscreen_weather_humidity_title">Ilmankosteus</string>
+    <string name="lockscreen_weather_humidity_summary">Näytä ilmankosteus</string>
+    <string name="custom_clock_weather_title">Sää kellotauluissa</string>
+    <string name="custom_clock_weather_summary">Näytä sää kellotauluissa, joissa on tilaa sille</string>
+    <string name="remixer_weather_service">Sääpalvelu</string>
+    <string name="remixer_weather_page_summary">Lukitusnäytön sää ja sen näyttämät tiedot</string>
 </resources>

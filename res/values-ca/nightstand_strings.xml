@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Quan"</string>
+    <string name="nightstand_title">Rellotge de tauleta</string>
+    <string name="nightstand_summary">Un rellotge de tauleta atenuat a la pantalla sempre activa mentre carregues de nit</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Desactivat"</item>
+        <item>Connectat de nit</item>
+        <item>Cada nit, segons un horari</item>
+        <item>Mentre un mode d\'hora de dormir està activat</item>
+    </string-array>
+    <string name="nightstand_from">Comença la nit</string>
+    <string name="nightstand_to">Acaba la nit</string>
+    <string name="nightstand_brightness">Límit de brillantor</string>
+    <string name="nightstand_brightness_summary">Quanta brillantor pot tenir la pantalla sempre activa mentre el rellotge de tauleta està activat</string>
+    <string name="nightstand_face">Esfera del rellotge</string>
+    <string name="nightstand_face_keep">Mantén l\'esfera actual</string>
+    <string name="nightstand_footer">El rellotge de tauleta activa la pantalla sempre activa mentre funciona i la torna a deixar com estava després. Acaba quan es desconnecta el carregador, sona l\'alarma o acaba la nit. L\'esfera només alterna entre dues esferes personalitzades; el rellotge del sistema es manté.</string>
 </resources>

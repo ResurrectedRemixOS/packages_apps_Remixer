@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">Бутони</string>
     <string name="now_bar_text">Текст</string>
     <string name="now_bar_text_size">"Размер на текста"</string>
+    <string name="now_bar_summary">Активности на живо в долната част на заключения екран</string>
+    <string name="now_bar_show">Показване</string>
+    <string name="now_bar_music">Музика и видео</string>
+    <string name="now_bar_timers">Таймери, секундомер и будилници</string>
+    <string name="now_bar_hide_call">Скриване на известието за обаждане</string>
+    <string name="now_bar_hide_call_summary">На заключения екран обаждането в Now Bar не се показва и като известие</string>
+    <string name="now_bar_live">Актуализации на живо</string>
+    <string name="now_bar_live_summary">Навигация, пътувания, доставки, резултати</string>
+    <string name="now_bar_scores">Резултати на живо</string>
+    <string name="now_bar_live_apps">Приложения за актуализации на живо</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> приложения</string>
+    <string name="now_bar_pin">Закачено на винаги включения дисплей</string>
+    <string name="now_bar_unpin_question">Да се откачи ли <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Откачане</string>
+    <string name="now_bar_scores_summary">Игри, които следите в At a Glance</string>
+    <string name="now_bar_recording">Запис на екрана и гласа</string>
+    <string name="now_bar_buds">Слушалки и часовници</string>
+    <string name="now_bar_buds_summary">Батерия на свързано устройство: ляво, дясно и кутия за слушалки</string>
+    <string name="now_bar_wave">Анимация на вълна</string>
+    <string name="now_bar_aod">Показване на винаги включения дисплей</string>
+    <string name="now_bar_chip">Чип в лентата на състоянието</string>
+    <string name="now_bar_chip_summary">Музика и таймери до часовника при отключено устройство</string>
+    <string name="now_bar_footer">Когато има музика в Now Bar, големият плейър на заключения екран е скрит. Плъзнете лентата, за да превключвате между активностите, докоснете я, за да отворите контролите, и я задръжте, за да скриете една активност до края ѝ. Плъзнете на страна поставена на пауза песен, за да я премахнете от лентата.\n\nРезултатите на живо показват игри на отборите, които следите в приложението Google. С Smartspacer добавете там спортна цел и резултатите ѝ ще се показват тук.</string>
+    <string name="now_bar_looks">Профили</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"По подразбиране"</item>
+        <item>Liquid Glass</item>
+        <item>Мини</item>
+        <item>Голям</item>
+        <item>Неон</item>
+        <item>Стъклена карта</item>
+    </string-array>
+    <string name="now_bar_material">Материал</string>
+    <string name="now_bar_material_summary">Liquid Glass използва стъклото, което сте задали в Тема</string>
+    <string-array name="now_bar_material_entries">
+        <item>Плътен</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Обложка на албума</item>
+        <item>Акцент</item>
+        <item>Тъмен</item>
+    </string-array>
+    <string name="now_bar_opacity">Непрозрачност</string>
+    <string name="now_bar_opacity_summary">При Liquid Glass колко цвят оцветява стъклото</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Няма"</item>
+        <item>Тънка</item>
+        <item>Акцент</item>
+    </string-array>
+    <string name="now_bar_shadow">Сянка</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Изкл."</item>
+        <item>Меки</item>
+        <item>Сияние</item>
+    </string-array>
+    <string name="now_bar_more">Още активности</string>
+    <string-array name="now_bar_more_entries">
+        <item>Просто плъзнете</item>
+        <item>Точки</item>
+        <item>Надникване отзад</item>
+    </string-array>
+    <string name="now_bar_size">Размер и форма</string>
+    <string name="now_bar_height">Височина</string>
+    <string name="now_bar_width_summary">Пълна показва бързите клавиши над лентата</string>
+    <string-array name="now_bar_width_entries">
+        <item>Тясна</item>
+        <item>Между бързите клавиши</item>
+        <item>Пълен</item>
+    </string-array>
+    <string name="now_bar_corners">Закръгляне на ъгли</string>
+    <string name="now_bar_raise">Повдигната</string>
+    <string name="now_bar_art">Обложка на албума</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Кръг"</item>
+        <item>Закръглен</item>
+        <item>"Квадрат"</item>
+        <item>"Изкл."</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Прескачане и пускане</item>
+        <item>Само възпроизвеждане</item>
+        <item>"Няма"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Един ред</item>
+        <item>Два реда</item>
+        <item>Само песен</item>
+    </string-array>
+    <string name="now_bar_show_page">Какво се показва в лентата</string>
+    <string name="now_bar_show_page_summary">Музика и видео, таймери, обаждания и други</string>
+    <string name="now_bar_where">Други места</string>
 </resources>

@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Батерия"</string>
     <string name="battery_style_title">"Стил"</string>
+    <string-array name="battery_style_entries">
+        <item>Портрет</item>
+        <item>"Кръг"</item>
+        <item>Точков кръг</item>
+        <item>Неонов пръстен</item>
+        <item>Тънка лента</item>
+        <item>Голям процент</item>
+        <item>Текст</item>
+    </string-array>
+    <string name="battery_percent_title">Процент</string>
+    <string-array name="battery_percent_entries">
+        <item>Скрит</item>
+        <item>В иконата</item>
+        <item>До него</item>
+    </string-array>
+    <string name="battery_ring_color_title">Цвят на неоновия пръстен</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. По ниво акцентът е над 20%%, червено под него и жълто при режим на пестене.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>По ниво</item>
+        <item>Акцент</item>
+        <item>"Бял"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Искри при зареждане</string>
+    <string name="battery_ring_tile_title">Същият пръстен на панела в бързите настройки</string>
+    <string name="battery_ring_tile_summary">С нивото и времето с включен екран</string>
 </resources>

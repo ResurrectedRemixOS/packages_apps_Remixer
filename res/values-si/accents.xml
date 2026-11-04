@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"වෝල්පේපරය"</item>
+        <item>පුනර්ජීවනය</item>
+        <item>ඇන්ඩ්‍රොයිඩ් වන් ග්‍රීන්</item>
+        <item>ඒස්පා ග්‍රීන්</item>
+        <item>කෝකා කෝලා රතු</item>
+        <item>ඩිස්කෝඩ් දම්</item>
+        <item>ෆේස්බුක් නිල්</item>
+        <item>ඉන්ස්ටග්‍රෑම් චෙරි</item>
+        <item>ජොලිබී තද රතු</item>
+        <item>මොන්ස්ටර් එනර්ජි කොළ</item>
+        <item>නෙක්ස්බිට් මින්ට්</item>
+        <item>වන්ප්ලස් රතු</item>
+        <item>පෙප්සි නිල්</item>
+        <item>පික්සල් නිල්</item>
+        <item>පොකෝෆෝන් කහ</item>
+        <item>රේසර් කොළ</item>
+        <item>සැම්සුං නිල්</item>
+        <item>ස්පොටිෆයි කොළ</item>
+        <item>ස්ටාබක්ස් කොළ</item>
+        <item>ට්විච් දම්</item>
+        <item>ට්විටර් නිල්</item>
+        <item>ෂියෝමි තැඹිලි</item>
+        <item>ඇම්බර්</item>
+        <item>"කළු"</item>
+        <item>"නිල්"</item>
+        <item>නිල් අළු</item>
+        <item>දුඹුරු</item>
+        <item>"සියන්"</item>
+        <item>ගැඹුරු තැඹිලි</item>
+        <item>ගැඹුරු දම්</item>
+        <item>"කොළ"</item>
+        <item>"අළු"</item>
+        <item>"ඉන්ඩිගෝ"</item>
+        <item>ලා නිල්</item>
+        <item>දෙහි කොළ</item>
+        <item>"තැඹිලි"</item>
+        <item>"රෝස"</item>
+        <item>"දම්"</item>
+        <item>"රතු"</item>
+        <item>"හරිත නිල්"</item>
+        <item>පරිශීලක පහ</item>
+        <item>පරිශීලක හතර</item>
+        <item>පරිශීලක එක</item>
+        <item>පරිශීලක හත</item>
+        <item>පරිශීලක හය</item>
+        <item>පරිශීලක තුන</item>
+        <item>පරිශීලක දෙක</item>
+        <item>"සුදු"</item>
+        <item>"කහ"</item>
+    </string-array>
+</resources>

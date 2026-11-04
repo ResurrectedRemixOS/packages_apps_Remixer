@@ -87,4 +87,199 @@
     <string name="wallpaper_apply_lock">"Ekran kilidi"</string>
     <string name="remixer_settings_style_original">"Orijinal"</string>
     <string name="remixer_navbar_category">"Naviqasiya paneli"</string>
+    <string name="remixer_dashboard_summary">Status paneli, tema, ekran kilidi və digərləri</string>
+    <string name="rr_homepage_battery_saver">Batareya qənaəti</string>
+    <string name="rr_homepage_personalize">Fərdiləşdirin</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> pulsuz</string>
+    <string name="rr_homepage_charged">Tam dolub</string>
+    <string name="rr_homepage_on_battery">Batareyadan işləyir</string>
+    <string name="rr_homepage_saver_on">Batareya qənaəti aktivdir</string>
+    <string name="rr_homepage_extras">Əlavə ayarlar</string>
+    <string name="rr_homepage_saver">Qənaət</string>
+    <string name="rr_homepage_signed_out">Daxil olmamısınız</string>
+    <string name="rr_homepage_remixer_tagline">Özünüzə uyğunlaşdırın. Status paneli, tema, ekran kilidi və daha çox.</string>
+    <string name="rr_homepage_device_tagline">Səs açarı, displey, şarj və GameBar.</string>
+    <string name="rr_homepage_device_action">Tənzimləyin</string>
+    <string name="rr_group_network">Şəbəkə və cihazlar</string>
+    <string name="rr_group_network_summary">Wi‑Fi, mobil, Bluetooth</string>
+    <string name="rr_group_apps_summary">Tətbiqlər, bildirişlər, Rejimlər</string>
+    <string name="rr_group_display">Displey və səs</string>
+    <string name="rr_group_display_summary">Displey, divar kağızı, səs</string>
+    <string name="rr_group_security_summary">Kilid, məkan, fövqəladə hal</string>
+    <string name="rr_group_security_center">Təhlükəsizlik mərkəzi</string>
+    <string name="rr_group_accounts">Google və hesablar</string>
+    <string name="rr_group_accounts_summary">Google, parollar, yedəkləyin</string>
+    <string name="rr_group_accounts_plain_summary">Parollar, hesablar, yedəkləyin</string>
+    <string name="rr_group_system_summary">Dillər, jestlər, yeniləmələr</string>
+    <string name="remixer_tagline">Özünüzə uyğunlaşdırın.</string>
+    <string name="remixer_remix">Yenidən tərtib edin</string>
+    <string name="remixer_remixed"><xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g> ilə yenidən tərtib edilib</string>
+    <string name="remixer_chip_shade_default">Çalar · Standart</string>
+    <string name="remixer_quick">Sürətli tərtibat</string>
+    <string name="remixer_everything">Hamısı</string>
+    <string name="remixer_quick_accents">Hazır şablonlar və ya istənilən rəng</string>
+    <string name="remixer_quick_fonts">Sistem şrift üslubları</string>
+    <string name="remixer_quick_walls">RR kolleksiyası</string>
+    <string name="remixer_quick_header">Sürətli ayarların başlığı</string>
+    <string name="remixer_quick_header_summary">Başlıq şəkilləri</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Saat, batareya, ikonlar və şəbəkə trafiki</string>
+    <string name="remixer_qs_summary">Başlıq şəkli</string>
+    <string name="remixer_notifications_summary">Kənar işıqlandırma, tətbiq ikonları və şarj səsləri</string>
+    <string name="remixer_theme_summary">Şriftlər, vurğular və divar kağızları</string>
+    <string name="remixer_lockscreen_summary">UDFPS, şarj məlumatı və hava proqnozu</string>
+    <string name="remixer_udfps_icon">UDFPS ikonu</string>
+    <string name="remixer_udfps_icon_summary">Barmaq izi sensorunun üzərində göstərilir</string>
+    <string name="remixer_udfps_animation">UDFPS animasiyası</string>
+    <string name="remixer_udfps_animation_summary">Barmağınız sensorda olduqda işləyir</string>
+    <string name="remixer_navigation_summary">Pulse, düymələr və naviqasiya paneli</string>
+    <string name="remixer_misc_summary">Səs, ehtiyat nüsxə, saxtalaşdırma, sürüşdürmə və USB</string>
+    <string name="scroll_haptics_title">Sürüşdürmənin sonunda toxunun</string>
+    <string name="scroll_haptics_summary">Siyahı və ya səhifə daha irəli gedə bilmədikdə yüngül titrəmə</string>
+    <string name="usb_mode_picker_title">USB rejimi seçicisi</string>
+    <string name="usb_mode_picker_summary">Kompüterə qoşulduqda rejim seçin</string>
+    <string name="remixer_fonts_summary">Sistem şrifti</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix divar kağızları</string>
+    <string name="remixer_accents">Vurğular</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">Ekranın aşağı hissəsində musiqi vizualizatoru</string>
+    <string name="pulse_switch">Pulse-u istifadə edin</string>
+    <string name="pulse_switch_summary">Media oxunarkən ekranın aşağısında musiqi çubuqları</string>
+    <string name="pulse_style_lines">Xətlər</string>
+    <string name="pulse_style_fading">Solğun</string>
+    <string name="pulse_style_blocks">Bloklar</string>
+    <string name="pulse_style_mirror">Güzgü</string>
+    <string name="pulse_color_custom">Fərdi</string>
+    <string name="pulse_color_gradient">Göyqurşağı</string>
+    <string name="pulse_bars">Çubuqlar</string>
+    <string name="pulse_bars_value">Çubuqlar · %1$d</string>
+    <string name="pulse_height">Hündürlük</string>
+    <string name="pulse_height_value">Hündürlük · %1$d dp</string>
+    <string name="pulse_opacity">Şəffaflıq</string>
+    <string name="pulse_opacity_value">Şəffaflıq · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Musiqi çalınarkən çubuqları ekran kilidində saxlayın</string>
+    <string name="pulse_failed">Bu pulse ayarını saxlamaq olmadı</string>
+    <string name="accent_applied">Vurğu tətbiq edildi</string>
+    <string name="accent_current">Vurğu · %1$s</string>
+    <string name="accent_current_custom">Vurğu · Fərdi</string>
+    <string name="accent_preview_tonal">Tonal</string>
+    <string name="accent_failed">Bu vurğunu tətbiq etmək olmadı</string>
+    <string name="accent_custom">Fərdi</string>
+    <string name="accent_custom_summary">İstənilən rəng işləyir. Çalar yenə də tətbiq olunur.</string>
+    <string name="accent_custom_pad">Doyma və parlaqlıq</string>
+    <string name="accent_custom_use"><xliff:g id="color" example="#12B5A6">%1$s</xliff:g> istifadə edin</string>
+    <string name="accent_shade">Çalar</string>
+    <string name="accent_shade_darker">Tünd</string>
+    <string name="accent_shade_lighter">Açıq</string>
+    <string name="accent_shade_darker_value">Tünd · %1$d</string>
+    <string name="accent_shade_lighter_value">Açıq · %1$d</string>
+    <string name="remixer_qs_style">Sürətli ayarların üslubu</string>
+    <string name="remixer_qs_style_preview">Önizləmə · %1$s</string>
+    <string name="remixer_qs_style_note">Hər üslub vurğu rənginizi izləyir. Səs panelində uyğun Bento, Shapes, Blueprint, Duo və Soft görünüşləri var. Stock Lineage Android 17 kafelərini dəyişmədən saxlayır.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Android 17 kafeləri, dəyişməz</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Vurğu kartında parlaqlıq. Kafelər vurğu gradiyenti ilə dolur</string>
+    <string name="remixer_qs_style_compact">Yığcam</string>
+    <string name="remixer_qs_style_compact_summary">Daha qısa kafelər. Eyni ekranda daha çoxu</string>
+    <string name="remixer_qs_style_glass">Şüşə</string>
+    <string name="remixer_qs_style_glass_summary">Aktiv olduqda vurğu rənginə işıqlanan şəffaf konturlu kafelər</string>
+    <string name="remixer_qs_style_circles">Dairələr</string>
+    <string name="remixer_qs_style_circles_summary">Etiketli dəyirmi keçidlər. Geniş kafelər kartlara çevrilir</string>
+    <string name="remixer_qs_style_classic">Klassik</string>
+    <string name="remixer_qs_style_classic_summary">Köhnə RR: etiketli sadə ikonlar, beşi bir sırada, nazik sürüşdürücü</string>
+    <string name="remixer_qs_style_cards">Kartlar</string>
+    <string name="remixer_qs_style_cards_summary">Hər adın altında vəziyyəti olan böyük kartlar, üçü bir sırada</string>
+    <string name="remixer_qs_style_neon">Neon</string>
+    <string name="remixer_qs_style_neon_summary">Aktiv olduqda vurğu rənginə işıqlanan konturlu kafelər</string>
+    <string name="remixer_qs_style_bento_summary">Vurğunuzla dolu böyük yumru bloklar, kiçiklərin altında etiketlər</string>
+    <string name="remixer_qs_style_shapes">Fiqurlar</string>
+    <string name="remixer_qs_style_shapes_summary">Aktiv olduqda loblar böyüyən dəyirmi keçidlər, beşi bir sırada</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Nazik konturlar və monospace böyük hərflər</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Bölünmüş kafelər. İkon yarısı işıqlanır və keçid edir</string>
+    <string name="remixer_qs_style_soft">Yumşaq</string>
+    <string name="remixer_qs_style_soft_summary">Aktiv olduqda basılan qabarıq kafelər</string>
+    <string name="remixer_lock_media_style">Media pleyeri üslubu</string>
+    <string name="remixer_lock_media_same">Sürətli ayarlarla eyni</string>
+    <string name="remixer_lock_media_same_summary">Sürətli ayarların Media kafeləsini izləyir, indi %1$s</string>
+    <string name="remixer_lock_media_off_summary">Ekran kilidində pleyer yoxdur</string>
+    <string name="remixer_lock_media_note">Bir şey oxunduqda kart ekran kilidində görünür. Şəffaf üslublar divar kağızında oxunaqlı olsun deyə tünd fon alır.</string>
+    <string name="remixer_lock_media_stock_summary">Albom şəkli kartı doldurur</string>
+    <string name="remixer_lock_media_remix_summary">Tünd kart, vurğu rəngli oxutma düyməsi</string>
+    <string name="remixer_lock_media_compact_summary">Daha yumru kart, dairəvi şəkil</string>
+    <string name="remixer_lock_media_glass_summary">Konturlu şəffaf kart</string>
+    <string name="remixer_lock_media_circles_summary">Yumşaq kart, vurğu rəngli oxutma düyməsi</string>
+    <string name="remixer_lock_media_classic_summary">Daha kvadrat kart, konturlu oxutma düyməsi</string>
+    <string name="remixer_lock_media_cards_summary">Yumşaq kart, vurğu rəngli oxutma düyməsi, Dairələr kimi</string>
+    <string name="remixer_lock_media_neon_summary">Vurğu konturlu qara kart</string>
+    <string name="remixer_lock_media_bento_summary">Yumşaq kart, vurğu rəngli oxutma düyməsi</string>
+    <string name="remixer_lock_media_shapes_summary">Daha yumru kart, vurğu rəngli oxutma düyməsi</string>
+    <string name="remixer_lock_media_blueprint_summary">Nazik kontur, konturlu oxutma düyməsi</string>
+    <string name="remixer_lock_media_duo_summary">İki tonlu kart, vurğu rəngli oxutma düyməsi</string>
+    <string name="remixer_lock_media_soft_summary">Kənarı pilləli qabarıq kart</string>
+    <string name="remixer_headers">Başlıq şəkli</string>
+    <string name="remixer_headers_summary">Sürətli ayarlar üçün fon şəkli seçin</string>
+    <string name="header_switch">Başlıq şəklini istifadə edin</string>
+    <string name="header_switch_summary">Sürətli ayarların arxasında şəkil göstərin</string>
+    <string name="header_source">Mənbə</string>
+    <string name="header_source_collection">Kolleksiya</string>
+    <string name="header_collections_summary_daylight">Başlıq günün vaxtını izləyir və ya kolleksiya üzrə dövr edir</string>
+    <string name="header_collections_summary_static">Kolleksiyanı açın, sonra istifadə etmək üçün şəkilə toxunun</string>
+    <string name="header_collections_empty">Quraşdırılmış başlıq kolleksiyası yoxdur</string>
+    <string name="header_images_daylight">Bu kolleksiyada</string>
+    <string name="header_photo_summary">Qalereyanızdakı istənilən foto və ya animasiyalı GIF</string>
+    <string name="header_height">Hündürlük</string>
+    <string name="header_height_value">Hündürlük · %1$d dp</string>
+    <string name="header_shadow">Solğun</string>
+    <string name="header_shadow_value">Solğun · %1$d%%</string>
+    <string name="header_failed">Bu başlıq ayarını saxlamaq olmadı</string>
+    <string name="remixer_weather_summary">Hava xidməti və vahidləri</string>
+    <string name="font_preview_notification">Telefonunuz belə oxuyacaq.</string>
+    <string name="font_try_text">Öz mətninizi sınayın</string>
+    <string name="font_previewing">Önizləmə</string>
+    <string name="font_current">Cari şrift</string>
+    <string name="font_badge_current">Cari</string>
+    <string name="font_apply_done">Tətbiq edildi</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Displey</string>
+    <string name="font_filter_script">Yazı</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Şrift tətbiq edildi</string>
+    <string name="font_failed">Bu şrifti tətbiq etmək olmadı</string>
+    <string name="wallpaper_set">Divar kağızı təyin edildi</string>
+    <string name="wallpaper_apply_both">Hər ikisi</string>
+    <string name="wallpaper_failed">Bu divar kağızını təyin etmək olmadı</string>
+    <string name="missing_app">Bu tətbiq quraşdırılmayıb</string>
+    <string name="remixer_spoofing">Saxtalaşdırma</string>
+    <string name="remixer_spoofing_summary">Play Integrity, cihaz şəxsiyyəti və tətbiq üzrə saxtalaşdırma</string>
+    <string name="remixer_settings_style">Ayarlar üslubu</string>
+    <string name="rr_maintainer">Baxımçı</string>
+    <string name="remixer_navbar_summary">Pulse uzunluğu, qalınlığı və tərtibatı</string>
+    <string name="remixer_navbar_pill_length">Jest pulse uzunluğu</string>
+    <string name="remixer_navbar_pill_thickness">Jest pulse qalınlığı</string>
+    <string name="remixer_navbar_pill_auto_hide">Jest pulsunu solğunlaşdırın</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Pulse bir neçə saniyədən sonra gizlədilir; ekrana toxunanda yenidən görünür</string>
+    <string name="remixer_navbar_ime">Klaviatura düymələri</string>
+    <string name="remixer_navbar_ime_summary">Klaviatura altında geri və klaviatura dəyişdirmə düymələrini göstərin</string>
+    <string name="remixer_navbar_layout">Düymə tərtibatı</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Qısa</item>
+        <item>Normal</item>
+        <item>Uzun</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Ən nazik</item>
+        <item>Daha nazik</item>
+        <item>Nazik</item>
+        <item>Normal</item>
+        <item>Qalın</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Normal</item>
+        <item>Yığcam</item>
+        <item>"Sola əyilmiş"</item>
+        <item>"Sağa əyilmiş"</item>
+    </string-array>
 </resources>

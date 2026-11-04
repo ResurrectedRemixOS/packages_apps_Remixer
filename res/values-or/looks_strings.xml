@@ -15,4 +15,58 @@
     <string name="looks_save_look">"ସେଭ କରନ୍ତୁ"</string>
     <string name="looks_custom_color">"କଷ୍ଟମ୍ ରଙ୍ଗ"</string>
     <string name="looks_part_clock_color">"ଘଣ୍ଟାର ରଙ୍ଗ"</string>
+    <string name="looks_title">ଲୁକ</string>
+    <string name="looks_summary">ଗୋଟିଏ ଟ୍ୟାପରେ ଆପଣଙ୍କ ସମଗ୍ର ସେଟଅପ</string>
+    <string name="looks_rr">RR ଲୁକ</string>
+    <string name="looks_yours">ଆପଣଙ୍କ ଲୁକ</string>
+    <string name="looks_none">ଏପର୍ଯ୍ୟନ୍ତ କିଛି ସେଭ ହୋଇନାହିଁ</string>
+    <string name="looks_save">ବର୍ତ୍ତମାନର ସେଭ କରନ୍ତୁ</string>
+    <string name="looks_import_clipboard">କ୍ଲିପବୋର୍ଡରୁ</string>
+    <string name="looks_import_file">ଫାଇଲରୁ</string>
+    <string name="looks_mine">ମୋ ଲୁକ</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> ପ୍ରଯୁକ୍ତ ହେଲା</string>
+    <string name="looks_failed">ସମସ୍ତ ପ୍ରଯୁକ୍ତ ହୋଇପାରିଲା ନାହିଁ</string>
+    <string name="looks_invalid">ଏହା ଏକ RR ଲୁକ ନୁହେଁ</string>
+    <string name="looks_part_accent">ଆକ୍ସେଣ୍ଟ ରଙ୍ଗ</string>
+    <string name="looks_part_qs">QS ଷ୍ଟାଇଲ</string>
+    <string name="looks_part_clock_face">ଲକ ସ୍କ୍ରିନ ଘଣ୍ଟା ଡିଜାଇନ</string>
+    <string name="looks_part_clock_look">ଷ୍ଟାଟସ୍‍ ବାର୍‍ ଘଣ୍ଟା</string>
+    <string name="looks_part_edge">ଏଜ ଲାଇଟିଂ</string>
+    <string name="looks_part_boot">ବୁଟ ଆନିମେସନ</string>
+    <string name="looks_part_haptics">Haptic Remix ପାଟର୍ନ</string>
+    <string name="looks_saturation">ସାଚୁରେସନ <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">ଆକ୍ସେଣ୍ଟ</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>” ସେୟାର କରନ୍ତୁ</string>
+    <string name="looks_share_hint">ଅନ୍ୟ RR ଫୋନର କ୍ୟାମେରାରେ ସ୍କାନ କରନ୍ତୁ, କିମ୍ବା ଲୁକ › ଇମ୍ପୋର୍ଟରେ ଯାଆନ୍ତୁ</string>
+    <string name="looks_share_file">ଫାଇଲ ସେୟାର କରନ୍ତୁ</string>
+    <string name="looks_save_file">ଫାଇଲ ସେଭ କରନ୍ତୁ</string>
+    <string name="looks_import_scan">QR କୋଡ୍ ସ୍କାନ କରନ୍ତୁ</string>
+    <string name="looks_import_title">ଲୁକ ଇମ୍ପୋର୍ଟ କରନ୍ତୁ</string>
+    <string name="looks_from_qr">QR କୋଡରୁ</string>
+    <string name="looks_from_file">ଫାଇଲରୁ</string>
+    <string name="looks_from_clipboard">କ୍ଲିପବୋର୍ଡରୁ</string>
+    <string name="looks_import_same">ଏହା ଆପଣଙ୍କ ସେଟଅପ ସହିତ ପୂର୍ବରୁ ମେଳ ଖାଉଛି।</string>
+    <plurals name="looks_import_changes">
+        <item quantity="one">ଏଥିରେ <xliff:g id="count" example="4">%d</xliff:g>ଟି ଜିନିଷ ବଦଳିଛି:</item>
+        <item quantity="other">ଏଥିରେ <xliff:g id="count" example="4">%d</xliff:g>ଟି ଜିନିଷ ବଦଳିଛି:</item>
+    </plurals>
+    <string name="looks_new">ନୂଆ ଲୁକ</string>
+    <string name="looks_edit_title">ଲୁକ ସମ୍ପାଦନ କରନ୍ତୁ</string>
+    <string name="looks_in_look">ଏହି ଲୁକରେ</string>
+    <string name="looks_not_included">ଏହି ଲୁକରେ ନାହିଁ</string>
+    <string name="looks_save_apply">ସଞ୍ଚୟ କରି ପ୍ରୟୋଗ କରନ୍ତୁ</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” ସଞ୍ଚିତ ହୋଇଛି</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” ଡିଲିଟ କରିବେ?</string>
+    <string name="looks_rr_wallpaper">RR ୱାଲପେପର <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">ଆକ୍ସେଣ୍ଟ ସାଚୁରେସନ</string>
+    <string name="looks_part_clock_chip">ଷ୍ଟାଟସ୍‍ ବାର୍‍ ଘଡ଼ି ଚିପ</string>
+    <string name="looks_part_edge_style">ଏଜ ଲାଇଟିଂ ଶୈଳୀ</string>
+    <string name="looks_scan_hint">ଏକ ଲୁକର QR କୋଡ୍ ଉପରେ କ୍ୟାମେରା ରଖନ୍ତୁ</string>
+    <string name="looks_scan_failed">କ୍ୟାମେରା ଖୋଲି ପାରିଲା ନାହିଁ</string>
+    <string name="look_roulette_title">ଲୁକ ରୌଲେଟ</string>
+    <string-array name="look_roulette_entries">
+        <item>"ବନ୍ଦ ଅଛି"</item>
+        <item>ପ୍ରତି ଅନଲକରେ ଭିନ୍ନ ଲୁକ</item>
+        <item>ପ୍ରତିଦିନ ଭିନ୍ନ ଲୁକ</item>
+    </string-array>
 </resources>

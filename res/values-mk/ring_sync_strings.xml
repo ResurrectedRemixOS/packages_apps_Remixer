@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Синхронизација на ѕвонење</string>
+    <string name="ring_sync_tap">Допрете кога прстенот ќе се поклопи со ознаката</string>
+    <string name="ring_sync_best">Најдобар: <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">ПЕРФЕКТНО</string>
+    <string name="ring_sync_new_best">Нов рекорд</string>
+    <string name="ring_sync_again">Допрете за повторно играње</string>
+    <string name="ring_sync_ember">Ember акцентот е отклучен</string>
+    <string name="ring_sync_use_ember">Користи Ember</string>
+    <string name="ring_sync_android">Велигденско јајце на Android</string>
+    <string name="ring_sync_vibrate_on">Вибрација при погодоци · Вклучено</string>
+    <string name="ring_sync_vibrate_off">Вибрација при погодоци · Исклучено</string>
+    <string name="accent_ember">Жарен</string>
+</resources>

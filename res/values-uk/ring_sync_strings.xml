@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Синхронізація кілець</string>
+    <string name="ring_sync_tap">Торкніться, коли кільце збігається з позначкою</string>
+    <string name="ring_sync_best">Найкращий: <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">ІДЕАЛЬНО</string>
+    <string name="ring_sync_new_best">Новий рекорд</string>
+    <string name="ring_sync_again">Торкніться, щоб грати знову</string>
+    <string name="ring_sync_ember">Акцент «Ember» розблоковано</string>
+    <string name="ring_sync_use_ember">Використати Ember</string>
+    <string name="ring_sync_android">Пасхалка Android</string>
+    <string name="ring_sync_vibrate_on">Вібрація при влученнях · Увімк.</string>
+    <string name="ring_sync_vibrate_off">Вібрація при влученнях · Вимк.</string>
+    <string name="accent_ember">Жар</string>
+</resources>

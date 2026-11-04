@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Bộ hẹn giờ</string>
     <string name="quick_launch_undo">"Hủy"</string>
     <string name="quick_launch_off">"Đang tắt"</string>
+    <string name="quick_launch_title">Mở nhanh</string>
+    <string name="quick_launch_main">Mở nhanh bằng vân tay</string>
+    <string name="quick_launch_main_summary">Giữ ngón tay trên cảm biến sau khi mở khóa để mở một phím tắt</string>
+    <string name="quick_launch_hint">Chạm vào một phím tắt để đổi, giữ để xoá hoặc kéo để sắp xếp lại.</string>
+    <string name="quick_launch_behavior">Hành vi</string>
+    <string name="quick_launch_hold">Thời gian giữ</string>
+    <string name="quick_launch_haptics">Rung khi mỗi phím tắt</string>
+    <string name="quick_launch_add">Thêm</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">Quét mã QR</string>
+    <string name="quick_launch_app">Ứng dụng…</string>
+    <string name="quick_launch_removed">Đã xoá <xliff:g id="shortcut" example="Camera">%1$s</xliff:g></string>
 </resources>

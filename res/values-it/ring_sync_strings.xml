@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Sincronizza anelli</string>
+    <string name="ring_sync_tap">Tocca quando un anello si allinea al segno</string>
+    <string name="ring_sync_best">Migliore <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">PERFETTO</string>
+    <string name="ring_sync_new_best">Nuovo record</string>
+    <string name="ring_sync_again">Tocca per giocare di nuovo</string>
+    <string name="ring_sync_ember">Colore primario Ember sbloccato</string>
+    <string name="ring_sync_use_ember">Usa Ember</string>
+    <string name="ring_sync_android">Easter egg di Android</string>
+    <string name="ring_sync_vibrate_on">Vibrazione sui colpi · Attiva</string>
+    <string name="ring_sync_vibrate_off">Vibrazione sui colpi · Disattiva</string>
+    <string name="accent_ember">Ember</string>
+</resources>

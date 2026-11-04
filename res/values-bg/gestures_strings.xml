@@ -7,4 +7,51 @@
         <item>"Среден"</item>
         <item>"Голям"</item>
     </string-array>
+    <string name="pie_title">Pie контроли</string>
+    <string name="pie_summary">Задръжте долната част на ръб за pie меню с преки пътища</string>
+    <string name="pie_edges">Ръбове</string>
+    <string name="pie_zone">Част от ръба</string>
+    <string name="pie_clock">Часовник и батерия над нея</string>
+    <string name="pie_items">Сегменти</string>
+    <string-array name="pie_items_entries">
+        <item>"Назад"</item>
+        <item>Начало</item>
+        <item>"Скорошни"</item>
+        <item>"Известия"</item>
+        <item>Фенерче</item>
+        <item>"Екранна снимка"</item>
+        <item>"Меню за включване/изключване"</item>
+        <item>"Асистент"</item>
+        <item>"Камера"</item>
+    </string-array>
+    <string name="pie_footer">Нужно е задържане за една четвърт секунда без движение, така че бързо плъзгане от ръба все още връща назад. Не се отваря на заключен екран.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Ляво"</item>
+        <item>"Дясно"</item>
+        <item>И двете</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Долна трета</item>
+        <item>Средна</item>
+        <item>Целият ръб</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Неон</item>
+        <item>Стъкло</item>
+        <item>Класически</item>
+    </string-array>
+    <string name="sidebar_style_title">Стил на страничния панел</string>
+    <string-array name="sidebar_style_entries">
+        <item>Класически</item>
+        <item>RR стъкло</item>
+        <item>Неон</item>
+    </string-array>
+    <string name="sidebar_settings_title">Страничен панел</string>
+    <string name="sidebar_settings_summary">Плъзнете от дръжката, за да видите приложенията и инструментите си</string>
+    <string name="sidebar_apps_title">Приложения, дръжка и клипборд</string>
+    <string name="sidebar_apps_summary">Включете дръжката, изберете приложенията и настройте умния клипборд</string>
+    <string name="sidebar_handle_size_title">Размер на дръжката</string>
+    <string name="sidebar_tools_title">Ред с инструменти</string>
+    <string name="sidebar_tools_summary">Екранна снимка и фенерче под приложенията ви</string>
+    <string name="sidebar_footer">Дръжката е тънка линия в акцентния ви цвят; плъзнете я, за да я преместите по ръба. При жестова навигация заема само своята част от ръба, а връщането работи навсякъде другаде.</string>
 </resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Uhuishaji wa kuwasha</string>
+    <string name="boot_animation_note">Itacheza mara nyingine simu itakapowashwa.</string>
+    <string name="boot_animation_custom">Faili yako</string>
+    <string name="boot_animation_custom_pick">Chagua faili…</string>
+    <string name="boot_animation_custom_invalid">Faili hilo si uhuishaji wa kuwasha</string>
+    <string name="boot_animation_failed">Imeshindikana kubadilisha uhuishaji wa kuwasha</string>
+</resources>

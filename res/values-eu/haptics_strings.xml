@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Urdina"</string>
     <string name="haptic_remix_color_green">"Berdea"</string>
     <string name="haptic_remix_color_white">"Zuria"</string>
+    <string name="haptic_remix_summary">Sakatu bibrazio-ereduak deialdietarako, aplikazioetarako, alarmetarako eta desblokeoetarako</string>
+    <string name="haptic_remix_record">Grabatu</string>
+    <string name="haptic_remix_pad">sakatu erritmoa</string>
+    <string name="haptic_remix_strength">Indarra</string>
+    <string name="haptic_remix_clear">Garbitu</string>
+    <string name="haptic_remix_play">Erreproduzitu</string>
+    <string name="haptic_remix_name">Ereduaren izena</string>
+    <string name="haptic_remix_empty">Oraindik ez da ezer grabatu</string>
+    <string name="haptic_remix_too_long">Eredu batek 30 segundo iraun ditzake</string>
+    <string name="haptic_remix_presets">Aurrezarpenak</string>
+    <string name="haptic_remix_preset_neon">Neoia</string>
+    <string name="haptic_remix_preset_glass">Kristala</string>
+    <string name="haptic_remix_preset_ringtone">Tonuaren erritmoa</string>
+    <string name="haptic_remix_listening">Tonua entzuten…</string>
+    <string name="haptic_remix_no_ringtone">Ezin izan da tonua irakurri</string>
+    <string name="haptic_remix_patterns">Zure ereduak</string>
+    <string name="haptic_remix_patterns_none">Gorde eredu bat lehenik. Sakatu luze ezabatzeko.</string>
+    <string name="haptic_remix_broken">Eredu hori ezin da irakurri</string>
+    <string name="haptic_remix_delete"><xliff:g id="name" example="Heartbeat">%1$s</xliff:g> ezabatu?</string>
+    <string name="haptic_remix_assign">Esleitu honi</string>
+    <string name="haptic_remix_alarm">Alarma eta tenporizadorea</string>
+    <string name="haptic_remix_plug">Konektatuta</string>
+    <string name="haptic_remix_fingerprint">Hatz-marka ondo irakurrita</string>
+    <string name="haptic_remix_add_contact">Gehitu kontaktu bat</string>
+    <string name="haptic_remix_edge_color"><xliff:g id="name" example="Mia">%1$s</xliff:g>-ren mezuetarako ertz-argia</string>
+    <string name="haptic_remix_color_accent">Azentua</string>
+    <string name="haptic_remix_color_crimson">Karmesi</string>
+    <string name="haptic_remix_color_amber">Anbarra</string>
+    <string name="haptic_remix_add_app">Gehitu aplikazio baten jakinarazpenak</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · sakatu aldatzeko, luze sakatu ertz-kolorerako</string>
+    <string name="haptic_remix_no_contacts">Kontaktuek ez dute zenbakirik itzuli</string>
 </resources>

@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">பொத்தான்கள்</string>
     <string name="now_bar_text">உரை</string>
     <string name="now_bar_text_size">"உரையின் அளவு"</string>
+    <string name="now_bar_summary">பூட்டுத் திரையின் கீழே நேரடி செயல்பாடுகள்</string>
+    <string name="now_bar_show">காட்டு</string>
+    <string name="now_bar_music">இசை மற்றும் வீடியோ</string>
+    <string name="now_bar_timers">டைமர்கள், ஸ்டாப்வாட்ச் மற்றும் அலாரங்கள்</string>
+    <string name="now_bar_hide_call">அழைப்பு அறிவிப்பை மறை</string>
+    <string name="now_bar_hide_call_summary">பூட்டுத் திரையில், Now Bar-இல் உள்ள அழைப்பு அறிவிப்புகள் பட்டியலிலும் காட்டப்படாது</string>
+    <string name="now_bar_live">நேரடி புதுப்பிப்புகள்</string>
+    <string name="now_bar_live_summary">வழிசெலுத்தல், பயணங்கள், டெலிவரிகள், மதிப்பெண்கள்</string>
+    <string name="now_bar_scores">நேரடி மதிப்பெண்கள்</string>
+    <string name="now_bar_live_apps">நேரடி புதுப்பிப்புகளுக்கான செயலிகள்</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> செயலிகள்</string>
+    <string name="now_bar_pin">எப்போதும் காட்சியில் பின் செய்யப்பட்டது</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g>-ஐ பின் நீக்கவா?</string>
+    <string name="now_bar_unpin">பின் நீக்கு</string>
+    <string name="now_bar_scores_summary">At a Glance-இல் நீங்கள் பின்தொடரும் விளையாட்டுகள்</string>
+    <string name="now_bar_recording">திரை மற்றும் குரல் பதிவு</string>
+    <string name="now_bar_buds">இயர்பட்கள் மற்றும் கடிகாரங்கள்</string>
+    <string name="now_bar_buds_summary">இணைக்கப்பட்ட சாதனத்தின் பேட்டரி: இயர்பட்களின் இடது, வலது மற்றும் கேஸ்</string>
+    <string name="now_bar_wave">அலை அனிமேஷன்</string>
+    <string name="now_bar_aod">எப்போதும் காட்சியில் காட்டு</string>
+    <string name="now_bar_chip">நிலைப் பட்டியில் சிப்</string>
+    <string name="now_bar_chip_summary">திறந்திருக்கும்போது கடிகாரத்தின் அருகில் இசை மற்றும் டைமர்களைக் காட்டு</string>
+    <string name="now_bar_footer">Now Bar-இல் இசை இருக்கும்போது, பெரிய பூட்டுத் திரை பிளேயர் மறைக்கப்படும். பட்டியை swipe செய்து செயல்பாடுகளை மாற்றலாம், தட்டினால் கட்டுப்பாடுகள் திறக்கும், அழுத்திப் பிடித்தால் முடியும் வரை மறைக்கலாம். இடைநிறுத்தப்பட்ட பாடலை பட்டியிலிருந்து swipe செய்து அகற்றலாம்.\n\nநேரடி மதிப்பெண்கள், Google செயலியில் நீங்கள் பின்தொடரும் அணிகளின் ஆட்டங்களைக் காட்டும். Smartspacer மூலம் அங்கு ஒரு sports target சேர்த்தால், அதன் மதிப்பெண்கள் இங்கே வரும்.</string>
+    <string name="now_bar_looks">தோற்றங்கள்</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"இயல்பு"</item>
+        <item>Liquid Glass</item>
+        <item>சிறியது</item>
+        <item>பெரியது</item>
+        <item>நியான்</item>
+        <item>கண்ணாடி அட்டை</item>
+    </string-array>
+    <string name="now_bar_material">Material</string>
+    <string name="now_bar_material_summary">Liquid Glass, Theme-இல் நீங்கள் அமைத்த கண்ணாடியைப் பயன்படுத்தும்</string>
+    <string-array name="now_bar_material_entries">
+        <item>திடமான</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>ஆல்பம் கலை</item>
+        <item>உச்சரிப்பு</item>
+        <item>இருள்</item>
+    </string-array>
+    <string name="now_bar_opacity">ஒளிபுகாநிலை</string>
+    <string name="now_bar_opacity_summary">Liquid Glass-இல், கண்ணாடியில் நிறம் எவ்வளவு கலக்கும்</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"ஏதுமில்லை"</item>
+        <item>ஒல்லியான</item>
+        <item>உச்சரிப்பு</item>
+    </string-array>
+    <string name="now_bar_shadow">நிழல்</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"ஆஃப்"</item>
+        <item>மென்மை</item>
+        <item>ஒளிர்வு</item>
+    </string-array>
+    <string name="now_bar_more">மேலும் செயல்பாடுகள்</string>
+    <string-array name="now_bar_more_entries">
+        <item>வெறுமனே swipe செய்யவும்</item>
+        <item>புள்ளிகள்</item>
+        <item>பின்னால் பார்</item>
+    </string-array>
+    <string name="now_bar_size">அளவும் வடிவமும்</string>
+    <string name="now_bar_height">உயரம்</string>
+    <string name="now_bar_width_summary">Full என்றால் மேலுள்ள குறுக்குவழிகள் பட்டிக்கு மேலே நகரும்</string>
+    <string-array name="now_bar_width_entries">
+        <item>குறுகிய</item>
+        <item>குறுக்குவழிகளுக்கு இடையில்</item>
+        <item>முழுமை</item>
+    </string-array>
+    <string name="now_bar_corners">மூலைகள்</string>
+    <string name="now_bar_raise">உயர்த்து</string>
+    <string name="now_bar_art">ஆல்பம் கலை</string>
+    <string-array name="now_bar_art_entries">
+        <item>"வட்டம்"</item>
+        <item>வட்டமான</item>
+        <item>"சதுரம்"</item>
+        <item>"ஆஃப்"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>தவிர்த்து இயக்கு</item>
+        <item>இயக்கி மட்டும்</item>
+        <item>"ஏதுமில்லை"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>ஒரு வரி</item>
+        <item>இரண்டு வரிகள்</item>
+        <item>பாடல் மட்டும்</item>
+    </string-array>
+    <string name="now_bar_show_page">பட்டியில் என்ன தெரியும்</string>
+    <string name="now_bar_show_page_summary">இசை மற்றும் வீடியோ, டைமர்கள், அழைப்புகள் மற்றும் பல</string>
+    <string name="now_bar_where">வேறு எங்கே</string>
 </resources>

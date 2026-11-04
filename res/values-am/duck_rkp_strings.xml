@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">የመሣሪያ RKP ተጠቀም</string>
+    <string name="ts_rkp_enabled_summary">የመነጨ ቁልፍ ሳጥን ተጠቀም። ቁልፍ ሳጥን ማስመጣት ይህን ያጠፋዋል።</string>
+    <string name="ts_rkp_provision">ቁልፍ ሳጥን ፍጠር</string>
+    <string name="ts_rkp_provision_summary">የዚህን መሣሪያ የአቅርቦት አገልግሎት በመጠቀም ከGoogle ቁልፍ ሳጥን ጠይቅ። ተኳሃኝ የQualcomm ፈርምዌር ያስፈልጋል።</string>
+    <string name="ts_rkp_status">የአቅርቦት ሁኔታ</string>
+    <string name="ts_rkp_owner_only">የመሣሪያ RKP በመሣሪያ ባለቤት መገለጫ ያስተዳድሩ</string>
+    <string name="ts_rkp_unavailable">የመሣሪያ RKP አይገኝም</string>
+    <string name="ts_rkp_imported">የተጫነ ቁልፍ ሳጥን እስካለ ድረስ ተሰናክሏል</string>
+    <string name="ts_rkp_disabled">ጠፍቷል። ቁልፍ ሳጥን ለመጠቀም ወይም ለመፍጠር የመሣሪያ RKP ያንቁ።</string>
+    <string name="ts_rkp_idle">ቁልፍ ሳጥን ለመጠየቅ ዝግጁ</string>
+    <string name="ts_rkp_fetching">የአቅርቦት ፈተና በማግኘት ላይ…</string>
+    <string name="ts_rkp_hardware">የመሣሪያው የአቅርቦት አገልግሎት በመጠበቅ ላይ…</string>
+    <string name="ts_rkp_signing">ሰርቲፊኬቶችን ከGoogle በመጠየቅ ላይ…</string>
+    <string name="ts_rkp_validating">ቁልፍ ሳጥኑን በማረጋገጥ እና በማስቀመጥ ላይ…</string>
+    <string name="ts_rkp_ready">የመነጨው ቁልፍ ሳጥን ንቁ ነው። ከ%1$s በፊት በራሱ ይታደሳል</string>
+    <string name="ts_rkp_keybox_stored">የመሣሪያ RKP ቁልፍ ሳጥን ተቀምጧል</string>
+    <string name="ts_rkp_expired">የመነጨው ቁልፍ ሳጥን ጊዜው አብቅቷል። ምትክ ይፍጠሩ።</string>
+    <string name="ts_rkp_hal_rejected">ፈርምዌሩ ጥያቄውን ውድቅ አደረገ (ኮድ %1$d)። Duck V1 ላይደገፍ ይችላል።</string>
+    <string name="ts_rkp_http_error">የአቅርቦት አገልጋዩ ጥያቄውን ውድቅ አደረገ (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">መሣሪያው ተኳሃኝ የV1 የአቅርቦት በይነገጽ አያሳይም</string>
+    <string name="ts_rkp_network_error">የአቅርቦት አገልጋዩ ሊደረስበት አልቻለም። ግንኙነትዎን ይፈትሹ።</string>
+    <string name="ts_rkp_submission_unknown">የአገልጋዩ ምላሽ ጠፍቷል። ጥያቄው ተሰርቶ ሊሆን ይችላል፤ ራስ-ሰር ድጋሚ ሙከራ አልተደረገም።</string>
+    <string name="ts_rkp_invalid_chain">የቁልፍ ሳጥን ሰርቲፊኬቶች ማረጋገጫ አልተሳካም። ነባሩ ቁልፍ ሳጥን ተጠብቋል።</string>
+    <string name="ts_rkp_timeout">የአቅርቦት ጊዜ አልቋል። የመሣሪያ አገልግሎቱ አሁንም ስራ የሚበዛበት ከሆነ እንደገና ከመሞከርዎ በፊት መሣሪያውን ዳግም ያስጀምሩ።</string>
+    <string name="ts_rkp_canceled">የቁልፍ ሳጥን ውቅሩ ስለተቀየረ ጥያቄው ተሰርዟል</string>
+    <string name="ts_rkp_save_failed">የመነጨውን ቁልፍ ሳጥን ማስቀመጥ አልተቻለም</string>
+    <string name="ts_rkp_action_failed">የቁልፍ ሳጥን ስራውን ማጠናቀቅ አልተቻለም</string>
+</resources>

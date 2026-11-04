@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">Kur</string>
+    <string name="nightstand_title">Tavolina e natës</string>
+    <string name="nightstand_summary">Një orë e errët nate në ekranin gjithmonë të ndezur, gjatë karikimit natën</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Joaktiv"</item>
+        <item>Në karikues natën</item>
+        <item>Çdo natë, sipas orarit</item>
+        <item>Ndërsa një modalitet Gjumi është i ndezur</item>
+    </string-array>
+    <string name="nightstand_from">Fillon nata</string>
+    <string name="nightstand_to">Mbaron nata</string>
+    <string name="nightstand_brightness">Kufiri i shkëlqimit</string>
+    <string name="nightstand_brightness_summary">Sa shkëlqim mund të ketë ekrani gjithmonë i ndezur ndërsa Tavolina e natës është e ndezur</string>
+    <string name="nightstand_face">Pamja e orës</string>
+    <string name="nightstand_face_keep">Mbaj pamjen aktuale</string>
+    <string name="nightstand_footer">Tavolina e natës e ndez ekranin gjithmonë të ndezur gjatë funksionimit dhe e kthen pas më pas. Mbaron kur hiqet karikuesi, kur ndizet alarmi ose kur mbaron nata. Pamja ndërron vetëm mes dy pamjeve të personalizuara; ora e sistemit mbetet.</string>
 </resources>

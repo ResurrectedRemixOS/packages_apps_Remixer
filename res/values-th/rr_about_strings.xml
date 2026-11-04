@@ -11,4 +11,23 @@
     <string name="rr_about_this_phone">"โทรศัพท์เครื่องนี้"</string>
     <string name="rr_about_network">"เครือข่าย"</string>
     <string name="rr_about_hidden">ซ่อน</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">ทางการ</string>
+    <string name="rr_about_unofficial">ไม่เป็นทางการ</string>
+    <string name="rr_about_vanilla">แวนิลลา</string>
+    <string name="rr_about_hardware">ฮาร์ดแวร์</string>
+    <string name="rr_about_processor">โปรเซสเซอร์</string>
+    <string name="rr_about_processor_sub">%1$d คอร์ · สูงสุด %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d คอร์</string>
+    <string name="rr_about_storage_used">ใช้แล้ว %1$s</string>
+    <string name="rr_about_display">การแสดงผล</string>
+    <string name="rr_about_display_value">%1$s นิ้ว · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · กำลังชาร์จ</string>
+    <string name="rr_about_kernel_linux">เคอร์เนลลินุกซ์</string>
+    <string name="rr_about_software_purpose">เวอร์ชัน Android อัปเดตความปลอดภัย วันที่บิลด์ และหมายเลขบิลด์</string>
+    <string name="rr_about_security_patch">อัปเดตความปลอดภัย</string>
+    <string name="rr_about_maintainer">ผู้ดูแล</string>
+    <string name="rr_about_show">แสดง</string>
+    <string name="rr_about_hide">ซ่อน</string>
 </resources>

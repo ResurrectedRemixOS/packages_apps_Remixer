@@ -15,4 +15,93 @@
     <string name="now_bar_buttons">ボタン</string>
     <string name="now_bar_text">テキスト</string>
     <string name="now_bar_text_size">"文字サイズ"</string>
+    <string name="now_bar_summary">ロック画面下部のライブアクティビティ</string>
+    <string name="now_bar_show">表示</string>
+    <string name="now_bar_music">音楽と動画</string>
+    <string name="now_bar_timers">タイマー、ストップウォッチ、アラーム</string>
+    <string name="now_bar_hide_call">通話通知を非表示</string>
+    <string name="now_bar_hide_call_summary">ロック画面では、Now Barに表示されている通話は通知として別途表示されません</string>
+    <string name="now_bar_live">ライブアップデート</string>
+    <string name="now_bar_live_summary">ナビゲーション、乗車、配達、スコア</string>
+    <string name="now_bar_live_apps">ライブアップデートのアプリ</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> 件のアプリ</string>
+    <string name="now_bar_pin">常時表示ディスプレイにピン留め済み</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> のピン留めを解除しますか？</string>
+    <string name="now_bar_unpin">ピン留めを解除</string>
+    <string name="now_bar_scores_summary">At a Glance でフォローしているゲーム</string>
+    <string name="now_bar_recording">画面と音声の録音</string>
+    <string name="now_bar_buds">イヤホンとスマートウォッチ</string>
+    <string name="now_bar_buds_summary">接続済みデバイスのバッテリー：イヤホンの左右とケース</string>
+    <string name="now_bar_wave">波アニメーション</string>
+    <string name="now_bar_chip">ステータスバーのチップ</string>
+    <string name="now_bar_chip_summary">ロック解除中、時計の横に音楽とタイマーを表示します</string>
+    <string name="now_bar_footer">Now Barに音楽が表示されている間は、ロック画面の大きなプレーヤーは非表示になります。バーをスワイプしてアクティビティを切り替え、タップするとコントロールを開き、長押しするとそのアクティビティが終了するまで非表示にできます。再生中でない曲はバーから左にスワイプすると消去されます。\n\nライブスコアには、Google アプリでフォローしているチームの試合が表示されます。Smartspacer でスポーツのターゲットを追加すると、そのスコアもここに表示されます。</string>
+    <string name="now_bar_looks">ルック</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"デフォルト"</item>
+        <item>Liquid Glass</item>
+        <item>ミニ</item>
+        <item>ビッグ</item>
+        <item>ネオン</item>
+        <item>ガラスカード</item>
+    </string-array>
+    <string name="now_bar_material">マテリアル</string>
+    <string name="now_bar_material_summary">Liquid Glass は、テーマで設定したガラスを使用します</string>
+    <string-array name="now_bar_material_entries">
+        <item>ソリッド</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>アルバムアート</item>
+        <item>アクセント</item>
+        <item>ダーク</item>
+    </string-array>
+    <string name="now_bar_opacity">不透明度</string>
+    <string name="now_bar_opacity_summary">Liquid Glass で、ガラスにどのくらい色味を付けるか</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"なし"</item>
+        <item>細い</item>
+        <item>アクセント</item>
+    </string-array>
+    <string name="now_bar_shadow">影</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"OFF"</item>
+        <item>ソフト</item>
+        <item>グロー</item>
+    </string-array>
+    <string name="now_bar_more">その他のアクティビティ</string>
+    <string-array name="now_bar_more_entries">
+        <item>スワイプするだけ</item>
+        <item>ドット</item>
+        <item>のぞき見</item>
+    </string-array>
+    <string name="now_bar_size">サイズと形</string>
+    <string name="now_bar_height">高さ</string>
+    <string name="now_bar_width_summary">「フル」にすると、ショートカットがバーの上に移動します</string>
+    <string-array name="now_bar_width_entries">
+        <item>細め</item>
+        <item>ショートカットの間</item>
+        <item>全体</item>
+    </string-array>
+    <string name="now_bar_corners">角の丸み</string>
+    <string name="now_bar_raise">上げる</string>
+    <string-array name="now_bar_art_entries">
+        <item>"サークル"</item>
+        <item>角丸</item>
+        <item>"正方形"</item>
+        <item>"OFF"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>スキップと再生</item>
+        <item>再生のみ</item>
+        <item>"なし"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>1行</item>
+        <item>2行</item>
+        <item>曲のみ</item>
+    </string-array>
+    <string name="now_bar_show_page">バーに表示する内容</string>
+    <string name="now_bar_show_page_summary">音楽と動画、タイマー、通話など</string>
+    <string name="now_bar_where">その他</string>
 </resources>

@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Časovnik</string>
     <string name="quick_launch_undo">"Razveljavi"</string>
     <string name="quick_launch_off">"Izklopljeno"</string>
+    <string name="quick_launch_title">Hitri zagon</string>
+    <string name="quick_launch_main">Hitri zagon z odtisom prsta</string>
+    <string name="quick_launch_main_summary">Po odklepanju držite prst na senzorju, da odprete bližnjico</string>
+    <string name="quick_launch_hint">Tapnite bližnjico, da jo spremenite, držite, da jo odstranite, ali povlecite, da jo preurejate.</string>
+    <string name="quick_launch_behavior">Obnašanje</string>
+    <string name="quick_launch_hold">Čas držanja</string>
+    <string name="quick_launch_haptics">Vibriraj ob vsaki bližnjici</string>
+    <string name="quick_launch_add">Dodaj</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">Optično branje kode QR</string>
+    <string name="quick_launch_app">Aplikacija…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> odstranjena</string>
 </resources>

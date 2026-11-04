@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Тапет"</item>
+        <item>Resurrected</item>
+        <item>Android One зелено</item>
+        <item>Aospa зелено</item>
+        <item>Coca Cola червено</item>
+        <item>Discord лилаво</item>
+        <item>Facebook синьо</item>
+        <item>Instagram череша</item>
+        <item>Jollibee кармин</item>
+        <item>Monster Energy зелено</item>
+        <item>Nextbit мента</item>
+        <item>OnePlus червено</item>
+        <item>Pepsi синьо</item>
+        <item>Pixel синьо</item>
+        <item>Pocophone жълто</item>
+        <item>Razer зелено</item>
+        <item>Samsung синьо</item>
+        <item>Spotify зелено</item>
+        <item>Starbucks зелено</item>
+        <item>Twitch лилаво</item>
+        <item>Twitter синьо</item>
+        <item>Xiaomi оранжево</item>
+        <item>Кехлибар</item>
+        <item>"Черен"</item>
+        <item>"Синьо"</item>
+        <item>Синьо-сиво</item>
+        <item>Кафяво</item>
+        <item>"Синьо-зелено"</item>
+        <item>Тъмнооранжево</item>
+        <item>Тъмнолилаво</item>
+        <item>"зелено"</item>
+        <item>"сиво"</item>
+        <item>"индиго"</item>
+        <item>Светлосиньо</item>
+        <item>Лаймово</item>
+        <item>"оранжево"</item>
+        <item>"розово"</item>
+        <item>"лилаво"</item>
+        <item>"Червено"</item>
+        <item>"синьо-зелено"</item>
+        <item>Потребител пет</item>
+        <item>Потребител четири</item>
+        <item>Потребител едно</item>
+        <item>Потребител седем</item>
+        <item>Потребител шест</item>
+        <item>Потребител три</item>
+        <item>Потребител две</item>
+        <item>"Бял"</item>
+        <item>"Жълто"</item>
+    </string-array>
+</resources>

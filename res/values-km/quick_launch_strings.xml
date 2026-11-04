@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">កម្មវិធី​កំណត់​ម៉ោង</string>
     <string name="quick_launch_undo">"ត្រឡប់វិញ"</string>
     <string name="quick_launch_off">"បិទ"</string>
+    <string name="quick_launch_title">ចាប់ផ្ដើមរហ័ស</string>
+    <string name="quick_launch_main">ចាប់ផ្ដើមរហ័សតាមស្នាមម្រាមដៃ</string>
+    <string name="quick_launch_main_summary">ទុកម្រាមដៃនៅលើឧបករណ៍ចាប់ស្នាមម្រាមដៃបន្ទាប់ពីដោះសោ ដើម្បីបើកផ្លូវកាត់</string>
+    <string name="quick_launch_hint">ចុចផ្លូវកាត់ដើម្បីប្ដូរ សង្កត់ដើម្បីលុប ឬអូសដើម្បីរៀបចំឡើងវិញ។</string>
+    <string name="quick_launch_behavior">ឥរិយាបថ</string>
+    <string name="quick_launch_hold">រយៈពេលសង្កត់</string>
+    <string name="quick_launch_haptics">ញ័រនៅពេលចុចផ្លូវកាត់នីមួយៗ</string>
+    <string name="quick_launch_add">បន្ថែម</string>
+    <string name="quick_launch_video">វីដេអូ</string>
+    <string name="quick_launch_qr">ស្កេនQR</string>
+    <string name="quick_launch_app">កម្មវិធី…</string>
+    <string name="quick_launch_removed">បានលុប <xliff:g id="shortcut" example="Camera">%1$s</xliff:g></string>
 </resources>

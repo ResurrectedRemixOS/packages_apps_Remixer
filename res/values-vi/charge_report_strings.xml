@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Pin"</string>
     <string name="charge_report_temp">"Nhiệt độ"</string>
     <string name="charge_report_time">"Thời gian"</string>
+    <string name="charge_report_title">Báo cáo sạc</string>
+    <string name="charge_report_summary">Tóm tắt mỗi lần sạc khi bạn rút sạc</string>
+    <string name="charge_report_min_title">Chỉ khi đã thêm ít nhất</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 ngày</item>
+        <item>7 ngày</item>
+        <item>14 ngày</item>
+        <item>30 ngày</item>
+    </string-array>
+    <string name="charge_report_history_days"><xliff:g id="days" example="7">%1$d</xliff:g> ngày gần nhất</string>
+    <string name="charge_report_today">Hôm nay, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Hôm qua, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> phút</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> giờ <xliff:g id="minutes" example="02">%2$02d</xliff:g> phút</string>
+    <string name="charge_report_watts">Watt</string>
+    <string name="charge_report_added">Đã thêm</string>
+    <string name="charge_report_peak">Cao nhất</string>
+    <string name="charge_report_average">Trung bình</string>
+    <string name="charge_report_max_temp">Nhiệt độ tối đa</string>
+    <string name="charge_report_charger">Bộ sạc</string>
+    <string name="charge_report_started">Bắt đầu lúc</string>
+    <string name="charge_report_wired">Có dây</string>
+    <string name="charge_report_wireless">Không dây</string>
+    <string name="charge_report_dock">Đế sạc</string>
+    <string name="charge_report_empty">Chưa có lần sạc nào</string>
+    <string name="charge_report_footer">SystemUI đọc dòng điện, điện áp và nhiệt độ hiện tại của pin mỗi 30 giây khi đang cắm sạc. Số watt là giá trị điện thoại đo được, nên có thể khác con số in trên bộ sạc. Báo cáo chỉ lưu trên điện thoại; không tải lên đâu cả.</string>
 </resources>

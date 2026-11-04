@@ -7,4 +7,34 @@
     <string name="clock_faces_size_position">Storlek &amp; position</string>
     <string name="clock_faces_size">"Storlek"</string>
     <string name="clock_faces_restart">"Starta om"</string>
+    <string name="remixer_clock_faces">Klockstilar</string>
+    <string name="clock_faces_system">Systemklocka</string>
+    <string name="clock_faces_system_desc">Klockan från Bakgrund och stil</string>
+    <string name="clock_faces_position">%1$d av %2$d</string>
+    <string name="clock_faces_applied">Tillämpad</string>
+    <string name="clock_faces_preview_unavailable">Förhandsvisning saknas</string>
+    <string name="clock_faces_failed">Kunde inte ändra klockan</string>
+    <string name="clock_faces_color_accent">Accent</string>
+    <string name="clock_faces_color_custom">Anpassad</string>
+    <string name="clock_faces_color_gradient">Gradient</string>
+    <string name="clock_faces_own_colors">Den här stilen behåller sina egna färger.</string>
+    <string name="clock_faces_album_hint">Tar sin färg från albumomslaget medan musik spelas.</string>
+    <string name="clock_faces_size_value">Storlek · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Avstånd från toppen</string>
+    <string name="clock_faces_top_value">Avstånd från toppen · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Horisontell position</string>
+    <string name="clock_faces_horizontal_center">Horisontell position · Mitten</string>
+    <string name="clock_faces_horizontal_right">Horisontell position · <xliff:g id="dp" example="24">%1$d</xliff:g> dp till höger</string>
+    <string name="clock_faces_horizontal_left">Horisontell position · <xliff:g id="dp" example="24">%1$d</xliff:g> dp till vänster</string>
+    <string name="clock_faces_horizontal_fixed">Den här stilen är alltid centrerad.</string>
+    <string name="clock_faces_opacity">Opacitet</string>
+    <string name="clock_faces_opacity_value">Opacitet · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Rörelse</string>
+    <string name="clock_faces_wobble">Gungar under laddning</string>
+    <string name="clock_faces_wobble_summary">Studsar en gång när du ansluter</string>
+    <string name="clock_faces_aod_anim">Övergång för alltid-på-skärmen</string>
+    <string name="clock_faces_aod_anim_summary">Krymper och tonar ut klockan till alltid-på-skärmen</string>
+    <string name="clock_faces_restart_title">Starta om låsskärmen?</string>
+    <string name="clock_faces_restart_message">Byte mellan systemklockan och egna stilar startar om SystemUI. Skärmen blir mörk en sekund.</string>
+    <string name="clock_faces_note">Förhandsvisningarna ritas av SystemUI på din låsskärmsbakgrund. Färg, storlek och position ändrar låsskärmen direkt.</string>
 </resources>

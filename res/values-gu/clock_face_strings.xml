@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"ડિફૉલ્ટ"</string>
     <string name="clock_faces_size">"કદ"</string>
     <string name="clock_faces_restart">"ફરી શરૂ કરો"</string>
+    <string name="remixer_clock_faces">ઘડિયાળના ચહેરા</string>
+    <string name="clock_faces_system">સિસ્ટમ ઘડિયાળ</string>
+    <string name="clock_faces_system_desc">વૉલપેપર અને સ્ટાઇલમાંથી ઘડિયાળ</string>
+    <string name="clock_faces_position">%2$dમાંથી %1$d</string>
+    <string name="clock_faces_applied">લાગુ થયો</string>
+    <string name="clock_faces_preview_unavailable">પૂર્વાવલોકન ઉપલબ્ધ નથી</string>
+    <string name="clock_faces_failed">ઘડિયાળ બદલી શકાઈ નહીં</string>
+    <string name="clock_faces_color_accent">ઍક્સેન્ટ</string>
+    <string name="clock_faces_color_custom">કસ્ટમ</string>
+    <string name="clock_faces_color_album">આલ્બમ આર્ટ</string>
+    <string name="clock_faces_color_gradient">ગ્રેડિયન્ટ</string>
+    <string name="clock_faces_own_colors">આ ચહેરો પોતાના રંગ રાખે છે.</string>
+    <string name="clock_faces_album_hint">સંગીત ચાલતું હોય ત્યારે આલ્બમ આર્ટમાંથી રંગ લે છે.</string>
+    <string name="clock_faces_size_position">કદ અને સ્થાન</string>
+    <string name="clock_faces_size_value">કદ · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">ઉપરથી અંતર</string>
+    <string name="clock_faces_top_value">ઉપરથી અંતર · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">આડું સ્થાન</string>
+    <string name="clock_faces_horizontal_center">આડું સ્થાન · મધ્યમાં</string>
+    <string name="clock_faces_horizontal_right">આડું સ્થાન · જમણે <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_left">આડું સ્થાન · ડાબે <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_fixed">આ ચહેરો મધ્યમાં રહે છે.</string>
+    <string name="clock_faces_opacity">અપારદર્શકતા</string>
+    <string name="clock_faces_opacity_value">અપારદર્શકતા · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">ગતિ</string>
+    <string name="clock_faces_wobble">ચાર્જ થતી વખતે ડગમગે</string>
+    <string name="clock_faces_wobble_summary">પ્લગ ઇન કરો ત્યારે એકવાર ઉછળે</string>
+    <string name="clock_faces_aod_anim">ઍલ્વેઝ-ઑન ડિસ્પ્લે સંક્રમણ</string>
+    <string name="clock_faces_aod_anim_summary">ઘડિયાળ સંકોચાઈને ઍલ્વેઝ-ઑન ડિસ્પ્લેમાં ઝાંખી થાય છે</string>
+    <string name="clock_faces_restart_title">લૉક સ્ક્રીન ફરી શરૂ કરીએ?</string>
+    <string name="clock_faces_restart_message">સિસ્ટમ ઘડિયાળ અને કસ્ટમ ચહેરા વચ્ચે બદલવાથી SystemUI ફરી શરૂ થશે. સ્ક્રીન એક સેકન્ડ માટે કાળી થશે.</string>
+    <string name="clock_faces_note">પૂર્વાવલોકન તમારા લૉક સ્ક્રીન વૉલપેપર પર SystemUI દ્વારા દોરવામાં આવે છે. રંગ, કદ અને સ્થાન તરત જ લૉક સ્ક્રીન બદલે છે.</string>
 </resources>

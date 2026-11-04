@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="volume_page_title">വോളിയം പാനൽ</string>
+    <string name="volume_page_summary">നിയോൺ, ഗ്ലാസ്, പിൽ അല്ലെങ്കിൽ ക്ലാസിക് RR</string>
+    <string name="volume_behavior">പെരുമാറ്റം</string>
+    <string name="volume_on_left_title">പാനൽ ഇടതുവശത്ത്</string>
+    <string name="volume_on_left_summary">ക്ലാസിക് RR എപ്പോഴും മുകളിലാണ്</string>
+    <string name="volume_ringer_title">റിംഗർ മോഡ് ബട്ടൺ</string>
+    <string name="volume_tick_title">സ്ലൈഡ് ചെയ്യുമ്പോൾ ടിക്ക്</string>
+    <string name="volume_percent_title">ലെവൽ ശതമാനത്തിൽ കാണിക്കുക</string>
+    <string name="volume_timeout_title">ഇതിനുശേഷം മറയ്ക്കുക</string>
+    <string name="volume_footer">ലുക്ക് മാറ്റുന്നത് പാനലിന്റെ രൂപം മാത്രമാണ്, പ്രവർത്തനം മാറ്റില്ല. ആൻഡ്രോയിഡിന്റെ സാധാരണ പാനൽ നിലനിൽക്കും. എല്ലാ സ്ട്രീമുകളും കാണാൻ ഡോട്ടുകളിൽ ടാപ് ചെയ്യുക; വികസിപ്പിച്ച പാനലും ഇതേ ലുക്ക് ഉപയോഗിക്കുന്നു.</string>
+</resources>

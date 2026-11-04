@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Halqa sinxronlash</string>
+    <string name="ring_sync_tap">Halqa belgi bilan mos kelganda bosing</string>
+    <string name="ring_sync_best">Eng yaxshi <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">MUKAMMAL</string>
+    <string name="ring_sync_new_best">Yangi eng yaxshi natija</string>
+    <string name="ring_sync_again">Qayta o‘ynash uchun bosing</string>
+    <string name="ring_sync_ember">Ember urg‘u rangi ochildi</string>
+    <string name="ring_sync_use_ember">Ember‘dan foydalanish</string>
+    <string name="ring_sync_android">Android‘ning pasxa tuxumi</string>
+    <string name="ring_sync_vibrate_on">Zarbalarda tebranish · Yoqilgan</string>
+    <string name="ring_sync_vibrate_off">Zarbalarda tebranish · O‘chirilgan</string>
+    <string name="accent_ember">Cho‘g‘</string>
+</resources>

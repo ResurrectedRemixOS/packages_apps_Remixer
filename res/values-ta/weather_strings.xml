@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"விவரங்கள்"</string>
     <string name="lockscreen_weather_location_title">"இருப்பிடம்"</string>
+    <string name="lockscreen_weather_title">பூட்டுத் திரையில் வானிலை</string>
+    <string name="lockscreen_weather_location_summary">நகரின் பெயரைக் காட்டு</string>
+    <string name="lockscreen_weather_text_title">நிலை</string>
+    <string name="lockscreen_weather_text_summary">மேகமூட்டம் அல்லது தெளிவான வானம் போன்ற நிலையைக் காட்டு</string>
+    <string name="lockscreen_weather_wind_title">காற்று</string>
+    <string name="lockscreen_weather_wind_summary">காற்றின் வேகத்தையும் திசையையும் காட்டு</string>
+    <string name="lockscreen_weather_humidity_title">ஈரப்பதம்</string>
+    <string name="lockscreen_weather_humidity_summary">ஈரப்பதத்தைக் காட்டு</string>
+    <string name="custom_clock_weather_title">கடிகார முகங்களில் வானிலை</string>
+    <string name="custom_clock_weather_summary">இடம் உள்ள கடிகார முகங்களுக்குள் வானிலையைக் காட்டு</string>
+    <string name="remixer_weather_service">வானிலை சேவை</string>
+    <string name="remixer_weather_page_summary">பூட்டுத் திரை வானிலையும் அது காட்டுவதும்</string>
 </resources>

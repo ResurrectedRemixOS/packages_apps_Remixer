@@ -3,4 +3,34 @@
     <string name="sb_clock_date_title">"تاریخ"</string>
     <string name="sb_weather_category">آب و هوا</string>
     <string name="sb_weather_position_title">موقعیت</string>
+    <string name="sb_clock_category">ساعت و تاریخ</string>
+    <string name="sb_clock_bold_title">ساعت پررنگ</string>
+    <string name="sb_clock_bold_summary">نمایش ساعت نوار وضعیت به‌صورت پررنگ</string>
+    <string name="sb_clock_period_separator_title">جداکننده بخش زمان</string>
+    <string name="sb_clock_period_separator_summary">۱۰.۴۵ به‌جای ۱۰:۴۵</string>
+    <string name="sb_clock_date_position_title">موقعیت تاریخ</string>
+    <string name="sb_clock_date_style_title">حروف تاریخ</string>
+    <string name="sb_clock_date_format_title">قالب تاریخ</string>
+    <string name="sb_clock_chip_category">پس‌زمینه ساعت</string>
+    <string name="sb_clock_chip_title">سبک پس‌زمینه</string>
+    <string name="sb_clock_chip_start_title">شروع گرادیان</string>
+    <string name="sb_clock_chip_end_title">پایان گرادیان</string>
+    <string name="sb_clock_chip_angle_title">زاویه گرادیان</string>
+    <string name="sb_clock_chip_mask_title">زمان را از گرادیان برش بده</string>
+    <string name="sb_clock_chip_mask_summary">گرادیان به‌جای پشت ارقام، از داخل آن‌ها دیده می‌شود</string>
+    <string name="sb_weather_title">آب‌وهوا در نوار وضعیت</string>
+    <string name="status_bar_clock_rr_style_title">ظاهر ساعت</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"پیش‌فرض"</item>
+        <item>نئونی</item>
+        <item>تقسیم‌شده</item>
+        <item>نشان RR</item>
+        <item>تک‌فاصله</item>
+        <item>Pulse</item>
+        <item>روی هم</item>
+        <item>اخگر</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline کنار ساعت</string>
+    <string name="sb_clock_flatline_summary">خط ضربان قلب RR داخل تراشه: با موسیقی می‌تپد، با رسیدن اعلان اوج می‌گیرد</string>
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">ನಿಮ್ಮ ಪ್ರತಿ ಮೋಡ್‌ಗೆ ಒಂದು ನೋಟ್</string>
+    <string name="remix_modes_everyday">ದೈನಂದಿನ ನೋಟ್</string>
+    <string name="remix_modes_everyday_summary">ನೋಟ್ ಇರುವ ಯಾವ ಮೋಡ್ ಆನ್ ಇಲ್ಲದಿದ್ದಾಗ ಮರಳುತ್ತದೆ</string>
+    <string name="remix_modes_wallpaper">ವಾಲ್‌ಪೇಪರ್ ನೋಟ್ ಅನ್ನು ಅನುಸರಿಸುತ್ತದೆ</string>
+    <string name="remix_modes_wallpaper_summary">ಮೋಡ್ ವಾಲ್‌ಪೇಪರ್ ಅನ್ನೂ ಬದಲಿಸಬಹುದು</string>
+    <string name="remix_modes_modes">ನಿಮ್ಮ ಮೋಡ್‌ಗಳು</string>
+    <string name="remix_modes_no_change">ಬದಲಾವಣೆ ಇಲ್ಲ</string>
+    <string name="remix_modes_none">ಮೊದಲು ಥೀಮ್ › ನೋಟ್‌ಗಳಲ್ಲಿ ಒಂದು ನೋಟ್ ಉಳಿಸಿ</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g> ಗಾಗಿ ನೋಟ್</string>
+</resources>

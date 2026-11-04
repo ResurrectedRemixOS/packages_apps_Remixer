@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">Хэзээ</string>
+    <string name="nightstand_title">Орны цаг</string>
+    <string name="nightstand_summary">Шөнө цэнэглэгчид залгаатай үед унтлагын ойрын цагийг бүдгэрүүлж үргэлж асаалттай дэлгэцэнд харуулна</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Унтраалттай"</item>
+        <item>Шөнө цэнэглэгчид залгагдсан үед</item>
+        <item>Өдөр бүр, хуваарийн дагуу</item>
+        <item>Унтахын горим асаалттай үед</item>
+    </string-array>
+    <string name="nightstand_from">Шөнө эхэлнэ</string>
+    <string name="nightstand_to">Шөнө дуусна</string>
+    <string name="nightstand_brightness">Гэрлийн дээд хязгаар</string>
+    <string name="nightstand_brightness_summary">Орны цагийг асаасан үед үргэлж асаалттай дэлгэц хэр тодорхойд хүрэхийг</string>
+    <string name="nightstand_face">Цагны загвар</string>
+    <string name="nightstand_face_keep">Одоогийн загварыг хадгалах</string>
+    <string name="nightstand_footer">Орны цаг ажиллах үед үргэлж асаалттай дэлгэцийг асаана, дараа нь буцааж тавина. Цэнэглэгч салах, сэрүүлэг дуугарах эсвэл шөнө дуусах үед зогсоно. Энэ дэлгэц нь хоёр захиалгат загварын хооронд л солигдоно; системийн цаг хэвээр үлдэнэ.</string>
 </resources>

@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">실수로 화면 켜기 방지</string>
+    <string name="lockscreen_battery_info_title">충전 정보</string>
+    <string name="lockscreen_battery_info_summary">충전 중 전류, 와트, 전압 및 배터리 온도를 표시합니다</string>
+    <string name="charging_ring_title">SuperVOOC 충전 애니메이션</string>
+    <string name="charging_ring_summary">충전기를 연결하면 충전 링과 속도를 표시합니다</string>
+    <string name="pocket_mode_summary">근접 센서가 가려져 있는 동안 화면이 켜지지 않으며 터치도 무시됩니다</string>
+    <string name="screen_on_time_title">화면 켜짐 시간</string>
+    <string name="screen_on_time_summary">충전 중 잠금 화면과 배터리 세이버 타일에 마지막 완충 이후의 화면 켜짐 시간을 표시합니다</string>
 </resources>

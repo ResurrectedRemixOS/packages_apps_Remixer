@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"ნაგულისხმევი"</string>
     <string name="clock_faces_size">"ზომა"</string>
     <string name="clock_faces_restart">"გადატვირთვა"</string>
+    <string name="remixer_clock_faces">საათის ციფერბლატები</string>
+    <string name="clock_faces_system">სისტემური საათი</string>
+    <string name="clock_faces_system_desc">საათი Wallpaper &amp; style-იდან</string>
+    <string name="clock_faces_position">%1$d / %2$d</string>
+    <string name="clock_faces_applied">გამოყენებულია</string>
+    <string name="clock_faces_preview_unavailable">გადახედვა მიუწვდომელია</string>
+    <string name="clock_faces_failed">საათის შეცვლა ვერ მოხერხდა</string>
+    <string name="clock_faces_color_accent">აქცენტი</string>
+    <string name="clock_faces_color_custom">მორგებული</string>
+    <string name="clock_faces_color_album">ალბომის ყდა</string>
+    <string name="clock_faces_color_gradient">გრადიენტი</string>
+    <string name="clock_faces_own_colors">ეს ციფერბლატი თავის ფერებს ინარჩუნებს.</string>
+    <string name="clock_faces_album_hint">მუსიკის დაკვრისას ფერს ალბომის ყდიდან იღებს.</string>
+    <string name="clock_faces_size_position">ზომა და პოზიცია</string>
+    <string name="clock_faces_size_value">ზომა · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">დაშორება ზედა კიდიდან</string>
+    <string name="clock_faces_top_value">დაშორება ზედა კიდიდან · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">ჰორიზონტალური პოზიცია</string>
+    <string name="clock_faces_horizontal_center">ჰორიზონტალური პოზიცია · ცენტრი</string>
+    <string name="clock_faces_horizontal_right">ჰორიზონტალური პოზიცია · <xliff:g id="dp" example="24">%1$d</xliff:g> dp მარჯვნივ</string>
+    <string name="clock_faces_horizontal_left">ჰორიზონტალური პოზიცია · <xliff:g id="dp" example="24">%1$d</xliff:g> dp მარცხნივ</string>
+    <string name="clock_faces_horizontal_fixed">ეს ციფერბლატი ცენტრში რჩება.</string>
+    <string name="clock_faces_opacity">გამჭვირვალობა</string>
+    <string name="clock_faces_opacity_value">გაუმჭვირვალობა · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">მოძრაობა</string>
+    <string name="clock_faces_wobble">დატენვისას რხევა</string>
+    <string name="clock_faces_wobble_summary">დაერთებისას ერთხელ აიჭრება</string>
+    <string name="clock_faces_aod_anim">მუდმივი ეკრანის გადასვლა</string>
+    <string name="clock_faces_aod_anim_summary">საათი მუდმივ ეკრანზე მცირდება და ქრება</string>
+    <string name="clock_faces_restart_title">გადაიტვირთოს ჩაკეტილი ეკრანი?</string>
+    <string name="clock_faces_restart_message">სისტემურ საათსა და საკუთარ ციფერბლატებს შორის გადართვა SystemUI-ს გადატვირთავს. ეკრანი წამით გაქრება.</string>
+    <string name="clock_faces_note">გადახედვას SystemUI ხატავს თქვენს ჩაკეტილი ეკრანის ფონზე. ფერი, ზომა და პოზიცია ჩაკეტილ ეკრანზე მაშინვე შეიცვლება.</string>
 </resources>

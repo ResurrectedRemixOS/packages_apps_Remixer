@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">ริงซิงก์</string>
+    <string name="ring_sync_tap">แตะเมื่อวงตรงกับเครื่องหมาย</string>
+    <string name="ring_sync_best">ดีที่สุด <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">สมบูรณ์แบบ</string>
+    <string name="ring_sync_new_best">สถิติใหม่</string>
+    <string name="ring_sync_again">แตะเพื่อเล่นอีกครั้ง</string>
+    <string name="ring_sync_ember">ปลดล็อกสีเน้น Ember แล้ว</string>
+    <string name="ring_sync_use_ember">ใช้ Ember</string>
+    <string name="ring_sync_android">ไข่อีสเตอร์ของ Android</string>
+    <string name="ring_sync_vibrate_on">สั่นเมื่อโดน · เปิด</string>
+    <string name="ring_sync_vibrate_off">สั่นเมื่อโดน · ปิด</string>
+    <string name="accent_ember">ถ่านไฟ</string>
+</resources>

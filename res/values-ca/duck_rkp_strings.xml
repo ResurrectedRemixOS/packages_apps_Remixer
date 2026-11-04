@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Utilitza el RKP del dispositiu</string>
+    <string name="ts_rkp_enabled_summary">Utilitza un keybox generat. En importar un keybox, aquesta opció es desactiva.</string>
+    <string name="ts_rkp_provision">Genera un keybox</string>
+    <string name="ts_rkp_provision_summary">Sol·licita un keybox a Google mitjançant el servei d\'aprovisionament d\'aquest dispositiu. Requereix un firmware de Qualcomm compatible.</string>
+    <string name="ts_rkp_status">Estat de l\'aprovisionament</string>
+    <string name="ts_rkp_owner_only">Gestiona el RKP del dispositiu des del perfil del propietari</string>
+    <string name="ts_rkp_unavailable">El RKP del dispositiu no està disponible</string>
+    <string name="ts_rkp_imported">Desactivat mentre hi hagi un keybox importat instal·lat</string>
+    <string name="ts_rkp_disabled">Desactivat. Activa el RKP del dispositiu per utilitzar o generar un keybox.</string>
+    <string name="ts_rkp_idle">Preparat per sol·licitar un keybox</string>
+    <string name="ts_rkp_fetching">S\'està obtenint un desafiament d\'aprovisionament…</string>
+    <string name="ts_rkp_hardware">S\'està esperant el servei d\'aprovisionament del dispositiu…</string>
+    <string name="ts_rkp_signing">S\'estan sol·licitant certificats a Google…</string>
+    <string name="ts_rkp_validating">S\'està validant i desant el keybox…</string>
+    <string name="ts_rkp_ready">Keybox generat actiu. Es renovarà automàticament abans del %1$s</string>
+    <string name="ts_rkp_keybox_stored">Keybox RKP del dispositiu desat</string>
+    <string name="ts_rkp_expired">El keybox generat ha caducat. Genera\'n un de nou.</string>
+    <string name="ts_rkp_hal_rejected">El firmware ha rebutjat la sol·licitud (codi %1$d). És possible que Duck V1 no sigui compatible.</string>
+    <string name="ts_rkp_http_error">El servidor d\'aprovisionament ha rebutjat la sol·licitud (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">El dispositiu no ofereix una interfície d\'aprovisionament V1 compatible</string>
+    <string name="ts_rkp_network_error">No s\'ha pogut connectar amb el servidor d\'aprovisionament. Comprova la connexió.</string>
+    <string name="ts_rkp_submission_unknown">S\'ha perdut la resposta del servidor. És possible que la sol·licitud s\'hagi processat; no s\'ha fet cap reintent automàtic.</string>
+    <string name="ts_rkp_invalid_chain">Els certificats del keybox no han superat la validació. S\'ha mantingut el keybox existent.</string>
+    <string name="ts_rkp_timeout">L\'aprovisionament ha esgotat el temps d\'espera. Si el servei del dispositiu continua ocupat, reinicia\'l abans de tornar-ho a intentar.</string>
+    <string name="ts_rkp_canceled">Sol·licitud cancel·lada perquè la configuració del keybox ha canviat</string>
+    <string name="ts_rkp_save_failed">No s\'ha pogut desar el keybox generat</string>
+    <string name="ts_rkp_action_failed">No s\'ha pogut completar l\'operació del keybox</string>
+</resources>

@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">پنل صدا</string>
+    <string name="volume_page_summary">نئونی، شیشه‌ای، قرص یا RR کلاسیک</string>
+    <string name="volume_behavior">رفتار</string>
+    <string name="volume_on_left_title">پنل سمت چپ</string>
+    <string name="volume_on_left_summary">RR کلاسیک همیشه بالا قرار می‌گیرد</string>
+    <string name="volume_ringer_title">دکمه حالت زنگ</string>
+    <string name="volume_tick_title">هنگام کشیدن کلیک بزن</string>
+    <string name="volume_percent_title">نمایش سطح به درصد</string>
+    <string name="volume_timeout_title">پنهان شدن پس از</string>
+    <string name="volume_footer">ظاهر، فقط شکل پنل را تغییر می‌دهد نه عملکرد آن. اندروید پنل استاندارد را نگه می‌دارد. برای دیدن همه جریان‌ها روی نقطه‌ها بزنید؛ پنل بازشده هم همین ظاهر را دارد.</string>
 </resources>

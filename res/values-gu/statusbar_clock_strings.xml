@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"તારીખ"</string>
     <string name="sb_weather_category">"હવામાન"</string>
+    <string name="sb_clock_category">ઘડિયાળ અને તારીખ</string>
+    <string name="sb_clock_bold_title">બોલ્ડ ઘડિયાળ</string>
+    <string name="sb_clock_bold_summary">સ્ટેટસ બારની ઘડિયાળ બોલ્ડમાં બતાવો</string>
+    <string name="sb_clock_period_separator_title">સમય વિભાજક</string>
+    <string name="sb_clock_period_separator_summary">10:45ને બદલે 10.45</string>
+    <string name="sb_clock_date_position_title">તારીખનું સ્થાન</string>
+    <string name="sb_clock_date_style_title">તારીખનો કેસ</string>
+    <string name="sb_clock_date_format_title">તારીખનું ફૉર્મેટ</string>
+    <string name="sb_clock_chip_category">ઘડિયાળની પૃષ્ઠભૂમિ</string>
+    <string name="sb_clock_chip_title">પૃષ્ઠભૂમિ શૈલી</string>
+    <string name="sb_clock_chip_start_title">ગ્રેડિયન્ટ શરૂઆત</string>
+    <string name="sb_clock_chip_end_title">ગ્રેડિયન્ટ અંત</string>
+    <string name="sb_clock_chip_angle_title">ગ્રેડિયન્ટ ખૂણો</string>
+    <string name="sb_clock_chip_mask_title">ગ્રેડિયન્ટમાંથી સમય કાપો</string>
+    <string name="sb_clock_chip_mask_summary">ગ્રેડિયન્ટ અંકોની પાછળ નહીં, અંકોમાંથી દેખાય છે</string>
+    <string name="sb_weather_title">સ્ટેટસ બારમાં હવામાન</string>
+    <string name="sb_weather_position_title">સ્થાન</string>
+    <string name="status_bar_clock_rr_style_title">ઘડિયાળનો દેખાવ</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"ડિફૉલ્ટ"</item>
+        <item>નિયૉન</item>
+        <item>વિભાજિત</item>
+        <item>RR ચિહ્ન</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>ઉપર-નીચે</item>
+        <item>એમ્બર</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">સમય પાસે Flatline</string>
+    <string name="sb_clock_flatline_summary">RRની હાર્ટબીટ રેખા ચિપની અંદર: સંગીત સાથે ધબકે છે, નોટિફિકેશન આવે ત્યારે ઉછાળો મારે છે</string>
 </resources>

@@ -12,4 +12,22 @@
     <string name="rr_about_this_phone">"הטלפון הזה"</string>
     <string name="rr_about_network">"רשת"</string>
     <string name="rr_about_hidden">מוסתר</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">רשמי</string>
+    <string name="rr_about_unofficial">לא רשמי</string>
+    <string name="rr_about_vanilla">Vanilla</string>
+    <string name="rr_about_hardware">חומרה</string>
+    <string name="rr_about_processor">מעבד</string>
+    <string name="rr_about_processor_sub">%1$d ליבות · עד %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d ליבות</string>
+    <string name="rr_about_storage_used">בשימוש: %1$s</string>
+    <string name="rr_about_display">תצוגה</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · בטעינה</string>
+    <string name="rr_about_kernel_linux">ליבת Linux</string>
+    <string name="rr_about_software_purpose">גרסת Android, עדכון אבטחה, תאריך הבנייה ומספר הבנייה</string>
+    <string name="rr_about_maintainer">מתחזק</string>
+    <string name="rr_about_show">הצג</string>
+    <string name="rr_about_hide">הסתר</string>
 </resources>

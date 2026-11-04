@@ -87,4 +87,199 @@
     <string name="wallpaper_apply_lock">"Zaključani zaslon"</string>
     <string name="remixer_settings_style_original">"Izvornik"</string>
     <string name="remixer_navbar_category">"Navigacijska traka"</string>
+    <string name="remixer_dashboard_summary">Statusna traka, tema, zaključani zaslon i još</string>
+    <string name="rr_homepage_battery_saver">Štednja baterije</string>
+    <string name="rr_homepage_personalize">Personaliziraj</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> slobodno</string>
+    <string name="rr_homepage_charged">Potpuno napunjeno</string>
+    <string name="rr_homepage_on_battery">Na bateriji</string>
+    <string name="rr_homepage_saver_on">Štednja baterije uključena</string>
+    <string name="rr_homepage_extras">Dodatne postavke</string>
+    <string name="rr_homepage_saver">Štednja</string>
+    <string name="rr_homepage_signed_out">Niste prijavljeni</string>
+    <string name="rr_homepage_remixer_tagline">Prilagodite po svom. Statusna traka, tema, zaključani zaslon i još.</string>
+    <string name="rr_homepage_device_tagline">Klizač upozorenja, zaslon, punjenje i GameBar.</string>
+    <string name="rr_homepage_device_action">Podesi</string>
+    <string name="rr_group_network">Mreža i uređaji</string>
+    <string name="rr_group_network_summary">Wi‑Fi, mobilna mreža, Bluetooth</string>
+    <string name="rr_group_apps_summary">Aplikacije, obavijesti, načini rada</string>
+    <string name="rr_group_display">Zaslon i zvuk</string>
+    <string name="rr_group_display_summary">Zaslon, pozadina, zvuk</string>
+    <string name="rr_group_security_summary">Zaključavanje, lokacija, hitni slučaj</string>
+    <string name="rr_group_security_center">Sigurnosni centar</string>
+    <string name="rr_group_accounts">Google i računi</string>
+    <string name="rr_group_accounts_summary">Google, lozinke, sigurnosna kopija</string>
+    <string name="rr_group_accounts_plain_summary">Lozinke, računi, sigurnosna kopija</string>
+    <string name="rr_group_system_summary">Jezici, geste, ažuriranja</string>
+    <string name="remixer_tagline">Prilagodite po svom.</string>
+    <string name="remixer_remix">Preradi</string>
+    <string name="remixer_remixed">Preređeno s <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Nijansa · Zadano</string>
+    <string name="remixer_quick">Brza preradba</string>
+    <string name="remixer_everything">Sve</string>
+    <string name="remixer_quick_accents">Unaprijed postavljeno ili bilo koja boja</string>
+    <string name="remixer_quick_fonts">Stilovi sistemskog fonta</string>
+    <string name="remixer_quick_walls">RR zbirka</string>
+    <string name="remixer_quick_header">Zaglavlje brzih postavki</string>
+    <string name="remixer_quick_header_summary">Slike zaglavlja</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Sat, baterija, ikone i mrežni promet</string>
+    <string name="remixer_qs_summary">Slika zaglavlja</string>
+    <string name="remixer_notifications_summary">Rubno osvjetljenje, ikone aplikacija i zvukovi punjenja</string>
+    <string name="remixer_theme_summary">Fontovi, naglasci i pozadine</string>
+    <string name="remixer_lockscreen_summary">UDFPS, informacije o punjenju i vremenska prognoza</string>
+    <string name="remixer_udfps_icon">UDFPS ikona</string>
+    <string name="remixer_udfps_icon_summary">Prikazuje se iznad senzora otiska prsta</string>
+    <string name="remixer_udfps_animation">UDFPS animacija</string>
+    <string name="remixer_udfps_animation_summary">Reproducira se dok je prst na senzoru</string>
+    <string name="remixer_navigation_summary">Pulse, tipke i navigacijska traka</string>
+    <string name="remixer_misc_summary">Glasnoća, sigurnosna kopija, lažno predstavljanje, pomicanje i USB</string>
+    <string name="scroll_haptics_title">Dodir na kraju pomicanja</string>
+    <string name="scroll_haptics_summary">Lagana vibracija kada se popis ili stranica ne mogu dalje pomicati</string>
+    <string name="usb_mode_picker_title">Izbornik USB načina</string>
+    <string name="usb_mode_picker_summary">Odaberite način rada pri priključivanju na računalo</string>
+    <string name="remixer_fonts_summary">Sistemski font</string>
+    <string name="remixer_wallpapers_summary">Pozadine Resurrected Remix</string>
+    <string name="remixer_accents">Naglasci</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">Glazbeni vizualizator uz donji rub zaslona</string>
+    <string name="pulse_switch">Koristi Pulse</string>
+    <string name="pulse_switch_summary">Glazbene trake uz donji rub zaslona dok se reproducira medij</string>
+    <string name="pulse_style_lines">Linije</string>
+    <string name="pulse_style_fading">Blijeđenje</string>
+    <string name="pulse_style_blocks">Blokovi</string>
+    <string name="pulse_style_mirror">Zrcalo</string>
+    <string name="pulse_color_custom">Prilagođeno</string>
+    <string name="pulse_color_gradient">Duga</string>
+    <string name="pulse_bars">Trake</string>
+    <string name="pulse_bars_value">Trake · %1$d</string>
+    <string name="pulse_height">Visina</string>
+    <string name="pulse_height_value">Visina · %1$d dp</string>
+    <string name="pulse_opacity">Neprozirnost</string>
+    <string name="pulse_opacity_value">Neprozirnost · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Zadrži trake na zaključanom zaslonu dok svira glazba</string>
+    <string name="pulse_failed">Postavku Pulse nije moguće spremiti</string>
+    <string name="accent_applied">Naglasak primijenjen</string>
+    <string name="accent_current">Naglasak · %1$s</string>
+    <string name="accent_current_custom">Naglasak · Prilagođeno</string>
+    <string name="accent_preview_tonal">Tonalno</string>
+    <string name="accent_failed">Taj naglasak nije moguće primijeniti</string>
+    <string name="accent_custom">Prilagođeno</string>
+    <string name="accent_custom_summary">Radi bilo koja boja. Nijansa se i dalje primjenjuje.</string>
+    <string name="accent_custom_pad">Zasićenost i svjetlina</string>
+    <string name="accent_custom_use">Koristi <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">Nijansa</string>
+    <string name="accent_shade_darker">Tamnije</string>
+    <string name="accent_shade_lighter">Svjetlije</string>
+    <string name="accent_shade_darker_value">Tamnije · %1$d</string>
+    <string name="accent_shade_lighter_value">Svjetlije · %1$d</string>
+    <string name="remixer_qs_style">Stil brzih postavki</string>
+    <string name="remixer_qs_style_preview">Pregled · %1$s</string>
+    <string name="remixer_qs_style_note">Svaki stil slijedi vašu naglašenu boju. Ploča glasnoće ima odgovarajuće izglede Bento, Shapes, Blueprint, Duo i Soft. Stock Lineage zadržava pločice Androida 17 netaknutima.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Pločice Androida 17, nepromijenjene</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Svjetlina u kartici naglaska. Pločice se pune gradijentom naglaska</string>
+    <string name="remixer_qs_style_compact">Kompaktno</string>
+    <string name="remixer_qs_style_compact_summary">Niže pločice. Više njih na jednom zaslonu</string>
+    <string name="remixer_qs_style_glass">Staklo</string>
+    <string name="remixer_qs_style_glass_summary">Prozirne obrubljene pločice koje svjetle bojom naglaska kada su uključene</string>
+    <string name="remixer_qs_style_circles">Krugovi</string>
+    <string name="remixer_qs_style_circles_summary">Okrugle sklopke s oznakama. Široke pločice postaju kartice</string>
+    <string name="remixer_qs_style_classic">Klasično</string>
+    <string name="remixer_qs_style_classic_summary">Stari RR: goli simboli s oznakama, pet u nizu i tanki klizač</string>
+    <string name="remixer_qs_style_cards">Kartice</string>
+    <string name="remixer_qs_style_cards_summary">Velike kartice sa stanjem ispod svakog naziva, tri u nizu</string>
+    <string name="remixer_qs_style_neon">Neon</string>
+    <string name="remixer_qs_style_neon_summary">Obrubljene pločice koje svjetle bojom naglaska kada su uključene</string>
+    <string name="remixer_qs_style_bento_summary">Velike zaobljene blokove ispunjene naglaskom, oznake ispod malih</string>
+    <string name="remixer_qs_style_shapes">Oblici</string>
+    <string name="remixer_qs_style_shapes_summary">Okrugle sklopke koje rastu u režnjeve kada su uključene, pet u nizu</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Tanki obrisi i velika slova jednake širine</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Podijeljene pločice. Polovica s ikonom svijetli i uključuje se</string>
+    <string name="remixer_qs_style_soft">Soft</string>
+    <string name="remixer_qs_style_soft_summary">Uzdignute pločice koje se udubljuju kada su uključene</string>
+    <string name="remixer_lock_media_style">Stil medijskog playera</string>
+    <string name="remixer_lock_media_same">Isto kao brze postavke</string>
+    <string name="remixer_lock_media_same_summary">Slijedi vašu pločicu Medij u brzim postavkama, sada %1$s</string>
+    <string name="remixer_lock_media_off_summary">Nema playera na zaključanom zaslonu</string>
+    <string name="remixer_lock_media_note">Kartica se prikazuje na zaključanom zaslonu dok nešto svira. Prozirni stilovi dobivaju tamnu podlogu kako bi ostali čitljivi preko pozadine.</string>
+    <string name="remixer_lock_media_stock_summary">Naslovna slika ispunjava karticu</string>
+    <string name="remixer_lock_media_remix_summary">Tamna kartica, gumb reprodukcije u naglasku</string>
+    <string name="remixer_lock_media_compact_summary">Zaobljenija kartica, okrugla naslovna slika</string>
+    <string name="remixer_lock_media_glass_summary">Obrubljena prozirna kartica</string>
+    <string name="remixer_lock_media_circles_summary">Mekana kartica, gumb reprodukcije u naglasku</string>
+    <string name="remixer_lock_media_classic_summary">Kvadratnija kartica, obrubljeni gumb reprodukcije</string>
+    <string name="remixer_lock_media_cards_summary">Mekana kartica, gumb reprodukcije u naglasku, kao Krugovi</string>
+    <string name="remixer_lock_media_neon_summary">Crna kartica s obrubom u naglasku</string>
+    <string name="remixer_lock_media_bento_summary">Mekana kartica, gumb reprodukcije u naglasku</string>
+    <string name="remixer_lock_media_shapes_summary">Zaobljenija kartica, gumb reprodukcije u naglasku</string>
+    <string name="remixer_lock_media_blueprint_summary">Tanki obrub, obrubljeni gumb reprodukcije</string>
+    <string name="remixer_lock_media_duo_summary">Dvobojna kartica, gumb reprodukcije u naglasku</string>
+    <string name="remixer_lock_media_soft_summary">Uzdignuta kartica s kosim rubom</string>
+    <string name="remixer_headers">Slika zaglavlja</string>
+    <string name="remixer_headers_summary">Odaberite pozadinsku sliku za brze postavke</string>
+    <string name="header_switch">Koristi sliku zaglavlja</string>
+    <string name="header_switch_summary">Prikaži sliku iza brzih postavki</string>
+    <string name="header_source">Izvor</string>
+    <string name="header_source_collection">Zbirka</string>
+    <string name="header_collections_summary_daylight">Zaglavlje prati doba dana ili se izmjenjuje iz zbirke</string>
+    <string name="header_collections_summary_static">Otvorite zbirku, zatim dodirnite sliku za korištenje</string>
+    <string name="header_collections_empty">Nema instaliranih zbirki zaglavlja</string>
+    <string name="header_images_daylight">U ovoj zbirci</string>
+    <string name="header_photo_summary">Bilo koja fotografija ili animirani GIF iz galerije</string>
+    <string name="header_height">Visina</string>
+    <string name="header_height_value">Visina · %1$d dp</string>
+    <string name="header_shadow">Zatamnjenje</string>
+    <string name="header_shadow_value">Zatamnjenje · %1$d%%</string>
+    <string name="header_failed">Postavku zaglavlja nije moguće spremiti</string>
+    <string name="remixer_weather_summary">Usluga vremenske prognoze i jedinice</string>
+    <string name="font_preview_notification">Ovako će vaš telefon čitati.</string>
+    <string name="font_try_text">Isprobajte vlastiti tekst</string>
+    <string name="font_previewing">Pregled</string>
+    <string name="font_current">Trenutni font</string>
+    <string name="font_badge_current">Trenutno</string>
+    <string name="font_apply_done">Primijenjeno</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Zaslon</string>
+    <string name="font_filter_script">Pismo</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Font primijenjen</string>
+    <string name="font_failed">Taj font nije moguće primijeniti</string>
+    <string name="wallpaper_set">Pozadina postavljena</string>
+    <string name="wallpaper_apply_both">Oboje</string>
+    <string name="wallpaper_failed">Tu pozadinu nije moguće postaviti</string>
+    <string name="missing_app">Ta aplikacija nije instalirana</string>
+    <string name="remixer_spoofing">Lažno predstavljanje</string>
+    <string name="remixer_spoofing_summary">Play Integrity, identitet uređaja i lažno predstavljanje po aplikaciji</string>
+    <string name="remixer_settings_style">Stil postavki</string>
+    <string name="rr_maintainer">Održavatelj</string>
+    <string name="remixer_navbar_summary">Duljina, debljina i raspored trake</string>
+    <string name="remixer_navbar_pill_length">Duljina gestovne trake</string>
+    <string name="remixer_navbar_pill_thickness">Debljina gestovne trake</string>
+    <string name="remixer_navbar_pill_auto_hide">Postupno skrivanje gestovne trake</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Sakrij traku nakon nekoliko sekundi; vraća se kada dodirnete zaslon</string>
+    <string name="remixer_navbar_ime">Tipke tipkovnice</string>
+    <string name="remixer_navbar_ime_summary">Prikaži tipke za nazad i preklopnik tipkovnice ispod tipkovnice</string>
+    <string name="remixer_navbar_layout">Raspored tipki</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Kratko</item>
+        <item>Normalno</item>
+        <item>Dugo</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Najtanje</item>
+        <item>Tanje</item>
+        <item>Tanko</item>
+        <item>Normalno</item>
+        <item>Debelo</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Normalno</item>
+        <item>Kompaktno</item>
+        <item>"Pretežno slijeva"</item>
+        <item>"Pretežno zdesna"</item>
+    </string-array>
 </resources>

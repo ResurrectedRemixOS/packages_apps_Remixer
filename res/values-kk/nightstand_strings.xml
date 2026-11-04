@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">Қашан</string>
+    <string name="nightstand_title">Төсек үстелі</string>
+    <string name="nightstand_summary">Түнде зарядтағанда, әрқашан қосулы экранда тұнық қараңғы төсек сағаты</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Өшірулі"</item>
+        <item>Түнде зарядтағышта</item>
+        <item>Күн сайын, кесте бойынша</item>
+        <item>Ұйқы режимі қосулы кезде</item>
+    </string-array>
+    <string name="nightstand_from">Түн басталады</string>
+    <string name="nightstand_to">Түн аяқталады</string>
+    <string name="nightstand_brightness">Жарықтық шегі</string>
+    <string name="nightstand_brightness_summary">Төсек үстелі қосулы кезде әрқашан қосулы экран қаншалықты жарық болуы мүмкін</string>
+    <string name="nightstand_face">Сағат циферблаты</string>
+    <string name="nightstand_face_keep">Ағымдағы циферблатты сақтау</string>
+    <string name="nightstand_footer">Төсек үстелі жұмыс істеген кезде әрқашан қосулы экранды қосады, кейін оны қайтарады. Зарядтағыш ажыратылғанда, дабыл соғғанда немесе түн аяқталғанда тоқтайды. Циферблат тек екі теңшелген циферблат арасында ауысады; жүйелік сағат қалады.</string>
 </resources>

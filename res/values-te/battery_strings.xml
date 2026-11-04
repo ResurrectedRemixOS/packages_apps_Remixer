@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"బ్యాటరీ"</string>
     <string name="battery_style_title">"శైలి"</string>
+    <string-array name="battery_style_entries">
+        <item>పోర్ట్రెయిట్</item>
+        <item>"సర్కిల్"</item>
+        <item>చుక్కల వృత్తం</item>
+        <item>నియాన్ రింగ్</item>
+        <item>స్లిమ్ పిల్</item>
+        <item>పెద్ద శాతం</item>
+        <item>"వచనం పంపండి"</item>
+    </string-array>
+    <string name="battery_percent_title">శాతం</string>
+    <string-array name="battery_percent_entries">
+        <item>"దాచబడింది"</item>
+        <item>ఐకాన్ లోపల</item>
+        <item>దాని పక్కన</item>
+    </string-array>
+    <string name="battery_ring_color_title">నియాన్ రింగ్ రంగు</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. స్థాయి ప్రకారం అంటే 20%% పైన యాక్సెంట్, దిగువన ఎరుపు మరియు బ్యాటరీ సేవర్‌లో అంబర్.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>స్థాయి ప్రకారం</item>
+        <item>యాక్సెంట్</item>
+        <item>"తెలుపు రంగు"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">ఛార్జ్ అవుతున్నప్పుడు స్పార్క్</string>
+    <string name="battery_ring_tile_title">క్విక్ సెట్టింగ్స్ టైల్‌పై అదే రింగ్</string>
+    <string name="battery_ring_tile_summary">స్థాయి మరియు స్క్రీన్ ఆన్ సమయంతో</string>
 </resources>

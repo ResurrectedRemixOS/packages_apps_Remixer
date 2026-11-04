@@ -10,4 +10,24 @@
     <string name="rr_about_this_phone">"ଏହି ଫୋନ"</string>
     <string name="rr_about_network">"ନେଟ୍‌ୱର୍କ"</string>
     <string name="rr_about_hidden">"ଲୁଚିଯାଇଛି"</string>
+    <string name="rr_about_android">ଆଣ୍ଡ୍ରଏଡ %1$s</string>
+    <string name="rr_about_official">ଅଫିସିଆଲ</string>
+    <string name="rr_about_unofficial">ଅଫିସିଆଲ ନୁହେଁ</string>
+    <string name="rr_about_vanilla">ଭାନିଲା</string>
+    <string name="rr_about_hardware">ହାର୍ଡୱେର</string>
+    <string name="rr_about_processor">ପ୍ରୋସେସର</string>
+    <string name="rr_about_processor_sub">%1$d କୋର · %2$s GHz ପର୍ଯ୍ୟନ୍ତ</string>
+    <string name="rr_about_processor_cores">%1$d କୋର</string>
+    <string name="rr_about_storage_used">%1$s ବ୍ୟବହୃତ</string>
+    <string name="rr_about_display">ଡିସପ୍ଲେ</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · ଚାର୍ଜ ହେଉଛି</string>
+    <string name="rr_about_kernel_linux">Linux କର୍ଣ୍ଣେଲ</string>
+    <string name="rr_about_software_purpose">Android ସଂସ୍କରଣ, ସୁରକ୍ଷା ଅପଡେଟ, ବିଲ୍ଡ ତାରିଖ ଏବଂ ବିଲ୍ଡ ନମ୍ବର</string>
+    <string name="rr_about_security_patch">ସୁରକ୍ଷା ଅପଡେଟ</string>
+    <string name="rr_about_build_date">ବିଲ୍ଡ ତାରିଖ</string>
+    <string name="rr_about_maintainer">ମେଣ୍ଟେନର</string>
+    <string name="rr_about_show">ଦେଖାନ୍ତୁ</string>
+    <string name="rr_about_hide">ଲୁଚାନ୍ତୁ</string>
 </resources>

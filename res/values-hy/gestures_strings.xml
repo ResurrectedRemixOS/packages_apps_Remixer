@@ -8,4 +8,50 @@
         <item>"Միջին"</item>
         <item>"Մեծ"</item>
     </string-array>
+    <string name="pie_title">Պիցայի կառավարում</string>
+    <string name="pie_summary">Պահեք եզրի ներքևի մասը՝ դյուրանցումների պիցա բացելու համար</string>
+    <string name="pie_zone">Եզրի մի մասը</string>
+    <string name="pie_clock">Ժամացույցը և մարտկոցը դրա վերևում</string>
+    <string name="pie_items">Հատվածներ</string>
+    <string-array name="pie_items_entries">
+        <item>"Հետ"</item>
+        <item>Հիմնական</item>
+        <item>"Վերջինները"</item>
+        <item>"Ծանուցումներ"</item>
+        <item>"Լապտեր"</item>
+        <item>"Սքրինշոթ"</item>
+        <item>"Սնուցման կոճակի ընտրացանկ"</item>
+        <item>"Օգնական"</item>
+        <item>"Տեսախցիկ"</item>
+    </string-array>
+    <string name="pie_footer">Պահանջվում է քառորդ վայրկյան անշարժ պահել, որպեսզի արագ սահքը եզրից դեռ վերադարձնի։ Կողպէկրանին չի բացվում։</string>
+    <string-array name="pie_edges_entries">
+        <item>"Ձախ"</item>
+        <item>"Աջ"</item>
+        <item>Երկուսը</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Ներքևի երրորդ</item>
+        <item>Միջին</item>
+        <item>Ամբողջ եզրը</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Նեոն</item>
+        <item>Ապակե</item>
+        <item>Դասական</item>
+    </string-array>
+    <string name="sidebar_style_title">Հավելվածների կողային վահանակի տեսք</string>
+    <string-array name="sidebar_style_entries">
+        <item>Դասական</item>
+        <item>RR ապակի</item>
+        <item>Նեոն</item>
+    </string-array>
+    <string name="sidebar_settings_title">Հավելվածների կողային վահանակ</string>
+    <string name="sidebar_settings_summary">Սահեցրեք ձողիկից՝ ձեր հավելվածներն ու գործիքները տեսնելու համար</string>
+    <string name="sidebar_apps_title">Հավելվածներ, ձողիկ և սեղմատախտակ</string>
+    <string name="sidebar_apps_summary">Միացրեք ձողիկը, ընտրեք հավելվածները և կարգավորեք խելացի սեղմատախտակը</string>
+    <string name="sidebar_handle_size_title">Ձողիկի չափ</string>
+    <string name="sidebar_tools_title">Գործիքների շարք</string>
+    <string name="sidebar_tools_summary">Սքրինշոթ և լապտեր ձեր հավելվածների տակ</string>
+    <string name="sidebar_footer">Ձողիկը ձեր ակցենտի բարակ գիծ է․ քաշեք այն՝ եզրի երկայնքով տեղափոխելու համար։ Ժեստային նավիգացիայի դեպքում այն ծածկում է միայն իր մասը, իսկ հետ գնալը աշխատում է մնացած ամբողջ եզրում։</string>
 </resources>

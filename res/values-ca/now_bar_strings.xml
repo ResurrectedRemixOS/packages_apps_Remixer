@@ -10,4 +10,98 @@
     <string name="now_bar_music_category">"Música"</string>
     <string name="now_bar_buttons">Botons</string>
     <string name="now_bar_text_size">"Mida del text"</string>
+    <string name="now_bar_summary">Activitats en directe a la part inferior de la pantalla de bloqueig</string>
+    <string name="now_bar_show">Mostra</string>
+    <string name="now_bar_music">Música i vídeo</string>
+    <string name="now_bar_timers">Temporitzadors, cronòmetre i alarmes</string>
+    <string name="now_bar_hide_call">Amaga la notificació de trucada</string>
+    <string name="now_bar_hide_call_summary">A la pantalla de bloqueig, una trucada a la Now Bar no apareix també com a notificació</string>
+    <string name="now_bar_live">Actualitzacions en directe</string>
+    <string name="now_bar_live_summary">Navegació, trajectes, entregues, marcadors</string>
+    <string name="now_bar_scores">Marcadors en directe</string>
+    <string name="now_bar_live_apps">Aplicacions per a les actualitzacions en directe</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> aplicacions</string>
+    <string name="now_bar_pin">Fixades a la pantalla sempre activa</string>
+    <string name="now_bar_unpin_question">Vols desfixar <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Desfixa</string>
+    <string name="now_bar_scores_summary">Jocs que segueixes a At a Glance</string>
+    <string name="now_bar_recording">Gravació de pantalla i de veu</string>
+    <string name="now_bar_buds">Auriculars i rellotges</string>
+    <string name="now_bar_buds_summary">Bateria d\'un dispositiu connectat: esquerra, dreta i estoig dels auriculars</string>
+    <string name="now_bar_wave">Animació d\'ona</string>
+    <string name="now_bar_aod">Mostra a la pantalla sempre activa</string>
+    <string name="now_bar_chip">Xip a la barra d\'estat</string>
+    <string name="now_bar_chip_summary">Reproducció de música i temporitzadors al costat del rellotge mentre està desbloquejat</string>
+    <string name="now_bar_footer">Amb música a la Now Bar, el reproductor gran de la pantalla de bloqueig s\'amaga. Llisca la barra per canviar entre activitats, toca-la per obrir els controls i mantén-la premuda per amagar una activitat fins que acabi. Llisca una cançó pausada fora de la barra per esborrar-la.\n\nLes puntuacions en directe mostren els partits dels equips que segueixes a l\'aplicació de Google. Amb Smartspacer, afegeix-hi un objectiu d\'esports i les puntuacions apareixeran aquí.</string>
+    <string name="now_bar_looks">Aspectes</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Predeterminat"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Gran</item>
+        <item>Neó</item>
+        <item>Targeta de vidre</item>
+    </string-array>
+    <string name="now_bar_material">Material</string>
+    <string name="now_bar_material_summary">Liquid Glass usa el vidre que has definit a Tema</string>
+    <string-array name="now_bar_material_entries">
+        <item>Sòlid</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string name="now_bar_color">Color</string>
+    <string-array name="now_bar_color_entries">
+        <item>Caràtula de l\'àlbum</item>
+        <item>Accent</item>
+        <item>Fosc</item>
+    </string-array>
+    <string name="now_bar_opacity">Opacitat</string>
+    <string name="now_bar_opacity_summary">Amb Liquid Glass, quant de color tenyeix el vidre</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Cap"</item>
+        <item>Fi</item>
+        <item>Accent</item>
+    </string-array>
+    <string name="now_bar_shadow">Ombra</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Desactivat"</item>
+        <item>Suau</item>
+        <item>Brillantor</item>
+    </string-array>
+    <string name="now_bar_more">Més activitats</string>
+    <string-array name="now_bar_more_entries">
+        <item>Només llisca</item>
+        <item>Punts</item>
+        <item>Mira darrere</item>
+    </string-array>
+    <string name="now_bar_size">Mida i forma</string>
+    <string name="now_bar_height">Alçada</string>
+    <string name="now_bar_width_summary">Full mou els accessos directes per sobre de la barra</string>
+    <string-array name="now_bar_width_entries">
+        <item>Estret</item>
+        <item>Entre accessos directes</item>
+        <item>Completa</item>
+    </string-array>
+    <string name="now_bar_corners">Cantons</string>
+    <string name="now_bar_raise">Elevat</string>
+    <string name="now_bar_art">Caràtula de l\'àlbum</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Cercle"</item>
+        <item>Arrodonit</item>
+        <item>"Quadrat"</item>
+        <item>"Desactivat"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Salta i reprodueix</item>
+        <item>Només reproducció</item>
+        <item>"Cap"</item>
+    </string-array>
+    <string name="now_bar_text">Text</string>
+    <string-array name="now_bar_text_entries">
+        <item>Una línia</item>
+        <item>Dues línies</item>
+        <item>Només la cançó</item>
+    </string-array>
+    <string name="now_bar_show_page">Què es mostra a la barra</string>
+    <string name="now_bar_show_page_summary">Música i vídeo, temporitzadors, trucades i més</string>
+    <string name="now_bar_where">Què més</string>
 </resources>

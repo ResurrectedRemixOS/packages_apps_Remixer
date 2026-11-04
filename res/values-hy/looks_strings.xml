@@ -15,4 +15,54 @@
     <string name="looks_save_look">"Պահել"</string>
     <string name="looks_custom_color">"Հատուկ գույն"</string>
     <string name="looks_part_clock_color">"Ժամ․ գույնը"</string>
+    <string name="looks_title">Տեսքեր</string>
+    <string name="looks_summary">Ձեր ամբողջ կարգավորումը մեկ հպումով</string>
+    <string name="looks_rr">RR տեսքեր</string>
+    <string name="looks_yours">Ձեր տեսքերը</string>
+    <string name="looks_none">Դեռ ոչինչ չի պահպանված</string>
+    <string name="looks_save">Պահել ընթացիկը</string>
+    <string name="looks_import_clipboard">Clipboard-ից</string>
+    <string name="looks_import_file">Ֆայլից</string>
+    <string name="looks_mine">Իմ տեսքը</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> կիրառված է</string>
+    <string name="looks_failed">Ամբողջը չհաջողվեց կիրառել</string>
+    <string name="looks_invalid">Սա RR տեսք չէ</string>
+    <string name="looks_part_accent">Շեշտադրման գույն</string>
+    <string name="looks_part_qs">Արագ կարգավորումների ոճ</string>
+    <string name="looks_part_clock_face">Կողպէկրանի ժամացույցի ձևը</string>
+    <string name="looks_part_clock_look">Կարգավիճակի գոտու ժամացույց</string>
+    <string name="looks_part_edge">Եզրերի լուսավորում</string>
+    <string name="looks_part_boot">Բեռնման անիմացիա</string>
+    <string name="looks_part_haptics">Haptic Remix օրինաչափություններ</string>
+    <string name="looks_saturation">Հագեցվածություն <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Շեշտ</string>
+    <string name="looks_share_title">Կիսել «<xliff:g id="name" example="Neon night">%1$s</xliff:g>»</string>
+    <string name="looks_share_hint">Սկանավորեք մեկ այլ RR հեռախոսի տեսախցիկով կամ Տեսքեր › Ներմուծել</string>
+    <string name="looks_share_file">Կիսել ֆայլը</string>
+    <string name="looks_save_file">Պահել ֆայլը</string>
+    <string name="looks_import_scan">Սկանավորել QR կոդ</string>
+    <string name="looks_import_title">Ներմուծել տեսք</string>
+    <string name="looks_from_qr">QR կոդից</string>
+    <string name="looks_from_file">ֆայլից</string>
+    <string name="looks_from_clipboard">clipboard-ից</string>
+    <string name="looks_import_same">Արդեն համապատասխանում է ձեր կարգավորմանը։</string>
+    <string name="looks_new">Նոր տեսք</string>
+    <string name="looks_edit_title">Փոփոխել տեսքը</string>
+    <string name="looks_in_look">Այս տեսքում</string>
+    <string name="looks_not_included">Այս տեսքում չկա</string>
+    <string name="looks_save_apply">Պահպանել և կիրառել</string>
+    <string name="looks_saved">«<xliff:g id="name" example="Sunday">%1$s</xliff:g>»-ը պահպանվեց</string>
+    <string name="looks_delete_confirm">Ջնջե՞լ «<xliff:g id="name" example="Sunday">%1$s</xliff:g>»-ը:</string>
+    <string name="looks_rr_wallpaper">RR պաստառ <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Շեշտի հագեցվածություն</string>
+    <string name="looks_part_clock_chip">Կարգավիճակի գոտու ժամացույցի չիպ</string>
+    <string name="looks_part_edge_style">Եզրերի լուսավորության ոճ</string>
+    <string name="looks_scan_hint">Ուղղեք տեսախցիկը Look-ի QR կոդին</string>
+    <string name="looks_scan_failed">Չհաջողվեց բացել տեսախցիկը</string>
+    <string name="look_roulette_title">Look-ի ռուլետ</string>
+    <string-array name="look_roulette_entries">
+        <item>"Անջատված է"</item>
+        <item>Յուրաքանչյուր ապակողպումից նոր Look</item>
+        <item>Յուրաքանչյուր օր նոր Look</item>
+    </string-array>
 </resources>

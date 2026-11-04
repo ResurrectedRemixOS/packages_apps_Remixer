@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Xehetasunak"</string>
     <string name="lockscreen_weather_location_title">"Kokapena"</string>
+    <string name="lockscreen_weather_title">Eguraldia desblokeo-pantailan</string>
+    <string name="lockscreen_weather_location_summary">Erakutsi hiriaren izena</string>
+    <string name="lockscreen_weather_text_title">Egoera</string>
+    <string name="lockscreen_weather_text_summary">Erakutsi egoera, adibidez Hodeitsua edo Zeru garbia</string>
+    <string name="lockscreen_weather_wind_title">Haizea</string>
+    <string name="lockscreen_weather_wind_summary">Erakutsi haizearen abiadura eta norabidea</string>
+    <string name="lockscreen_weather_humidity_title">Hezetasuna</string>
+    <string name="lockscreen_weather_humidity_summary">Erakutsi hezetasuna</string>
+    <string name="custom_clock_weather_title">Eguraldia erloju-aurpegietan</string>
+    <string name="custom_clock_weather_summary">Erakutsi eguraldia lekua duten erloju-aurpegien barruan</string>
+    <string name="remixer_weather_service">Eguraldi-zerbitzua</string>
+    <string name="remixer_weather_page_summary">Desblokeo-pantailako eguraldia eta zer erakusten duen</string>
 </resources>

@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"ದಿನಾಂಕ"</string>
     <string name="sb_weather_category">"ಹವಾಮಾನ"</string>
+    <string name="sb_clock_category">ಗಡಿಯಾರ ಮತ್ತು ದಿನಾಂಕ</string>
+    <string name="sb_clock_bold_title">ದಪ್ಪ ಗಡಿಯಾರ</string>
+    <string name="sb_clock_bold_summary">ಸ್ಥಿತಿ ಪಟ್ಟಿಯ ಗಡಿಯಾರವನ್ನು ದಪ್ಪವಾಗಿ ತೋರಿಸಿ</string>
+    <string name="sb_clock_period_separator_title">ಅವಧಿ ವಿಭಜಕ</string>
+    <string name="sb_clock_period_separator_summary">10:45 ಬದಲಿಗೆ 10.45</string>
+    <string name="sb_clock_date_position_title">ದಿನಾಂಕದ ಸ್ಥಾನ</string>
+    <string name="sb_clock_date_style_title">ದಿನಾಂಕದ ಅಕ್ಷರ ಶೈಲಿ</string>
+    <string name="sb_clock_date_format_title">ದಿನಾಂಕದ ಫಾರ್ಮ್ಯಾಟ್</string>
+    <string name="sb_clock_chip_category">ಗಡಿಯಾರದ ಹಿನ್ನೆಲೆ</string>
+    <string name="sb_clock_chip_title">ಹಿನ್ನೆಲೆ ಶೈಲಿ</string>
+    <string name="sb_clock_chip_start_title">ಗ್ರೇಡಿಯಂಟ್ ಆರಂಭ</string>
+    <string name="sb_clock_chip_end_title">ಗ್ರೇಡಿಯಂಟ್ ಅಂತ್ಯ</string>
+    <string name="sb_clock_chip_angle_title">ಗ್ರೇಡಿಯಂಟ್ ಕೋನ</string>
+    <string name="sb_clock_chip_mask_title">ಗ್ರೇಡಿಯಂಟ್‌ನಿಂದ ಸಮಯವನ್ನು ಕತ್ತರಿಸಿ</string>
+    <string name="sb_clock_chip_mask_summary">ಸಂಖ್ಯೆಗಳ ಹಿಂದೆ ಬದಲು ಸಂಖ್ಯೆಗಳ ಮೂಲಕ ಗ್ರೇಡಿಯಂಟ್ ಕಾಣಿಸುತ್ತದೆ</string>
+    <string name="sb_weather_title">ಸ್ಥಿತಿ ಪಟ್ಟಿಯಲ್ಲಿ ಹವಾಮಾನ</string>
+    <string name="sb_weather_position_title">ಸ್ಥಾನ</string>
+    <string name="status_bar_clock_rr_style_title">ಗಡಿಯಾರ ನೋಟ</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"ಡೀಫಾಲ್ಟ್"</item>
+        <item>ನಿಯಾನ್</item>
+        <item>ವಿಭಜಿಸು</item>
+        <item>RR ಗುರುತು</item>
+        <item>ಮೊನೋ</item>
+        <item>Pulse</item>
+        <item>ಒಂದರ ಮೇಲೊಂದು</item>
+        <item>ಎಂಬರ್</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">ಸಮಯದ ಪಕ್ಕ Flatline</string>
+    <string name="sb_clock_flatline_summary">ಚಿಪ್ ಒಳಗೆ RR ನ ಹೃದಯ ಬಡಿತದ ರೇಖೆ: ಸಂಗೀತಕ್ಕೆ ಬಡಿಯುತ್ತದೆ, ನೋಟಿಫಿಕೇಶನ್ ಬಂದಾಗ ಏರುತ್ತದೆ</string>
 </resources>

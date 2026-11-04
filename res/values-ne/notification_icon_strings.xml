@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="notification_icons_category">"आइकनहरू"</string>
+    <string name="notification_app_icons_title">एप आइकनहरू</string>
+    <string name="notification_app_icons_summary">नोटिफिकेसनमा एपको सानो चिन्ह सट्टा त्यसको आइकन देखाउनुहोस्</string>
 </resources>

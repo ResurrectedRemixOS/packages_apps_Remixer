@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"બૅટરી"</string>
     <string name="battery_style_title">"શૈલી"</string>
+    <string-array name="battery_style_entries">
+        <item>પોર્ટ્રેટ</item>
+        <item>"વર્તુળ"</item>
+        <item>ટપકાંવાળું વર્તુળ</item>
+        <item>નિયોન રિંગ</item>
+        <item>પાતળી પિલ</item>
+        <item>મોટી ટકાવારી</item>
+        <item>"ટેક્સ્ટ કરો"</item>
+    </string-array>
+    <string name="battery_percent_title">ટકાવારી</string>
+    <string-array name="battery_percent_entries">
+        <item>"છુપાવેલ"</item>
+        <item>આઇકનની અંદર</item>
+        <item>તેની બાજુમાં</item>
+    </string-array>
+    <string name="battery_ring_color_title">નિયોન રિંગનો રંગ</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. સ્તર મુજબ 20%% ઉપર એક્સેન્ટ, નીચે લાલ, અને બૅટરી સેવરમાં એમ્બર.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>સ્તર મુજબ</item>
+        <item>ઍક્સેન્ટ</item>
+        <item>"સફેદ"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">ચાર્જિંગ વખતે સ્પાર્ક</string>
+    <string name="battery_ring_tile_title">ઝડપી સેટિંગ ટાઇલ પર પણ એ જ રિંગ</string>
+    <string name="battery_ring_tile_summary">સ્તર અને સ્ક્રીન ચાલુ રહેવાના સમય સાથે</string>
 </resources>

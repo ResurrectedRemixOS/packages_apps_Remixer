@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"ថ្ម"</string>
     <string name="charge_report_temp">"សីតុណ្ហភាព"</string>
     <string name="charge_report_time">"ម៉ោង"</string>
+    <string name="charge_report_title">របាយការណ៍ការសាក</string>
+    <string name="charge_report_summary">សង្ខេបនៃការសាកនីមួយៗនៅពេលដកចេញ</string>
+    <string name="charge_report_min_title">តែប្រសិនបើបានបន្ថែមយ៉ាងហោចណាស់</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 ថ្ងៃ</item>
+        <item>7 ថ្ងៃ</item>
+        <item>14 ថ្ងៃ</item>
+        <item>30 ថ្ងៃ</item>
+    </string-array>
+    <string name="charge_report_history_days"><xliff:g id="days" example="7">%1$d</xliff:g> ថ្ងៃចុងក្រោយ</string>
+    <string name="charge_report_today">ថ្ងៃនេះ <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">ម្សិលមិញ <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> នាទី</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ម៉ោង <xliff:g id="minutes" example="02">%2$02d</xliff:g> នាទី</string>
+    <string name="charge_report_watts">វ៉ាត់</string>
+    <string name="charge_report_added">បានបន្ថែម</string>
+    <string name="charge_report_peak">កំពូល</string>
+    <string name="charge_report_average">មធ្យម</string>
+    <string name="charge_report_max_temp">កម្ដៅអតិបរមា</string>
+    <string name="charge_report_charger">ឆ្នាំងសាក</string>
+    <string name="charge_report_started">ចាប់ផ្ដើមនៅ</string>
+    <string name="charge_report_wired">មានខ្សែ</string>
+    <string name="charge_report_wireless">ឥតខ្សែ</string>
+    <string name="charge_report_dock">ដុក</string>
+    <string name="charge_report_empty">មិនទាន់មានការសាកទេ</string>
+    <string name="charge_report_footer">SystemUI អានចរន្ត វ៉ុលតេ និងសីតុណ្ហភាពថ្មរាល់ 30 វិនាទីពេលកំពុងដោត។ វ៉ាត់ជាតម្លៃដែលទូរស័ព្ទវាស់បាន ដូច្នេះអាចខុសពីលេខនៅលើឆ្នាំងសាក។ របាយការណ៍នៅតែនៅលើទូរស័ព្ទ; គ្មានការផ្ទុកឡើងទេ។</string>
 </resources>

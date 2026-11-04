@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"დეტალები"</string>
     <string name="lockscreen_weather_location_title">"მდებარეობა"</string>
+    <string name="lockscreen_weather_title">ამინდი ჩაკეტილ ეკრანზე</string>
+    <string name="lockscreen_weather_location_summary">ქალაქის სახელის ჩვენება</string>
+    <string name="lockscreen_weather_text_title">მდგომარეობა</string>
+    <string name="lockscreen_weather_text_summary">მდგომარეობის ჩვენება, მაგალითად ღრუბლიანი ან მოწმენდილი</string>
+    <string name="lockscreen_weather_wind_title">ქარი</string>
+    <string name="lockscreen_weather_wind_summary">ქარის სიჩქარისა და მიმართულების ჩვენება</string>
+    <string name="lockscreen_weather_humidity_title">ტენიანობა</string>
+    <string name="lockscreen_weather_humidity_summary">ტენიანობის ჩვენება</string>
+    <string name="custom_clock_weather_title">ამინდი საათის ციფერბლატებზე</string>
+    <string name="custom_clock_weather_summary">ამინდის ჩვენება იმ საათის ციფერბლატებზე, სადაც ადგილი აქვს</string>
+    <string name="remixer_weather_service">ამინდის სერვისი</string>
+    <string name="remixer_weather_page_summary">ჩაკეტილი ეკრანის ამინდი და რას აჩვენებს</string>
 </resources>

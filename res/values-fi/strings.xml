@@ -72,4 +72,226 @@
     <string name="wallpaper_apply_lock">"Lukitusnäyttö"</string>
     <string name="remixer_settings_style_original">"Alkuperäinen"</string>
     <string name="remixer_navbar_category">"Navigointipalkki"</string>
+    <string name="remixer_dashboard_summary">Tilapalkki, teema, lukitusnäyttö ja muuta</string>
+    <string name="rr_homepage_battery_saver">Akkusäästö</string>
+    <string name="rr_homepage_personalize">Mukauta</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> vapaana</string>
+    <string name="rr_homepage_charged">Täysin ladattu</string>
+    <string name="rr_homepage_on_battery">Akkukäyttö</string>
+    <string name="rr_homepage_saver_on">Akkusäästö päällä</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> laite</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> laitetta</item>
+    </plurals>
+    <string name="rr_homepage_extras">Lisäasetukset</string>
+    <string name="rr_homepage_saver">Säästö</string>
+    <string name="rr_homepage_signed_out">Ei kirjautunut sisään</string>
+    <string name="rr_homepage_remixer_tagline">Tee siitä omasi. Tilapalkki, teema, lukitusnäyttö ja muuta.</string>
+    <string name="rr_homepage_device_tagline">Hälytysliukusäädin, näyttö, lataus ja GameBar.</string>
+    <string name="rr_homepage_device_action">Virittele</string>
+    <string name="rr_group_network">Verkko ja laitteet</string>
+    <string name="rr_group_network_summary">Wi‑Fi, mobiilidata, Bluetooth</string>
+    <string name="rr_group_apps_summary">Sovellukset, ilmoitukset, tilat</string>
+    <string name="rr_group_display">Näyttö ja ääni</string>
+    <string name="rr_group_display_summary">Näyttö, taustakuva, ääni</string>
+    <string name="rr_group_security_summary">Lukitus, sijainti, hätätilanne</string>
+    <string name="rr_group_security_center">Suojauskeskus</string>
+    <string name="rr_group_accounts">Google ja tilit</string>
+    <string name="rr_group_accounts_summary">Google, salasanat, varmuuskopiointi</string>
+    <string name="rr_group_accounts_plain_summary">Salasanat, tilit, varmuuskopiointi</string>
+    <string name="rr_group_system_summary">Kielet, eleet, päivitykset</string>
+    <string name="remixer_tagline">Tee siitä omasi.</string>
+    <string name="remixer_remix">Remixaa</string>
+    <string name="remixer_remixed">Remixattu: <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Sävy · Oletus</string>
+    <string name="remixer_quick">Pikaremix</string>
+    <string name="remixer_everything">Kaikki</string>
+    <string name="remixer_quick_accents">Valmiit asetukset tai mikä tahansa väri</string>
+    <string name="remixer_quick_fonts">Järjestelmän fonttityylit</string>
+    <string name="remixer_quick_walls">RR-kokoelma</string>
+    <string name="remixer_quick_header">Pika-asetusten yläosa</string>
+    <string name="remixer_quick_header_summary">Yläosan kuvat</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Kello, akku, kuvakkeet ja verkkoliikenne</string>
+    <string name="remixer_qs_summary">Yläosan kuva</string>
+    <string name="remixer_notifications_summary">Reunavalaistus, sovelluskuvakkeet ja latausäänet</string>
+    <string name="remixer_theme_summary">Fontit, korostukset ja taustakuvat</string>
+    <string name="remixer_lockscreen_summary">UDFPS, latauksen tiedot ja sää</string>
+    <string name="remixer_udfps_icon">UDFPS-kuvake</string>
+    <string name="remixer_udfps_icon_summary">Näkyy sormenjälkitunnistimen päällä</string>
+    <string name="remixer_udfps_animation">UDFPS-animaatio</string>
+    <string name="remixer_udfps_animation_summary">Toistuu, kun sormi on tunnistimella</string>
+    <string name="remixer_navigation_summary">Pulssi, painikkeet ja navigointipalkki</string>
+    <string name="remixer_misc_summary">Äänenvoimakkuus, varmuuskopiointi, väärennys, vieritys ja USB</string>
+    <string name="scroll_haptics_title">Napautus vierityksen lopussa</string>
+    <string name="scroll_haptics_summary">Kevyt värinä, kun lista tai sivu ei voi vierittää pidemmälle</string>
+    <string name="usb_mode_picker_title">USB-tilan valinta</string>
+    <string name="usb_mode_picker_summary">Valitse tila, kun liität laitteen tietokoneeseen</string>
+    <string name="remixer_fonts_summary">Järjestelmän fontti</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix -taustakuvat</string>
+    <string name="remixer_accents">Korostukset</string>
+    <string name="remixer_accents_summary">Korostusväri</string>
+    <string name="remixer_pulse">Pulssi</string>
+    <string name="remixer_pulse_summary">Musiikkivisualisoija näytön alareunassa</string>
+    <string name="pulse_switch">Käytä pulssia</string>
+    <string name="pulse_switch_summary">Musiikkipalkit näytön alareunassa median soidessa</string>
+    <string name="pulse_style_lines">Viivat</string>
+    <string name="pulse_style_fading">Häivytys</string>
+    <string name="pulse_style_blocks">Lohkot</string>
+    <string name="pulse_style_mirror">Peili</string>
+    <string name="pulse_color_custom">Mukautettu</string>
+    <string name="pulse_color_gradient">Sateenkaari</string>
+    <string name="pulse_bars">Palkit</string>
+    <string name="pulse_bars_value">Palkit · %1$d</string>
+    <string name="pulse_height">Korkeus</string>
+    <string name="pulse_height_value">Korkeus · %1$d dp</string>
+    <string name="pulse_opacity">Läpinäkyvyys</string>
+    <string name="pulse_opacity_value">Läpinäkyvyys · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Pidä palkit lukitusnäytöllä musiikin soidessa</string>
+    <string name="pulse_failed">Pulssiasetusta ei voitu tallentaa</string>
+    <string name="accent_applied">Korostusväri otettu käyttöön</string>
+    <string name="accent_current">Korostusväri · %1$s</string>
+    <string name="accent_current_custom">Korostusväri · Mukautettu</string>
+    <string name="accent_preview_tonal">Sävytetty</string>
+    <string name="accent_failed">Korostusväriä ei voitu ottaa käyttöön</string>
+    <string name="accent_custom">Mukautettu</string>
+    <string name="accent_custom_summary">Mikä tahansa väri käy. Sävy vaikuttaa silti päälle.</string>
+    <string name="accent_custom_pad">Värikylläisyys ja kirkkaus</string>
+    <string name="accent_custom_use">Käytä <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">Sävy</string>
+    <string name="accent_shade_darker">Tummempi</string>
+    <string name="accent_shade_lighter">Vaaleampi</string>
+    <string name="accent_shade_darker_value">Tummempi · %1$d</string>
+    <string name="accent_shade_lighter_value">Vaaleampi · %1$d</string>
+    <string name="remixer_qs_style">Pika-asetusten tyyli</string>
+    <string name="remixer_qs_style_preview">Esikatselu · %1$s</string>
+    <string name="remixer_qs_style_note">Jokainen tyyli noudattaa korostusväriä. Äänenvoimakkuuspaneelissa on vastaavat Bento-, Shapes-, Blueprint-, Duo- ja Soft-tyylit. Stock Lineage säilyttää Android 17 -laatat ennallaan.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Android 17 -laatat muuttamattomina</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Kirkkaus korostuskortissa. Laatat täyttyvät korostusvärin liukuvärillä</string>
+    <string name="remixer_qs_style_compact">Tiivis</string>
+    <string name="remixer_qs_style_compact_summary">Lyhyemmät laatat. Niitä mahtuu yhdelle näytölle enemmän</string>
+    <string name="remixer_qs_style_glass">Lasi</string>
+    <string name="remixer_qs_style_glass_summary">Läpinäkyvät reunaviivalliset laatat, jotka hehkuvat korostusvärillä, kun ne ovat päällä</string>
+    <string name="remixer_qs_style_circles">Ympyrät</string>
+    <string name="remixer_qs_style_circles_summary">Pyöreät kytkimet nimillä. Leveät laatat muuttuvat korteiksi</string>
+    <string name="remixer_qs_style_classic">Klassinen</string>
+    <string name="remixer_qs_style_classic_summary">Vanhan koulun RR: paljaat kuvakkeet nimillä, viisi vierekkäin ja ohut liukusäädin</string>
+    <string name="remixer_qs_style_cards">Kortit</string>
+    <string name="remixer_qs_style_cards_summary">Isot kortit, joissa tila on jokaisen nimen alla, kolme vierekkäin</string>
+    <string name="remixer_qs_style_neon">Neon</string>
+    <string name="remixer_qs_style_neon_summary">Reunaviivalliset laatat, jotka hehkuvat korostusvärillä, kun ne ovat päällä</string>
+    <string name="remixer_qs_style_bento_summary">Isot pyöristetyt lohkot täynnä korostusväriä, pienten nimet alapuolella</string>
+    <string name="remixer_qs_style_shapes">Muodot</string>
+    <string name="remixer_qs_style_shapes_summary">Pyöreät kytkimet, jotka kasvattavat lohkoja päällä ollessaan, viisi vierekkäin</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Hiuslinjan ohuet reunat ja tasalevyiset isot kirjaimet</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Jaetut laatat. Kuvakepuoli syttyy ja vaihtaa tilaa</string>
+    <string name="remixer_qs_style_soft">Pehmeä</string>
+    <string name="remixer_qs_style_soft_summary">Kohotetut laatat, jotka painuvat sisään päällä ollessaan</string>
+    <string name="remixer_lock_media_style">Median soittimen tyyli</string>
+    <string name="remixer_lock_media_same">Sama kuin pika-asetuksissa</string>
+    <string name="remixer_lock_media_same_summary">Seuraa pika-asetusten Media-laattaa, nyt %1$s</string>
+    <string name="remixer_lock_media_off_summary">Lukitusnäytöllä ei ole soitinta</string>
+    <string name="remixer_lock_media_note">Kortti näkyy lukitusnäytöllä, kun jotain soi. Läpinäkyvät tyylit saavat tumman taustan, jotta ne pysyvät luettavina taustakuvan päällä.</string>
+    <string name="remixer_lock_media_stock_summary">Albumin kansi täyttää kortin</string>
+    <string name="remixer_lock_media_remix_summary">Tumma kortti, korostusvärinen toistopainike</string>
+    <string name="remixer_lock_media_compact_summary">Pyöreämpi kortti, pyöreä kuva</string>
+    <string name="remixer_lock_media_glass_summary">Reunaviivallinen läpinäkyvä kortti</string>
+    <string name="remixer_lock_media_circles_summary">Pehmeä kortti, korostusvärinen toistopainike</string>
+    <string name="remixer_lock_media_classic_summary">Kulmikkaampi kortti, reunaviivallinen toistopainike</string>
+    <string name="remixer_lock_media_cards_summary">Pehmeä kortti, korostusvärinen toistopainike, kuten Ympyrät</string>
+    <string name="remixer_lock_media_neon_summary">Musta kortti korostusvärisellä reunaviivalla</string>
+    <string name="remixer_lock_media_bento_summary">Pehmeä kortti, korostusvärinen toistopainike</string>
+    <string name="remixer_lock_media_shapes_summary">Pyöreämpi kortti, korostusvärinen toistopainike</string>
+    <string name="remixer_lock_media_blueprint_summary">Hiuslinjan reunaviiva, reunaviivallinen toistopainike</string>
+    <string name="remixer_lock_media_duo_summary">Kaksisävyinen kortti, korostusvärinen toistopainike</string>
+    <string name="remixer_lock_media_soft_summary">Kohotettu kortti viistetyllä reunalla</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>Taskulamppu</item>
+        <item>"Älä häiritse"</item>
+        <item>"Automaattinen kääntö"</item>
+        <item>"Tumma teema"</item>
+        <item>"Hotspot"</item>
+        <item>"Lentokonetila"</item>
+        <item>Datasäästö</item>
+        <item>NFC</item>
+        <item>"Synkronointi"</item>
+        <item>"Skannaa QR-koodi"</item>
+    </string-array>
+    <string name="remixer_headers">Yläosan kuva</string>
+    <string name="remixer_headers_summary">Valitse pika-asetusten taustakuva</string>
+    <string name="header_switch">Käytä yläosan kuvaa</string>
+    <string name="header_switch_summary">Näytä kuva pika-asetusten takana</string>
+    <string name="header_source">Lähde</string>
+    <string name="header_source_collection">Kokoelma</string>
+    <string name="header_collections_summary_daylight">Yläosa seuraa vuorokaudenaikaa tai vaihtuu kokoelmasta</string>
+    <string name="header_collections_summary_static">Avaa kokoelma ja napauta kuvaa käyttääksesi sitä</string>
+    <string name="header_collections_empty">Yhtään yläosan kokoelmaa ei ole asennettu</string>
+    <string name="header_images_daylight">Tässä kokoelmassa</string>
+    <plurals name="header_image_count">
+        <item quantity="one">%d kuva</item>
+        <item quantity="other">%d kuvaa</item>
+    </plurals>
+    <string name="header_photo_summary">Mikä tahansa valokuva tai animoitu GIF galleriastasi</string>
+    <string name="header_height">Korkeus</string>
+    <string name="header_height_value">Korkeus · %1$d dp</string>
+    <string name="header_shadow">Himmennys</string>
+    <string name="header_shadow_value">Himmennys · %1$d%%</string>
+    <string name="header_failed">Yläosan asetusta ei voitu tallentaa</string>
+    <string name="remixer_weather_summary">Sääpalvelu ja yksiköt</string>
+    <string name="font_preview_notification">Näin puhelimesi lukee.</string>
+    <string name="font_try_text">Kokeile omaa tekstiä</string>
+    <string name="font_previewing">Esikatselu</string>
+    <string name="font_current">Nykyinen fontti</string>
+    <string name="font_badge_current">Nykyinen</string>
+    <string name="font_apply_done">Otettu käyttöön</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Näyttö</string>
+    <string name="font_filter_script">Kirjoitusjärjestelmä</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Fontti otettu käyttöön</string>
+    <string name="font_failed">Fonttia ei voitu ottaa käyttöön</string>
+    <string name="wallpaper_set">Taustakuva asetettu</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">%d taustakuva Resurrected Remixistä. Napauta kuvaa esikatsellaksesi sitä.</item>
+        <item quantity="other">%d taustakuvaa Resurrected Remixistä. Napauta kuvaa esikatsellaksesi sitä.</item>
+    </plurals>
+    <string name="wallpaper_apply_both">Molemmat</string>
+    <string name="wallpaper_failed">Taustakuvaa ei voitu asettaa</string>
+    <string name="missing_app">Tuota sovellusta ei ole asennettu</string>
+    <string name="remixer_spoofing">Väärennys</string>
+    <string name="remixer_spoofing_summary">Play Integrity, laitteen tunnistus ja sovituskohtainen väärennys</string>
+    <string name="remixer_settings_style">Asetusten tyyli</string>
+    <string name="rr_maintainer">Ylläpitäjä</string>
+    <string name="remixer_navbar_summary">Pulssin pituus, paksuus ja asettelu</string>
+    <string name="remixer_navbar_pill_length">Eleen pulssin pituus</string>
+    <string name="remixer_navbar_pill_thickness">Eleen pulssin paksuus</string>
+    <string name="remixer_navbar_pill_auto_hide">Häivytä eleen pulssi</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Piilota pulssi muutaman sekunnin jälkeen; se palaa, kun kosketat näyttöä</string>
+    <string name="remixer_navbar_ime">Näppäimistön painikkeet</string>
+    <string name="remixer_navbar_ime_summary">Näytä takaisin- ja näppäimistön vaihtopainikkeet näppäimistön alla</string>
+    <string name="remixer_navbar_layout">Painikkeiden asettelu</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Lyhyt</item>
+        <item>Normaali</item>
+        <item>Pitkä</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Ohuin</item>
+        <item>Ohuempi</item>
+        <item>Ohut</item>
+        <item>Normaali</item>
+        <item>Paksu</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Normaali</item>
+        <item>Tiivis</item>
+        <item>"Vasemmanpuoleinen"</item>
+        <item>"Oikeanpuoleinen"</item>
+    </string-array>
 </resources>

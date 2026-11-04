@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Biru"</string>
     <string name="haptic_remix_color_green">"Hijau"</string>
     <string name="haptic_remix_color_white">"Putih"</string>
+    <string name="haptic_remix_summary">Ketuk corak getaran untuk panggilan, apl, penggera dan buka kunci</string>
+    <string name="haptic_remix_record">Rakam</string>
+    <string name="haptic_remix_pad">ketuk irama</string>
+    <string name="haptic_remix_strength">Kekuatan</string>
+    <string name="haptic_remix_clear">Kosongkan</string>
+    <string name="haptic_remix_play">Main</string>
+    <string name="haptic_remix_name">Nama corak</string>
+    <string name="haptic_remix_empty">Belum ada rakaman</string>
+    <string name="haptic_remix_too_long">Corak boleh berlangsung sehingga 30 saat</string>
+    <string name="haptic_remix_presets">Pratetap</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Kaca</string>
+    <string name="haptic_remix_preset_ringtone">Rentak nada dering</string>
+    <string name="haptic_remix_listening">Mendengar nada dering…</string>
+    <string name="haptic_remix_no_ringtone">Nada dering tidak dapat dibaca</string>
+    <string name="haptic_remix_patterns">Corak anda</string>
+    <string name="haptic_remix_patterns_none">Simpan corak dahulu. Tekan lama untuk memadamnya.</string>
+    <string name="haptic_remix_broken">Corak itu tidak dapat dibaca</string>
+    <string name="haptic_remix_delete">Padam <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Tetapkan kepada</string>
+    <string name="haptic_remix_alarm">Penggera dan pemasa</string>
+    <string name="haptic_remix_plug">Disambungkan</string>
+    <string name="haptic_remix_fingerprint">Cap jari berjaya</string>
+    <string name="haptic_remix_add_contact">Tambah kenalan</string>
+    <string name="haptic_remix_edge_color">Cahaya tepi untuk mesej <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">Aksen</string>
+    <string name="haptic_remix_color_crimson">Merah tua</string>
+    <string name="haptic_remix_color_amber">Ambar</string>
+    <string name="haptic_remix_add_app">Tambah pemberitahuan apl</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · ketik untuk tukar, tekan lama untuk warna tepi</string>
+    <string name="haptic_remix_no_contacts">Tiada nombor dikembalikan daripada Kenalan</string>
 </resources>

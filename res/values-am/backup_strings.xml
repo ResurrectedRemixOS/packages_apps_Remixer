@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">"የእጅ ምልክቶች"</string>
     <string name="backup_group_other">"ሌላ"</string>
     <string name="backup_done">"ተከናውኗል"</string>
+    <string name="backup_summary">ሁሉም የRR ማስተካከያዎች በአንድ ፋይል</string>
+    <string name="backup_now">አሁን ምትኬ ያስቀምጡ</string>
+    <string name="backup_never">የመጨረሻው ምትኬ፦ በፍጹም</string>
+    <string name="backup_last">የመጨረሻው ምትኬ፦ <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">ከፋይል መልሶ ይጫኑ</string>
+    <string name="backup_restore_summary">የምትኬ ፋይል ይምረጡ</string>
+    <string name="backup_included">የተካተተ</string>
+    <string name="backup_part_theme">አክሰንት፣ ቅርጸ-ቁምፊና አዶዎች</string>
+    <string name="backup_part_header">የራስጌ ምስል</string>
+    <string name="backup_part_photo">የራስጌ ምስል (የእርስዎ ፎቶ)</string>
+    <string name="backup_part_photo_summary">ፋይሉን ያበዛል</string>
+    <string name="backup_part_boot">የማስነሻ አኒሜሽን</string>
+    <string name="backup_part_looks">ቅንብሮችህ</string>
+    <string name="backup_weekly">ሳምንታዊ ምትኬ</string>
+    <string name="backup_weekly_summary">ወደ መረጡት አቃፊ</string>
+    <string name="backup_weekly_on">በየሳምንቱ ወደ <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">ከዝማኔዎች በፊት ምትኬ ይጠይቁ</string>
+    <string name="backup_offer_summary">ዝማኔው ከመጫኑ በፊት ይጠይቃል</string>
+    <string name="backup_sets"><xliff:g id="count" example="64">%1$d</xliff:g> ቅንብሮችን ያዘጋጃል</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> ቅንብሮች ተቀምጠዋል</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> ቅንብሮች ተመልሰዋል</string>
+    <string name="backup_restored_message">ለማመልከት SystemUI ዳግም ይጀምራል።</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> ቅንብሮች በዚህ ግንባታ ላይ የሉም እና ተዘልለዋል።</string>
+    <string name="backup_failed">ምትኬውን ማስቀመጥ አልተቻለም</string>
+    <string name="backup_invalid">ይህ ፋይል የResurrected Remix ምትኬ አይደለም</string>
+    <string name="backup_footer">ሁሉም ቅንብሮች የRR ቅንብሮች ብቻ ናቸው፤ መለያዎች፣ የይለፍ ቃሎች፣ የWi-Fi አውታረ መረቦች፣ መተግበሪያዎች ወይም መልዕክቶች በፋይሉ ውስጥ አይካተቱም። መልሶ ማስመለስ የሚጽፈው በRR ዝርዝር ላይ ያሉ ቅንብሮችን ብቻ ስለሆነ፣ የምትኬ ፋይሉ ሌላ ምንም ነገር ሊለውጥ አይችልም። የራስጌ ምስልህ የሚካተተው መቀያየሪያው ሲበራ ብቻ ነው፣ ምክንያቱም ፋይሉን ያበዛዋል።</string>
+    <string name="volume_style_title">የድምጽ ፓነል ዘይቤ</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>ኒዮን</item>
+        <item>ብርጭቆ</item>
+        <item>ክኒን</item>
+        <item>ክላሲክ RR</item>
+        <item>Bento</item>
+        <item>Shapes</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>ለስላሳ</item>
+    </string-array>
 </resources>

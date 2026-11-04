@@ -83,4 +83,203 @@
     <string name="wallpaper_apply_lock">"අගුලු තිරය"</string>
     <string name="remixer_settings_style_original">"මුල්"</string>
     <string name="remixer_navbar_category">"සංචලන තීරුව"</string>
+    <string name="remixer_dashboard_summary">තත්ත්ව තීරුව, තේමාව, අගුලු තිරය සහ තවත්</string>
+    <string name="rr_homepage_battery_saver">බැටරි සුරැකුම</string>
+    <string name="rr_homepage_personalize">පෞද්ගලීකරණය</string>
+    <string name="rr_homepage_privacy">රහස්‍යතාව සහ ආරක්ෂාව</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> නොමිලේ</string>
+    <string name="rr_homepage_charged">සම්පූර්ණයෙන් ආරෝපණය වී ඇත</string>
+    <string name="rr_homepage_on_battery">බැටරියෙන්</string>
+    <string name="rr_homepage_saver_on">බැටරි සුරැකුම ක්‍රියාත්මකයි</string>
+    <string name="rr_homepage_extras">අමතර සැකසීම්</string>
+    <string name="rr_homepage_saver">සුරැකුම</string>
+    <string name="rr_homepage_signed_out">ලොග් වී නැත</string>
+    <string name="rr_homepage_remixer_tagline">ඔබට අවශ්‍ය ආකාරයට සකසන්න. තත්ත්ව තීරුව, තේමාව, අගුලු තිරය සහ තවත්.</string>
+    <string name="rr_homepage_device_tagline">ඇලට් ස්ලයිඩරය, සංදර්ශකය, ආරෝපණය සහ GameBar.</string>
+    <string name="rr_homepage_device_action">සුසර කරන්න</string>
+    <string name="rr_group_network">ජාලය සහ උපාංග</string>
+    <string name="rr_group_network_summary">Wi‑Fi, ජංගම, බ්ලූටූත්</string>
+    <string name="rr_group_apps_summary">යෙදුම්, දැනුම්දීම්, ක්‍රම</string>
+    <string name="rr_group_display">සංදර්ශකය සහ ශබ්දය</string>
+    <string name="rr_group_display_summary">සංදර්ශකය, වෝල්පේපරය, ශබ්දය</string>
+    <string name="rr_group_security_summary">අගුළු, ස්ථානය, හදිසි අවස්ථා</string>
+    <string name="rr_group_security_center">ආරක්ෂක මධ්‍යස්ථානය</string>
+    <string name="rr_group_accounts">Google සහ ගිණුම්</string>
+    <string name="rr_group_accounts_summary">Google, මුරපද, උපස්ථය</string>
+    <string name="rr_group_accounts_plain_summary">මුරපද, ගිණුම්, උපස්ථය</string>
+    <string name="rr_group_system_summary">භාෂා, ඉංගිත, යාවත්කාලීන</string>
+    <string name="remixer_tagline">ඔබට අවශ්‍ය ආකාරයට සකසන්න.</string>
+    <string name="remixer_remix">ඔබට අවශ්‍ය ලෙස වෙනස් කරන්න</string>
+    <string name="remixer_remixed"><xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g> සමඟ වෙනස් කරන ලදි</string>
+    <string name="remixer_chip_shade_default">Shade · පෙරනිමි</string>
+    <string name="remixer_quick">ඉක්මන් වෙනස් කිරීම</string>
+    <string name="remixer_everything">සියල්ල</string>
+    <string name="remixer_quick_accents">පෙරසැකසුම් හෝ ඕනෑම වර්ණයක්</string>
+    <string name="remixer_quick_fonts">පද්ධති අකුරු ශෛලි</string>
+    <string name="remixer_quick_walls">RR එකතුව</string>
+    <string name="remixer_quick_header">ක්ෂණික සැකසීම් ශීර්ෂය</string>
+    <string name="remixer_quick_header_summary">ශීර්ෂ රූප</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">ඔරලෝසුව, බැටරිය, නිරූපක සහ ජාල ගමනාගමනය</string>
+    <string name="remixer_qs_summary">ශීර්ෂ රූපය</string>
+    <string name="remixer_notifications_summary">දාර ආලෝකය, යෙදුම් නිරූපක සහ ආරෝපණ ශබ්ද</string>
+    <string name="remixer_theme_summary">අකුරු, උච්චාරණ සහ වෝල්පේපර</string>
+    <string name="remixer_lockscreen_summary">UDFPS, ආරෝපණ තොරතුරු සහ කාලගුණය</string>
+    <string name="remixer_udfps_icon">UDFPS නිරූපකය</string>
+    <string name="remixer_udfps_icon_summary">ඇඟිලි සලකුණු සංවේදකය උඩ පෙන්වයි</string>
+    <string name="remixer_udfps_animation">UDFPS සජීවීකරණය</string>
+    <string name="remixer_udfps_animation_summary">ඔබේ ඇඟිල්ල සංවේදකය මත ඇති විට වාදනය වේ</string>
+    <string name="remixer_navigation">සංචලනය</string>
+    <string name="remixer_navigation_summary">Pulse, බොත්තම් සහ සංචලන තීරුව</string>
+    <string name="remixer_misc_summary">හඬ පරිමාව, උපස්ථය, ව්‍යාජ කිරීම, අනුචලනය සහ USB</string>
+    <string name="scroll_haptics_title">අනුචලනයේ අවසානයේ තට්ටු කරන්න</string>
+    <string name="scroll_haptics_summary">ලැයිස්තුවක් හෝ පිටුවක් තවත් ඉදිරියට යා නොහැකි විට සැහැල්ලු කම්පනයක්</string>
+    <string name="usb_mode_picker_title">USB ක්‍රම තෝරන්නා</string>
+    <string name="usb_mode_picker_summary">පරිගණකයකට සම්බන්ධ කරන විට ක්‍රමයක් තෝරන්න</string>
+    <string name="remixer_fonts_summary">පද්ධති අකුර</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix වෝල්පේපර</string>
+    <string name="remixer_accents">උච්චාරණ</string>
+    <string name="remixer_accents_summary">උච්චාරණ වර්ණය</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">මාධ්‍ය වාදනය වන අතරතුර තිරයේ පහළ දාරය දිගේ සංගීත තීරු</string>
+    <string name="pulse_switch">Pulse භාවිත කරන්න</string>
+    <string name="pulse_switch_summary">මාධ්‍ය වාදනය වන විට තිරයේ පහළ සංගීත තීරු</string>
+    <string name="pulse_preview_title">දැන් වාදනය වේ</string>
+    <string name="pulse_style_lines">රේඛා</string>
+    <string name="pulse_style_fading">ක්‍රමයෙන් මැකෙන</string>
+    <string name="pulse_style_blocks">කොටු</string>
+    <string name="pulse_style_mirror">දර්පණ</string>
+    <string name="pulse_color_custom">අභිරුචි</string>
+    <string name="pulse_color_gradient">රේන්බෝ</string>
+    <string name="pulse_bars">තීරු</string>
+    <string name="pulse_bars_value">තීරු · %1$d</string>
+    <string name="pulse_height">උස</string>
+    <string name="pulse_height_value">උස · %1$d dp</string>
+    <string name="pulse_opacity">අපාරදෘශ්‍යතාව</string>
+    <string name="pulse_opacity_value">අපාරදෘශ්‍යතාව · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">සංගීතය වාදනය වන විට අගුලු තිරයේ තීරු තබා ගන්න</string>
+    <string name="pulse_failed">එම pulse සැකසීම සුරැකිය නොහැකි විය</string>
+    <string name="accent_applied">උච්චාරණය යෙදුණි</string>
+    <string name="accent_current">උච්චාරණය · %1$s</string>
+    <string name="accent_current_custom">උච්චාරණය · අභිරුචි</string>
+    <string name="accent_preview_tonal">ටෝනල්</string>
+    <string name="accent_failed">එම උච්චාරණය යෙදිය නොහැකි විය</string>
+    <string name="accent_custom">අභිරුචි</string>
+    <string name="accent_custom_summary">ඕනෑම වර්ණයක් ක්‍රියා කරයි. Shade ඒ මත තවමත් යෙදේ.</string>
+    <string name="accent_custom_pad">සංතෘප්තිය සහ දීප්තිය</string>
+    <string name="accent_custom_use"><xliff:g id="color" example="#12B5A6">%1$s</xliff:g> භාවිත කරන්න</string>
+    <string name="accent_shade">Shade</string>
+    <string name="accent_shade_darker">අඳුරු</string>
+    <string name="accent_shade_lighter">දීප්තිමත්</string>
+    <string name="accent_shade_darker_value">අඳුරු · %1$d</string>
+    <string name="accent_shade_lighter_value">දීප්තිමත් · %1$d</string>
+    <string name="remixer_qs_style">ක්ෂණික සැකසීම් ශෛලිය</string>
+    <string name="remixer_qs_style_preview">පෙරදසුන · %1$s</string>
+    <string name="remixer_qs_style_note">සෑම ශෛලියක්ම ඔබේ උච්චාරණ වර්ණය අනුගමනය කරයි. හඬ පරිමා පැනලයේ Bento, Shapes, Blueprint, Duo සහ Soft ශෛලි ඇත. Stock Lineage මගින් Android 17 කොටු වෙනස් නොකර තබයි.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Android 17 කොටු, වෙනස් නොකර</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">උච්චාරණ කාඩ්පතක දීප්තිය. කොටු උච්චාරණ අනුක්‍රමණයෙන් පිරේ</string>
+    <string name="remixer_qs_style_compact">සංක්ෂිප්ත</string>
+    <string name="remixer_qs_style_compact_summary">කෙටි කොටු. එක් තිරයක වැඩි ප්‍රමාණයක්</string>
+    <string name="remixer_qs_style_glass">වීදුරු</string>
+    <string name="remixer_qs_style_glass_summary">පාරදෘශ්‍ය රේඛා කොටු, ක්‍රියාත්මක වන විට උච්චාරණයෙන් දිලිසේ</string>
+    <string name="remixer_qs_style_circles">වට</string>
+    <string name="remixer_qs_style_circles_summary">වටයාකාර ටොගල් ලේබල සමග</string>
+    <string name="remixer_qs_style_classic">සම්භාව්‍ය</string>
+    <string name="remixer_qs_style_classic_summary">පැරණි RR: නම් සහිත සරල නිරූපක, පහක් එකට, තුනී ස්ලයිඩරයක්</string>
+    <string name="remixer_qs_style_cards">කාඩ්පත්</string>
+    <string name="remixer_qs_style_cards_summary">විශාල කාඩ්පත්, සෑම නමක් යටම තත්ත්වය, තුනක් එකට</string>
+    <string name="remixer_qs_style_neon">නියොන්</string>
+    <string name="remixer_qs_style_neon_summary">ක්‍රියාත්මක වන විට උච්චාරණයෙන් දිලිසෙන රේඛා කොටු</string>
+    <string name="remixer_qs_style_bento_summary">උච්චාරණයෙන් පිරුණු විශාල වටකුරු කොටු, කුඩා ඒවා යටතේ නම්</string>
+    <string name="remixer_qs_style_shapes">හැඩ</string>
+    <string name="remixer_qs_style_shapes_summary">ක්‍රියාත්මක වන විට පොකුරු වැඩෙන වට ටොගල්, පහක් එකට</string>
+    <string name="remixer_qs_style_blueprint">ප්ලූප්‍රින්ට්</string>
+    <string name="remixer_qs_style_blueprint_summary">තුනී රේඛා සහ එක-පරතර බැඳි අකුරු</string>
+    <string name="remixer_qs_style_duo">ද්විත්ව</string>
+    <string name="remixer_qs_style_duo_summary">බෙදුණු කොටු. නිරූපක අර්ධය දීප්තිමත් වී ටොගල් කරයි</string>
+    <string name="remixer_qs_style_soft">මෘදු</string>
+    <string name="remixer_qs_style_soft_summary">ක්‍රියාත්මක විට එබූ විට ඇතුළට යන ඉහළ කොටු</string>
+    <string name="remixer_lock_media_style">මාධ්‍ය වාදක ශෛලිය</string>
+    <string name="remixer_lock_media_same">ක්ෂණික සැකසීම් ලෙසම</string>
+    <string name="remixer_lock_media_same_summary">ඔබේ QS Media කොටුව අනුගමනය කරයි, දැන් %1$s</string>
+    <string name="remixer_lock_media_off_summary">අගුලු තිරයේ වාදකයක් නැත</string>
+    <string name="remixer_lock_media_note">යමක් වාදනය වන විට අගුලු තිරයේ කාඩ්පත පෙන්වයි. පාරදෘශ්‍ය ශෛලි වෝල්පේපරය මත කියවිය හැකි වන පරිදි අඳුරු පසුතලයක් ලබයි.</string>
+    <string name="remixer_lock_media_stock_summary">ඇල්බම කලාව කාඩ්පත පුරවයි</string>
+    <string name="remixer_lock_media_remix_summary">අඳුරු කාඩ්පත, උච්චාරණ වාදන බොත්තම</string>
+    <string name="remixer_lock_media_compact_summary">වඩා වටකුරු කාඩ්පත, වටකුරු කලාව</string>
+    <string name="remixer_lock_media_glass_summary">රේඛා පාරදෘශ්‍ය කාඩ්පත</string>
+    <string name="remixer_lock_media_circles_summary">මෘදු කාඩ්පත, උච්චාරණ වාදන බොත්තම</string>
+    <string name="remixer_lock_media_classic_summary">වඩා හතරැස් කාඩ්පත, රේඛා වාදන බොත්තම</string>
+    <string name="remixer_lock_media_cards_summary">මෘදු කාඩ්පත, උච්චාරණ වාදන බොත්තම, වෘත්ත වැනි</string>
+    <string name="remixer_lock_media_neon_summary">උච්චාරණ රේඛාවක් සහිත කළු කාඩ්පත</string>
+    <string name="remixer_lock_media_bento_summary">මෘදු කාඩ්පත, උච්චාරණ වාදන බොත්තම</string>
+    <string name="remixer_lock_media_shapes_summary">වඩා වටකුරු කාඩ්පත, උච්චාරණ වාදන බොත්තම</string>
+    <string name="remixer_lock_media_blueprint_summary">තුනී රේඛා, රේඛා වාදන බොත්තම</string>
+    <string name="remixer_lock_media_duo_summary">ද්විවර්ණ කාඩ්පත, උච්චාරණ වාදන බොත්තම</string>
+    <string name="remixer_lock_media_soft_summary">බෙවල් දාරයක් සහිත ඔසවන ලද කාඩ්පත</string>
+    <string name="remixer_headers">ශීර්ෂ රූපය</string>
+    <string name="remixer_headers_summary">ක්ෂණික සැකසීම් සඳහා පසුබිම් රූපයක් තෝරන්න</string>
+    <string name="header_switch">ශීර්ෂ රූපය භාවිත කරන්න</string>
+    <string name="header_switch_summary">ක්ෂණික සැකසීම් පිටුපස රූපයක් පෙන්වන්න</string>
+    <string name="header_source">මූලය</string>
+    <string name="header_source_collection">එකතුව</string>
+    <string name="header_collections_summary_daylight">ශීර්ෂය දවසේ වේලාවට අනුව වෙනස් වේ හෝ එකතුවෙන් මාරු වේ</string>
+    <string name="header_collections_summary_static">එකතුවක් විවෘත කර භාවිත කිරීමට රූපයට තට්ටු කරන්න</string>
+    <string name="header_collections_empty">ශීර්ෂ එකතු ස්ථාපනය කර නැත</string>
+    <string name="header_images_daylight">මෙම එකතුවේ</string>
+    <string name="header_photo_summary">ඔබේ ගැලරියෙන් ඕනෑම ඡායාරූපයක් හෝ සජීවී GIF එකක්</string>
+    <string name="header_height">උස</string>
+    <string name="header_height_value">උස · %1$d dp</string>
+    <string name="header_shadow">මඳ</string>
+    <string name="header_shadow_value">මඳ · %1$d%%</string>
+    <string name="header_failed">එම ශීර්ෂ සැකසීම සුරැකිය නොහැකි විය</string>
+    <string name="remixer_weather_summary">කාලගුණ සේවාව සහ ඒකක</string>
+    <string name="font_preview_notification">ඔබේ දුරකථනය මෙසේ කියවනු ඇත.</string>
+    <string name="font_try_text">ඔබේම පෙළ උත්සාහ කරන්න</string>
+    <string name="font_previewing">පෙරදසුන් කරමින්</string>
+    <string name="font_current">වත්මන් අකුර</string>
+    <string name="font_badge_current">වත්මන්</string>
+    <string name="font_apply_done">යොදන ලදි</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">සංදර්ශකය</string>
+    <string name="font_filter_script">ලිපි</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">අකුර යෙදුණි</string>
+    <string name="font_failed">එම අකුර යෙදිය නොහැකි විය</string>
+    <string name="wallpaper_set">වෝල්පේපරය සකසන ලදි</string>
+    <string name="wallpaper_apply_both">දෙකම</string>
+    <string name="wallpaper_failed">එම වෝල්පේපරය සැකසිය නොහැකි විය</string>
+    <string name="missing_app">එම යෙදුම ස්ථාපනය කර නැත</string>
+    <string name="remixer_spoofing">ව්‍යාජ කිරීම</string>
+    <string name="remixer_spoofing_summary">Play Integrity, උපාංග අනන්‍යතාව සහ යෙදුම් අනුව ව්‍යාජ කිරීම</string>
+    <string name="remixer_settings_style">සැකසීම් ශෛලිය</string>
+    <string name="rr_maintainer">නඩත්තුකරු</string>
+    <string name="remixer_navbar_summary">Pill දිග, ඝනකම සහ පිරිසැලසුම</string>
+    <string name="remixer_navbar_pill_length">ඉංගිත pill දිග</string>
+    <string name="remixer_navbar_pill_thickness">ඉංගිත pill ඝනකම</string>
+    <string name="remixer_navbar_pill_auto_hide">ඉංගිත pill මැකී යාම</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">තත්පර කිහිපයකට පසු pill සඟවන්න; තිරයට ස්පර්ශ කළ විට නැවත පෙනේ</string>
+    <string name="remixer_navbar_ime">යතුරුපුවරු බොත්තම්</string>
+    <string name="remixer_navbar_ime_summary">යතුරුපුවරුව යටතේ ආපසු සහ යතුරුපුවරු මාරු කිරීමේ බොත්තම් පෙන්වන්න</string>
+    <string name="remixer_navbar_layout">බොත්තම් පිරිසැලසුම</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>කෙටි</item>
+        <item>සාමාන්‍ය</item>
+        <item>දිගු</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>වඩාත්ම තුනී</item>
+        <item>තුනී</item>
+        <item>සිහින්</item>
+        <item>සාමාන්‍ය</item>
+        <item>ඝන</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>සාමාන්‍ය</item>
+        <item>සංක්ෂිප්ත</item>
+        <item>"වමට-හැරුණු"</item>
+        <item>"දකුණට-හැරුණු"</item>
+    </string-array>
 </resources>

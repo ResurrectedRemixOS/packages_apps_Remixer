@@ -16,4 +16,26 @@
     <string name="edge_light_moment_battery_low">البطارية منخفضة</string>
     <string name="edge_light_moment_unlock">"تم فتح القفل"</string>
     <string name="remixer_color_default">"تلقائي"</string>
+    <string name="edge_light_title">الإضاءة الحافية</string>
+    <string name="edge_light_summary">أضئ حواف الشاشة للإشعارات والمكالمات والمنبهات وغيرها</string>
+    <string name="edge_light_color_rainbow">قوس قزح</string>
+    <string name="edge_light_color_custom">مخصص</string>
+    <string name="edge_light_style_default">الجوانب</string>
+    <string name="edge_light_style_frame">الإطار كاملاً</string>
+    <string name="edge_light_animation_effect_none">قياسي</string>
+    <string name="edge_light_animation_effect_breathing">تنفّس</string>
+    <string name="edge_light_animation_effect_wave">موجة</string>
+    <string name="edge_light_animation_effect_sparkle">وميض</string>
+    <string name="edge_light_pulse_count_title">نبضات</string>
+    <string name="edge_light_pulse_count_summary">عدد مرات إضاءة الحواف</string>
+    <string name="edge_light_stroke_width_title">السُّمك</string>
+    <string name="edge_light_stroke_width_summary">عرض الضوء بوحدة dp</string>
+    <string name="edge_light_spread_summary">مدى وصول التوهج إلى الداخل من الحافة</string>
+    <string name="edge_light_intensity_summary">شدة التوهج. اجعلها 0 لإيقافه</string>
+    <string name="edge_light_moments_title">اللحظات</string>
+    <string name="edge_light_moment_alarms">المنبه والمؤقت</string>
+    <string name="edge_light_moment_plugged">أثناء الشحن</string>
+    <string name="edge_light_moment_color">تغيير اللون</string>
+    <string name="edge_light_moments_footer">اضغط على نقطة اللحظة لتغيير لونها. تضيء المكالمات والمنبهات أثناء الرنين حتى في الوضع الصامت. لا تعمل اللحظات الأخرى في وضع عدم الإزعاج.</string>
+    <string name="edge_light_look_title">نمط</string>
 </resources>

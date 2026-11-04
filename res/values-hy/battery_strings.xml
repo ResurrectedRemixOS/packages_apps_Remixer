@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Մարտկոց"</string>
     <string name="battery_style_title">"Ոճ"</string>
+    <string-array name="battery_style_entries">
+        <item>Portrait</item>
+        <item>"Օղակ"</item>
+        <item>Կետագծավոր շրջան</item>
+        <item>Նեոնե օղակ</item>
+        <item>Նիհար հաբ</item>
+        <item>Մեծ տոկոս</item>
+        <item>"Հաղորդագրել"</item>
+    </string-array>
+    <string name="battery_percent_title">Տոկոս</string>
+    <string-array name="battery_percent_entries">
+        <item>"Թաքցված"</item>
+        <item>Պատկերակի ներսում</item>
+        <item>Դրա կողքին</item>
+    </string-array>
+    <string name="battery_ring_color_title">Նեոնե օղակի գույն</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Մակարդակով՝ շեշտադրիչը 20%%-ից բարձր է, կարմիր՝ ցածր, իսկ Battery Saver-ում՝ սաթեղ։</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Ըստ մակարդակի</item>
+        <item>Շեշտ</item>
+        <item>"Սպիտակ"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Կայծ լիցքավորման ժամանակ</string>
+    <string name="battery_ring_tile_title">Նույն օղակը Արագ կարգավորումների սալիկի վրա</string>
+    <string name="battery_ring_tile_summary">Մակարդակով և էկրանի միացված ժամանակով</string>
 </resources>

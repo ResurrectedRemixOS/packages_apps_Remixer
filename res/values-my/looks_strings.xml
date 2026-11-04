@@ -15,4 +15,57 @@
     <string name="looks_save_look">"သိမ်းရန်"</string>
     <string name="looks_custom_color">"စိတ်ကြိုက်အရောင်"</string>
     <string name="looks_part_clock_color">"နာရီအရောင်"</string>
+    <string name="looks_title">ပုံစံများ</string>
+    <string name="looks_summary">သင့်တစ်ခုလုံးကို တစ်ချက်နှိပ်ဖြင့်</string>
+    <string name="looks_rr">RR ပုံစံများ</string>
+    <string name="looks_yours">သင့်ပုံစံများ</string>
+    <string name="looks_none">သိမ်းထားခြင်း မရှိသေး</string>
+    <string name="looks_save">လက်ရှိသိမ်း</string>
+    <string name="looks_import_clipboard">ကလစ်ဘုတ်မှ</string>
+    <string name="looks_import_file">ဖိုင်မှ</string>
+    <string name="looks_mine">ကျွန်ုပ်၏ပုံစံ</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> သုံးပြီး</string>
+    <string name="looks_failed">အားလုံးကို သုံးမရခဲ့ပါ</string>
+    <string name="looks_invalid">ဤသည်မှာ RR ပုံစံ မဟုတ်ပါ</string>
+    <string name="looks_part_accent">အဓိကအရောင်</string>
+    <string name="looks_part_qs">အမြန်ဆက်တင် ပုံစံ</string>
+    <string name="looks_part_clock_face">လော့ခ်စခရင် နာရီပုံစံ</string>
+    <string name="looks_part_clock_look">အခြေအနေပြနေရာ နာရီ</string>
+    <string name="looks_part_edge">အစွန်းမီး</string>
+    <string name="looks_part_boot">စတင်ဖွင့်ရာ အန်နီမေးရှင်း</string>
+    <string name="looks_part_haptics">Haptic Remix ပုံစံများ</string>
+    <plurals name="looks_haptic_patterns">
+        <item quantity="other">%d ပုံစံနှင့် ၎င်းတို့၏ သတ်မှတ်ချက်များ</item>
+    </plurals>
+    <string name="looks_saturation">အရောင်ပြည့်နှက် <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">အဓိကအရောင်</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>” ကို မျှဝေရန်</string>
+    <string name="looks_share_hint">အခြား RR ဖုန်း၏ကင်မရာဖြင့် စကင်ဖတ်ပါ၊ သို့မဟုတ် ပုံစံများ › သွင်းကုန်တွင်</string>
+    <string name="looks_share_file">ဖိုင်မျှဝေရန်</string>
+    <string name="looks_save_file">ဖိုင်သိမ်းရန်</string>
+    <string name="looks_import_scan">QR ကုဒ် စကင်ဖတ်ရန်</string>
+    <string name="looks_import_title">ပုံစံသွင်းရန်</string>
+    <string name="looks_from_qr">QR ကုဒ်မှ</string>
+    <string name="looks_from_file">ဖိုင်မှ</string>
+    <string name="looks_from_clipboard">ဗျူးဘုတ်မှ</string>
+    <string name="looks_import_same">သင့်ဆက်တင်နှင့် ကိုက်ညီပြီးသားဖြစ်သည်။</string>
+    <string name="looks_new">အသစ် အပြင်အဆင်</string>
+    <string name="looks_edit_title">အပြင်အဆင်ကို ပြင်ရန်</string>
+    <string name="looks_in_look">ဤအပြင်အဆင်တွင်ပါသည်</string>
+    <string name="looks_not_included">ဤအပြင်အဆင်တွင်မပါပါ</string>
+    <string name="looks_save_apply">သိမ်းပြီး အသုံးပြုရန်</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” ကို သိမ်းပြီးပါပြီ</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” ကို ဖျက်မလား?</string>
+    <string name="looks_rr_wallpaper">RR နောက်ခံ <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">အရောင်ဝိသေသ (Accent saturation)</string>
+    <string name="looks_part_clock_chip">အခြေအနေပြနေရာ နာရီအကွက်</string>
+    <string name="looks_part_edge_style">အစွန်းမီးထိန်းပုံစံ</string>
+    <string name="looks_scan_hint">Look ၏ QR ကုဒ်ကို ကင်မရာဖြင့် ညွှန်ပြပါ</string>
+    <string name="looks_scan_failed">ကင်မရာကို ဖွင့်၍မရပါ</string>
+    <string name="look_roulette_title">Look ကျပန်းရွေးချယ်ခြင်း</string>
+    <string-array name="look_roulette_entries">
+        <item>"ပိတ်"</item>
+        <item>လော့ခ်ဖွင့်တိုင်း မတူညီသော Look</item>
+        <item>နေ့စဉ် မတူညီသော Look</item>
+    </string-array>
 </resources>

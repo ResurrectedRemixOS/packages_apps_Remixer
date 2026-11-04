@@ -175,4 +175,10 @@
     <string name="user_selectable_app_spoofing_summary">Mascarar propriedades do dispositivo para aplicativos e jogos específicos</string>
     <string name="user_selectable_app_spoofing_title">Mascaramento de aplicativo e jogo</string>
     <string name="ts_mode_skip">Pular</string>
+    <string name="spoofing_app_specific_category">Substituições por app</string>
+    <string name="tensor_spoof_title">Destinos de recursos do Tensor</string>
+    <string name="ts_fetch_keybox_summary">Baixar o keybox oficial</string>
+    <string name="ts_mode_leaf">Folha</string>
+    <string name="ts_untrusted_root_message">Este keybox tem uma cadeia de certificados ancorada em uma autoridade que o Resurrected Remix não reconhece. Ele ainda pode passar na Integridade Forte em alguns dispositivos. Manter instalado ou substituir pelo keybox oficial?</string>
+    <string name="ts_verification_leaf_count">%1$d folha</string>
 </resources>

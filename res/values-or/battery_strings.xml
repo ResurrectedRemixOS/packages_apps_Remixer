@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"ବେଟେରୀ"</string>
     <string name="battery_style_title">"ଷ୍ଟାଇଲ"</string>
+    <string-array name="battery_style_entries">
+        <item>ପୋର୍ଟ୍ରେଟ</item>
+        <item>"ବୃତ୍ତ"</item>
+        <item>ବିନ୍ଦୁଯୁକ୍ତ ବୃତ୍ତ</item>
+        <item>ନିଅନ୍ ରିଙ୍ଗ</item>
+        <item>ପତଳା ପିଲ୍</item>
+        <item>ବଡ଼ ଶତକଡ଼ା</item>
+        <item>"SMS"</item>
+    </string-array>
+    <string name="battery_percent_title">ଶତକଡ଼ା</string>
+    <string-array name="battery_percent_entries">
+        <item>"ଲୁଚିଯାଇଛି"</item>
+        <item>ଆଇକନ ଭିତରେ</item>
+        <item>ଏହା ପାଖରେ</item>
+    </string-array>
+    <string name="battery_ring_color_title">ନିଅନ୍ ରିଙ୍ଗ ରଙ୍ଗ</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s। ସ୍ତର ଅନୁସାରେ ମାନେ ୨୦%%ରୁ ଉପରେ ଆକ୍ସେଣ୍ଟ, ତଳେ ଲାଲ ଓ ବ୍ୟାଟେରୀ ସେଭର ସମୟରେ ଅମ୍ବର।</string>
+    <string-array name="battery_ring_color_entries">
+        <item>ସ୍ତର ଅନୁସାରେ</item>
+        <item>ଆକ୍ସେଣ୍ଟ</item>
+        <item>"ଧଳା"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">ଚାର୍ଜ ସମୟରେ ସ୍ପାର୍କ</string>
+    <string name="battery_ring_tile_title">କ୍ୱିକ ସେଟିଂସ ଟାଇଲରେ ମଧ୍ୟ ସମାନ ରିଙ୍ଗ</string>
+    <string name="battery_ring_tile_summary">ସ୍ତର ଓ ସ୍କ୍ରିନ ଚାଲୁ ସମୟ ସହିତ</string>
 </resources>

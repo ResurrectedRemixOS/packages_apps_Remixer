@@ -8,4 +8,50 @@
         <item>"Srednja"</item>
         <item>"Velik"</item>
     </string-array>
+    <string name="pie_title">Kružni izbornici</string>
+    <string name="pie_summary">Držite donji dio ruba za kružni izbornik prečaca</string>
+    <string name="pie_zone">Dio ruba</string>
+    <string name="pie_clock">Sat i baterija iznad njega</string>
+    <string name="pie_items">Isječci</string>
+    <string-array name="pie_items_entries">
+        <item>"Natrag"</item>
+        <item>Početni zaslon</item>
+        <item>"Nedavno"</item>
+        <item>"Obavijesti"</item>
+        <item>"Svjetiljka"</item>
+        <item>"Snimka zaslona"</item>
+        <item>"Izbornik tipke za uključivanje/isključivanje"</item>
+        <item>"Asistent"</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Potrebno je držati ga čvrsto četvrt sekunde bez pomicanja, tako da brzi prijelaz od ruba i dalje vodi natrag. Ne otvara se na zaključanom zaslonu.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Lijevo"</item>
+        <item>"Desno"</item>
+        <item>Oboje</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Donja trećina</item>
+        <item>Sredina</item>
+        <item>Cijeli rub</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Staklo</item>
+        <item>Klasično</item>
+    </string-array>
+    <string name="sidebar_style_title">Izgled bočne trake aplikacija</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klasično</item>
+        <item>RR staklo</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Bočna traka aplikacija</string>
+    <string name="sidebar_settings_summary">Prevucite s ručke za svoje aplikacije i alate</string>
+    <string name="sidebar_apps_title">Aplikacije, ručka i međuspremnik</string>
+    <string name="sidebar_apps_summary">Uključite ručku, odaberite aplikacije i postavite pametni međuspremnik</string>
+    <string name="sidebar_handle_size_title">Veličina ručke</string>
+    <string name="sidebar_tools_title">Redak alata</string>
+    <string name="sidebar_tools_summary">Snimka zaslona i svjetiljka ispod vaših aplikacija</string>
+    <string name="sidebar_footer">Ručka je tanka crta u vašoj naglašenoj boji; povucite je da biste je pomaknuli uz rub. S navigacijom gestama pokriva samo svoj dio ruba, a natrag radi na ostatku.</string>
 </resources>

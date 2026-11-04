@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Калі"</string>
+    <string name="nightstand_title">Начны гадзіннік</string>
+    <string name="nightstand_summary">Прыглушаны гадзіннік ля ложка на экране з заўсёднай індыкацыяй, пакуль тэлефон заражаецца ўночы</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Выключана"</item>
+        <item>На зарадцы ўночы</item>
+        <item>Кожную ноч, па раскладзе</item>
+        <item>Пакуль уключаны рэжым сну</item>
+    </string-array>
+    <string name="nightstand_from">Ноч пачынаецца</string>
+    <string name="nightstand_to">Ноч заканчваецца</string>
+    <string name="nightstand_brightness">Ліміт яркасці</string>
+    <string name="nightstand_brightness_summary">Наколькі яркім можа быць экран з заўсёднай індыкацыяй, пакуль уключаны начны гадзіннік</string>
+    <string name="nightstand_face">Цыферблат</string>
+    <string name="nightstand_face_keep">Захаваць бягучы цыферблат</string>
+    <string name="nightstand_footer">Начны гадзіннік уключае экран з заўсёднай індыкацыяй на час працы і вяртае яго пасля. Ён спыняецца, калі адключаецца зарадка, спрацоўвае будзільнік або заканчваецца ноч. Цыферблат проста пераключаецца паміж двума карыстальніцкімі; сістэмны гадзіннік застаецца.</string>
 </resources>

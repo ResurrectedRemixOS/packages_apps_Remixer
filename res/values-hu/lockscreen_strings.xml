@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">Véletlen ébresztés megakadályozása</string>
+    <string name="lockscreen_battery_info_title">Töltési adatok</string>
+    <string name="lockscreen_battery_info_summary">Áramerősség, watt, feszültség és akkumulátor-hőmérséklet megjelenítése töltés közben</string>
+    <string name="charging_ring_title">SuperVOOC töltésanimáció</string>
+    <string name="charging_ring_summary">Töltő csatlakoztatásakor mutassa a töltőgyűrűt és a sebességet</string>
+    <string name="pocket_mode_summary">Amíg a közelségérzékelő takarva van, a képernyő nem ébred fel, és az érintéseket figyelmen kívül hagyja</string>
+    <string name="screen_on_time_title">Képernyő bekapcsolt idő</string>
+    <string name="screen_on_time_summary">Az utolsó teljes töltés óta eltelt képernyő bekapcsolt idő megjelenítése a zárolási képernyőn töltés közben, és az Akkumulátorkímélő mozaikon</string>
 </resources>

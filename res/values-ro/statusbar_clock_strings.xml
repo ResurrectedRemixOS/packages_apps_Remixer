@@ -3,4 +3,34 @@
     <string name="sb_clock_date_title">"Data"</string>
     <string name="sb_weather_category">"Meteo"</string>
     <string name="sb_weather_position_title">Poziție</string>
+    <string name="sb_clock_category">Ceas și dată</string>
+    <string name="sb_clock_bold_title">Ceas îngroșat</string>
+    <string name="sb_clock_bold_summary">Afișează ceasul din bara de stare îngroșat</string>
+    <string name="sb_clock_period_separator_title">Separator de perioadă</string>
+    <string name="sb_clock_period_separator_summary">10.45 în loc de 10:45</string>
+    <string name="sb_clock_date_position_title">Poziția datei</string>
+    <string name="sb_clock_date_style_title">Scrierea datei</string>
+    <string name="sb_clock_date_format_title">Format dată</string>
+    <string name="sb_clock_chip_category">Fundalul ceasului</string>
+    <string name="sb_clock_chip_title">Stil de fundal</string>
+    <string name="sb_clock_chip_start_title">Început de gradient</string>
+    <string name="sb_clock_chip_end_title">Sfârșit de gradient</string>
+    <string name="sb_clock_chip_angle_title">Unghiul gradientului</string>
+    <string name="sb_clock_chip_mask_title">Decupează ora din gradient</string>
+    <string name="sb_clock_chip_mask_summary">Gradientul apare prin cifre, nu în spatele lor</string>
+    <string name="sb_weather_title">Vremea în bara de stare</string>
+    <string name="status_bar_clock_rr_style_title">Aspectul ceasului</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Prestabilit"</item>
+        <item>Neon</item>
+        <item>Despărțit</item>
+        <item>Semnul RR</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Suprapus</item>
+        <item>Jar</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Linia Flatline lângă oră</string>
+    <string name="sb_clock_flatline_summary">Linia de puls RR din cip: bate pe ritmul muzicii, face un vârf când sosește o notificare</string>
 </resources>

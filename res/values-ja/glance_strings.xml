@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glance_title">At a Glance</string>
+    <string name="glance_summary">標準の時計の下に、Pixel と同様に Google の日付、天気、カードを表示します。時計の文字盤は独自の行を保持します</string>
+</resources>

@@ -6,4 +6,20 @@
     <string name="quick_launch_timer">Χρονοδιακόπτης</string>
     <string name="quick_launch_undo">"Αναίρεση"</string>
     <string name="quick_launch_off">"Ανενεργό"</string>
+    <string name="quick_launch_title">Γρήγορη εκκίνηση</string>
+    <string name="quick_launch_main">Γρήγορη εκκίνηση με δακτυλικό αποτύπωμα</string>
+    <string name="quick_launch_main_summary">Κρατήστε το δάχτυλό σας στον αισθητήρα μετά το ξεκλείδωμα για να ανοίξετε μια συντόμευση</string>
+    <string name="quick_launch_hint">Πατήστε μια συντόμευση για να την αλλάξετε, κρατήστε την πατημένη για να την αφαιρέσετε ή σύρετέ την για αλλαγή σειράς.</string>
+    <string name="quick_launch_behavior">Συμπεριφορά</string>
+    <string name="quick_launch_hold">Χρόνος παρατεταμένου πατήματος</string>
+    <string name="quick_launch_haptics">Δόνηση σε κάθε συντόμευση</string>
+    <string name="quick_launch_add">Προσθήκη</string>
+    <string name="quick_launch_video">Βίντεο</string>
+    <string name="quick_launch_qr">Σάρωση QR</string>
+    <string name="quick_launch_app">Εφαρμογή…</string>
+    <string name="quick_launch_removed">Το <xliff:g id="shortcut" example="Camera">%1$s</xliff:g> αφαιρέθηκε</string>
+    <plurals name="quick_launch_on">
+        <item quantity="one">Ενεργό · <xliff:g id="count" example="4">%d</xliff:g> συντόμευση</item>
+        <item quantity="other">Ενεργό · <xliff:g id="count" example="4">%d</xliff:g> συντομεύσεις</item>
+    </plurals>
 </resources>

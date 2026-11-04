@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">Per ongeluk ontwaken voorkomen</string>
+    <string name="lockscreen_battery_info_title">Oplaadinfo</string>
+    <string name="lockscreen_battery_info_summary">Toon stroom, watt, spanning en batterijtemperatuur tijdens het opladen</string>
+    <string name="charging_ring_title">SuperVOOC-oplaadanimatie</string>
+    <string name="charging_ring_summary">Toon de oplaadring en snelheid wanneer je het toestel aansluit</string>
+    <string name="pocket_mode_summary">Zolang de nabijheidssensor bedekt is, wordt het scherm niet gewekt en worden aanrakingen genegeerd</string>
+    <string name="screen_on_time_title">Schermaanwezigheid</string>
+    <string name="screen_on_time_summary">Toon de schermaanwezigheid sinds de laatste volledige lading op het vergrendelscherm tijdens het opladen en op de tegel Batterijbesparing</string>
 </resources>

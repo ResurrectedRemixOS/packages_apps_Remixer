@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"তাৰিখ"</string>
     <string name="sb_weather_category">"বতৰ"</string>
+    <string name="sb_clock_category">ঘড়ী আৰু তাৰিখ</string>
+    <string name="sb_clock_bold_title">বোল্ড ঘড়ী</string>
+    <string name="sb_clock_bold_summary">স্থিতি দণ্ডৰ ঘড়ী বোল্ডত দেখুৱাওক</string>
+    <string name="sb_clock_period_separator_title">পৰ্যায় বিভাজক</string>
+    <string name="sb_clock_period_separator_summary">10:45ৰ সলনি 10.45</string>
+    <string name="sb_clock_date_position_title">তাৰিখৰ স্থান</string>
+    <string name="sb_clock_date_style_title">তাৰিখৰ আখৰ শৈলী</string>
+    <string name="sb_clock_date_format_title">তাৰিখৰ বিন্যাস</string>
+    <string name="sb_clock_chip_category">ঘড়ীৰ পটভূমি</string>
+    <string name="sb_clock_chip_title">পটভূমিৰ শৈলী</string>
+    <string name="sb_clock_chip_start_title">গ্ৰেডিয়েণ্টৰ আৰম্ভ</string>
+    <string name="sb_clock_chip_end_title">গ্ৰেডিয়েণ্টৰ শেষ</string>
+    <string name="sb_clock_chip_angle_title">গ্ৰেডিয়েণ্টৰ কোণ</string>
+    <string name="sb_clock_chip_mask_title">গ্ৰেডিয়েণ্টৰ পৰা সময় কাটি উলিওৱাওক</string>
+    <string name="sb_clock_chip_mask_summary">অংকবোৰৰ পিছফালৰ সলনি গ্ৰেডিয়েণ্ট অংকবোৰৰ মাজেৰে দেখা যায়</string>
+    <string name="sb_weather_title">স্থিতি দণ্ডত বতৰ</string>
+    <string name="sb_weather_position_title">স্থান</string>
+    <string name="status_bar_clock_rr_style_title">ঘড়ীৰ ৰূপ</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"ডিফ’ল্ট"</item>
+        <item>নিঅ\'ন</item>
+        <item>বিভাজিত</item>
+        <item>RR চিহ্ন</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>ষ্টেক কৰা</item>
+        <item>এম্বাৰ</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">সময়ৰ পাশত Flatline</string>
+    <string name="sb_clock_flatline_summary">চিপৰ ভিতৰত RR ৰ হৃদস্পন্দন ৰেখা: গীতৰ সৈতে স্পন্দিত হয়, জাননী আহিলে ওপঙে</string>
 </resources>

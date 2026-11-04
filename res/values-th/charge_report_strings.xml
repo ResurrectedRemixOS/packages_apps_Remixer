@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"แบตเตอรี่"</string>
     <string name="charge_report_temp">"อุณหภูมิ"</string>
     <string name="charge_report_time">"เวลา"</string>
+    <string name="charge_report_title">รายงานการชาร์จ</string>
+    <string name="charge_report_summary">สรุปการชาร์จแต่ละครั้งเมื่อถอดสาย</string>
+    <string name="charge_report_min_title">เฉพาะเมื่อเพิ่มได้อย่างน้อย</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 วัน</item>
+        <item>7 วัน</item>
+        <item>14 วัน</item>
+        <item>30 วัน</item>
+    </string-array>
+    <string name="charge_report_history_days"><xliff:g id="days" example="7">%1$d</xliff:g> วันที่ผ่านมา</string>
+    <string name="charge_report_today">วันนี้ <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">เมื่อวาน <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> นาที</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ชม. <xliff:g id="minutes" example="02">%2$02d</xliff:g> นาที</string>
+    <string name="charge_report_watts">วัตต์</string>
+    <string name="charge_report_added">เพิ่มขึ้น</string>
+    <string name="charge_report_peak">สูงสุด</string>
+    <string name="charge_report_average">เฉลี่ย</string>
+    <string name="charge_report_max_temp">อุณหภูมิสูงสุด</string>
+    <string name="charge_report_charger">เครื่องชาร์จ</string>
+    <string name="charge_report_started">เริ่มเมื่อ</string>
+    <string name="charge_report_wired">มีสาย</string>
+    <string name="charge_report_wireless">ไร้สาย</string>
+    <string name="charge_report_dock">ด็อก</string>
+    <string name="charge_report_empty">ยังไม่มีการชาร์จ</string>
+    <string name="charge_report_footer">SystemUI อ่านกระแส แรงดัน และอุณหภูมิของแบตเตอรี่ทุก 30 วินาทีขณะเสียบสาย ค่าวัตต์เป็นค่าที่โทรศัพท์วัดได้ จึงอาจต่างจากตัวเลขบนเครื่องชาร์จ รายงานจะเก็บไว้ในโทรศัพท์และไม่ถูกอัปโหลด</string>
 </resources>

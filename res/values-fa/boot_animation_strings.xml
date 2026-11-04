@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">انیمیشن راه‌اندازی</string>
+    <string name="boot_animation_note">دفعه بعد که گوشی روشن شود پخش می‌شود.</string>
+    <string name="boot_animation_custom">فایل شما</string>
+    <string name="boot_animation_custom_pick">انتخاب فایل…</string>
+    <string name="boot_animation_custom_invalid">این فایل، انیمیشن راه‌اندازی نیست</string>
+    <string name="boot_animation_failed">تغییر انیمیشن راه‌اندازی انجام نشد</string>
+</resources>

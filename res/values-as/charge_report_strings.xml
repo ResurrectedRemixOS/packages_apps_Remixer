@@ -3,4 +3,31 @@
     <string name="charge_report_battery">"বেটাৰী"</string>
     <string name="charge_report_temp">"উষ্ণতা"</string>
     <string name="charge_report_time">"সময়"</string>
+    <string name="charge_report_title">চাৰ্জৰ প্ৰতিবেদন</string>
+    <string name="charge_report_summary">আনপ্লাগ কৰাৰ সময়ত প্ৰতিটো চাৰ্জৰ সাৰাংশ</string>
+    <string name="charge_report_min_title">কেৱল যদি ইয়ে অন্ততঃ যোগ কৰে</string>
+    <string name="charge_report_keep_title">ৰাখক</string>
+    <string-array name="charge_report_keep_entries">
+        <item>৩ দিন</item>
+        <item>৭ দিন</item>
+        <item>১৪ দিন</item>
+        <item>৩০ দিন</item>
+    </string-array>
+    <string name="charge_report_history_days">শেহতীয়া <xliff:g id="days" example="7">%1$d</xliff:g> দিন</string>
+    <string name="charge_report_today">আজি, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">হেতিয়া, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> মিনিট</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ঘণ্টা <xliff:g id="minutes" example="02">%2$02d</xliff:g> মিনিট</string>
+    <string name="charge_report_watts">ৱাট</string>
+    <string name="charge_report_added">যোগ কৰা হৈছে</string>
+    <string name="charge_report_peak">শীৰ্ষ</string>
+    <string name="charge_report_average">গড়</string>
+    <string name="charge_report_max_temp">সৰ্বাধিক তাপমাত্ৰা</string>
+    <string name="charge_report_charger">চাৰ্জাৰ</string>
+    <string name="charge_report_started">আৰম্ভ হৈছিল</string>
+    <string name="charge_report_wired">তাৰযুক্ত</string>
+    <string name="charge_report_wireless">তাৰবিহীন</string>
+    <string name="charge_report_dock">ডক</string>
+    <string name="charge_report_empty">এতিয়ালৈ কোনো চাৰ্জ নাই</string>
+    <string name="charge_report_footer">চাৰ্জাৰত সংযোগ থকা অৱস্থাত SystemUI-এ প্ৰতি ৩০ ছেকেণ্ডে বেটাৰীৰ বৰ্তমান, ভোল্টেজ আৰু তাপমাত্ৰা পঢ়ে। ৱাট মানে ফোনে মাপা মান, সেয়ে চাৰ্জাৰত লিখা সংখ্যাৰ সৈতে পাৰ্থক্য হ\'ব পাৰে। প্ৰতিবেদন ফোনতে থাকে; একো আপলোড কৰা নহয়।</string>
 </resources>

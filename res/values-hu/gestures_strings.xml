@@ -8,4 +8,50 @@
         <item>"Közepes"</item>
         <item>"Nagy"</item>
     </string-array>
+    <string name="pie_title">Körvezérlők</string>
+    <string name="pie_summary">Tartsa lenyomva a szél alsó részét a parancsikonok pitéjéhez</string>
+    <string name="pie_zone">A szél egy része</string>
+    <string name="pie_clock">Az óra és az akkumulátor fölötte</string>
+    <string name="pie_items">Szeletek</string>
+    <string-array name="pie_items_entries">
+        <item>"Vissza"</item>
+        <item>Kezdőképernyő</item>
+        <item>"Legutóbbiak"</item>
+        <item>"Értesítések"</item>
+        <item>Zseblámpa</item>
+        <item>"Képernyőkép"</item>
+        <item>"Bekapcsológombhoz tartozó menü"</item>
+        <item>"Segéd"</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Negyedmásodperces nyomva tartás kell mozgatás nélkül, így a szél gyors húzása továbbra is visszalépést indít. A lezárási képernyőn nem nyílik meg.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Bal"</item>
+        <item>"Jobb"</item>
+        <item>Mindkettő</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Alsó harmad</item>
+        <item>Közép</item>
+        <item>Teljes szél</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Üveg</item>
+        <item>Klasszikus</item>
+    </string-array>
+    <string name="sidebar_style_title">Alkalmazásoldalsáv kinézete</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klasszikus</item>
+        <item>RR üveg</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Alkalmazásoldalsáv</string>
+    <string name="sidebar_settings_summary">Húzza be az oldalról a fogantyútól az alkalmazásaiért és eszközeiért</string>
+    <string name="sidebar_apps_title">Alkalmazások, fogantyú és vágólap</string>
+    <string name="sidebar_apps_summary">Kapcsolja be a fogantyút, válassza ki az alkalmazásokat, és állítsa be az okos vágólapot</string>
+    <string name="sidebar_handle_size_title">Fogantyú mérete</string>
+    <string name="sidebar_tools_title">Eszközsor</string>
+    <string name="sidebar_tools_summary">Képernyőkép és zseblámpa az alkalmazásai alatt</string>
+    <string name="sidebar_footer">A fogantyú vékony, kiemelőszínű vonal; húzással mozgatható a szél mentén. Kézmozdulatos navigáció esetén csak a saját részét fedi le, a visszalépés máshol működik.</string>
 </resources>

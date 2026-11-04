@@ -8,4 +8,50 @@
         <item>"Sederhana"</item>
         <item>"Besar"</item>
     </string-array>
+    <string name="pie_title">Kawalan pai</string>
+    <string name="pie_summary">Tahan bahagian bawah tepi untuk pai pintasan</string>
+    <string name="pie_zone">Sebahagian tepi</string>
+    <string name="pie_clock">Jam dan bateri di atasnya</string>
+    <string name="pie_items">Hirisan</string>
+    <string-array name="pie_items_entries">
+        <item>"Kembali"</item>
+        <item>Utama</item>
+        <item>"Terbaharu"</item>
+        <item>"Pemberitahuan"</item>
+        <item>"Lampu Suluh"</item>
+        <item>"Tangkapan skrin"</item>
+        <item>"Menu kuasa"</item>
+        <item>Pembantu</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Ia memerlukan tahanan seperempat saat tanpa bergerak, jadi leretan pantas dari tepi masih boleh kembali. Ia tidak dibuka pada skrin kunci.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Kiri"</item>
+        <item>"Kanan"</item>
+        <item>Kedua-duanya</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Sepertiga bawah</item>
+        <item>Tengah</item>
+        <item>Seluruh tepi</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Kaca</item>
+        <item>Klasik</item>
+    </string-array>
+    <string name="sidebar_style_title">Gaya bar sisi aplikasi</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klasik</item>
+        <item>Kaca RR</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Bar sisi aplikasi</string>
+    <string name="sidebar_settings_summary">Leret masuk dari pemegang untuk aplikasi dan alatan anda</string>
+    <string name="sidebar_apps_title">Aplikasi, pemegang dan papan keratan</string>
+    <string name="sidebar_apps_summary">Hidupkan pemegang, pilih aplikasi dan sediakan papan keratan pintar</string>
+    <string name="sidebar_handle_size_title">Saiz pemegang</string>
+    <string name="sidebar_tools_title">Baris alatan</string>
+    <string name="sidebar_tools_summary">Tangkapan skrin dan lampu suluh di bawah aplikasi anda</string>
+    <string name="sidebar_footer">Pemegang ialah garis nipis dalam aksen anda; seret untuk mengalihkannya di sepanjang tepi. Dengan gerak isyarat navigasi, ia hanya meliputi bahagiannya sendiri pada tepi, dan kembali berfungsi di tempat lain.</string>
 </resources>

@@ -15,4 +15,62 @@
     <string name="looks_save_look">"Lagre"</string>
     <string name="looks_custom_color">"Egendefinert farge"</string>
     <string name="looks_part_clock_color">"Klokkefarge"</string>
+    <string name="looks_title">Utseender</string>
+    <string name="looks_summary">Hele oppsettet ditt med ett trykk</string>
+    <string name="looks_rr">RR-utseender</string>
+    <string name="looks_yours">Dine utseender</string>
+    <string name="looks_none">Ingenting lagret ennå</string>
+    <string name="looks_save">Lagre nåværende</string>
+    <string name="looks_import_clipboard">Fra utklippstavlen</string>
+    <string name="looks_import_file">Fra en fil</string>
+    <string name="looks_mine">Mitt utseende</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> brukt</string>
+    <string name="looks_failed">Kunne ikke bruke alt</string>
+    <string name="looks_invalid">Dette er ikke et RR-utseende</string>
+    <string name="looks_part_accent">Aksentfarge</string>
+    <string name="looks_part_qs">Hurtiginnstillingsstil</string>
+    <string name="looks_part_clock_face">Klokkestil på låseskjermen</string>
+    <string name="looks_part_clock_look">Klokke i statusraden</string>
+    <string name="looks_part_edge">Kantbelysning</string>
+    <string name="looks_part_boot">Oppstartsanimasjon</string>
+    <string name="looks_part_haptics">Haptic Remix-mønstre</string>
+    <plurals name="looks_haptic_patterns">
+        <item quantity="one">%d mønster og tilordningene deres</item>
+        <item quantity="other">%d mønstre og tilordningene deres</item>
+    </plurals>
+    <string name="looks_saturation">Metning <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Aksent</string>
+    <string name="looks_share_title">Del «<xliff:g id="name" example="Neon night">%1$s</xliff:g>»</string>
+    <string name="looks_share_hint">Skann med en annen RR-telefons kamera, eller under Utseender › Importer</string>
+    <string name="looks_share_file">Del fil</string>
+    <string name="looks_save_file">Lagre fil</string>
+    <string name="looks_import_scan">Skann en QR-kode</string>
+    <string name="looks_import_title">Importer utseende</string>
+    <string name="looks_from_qr">fra en QR-kode</string>
+    <string name="looks_from_file">fra en fil</string>
+    <string name="looks_from_clipboard">fra utklippstavlen</string>
+    <string name="looks_import_same">Det samsvarer allerede med oppsettet ditt.</string>
+    <plurals name="looks_import_changes">
+        <item quantity="one">Endrer <xliff:g id="count" example="4">%d</xliff:g> ting:</item>
+        <item quantity="other">Endrer <xliff:g id="count" example="4">%d</xliff:g> ting:</item>
+    </plurals>
+    <string name="looks_new">Nytt utseende</string>
+    <string name="looks_edit_title">Rediger utseende</string>
+    <string name="looks_in_look">I dette utseendet</string>
+    <string name="looks_not_included">Ikke i denne looken</string>
+    <string name="looks_save_apply">Lagre og bruk</string>
+    <string name="looks_saved">«<xliff:g id="name" example="Sunday">%1$s</xliff:g>» lagret</string>
+    <string name="looks_delete_confirm">Slette «<xliff:g id="name" example="Sunday">%1$s</xliff:g>»?</string>
+    <string name="looks_rr_wallpaper">RR-bakgrunn <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Aksentmetning</string>
+    <string name="looks_part_clock_chip">Klokkebrikke i statusraden</string>
+    <string name="looks_part_edge_style">Stil for kantbelysning</string>
+    <string name="looks_scan_hint">Rett kameraet mot en looks QR-kode</string>
+    <string name="looks_scan_failed">Kunne ikke åpne kameraet</string>
+    <string name="look_roulette_title">Look-rulett</string>
+    <string-array name="look_roulette_entries">
+        <item>"Av"</item>
+        <item>En annen look ved hver opplåsing</item>
+        <item>En annen look hver dag</item>
+    </string-array>
 </resources>

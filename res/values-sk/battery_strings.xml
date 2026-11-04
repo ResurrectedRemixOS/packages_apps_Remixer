@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Batéria"</string>
     <string name="battery_style_title">"Štýl"</string>
+    <string-array name="battery_style_entries">
+        <item>Na výšku</item>
+        <item>"Kruh"</item>
+        <item>Kruh (bodkovaný)</item>
+        <item>Neónový kruh</item>
+        <item>Tenká pilulka</item>
+        <item>Veľké percento</item>
+        <item>Text</item>
+    </string-array>
+    <string name="battery_percent_title">Percento</string>
+    <string-array name="battery_percent_entries">
+        <item>Skryté</item>
+        <item>Vo vnútri ikony</item>
+        <item>Vedľa neho</item>
+    </string-array>
+    <string name="battery_ring_color_title">Farba neónového kruhu</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Podľa úrovne je farba zvýraznenia nad 20 %%, červená pod ním a jantárová v režime šetrenia batérie.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Podľa úrovne</item>
+        <item>Zvýraznenie</item>
+        <item>"Biela"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Iskrenie pri nabíjaní</string>
+    <string name="battery_ring_tile_title">Rovnaký kruh na karte Rýchlych nastavení</string>
+    <string name="battery_ring_tile_summary">So úrovňou a časom zapnutej obrazovky</string>
 </resources>

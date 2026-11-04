@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Hvornår"</string>
+    <string name="nightstand_title">Natbord</string>
+    <string name="nightstand_summary">Et dæmpet sengeur på skærmen, der altid er tændt, mens telefonen oplades om natten</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Fra"</item>
+        <item>På oplader om natten</item>
+        <item>Hver nat, efter en tidsplan</item>
+        <item>Mens en sengetidstilstand er til</item>
+    </string-array>
+    <string name="nightstand_from">Natten begynder</string>
+    <string name="nightstand_to">Natten slutter</string>
+    <string name="nightstand_brightness">Lysstyrkeloft</string>
+    <string name="nightstand_brightness_summary">Hvor lys skærmen, der altid er tændt, må blive, mens Natbord er til</string>
+    <string name="nightstand_face">Urskive</string>
+    <string name="nightstand_face_keep">Behold den nuværende urskive</string>
+    <string name="nightstand_footer">Natbord tænder skærmen, der altid er tændt, mens den kører, og slukker den igen bagefter. Den stopper, når opladeren tages ud, alarmen ringer, eller natten slutter. Urskiven skifter kun mellem to egne urskiver; systemuret bliver.</string>
 </resources>

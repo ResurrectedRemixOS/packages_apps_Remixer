@@ -8,4 +8,50 @@
         <item>"בינוני"</item>
         <item>"גדול"</item>
     </string-array>
+    <string name="pie_title">בקרות פיי</string>
+    <string name="pie_summary">החזיקו את החלק התחתון של קצה כדי לפתוח פיי של קיצורים</string>
+    <string name="pie_zone">חלק מהקצה</string>
+    <string name="pie_clock">שעון וסוללה מעליו</string>
+    <string name="pie_items">פרוסות</string>
+    <string-array name="pie_items_entries">
+        <item>"חזרה"</item>
+        <item>בית</item>
+        <item>"מהזמן האחרון"</item>
+        <item>"התראות"</item>
+        <item>פנס</item>
+        <item>"צילום מסך"</item>
+        <item>"תפריט הפעלה"</item>
+        <item>עוזר</item>
+        <item>"מצלמה"</item>
+    </string-array>
+    <string name="pie_footer">נדרשת החזקה של רבע שנייה ללא תזוזה, כך שהחלקה מהירה מהקצה עדיין חוזרת אחורה. זה לא נפתח במסך הנעילה.</string>
+    <string-array name="pie_edges_entries">
+        <item>"שמאל"</item>
+        <item>"ימין"</item>
+        <item>שניהם</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>שליש תחתון</item>
+        <item>אמצע</item>
+        <item>קצה שלם</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>ניאון</item>
+        <item>זכוכית</item>
+        <item>קלאסי</item>
+    </string-array>
+    <string name="sidebar_style_title">מראה של סרגל האפליקציות</string>
+    <string-array name="sidebar_style_entries">
+        <item>קלאסי</item>
+        <item>זכוכית RR</item>
+        <item>ניאון</item>
+    </string-array>
+    <string name="sidebar_settings_title">סרגל אפליקציות</string>
+    <string name="sidebar_settings_summary">החליקו מהידית כדי לפתוח את האפליקציות והכלים שלכם</string>
+    <string name="sidebar_apps_title">אפליקציות, ידית ולוח הגזירים</string>
+    <string name="sidebar_apps_summary">הפעילו את הידית, בחרו אפליקציות והגדירו את לוח הגזירים החכם</string>
+    <string name="sidebar_handle_size_title">גודל ידית</string>
+    <string name="sidebar_tools_title">שורת כלים</string>
+    <string name="sidebar_tools_summary">צילום מסך ופנס מתחת לאפליקציות שלכם</string>
+    <string name="sidebar_footer">הידית היא קו דק בצבע הראשי שלכם; גררו אותה כדי להזיז אותה לאורך הקצה. עם ניווט במחוות היא מכסה רק את החלק שלה בקצה, והחזרה פועלת בכל שאר המקומות.</string>
 </resources>

@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Teljari</string>
     <string name="quick_launch_undo">"Afturkalla"</string>
     <string name="quick_launch_off">"Slökkt"</string>
+    <string name="quick_launch_title">Hraðræsing</string>
+    <string name="quick_launch_main">Hraðræsing með fingrafari</string>
+    <string name="quick_launch_main_summary">Haltu fingrinum á skynjaranum eftir opnun til að opna flýtileið</string>
+    <string name="quick_launch_hint">Pikkaðu á flýtileið til að breyta henni, haltu henni inni til að fjarlægja hana eða dragðu hana til að raða upp á nýtt.</string>
+    <string name="quick_launch_behavior">Hegðun</string>
+    <string name="quick_launch_hold">Haldtími</string>
+    <string name="quick_launch_haptics">Titra við hverja flýtileið</string>
+    <string name="quick_launch_add">Bæta við</string>
+    <string name="quick_launch_video">Myndband</string>
+    <string name="quick_launch_qr">Skanna QR</string>
+    <string name="quick_launch_app">Forrit…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> fjarlægt</string>
 </resources>

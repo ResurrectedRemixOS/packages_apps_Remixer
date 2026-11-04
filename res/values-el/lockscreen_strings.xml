@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">Πρόληψη ακούσιας αφύπνισης</string>
+    <string name="lockscreen_battery_info_title">Πληροφορίες φόρτισης</string>
+    <string name="lockscreen_battery_info_summary">Εμφάνιση έντασης, watt, τάσης και θερμοκρασίας μπαταρίας κατά τη φόρτιση</string>
+    <string name="charging_ring_title">Κινούμενο εικονίδιο φόρτισης SuperVOOC</string>
+    <string name="charging_ring_summary">Εμφάνιση του κύκλου φόρτισης και της ταχύτητας όταν συνδέετε τη συσκευή</string>
+    <string name="pocket_mode_summary">Όσο ο αισθητήρας εγγύτητας είναι καλυμμένος, η οθόνη δεν ανάβει και αγνοεί την αφή</string>
+    <string name="screen_on_time_title">Χρόνος ενεργής οθόνης</string>
+    <string name="screen_on_time_summary">Εμφάνιση του χρόνου ενεργής οθόνης από την τελευταία πλήρη φόρτιση στην οθόνη κλειδώματος κατά τη φόρτιση και στο πλακίδιο Εξοικονόμησης μπαταρίας</string>
 </resources>

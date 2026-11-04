@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">使用裝置 RKP</string>
+    <string name="ts_rkp_enabled_summary">使用生成的 keybox。匯入 keybox 會將此選項關閉。</string>
+    <string name="ts_rkp_provision">生成 keybox</string>
+    <string name="ts_rkp_provision_summary">使用此裝置的配置服務向 Google 請求 keybox。需要相容的高通韌體。</string>
+    <string name="ts_rkp_status">配置狀態</string>
+    <string name="ts_rkp_owner_only">從裝置所有者的配置檔案管理裝置 RKP</string>
+    <string name="ts_rkp_unavailable">裝置 RKP 不可用</string>
+    <string name="ts_rkp_imported">匯入的 keybox 已安裝時此項不可用</string>
+    <string name="ts_rkp_disabled">已關閉。啟用裝置 RKP 以使用或生成 keybox。</string>
+    <string name="ts_rkp_idle">已準備好請求 keybox</string>
+    <string name="ts_rkp_fetching">正在獲取配置挑戰…</string>
+    <string name="ts_rkp_hardware">正在等待裝置的配置服務…</string>
+    <string name="ts_rkp_signing">正在向 Google 請求證書…</string>
+    <string name="ts_rkp_validating">正在驗證並儲存 keybox…</string>
+    <string name="ts_rkp_ready">已啟用生成的 keybox。將在 %1$s 前自動續期</string>
+    <string name="ts_rkp_keybox_stored">裝置 RKP keybox 已儲存</string>
+    <string name="ts_rkp_expired">生成的 keybox 已過期。請生成替代項。</string>
+    <string name="ts_rkp_hal_rejected">韌體拒絕了請求(程式碼 %1$d)。可能不支援 Duck V1。</string>
+    <string name="ts_rkp_http_error">配置伺服器拒絕了請求(HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">裝置未提供相容的 V1 配置介面</string>
+    <string name="ts_rkp_network_error">無法連線配置伺服器。請檢查網路連線。</string>
+    <string name="ts_rkp_submission_unknown">伺服器響應丟失。請求可能已被處理;未進行自動重試。</string>
+    <string name="ts_rkp_invalid_chain">keybox 證書驗證失敗。已保留現有 keybox。</string>
+    <string name="ts_rkp_timeout">配置超時。如果裝置服務仍在忙碌,請重啟裝置後再試。</string>
+    <string name="ts_rkp_canceled">因 keybox 配置已更改,請求已取消</string>
+    <string name="ts_rkp_save_failed">無法儲存生成的 keybox</string>
+    <string name="ts_rkp_action_failed">無法完成 keybox 操作</string>
+</resources>

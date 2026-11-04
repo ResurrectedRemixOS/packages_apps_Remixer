@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">მოწყობილობის RKP-ის გამოყენება</string>
+    <string name="ts_rkp_enabled_summary">გამოიყენეთ გენერირებული keybox. keybox-ის შემოტანისას ეს გამოირთვება.</string>
+    <string name="ts_rkp_provision">keybox-ის გენერირება</string>
+    <string name="ts_rkp_provision_summary">მოითხოვეთ keybox Google-ისგან ამ მოწყობილობის პროვიჟნინგის სერვისით. საჭიროებს შესაბამის Qualcomm firmware-ს.</string>
+    <string name="ts_rkp_status">პროვიჟნინგის სტატუსი</string>
+    <string name="ts_rkp_owner_only">მოწყობილობის RKP მართეთ მოწყობილობის მფლობელის პროფილიდან</string>
+    <string name="ts_rkp_unavailable">მოწყობილობის RKP მიუწვდომელია</string>
+    <string name="ts_rkp_imported">გამორთულია, სანამ შემოტანილი keybox დაყენებულია</string>
+    <string name="ts_rkp_disabled">გამორთულია. ჩართეთ მოწყობილობის RKP keybox-ის გამოსაყენებლად ან გენერირებისთვის.</string>
+    <string name="ts_rkp_idle">მზადაა keybox-ის მოსათხოვად</string>
+    <string name="ts_rkp_fetching">პროვიჟნინგის გამოწვევა მიიღება…</string>
+    <string name="ts_rkp_hardware">მოწყობილობის პროვიჟნინგის სერვისს ველოდებით…</string>
+    <string name="ts_rkp_signing">სერტიფიკატები Google-დან მოითხოვება…</string>
+    <string name="ts_rkp_validating">keybox მოწმდება და ინახება…</string>
+    <string name="ts_rkp_ready">გენერირებული keybox მოქმედია. ის თავისით განახლდება %1$s-მდე</string>
+    <string name="ts_rkp_keybox_stored">მოწყობილობის RKP keybox შენახულია</string>
+    <string name="ts_rkp_expired">გენერირებული keybox ვადაგასულია. გენერირება ჩაანაცვლეთ.</string>
+    <string name="ts_rkp_hal_rejected">firmware-მა მოთხოვნა უარყო (კოდი %1$d). Duck V1 შესაძლოა არ იყოს მხარდაჭერილი.</string>
+    <string name="ts_rkp_http_error">პროვიჟნინგის სერვერმა მოთხოვნა უარყო (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">მოწყობილობა თავსებად V1 პროვიჟნინგის ინტერფეისს არ ავლენს</string>
+    <string name="ts_rkp_network_error">პროვიჟნინგის სერვერს ვერ მივწვდით. შეამოწმეთ კავშირი.</string>
+    <string name="ts_rkp_submission_unknown">სერვერის პასუხი დაიკარგა. მოთხოვნა შესაძლოა დამუშავდა; ავტომატური ხელახალი ცდა არ განხორციელებულა.</string>
+    <string name="ts_rkp_invalid_chain">საკვანძო სერტიფიკატების გადამოწმება ვერ მოხერხდა. არსებული საკვანძო ფაილი შენარჩუნდა.</string>
+    <string name="ts_rkp_timeout">მომზადება დროის ლიმიტს გადაცდა. თუ მოწყობილობის სერვისი ჯერ კიდევ დაკავებულია, გადატვირთეთ მოწყობილობა და სცადეთ თავიდან.</string>
+    <string name="ts_rkp_canceled">მოთხოვნა გაუქმდა, რადგან საკვანძო კონფიგურაცია შეიცვალა</string>
+    <string name="ts_rkp_save_failed">გენერირებული საკვანძო ფაილის შენახვა ვერ მოხერხდა</string>
+    <string name="ts_rkp_action_failed">საკვანძო ოპერაციის დასრულება ვერ მოხერხდა</string>
+</resources>

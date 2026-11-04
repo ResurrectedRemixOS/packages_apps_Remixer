@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Dùng RKP của thiết bị</string>
+    <string name="ts_rkp_enabled_summary">Dùng keybox được tạo. Nhập keybox sẽ tắt tùy chọn này.</string>
+    <string name="ts_rkp_provision">Tạo keybox</string>
+    <string name="ts_rkp_provision_summary">Yêu cầu keybox từ Google thông qua dịch vụ cấp phát của thiết bị này. Cần phần sụn Qualcomm tương thích.</string>
+    <string name="ts_rkp_status">Trạng thái cấp phát</string>
+    <string name="ts_rkp_owner_only">Quản lý RKP của thiết bị từ hồ sơ chủ sở hữu thiết bị</string>
+    <string name="ts_rkp_unavailable">RKP của thiết bị không khả dụng</string>
+    <string name="ts_rkp_imported">Đã tắt khi keybox nhập vào đang được cài đặt</string>
+    <string name="ts_rkp_disabled">Đang tắt. Bật RKP của thiết bị để dùng hoặc tạo keybox.</string>
+    <string name="ts_rkp_idle">Sẵn sàng yêu cầu keybox</string>
+    <string name="ts_rkp_fetching">Đang lấy thử thách cấp phát…</string>
+    <string name="ts_rkp_hardware">Đang chờ dịch vụ cấp phát của thiết bị…</string>
+    <string name="ts_rkp_signing">Đang yêu cầu chứng chỉ từ Google…</string>
+    <string name="ts_rkp_validating">Đang xác thực và lưu keybox…</string>
+    <string name="ts_rkp_ready">Keybox đã tạo đang hoạt động. Tự gia hạn trước %1$s</string>
+    <string name="ts_rkp_keybox_stored">Đã lưu keybox RKP của thiết bị</string>
+    <string name="ts_rkp_expired">Keybox đã tạo đã hết hạn. Hãy tạo keybox thay thế.</string>
+    <string name="ts_rkp_hal_rejected">Phần sụn từ chối yêu cầu (mã %1$d). Duck V1 có thể không được hỗ trợ.</string>
+    <string name="ts_rkp_http_error">Máy chủ cấp phát từ chối yêu cầu (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Thiết bị không cung cấp giao diện cấp phát V1 tương thích</string>
+    <string name="ts_rkp_network_error">Không thể kết nối đến máy chủ cấp phát. Hãy kiểm tra kết nối của bạn.</string>
+    <string name="ts_rkp_submission_unknown">Mất phản hồi từ máy chủ. Yêu cầu có thể đã được xử lý; hệ thống không tự động thử lại.</string>
+    <string name="ts_rkp_invalid_chain">Chứng chỉ keybox không qua được xác thực. Keybox hiện có đã được giữ lại.</string>
+    <string name="ts_rkp_timeout">Hết thời gian cấp phát. Nếu dịch vụ của thiết bị vẫn bận, hãy khởi động lại thiết bị rồi thử lại.</string>
+    <string name="ts_rkp_canceled">Đã hủy yêu cầu vì cấu hình keybox đã thay đổi</string>
+    <string name="ts_rkp_save_failed">Không thể lưu keybox đã tạo</string>
+    <string name="ts_rkp_action_failed">Không thể hoàn tất thao tác keybox</string>
+</resources>

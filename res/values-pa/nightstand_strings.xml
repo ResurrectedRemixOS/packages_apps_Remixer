@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">ਕਦੋਂ</string>
+    <string name="nightstand_title">ਨਾਈਟਸਟੈਂਡ</string>
+    <string name="nightstand_summary">ਰਾਤ ਨੂੰ ਚਾਰਜਰ \'ਤੇ ਲੱਗੇ ਹੋਣ ਵੇਲੇ ਹਮੇਸ਼ਾ-ਚਾਲੂ ਡਿਸਪਲੇ \'ਤੇ ਮੱਧਮ ਬੈੱਡਸਾਈਡ ਘੜੀ</string>
+    <string-array name="nightstand_when_entries">
+        <item>"ਬੰਦ"</item>
+        <item>ਰਾਤ ਨੂੰ ਚਾਰਜਰ \'ਤੇ</item>
+        <item>ਹਰ ਰਾਤ, ਤੈਅ ਸਮੇਂ \'ਤੇ</item>
+        <item>ਸੌਣ ਦਾ ਮੋਡ ਚਾਲੂ ਹੋਣ ਦੌਰਾਨ</item>
+    </string-array>
+    <string name="nightstand_from">ਰਾਤ ਸ਼ੁਰੂ</string>
+    <string name="nightstand_to">ਰਾਤ ਖ਼ਤਮ</string>
+    <string name="nightstand_brightness">ਚਮਕ ਦੀ ਹੱਦ</string>
+    <string name="nightstand_brightness_summary">ਨਾਈਟਸਟੈਂਡ ਚਾਲੂ ਹੋਣ \'ਤੇ ਹਮੇਸ਼ਾ-ਚਾਲੂ ਡਿਸਪਲੇ ਕਿੰਨੀ ਚਮਕ ਤੱਕ ਜਾ ਸਕਦੀ ਹੈ</string>
+    <string name="nightstand_face">ਘੜੀ ਦਾ ਚਿਹਰਾ</string>
+    <string name="nightstand_face_keep">ਮੌਜੂਦਾ ਚਿਹਰਾ ਰੱਖੋ</string>
+    <string name="nightstand_footer">ਨਾਈਟਸਟੈਂਡ ਚੱਲਣ ਦੌਰਾਨ ਹਮੇਸ਼ਾ-ਚਾਲੂ ਡਿਸਪਲੇ ਚਾਲੂ ਕਰਦਾ ਹੈ ਅਤੇ ਬਾਅਦ ਵਿੱਚ ਵਾਪਸ ਕਰ ਦਿੰਦਾ ਹੈ। ਚਾਰਜਰ ਹਟਣ, ਅਲਾਰਮ ਵੱਜਣ ਜਾਂ ਰਾਤ ਖ਼ਤਮ ਹੋਣ \'ਤੇ ਇਹ ਬੰਦ ਹੋ ਜਾਂਦਾ ਹੈ। ਚਿਹਰਾ ਸਿਰਫ਼ ਦੋ ਕਸਟਮ ਚਿਹਰਿਆਂ ਵਿਚਕਾਰ ਬਦਲਦਾ ਹੈ; ਸਿਸਟਮ ਘੜੀ ਉਹੀ ਰਹਿੰਦੀ ਹੈ।</string>
 </resources>

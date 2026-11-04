@@ -13,4 +13,41 @@
     <string name="backup_group_other">"기타"</string>
     <string name="backup_done">"완료"</string>
     <string name="volume_style_title">음량 패널 스타일</string>
+    <string name="backup_summary">RR 사용자 설정을 파일 하나에 모두 저장</string>
+    <string name="backup_now">지금 백업</string>
+    <string name="backup_never">마지막 백업: 없음</string>
+    <string name="backup_last">마지막 백업: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">파일에서 복원</string>
+    <string name="backup_restore_summary">백업 파일 선택</string>
+    <string name="backup_included">포함 항목</string>
+    <string name="backup_part_theme">강조색, 글꼴 및 아이콘</string>
+    <string name="backup_part_header">헤더 이미지</string>
+    <string name="backup_part_photo">헤더 이미지(사진)</string>
+    <string name="backup_part_photo_summary">파일 크기가 커집니다</string>
+    <string name="backup_part_looks">내 룩</string>
+    <string name="backup_weekly">주간 백업</string>
+    <string name="backup_weekly_summary">선택한 폴더로</string>
+    <string name="backup_weekly_on">매주 <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g>에 백업</string>
+    <string name="backup_offer">업데이트 전에 백업 제안</string>
+    <string name="backup_offer_summary">업데이터가 설치하기 전에 묻습니다</string>
+    <string name="backup_sets">설정 <xliff:g id="count" example="64">%1$d</xliff:g>개 적용</string>
+    <string name="backup_saved">설정 <xliff:g id="count" example="64">%1$d</xliff:g>개 저장됨</string>
+    <string name="backup_restored">설정 <xliff:g id="count" example="64">%1$d</xliff:g>개 복원됨</string>
+    <string name="backup_restored_message">적용하려면 SystemUI가 다시 시작됩니다.</string>
+    <string name="backup_skipped">이 빌드에 없는 설정 <xliff:g id="count" example="2">%1$d</xliff:g>개는 건너뛰었습니다.</string>
+    <string name="backup_failed">백업을 저장하지 못했습니다</string>
+    <string name="backup_invalid">Resurrected Remix 백업 파일이 아닙니다</string>
+    <string name="backup_footer">파일에는 RR 설정만 들어갑니다. 계정, 비밀번호, Wi-Fi 네트워크, 앱, 메시지는 포함되지 않습니다. 복원은 RR 자체 목록에 있는 설정만 씁니다. 따라서 백업 파일로 휴대폰의 다른 항목이 바뀌지 않습니다. 헤더 사진은 스위치를 켠 경우에만 포함되며, 파일 크기가 커집니다.</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>네온</item>
+        <item>글래스</item>
+        <item>알약</item>
+        <item>클래식 RR</item>
+        <item>Bento</item>
+        <item>도형</item>
+        <item>청사진</item>
+        <item>듀오</item>
+        <item>소프트</item>
+    </string-array>
 </resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">ଡିଭାଇସ RKP ବ୍ୟବହାର କରନ୍ତୁ</string>
+    <string name="ts_rkp_enabled_summary">ଏକ ଜେନେରେଟ ହୋଇଥିବା କିବକ୍ସ ବ୍ୟବହାର କରନ୍ତୁ। କିବକ୍ସ ଆମଦାନି କଲେ ଏହା ବନ୍ଦ ହୋଇଯିବ।</string>
+    <string name="ts_rkp_provision">କିବକ୍ସ ଜେନେରେଟ କରନ୍ତୁ</string>
+    <string name="ts_rkp_provision_summary">ଏହି ଡିଭାଇସର ପ୍ରୋଭିଜନିଂ ସେବା ବ୍ୟବହାର କରି Google ରୁ ଏକ କିବକ୍ସ ଅନୁରୋଧ କରନ୍ତୁ। ସୁସଙ୍ଗତ Qualcomm ଫର୍ମୱେର ଆବଶ୍ୟକ।</string>
+    <string name="ts_rkp_status">ପ୍ରୋଭିଜନିଂ ସ୍ଥିତି</string>
+    <string name="ts_rkp_owner_only">ଡିଭାଇସ ମାଲିକଙ୍କ ପ୍ରୋଫାଇଲରୁ ଡିଭାଇସ RKP ପରିଚାଳନା କରନ୍ତୁ</string>
+    <string name="ts_rkp_unavailable">ଡିଭାଇସ RKP ଉପଲବ୍ଧ ନାହିଁ</string>
+    <string name="ts_rkp_imported">ଆମଦାନି ହୋଇଥିବା କିବକ୍ସ ଇନଷ୍ଟଲ ଥିବାବେଳେ ଅକ୍ଷମ</string>
+    <string name="ts_rkp_disabled">ବନ୍ଦ ଅଛି। କିବକ୍ସ ବ୍ୟବହାର ବା ଜେନେରେଟ କରିବାକୁ ଡିଭାଇସ RKP ସକ୍ଷମ କରନ୍ତୁ।</string>
+    <string name="ts_rkp_idle">କିବକ୍ସ ଅନୁରୋଧ ପାଇଁ ପ୍ରସ୍ତୁତ</string>
+    <string name="ts_rkp_fetching">ପ୍ରୋଭିଜନିଂ ଚ୍ୟାଲେଞ୍ଜ ପାଉଛି…</string>
+    <string name="ts_rkp_hardware">ଡିଭାଇସର ପ୍ରୋଭିଜନିଂ ସେବାର ଅପେକ୍ଷା ହେଉଛି…</string>
+    <string name="ts_rkp_signing">Google ରୁ ସାର୍ଟିଫିକେଟ ଅନୁରୋଧ ହେଉଛି…</string>
+    <string name="ts_rkp_validating">କିବକ୍ସ ଯାଞ୍ଚ ଓ ସଞ୍ଚୟ ହେଉଛି…</string>
+    <string name="ts_rkp_ready">ଜେନେରେଟ ହୋଇଥିବା କିବକ୍ସ ସକ୍ରିୟ। %1$s ପୂର୍ବରୁ ନିଜେ ନବୀକରଣ ହେବ</string>
+    <string name="ts_rkp_keybox_stored">ଡିଭାଇସ RKP କିବକ୍ସ ସଞ୍ଚିତ ହୋଇଛି</string>
+    <string name="ts_rkp_expired">ଜେନେରେଟ ହୋଇଥିବା କିବକ୍ସ ସମାପ୍ତ ହୋଇଛି। ଏକ ବଦଳ ଜେନେରେଟ କରନ୍ତୁ।</string>
+    <string name="ts_rkp_hal_rejected">ଫର୍ମୱେର ଅନୁରୋଧ ପ୍ରତ୍ୟାଖ୍ୟାନ କରିଛି (କୋଡ %1$d)। Duck V1 ସମର୍ଥିତ ନହୋଇପାରେ।</string>
+    <string name="ts_rkp_http_error">ପ୍ରୋଭିଜନିଂ ସର୍ଭର ଅନୁରୋଧ ପ୍ରତ୍ୟାଖ୍ୟାନ କରିଛି (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">ଡିଭାଇସ ଏକ ସୁସଙ୍ଗତ V1 ପ୍ରୋଭିଜନିଂ ଇଣ୍ଟରଫେସ ପ୍ରଦାନ କରୁନାହିଁ</string>
+    <string name="ts_rkp_network_error">ପ୍ରୋଭିଜନିଂ ସର୍ଭରରେ ପହଞ୍ଚିହେଲା ନାହିଁ। ଆପଣଙ୍କ ସଂଯୋଗ ଯାଞ୍ଚ କରନ୍ତୁ।</string>
+    <string name="ts_rkp_submission_unknown">ସର୍ଭର ପ୍ରତିକ୍ରିୟା ହଜିଯାଇଛି। ଅନୁରୋଧ ପ୍ରକ୍ରିୟାକରଣ ହୋଇଥାଇପାରେ; କୌଣସି ସ୍ୱୟଂ ପୁନଃ ଚେଷ୍ଟା କରାଯାଇନାହିଁ।</string>
+    <string name="ts_rkp_invalid_chain">କିବକ୍ସ ସାର୍ଟିଫିକେଟ ଯାଞ୍ଚରେ ବିଫଳ। ବିଦ୍ୟମାନ କିବକ୍ସ ରଖାଯାଇଛି।</string>
+    <string name="ts_rkp_timeout">ପ୍ରୋଭିଜନିଂ ସମୟ ସମାପ୍ତ ହୋଇଛି। ଡିଭାଇସ ସେବା ଏପର୍ଯ୍ୟନ୍ତ ବ୍ୟସ୍ତ ଥିଲେ, ପୁନଃ ଚେଷ୍ଟା ପୂର୍ବରୁ ଡିଭାଇସ ରିଷ୍ଟାର୍ଟ କରନ୍ତୁ।</string>
+    <string name="ts_rkp_canceled">କିବକ୍ସ କନଫିଗରେସନ ବଦଳିଥିବାରୁ ଅନୁରୋଧ ବାତିଲ ହୋଇଛି</string>
+    <string name="ts_rkp_save_failed">ଜେନେରେଟ ହୋଇଥିବା କିବକ୍ସ ସଞ୍ଚୟ କରିହେଲା ନାହିଁ</string>
+    <string name="ts_rkp_action_failed">କିବକ୍ସ କାର୍ଯ୍ୟ ସମ୍ପୂର୍ଣ୍ଣ କରିହେଲା ନାହିଁ</string>
+</resources>

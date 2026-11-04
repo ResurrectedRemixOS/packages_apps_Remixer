@@ -8,4 +8,50 @@
         <item>"நடுத்தரம்"</item>
         <item>"பெரியது"</item>
     </string-array>
+    <string name="pie_title">பை கட்டுப்பாடுகள்</string>
+    <string name="pie_summary">குறுக்குவழிகளின் பைக்கு விளிம்பின் கீழ்ப் பகுதியை அழுத்திப் பிடிக்கவும்</string>
+    <string name="pie_zone">விளிம்பின் ஒரு பகுதி</string>
+    <string name="pie_clock">அதற்கு மேலே கடிகாரமும் பேட்டரியும்</string>
+    <string name="pie_items">துண்டுகள்</string>
+    <string-array name="pie_items_entries">
+        <item>"பின்செல்"</item>
+        <item>முகப்பு</item>
+        <item>"சமீபத்தியவை"</item>
+        <item>"அறிவிப்புகள்"</item>
+        <item>ஒளிவிளக்கு</item>
+        <item>"ஸ்கிரீன்ஷாட்"</item>
+        <item>"பவர் மெனு"</item>
+        <item>உதவியாளர்</item>
+        <item>"கேமரா"</item>
+    </string-array>
+    <string name="pie_footer">இதற்கு கால் வினாடி அசையாமல் அழுத்திப் பிடிக்க வேண்டும், எனவே விளிம்பிலிருந்து விரைவாக ஸ்வைப் செய்தால் இன்னும் பின்செல்லும். இது திறத்தல் திரையில் திறக்காது.</string>
+    <string-array name="pie_edges_entries">
+        <item>"இடது"</item>
+        <item>"வலது"</item>
+        <item>இரண்டும்</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>கீழ் மூன்றில் ஒரு பகுதி</item>
+        <item>நடுவில்</item>
+        <item>முழு விளிம்பு</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>நியான்</item>
+        <item>கண்ணாடி</item>
+        <item>கிளாசிக்</item>
+    </string-array>
+    <string name="sidebar_style_title">பயன்பாட்டுப் பக்கப்பட்டி தோற்றம்</string>
+    <string-array name="sidebar_style_entries">
+        <item>கிளாசிக்</item>
+        <item>RR கண்ணாடி</item>
+        <item>நியான்</item>
+    </string-array>
+    <string name="sidebar_settings_title">பயன்பாட்டுப் பக்கப்பட்டி</string>
+    <string name="sidebar_settings_summary">உங்கள் பயன்பாடுகளுக்கும் கருவிகளுக்கும் கைப்பிடியிலிருந்து உள்ளே ஸ்வைப் செய்யவும்</string>
+    <string name="sidebar_apps_title">பயன்பாடுகளும் கைப்பிடியும் கிளிப்போர்டும்</string>
+    <string name="sidebar_apps_summary">கைப்பிடியை இயக்கவும், பயன்பாடுகளைத் தேர்ந்தெடுக்கவும், ஸ்மார்ட் கிளிப்போர்டை அமைக்கவும்</string>
+    <string name="sidebar_handle_size_title">கைப்பிடியின் அளவு</string>
+    <string name="sidebar_tools_title">கருவிகள் வரிசை</string>
+    <string name="sidebar_tools_summary">உங்கள் பயன்பாடுகளுக்குக் கீழே ஸ்கிரீன்ஷாட்டும் ஒளிவிளக்கும்</string>
+    <string name="sidebar_footer">கைப்பிடி உங்கள் உச்சரிப்பு நிறத்தில் ஒரு மெல்லிய கோடு; அதை விளிம்பில் நகர்த்த இழுக்கவும். சைகை வழிசெலுத்தலுடன் அது விளிம்பின் தனது பகுதியை மட்டுமே உள்ளடக்கும், மற்ற இடங்களில் பின்செல்லும் சைகை வேலை செய்யும்.</string>
 </resources>

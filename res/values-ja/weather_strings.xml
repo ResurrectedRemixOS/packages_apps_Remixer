@@ -4,4 +4,14 @@
     <string name="lockscreen_weather_location_title">"位置情報"</string>
     <string name="lockscreen_weather_wind_title">風</string>
     <string name="lockscreen_weather_humidity_title">湿度</string>
+    <string name="lockscreen_weather_title">ロック画面の天気</string>
+    <string name="lockscreen_weather_location_summary">都市名を表示</string>
+    <string name="lockscreen_weather_text_title">天気の状態</string>
+    <string name="lockscreen_weather_text_summary">「くもり」や「快晴」などの天気の状態を表示</string>
+    <string name="lockscreen_weather_wind_summary">風速と風向を表示</string>
+    <string name="lockscreen_weather_humidity_summary">湿度を表示</string>
+    <string name="custom_clock_weather_title">時計ウィジェットでの天気</string>
+    <string name="custom_clock_weather_summary">表示スペースのある時計の文字盤に天気を表示</string>
+    <string name="remixer_weather_service">天気サービス</string>
+    <string name="remixer_weather_page_summary">ロック画面の天気と表示内容</string>
 </resources>

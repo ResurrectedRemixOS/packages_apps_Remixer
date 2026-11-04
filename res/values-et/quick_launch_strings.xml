@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Taimer</string>
     <string name="quick_launch_undo">"Võta tagasi"</string>
     <string name="quick_launch_off">"Väljas"</string>
+    <string name="quick_launch_title">Kiirkäivitus</string>
+    <string name="quick_launch_main">Sõrmejälje kiirkäivitus</string>
+    <string name="quick_launch_main_summary">Hoia sõrme pärast avamist anturil, et avada otsetee</string>
+    <string name="quick_launch_hint">Puuduta otseteed, et seda muuta, hoia all, et see eemaldada, või lohista, et ümber järjestada.</string>
+    <string name="quick_launch_behavior">Käitumine</string>
+    <string name="quick_launch_hold">Hoidmisaeg</string>
+    <string name="quick_launch_haptics">Vibreeri iga otsetee puhul</string>
+    <string name="quick_launch_add">Lisa</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">Skanni QR-kood</string>
+    <string name="quick_launch_app">Rakendus…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> eemaldatud</string>
 </resources>

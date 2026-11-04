@@ -83,4 +83,203 @@
     <string name="wallpaper_apply_lock">"Sluitskerm"</string>
     <string name="remixer_settings_style_original">"Oorspronklike"</string>
     <string name="remixer_navbar_category">"Navigasiebalk"</string>
+    <string name="remixer_dashboard_summary">Statusbalk, tema, sluitskerm en meer</string>
+    <string name="rr_homepage_battery">Battery</string>
+    <string name="rr_homepage_battery_saver">Batterybesparing</string>
+    <string name="rr_homepage_personalize">Personaliseer</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> vry</string>
+    <string name="rr_homepage_charged">Heeltemal gelaai</string>
+    <string name="rr_homepage_on_battery">Op battery</string>
+    <string name="rr_homepage_saver_on">Batterybesparing aan</string>
+    <string name="rr_homepage_extras">Bykomende instellings</string>
+    <string name="rr_homepage_saver">Besparing</string>
+    <string name="rr_homepage_signed_out">Nie aangeteken nie</string>
+    <string name="rr_homepage_remixer_tagline">Maak dit jou eie. Statusbalk, tema, sluitskerm en meer.</string>
+    <string name="rr_homepage_device_tagline">Waarskuwingskuiwer, skerm, laai en GameBar.</string>
+    <string name="rr_homepage_device_action">Stel dit af</string>
+    <string name="rr_group_network">Netwerk &amp; toestelle</string>
+    <string name="rr_group_network_summary">Wi‑Fi, mobiel, Bluetooth</string>
+    <string name="rr_group_apps_summary">Programme, kennisgewings, Modes</string>
+    <string name="rr_group_display">Vertoning &amp; klank</string>
+    <string name="rr_group_display_summary">Skerm, muurpapier, klank</string>
+    <string name="rr_group_security_summary">Sluit, ligging, nood</string>
+    <string name="rr_group_security_center">Sekuriteitsentrum</string>
+    <string name="rr_group_accounts">Google &amp; rekeninge</string>
+    <string name="rr_group_accounts_summary">Google, wagwoorde, rugsteun</string>
+    <string name="rr_group_accounts_plain_summary">Wagwoorde, rekeninge, rugsteun</string>
+    <string name="rr_group_system_summary">Tale, gebare, opdaterings</string>
+    <string name="remixer_tagline">Maak dit jou eie.</string>
+    <string name="remixer_remix">Remix dit</string>
+    <string name="remixer_remixed">Geremix met <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Skakering · Verstek</string>
+    <string name="remixer_quick">Vinnige remix</string>
+    <string name="remixer_everything">Alles</string>
+    <string name="remixer_quick_accents">Voorafinstellings of enige kleur</string>
+    <string name="remixer_quick_fonts">Stelselletiperstyle</string>
+    <string name="remixer_quick_walls">RR-versameling</string>
+    <string name="remixer_quick_header">KS-opskrif</string>
+    <string name="remixer_quick_header_summary">Opskrifbeelde</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Horlosie, battery, ikone en netwerkverkeer</string>
+    <string name="remixer_qs_summary">Opskrifbeeld</string>
+    <string name="remixer_notifications_summary">Randverligting, programikone en laaiklanke</string>
+    <string name="remixer_theme_summary">Lettertipes, aksente en muurpapiere</string>
+    <string name="remixer_lockscreen_summary">UDFPS, laaiinligting en weer</string>
+    <string name="remixer_udfps_icon">UDFPS-ikoon</string>
+    <string name="remixer_udfps_icon_summary">Word oor die vingerafdruksensor getoon</string>
+    <string name="remixer_udfps_animation">UDFPS-animasie</string>
+    <string name="remixer_udfps_animation_summary">Speel terwyl jou vinger op die sensor is</string>
+    <string name="remixer_navigation">Navigasie</string>
+    <string name="remixer_navigation_summary">Pols, knoppies en navigasiebalk</string>
+    <string name="remixer_misc_summary">Volume, rugsteun, nabootsing, rol en USB</string>
+    <string name="misc_category_volume">Volume</string>
+    <string name="scroll_haptics_title">Tik aan die einde van \'n rol</string>
+    <string name="scroll_haptics_summary">\'n Ligte vibrasie wanneer \'n lys of bladsy nie verder kan gaan nie</string>
+    <string name="usb_mode_picker_title">USB-modus-kieser</string>
+    <string name="usb_mode_picker_summary">Kies \'n modus wanneer jy aan \'n rekenaar koppel</string>
+    <string name="remixer_fonts_summary">Stelsellettertipe</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix-muurpapiere</string>
+    <string name="remixer_accents">Aksente</string>
+    <string name="remixer_accents_summary">Aksentkleur</string>
+    <string name="remixer_pulse">Pols</string>
+    <string name="remixer_pulse_summary">Musiekvisualiseerder langs die onderkant van die skerm</string>
+    <string name="pulse_switch">Gebruik pols</string>
+    <string name="pulse_switch_summary">Musiekstawe langs die onderkant van die skerm terwyl media speel</string>
+    <string name="pulse_style_lines">Lyne</string>
+    <string name="pulse_style_fading">Verdwynend</string>
+    <string name="pulse_style_blocks">Blokke</string>
+    <string name="pulse_style_mirror">Spieël</string>
+    <string name="pulse_color_custom">Pasgemaak</string>
+    <string name="pulse_color_gradient">Reënboog</string>
+    <string name="pulse_bars">Stawe</string>
+    <string name="pulse_bars_value">Stawe · %1$d</string>
+    <string name="pulse_height">Hoogte</string>
+    <string name="pulse_height_value">Hoogte · %1$d dp</string>
+    <string name="pulse_opacity">Ondoorsigtigheid</string>
+    <string name="pulse_opacity_value">Ondoorsigtigheid · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Hou die stawe op die sluitskerm terwyl musiek speel</string>
+    <string name="pulse_failed">Kon nie daardie polsinstelling stoor nie</string>
+    <string name="accent_applied">Aksent toegepas</string>
+    <string name="accent_current">Aksent · %1$s</string>
+    <string name="accent_current_custom">Aksent · Pasgemaak</string>
+    <string name="accent_preview_tonal">Tonaal</string>
+    <string name="accent_failed">Kon nie daardie aksent toepas nie</string>
+    <string name="accent_custom">Pasgemaak</string>
+    <string name="accent_custom_summary">Enige kleur werk. Skakering pas steeds daarop toe.</string>
+    <string name="accent_custom_pad">Versadiging en helderheid</string>
+    <string name="accent_custom_use">Gebruik <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">Skakering</string>
+    <string name="accent_shade_darker">Donkerder</string>
+    <string name="accent_shade_lighter">Ligter</string>
+    <string name="accent_shade_darker_value">Donkerder · %1$d</string>
+    <string name="accent_shade_lighter_value">Ligter · %1$d</string>
+    <string name="remixer_qs_style">KS-styl</string>
+    <string name="remixer_qs_style_preview">Voorskou · %1$s</string>
+    <string name="remixer_qs_style_note">Elke styl volg jou aksentkleur. Die volumepaneel het passende Bento-, Vorms-, Blueprint-, Duo- en Sag-style. Stock Lineage laat die Android 17-teëls ongemoeid.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Die Android 17-teëls, onveranderd</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Helderheid in \'n aksentkaart. Teëls vul met \'n aksentgradiënt</string>
+    <string name="remixer_qs_style_compact">Kompak</string>
+    <string name="remixer_qs_style_compact_summary">Korter teëls. Meer daarvan op een skerm</string>
+    <string name="remixer_qs_style_glass">Glas</string>
+    <string name="remixer_qs_style_glass_summary">Deurskynende omlynde teëls wat in jou aksent gloei wanneer aan</string>
+    <string name="remixer_qs_style_circles">Sirkels</string>
+    <string name="remixer_qs_style_circles_summary">Ronde wisselaars met etikette. Wye teëls word kaarte</string>
+    <string name="remixer_qs_style_classic">Klassiek</string>
+    <string name="remixer_qs_style_classic_summary">Ou-skool RR: kale ikone met etikette, vyf oor, \'n dun kuiwer</string>
+    <string name="remixer_qs_style_cards">Kaarte</string>
+    <string name="remixer_qs_style_cards_summary">Groot kaarte met die toestand onder elke naam, drie oor</string>
+    <string name="remixer_qs_style_neon">Neon</string>
+    <string name="remixer_qs_style_neon_summary">Omlynde teëls wat in jou aksent gloei wanneer aan</string>
+    <string name="remixer_qs_style_bento_summary">Groot ronde blokke gevul met jou aksent, etikette onder die klein een</string>
+    <string name="remixer_qs_style_shapes">Vorms</string>
+    <string name="remixer_qs_style_shapes_summary">Ronde wisselaars wat lobbe uitgroei wanneer aan, vyf oor</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Haarlynomlynings en monospasie-hoofletters</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Gesplete teëls. Die ikoonhelfte lig op en wissel</string>
+    <string name="remixer_qs_style_soft">Sag</string>
+    <string name="remixer_qs_style_soft_summary">Verhoogde teëls wat indruk wanneer aan</string>
+    <string name="remixer_lock_media_style">Mediaspeler-styl</string>
+    <string name="remixer_lock_media_same">Dieselfde as Vinnige instellings</string>
+    <string name="remixer_lock_media_same_summary">Volg jou KS-Media-teël, nou %1$s</string>
+    <string name="remixer_lock_media_off_summary">Geen speler op die sluitskerm nie</string>
+    <string name="remixer_lock_media_note">Die kaart wys op die sluitskerm terwyl iets speel. Deurskynende style kry \'n donker agtergrond sodat hulle oor jou muurpapier leesbaar bly.</string>
+    <string name="remixer_lock_media_stock_summary">Albumkuns vul die kaart</string>
+    <string name="remixer_lock_media_remix_summary">Donker kaart, aksent-speelknoppie</string>
+    <string name="remixer_lock_media_compact_summary">Ronder kaart, ronde kunswerk</string>
+    <string name="remixer_lock_media_glass_summary">Omlynde deurskynende kaart</string>
+    <string name="remixer_lock_media_circles_summary">Sag kaart, aksent-speelknoppie</string>
+    <string name="remixer_lock_media_classic_summary">Vierkanter kaart, omlynde speelknoppie</string>
+    <string name="remixer_lock_media_cards_summary">Sag kaart, aksent-speelknoppie, soos Sirkels</string>
+    <string name="remixer_lock_media_neon_summary">Swart kaart met \'n aksentomlyning</string>
+    <string name="remixer_lock_media_bento_summary">Sag kaart, aksent-speelknoppie</string>
+    <string name="remixer_lock_media_shapes_summary">Ronder kaart, aksent-speelknoppie</string>
+    <string name="remixer_lock_media_blueprint_summary">Haarlynomlyning, omlynde speelknoppie</string>
+    <string name="remixer_lock_media_duo_summary">Tweetonige kaart, aksent-speelknoppie</string>
+    <string name="remixer_lock_media_soft_summary">Verhoogde kaart met \'n afgeskuinsde rand</string>
+    <string name="remixer_headers">Opskrifbeeld</string>
+    <string name="remixer_headers_summary">Kies \'n agtergrondbeeld vir vinnige instellings</string>
+    <string name="header_switch">Gebruik opskrifbeeld</string>
+    <string name="header_switch_summary">Wys \'n prent agter vinnige instellings</string>
+    <string name="header_source">Bron</string>
+    <string name="header_source_collection">Versameling</string>
+    <string name="header_collections_summary_daylight">Die opskrif volg die tyd van die dag of wissel deur die versameling</string>
+    <string name="header_collections_summary_static">Maak \'n versameling oop en tik dan \'n beeld om dit te gebruik</string>
+    <string name="header_collections_empty">Geen opskrifversamelings geïnstalleer nie</string>
+    <string name="header_images_daylight">In hierdie versameling</string>
+    <string name="header_photo_summary">Enige foto of geanimeerde GIF uit jou galery</string>
+    <string name="header_height">Hoogte</string>
+    <string name="header_height_value">Hoogte · %1$d dp</string>
+    <string name="header_shadow">Dimmer</string>
+    <string name="header_shadow_value">Dimmer · %1$d%%</string>
+    <string name="header_failed">Kon nie daardie opskrifinstelling stoor nie</string>
+    <string name="remixer_weather_summary">Weerdiens en eenhede</string>
+    <string name="font_preview_notification">So sal jou foon lees.</string>
+    <string name="font_try_text">Probeer jou eie teks</string>
+    <string name="font_previewing">Voorskou</string>
+    <string name="font_current">Huidige lettertipe</string>
+    <string name="font_badge_current">Huidige</string>
+    <string name="font_apply_done">Toegepas</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Vertoning</string>
+    <string name="font_filter_script">Skrif</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Lettertipe toegepas</string>
+    <string name="font_failed">Kon nie daardie lettertipe toepas nie</string>
+    <string name="wallpaper_set">Muurpapier gestel</string>
+    <string name="wallpaper_apply_both">Albei</string>
+    <string name="wallpaper_failed">Kon nie daardie muurpapier stel nie</string>
+    <string name="missing_app">Daardie program is nie geïnstalleer nie</string>
+    <string name="remixer_spoofing">Naamsverandering</string>
+    <string name="remixer_spoofing_summary">Play Integrity, toestelidentiteit en naamsverandering per program</string>
+    <string name="remixer_settings_style">Instellingstyl</string>
+    <string name="rr_maintainer">Onderhouer</string>
+    <string name="remixer_navbar_summary">Polslengte, dikte en uitleg</string>
+    <string name="remixer_navbar_pill_length">Gebarepolslengte</string>
+    <string name="remixer_navbar_pill_thickness">Gebarepolsdikte</string>
+    <string name="remixer_navbar_pill_auto_hide">Vervaag die gebarepols uit</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Versteek die pols na \'n paar sekondes; dit keer terug wanneer jy die skerm aanraak</string>
+    <string name="remixer_navbar_ime">Sleutelbordknoppies</string>
+    <string name="remixer_navbar_ime_summary">Wys terug- en sleutelbordwisselknoppies onder die sleutelbord</string>
+    <string name="remixer_navbar_layout">Knoppie-uitleg</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Kort</item>
+        <item>Normaal</item>
+        <item>Lank</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Dunste</item>
+        <item>Dunner</item>
+        <item>Dun</item>
+        <item>Normaal</item>
+        <item>Dik</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Normaal</item>
+        <item>Kompak</item>
+        <item>"Na links"</item>
+        <item>"Na regs"</item>
+    </string-array>
 </resources>

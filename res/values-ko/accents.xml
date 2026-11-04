@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"배경화면"</item>
+        <item>Resurrected</item>
+        <item>Android One 그린</item>
+        <item>Aospa 그린</item>
+        <item>코카콜라 레드</item>
+        <item>디스코드 퍼플</item>
+        <item>페이스북 블루</item>
+        <item>인스타그램 체리</item>
+        <item>졸리비 크림슨</item>
+        <item>몬스터 에너지 그린</item>
+        <item>넥스빗 민트</item>
+        <item>원플러스 레드</item>
+        <item>펩시 블루</item>
+        <item>픽셀 블루</item>
+        <item>포코폰 옐로</item>
+        <item>레이저 그린</item>
+        <item>삼성 블루</item>
+        <item>스포티파이 그린</item>
+        <item>스타벅스 그린</item>
+        <item>트위치 퍼플</item>
+        <item>트위터 블루</item>
+        <item>샤오미 오렌지</item>
+        <item>앰버</item>
+        <item>"검은색"</item>
+        <item>"파란색"</item>
+        <item>블루 그레이</item>
+        <item>브라운</item>
+        <item>"녹청색"</item>
+        <item>딥 오렌지</item>
+        <item>딥 퍼플</item>
+        <item>"녹색"</item>
+        <item>"회색"</item>
+        <item>"인디고"</item>
+        <item>라이트 블루</item>
+        <item>라임</item>
+        <item>"주황색"</item>
+        <item>"분홍색"</item>
+        <item>"보라색"</item>
+        <item>"빨간색"</item>
+        <item>"청록색"</item>
+        <item>사용자 5</item>
+        <item>사용자 4</item>
+        <item>사용자 1</item>
+        <item>사용자 7</item>
+        <item>사용자 6</item>
+        <item>사용자 3</item>
+        <item>사용자 2</item>
+        <item>"흰색"</item>
+        <item>"노란색"</item>
+    </string-array>
+</resources>

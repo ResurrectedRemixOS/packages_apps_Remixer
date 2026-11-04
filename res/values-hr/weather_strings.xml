@@ -3,4 +3,15 @@
     <string name="lockscreen_weather_details_category">"Pojedinosti"</string>
     <string name="lockscreen_weather_location_title">"Lokacija"</string>
     <string name="lockscreen_weather_wind_title">Vjetar</string>
+    <string name="lockscreen_weather_title">Vremenska prognoza na zaključanom zaslonu</string>
+    <string name="lockscreen_weather_location_summary">Prikaži naziv grada</string>
+    <string name="lockscreen_weather_text_title">Stanje</string>
+    <string name="lockscreen_weather_text_summary">Prikaži stanje, poput oblačno ili vedro</string>
+    <string name="lockscreen_weather_wind_summary">Prikaži brzinu i smjer vjetra</string>
+    <string name="lockscreen_weather_humidity_title">Vlažnost</string>
+    <string name="lockscreen_weather_humidity_summary">Prikaži vlažnost zraka</string>
+    <string name="custom_clock_weather_title">Vremenska prognoza na satovima</string>
+    <string name="custom_clock_weather_summary">Prikaži vremensku prognozu u satovima koji imaju za to mjesta</string>
+    <string name="remixer_weather_service">Vremenska usluga</string>
+    <string name="remixer_weather_page_summary">Vremenska prognoza na zaključanom zaslonu i što prikazuje</string>
 </resources>

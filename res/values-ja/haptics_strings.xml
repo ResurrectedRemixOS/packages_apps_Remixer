@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"青"</string>
     <string name="haptic_remix_color_green">"緑"</string>
     <string name="haptic_remix_color_white">"白"</string>
+    <string name="haptic_remix_summary">通話、アプリ、アラーム、ロック解除のバイブレーションパターンをタップして入力します</string>
+    <string name="haptic_remix_record">録音</string>
+    <string name="haptic_remix_pad">リズムをタップ</string>
+    <string name="haptic_remix_strength">強さ</string>
+    <string name="haptic_remix_clear">クリア</string>
+    <string name="haptic_remix_play">再生</string>
+    <string name="haptic_remix_name">パターン名</string>
+    <string name="haptic_remix_empty">まだ記録がありません</string>
+    <string name="haptic_remix_too_long">パターンは最大 30 秒まで記録できます</string>
+    <string name="haptic_remix_presets">プリセット</string>
+    <string name="haptic_remix_preset_neon">ネオン</string>
+    <string name="haptic_remix_preset_glass">ガラス</string>
+    <string name="haptic_remix_preset_ringtone">着信音のリズム</string>
+    <string name="haptic_remix_listening">着信音を解析中…</string>
+    <string name="haptic_remix_no_ringtone">着信音を読み取れませんでした</string>
+    <string name="haptic_remix_patterns">あなたのパターン</string>
+    <string name="haptic_remix_patterns_none">先にパターンを保存してください。長押しすると削除できます。</string>
+    <string name="haptic_remix_broken">このパターンは読み込めません</string>
+    <string name="haptic_remix_delete"><xliff:g id="name" example="Heartbeat">%1$s</xliff:g> を削除しますか？</string>
+    <string name="haptic_remix_assign">割り当て先</string>
+    <string name="haptic_remix_alarm">アラームとタイマー</string>
+    <string name="haptic_remix_plug">充電中</string>
+    <string name="haptic_remix_fingerprint">指紋認証成功</string>
+    <string name="haptic_remix_add_contact">連絡先を追加</string>
+    <string name="haptic_remix_edge_color"><xliff:g id="name" example="Mia">%1$s</xliff:g> のメッセージでエッジライト</string>
+    <string name="haptic_remix_color_accent">アクセント</string>
+    <string name="haptic_remix_color_crimson">クリムゾン</string>
+    <string name="haptic_remix_color_amber">アンバー</string>
+    <string name="haptic_remix_add_app">アプリの通知を追加</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · タップして変更、長押しでエッジの色</string>
+    <string name="haptic_remix_no_contacts">連絡先から番号を取得できませんでした</string>
 </resources>

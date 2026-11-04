@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">எப்போது</string>
+    <string name="nightstand_title">படுக்கை கடிகாரம்</string>
+    <string name="nightstand_summary">இரவில் சார்ஜரில் இருக்கும்போது, எப்போதும்-காட்சியில் மங்கலான படுக்கை அருகு கடிகாரம்</string>
+    <string-array name="nightstand_when_entries">
+        <item>"ஆஃப்"</item>
+        <item>இரவில் சார்ஜரில்</item>
+        <item>ஒவ்வொரு இரவும், அட்டவணைப்படி</item>
+        <item>உறக்க முறை இயங்கும்போது</item>
+    </string-array>
+    <string name="nightstand_from">இரவு தொடங்கும்</string>
+    <string name="nightstand_to">இரவு முடியும்</string>
+    <string name="nightstand_brightness">பிரகாச வரம்பு</string>
+    <string name="nightstand_brightness_summary">படுக்கை கடிகாரம் இயங்கும்போது எப்போதும்-காட்சி எவ்வளவு பிரகாசமாகலாம்</string>
+    <string name="nightstand_face">கடிகார முகம்</string>
+    <string name="nightstand_face_keep">தற்போதைய முகத்தை வைத்திரு</string>
+    <string name="nightstand_footer">படுக்கை கடிகாரம் இயங்கும்போது எப்போதும்-காட்சியை இயக்கி, பின்னர் அதை மீண்டும் வைக்கும். சார்ஜர் அகற்றப்பட்டாலோ, அலாரம் ஒலித்தாலோ, இரவு முடிந்தாலோ அது நின்றுவிடும். முகம் இரண்டு தனிப்பயன் முகங்களுக்கிடையே மட்டுமே மாறும்; கணினி கடிகாரம் அப்படியே இருக்கும்.</string>
 </resources>

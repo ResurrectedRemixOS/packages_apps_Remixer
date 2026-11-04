@@ -16,4 +16,53 @@
     <string name="looks_save_look">"Запазване"</string>
     <string name="looks_custom_color">"Персонализиран цвят"</string>
     <string name="looks_part_clock_color">"Цвят на часовника"</string>
+    <string name="looks_title">Профили</string>
+    <string name="looks_summary">Цялата ви настройка с едно докосване</string>
+    <string name="looks_rr">RR профили</string>
+    <string name="looks_yours">Вашите профили</string>
+    <string name="looks_none">Все още няма запазени</string>
+    <string name="looks_save">Запазване на текущия</string>
+    <string name="looks_import_clipboard">От клипборда</string>
+    <string name="looks_import_file">От файл</string>
+    <string name="looks_mine">Моят профил</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> е приложен</string>
+    <string name="looks_failed">Не всичко можа да бъде приложено</string>
+    <string name="looks_invalid">Това не е RR профил</string>
+    <string name="looks_part_qs">Стил на бързите настройки</string>
+    <string name="looks_part_clock_face">Стил на часовника на заключения екран</string>
+    <string name="looks_part_clock_look">Часовник в лентата на състоянието</string>
+    <string name="looks_part_edge">Осветяване на ръбовете</string>
+    <string name="looks_part_boot">Анимация при стартиране</string>
+    <string name="looks_part_haptics">Модели на Haptic Remix</string>
+    <string name="looks_saturation">Наситеност <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Акцент</string>
+    <string name="looks_share_title">Споделяне на „<xliff:g id="name" example="Neon night">%1$s</xliff:g>“</string>
+    <string name="looks_share_hint">Сканирайте с камерата на друг RR телефон или в Профили › Импорт</string>
+    <string name="looks_share_file">Споделяне на файл</string>
+    <string name="looks_save_file">Запазване на файл</string>
+    <string name="looks_import_scan">Сканиране на QR код</string>
+    <string name="looks_import_title">Импорт на профил</string>
+    <string name="looks_from_qr">от QR код</string>
+    <string name="looks_from_file">от файл</string>
+    <string name="looks_from_clipboard">от клипборда</string>
+    <string name="looks_import_same">Вече съвпада с вашата настройка.</string>
+    <string name="looks_new">Нов профил</string>
+    <string name="looks_edit_title">Редактиране на профил</string>
+    <string name="looks_in_look">В този профил</string>
+    <string name="looks_not_included">Не е в този профил</string>
+    <string name="looks_save_apply">Запазване и прилагане</string>
+    <string name="looks_saved">„<xliff:g id="name" example="Sunday">%1$s</xliff:g>“ е запазен</string>
+    <string name="looks_delete_confirm">Да се изтрие ли „<xliff:g id="name" example="Sunday">%1$s</xliff:g>“?</string>
+    <string name="looks_rr_wallpaper">RR тапет <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Наситеност на акцента</string>
+    <string name="looks_part_clock_chip">Часовник в лентата на състоянието</string>
+    <string name="looks_part_edge_style">Стил на осветяването на ръбовете</string>
+    <string name="looks_scan_hint">Насочете камерата към QR кода на Look</string>
+    <string name="looks_scan_failed">Камерата не можа да се отвори</string>
+    <string name="look_roulette_title">Рулетка за Look</string>
+    <string-array name="look_roulette_entries">
+        <item>"Изкл."</item>
+        <item>Различен Look при всяко отключване</item>
+        <item>Различен Look всеки ден</item>
+    </string-array>
 </resources>

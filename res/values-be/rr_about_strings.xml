@@ -11,4 +11,23 @@
     <string name="rr_about_this_phone">"Гэты тэлефон"</string>
     <string name="rr_about_network">"Сетка"</string>
     <string name="rr_about_hidden">"Схаваны"</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Афіцыйная</string>
+    <string name="rr_about_unofficial">Неафіцыйная</string>
+    <string name="rr_about_vanilla">Vanilla</string>
+    <string name="rr_about_hardware">Апарат</string>
+    <string name="rr_about_processor">Працэсар</string>
+    <string name="rr_about_processor_sub">Ядраў: %1$d · да %2$s ГГц</string>
+    <string name="rr_about_processor_cores">Ядраў: %1$d</string>
+    <string name="rr_about_storage_used">Выкарыстана: %1$s</string>
+    <string name="rr_about_display">Дысплэй</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Гц</string>
+    <string name="rr_about_battery_capacity">%1$s мАг</string>
+    <string name="rr_about_battery_charging">%1$s · Зарадка</string>
+    <string name="rr_about_kernel_linux">Ядро Linux</string>
+    <string name="rr_about_software_purpose">Версія Android, абнаўленне бяспекі, дата зборкі і нумар зборкі</string>
+    <string name="rr_about_security_patch">Абнаўленне бяспекі</string>
+    <string name="rr_about_maintainer">Суправаджальнік</string>
+    <string name="rr_about_show">Паказваць</string>
+    <string name="rr_about_hide">Схаваць</string>
 </resources>

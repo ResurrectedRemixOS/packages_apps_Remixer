@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Besonderhede"</string>
     <string name="lockscreen_weather_location_title">"Ligging"</string>
+    <string name="lockscreen_weather_title">Weer op die ontsluitskerm</string>
+    <string name="lockscreen_weather_location_summary">Wys die stadsnaam</string>
+    <string name="lockscreen_weather_text_title">Toestand</string>
+    <string name="lockscreen_weather_text_summary">Wys die toestand, soos Bewolk of Helder hemel</string>
+    <string name="lockscreen_weather_wind_title">Wind</string>
+    <string name="lockscreen_weather_wind_summary">Wys windspoed en rigting</string>
+    <string name="lockscreen_weather_humidity_title">Humiditeit</string>
+    <string name="lockscreen_weather_humidity_summary">Wys die humiditeit</string>
+    <string name="custom_clock_weather_title">Weer op klokgesigte</string>
+    <string name="custom_clock_weather_summary">Wys weer binne klokgesigte wat plek daarvoor het</string>
+    <string name="remixer_weather_service">Weerdiens</string>
+    <string name="remixer_weather_page_summary">Weer op die ontsluitskerm en wat dit wys</string>
 </resources>

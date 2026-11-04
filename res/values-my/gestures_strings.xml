@@ -8,4 +8,50 @@
         <item>"အလယ်အလတ်"</item>
         <item>"ကြီး"</item>
     </string-array>
+    <string name="pie_title">ပိုင်ထိန်းချုပ်မှုများ</string>
+    <string name="pie_summary">အစွန်းတစ်ခု၏ အောက်ပိုင်းကို ဖိထားပြီး ဖြတ်လမ်းများ၏ ပိုင်ထိန်းချုပ်မှုကို ဖွင့်ပါ</string>
+    <string name="pie_zone">အစွန်း၏ အစိတ်အပိုင်း</string>
+    <string name="pie_clock">အထက်ရှိ နာရီနှင့် ဘက်ထရီ</string>
+    <string name="pie_items">အပိုင်းများ</string>
+    <string-array name="pie_items_entries">
+        <item>"နောက်သို့"</item>
+        <item>ပင်မ</item>
+        <item>"လတ်တလော"</item>
+        <item>"အကြောင်းကြားချက်များ"</item>
+        <item>"ဖလက်ရှ်မီး"</item>
+        <item>"ဖန်သားပြင်ပုံ"</item>
+        <item>"ပါဝါမီနူး"</item>
+        <item>လက်ထောက်</item>
+        <item>"ကင်မရာ"</item>
+    </string-array>
+    <string name="pie_footer">မလှုပ်ဘဲ စက္ကန့်လေးပုံတစ်ပုံကြာ ဖိထားရန် လိုအပ်သည်၊ ထို့ကြောင့် အစွန်းမှ အမြန်ပွတ်ဆွဲခြင်းသည် နောက်သို့ ပြန်ရန် ဆက်လုပ်နိုင်သည်။ လော့ခ်စခရင်တွင် ဖွင့်မည်မဟုတ်ပါ။</string>
+    <string-array name="pie_edges_entries">
+        <item>"ဘယ်"</item>
+        <item>"ညာ"</item>
+        <item>နှစ်ခုလုံး</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>အောက်ပိုင်း သုံးပုံတစ်ပုံ</item>
+        <item>အလယ်</item>
+        <item>အစွန်းတစ်ခုလုံး</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>နီယွန်</item>
+        <item>မှန်</item>
+        <item>ဂန္တဝင်</item>
+    </string-array>
+    <string name="sidebar_style_title">အက်ပ်ဘေးဘောင် ပုံစံ</string>
+    <string-array name="sidebar_style_entries">
+        <item>ဂန္တဝင်</item>
+        <item>RR ဖန်ခွက်</item>
+        <item>နီယွန်</item>
+    </string-array>
+    <string name="sidebar_settings_title">အက်ပ်ဘေးဘောင်</string>
+    <string name="sidebar_settings_summary">သင့်အက်ပ်များနှင့် ကိရိယာများအတွက် ကိုင်တွယ်ရာမှ ပွတ်ဆွဲဖွင့်ပါ</string>
+    <string name="sidebar_apps_title">အက်ပ်များ၊ ကိုင်တွယ်ရန်နေရာနှင့် clipboard</string>
+    <string name="sidebar_apps_summary">ကိုင်တွယ်ရာကို ဖွင့်ပြီး အက်ပ်များကို ရွေးကာ စမတ်ကလစ်ဘုတ်ကို စနစ်ထည့်သွင်းပါ</string>
+    <string name="sidebar_handle_size_title">ကိုင်တွယ်ရာ အရွယ်အစား</string>
+    <string name="sidebar_tools_title">ကိရိယာ အတန်း</string>
+    <string name="sidebar_tools_summary">သင့်အက်ပ်များအောက်တွင် ဖန်သားပြင်ပုံနှင့် ဖလက်ရှ်မီး</string>
+    <string name="sidebar_footer">ကိုင်တွယ်ရာသည် သင့်အာဆင့်အရောင်ရှိ ပါးလွှာသော မျဉ်းတစ်ကြောင်းဖြစ်ပြီး အစွန်းတလျှောက် ရွှေ့ရန် ဆွဲယူပါ။ လက်ဟန်လမ်းညွှန်ဖြင့် ၎င်း၏ကိုယ်ပိုင်အပိုင်းကိုသာ ခြုံထားပြီး နောက်သို့ပြန်ရန်မှာ အခြားနေရာများတွင် အလုပ်လုပ်ပါသည်။</string>
 </resources>

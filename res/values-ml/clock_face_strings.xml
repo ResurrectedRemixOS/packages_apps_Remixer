@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"ഡിഫോൾട്ട്"</string>
     <string name="clock_faces_size">"വലുപ്പം"</string>
     <string name="clock_faces_restart">"റീസ്റ്റാർട്ട് ചെയ്യൂ"</string>
+    <string name="remixer_clock_faces">ക്ലോക്ക് ഡിസൈനുകൾ</string>
+    <string name="clock_faces_system">സിസ്റ്റം ക്ലോക്ക്</string>
+    <string name="clock_faces_system_desc">Wallpaper &amp; style-ലെ ക്ലോക്ക്</string>
+    <string name="clock_faces_position">%2$d-ൽ %1$d</string>
+    <string name="clock_faces_applied">പ്രയോഗിച്ചു</string>
+    <string name="clock_faces_preview_unavailable">പ്രിവ്യൂ ലഭ്യമല്ല</string>
+    <string name="clock_faces_failed">ക്ലോക്ക് മാറ്റാൻ കഴിഞ്ഞില്ല</string>
+    <string name="clock_faces_color_accent">ആക്സന്റ്</string>
+    <string name="clock_faces_color_custom">ഇഷ്ടാനുസൃതം</string>
+    <string name="clock_faces_color_album">ആൽബം ആർട്ട്</string>
+    <string name="clock_faces_color_gradient">ഗ്രേഡിയന്റ്</string>
+    <string name="clock_faces_own_colors">ഈ ഡിസൈനിന് സ്വന്തം നിറങ്ങളുണ്ട്.</string>
+    <string name="clock_faces_album_hint">സംഗീതം പ്ലേ ചെയ്യുമ്പോൾ ആൽബം ആർട്ടിൽ നിന്ന് നിറം എടുക്കുന്നു.</string>
+    <string name="clock_faces_size_position">വലുപ്പവും സ്ഥാനവും</string>
+    <string name="clock_faces_size_value">വലുപ്പം · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">മുകളിൽനിന്നുള്ള അകലം</string>
+    <string name="clock_faces_top_value">മുകളിൽനിന്നുള്ള അകലം · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">തിരശ്ചീന സ്ഥാനം</string>
+    <string name="clock_faces_horizontal_center">തിരശ്ചീന സ്ഥാനം · മധ്യത്ത്</string>
+    <string name="clock_faces_horizontal_right">തിരശ്ചീന സ്ഥാനം · <xliff:g id="dp" example="24">%1$d</xliff:g> dp വലത്തേക്ക്</string>
+    <string name="clock_faces_horizontal_left">തിരശ്ചീന സ്ഥാനം · <xliff:g id="dp" example="24">%1$d</xliff:g> dp ഇടത്തേക്ക്</string>
+    <string name="clock_faces_horizontal_fixed">ഈ ഡിസൈൻ മധ്യത്തിൽ തന്നെ നിൽക്കും.</string>
+    <string name="clock_faces_opacity">അതാര്യത</string>
+    <string name="clock_faces_opacity_value">അതാര്യത · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">ചലനം</string>
+    <string name="clock_faces_wobble">ചാർജ് ചെയ്യുമ്പോൾ ആടൽ</string>
+    <string name="clock_faces_wobble_summary">ചാർജർ കണക്ട് ചെയ്യുമ്പോൾ ഒരുതവണ കുതിക്കും</string>
+    <string name="clock_faces_aod_anim">ആൽവെയ്‌സ്-ഓൺ ഡിസ്‌പ്ലേ മാറ്റം</string>
+    <string name="clock_faces_aod_anim_summary">ക്ലോക്ക് ചുരുങ്ങി മങ്ങി ആൽവെയ്‌സ്-ഓൺ ഡിസ്‌പ്ലേയിലേക്ക് പോകും</string>
+    <string name="clock_faces_restart_title">ലോക്ക് സ്‌ക്രീൻ പുനരാരംഭിക്കണോ?</string>
+    <string name="clock_faces_restart_message">സിസ്റ്റം ക്ലോക്കും കസ്റ്റം ഡിസൈനുകളും തമ്മിൽ മാറുമ്പോൾ SystemUI പുനരാരംഭിക്കും. സ്ക്രീൻ ഒരു സെക്കൻഡ് നേരം ഇരുണ്ടുപോകും.</string>
+    <string name="clock_faces_note">പ്രിവ്യൂകൾ നിങ്ങളുടെ ലോക്ക് സ്‌ക്രീൻ വാൾപേപ്പറിൽ SystemUI വരയ്ക്കുന്നതാണ്. നിറം, വലുപ്പം, സ്ഥാനം എന്നിവ ലോക്ക് സ്‌ക്രീനിൽ ഉടൻ മാറും.</string>
 </resources>

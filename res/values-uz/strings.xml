@@ -83,4 +83,211 @@
     <string name="wallpaper_apply_lock">"Ekran qulfi"</string>
     <string name="remixer_settings_style_original">"Asl"</string>
     <string name="remixer_navbar_category">"Navigatsiya paneli"</string>
+    <string name="remixer_dashboard_summary">Holat qatori, mavzu, ekran qulfi va boshqalar</string>
+    <string name="rr_homepage_battery_saver">Batareya tejamkori</string>
+    <string name="rr_homepage_personalize">Shaxsiylashtirish</string>
+    <string name="rr_homepage_privacy">Maxfiylik va xavfsizlik</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> bepul</string>
+    <string name="rr_homepage_charged">To‘liq zaryadlangan</string>
+    <string name="rr_homepage_on_battery">Batareyada</string>
+    <string name="rr_homepage_saver_on">Batareya tejamkori yoqilgan</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> ta qurilma</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> ta qurilma</item>
+    </plurals>
+    <string name="rr_homepage_extras">Qo‘shimcha sozlamalar</string>
+    <string name="rr_homepage_saver">Tejamkor</string>
+    <string name="rr_homepage_signed_out">Tizimga kirilmagan</string>
+    <string name="rr_homepage_remixer_tagline">O‘zingizga moslang. Holat qatori, mavzu, ekran qulfi va boshqalar.</string>
+    <string name="rr_homepage_device_tagline">Ovoz tugmasi, displey, zaryadlash va GameBar.</string>
+    <string name="rr_homepage_device_action">Moslang</string>
+    <string name="rr_group_network">Tarmoq va qurilmalar</string>
+    <string name="rr_group_network_summary">Wi‑Fi, mobil, Bluetooth</string>
+    <string name="rr_group_apps_summary">Ilovalar, bildirishnomalar, rejimlar</string>
+    <string name="rr_group_display">Displey va tovush</string>
+    <string name="rr_group_display_summary">Displey, fon rasmi, tovush</string>
+    <string name="rr_group_security_summary">Qulf, joylashuv, favqulodda vaziyat</string>
+    <string name="rr_group_security_center">Xavfsizlik markazi</string>
+    <string name="rr_group_accounts">Google va hisoblar</string>
+    <string name="rr_group_accounts_summary">Google, parollar, zaxiralash</string>
+    <string name="rr_group_accounts_plain_summary">Parollar, hisoblar, zaxiralash</string>
+    <string name="rr_group_system_summary">Tillar, ishoralar, yangilanishlar</string>
+    <string name="remixer_tagline">O‘zingizga moslang.</string>
+    <string name="remixer_remix">Qayta sozlang</string>
+    <string name="remixer_remixed"><xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g> asosida aralashtirilgan</string>
+    <string name="remixer_chip_shade_default">Soya · Standart</string>
+    <string name="remixer_quick">Tezkor sozlash</string>
+    <string name="remixer_everything">Hammasi</string>
+    <string name="remixer_quick_accents">Tayyor sozlamalar yoki istalgan rang</string>
+    <string name="remixer_quick_fonts">Tizim shrift uslublari</string>
+    <string name="remixer_quick_walls">RR to‘plami</string>
+    <string name="remixer_quick_header">Tezkor sozlamalar sarlavhasi</string>
+    <string name="remixer_quick_header_summary">Sarlavha rasmlari</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Soat, batareya, belgilar va tarmoq trafigi</string>
+    <string name="remixer_qs_summary">Sarlavha rasmi</string>
+    <string name="remixer_notifications_summary">Chekka yoritish, ilova belgilari va zaryadlash tovushlari</string>
+    <string name="remixer_theme_summary">Shriftlar, urg‘u ranglari va fon rasmlari</string>
+    <string name="remixer_lockscreen_summary">UDFPS, zaryadlash ma’lumoti va ob-havo</string>
+    <string name="remixer_udfps_icon">UDFPS belgisi</string>
+    <string name="remixer_udfps_icon_summary">Barmoq izi sensori ustida ko‘rsatiladi</string>
+    <string name="remixer_udfps_animation">UDFPS animatsiyasi</string>
+    <string name="remixer_udfps_animation_summary">Barmog‘ingiz sensorda turganda ishlaydi</string>
+    <string name="remixer_navigation">Navigatsiya</string>
+    <string name="remixer_navigation_summary">Pulse, tugmalar va navigatsiya paneli</string>
+    <string name="remixer_misc_summary">Ovoz, zaxiralash, soxtalashtirish, aylantirish va USB</string>
+    <string name="scroll_haptics_title">Ro‘yxat oxirida teginish</string>
+    <string name="scroll_haptics_summary">Ro‘yxat yoki sahifa to‘xtaganda yengil tebranish</string>
+    <string name="usb_mode_picker_title">USB rejimi tanlagich</string>
+    <string name="usb_mode_picker_summary">Kompyuterga ulanganda rejimni tanlang</string>
+    <string name="remixer_fonts_summary">Tizim shrifti</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix fon rasmlari</string>
+    <string name="remixer_accents">Urg‘u ranglari</string>
+    <string name="remixer_accents_summary">Urg‘u rangi</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">Ekran pastki qismidagi musiqa vizualizatori</string>
+    <string name="pulse_switch">Pulsdan foydalanish</string>
+    <string name="pulse_switch_summary">Media ijro etilayotganda ekranning pastki qismida musiqa chiziqlari</string>
+    <string name="pulse_preview_title">Hozir ijro etilmoqda</string>
+    <string name="pulse_style_lines">Chiziqlar</string>
+    <string name="pulse_style_fading">So‘nuvchi</string>
+    <string name="pulse_style_blocks">Bloklar</string>
+    <string name="pulse_style_mirror">Aks</string>
+    <string name="pulse_color_custom">Maxsus</string>
+    <string name="pulse_color_gradient">Kamalak</string>
+    <string name="pulse_bars">Ustunlar</string>
+    <string name="pulse_bars_value">Chiziqlar · %1$d</string>
+    <string name="pulse_height">Balandlik</string>
+    <string name="pulse_height_value">Balandlik · %1$d dp</string>
+    <string name="pulse_opacity">Shaffoflik</string>
+    <string name="pulse_opacity_value">Shaffoflik · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Musiqa ijro etilayotganda ustunlarni ekran qulfida saqlash</string>
+    <string name="pulse_failed">Pulse sozlamasini saqlab bo‘lmadi</string>
+    <string name="accent_applied">Urg‘u qo‘llandi</string>
+    <string name="accent_current">Urg‘u rangi · %1$s</string>
+    <string name="accent_current_custom">Urg‘u rangi · Maxsus</string>
+    <string name="accent_preview_tonal">Tonal</string>
+    <string name="accent_failed">Bu urg‘u rangini qo‘llab bo‘lmadi</string>
+    <string name="accent_custom">Maxsus</string>
+    <string name="accent_custom_summary">Istalgan rang ishlaydi. Soya ustiga ham qo‘llanadi.</string>
+    <string name="accent_custom_pad">To‘yinganlik va yorqinlik</string>
+    <string name="accent_custom_use"><xliff:g id="color" example="#12B5A6">%1$s</xliff:g> ishlatish</string>
+    <string name="accent_shade">Soya</string>
+    <string name="accent_shade_darker">Quyuqroq</string>
+    <string name="accent_shade_lighter">Ochroq</string>
+    <string name="accent_shade_darker_value">Quyuqroq · %1$d</string>
+    <string name="accent_shade_lighter_value">Ochroq · %1$d</string>
+    <string name="remixer_qs_style">Tezkor sozlamalar uslubi</string>
+    <string name="remixer_qs_style_preview">Oldindan ko‘rish · %1$s</string>
+    <string name="remixer_qs_style_note">Har bir uslub urg‘u rangiga mos keladi. Ovoz paneli Bento, Shakllar, Blueprint, Duo va Soft ko‘rinishlariga ega. Stock Lineage Android 17 katakchalarini o‘zgartirmaydi.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Android 17 katakchalari, o‘zgarishsiz</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Urg‘u rangi kartochkasida yorqinlik. Katakchalar urg‘u gradiyentiga to‘ladi</string>
+    <string name="remixer_qs_style_compact">Ixcham</string>
+    <string name="remixer_qs_style_compact_summary">Kichikroq katakchalar. Bir ekranga ko‘proq sig‘adi</string>
+    <string name="remixer_qs_style_glass">Oynasimon</string>
+    <string name="remixer_qs_style_glass_summary">Shaffof konturli katakchalar, yoqilganda urg‘u rangida porlaydi</string>
+    <string name="remixer_qs_style_circles">Doiralar</string>
+    <string name="remixer_qs_style_circles_summary">Yorliqli dumaloq tugmalar. Keng katakchalar kartochkaga aylanadi</string>
+    <string name="remixer_qs_style_classic">Klassik</string>
+    <string name="remixer_qs_style_classic_summary">Eski uslubdagi RR: yorliqli oddiy belgilar, beshtadan qatorda, ingichka slayder</string>
+    <string name="remixer_qs_style_cards">Kartochkalar</string>
+    <string name="remixer_qs_style_cards_summary">Har bir nom ostida holati ko‘rsatilgan katta kartochkalar, uchtadan qatorda</string>
+    <string name="remixer_qs_style_neon">Neon</string>
+    <string name="remixer_qs_style_neon_summary">Yoqilganda urg‘u rangida porlaydigan konturli katakchalar</string>
+    <string name="remixer_qs_style_bento_summary">Urg‘u rangi bilan to‘ldirilgan katta yumaloq bloklar, kichiklari ostida yorliqlar</string>
+    <string name="remixer_qs_style_shapes">Shakllar</string>
+    <string name="remixer_qs_style_shapes_summary">Yoqilganda bo‘lakchalar o‘sadigan dumaloq tugmalar, beshtadan qatorda</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Ingichka konturlar va monospace bosh harflar</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Katakchalar ikkiga bo‘lingan. Belgi qismi yonadi va almashtiradi</string>
+    <string name="remixer_qs_style_soft">Yumshoq</string>
+    <string name="remixer_qs_style_soft_summary">Yoqilganda bosilgandek ichkariga botadigan katakchalar</string>
+    <string name="remixer_lock_media_style">Media pleyer uslubi</string>
+    <string name="remixer_lock_media_same">Tezkor sozlamalar bilan bir xil</string>
+    <string name="remixer_lock_media_same_summary">Tezkor sozlamalardagi media katakchasiga moslashadi, hozir %1$s</string>
+    <string name="remixer_lock_media_off_summary">Ekran qulfida pleyer yo‘q</string>
+    <string name="remixer_lock_media_note">Biror narsa ijro etilayotganda kartochka ekran qulfida ko‘rinadi. Shaffof uslublarda o‘qilishi uchun qora fon qo‘shiladi.</string>
+    <string name="remixer_lock_media_stock_summary">Muqova rasmi kartani to‘ldiradi</string>
+    <string name="remixer_lock_media_remix_summary">Qora kartochka, urg‘u rangli ijro tugmasi</string>
+    <string name="remixer_lock_media_compact_summary">Yumaloqroq kartochka, dumaloq rasm</string>
+    <string name="remixer_lock_media_glass_summary">Shaffof konturli kartochka</string>
+    <string name="remixer_lock_media_circles_summary">Yumshoq karta, urg‘u rangli ijro tugmasi</string>
+    <string name="remixer_lock_media_classic_summary">Kvadratroq kartochka, konturli ijro tugmasi</string>
+    <string name="remixer_lock_media_cards_summary">Yumshoq karta, urg‘u rangli ijro tugmasi, Doiralar kabi</string>
+    <string name="remixer_lock_media_neon_summary">Urg‘u rangi konturli qora kartochka</string>
+    <string name="remixer_lock_media_bento_summary">Yumshoq karta, urg‘u rangli ijro tugmasi</string>
+    <string name="remixer_lock_media_shapes_summary">Yumaloqroq karta, urg‘u rangli ijro tugmasi</string>
+    <string name="remixer_lock_media_blueprint_summary">Ingichka chegara, konturli ijro tugmasi</string>
+    <string name="remixer_lock_media_duo_summary">Ikki tonli karta, urg‘u rangli ijro tugmasi</string>
+    <string name="remixer_lock_media_soft_summary">Qirrasi qiyshiq, ko‘tarilgan karta</string>
+    <string name="remixer_headers">Sarlavha rasmi</string>
+    <string name="remixer_headers_summary">Tezkor sozlamalar uchun fon rasmini tanlang</string>
+    <string name="header_switch">Sarlavha rasmidan foydalanish</string>
+    <string name="header_switch_summary">Tezkor sozlamalar orqasida rasm ko‘rsatish</string>
+    <string name="header_source">Manba</string>
+    <string name="header_source_collection">To‘plam</string>
+    <string name="header_collections_summary_daylight">Sarlavha kun vaqtiga qarab o‘zgaradi yoki to‘plam bo‘ylab aylanadi</string>
+    <string name="header_collections_summary_static">To‘plamni oching, so‘ng ishlatish uchun rasmni bosing</string>
+    <string name="header_collections_empty">Sarlavha to‘plamlari o‘rnatilmagan</string>
+    <string name="header_images_daylight">Ushbu to‘plamda</string>
+    <string name="header_photo_summary">Galereyangizdagi istalgan foto yoki animatsiyali GIF</string>
+    <string name="header_height">Balandlik</string>
+    <string name="header_height_value">Balandlik · %1$d dp</string>
+    <string name="header_shadow">Xira</string>
+    <string name="header_shadow_value">Xiralashtirish · %1$d%%</string>
+    <string name="header_failed">Sarlavha sozlamasini saqlab bo‘lmadi</string>
+    <string name="remixer_weather_summary">Ob-havo xizmati va birliklar</string>
+    <string name="font_preview_notification">Telefoningiz shunday o‘qiydi.</string>
+    <string name="font_try_text">O‘zingizning matnni sinang</string>
+    <string name="font_previewing">Oldindan ko‘rish</string>
+    <string name="font_current">Joriy shrift</string>
+    <string name="font_badge_current">Joriy</string>
+    <string name="font_apply_done">Qo‘llangan</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Displey</string>
+    <string name="font_filter_script">Yozuv</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Shrift qo‘llandi</string>
+    <string name="font_failed">Bu shriftni qo‘llab bo‘lmadi</string>
+    <string name="wallpaper_set">Fon rasmi o‘rnatildi</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">Resurrected Remix’dan %d ta fon rasmi. Ko‘rish uchun birini bosing.</item>
+        <item quantity="other">Resurrected Remix’dan %d ta fon rasmi. Ko‘rish uchun birini bosing.</item>
+    </plurals>
+    <string name="wallpaper_apply_both">Ikkalasi</string>
+    <string name="wallpaper_failed">Bu fon rasmini o‘rnatib bo‘lmadi</string>
+    <string name="missing_app">Bu ilova o‘rnatilmagan</string>
+    <string name="remixer_spoofing">Soxtalashtirish</string>
+    <string name="remixer_spoofing_summary">Play Integrity, qurilma identifikatori va ilovalar bo‘yicha soxtalashtirish</string>
+    <string name="remixer_settings_style">Sozlamalar uslubi</string>
+    <string name="rr_maintainer">Maintainer</string>
+    <string name="remixer_navbar_summary">Pill uzunligi, qalinligi va joylashuvi</string>
+    <string name="remixer_navbar_pill_length">Ishora pill uzunligi</string>
+    <string name="remixer_navbar_pill_thickness">Ishora pill qalinligi</string>
+    <string name="remixer_navbar_pill_auto_hide">Ishora pillni xiralashtirish</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Pillni bir necha soniyadan keyin yashirish; ekranga tegilganda qaytadan chiqadi</string>
+    <string name="remixer_navbar_ime">Klaviatura tugmalari</string>
+    <string name="remixer_navbar_ime_summary">Klaviatura ostida orqaga va klaviatura almashtirish tugmalarini ko‘rsatish</string>
+    <string name="remixer_navbar_layout">Tugmalar joylashuvi</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Qisqa</item>
+        <item>Oddiy</item>
+        <item>Uzun</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Eng ingichka</item>
+        <item>Ingichkaroq</item>
+        <item>Ingichka</item>
+        <item>Oddiy</item>
+        <item>Qalin</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Oddiy</item>
+        <item>Ixcham</item>
+        <item>"Chap tomonga qiya"</item>
+        <item>"O‘ng tomonga qiya"</item>
+    </string-array>
 </resources>

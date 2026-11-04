@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"الخلفية"</item>
+        <item>Resurrected</item>
+        <item>أخضر Android One</item>
+        <item>أخضر AOSPA</item>
+        <item>أحمر Coca Cola</item>
+        <item>بنفسجي Discord</item>
+        <item>أزرق Facebook</item>
+        <item>كرزي Instagram</item>
+        <item>قرمزي Jollibee</item>
+        <item>أخضر Monster Energy</item>
+        <item>نعناعي Nextbit</item>
+        <item>أحمر OnePlus</item>
+        <item>أزرق Pepsi</item>
+        <item>أزرق Pixel</item>
+        <item>أصفر Pocophone</item>
+        <item>أخضر Razer</item>
+        <item>أزرق Samsung</item>
+        <item>أخضر Spotify</item>
+        <item>أخضر Starbucks</item>
+        <item>بنفسجي Twitch</item>
+        <item>أزرق Twitter</item>
+        <item>برتقالي Xiaomi</item>
+        <item>كهرماني</item>
+        <item>"أسود"</item>
+        <item>"أزرق"</item>
+        <item>رمادي مزرق</item>
+        <item>بني</item>
+        <item>"سماوي"</item>
+        <item>برتقالي غامق</item>
+        <item>بنفسجي غامق</item>
+        <item>"أخضر"</item>
+        <item>"رمادي"</item>
+        <item>"نيلي"</item>
+        <item>أزرق فاتح</item>
+        <item>ليموني</item>
+        <item>"برتقالي"</item>
+        <item>"قرنفلي"</item>
+        <item>"أرجواني"</item>
+        <item>"أحمر"</item>
+        <item>"أزرق مخضرّ"</item>
+        <item>مخصص 5</item>
+        <item>مخصص 4</item>
+        <item>مخصص 1</item>
+        <item>مخصص 7</item>
+        <item>مخصص 6</item>
+        <item>مخصص 3</item>
+        <item>مخصص 2</item>
+        <item>"أبيض"</item>
+        <item>"أصفر"</item>
+    </string-array>
+</resources>

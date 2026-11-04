@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="remixer_boot_animation">起動アニメーション</string>
+    <string name="boot_animation_note">次回の端末起動時に再生されます。</string>
+    <string name="boot_animation_custom">ファイル</string>
+    <string name="boot_animation_custom_pick">ファイルを選択…</string>
+    <string name="boot_animation_custom_invalid">このファイルは起動アニメーションではありません</string>
+    <string name="boot_animation_failed">起動アニメーションを変更できませんでした</string>
 </resources>

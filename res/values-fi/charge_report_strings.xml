@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Akku"</string>
     <string name="charge_report_temp">"Lämpötila"</string>
     <string name="charge_report_time">"Aika"</string>
+    <string name="charge_report_title">Latausraportit</string>
+    <string name="charge_report_summary">Yhteenveto jokaisesta latauksesta, kun irrotat laturin</string>
+    <string name="charge_report_min_title">Vain jos se lisäsi vähintään</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 päivää</item>
+        <item>7 päivää</item>
+        <item>14 päivää</item>
+        <item>30 päivää</item>
+    </string-array>
+    <string name="charge_report_history_days">Viimeiset <xliff:g id="days" example="7">%1$d</xliff:g> päivää</string>
+    <string name="charge_report_today">Tänään, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Eilen, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> h <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Wattia</string>
+    <string name="charge_report_added">Lisätty</string>
+    <string name="charge_report_peak">Huippu</string>
+    <string name="charge_report_average">Keskiarvo</string>
+    <string name="charge_report_max_temp">Enimmäislämpötila</string>
+    <string name="charge_report_charger">Laturi</string>
+    <string name="charge_report_started">Alkoi</string>
+    <string name="charge_report_wired">Langallinen</string>
+    <string name="charge_report_wireless">Langaton</string>
+    <string name="charge_report_dock">Telakka</string>
+    <string name="charge_report_empty">Ei vielä latauksia</string>
+    <string name="charge_report_footer">SystemUI lukee akun virran, jännitteen ja lämpötilan 30 sekunnin välein laturissa ollessa. Watit ovat puhelimen mittaamia, joten ne voivat erota laturin ilmoittamasta luvusta. Raportit pysyvät puhelimella; mitään ei ladata ylös.</string>
 </resources>

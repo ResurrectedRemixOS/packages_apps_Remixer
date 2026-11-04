@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Ар бир Mode үчүн Look</string>
+    <string name="remix_modes_everyday">Күнүмдүк Look</string>
+    <string name="remix_modes_everyday_summary">Look менен Mode күйгүзүлбөй калганда кайра кайтат</string>
+    <string name="remix_modes_wallpaper">Тушкагаз Look\'ту ээрчийт</string>
+    <string name="remix_modes_wallpaper_summary">Mode тушкагазды да өзгөртүшү мүмкүн</string>
+    <string name="remix_modes_modes">Сиздин Mode\'дор</string>
+    <string name="remix_modes_no_change">Өзгөртүлгөн жок</string>
+    <string name="remix_modes_none">Адегенде Theme › Looks бөлүмүндө Look сактаңыз</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g> үчүн Look</string>
+</resources>

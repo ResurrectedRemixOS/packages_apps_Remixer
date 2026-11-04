@@ -11,4 +11,23 @@
     <string name="rr_about_this_phone">"Ky telefon"</string>
     <string name="rr_about_network">"Rrjeti"</string>
     <string name="rr_about_hidden">"E fshehur"</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Zyrtare</string>
+    <string name="rr_about_unofficial">Jozyrtare</string>
+    <string name="rr_about_vanilla">Vanilje</string>
+    <string name="rr_about_hardware">Harduer</string>
+    <string name="rr_about_processor">Procesori</string>
+    <string name="rr_about_processor_sub">%1$d bërthama · deri në %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d bërthama</string>
+    <string name="rr_about_storage_used">%1$s të përdorura</string>
+    <string name="rr_about_display">Ekrani</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · Po ngarkohet</string>
+    <string name="rr_about_kernel_linux">Kernel i Linux</string>
+    <string name="rr_about_software_purpose">Versioni i Android, përditësimi i sigurisë, data dhe numri i ndërtimit</string>
+    <string name="rr_about_security_patch">Përditësimi i sigurisë</string>
+    <string name="rr_about_maintainer">Mirëmbajtësi</string>
+    <string name="rr_about_show">Shfaq</string>
+    <string name="rr_about_hide">Fshih</string>
 </resources>

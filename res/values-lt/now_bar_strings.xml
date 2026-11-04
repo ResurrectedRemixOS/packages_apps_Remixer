@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"Mygtukai"</string>
     <string name="now_bar_text">"Tekstas"</string>
     <string name="now_bar_text_size">"Teksto dydis"</string>
+    <string name="now_bar_summary">Gyvos veiklos užrakinimo ekrano apačioje</string>
+    <string name="now_bar_show">Rodyti</string>
+    <string name="now_bar_music">Muzika ir vaizdo įrašai</string>
+    <string name="now_bar_timers">Laikmačiai, sekundmatis ir signalai</string>
+    <string name="now_bar_hide_call">Slėpti skambučio pranešimą</string>
+    <string name="now_bar_hide_call_summary">Užrakinimo ekrane skambutis, rodomas Now Bar, nerodomas kaip pranešimas</string>
+    <string name="now_bar_live">Tiesioginiai atnaujinimai</string>
+    <string name="now_bar_live_summary">Navigacija, kelionės, siuntiniai, rezultatai</string>
+    <string name="now_bar_scores">Tiesioginiai rezultatai</string>
+    <string name="now_bar_live_apps">Tiesioginių atnaujinimų programos</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> programos</string>
+    <string name="now_bar_pin">Prisegta prie visada įjungto ekrano</string>
+    <string name="now_bar_unpin_question">Atsegti <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Atsegti</string>
+    <string name="now_bar_scores_summary">Stebimos žaidimai Prie akimirkos</string>
+    <string name="now_bar_recording">Ekrano ir balso įrašymas</string>
+    <string name="now_bar_buds">Ausinės ir laikrodžiai</string>
+    <string name="now_bar_buds_summary">Prijungto įrenginio baterija: kairė, dešinė ir ausinių dėklas</string>
+    <string name="now_bar_wave">Bangos animacija</string>
+    <string name="now_bar_aod">Rodyti visada įjungtame ekrane</string>
+    <string name="now_bar_chip">Žetonas būsenos juostoje</string>
+    <string name="now_bar_chip_summary">Grojimas ir laikmačiai šalia laikrodžio, kai įrenginys atrakintas</string>
+    <string name="now_bar_footer">Kai Now Bar rodoma muzika, didysis grotuvas užrakinimo ekrane paslepiamas. Perbraukite juostą, kad perjungtumėte veiklas, palieskite ją, kad atidarytumėte valdiklius, ir ilgai paspauskite, kad paslėptumėte veiklą, kol ji baigsis. Perbraukite pristabdytą dainą nuo juostos, kad ją pašalintumėte.\n\nTiesioginiai rezultatai rodo jūsų sekamų komandų žaidimus Google programoje. Su Smartspacer pridėkite ten sporto taikinį, ir jo rezultatai bus rodomi čia.</string>
+    <string name="now_bar_looks">Išvaizdos</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Numatytasis"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Didelis</item>
+        <item>Neoninis</item>
+        <item>Stiklo kortelė</item>
+    </string-array>
+    <string name="now_bar_material">Medžiaga</string>
+    <string name="now_bar_material_summary">„Liquid Glass“ naudoja temoje nustatytą stiklą</string>
+    <string-array name="now_bar_material_entries">
+        <item>Vientisa</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Albumo viršelis</item>
+        <item>Akcentas</item>
+        <item>Tamsi</item>
+    </string-array>
+    <string name="now_bar_opacity">Nepermatomumas</string>
+    <string name="now_bar_opacity_summary">Su „Liquid Glass“, kiek spalvos dažo stiklą</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Nėra"</item>
+        <item>Plonas</item>
+        <item>Akcentas</item>
+    </string-array>
+    <string name="now_bar_shadow">Šešėlis</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Išjungta"</item>
+        <item>Minkštas</item>
+        <item>Švytėjimas</item>
+    </string-array>
+    <string name="now_bar_more">Daugiau veiklų</string>
+    <string-array name="now_bar_more_entries">
+        <item>Tiesiog perbraukite</item>
+        <item>Taškai</item>
+        <item>Žiūrėti už</item>
+    </string-array>
+    <string name="now_bar_size">Dydis ir forma</string>
+    <string name="now_bar_height">Aukštis</string>
+    <string name="now_bar_width_summary">Visos parinktys perkeliamos virš juostos</string>
+    <string-array name="now_bar_width_entries">
+        <item>Siauras</item>
+        <item>Tarp nuorodų</item>
+        <item>Visas</item>
+    </string-array>
+    <string name="now_bar_corners">Kampai</string>
+    <string name="now_bar_raise">Iškelti</string>
+    <string name="now_bar_art">Albumo viršelis</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Draugų ratas"</item>
+        <item>Suapvalinti</item>
+        <item>"Kvadratas"</item>
+        <item>"Išjungta"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Praleisti ir groti</item>
+        <item>Tik grojimas</item>
+        <item>"Nėra"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Viena eilutė</item>
+        <item>Dvi eilutės</item>
+        <item>Tik daina</item>
+    </string-array>
+    <string name="now_bar_show_page">Kas rodoma juostoje</string>
+    <string name="now_bar_show_page_summary">Muzika ir vaizdo įrašai, laikmačiai, skambučiai ir kita</string>
+    <string name="now_bar_where">Kitur</string>
 </resources>

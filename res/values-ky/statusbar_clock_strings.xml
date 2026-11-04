@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Дата"</string>
     <string name="sb_weather_category">"Аба ырайы"</string>
+    <string name="sb_clock_category">Саат жана күн</string>
+    <string name="sb_clock_bold_title">Калың саат</string>
+    <string name="sb_clock_bold_summary">Абал тилкесиндеги саатты калың кылып көрсөтүү</string>
+    <string name="sb_clock_period_separator_title">Убакыт бөлүүчү</string>
+    <string name="sb_clock_period_separator_summary">10:45 эмес, 10.45</string>
+    <string name="sb_clock_date_position_title">Күндүн жайгашуусу</string>
+    <string name="sb_clock_date_style_title">Күндүн регистри</string>
+    <string name="sb_clock_date_format_title">Күндүн форматы</string>
+    <string name="sb_clock_chip_category">Сааттын фону</string>
+    <string name="sb_clock_chip_title">Фондун стили</string>
+    <string name="sb_clock_chip_start_title">Градиенттин башталышы</string>
+    <string name="sb_clock_chip_end_title">Градиенттин аякталышы</string>
+    <string name="sb_clock_chip_angle_title">Градиенттин бурчу</string>
+    <string name="sb_clock_chip_mask_title">Убакытты градиенттен кесип алуу</string>
+    <string name="sb_clock_chip_mask_summary">Градиент сандардын артында эмес, сандардын аркылуу көрүнөт</string>
+    <string name="sb_weather_title">Абал тилкесиндеги аба ырайы</string>
+    <string name="sb_weather_position_title">Жайгашуу</string>
+    <string name="status_bar_clock_rr_style_title">Сааттын көрүнүшү</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Демейки"</item>
+        <item>Неон</item>
+        <item>Бөлүнгөн</item>
+        <item>RR белгиси</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Үстүнө үйүлгөн</item>
+        <item>Көмүр</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Убакыттын жанындагы Flatline</string>
+    <string name="sb_clock_flatline_summary">RR жүрөктүн кагуусу сызыгы чипте: музыка менен кагылат, билдирме келгенде чокуга чыгат</string>
 </resources>

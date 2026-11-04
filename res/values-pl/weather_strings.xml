@@ -4,4 +4,14 @@
     <string name="lockscreen_weather_location_title">"Lokalizacja"</string>
     <string name="lockscreen_weather_wind_title">Wiatr</string>
     <string name="lockscreen_weather_humidity_title">Wilgotność</string>
+    <string name="lockscreen_weather_title">Pogoda na ekranie blokady</string>
+    <string name="lockscreen_weather_location_summary">Pokazuj nazwę miasta</string>
+    <string name="lockscreen_weather_text_title">Warunki</string>
+    <string name="lockscreen_weather_text_summary">Pokazuj warunki, np. Pochmurno lub Czyste niebo</string>
+    <string name="lockscreen_weather_wind_summary">Pokazuj prędkość i kierunek wiatru</string>
+    <string name="lockscreen_weather_humidity_summary">Pokazuj wilgotność</string>
+    <string name="custom_clock_weather_title">Pogoda na tarczach zegara</string>
+    <string name="custom_clock_weather_summary">Pokazuj pogodę na tarczach zegara, które mają na nią miejsce</string>
+    <string name="remixer_weather_service">Usługa pogodowa</string>
+    <string name="remixer_weather_page_summary">Pogoda na ekranie blokady i jej zawartość</string>
 </resources>

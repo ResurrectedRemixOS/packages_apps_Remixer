@@ -15,4 +15,54 @@
     <string name="looks_save_look">"Ruaj"</string>
     <string name="looks_custom_color">"Ngjyra e personalizuar"</string>
     <string name="looks_part_clock_color">"Ngjyra e orës"</string>
+    <string name="looks_title">Pamjet</string>
+    <string name="looks_summary">E gjithë konfigurimi yt në një prekje</string>
+    <string name="looks_rr">Pamjet e RR</string>
+    <string name="looks_yours">Pamjet e tua</string>
+    <string name="looks_none">Asnjë e ruajtur ende</string>
+    <string name="looks_save">Ruaje aktualen</string>
+    <string name="looks_import_clipboard">Nga kujtesa e fragmenteve</string>
+    <string name="looks_import_file">Nga një skedar</string>
+    <string name="looks_mine">Pamja ime</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> u aplikua</string>
+    <string name="looks_failed">Nuk u aplikua gjithçka</string>
+    <string name="looks_invalid">Ky nuk është një model i RR</string>
+    <string name="looks_part_accent">Ngjyra e theksit</string>
+    <string name="looks_part_qs">Stili i CS</string>
+    <string name="looks_part_clock_face">Stili i orës në ekranin e kyçjes</string>
+    <string name="looks_part_clock_look">Ora e shiritit të statusit</string>
+    <string name="looks_part_edge">Ndriçimi i skajeve</string>
+    <string name="looks_part_boot">Animacioni i nisjes</string>
+    <string name="looks_part_haptics">Modelet e Haptic Remix</string>
+    <string name="looks_saturation">Ngopja <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Theksi</string>
+    <string name="looks_share_title">Ndaj “<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">Skano me kamerën e një telefoni tjetër RR, ose te Pamjet › Importo</string>
+    <string name="looks_share_file">Ndaj skedarin</string>
+    <string name="looks_save_file">Ruaj skedarin</string>
+    <string name="looks_import_scan">Skano një kod QR</string>
+    <string name="looks_import_title">Importo pamjen</string>
+    <string name="looks_from_qr">nga një kod QR</string>
+    <string name="looks_from_file">nga një skedar</string>
+    <string name="looks_from_clipboard">nga kujtesa e fragmenteve</string>
+    <string name="looks_import_same">Përputhet tashmë me konfigurimin tënd.</string>
+    <string name="looks_new">Pamje e re</string>
+    <string name="looks_edit_title">Redakto pamjen</string>
+    <string name="looks_in_look">Në këtë pamje</string>
+    <string name="looks_not_included">Jo në këtë pamje</string>
+    <string name="looks_save_apply">Ruaj dhe apliko</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” u ruajt</string>
+    <string name="looks_delete_confirm">Fshi “<xliff:g id="name" example="Sunday">%1$s</xliff:g>”?</string>
+    <string name="looks_rr_wallpaper">Imazhi i sfondit RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Ngjyra e theksit: ngjyrosja</string>
+    <string name="looks_part_clock_chip">Çipi i orës në shiritin e statusit</string>
+    <string name="looks_part_edge_style">Stili i ndriçimit të skajeve</string>
+    <string name="looks_scan_hint">Drejto kamerën nnga kodi QR i një Look</string>
+    <string name="looks_scan_failed">Kamera nuk u hap</string>
+    <string name="look_roulette_title">Rulet i Look</string>
+    <string-array name="look_roulette_entries">
+        <item>"Joaktiv"</item>
+        <item>Një Look tjetër në çdo zhbllokim</item>
+        <item>Një Look tjetër çdo ditë</item>
+    </string-array>
 </resources>

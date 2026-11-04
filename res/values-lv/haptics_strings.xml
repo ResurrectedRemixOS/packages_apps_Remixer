@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Zila"</string>
     <string name="haptic_remix_color_green">"Zaļa"</string>
     <string name="haptic_remix_color_white">"Balta"</string>
+    <string name="haptic_remix_summary">Pieskarieties, lai ierakstītu vibrācijas modeļus zvaniem, lietotnēm, signāliem un atbloķēšanai</string>
+    <string name="haptic_remix_record">Ierakstīt</string>
+    <string name="haptic_remix_pad">pieskarieties ritmam</string>
+    <string name="haptic_remix_strength">Stiprums</string>
+    <string name="haptic_remix_clear">Notīrīt</string>
+    <string name="haptic_remix_play">Atskaņot</string>
+    <string name="haptic_remix_name">Modeļa nosaukums</string>
+    <string name="haptic_remix_empty">Vēl nekas nav ierakstīts</string>
+    <string name="haptic_remix_too_long">Modelis var ilgt līdz 30 sekundēm</string>
+    <string name="haptic_remix_presets">Iepriekšiestatījumi</string>
+    <string name="haptic_remix_preset_neon">Neona</string>
+    <string name="haptic_remix_preset_glass">Stikls</string>
+    <string name="haptic_remix_preset_ringtone">Zvana signāla ritms</string>
+    <string name="haptic_remix_listening">Notiek zvana signāla nolasīšana…</string>
+    <string name="haptic_remix_no_ringtone">Zvana signālu nevarēja nolasīt</string>
+    <string name="haptic_remix_patterns">Jūsu modeļi</string>
+    <string name="haptic_remix_patterns_none">Vispirms saglabājiet modeli. Turiet, lai to dzēstu.</string>
+    <string name="haptic_remix_broken">Šo modeli nevar nolasīt</string>
+    <string name="haptic_remix_delete">Dzēst <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Piešķirt</string>
+    <string name="haptic_remix_alarm">Signāls un taimeris</string>
+    <string name="haptic_remix_plug">Pievienots lādētājam</string>
+    <string name="haptic_remix_fingerprint">Pirkstu nospieduma atpazīšana veiksmīga</string>
+    <string name="haptic_remix_add_contact">Pievienot kontaktpersonu</string>
+    <string name="haptic_remix_edge_color"><xliff:g id="name" example="Mia">%1$s</xliff:g> ziņu malu apgaismojums</string>
+    <string name="haptic_remix_color_accent">Akcents</string>
+    <string name="haptic_remix_color_crimson">Karmīnsarkans</string>
+    <string name="haptic_remix_color_amber">Dzintars</string>
+    <string name="haptic_remix_add_app">Pievienot lietotnes paziņojumus</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · pieskarieties, lai mainītu, turiet, lai mainītu malu krāsu</string>
+    <string name="haptic_remix_no_contacts">No Kontaktpersonām neatgriezās neviens numurs</string>
 </resources>

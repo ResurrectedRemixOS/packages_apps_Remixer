@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"डिफ़ॉल्ट"</string>
     <string name="clock_faces_size">"साइज़"</string>
     <string name="clock_faces_restart">"रीस्टार्ट करें"</string>
+    <string name="remixer_clock_faces">घड़ी के डिज़ाइन</string>
+    <string name="clock_faces_system">सिस्टम घड़ी</string>
+    <string name="clock_faces_system_desc">वॉलपेपर और स्टाइल की घड़ी</string>
+    <string name="clock_faces_position">%2$d में से %1$d</string>
+    <string name="clock_faces_applied">लागू किया गया</string>
+    <string name="clock_faces_preview_unavailable">पूर्वावलोकन उपलब्ध नहीं</string>
+    <string name="clock_faces_failed">घड़ी नहीं बदल सकी</string>
+    <string name="clock_faces_color_accent">एक्सेंट</string>
+    <string name="clock_faces_color_custom">कस्टम</string>
+    <string name="clock_faces_color_album">एल्बम आर्ट</string>
+    <string name="clock_faces_color_gradient">ग्रेडिएंट</string>
+    <string name="clock_faces_own_colors">इस डिज़ाइन के अपने रंग रहते हैं।</string>
+    <string name="clock_faces_album_hint">संगीत चलने पर एल्बम आर्ट से रंग लेता है।</string>
+    <string name="clock_faces_size_position">आकार और स्थिति</string>
+    <string name="clock_faces_size_value">आकार · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">ऊपर से दूरी</string>
+    <string name="clock_faces_top_value">ऊपर से दूरी · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">क्षैतिज स्थिति</string>
+    <string name="clock_faces_horizontal_center">क्षैतिज स्थिति · बीच में</string>
+    <string name="clock_faces_horizontal_right">क्षैतिज स्थिति · <xliff:g id="dp" example="24">%1$d</xliff:g> dp दाएं</string>
+    <string name="clock_faces_horizontal_left">क्षैतिज स्थिति · <xliff:g id="dp" example="24">%1$d</xliff:g> dp बाएं</string>
+    <string name="clock_faces_horizontal_fixed">यह डिज़ाइन बीच में रहता है।</string>
+    <string name="clock_faces_opacity">अपारदर्शिता</string>
+    <string name="clock_faces_opacity_value">अपारदर्शिता · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">गति</string>
+    <string name="clock_faces_wobble">चार्ज होते समय हिलना</string>
+    <string name="clock_faces_wobble_summary">प्लग इन करने पर एक बार उछलेगी</string>
+    <string name="clock_faces_aod_anim">ऑलवेज़-ऑन डिस्प्ले का संक्रमण</string>
+    <string name="clock_faces_aod_anim_summary">घड़ी को सिकोड़कर और फीका करके ऑलवेज़-ऑन डिस्प्ले में ले जाता है</string>
+    <string name="clock_faces_restart_title">लॉक स्क्रीन फिर से शुरू करें?</string>
+    <string name="clock_faces_restart_message">सिस्टम घड़ी और कस्टम डिज़ाइन के बीच बदलने पर SystemUI फिर से शुरू होगा। स्क्रीन एक सेकंड के लिए काली हो जाएगी।</string>
+    <string name="clock_faces_note">पूर्वावलोकन आपके लॉक स्क्रीन वॉलपेपर पर SystemUI बनाता है। रंग, आकार और स्थिति तुरंत लॉक स्क्रीन पर बदल जाएंगे।</string>
 </resources>

@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">Forhindr utilsigtet vækning</string>
+    <string name="lockscreen_battery_info_title">Oplysninger om opladning</string>
+    <string name="lockscreen_battery_info_summary">Vis strøm, watt, spænding og batteritemperatur, mens telefonen oplades</string>
+    <string name="charging_ring_title">SuperVOOC-opladningsanimation</string>
+    <string name="charging_ring_summary">Vis opladningsringen og hastigheden, når du tilslutter opladeren</string>
+    <string name="pocket_mode_summary">Mens nærhedssensoren er dækket, vågner skærmen ikke, og berøringer ignoreres</string>
+    <string name="screen_on_time_title">Skærmtid</string>
+    <string name="screen_on_time_summary">Vis skærmtid siden sidste fulde opladning på låseskærmen, mens telefonen oplades, og på flisen for Batterisparefunktion</string>
 </resources>

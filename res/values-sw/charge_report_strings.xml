@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Betri"</string>
     <string name="charge_report_temp">"Halijoto"</string>
     <string name="charge_report_time">"Saa"</string>
+    <string name="charge_report_title">Ripoti za kuchaji</string>
+    <string name="charge_report_summary">Muhtasari wa kila chaji unapotoa chaja</string>
+    <string name="charge_report_min_title">Ikiongeza angalau</string>
+    <string-array name="charge_report_keep_entries">
+        <item>Siku 3</item>
+        <item>Siku 7</item>
+        <item>Siku 14</item>
+        <item>Siku 30</item>
+    </string-array>
+    <string name="charge_report_history_days">Siku <xliff:g id="days" example="7">%1$d</xliff:g> zilizopita</string>
+    <string name="charge_report_today">Leo, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Jana, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes">Dakika <xliff:g id="minutes" example="31">%1$d</xliff:g></string>
+    <string name="charge_report_hours">Saa <xliff:g id="hours" example="6">%1$d</xliff:g> na dakika <xliff:g id="minutes" example="02">%2$02d</xliff:g></string>
+    <string name="charge_report_watts">Wati</string>
+    <string name="charge_report_added">Imeongezwa</string>
+    <string name="charge_report_peak">Kilele</string>
+    <string name="charge_report_average">Wastani</string>
+    <string name="charge_report_max_temp">Joto la juu zaidi</string>
+    <string name="charge_report_charger">Chaja</string>
+    <string name="charge_report_started">Ilianza saa</string>
+    <string name="charge_report_wired">Yenye waya</string>
+    <string name="charge_report_wireless">Isiyotumia waya</string>
+    <string name="charge_report_dock">Kituo cha kuchaji</string>
+    <string name="charge_report_empty">Hakuna chaji bado</string>
+    <string name="charge_report_footer">SystemUI husoma mkondo, volti na joto la betri kila sekunde 30 simu ikiwa imechomekwa. Wati ni kile simu inachopima, kwa hivyo zinaweza kutofautiana na namba iliyo kwenye chaja. Ripoti zinabaki kwenye simu; hakuna kinachopakiwa.</string>
 </resources>

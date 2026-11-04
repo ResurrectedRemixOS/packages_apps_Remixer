@@ -15,4 +15,54 @@
     <string name="looks_save_look">"ບັນທຶກ"</string>
     <string name="looks_custom_color">"ສີກຳນົດເອງ"</string>
     <string name="looks_part_clock_color">"ສີຂອງໂມງ"</string>
+    <string name="looks_title">ຮູບແບບ</string>
+    <string name="looks_summary">ການຕັ້ງຄ່າທັງໝົດໃນການແຕະດຽວ</string>
+    <string name="looks_rr">ຮູບແບບ RR</string>
+    <string name="looks_yours">ຮູບແບບຂອງທ່ານ</string>
+    <string name="looks_none">ຍັງບໍ່ມີສິ່ງທີ່ບັນທຶກໄວ້</string>
+    <string name="looks_save">ບັນທຶກປັດຈຸບັນ</string>
+    <string name="looks_import_clipboard">ຈາກຄລິບບອດ</string>
+    <string name="looks_import_file">ຈາກໄຟລ໌</string>
+    <string name="looks_mine">ຮູບແບບຂອງຂ້ອຍ</string>
+    <string name="looks_applied">ນຳໃຊ້ <xliff:g id="name" example="Neon night">%1$s</xliff:g> ແລ້ວ</string>
+    <string name="looks_failed">ນຳໃຊ້ທັງໝົດບໍ່ໄດ້</string>
+    <string name="looks_invalid">ນີ້ບໍ່ແມ່ນຮູບແບບ RR</string>
+    <string name="looks_part_accent">ສີເນັ້ນ</string>
+    <string name="looks_part_qs">ຮູບແບບການຕັ້ງຄ່າດ່ວນ</string>
+    <string name="looks_part_clock_face">ຮູບແບບໜ້າຈໍລັອກ</string>
+    <string name="looks_part_clock_look">ໂມງແຖບສະຖານະ</string>
+    <string name="looks_part_edge">ໄຟຂອບແຈ້ງເຕືອນ</string>
+    <string name="looks_part_boot">ອະນິເມຊັນເປີດເຄື່ອງ</string>
+    <string name="looks_part_haptics">ຮູບແບບການສັ່ນ Haptic Remix</string>
+    <string name="looks_saturation">ຄວາມອີ່ມຕົວ <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">ສີເນັ້ນ</string>
+    <string name="looks_share_title">ແບ່ງປັນ “<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">ສະແກນດ້ວຍກ້ອງຂອງໂທລະສັບ RR ອື່ນ ຫຼື ໃນ ຮູບແບບ › ນຳເຂົ້າ</string>
+    <string name="looks_share_file">ແບ່ງປັນໄຟລ໌</string>
+    <string name="looks_save_file">ບັນທຶກໄຟລ໌</string>
+    <string name="looks_import_scan">ສະແກນລະຫັດ QR</string>
+    <string name="looks_import_title">ນຳເຂົ້າຮູບແບບ</string>
+    <string name="looks_from_qr">ຈາກລະຫັດ QR</string>
+    <string name="looks_from_file">ຈາກໄຟລ໌</string>
+    <string name="looks_from_clipboard">ຈາກຄລິບບອດ</string>
+    <string name="looks_import_same">ກົງກັບການຕັ້ງຄ່າຂອງທ່ານແລ້ວ</string>
+    <string name="looks_new">ຮູບແບບໃໝ່</string>
+    <string name="looks_edit_title">ແກ້ໄຂຮູບແບບ</string>
+    <string name="looks_in_look">ໃນຮູບແບບນີ້</string>
+    <string name="looks_not_included">ບໍ່ຢູ່ໃນຮູບແບບນີ້</string>
+    <string name="looks_save_apply">ບັນທຶກ ແລະ ນຳໃຊ້</string>
+    <string name="looks_saved">ບັນທຶກ “<xliff:g id="name" example="Sunday">%1$s</xliff:g>” ແລ້ວ</string>
+    <string name="looks_delete_confirm">ລຶບ “<xliff:g id="name" example="Sunday">%1$s</xliff:g>” ບໍ?</string>
+    <string name="looks_rr_wallpaper">ຮູບພື້ນຫຼັງ RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">ຄວາມອີ່ມຕົວຂອງສີເນັ້ນ</string>
+    <string name="looks_part_clock_chip">ຊິບໂມງໃນແຖບສະຖານະ</string>
+    <string name="looks_part_edge_style">ຮູບແບບແສງຂອບ</string>
+    <string name="looks_scan_hint">ຊີ້ກ້ອງໃສ່ QR code ຂອງ Look</string>
+    <string name="looks_scan_failed">ບໍ່ສາມາດເປີດກ້ອງໄດ້</string>
+    <string name="look_roulette_title">Look ສຸ່ມ</string>
+    <string-array name="look_roulette_entries">
+        <item>"ປິດ"</item>
+        <item>Look ທີ່ແຕກຕ່າງກັນທຸກຄັ້ງທີ່ປົດລັອກ</item>
+        <item>Look ທີ່ແຕກຕ່າງກັນທຸກວັນ</item>
+    </string-array>
 </resources>

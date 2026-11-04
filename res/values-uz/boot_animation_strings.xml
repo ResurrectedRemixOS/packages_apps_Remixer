@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Yuklash animatsiyasi</string>
+    <string name="boot_animation_note">Telefon keyingi safar ishga tushganda ijro etiladi.</string>
+    <string name="boot_animation_custom">Sizning faylingiz</string>
+    <string name="boot_animation_custom_pick">Faylni tanlang…</string>
+    <string name="boot_animation_custom_invalid">Bu fayl yuklash animatsiyasi emas</string>
+    <string name="boot_animation_failed">Yuklash animatsiyasini o‘zgartirib bo‘lmadi</string>
+</resources>

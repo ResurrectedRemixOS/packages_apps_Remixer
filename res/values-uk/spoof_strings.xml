@@ -175,4 +175,9 @@
     <string name="user_select_spoofing_profile_title">Виберіть профіль Spoofing</string>
     <string name="user_selectable_app_spoofing_summary">Імітувати властивості пристрою для певних програм та ігор</string>
     <string name="user_selectable_app_spoofing_title">Підробка додатків та ігор</string>
+    <string name="spoofing_app_specific_category">Винятки для окремих застосунків</string>
+    <string name="tensor_spoof_title">Цілі функцій Tensor</string>
+    <string name="ts_fetch_keybox_summary">Завантажити офіційний keybox</string>
+    <string name="ts_mode_skip">Пропустити</string>
+    <string name="ts_untrusted_root_message">Цей keybox має ланцюжок сертифікатів, корінь якого належить центру, який Resurrected Remix не розпізнає. На деяких пристроях він усе ще може пройти Strong Integrity. Залишити його встановленим чи замінити офіційним keybox?</string>
 </resources>

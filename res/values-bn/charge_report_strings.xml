@@ -3,4 +3,31 @@
     <string name="charge_report_battery">"ব্যাটারি"</string>
     <string name="charge_report_temp">"তাপমাত্রা"</string>
     <string name="charge_report_time">"সময়"</string>
+    <string name="charge_report_title">চার্জ রিপোর্ট</string>
+    <string name="charge_report_summary">চার্জ খুললে প্রতিটি চার্জের সংক্ষিপ্ত হিসাব</string>
+    <string name="charge_report_min_title">শুধু যদি এটি অন্তত যোগ করে</string>
+    <string name="charge_report_keep_title">রাখুন</string>
+    <string-array name="charge_report_keep_entries">
+        <item>৩ দিন</item>
+        <item>৭ দিন</item>
+        <item>১৪ দিন</item>
+        <item>৩০ দিন</item>
+    </string-array>
+    <string name="charge_report_history_days">শেষ <xliff:g id="days" example="7">%1$d</xliff:g> দিন</string>
+    <string name="charge_report_today">আজ, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">গতকাল, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> মিনিট</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ঘণ্টা <xliff:g id="minutes" example="02">%2$02d</xliff:g> মিনিট</string>
+    <string name="charge_report_watts">ওয়াট</string>
+    <string name="charge_report_added">যোগ হয়েছে</string>
+    <string name="charge_report_peak">সর্বোচ্চ</string>
+    <string name="charge_report_average">গড়</string>
+    <string name="charge_report_max_temp">সর্বোচ্চ তাপমাত্রা</string>
+    <string name="charge_report_charger">চার্জার</string>
+    <string name="charge_report_started">শুরু হয়েছিল</string>
+    <string name="charge_report_wired">ওয়্যার্ড</string>
+    <string name="charge_report_wireless">ওয়্যারলেস</string>
+    <string name="charge_report_dock">ডক</string>
+    <string name="charge_report_empty">এখনও কোনো চার্জ হয়নি</string>
+    <string name="charge_report_footer">প্লাগ লাগানো থাকলে SystemUI প্রতি ৩০ সেকেন্ডে ব্যাটারির বর্তমান প্রবাহ, ভোল্টেজ ও তাপমাত্রা পড়ে। ওয়াট ফোনের মাপা মান, তাই চার্জারের গায়ের সংখ্যার সঙ্গে মিল নাও থাকতে পারে। প্রতিবেদন ফোনেই থাকে; কিছু আপলোড হয় না।</string>
 </resources>

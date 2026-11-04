@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Upplýsingar"</string>
     <string name="lockscreen_weather_location_title">"Staðsetning"</string>
+    <string name="lockscreen_weather_title">Veður á læsiskjánum</string>
+    <string name="lockscreen_weather_location_summary">Sýna nafn borgar</string>
+    <string name="lockscreen_weather_text_title">Ástand</string>
+    <string name="lockscreen_weather_text_summary">Sýna ástandið, eins og Skýjað eða Heiðskírt</string>
+    <string name="lockscreen_weather_wind_title">Vindur</string>
+    <string name="lockscreen_weather_wind_summary">Sýna vindhraða og átt</string>
+    <string name="lockscreen_weather_humidity_title">Raki</string>
+    <string name="lockscreen_weather_humidity_summary">Sýna rakastig</string>
+    <string name="custom_clock_weather_title">Veður á klukkuskjám</string>
+    <string name="custom_clock_weather_summary">Sýna veður í klukkuskjám sem hafa pláss fyrir það</string>
+    <string name="remixer_weather_service">Veðurþjónusta</string>
+    <string name="remixer_weather_page_summary">Veður á læsiskjánum og hvað það sýnir</string>
 </resources>

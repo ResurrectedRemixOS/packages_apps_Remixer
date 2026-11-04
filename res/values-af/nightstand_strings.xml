@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Wanneer"</string>
+    <string name="nightstand_title">Nagtafel</string>
+    <string name="nightstand_summary">\'n Gedimde bedklok op die altyd-aan-skerm terwyl dit snags laai</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Af"</item>
+        <item>Op \'n laaier snags</item>
+        <item>Elke nag, volgens \'n skedule</item>
+        <item>Terwyl \'n Slaaptydmodus aan is</item>
+    </string-array>
+    <string name="nightstand_from">Nag begin</string>
+    <string name="nightstand_to">Nag eindig</string>
+    <string name="nightstand_brightness">Helderheidsgrens</string>
+    <string name="nightstand_brightness_summary">Hoe helder die altyd-aan-skerm mag word terwyl Nagtafel aan is</string>
+    <string name="nightstand_face">Klokgesig</string>
+    <string name="nightstand_face_keep">Hou die huidige gesig</string>
+    <string name="nightstand_footer">Nagtafel skakel die altyd-aan-skerm aan terwyl dit loop en sit dit daarna terug. Dit eindig wanneer die laaier uitgaan, die alarm lui of die nag eindig. Die gesig wissel net tussen twee pasgemaakte gesigte; die stelselklok bly.</string>
 </resources>

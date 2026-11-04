@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Erabili gailuaren RKP</string>
+    <string name="ts_rkp_enabled_summary">Erabili sortutako keybox bat. Keybox bat inportatzean, hau desaktibatzen da.</string>
+    <string name="ts_rkp_provision">Sortu keybox</string>
+    <string name="ts_rkp_provision_summary">Eskatu keybox bat Googlerengandik gailu honen hornikuntza-zerbitzua erabiliz. Qualcomm firmware bateragarria behar du.</string>
+    <string name="ts_rkp_status">Hornidura-egoera</string>
+    <string name="ts_rkp_owner_only">Kudeatu gailuaren RKP gailuaren jabearen profiletik</string>
+    <string name="ts_rkp_unavailable">Gailuaren RKP ez dago erabilgarri</string>
+    <string name="ts_rkp_imported">Desgaituta inportatutako keybox bat instalatuta dagoen bitartean</string>
+    <string name="ts_rkp_disabled">Desaktibatuta. Gaitu gailuaren RKP keybox bat erabili edo sortzeko.</string>
+    <string name="ts_rkp_idle">Keybox bat eskatzeko prest</string>
+    <string name="ts_rkp_fetching">Hornikuntza-erronka lortzen…</string>
+    <string name="ts_rkp_hardware">Gailuaren hornikuntza-zerbitzuaren zain…</string>
+    <string name="ts_rkp_signing">Ziurtagiriak Googletik eskatzen…</string>
+    <string name="ts_rkp_validating">Keybox-a balioztatzen eta gordetzen…</string>
+    <string name="ts_rkp_ready">Sortutako keybox aktibo dago. Bere kabuz berritzen da %1$s baino lehen</string>
+    <string name="ts_rkp_keybox_stored">Gailuaren RKP keybox-a gordeta</string>
+    <string name="ts_rkp_expired">Sortutako keybox-a iraungi da. Sortu ordezko bat.</string>
+    <string name="ts_rkp_hal_rejected">Firmware-ak eskaera baztertu du (%1$d kodea). Baliteke Duck V1 ez onartzea.</string>
+    <string name="ts_rkp_http_error">Hornikuntza-zerbitzariak eskaera baztertu du (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Gailuak ez du V1 hornikuntza-interfaze bateragarririk eskaintzen</string>
+    <string name="ts_rkp_network_error">Ezin izan da hornikuntza-zerbitzariarekin konektatu. Egiaztatu konexioa.</string>
+    <string name="ts_rkp_submission_unknown">Zerbitzariaren erantzuna galdu da. Baliteke eskaera prozesatu izana; ez da berriro saiatu automatikoki.</string>
+    <string name="ts_rkp_invalid_chain">Keybox-aren ziurtagiriek balioztapena huts egin dute. Lehendik zegoen keybox-a mantendu da.</string>
+    <string name="ts_rkp_timeout">Hornikuntzak denbora-muga gainditu du. Gailu-zerbitzua oraindik okupatuta badago, berrabiarazi gailua berriro saiatu aurretik.</string>
+    <string name="ts_rkp_canceled">Eskaera bertan behera utzi da keybox-aren konfigurazioa aldatu delako</string>
+    <string name="ts_rkp_save_failed">Ezin izan da sortutako keybox-a gorde</string>
+    <string name="ts_rkp_action_failed">Ezin izan da keybox eragiketa osatu</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Използвай RKP на устройството</string>
+    <string name="ts_rkp_enabled_summary">Използва генериран keybox. Импортирането на keybox го изключва.</string>
+    <string name="ts_rkp_provision">Генерирай keybox</string>
+    <string name="ts_rkp_provision_summary">Заявява keybox от Google чрез услугата за осигуряване на това устройство. Изисква съвместим фърмуер на Qualcomm.</string>
+    <string name="ts_rkp_status">Състояние на осигуряването</string>
+    <string name="ts_rkp_owner_only">Управлявай RKP на устройството от профила на собственика</string>
+    <string name="ts_rkp_unavailable">RKP на устройството не е наличен</string>
+    <string name="ts_rkp_imported">Изключено, докато е инсталиран импортиран keybox</string>
+    <string name="ts_rkp_disabled">Изключено. Включи RKP на устройството, за да използваш или генерираш keybox.</string>
+    <string name="ts_rkp_idle">Готово за заявяване на keybox</string>
+    <string name="ts_rkp_fetching">Получаване на предизвикателство за осигуряване…</string>
+    <string name="ts_rkp_hardware">Изчаква се услугата за осигуряване на устройството…</string>
+    <string name="ts_rkp_signing">Заявяват се сертификати от Google…</string>
+    <string name="ts_rkp_validating">Проверява се и се запазва keybox…</string>
+    <string name="ts_rkp_ready">Генерираният keybox е активен. Подновява се автоматично преди %1$s</string>
+    <string name="ts_rkp_keybox_stored">Keybox от RKP на устройството е запазен</string>
+    <string name="ts_rkp_expired">Генерираният keybox е изтекъл. Генерирай заместител.</string>
+    <string name="ts_rkp_hal_rejected">Фърмуерът отхвърли заявката (код %1$d). Duck V1 може да не се поддържа.</string>
+    <string name="ts_rkp_http_error">Сървърът за осигуряване отхвърли заявката (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Устройството не предоставя съвместим интерфейс за осигуряване V1</string>
+    <string name="ts_rkp_network_error">Не може да се свърже със сървъра за осигуряване. Провери връзката си.</string>
+    <string name="ts_rkp_submission_unknown">Отговорът на сървъра е загубен. Заявката може да е обработена; не е направен автоматичен нов опит.</string>
+    <string name="ts_rkp_invalid_chain">Сертификатите на keybox не минаха проверката. Досегашният keybox е запазен.</string>
+    <string name="ts_rkp_timeout">Времето за осигуряване изтече. Ако услугата на устройството е още заета, рестартирай устройството и опитай отново.</string>
+    <string name="ts_rkp_canceled">Заявката е отменена, защото конфигурацията на keybox се промени</string>
+    <string name="ts_rkp_save_failed">Генерираният keybox не можа да се запази</string>
+    <string name="ts_rkp_action_failed">Операцията с keybox не можа да се завърши</string>
+</resources>

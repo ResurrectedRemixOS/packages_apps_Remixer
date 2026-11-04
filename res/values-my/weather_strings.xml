@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"အသေးစိတ်"</string>
     <string name="lockscreen_weather_location_title">"တည်နေရာ"</string>
+    <string name="lockscreen_weather_title">လော့ခ်စခရင်ပေါ်ရှိ ရာသီဥတု</string>
+    <string name="lockscreen_weather_location_summary">မြို့အမည် ပြ</string>
+    <string name="lockscreen_weather_text_title">အခြေအနေ</string>
+    <string name="lockscreen_weather_text_summary">တိမ်ထူ သို့မဟုတ် ကောင်းကင်ရှင်း စသည့် အခြေအနေ ပြ</string>
+    <string name="lockscreen_weather_wind_title">လေ</string>
+    <string name="lockscreen_weather_wind_summary">လေအရှိန်နှင့် ဦးတည်ရာ ပြ</string>
+    <string name="lockscreen_weather_humidity_title">စိုထိုင်းဆ</string>
+    <string name="lockscreen_weather_humidity_summary">စိုထိုင်းဆ ပြ</string>
+    <string name="custom_clock_weather_title">နာရီမျက်နှာပြင်များပေါ်ရှိ ရာသီဥတု</string>
+    <string name="custom_clock_weather_summary">နေရာရှိသော နာရီမျက်နှာပြင်များအတွင်း ရာသီဥတု ပြ</string>
+    <string name="remixer_weather_service">ရာသီဥတု ဝန်ဆောင်မှု</string>
+    <string name="remixer_weather_page_summary">လော့ခ်စခရင် ရာသီဥတုနှင့် ပြသမည့်အရာများ</string>
 </resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Ekrano fonas"</item>
+        <item>Resurrected</item>
+        <item>Android One žalia</item>
+        <item>Aospa žalia</item>
+        <item>Coca Cola raudona</item>
+        <item>Discord violetinė</item>
+        <item>Facebook mėlyna</item>
+        <item>Instagram vyšninė</item>
+        <item>Jollibee karmino</item>
+        <item>Monster Energy žalia</item>
+        <item>Nextbit mėtinė</item>
+        <item>OnePlus raudona</item>
+        <item>Pepsi mėlyna</item>
+        <item>Pixel mėlyna</item>
+        <item>Pocophone geltona</item>
+        <item>Razer žalia</item>
+        <item>Samsung mėlyna</item>
+        <item>Spotify žalia</item>
+        <item>Starbucks žalia</item>
+        <item>Twitch violetinė</item>
+        <item>Twitter mėlyna</item>
+        <item>Xiaomi oranžinė</item>
+        <item>Gintaro</item>
+        <item>"Juoda"</item>
+        <item>"Mėlyna"</item>
+        <item>Pilkai mėlyna</item>
+        <item>Ruda</item>
+        <item>"Žalsvai mėlyna"</item>
+        <item>Giliai oranžinė</item>
+        <item>Giliai violetinė</item>
+        <item>"Žalia"</item>
+        <item>"Pilka"</item>
+        <item>Indigo</item>
+        <item>Šviesiai mėlyna</item>
+        <item>Laimo</item>
+        <item>"Oranžinė"</item>
+        <item>"Rožinė"</item>
+        <item>"Purpurinė"</item>
+        <item>"Raudona"</item>
+        <item>"Žalsvai mėlyna"</item>
+        <item>Vartotojas penki</item>
+        <item>Vartotojas keturi</item>
+        <item>Vartotojas vienas</item>
+        <item>Vartotojas septyni</item>
+        <item>Vartotojas šeši</item>
+        <item>Vartotojas trys</item>
+        <item>Vartotojas du</item>
+        <item>"Balta"</item>
+        <item>"Geltona"</item>
+    </string-array>
+</resources>

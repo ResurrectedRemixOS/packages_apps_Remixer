@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="slider_reset">"إعادة الضبط على الإعداد التلقائي"</string>
+    <string name="slider_reset_hint">اضغط مطولاً للاستعادة إلى الإعداد الافتراضي</string>
 </resources>

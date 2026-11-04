@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Modrá"</string>
     <string name="haptic_remix_color_green">"Zelená"</string>
     <string name="haptic_remix_color_white">"Bílá"</string>
+    <string name="haptic_remix_summary">Vyťukejte vibrační vzory pro hovory, aplikace, budíky a odemknutí</string>
+    <string name="haptic_remix_record">Nahrát</string>
+    <string name="haptic_remix_pad">ťukejte do rytmu</string>
+    <string name="haptic_remix_strength">Síla</string>
+    <string name="haptic_remix_clear">Vymazat</string>
+    <string name="haptic_remix_play">Přehrát</string>
+    <string name="haptic_remix_name">Název vzoru</string>
+    <string name="haptic_remix_empty">Zatím nic nahráno</string>
+    <string name="haptic_remix_too_long">Vzor může trvat 30 sekund</string>
+    <string name="haptic_remix_presets">Předvolby</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Sklo</string>
+    <string name="haptic_remix_preset_ringtone">Rytmus vyzvánění</string>
+    <string name="haptic_remix_listening">Načítání vyzvánění…</string>
+    <string name="haptic_remix_no_ringtone">Vyzvánění nebylo možné načíst</string>
+    <string name="haptic_remix_patterns">Vaše vzory</string>
+    <string name="haptic_remix_patterns_none">Nejprve uložte vzor. Podržením jej smažete.</string>
+    <string name="haptic_remix_broken">Tento vzor nelze načíst</string>
+    <string name="haptic_remix_delete">Smazat <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Přiřadit k</string>
+    <string name="haptic_remix_alarm">Budík a časovač</string>
+    <string name="haptic_remix_plug">Připojeno k napájení</string>
+    <string name="haptic_remix_fingerprint">Úspěšné otisky prstů</string>
+    <string name="haptic_remix_add_contact">Přidat kontakt</string>
+    <string name="haptic_remix_edge_color">Okrajové světlo pro zprávy od <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">Akcent</string>
+    <string name="haptic_remix_color_crimson">Karmínová</string>
+    <string name="haptic_remix_color_amber">Jantarová</string>
+    <string name="haptic_remix_add_app">Přidat oznámení aplikace</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · klepnutím změníte, podržením nastavíte barvu okraje</string>
+    <string name="haptic_remix_no_contacts">Kontakty nevrátily žádné číslo</string>
 </resources>

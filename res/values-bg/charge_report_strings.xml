@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Батерия"</string>
     <string name="charge_report_temp">"Температура"</string>
     <string name="charge_report_time">"Час"</string>
+    <string name="charge_report_title">Отчети за зареждане</string>
+    <string name="charge_report_summary">Обобщение на всяко зареждане при изключване от зарядното</string>
+    <string name="charge_report_min_title">Само ако е добавило поне</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 дни</item>
+        <item>7 дни</item>
+        <item>14 дни</item>
+        <item>30 дни</item>
+    </string-array>
+    <string name="charge_report_history_days">Последните <xliff:g id="days" example="7">%1$d</xliff:g> дни</string>
+    <string name="charge_report_today">Днес, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Вчера, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> мин</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ч <xliff:g id="minutes" example="02">%2$02d</xliff:g> мин</string>
+    <string name="charge_report_watts">Вата</string>
+    <string name="charge_report_added">Добавено</string>
+    <string name="charge_report_peak">Пик</string>
+    <string name="charge_report_average">Средно</string>
+    <string name="charge_report_max_temp">Макс. температура</string>
+    <string name="charge_report_charger">Зарядно</string>
+    <string name="charge_report_started">Започнало в</string>
+    <string name="charge_report_wired">Кабелно</string>
+    <string name="charge_report_wireless">Безжично</string>
+    <string name="charge_report_dock">Док станция</string>
+    <string name="charge_report_empty">Още няма зареждания</string>
+    <string name="charge_report_footer">SystemUI отчита тока, напрежението и температурата на батерията на всеки 30 секунди, докато е включен в захранване. Ватовете са измерени от телефона, затова могат да се различават от числото на зарядното. Отчетите остават на телефона; нищо не се качва.</string>
 </resources>

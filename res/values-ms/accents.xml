@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Hiasan latar"</item>
+        <item>Resurrected</item>
+        <item>Android One Hijau</item>
+        <item>Aospa Hijau</item>
+        <item>Coca Cola Merah</item>
+        <item>Discord Ungu</item>
+        <item>Facebook Biru</item>
+        <item>Instagram Ceri</item>
+        <item>Jollibee Kirmizi</item>
+        <item>Monster Energy Hijau</item>
+        <item>Nextbit Pudina</item>
+        <item>Oneplus Merah</item>
+        <item>Pepsi Biru</item>
+        <item>Pixel Biru</item>
+        <item>Pocophone Kuning</item>
+        <item>Razer Hijau</item>
+        <item>Samsung Biru</item>
+        <item>Spotify Hijau</item>
+        <item>Starbucks Hijau</item>
+        <item>Twitch Ungu</item>
+        <item>Twitter Biru</item>
+        <item>Xiaomi Oren</item>
+        <item>Ambar</item>
+        <item>"Hitam"</item>
+        <item>"Biru"</item>
+        <item>Kelabu Biru</item>
+        <item>Perang</item>
+        <item>"Sian"</item>
+        <item>Oren Tua</item>
+        <item>Ungu Tua</item>
+        <item>"Hijau"</item>
+        <item>"Kelabu"</item>
+        <item>"Biru nila"</item>
+        <item>Biru Muda</item>
+        <item>Limau</item>
+        <item>"Jingga"</item>
+        <item>"Merah jambu"</item>
+        <item>"Ungu"</item>
+        <item>"Merah"</item>
+        <item>"Hijau kebiruan"</item>
+        <item>Pengguna lima</item>
+        <item>Pengguna empat</item>
+        <item>Pengguna satu</item>
+        <item>Pengguna tujuh</item>
+        <item>Pengguna enam</item>
+        <item>Pengguna tiga</item>
+        <item>Pengguna dua</item>
+        <item>"Putih"</item>
+        <item>"Kuning"</item>
+    </string-array>
+</resources>

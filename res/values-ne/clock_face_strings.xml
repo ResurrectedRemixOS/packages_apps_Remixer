@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"डिफल्ट"</string>
     <string name="clock_faces_size">"आकार"</string>
     <string name="clock_faces_restart">"रिस्टार्ट गर्नुहोस्"</string>
+    <string name="remixer_clock_faces">घडी फेसहरू</string>
+    <string name="clock_faces_system">सिस्टम घडी</string>
+    <string name="clock_faces_system_desc">वालपेपर र शैलीबाट घडी</string>
+    <string name="clock_faces_position">%2$d मध्ये %1$d</string>
+    <string name="clock_faces_applied">लागू भयो</string>
+    <string name="clock_faces_preview_unavailable">पूर्वावलोकन उपलब्ध छैन</string>
+    <string name="clock_faces_failed">घडी बदल्न सकिएन</string>
+    <string name="clock_faces_color_accent">एक्सेन्ट</string>
+    <string name="clock_faces_color_custom">कस्टम</string>
+    <string name="clock_faces_color_album">एल्बम आर्ट</string>
+    <string name="clock_faces_color_gradient">ग्रेडियन्ट</string>
+    <string name="clock_faces_own_colors">यो फेसले आफ्नै रङ राख्छ।</string>
+    <string name="clock_faces_album_hint">सङ्गीत बजिरहँदा एल्बम आर्टबाट रङ लिन्छ।</string>
+    <string name="clock_faces_size_position">आकार र स्थिति</string>
+    <string name="clock_faces_size_value">आकार · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">माथिबाट दूरी</string>
+    <string name="clock_faces_top_value">माथिबाट दूरी · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">तेर्सो स्थिति</string>
+    <string name="clock_faces_horizontal_center">तेर्सो स्थिति · बीचमा</string>
+    <string name="clock_faces_horizontal_right">तेर्सो स्थिति · <xliff:g id="dp" example="24">%1$d</xliff:g> dp दायाँ</string>
+    <string name="clock_faces_horizontal_left">तेर्सो स्थिति · <xliff:g id="dp" example="24">%1$d</xliff:g> dp बायाँ</string>
+    <string name="clock_faces_horizontal_fixed">यो फेस बीचमै रहन्छ।</string>
+    <string name="clock_faces_opacity">अपारदर्शिता</string>
+    <string name="clock_faces_opacity_value">अपारदर्शिता · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">गति</string>
+    <string name="clock_faces_wobble">चार्ज हुँदा हल्लिनु</string>
+    <string name="clock_faces_wobble_summary">चार्जर जोड्दा एकपटक उफ्रिन्छ</string>
+    <string name="clock_faces_aod_anim">एलवेज-अन डिस्प्ले संक्रमण</string>
+    <string name="clock_faces_aod_anim_summary">घडीलाई सानो बनाएर एलवेज-अन डिस्प्लेमा बिस्तारै मेटाउँछ</string>
+    <string name="clock_faces_restart_title">लक स्क्रिन पुनः सुरु गर्ने हो?</string>
+    <string name="clock_faces_restart_message">सिस्टम घडी र कस्टम फेसबीच बदल्दा SystemUI पुनः सुरु हुन्छ। स्क्रिन एक सेकेन्डका लागि अँध्यारो हुन्छ।</string>
+    <string name="clock_faces_note">पूर्वावलोकन तपाईंको लक स्क्रिन वालपेपरमा SystemUI ले बनाउँछ। रङ, आकार र स्थिति तुरुन्तै लक स्क्रिनमा लागू हुन्छन्।</string>
 </resources>

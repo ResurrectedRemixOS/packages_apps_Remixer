@@ -3,4 +3,34 @@
     <string name="sb_clock_date_title">"Päivämäärä"</string>
     <string name="sb_weather_category">"Sää"</string>
     <string name="sb_weather_position_title">Sijainti</string>
+    <string name="sb_clock_category">Kello ja päivämäärä</string>
+    <string name="sb_clock_bold_title">Lihavoitu kello</string>
+    <string name="sb_clock_bold_summary">Näytä tilapalkin kello lihavoituna</string>
+    <string name="sb_clock_period_separator_title">Ajan erotin</string>
+    <string name="sb_clock_period_separator_summary">10.45 kellon 10:45 sijaan</string>
+    <string name="sb_clock_date_position_title">Päivämäärän sijainti</string>
+    <string name="sb_clock_date_style_title">Päivämäärän kirjoitustapa</string>
+    <string name="sb_clock_date_format_title">Päivämäärän muoto</string>
+    <string name="sb_clock_chip_category">Kellon tausta</string>
+    <string name="sb_clock_chip_title">Taustan tyyli</string>
+    <string name="sb_clock_chip_start_title">Liukuvärin alku</string>
+    <string name="sb_clock_chip_end_title">Liukuvärin loppu</string>
+    <string name="sb_clock_chip_angle_title">Liukuvärin kulma</string>
+    <string name="sb_clock_chip_mask_title">Leikkaa aika liukuväristä</string>
+    <string name="sb_clock_chip_mask_summary">Liukuväri näkyy numeroiden läpi numeroiden takana sen sijaan</string>
+    <string name="sb_weather_title">Sää tilapalkissa</string>
+    <string name="status_bar_clock_rr_style_title">Kellon ulkoasu</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Oletus"</item>
+        <item>Neon</item>
+        <item>Jaettu</item>
+        <item>RR-merkki</item>
+        <item>Mono</item>
+        <item>Pulssi</item>
+        <item>Pinottu</item>
+        <item>Hehku</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline ajan vieressä</string>
+    <string name="sb_clock_flatline_summary">RR:n sykeviiva sirussa: sykkii musiikin tahdissa ja piikittyy, kun ilmoitus saapuu</string>
 </resources>

@@ -5,4 +5,17 @@
     <string name="quick_launch_timer">Timer</string>
     <string name="quick_launch_undo">"Ongedaan maken"</string>
     <string name="quick_launch_off">"Uit"</string>
+    <string name="quick_launch_title">Snelle start</string>
+    <string name="quick_launch_main">Snelle start via vingerafdruk</string>
+    <string name="quick_launch_main_summary">Houd je vinger na het ontgrendelen op de sensor om een snelkoppeling te openen</string>
+    <string name="quick_launch_hint">Tik op een snelkoppeling om deze te wijzigen, houd hem ingedrukt om hem te verwijderen, of sleep hem om de volgorde te wijzigen.</string>
+    <string name="quick_launch_behavior">Gedrag</string>
+    <string name="quick_launch_hold">Vasthoudtijd</string>
+    <string name="quick_launch_haptics">Trillen bij elke snelkoppeling</string>
+    <string name="quick_launch_add">Toevoegen</string>
+    <string name="quick_launch_camera">Camera</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">QR-code scannen</string>
+    <string name="quick_launch_app">App…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> verwijderd</string>
 </resources>

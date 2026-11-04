@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Animacija zagona</string>
+    <string name="boot_animation_note">Predvaja se ob naslednjem zagonu telefona.</string>
+    <string name="boot_animation_custom">Vaša datoteka</string>
+    <string name="boot_animation_custom_pick">Izberite datoteko…</string>
+    <string name="boot_animation_custom_invalid">Ta datoteka ni animacija zagona</string>
+    <string name="boot_animation_failed">Animacije zagona ni bilo mogoče spremeniti</string>
+</resources>

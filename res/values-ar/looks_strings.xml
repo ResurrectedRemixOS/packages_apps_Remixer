@@ -17,4 +17,63 @@
     <string name="looks_save_look">"حفظ"</string>
     <string name="looks_custom_color">"لون مخصص"</string>
     <string name="looks_part_clock_color">"لون الساعة"</string>
+    <string name="looks_title">الأنماط</string>
+    <string name="looks_summary">إعدادك كاملاً بنقرة واحدة</string>
+    <string name="looks_rr">أنماط RR</string>
+    <string name="looks_yours">أنماطك</string>
+    <string name="looks_none">لم يتم حفظ أي شيء بعد</string>
+    <string name="looks_save">حفظ الحالي</string>
+    <string name="looks_import_clipboard">من الحافظة</string>
+    <string name="looks_import_file">من ملف</string>
+    <string name="looks_mine">نمطي</string>
+    <string name="looks_applied">تم تطبيق <xliff:g id="name" example="Neon night">%1$s</xliff:g></string>
+    <string name="looks_failed">تعذّر تطبيق كل شيء</string>
+    <string name="looks_invalid">هذا ليس نمط RR</string>
+    <string name="looks_part_qs">نمط الإعدادات السريعة</string>
+    <string name="looks_part_clock_face">شكل ساعة شاشة القفل</string>
+    <string name="looks_part_clock_look">ساعة شريط الحالة</string>
+    <string name="looks_part_edge">الإضاءة الحافية</string>
+    <string name="looks_part_haptics">أنماط Haptic Remix</string>
+    <plurals name="looks_haptic_patterns">
+        <item quantity="few">%d أنماط وتعييناتها</item>
+        <item quantity="many">%d نمطًا وتعييناته</item>
+        <item quantity="other">%d نمط وتعييناته</item>
+    </plurals>
+    <string name="looks_saturation">التشبّع <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">التمييز</string>
+    <string name="looks_share_title">مشاركة “<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">امسح بكاميرا هاتف RR آخر، أو من الأنماط › استيراد</string>
+    <string name="looks_share_file">مشاركة الملف</string>
+    <string name="looks_save_file">حفظ الملف</string>
+    <string name="looks_import_scan">امسح رمز QR</string>
+    <string name="looks_import_title">استيراد نمط</string>
+    <string name="looks_from_qr">من رمز QR</string>
+    <string name="looks_from_file">من ملف</string>
+    <string name="looks_from_clipboard">من الحافظة</string>
+    <string name="looks_import_same">يتطابق بالفعل مع إعدادك.</string>
+    <plurals name="looks_import_changes">
+        <item quantity="zero">لن يغيّر <xliff:g id="count" example="4">%d</xliff:g> شيئًا:</item>
+        <item quantity="few">سيغيّر <xliff:g id="count" example="4">%d</xliff:g> أشياء:</item>
+        <item quantity="many">سيغيّر <xliff:g id="count" example="4">%d</xliff:g> شيئًا:</item>
+        <item quantity="other">سيغيّر <xliff:g id="count" example="4">%d</xliff:g> شيء:</item>
+    </plurals>
+    <string name="looks_new">نمط جديد</string>
+    <string name="looks_edit_title">تعديل النمط</string>
+    <string name="looks_in_look">في هذا النمط</string>
+    <string name="looks_not_included">ليس في هذا النمط</string>
+    <string name="looks_save_apply">حفظ وتطبيق</string>
+    <string name="looks_saved">تم حفظ “<xliff:g id="name" example="Sunday">%1$s</xliff:g>”</string>
+    <string name="looks_delete_confirm">حذف “<xliff:g id="name" example="Sunday">%1$s</xliff:g>”؟</string>
+    <string name="looks_rr_wallpaper">خلفية RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">تشبّع التمييز</string>
+    <string name="looks_part_clock_chip">شريحة ساعة شريط الحالة</string>
+    <string name="looks_part_edge_style">نمط الإضاءة الحافية</string>
+    <string name="looks_scan_hint">وجّه الكاميرا إلى رمز QR للنمط</string>
+    <string name="looks_scan_failed">تعذّر فتح الكاميرا</string>
+    <string name="look_roulette_title">عجلة الأنماط</string>
+    <string-array name="look_roulette_entries">
+        <item>"الميزة غير مفعّلة"</item>
+        <item>نمط مختلف عند كل فتح للقفل</item>
+        <item>يختلف الـLook في كل يوم</item>
+    </string-array>
 </resources>

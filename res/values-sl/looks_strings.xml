@@ -16,4 +16,53 @@
     <string name="looks_save_look">"Shrani"</string>
     <string name="looks_custom_color">"Barva po meri"</string>
     <string name="looks_part_clock_color">"Barva ure"</string>
+    <string name="looks_title">Videzi</string>
+    <string name="looks_summary">Celotna nastavitev v enem dotiku</string>
+    <string name="looks_rr">Videzi RR</string>
+    <string name="looks_yours">Vaši videzi</string>
+    <string name="looks_none">Še ni shranjeno</string>
+    <string name="looks_save">Shrani trenutnega</string>
+    <string name="looks_import_clipboard">Iz odložišča</string>
+    <string name="looks_import_file">Iz datoteke</string>
+    <string name="looks_mine">Moj videz</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> uporabljeno</string>
+    <string name="looks_failed">Vsega ni bilo mogoče uporabiti</string>
+    <string name="looks_invalid">To ni videz RR</string>
+    <string name="looks_part_qs">Slog hitrih nastavitev</string>
+    <string name="looks_part_clock_face">Slog ure na zaklenjenem zaslonu</string>
+    <string name="looks_part_clock_look">Ura v vrstici stanja</string>
+    <string name="looks_part_edge">Robna osvetlitev</string>
+    <string name="looks_part_boot">Animacija zagona</string>
+    <string name="looks_part_haptics">Vzorci Haptic Remix</string>
+    <string name="looks_saturation">Nasičenost <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Poudarek</string>
+    <string name="looks_share_title">Deli »<xliff:g id="name" example="Neon night">%1$s</xliff:g>«</string>
+    <string name="looks_share_hint">Optično preberite s kamero drugega telefona RR ali v Videzi › Uvozi</string>
+    <string name="looks_share_file">Deli datoteko</string>
+    <string name="looks_save_file">Shrani datoteko</string>
+    <string name="looks_import_scan">Optično preberi kodo QR</string>
+    <string name="looks_import_title">Uvozi videz</string>
+    <string name="looks_from_qr">iz kode QR</string>
+    <string name="looks_from_file">iz datoteke</string>
+    <string name="looks_from_clipboard">iz odložišča</string>
+    <string name="looks_import_same">Že ustreza vaši nastavitvi.</string>
+    <string name="looks_new">Nov videz</string>
+    <string name="looks_edit_title">Uredi videz</string>
+    <string name="looks_in_look">V tem videzu</string>
+    <string name="looks_not_included">Ni v tem videzu</string>
+    <string name="looks_save_apply">Shrani in uporabi</string>
+    <string name="looks_saved">»<xliff:g id="name" example="Sunday">%1$s</xliff:g>« shranjeno</string>
+    <string name="looks_delete_confirm">Izbrišem »<xliff:g id="name" example="Sunday">%1$s</xliff:g>«?</string>
+    <string name="looks_rr_wallpaper">Ozadje RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Nasičenost poudarka</string>
+    <string name="looks_part_clock_chip">Čip z uro v vrstici stanja</string>
+    <string name="looks_part_edge_style">Slog osvetlitve robov</string>
+    <string name="looks_scan_hint">Usmerite kamero v QR kodo videza</string>
+    <string name="looks_scan_failed">Kamere ni bilo mogoče odpreti</string>
+    <string name="look_roulette_title">Rulet videzov</string>
+    <string-array name="look_roulette_entries">
+        <item>"Izklopljeno"</item>
+        <item>Ob vsakem odklepu drug videz</item>
+        <item>Vsak dan drug videz</item>
+    </string-array>
 </resources>

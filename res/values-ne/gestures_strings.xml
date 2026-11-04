@@ -8,4 +8,50 @@
         <item>"मध्यम"</item>
         <item>"ठुलो"</item>
     </string-array>
+    <string name="pie_title">पाइ नियन्त्रणहरू</string>
+    <string name="pie_summary">सर्टकटहरूको पाइ खोल्न किनारको तल्लो भाग थिची राख्नुहोस्</string>
+    <string name="pie_zone">किनारको भाग</string>
+    <string name="pie_clock">माथि घडी र ब्याट्री</string>
+    <string name="pie_items">स्लाइसहरू</string>
+    <string-array name="pie_items_entries">
+        <item>"पछाडि"</item>
+        <item>होम</item>
+        <item>"हालैका"</item>
+        <item>"नोटिफिकेसनहरू"</item>
+        <item>"फ्ल्यासलाइट"</item>
+        <item>"स्क्रिनसट"</item>
+        <item>"पावर मेनु"</item>
+        <item>"सहायक"</item>
+        <item>"क्यामेरा"</item>
+    </string-array>
+    <string name="pie_footer">यसका लागि एक-चौथाइ सेकेन्ड बिना चल्ने थिची राख्नु आवश्यक छ, त्यसैले किनारबाट छिटो स्वाइप गर्दा अझै पछाडि जान्छ। यो लक स्क्रिनमा खुल्दैन।</string>
+    <string-array name="pie_edges_entries">
+        <item>"बायाँ"</item>
+        <item>"दायाँ"</item>
+        <item>दुवै</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>तल्लो तेस्रो भाग</item>
+        <item>बीचमा</item>
+        <item>सम्पूर्ण किनारा</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Glass</item>
+        <item>क्लासिक</item>
+    </string-array>
+    <string name="sidebar_style_title">एप साइडबारको रूप</string>
+    <string-array name="sidebar_style_entries">
+        <item>क्लासिक</item>
+        <item>RR ग्लास</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">एप साइडबार</string>
+    <string name="sidebar_settings_summary">तपाईंका एप र उपकरणहरूका लागि ह्यान्डलबाट भित्र स्वाइप गर्नुहोस्</string>
+    <string name="sidebar_apps_title">एप, ह्यान्डल र क्लिपबोर्ड</string>
+    <string name="sidebar_apps_summary">ह्यान्डल सक्रिय गर्नुहोस्, एपहरू चयन गर्नुहोस् र स्मार्ट क्लिपबोर्ड सेटअप गर्नुहोस्</string>
+    <string name="sidebar_handle_size_title">ह्यान्डलको आकार</string>
+    <string name="sidebar_tools_title">उपकरण पङ्क्ति</string>
+    <string name="sidebar_tools_summary">तपाईंका एपहरूमुनि स्क्रिनसट र फ्ल्यासलाइट</string>
+    <string name="sidebar_footer">ह्यान्डल तपाईंको एक्सेन्टमा पातलो रेखा हो; किनारमा सार्न यसलाई तान्नुहोस्। जेस्चर नेभिगेसनसँग यो आफ्नै भागमा मात्र हुन्छ, र अन्य ठाउँमा फिर्ता जाने कार्य काम गर्छ।</string>
 </resources>

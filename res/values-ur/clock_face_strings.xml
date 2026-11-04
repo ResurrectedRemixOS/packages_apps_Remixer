@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"ڈیفالٹ"</string>
     <string name="clock_faces_size">"سائز"</string>
     <string name="clock_faces_restart">"ری سٹارٹ کریں"</string>
+    <string name="remixer_clock_faces">گھڑی کے ڈیزائن</string>
+    <string name="clock_faces_system">سسٹم گھڑی</string>
+    <string name="clock_faces_system_desc">Wallpaper &amp; style کی گھڑی</string>
+    <string name="clock_faces_position">%2$d میں سے %1$d</string>
+    <string name="clock_faces_applied">لاگو شدہ</string>
+    <string name="clock_faces_preview_unavailable">پیش نظارہ دستیاب نہیں</string>
+    <string name="clock_faces_failed">گھڑی تبدیل نہیں ہو سکی</string>
+    <string name="clock_faces_color_accent">لہجہ</string>
+    <string name="clock_faces_color_custom">حسب ضرورت</string>
+    <string name="clock_faces_color_album">البم آرٹ</string>
+    <string name="clock_faces_color_gradient">گریڈینٹ</string>
+    <string name="clock_faces_own_colors">اس ڈیزائن کے اپنے رنگ ہیں۔</string>
+    <string name="clock_faces_album_hint">موسیقی چلنے پر البم آرٹ سے رنگ لیتا ہے۔</string>
+    <string name="clock_faces_size_position">سائز اور مقام</string>
+    <string name="clock_faces_size_value">سائز · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">اوپر سے فاصلہ</string>
+    <string name="clock_faces_top_value">اوپر سے فاصلہ · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">افقی مقام</string>
+    <string name="clock_faces_horizontal_center">افقی مقام · درمیان</string>
+    <string name="clock_faces_horizontal_right">افقی مقام · دائیں <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_left">افقی مقام · بائیں <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_fixed">یہ ڈیزائن درمیان میں رہتا ہے۔</string>
+    <string name="clock_faces_opacity">شفافیت</string>
+    <string name="clock_faces_opacity_value">شفافیت · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">حرکت</string>
+    <string name="clock_faces_wobble">چارج ہوتے وقت ہلکی جنبش</string>
+    <string name="clock_faces_wobble_summary">پلگ لگانے پر ایک بار اچھلتا ہے</string>
+    <string name="clock_faces_aod_anim">ہمیشہ آن ڈسپلے کی منتقلی</string>
+    <string name="clock_faces_aod_anim_summary">گھڑی کو سکڑا کر دھندلا کر کے ہمیشہ آن ڈسپلے میں لے جاتا ہے</string>
+    <string name="clock_faces_restart_title">مقفل اسکرین دوبارہ شروع کریں؟</string>
+    <string name="clock_faces_restart_message">سسٹم گھڑی اور حسب ضرورت ڈیزائنز کے درمیان بدلنے پر SystemUI دوبارہ شروع ہوتا ہے۔ اسکرین ایک سیکنڈ کے لیے بند ہو جائے گی۔</string>
+    <string name="clock_faces_note">پیش نظارے آپ کے مقفل اسکرین وال پیپر پر SystemUI بناتا ہے۔ رنگ، سائز اور مقام مقفل اسکرین پر فوراً تبدیل ہو جاتے ہیں۔</string>
 </resources>

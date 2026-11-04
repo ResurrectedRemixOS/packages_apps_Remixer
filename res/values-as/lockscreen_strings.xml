@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">দুৰ্ঘটনাক্ৰমে ৱেক-আপ হোৱাটো প্ৰতিৰোধ কৰক</string>
+    <string name="lockscreen_battery_info_title">চাৰ্জিঙৰ তথ্য</string>
+    <string name="lockscreen_battery_info_summary">চাৰ্জ হওঁতে বৰ্তমান, ৱাট, ভল্টেজ আৰু বেটাৰীৰ তাপমাত্ৰা দেখুৱাওক</string>
+    <string name="charging_ring_title">SuperVOOC চাৰ্জিঙ এনিমেশ্বন</string>
+    <string name="charging_ring_summary">প্লাগ ইন কৰোঁতে চাৰ্জিং ৰিং আৰু গতি দেখুৱাওক</string>
+    <string name="pocket_mode_summary">প্ৰximity ছেন্সৰ ঢাকি থাকোঁতে, স্ক্ৰীন জাগ্ৰত নহয় আৰু স্পৰ্শ আওকাণ কৰে</string>
+    <string name="screen_on_time_title">স্ক্ৰীন-অন সময়</string>
+    <string name="screen_on_time_summary">চাৰ্জ হওঁতে আৰু বেটাৰী ছেভাৰ টাইলত, লক স্ক্ৰীনত শেহতীয়া সম্পূৰ্ণ চাৰ্জৰ পিছৰ স্ক্ৰীন-অন সময় দেখুৱাওক</string>
 </resources>

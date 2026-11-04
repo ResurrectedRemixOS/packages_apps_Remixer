@@ -8,4 +8,50 @@
         <item>"Vidutinis"</item>
         <item>"Didelis"</item>
     </string-array>
+    <string name="pie_title">Riekiniai valdikliai</string>
+    <string name="pie_summary">Laikykite apatinę krašto dalį, kad atsivertų riekinis spartiųjų klavišų meniu</string>
+    <string name="pie_zone">Dalis krašto</string>
+    <string name="pie_clock">Virš jos – laikrodis ir baterija</string>
+    <string name="pie_items">Riekelės</string>
+    <string-array name="pie_items_entries">
+        <item>"Atgal"</item>
+        <item>Namai</item>
+        <item>"Naujausi"</item>
+        <item>"Pranešimai"</item>
+        <item>"Žibintuvėlis"</item>
+        <item>"Ekrano kopija"</item>
+        <item>"Įjungimo meniu"</item>
+        <item>"Padėjėjas"</item>
+        <item>"Fotoaparatas"</item>
+    </string-array>
+    <string name="pie_footer">Reikia laikyti pirštą ketvirtį sekundės nejudinant, todėl greitas perbraukimas nuo krašto vis tiek grąžina atgal. Neatsidaro užrakinimo ekrane.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Kairė"</item>
+        <item>"Dešinė"</item>
+        <item>Abu</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Apatinė trečdalis</item>
+        <item>Vidurys</item>
+        <item>Visas kraštas</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neoninis</item>
+        <item>Stiklas</item>
+        <item>Klasikinis</item>
+    </string-array>
+    <string name="sidebar_style_title">Programų šoninės juostos išvaizda</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klasikinis</item>
+        <item>RR stiklas</item>
+        <item>Neoninis</item>
+    </string-array>
+    <string name="sidebar_settings_title">Programų šoninė juosta</string>
+    <string name="sidebar_settings_summary">Perbraukite iš rankenėlės, kad pasiektumėte programas ir įrankius</string>
+    <string name="sidebar_apps_title">Programos, rankenėlė ir iškarpinė</string>
+    <string name="sidebar_apps_summary">Įjunkite rankenėlę, pasirinkite programas ir nustatykite išmaniąją iškarpinę</string>
+    <string name="sidebar_handle_size_title">Rankenėlės dydis</string>
+    <string name="sidebar_tools_title">Įrankių eilutė</string>
+    <string name="sidebar_tools_summary">Ekrano kopija ir žibintuvėlis po programomis</string>
+    <string name="sidebar_footer">Rankenėlė – plona akcento spalvos linija; vilkite ją palei kraštą, kad perkeltumėte. Naudojant gestų naršymą, ji užima tik savo kraštų dalį, o atgal veikia visur kitur.</string>
 </resources>

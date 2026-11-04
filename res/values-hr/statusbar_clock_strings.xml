@@ -6,4 +6,31 @@
     <string name="sb_clock_date_format_title">Format datuma</string>
     <string name="sb_weather_category">"Vrijeme"</string>
     <string name="sb_weather_position_title">Položaj</string>
+    <string name="sb_clock_bold_title">Podebljani sat</string>
+    <string name="sb_clock_bold_summary">Prikaži sat u traci statusa podebljano</string>
+    <string name="sb_clock_period_separator_title">Separator vremena</string>
+    <string name="sb_clock_period_separator_summary">10.45 umjesto 10:45</string>
+    <string name="sb_clock_date_style_title">Velikost slova datuma</string>
+    <string name="sb_clock_chip_category">Pozadina sata</string>
+    <string name="sb_clock_chip_title">Stil pozadine</string>
+    <string name="sb_clock_chip_start_title">Početna boja gradijenta</string>
+    <string name="sb_clock_chip_end_title">Završna boja gradijenta</string>
+    <string name="sb_clock_chip_angle_title">Kut gradijenta</string>
+    <string name="sb_clock_chip_mask_title">Izreži vrijeme iz gradijenta</string>
+    <string name="sb_clock_chip_mask_summary">Gradijent se vidi kroz znamenke umjesto iza njih</string>
+    <string name="sb_weather_title">Vremenska prognoza u traci statusa</string>
+    <string name="status_bar_clock_rr_style_title">Izgled sata</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Zadano"</item>
+        <item>Neon</item>
+        <item>Podijeljeno</item>
+        <item>RR oznaka</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Složeno</item>
+        <item>Žar</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline uz vrijeme</string>
+    <string name="sb_clock_flatline_summary">RR-ova linija otkucaja unutar pločice: pulsira uz glazbu, skače kad stigne obavijest</string>
 </resources>

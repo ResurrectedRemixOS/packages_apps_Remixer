@@ -3,4 +3,34 @@
     <string name="sb_clock_date_title">"Ημερομηνία"</string>
     <string name="sb_weather_category">"Καιρός"</string>
     <string name="sb_weather_position_title">Θέση</string>
+    <string name="sb_clock_category">Ρολόι και ημερομηνία</string>
+    <string name="sb_clock_bold_title">Έντονο ρολόι</string>
+    <string name="sb_clock_bold_summary">Εμφάνιση του ρολογιού της γραμμής κατάστασης με έντονα γράμματα</string>
+    <string name="sb_clock_period_separator_title">Διαχωριστικό περιόδου</string>
+    <string name="sb_clock_period_separator_summary">10.45 αντί για 10:45</string>
+    <string name="sb_clock_date_position_title">Θέση ημερομηνίας</string>
+    <string name="sb_clock_date_style_title">Πεζά/κεφαλαία ημερομηνίας</string>
+    <string name="sb_clock_date_format_title">Μορφή ημερομηνίας</string>
+    <string name="sb_clock_chip_category">Φόντο ρολογιού</string>
+    <string name="sb_clock_chip_title">Στυλ φόντου</string>
+    <string name="sb_clock_chip_start_title">Αρχή διαβάθμισης</string>
+    <string name="sb_clock_chip_end_title">Τέλος διαβάθμισης</string>
+    <string name="sb_clock_chip_angle_title">Γωνία διαβάθμισης</string>
+    <string name="sb_clock_chip_mask_title">Αποκοπή της ώρας από τη διαβάθμιση</string>
+    <string name="sb_clock_chip_mask_summary">Η διαβάθμιση φαίνεται μέσα από τα ψηφία αντί για πίσω τους</string>
+    <string name="sb_weather_title">Καιρός στη γραμμή κατάστασης</string>
+    <string name="status_bar_clock_rr_style_title">Εμφάνιση ρολογιού</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Προεπιλογή"</item>
+        <item>Neon</item>
+        <item>Χωρισμένο</item>
+        <item>Σήμα RR</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Στοιβαγμένο</item>
+        <item>Ember</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline δίπλα στην ώρα</string>
+    <string name="sb_clock_flatline_summary">Η γραμμή καρδιακού ρυθμού του RR μέσα στο chip: χτυπά με τη μουσική, κάνει αιχμή όταν έρχεται ειδοποίηση</string>
 </resources>

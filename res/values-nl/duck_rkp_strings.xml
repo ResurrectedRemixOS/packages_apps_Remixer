@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Device RKP gebruiken</string>
+    <string name="ts_rkp_enabled_summary">Gebruik een gegenereerde keybox. Een keybox importeren zet dit uit.</string>
+    <string name="ts_rkp_provision">Keybox genereren</string>
+    <string name="ts_rkp_provision_summary">Vraag een keybox aan bij Google via de provisioningdienst van dit apparaat. Vereist compatibele Qualcomm-firmware.</string>
+    <string name="ts_rkp_status">Provisioningstatus</string>
+    <string name="ts_rkp_owner_only">Device RKP beheren vanuit het profiel van de apparaateigenaar</string>
+    <string name="ts_rkp_unavailable">Device RKP is niet beschikbaar</string>
+    <string name="ts_rkp_imported">Uitgeschakeld terwijl een geïmporteerde keybox is geïnstalleerd</string>
+    <string name="ts_rkp_disabled">Uit. Schakel Device RKP in om een keybox te gebruiken of te genereren.</string>
+    <string name="ts_rkp_idle">Klaar om een keybox aan te vragen</string>
+    <string name="ts_rkp_fetching">Provisioning-uitdaging ophalen…</string>
+    <string name="ts_rkp_hardware">Wachten op de provisioningdienst van het apparaat…</string>
+    <string name="ts_rkp_signing">Certificaten aanvragen bij Google…</string>
+    <string name="ts_rkp_validating">Keybox valideren en opslaan…</string>
+    <string name="ts_rkp_ready">Gegenereerde keybox actief. Vernieuwt zich automatisch vóór %1$s</string>
+    <string name="ts_rkp_keybox_stored">Device RKP-keybox opgeslagen</string>
+    <string name="ts_rkp_expired">Gegenereerde keybox is verlopen. Genereer een vervanging.</string>
+    <string name="ts_rkp_hal_rejected">Firmware heeft het verzoek geweigerd (code %1$d). Duck V1 wordt mogelijk niet ondersteund.</string>
+    <string name="ts_rkp_http_error">Provisioningserver heeft het verzoek geweigerd (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Het apparaat biedt geen compatibele V1-provisioninginterface</string>
+    <string name="ts_rkp_network_error">Kan de provisioningserver niet bereiken. Controleer je verbinding.</string>
+    <string name="ts_rkp_submission_unknown">Het serverantwoord is verloren gegaan. Het verzoek is mogelijk verwerkt; er is geen automatische nieuwe poging gedaan.</string>
+    <string name="ts_rkp_invalid_chain">Keybox-certificaten zijn niet gevalideerd. De bestaande keybox is behouden.</string>
+    <string name="ts_rkp_timeout">Provisioning is verlopen. Als de apparaatdienst nog bezig is, start het apparaat opnieuw op voordat je het opnieuw probeert.</string>
+    <string name="ts_rkp_canceled">Verzoek geannuleerd omdat de keybox-configuratie is gewijzigd</string>
+    <string name="ts_rkp_save_failed">De gegenereerde keybox kon niet worden opgeslagen</string>
+    <string name="ts_rkp_action_failed">De keybox-bewerking kon niet worden voltooid</string>
+</resources>

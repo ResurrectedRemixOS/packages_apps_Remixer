@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">آواز کا پینل</string>
+    <string name="volume_page_summary">نیین، شیشہ، پِل یا کلاسک RR</string>
+    <string name="volume_behavior">رویہ</string>
+    <string name="volume_on_left_title">پینل بائیں طرف</string>
+    <string name="volume_on_left_summary">کلاسک RR ہمیشہ اوپر رہتا ہے</string>
+    <string name="volume_ringer_title">رنگر موڈ بٹن</string>
+    <string name="volume_tick_title">سلائیڈ کرتے وقت ٹک کی آواز</string>
+    <string name="volume_percent_title">سطح فیصد میں دکھائیں</string>
+    <string name="volume_timeout_title">اس کے بعد چھپائیں</string>
+    <string name="volume_footer">انداز سے پینل کی شکل بدلتی ہے، کام کرنے کا طریقہ نہیں۔ اینڈرائیڈ اسٹاک پینل رکھتا ہے۔ ہر اسٹریم دیکھنے کے لیے نقطوں پر ٹیپ کریں؛ پھیلا ہوا پینل بھی یہی انداز استعمال کرتا ہے۔</string>
 </resources>

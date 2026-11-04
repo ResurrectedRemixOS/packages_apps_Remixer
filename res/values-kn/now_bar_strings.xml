@@ -11,4 +11,97 @@
     <string name="now_bar_buttons">"ಬಟನ್‌ಗಳು"</string>
     <string name="now_bar_text">"ಪಠ್ಯ"</string>
     <string name="now_bar_text_size">"ಪಠ್ಯದ ಗಾತ್ರ"</string>
+    <string name="now_bar_summary">ಲಾಕ್ ಸ್ಕ್ರೀನ್‌ನ ಕೆಳಭಾಗದಲ್ಲಿ ಲೈವ್ ಚಟುವಟಿಕೆಗಳು</string>
+    <string name="now_bar_show">ತೋರಿಸು</string>
+    <string name="now_bar_music">ಸಂಗೀತ ಮತ್ತು ವೀಡಿಯೊ</string>
+    <string name="now_bar_timers">ಟೈಮರ್‌ಗಳು, ಸ್ಟಾಪ್‌ವಾಚ್ ಮತ್ತು ಅಲಾರಂಗಳು</string>
+    <string name="now_bar_hide_call">ಕರೆಯ ನೋಟಿಫಿಕೇಶನ್ ಮರೆಮಾಡಿ</string>
+    <string name="now_bar_hide_call_summary">ಲಾಕ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ, Now Bar ನಲ್ಲಿರುವ ಕರೆಯನ್ನು ನೋಟಿಫಿಕೇಶನ್ ಆಗಿ ಪಟ್ಟಿ ಮಾಡಲಾಗುವುದಿಲ್ಲ</string>
+    <string name="now_bar_live">ಲೈವ್ ಅಪ್‌ಡೇಟ್‌ಗಳು</string>
+    <string name="now_bar_live_summary">ನ್ಯಾವಿಗೇಶನ್, ಸವಾರಿಗಳು, ಡೆಲಿವರಿಗಳು, ಸ್ಕೋರ್‌ಗಳು</string>
+    <string name="now_bar_scores">ಲೈವ್ ಸ್ಕೋರ್‌ಗಳು</string>
+    <string name="now_bar_live_apps">ಲೈವ್ ಅಪ್‌ಡೇಟ್‌ಗಳ ಆ್ಯಪ್‌ಗಳು</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> ಆ್ಯಪ್‌ಗಳು</string>
+    <string name="now_bar_pin">ಆಲ್ವೇಸ್-ಆನ್ ಡಿಸ್ಪ್ಲೇಯಲ್ಲಿ ಪಿನ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> ಅನ್ನು ಅನ್‌ಪಿನ್ ಮಾಡಬೇಕೇ?</string>
+    <string name="now_bar_unpin">ಅನ್‌ಪಿನ್ ಮಾಡಿ</string>
+    <string name="now_bar_scores_summary">At a Glance ನಲ್ಲಿ ನೀವು ಅನುಸರಿಸುವ ಆಟಗಳು</string>
+    <string name="now_bar_recording">ಸ್ಕ್ರೀನ್ ಮತ್ತು ಧ್ವನಿ ರೆಕಾರ್ಡಿಂಗ್</string>
+    <string name="now_bar_buds">ಇಯರ್‌ಬಡ್‌ಗಳು ಮತ್ತು ವಾಚ್‌ಗಳು</string>
+    <string name="now_bar_buds_summary">ಸಂಪರ್ಕಿತ ಸಾಧನದ ಬ್ಯಾಟರಿ: ಇಯರ್‌ಬಡ್‌ಗಳಿಗೆ ಎಡ, ಬಲ ಮತ್ತು ಕೇಸ್</string>
+    <string name="now_bar_wave">ವೇವ್ ಅನಿಮೇಶನ್</string>
+    <string name="now_bar_aod">ಆಲ್ವೇಸ್-ಆನ್ ಡಿಸ್ಪ್ಲೇಯಲ್ಲಿ ತೋರಿಸಿ</string>
+    <string name="now_bar_chip">ಸ್ಥಿತಿ ಪಟ್ಟಿಯಲ್ಲಿ ಚಿಪ್</string>
+    <string name="now_bar_chip_summary">ಅನ್‌ಲಾಕ್ ಆಗಿರುವಾಗ ಗಡಿಯಾರದ ಪಕ್ಕದಲ್ಲಿ ಸಂಗೀತ ಮತ್ತು ಟೈಮರ್‌ಗಳನ್ನು ತೋರಿಸಿ</string>
+    <string name="now_bar_footer">Now Bar ನಲ್ಲಿ ಸಂಗೀತ ಇದ್ದಾಗ, ದೊಡ್ಡ ಲಾಕ್ ಸ್ಕ್ರೀನ್ ಪ್ಲೇಯರ್ ಮರೆಮಾಡಲಾಗುತ್ತದೆ. ಚಟುವಟಿಕೆಗಳನ್ನು ಬದಲಾಯಿಸಲು ಬಾರ್ ಅನ್ನು ಸ್ವೈಪ್ ಮಾಡಿ, ನಿಯಂತ್ರಣಗಳನ್ನು ತೆರೆಯಲು ಟ್ಯಾಪ್ ಮಾಡಿ, ಮತ್ತು ಅದು ಮುಗಿಯುವವರೆಗೆ ಒಂದನ್ನು ಮರೆಮಾಡಲು ದೀರ್ಘವಾಗಿ ಒತ್ತಿ. ವಿರಾಮಗೊಳಿಸಿದ ಹಾಡನ್ನು ತೆಗೆದುಹಾಕಲು ಅದನ್ನು ಬಾರ್‌ನಿಂದ ಸ್ವೈಪ್ ಮಾಡಿ.\n\nGoogle ಆ್ಯಪ್‌ನಲ್ಲಿ ನೀವು ಅನುಸರಿಸುವ ತಂಡಗಳ ಲೈವ್ ಸ್ಕೋರ್‌ಗಳು ತೋರಿಸಲಾಗುತ್ತವೆ. Smartspacer ಮೂಲಕ, ಅಲ್ಲಿ ಕ್ರೀಡಾ ಟಾರ್ಗೆಟ್ ಸೇರಿಸಿದರೆ ಅದರ ಸ್ಕೋರ್‌ಗಳು ಇಲ್ಲಿ ಬರುತ್ತವೆ.</string>
+    <string name="now_bar_looks">ಲುಕ್‌ಗಳು</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"ಡೀಫಾಲ್ಟ್"</item>
+        <item>Liquid Glass</item>
+        <item>ಮಿನಿ</item>
+        <item>ದೊಡ್ಡದು</item>
+        <item>ನಿಯಾನ್</item>
+        <item>ಗ್ಲಾಸ್ ಕಾರ್ಡ್</item>
+    </string-array>
+    <string name="now_bar_material">ಮೆಟೀರಿಯಲ್</string>
+    <string name="now_bar_material_summary">Liquid Glass ಥೀಮ್‌ನಲ್ಲಿ ನೀವು ಹೊಂದಿಸಿದ ಗ್ಲಾಸ್ ಬಳಸುತ್ತದೆ</string>
+    <string-array name="now_bar_material_entries">
+        <item>ಘನ</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>ಆಲ್ಬಂ ಆರ್ಟ್</item>
+        <item>ಆಕ್ಸೆಂಟ್</item>
+        <item>ಡಾರ್ಕ್</item>
+    </string-array>
+    <string name="now_bar_opacity">ಅಪಾರದರ್ಶಕತೆ</string>
+    <string name="now_bar_opacity_summary">Liquid Glass ನಲ್ಲಿ ಗ್ಲಾಸ್‌ಗೆ ಎಷ್ಟು ಬಣ್ಣ ಬೆರೆಯಬೇಕು</string>
+    <string name="now_bar_outline">ಔಟ್‌ಲೈನ್</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"ಯಾವುದೂ ಇಲ್ಲ"</item>
+        <item>ಸಣ್ಣ ದಪ್ಪ</item>
+        <item>ಆಕ್ಸೆಂಟ್</item>
+    </string-array>
+    <string name="now_bar_shadow">ನೆರಳು</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"ಆಫ್"</item>
+        <item>ಸಾಫ್ಟ್</item>
+        <item>ಗ್ಲೋ</item>
+    </string-array>
+    <string name="now_bar_more">ಇನ್ನಷ್ಟು ಚಟುವಟಿಕೆಗಳು</string>
+    <string-array name="now_bar_more_entries">
+        <item>ಕೇವಲ ಸ್ವೈಪ್ ಮಾಡಿ</item>
+        <item>ಚುಕ್ಕೆಗಳು</item>
+        <item>ಹಿಂದೆ ನೋಡಿ</item>
+    </string-array>
+    <string name="now_bar_size">ಗಾತ್ರ ಮತ್ತು ಆಕಾರ</string>
+    <string name="now_bar_height">ಎತ್ತರ</string>
+    <string name="now_bar_width_summary">Full ಆಯ್ಕೆಮಾಡಿದರೆ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳು ಮೇಲಿನ ಬಾರ್‌ಗೆ ಸರಿಯುತ್ತವೆ</string>
+    <string-array name="now_bar_width_entries">
+        <item>ಕಿರಿದು</item>
+        <item>ಶಾರ್ಟ್‌ಕಟ್‌ಗಳ ನಡುವೆ</item>
+        <item>ಪೂರ್ಣ</item>
+    </string-array>
+    <string name="now_bar_corners">ಮೂಲೆಗಳು</string>
+    <string name="now_bar_raise">ಮೇಲೆತ್ತಿ</string>
+    <string name="now_bar_art">ಆಲ್ಬಂ ಆರ್ಟ್</string>
+    <string-array name="now_bar_art_entries">
+        <item>"ವಲಯ"</item>
+        <item>ದುಂಡಾದ</item>
+        <item>"ಚೌಕ"</item>
+        <item>"ಆಫ್"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>ಮುಂದಿನ ಹಾಡು ಮತ್ತು ಪ್ಲೇ</item>
+        <item>ಪ್ಲೇ ಮಾತ್ರ</item>
+        <item>"ಯಾವುದೂ ಇಲ್ಲ"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>ಒಂದು ಸಾಲು</item>
+        <item>ಎರಡು ಸಾಲುಗಳು</item>
+        <item>ಹಾಡು ಮಾತ್ರ</item>
+    </string-array>
+    <string name="now_bar_show_page">ಬಾರ್‌ನಲ್ಲಿ ಏನು ತೋರಿಸುತ್ತದೆ</string>
+    <string name="now_bar_show_page_summary">ಸಂಗೀತ ಮತ್ತು ವೀಡಿಯೊ, ಟೈಮರ್‌ಗಳು, ಕರೆಗಳು ಮತ್ತು ಇನ್ನಷ್ಟು</string>
+    <string name="now_bar_where">ಇನ್ನೆಲ್ಲಿ</string>
 </resources>

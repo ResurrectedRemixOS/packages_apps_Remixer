@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">ਡਿਵਾਈਸ RKP ਵਰਤੋ</string>
+    <string name="ts_rkp_enabled_summary">ਤਿਆਰ ਕੀਤਾ ਕੀਬਾਕਸ ਵਰਤੋ। ਕੀਬਾਕਸ ਲਿਆਉਣ ਨਾਲ ਇਹ ਬੰਦ ਹੋ ਜਾਂਦਾ ਹੈ।</string>
+    <string name="ts_rkp_provision">ਕੀਬਾਕਸ ਤਿਆਰ ਕਰੋ</string>
+    <string name="ts_rkp_provision_summary">ਇਸ ਡਿਵਾਈਸ ਦੀ ਪ੍ਰੋਵਿਜ਼ਨਿੰਗ ਸੇਵਾ ਰਾਹੀਂ Google ਤੋਂ ਕੀਬਾਕਸ ਮੰਗੋ। ਅਨੁਕੂਲ Qualcomm ਫਰਮਵੇਅਰ ਦੀ ਲੋੜ ਹੈ।</string>
+    <string name="ts_rkp_status">ਪ੍ਰੋਵਿਜ਼ਨਿੰਗ ਸਥਿਤੀ</string>
+    <string name="ts_rkp_owner_only">ਡਿਵਾਈਸ RKP ਦਾ ਪ੍ਰਬੰਧ ਡਿਵਾਈਸ ਮਾਲਕ ਦੀ ਪ੍ਰੋਫਾਈਲ ਤੋਂ ਕਰੋ</string>
+    <string name="ts_rkp_unavailable">ਡਿਵਾਈਸ RKP ਉਪਲਬਧ ਨਹੀਂ ਹੈ</string>
+    <string name="ts_rkp_imported">ਲਿਆਇਆ ਗਿਆ ਕੀਬਾਕਸ ਇੰਸਟਾਲ ਹੋਣ ਕਾਰਨ ਬੰਦ ਹੈ</string>
+    <string name="ts_rkp_disabled">ਬੰਦ ਹੈ। ਕੀਬਾਕਸ ਵਰਤਣ ਜਾਂ ਤਿਆਰ ਕਰਨ ਲਈ ਡਿਵਾਈਸ RKP ਚਾਲੂ ਕਰੋ।</string>
+    <string name="ts_rkp_idle">ਕੀਬਾਕਸ ਮੰਗਣ ਲਈ ਤਿਆਰ</string>
+    <string name="ts_rkp_fetching">ਪ੍ਰੋਵਿਜ਼ਨਿੰਗ ਚੁਣੌਤੀ ਲਈ ਜਾ ਰਿਹਾ ਹੈ…</string>
+    <string name="ts_rkp_hardware">ਡਿਵਾਈਸ ਦੀ ਪ੍ਰੋਵਿਜ਼ਨਿੰਗ ਸੇਵਾ ਦੀ ਉਡੀਕ ਹੋ ਰਹੀ ਹੈ…</string>
+    <string name="ts_rkp_signing">Google ਤੋਂ ਸਰਟੀਫਿਕੇਟ ਮੰਗੇ ਜਾ ਰਹੇ ਹਨ…</string>
+    <string name="ts_rkp_validating">ਕੀਬਾਕਸ ਦੀ ਤਸਦੀਕ ਅਤੇ ਸੇਵ ਹੋ ਰਹੀ ਹੈ…</string>
+    <string name="ts_rkp_ready">ਤਿਆਰ ਕੀਤਾ ਕੀਬਾਕਸ ਸਰਗਰਮ ਹੈ। %1$s ਤੋਂ ਪਹਿਲਾਂ ਆਪਣੇ-ਆਪ ਨਵਿਆਇਆ ਜਾਵੇਗਾ</string>
+    <string name="ts_rkp_keybox_stored">ਡਿਵਾਈਸ RKP ਕੀਬਾਕਸ ਸੇਵ ਕੀਤਾ ਗਿਆ</string>
+    <string name="ts_rkp_expired">ਤਿਆਰ ਕੀਤਾ ਕੀਬਾਕਸ ਮਿਆਦ ਪੁੱਗ ਗਿਆ। ਬਦਲਵਾਂ ਤਿਆਰ ਕਰੋ।</string>
+    <string name="ts_rkp_hal_rejected">ਫਰਮਵੇਅਰ ਨੇ ਬੇਨਤੀ ਰੱਦ ਕੀਤੀ (ਕੋਡ %1$d)। Duck V1 ਸਮਰਥਿਤ ਨਾ ਹੋਵੇ।</string>
+    <string name="ts_rkp_http_error">ਪ੍ਰੋਵਿਜ਼ਨਿੰਗ ਸਰਵਰ ਨੇ ਬੇਨਤੀ ਰੱਦ ਕੀਤੀ (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">ਡਿਵਾਈਸ ਕੋਈ ਅਨੁਕੂਲ V1 ਪ੍ਰੋਵਿਜ਼ਨਿੰਗ ਇੰਟਰਫੇਸ ਪੇਸ਼ ਨਹੀਂ ਕਰਦੀ</string>
+    <string name="ts_rkp_network_error">ਪ੍ਰੋਵਿਜ਼ਨਿੰਗ ਸਰਵਰ ਤੱਕ ਪਹੁੰਚ ਨਹੀਂ ਹੋ ਸਕੀ। ਆਪਣਾ ਕਨੈਕਸ਼ਨ ਜਾਂਚੋ।</string>
+    <string name="ts_rkp_submission_unknown">ਸਰਵਰ ਦਾ ਜਵਾਬ ਗੁਆਚ ਗਿਆ। ਬੇਨਤੀ ਪ੍ਰਕਿਰਿਆ ਹੋ ਚੁੱਕੀ ਹੋ ਸਕਦੀ ਹੈ; ਕੋਈ ਆਪਣੇ-ਆਪ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਨਹੀਂ ਕੀਤੀ ਗਈ।</string>
+    <string name="ts_rkp_invalid_chain">ਕੀਬਾਕਸ ਸਰਟੀਫਿਕੇਟ ਤਸਦੀਕ ਵਿੱਚ ਅਸਫਲ ਰਹੇ। ਮੌਜੂਦਾ ਕੀਬਾਕਸ ਰੱਖਿਆ ਗਿਆ।</string>
+    <string name="ts_rkp_timeout">ਪ੍ਰੋਵਿਜ਼ਨਿੰਗ ਦਾ ਸਮਾਂ ਖਤਮ ਹੋ ਗਿਆ। ਜੇ ਡਿਵਾਈਸ ਸੇਵਾ ਅਜੇ ਵੀ ਰੁੱਝੀ ਹੋਵੇ, ਤਾਂ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਡਿਵਾਈਸ ਮੁੜ ਚਾਲੂ ਕਰੋ।</string>
+    <string name="ts_rkp_canceled">ਕੀਬਾਕਸ ਸੰਰਚਨਾ ਬਦਲਣ ਕਾਰਨ ਬੇਨਤੀ ਰੱਦ ਕੀਤੀ ਗਈ</string>
+    <string name="ts_rkp_save_failed">ਤਿਆਰ ਕੀਤਾ ਕੀਬਾਕਸ ਸੇਵ ਨਹੀਂ ਹੋ ਸਕਿਆ</string>
+    <string name="ts_rkp_action_failed">ਕੀਬਾਕਸ ਕਾਰਵਾਈ ਪੂਰੀ ਨਹੀਂ ਹੋ ਸਕੀ</string>
+</resources>

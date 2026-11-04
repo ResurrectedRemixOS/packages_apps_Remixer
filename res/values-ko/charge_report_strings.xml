@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"배터리"</string>
     <string name="charge_report_temp">"온도"</string>
     <string name="charge_report_time">"시간"</string>
+    <string name="charge_report_title">충전 기록</string>
+    <string name="charge_report_summary">분리할 때마다 충전 요약 표시</string>
+    <string name="charge_report_min_title">다음 값 이상 추가된 경우에만</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3일</item>
+        <item>7일</item>
+        <item>14일</item>
+        <item>30일</item>
+    </string-array>
+    <string name="charge_report_history_days">최근 <xliff:g id="days" example="7">%1$d</xliff:g>일</string>
+    <string name="charge_report_today">오늘, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">어제, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g>분</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g>시간 <xliff:g id="minutes" example="02">%2$02d</xliff:g>분</string>
+    <string name="charge_report_watts">와트</string>
+    <string name="charge_report_added">추가됨</string>
+    <string name="charge_report_peak">최고</string>
+    <string name="charge_report_average">평균</string>
+    <string name="charge_report_max_temp">최고 온도</string>
+    <string name="charge_report_charger">충전기</string>
+    <string name="charge_report_started">시작 시각</string>
+    <string name="charge_report_wired">유선</string>
+    <string name="charge_report_wireless">무선</string>
+    <string name="charge_report_dock">도크</string>
+    <string name="charge_report_empty">아직 충전 기록이 없습니다</string>
+    <string name="charge_report_footer">SystemUI는 연결된 동안 30초마다 배터리의 전류, 전압, 온도를 읽습니다. 와트 값은 휴대폰이 측정한 값이므로 충전기에 표시된 수치와 다를 수 있습니다. 보고서는 기기에만 저장되며 업로드되지 않습니다.</string>
 </resources>

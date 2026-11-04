@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Tarehe"</string>
     <string name="sb_weather_category">"Hali ya Hewa"</string>
+    <string name="sb_clock_category">Saa na tarehe</string>
+    <string name="sb_clock_bold_title">Saa nzito</string>
+    <string name="sb_clock_bold_summary">Onyesha saa ya sehemu ya kuonyesha hali kwa herufi nzito</string>
+    <string name="sb_clock_period_separator_title">Kitenganishi cha muda</string>
+    <string name="sb_clock_period_separator_summary">10.45 badala ya 10:45</string>
+    <string name="sb_clock_date_position_title">Mahali pa tarehe</string>
+    <string name="sb_clock_date_style_title">Herufi za tarehe</string>
+    <string name="sb_clock_date_format_title">Muundo wa tarehe</string>
+    <string name="sb_clock_chip_category">Mandharinyuma ya saa</string>
+    <string name="sb_clock_chip_title">Mtindo wa mandharinyuma</string>
+    <string name="sb_clock_chip_start_title">Mwanzo wa gradienti</string>
+    <string name="sb_clock_chip_end_title">Mwisho wa gradienti</string>
+    <string name="sb_clock_chip_angle_title">Pembe ya gradienti</string>
+    <string name="sb_clock_chip_mask_title">Kata muda kutoka kwenye gradienti</string>
+    <string name="sb_clock_chip_mask_summary">Gradienti inaonekana kupitia tarakimu badala ya nyuma yake</string>
+    <string name="sb_weather_title">Hali ya hewa kwenye sehemu ya kuonyesha hali</string>
+    <string name="sb_weather_position_title">Nafasi</string>
+    <string name="status_bar_clock_rr_style_title">Mwonekano wa saa</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Chaguomsingi"</item>
+        <item>Neon</item>
+        <item>Gawanya</item>
+        <item>Alama ya RR</item>
+        <item>Mono</item>
+        <item>Mapigo</item>
+        <item>Zilizopangwa</item>
+        <item>Makaa</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Mstari wa Flatline karibu na saa</string>
+    <string name="sb_clock_flatline_summary">Mstari wa mapigo ya moyo wa RR ndani ya kigae: hupiga na muziki, hupanda arifa inapofika</string>
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Vzhled pro každý z vašich režimů</string>
+    <string name="remix_modes_everyday">Každodenní vzhled</string>
+    <string name="remix_modes_everyday_summary">Vrátí se, když není zapnutý žádný režim se vzhledem</string>
+    <string name="remix_modes_wallpaper">Tapeta se řídí vzhledem</string>
+    <string name="remix_modes_wallpaper_summary">Režim může změnit i tapetu</string>
+    <string name="remix_modes_modes">Vaše režimy</string>
+    <string name="remix_modes_no_change">Beze změny</string>
+    <string name="remix_modes_none">Nejprve uložte vzhled v Motiv › Vzhledy</string>
+    <string name="remix_modes_pick">Vzhled pro <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

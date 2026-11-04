@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"Կոճակներ"</string>
     <string name="now_bar_text">"Հաղորդագրել"</string>
     <string name="now_bar_text_size">"Տեքստի չափսը"</string>
+    <string name="now_bar_summary">Կենդանի ակտիվություններ կողպէկրանի ներքևում</string>
+    <string name="now_bar_show">Ցույց տալ</string>
+    <string name="now_bar_music">Երաժշտություն և տեսանյութ</string>
+    <string name="now_bar_timers">Ժամանակաչափեր, վայրկենաչափ և զարթուցիչներ</string>
+    <string name="now_bar_hide_call">Թաքցնել զանգի ծանուցումը</string>
+    <string name="now_bar_hide_call_summary">Կողպէկրանին Now Bar-ում զանգը չի ցուցադրվում նաև որպես ծանուցում</string>
+    <string name="now_bar_live">Կենդանի թարմացումներ</string>
+    <string name="now_bar_live_summary">Նավիգացիա, ուղևորություններ, առաքումներ, արդյունքներ</string>
+    <string name="now_bar_scores">Կենդանի արդյունքներ</string>
+    <string name="now_bar_live_apps">Կենդանի թարմացումների հավելվածներ</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> հավելված</string>
+    <string name="now_bar_pin">Ամրացված է միշտ միացած էկրանին</string>
+    <string name="now_bar_unpin_question">Ապամրացնե՞լ <xliff:g id="app" example="Uber">%1$s</xliff:g>-ը:</string>
+    <string name="now_bar_unpin">Ապամրացնել</string>
+    <string name="now_bar_scores_summary">At a Glance-ում հետևած խաղերը</string>
+    <string name="now_bar_recording">Էկրանի և ձայնի ձայնագրում</string>
+    <string name="now_bar_buds">Ականջակալներ և ժամացույցներ</string>
+    <string name="now_bar_buds_summary">Միացված սարքի մարտկոց՝ ձախ, աջ և տուփ ականջակալների համար</string>
+    <string name="now_bar_wave">Ալիքի անիմացիա</string>
+    <string name="now_bar_aod">Ցուցադրել միշտ միացած էկրանին</string>
+    <string name="now_bar_chip">Չիպ կարգավիճակի գոտում</string>
+    <string name="now_bar_chip_summary">Երաժշտություն և թայմերներ ժամացույցի կողքին ապակողպված ժամանակ</string>
+    <string name="now_bar_footer">Երբ Now Bar-ում երաժշտություն է, մեծ կողպէկրանի նվագարկիչը թաքնված է։ Սահեցրեք գոտին՝ ակտիվությունների միջև անցնելու համար, հպեք՝ կառավարումները բացելու, և երկար սեղմեք՝ մեկը թաքցնելու համար մինչև ավարտը։ Դադարած երգը սահեցրեք գոտուց՝ հեռացնելու համար։\n\nԿենդանի արդյունքները ցույց են տալիս ձեր հետևած թիմերի խաղերը Google հավելվածից։ Smartspacer-ով այնտեղ ավելացրեք սպորտային թիրախ, և դրա արդյունքները կհայտնվեն այստեղ։</string>
+    <string name="now_bar_looks">Տեսքեր</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Կանխադրված"</item>
+        <item>Liquid Glass</item>
+        <item>Փոքր</item>
+        <item>Մեծ</item>
+        <item>Նեոն</item>
+        <item>Ապակե քարտ</item>
+    </string-array>
+    <string name="now_bar_material">Մատերիալ</string>
+    <string name="now_bar_material_summary">Liquid Glass-ը օգտագործում է Թեմայում ընտրված ապակին</string>
+    <string-array name="now_bar_material_entries">
+        <item>Ամուր</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Ալբոմի արտ</item>
+        <item>Շեշտ</item>
+        <item>Մուգ</item>
+    </string-array>
+    <string name="now_bar_opacity">Անթափանցություն</string>
+    <string name="now_bar_opacity_summary">Liquid Glass-ում՝ որքանով գույնը ներկում է ապակին</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Ոչ մեկը"</item>
+        <item>Բարակ</item>
+        <item>Շեշտ</item>
+    </string-array>
+    <string name="now_bar_shadow">Ստվեր</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Անջատված է"</item>
+        <item>Փափուկ</item>
+        <item>Փայլ</item>
+    </string-array>
+    <string name="now_bar_more">Լրացուցիչ ակտիվություններ</string>
+    <string-array name="now_bar_more_entries">
+        <item>Պարզապես սահեցրեք</item>
+        <item>Կետեր</item>
+        <item>Նայել հետևից</item>
+    </string-array>
+    <string name="now_bar_size">Չափ և ձև</string>
+    <string name="now_bar_height">Բարձրություն</string>
+    <string name="now_bar_width_summary">Full-ը տեղափոխում է դյուրանցումները գոտուց վեր</string>
+    <string-array name="now_bar_width_entries">
+        <item>Նեղ</item>
+        <item>Դյուրանցումների միջև</item>
+        <item>Լրիվ</item>
+    </string-array>
+    <string name="now_bar_corners">Անկյուններ</string>
+    <string name="now_bar_raise">Բարձրացված</string>
+    <string name="now_bar_art">Ալբոմի արտ</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Օղակ"</item>
+        <item>Կլորացված</item>
+        <item>"Քառակուսի"</item>
+        <item>"Անջատված է"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Բաց թողնել և նվագարկել</item>
+        <item>Միայն նվագարկում</item>
+        <item>"Ոչ մեկը"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Մեկ տող</item>
+        <item>Երկու տող</item>
+        <item>Միայն երգը</item>
+    </string-array>
+    <string name="now_bar_show_page">Ինչ է ցուցադրվում գոտում</string>
+    <string name="now_bar_show_page_summary">Երաժշտություն և տեսանյութ, թայմերներ, զանգեր և այլն</string>
+    <string name="now_bar_where">Այլ տեղեր</string>
 </resources>

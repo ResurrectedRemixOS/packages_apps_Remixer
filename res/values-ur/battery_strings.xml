@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"بیٹری"</string>
     <string name="battery_style_title">"طرز"</string>
+    <string-array name="battery_style_entries">
+        <item>عمودی</item>
+        <item>"حلقہ"</item>
+        <item>دانے دار دائرہ</item>
+        <item>نیین رنگ</item>
+        <item>پتلی پِل</item>
+        <item>بڑا فیصد</item>
+        <item>"ٹیکسٹ بھیجیں"</item>
+    </string-array>
+    <string name="battery_percent_title">فیصد</string>
+    <string-array name="battery_percent_entries">
+        <item>"مخفی"</item>
+        <item>آئیکون کے اندر</item>
+        <item>اس کے ساتھ</item>
+    </string-array>
+    <string name="battery_ring_color_title">نیین رنگ کا رنگ</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s۔ لیول کے لحاظ سے: 20%% سے اوپر لہجے کا رنگ، نیچے سرخ، اور بیٹری سیور میں کہرا رنگ۔</string>
+    <string-array name="battery_ring_color_entries">
+        <item>سطح کے مطابق</item>
+        <item>لہجہ</item>
+        <item>"سفید"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">چارج ہوتے وقت چنگاری</string>
+    <string name="battery_ring_tile_title">فوری ترتیبات ٹائل پر وہی رنگ</string>
+    <string name="battery_ring_tile_summary">سطح اور اسکرین آن رہنے کے وقت کے ساتھ</string>
 </resources>

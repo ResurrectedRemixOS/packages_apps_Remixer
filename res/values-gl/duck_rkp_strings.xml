@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Usar RKP do dispositivo</string>
+    <string name="ts_rkp_enabled_summary">Usar unha keybox xerada. Importar unha keybox desactiva esta opción.</string>
+    <string name="ts_rkp_provision">Xerar keybox</string>
+    <string name="ts_rkp_provision_summary">Solicitar unha keybox a Google usando o servizo de aprovisionamento deste dispositivo. Require firmware Qualcomm compatible.</string>
+    <string name="ts_rkp_status">Estado do aprovisionamento</string>
+    <string name="ts_rkp_owner_only">Xestionar o RKP do dispositivo desde o perfil do propietario do dispositivo</string>
+    <string name="ts_rkp_unavailable">O RKP do dispositivo non está dispoñible</string>
+    <string name="ts_rkp_imported">Desactivado mentres hai unha keybox importada instalada</string>
+    <string name="ts_rkp_disabled">Desactivado. Activa o RKP do dispositivo para usar ou xerar unha keybox.</string>
+    <string name="ts_rkp_idle">Listo para solicitar unha keybox</string>
+    <string name="ts_rkp_fetching">Obtendo un desafío de aprovisionamento…</string>
+    <string name="ts_rkp_hardware">Agardando polo servizo de aprovisionamento do dispositivo…</string>
+    <string name="ts_rkp_signing">Solicitando certificados a Google…</string>
+    <string name="ts_rkp_validating">Validando e gardando a keybox…</string>
+    <string name="ts_rkp_ready">Keybox xerada activa. Renóvase automaticamente antes de %1$s</string>
+    <string name="ts_rkp_keybox_stored">Keybox RKP do dispositivo gardada</string>
+    <string name="ts_rkp_expired">A keybox xerada caducou. Xera unha substitución.</string>
+    <string name="ts_rkp_hal_rejected">O firmware rexeitou a solicitude (código %1$d). É posible que Duck V1 non sexa compatible.</string>
+    <string name="ts_rkp_http_error">O servidor de aprovisionamento rexeitou a solicitude (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">O dispositivo non ofrece unha interface de aprovisionamento V1 compatible</string>
+    <string name="ts_rkp_network_error">Non se puido conectar co servidor de aprovisionamento. Comproba a conexión.</string>
+    <string name="ts_rkp_submission_unknown">Perdeuse a resposta do servidor. A solicitude pode ter sido procesada; non se fixo ningún reintento automático.</string>
+    <string name="ts_rkp_invalid_chain">Os certificados da keybox non superaron a validación. Conservouse a keybox existente.</string>
+    <string name="ts_rkp_timeout">Esgotouse o tempo de aprovisionamento. Se o servizo do dispositivo segue ocupado, reinicia o dispositivo antes de volver intentalo.</string>
+    <string name="ts_rkp_canceled">Solicitude cancelada porque cambiou a configuración da keybox</string>
+    <string name="ts_rkp_save_failed">Non se puido gardar a keybox xerada</string>
+    <string name="ts_rkp_action_failed">Non se puido completar a operación da keybox</string>
+</resources>

@@ -15,4 +15,54 @@
     <string name="looks_save_look">"Hifadhi"</string>
     <string name="looks_custom_color">"Rangi maalum"</string>
     <string name="looks_part_clock_color">"Rangi ya saa"</string>
+    <string name="looks_title">Mionekano</string>
+    <string name="looks_summary">Mipangilio yako yote kwa mguso mmoja</string>
+    <string name="looks_rr">Mionekano ya RR</string>
+    <string name="looks_yours">Mionekano yako</string>
+    <string name="looks_none">Hakuna kilichohifadhiwa bado</string>
+    <string name="looks_save">Hifadhi ya sasa</string>
+    <string name="looks_import_clipboard">Kutoka kwenye ubao wa kunakili</string>
+    <string name="looks_import_file">Kutoka kwenye faili</string>
+    <string name="looks_mine">Mwonekano wangu</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> imetumika</string>
+    <string name="looks_failed">Haikuweza kutumia yote</string>
+    <string name="looks_invalid">Hii si mwonekano wa RR</string>
+    <string name="looks_part_accent">Rangi ya lafudhi</string>
+    <string name="looks_part_qs">Mtindo wa Mipangilio ya haraka</string>
+    <string name="looks_part_clock_face">Mtindo wa saa ya skrini iliyofungwa</string>
+    <string name="looks_part_clock_look">Saa ya sehemu ya kuonyesha hali</string>
+    <string name="looks_part_edge">Mwangaza wa kingo</string>
+    <string name="looks_part_boot">Uhuishaji wa kuwasha</string>
+    <string name="looks_part_haptics">Miundo ya mtetemo wa Haptic Remix</string>
+    <string name="looks_saturation">Uenezi wa rangi <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Lafudhi</string>
+    <string name="looks_share_title">Shiriki “<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">Changanua kwa kamera ya simu nyingine ya RR, au katika Mionekano › Ingiza</string>
+    <string name="looks_share_file">Shiriki faili</string>
+    <string name="looks_save_file">Hifadhi faili</string>
+    <string name="looks_import_scan">Changanua msimbo wa QR</string>
+    <string name="looks_import_title">Ingiza mwonekano</string>
+    <string name="looks_from_qr">kutoka msimbo wa QR</string>
+    <string name="looks_from_file">kutoka faili</string>
+    <string name="looks_from_clipboard">kutoka ubao wa kunakili</string>
+    <string name="looks_import_same">Tayari inalingana na mipangilio yako.</string>
+    <string name="looks_new">Mwonekano mpya</string>
+    <string name="looks_edit_title">Hariri mwonekano</string>
+    <string name="looks_in_look">Katika mwonekano huu</string>
+    <string name="looks_not_included">Si katika mwonekano huu</string>
+    <string name="looks_save_apply">Hifadhi na utumie</string>
+    <string name="looks_saved">\"<xliff:g id="name" example="Sunday">%1$s</xliff:g>\" imehifadhiwa</string>
+    <string name="looks_delete_confirm">Futa \"<xliff:g id="name" example="Sunday">%1$s</xliff:g>\"?</string>
+    <string name="looks_rr_wallpaper">Mandhari ya RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Ukolezi wa rangi ya lafudhi</string>
+    <string name="looks_part_clock_chip">Kigae cha saa kwenye sehemu ya kuonyesha hali</string>
+    <string name="looks_part_edge_style">Mtindo wa mwangaza wa kingo</string>
+    <string name="looks_scan_hint">Elekeza kamera kwenye msimbo wa QR wa Look</string>
+    <string name="looks_scan_failed">Imeshindikana kufungua kamera</string>
+    <string name="look_roulette_title">Roulette ya Look</string>
+    <string-array name="look_roulette_entries">
+        <item>"Imezimwa"</item>
+        <item>Look tofauti kila unapofungua kifaa</item>
+        <item>Look tofauti kila siku</item>
+    </string-array>
 </resources>

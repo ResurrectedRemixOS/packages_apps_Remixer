@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Подробности"</string>
     <string name="lockscreen_weather_location_title">"Местоположение"</string>
+    <string name="lockscreen_weather_title">Времето на заключения екран</string>
+    <string name="lockscreen_weather_location_summary">Показване на името на града</string>
+    <string name="lockscreen_weather_text_title">Състояние</string>
+    <string name="lockscreen_weather_text_summary">Показване на състоянието, например Облачно или Ясно небе</string>
+    <string name="lockscreen_weather_wind_title">Вятър</string>
+    <string name="lockscreen_weather_wind_summary">Показване на скоростта и посоката на вятъра</string>
+    <string name="lockscreen_weather_humidity_title">Влажност</string>
+    <string name="lockscreen_weather_humidity_summary">Показване на влажността</string>
+    <string name="custom_clock_weather_title">Времето на часовниковите циферблати</string>
+    <string name="custom_clock_weather_summary">Показване на времето в циферблати, където има място за него</string>
+    <string name="remixer_weather_service">Услуга за времето</string>
+    <string name="remixer_weather_page_summary">Времето на заключения екран и какво показва</string>
 </resources>

@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Prestabilit"</string>
     <string name="clock_faces_size">"Dimensiune"</string>
     <string name="clock_faces_restart">"Repornește"</string>
+    <string name="remixer_clock_faces">Stiluri de ceas</string>
+    <string name="clock_faces_system">Ceasul sistemului</string>
+    <string name="clock_faces_system_desc">Ceasul din Imagine de fundal și stil</string>
+    <string name="clock_faces_position">%1$d din %2$d</string>
+    <string name="clock_faces_applied">Aplicat</string>
+    <string name="clock_faces_preview_unavailable">Previzualizare indisponibilă</string>
+    <string name="clock_faces_failed">Nu s-a putut schimba ceasul</string>
+    <string name="clock_faces_color_accent">Accent</string>
+    <string name="clock_faces_color_custom">Personalizat</string>
+    <string name="clock_faces_color_album">Copertă album</string>
+    <string name="clock_faces_color_gradient">Gradient</string>
+    <string name="clock_faces_own_colors">Acest stil își păstrează propriile culori.</string>
+    <string name="clock_faces_album_hint">Preia culoarea din coperta albumului cât timp rulează muzica.</string>
+    <string name="clock_faces_size_position">Dimensiune și poziție</string>
+    <string name="clock_faces_size_value">Dimensiune · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Distanță de sus</string>
+    <string name="clock_faces_top_value">Distanță de sus · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Poziție orizontală</string>
+    <string name="clock_faces_horizontal_center">Poziție orizontală · Centru</string>
+    <string name="clock_faces_horizontal_right">Poziție orizontală · <xliff:g id="dp" example="24">%1$d</xliff:g> dp la dreapta</string>
+    <string name="clock_faces_horizontal_left">Poziție orizontală · <xliff:g id="dp" example="24">%1$d</xliff:g> dp la stânga</string>
+    <string name="clock_faces_horizontal_fixed">Acest stil rămâne centrat.</string>
+    <string name="clock_faces_opacity">Opacitate</string>
+    <string name="clock_faces_opacity_value">Opacitate · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Mișcare</string>
+    <string name="clock_faces_wobble">Balansare în timpul încărcării</string>
+    <string name="clock_faces_wobble_summary">Sare o dată când conectezi telefonul</string>
+    <string name="clock_faces_aod_anim">Tranziție pentru afișajul permanent</string>
+    <string name="clock_faces_aod_anim_summary">Micșorează și estompează ceasul în afișajul permanent</string>
+    <string name="clock_faces_restart_title">Repornești ecranul de blocare?</string>
+    <string name="clock_faces_restart_message">Trecerea între ceasul sistemului și stilurile personalizate repornește SystemUI. Ecranul se stinge o secundă.</string>
+    <string name="clock_faces_note">Previzualizările sunt desenate de SystemUI pe imaginea de fundal a ecranului de blocare. Culoarea, dimensiunea și poziția schimbă imediat ecranul de blocare.</string>
 </resources>

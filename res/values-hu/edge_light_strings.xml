@@ -16,4 +16,26 @@
     <string name="edge_light_moment_battery_low">Alacsony töltöttség</string>
     <string name="edge_light_moment_unlock">"Feloldva"</string>
     <string name="remixer_color_default">"Alapértelmezett"</string>
+    <string name="edge_light_title">Élvilágítás</string>
+    <string name="edge_light_summary">Világítsa meg a képernyő széleit értesítésekhez, hívásokhoz, ébresztőkhöz és egyebekhez</string>
+    <string name="edge_light_color_rainbow">Szivárvány</string>
+    <string name="edge_light_color_custom">Egyéni</string>
+    <string name="edge_light_style_default">Oldalak</string>
+    <string name="edge_light_style_frame">Teljes keret</string>
+    <string name="edge_light_animation_effect_none">Normál</string>
+    <string name="edge_light_animation_effect_breathing">Lélegző</string>
+    <string name="edge_light_animation_effect_wave">Hullám</string>
+    <string name="edge_light_animation_effect_sparkle">Csillogó</string>
+    <string name="edge_light_pulse_count_title">Lüktetések</string>
+    <string name="edge_light_pulse_count_summary">Hányszor világítsanak fel a szélek</string>
+    <string name="edge_light_stroke_width_title">Vastagság</string>
+    <string name="edge_light_stroke_width_summary">A fény szélessége dp-ben</string>
+    <string name="edge_light_spread_summary">Milyen mélyen nyúlik be a fény a széltől</string>
+    <string name="edge_light_intensity_summary">A fény erőssége. A 0 kikapcsolja</string>
+    <string name="edge_light_moments_title">Pillanatok</string>
+    <string name="edge_light_moment_alarms">Ébresztő és időzítő</string>
+    <string name="edge_light_moment_plugged">Csatlakoztatva</string>
+    <string name="edge_light_moment_color">Szín módosítása</string>
+    <string name="edge_light_moments_footer">Koppintson a pillanat pöttyére a szín módosításához. A hívások és ébresztők csengés közben is világítanak, néma módban is. A többi pillanat nem működik a Ne zavarjanak módban.</string>
+    <string name="edge_light_look_title">Stílus</string>
 </resources>

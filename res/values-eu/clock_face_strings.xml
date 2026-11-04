@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Lehenetsia"</string>
     <string name="clock_faces_size">"Tamaina"</string>
     <string name="clock_faces_restart">"Berrabiarazi"</string>
+    <string name="remixer_clock_faces">Erloju-itxurak</string>
+    <string name="clock_faces_system">Sistemaren erlojua</string>
+    <string name="clock_faces_system_desc">Horma-papera eta estiloa-n dagoen erlojua</string>
+    <string name="clock_faces_position">%1$d / %2$d</string>
+    <string name="clock_faces_applied">Aplikatuta</string>
+    <string name="clock_faces_preview_unavailable">Aurrebista ez dago erabilgarri</string>
+    <string name="clock_faces_failed">Ezin izan da erlojua aldatu</string>
+    <string name="clock_faces_color_accent">Azentua</string>
+    <string name="clock_faces_color_custom">Pertsonalizatua</string>
+    <string name="clock_faces_color_album">Albumaren azala</string>
+    <string name="clock_faces_color_gradient">Gradientea</string>
+    <string name="clock_faces_own_colors">Itxura honek bere koloreak mantentzen ditu.</string>
+    <string name="clock_faces_album_hint">Musika entzuten ari denean albumaren azalaren kolorea hartzen du.</string>
+    <string name="clock_faces_size_position">Tamaina eta posizioa</string>
+    <string name="clock_faces_size_value">Tamaina · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Goitik distantzia</string>
+    <string name="clock_faces_top_value">Goitik distantzia · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Posizio horizontala</string>
+    <string name="clock_faces_horizontal_center">Posizio horizontala · Erdian</string>
+    <string name="clock_faces_horizontal_right">Posizio horizontala · <xliff:g id="dp" example="24">%1$d</xliff:g> dp eskuinera</string>
+    <string name="clock_faces_horizontal_left">Posizio horizontala · <xliff:g id="dp" example="24">%1$d</xliff:g> dp ezkerrera</string>
+    <string name="clock_faces_horizontal_fixed">Itxura honek erdian mantentzen da.</string>
+    <string name="clock_faces_opacity">Opakutasuna</string>
+    <string name="clock_faces_opacity_value">Opakutasuna · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Mugimendua</string>
+    <string name="clock_faces_wobble">Kargatzean dardarka</string>
+    <string name="clock_faces_wobble_summary">Behin bounce egiten du kargatzen duzunean</string>
+    <string name="clock_faces_aod_anim">Bistaratze beti aktiboaren trantsizioa</string>
+    <string name="clock_faces_aod_anim_summary">Erlojua txikitu eta desagerrarazten du bistaratze beti aktiboan</string>
+    <string name="clock_faces_restart_title">Pantaila blokeatua berrabiarazi?</string>
+    <string name="clock_faces_restart_message">Sistemaren erlojuaren eta itxura pertsonalizatuen artean aldatzeak SystemUI berrabiarazten du. Pantaila segundo batez ilunduko da.</string>
+    <string name="clock_faces_note">SystemUI-k zure pantaila blokeatuaren horma-paperean marrazten ditu aurrebistak. Kolorea, tamaina eta posizioa berehala aldatzen dira pantaila blokeatuan.</string>
 </resources>

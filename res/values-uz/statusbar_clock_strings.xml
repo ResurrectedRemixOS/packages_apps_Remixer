@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Sana"</string>
     <string name="sb_weather_category">"Ob-havo"</string>
+    <string name="sb_clock_category">Soat va sana</string>
+    <string name="sb_clock_bold_title">Qalin soat</string>
+    <string name="sb_clock_bold_summary">Holat qatoridagi soatni qalin ko‘rsatish</string>
+    <string name="sb_clock_period_separator_title">Davr ajratgichi</string>
+    <string name="sb_clock_period_separator_summary">10:45 o‘rniga 10.45</string>
+    <string name="sb_clock_date_position_title">Sana joylashuvi</string>
+    <string name="sb_clock_date_style_title">Sana harflari</string>
+    <string name="sb_clock_date_format_title">Sana formati</string>
+    <string name="sb_clock_chip_category">Soat foni</string>
+    <string name="sb_clock_chip_title">Fon uslubi</string>
+    <string name="sb_clock_chip_start_title">Gradient boshlanishi</string>
+    <string name="sb_clock_chip_end_title">Gradient oxiri</string>
+    <string name="sb_clock_chip_angle_title">Gradient burchagi</string>
+    <string name="sb_clock_chip_mask_title">Vaqtni gradientdan kesib olish</string>
+    <string name="sb_clock_chip_mask_summary">Gradient raqamlar orqasida emas, raqamlar orqali ko‘rinadi</string>
+    <string name="sb_weather_title">Holat qatorida ob-havo</string>
+    <string name="sb_weather_position_title">Joylashuv</string>
+    <string name="status_bar_clock_rr_style_title">Soat ko‘rinishi</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Standart"</item>
+        <item>Neon</item>
+        <item>Bo‘lingan</item>
+        <item>RR belgisi</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Ustma-ust</item>
+        <item>Cho‘g‘</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Vaqt yonida Flatline</string>
+    <string name="sb_clock_flatline_summary">Chipda RR yurak chizig‘i: musiqa bilan uradi, bildirishnoma kelganda cho‘qqi hosil qiladi</string>
 </resources>

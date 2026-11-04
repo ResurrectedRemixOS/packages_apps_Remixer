@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"နောက်ခံ"</item>
+        <item>Resurrected</item>
+        <item>Android One အစိမ်းရောင်</item>
+        <item>Aospa အစိမ်းရောင်</item>
+        <item>Coca Cola အနီရောင်</item>
+        <item>Discord ခရမ်းရောင်</item>
+        <item>Facebook အပြာရောင်</item>
+        <item>Instagram ချယ်ရီရောင်</item>
+        <item>Jollibee အနီရဲရောင်</item>
+        <item>Monster Energy အစိမ်းရောင်</item>
+        <item>Nextbit မင့်ရောင်</item>
+        <item>Oneplus အနီရောင်</item>
+        <item>Pepsi အပြာရောင်</item>
+        <item>Pixel အပြာရောင်</item>
+        <item>Pocophone အဝါရောင်</item>
+        <item>Razer အစိမ်းရောင်</item>
+        <item>Samsung အပြာရောင်</item>
+        <item>Spotify အစိမ်းရောင်</item>
+        <item>Starbucks အစိမ်းရောင်</item>
+        <item>Twitch ခရမ်းရောင်</item>
+        <item>Twitter အပြာရောင်</item>
+        <item>Xiaomi လိမ္မော်ရောင်</item>
+        <item>အမ်ဘာ</item>
+        <item>"အမည်း"</item>
+        <item>"အပြာ"</item>
+        <item>မီးခိုးပြာ</item>
+        <item>အညို</item>
+        <item>"စိမ်းပြာ"</item>
+        <item>နက်လိမ္မော်</item>
+        <item>နက်ခရမ်း</item>
+        <item>"အစိမ်း"</item>
+        <item>"မီးခိုးရောင်"</item>
+        <item>"မဲနယ်ရောင်"</item>
+        <item>ပြာရောင်ဖျော့</item>
+        <item>သံပရာရောင်</item>
+        <item>"လိမ္မော်"</item>
+        <item>"ပန်းရောင်"</item>
+        <item>"ခရမ်း"</item>
+        <item>"အနီ"</item>
+        <item>"စိမ်းပြာရောင်"</item>
+        <item>အသုံးပြုသူ ငါး</item>
+        <item>အသုံးပြုသူ လေး</item>
+        <item>အသုံးပြုသူ တစ်</item>
+        <item>အသုံးပြုသူ ခုနစ်</item>
+        <item>အသုံးပြုသူ ခြောက်</item>
+        <item>အသုံးပြုသူ သုံး</item>
+        <item>အသုံးပြုသူ နှစ်</item>
+        <item>"အဖြူ"</item>
+        <item>"အဝါ"</item>
+    </string-array>
+</resources>

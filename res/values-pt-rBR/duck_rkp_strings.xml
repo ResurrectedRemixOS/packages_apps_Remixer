@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Usar RKP do dispositivo</string>
+    <string name="ts_rkp_enabled_summary">Usar um keybox gerado. Importar um keybox desativa esta opção.</string>
+    <string name="ts_rkp_provision">Gerar keybox</string>
+    <string name="ts_rkp_provision_summary">Solicitar um keybox ao Google usando o serviço de provisionamento deste dispositivo. Requer firmware Qualcomm compatível.</string>
+    <string name="ts_rkp_status">Status do provisionamento</string>
+    <string name="ts_rkp_owner_only">Gerenciar o RKP do dispositivo pelo perfil do proprietário</string>
+    <string name="ts_rkp_unavailable">RKP do dispositivo indisponível</string>
+    <string name="ts_rkp_imported">Desativado enquanto um keybox importado está instalado</string>
+    <string name="ts_rkp_disabled">Desativado. Ative o RKP do dispositivo para usar ou gerar um keybox.</string>
+    <string name="ts_rkp_idle">Pronto para solicitar um keybox</string>
+    <string name="ts_rkp_fetching">Obtendo um desafio de provisionamento…</string>
+    <string name="ts_rkp_hardware">Aguardando o serviço de provisionamento do dispositivo…</string>
+    <string name="ts_rkp_signing">Solicitando certificados ao Google…</string>
+    <string name="ts_rkp_validating">Validando e salvando o keybox…</string>
+    <string name="ts_rkp_ready">Keybox gerado ativo. Renova sozinho antes de %1$s</string>
+    <string name="ts_rkp_keybox_stored">Keybox RKP do dispositivo armazenado</string>
+    <string name="ts_rkp_expired">Keybox gerado expirado. Gere um substituto.</string>
+    <string name="ts_rkp_hal_rejected">O firmware rejeitou a solicitação (código %1$d). O Duck V1 pode não ser compatível.</string>
+    <string name="ts_rkp_http_error">O servidor de provisionamento rejeitou a solicitação (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">O dispositivo não expõe uma interface de provisionamento V1 compatível</string>
+    <string name="ts_rkp_network_error">Não foi possível acessar o servidor de provisionamento. Verifique sua conexão.</string>
+    <string name="ts_rkp_submission_unknown">A resposta do servidor foi perdida. A solicitação pode ter sido processada; nenhuma nova tentativa automática foi feita.</string>
+    <string name="ts_rkp_invalid_chain">Os certificados do keybox falharam na validação. O keybox existente foi mantido.</string>
+    <string name="ts_rkp_timeout">O provisionamento expirou. Se o serviço do dispositivo ainda estiver ocupado, reinicie o dispositivo antes de tentar novamente.</string>
+    <string name="ts_rkp_canceled">Solicitação cancelada porque a configuração do keybox foi alterada</string>
+    <string name="ts_rkp_save_failed">Não foi possível salvar o keybox gerado</string>
+    <string name="ts_rkp_action_failed">Não foi possível concluir a operação do keybox</string>
+</resources>

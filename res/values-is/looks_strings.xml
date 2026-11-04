@@ -15,4 +15,54 @@
     <string name="looks_save_look">"Vista"</string>
     <string name="looks_custom_color">"Sérsniðinn litur"</string>
     <string name="looks_part_clock_color">"Litur klukku"</string>
+    <string name="looks_title">Útlit</string>
+    <string name="looks_summary">Öll uppsetningin í einni snertingu</string>
+    <string name="looks_rr">RR-útlit</string>
+    <string name="looks_yours">Útlitin þín</string>
+    <string name="looks_none">Ekkert vistað enn</string>
+    <string name="looks_save">Vista núverandi</string>
+    <string name="looks_import_clipboard">Af klippiborðinu</string>
+    <string name="looks_import_file">Úr skrá</string>
+    <string name="looks_mine">Mitt útlit</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> beitt</string>
+    <string name="looks_failed">Ekki tókst að beita öllu</string>
+    <string name="looks_invalid">Þetta er ekki RR-útlit</string>
+    <string name="looks_part_accent">Áherslulitur</string>
+    <string name="looks_part_qs">Stíll flýtistillinga</string>
+    <string name="looks_part_clock_face">Útlit klukku á lásskjá</string>
+    <string name="looks_part_clock_look">Klukka í stöðustiku</string>
+    <string name="looks_part_edge">Kantlýsing</string>
+    <string name="looks_part_boot">Ræsimynd</string>
+    <string name="looks_part_haptics">Mynstur Haptic Remix</string>
+    <string name="looks_saturation">Mettun <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Áherslulitur</string>
+    <string name="looks_share_title">Deila „<xliff:g id="name" example="Neon night">%1$s</xliff:g>“</string>
+    <string name="looks_share_hint">Skannaðu með myndavél annars RR-síma, eða í Útlit › Flytja inn</string>
+    <string name="looks_share_file">Deila skrá</string>
+    <string name="looks_save_file">Vista skrá</string>
+    <string name="looks_import_scan">Skanna QR-kóða</string>
+    <string name="looks_import_title">Flytja inn útlit</string>
+    <string name="looks_from_qr">úr QR-kóða</string>
+    <string name="looks_from_file">úr skrá</string>
+    <string name="looks_from_clipboard">af klippiborðinu</string>
+    <string name="looks_import_same">Þetta passar nú þegar við uppsetninguna þína.</string>
+    <string name="looks_new">Nýtt útlit</string>
+    <string name="looks_edit_title">Breyta útliti</string>
+    <string name="looks_in_look">Í þessu útliti</string>
+    <string name="looks_not_included">Ekki í þessu útliti</string>
+    <string name="looks_save_apply">Vista og beita</string>
+    <string name="looks_saved">„<xliff:g id="name" example="Sunday">%1$s</xliff:g>“ vistað</string>
+    <string name="looks_delete_confirm">Eyða „<xliff:g id="name" example="Sunday">%1$s</xliff:g>“?</string>
+    <string name="looks_rr_wallpaper">RR veggfóður <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Mettun áherslulits</string>
+    <string name="looks_part_clock_chip">Klukkumerki í stöðustiku</string>
+    <string name="looks_part_edge_style">Stíll kantlýsingar</string>
+    <string name="looks_scan_hint">Beindu myndavélinni að QR-kóða stemmingar</string>
+    <string name="looks_scan_failed">Ekki tókst að opna myndavélina</string>
+    <string name="look_roulette_title">Stemmingarhjól</string>
+    <string-array name="look_roulette_entries">
+        <item>"Slökkt"</item>
+        <item>Ný stemming við hvern opnun</item>
+        <item>Ný stemming á hverjum degi</item>
+    </string-array>
 </resources>

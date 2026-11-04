@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Ring sync</string>
+    <string name="ring_sync_tap">Tik wanneer een ring op de markering uitkomt</string>
+    <string name="ring_sync_best">Beste <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">PERFECT</string>
+    <string name="ring_sync_new_best">Nieuw record</string>
+    <string name="ring_sync_again">Tik om opnieuw te spelen</string>
+    <string name="ring_sync_ember">Ember-accent ontgrendeld</string>
+    <string name="ring_sync_use_ember">Ember gebruiken</string>
+    <string name="ring_sync_android">Android\'s easter egg</string>
+    <string name="ring_sync_vibrate_on">Trillen bij treffers · Aan</string>
+    <string name="ring_sync_vibrate_off">Trillen bij treffers · Uit</string>
+    <string name="accent_ember">Gloed</string>
+</resources>

@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Sininen"</string>
     <string name="haptic_remix_color_green">"Vihreä"</string>
     <string name="haptic_remix_color_white">"Valkoinen"</string>
+    <string name="haptic_remix_summary">Napauta värinäkuvioita puheluille, sovelluksille, herätyksille ja lukituksille</string>
+    <string name="haptic_remix_record">Tallenna</string>
+    <string name="haptic_remix_pad">napauta rytmiä</string>
+    <string name="haptic_remix_strength">Voimakkuus</string>
+    <string name="haptic_remix_clear">Tyhjennä</string>
+    <string name="haptic_remix_play">Toista</string>
+    <string name="haptic_remix_name">Kuvion nimi</string>
+    <string name="haptic_remix_empty">Mitään ei ole vielä tallennettu</string>
+    <string name="haptic_remix_too_long">Kuvio voi kestää 30 sekuntia</string>
+    <string name="haptic_remix_presets">Esiasetukset</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Lasi</string>
+    <string name="haptic_remix_preset_ringtone">Soittoäänen tahti</string>
+    <string name="haptic_remix_listening">Kuunnellaan soittoääntä…</string>
+    <string name="haptic_remix_no_ringtone">Soittoääntä ei voitu lukea</string>
+    <string name="haptic_remix_patterns">Kuviosi</string>
+    <string name="haptic_remix_patterns_none">Tallenna ensin kuvio. Poista pitämällä painettuna.</string>
+    <string name="haptic_remix_broken">Tätä kuviota ei voi lukea</string>
+    <string name="haptic_remix_delete">Poistetaanko <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Määritä kohteelle</string>
+    <string name="haptic_remix_alarm">Herätys ja ajastin</string>
+    <string name="haptic_remix_plug">Laturissa</string>
+    <string name="haptic_remix_fingerprint">Sormenjälki tunnistettu</string>
+    <string name="haptic_remix_add_contact">Lisää yhteystieto</string>
+    <string name="haptic_remix_edge_color">Reunavalo kohteen <xliff:g id="name" example="Mia">%1$s</xliff:g> viesteille</string>
+    <string name="haptic_remix_color_accent">Korostusväri</string>
+    <string name="haptic_remix_color_crimson">Karmiininpunainen</string>
+    <string name="haptic_remix_color_amber">Meripihka</string>
+    <string name="haptic_remix_add_app">Lisää sovelluksen ilmoitukset</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · napauta vaihtaaksesi, pidä painettuna reunan väriä varten</string>
+    <string name="haptic_remix_no_contacts">Yhteystiedoista ei saatu numeroa</string>
 </resources>

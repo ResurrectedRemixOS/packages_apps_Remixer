@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Bateria"</string>
     <string name="charge_report_temp">"Tenperatura"</string>
     <string name="charge_report_time">"Ordua"</string>
+    <string name="charge_report_title">Karga-txostenak</string>
+    <string name="charge_report_summary">Laburpena kargatzen amaitzen duzunean kargatu duzun aldi bakoitzaren</string>
+    <string name="charge_report_min_title">Gehitu bada gutxienez</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 egun</item>
+        <item>7 egun</item>
+        <item>14 egun</item>
+        <item>30 egun</item>
+    </string-array>
+    <string name="charge_report_history_days">Azken <xliff:g id="days" example="7">%1$d</xliff:g> egunak</string>
+    <string name="charge_report_today">Gaur, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Atzo, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> h <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Watt</string>
+    <string name="charge_report_added">Gehituta</string>
+    <string name="charge_report_peak">Gorena</string>
+    <string name="charge_report_average">Batezbestekoa</string>
+    <string name="charge_report_max_temp">Tenperatura max.</string>
+    <string name="charge_report_charger">Kargagailua</string>
+    <string name="charge_report_started">Hasi zen</string>
+    <string name="charge_report_wired">Kablea</string>
+    <string name="charge_report_wireless">Hari gabekoa</string>
+    <string name="charge_report_dock">Dock</string>
+    <string name="charge_report_empty">Oraindik karga-saiorik ez</string>
+    <string name="charge_report_footer">SystemUI-k bateriaren korrontea, tentsioa eta tenperatura irakurtzen ditu 30 segundoro konektatuta dagoen bitartean. Watt-ak telefonoak neurtzen dituenak dira, beraz kargagailuan dagoen zenbakitik desberdinak izan daitezke. Txostenak telefonoan geratzen dira; ez da ezer igotzen.</string>
 </resources>

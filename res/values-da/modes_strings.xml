@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Et look til hver af dine tilstande</string>
+    <string name="remix_modes_everyday">Almindeligt look</string>
+    <string name="remix_modes_everyday_summary">Vender tilbage, når ingen tilstand med et look er aktiv</string>
+    <string name="remix_modes_wallpaper">Baggrunden følger looket</string>
+    <string name="remix_modes_wallpaper_summary">En tilstand kan også ændre baggrunden</string>
+    <string name="remix_modes_modes">Dine tilstande</string>
+    <string name="remix_modes_no_change">Ingen ændring</string>
+    <string name="remix_modes_none">Gem først et look under Tema › Looks</string>
+    <string name="remix_modes_pick">Look til <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

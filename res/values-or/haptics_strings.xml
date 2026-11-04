@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"ନୀଳ"</string>
     <string name="haptic_remix_color_green">"ସବୁଜ"</string>
     <string name="haptic_remix_color_white">"ଧଳା"</string>
+    <string name="haptic_remix_summary">କଲ, ଆପ, ଆଲାରାମ ଓ ଅନଲକ ପାଇଁ କମ୍ପନ ପ୍ୟାଟର୍ନ ଟାପ କରି ତିଆରି କରନ୍ତୁ</string>
+    <string name="haptic_remix_record">ରେକର୍ଡ</string>
+    <string name="haptic_remix_pad">ଛନ୍ଦ ପାଇଁ ଟାପ କରନ୍ତୁ</string>
+    <string name="haptic_remix_strength">ଶକ୍ତି</string>
+    <string name="haptic_remix_clear">ସଫା କରନ୍ତୁ</string>
+    <string name="haptic_remix_play">ଚଲାନ୍ତୁ</string>
+    <string name="haptic_remix_name">ପ୍ୟାଟର୍ନ ନାମ</string>
+    <string name="haptic_remix_empty">ଏପର୍ଯ୍ୟନ୍ତ କିଛି ରେକର୍ଡ ହୋଇନାହିଁ</string>
+    <string name="haptic_remix_too_long">ଏକ ପ୍ୟାଟର୍ନ ୩୦ ସେକେଣ୍ଡ ପର୍ଯ୍ୟନ୍ତ ଚାଲିପାରେ</string>
+    <string name="haptic_remix_presets">ପ୍ରିସେଟ</string>
+    <string name="haptic_remix_preset_neon">ନିଅନ</string>
+    <string name="haptic_remix_preset_glass">ଗ୍ଲାସ</string>
+    <string name="haptic_remix_preset_ringtone">ରିଙ୍ଗଟୋନର ଛନ୍ଦ</string>
+    <string name="haptic_remix_listening">ରିଙ୍ଗଟୋନ ଶୁଣାଯାଉଛି…</string>
+    <string name="haptic_remix_no_ringtone">ରିଙ୍ଗଟୋନ ପଢ଼ାଯାଇପାରିଲା ନାହିଁ</string>
+    <string name="haptic_remix_patterns">ଆପଣଙ୍କ ପ୍ୟାଟର୍ନ</string>
+    <string name="haptic_remix_patterns_none">ପ୍ରଥମେ ଏକ ପ୍ୟାଟର୍ନ ସଞ୍ଚୟ କରନ୍ତୁ। ଡିଲିଟ କରିବାକୁ ଏକ ପ୍ୟାଟର୍ନକୁ ଲମ୍ବା ଚାପନ୍ତୁ।</string>
+    <string name="haptic_remix_broken">ଏହି ପ୍ୟାଟର୍ନ ପଢ଼ାଯାଇ ପାରିବ ନାହିଁ</string>
+    <string name="haptic_remix_delete"><xliff:g id="name" example="Heartbeat">%1$s</xliff:g> ଡିଲିଟ କରିବେ?</string>
+    <string name="haptic_remix_assign">ଏଥିକୁ ଲଗାନ୍ତୁ</string>
+    <string name="haptic_remix_alarm">ଆଲାରାମ ଓ ଟାଇମର</string>
+    <string name="haptic_remix_plug">ଚାର୍ଜରେ ଲାଗିଲେ</string>
+    <string name="haptic_remix_fingerprint">ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ସଫଳ</string>
+    <string name="haptic_remix_add_contact">ଏକ ଯୋଗାଯୋଗ ଯୋଡ଼ନ୍ତୁ</string>
+    <string name="haptic_remix_edge_color"><xliff:g id="name" example="Mia">%1$s</xliff:g>ଙ୍କ ମେସେଜ ପାଇଁ ଏଜ ଲାଇଟ</string>
+    <string name="haptic_remix_color_accent">ଆକ୍ସେଣ୍ଟ</string>
+    <string name="haptic_remix_color_crimson">କ୍ରିମସନ</string>
+    <string name="haptic_remix_color_amber">ଆମ୍ବର</string>
+    <string name="haptic_remix_add_app">ଏକ ଆପର ବିଜ୍ଞପ୍ତି ଯୋଡ଼ନ୍ତୁ</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · ବଦଳାଇବାକୁ ଟାପ କରନ୍ତୁ, ଏଜ ରଙ୍ଗ ପାଇଁ ଲମ୍ବା ଚାପନ୍ତୁ</string>
+    <string name="haptic_remix_no_contacts">ଯୋଗାଯୋଗରୁ କୌଣସି ନମ୍ବର ମିଳିଲା ନାହିଁ</string>
 </resources>

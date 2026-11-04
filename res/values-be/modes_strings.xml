@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Вобраз для кожнага з вашых рэжымаў</string>
+    <string name="remix_modes_everyday">Звычайны вобраз</string>
+    <string name="remix_modes_everyday_summary">Вяртаецца, калі не ўключаны рэжым з вобразам</string>
+    <string name="remix_modes_wallpaper">Шпалеры змяняюцца разам з вобразам</string>
+    <string name="remix_modes_wallpaper_summary">Рэжым таксама можа змяніць шпалеры</string>
+    <string name="remix_modes_modes">Вашы рэжымы</string>
+    <string name="remix_modes_no_change">Без змен</string>
+    <string name="remix_modes_none">Спачатку захавайце вобраз у Тэме › Вобразы</string>
+    <string name="remix_modes_pick">Вобраз для <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

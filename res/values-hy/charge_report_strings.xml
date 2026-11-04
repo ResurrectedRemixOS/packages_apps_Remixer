@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Մարտկոց"</string>
     <string name="charge_report_temp">"Ջերմաստիճան"</string>
     <string name="charge_report_time">"Ժամ"</string>
+    <string name="charge_report_title">Լիցքավորման հաշվետվություններ</string>
+    <string name="charge_report_summary">Յուրաքանչյուր լիցքավորման ամփոփում, երբ անջատում եք</string>
+    <string name="charge_report_min_title">Միայն եթե ավելացրել է առնվազն</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 օր</item>
+        <item>7 օր</item>
+        <item>14 օր</item>
+        <item>30 օր</item>
+    </string-array>
+    <string name="charge_report_history_days">Վերջին <xliff:g id="days" example="7">%1$d</xliff:g> օրը</string>
+    <string name="charge_report_today">Այսօր, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Երեկ, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> րոպե</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ժ <xliff:g id="minutes" example="02">%2$02d</xliff:g> րոպե</string>
+    <string name="charge_report_watts">Վատ</string>
+    <string name="charge_report_added">Ավելացվել է</string>
+    <string name="charge_report_peak">Գագաթնակետ</string>
+    <string name="charge_report_average">Միջին</string>
+    <string name="charge_report_max_temp">Առավելագույն ջերմաստիճան</string>
+    <string name="charge_report_charger">Լիցքավորիչ</string>
+    <string name="charge_report_started">Սկսվել է</string>
+    <string name="charge_report_wired">Լարով</string>
+    <string name="charge_report_wireless">Անլար</string>
+    <string name="charge_report_dock">Դոկ</string>
+    <string name="charge_report_empty">Դեռ լիցքավորումներ չկան</string>
+    <string name="charge_report_footer">SystemUI-ն միացված լինելու ընթացքում կարդում է մարտկոցի հոսանքը, լարումը և ջերմաստիճանը յուրաքանչյուր 30 վայրկյանը մեկ: Վատերը հեռախոսի չափած արժեքներն են, ու կարող են տարբերվել լիցքավորիչի վրա նշված թվից: Հաշվետվությունները մնում են հեռախոսում. ոչինչ չի վերբեռնվում:</string>
 </resources>

@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Blou"</string>
     <string name="haptic_remix_color_green">"Groen"</string>
     <string name="haptic_remix_color_white">"Wit"</string>
+    <string name="haptic_remix_summary">Tik vibrasiepatrone vir oproepe, programme, wekkers en ontsluitings uit</string>
+    <string name="haptic_remix_record">Neem op</string>
+    <string name="haptic_remix_pad">tik die ritme</string>
+    <string name="haptic_remix_strength">Sterkte</string>
+    <string name="haptic_remix_clear">Maak skoon</string>
+    <string name="haptic_remix_play">Speel</string>
+    <string name="haptic_remix_name">Patroonnaam</string>
+    <string name="haptic_remix_empty">Niks nog opgeneem nie</string>
+    <string name="haptic_remix_too_long">’n Patroon kan 30 sekondes duur</string>
+    <string name="haptic_remix_presets">Voorafinstellings</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Glas</string>
+    <string name="haptic_remix_preset_ringtone">Maat van die klokkie</string>
+    <string name="haptic_remix_listening">Luister na die klokkie…</string>
+    <string name="haptic_remix_no_ringtone">Die klokkie kon nie gelees word nie</string>
+    <string name="haptic_remix_patterns">Jou patrone</string>
+    <string name="haptic_remix_patterns_none">Stoor eers ’n patroon. Hou een vas om dit uit te vee.</string>
+    <string name="haptic_remix_broken">Daardie patroon kan nie gelees word nie</string>
+    <string name="haptic_remix_delete">Vee <xliff:g id="name" example="Heartbeat">%1$s</xliff:g> uit?</string>
+    <string name="haptic_remix_assign">Ken toe aan</string>
+    <string name="haptic_remix_alarm">Wekker en timer</string>
+    <string name="haptic_remix_plug">Ingeprop</string>
+    <string name="haptic_remix_fingerprint">Vingerafdruk suksesvol</string>
+    <string name="haptic_remix_add_contact">Voeg ’n kontak by</string>
+    <string name="haptic_remix_edge_color">Randlig vir <xliff:g id="name" example="Mia">%1$s</xliff:g> se boodskappe</string>
+    <string name="haptic_remix_color_accent">Aksent</string>
+    <string name="haptic_remix_color_crimson">Karmosyn</string>
+    <string name="haptic_remix_color_amber">Amber</string>
+    <string name="haptic_remix_add_app">Voeg ’n program se kennisgewings by</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · tik om te verander, hou vir die randkleur</string>
+    <string name="haptic_remix_no_contacts">Geen nommer is van Kontakte teruggegee nie</string>
 </resources>

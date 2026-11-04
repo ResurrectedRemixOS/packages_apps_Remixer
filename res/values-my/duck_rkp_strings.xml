@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">စက်၏ RKP ကို သုံးရန်</string>
+    <string name="ts_rkp_enabled_summary">ထုတ်လုပ်ထားသော ကီးဘောက်စ်ကို သုံးရန်။ ကီးဘောက်စ် သွင်းလိုက်လျှင် ဤအရာ ပိတ်သွားမည်။</string>
+    <string name="ts_rkp_provision">ကီးဘောက်စ် ထုတ်လုပ်ရန်</string>
+    <string name="ts_rkp_provision_summary">ဤစက်၏ ပံ့ပိုးမှုဝန်ဆောင်မှုကို အသုံးပြု၍ Google မှ ကီးဘောက်စ် တောင်းဆိုပါ။ လိုက်ဖက်သော Qualcomm ဖမ်းဝဲလိုအပ်သည်။</string>
+    <string name="ts_rkp_status">ပံ့ပိုးမှု အခြေအနေ</string>
+    <string name="ts_rkp_owner_only">စက်ပိုင်ရှင်၏ ပရိုဖိုင်မှ စက်၏ RKP ကို စီမံပါ</string>
+    <string name="ts_rkp_unavailable">စက်၏ RKP မရရှိနိုင်ပါ</string>
+    <string name="ts_rkp_imported">သွင်းထားသော ကီးဘောက်စ် ရှိနေစဉ် ပိတ်ထားသည်</string>
+    <string name="ts_rkp_disabled">ပိတ်ထားသည်။ ကီးဘောက်စ် သုံးရန် သို့မဟုတ် ထုတ်ရန် စက်၏ RKP ကို ဖွင့်ပါ။</string>
+    <string name="ts_rkp_idle">ကီးဘောက်စ် တောင်းဆိုရန် အဆင်သင့်ဖြစ်ပါပြီ</string>
+    <string name="ts_rkp_fetching">ပံ့ပိုးမှု စိန်ခေါ်ချက် ရယူနေသည်…</string>
+    <string name="ts_rkp_hardware">စက်၏ ပံ့ပိုးမှုဝန်ဆောင်မှုကို စောင့်နေသည်…</string>
+    <string name="ts_rkp_signing">Google မှ ထောက်ခံလက်မှတ်များ တောင်းဆိုနေသည်…</string>
+    <string name="ts_rkp_validating">ကီးဘောက်စ် အတည်ပြုပြီး သိမ်းနေသည်…</string>
+    <string name="ts_rkp_ready">ထုတ်လုပ်ထားသော ကီးဘောက်စ် အသက်ဝင်နေသည်။ %1$s မတိုင်မီ အလိုအလျောက် သက်တမ်းတိုးမည်</string>
+    <string name="ts_rkp_keybox_stored">စက်၏ RKP ကီးဘောက်စ် သိမ်းထားပြီးပါပြီ</string>
+    <string name="ts_rkp_expired">ထုတ်လုပ်ထားသော ကီးဘောက်စ် သက်တမ်းကုန်ပါပြီ။ အစားထိုးတစ်ခု ထုတ်ပါ။</string>
+    <string name="ts_rkp_hal_rejected">ဖမ်းဝဲက တောင်းဆိုမှုကို ပယ်ချလိုက်သည် (ကုဒ် %1$d)။ Duck V1 ကို မပံ့ပိုးနိုင်ပါ။</string>
+    <string name="ts_rkp_http_error">ပံ့ပိုးမှုဆာဗာက တောင်းဆိုမှုကို ပယ်ချလိုက်သည် (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">ဤစက်သည် လိုက်ဖက်သော V1 ပံ့ပိုးမှု အင်တာဖေ့စ် ပြသထားခြင်း မရှိပါ</string>
+    <string name="ts_rkp_network_error">ပံ့ပိုးမှုဆာဗာသို့ မရောက်နိုင်ပါ။ ချိတ်ဆက်မှုကို စစ်ဆေးပါ။</string>
+    <string name="ts_rkp_submission_unknown">ဆာဗာ တုံ့ပြန်ချက် ပျောက်ဆုံးသွားသည်။ တောင်းဆိုချက် လုပ်ဆောင်ပြီးဖြစ်နိုင်သည်၊ အလိုအလျောက် ထပ်ကြိုးစားခြင်း မရှိပါ။</string>
+    <string name="ts_rkp_invalid_chain">ထုတ်လုပ်ထားသော ကီးဘောက်စ် အတည်ပြုမှု မအောင်မြင်ပါ။ လက်ရှိကီးဘောက်စ်ကို ထားရှိခဲ့သည်။</string>
+    <string name="ts_rkp_timeout">ပံ့ပိုးမှု အချိန်ကုန်သွားသည်။ စက်ဝန်ဆောင်မှု အလုပ်ရှုပ်နေပါက ထပ်ကြိုးစားမီ စက်ကို ပြန်စတင်ပါ။</string>
+    <string name="ts_rkp_canceled">ကီးဘောက်စ် ဆက်တင် ပြောင်းလဲသွားသောကြောင့် တောင်းဆိုချက်ကို ပယ်ဖျက်လိုက်သည်</string>
+    <string name="ts_rkp_save_failed">ထုတ်လုပ်ထားသော ကီးဘောက်စ်ကို သိမ်း၍ မရပါ</string>
+    <string name="ts_rkp_action_failed">ကီးဘောက်စ် လုပ်ဆောင်ချက်ကို ပြီးမြောက်အောင် မလုပ်နိုင်ပါ</string>
+</resources>

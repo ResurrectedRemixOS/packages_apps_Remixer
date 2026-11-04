@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">କେବେ</string>
+    <string name="nightstand_title">ନାଇଟ୍‌ସ୍ଟାଣ୍ଡ</string>
+    <string name="nightstand_summary">ରାତିରେ ଚାର୍ଜ ସମୟରେ ଆଲୱେଜ୍ ଅନ୍ ଡିସପ୍ଲେରେ ଏକ ମଧ୍ୟମ ବେଡ୍‌ସାଇଡ୍ ଘଡ଼ି</string>
+    <string-array name="nightstand_when_entries">
+        <item>"ବନ୍ଦ ଅଛି"</item>
+        <item>ରାତିରେ ଚାର୍ଜରରେ</item>
+        <item>ପ୍ରତିଦିନ, ଏକ ସମୟସୂଚୀ ଅନୁସାରେ</item>
+        <item>ବେଡ୍‌ଟାଇମ୍ ମୋଡ୍ ଚାଲୁ ଥିଲା ବେଳେ</item>
+    </string-array>
+    <string name="nightstand_from">ରାତି ଆରମ୍ଭ</string>
+    <string name="nightstand_to">ରାତି ଶେଷ</string>
+    <string name="nightstand_brightness">ଉଜ୍ଜ୍ୱଳତା ସୀମା</string>
+    <string name="nightstand_brightness_summary">ନାଇଟ୍‌ସ୍ଟାଣ୍ଡ ଚାଲୁ ଥିଲା ବେଳେ ଆଲୱେଜ୍ ଅନ୍ ଡିସପ୍ଲେ କେତେ ଉଜ୍ଜ୍ୱଳ ହୋଇପାରିବ</string>
+    <string name="nightstand_face">ଘଡ଼ି ଫେସ</string>
+    <string name="nightstand_face_keep">ବର୍ତ୍ତମାନର ଫେସ ରଖନ୍ତୁ</string>
+    <string name="nightstand_footer">ନାଇଟ୍‌ସ୍ଟାଣ୍ଡ ଚାଲୁ ଥିବା ସମୟରେ ଆଲୱେଜ୍ ଅନ୍ ଡିସପ୍ଲେ ଚାଲୁ କରେ ଓ ପରେ ପୂର୍ବ ଅବସ୍ଥାକୁ ଫେରାଏ। ଚାର୍ଜର କାଢ଼ିଲେ, ଆଲାର୍ମ ବାଜିଲେ କିମ୍ବା ରାତି ଶେଷ ହେଲେ ଏହା ବନ୍ଦ ହୁଏ। ଫେସ କେବଳ ଦୁଇଟି କଷ୍ଟମ୍ ଫେସ ମଧ୍ୟରେ ବଦଳେ; ସିଷ୍ଟମ ଘଡ଼ି ଏକା ରହେ।</string>
 </resources>

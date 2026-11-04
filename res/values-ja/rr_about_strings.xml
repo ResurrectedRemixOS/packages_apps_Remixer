@@ -13,4 +13,21 @@
     <string name="rr_about_this_phone">"このデバイス"</string>
     <string name="rr_about_network">"ネットワーク"</string>
     <string name="rr_about_hidden">表示しない</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">公式</string>
+    <string name="rr_about_vanilla">バニラ</string>
+    <string name="rr_about_hardware">ハードウェア</string>
+    <string name="rr_about_processor">プロセッサ</string>
+    <string name="rr_about_processor_sub">%1$d コア · 最大 %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d コア</string>
+    <string name="rr_about_storage_used">%1$s 使用中</string>
+    <string name="rr_about_display">ディスプレイ</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · 充電中</string>
+    <string name="rr_about_kernel_linux">Linux カーネル</string>
+    <string name="rr_about_software_purpose">Android バージョン、セキュリティ アップデート、ビルド日、ビルド番号</string>
+    <string name="rr_about_maintainer">メンテナー</string>
+    <string name="rr_about_show">表示</string>
+    <string name="rr_about_hide">非表示</string>
 </resources>

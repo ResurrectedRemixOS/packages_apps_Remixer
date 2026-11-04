@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Ταπετσαρία"</item>
+        <item>Resurrected</item>
+        <item>Android One Πράσινο</item>
+        <item>Aospa Πράσινο</item>
+        <item>Coca Cola Κόκκινο</item>
+        <item>Discord Μωβ</item>
+        <item>Facebook Μπλε</item>
+        <item>Instagram Κεράσι</item>
+        <item>Jollibee Βαθύ κόκκινο</item>
+        <item>Monster Energy Πράσινο</item>
+        <item>Nextbit Μέντα</item>
+        <item>OnePlus Κόκκινο</item>
+        <item>Pepsi Μπλε</item>
+        <item>Pixel Μπλε</item>
+        <item>Pocophone Κίτρινο</item>
+        <item>Razer Πράσινο</item>
+        <item>Samsung Μπλε</item>
+        <item>Spotify Πράσινο</item>
+        <item>Starbucks Πράσινο</item>
+        <item>Twitch Μωβ</item>
+        <item>Twitter Μπλε</item>
+        <item>Xiaomi Πορτοκαλί</item>
+        <item>Κεχριμπαρί</item>
+        <item>"Μαύρο"</item>
+        <item>"Μπλε"</item>
+        <item>Γκρι-μπλε</item>
+        <item>Καφέ</item>
+        <item>"Κυανό"</item>
+        <item>Βαθύ πορτοκαλί</item>
+        <item>Βαθύ μωβ</item>
+        <item>"Πράσινο"</item>
+        <item>"Γκρι"</item>
+        <item>"Λουλακί"</item>
+        <item>Ανοιχτό μπλε</item>
+        <item>Λαχανί</item>
+        <item>"Πορτοκαλί"</item>
+        <item>"Ροζ"</item>
+        <item>"Μοβ"</item>
+        <item>"Κόκκινο"</item>
+        <item>"Γαλαζοπράσινο"</item>
+        <item>Χρήστης πέντε</item>
+        <item>Χρήστης τέσσερα</item>
+        <item>Χρήστης ένα</item>
+        <item>Χρήστης επτά</item>
+        <item>Χρήστης έξι</item>
+        <item>Χρήστης τρία</item>
+        <item>Χρήστης δύο</item>
+        <item>"Λευκό"</item>
+        <item>"Κίτρινο"</item>
+    </string-array>
+</resources>

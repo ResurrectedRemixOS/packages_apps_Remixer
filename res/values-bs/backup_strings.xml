@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">"Pokreti"</string>
     <string name="backup_group_other">"Ostalo"</string>
     <string name="backup_done">"Gotovo"</string>
+    <string name="backup_summary">Sva RR prilagođavanja u jednoj datoteci</string>
+    <string name="backup_now">Napravi sigurnosnu kopiju</string>
+    <string name="backup_never">Posljednja sigurnosna kopija: nikada</string>
+    <string name="backup_last">Posljednja sigurnosna kopija: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Vrati iz datoteke</string>
+    <string name="backup_restore_summary">Odaberite datoteku sigurnosne kopije</string>
+    <string name="backup_included">Uključeno</string>
+    <string name="backup_part_theme">Akcent, font i ikone</string>
+    <string name="backup_part_header">Slika zaglavlja</string>
+    <string name="backup_part_photo">Slika zaglavlja (vaša fotografija)</string>
+    <string name="backup_part_photo_summary">Čini datoteku većom</string>
+    <string name="backup_part_boot">Animacija pokretanja</string>
+    <string name="backup_part_looks">Vaši izgledi</string>
+    <string name="backup_weekly">Sedmična sigurnosna kopija</string>
+    <string name="backup_weekly_summary">U odabranu fasciklu</string>
+    <string name="backup_weekly_on">Svake sedmice u <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Ponudi sigurnosnu kopiju prije ažuriranja</string>
+    <string name="backup_offer_summary">Ažuriranje pita prije instalacije</string>
+    <string name="backup_sets">Postavlja <xliff:g id="count" example="64">%1$d</xliff:g> postavki</string>
+    <string name="backup_saved">Sačuvano <xliff:g id="count" example="64">%1$d</xliff:g> postavki</string>
+    <string name="backup_restored">Vraćeno <xliff:g id="count" example="64">%1$d</xliff:g> postavki</string>
+    <string name="backup_restored_message">SystemUI se ponovo pokreće da bi ih primijenio.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> postavki ne postoji u ovoj verziji i preskočeno je.</string>
+    <string name="backup_failed">Sigurnosna kopija nije sačuvana</string>
+    <string name="backup_invalid">Ta datoteka nije sigurnosna kopija Resurrected Remix</string>
+    <string name="backup_footer">U datoteku se upisuju samo postavke RR-a: nema računa, lozinki, Wi-Fi mreža, aplikacija ni poruka. Vraćanje upisuje samo postavke sa RR-ovog vlastitog spiska, pa datoteka sigurnosne kopije ne može ništa drugo promijeniti na telefonu. Fotografija zaglavlja se uključuje samo ako je prekidač uključen, jer čini datoteku većom.</string>
+    <string name="volume_style_title">Stil panela za glasnoću</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Staklo</item>
+        <item>Pilula</item>
+        <item>Klasični RR</item>
+        <item>Bento</item>
+        <item>Oblici</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Soft</item>
+    </string-array>
 </resources>

@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"バッテリー"</string>
     <string name="charge_report_temp">"温度"</string>
     <string name="charge_report_time">"時刻"</string>
+    <string name="charge_report_title">充電レポート</string>
+    <string name="charge_report_summary">取り外したときに、各充電の概要を表示</string>
+    <string name="charge_report_min_title">次の時間以上の場合にのみ追加</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 日</item>
+        <item>7 日</item>
+        <item>14日</item>
+        <item>30日</item>
+    </string-array>
+    <string name="charge_report_history_days">過去 <xliff:g id="days" example="7">%1$d</xliff:g> 日</string>
+    <string name="charge_report_today">今日、<xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">昨日、<xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> 分</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> 時間 <xliff:g id="minutes" example="02">%2$02d</xliff:g> 分</string>
+    <string name="charge_report_watts">ワット</string>
+    <string name="charge_report_added">追加</string>
+    <string name="charge_report_peak">ピーク</string>
+    <string name="charge_report_average">平均</string>
+    <string name="charge_report_max_temp">最高温度</string>
+    <string name="charge_report_charger">充電器</string>
+    <string name="charge_report_started">開始時刻</string>
+    <string name="charge_report_wired">有線</string>
+    <string name="charge_report_wireless">ワイヤレス</string>
+    <string name="charge_report_dock">ドック</string>
+    <string name="charge_report_empty">まだ充電履歴がありません</string>
+    <string name="charge_report_footer">SystemUI は接続中、30秒ごとにバッテリーの電流、電圧、温度を読み取ります。ワット数は端末が測定した値のため、充電器に表示されている数値と異なる場合があります。レポートは端末内に保存され、アップロードはされません。</string>
 </resources>

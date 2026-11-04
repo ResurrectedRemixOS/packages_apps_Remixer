@@ -15,4 +15,54 @@
     <string name="looks_save_look">"સાચવો"</string>
     <string name="looks_custom_color">"કસ્ટમ રંગ"</string>
     <string name="looks_part_clock_color">"ઘડિયાળનો રંગ"</string>
+    <string name="looks_title">લૂક્સ</string>
+    <string name="looks_summary">એક ટૅપમાં તમારું આખું સેટઅપ</string>
+    <string name="looks_rr">RR લૂક્સ</string>
+    <string name="looks_yours">તમારા લૂક્સ</string>
+    <string name="looks_none">હજી કંઈ સાચવ્યું નથી</string>
+    <string name="looks_save">હાલનું સાચવો</string>
+    <string name="looks_import_clipboard">ક્લિપબોર્ડમાંથી</string>
+    <string name="looks_import_file">ફાઇલમાંથી</string>
+    <string name="looks_mine">મારો લૂક</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> લાગુ થયું</string>
+    <string name="looks_failed">બધું લાગુ થઈ શક્યું નહીં</string>
+    <string name="looks_invalid">આ RR લૂક નથી</string>
+    <string name="looks_part_accent">ઍક્સેન્ટ રંગ</string>
+    <string name="looks_part_qs">QS શૈલી</string>
+    <string name="looks_part_clock_face">લૉક સ્ક્રીન ઘડિયાળનો ચહેરો</string>
+    <string name="looks_part_clock_look">સ્ટેટસ બાર ઘડિયાળ</string>
+    <string name="looks_part_edge">એજ લાઇટિંગ</string>
+    <string name="looks_part_boot">બૂટ ઍનિમેશન</string>
+    <string name="looks_part_haptics">Haptic Remix પૅટર્ન</string>
+    <string name="looks_saturation">સંતૃપ્તિ <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">ઍક્સેન્ટ</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>” શૅર કરો</string>
+    <string name="looks_share_hint">બીજા RR ફોનના કૅમેરાથી સ્કૅન કરો, અથવા લૂક્સ › ઇમ્પોર્ટમાં જાઓ</string>
+    <string name="looks_share_file">ફાઇલ શૅર કરો</string>
+    <string name="looks_save_file">ફાઇલ સાચવો</string>
+    <string name="looks_import_scan">QR કોડ સ્કૅન કરો</string>
+    <string name="looks_import_title">લૂક ઇમ્પોર્ટ કરો</string>
+    <string name="looks_from_qr">QR કોડમાંથી</string>
+    <string name="looks_from_file">ફાઇલમાંથી</string>
+    <string name="looks_from_clipboard">ક્લિપબોર્ડમાંથી</string>
+    <string name="looks_import_same">તે પહેલેથી જ તમારા સેટઅપ સાથે મેળ ખાય છે.</string>
+    <string name="looks_new">નવો લૂક</string>
+    <string name="looks_edit_title">લૂક સંપાદિત કરો</string>
+    <string name="looks_in_look">આ લૂકમાં</string>
+    <string name="looks_not_included">આ લૂકમાં નથી</string>
+    <string name="looks_save_apply">સાચવો અને લાગુ કરો</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” સાચવ્યું</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” કાઢી નાખીએ?</string>
+    <string name="looks_rr_wallpaper">RR વૉલપેપર <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">ઍક્સેન્ટ સંતૃપ્તિ</string>
+    <string name="looks_part_clock_chip">સ્ટેટસ બારની ઘડિયાળ ચિપ</string>
+    <string name="looks_part_edge_style">ધારની લાઇટિંગ શૈલી</string>
+    <string name="looks_scan_hint">લુકના QR કોડ પર કૅમેરો રાખો</string>
+    <string name="looks_scan_failed">કૅમેરો ખોલી શકાયો નહીં</string>
+    <string name="look_roulette_title">લુક રૉલેટ</string>
+    <string-array name="look_roulette_entries">
+        <item>"બંધ છે"</item>
+        <item>દરેક અનલૉક પર અલગ લુક</item>
+        <item>દરરોજ અલગ લુક</item>
+    </string-array>
 </resources>

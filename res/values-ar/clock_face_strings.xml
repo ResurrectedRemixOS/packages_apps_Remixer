@@ -6,4 +6,35 @@
     <string name="clock_faces_size_position">الحجم والموضع</string>
     <string name="clock_faces_size">"الحجم"</string>
     <string name="clock_faces_restart">"إعادة التشغيل"</string>
+    <string name="remixer_clock_faces">أشكال الساعة</string>
+    <string name="clock_faces_system">ساعة النظام</string>
+    <string name="clock_faces_system_desc">الساعة من الخلفية والنمط</string>
+    <string name="clock_faces_position">%1$d من %2$d</string>
+    <string name="clock_faces_applied">مُطبَّق</string>
+    <string name="clock_faces_preview_unavailable">المعاينة غير متاحة</string>
+    <string name="clock_faces_failed">تعذّر تغيير الساعة</string>
+    <string name="clock_faces_color_accent">التمييز</string>
+    <string name="clock_faces_color_custom">مخصص</string>
+    <string name="clock_faces_color_album">غلاف الألبوم</string>
+    <string name="clock_faces_color_gradient">متدرج</string>
+    <string name="clock_faces_own_colors">يحتفظ هذا الشكل بألوانه الخاصة.</string>
+    <string name="clock_faces_album_hint">يأخذ لونه من غلاف الألبوم أثناء تشغيل الموسيقى.</string>
+    <string name="clock_faces_size_value">الحجم · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">المسافة من الأعلى</string>
+    <string name="clock_faces_top_value">المسافة من الأعلى · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">الموضع الأفقي</string>
+    <string name="clock_faces_horizontal_center">الموضع الأفقي · المنتصف</string>
+    <string name="clock_faces_horizontal_right">الموضع الأفقي · <xliff:g id="dp" example="24">%1$d</xliff:g> dp إلى اليمين</string>
+    <string name="clock_faces_horizontal_left">الموضع الأفقي · <xliff:g id="dp" example="24">%1$d</xliff:g> dp إلى اليسار</string>
+    <string name="clock_faces_horizontal_fixed">يبقى هذا الشكل في المنتصف.</string>
+    <string name="clock_faces_opacity">العتامة</string>
+    <string name="clock_faces_opacity_value">العتامة · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">الحركة</string>
+    <string name="clock_faces_wobble">تهتز أثناء الشحن</string>
+    <string name="clock_faces_wobble_summary">ترتد مرة واحدة عند توصيل الجهاز</string>
+    <string name="clock_faces_aod_anim">انتقال الشاشة الدائمة العرض</string>
+    <string name="clock_faces_aod_anim_summary">تصغّر الساعة وتخفيها تدريجياً عند الانتقال إلى الشاشة الدائمة العرض</string>
+    <string name="clock_faces_restart_title">إعادة تشغيل شاشة القفل؟</string>
+    <string name="clock_faces_restart_message">التبديل بين ساعة النظام والأشكال المخصصة يعيد تشغيل SystemUI. ستنطفئ الشاشة لثانية.</string>
+    <string name="clock_faces_note">تُرسم المعاينات بواسطة SystemUI على خلفية شاشة القفل. تُطبَّق تغييرات اللون والحجم والموضع على شاشة القفل فوراً.</string>
 </resources>

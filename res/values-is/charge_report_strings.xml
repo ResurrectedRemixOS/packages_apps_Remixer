@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Rafhlaða"</string>
     <string name="charge_report_temp">"Hitastig"</string>
     <string name="charge_report_time">"Tími"</string>
+    <string name="charge_report_title">Hleðsluskýrslur</string>
+    <string name="charge_report_summary">Yfirlit yfir hverja hleðslu þegar þú aftengir</string>
+    <string name="charge_report_min_title">Aðeins ef hún bætti við að minnsta kosti</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 dagar</item>
+        <item>7 dagar</item>
+        <item>14 dagar</item>
+        <item>30 dagar</item>
+    </string-array>
+    <string name="charge_report_history_days">Síðustu <xliff:g id="days" example="7">%1$d</xliff:g> dagar</string>
+    <string name="charge_report_today">Í dag, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Í gær, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> mín</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> klst <xliff:g id="minutes" example="02">%2$02d</xliff:g> mín</string>
+    <string name="charge_report_watts">Vött</string>
+    <string name="charge_report_added">Bætt við</string>
+    <string name="charge_report_peak">Hámark</string>
+    <string name="charge_report_average">Meðaltal</string>
+    <string name="charge_report_max_temp">Hámarkshiti</string>
+    <string name="charge_report_charger">Hleðslutæki</string>
+    <string name="charge_report_started">Byrjaði kl.</string>
+    <string name="charge_report_wired">Með snúru</string>
+    <string name="charge_report_wireless">Þráðlaust</string>
+    <string name="charge_report_dock">Hleðslustöð</string>
+    <string name="charge_report_empty">Engar hleðslur enn</string>
+    <string name="charge_report_footer">SystemUI les straum, spennu og hitastig rafhlöðunnar á 30 sekúndna fresti meðan síminn er í hleðslu. Vöttin eru það sem síminn mælir, svo þau geta verið frábrugðin tölunni á hleðslutækinu. Skýrslur eru geymdar í símanum; ekkert er sent upp.</string>
 </resources>

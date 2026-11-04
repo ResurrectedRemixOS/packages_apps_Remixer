@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Стандардно"</string>
     <string name="clock_faces_size">"Големина"</string>
     <string name="clock_faces_restart">"Рестартирај"</string>
+    <string name="remixer_clock_faces">Лица на часовник</string>
+    <string name="clock_faces_system">Системски часовник</string>
+    <string name="clock_faces_system_desc">Часовникот од Тапет и стил</string>
+    <string name="clock_faces_position">%1$d од %2$d</string>
+    <string name="clock_faces_applied">Применето</string>
+    <string name="clock_faces_preview_unavailable">Преглед не е достапен</string>
+    <string name="clock_faces_failed">Часовникот не може да се смени</string>
+    <string name="clock_faces_color_accent">Акцент</string>
+    <string name="clock_faces_color_custom">Прилагодено</string>
+    <string name="clock_faces_color_album">Насловна слика на албумот</string>
+    <string name="clock_faces_color_gradient">Градиент</string>
+    <string name="clock_faces_own_colors">Ова лице ги задржува своите бои.</string>
+    <string name="clock_faces_album_hint">Ја зема бојата од насловната слика на албумот додека свири музика.</string>
+    <string name="clock_faces_size_position">Големина и положба</string>
+    <string name="clock_faces_size_value">Големина · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Растојание од врвот</string>
+    <string name="clock_faces_top_value">Растојание од врвот · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Хоризонтална положба</string>
+    <string name="clock_faces_horizontal_center">Хоризонтална положба · Центар</string>
+    <string name="clock_faces_horizontal_right">Хоризонтална положба · <xliff:g id="dp" example="24">%1$d</xliff:g> dp десно</string>
+    <string name="clock_faces_horizontal_left">Хоризонтална положба · <xliff:g id="dp" example="24">%1$d</xliff:g> dp лево</string>
+    <string name="clock_faces_horizontal_fixed">Ова лице останува centrirano.</string>
+    <string name="clock_faces_opacity">Непроѕирност</string>
+    <string name="clock_faces_opacity_value">Непроѕирност · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Движење</string>
+    <string name="clock_faces_wobble">Се поклаќа додека се полни</string>
+    <string name="clock_faces_wobble_summary">Еднаш подскокнува кога ќе приклучите</string>
+    <string name="clock_faces_aod_anim">Премин на екранот секогаш вклучен</string>
+    <string name="clock_faces_aod_anim_summary">Го смалува и исчезнува часовникот во екранот секогаш вклучен</string>
+    <string name="clock_faces_restart_title">Да се рестартира заклучениот екран?</string>
+    <string name="clock_faces_restart_message">Префрлањето помеѓу системскиот часовник и прилагодените лица го рестартира SystemUI. Екранот се затемнува една секунда.</string>
+    <string name="clock_faces_note">Прегледите ги црта SystemUI на тапетот на заклучениот екран. Бојата, големината и положбата веднаш го менуваат заклучениот екран.</string>
 </resources>

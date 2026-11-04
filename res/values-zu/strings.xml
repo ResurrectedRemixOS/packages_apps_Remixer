@@ -84,4 +84,202 @@
     <string name="wallpaper_apply_lock">"Khiya isikrini"</string>
     <string name="remixer_settings_style_original">"Okwangempela"</string>
     <string name="remixer_navbar_category">"Ibha yokuzula"</string>
+    <string name="remixer_dashboard_summary">Isimo sebha, itimu, isikrini sokukhiya nokunye</string>
+    <string name="rr_homepage_battery_saver">Isilondolozi sebhethri</string>
+    <string name="rr_homepage_personalize">Yenza ngokwakho</string>
+    <string name="rr_homepage_privacy">Ubumfihlo nokuphepha</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> mahhala</string>
+    <string name="rr_homepage_charged">Ibhethriligcwele</string>
+    <string name="rr_homepage_on_battery">Ibhethri</string>
+    <string name="rr_homepage_saver_on">Isilondolozi sebhethri sivuliwe</string>
+    <string name="rr_homepage_extras">Amasethingi engeziwe</string>
+    <string name="rr_homepage_saver">Isilondolozi</string>
+    <string name="rr_homepage_signed_out">Akukangenwa</string>
+    <string name="rr_homepage_remixer_tagline">Yenza kube ngokwakho. Isimo sebha, itimu, isikrini sokukhiya nokunye.</string>
+    <string name="rr_homepage_device_tagline">Isiqophi se-alert, isikrini, ukushaja kanye ne-GameBar.</string>
+    <string name="rr_homepage_device_action">Lungisa</string>
+    <string name="rr_group_network">Inethiwekhi namadivayisi</string>
+    <string name="rr_group_network_summary">I-Wi‑Fi, iselula, i-Bluetooth</string>
+    <string name="rr_group_apps_summary">Izinhlelo zokusebenza, izaziso, Izimo</string>
+    <string name="rr_group_display">Isikrini nomsindo</string>
+    <string name="rr_group_display_summary">Isikrini, isithombe sangemuva, umsindo</string>
+    <string name="rr_group_security_summary">Ukukhiya, indawo, izimo eziphuthumayo</string>
+    <string name="rr_group_security_center">Isikhungo sokuphepha</string>
+    <string name="rr_group_accounts">Google nama-akhawunti</string>
+    <string name="rr_group_accounts_summary">Google, amaphasiwedi, yenza isipele</string>
+    <string name="rr_group_accounts_plain_summary">Amaphasiwedi, ama-akhawunti, yenza isipele</string>
+    <string name="rr_group_system_summary">Izilimi, ukuthinta, izibuyekezo</string>
+    <string name="remixer_tagline">Yenza kube ngokwakho.</string>
+    <string name="remixer_remix">Hlanganisa kabusha</string>
+    <string name="remixer_remixed">Kuhlanganiswe kabusha nge-<xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Ushintsho · Okuzenzakalelayo</string>
+    <string name="remixer_quick">Ukuhlanganisa okusheshayo</string>
+    <string name="remixer_everything">Konke</string>
+    <string name="remixer_quick_accents">Amapresethi noma noma yimuphi umbala</string>
+    <string name="remixer_quick_fonts">Izitayela zamafonti esistimu</string>
+    <string name="remixer_quick_walls">Ingqukuqukuqu ye-RR</string>
+    <string name="remixer_quick_header">Ikhanda le-QS</string>
+    <string name="remixer_quick_header_summary">Izithombe zekhanda</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Iwashi, ibhethri, izithonjana, nethrafikhi yenethiwekhi</string>
+    <string name="remixer_qs_summary">Isithombe sekhanda</string>
+    <string name="remixer_notifications_summary">Ukukhanya kwemiphetho, izithonjana zezinhlelo nemisindo yokushaja</string>
+    <string name="remixer_theme_summary">Amafonti, imibala eyinhloko, nezithombe zangemuva</string>
+    <string name="remixer_lockscreen_summary">I-UDFPS, ulwazi lokushaja nesimo sezulu</string>
+    <string name="remixer_udfps_icon">Isithonjana se-UDFPS</string>
+    <string name="remixer_udfps_icon_summary">Kuboniswa phezu kwesensa yeminwe</string>
+    <string name="remixer_udfps_animation">Ukunyakaza kwe-UDFPS</string>
+    <string name="remixer_udfps_animation_summary">Kudlala lapho umunwe wakho usesenseni</string>
+    <string name="remixer_navigation">Ukuzula</string>
+    <string name="remixer_navigation_summary">I-Pulse, izinkinobho kanye nebha yokuzula</string>
+    <string name="remixer_misc_summary">Ivolumu, yenza isipele, ukufihla, ukuskrola kanye ne-USB</string>
+    <string name="scroll_haptics_title">Thepha ekupheleni kokuskrola</string>
+    <string name="scroll_haptics_summary">Ukudlidliza okuncane uma uhlu noma ikhasi lingeke lihambe ngaphezulu</string>
+    <string name="usb_mode_picker_title">Ukukhetha imodi ye-USB</string>
+    <string name="usb_mode_picker_summary">Khetha imodi uma uxhuma kukhompyutha</string>
+    <string name="remixer_fonts_summary">Ifonti yesistimu</string>
+    <string name="remixer_wallpapers_summary">Izithombe zangemuva ze-Resurrected Remix</string>
+    <string name="remixer_accents">Imibala eyinhloko</string>
+    <string name="remixer_accents_summary">Umbala oyinhloko</string>
+    <string name="remixer_pulse">I-Pulse</string>
+    <string name="remixer_pulse_summary">Ukubonakala komculo ngaphansi kwesikrini</string>
+    <string name="pulse_switch">Sebenzisa i-pulse</string>
+    <string name="pulse_switch_summary">Amabha omculo ngaphansi kwesikrini uma kudlala imidiya</string>
+    <string name="pulse_style_lines">Imigqa</string>
+    <string name="pulse_style_fading">Ukufiphala</string>
+    <string name="pulse_style_blocks">Izingxenye</string>
+    <string name="pulse_style_mirror">Isibonakaliso</string>
+    <string name="pulse_color_custom">Ngokwezifiso</string>
+    <string name="pulse_color_gradient">Rainbow</string>
+    <string name="pulse_bars">Amabha</string>
+    <string name="pulse_bars_value">Amabha · %1$d</string>
+    <string name="pulse_height">Ubude</string>
+    <string name="pulse_height_value">Ubude · %1$d dp</string>
+    <string name="pulse_opacity">Ukungaqondakali</string>
+    <string name="pulse_opacity_value">Ukungaqondakali · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Gcina amabha esikrinini sokukhiya uma kudlala umculo</string>
+    <string name="pulse_failed">Ayikwazanga ukulondoloza leso sethingi ye-pulse</string>
+    <string name="accent_applied">Umbala oyinhloko usetshenzisiwe</string>
+    <string name="accent_current">Umbala oyinhloko · %1$s</string>
+    <string name="accent_current_custom">Umbala oyinhloko · Ngokwezifiso</string>
+    <string name="accent_preview_tonal">Ngokwethoni</string>
+    <string name="accent_failed">Ayikwazanga ukusebenzisa lowo mbala oyinhloko</string>
+    <string name="accent_custom">Ngokwezifiso</string>
+    <string name="accent_custom_summary">Noma yimuphi umbala uyasebenza. Ushintsholuyasebenza phezulu.</string>
+    <string name="accent_custom_pad">Ukugcwala nokukhanya</string>
+    <string name="accent_custom_use">Sebenzisa i-<xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">Ushintsho</string>
+    <string name="accent_shade_darker">Mnyama kakhulu</string>
+    <string name="accent_shade_lighter">Mkhanyisi kakhulu</string>
+    <string name="accent_shade_darker_value">Mnyama kakhulu · %1$d</string>
+    <string name="accent_shade_lighter_value">Mkhanyisi kakhulu · %1$d</string>
+    <string name="remixer_qs_style">Isitayela se-QS</string>
+    <string name="remixer_qs_style_preview">Ukubuka kuqala · %1$s</string>
+    <string name="remixer_qs_style_note">Zonke izitayela zilandela umbala wakho oyinhloko. Iphaneli yevolumu inezitayela ezifana ne-Bento, Shapes, Blueprint, Duo kanye ne-Soft. I-Stock Lineage igcina amathayela e-Android 17 engashintshiwe.</string>
+    <string name="remixer_qs_style_stock">I-Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Amathayela e-Android 17, angashintshiwe</string>
+    <string name="remixer_qs_style_remix">Ukuhlanganisa</string>
+    <string name="remixer_qs_style_remix_summary">Ukukhanya kukhadi lombala oyinhloko. Amathayela agcwaliswa ngesigaxa sombala oyinhloko</string>
+    <string name="remixer_qs_style_compact">Okuncane</string>
+    <string name="remixer_qs_style_compact_summary">Amathayela amafushane. Amaningi esikrinini esisodwa</string>
+    <string name="remixer_qs_style_glass">Iglasi</string>
+    <string name="remixer_qs_style_glass_summary">Amathayela angabonakala nemigqa ekhanyisa ngombala oyinhloko uma evuliwe</string>
+    <string name="remixer_qs_style_circles">Imibuthano</string>
+    <string name="remixer_qs_style_circles_summary">Izinkinobho ezizungezile ezinamalebula. Amathayela amabanzi aba ngamakhadi</string>
+    <string name="remixer_qs_style_classic">Okwakudala</string>
+    <string name="remixer_qs_style_classic_summary">I-RR yakudala: izithonjana ezinamalebula, ezinhlanu ngasinye, nesiqophi esincane</string>
+    <string name="remixer_qs_style_cards">Amakhadi</string>
+    <string name="remixer_qs_style_cards_summary">Amakhadi amakhulu nesimo ngaphansi kwegama ngalinye, ezintathu ngasinye</string>
+    <string name="remixer_qs_style_neon">I-Neon</string>
+    <string name="remixer_qs_style_neon_summary">Amathayela anemigqa ekhanya ngombala oyinhloko uma evuliwe</string>
+    <string name="remixer_qs_style_bento_summary">Amabhlogo amakhulu ajikelezile agcwele umbala oyinhloko, amalebula ngaphansi kwawancane</string>
+    <string name="remixer_qs_style_shapes">Izimo</string>
+    <string name="remixer_qs_style_shapes_summary">Izinkinobho ezizungezile ezikhula izinkanyezi uma zivuliwe, ezinhlanu ngasinye</string>
+    <string name="remixer_qs_style_blueprint">I-Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Imigqa emincane namagama ahlanganisiwe ngamakhulu</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Amathayela ahlukaniswe ngamabili. Uhhafu wesithonjana uyakhanya uma ushintsha</string>
+    <string name="remixer_qs_style_soft">Soft</string>
+    <string name="remixer_qs_style_soft_summary">Amathayela aphakanyisiwe acindezeka uma evuliwe</string>
+    <string name="remixer_lock_media_style">Isitayela somdlali wemidiya</string>
+    <string name="remixer_lock_media_same">Njengamasethingi asheshayo</string>
+    <string name="remixer_lock_media_same_summary">Ulandela ithayela lakho le-QS Media, manje i-%1$s</string>
+    <string name="remixer_lock_media_off_summary">Akukho mdlali esikrinini sokukhiya</string>
+    <string name="remixer_lock_media_note">Ikhadi libonakala esikrinini sokukhiya lapho kukhona okudlalayo. Izitayela ezibonakalayo zithola ingemuva elimnyama ukuze zifundeke phezu kwesithombe sangemuva.</string>
+    <string name="remixer_lock_media_stock_summary">I-albhamu igcwalisa ikhadi</string>
+    <string name="remixer_lock_media_remix_summary">Ikhadi elimnyama, inkinobho yokudlala enombala oyinhloko</string>
+    <string name="remixer_lock_media_compact_summary">Ikhadi elizungezile kakhudlwana, izithombe ezizungezile</string>
+    <string name="remixer_lock_media_glass_summary">Ikhadi elibonakalayo elinemigqa</string>
+    <string name="remixer_lock_media_circles_summary">Ikhadi elithambile, inkinobho yokudlala enombala oyinhloko</string>
+    <string name="remixer_lock_media_classic_summary">Ikhadi elinesikwele kakhudlwana, inkinobho yokudlala enemigqa</string>
+    <string name="remixer_lock_media_cards_summary">Ikhadi elithambile, inkinobho yokudlala enombala oyinhloko, njengeMibuthano</string>
+    <string name="remixer_lock_media_neon_summary">Ikhadi elimnyama nomugqa wombala oyinhloko</string>
+    <string name="remixer_lock_media_bento_summary">Ikhadi elithambile, inkinobho yokudlala enombala oyinhloko</string>
+    <string name="remixer_lock_media_shapes_summary">Ikhadi elizungezile kakhudlwana, inkinobho yokudlala enombala oyinhloko</string>
+    <string name="remixer_lock_media_blueprint_summary">Umugqa omncane, inkinobho yokudlala enemigqa</string>
+    <string name="remixer_lock_media_duo_summary">Ikhadi lemibala emibili, inkinobho yokudlala enombala oyinhloko</string>
+    <string name="remixer_lock_media_soft_summary">Ikhadi eliphakanyisiwe enesibozo esiphethwe</string>
+    <string name="remixer_headers">Isithombe sekhanda</string>
+    <string name="remixer_headers_summary">Khetha isithombe sangemuva samasethingi asheshayo</string>
+    <string name="header_switch">Sebenzisa isithombe sekhanda</string>
+    <string name="header_switch_summary">Bonisa isithombe ngemuva kwamasethingi asheshayo</string>
+    <string name="header_source">Umthombo</string>
+    <string name="header_source_collection">Ingqukuqukuqu</string>
+    <string name="header_collections_summary_daylight">Ikhanda lilandela isikhathi sosuku noma liguqukele kwingqukuqukuqu</string>
+    <string name="header_collections_summary_static">Vula ingqukuqukuqu, bese uthepha isithombe ukuze usisebenzise</string>
+    <string name="header_collections_empty">Azikho ingqukuqukuqu zekhanda ezifakiwe</string>
+    <string name="header_images_daylight">Kule ngqukuqukuqu</string>
+    <string name="header_photo_summary">Noma yisiphi isithombe noma i-GIF esenziwayo esuka ku-gallery yakho</string>
+    <string name="header_height">Ubude</string>
+    <string name="header_height_value">Ubude · %1$d dp</string>
+    <string name="header_shadow">Ukufiphala</string>
+    <string name="header_shadow_value">Ukufiphala · %1$d%%</string>
+    <string name="header_failed">Ayikwazanga ukulondoloza leso sethingi sekhanda</string>
+    <string name="remixer_weather_summary">Isevisi yesimo sezulu nemiyinge</string>
+    <string name="font_preview_notification">Lokhu kuzoba yindlela ifoni yakho ezofunda ngayo.</string>
+    <string name="font_try_text">Zama umbhalo wakho</string>
+    <string name="font_previewing">Ukubuka kuqala</string>
+    <string name="font_current">Ifonti yamanje</string>
+    <string name="font_badge_current">Okwamanje</string>
+    <string name="font_apply_done">Kusetshenzisiwe</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Isibonisi</string>
+    <string name="font_filter_script">Umbhalo</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Ifonti isetshenzisiwe</string>
+    <string name="font_failed">Ayikwazanga ukusebenzisa leyo fonti</string>
+    <string name="wallpaper_set">Isithombe sangemuva sisethiwe</string>
+    <string name="wallpaper_apply_both">Zombili</string>
+    <string name="wallpaper_failed">Ayikwazanga ukusetha leso sithombe sangemuva</string>
+    <string name="missing_app">Leyo app ayifakiwe</string>
+    <string name="remixer_spoofing">Ukufaka okungekho kweqiniso</string>
+    <string name="remixer_spoofing_summary">I-Play Integrity, ukuqaphela idivayisi, nokufaka okungekho kweqiniso ngohlelo ngalunye</string>
+    <string name="remixer_settings_style">Isitayela samasethingi</string>
+    <string name="rr_maintainer">Umlondolozi</string>
+    <string name="remixer_navbar_summary">Ubude be-pill, ukujiya nesakhiwo</string>
+    <string name="remixer_navbar_pill_length">Ubude be-pill yokuthinta</string>
+    <string name="remixer_navbar_pill_thickness">Ukujiya kwe-pill yokuthinta</string>
+    <string name="remixer_navbar_pill_auto_hide">Fiphalisa i-pill yokuthinta</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Fihla i-pill ngemva kwemizuzwana embalwa; ibuya uma uthinta isikrini</string>
+    <string name="remixer_navbar_ime">Izinkinobho zekhibhodi</string>
+    <string name="remixer_navbar_ime_summary">Bonisa izinkinobho zokubuyela emuva nokushintsha ikhibhodi ngaphansi kwekhibhodi</string>
+    <string name="remixer_navbar_layout">Isakhiwo sezinkinobho</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Emfushane</item>
+        <item>Ejwayelekile</item>
+        <item>Ende</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Mncane kakhulu</item>
+        <item>Mncane kakhudlwana</item>
+        <item>Mncane</item>
+        <item>Ejwayelekile</item>
+        <item>Mkhulu</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Ejwayelekile</item>
+        <item>Okuncane</item>
+        <item>"Ukuncika ngakwesokunxele"</item>
+        <item>"Ukuncika ngakwesokudla"</item>
+    </string-array>
 </resources>

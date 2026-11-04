@@ -91,4 +91,195 @@
     <string name="remixer_settings_style">Styl ustawień</string>
     <string name="remixer_settings_style_original">"Oryginał"</string>
     <string name="remixer_navbar_category">"Pasek nawigacji"</string>
+    <string name="remixer_dashboard_summary">Pasek stanu, motyw, ekran blokady i nie tylko</string>
+    <string name="rr_homepage_battery_saver">Oszczędzanie baterii</string>
+    <string name="rr_homepage_personalize">Personalizacja</string>
+    <string name="rr_homepage_free">Wolne: <xliff:g id="size" example="194 GB">%1$s</xliff:g></string>
+    <string name="rr_homepage_charged">W pełni naładowana</string>
+    <string name="rr_homepage_on_battery">Z baterii</string>
+    <string name="rr_homepage_saver_on">Oszczędzanie baterii włączone</string>
+    <string name="rr_homepage_extras">Dodatkowe ustawienia</string>
+    <string name="rr_homepage_saver">Oszczędzanie</string>
+    <string name="rr_homepage_signed_out">Nie zalogowano</string>
+    <string name="rr_homepage_remixer_tagline">Dostosuj do siebie. Pasek stanu, motyw, ekran blokady i nie tylko.</string>
+    <string name="rr_homepage_device_tagline">Przełącznik dzwonka, ekran, ładowanie i GameBar.</string>
+    <string name="rr_homepage_device_action">Dostosuj</string>
+    <string name="rr_group_network">Sieć i urządzenia</string>
+    <string name="rr_group_network_summary">Wi‑Fi, dane komórkowe, Bluetooth</string>
+    <string name="rr_group_apps_summary">Aplikacje, powiadomienia, tryby</string>
+    <string name="rr_group_display">Ekran i dźwięk</string>
+    <string name="rr_group_display_summary">Ekran, tapeta, dźwięk</string>
+    <string name="rr_group_security_summary">Blokada, lokalizacja, połączenia alarmowe</string>
+    <string name="rr_group_security_center">Centrum bezpieczeństwa</string>
+    <string name="rr_group_accounts">Google i konta</string>
+    <string name="rr_group_accounts_summary">Google, hasła, kopia zapasowa</string>
+    <string name="rr_group_accounts_plain_summary">Hasła, konta, kopia zapasowa</string>
+    <string name="rr_group_system_summary">Języki, gesty, aktualizacje</string>
+    <string name="remixer_tagline">Dostosuj do siebie.</string>
+    <string name="remixer_remix">Przerób to</string>
+    <string name="remixer_remixed">Przerobione przez <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Odcień · Domyślny</string>
+    <string name="remixer_quick">Szybka przeróbka</string>
+    <string name="remixer_everything">Wszystko</string>
+    <string name="remixer_quick_accents">Gotowe ustawienia lub dowolny kolor</string>
+    <string name="remixer_quick_fonts">Style czcionek systemowych</string>
+    <string name="remixer_quick_walls">Kolekcja RR</string>
+    <string name="remixer_quick_header">Nagłówek szybkich ustawień</string>
+    <string name="remixer_quick_header_summary">Obrazy nagłówka</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Zegar, bateria, ikony i ruch sieciowy</string>
+    <string name="remixer_qs_summary">Obraz nagłówka</string>
+    <string name="remixer_notifications_summary">Podświetlenie krawędzi, ikony aplikacji i dźwięki ładowania</string>
+    <string name="remixer_theme_summary">Czcionki, akcenty i tapety</string>
+    <string name="remixer_lockscreen_summary">Czytnik linii papilarnych, informacje o ładowaniu i pogoda</string>
+    <string name="remixer_udfps_icon_summary">Wyświetlane nad czytnikiem linii papilarnych</string>
+    <string name="remixer_udfps_animation_summary">Odtwarzane, gdy palec jest na czytniku</string>
+    <string name="remixer_navigation_summary">Pulse, przyciski i pasek nawigacji</string>
+    <string name="remixer_misc_summary">Głośność, kopia zapasowa, podszywanie się, przewijanie i USB</string>
+    <string name="scroll_haptics_title">Stuknięcie na końcu przewijania</string>
+    <string name="scroll_haptics_summary">Lekka wibracja, gdy lista lub strona nie może przewinąć się dalej</string>
+    <string name="usb_mode_picker_title">Wybór trybu USB</string>
+    <string name="usb_mode_picker_summary">Wybieraj tryb po podłączeniu do komputera</string>
+    <string name="remixer_fonts_summary">Czcionka systemowa</string>
+    <string name="remixer_wallpapers_summary">Tapety Resurrected Remix</string>
+    <string name="remixer_accents">Akcenty</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">Wizualizator muzyki u dołu ekranu</string>
+    <string name="pulse_switch">Użyj Pulse</string>
+    <string name="pulse_switch_summary">Paski muzyki u dołu ekranu podczas odtwarzania multimediów</string>
+    <string name="pulse_style_lines">Linie</string>
+    <string name="pulse_style_fading">Zanikające</string>
+    <string name="pulse_style_blocks">Bloki</string>
+    <string name="pulse_style_mirror">Lustrzane</string>
+    <string name="pulse_color_custom">Własny</string>
+    <string name="pulse_color_gradient">Tęcza</string>
+    <string name="pulse_bars">Słupki</string>
+    <string name="pulse_bars_value">Słupki · %1$d</string>
+    <string name="pulse_height">Wysokość</string>
+    <string name="pulse_height_value">Wysokość · %1$d dp</string>
+    <string name="pulse_opacity">Krycie</string>
+    <string name="pulse_opacity_value">Krycie · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Pokazuj słupki na ekranie blokady podczas odtwarzania muzyki</string>
+    <string name="pulse_failed">Nie udało się zapisać tego ustawienia Pulse</string>
+    <string name="accent_applied">Zastosowano akcent</string>
+    <string name="accent_current">Akcent · %1$s</string>
+    <string name="accent_current_custom">Akcent · Własny</string>
+    <string name="accent_preview_tonal">Tonalny</string>
+    <string name="accent_failed">Nie udało się zastosować tego akcentu</string>
+    <string name="accent_custom">Własny</string>
+    <string name="accent_custom_summary">Działa dowolny kolor. Odcień nadal jest stosowany.</string>
+    <string name="accent_custom_pad">Nasycenie i jasność</string>
+    <string name="accent_custom_use">Użyj <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">Odcień</string>
+    <string name="accent_shade_darker">Ciemniejszy</string>
+    <string name="accent_shade_lighter">Jaśniejszy</string>
+    <string name="accent_shade_darker_value">Ciemniejszy · %1$d</string>
+    <string name="accent_shade_lighter_value">Jaśniejszy · %1$d</string>
+    <string name="remixer_qs_style">Styl szybkich ustawień</string>
+    <string name="remixer_qs_style_preview">Podgląd · %1$s</string>
+    <string name="remixer_qs_style_note">Każdy styl korzysta z koloru akcentu. Panel głośności ma pasujące wygląd Bento, Shapes, Blueprint, Duo i Soft. Stock Lineage pozostawia kafelki Androida 17 bez zmian.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Kafelki Androida 17, bez zmian</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Jasność w karcie akcentu. Kafelki wypełniane gradientem akcentu</string>
+    <string name="remixer_qs_style_compact">Kompaktowe</string>
+    <string name="remixer_qs_style_compact_summary">Krótsze kafelki. Więcej na jednym ekranie</string>
+    <string name="remixer_qs_style_glass">Szklane</string>
+    <string name="remixer_qs_style_glass_summary">Przezroczyste obrysowane kafelki, które świecą kolorem akcentu po włączeniu</string>
+    <string name="remixer_qs_style_circles">Koła</string>
+    <string name="remixer_qs_style_circles_summary">Okrągłe przełączniki z etykietami. Szerokie kafelki stają się kartami</string>
+    <string name="remixer_qs_style_classic">Klasyczne</string>
+    <string name="remixer_qs_style_classic_summary">Staroszkolny RR: same ikony z etykietami, pięć w rzędzie, cienki suwak</string>
+    <string name="remixer_qs_style_cards">Karty</string>
+    <string name="remixer_qs_style_cards_summary">Duże karty ze stanem pod każdą nazwą, po trzy w rzędzie</string>
+    <string name="remixer_qs_style_neon">Neon</string>
+    <string name="remixer_qs_style_neon_summary">Obrysowane kafelki, które świecą kolorem akcentu po włączeniu</string>
+    <string name="remixer_qs_style_bento_summary">Duże zaokrąglone bloki wypełnione akcentem, etykiety pod małymi</string>
+    <string name="remixer_qs_style_shapes">Kształty</string>
+    <string name="remixer_qs_style_shapes_summary">Okrągłe przełączniki, które po włączeniu wypuszczają płatki, pięć w rzędzie</string>
+    <string name="remixer_qs_style_blueprint">Schemat</string>
+    <string name="remixer_qs_style_blueprint_summary">Cienkie obrysy i wersaliki o stałej szerokości</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Podzielone kafelki. Połowa z ikoną zapala się i przełącza</string>
+    <string name="remixer_qs_style_soft">Miękkie</string>
+    <string name="remixer_qs_style_soft_summary">Wypukłe kafelki, które wciskają się po włączeniu</string>
+    <string name="remixer_lock_media_style">Styl odtwarzacza multimediów</string>
+    <string name="remixer_lock_media_same">Jak w szybkich ustawieniach</string>
+    <string name="remixer_lock_media_same_summary">Zgodnie z kafelkiem multimediów w szybkich ustawieniach, teraz %1$s</string>
+    <string name="remixer_lock_media_off_summary">Brak odtwarzacza na ekranie blokady</string>
+    <string name="remixer_lock_media_note">Karta pojawia się na ekranie blokady podczas odtwarzania. Przezroczyste style dostają ciemne tło, aby były czytelne na tapecie.</string>
+    <string name="remixer_lock_media_stock_summary">Okładka wypełnia kartę</string>
+    <string name="remixer_lock_media_remix_summary">Ciemna karta, akcentowy przycisk odtwarzania</string>
+    <string name="remixer_lock_media_compact_summary">Bardziej zaokrąglona karta, okrągła okładka</string>
+    <string name="remixer_lock_media_glass_summary">Przezroczysta karta z obrysem</string>
+    <string name="remixer_lock_media_circles_summary">Miękka karta, akcentowy przycisk odtwarzania</string>
+    <string name="remixer_lock_media_classic_summary">Bardziej kwadratowa karta, przycisk odtwarzania z obrysem</string>
+    <string name="remixer_lock_media_cards_summary">Miękka karta, akcentowy przycisk odtwarzania, jak w Kołach</string>
+    <string name="remixer_lock_media_neon_summary">Czarna karta z akcentowym obrysem</string>
+    <string name="remixer_lock_media_bento_summary">Miękka karta, akcentowy przycisk odtwarzania</string>
+    <string name="remixer_lock_media_shapes_summary">Bardziej zaokrąglona karta, akcentowy przycisk odtwarzania</string>
+    <string name="remixer_lock_media_blueprint_summary">Cienki obrys, przycisk odtwarzania z obrysem</string>
+    <string name="remixer_lock_media_duo_summary">Dwukolorowa karta, akcentowy przycisk odtwarzania</string>
+    <string name="remixer_lock_media_soft_summary">Wypukła karta z fazowaną krawędzią</string>
+    <string name="remixer_headers">Obraz nagłówka</string>
+    <string name="header_switch">Użyj obrazu nagłówka</string>
+    <string name="header_switch_summary">Pokazuj zdjęcie za szybkimi ustawieniami</string>
+    <string name="header_source">Źródło</string>
+    <string name="header_source_collection">Kolekcja</string>
+    <string name="header_collections_summary_daylight">Nagłówek zmienia się zależnie od pory dnia lub rotuje obrazy z kolekcji</string>
+    <string name="header_collections_summary_static">Otwórz kolekcję, a następnie stuknij obraz, aby go użyć</string>
+    <string name="header_collections_empty">Nie zainstalowano kolekcji nagłówków</string>
+    <string name="header_images_daylight">W tej kolekcji</string>
+    <string name="header_photo_summary">Dowolne zdjęcie lub animowany GIF z galerii</string>
+    <string name="header_height">Wysokość</string>
+    <string name="header_height_value">Wysokość · %1$d dp</string>
+    <string name="header_shadow">Przyciemnienie</string>
+    <string name="header_shadow_value">Przyciemnienie · %1$d%%</string>
+    <string name="header_failed">Nie udało się zapisać tego ustawienia nagłówka</string>
+    <string name="remixer_weather_summary">Usługa pogody i jednostki</string>
+    <string name="font_preview_notification">Tak telefon będzie to odczytywać.</string>
+    <string name="font_try_text">Wypróbuj własny tekst</string>
+    <string name="font_previewing">Podgląd</string>
+    <string name="font_current">Obecna czcionka</string>
+    <string name="font_badge_current">Obecna</string>
+    <string name="font_apply_done">Zastosowano</string>
+    <string name="font_filter_sans">Bezszeryfowa</string>
+    <string name="font_filter_display">Ekran</string>
+    <string name="font_filter_script">Pismo odręczne</string>
+    <string name="font_filter_mono">Stałej szerokości</string>
+    <string name="font_applied">Zastosowano czcionkę</string>
+    <string name="font_failed">Nie udało się zastosować tej czcionki</string>
+    <string name="wallpaper_set">Ustawiono tapetę</string>
+    <string name="wallpaper_apply_both">Obie</string>
+    <string name="wallpaper_failed">Nie udało się ustawić tej tapety</string>
+    <string name="missing_app">Ta aplikacja nie jest zainstalowana</string>
+    <string name="remixer_spoofing">Podszywanie się</string>
+    <string name="remixer_spoofing_summary">Play Integrity, tożsamość urządzenia i podszywanie się dla poszczególnych aplikacji</string>
+    <string name="rr_maintainer">Opiekun</string>
+    <string name="remixer_navbar_summary">Długość, grubość i układ paska Pulse</string>
+    <string name="remixer_navbar_pill_length">Długość paska gestów</string>
+    <string name="remixer_navbar_pill_thickness">Grubość paska gestów</string>
+    <string name="remixer_navbar_pill_auto_hide">Wygaszaj pasek gestów</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Ukryj pasek po kilku sekundach; wróci po dotknięciu ekranu</string>
+    <string name="remixer_navbar_ime">Przyciski klawiatury</string>
+    <string name="remixer_navbar_ime_summary">Pokazuj przyciski wstecz i przełącznik klawiatury pod klawiaturą</string>
+    <string name="remixer_navbar_layout">Układ przycisków</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Krótki</item>
+        <item>Normalny</item>
+        <item>Długi</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Najcieńszy</item>
+        <item>Cieńszy</item>
+        <item>Cienki</item>
+        <item>Normalny</item>
+        <item>Gruby</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Normalny</item>
+        <item>Kompaktowe</item>
+        <item>"Pochylony w lewo"</item>
+        <item>"Pochylony w prawo"</item>
+    </string-array>
 </resources>

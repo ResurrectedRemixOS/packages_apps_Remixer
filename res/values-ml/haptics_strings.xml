@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"നീല"</string>
     <string name="haptic_remix_color_green">"പച്ച"</string>
     <string name="haptic_remix_color_white">"വെളുപ്പ്"</string>
+    <string name="haptic_remix_summary">കോൾ, ആപ്പുകൾ, അലാറങ്ങൾ, അൺലോക്കുകൾ എന്നിവയ്ക്കുള്ള വൈബ്രേഷൻ പാറ്റേണുകൾ ടാപ്പ് ചെയ്ത് രേഖപ്പെടുത്തുക</string>
+    <string name="haptic_remix_record">റെക്കോർഡ്</string>
+    <string name="haptic_remix_pad">താളത്തിനനുസരിച്ച് ടാപ്പ് ചെയ്യുക</string>
+    <string name="haptic_remix_strength">ശക്തി</string>
+    <string name="haptic_remix_clear">മായ്ക്കുക</string>
+    <string name="haptic_remix_play">പ്ലേ</string>
+    <string name="haptic_remix_name">പാറ്റേണിന്റെ പേര്</string>
+    <string name="haptic_remix_empty">ഇതുവരെ ഒന്നും രേഖപ്പെടുത്തിയിട്ടില്ല</string>
+    <string name="haptic_remix_too_long">ഒരു പാറ്റേൺ 30 സെക്കൻഡ് വരെ നീളാം</string>
+    <string name="haptic_remix_presets">പ്രീസെറ്റുകൾ</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Glass</string>
+    <string name="haptic_remix_preset_ringtone">റിംഗ്ടോണിന്റെ താളം</string>
+    <string name="haptic_remix_listening">റിംഗ്ടോൺ കേൾക്കുന്നു…</string>
+    <string name="haptic_remix_no_ringtone">റിംഗ്ടോൺ വായിക്കാൻ കഴിഞ്ഞില്ല</string>
+    <string name="haptic_remix_patterns">നിങ്ങളുടെ പാറ്റേണുകൾ</string>
+    <string name="haptic_remix_patterns_none">ആദ്യം ഒരു പാറ്റേൺ സേവ് ചെയ്യുക. ഇല്ലാതാക്കാൻ ദീർഘനേരം അമർത്തുക.</string>
+    <string name="haptic_remix_broken">ഈ പാറ്റേൺ വായിക്കാൻ കഴിയില്ല</string>
+    <string name="haptic_remix_delete"><xliff:g id="name" example="Heartbeat">%1$s</xliff:g> ഇല്ലാതാക്കണോ?</string>
+    <string name="haptic_remix_assign">ഇതിലേക്ക് നിയോഗിക്കുക</string>
+    <string name="haptic_remix_alarm">അലാറവും ടൈമറും</string>
+    <string name="haptic_remix_plug">ചാർജർ കണക്ട് ചെയ്തു</string>
+    <string name="haptic_remix_fingerprint">ഫിംഗർപ്രിന്റ് വിജയം</string>
+    <string name="haptic_remix_add_contact">ഒരു കോൺടാക്റ്റ് ചേർക്കുക</string>
+    <string name="haptic_remix_edge_color"><xliff:g id="name" example="Mia">%1$s</xliff:g>-ന്റെ സന്ദേശങ്ങൾക്കുള്ള എഡ്ജ് ലൈറ്റ്</string>
+    <string name="haptic_remix_color_accent">ആക്സന്റ്</string>
+    <string name="haptic_remix_color_crimson">ക്രിംസൺ</string>
+    <string name="haptic_remix_color_amber">ആമ്പർ</string>
+    <string name="haptic_remix_add_app">ഒരു ആപ്പിന്റെ അറിയിപ്പുകൾ ചേർക്കുക</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · മാറ്റാൻ ടാപ്പ് ചെയ്യുക, എഡ്ജ് നിറത്തിന് ദീർഘനേരം അമർത്തുക</string>
+    <string name="haptic_remix_no_contacts">കോൺടാക്റ്റ്സിൽ നിന്ന് നമ്പർ ലഭിച്ചില്ല</string>
 </resources>

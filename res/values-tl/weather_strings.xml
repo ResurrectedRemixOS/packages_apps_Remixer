@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Mga Detalye"</string>
     <string name="lockscreen_weather_location_title">"Lokasyon"</string>
+    <string name="lockscreen_weather_title">Panahon sa lock screen</string>
+    <string name="lockscreen_weather_location_summary">Ipakita ang pangalan ng lungsod</string>
+    <string name="lockscreen_weather_text_title">Kondisyon</string>
+    <string name="lockscreen_weather_text_summary">Ipakita ang kondisyon, tulad ng Maulap o Malinaw</string>
+    <string name="lockscreen_weather_wind_title">Hangin</string>
+    <string name="lockscreen_weather_wind_summary">Ipakita ang bilis at direksyon ng hangin</string>
+    <string name="lockscreen_weather_humidity_title">Halumigmig</string>
+    <string name="lockscreen_weather_humidity_summary">Ipakita ang halumigmig</string>
+    <string name="custom_clock_weather_title">Panahon sa mga clock face</string>
+    <string name="custom_clock_weather_summary">Ipakita ang panahon sa loob ng mga clock face na may espasyo para dito</string>
+    <string name="remixer_weather_service">Serbisyo ng panahon</string>
+    <string name="remixer_weather_page_summary">Panahon sa lock screen at kung ano ang ipinapakita nito</string>
 </resources>

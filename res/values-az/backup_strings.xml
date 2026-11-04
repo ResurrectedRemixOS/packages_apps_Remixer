@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Jestlər</string>
     <string name="backup_group_other">"Digər"</string>
     <string name="backup_done">"Hazırdır"</string>
+    <string name="backup_summary">Bütün RR fərdiləşdirmələri bir faylda</string>
+    <string name="backup_now">İndi yedəkləyin</string>
+    <string name="backup_never">Son yedək: heç vaxt</string>
+    <string name="backup_last">Son yedək: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Fayldan bərpa et</string>
+    <string name="backup_restore_summary">Yedək faylını seçin</string>
+    <string name="backup_included">Daxildir</string>
+    <string name="backup_part_theme">Vurğu, şrift və ikonlar</string>
+    <string name="backup_part_header">Başlıq şəkli</string>
+    <string name="backup_part_photo">Başlıq şəkli (sizin fotonuz)</string>
+    <string name="backup_part_photo_summary">Faylı böyüdür</string>
+    <string name="backup_part_boot">Açılış animasiyası</string>
+    <string name="backup_part_looks">Sizin görünüşləriniz</string>
+    <string name="backup_weekly">Həftəlik yedəkləmə</string>
+    <string name="backup_weekly_summary">Seçdiyiniz qovluğa</string>
+    <string name="backup_weekly_on">Hər həftə <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g> qovluğuna</string>
+    <string name="backup_offer">Yeniləmələrdən əvvəl yedək təklif et</string>
+    <string name="backup_offer_summary">Yeniləyici quraşdırmadan əvvəl soruşur</string>
+    <string name="backup_sets"><xliff:g id="count" example="64">%1$d</xliff:g> ayarı təyin edir</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> ayar yadda saxlanıldı</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> ayar bərpa edildi</string>
+    <string name="backup_restored_message">Tətbiq etmək üçün SystemUI yenidən başlayır.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> ayar bu quruluşda mövcud deyil və ötürüldü.</string>
+    <string name="backup_failed">Yedək saxlanıla bilmədi</string>
+    <string name="backup_invalid">Bu fayl Resurrected Remix yedəyi deyil</string>
+    <string name="backup_footer">Faylda yalnız RR ayarları olur: hesablar, parollar, Wi-Fi şəbəkələri, tətbiqlər və ya mesajlar yoxdur. Bərpa yalnız RR-in öz siyahısındakı ayarları yazır, ona görə yedək faylı telefondakı başqa heçnəyi dəyişə bilməz. Başlıq fotonuz yalnız onun açarı aktiv olduqda daxil edilir, çünki o, faylı böyüdür.</string>
+    <string name="volume_style_title">Səs paneli üslubu</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Şüşə</item>
+        <item>Həb</item>
+        <item>Klassik RR</item>
+        <item>Bento</item>
+        <item>Fiqurlar</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Yumşaq</item>
+    </string-array>
 </resources>

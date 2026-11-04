@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Tafsilotlar"</string>
     <string name="lockscreen_weather_location_title">"Joylashuv"</string>
+    <string name="lockscreen_weather_title">Qulf ekranida ob-havo</string>
+    <string name="lockscreen_weather_location_summary">Shahar nomini ko\'rsatish</string>
+    <string name="lockscreen_weather_text_title">Holat</string>
+    <string name="lockscreen_weather_text_summary">Holatni ko\'rsatish, masalan Bulutli yoki Ochiq osmon</string>
+    <string name="lockscreen_weather_wind_title">Shamol</string>
+    <string name="lockscreen_weather_wind_summary">Shamol tezligi va yo\'nalishini ko\'rsatish</string>
+    <string name="lockscreen_weather_humidity_title">Namlik</string>
+    <string name="lockscreen_weather_humidity_summary">Namlikni ko\'rsatish</string>
+    <string name="custom_clock_weather_title">Soat ciferblatlarida ob-havo</string>
+    <string name="custom_clock_weather_summary">Joyi bor soat ciferblatlarida ob-havoni ko\'rsatish</string>
+    <string name="remixer_weather_service">Ob-havo xizmati</string>
+    <string name="remixer_weather_page_summary">Qulf ekranidagi ob-havo va uning ko\'rsatkichlari</string>
 </resources>

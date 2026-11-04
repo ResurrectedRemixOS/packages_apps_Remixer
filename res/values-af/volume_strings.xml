@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="volume_page_title">Volumepaneel</string>
+    <string name="volume_page_summary">Neon, Glas, Pil of Klassieke RR</string>
+    <string name="volume_behavior">Gedrag</string>
+    <string name="volume_on_left_title">Paneel links</string>
+    <string name="volume_on_left_summary">Klassieke RR staan altyd bo</string>
+    <string name="volume_ringer_title">Luidmodusknoppie</string>
+    <string name="volume_tick_title">Tik terwyl jy skuif</string>
+    <string name="volume_percent_title">Wys die vlak in persentasie</string>
+    <string name="volume_timeout_title">Versteek na</string>
+    <string name="volume_footer">\'n Voorkoms verander hoe die paneel lyk, nie hoe dit werk nie. Android behou die standaardpaneel. Tik op die stippies om elke stroom te sien; die uitgebreide paneel gebruik dieselfde voorkoms.</string>
+</resources>

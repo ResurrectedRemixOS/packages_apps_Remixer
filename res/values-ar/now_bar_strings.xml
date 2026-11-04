@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">الأزرار</string>
     <string name="now_bar_text">"رسالة نصية"</string>
     <string name="now_bar_text_size">"حجم النص"</string>
+    <string name="now_bar_summary">الأنشطة المباشرة أسفل شاشة القفل</string>
+    <string name="now_bar_show">إظهار</string>
+    <string name="now_bar_music">الموسيقى والفيديو</string>
+    <string name="now_bar_timers">المؤقتات والساعة الإيقافية والمنبهات</string>
+    <string name="now_bar_hide_call">إخفاء إشعار المكالمة</string>
+    <string name="now_bar_hide_call_summary">في شاشة القفل، لا تُدرج المكالمة الظاهرة في شريط Now Bar ضمن الإشعارات</string>
+    <string name="now_bar_live">التحديثات المباشرة</string>
+    <string name="now_bar_live_summary">التنقل والرحلات والتوصيلات والنتائج</string>
+    <string name="now_bar_scores">النتائج المباشرة</string>
+    <string name="now_bar_live_apps">التطبيقات المستخدمة للتحديثات المباشرة</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> تطبيقات</string>
+    <string name="now_bar_pin">مثبتة على الشاشة الدائمة العرض</string>
+    <string name="now_bar_unpin_question">إلغاء تثبيت <xliff:g id="app" example="Uber">%1$s</xliff:g>؟</string>
+    <string name="now_bar_unpin">إلغاء التثبيت</string>
+    <string name="now_bar_scores_summary">الألعاب التي تتابعها في At a Glance</string>
+    <string name="now_bar_recording">تسجيل الشاشة والصوت</string>
+    <string name="now_bar_buds">سماعات الأذن والساعات</string>
+    <string name="now_bar_buds_summary">بطارية الجهاز المتصل: اليسرى والیمنى والعلبة لسماعات الأذن</string>
+    <string name="now_bar_wave">تأثير الموجة</string>
+    <string name="now_bar_aod">إظهار على الشاشة الدائمة العرض</string>
+    <string name="now_bar_chip">شريحة في شريط الحالة</string>
+    <string name="now_bar_chip_summary">عرض الموسيقى والمؤقتات بجوار الساعة أثناء فتح القفل</string>
+    <string name="now_bar_footer">عند تشغيل موسيقى في شريط Now Bar، تُخفى مشغّلة الموسيقى الكبيرة على شاشة القفل. مرّر الشريط للتبديل بين الأنشطة، واضغط عليه لفتح عناصر التحكم، واضغط مطولاً عليه لإخفاء نشاط حتى ينتهي. اسحب أغنية متوقفة خارج الشريط لإزالتها.\n\nتعرض النتائج المباشرة للمباريات الخاصة بالفرق التي تتابعها في تطبيق Google. مع Smartspacer، أضف هدفاً رياضياً هناك فتظهر نتائجه هنا.</string>
+    <string name="now_bar_looks">الأنماط</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"تلقائي"</item>
+        <item>Liquid Glass</item>
+        <item>صغير</item>
+        <item>كبير</item>
+        <item>نيون</item>
+        <item>بطاقة زجاجية</item>
+    </string-array>
+    <string name="now_bar_material">مادي</string>
+    <string name="now_bar_material_summary">يستخدم Liquid Glass الزجاج الذي اخترته في المظهر</string>
+    <string-array name="now_bar_material_entries">
+        <item>صلب</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>غلاف الألبوم</item>
+        <item>التمييز</item>
+        <item>داكن</item>
+    </string-array>
+    <string name="now_bar_opacity">العتامة</string>
+    <string name="now_bar_opacity_summary">مقدار تلوين الزجاج بالألوان في Liquid Glass</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"بدون"</item>
+        <item>رفيع</item>
+        <item>التمييز</item>
+    </string-array>
+    <string name="now_bar_shadow">الظل</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"الميزة غير مفعّلة"</item>
+        <item>ناعم</item>
+        <item>توهج</item>
+    </string-array>
+    <string name="now_bar_more">أنشطة أخرى</string>
+    <string-array name="now_bar_more_entries">
+        <item>مرّر فقط</item>
+        <item>نقاط</item>
+        <item>النظر من الخلف</item>
+    </string-array>
+    <string name="now_bar_size">الحجم والشكل</string>
+    <string name="now_bar_height">الارتفاع</string>
+    <string name="now_bar_width_summary">ممتد يرفع الاختصارات فوق الشريط</string>
+    <string-array name="now_bar_width_entries">
+        <item>ضيّق</item>
+        <item>بين الاختصارات</item>
+        <item>كامل</item>
+    </string-array>
+    <string name="now_bar_corners">الزوايا</string>
+    <string name="now_bar_raise">رفع</string>
+    <string name="now_bar_art">غلاف الألبوم</string>
+    <string-array name="now_bar_art_entries">
+        <item>"دائرة"</item>
+        <item>مستدير</item>
+        <item>"مربّع"</item>
+        <item>"الميزة غير مفعّلة"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>تخطي وتشغيل</item>
+        <item>التشغيل فقط</item>
+        <item>"بدون"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>سطر واحد</item>
+        <item>سطران</item>
+        <item>الأغنية فقط</item>
+    </string-array>
+    <string name="now_bar_show_page">ما يظهر في الشريط</string>
+    <string name="now_bar_show_page_summary">الموسيقى والفيديو والمؤقتات والمكالمات وغيرها</string>
+    <string name="now_bar_where">أماكن أخرى</string>
 </resources>

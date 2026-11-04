@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">Kada</string>
+    <string name="nightstand_title">Noćni sat</string>
+    <string name="nightstand_summary">Zatamnjeni sat uz krevet na zaslonu uvijek uključenom tijekom punjenja noću</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Isključeno"</item>
+        <item>Na punjaču noću</item>
+        <item>Svake noći, prema rasporedu</item>
+        <item>Dok je uključen neki način spavanja</item>
+    </string-array>
+    <string name="nightstand_from">Noć počinje</string>
+    <string name="nightstand_to">Noć završava</string>
+    <string name="nightstand_brightness">Ograničenje svjetline</string>
+    <string name="nightstand_brightness_summary">Koliko svijetao može biti zaslon uvijek uključen dok je noćni sat uključen</string>
+    <string name="nightstand_face">Izgled sata</string>
+    <string name="nightstand_face_keep">Zadrži trenutni izgled</string>
+    <string name="nightstand_footer">Noćni sat uključuje zaslon uvijek uključen dok radi i zatim ga vraća. Završava kada se isključi punjač, zazvoni alarm ili završi noć. Izgled samo mijenja između dva prilagođena izgleda; sistemski sat ostaje.</string>
 </resources>

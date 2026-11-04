@@ -6,4 +6,31 @@
     <string name="sb_clock_date_format_title">Formát dátumu</string>
     <string name="sb_weather_category">Počasie</string>
     <string name="sb_weather_position_title">Pozícia</string>
+    <string name="sb_clock_bold_title">Tučné hodiny</string>
+    <string name="sb_clock_bold_summary">Zobrazovať hodiny v stavovom riadku tučným písmom</string>
+    <string name="sb_clock_period_separator_title">Oddeľovač času</string>
+    <string name="sb_clock_period_separator_summary">10.45 namiesto 10:45</string>
+    <string name="sb_clock_date_style_title">Veľkosť písmen dátumu</string>
+    <string name="sb_clock_chip_category">Pozadie hodín</string>
+    <string name="sb_clock_chip_title">Štýl pozadia</string>
+    <string name="sb_clock_chip_start_title">Začiatok prechodu</string>
+    <string name="sb_clock_chip_end_title">Koniec prechodu</string>
+    <string name="sb_clock_chip_angle_title">Uhol prechodu</string>
+    <string name="sb_clock_chip_mask_title">Vystrihnúť čas z prechodu</string>
+    <string name="sb_clock_chip_mask_summary">Prechod sa zobrazí cez číslice namiesto za nimi</string>
+    <string name="sb_weather_title">Počasie v stavovom riadku</string>
+    <string name="status_bar_clock_rr_style_title">Vzhľad hodín</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Predvolené"</item>
+        <item>Neón</item>
+        <item>Rozdelené</item>
+        <item>Značka RR</item>
+        <item>Pevná šírka</item>
+        <item>Pulz</item>
+        <item>Naskladané</item>
+        <item>Žeravé</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline vedľa času</string>
+    <string name="sb_clock_flatline_summary">Srdcová čiara RR v čipe: pulzuje s hudbou, pri novom upozornení vystrelí</string>
 </resources>

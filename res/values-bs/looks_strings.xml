@@ -14,4 +14,55 @@
     <string name="looks_save_look">"Sačuvaj"</string>
     <string name="looks_custom_color">"Prilagođena boja"</string>
     <string name="looks_part_clock_color">"Boja sata"</string>
+    <string name="looks_title">Izgledi</string>
+    <string name="looks_summary">Cijela postavka u jednom dodiru</string>
+    <string name="looks_rr">RR izgledi</string>
+    <string name="looks_yours">Vaši izgledi</string>
+    <string name="looks_none">Još ništa nije sačuvano</string>
+    <string name="looks_save">Sačuvaj trenutni</string>
+    <string name="looks_import_clipboard">Iz međuspremnika</string>
+    <string name="looks_import_file">Iz datoteke</string>
+    <string name="looks_mine">Moj izgled</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> primijenjeno</string>
+    <string name="looks_failed">Nije sve moguće primijeniti</string>
+    <string name="looks_invalid">Ovo nije RR izgled</string>
+    <string name="looks_part_accent">Boja akcenta</string>
+    <string name="looks_part_qs">Stil brzih postavki</string>
+    <string name="looks_part_clock_face">Izgled sata na zaključanom ekranu</string>
+    <string name="looks_part_font">Font</string>
+    <string name="looks_part_clock_look">Sat na statusnoj traci</string>
+    <string name="looks_part_edge">Osvjetljenje ivica</string>
+    <string name="looks_part_boot">Animacija pokretanja</string>
+    <string name="looks_part_haptics">Obrasci Haptic Remix</string>
+    <string name="looks_saturation">Zasićenost <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Naglasak</string>
+    <string name="looks_share_title">Podijeli „<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">Skenirajte kamerom drugog RR telefona ili u Izgledi › Uvezi</string>
+    <string name="looks_share_file">Podijeli datoteku</string>
+    <string name="looks_save_file">Sačuvaj datoteku</string>
+    <string name="looks_import_scan">Skeniraj QR kôd</string>
+    <string name="looks_import_title">Uvezi izgled</string>
+    <string name="looks_from_qr">iz QR koda</string>
+    <string name="looks_from_file">iz datoteke</string>
+    <string name="looks_from_clipboard">iz međuspremnika</string>
+    <string name="looks_import_same">Već odgovara vašoj postavci.</string>
+    <string name="looks_new">Novi izgled</string>
+    <string name="looks_edit_title">Uredi izgled</string>
+    <string name="looks_in_look">U ovom izgledu</string>
+    <string name="looks_not_included">Nije u ovom izgledu</string>
+    <string name="looks_save_apply">Sačuvaj i primijeni</string>
+    <string name="looks_saved">„<xliff:g id="name" example="Sunday">%1$s</xliff:g>” sačuvano</string>
+    <string name="looks_delete_confirm">Obrisati „<xliff:g id="name" example="Sunday">%1$s</xliff:g>”?</string>
+    <string name="looks_rr_wallpaper">RR pozadinska slika <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Zasićenost naglaska</string>
+    <string name="looks_part_clock_chip">Čip sata u statusnoj traci</string>
+    <string name="looks_part_edge_style">Stil osvjetljenja ivica</string>
+    <string name="looks_scan_hint">Usmjerite kameru na QR kod izgleda</string>
+    <string name="looks_scan_failed">Kamera se nije mogla otvoriti</string>
+    <string name="look_roulette_title">Ruleta izgleda</string>
+    <string-array name="look_roulette_entries">
+        <item>"Isključeno"</item>
+        <item>Drugačiji izgled pri svakom otključavanju</item>
+        <item>Drugačiji izgled svakog dana</item>
+    </string-array>
 </resources>

@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"Дугмад"</string>
     <string name="now_bar_text">"Teкст"</string>
     <string name="now_bar_text_size">"Величина текста"</string>
+    <string name="now_bar_summary">Живе активности на дну закључаног екрана</string>
+    <string name="now_bar_show">Прикажи</string>
+    <string name="now_bar_music">Музика и видео</string>
+    <string name="now_bar_timers">Тајмери, штоперица и аларми</string>
+    <string name="now_bar_hide_call">Сакриј обавештење о позиву</string>
+    <string name="now_bar_hide_call_summary">На закључаном екрану позив у Now Bar се не приказује и као обавештење</string>
+    <string name="now_bar_live">Живе исправке</string>
+    <string name="now_bar_live_summary">Навигација, вожње, испоруке, резултати</string>
+    <string name="now_bar_scores">Живи резултати</string>
+    <string name="now_bar_live_apps">Апликације за живе исправке</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> апликација</string>
+    <string name="now_bar_pin">Закачено на екрану у режиму стални приказ</string>
+    <string name="now_bar_unpin_question">Откачити <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Откачи</string>
+    <string name="now_bar_scores_summary">Игре које пратите у At a Glance</string>
+    <string name="now_bar_recording">Снимање екрана и гласа</string>
+    <string name="now_bar_buds">Слушалице и сатови</string>
+    <string name="now_bar_buds_summary">Батерија повезаног уређаја: лева, десна и кутија за слушалице</string>
+    <string name="now_bar_wave">Анимација таласа</string>
+    <string name="now_bar_aod">Прикажи на екрану у режиму стални приказ</string>
+    <string name="now_bar_chip">Чип у статусној траци</string>
+    <string name="now_bar_chip_summary">Приказ музике и тајмера поред сата док је уређај откључан</string>
+    <string name="now_bar_footer">Када је музика у Now Bar-у, велики плејер на закључаном екрану је сакривен. Превуците траку да бисте мењали активности, додирните је да отворите контроле, а задржите прст да бисте сакрили једну док не istekne. Превуците паузирану песму са траке да је уклоните.\n\nЖиви резултати приказују утакмице тимова које пратите у апликацији Google. Уз Smartspacer, додајте тамо спортски циљ и његови резултати ће се приказати овде.</string>
+    <string name="now_bar_looks">Изгледи</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Подразумевано"</item>
+        <item>Liquid Glass</item>
+        <item>Мини</item>
+        <item>Велики</item>
+        <item>Неон</item>
+        <item>Стаклена картица</item>
+    </string-array>
+    <string name="now_bar_material">Материјал</string>
+    <string name="now_bar_material_summary">Liquid Glass користи стакло које сте подесили у теми</string>
+    <string-array name="now_bar_material_entries">
+        <item>Пуно</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Омот албума</item>
+        <item>Акценат</item>
+        <item>Тамно</item>
+    </string-array>
+    <string name="now_bar_opacity">Непрозирност</string>
+    <string name="now_bar_opacity_summary">Колико боја обоји стакло у режиму Liquid Glass</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Ништа"</item>
+        <item>Танко</item>
+        <item>Акценат</item>
+    </string-array>
+    <string name="now_bar_shadow">Сенка</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Искључено"</item>
+        <item>Меко</item>
+        <item>Сјај</item>
+    </string-array>
+    <string name="now_bar_more">Више активности</string>
+    <string-array name="now_bar_more_entries">
+        <item>Само превуците</item>
+        <item>Тачке</item>
+        <item>Завирите иза</item>
+    </string-array>
+    <string name="now_bar_size">Величина и облик</string>
+    <string name="now_bar_height">Висина</string>
+    <string name="now_bar_width_summary">Пуно помера пречице изнад траке</string>
+    <string-array name="now_bar_width_entries">
+        <item>Уски</item>
+        <item>Између пречица</item>
+        <item>Пуно</item>
+    </string-array>
+    <string name="now_bar_corners">Углови</string>
+    <string name="now_bar_raise">Подигнут</string>
+    <string name="now_bar_art">Омот албума</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Круг"</item>
+        <item>Заобљено</item>
+        <item>"Квадрат"</item>
+        <item>"Искључено"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Прескочи и пусти</item>
+        <item>Само пуштање</item>
+        <item>"Ништа"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Једна линија</item>
+        <item>Две линије</item>
+        <item>Само песма</item>
+    </string-array>
+    <string name="now_bar_show_page">Шта се приказује у траци</string>
+    <string name="now_bar_show_page_summary">Музика и видео, тајмери, позиви и још</string>
+    <string name="now_bar_where">Остало</string>
 </resources>

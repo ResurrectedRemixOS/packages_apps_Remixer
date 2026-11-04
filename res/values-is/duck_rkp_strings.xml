@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Nota tækis RKP</string>
+    <string name="ts_rkp_enabled_summary">Nota búið til keybox. Innflutningur á keybox slekkur á þessu.</string>
+    <string name="ts_rkp_provision">Búa til keybox</string>
+    <string name="ts_rkp_provision_summary">Biðja Google um keybox með útgáfuþjónustu tækisins. Krefst samhæfs Qualcomm-fastbúnaðar.</string>
+    <string name="ts_rkp_status">Staða útgáfu</string>
+    <string name="ts_rkp_owner_only">Stjórna tækis RKP úr prófíl eiganda tækisins</string>
+    <string name="ts_rkp_unavailable">Tækis RKP er ekki tiltækt</string>
+    <string name="ts_rkp_imported">Óvirkt meðan flutt keybox er uppsett</string>
+    <string name="ts_rkp_disabled">Slökkt. Virkjaðu tækis RKP til að nota eða búa til keybox.</string>
+    <string name="ts_rkp_idle">Tilbúið til að biðja um keybox</string>
+    <string name="ts_rkp_fetching">Næ í útgáfuáskorun…</string>
+    <string name="ts_rkp_hardware">Bíð eftir útgáfuþjónustu tækisins…</string>
+    <string name="ts_rkp_signing">Bið um vottorð frá Google…</string>
+    <string name="ts_rkp_validating">Staðfesti og vista keybox…</string>
+    <string name="ts_rkp_ready">Búið til keybox er virkt. Endurnýjast sjálfkrafa fyrir %1$s</string>
+    <string name="ts_rkp_keybox_stored">Tækis RKP keybox geymt</string>
+    <string name="ts_rkp_expired">Búið til keybox er runnið út. Búðu til nýtt í staðinn.</string>
+    <string name="ts_rkp_hal_rejected">Fastbúnaður hafnaði beiðninni (kóði %1$d). Duck V1 gæti ekki verið studd.</string>
+    <string name="ts_rkp_http_error">Útgáfuþjónn hafnaði beiðninni (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Tækið sýnir ekki samhæft V1 útgáfuviðmót</string>
+    <string name="ts_rkp_network_error">Næ ekki sambandi við útgáfuþjón. Athugaðu tenginguna.</string>
+    <string name="ts_rkp_submission_unknown">Svar þjónsins tapaðist. Beiðnin gæti hafa verið afgreidd; engin sjálfvirk endurtilraun var gerð.</string>
+    <string name="ts_rkp_invalid_chain">Vottorð keybox stóðust ekki staðfestingu. Fyrra keybox var geymt.</string>
+    <string name="ts_rkp_timeout">Tímamörk útgáfu runnu út. Ef þjónusta tækisins er enn upptekin skaltu endurræsa tækið áður en reynt er aftur.</string>
+    <string name="ts_rkp_canceled">Beiðni hætt við því stillingum keybox var breytt</string>
+    <string name="ts_rkp_save_failed">Gat ekki vistað búið til keybox</string>
+    <string name="ts_rkp_action_failed">Gat ekki lokið aðgerð á keybox</string>
+</resources>

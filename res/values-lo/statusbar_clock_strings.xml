@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"ວັນທີ"</string>
     <string name="sb_weather_category">"ສະພາບອາກາດ"</string>
+    <string name="sb_clock_category">ໂມງ ແລະ ວັນທີ</string>
+    <string name="sb_clock_bold_title">ໂມງໂຕໜາ</string>
+    <string name="sb_clock_bold_summary">ສະແດງໂມງໃນແຖບສະຖານະເປັນໂຕໜາ</string>
+    <string name="sb_clock_period_separator_title">ຕົວແບ່ງເວລາ</string>
+    <string name="sb_clock_period_separator_summary">10.45 ແທນ 10:45</string>
+    <string name="sb_clock_date_position_title">ຕຳແໜ່ງວັນທີ</string>
+    <string name="sb_clock_date_style_title">ຕົວພິມວັນທີ</string>
+    <string name="sb_clock_date_format_title">ຮູບແບບວັນທີ</string>
+    <string name="sb_clock_chip_category">ພື້ນຫຼັງໂມງ</string>
+    <string name="sb_clock_chip_title">ຮູບແບບພື້ນຫຼັງ</string>
+    <string name="sb_clock_chip_start_title">ຈຸດເລີ່ມຕົ້ນຂອງການໄລ່ສີ</string>
+    <string name="sb_clock_chip_end_title">ຈຸດສິ້ນສຸດຂອງການໄລ່ສີ</string>
+    <string name="sb_clock_chip_angle_title">ມຸມການໄລ່ສີ</string>
+    <string name="sb_clock_chip_mask_title">ຕັດເວລາອອກຈາກການໄລ່ສີ</string>
+    <string name="sb_clock_chip_mask_summary">ການໄລ່ສີຈະສະແດງຜ່ານຕົວເລກແທນທີ່ຈະຢູ່ດ້ານຫຼັງ</string>
+    <string name="sb_weather_title">ສະພາບອາກາດໃນແຖບສະຖານະ</string>
+    <string name="sb_weather_position_title">ຕຳແໜ່ງ</string>
+    <string name="status_bar_clock_rr_style_title">ຮູບລັກໂມງ</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"ຄ່າເລີ່ມຕົ້ນ"</item>
+        <item>ນີອອນ</item>
+        <item>ແບ່ງ</item>
+        <item>ເຄື່ອງໝາຍ RR</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>ຊ້ອນກັນ</item>
+        <item>Ember</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline ຂ້າງເວລາ</string>
+    <string name="sb_clock_flatline_summary">ເສັ້ນຫົວໃຈຂອງ RR ພາຍໃນຊິບ: ເຕັ້ນຕາມເພງ, ແຫຼມເມື່ອມີການແຈ້ງເຕືອນເຂົ້າມາ</string>
 </resources>

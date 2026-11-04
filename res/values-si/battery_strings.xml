@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"බැටරිය"</string>
     <string name="battery_style_title">"විලාසය"</string>
+    <string-array name="battery_style_entries">
+        <item>සිරස්</item>
+        <item>"කවය"</item>
+        <item>තිත් රවුම</item>
+        <item>නියොන් වළලුව</item>
+        <item>තුනී පිල්ල</item>
+        <item>විශාල ප්‍රතිශතය</item>
+        <item>"පෙළ"</item>
+    </string-array>
+    <string name="battery_percent_title">ප්‍රතිශතය</string>
+    <string-array name="battery_percent_entries">
+        <item>"සැඟවුණු"</item>
+        <item>නිරූපකය තුළ</item>
+        <item>ඒ අසල</item>
+    </string-array>
+    <string name="battery_ring_color_title">නියොන් වළලුවේ වර්ණය</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. මට්ටම අනුව, ප්‍රවර්ණය 20%% ට ඉහළ නම් ඇක්සන්ට් වර්ණය, පහළ නම් රතු, බැටරි සුරැකුම ක්‍රියාත්මක නම් ඇම්බර් වේ.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>මට්ටම අනුව</item>
+        <item>උච්චාරණ</item>
+        <item>"සුදු"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">ආරෝපණයේදී දිලිසීම</string>
+    <string name="battery_ring_tile_title">ක්ෂණික සැකසීම් කැබැල්ලෙහි එම වළලුව</string>
+    <string name="battery_ring_tile_summary">මට්ටම සහ තිර ක්‍රියාත්මක කාලය සමඟ</string>
 </resources>

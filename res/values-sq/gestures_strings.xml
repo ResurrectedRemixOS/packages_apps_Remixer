@@ -8,4 +8,50 @@
         <item>"Mesatar"</item>
         <item>"E madhe"</item>
     </string-array>
+    <string name="pie_title">Kontrollet e rrethit</string>
+    <string name="pie_summary">Mbaj të shtypur pjesën e poshtme të skajit për një rreth shkurtoresh</string>
+    <string name="pie_zone">Pjesë e skajit</string>
+    <string name="pie_clock">Ora dhe bateria sipër saj</string>
+    <string name="pie_items">Feta</string>
+    <string-array name="pie_items_entries">
+        <item>"Prapa"</item>
+        <item>Shtëpia</item>
+        <item>"Të fundit"</item>
+        <item>"Njoftimet"</item>
+        <item>Elektriku i dorës</item>
+        <item>"Pamja e ekranit"</item>
+        <item>"Menyja e energjisë"</item>
+        <item>"Asistenti"</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Duhet gjysmë sekonde mbajtje pa lëvizur, kështu që një rrëshqitje e shpejtë nga skaji ende të kthen prapa. Nuk hapet në ekranin e kyçjes.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Majtas"</item>
+        <item>"Djathtas"</item>
+        <item>Të dyja</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>E poshtmja e tretë</item>
+        <item>Mesi</item>
+        <item>Gjithë skaji</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Xham</item>
+        <item>Klasike</item>
+    </string-array>
+    <string name="sidebar_style_title">Pamja e anës së aplikacioneve</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klasike</item>
+        <item>Xhami RR</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Ana e aplikacioneve</string>
+    <string name="sidebar_settings_summary">Rrëshqit nga doreza për aplikacionet dhe mjetet e tua</string>
+    <string name="sidebar_apps_title">Aplikacionet, doreza dhe kujtesa e fragmenteve</string>
+    <string name="sidebar_apps_summary">Ndiz dorezën, zgjidh aplikacionet dhe konfiguro kujtesën e zgjuar të fragmenteve</string>
+    <string name="sidebar_handle_size_title">Madhësia e dorezës</string>
+    <string name="sidebar_tools_title">Rreshti i mjeteve</string>
+    <string name="sidebar_tools_summary">Pamja e ekranit dhe elektrik i dorës nën aplikacionet e tua</string>
+    <string name="sidebar_footer">Doreza është një vijë e hollë me ngjyrën e theksit; tërhiqe për ta zhvendosur përgjatë skajit. Me navigimin me gjeste mbulon vetëm pjesën e vet të skajit, ndërsa prapa funksionon kudo tjetër.</string>
 </resources>

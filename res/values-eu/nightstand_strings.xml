@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">Noiz</string>
+    <string name="nightstand_title">Gaueko erlojua</string>
+    <string name="nightstand_summary">Erloju ilun eta txikia ohean, pantaila beti piztuta dagoenean gauez kargatzen ari denean</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Desaktibatuta"</item>
+        <item>Gauez kargagailuan</item>
+        <item>Egunero, programazio baten arabera</item>
+        <item>Lo egiteko modua aktibo dagoen bitartean</item>
+    </string-array>
+    <string name="nightstand_from">Gaua hasten da</string>
+    <string name="nightstand_to">Gaua amaitzen da</string>
+    <string name="nightstand_brightness">Argitasun-muga</string>
+    <string name="nightstand_brightness_summary">Zein argitsu izan daitekeen pantaila beti piztuta dagoenean gaueko erlojua aktibo dagoen bitartean</string>
+    <string name="nightstand_face">Erloju-aurpegia</string>
+    <string name="nightstand_face_keep">Mantendu uneko aurpegia</string>
+    <string name="nightstand_footer">Gaueko erlojuak pantaila beti piztuta dagoen modua aktibatzen du martxan dagoen bitartean eta gero berriro jartzen du. Kargagailua kentzen denean, alarma jotzen denean edo gaua amaitzen denean amaitzen da. Aurpegiak bi erloju pertsonalizatuen artean aldatzen du bakarrik; sistemako erlojua mantentzen da.</string>
 </resources>

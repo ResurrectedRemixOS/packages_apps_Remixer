@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Samawati"</string>
     <string name="haptic_remix_color_green">"Kijani"</string>
     <string name="haptic_remix_color_white">"Nyeupe"</string>
+    <string name="haptic_remix_summary">Gonga kutengeneza mifumo ya mtetemo wa simu, programu, kengele na kufungua kifaa</string>
+    <string name="haptic_remix_record">Rekodi</string>
+    <string name="haptic_remix_pad">gonga mdundo</string>
+    <string name="haptic_remix_strength">Nguvu</string>
+    <string name="haptic_remix_clear">Futa</string>
+    <string name="haptic_remix_play">Cheza</string>
+    <string name="haptic_remix_name">Jina la mfumo</string>
+    <string name="haptic_remix_empty">Hakuna kilichorekodiwa bado</string>
+    <string name="haptic_remix_too_long">Mfumo unaweza kudumu sekunde 30</string>
+    <string name="haptic_remix_presets">Mipangilio iliyowekwa</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Kioo</string>
+    <string name="haptic_remix_preset_ringtone">Mdundo wa mlio wa simu</string>
+    <string name="haptic_remix_listening">Inasikiliza mlio wa simu…</string>
+    <string name="haptic_remix_no_ringtone">Mlio wa simu haukuweza kusomwa</string>
+    <string name="haptic_remix_patterns">Mifumo yako</string>
+    <string name="haptic_remix_patterns_none">Hifadhi mfumo kwanza. Bonyeza kwa muda ili kuufuta.</string>
+    <string name="haptic_remix_broken">Mfumo huo hauwezi kusomwa</string>
+    <string name="haptic_remix_delete">Futa <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Weka kwa</string>
+    <string name="haptic_remix_alarm">Kengele na kipima muda</string>
+    <string name="haptic_remix_plug">Imechomekwa</string>
+    <string name="haptic_remix_fingerprint">Alama ya kidole imefanikiwa</string>
+    <string name="haptic_remix_add_contact">Ongeza mwasiliani</string>
+    <string name="haptic_remix_edge_color">Mwangaza wa kingo kwa ujumbe wa <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">Lafudhi</string>
+    <string name="haptic_remix_color_crimson">Nyekundu iliyokolea</string>
+    <string name="haptic_remix_color_amber">Kahawia ya dhahabu</string>
+    <string name="haptic_remix_add_app">Ongeza arifa za programu</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · gusa kubadilisha, bonyeza kwa muda kwa rangi ya kingo</string>
+    <string name="haptic_remix_no_contacts">Hakuna nambari iliyopatikana kutoka Anwani</string>
 </resources>

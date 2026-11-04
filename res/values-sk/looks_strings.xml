@@ -16,4 +16,53 @@
     <string name="looks_save_look">"Uložiť"</string>
     <string name="looks_custom_color">"Vlastná farba"</string>
     <string name="looks_part_clock_color">"Farba hodín"</string>
+    <string name="looks_title">Vzhľady</string>
+    <string name="looks_summary">Celé nastavenie jedným ťuknutím</string>
+    <string name="looks_rr">Vzhľady RR</string>
+    <string name="looks_yours">Vaše vzhľady</string>
+    <string name="looks_none">Zatiaľ nič nie je uložené</string>
+    <string name="looks_save">Uložiť aktuálne</string>
+    <string name="looks_import_clipboard">Zo schránky</string>
+    <string name="looks_import_file">Zo súboru</string>
+    <string name="looks_mine">Môj vzhľad</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> bol použitý</string>
+    <string name="looks_failed">Nepodarilo sa použiť všetko</string>
+    <string name="looks_invalid">Toto nie je vzhľad RR</string>
+    <string name="looks_part_qs">Štýl rýchlych nastavení</string>
+    <string name="looks_part_clock_face">Štýl hodín na uzamknutej obrazovke</string>
+    <string name="looks_part_clock_look">Hodiny v stavovom riadku</string>
+    <string name="looks_part_edge">Osvetlenie okrajov</string>
+    <string name="looks_part_boot">Animácia spustenia</string>
+    <string name="looks_part_haptics">Vzory Haptic Remix</string>
+    <string name="looks_saturation">Sýtosť <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Zvýraznenie</string>
+    <string name="looks_share_title">Zdieľať „<xliff:g id="name" example="Neon night">%1$s</xliff:g>“</string>
+    <string name="looks_share_hint">Naskenujte fotoaparátom iného telefónu s RR alebo v Vzhľady › Import</string>
+    <string name="looks_share_file">Zdieľať súbor</string>
+    <string name="looks_save_file">Uložiť súbor</string>
+    <string name="looks_import_scan">Naskenovať QR kód</string>
+    <string name="looks_import_title">Importovať vzhľad</string>
+    <string name="looks_from_qr">z QR kódu</string>
+    <string name="looks_from_file">zo súboru</string>
+    <string name="looks_from_clipboard">zo schránky</string>
+    <string name="looks_import_same">Už zodpovedá vášmu nastaveniu.</string>
+    <string name="looks_new">Nový vzhľad</string>
+    <string name="looks_edit_title">Upraviť vzhľad</string>
+    <string name="looks_in_look">V tomto vzhľade</string>
+    <string name="looks_not_included">Nie je v tomto vzhľade</string>
+    <string name="looks_save_apply">Uložiť a použiť</string>
+    <string name="looks_saved">„<xliff:g id="name" example="Sunday">%1$s</xliff:g>“ bol uložený</string>
+    <string name="looks_delete_confirm">Vymazať „<xliff:g id="name" example="Sunday">%1$s</xliff:g>“?</string>
+    <string name="looks_rr_wallpaper">Tapeta RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Sýtosť zvýraznenia</string>
+    <string name="looks_part_clock_chip">Čip hodín v stavovom riadku</string>
+    <string name="looks_part_edge_style">Štýl osvetlenia okrajov</string>
+    <string name="looks_scan_hint">Namierte fotoaparát na QR kód vzhľadu</string>
+    <string name="looks_scan_failed">Fotoaparát sa nepodarilo otvoriť</string>
+    <string name="look_roulette_title">Ruleta vzhľadov</string>
+    <string-array name="look_roulette_entries">
+        <item>"Vypnuté"</item>
+        <item>Pri každom odomknutí iný vzhľad</item>
+        <item>Každý deň iný vzhľad</item>
+    </string-array>
 </resources>

@@ -17,4 +17,52 @@
     <string name="looks_save_look">"저장"</string>
     <string name="looks_custom_color">"맞춤 색상"</string>
     <string name="looks_part_clock_color">"시계 색상"</string>
+    <string name="looks_title">룩</string>
+    <string name="looks_summary">전체 설정을 한 번의 탭으로</string>
+    <string name="looks_rr">RR 룩</string>
+    <string name="looks_yours">내 룩</string>
+    <string name="looks_none">저장된 룩 없음</string>
+    <string name="looks_save">현재 설정 저장</string>
+    <string name="looks_import_clipboard">클립보드에서</string>
+    <string name="looks_import_file">파일에서</string>
+    <string name="looks_mine">내 룩</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> 적용됨</string>
+    <string name="looks_failed">전부 적용하지 못함</string>
+    <string name="looks_invalid">RR 룩이 아님</string>
+    <string name="looks_part_qs">QS 스타일</string>
+    <string name="looks_part_clock_face">잠금 화면 시계 디자인</string>
+    <string name="looks_part_clock_look">상태 표시줄 시계</string>
+    <string name="looks_part_edge">가장자리 조명</string>
+    <string name="looks_part_haptics">Haptic Remix 패턴</string>
+    <string name="looks_saturation">채도 <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">강조</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>” 공유</string>
+    <string name="looks_share_hint">다른 RR 휴대폰의 카메라로 스캔하거나 룩 › 가져오기에서 사용</string>
+    <string name="looks_share_file">파일 공유</string>
+    <string name="looks_save_file">파일 저장</string>
+    <string name="looks_import_scan">QR 코드 스캔</string>
+    <string name="looks_import_title">룩 가져오기</string>
+    <string name="looks_from_qr">QR 코드에서</string>
+    <string name="looks_from_file">파일에서</string>
+    <string name="looks_from_clipboard">클립보드에서</string>
+    <string name="looks_import_same">이미 현재 설정과 같습니다.</string>
+    <string name="looks_new">새 룩</string>
+    <string name="looks_edit_title">룩 편집</string>
+    <string name="looks_in_look">이 룩에 포함됨</string>
+    <string name="looks_not_included">이 룩에 포함되지 않음</string>
+    <string name="looks_save_apply">저장 후 적용</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” 저장됨</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” 삭제하시겠습니까?</string>
+    <string name="looks_rr_wallpaper">RR 배경화면 <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">강조 채도</string>
+    <string name="looks_part_clock_chip">상태 표시줄 시계 칩</string>
+    <string name="looks_part_edge_style">가장자리 조명 스타일</string>
+    <string name="looks_scan_hint">룩의 QR 코드에 카메라를 맞추세요</string>
+    <string name="looks_scan_failed">카메라를 열 수 없음</string>
+    <string name="look_roulette_title">룩 룰렛</string>
+    <string-array name="look_roulette_entries">
+        <item>"사용 안함"</item>
+        <item>잠금 해제할 때마다 다른 룩</item>
+        <item>매일 다른 룩</item>
+    </string-array>
 </resources>

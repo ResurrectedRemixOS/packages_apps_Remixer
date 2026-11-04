@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glance_title">Un cop d\'ull</string>
+    <string name="glance_summary">La data, el temps i les targetes de Google sota el rellotge original, com en un Pixel. Les esferes del rellotge mantenen la seva pròpia fila</string>
+</resources>

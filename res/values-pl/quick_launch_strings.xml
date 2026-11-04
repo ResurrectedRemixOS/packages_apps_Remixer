@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Minutnik</string>
     <string name="quick_launch_undo">"Cofnij"</string>
     <string name="quick_launch_off">"Wyłączono"</string>
+    <string name="quick_launch_title">Szybkie uruchamianie</string>
+    <string name="quick_launch_main">Szybkie uruchamianie odciskiem palca</string>
+    <string name="quick_launch_main_summary">Po odblokowaniu przytrzymaj palec na czytniku, aby otworzyć skrót</string>
+    <string name="quick_launch_hint">Dotknij skrótu, aby go zmienić, przytrzymaj, aby usunąć, lub przeciągnij, aby zmienić kolejność.</string>
+    <string name="quick_launch_behavior">Zachowanie</string>
+    <string name="quick_launch_hold">Czas przytrzymania</string>
+    <string name="quick_launch_haptics">Wibracja przy każdym skrócie</string>
+    <string name="quick_launch_add">Dodaj</string>
+    <string name="quick_launch_video">Wideo</string>
+    <string name="quick_launch_qr">Skanuj kod QR</string>
+    <string name="quick_launch_app">Aplikacja…</string>
+    <string name="quick_launch_removed">Usunięto: <xliff:g id="shortcut" example="Camera">%1$s</xliff:g></string>
 </resources>

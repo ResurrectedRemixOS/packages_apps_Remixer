@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"پیش‌فرض"</string>
     <string name="clock_faces_size">"اندازه"</string>
     <string name="clock_faces_restart">"بازراه‌اندازی"</string>
+    <string name="remixer_clock_faces">ظاهر ساعت</string>
+    <string name="clock_faces_system">ساعت سیستم</string>
+    <string name="clock_faces_system_desc">ساعتی که از «کاغذدیواری و سبک» می‌آید</string>
+    <string name="clock_faces_position">%1$d از %2$d</string>
+    <string name="clock_faces_applied">اعمال شد</string>
+    <string name="clock_faces_preview_unavailable">پیش‌نمایش در دسترس نیست</string>
+    <string name="clock_faces_failed">تغییر ساعت انجام نشد</string>
+    <string name="clock_faces_color_accent">لهجه</string>
+    <string name="clock_faces_color_custom">سفارشی</string>
+    <string name="clock_faces_color_album">جلد آلبوم</string>
+    <string name="clock_faces_color_gradient">گرادیان</string>
+    <string name="clock_faces_own_colors">این ظاهر رنگ‌های خودش را نگه می‌دارد.</string>
+    <string name="clock_faces_album_hint">هنگام پخش موسیقی، رنگش را از جلد آلبوم می‌گیرد.</string>
+    <string name="clock_faces_size_position">اندازه و موقعیت</string>
+    <string name="clock_faces_size_value">اندازه · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">فاصله از بالا</string>
+    <string name="clock_faces_top_value">فاصله از بالا · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">موقعیت افقی</string>
+    <string name="clock_faces_horizontal_center">موقعیت افقی · وسط</string>
+    <string name="clock_faces_horizontal_right">موقعیت افقی · <xliff:g id="dp" example="24">%1$d</xliff:g> dp به راست</string>
+    <string name="clock_faces_horizontal_left">موقعیت افقی · <xliff:g id="dp" example="24">%1$d</xliff:g> dp به چپ</string>
+    <string name="clock_faces_horizontal_fixed">این ظاهر در مرکز می‌ماند.</string>
+    <string name="clock_faces_opacity">کدورت</string>
+    <string name="clock_faces_opacity_value">کدری · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">حرکت</string>
+    <string name="clock_faces_wobble">لرزش هنگام شارژ</string>
+    <string name="clock_faces_wobble_summary">یک‌بار هنگام وصل شدن می‌پرد</string>
+    <string name="clock_faces_aod_anim">انتقال نمایش همیشه روشن</string>
+    <string name="clock_faces_aod_anim_summary">ساعت را کوچک و محو می‌کند تا به نمایش همیشه روشن برود</string>
+    <string name="clock_faces_restart_title">صفحه قفل راه‌اندازی مجدد شود؟</string>
+    <string name="clock_faces_restart_message">جابه‌جایی بین ساعت سیستم و ظاهرهای سفارشی، SystemUI را دوباره راه‌اندازی می‌کند. صفحه برای یک ثانیه تاریک می‌شود.</string>
+    <string name="clock_faces_note">پیش‌نمایش‌ها توسط SystemUI روی کاغذدیواری صفحه قفل کشیده می‌شوند. رنگ، اندازه و موقعیت بلافاصله صفحه قفل را تغییر می‌دهند.</string>
 </resources>

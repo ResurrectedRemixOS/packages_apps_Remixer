@@ -15,4 +15,54 @@
     <string name="looks_save_look">"సేవ్ చేయండి"</string>
     <string name="looks_custom_color">"అనుకూల రంగు"</string>
     <string name="looks_part_clock_color">"గడియారం రంగు"</string>
+    <string name="looks_title">లుక్‌లు</string>
+    <string name="looks_summary">మీ మొత్తం సెటప్, ఒక్క తాకుడులో</string>
+    <string name="looks_rr">RR లుక్‌లు</string>
+    <string name="looks_yours">మీ లుక్‌లు</string>
+    <string name="looks_none">ఇంకా ఏమీ సేవ్ కాలేదు</string>
+    <string name="looks_save">ప్రస్తుతాన్ని సేవ్ చేయండి</string>
+    <string name="looks_import_clipboard">క్లిప్‌బోర్డ్ నుండి</string>
+    <string name="looks_import_file">ఫైల్ నుండి</string>
+    <string name="looks_mine">నా లుక్</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> వర్తింపజేయబడింది</string>
+    <string name="looks_failed">అన్నింటినీ వర్తింపజేయడం సాధ్యపడలేదు</string>
+    <string name="looks_invalid">ఇది RR లుక్ కాదు</string>
+    <string name="looks_part_accent">యాక్సెంట్ రంగు</string>
+    <string name="looks_part_qs">QS శైలి</string>
+    <string name="looks_part_clock_face">లాక్ స్క్రీన్ క్లాక్ ఫేస్</string>
+    <string name="looks_part_clock_look">స్టేటస్‌ బార్‌ క్లాక్</string>
+    <string name="looks_part_edge">ఎడ్జ్ లైటింగ్</string>
+    <string name="looks_part_boot">బూట్ యానిమేషన్</string>
+    <string name="looks_part_haptics">Haptic Remix ప్యాటర్న్‌లు</string>
+    <string name="looks_saturation">సంతృప్తత <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">యాక్సెంట్</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>”ను షేర్ చేయండి</string>
+    <string name="looks_share_hint">మరో RR ఫోన్ కెమెరాతో స్కాన్ చేయండి, లేదా లుక్‌లు › దిగుమతి లో</string>
+    <string name="looks_share_file">ఫైల్‌ను షేర్ చేయండి</string>
+    <string name="looks_save_file">ఫైల్‌ను సేవ్ చేయండి</string>
+    <string name="looks_import_scan">QR కోడ్‌ను స్కాన్ చేయండి</string>
+    <string name="looks_import_title">లుక్‌ను దిగుమతి చేయండి</string>
+    <string name="looks_from_qr">QR కోడ్ నుండి</string>
+    <string name="looks_from_file">ఫైల్ నుండి</string>
+    <string name="looks_from_clipboard">క్లిప్‌బోర్డ్ నుండి</string>
+    <string name="looks_import_same">ఇది ఇప్పటికే మీ సెటప్‌తో సరిపోలుతోంది.</string>
+    <string name="looks_new">కొత్త లుక్</string>
+    <string name="looks_edit_title">లుక్‌ను సవరించండి</string>
+    <string name="looks_in_look">ఈ లుక్‌లో</string>
+    <string name="looks_not_included">ఈ లుక్‌లో లేదు</string>
+    <string name="looks_save_apply">సేవ్ చేసి వర్తింపజేయి</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” సేవ్ అయింది</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>”ను తొలగించాలా?</string>
+    <string name="looks_rr_wallpaper">RR వాల్‌పేపర్ <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">యాక్సెంట్ సంతృప్తత</string>
+    <string name="looks_part_clock_chip">స్టేటస్‌ బార్‌ క్లాక్ చిప్‌</string>
+    <string name="looks_part_edge_style">ఎడ్జ్ లైటింగ్ శైలి</string>
+    <string name="looks_scan_hint">లుక్ QR కోడ్‌పై కెమెరాను ఉంచండి</string>
+    <string name="looks_scan_failed">కెమెరాను తెరవలేకపోయాం</string>
+    <string name="look_roulette_title">లుక్ రౌలెట్</string>
+    <string-array name="look_roulette_entries">
+        <item>"ఆఫ్‌లో ఉంది"</item>
+        <item>ప్రతి అన్‌లాక్‌కు వేరే లుక్</item>
+        <item>ప్రతి రోజు వేరే లుక్</item>
+    </string-array>
 </resources>

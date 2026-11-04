@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Dettagli"</string>
     <string name="lockscreen_weather_location_title">"Posizione"</string>
+    <string name="lockscreen_weather_title">Meteo nella schermata di blocco</string>
+    <string name="lockscreen_weather_location_summary">Mostra il nome della città</string>
+    <string name="lockscreen_weather_text_title">Condizione</string>
+    <string name="lockscreen_weather_text_summary">Mostra la condizione, come Nuvoloso o Sereno</string>
+    <string name="lockscreen_weather_wind_title">Vento</string>
+    <string name="lockscreen_weather_wind_summary">Mostra velocità e direzione del vento</string>
+    <string name="lockscreen_weather_humidity_title">Umidità</string>
+    <string name="lockscreen_weather_humidity_summary">Mostra l\'umidità</string>
+    <string name="custom_clock_weather_title">Meteo sui quadranti dell\'orologio</string>
+    <string name="custom_clock_weather_summary">Mostra il meteo nei quadranti che hanno spazio per esso</string>
+    <string name="remixer_weather_service">Servizio meteo</string>
+    <string name="remixer_weather_page_summary">Meteo della schermata di blocco e cosa mostra</string>
 </resources>

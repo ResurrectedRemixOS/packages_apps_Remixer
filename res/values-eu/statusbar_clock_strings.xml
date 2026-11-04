@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Data"</string>
     <string name="sb_weather_category">"Eguraldia"</string>
+    <string name="sb_clock_category">Erlojua eta data</string>
+    <string name="sb_clock_bold_title">Erloju lodia</string>
+    <string name="sb_clock_bold_summary">Erakutsi egoera-barrako erlojua lodi</string>
+    <string name="sb_clock_period_separator_title">Periodo-bereizlea</string>
+    <string name="sb_clock_period_separator_summary">10.45 10:45 ordez</string>
+    <string name="sb_clock_date_position_title">Dataren posizioa</string>
+    <string name="sb_clock_date_style_title">Dataren letra-kasua</string>
+    <string name="sb_clock_date_format_title">Data-formatua</string>
+    <string name="sb_clock_chip_category">Erlojuaren atzealdea</string>
+    <string name="sb_clock_chip_title">Atzealdearen estiloa</string>
+    <string name="sb_clock_chip_start_title">Gradientearen hasiera</string>
+    <string name="sb_clock_chip_end_title">Gradientearen amaiera</string>
+    <string name="sb_clock_chip_angle_title">Gradientearen angelua</string>
+    <string name="sb_clock_chip_mask_title">Moztu ordua gradientetik</string>
+    <string name="sb_clock_chip_mask_summary">Gradientea digituen bidez agertzen da atzealdean ordez</string>
+    <string name="sb_weather_title">Eguraldia egoera-barran</string>
+    <string name="sb_weather_position_title">Posizioa</string>
+    <string name="status_bar_clock_rr_style_title">Erlojuaren itxura</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Lehenetsia"</item>
+        <item>Neoia</item>
+        <item>Banatuta</item>
+        <item>RR marka</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Pilatuta</item>
+        <item>Ikatza</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline ordu ondoan</string>
+    <string name="sb_clock_flatline_summary">RR-ren bihotz-taupada lerroa txipan: musikarekin taupadaka, jakinarazpen bat iristean gorantz doa</string>
 </resources>

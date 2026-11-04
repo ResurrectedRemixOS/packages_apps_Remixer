@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">En Look för varje Läge</string>
+    <string name="remix_modes_everyday">Vanlig Look</string>
+    <string name="remix_modes_everyday_summary">Återgår när inget Läge med en Look är på</string>
+    <string name="remix_modes_wallpaper">Bakgrunden följer Look</string>
+    <string name="remix_modes_wallpaper_summary">Ett Läge kan även ändra bakgrunden</string>
+    <string name="remix_modes_modes">Dina Lägen</string>
+    <string name="remix_modes_no_change">Ingen ändring</string>
+    <string name="remix_modes_none">Spara först en Look i Tema › Looks</string>
+    <string name="remix_modes_pick">Look för <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

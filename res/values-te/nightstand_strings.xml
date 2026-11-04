@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">ఎప్పుడు</string>
+    <string name="nightstand_title">నైట్‌స్టాండ్</string>
+    <string name="nightstand_summary">రాత్రిపూట ఛార్జర్‌పై ఉన్నప్పుడు ఆల్వేస్-ఆన్ డిస్‌ప్లేలో మసక బెడ్‌సైడ్ గడియారం</string>
+    <string-array name="nightstand_when_entries">
+        <item>"ఆఫ్‌లో ఉంది"</item>
+        <item>రాత్రి ఛార్జర్‌పై ఉన్నప్పుడు</item>
+        <item>ప్రతి రాత్రి, షెడ్యూల్ ప్రకారం</item>
+        <item>బెడ్‌టైమ్ మోడ్ ఆన్‌లో ఉన్నప్పుడు</item>
+    </string-array>
+    <string name="nightstand_from">రాత్రి మొదలవుతుంది</string>
+    <string name="nightstand_to">రాత్రి ముగుస్తుంది</string>
+    <string name="nightstand_brightness">ప్రకాశ పరిమితి</string>
+    <string name="nightstand_brightness_summary">నైట్‌స్టాండ్ ఆన్‌లో ఉన్నప్పుడు ఆల్వేస్-ఆన్ డిస్‌ప్లే ఎంత ప్రకాశవంతంగా ఉండవచ్చు</string>
+    <string name="nightstand_face">క్లాక్ ఫేస్</string>
+    <string name="nightstand_face_keep">ప్రస్తుత ఫేస్‌ను ఉంచండి</string>
+    <string name="nightstand_footer">నైట్‌స్టాండ్ నడుస్తున్నప్పుడు ఆల్వేస్-ఆన్ డిస్‌ప్లేను ఆన్ చేస్తుంది, తర్వాత దాన్ని తిరిగి ఉంచుతుంది. ఛార్జర్ తీసేస్తే, అలారం మోగితే లేదా రాత్రి ముగిస్తే ఇది ఆగుతుంది. ఫేస్ రెండు కస్టమ్ ఫేస్‌ల మధ్య మాత్రమే మారుతుంది; సిస్టమ్ గడియారం అలాగే ఉంటుంది.</string>
 </resources>

@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"Товч"</string>
     <string name="now_bar_text">"Мессеж илгээх"</string>
     <string name="now_bar_text_size">"Текстийн хэмжээ"</string>
+    <string name="now_bar_summary">Дэлгэцийн доод хэсэгт идэвхтэй үйл явдлууд</string>
+    <string name="now_bar_show">Харуулах</string>
+    <string name="now_bar_music">Хөгжим ба видео</string>
+    <string name="now_bar_timers">Таймер, секундомер ба сэрүүлэг</string>
+    <string name="now_bar_hide_call">Дуудлагын мэдэгдлийг нуух</string>
+    <string name="now_bar_hide_call_summary">Түгжээтэй дэлгэц дээр Now Bar-д байгаа дуудлагыг мэдэгдэл гэж дахин жагсаахгүй</string>
+    <string name="now_bar_live">Шинэчлэлтүүд</string>
+    <string name="now_bar_live_summary">Навигаци, аялал, хүргэлт, оноо</string>
+    <string name="now_bar_scores">Шууд оноо</string>
+    <string name="now_bar_live_apps">Шинэчлэлтийн аппууд</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> апп</string>
+    <string name="now_bar_pin">Байнгын дэлгэцэд бэхлэгдсэн</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g>-г бэхлэлтээс гаргах уу?</string>
+    <string name="now_bar_unpin">Бэхлэлтээс гаргах</string>
+    <string name="now_bar_scores_summary">At a Glance дахь дагасан тоглоомууд</string>
+    <string name="now_bar_recording">Дэлгэц ба дуу бичлэг</string>
+    <string name="now_bar_buds">Чихэвч ба цаг</string>
+    <string name="now_bar_buds_summary">Холбогдсон төхөөрөмжийн батерей: чихэвчний зүүн, баруун, кейс</string>
+    <string name="now_bar_wave">Долгионы хөдөлгөөн</string>
+    <string name="now_bar_aod">Байнгын дэлгэцэд харуулах</string>
+    <string name="now_bar_chip">Статус самбарын тэмдэг</string>
+    <string name="now_bar_chip_summary">Түгжээгүй үед цагны дэргэд тоглож буй хөгжим ба таймерыг харуулна</string>
+    <string name="now_bar_footer">Now Bar-д хөгжим тоглож байх үед том түгжээтэй дэлгэцийн тоглуулагч нуугдана. Үйл ажиллагаа солихын тулд самбарыг шудрах, хяналтыг нээхийн тулд товш, нэг үйл ажиллагааг дуусах хүртэл нуух бол удаан дар. Тоглуулж зогсоосон дууг самбараас шудрах замаар арилгана.\n\nШуурхай оноо нь Google аппад таны дагадаг багуудын тоглолтыг харуулна. Smartspacer-т спортын байнгийн зорилт нэмбэл оноо энд харагдана.</string>
+    <string name="now_bar_looks">Харагдацууд</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Өгөгдмөл"</item>
+        <item>Liquid Glass</item>
+        <item>Жижиг</item>
+        <item>Том</item>
+        <item>Неон</item>
+        <item>Шилэн карт</item>
+    </string-array>
+    <string name="now_bar_material">Материал</string>
+    <string name="now_bar_material_summary">Liquid Glass нь Загварт тохируулсан шилийг ашиглана</string>
+    <string-array name="now_bar_material_entries">
+        <item>Тогтмол</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Цомгийн зураг</item>
+        <item>Акцент</item>
+        <item>Бараан</item>
+    </string-array>
+    <string name="now_bar_opacity">Тунгалаг байдал</string>
+    <string name="now_bar_opacity_summary">Liquid Glass-д өнгө шилэнд хэр нөлөөлөхийг тохируулах</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Байхгүй"</item>
+        <item>Нимгэн</item>
+        <item>Акцент</item>
+    </string-array>
+    <string name="now_bar_shadow">Сүүдэр</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Унтраалттай"</item>
+        <item>Soft</item>
+        <item>Гэрэл</item>
+    </string-array>
+    <string name="now_bar_more">Бусад үйл явдлууд</string>
+    <string-array name="now_bar_more_entries">
+        <item>Зөвхөн шудрах</item>
+        <item>Цэгүүд</item>
+        <item>Ард харах</item>
+    </string-array>
+    <string name="now_bar_size">Хэмжээ ба хэлбэр</string>
+    <string name="now_bar_height">Өндөр</string>
+    <string name="now_bar_width_summary">Full нь товчлолуудыг самбарын дээр байрлуулна</string>
+    <string-array name="now_bar_width_entries">
+        <item>Нарийн</item>
+        <item>Товчлолуудын хооронд</item>
+        <item>Бүрэн</item>
+    </string-array>
+    <string name="now_bar_corners">Булан</string>
+    <string name="now_bar_raise">Өндөрлөх</string>
+    <string name="now_bar_art">Цомгийн зураг</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Хүрээлэл"</item>
+        <item>Дугуй</item>
+        <item>"Дөрвөлжин"</item>
+        <item>"Унтраалттай"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Алгасах ба тоглуулах</item>
+        <item>Зөвхөн тоглуулах</item>
+        <item>"Байхгүй"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Нэг мөр</item>
+        <item>Хоёр мөр</item>
+        <item>Зөвхөн дуу</item>
+    </string-array>
+    <string name="now_bar_show_page">Самбарт юу харагдах вэ</string>
+    <string name="now_bar_show_page_summary">Хөгжим ба видео, таймер, дуудлага болон бусад</string>
+    <string name="now_bar_where">Бусад газар</string>
 </resources>

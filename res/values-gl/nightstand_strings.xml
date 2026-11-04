@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">Cando</string>
+    <string name="nightstand_title">Mesita de noite</string>
+    <string name="nightstand_summary">Un reloxo de cabeceira tenue na pantalla sempre activa mentres carga de noite</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Desactivado"</item>
+        <item>Cargando de noite</item>
+        <item>Todas as noites, por horario</item>
+        <item>Mentres está activo un modo de hora de durmir</item>
+    </string-array>
+    <string name="nightstand_from">Comeza a noite</string>
+    <string name="nightstand_to">Remata a noite</string>
+    <string name="nightstand_brightness">Límite de brillo</string>
+    <string name="nightstand_brightness_summary">Canto brillo pode ter a pantalla sempre activa cando Mesita de noite está activa</string>
+    <string name="nightstand_face">Esfera do reloxo</string>
+    <string name="nightstand_face_keep">Manter a esfera actual</string>
+    <string name="nightstand_footer">Mesita de noite activa a pantalla sempre activa mentres funciona e despois restáurea. Remata cando se desconecta o cargador, soa a alarma ou acaba a noite. A esfera só alterna entre dúas esferas personalizadas; o reloxo do sistema mantense.</string>
 </resources>

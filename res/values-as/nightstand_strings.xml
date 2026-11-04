@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="nightstand_title">নাইটষ্টেণ্ড</string>
+    <string name="nightstand_summary">ৰাতি চাৰ্জাৰত থাকিলে সদায় অন ডিছপ্লেত এটা মলিন বিচনাৰ ঘড়ী</string>
+    <string name="nightstand_when">কেতিয়া</string>
+    <string-array name="nightstand_when_entries">
+        <item>"অফ আছে"</item>
+        <item>ৰাতি চাৰ্জাৰত থাকিলে</item>
+        <item>প্ৰতিদিনে, সময়সূচী অনুসাৰে</item>
+        <item>শয়ন মোড অন থকাৰ সময়ত</item>
+    </string-array>
+    <string name="nightstand_from">ৰাতি আৰম্ভ</string>
+    <string name="nightstand_to">ৰাতি শেষ</string>
+    <string name="nightstand_brightness">উজ্জ্বলতাৰ সীমা</string>
+    <string name="nightstand_brightness_summary">নাইটষ্টেণ্ড অন থাকিলে সদায় অন ডিছপ্লে কিমান উজ্জ্বল হ\'ব পাৰে</string>
+    <string name="nightstand_face">ঘড়ীৰ মুখ</string>
+    <string name="nightstand_face_keep">বৰ্তমানৰ মুখ ৰাখক</string>
+    <string name="nightstand_footer">নাইটষ্টেণ্ড চলি থকাৰ সময়ত সদায় অন ডিছপ্লে অন কৰে আৰু শেষত পুনৰ আগৰ অৱস্থালৈ ঘূৰাই দিয়ে। চাৰ্জাৰ আঁতৰালে, এলাৰ্ম বাজিলে বা ৰাতি শেষ হ\'লে ই বন্ধ হয়। মুখটোৱে কেৱল দুটা কাষ্টম মুখৰ মাজত সলনি হয়; ষ্টক ঘড়ী থাকে।</string>
 </resources>

@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">Nə vaxt</string>
+    <string name="nightstand_title">Gecə saatı</string>
+    <string name="nightstand_summary">Gecə şarj olarkən həmişə açıq ekranda sönük yataq otağı saatı</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Deaktiv"</item>
+        <item>Gecə şarj cihazında</item>
+        <item>Hər gecə, cədvəl üzrə</item>
+        <item>Yuxu rejimi aktiv olduqda</item>
+    </string-array>
+    <string name="nightstand_from">Gecə başlayır</string>
+    <string name="nightstand_to">Gecə bitir</string>
+    <string name="nightstand_brightness">Parlaqlıq həddi</string>
+    <string name="nightstand_brightness_summary">Gecə saatı aktiv olanda həmişə açıq ekranın ən çox nə qədər parlaq ola biləcəyi</string>
+    <string name="nightstand_face">Ciferblat</string>
+    <string name="nightstand_face_keep">Cari ciferblatı saxla</string>
+    <string name="nightstand_footer">Gecə saatı işlədiyi müddətdə həmişə açıq ekranı yandırır, sonra onu geri qaytarır. Şarj çıxarılanda, siqnal çalanda və ya gecə bitəndə dayanır. Ciferblat yalnız iki fərdi ciferblat arasında dəyişir; sistem saatı dəyişmir.</string>
 </resources>

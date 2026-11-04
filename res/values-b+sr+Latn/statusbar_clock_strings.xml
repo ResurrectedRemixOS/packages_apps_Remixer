@@ -2,4 +2,31 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Datum"</string>
     <string name="sb_weather_category">"Vreme"</string>
+    <string name="sb_clock_bold_title">Podebljan sat</string>
+    <string name="sb_clock_bold_summary">Prikaži sat u statusnoj traci podebljano</string>
+    <string name="sb_clock_period_separator_title">Razdvajač periode</string>
+    <string name="sb_clock_period_separator_summary">10.45 umesto 10:45</string>
+    <string name="sb_clock_date_style_title">Velika slova datuma</string>
+    <string name="sb_clock_chip_category">Pozadina sata</string>
+    <string name="sb_clock_chip_title">Stil pozadine</string>
+    <string name="sb_clock_chip_start_title">Početak gradijenta</string>
+    <string name="sb_clock_chip_end_title">Kraj gradijenta</string>
+    <string name="sb_clock_chip_angle_title">Ugao gradijenta</string>
+    <string name="sb_clock_chip_mask_title">Iseci vreme iz gradijenta</string>
+    <string name="sb_clock_chip_mask_summary">Gradijent se vidi kroz cifre umesto iza njih</string>
+    <string name="sb_weather_title">Vremenska prognoza u statusnoj traci</string>
+    <string name="status_bar_clock_rr_style_title">Izgled sata</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Podrazumevano"</item>
+        <item>Neon</item>
+        <item>Podeljen</item>
+        <item>RR znak</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Slagano</item>
+        <item>Žar</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline pored vremena</string>
+    <string name="sb_clock_flatline_summary">RR-ova linija otkucaja unutar čipa: otkucava uz muziku, skače kad stigne obaveštenje</string>
 </resources>

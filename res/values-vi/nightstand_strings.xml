@@ -2,4 +2,18 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Khi"</string>
     <string name="nightstand_face">Mặt đồng hồ</string>
+    <string name="nightstand_title">Chế độ đầu giường</string>
+    <string name="nightstand_summary">Đồng hồ đầu giường mờ trên màn hình luôn bật khi đang sạc vào ban đêm</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Đang tắt"</item>
+        <item>Đang sạc vào ban đêm</item>
+        <item>Mỗi đêm, theo lịch</item>
+        <item>Khi một chế độ Giờ đi ngủ đang bật</item>
+    </string-array>
+    <string name="nightstand_from">Bắt đầu ban đêm</string>
+    <string name="nightstand_to">Kết thúc ban đêm</string>
+    <string name="nightstand_brightness">Giới hạn độ sáng</string>
+    <string name="nightstand_brightness_summary">Độ sáng tối đa của màn hình luôn bật khi Chế độ đầu giường đang bật</string>
+    <string name="nightstand_face_keep">Giữ mặt hiện tại</string>
+    <string name="nightstand_footer">Chế độ đầu giường bật màn hình luôn bật khi đang chạy và tắt lại sau đó. Chế độ kết thúc khi rút sạc, chuông báo thức reo hoặc hết đêm. Mặt đồng hồ chỉ đổi giữa hai mặt tùy chỉnh; đồng hồ hệ thống vẫn giữ nguyên.</string>
 </resources>

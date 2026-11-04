@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Numatytasis"</string>
     <string name="clock_faces_size">"Dydis"</string>
     <string name="clock_faces_restart">"Paleisti iš naujo"</string>
+    <string name="remixer_clock_faces">Laikrodžio stiliai</string>
+    <string name="clock_faces_system">Sistemos laikrodis</string>
+    <string name="clock_faces_system_desc">Laikrodis iš Ekrano fono ir stiliaus</string>
+    <string name="clock_faces_position">%1$d iš %2$d</string>
+    <string name="clock_faces_applied">Pritaikyta</string>
+    <string name="clock_faces_preview_unavailable">Peržiūra nepasiekiama</string>
+    <string name="clock_faces_failed">Nepavyko pakeisti laikrodžio</string>
+    <string name="clock_faces_color_accent">Akcentas</string>
+    <string name="clock_faces_color_custom">Pasirinktinis</string>
+    <string name="clock_faces_color_album">Albumo viršelis</string>
+    <string name="clock_faces_color_gradient">Gradientas</string>
+    <string name="clock_faces_own_colors">Šis stilius išlaiko savo spalvas.</string>
+    <string name="clock_faces_album_hint">Groja muzika – spalvą perima iš albumo viršelio.</string>
+    <string name="clock_faces_size_position">Dydis ir padėtis</string>
+    <string name="clock_faces_size_value">Dydis · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Atstumas nuo viršaus</string>
+    <string name="clock_faces_top_value">Atstumas nuo viršaus · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Horizontali padėtis</string>
+    <string name="clock_faces_horizontal_center">Horizontali padėtis · Centras</string>
+    <string name="clock_faces_horizontal_right">Horizontali padėtis · <xliff:g id="dp" example="24">%1$d</xliff:g> dp dešinėn</string>
+    <string name="clock_faces_horizontal_left">Horizontali padėtis · <xliff:g id="dp" example="24">%1$d</xliff:g> dp kairėn</string>
+    <string name="clock_faces_horizontal_fixed">Šis stilius lieka centre.</string>
+    <string name="clock_faces_opacity">Nepermatomumas</string>
+    <string name="clock_faces_opacity_value">Nepermatomumas · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Judesys</string>
+    <string name="clock_faces_wobble">Įkrovimo metu svyravimas</string>
+    <string name="clock_faces_wobble_summary">Prijungus įkroviklį – vienas šuolis</string>
+    <string name="clock_faces_aod_anim">Perėjimas į visada įjungtą ekraną</string>
+    <string name="clock_faces_aod_anim_summary">Laikrodis susitraukia ir išblunka į visada įjungtą ekraną</string>
+    <string name="clock_faces_restart_title">Perkrauti užrakinimo ekraną?</string>
+    <string name="clock_faces_restart_message">Perjungiant tarp sistemos laikrodžio ir pasirinktinių stilių SystemUI bus paleista iš naujo. Ekranas sekundei užges.</string>
+    <string name="clock_faces_note">Peržiūras SystemUI piešia ant jūsų užrakinimo ekrano fono. Spalva, dydis ir padėtis iš karto pakeičia užrakinimo ekraną.</string>
 </resources>

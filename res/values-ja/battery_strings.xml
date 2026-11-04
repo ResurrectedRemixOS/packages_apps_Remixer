@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"バッテリー"</string>
     <string name="battery_style_title">"スタイル"</string>
+    <string-array name="battery_style_entries">
+        <item>縦向き</item>
+        <item>"サークル"</item>
+        <item>ドットのサークル</item>
+        <item>ネオン リング</item>
+        <item>スリム ピル</item>
+        <item>大きいパーセント表示</item>
+        <item>テキスト</item>
+    </string-array>
+    <string name="battery_percent_title">パーセント</string>
+    <string-array name="battery_percent_entries">
+        <item>表示しない</item>
+        <item>アイコンの中</item>
+        <item>その隣</item>
+    </string-array>
+    <string name="battery_ring_color_title">ネオン リングの色</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s。レベル別の場合、20%%を超えるとアクセントカラー、それ未満は赤、バッテリー セーバー時は黄色になります。</string>
+    <string-array name="battery_ring_color_entries">
+        <item>レベル別</item>
+        <item>アクセント</item>
+        <item>"白"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">充電中にスパーク表示</string>
+    <string name="battery_ring_tile_title">クイック設定タイルでも同じリングを表示</string>
+    <string name="battery_ring_tile_summary">残量と画面オン時間を表示</string>
 </resources>

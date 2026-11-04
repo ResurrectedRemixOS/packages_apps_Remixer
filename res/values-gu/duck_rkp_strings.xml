@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">ડિવાઇસ RKP વાપરો</string>
+    <string name="ts_rkp_enabled_summary">જનરેટ કરેલું કીબૉક્સ વાપરો. કીબૉક્સ આયાત કરવાથી આ બંધ થાય છે.</string>
+    <string name="ts_rkp_provision">કીબૉક્સ જનરેટ કરો</string>
+    <string name="ts_rkp_provision_summary">આ ડિવાઇસની પ્રોવિઝનિંગ સર્વિસ વડે Google પાસેથી કીબૉક્સની વિનંતી કરો. સુસંગત Qualcomm ફર્મવેર જરૂરી છે.</string>
+    <string name="ts_rkp_status">પ્રોવિઝનિંગ સ્થિતિ</string>
+    <string name="ts_rkp_owner_only">ડિવાઇસ ઓનરની પ્રોફાઇલ પરથી ડિવાઇસ RKP મેનેજ કરો</string>
+    <string name="ts_rkp_unavailable">ડિવાઇસ RKP ઉપલબ્ધ નથી</string>
+    <string name="ts_rkp_imported">આયાત કરેલું કીબૉક્સ ઇન્સ્ટૉલ હોય ત્યારે બંધ છે</string>
+    <string name="ts_rkp_disabled">બંધ છે. કીબૉક્સ વાપરવા અથવા જનરેટ કરવા માટે ડિવાઇસ RKP ચાલુ કરો.</string>
+    <string name="ts_rkp_idle">કીબૉક્સની વિનંતી કરવા માટે તૈયાર</string>
+    <string name="ts_rkp_fetching">પ્રોવિઝનિંગ ચૅલેન્જ મેળવી રહ્યા છીએ…</string>
+    <string name="ts_rkp_hardware">ડિવાઇસની પ્રોવિઝનિંગ સર્વિસની રાહ જોઈ રહ્યા છીએ…</string>
+    <string name="ts_rkp_signing">Google પાસેથી સર્ટિફિકેટ્સની વિનંતી કરી રહ્યા છીએ…</string>
+    <string name="ts_rkp_validating">કીબૉક્સ ચકાસી અને સાચવી રહ્યા છીએ…</string>
+    <string name="ts_rkp_ready">જનરેટ કરેલું કીબૉક્સ સક્રિય છે. %1$s પહેલાં આપમેળે નવીકરણ થશે</string>
+    <string name="ts_rkp_keybox_stored">ડિવાઇસ RKP કીબૉક્સ સંગ્રહાયું</string>
+    <string name="ts_rkp_expired">જનરેટ કરેલું કીબૉક્સ સમાપ્ત થયું. બદલી માટે નવું જનરેટ કરો.</string>
+    <string name="ts_rkp_hal_rejected">ફર્મવેરે વિનંતી નકારી (કોડ %1$d). Duck V1 સમર્થિત ન પણ હોય.</string>
+    <string name="ts_rkp_http_error">પ્રોવિઝનિંગ સર્વરે વિનંતી નકારી (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">ડિવાઇસ સુસંગત V1 પ્રોવિઝનિંગ ઇન્ટરફેસ ખુલ્લો પાડતું નથી</string>
+    <string name="ts_rkp_network_error">પ્રોવિઝનિંગ સર્વર સુધી પહોંચી શકાયું નથી. તમારું કનેક્શન તપાસો.</string>
+    <string name="ts_rkp_submission_unknown">સર્વરનો પ્રતિસાદ ખોવાઈ ગયો. વિનંતી પ્રોસેસ થઈ હોઈ શકે છે; આપમેળે ફરી પ્રયાસ કરાયો નથી.</string>
+    <string name="ts_rkp_invalid_chain">કીબૉક્સ સર્ટિફિકેટ્સ ચકાસણીમાં નિષ્ફળ. હાલનું કીબૉક્સ રાખવામાં આવ્યું.</string>
+    <string name="ts_rkp_timeout">પ્રોવિઝનિંગનો સમય પૂરો થયો. ડિવાઇસ સર્વિસ હજુ વ્યસ્ત હોય તો ફરી પ્રયાસ કરતા પહેલાં ડિવાઇસ રીસ્ટાર્ટ કરો.</string>
+    <string name="ts_rkp_canceled">કીબૉક્સ રૂપરેખાંકન બદલાવાથી વિનંતી રદ કરાઈ</string>
+    <string name="ts_rkp_save_failed">જનરેટ કરેલું કીબૉક્સ સાચવી શકાયું નહીં</string>
+    <string name="ts_rkp_action_failed">કીબૉક્સ કામગીરી પૂર્ણ કરી શકાઈ નહીં</string>
+</resources>

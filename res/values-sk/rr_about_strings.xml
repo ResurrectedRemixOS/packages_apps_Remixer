@@ -11,4 +11,23 @@
     <string name="rr_about_this_phone">"Tento telefón"</string>
     <string name="rr_about_network">"Sieť"</string>
     <string name="rr_about_hidden">Skryté</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Oficiálne</string>
+    <string name="rr_about_unofficial">Neoficiálne</string>
+    <string name="rr_about_vanilla">Čisté</string>
+    <string name="rr_about_hardware">Hardvér</string>
+    <string name="rr_about_processor">Procesor</string>
+    <string name="rr_about_processor_sub">%1$d jadier · až %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d jadier</string>
+    <string name="rr_about_storage_used">Použité: %1$s</string>
+    <string name="rr_about_display">Zobrazenie</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · Nabíja sa</string>
+    <string name="rr_about_kernel_linux">Jadro Linux</string>
+    <string name="rr_about_software_purpose">Verzia Androidu, bezpečnostná aktualizácia, dátum zostavenia a číslo zostavenia</string>
+    <string name="rr_about_security_patch">Bezpečnostná aktualizácia</string>
+    <string name="rr_about_maintainer">Správca</string>
+    <string name="rr_about_show">Zobraziť</string>
+    <string name="rr_about_hide">Skryť</string>
 </resources>

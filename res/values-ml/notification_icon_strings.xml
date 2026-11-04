@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="notification_icons_category">"ഐക്കണുകൾ"</string>
+    <string name="notification_app_icons_title">ആപ്പ് ഐക്കണുകൾ</string>
+    <string name="notification_app_icons_summary">അറിയിപ്പുകളിൽ ആപ്പിന്റെ ചെറിയ ചിഹ്നത്തിനു പകരം അതിന്റെ ഐക്കൺ കാണിക്കുക</string>
 </resources>

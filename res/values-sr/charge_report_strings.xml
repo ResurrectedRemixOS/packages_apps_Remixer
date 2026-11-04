@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Батерија"</string>
     <string name="charge_report_temp">"Температура"</string>
     <string name="charge_report_time">"Време"</string>
+    <string name="charge_report_title">Извештаји о пуњењу</string>
+    <string name="charge_report_summary">Sažetak svakog punjenja kada isključite punjač</string>
+    <string name="charge_report_min_title">Samo ako je dodao najmanje</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 dana</item>
+        <item>7 dana</item>
+        <item>14 dana</item>
+        <item>30 dana</item>
+    </string-array>
+    <string name="charge_report_history_days">Poslednjih <xliff:g id="days" example="7">%1$d</xliff:g> dana</string>
+    <string name="charge_report_today">Danas, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Juče, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> h <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Vati</string>
+    <string name="charge_report_added">Dodato</string>
+    <string name="charge_report_peak">Vrh</string>
+    <string name="charge_report_average">Prosek</string>
+    <string name="charge_report_max_temp">Maks. temp.</string>
+    <string name="charge_report_charger">Punjač</string>
+    <string name="charge_report_started">Počelo u</string>
+    <string name="charge_report_wired">Жичано</string>
+    <string name="charge_report_wireless">Бежично</string>
+    <string name="charge_report_dock">Постоље</string>
+    <string name="charge_report_empty">Još nema punjenja</string>
+    <string name="charge_report_footer">SystemUI čita trenutnu jačinu, napon i temperaturu baterije svakih 30 sekundi dok je priključen. Vati su ono što telefon meri, pa se mogu razlikovati od broja na punjaču. Izveštaji ostaju na telefonu; ništa se ne otprema.</string>
 </resources>

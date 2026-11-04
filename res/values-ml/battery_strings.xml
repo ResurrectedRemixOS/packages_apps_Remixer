@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"ബാറ്ററി"</string>
     <string name="battery_style_title">"സ്റ്റൈൽ"</string>
+    <string-array name="battery_style_entries">
+        <item>പോർട്രെയ്റ്റ്</item>
+        <item>"സർക്കിൾ"</item>
+        <item>ഡോട്ടഡ് വൃത്തം</item>
+        <item>നിയോൺ റിംഗ്</item>
+        <item>സ്ലിം പിൽ</item>
+        <item>വലിയ ശതമാനം</item>
+        <item>"ടെക്‌സ്റ്റ്"</item>
+    </string-array>
+    <string name="battery_percent_title">ശതമാനം</string>
+    <string-array name="battery_percent_entries">
+        <item>"മറച്ചത്"</item>
+        <item>ഐക്കണിനുള്ളിൽ</item>
+        <item>അതിനടുത്ത്</item>
+    </string-array>
+    <string name="battery_ring_color_title">നിയോൺ റിംഗ് നിറം</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. ലെവൽ അനുസരിച്ച് 20%% ന് മുകളിൽ ആക്സന്റ്, താഴെ ചുവപ്പ്, ബാറ്ററി സേവറിൽ ആമ്പർ.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>ലെവൽ അനുസരിച്ച്</item>
+        <item>ആക്സന്റ്</item>
+        <item>"വെളുപ്പ്"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">ചാർജ് ചെയ്യുമ്പോൾ തിളക്കം</string>
+    <string name="battery_ring_tile_title">ദ്രുത ക്രമീകരണ ടൈലിലും അതേ റിംഗ്</string>
+    <string name="battery_ring_tile_summary">ലെവലും സ്‌ക്രീൻ ഓണായ സമയവും സഹിതം</string>
 </resources>

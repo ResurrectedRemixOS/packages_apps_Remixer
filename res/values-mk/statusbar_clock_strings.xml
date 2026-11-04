@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Датум"</string>
     <string name="sb_weather_category">"Време"</string>
+    <string name="sb_clock_category">Часовник и датум</string>
+    <string name="sb_clock_bold_title">Подебел часовник</string>
+    <string name="sb_clock_bold_summary">Прикажи го часовникот во статусната лента подебело</string>
+    <string name="sb_clock_period_separator_title">Разделувач на периодот</string>
+    <string name="sb_clock_period_separator_summary">10.45 наместо 10:45</string>
+    <string name="sb_clock_date_position_title">Положба на датумот</string>
+    <string name="sb_clock_date_style_title">Нормализација на датумот</string>
+    <string name="sb_clock_date_format_title">Формат на датум</string>
+    <string name="sb_clock_chip_category">Позадина на часовникот</string>
+    <string name="sb_clock_chip_title">Стил на позадината</string>
+    <string name="sb_clock_chip_start_title">Почетна боја на градиентот</string>
+    <string name="sb_clock_chip_end_title">Крајна боја на градиентот</string>
+    <string name="sb_clock_chip_angle_title">Агол на градиентот</string>
+    <string name="sb_clock_chip_mask_title">Исечи го времето од градиентот</string>
+    <string name="sb_clock_chip_mask_summary">Градиентот се гледа низ цифрите наместо зад нив</string>
+    <string name="sb_weather_title">Временска прогноза во статусната лента</string>
+    <string name="sb_weather_position_title">Положба</string>
+    <string name="status_bar_clock_rr_style_title">Изглед на часовникот</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Стандардно"</item>
+        <item>Неон</item>
+        <item>Поделен</item>
+        <item>RR ознака</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Наредено</item>
+        <item>Жарен</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline покрај времето</string>
+    <string name="sb_clock_flatline_summary">Линијата на RR на откуцување во чипот: отчукува со музика, скока кога ќе пристигне известување</string>
 </resources>

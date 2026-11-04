@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Panel hlasitosti</string>
+    <string name="volume_page_summary">Neon, Sklo, Pilulka nebo Klasické RR</string>
+    <string name="volume_behavior">Chování</string>
+    <string name="volume_on_left_title">Panel vlevo</string>
+    <string name="volume_on_left_summary">Klasické RR je vždy nahoře</string>
+    <string name="volume_ringer_title">Tlačítko režimu zvonění</string>
+    <string name="volume_tick_title">Cvakni při posouvání</string>
+    <string name="volume_percent_title">Zobrazit úroveň v procentech</string>
+    <string name="volume_timeout_title">Skrýt po</string>
+    <string name="volume_footer">Vzhled mění jen vzhled panelu, ne jeho fungování. Android zachovává původní panel. Klepnutím na tečky zobrazíš všechny proudy; rozbalený panel používá stejný vzhled.</string>
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Isang Look para sa bawat Mode mo</string>
+    <string name="remix_modes_everyday">Pang-araw-araw na Look</string>
+    <string name="remix_modes_everyday_summary">Babalik kapag walang Mode na may Look na naka-on</string>
+    <string name="remix_modes_wallpaper">Sumusunod ang wallpaper sa Look</string>
+    <string name="remix_modes_wallpaper_summary">Maaari ring baguhin ng Mode ang wallpaper</string>
+    <string name="remix_modes_modes">Ang iyong mga Mode</string>
+    <string name="remix_modes_no_change">Walang pagbabago</string>
+    <string name="remix_modes_none">I-save muna ang isang Look sa Tema › Looks</string>
+    <string name="remix_modes_pick">Look para sa <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

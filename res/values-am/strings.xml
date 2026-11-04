@@ -84,4 +84,223 @@
     <string name="wallpaper_apply_lock">"ማያ ገጽ ቁልፍ"</string>
     <string name="remixer_settings_style_original">"የመጀመሪያው"</string>
     <string name="remixer_navbar_category">"የአሰሳ አሞሌ"</string>
+    <string name="remixer_dashboard_summary">ሁኔታ አሞሌ፣ ገፅታ፣ ማያ ገጽ ቁልፍ እና ሌሎችም</string>
+    <string name="rr_homepage_battery_saver">የባትሪ ቆጣቢ</string>
+    <string name="rr_homepage_personalize">ለግል ያብጁ</string>
+    <string name="rr_homepage_privacy">ግላዊነት እና ደህንነት</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> ነፃ</string>
+    <string name="rr_homepage_charged">ባትሪው ሙሉ ነው</string>
+    <string name="rr_homepage_on_battery">በባትሪ ላይ</string>
+    <string name="rr_homepage_saver_on">የባትሪ ቆጣቢ በርቷል</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> መሣሪያ</item>
+        <item quantity="two"><xliff:g id="count" example="2">%d</xliff:g> መሣሪያዎች</item>
+        <item quantity="few"><xliff:g id="count" example="2">%d</xliff:g> መሣሪያዎች</item>
+        <item quantity="many"><xliff:g id="count" example="2">%d</xliff:g> መሣሪያዎች</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> መሣሪያዎች</item>
+    </plurals>
+    <string name="rr_homepage_extras">ተጨማሪ ቅንብሮች</string>
+    <string name="rr_homepage_saver">ቆጣቢ</string>
+    <string name="rr_homepage_signed_out">አልገቡም</string>
+    <string name="rr_homepage_remixer_tagline">በእርስዎ መንገድ ያብጁት። ሁኔታ አሞሌ፣ ገፅታ፣ ማያ ገጽ ቁልፍ እና ሌሎችም።</string>
+    <string name="rr_homepage_device_tagline">የማንቂያ ተንሸራታች፣ ማሳያ፣ ቻርጅ እና GameBar።</string>
+    <string name="rr_homepage_device_action">አስተካክል</string>
+    <string name="rr_group_network">አውታረ መረብ እና መሣሪያዎች</string>
+    <string name="rr_group_network_summary">Wi‑Fi፣ ሞባይል፣ ብሉቱዝ</string>
+    <string name="rr_group_apps_summary">መተግበሪያዎች፣ ማሳወቂያዎች፣ ሁነታዎች</string>
+    <string name="rr_group_display">ማሳያ እና ድምፅ</string>
+    <string name="rr_group_display_summary">ማሳያ፣ ልጣፍ፣ ድምፅ</string>
+    <string name="rr_group_security_summary">መቆለፊያ፣ አካባቢ፣ ድንገተኛ</string>
+    <string name="rr_group_security_center">የደህንነት ማዕከል</string>
+    <string name="rr_group_accounts">Google እና መለያዎች</string>
+    <string name="rr_group_accounts_summary">Google፣ የይለፍ ቃላት፣ ምትኬ</string>
+    <string name="rr_group_accounts_plain_summary">የይለፍ ቃላት፣ መለያዎች፣ ምትኬ</string>
+    <string name="rr_group_system_summary">ቋንቋዎች፣ የእጅ ምልክቶች፣ ዝማኔዎች</string>
+    <string name="remixer_tagline">በእርስዎ መንገድ ያድርጉት።</string>
+    <string name="remixer_remix">ቀይሩት</string>
+    <string name="remixer_remixed">በ<xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g> ተቀይሯል</string>
+    <string name="remixer_chip_shade_default">ጥላ · ነባሪ</string>
+    <string name="remixer_quick">ፈጣን ለውጥ</string>
+    <string name="remixer_everything">ሁሉም</string>
+    <string name="remixer_quick_accents">ቅድመ-ዝግጅቶች ወይም ማንኛውም ቀለም</string>
+    <string name="remixer_quick_fonts">የስርዓት ቅርጸ-ቁምፊ ዘይቤዎች</string>
+    <string name="remixer_quick_walls">የRR ስብስብ</string>
+    <string name="remixer_quick_header">የQS ራስጌ</string>
+    <string name="remixer_quick_header_summary">የራስጌ ምስሎች</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">ሰዓት፣ ባትሪ፣ አዶዎች እና የአውታረ መረብ ትራፊክ</string>
+    <string name="remixer_qs_summary">የራስጌ ምስል</string>
+    <string name="remixer_notifications_summary">የጠርዝ ብርሃን፣ የመተግበሪያ አዶዎች እና የቻርጅ ድምፆች</string>
+    <string name="remixer_theme_summary">ቅርጸ-ቁምፊዎች፣ አክሰንቶች እና ልጣፎች</string>
+    <string name="remixer_lockscreen_summary">UDFPS፣ የቻርጅ መረጃ እና የአየር ሁኔታ</string>
+    <string name="remixer_udfps_icon">UDFPS አዶ</string>
+    <string name="remixer_udfps_icon_summary">በጣት አሻራ ዳሳሽ ላይ ይታያል</string>
+    <string name="remixer_udfps_animation">UDFPS እነማ</string>
+    <string name="remixer_udfps_animation_summary">ጣትዎ በዳሳሹ ላይ ሳለ ይጫወታል</string>
+    <string name="remixer_navigation">አሰሳ</string>
+    <string name="remixer_navigation_summary">Pulse፣ አዝራሮች እና የአሰሳ አሞሌ</string>
+    <string name="remixer_misc_summary">ድምፅ፣ ምትኬ፣ ማጭበርበር፣ ማሸብለል እና USB</string>
+    <string name="scroll_haptics_title">በማሸብለል መጨረሻ ላይ መታ ያድርጉ</string>
+    <string name="scroll_haptics_summary">ዝርዝር ወይም ገፅ ከዚህ በላይ መሄድ በማይችልበት ጊዜ ቀላል ንዝረት</string>
+    <string name="usb_mode_picker_title">የUSB ሁነታ መምረጫ</string>
+    <string name="usb_mode_picker_summary">ከኮምፒውተር ጋር ሲያገናኙ ሁነታ ይምረጡ</string>
+    <string name="remixer_fonts_summary">የስርዓት ቅርጸ-ቁምፊ</string>
+    <string name="remixer_wallpapers_summary">የResurrected Remix ልጣፎች</string>
+    <string name="remixer_accents">አክሰንቶች</string>
+    <string name="remixer_accents_summary">የአክሰንት ቀለም</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">ከታች በኩል ያለ የሙዚቃ ምስላዊ ማሳያ</string>
+    <string name="pulse_switch">Pulseን ተጠቀም</string>
+    <string name="pulse_switch_summary">ሚዲያ በሚጫወትበት ጊዜ ከታች ያሉ የሙዚቃ አሞሌዎች</string>
+    <string name="pulse_style_lines">መስመሮች</string>
+    <string name="pulse_style_fading">የሚደበዝዝ</string>
+    <string name="pulse_style_blocks">ብሎኮች</string>
+    <string name="pulse_style_mirror">መስታወት</string>
+    <string name="pulse_color_custom">ብጁ</string>
+    <string name="pulse_color_gradient">ቀስተ ደመና</string>
+    <string name="pulse_bars">አሞሌዎች</string>
+    <string name="pulse_bars_value">አሞሌዎች · %1$d</string>
+    <string name="pulse_height">ቁመት</string>
+    <string name="pulse_height_value">ቁመት · %1$d dp</string>
+    <string name="pulse_opacity">ግልጽነት</string>
+    <string name="pulse_opacity_value">ግልጽነት · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">ሙዚቃ በሚጫወትበት ጊዜ አሞሌዎቹን በማያ ገጽ ቁልፍ ላይ አቆይ</string>
+    <string name="pulse_failed">የPulse ቅንብሩን ማስቀመጥ አልተቻለም</string>
+    <string name="accent_applied">አክሰንቱ ተተግብሯል</string>
+    <string name="accent_current">አክሰንት · %1$s</string>
+    <string name="accent_current_custom">አክሰንት · ብጁ</string>
+    <string name="accent_preview_tonal">ቶናል</string>
+    <string name="accent_failed">ያንን አክሰንት መተግበር አልተቻለም</string>
+    <string name="accent_custom">ብጁ</string>
+    <string name="accent_custom_summary">ማንኛውም ቀለም ይሰራል። ጥላ አሁንም በላዩ ላይ ይተገበራል።</string>
+    <string name="accent_custom_pad">ሙሌት እና ብሩህነት</string>
+    <string name="accent_custom_use"><xliff:g id="color" example="#12B5A6">%1$s</xliff:g>ን ተጠቀም</string>
+    <string name="accent_shade">ጥላ</string>
+    <string name="accent_shade_darker">ጠቆር ያለ</string>
+    <string name="accent_shade_lighter">ቀለል ያለ</string>
+    <string name="accent_shade_darker_value">ጠቆር ያለ · %1$d</string>
+    <string name="accent_shade_lighter_value">ቀለል ያለ · %1$d</string>
+    <string name="remixer_qs_style">የQS ዘይቤ</string>
+    <string name="remixer_qs_style_preview">ቅድመ-እይታ · %1$s</string>
+    <string name="remixer_qs_style_note">ሁሉም ዘይቤዎች የአክሰንት ቀለምዎን ይከተላሉ። የድምፅ ፓነሉ ተመሳሳይ Bento፣ Shapes፣ Blueprint፣ Duo እና Soft ገፅታዎች አሉት። Stock Lineage የAndroid 17 ሰቆችን ሳይነካ ይተዋል።</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">የAndroid 17 ሰቆች፣ ሳይለወጡ</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">በአክሰንት ካርድ ውስጥ ብሩህነት። ሰቆች በአክሰንት ቅልመት ይሞላሉ</string>
+    <string name="remixer_qs_style_compact">የታመቀ</string>
+    <string name="remixer_qs_style_compact_summary">አጭር ሰቆች። በአንድ ማያ ብዙ ይገባሉ</string>
+    <string name="remixer_qs_style_glass">ብርጭቆ</string>
+    <string name="remixer_qs_style_glass_summary">ሲበራ በአክሰንትዎ የሚያበራ ግልጽ የተዘረዘሩ ሰቆች</string>
+    <string name="remixer_qs_style_circles">ክበቦች</string>
+    <string name="remixer_qs_style_circles_summary">በክብ መቀያየሪያዎች በመለያዎች። ሰፊ ሰቆች ወደ ካርዶች ይቀየራሉ</string>
+    <string name="remixer_qs_style_classic">ክላሲክ</string>
+    <string name="remixer_qs_style_classic_summary">የድሮው RR፦ ባዶ አዶዎች ከመለያዎች ጋር፣ አምስት በአንድ ረድፍ፣ ቀጭን ተንሸራታች</string>
+    <string name="remixer_qs_style_cards">ካርዶች</string>
+    <string name="remixer_qs_style_cards_summary">ከእያንዳንዱ ስም በታች ሁኔታ ያለባቸው ትልልቅ ካርዶች፣ በአንድ ረድፍ ሦስት</string>
+    <string name="remixer_qs_style_neon">ኒዮን</string>
+    <string name="remixer_qs_style_neon_summary">ሲበራ በአክሰንትዎ የሚያበራ የተዘረዘሩ ሰቆች</string>
+    <string name="remixer_qs_style_bento_summary">በአክሰንትዎ የተሞሉ ትልልቅ ክብ ብሎኮች፣ ትናንሾቹ ስር መለያዎች ያሏቸው</string>
+    <string name="remixer_qs_style_shapes">Shapes</string>
+    <string name="remixer_qs_style_shapes_summary">ሲበራ የሎብ ቅርጽ የሚያበቅሉ ክብ መቀያየሪያዎች፣ አምስት በአንድ ረድፍ</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">ቀጭን መስመሮች እና ሞኖስፔስ ካፒታሎች</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">የተከፈሉ ሰቆች። የአዶው ግማሽ ይበራል እና ይቀያየራል</string>
+    <string name="remixer_qs_style_soft">ለስላሳ</string>
+    <string name="remixer_qs_style_soft_summary">ሲበሩ ወደ ውስጥ የሚጫኑ ከፍ ያሉ ሰቆች</string>
+    <string name="remixer_lock_media_style">የሚዲያ ማጫወቻ ዘይቤ</string>
+    <string name="remixer_lock_media_same">ከፈጣን ቅንብሮች ጋር አንድ ነው</string>
+    <string name="remixer_lock_media_same_summary">የQS ሚዲያ ሰቅዎን ይከተላል፣ አሁን %1$s</string>
+    <string name="remixer_lock_media_off_summary">በማያ ገጽ ቁልፉ ላይ ማጫወቻ የለም</string>
+    <string name="remixer_lock_media_note">ሙዚቃ በሚጫወትበት ጊዜ ካርዱ በማያ ገጽ ቁልፉ ላይ ይታያል። ግልጽ ዘይቤዎች በልጣፍዎ ላይ ማንበብ እንዲቻል ጨለማ ዳራ ያገኛሉ።</string>
+    <string name="remixer_lock_media_stock_summary">የአልበም ሥዕል ካርዱን ይሞላል</string>
+    <string name="remixer_lock_media_remix_summary">ጨለማ ካርድ፣ የአክሰንት ማጫወቻ አዝራር</string>
+    <string name="remixer_lock_media_compact_summary">ይበልጥ የተጠጋጋ ካርድ፣ ክብ ሥዕል</string>
+    <string name="remixer_lock_media_glass_summary">የተዘረዘረ ግልጽ ካርድ</string>
+    <string name="remixer_lock_media_circles_summary">ለስላሳ ካርድ፣ የአክሰንት ማጫወቻ አዝራር</string>
+    <string name="remixer_lock_media_classic_summary">ይበልጥ ካሬ ካርድ፣ የተዘረዘረ ማጫወቻ አዝራር</string>
+    <string name="remixer_lock_media_cards_summary">ለስላሳ ካርድ፣ የአክሰንት ማጫወቻ አዝራር፣ ልክ እንደ ክበቦች</string>
+    <string name="remixer_lock_media_neon_summary">ጥቁር ካርድ በአክሰንት ዝርዝር</string>
+    <string name="remixer_lock_media_bento_summary">ለስላሳ ካርድ፣ የአክሰንት ማጫወቻ አዝራር</string>
+    <string name="remixer_lock_media_shapes_summary">ይበልጥ የተጠጋጋ ካርድ፣ የአክሰንት ማጫወቻ አዝራር</string>
+    <string name="remixer_lock_media_blueprint_summary">ቀጭን መስመር ዝርዝር፣ የተዘረዘረ ማጫወቻ አዝራር</string>
+    <string name="remixer_lock_media_duo_summary">ባለ ሁለት ቀለም ካርድ፣ የአክሰንት ማጫወቻ አዝራር</string>
+    <string name="remixer_lock_media_soft_summary">ከፍ ያለ ካርድ በተቆረጠ ጠርዝ</string>
+    <string name="remixer_headers">የራስጌ ምስል</string>
+    <string name="remixer_headers_summary">ለፈጣን ቅንብሮች የዳራ ምስል ይምረጡ</string>
+    <string name="header_switch">የራስጌ ምስል ተጠቀም</string>
+    <string name="header_switch_summary">ከፈጣን ቅንብሮች ጀርባ ስዕል አሳይ</string>
+    <string name="header_source">ምንጭ</string>
+    <string name="header_source_collection">ስብስብ</string>
+    <string name="header_collections_summary_daylight">ራስጌው በቀኑ ሰዓት ይለወጣል ወይም ከስብስቡ ይሽከረከራል</string>
+    <string name="header_collections_summary_static">ስብስብ ይክፈቱ፣ ከዚያ ምስል ይንኩ ለመጠቀም</string>
+    <string name="header_collections_empty">ምንም የራስጌ ስብስብ አልተጫነም</string>
+    <string name="header_images_daylight">በዚህ ስብስብ ውስጥ</string>
+    <plurals name="header_image_count">
+        <item quantity="one">%d ምስል</item>
+        <item quantity="two">%d ምስሎች</item>
+        <item quantity="few">%d ምስሎች</item>
+        <item quantity="many">%d ምስሎች</item>
+        <item quantity="other">%d ምስሎች</item>
+    </plurals>
+    <string name="header_photo_summary">ከጋለሪዎ ማንኛውም ፎቶ ወይም እነማ GIF</string>
+    <string name="header_height">ቁመት</string>
+    <string name="header_height_value">ቁመት · %1$d dp</string>
+    <string name="header_shadow">ዝቅ ያለ</string>
+    <string name="header_shadow_value">ዝቅ ያለ · %1$d%%</string>
+    <string name="header_failed">ያንን የራስጌ ቅንብር ማስቀመጥ አልተቻለም</string>
+    <string name="remixer_weather_summary">የአየር ሁኔታ አገልግሎት እና ክፍሎች</string>
+    <string name="font_preview_notification">ስልክዎ ይህንን እንደዚህ ያነባል።</string>
+    <string name="font_try_text">የራስዎን ጽሑፍ ይሞክሩ</string>
+    <string name="font_previewing">ቅድመ-እይታ</string>
+    <string name="font_current">አሁን ያለው ቅርጸ-ቁምፊ</string>
+    <string name="font_badge_current">አሁን ያለ</string>
+    <string name="font_apply_done">ተተግብሯል</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">ማሳያ</string>
+    <string name="font_filter_script">ስክሪፕት</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">ቅርጸ-ቁምፊው ተተግብሯል</string>
+    <string name="font_failed">ቅርጸ-ቁምፊውን መተግበር አልተቻለም</string>
+    <string name="wallpaper_set">ልጣፉ ተዘጋጅቷል</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">ከResurrected Remix የ%d ልጣፍ። ለቅድመ-እይታ አንዱን ይንኩ።</item>
+        <item quantity="two">ከResurrected Remix የ%d ልጣፎች። ለቅድመ-እይታ አንዱን ይንኩ።</item>
+        <item quantity="few">ከResurrected Remix የ%d ልጣፎች። ለቅድመ-እይታ አንዱን ይንኩ።</item>
+        <item quantity="many">ከResurrected Remix የ%d ልጣፎች። ለቅድመ-እይታ አንዱን ይንኩ።</item>
+        <item quantity="other">ከResurrected Remix የ%d ልጣፎች። ለቅድመ-እይታ አንዱን ይንኩ።</item>
+    </plurals>
+    <string name="wallpaper_apply_both">ሁለቱም</string>
+    <string name="wallpaper_failed">ያንን ልጣፍ ማዘጋጀት አልተቻለም</string>
+    <string name="missing_app">ያ መተግበሪያ አልተጫነም</string>
+    <string name="remixer_spoofing">ማጭበርበር</string>
+    <string name="remixer_spoofing_summary">Play Integrity፣ የመሣሪያ ማንነት እና በመተግበሪያ ማጭበርበር</string>
+    <string name="remixer_settings_style">የቅንብሮች ዘይቤ</string>
+    <string name="rr_maintainer">ጠባቂ</string>
+    <string name="remixer_navbar_summary">የPill ርዝመት፣ ውፍረት እና አቀማመጥ</string>
+    <string name="remixer_navbar_pill_length">የእጅ ምልክት Pill ርዝመት</string>
+    <string name="remixer_navbar_pill_thickness">የእጅ ምልክት Pill ውፍረት</string>
+    <string name="remixer_navbar_pill_auto_hide">የእጅ ምልክት Pillን ደብዝዝ</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Pillን ከጥቂት ሰከንዶች በኋላ ደብቅ፤ ማያውን ሲነኩ ይመለሳል</string>
+    <string name="remixer_navbar_ime">የቁልፍ ሰሌዳ አዝራሮች</string>
+    <string name="remixer_navbar_ime_summary">ከቁልፍ ሰሌዳው በታች የኋላ እና የቁልፍ ሰሌዳ መቀያየሪያ አዝራሮችን አሳይ</string>
+    <string name="remixer_navbar_layout">የአዝራር አቀማመጥ</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>አጭር</item>
+        <item>መደበኛ</item>
+        <item>ረጅም</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>እጅግ ቀጭኑ</item>
+        <item>ቀጭን</item>
+        <item>ቀጭን</item>
+        <item>መደበኛ</item>
+        <item>ወፍራም</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>መደበኛ</item>
+        <item>የታመቀ</item>
+        <item>"ወደ ግራ ያዘነበለ"</item>
+        <item>"ወደ ቀኝ ያዘነበለ"</item>
+    </string-array>
 </resources>

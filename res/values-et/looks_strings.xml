@@ -15,4 +15,54 @@
     <string name="looks_save_look">"Salvesta"</string>
     <string name="looks_custom_color">"Kohandatud värv"</string>
     <string name="looks_part_clock_color">"Kella värv"</string>
+    <string name="looks_title">Vaated</string>
+    <string name="looks_summary">Kogu seadistus ühe puudutusega</string>
+    <string name="looks_rr">RR vaated</string>
+    <string name="looks_yours">Sinu vaated</string>
+    <string name="looks_none">Salvestatud pole veel midagi</string>
+    <string name="looks_save">Salvesta praegune</string>
+    <string name="looks_import_clipboard">Lõikepuvrist</string>
+    <string name="looks_import_file">Failist</string>
+    <string name="looks_mine">Minu vaade</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> rakendatud</string>
+    <string name="looks_failed">Kõike ei õnnestunud rakendada</string>
+    <string name="looks_invalid">See pole RR-vaade</string>
+    <string name="looks_part_qs">Kiirseadete stiil</string>
+    <string name="looks_part_clock_face">Lukustuskuva kellavorm</string>
+    <string name="looks_part_font">Font</string>
+    <string name="looks_part_clock_look">Olekuriba kell</string>
+    <string name="looks_part_edge">Serva valgustus</string>
+    <string name="looks_part_boot">Käivitusanimatsioon</string>
+    <string name="looks_part_haptics">Haptic Remixi mustrid</string>
+    <string name="looks_saturation">Küllastus <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Aktsent</string>
+    <string name="looks_share_title">Jaga „<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">Skanni teise RR-telefoni kaameraga või vaadetes › Impordi</string>
+    <string name="looks_share_file">Jaga faili</string>
+    <string name="looks_save_file">Salvesta fail</string>
+    <string name="looks_import_scan">Skanni QR-kood</string>
+    <string name="looks_import_title">Impordi vaade</string>
+    <string name="looks_from_qr">QR-koodist</string>
+    <string name="looks_from_file">failist</string>
+    <string name="looks_from_clipboard">lõikepuhvrist</string>
+    <string name="looks_import_same">See vastab juba sinu seadistusele.</string>
+    <string name="looks_new">Uus vaade</string>
+    <string name="looks_edit_title">Muuda vaadet</string>
+    <string name="looks_in_look">Selles vaates</string>
+    <string name="looks_not_included">Mitte selles vaates</string>
+    <string name="looks_save_apply">Salvesta ja rakenda</string>
+    <string name="looks_saved">„<xliff:g id="name" example="Sunday">%1$s</xliff:g>” salvestatud</string>
+    <string name="looks_delete_confirm">Kas kustutada „<xliff:g id="name" example="Sunday">%1$s</xliff:g>”?</string>
+    <string name="looks_rr_wallpaper">RR taustapilt <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Aktsendi küllastus</string>
+    <string name="looks_part_clock_chip">Olekuriba kellaaja silt</string>
+    <string name="looks_part_edge_style">Serva valgustuse stiil</string>
+    <string name="looks_scan_hint">Suuna kaamera vaate QR-koodile</string>
+    <string name="looks_scan_failed">Kaamerat ei õnnestunud avada</string>
+    <string name="look_roulette_title">Vaate rulett</string>
+    <string-array name="look_roulette_entries">
+        <item>"Väljas"</item>
+        <item>Iga lukustuse korral teine vaade</item>
+        <item>Iga päev teine vaade</item>
+    </string-array>
 </resources>

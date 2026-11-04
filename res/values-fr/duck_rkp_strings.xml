@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Utiliser la RKP de l\'appareil</string>
+    <string name="ts_rkp_enabled_summary">Utilise une keybox générée. Importer une keybox désactive cette option.</string>
+    <string name="ts_rkp_provision">Générer une keybox</string>
+    <string name="ts_rkp_provision_summary">Demander une keybox à Google via le service de provisionnement de cet appareil. Nécessite un micrologiciel Qualcomm compatible.</string>
+    <string name="ts_rkp_status">État du provisionnement</string>
+    <string name="ts_rkp_owner_only">Gérer la RKP de l\'appareil depuis le profil du propriétaire</string>
+    <string name="ts_rkp_unavailable">La RKP de l\'appareil est indisponible</string>
+    <string name="ts_rkp_imported">Désactivé pendant qu\'une keybox importée est installée</string>
+    <string name="ts_rkp_disabled">Désactivée. Activez la RKP de l\'appareil pour utiliser ou générer une keybox.</string>
+    <string name="ts_rkp_idle">Prêt à demander une keybox</string>
+    <string name="ts_rkp_fetching">Obtention d\'un défi de provisionnement…</string>
+    <string name="ts_rkp_hardware">En attente du service de provisionnement de l\'appareil…</string>
+    <string name="ts_rkp_signing">Demande de certificats à Google…</string>
+    <string name="ts_rkp_validating">Validation et enregistrement de la keybox…</string>
+    <string name="ts_rkp_ready">Keybox générée active. Renouvellement automatique avant %1$s</string>
+    <string name="ts_rkp_keybox_stored">Keybox RKP de l\'appareil enregistrée</string>
+    <string name="ts_rkp_expired">Keybox générée expirée. Générez un remplacement.</string>
+    <string name="ts_rkp_hal_rejected">Le micrologiciel a rejeté la requête (code %1$d). Duck V1 n\'est peut-être pas pris en charge.</string>
+    <string name="ts_rkp_http_error">Le serveur de provisionnement a rejeté la requête (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">L\'appareil n\'expose pas d\'interface de provisionnement V1 compatible</string>
+    <string name="ts_rkp_network_error">Impossible de joindre le serveur de provisionnement. Vérifiez votre connexion.</string>
+    <string name="ts_rkp_submission_unknown">La réponse du serveur a été perdue. La requête a peut-être été traitée ; aucune nouvelle tentative automatique n\'a été effectuée.</string>
+    <string name="ts_rkp_invalid_chain">La validation des certificats de la keybox a échoué. La keybox existante a été conservée.</string>
+    <string name="ts_rkp_timeout">Le provisionnement a expiré. Si le service de l\'appareil est toujours occupé, redémarrez l\'appareil avant de réessayer.</string>
+    <string name="ts_rkp_canceled">Requête annulée car la configuration de la keybox a changé</string>
+    <string name="ts_rkp_save_failed">Impossible d\'enregistrer la keybox générée</string>
+    <string name="ts_rkp_action_failed">Impossible de terminer l\'opération sur la keybox</string>
+</resources>

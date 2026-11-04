@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Акумулятар"</string>
     <string name="charge_report_temp">"Тэмпература"</string>
     <string name="charge_report_time">"Час"</string>
+    <string name="charge_report_title">Справаздачы аб зарадцы</string>
+    <string name="charge_report_summary">Падсумаванне кожнай зарадкі пры адключэнні</string>
+    <string name="charge_report_min_title">Толькі калі дадала не менш</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 дні</item>
+        <item>7 дзён</item>
+        <item>14 дзён</item>
+        <item>30 дзён</item>
+    </string-array>
+    <string name="charge_report_history_days">Апошнія <xliff:g id="days" example="7">%1$d</xliff:g> дзён</string>
+    <string name="charge_report_today">Сёння, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Учора, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> хв</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> г <xliff:g id="minutes" example="02">%2$02d</xliff:g> хв</string>
+    <string name="charge_report_watts">Ват</string>
+    <string name="charge_report_added">Дададзена</string>
+    <string name="charge_report_peak">Пік</string>
+    <string name="charge_report_average">Сярэдняе</string>
+    <string name="charge_report_max_temp">Макс. тэмп.</string>
+    <string name="charge_report_charger">Зарадка</string>
+    <string name="charge_report_started">Пачалося ў</string>
+    <string name="charge_report_wired">Провадная</string>
+    <string name="charge_report_wireless">Бесправадная</string>
+    <string name="charge_report_dock">Док-станцыя</string>
+    <string name="charge_report_empty">Зарадак пакуль няма</string>
+    <string name="charge_report_footer">SystemUI чытае бягучую сілу току, напружанне і тэмпературу батарэі кожныя 30 секунд, пакуль тэлефон падключаны. Ват — гэта тое, што вымярае тэлефон, таму яны могуць адрознівацца ад лічбы на зараднай прыладзе. Справаздачы застаюцца на тэлефоне; нічога не загружаецца.</string>
 </resources>

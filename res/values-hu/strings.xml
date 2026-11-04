@@ -91,4 +91,207 @@
     <string name="remixer_settings_style">a Beállítások stílusa</string>
     <string name="remixer_settings_style_original">"Eredeti"</string>
     <string name="remixer_navbar_category">"Navigációs sáv"</string>
+    <string name="remixer_dashboard_summary">Állapotsor, téma, lezárási képernyő és egyebek</string>
+    <string name="rr_homepage_battery_saver">Akkumulátorkímélő</string>
+    <string name="rr_homepage_personalize">Személyre szabás</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> szabad</string>
+    <string name="rr_homepage_charged">Teljesen feltöltve</string>
+    <string name="rr_homepage_on_battery">Akkumulátoron</string>
+    <string name="rr_homepage_saver_on">Akkumulátorkímélő bekapcsolva</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> eszköz</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> eszköz</item>
+    </plurals>
+    <string name="rr_homepage_extras">További beállítások</string>
+    <string name="rr_homepage_saver">Kímélő</string>
+    <string name="rr_homepage_signed_out">Nincs bejelentkezve</string>
+    <string name="rr_homepage_remixer_tagline">Alakítsd a saját képedre. Állapotsor, téma, lezárási képernyő és egyebek.</string>
+    <string name="rr_homepage_device_tagline">Csengőkapcsoló, kijelző, töltés és GameBar.</string>
+    <string name="rr_homepage_device_action">Hangold be</string>
+    <string name="rr_group_network">Hálózat és eszközök</string>
+    <string name="rr_group_network_summary">Wi‑Fi, mobil, Bluetooth</string>
+    <string name="rr_group_apps_summary">Alkalmazások, értesítések, módok</string>
+    <string name="rr_group_display">Kijelző és hang</string>
+    <string name="rr_group_display_summary">Kijelző, háttérkép, hang</string>
+    <string name="rr_group_security_summary">Zárolás, helyadatok, vészhelyzet</string>
+    <string name="rr_group_security_center">Biztonsági központ</string>
+    <string name="rr_group_accounts">Google és fiókok</string>
+    <string name="rr_group_accounts_summary">Google, jelszavak, biztonsági mentés</string>
+    <string name="rr_group_accounts_plain_summary">Jelszavak, fiókok, biztonsági mentés</string>
+    <string name="rr_group_system_summary">Nyelvek, kézmozdulatok, frissítések</string>
+    <string name="remixer_tagline">Alakítsd a saját képedre.</string>
+    <string name="remixer_remix">Remixeld</string>
+    <string name="remixer_remixed">Remixelve ezzel: <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Árnyalat · Alapértelmezett</string>
+    <string name="remixer_quick">Gyors remix</string>
+    <string name="remixer_everything">Minden</string>
+    <string name="remixer_quick_accents">Előre beállított vagy bármely szín</string>
+    <string name="remixer_quick_fonts">Rendszer betűtípus-stílusok</string>
+    <string name="remixer_quick_walls">RR gyűjtemény</string>
+    <string name="remixer_quick_header">Gyorsbeállítások fejléc</string>
+    <string name="remixer_quick_header_summary">Fejléc képek</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Óra, akkumulátor, ikonok és hálózati forgalom</string>
+    <string name="remixer_qs_summary">Fejléc kép</string>
+    <string name="remixer_notifications_summary">Szélvilágítás, alkalmazásikonok és töltőhangok</string>
+    <string name="remixer_theme_summary">Betűtípusok, kiemelőszínek és háttérképek</string>
+    <string name="remixer_lockscreen_summary">UDFPS, töltési információ és időjárás</string>
+    <string name="remixer_udfps_icon_summary">Az ujjlenyomat-érzékelő felett jelenik meg</string>
+    <string name="remixer_udfps_animation_summary">Akkor játszik le, amikor az ujjad az érzékelőn van</string>
+    <string name="remixer_navigation_summary">Pulzus, gombok és navigációs sáv</string>
+    <string name="remixer_misc_summary">Hangerő, biztonsági mentés, hamisítás, görgetés és USB</string>
+    <string name="scroll_haptics_title">Koppintás görgetés végén</string>
+    <string name="scroll_haptics_summary">Enyhe rezgés, ha egy lista vagy oldal nem tud tovább görgetni</string>
+    <string name="usb_mode_picker_title">USB-mód választó</string>
+    <string name="usb_mode_picker_summary">Válassz módot, amikor számítógéphez csatlakoztatod</string>
+    <string name="remixer_fonts_summary">Rendszer betűtípus</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix háttérképek</string>
+    <string name="remixer_accents">Kiemelőszínek</string>
+    <string name="remixer_pulse">Pulzus</string>
+    <string name="remixer_pulse_summary">Zenei vizualizáció a képernyő alján</string>
+    <string name="pulse_switch">Pulzus használata</string>
+    <string name="pulse_switch_summary">Zenei sávok a képernyő alján, miközben médialejátszás fut</string>
+    <string name="pulse_style_lines">Vonalak</string>
+    <string name="pulse_style_fading">Elhalványuló</string>
+    <string name="pulse_style_blocks">Blokkok</string>
+    <string name="pulse_style_mirror">Tükör</string>
+    <string name="pulse_color_custom">Egyéni</string>
+    <string name="pulse_color_gradient">Szivárvány</string>
+    <string name="pulse_bars">Sávok</string>
+    <string name="pulse_bars_value">Sávok · %1$d</string>
+    <string name="pulse_height">Magasság</string>
+    <string name="pulse_height_value">Magasság · %1$d dp</string>
+    <string name="pulse_opacity">Átlátszatlanság</string>
+    <string name="pulse_opacity_value">Átlátszatlanság · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Sávok megtartása a lezárási képernyőn zenelejátszás közben</string>
+    <string name="pulse_failed">Ezt a pulzus-beállítást nem sikerült menteni</string>
+    <string name="accent_applied">Kiemelőszín alkalmazva</string>
+    <string name="accent_current">Kiemelőszín · %1$s</string>
+    <string name="accent_current_custom">Kiemelőszín · Egyéni</string>
+    <string name="accent_preview_tonal">Tónusos</string>
+    <string name="accent_failed">Ezt a kiemelőszínt nem sikerült alkalmazni</string>
+    <string name="accent_custom">Egyéni</string>
+    <string name="accent_custom_summary">Bármilyen szín működik. Az árnyalat továbbra is ráalkalmazódik.</string>
+    <string name="accent_custom_pad">Telítettség és fényerő</string>
+    <string name="accent_custom_use"><xliff:g id="color" example="#12B5A6">%1$s</xliff:g> használata</string>
+    <string name="accent_shade">Árnyalat</string>
+    <string name="accent_shade_darker">Sötétebb</string>
+    <string name="accent_shade_lighter">Világosabb</string>
+    <string name="accent_shade_darker_value">Sötétebb · %1$d</string>
+    <string name="accent_shade_lighter_value">Világosabb · %1$d</string>
+    <string name="remixer_qs_style">Gyorsbeállítások stílusa</string>
+    <string name="remixer_qs_style_preview">Előnézet · %1$s</string>
+    <string name="remixer_qs_style_note">Minden stílus követi a kiemelőszínt. A hangerőpanelnek is van hozzá illő Bento, Shapes, Blueprint, Duo és Soft megjelenése. A Stock Lineage megtartja az Android 17 mozaikjait változatlanul.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Az Android 17 mozaikjai, változatlanul</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Fényerő kiemelőszíněs kártyán. A mozaikok kiemelőszín-átmenettel telnek meg</string>
+    <string name="remixer_qs_style_compact">Kompakt</string>
+    <string name="remixer_qs_style_compact_summary">Rövidebb mozaikok. Több fér el egy képernyőn</string>
+    <string name="remixer_qs_style_glass">Üveg</string>
+    <string name="remixer_qs_style_glass_summary">Áttetsző, körvonalas mozaikok, amelyek bekapcsolva kiemelőszínnel izzanak</string>
+    <string name="remixer_qs_style_circles">Körök</string>
+    <string name="remixer_qs_style_circles_summary">Kerek kapcsolók címkékkel. A széles mozaikok kártyákká válnak</string>
+    <string name="remixer_qs_style_classic">Klasszikus</string>
+    <string name="remixer_qs_style_classic_summary">Régi RR: csupasz ikonok címkékkel, öt egymás mellett, vékony csúszkával</string>
+    <string name="remixer_qs_style_cards">Kártyák</string>
+    <string name="remixer_qs_style_cards_summary">Nagy kártyák, az állapot minden név alatt, három egymás mellett</string>
+    <string name="remixer_qs_style_neon">Neon</string>
+    <string name="remixer_qs_style_neon_summary">Körvonalas mozaikok, amelyek bekapcsolva kiemelőszínnel izzanak</string>
+    <string name="remixer_qs_style_bento_summary">Nagy, lekerekített blokkok kiemelőszínnel kitöltve, a kicsiknél címkék alul</string>
+    <string name="remixer_qs_style_shapes">Alakzatok</string>
+    <string name="remixer_qs_style_shapes_summary">Kerek kapcsolók, amelyek bekapcsolva lebenyeket növesztenek, öt egymás mellett</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Haj szálvékony körvonalak és nagybetűs monospace felirat</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Osztott mozaikok. Az ikon fele világít fel és kapcsol</string>
+    <string name="remixer_qs_style_soft">Soft</string>
+    <string name="remixer_qs_style_soft_summary">Kiemelkedő mozaikok, amelyek bekapcsolva benyomódnak</string>
+    <string name="remixer_lock_media_style">Médialejátszó stílusa</string>
+    <string name="remixer_lock_media_same">Megegyezik a Gyorsbeállításokéval</string>
+    <string name="remixer_lock_media_same_summary">Követi a Gyorsbeállítások médiamozaikját, most: %1$s</string>
+    <string name="remixer_lock_media_off_summary">Nincs lejátszó a lezárási képernyőn</string>
+    <string name="remixer_lock_media_note">A kártya lezárási képernyőn jelenik meg, amíg valami szól. Az áttetsző stílusok sötét hátteret kapnak, hogy olvashatók maradjanak a háttérkép felett.</string>
+    <string name="remixer_lock_media_stock_summary">A borítókép kitölti a kártyát</string>
+    <string name="remixer_lock_media_remix_summary">Sötét kártya, kiemelőszínű lejátszógomb</string>
+    <string name="remixer_lock_media_compact_summary">Kerekebb kártya, kerek borítókép</string>
+    <string name="remixer_lock_media_glass_summary">Körvonalas, áttetsző kártya</string>
+    <string name="remixer_lock_media_circles_summary">Puha kártya, kiemelőszínű lejátszógomb</string>
+    <string name="remixer_lock_media_classic_summary">Szögletesebb kártya, körvonalas lejátszógomb</string>
+    <string name="remixer_lock_media_cards_summary">Puha kártya, kiemelőszínű lejátszógomb, mint a Köröké</string>
+    <string name="remixer_lock_media_neon_summary">Fekete kártya kiemelőszínű körvonallal</string>
+    <string name="remixer_lock_media_bento_summary">Puha kártya, kiemelőszínű lejátszógomb</string>
+    <string name="remixer_lock_media_shapes_summary">Kerekebb kártya, kiemelőszínű lejátszógomb</string>
+    <string name="remixer_lock_media_blueprint_summary">Szálvékony körvonal, körvonalas lejátszógomb</string>
+    <string name="remixer_lock_media_duo_summary">Kétszínű kártya, kiemelőszínű lejátszógomb</string>
+    <string name="remixer_lock_media_soft_summary">Kiemelkedő kártya szegéllyel</string>
+    <string name="remixer_headers">Fejléc kép</string>
+    <string name="header_switch">Fejléc kép használata</string>
+    <string name="header_switch_summary">Kép megjelenítése a gyorsbeállítások mögött</string>
+    <string name="header_source">Forrás</string>
+    <string name="header_source_collection">Gyűjtemény</string>
+    <string name="header_collections_summary_daylight">A fejléc a napszaktól függ, vagy a gyűjteményből váltakozik</string>
+    <string name="header_collections_summary_static">Nyiss meg egy gyűjteményt, majd koppints egy képre a használatához</string>
+    <string name="header_collections_empty">Nincs telepített fejléc gyűjtemény</string>
+    <string name="header_images_daylight">Ebben a gyűjteményben</string>
+    <plurals name="header_image_count">
+        <item quantity="one">%d kép</item>
+        <item quantity="other">%d kép</item>
+    </plurals>
+    <string name="header_photo_summary">Bármely fénykép vagy animált GIF a galériádból</string>
+    <string name="header_height">Magasság</string>
+    <string name="header_height_value">Magasság · %1$d dp</string>
+    <string name="header_shadow">Halványítás</string>
+    <string name="header_shadow_value">Halványítás · %1$d%%</string>
+    <string name="header_failed">Ezt a fejléc-beállítást nem sikerült menteni</string>
+    <string name="remixer_weather_summary">Időjárás-szolgáltatás és mértékegységek</string>
+    <string name="font_preview_notification">Így fog olvasni a telefonod.</string>
+    <string name="font_try_text">Saját szöveg kipróbálása</string>
+    <string name="font_previewing">Előnézet</string>
+    <string name="font_current">Jelenlegi betűtípus</string>
+    <string name="font_badge_current">Jelenlegi</string>
+    <string name="font_apply_done">Alkalmazva</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Kijelző</string>
+    <string name="font_filter_script">Szkript</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Betűtípus alkalmazva</string>
+    <string name="font_failed">Ezt a betűtípust nem sikerült alkalmazni</string>
+    <string name="wallpaper_set">Háttérkép beállítva</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">%d háttérkép a Resurrected Remixből. Koppints egyre az előnézethez.</item>
+        <item quantity="other">%d háttérkép a Resurrected Remixből. Koppints egyre az előnézethez.</item>
+    </plurals>
+    <string name="wallpaper_apply_both">Mindkettő</string>
+    <string name="wallpaper_failed">Ezt a háttérképet nem sikerült beállítani</string>
+    <string name="missing_app">Ez az alkalmazás nincs telepítve</string>
+    <string name="remixer_spoofing">Hamisítás</string>
+    <string name="remixer_spoofing_summary">Play Integrity, eszközazonosító és alkalmazásonkénti hamisítás</string>
+    <string name="rr_maintainer">Karbantartó</string>
+    <string name="remixer_navbar_summary">Pulzushossz, vastagság és elrendezés</string>
+    <string name="remixer_navbar_pill_length">Kézmozdulat-pulzus hossza</string>
+    <string name="remixer_navbar_pill_thickness">Kézmozdulat-pulzus vastagsága</string>
+    <string name="remixer_navbar_pill_auto_hide">Kézmozdulat-pulzus elhalványítása</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Néhány másodperc után elrejti a pulzust; ha megérinted a képernyőt, visszatér</string>
+    <string name="remixer_navbar_ime">Billentyűzet gombok</string>
+    <string name="remixer_navbar_ime_summary">Vissza és billentyűzetváltó gombok megjelenítése a billentyűzet alatt</string>
+    <string name="remixer_navbar_layout">Gombok elrendezése</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Rövid</item>
+        <item>Normál</item>
+        <item>Hosszú</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Legvékonyabb</item>
+        <item>Vékonyabb</item>
+        <item>Vékony</item>
+        <item>Normál</item>
+        <item>Vastag</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Normál</item>
+        <item>Kompakt</item>
+        <item>"Bal oldali"</item>
+        <item>"Jobb oldali"</item>
+    </string-array>
 </resources>

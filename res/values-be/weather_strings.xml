@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Падрабязныя звесткі"</string>
     <string name="lockscreen_weather_location_title">"Месцазнаходжанне"</string>
+    <string name="lockscreen_weather_title">Надвор\'е на экране блакіроўкі</string>
+    <string name="lockscreen_weather_location_summary">Паказваць назву горада</string>
+    <string name="lockscreen_weather_text_title">Стан</string>
+    <string name="lockscreen_weather_text_summary">Паказваць стан, напрыклад «Хмарна» або «Ясна»</string>
+    <string name="lockscreen_weather_wind_title">Вецер</string>
+    <string name="lockscreen_weather_wind_summary">Паказваць хуткасць і напрамак ветру</string>
+    <string name="lockscreen_weather_humidity_title">Вільготнасць</string>
+    <string name="lockscreen_weather_humidity_summary">Паказваць вільготнасць</string>
+    <string name="custom_clock_weather_title">Надвор\'е на цыферблатах гадзінніка</string>
+    <string name="custom_clock_weather_summary">Паказваць надвор\'е на цыферблатах, дзе для яго ёсць месца</string>
+    <string name="remixer_weather_service">Служба надвор\'я</string>
+    <string name="remixer_weather_page_summary">Надвор\'е на экране блакіроўкі і што яно паказвае</string>
 </resources>

@@ -8,4 +8,50 @@
         <item>"मीडियम"</item>
         <item>"बड़ा"</item>
     </string-array>
+    <string name="pie_title">पाई कंट्रोल</string>
+    <string name="pie_summary">किनारे के निचले हिस्से को दबाए रखें, शॉर्टकट का पाई खुलेगा</string>
+    <string name="pie_zone">किनारे का हिस्सा</string>
+    <string name="pie_clock">उसके ऊपर घड़ी और बैटरी</string>
+    <string name="pie_items">स्लाइस</string>
+    <string-array name="pie_items_entries">
+        <item>"वापस जाएं"</item>
+        <item>होम</item>
+        <item>"हाल ही के"</item>
+        <item>"सूचनाएं"</item>
+        <item>"फ़्लैशलाइट"</item>
+        <item>"स्क्रीनशॉट"</item>
+        <item>"पावर मेन्यू"</item>
+        <item>असिस्टेंट</item>
+        <item>"कैमरा"</item>
+    </string-array>
+    <string name="pie_footer">इसके लिए चौथाई सेकंड तक बिना हिलाए दबाए रखना होगा, इसलिए किनारे से तेज़ स्वाइप अब भी वापस जाएगा। यह लॉक स्क्रीन पर नहीं खुलता।</string>
+    <string-array name="pie_edges_entries">
+        <item>"बायां"</item>
+        <item>"दायां"</item>
+        <item>दोनों</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>निचला तिहाई</item>
+        <item>बीच</item>
+        <item>पूरा किनारा</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>नियॉन</item>
+        <item>ग्लास</item>
+        <item>क्लासिक</item>
+    </string-array>
+    <string name="sidebar_style_title">ऐप साइडबार लुक</string>
+    <string-array name="sidebar_style_entries">
+        <item>क्लासिक</item>
+        <item>RR ग्लास</item>
+        <item>नियॉन</item>
+    </string-array>
+    <string name="sidebar_settings_title">ऐप साइडबार</string>
+    <string name="sidebar_settings_summary">ऐप्स और टूल के लिए हैंडल से अंदर स्वाइप करें</string>
+    <string name="sidebar_apps_title">ऐप्स, हैंडल और क्लिपबोर्ड</string>
+    <string name="sidebar_apps_summary">हैंडल चालू करें, ऐप्स चुनें और स्मार्ट क्लिपबोर्ड सेट करें</string>
+    <string name="sidebar_handle_size_title">हैंडल का आकार</string>
+    <string name="sidebar_tools_title">टूल की पंक्ति</string>
+    <string name="sidebar_tools_summary">आपके ऐप्स के नीचे स्क्रीनशॉट और फ़्लैशलाइट</string>
+    <string name="sidebar_footer">हैंडल आपके एक्सेंट रंग की पतली लकीर है; इसे किनारे पर खींचकर हिलाएं। जेस्चर नेविगेशन के साथ यह किनारे के अपने हिस्से पर ही रहता है, बाकी जगह बैक चलता रहता है।</string>
 </resources>

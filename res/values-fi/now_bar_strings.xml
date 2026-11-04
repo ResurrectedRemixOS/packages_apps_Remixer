@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">Painikkeet</string>
     <string name="now_bar_text">"Tekstiviesti"</string>
     <string name="now_bar_text_size">"Tekstin koko"</string>
+    <string name="now_bar_summary">Aktiiviset ilmoitukset lukitusnäytön alareunassa</string>
+    <string name="now_bar_show">Näytä</string>
+    <string name="now_bar_music">Musiikki ja video</string>
+    <string name="now_bar_timers">Ajastimet, kellon kronometri ja herätykset</string>
+    <string name="now_bar_hide_call">Piilota puhelun ilmoitus</string>
+    <string name="now_bar_hide_call_summary">Lukitusnäytöllä puhelua Now Barissa ei lisätä ilmoituksena</string>
+    <string name="now_bar_live">Live-päivitykset</string>
+    <string name="now_bar_live_summary">Navigointi, matkat, toimitukset, tulokset</string>
+    <string name="now_bar_scores">Live-tulokset</string>
+    <string name="now_bar_live_apps">Live-päivitysten sovellukset</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> sovellusta</string>
+    <string name="now_bar_pin">Kiinnitetty aina päällä -näyttöön</string>
+    <string name="now_bar_unpin_question">Irrotetaanko <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Irrota</string>
+    <string name="now_bar_scores_summary">Seuraamasi pelit Yhdellä silmäyksellä -kohdassa</string>
+    <string name="now_bar_recording">Näytön ja äänen tallennus</string>
+    <string name="now_bar_buds">Kuulokkeet ja kellot</string>
+    <string name="now_bar_buds_summary">Yhdistetyn laitteen akku: kuulokkeiden vasen, oikea ja kotelo</string>
+    <string name="now_bar_wave">Aaltoanimaatio</string>
+    <string name="now_bar_aod">Näytä aina päällä -näytöllä</string>
+    <string name="now_bar_chip">Siru tilapalkissa</string>
+    <string name="now_bar_chip_summary">Soiva musiikki ja ajastimet kellonaikan vieressä avatussa tilassa</string>
+    <string name="now_bar_footer">Kun Now Barissa soi musiikki, suuri lukitusnäytön soitin piilotetaan. Pyyhkäise palkkia vaihtaaksesi toimintojen välillä, napauta sitä avataksesi ohjaimet ja pidä painettuna piilottaaksesi toiminnon, kunnes se päättyy. Pyyhkäise pysäytetty kappale pois palkista tyhjentääksesi sen.\n\nElävät tulokset näyttävät Google-sovelluksessa seuraamiesi joukkueiden pelien tilanteen. Kun lisäät Smartspacerissa urheilukohteen, sen tulokset näkyvät täällä.</string>
+    <string name="now_bar_looks">Looks</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Oletus"</item>
+        <item>Liquid Glass</item>
+        <item>Pieni</item>
+        <item>Iso</item>
+        <item>Neon</item>
+        <item>Lasikortti</item>
+    </string-array>
+    <string name="now_bar_material">Materiaali</string>
+    <string name="now_bar_material_summary">Liquid Glass käyttää Teemassa asettamaasi lasia</string>
+    <string-array name="now_bar_material_entries">
+        <item>Yksivärinen</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Albumin kansikuva</item>
+        <item>Korostusväri</item>
+        <item>Tumma</item>
+    </string-array>
+    <string name="now_bar_opacity">Läpinäkyvyys</string>
+    <string name="now_bar_opacity_summary">Kuinka paljon väri sävyttää lasia Liquid Glass -tilassa</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Ei mitään"</item>
+        <item>Ohut</item>
+        <item>Korostusväri</item>
+    </string-array>
+    <string name="now_bar_shadow">Varjo</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Pois päältä"</item>
+        <item>Pehmeä</item>
+        <item>Hehku</item>
+    </string-array>
+    <string name="now_bar_more">Lisää toimintoja</string>
+    <string-array name="now_bar_more_entries">
+        <item>Pyyhkäise vain</item>
+        <item>Pisteet</item>
+        <item>Kurkistus taakse</item>
+    </string-array>
+    <string name="now_bar_size">Koko ja muoto</string>
+    <string name="now_bar_height">Korkeus</string>
+    <string name="now_bar_width_summary">Koko-tilassa pikakuvakkeet siirtyvät palkin yläpuolelle</string>
+    <string-array name="now_bar_width_entries">
+        <item>Kapea</item>
+        <item>Pikakuvakkeiden välissä</item>
+        <item>Täysi</item>
+    </string-array>
+    <string name="now_bar_corners">Kulmat</string>
+    <string name="now_bar_raise">Kohoava</string>
+    <string name="now_bar_art">Albumin kansikuva</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Piiri"</item>
+        <item>Pyöristetty</item>
+        <item>"Neliö"</item>
+        <item>"Pois päältä"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Ohita ja toista</item>
+        <item>Vain toisto</item>
+        <item>"Ei mitään"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Yksi rivi</item>
+        <item>Kaksi riviä</item>
+        <item>Vain kappale</item>
+    </string-array>
+    <string name="now_bar_show_page">Palkissa näkyvä sisältö</string>
+    <string name="now_bar_show_page_summary">Musiikki ja video, ajastimet, puhelut ja muuta</string>
+    <string name="now_bar_where">Muu</string>
 </resources>

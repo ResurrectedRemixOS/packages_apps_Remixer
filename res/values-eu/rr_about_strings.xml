@@ -11,4 +11,23 @@
     <string name="rr_about_this_phone">"Telefono hau"</string>
     <string name="rr_about_network">"Sarea"</string>
     <string name="rr_about_hidden">Ezkutatua</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Ofiziala</string>
+    <string name="rr_about_unofficial">Ofiziala ez dena</string>
+    <string name="rr_about_vanilla">Vanilla</string>
+    <string name="rr_about_hardware">Hardwarea</string>
+    <string name="rr_about_processor">Prozesadorea</string>
+    <string name="rr_about_processor_sub">%1$d nukleo · %2$s GHz-raino</string>
+    <string name="rr_about_processor_cores">%1$d nukleo</string>
+    <string name="rr_about_storage_used">%1$s erabilita</string>
+    <string name="rr_about_display">Pantaila</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · Kargatzen</string>
+    <string name="rr_about_kernel_linux">Linux nukleoa</string>
+    <string name="rr_about_software_purpose">Android bertsioa, segurtasun-eguneraketa, konpilazio-data eta konpilazio-zenbakia</string>
+    <string name="rr_about_security_patch">Segurtasun-eguneraketa</string>
+    <string name="rr_about_maintainer">Mantentzailea</string>
+    <string name="rr_about_show">Erakutsi</string>
+    <string name="rr_about_hide">Ezkutatu</string>
 </resources>

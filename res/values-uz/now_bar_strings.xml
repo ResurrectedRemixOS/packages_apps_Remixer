@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"Tugmalar"</string>
     <string name="now_bar_text">"Matn"</string>
     <string name="now_bar_text_size">"Matn o‘lchami"</string>
+    <string name="now_bar_summary">Ekran qulfi pastida jonli faoliyatlar</string>
+    <string name="now_bar_show">Ko‘rsatish</string>
+    <string name="now_bar_music">Musiqa va video</string>
+    <string name="now_bar_timers">Taymerlar, sekundomer va signallar</string>
+    <string name="now_bar_hide_call">Qo‘ng‘iroq bildirishnomasini yashirish</string>
+    <string name="now_bar_hide_call_summary">Ekran qulfida, Now Bar\'dagi qo\'ng\'iroq bildirishnoma sifatida ko\'rsatilmaydi</string>
+    <string name="now_bar_live">Jonli yangilanishlar</string>
+    <string name="now_bar_live_summary">Navigatsiya, sayohatlar, yetkazib berish, natijalar</string>
+    <string name="now_bar_scores">Jonli natijalar</string>
+    <string name="now_bar_live_apps">Jonli yangilanishlar uchun ilovalar</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> ta ilova</string>
+    <string name="now_bar_pin">Doimiy displeyda mahkamlangan</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> qadashni bekor qilasizmi?</string>
+    <string name="now_bar_unpin">Mahkamlashni bekor qilish</string>
+    <string name="now_bar_scores_summary">At a Glance’da kuzatadigan o‘yinlar</string>
+    <string name="now_bar_recording">Ekran va ovozni yozib olish</string>
+    <string name="now_bar_buds">Quloqchinlar va soatlar</string>
+    <string name="now_bar_buds_summary">Ulangan qurilma batareyasi: quloqchinlarning chapi, o‘ngi va g‘ilofi</string>
+    <string name="now_bar_wave">To‘lqin animatsiyasi</string>
+    <string name="now_bar_aod">Doimiy displeyda ko‘rsatish</string>
+    <string name="now_bar_chip">Holat qatorida belgi</string>
+    <string name="now_bar_chip_summary">Qulflangan holatda musiqa va taymerlar soat yonida ko‘rsatiladi</string>
+    <string name="now_bar_footer">Now Bar\'da musiqa ijro etilganda, katta ekran qulfi pleeri yashiriladi. Faoliyatlarni almashtirish uchun panelni suring, boshqaruv elementlarini ochish uchun bosing va tugaguncha birini yashirish uchun uzoq bosing. Pauzadagi qo\'shiqni paneldan olib tashlash uchun uni suring.\n\nJonli natijalar Google ilovasida siz kuzatayotgan jamoalarning o\'yinlarini ko\'rsatadi. Smartspacer orqali u yerga sport maqsadini qo\'shsangiz, ularning natijalari shu yerda chiqadi.</string>
+    <string name="now_bar_looks">Namunalar</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Standart"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Katta</item>
+        <item>Neon</item>
+        <item>Shisha karta</item>
+    </string-array>
+    <string name="now_bar_material">Material</string>
+    <string name="now_bar_material_summary">Liquid Glass Mavzuda sozlangan shishadan foydalanadi</string>
+    <string-array name="now_bar_material_entries">
+        <item>Yaxlit</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Albom muqovasi</item>
+        <item>Aksent</item>
+        <item>Qorong‘i</item>
+    </string-array>
+    <string name="now_bar_opacity">Shaffoflik</string>
+    <string name="now_bar_opacity_summary">Liquid Glass\'da shishani qancha rang bo\'yashini belgilaydi</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Hech qanday"</item>
+        <item>Ingichka</item>
+        <item>Aksent</item>
+    </string-array>
+    <string name="now_bar_shadow">Soya</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Oʻchiq"</item>
+        <item>Yumshoq</item>
+        <item>Yorqinlik</item>
+    </string-array>
+    <string name="now_bar_more">Boshqa faoliyatlar</string>
+    <string-array name="now_bar_more_entries">
+        <item>Faqat suring</item>
+        <item>Nuqtalar</item>
+        <item>Orqadan ko‘rish</item>
+    </string-array>
+    <string name="now_bar_size">Hajmi va shakli</string>
+    <string name="now_bar_height">Balandlik</string>
+    <string name="now_bar_width_summary">To‘liq variantda tezkor tugmalar panel ustiga chiqadi</string>
+    <string-array name="now_bar_width_entries">
+        <item>Tor</item>
+        <item>Tezkor tugmalar orasida</item>
+        <item>To‘liq</item>
+    </string-array>
+    <string name="now_bar_corners">Burchaklar</string>
+    <string name="now_bar_raise">Ko‘tarilgan</string>
+    <string name="now_bar_art">Albom muqovasi</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Aylana"</item>
+        <item>Yumaloq</item>
+        <item>"Kvadrat"</item>
+        <item>"Oʻchiq"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>O‘tkazib yuborish va ijro etish</item>
+        <item>Faqat ijro</item>
+        <item>"Hech qanday"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Bir qator</item>
+        <item>Ikki qator</item>
+        <item>Faqat qo‘shiq</item>
+    </string-array>
+    <string name="now_bar_show_page">Panelda nima ko‘rsatiladi</string>
+    <string name="now_bar_show_page_summary">Musiqa va video, taymerlar, qo‘ng‘iroqlar va boshqalar</string>
+    <string name="now_bar_where">Boshqa joylar</string>
 </resources>

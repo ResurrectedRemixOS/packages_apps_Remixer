@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"壁紙"</item>
+        <item>Resurrected</item>
+        <item>Android One グリーン</item>
+        <item>Aospa グリーン</item>
+        <item>コカ・コーラ レッド</item>
+        <item>Discord パープル</item>
+        <item>Facebook ブルー</item>
+        <item>Instagram チェリー</item>
+        <item>Jollibee クリムゾン</item>
+        <item>Monster Energy グリーン</item>
+        <item>Nextbit ミント</item>
+        <item>OnePlus レッド</item>
+        <item>Pepsi ブルー</item>
+        <item>Pixel ブルー</item>
+        <item>Pocophone イエロー</item>
+        <item>Razer グリーン</item>
+        <item>Samsung ブルー</item>
+        <item>Spotify グリーン</item>
+        <item>Starbucks グリーン</item>
+        <item>Twitch パープル</item>
+        <item>Twitter ブルー</item>
+        <item>Xiaomi オレンジ</item>
+        <item>アンバー</item>
+        <item>"黒"</item>
+        <item>"青"</item>
+        <item>ブルーグレー</item>
+        <item>ブラウン</item>
+        <item>"シアン"</item>
+        <item>ディープオレンジ</item>
+        <item>ディープパープル</item>
+        <item>"緑"</item>
+        <item>"グレー"</item>
+        <item>"インディゴ"</item>
+        <item>ライトブルー</item>
+        <item>ライム</item>
+        <item>"オレンジ"</item>
+        <item>"ピンク"</item>
+        <item>"パープル"</item>
+        <item>"赤"</item>
+        <item>"ティール"</item>
+        <item>ユーザー5</item>
+        <item>ユーザー4</item>
+        <item>ユーザー1</item>
+        <item>ユーザー7</item>
+        <item>ユーザー6</item>
+        <item>ユーザー3</item>
+        <item>ユーザー2</item>
+        <item>"白"</item>
+        <item>"黄"</item>
+    </string-array>
+</resources>

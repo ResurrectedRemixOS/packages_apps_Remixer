@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="notification_icons_category">"Белгішелер"</string>
+    <string name="notification_app_icons_title">Қолданба белгішелері</string>
+    <string name="notification_app_icons_summary">Қолданбаның белгішесін хабарландыруларда кішкентай символының орнына көрсету</string>
 </resources>

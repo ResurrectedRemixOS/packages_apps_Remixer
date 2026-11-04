@@ -16,4 +16,53 @@
     <string name="looks_save_look">"Lưu"</string>
     <string name="looks_custom_color">"Màu tùy chỉnh"</string>
     <string name="looks_part_clock_color">"Màu đồng hồ"</string>
+    <string name="looks_title">Bộ cài đặt</string>
+    <string name="looks_summary">Toàn bộ thiết lập của bạn chỉ với một chạm</string>
+    <string name="looks_rr">Bộ cài đặt RR</string>
+    <string name="looks_yours">Bộ cài đặt của bạn</string>
+    <string name="looks_none">Chưa có bộ cài đặt nào được lưu</string>
+    <string name="looks_save">Lưu cấu hình hiện tại</string>
+    <string name="looks_import_clipboard">Từ bảng nhớ tạm</string>
+    <string name="looks_import_file">Từ tệp</string>
+    <string name="looks_mine">Bộ cài đặt của tôi</string>
+    <string name="looks_applied">Đã áp dụng <xliff:g id="name" example="Neon night">%1$s</xliff:g></string>
+    <string name="looks_failed">Không thể áp dụng toàn bộ</string>
+    <string name="looks_invalid">Đây không phải bộ cài đặt RR</string>
+    <string name="looks_part_accent">Màu nhấn</string>
+    <string name="looks_part_qs">Kiểu Cài đặt nhanh</string>
+    <string name="looks_part_clock_face">Kiểu đồng hồ màn hình khóa</string>
+    <string name="looks_part_clock_look">Đồng hồ thanh trạng thái</string>
+    <string name="looks_part_edge">Đèn viền thông báo</string>
+    <string name="looks_part_haptics">Mẫu rung Haptic Remix</string>
+    <string name="looks_saturation">Độ bão hòa <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Nhấn mạnh</string>
+    <string name="looks_share_title">Chia sẻ “<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">Quét bằng camera của điện thoại RR khác, hoặc trong Bộ cài đặt › Nhập</string>
+    <string name="looks_share_file">Chia sẻ tệp</string>
+    <string name="looks_save_file">Lưu tệp</string>
+    <string name="looks_import_scan">Quét mã QR</string>
+    <string name="looks_import_title">Nhập bộ cài đặt</string>
+    <string name="looks_from_qr">từ mã QR</string>
+    <string name="looks_from_file">từ tệp</string>
+    <string name="looks_from_clipboard">từ bảng nhớ tạm</string>
+    <string name="looks_import_same">Cấu hình này đã khớp với thiết lập hiện tại của bạn.</string>
+    <string name="looks_new">Bộ cài đặt mới</string>
+    <string name="looks_edit_title">Sửa bộ cài đặt</string>
+    <string name="looks_in_look">Trong bộ cài đặt này</string>
+    <string name="looks_not_included">Không có trong bộ cài đặt này</string>
+    <string name="looks_save_apply">Lưu và áp dụng</string>
+    <string name="looks_saved">Đã lưu “<xliff:g id="name" example="Sunday">%1$s</xliff:g>”</string>
+    <string name="looks_delete_confirm">Xoá “<xliff:g id="name" example="Sunday">%1$s</xliff:g>”?</string>
+    <string name="looks_rr_wallpaper">Hình nền RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Độ bão hòa màu nhấn</string>
+    <string name="looks_part_clock_chip">Chip đồng hồ thanh trạng thái</string>
+    <string name="looks_part_edge_style">Kiểu đèn viền thông báo</string>
+    <string name="looks_scan_hint">Hướng camera vào mã QR của bộ cài đặt</string>
+    <string name="looks_scan_failed">Không thể mở camera</string>
+    <string name="look_roulette_title">Vòng quay bộ cài đặt</string>
+    <string-array name="look_roulette_entries">
+        <item>"Đang tắt"</item>
+        <item>Một bộ cài đặt khác mỗi lần mở khóa</item>
+        <item>Một bộ cài đặt khác mỗi ngày</item>
+    </string-array>
 </resources>

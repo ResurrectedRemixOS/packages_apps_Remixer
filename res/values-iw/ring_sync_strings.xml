@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">סנכרון טבעת</string>
+    <string name="ring_sync_tap">הקישו כשהטבעת מתיישרת עם הסימון</string>
+    <string name="ring_sync_best">הטוב ביותר <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">מושלם</string>
+    <string name="ring_sync_new_best">שיא חדש</string>
+    <string name="ring_sync_again">הקישו לשחק שוב</string>
+    <string name="ring_sync_ember">הצבע Ember נפתח</string>
+    <string name="ring_sync_use_ember">השתמשו ב-Ember</string>
+    <string name="ring_sync_android">ביצת הפסחא של Android</string>
+    <string name="ring_sync_vibrate_on">רטט בפגיעות · פעיל</string>
+    <string name="ring_sync_vibrate_off">רטט בפגיעות · כבוי</string>
+    <string name="accent_ember">Ember</string>
+</resources>

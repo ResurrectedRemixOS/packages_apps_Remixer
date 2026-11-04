@@ -12,4 +12,22 @@
     <string name="rr_about_this_phone">"Bu telefon"</string>
     <string name="rr_about_network">"Şəbəkə"</string>
     <string name="rr_about_hidden">Gizli</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Rəsmi</string>
+    <string name="rr_about_unofficial">Qeyri-rəsmi</string>
+    <string name="rr_about_vanilla">Təmiz</string>
+    <string name="rr_about_hardware">Aparat</string>
+    <string name="rr_about_processor">Prosessor</string>
+    <string name="rr_about_processor_sub">%1$d nüvə · %2$s GHz-ə qədər</string>
+    <string name="rr_about_processor_cores">%1$d nüvə</string>
+    <string name="rr_about_storage_used">%1$s istifadə olunub</string>
+    <string name="rr_about_display">Displey</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · Şarj olunur</string>
+    <string name="rr_about_kernel_linux">Linux nüvəsi</string>
+    <string name="rr_about_software_purpose">Android versiyası, təhlükəsizlik yeniləməsi, quruluş tarixi və nömrəsi</string>
+    <string name="rr_about_maintainer">Baxımçı</string>
+    <string name="rr_about_show">Göstər</string>
+    <string name="rr_about_hide">Gizlət</string>
 </resources>

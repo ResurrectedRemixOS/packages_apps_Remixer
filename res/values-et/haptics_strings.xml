@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Sinine"</string>
     <string name="haptic_remix_color_green">"Roheline"</string>
     <string name="haptic_remix_color_white">"Valge"</string>
+    <string name="haptic_remix_summary">Koputa välja vibratsioonimustrid kõnede, rakenduste, äratuste ja lukustuste jaoks</string>
+    <string name="haptic_remix_record">Salvesta</string>
+    <string name="haptic_remix_pad">koputa rütmi</string>
+    <string name="haptic_remix_strength">Tugevus</string>
+    <string name="haptic_remix_clear">Tühjenda</string>
+    <string name="haptic_remix_play">Esita</string>
+    <string name="haptic_remix_name">Mustri nimi</string>
+    <string name="haptic_remix_empty">Midagi pole veel salvestatud</string>
+    <string name="haptic_remix_too_long">Muster võib kesta 30 sekundit</string>
+    <string name="haptic_remix_presets">Eelseadistused</string>
+    <string name="haptic_remix_preset_neon">Neoon</string>
+    <string name="haptic_remix_preset_glass">Klaas</string>
+    <string name="haptic_remix_preset_ringtone">Helinamelodia rütm</string>
+    <string name="haptic_remix_listening">Helinat kuulatakse…</string>
+    <string name="haptic_remix_no_ringtone">Helinat ei õnnestunud lugeda</string>
+    <string name="haptic_remix_patterns">Sinu mustrid</string>
+    <string name="haptic_remix_patterns_none">Salvesta kõigepealt muster. Kustutamiseks hoia seda all.</string>
+    <string name="haptic_remix_broken">Seda mustrit ei saa lugeda</string>
+    <string name="haptic_remix_delete">Kas kustutada <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Määra</string>
+    <string name="haptic_remix_alarm">Äratus ja taimer</string>
+    <string name="haptic_remix_plug">Laadimas</string>
+    <string name="haptic_remix_fingerprint">Sõrmejälje tuvastus õnnestus</string>
+    <string name="haptic_remix_add_contact">Lisa kontakt</string>
+    <string name="haptic_remix_edge_color">Serva valgus <xliff:g id="name" example="Mia">%1$s</xliff:g> sõnumite jaoks</string>
+    <string name="haptic_remix_color_accent">Aktsent</string>
+    <string name="haptic_remix_color_crimson">Karmiinpunane</string>
+    <string name="haptic_remix_color_amber">Merevaik</string>
+    <string name="haptic_remix_add_app">Lisa rakenduse märguanded</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · koputa muutmiseks, hoia all serva värvi jaoks</string>
+    <string name="haptic_remix_no_contacts">Kontaktidest ei saadud ühtegi numbrit</string>
 </resources>

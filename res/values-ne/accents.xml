@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"वालपेपर"</item>
+        <item>पुनर्जीवित</item>
+        <item>एन्ड्रोइड वान ग्रीन</item>
+        <item>एस्पा ग्रीन</item>
+        <item>कोका कोला रातो</item>
+        <item>डिस्कर्ड बैजनी</item>
+        <item>फेसबुक नीलो</item>
+        <item>इन्स्टाग्राम सेरिस</item>
+        <item>जोलिबी क्रिमसन</item>
+        <item>मन्स्टर एनर्जी ग्रीन</item>
+        <item>नेक्सटबिट मिन्ट</item>
+        <item>वानप्लस रातो</item>
+        <item>पेप्सी नीलो</item>
+        <item>पिक्सेल नीलो</item>
+        <item>पोकोफोन पहेंलो</item>
+        <item>रेजर ग्रीन</item>
+        <item>स्यामसंग नीलो</item>
+        <item>स्पटिफाई ग्रीन</item>
+        <item>स्टारबक्स ग्रीन</item>
+        <item>ट्विच बैजनी</item>
+        <item>ट्विटर नीलो</item>
+        <item>सियोमी सुन्तला</item>
+        <item>एम्बर</item>
+        <item>"कालो"</item>
+        <item>"निलो"</item>
+        <item>निलो खैरो</item>
+        <item>खैरो</item>
+        <item>"सायन"</item>
+        <item>गाढा सुन्तला</item>
+        <item>गाढा बैजनी</item>
+        <item>"हरियो"</item>
+        <item>"खरानी रङ"</item>
+        <item>"इन्डिगो"</item>
+        <item>हल्का नीलो</item>
+        <item>लाइम</item>
+        <item>"सुन्तले रङ"</item>
+        <item>"गुलाबी"</item>
+        <item>"बैजनी"</item>
+        <item>"रातो"</item>
+        <item>"निलोमिश्रित हरियो"</item>
+        <item>प्रयोगकर्ता पाँच</item>
+        <item>प्रयोगकर्ता चार</item>
+        <item>प्रयोगकर्ता एक</item>
+        <item>प्रयोगकर्ता सात</item>
+        <item>प्रयोगकर्ता छ</item>
+        <item>प्रयोगकर्ता तीन</item>
+        <item>प्रयोगकर्ता दुई</item>
+        <item>"सेतो"</item>
+        <item>"पहेँलो"</item>
+    </string-array>
+</resources>

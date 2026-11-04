@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"බොත්තම්"</string>
     <string name="now_bar_text">"පෙළ"</string>
     <string name="now_bar_text_size">"පෙළ ප්‍රමාණය"</string>
+    <string name="now_bar_summary">අගුලු තිරයේ පහළ කොටසේ සජීවී ක්‍රියාකාරකම්</string>
+    <string name="now_bar_show">පෙන්වන්න</string>
+    <string name="now_bar_music">සංගීතය සහ වීඩියෝ</string>
+    <string name="now_bar_timers">කාලමාපක, දිය ඔරලෝසුව සහ එලාම</string>
+    <string name="now_bar_hide_call">ඇමතුම් දැනුම්දීම සඟවන්න</string>
+    <string name="now_bar_hide_call_summary">අගුලු තිරයේ, Now Bar හි ඇති ඇමතුමක් දැනුම්දීමක් ලෙස ලැයිස්තු නොගත යුතුය</string>
+    <string name="now_bar_live">සජීවී යාවත්කාලීන</string>
+    <string name="now_bar_live_summary">සංචලනය, ගමන්, බෙදාහැරීම්, ලකුණු</string>
+    <string name="now_bar_scores">සජීවී ලකුණු</string>
+    <string name="now_bar_live_apps">සජීවී යාවත්කාලීන සඳහා යෙදුම්</string>
+    <string name="now_bar_live_apps_count">යෙදුම් <xliff:g id="count" example="2">%1$d</xliff:g></string>
+    <string name="now_bar_pin">සැමවිටම-පෙන්වන සිරස් තිරයට ඇමිණූ</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> ගැලවීමද?</string>
+    <string name="now_bar_unpin">ගලවන්න</string>
+    <string name="now_bar_scores_summary">At a Glance හි ඔබ අනුගමනය කරන ක්‍රීඩා</string>
+    <string name="now_bar_recording">තිර සහ හඬ පටිගත කිරීම</string>
+    <string name="now_bar_buds">කන්ඩ සහ ඔරලෝසු</string>
+    <string name="now_bar_buds_summary">සම්බන්ධිත උපාංගයක බැටරිය: කන්ඩ සඳහා වම, දකුණ සහ නඩුව</string>
+    <string name="now_bar_wave">තරංග සජීවිකරණය</string>
+    <string name="now_bar_aod">සැමවිටම-පෙන්වන සිරස් තිරයේ පෙන්වන්න</string>
+    <string name="now_bar_chip">තත්ත්ව තීරුවේ චිප්ස්</string>
+    <string name="now_bar_chip_summary">අගුළු හැරි විට ඔරලෝසුව ළඟ සංගීත සහ කාලමාපක වාදනය කරයි</string>
+    <string name="now_bar_footer">Now Bar හි සංගීතය ඇති විට, විශාල අගුලු තිර වාදකය සඟවයි. ක්‍රියාකාරකම් අතර මාරු වීමට තීරුව ස්වයිප් කරන්න, පාලන විවෘත කිරීමට තට්ටු කරන්න, අවසන් වන තෙක් එකක් සැඟවීමට දිගු වේලාවක් ඔබන්න. නතර කළ ගීතයක් තීරුවෙන් ඉවත් කිරීමට එය ස්වයිප් කරන්න.\n\nක්‍රීඩා ප්‍රතිඵල ලයිව් ලෙස Google යෙදුමේ ඔබ අනුගමනය කරන කණ්ඩායම්වල ගැලීම් පෙන්වයි. Smartspacer සමඟ එහි ක්‍රීඩා ඉලක්කයක් එක් කළහොත්, එහි ප්‍රතිඵල මෙහි පෙන්වයි.</string>
+    <string name="now_bar_looks">පෙනුම්</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"පෙරනිමි"</item>
+        <item>Liquid Glass</item>
+        <item>කුඩා</item>
+        <item>විශාල</item>
+        <item>නියොන්</item>
+        <item>වීදුරු කාඩ්පත</item>
+    </string-array>
+    <string name="now_bar_material">ද්‍රව්‍ය</string>
+    <string name="now_bar_material_summary">Liquid Glass තේමාවේ ඔබ සකසූ වීදුරුව භාවිත කරයි</string>
+    <string-array name="now_bar_material_entries">
+        <item>ඝන</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>ඇල්බම කලාව</item>
+        <item>උච්චාරණ</item>
+        <item>අඳුරු</item>
+    </string-array>
+    <string name="now_bar_opacity">අපාරදෘශ්‍යතාව</string>
+    <string name="now_bar_opacity_summary">Liquid Glass සමඟ, වීදුරුවට වර්ණය කොපමණ තීව්‍රතාවයකින් මිශ්‍ර වේද</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"කිසිවක් නැත"</item>
+        <item>සිහින්</item>
+        <item>උච්චාරණ</item>
+    </string-array>
+    <string name="now_bar_shadow">සෙවනැල්ල</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"ක්‍රියාවිරහිතයි"</item>
+        <item>මෘදු</item>
+        <item>දීප්තිය</item>
+    </string-array>
+    <string name="now_bar_more">තවත් ක්‍රියාකාරකම්</string>
+    <string-array name="now_bar_more_entries">
+        <item>හුදෙක් ස්වයිප් කරන්න</item>
+        <item>තිත්</item>
+        <item>පිටුපස බලන්න</item>
+    </string-array>
+    <string name="now_bar_size">ප්‍රමාණය සහ හැඩය</string>
+    <string name="now_bar_height">උස</string>
+    <string name="now_bar_width_summary">සම්පූර්ණ විට කෙටිමං ඉහළ බාරය දක්වා ගෙනයයි</string>
+    <string-array name="now_bar_width_entries">
+        <item>පටු</item>
+        <item>කෙටිමං අතර</item>
+        <item>සම්පූර්ණ</item>
+    </string-array>
+    <string name="now_bar_corners">මුල්ලි</string>
+    <string name="now_bar_raise">ඔසවන්න</string>
+    <string name="now_bar_art">ඇල්බම කලාව</string>
+    <string-array name="now_bar_art_entries">
+        <item>"කවය"</item>
+        <item>වටකුරු</item>
+        <item>"සමචතුරස්‍රය"</item>
+        <item>"ක්‍රියාවිරහිතයි"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>මඟ හරින්න සහ වාදනය කරන්න</item>
+        <item>වාදනය පමණි</item>
+        <item>"කිසිවක් නැත"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>එක් පේළියක්</item>
+        <item>පේළි දෙකක්</item>
+        <item>ගීතය පමණයි</item>
+    </string-array>
+    <string name="now_bar_show_page">බාරයේ පෙන්වන දේ</string>
+    <string name="now_bar_show_page_summary">සංගීතය සහ වීඩියෝ, කාලමාපක, ඇමතුම් සහ තවත් දේ</string>
+    <string name="now_bar_where">තවත් තැන්</string>
 </resources>

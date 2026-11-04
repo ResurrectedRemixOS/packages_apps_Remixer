@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Акумулятор"</string>
     <string name="battery_style_title">"Стиль"</string>
+    <string-array name="battery_style_entries">
+        <item>Портрет</item>
+        <item>"Коло"</item>
+        <item>Пунктирне коло</item>
+        <item>Неонове кільце</item>
+        <item>Тонка пігулка</item>
+        <item>Великий відсоток</item>
+        <item>Текст</item>
+    </string-array>
+    <string name="battery_percent_title">Відсоток</string>
+    <string-array name="battery_percent_entries">
+        <item>"Сховано"</item>
+        <item>Всередині значка</item>
+        <item>Поруч</item>
+    </string-array>
+    <string name="battery_ring_color_title">Колір неонового кільця</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. «За рівнем» — колір акценту понад 20%%, червоний нижче та бурштиновий у режимі економії заряду.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>За рівнем</item>
+        <item>Акцент</item>
+        <item>"Білий"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Іскра під час заряджання</string>
+    <string name="battery_ring_tile_title">Те саме кільце на плитці швидких налаштувань</string>
+    <string name="battery_ring_tile_summary">З рівнем і часом увімкненого екрана</string>
 </resources>

@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Časovač</string>
     <string name="quick_launch_undo">"Späť"</string>
     <string name="quick_launch_off">"Vypnuté"</string>
+    <string name="quick_launch_title">Rýchle spustenie</string>
+    <string name="quick_launch_main">Rýchle spustenie odtlačkom prsta</string>
+    <string name="quick_launch_main_summary">Po odomknutí podržte prst na senzore a otvorte skratku</string>
+    <string name="quick_launch_hint">Klepnutím na skratku ju zmeníte, podržaním ju odstránite alebo ju potiahnutím zoradíte.</string>
+    <string name="quick_launch_behavior">Správanie</string>
+    <string name="quick_launch_hold">Čas podržania</string>
+    <string name="quick_launch_haptics">Vibrovať pri každej skratke</string>
+    <string name="quick_launch_add">Pridať</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">Skenovať QR kód</string>
+    <string name="quick_launch_app">Aplikácia…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> odstránené</string>
 </resources>

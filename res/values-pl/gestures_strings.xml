@@ -8,4 +8,50 @@
         <item>"Średni"</item>
         <item>"Duży"</item>
     </string-array>
+    <string name="pie_title">Sterowanie kołowe</string>
+    <string name="pie_summary">Przytrzymaj dolną część krawędzi, aby otworzyć koło skrótów</string>
+    <string name="pie_zone">Część krawędzi</string>
+    <string name="pie_clock">Zegar i bateria nad nią</string>
+    <string name="pie_items">Wycinki</string>
+    <string-array name="pie_items_entries">
+        <item>"Wstecz"</item>
+        <item>Ekran główny</item>
+        <item>"Ostatnie"</item>
+        <item>"Powiadomienia"</item>
+        <item>Latarka</item>
+        <item>"Zrzut ekranu"</item>
+        <item>"Menu zasilania"</item>
+        <item>"Asystent"</item>
+        <item>"Aparat"</item>
+    </string-array>
+    <string name="pie_footer">Wymaga przytrzymania przez ćwierć sekundy bez przesuwania, więc szybkie przeciągnięcie od krawędzi nadal cofa. Nie otwiera się na ekranie blokady.</string>
+    <string-array name="pie_edges_entries">
+        <item>Po lewej</item>
+        <item>Po prawej</item>
+        <item>Obie</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Dolna trzecia część</item>
+        <item>Środek</item>
+        <item>Cała krawędź</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Szklane</item>
+        <item>Klasyczne</item>
+    </string-array>
+    <string name="sidebar_style_title">Wygląd bocznego paska aplikacji</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klasyczne</item>
+        <item>Szkło RR</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Boczny pasek aplikacji</string>
+    <string name="sidebar_settings_summary">Przeciągnij od uchwytu, aby zobaczyć aplikacje i narzędzia</string>
+    <string name="sidebar_apps_title">Aplikacje, uchwyt i schowek</string>
+    <string name="sidebar_apps_summary">Włącz uchwyt, wybierz aplikacje i skonfiguruj inteligentny schowek</string>
+    <string name="sidebar_handle_size_title">Rozmiar uchwytu</string>
+    <string name="sidebar_tools_title">Rząd narzędzi</string>
+    <string name="sidebar_tools_summary">Zrzut ekranu i latarka pod aplikacjami</string>
+    <string name="sidebar_footer">Uchwyt jest cienką linią w kolorze akcentu; przeciągnij go, aby przesunąć wzdłuż krawędzi. Przy nawigacji gestami obejmuje tylko swoją część krawędzi, a cofanie działa wszędzie indziej.</string>
 </resources>

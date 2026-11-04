@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Բեռնման անիմացիա</string>
+    <string name="boot_animation_note">Կկատարվի հեռախոսի հաջորդ գործարկման ժամանակ։</string>
+    <string name="boot_animation_custom">Ձեր ֆայլը</string>
+    <string name="boot_animation_custom_pick">Ընտրեք ֆայլ…</string>
+    <string name="boot_animation_custom_invalid">Այս ֆայլը բեռնման անիմացիա չէ</string>
+    <string name="boot_animation_failed">Չհաջողվեց փոխել բեռնման անիմացիան</string>
+</resources>

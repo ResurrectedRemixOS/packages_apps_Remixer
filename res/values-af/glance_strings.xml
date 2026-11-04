@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glance_title">Eerste Blik</string>
+    <string name="glance_summary">Google se datum, weer en kaarte onder die standaardklok, soos op \'n Pixel. Klokgesigte behou hul eie ry</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Ræsimynd</string>
+    <string name="boot_animation_note">Spilast næst þegar síminn ræsist.</string>
+    <string name="boot_animation_custom">Skráin þín</string>
+    <string name="boot_animation_custom_pick">Veldu skrá…</string>
+    <string name="boot_animation_custom_invalid">Þessi skrá er ekki ræsimynd</string>
+    <string name="boot_animation_failed">Ekki tókst að breyta ræsimyndinni</string>
+</resources>

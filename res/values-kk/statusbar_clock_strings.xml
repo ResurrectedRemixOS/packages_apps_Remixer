@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Күн"</string>
     <string name="sb_weather_category">"Ауа райы"</string>
+    <string name="sb_clock_category">Сағат пен күн</string>
+    <string name="sb_clock_bold_title">Қалың сағат</string>
+    <string name="sb_clock_bold_summary">Күйін көрсету жолағындағы сағатты қалың етіп көрсету</string>
+    <string name="sb_clock_period_separator_title">Уақыт бөлгіші</string>
+    <string name="sb_clock_period_separator_summary">10:45 орнына 10.45</string>
+    <string name="sb_clock_date_position_title">Күннің орны</string>
+    <string name="sb_clock_date_style_title">Күн жазылуы</string>
+    <string name="sb_clock_date_format_title">Күн пішімі</string>
+    <string name="sb_clock_chip_category">Сағат фоны</string>
+    <string name="sb_clock_chip_title">Фон стилі</string>
+    <string name="sb_clock_chip_start_title">Градиенттің басы</string>
+    <string name="sb_clock_chip_end_title">Градиенттің соңы</string>
+    <string name="sb_clock_chip_angle_title">Градиент бұрышы</string>
+    <string name="sb_clock_chip_mask_title">Уақытты градиенттен кесіп алу</string>
+    <string name="sb_clock_chip_mask_summary">Градиент сандардың артында емес, сандар арқылы көрінеді</string>
+    <string name="sb_weather_title">Күйін көрсету жолағында ауа райы</string>
+    <string name="sb_weather_position_title">Орны</string>
+    <string name="status_bar_clock_rr_style_title">Сағаттың түрі</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Әдепкі"</item>
+        <item>Неон</item>
+        <item>Бөлінген</item>
+        <item>RR белгісі</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Үйіліп тұрған</item>
+        <item>Жарқыраған</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Уақыттың жанындағы Flatline</string>
+    <string name="sb_clock_flatline_summary">RR жүрек соғысы сызығы чипте: музыкамен соғады, хабарландыру келгенде шыңдайды</string>
 </resources>

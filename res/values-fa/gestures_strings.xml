@@ -8,4 +8,50 @@
         <item>"متوسط"</item>
         <item>"بزرگ"</item>
     </string-array>
+    <string name="pie_title">کنترل‌های پای</string>
+    <string name="pie_summary">برای یک پای میان‌بر، بخش پایینی یک لبه را نگه دارید</string>
+    <string name="pie_zone">بخشی از لبه</string>
+    <string name="pie_clock">ساعت و باتری بالای آن</string>
+    <string name="pie_items">تکه‌ها</string>
+    <string-array name="pie_items_entries">
+        <item>"برگشتن"</item>
+        <item>خانه</item>
+        <item>"موارد اخیر"</item>
+        <item>"اعلان‌ها"</item>
+        <item>چراغ قوه</item>
+        <item>"نماگرفت"</item>
+        <item>"منوی روشن/خاموش"</item>
+        <item>"دستیار"</item>
+        <item>"دوربین"</item>
+    </string-array>
+    <string name="pie_footer">برای این کار باید نیم‌ثانیه بدون حرکت نگه داشته شود، پس کشیدن سریع از لبه همچنان به عقب برمی‌گردد. روی صفحه قفل باز نمی‌شود.</string>
+    <string-array name="pie_edges_entries">
+        <item>"چپ"</item>
+        <item>"راست"</item>
+        <item>هر دو</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>یک‌سوم پایینی</item>
+        <item>وسط</item>
+        <item>کل لبه</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>نئونی</item>
+        <item>شیشه‌ای</item>
+        <item>کلاسیک</item>
+    </string-array>
+    <string name="sidebar_style_title">ظاهر نوار کناری برنامه‌ها</string>
+    <string-array name="sidebar_style_entries">
+        <item>کلاسیک</item>
+        <item>شیشه RR</item>
+        <item>نئونی</item>
+    </string-array>
+    <string name="sidebar_settings_title">نوار کناری برنامه‌ها</string>
+    <string name="sidebar_settings_summary">برای برنامه‌ها و ابزارها، از دستگیره به داخل بکشید</string>
+    <string name="sidebar_apps_title">برنامه‌ها، دستگیره و تخته‌یادداشت</string>
+    <string name="sidebar_apps_summary">دستگیره را روشن کنید، برنامه‌ها را انتخاب کنید و تخته‌یادداشت هوشمند را تنظیم کنید</string>
+    <string name="sidebar_handle_size_title">اندازه دستگیره</string>
+    <string name="sidebar_tools_title">ردیف ابزارها</string>
+    <string name="sidebar_tools_summary">نماگرفت و چراغ قوه زیر برنامه‌ها</string>
+    <string name="sidebar_footer">دستگیره یک خط باریک با رنگ تأکیدی شماست؛ برای جابه‌جایی، آن را در امتداد لبه بکشید. با پیمایش حرکتی، فقط بخش خودش از لبه را می‌پوشاند و بازگشت در بقیه جاها کار می‌کند.</string>
 </resources>

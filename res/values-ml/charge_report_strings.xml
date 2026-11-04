@@ -3,4 +3,31 @@
     <string name="charge_report_battery">"ബാറ്ററി"</string>
     <string name="charge_report_temp">"താപനില"</string>
     <string name="charge_report_time">"സമയം"</string>
+    <string name="charge_report_title">ചാർജ് റിപ്പോർട്ടുകൾ</string>
+    <string name="charge_report_summary">അൺപ്ലഗ് ചെയ്യുമ്പോൾ ഓരോ ചാർജിന്റെയും സംഗ്രഹം</string>
+    <string name="charge_report_min_title">കുറഞ്ഞത് ഇത്രയും ചേർത്താൽ മാത്രം</string>
+    <string name="charge_report_keep_title">സൂക്ഷിക്കുക</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 ദിവസം</item>
+        <item>7 ദിവസം</item>
+        <item>14 ദിവസം</item>
+        <item>30 ദിവസം</item>
+    </string-array>
+    <string name="charge_report_history_days">അവസാന <xliff:g id="days" example="7">%1$d</xliff:g> ദിവസം</string>
+    <string name="charge_report_today">ഇന്ന്, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">ഇന്നലെ, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> മിനിറ്റ്</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> മണിക്കൂർ <xliff:g id="minutes" example="02">%2$02d</xliff:g> മിനിറ്റ്</string>
+    <string name="charge_report_watts">വാട്ട്സ്</string>
+    <string name="charge_report_added">ചേർത്തത്</string>
+    <string name="charge_report_peak">പരമാവധി</string>
+    <string name="charge_report_average">ശരാശരി</string>
+    <string name="charge_report_max_temp">പരമാവധി താപനില</string>
+    <string name="charge_report_charger">ചാർജർ</string>
+    <string name="charge_report_started">ആരംഭിച്ച സമയം</string>
+    <string name="charge_report_wired">വയർഡ്</string>
+    <string name="charge_report_wireless">വയർലെസ്</string>
+    <string name="charge_report_dock">ഡോക്ക്</string>
+    <string name="charge_report_empty">ഇതുവരെ ചാർജുകളൊന്നുമില്ല</string>
+    <string name="charge_report_footer">പ്ലഗ് ചെയ്തിരിക്കുമ്പോൾ ഓരോ 30 സെക്കൻഡിലും ബാറ്ററിയുടെ കറന്റ്, വോൾട്ടേജ്, താപനില എന്നിവ SystemUI വായിക്കുന്നു. ഫോൺ അളക്കുന്ന വാട്ട്സ് ചാർജറിലെ സംഖ്യയിൽ നിന്ന് വ്യത്യസ്തമായിരിക്കാം. റിപ്പോർട്ടുകൾ ഫോണിൽ തന്നെ സൂക്ഷിക്കുന്നു; ഒന്നും അപ്‌ലോഡ് ചെയ്യില്ല.</string>
 </resources>

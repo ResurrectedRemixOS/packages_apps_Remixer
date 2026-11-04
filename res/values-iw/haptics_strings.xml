@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"כחול"</string>
     <string name="haptic_remix_color_green">"ירוק"</string>
     <string name="haptic_remix_color_white">"לבן"</string>
+    <string name="haptic_remix_summary">הקישו קצב של רטטים לשיחות, אפליקציות, מעוררים ונעילות</string>
+    <string name="haptic_remix_record">הקלטה</string>
+    <string name="haptic_remix_pad">הקישו את הקצב</string>
+    <string name="haptic_remix_strength">עוצמה</string>
+    <string name="haptic_remix_clear">נקה</string>
+    <string name="haptic_remix_play">הפעלה</string>
+    <string name="haptic_remix_name">שם התבנית</string>
+    <string name="haptic_remix_empty">עדיין לא הוקלט דבר</string>
+    <string name="haptic_remix_too_long">תבנית יכולה להימשך 30 שניות</string>
+    <string name="haptic_remix_presets">הגדרות מוכנות</string>
+    <string name="haptic_remix_preset_neon">ניאון</string>
+    <string name="haptic_remix_preset_glass">זכוכית</string>
+    <string name="haptic_remix_preset_ringtone">קצב של צלצול</string>
+    <string name="haptic_remix_listening">מאזין לצלצול…</string>
+    <string name="haptic_remix_no_ringtone">לא ניתן היה לקרוא את הצלצול</string>
+    <string name="haptic_remix_patterns">התבניות שלכם</string>
+    <string name="haptic_remix_patterns_none">שמרו תבנית קודם. החזיקו תבנית לחוצה כדי למחוק אותה.</string>
+    <string name="haptic_remix_broken">לא ניתן לקרוא את התבנית הזו</string>
+    <string name="haptic_remix_delete">למחוק את <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">שיוך ל</string>
+    <string name="haptic_remix_alarm">מעורר וטיימר</string>
+    <string name="haptic_remix_plug">מחובר לטעינה</string>
+    <string name="haptic_remix_fingerprint">טביעת אצבע הצליחה</string>
+    <string name="haptic_remix_add_contact">הוספת איש קשר</string>
+    <string name="haptic_remix_edge_color">תאורת קצוות להודעות של <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">הדגשה</string>
+    <string name="haptic_remix_color_crimson">ארגמן</string>
+    <string name="haptic_remix_color_amber">ענבר</string>
+    <string name="haptic_remix_add_app">הוספת התראות של אפליקציה</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · הקישו לשינוי, החזיקו לצבע הקצוות</string>
+    <string name="haptic_remix_no_contacts">לא התקבל מספר מאנשי הקשר</string>
 </resources>

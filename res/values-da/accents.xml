@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Baggrund"</item>
+        <item>Resurrected</item>
+        <item>Android One Grøn</item>
+        <item>Aospa Grøn</item>
+        <item>Coca Cola Rød</item>
+        <item>Discord Lilla</item>
+        <item>Facebook Blå</item>
+        <item>Instagram Kirsebærrød</item>
+        <item>Jollibee Karmin</item>
+        <item>Monster Energy Grøn</item>
+        <item>Nextbit Mint</item>
+        <item>Oneplus Rød</item>
+        <item>Pepsi Blå</item>
+        <item>Pixel Blå</item>
+        <item>Pocophone Gul</item>
+        <item>Razer Grøn</item>
+        <item>Samsung Blå</item>
+        <item>Spotify Grøn</item>
+        <item>Starbucks Grøn</item>
+        <item>Twitch Lilla</item>
+        <item>Twitter Blå</item>
+        <item>Xiaomi Orange</item>
+        <item>Rav</item>
+        <item>"Sort"</item>
+        <item>"Blå"</item>
+        <item>Blågrå</item>
+        <item>Brun</item>
+        <item>Cyan</item>
+        <item>Dyb orange</item>
+        <item>Dyb lilla</item>
+        <item>"Grøn"</item>
+        <item>"Grå"</item>
+        <item>Indigo</item>
+        <item>Lyseblå</item>
+        <item>Lime</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>"Lilla"</item>
+        <item>"Rød"</item>
+        <item>"Grønblå"</item>
+        <item>Bruger fem</item>
+        <item>Bruger fire</item>
+        <item>Bruger et</item>
+        <item>Bruger syv</item>
+        <item>Bruger seks</item>
+        <item>Bruger tre</item>
+        <item>Bruger to</item>
+        <item>"Hvid"</item>
+        <item>"Gul"</item>
+    </string-array>
+</resources>

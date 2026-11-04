@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">ໂມງນັບຖອຍຫຼັງ</string>
     <string name="quick_launch_undo">"ຍົກເລີກ"</string>
     <string name="quick_launch_off">"ປິດ"</string>
+    <string name="quick_launch_title">ເປີດດ່ວນ</string>
+    <string name="quick_launch_main">ເປີດດ່ວນດ້ວຍລາຍນິ້ວມື</string>
+    <string name="quick_launch_main_summary">ກົດຄ້າງນິ້ວໄວ້ທີ່ເຊັນເຊີຫຼັງປົດລັອກເພື່ອເປີດທາງລັດ</string>
+    <string name="quick_launch_hint">ແຕະທາງລັດເພື່ອປ່ຽນ, ກົດຄ້າງເພື່ອລຶບ ຫຼື ລາກເພື່ອຈັດລຽງໃໝ່.</string>
+    <string name="quick_launch_behavior">ພຶດຕິກຳ</string>
+    <string name="quick_launch_hold">ເວລາກົດຄ້າງ</string>
+    <string name="quick_launch_haptics">ສັ່ນທຸກຄັ້ງທີ່ເປີດທາງລັດ</string>
+    <string name="quick_launch_add">ເພີ່ມ</string>
+    <string name="quick_launch_video">ວິດີໂອ</string>
+    <string name="quick_launch_qr">ສະແກນ QR</string>
+    <string name="quick_launch_app">ແອັບ…</string>
+    <string name="quick_launch_removed">ລຶບ <xliff:g id="shortcut" example="Camera">%1$s</xliff:g> ແລ້ວ</string>
 </resources>

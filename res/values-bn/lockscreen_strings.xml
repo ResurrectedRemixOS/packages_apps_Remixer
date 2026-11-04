@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">আকস্মিক জেগে ওঠা প্রতিহত করুন</string>
+    <string name="lockscreen_battery_info_title">চার্জিং তথ্য</string>
+    <string name="lockscreen_battery_info_summary">চার্জ হওয়ার সময় কারেন্ট, ওয়াট, ভোল্টেজ ও ব্যাটারির তাপমাত্রা দেখান</string>
+    <string name="charging_ring_title">SuperVOOC চার্জিং অ্যানিমেশন</string>
+    <string name="charging_ring_summary">প্লাগ লাগালে চার্জিং রিং ও গতি দেখান</string>
+    <string name="pocket_mode_summary">প্রক্সিমিটি সেন্সর ঢাকা থাকলে স্ক্রিন জাগবে না এবং স্পর্শ উপেক্ষা করবে</string>
+    <string name="screen_on_time_title">স্ক্রিন-অন সময়</string>
+    <string name="screen_on_time_summary">চার্জ হওয়ার সময় লক স্ক্রিনে এবং ব্যাটারি সেভার টাইলে শেষ পূর্ণ চার্জের পর থেকে স্ক্রিন-অন সময় দেখান</string>
 </resources>

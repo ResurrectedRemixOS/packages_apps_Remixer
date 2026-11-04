@@ -3,4 +3,31 @@
     <string name="charge_report_battery">"ಬ್ಯಾಟರಿ"</string>
     <string name="charge_report_temp">"ತಾಪಮಾನ"</string>
     <string name="charge_report_time">"ಸಮಯ"</string>
+    <string name="charge_report_title">ಚಾರ್ಜ್ ವರದಿಗಳು</string>
+    <string name="charge_report_summary">ನೀವು ಅನ್‌ಪ್ಲಗ್ ಮಾಡಿದಾಗ ಪ್ರತಿ ಚಾರ್ಜ್‌ನ ಸಾರಾಂಶ</string>
+    <string name="charge_report_min_title">ಕನಿಷ್ಠ ಇಷ್ಟು ಸೇರಿಸಿದ್ದರೆ ಮಾತ್ರ</string>
+    <string name="charge_report_keep_title">ಉಳಿಸಿ</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 ದಿನಗಳು</item>
+        <item>7 ದಿನಗಳು</item>
+        <item>14 ದಿನಗಳು</item>
+        <item>30 ದಿನಗಳು</item>
+    </string-array>
+    <string name="charge_report_history_days">ಕೊನೆಯ <xliff:g id="days" example="7">%1$d</xliff:g> ದಿನಗಳು</string>
+    <string name="charge_report_today">ಇಂದು, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">ನಿನ್ನೆ, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> ನಿಮಿಷ</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ಗಂ <xliff:g id="minutes" example="02">%2$02d</xliff:g> ನಿಮಿಷ</string>
+    <string name="charge_report_watts">ವ್ಯಾಟ್‌ಗಳು</string>
+    <string name="charge_report_added">ಸೇರಿಸಲಾಗಿದೆ</string>
+    <string name="charge_report_peak">ಗರಿಷ್ಠ</string>
+    <string name="charge_report_average">ಸರಾಸರಿ</string>
+    <string name="charge_report_max_temp">ಗರಿಷ್ಠ ತಾಪಮಾನ</string>
+    <string name="charge_report_charger">ಚಾರ್ಜರ್</string>
+    <string name="charge_report_started">ಪ್ರಾರಂಭ ಸಮಯ</string>
+    <string name="charge_report_wired">ವೈರ್ಡ್</string>
+    <string name="charge_report_wireless">ವೈರ್‌ಲೆಸ್</string>
+    <string name="charge_report_dock">ಡಾಕ್</string>
+    <string name="charge_report_empty">ಇನ್ನೂ ಚಾರ್ಜ್‌ಗಳಿಲ್ಲ</string>
+    <string name="charge_report_footer">ಚಾರ್ಜರ್ ಸಂಪರ್ಕದಲ್ಲಿರುವಾಗ SystemUI ಪ್ರತಿ 30 ಸೆಕೆಂಡ್‌ಗೆ ಬ್ಯಾಟರಿಯ ಪ್ರವಾಹ, ವೋಲ್ಟೇಜ್ ಮತ್ತು ತಾಪಮಾನವನ್ನು ಓದುತ್ತದೆ. ವ್ಯಾಟ್‌ಗಳು ಫೋನ್ ಅಳೆಯುವ ಮೌಲ್ಯಗಳಾಗಿದ್ದು, ಚಾರ್ಜರ್ ಮೇಲಿನ ಸಂಖ್ಯೆಗಿಂತ ಭಿನ್ನವಾಗಿರಬಹುದು. ವರದಿಗಳು ಫೋನ್‌ನಲ್ಲಿಯೇ ಉಳಿಯುತ್ತವೆ; ಯಾವುದೂ ಅಪ್‌ಲೋಡ್ ಆಗುವುದಿಲ್ಲ.</string>
 </resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="volume_page_title">व्हॉल्यूम पॅनल</string>
+    <string name="volume_page_summary">निऑन, ग्लास, पिल किंवा क्लासिक RR</string>
+    <string name="volume_behavior">वर्तन</string>
+    <string name="volume_on_left_title">डावीकडे पॅनल</string>
+    <string name="volume_on_left_summary">क्लासिक RR नेहमी वरच्या बाजूला असतो</string>
+    <string name="volume_ringer_title">रिंगर मोड बटण</string>
+    <string name="volume_tick_title">स्लाइड करताना टिक</string>
+    <string name="volume_percent_title">पातळी टक्केवारीत दाखवा</string>
+    <string name="volume_timeout_title">यानंतर लपवा</string>
+    <string name="volume_footer">लुक फक्त पॅनल कसा दिसतो ते बदलतो, तो कसा काम करतो ते नाही. Android स्टॉक पॅनल ठेवते. सर्व स्ट्रीम पाहण्यासाठी ठिपक्यांवर टॅप करा; विस्तारित पॅनलही हाच लुक वापरतो.</string>
+</resources>

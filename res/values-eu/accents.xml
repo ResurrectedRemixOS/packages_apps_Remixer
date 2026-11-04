@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Horma-papera"</item>
+        <item>Resurrected</item>
+        <item>Android One Berdea</item>
+        <item>Aospa Berdea</item>
+        <item>Coca Cola Gorria</item>
+        <item>Discord Morea</item>
+        <item>Facebook Urdina</item>
+        <item>Instagram Gereziak</item>
+        <item>Jollibee Karmesia</item>
+        <item>Monster Energy Berdea</item>
+        <item>Nextbit Menta</item>
+        <item>Oneplus Gorria</item>
+        <item>Pepsi Urdina</item>
+        <item>Pixel Urdina</item>
+        <item>Pocophone Horia</item>
+        <item>Razer Berdea</item>
+        <item>Samsung Urdina</item>
+        <item>Spotify Berdea</item>
+        <item>Starbucks Berdea</item>
+        <item>Twitch Morea</item>
+        <item>Twitter Urdina</item>
+        <item>Xiaomi Laranja</item>
+        <item>Anbarra</item>
+        <item>"Beltza"</item>
+        <item>"Urdina"</item>
+        <item>Urdin grisa</item>
+        <item>Marroia</item>
+        <item>"Ziana"</item>
+        <item>Laranja sakonа</item>
+        <item>More sakona</item>
+        <item>"Berdea"</item>
+        <item>"Grisa"</item>
+        <item>"Indigoa"</item>
+        <item>Urdin argia</item>
+        <item>Lima</item>
+        <item>"Laranja"</item>
+        <item>"Arrosa"</item>
+        <item>"Morea"</item>
+        <item>"Gorria"</item>
+        <item>"Berde urdinxka"</item>
+        <item>Erabiltzailea bost</item>
+        <item>Erabiltzailea lau</item>
+        <item>Erabiltzailea bat</item>
+        <item>Erabiltzailea zazpi</item>
+        <item>Erabiltzailea sei</item>
+        <item>Erabiltzailea hiru</item>
+        <item>Erabiltzailea bi</item>
+        <item>"Zuria"</item>
+        <item>"Horia"</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_profile_title">Профил на вибрациите</string>
+    <string name="haptic_profile_crisp">Рязък</string>
+    <string name="haptic_profile_gentle">Плавен</string>
+    <string name="haptic_profile_op13crisp">OP13 Рязък</string>
+    <string name="haptic_profile_op13gentle">OP13 Плавен</string>
+</resources>

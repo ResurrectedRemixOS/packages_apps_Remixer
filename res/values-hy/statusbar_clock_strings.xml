@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Ամսաթիվ"</string>
     <string name="sb_weather_category">"Եղանակ"</string>
+    <string name="sb_clock_category">Ժամացույց և ամսաթիվ</string>
+    <string name="sb_clock_bold_title">Թավ ժամացույց</string>
+    <string name="sb_clock_bold_summary">Կարգավիճակի գոտու ժամացույցը թավ ցուցադրել</string>
+    <string name="sb_clock_period_separator_title">Ժամի և րոպեի բաժանարար</string>
+    <string name="sb_clock_period_separator_summary">10.45՝ 10:45-ի փոխարեն</string>
+    <string name="sb_clock_date_position_title">Ամսաթվի դիրք</string>
+    <string name="sb_clock_date_style_title">Ամսաթվի տառադարձություն</string>
+    <string name="sb_clock_date_format_title">Ամսաթվի ձևաչափ</string>
+    <string name="sb_clock_chip_category">Ժամացույցի ֆոն</string>
+    <string name="sb_clock_chip_title">Ֆոնի ոճ</string>
+    <string name="sb_clock_chip_start_title">Գրադիենտի սկիզբ</string>
+    <string name="sb_clock_chip_end_title">Գրադիենտի վերջ</string>
+    <string name="sb_clock_chip_angle_title">Գրադիենտի անկյուն</string>
+    <string name="sb_clock_chip_mask_title">Ժամը կտրել գրադիենտից</string>
+    <string name="sb_clock_chip_mask_summary">Գրադիենտը երևում է թվանշանների միջից՝ դրանց հետևի փոխարեն</string>
+    <string name="sb_weather_title">Եղանակը կարգավիճակի գոտում</string>
+    <string name="sb_weather_position_title">Դիրք</string>
+    <string name="status_bar_clock_rr_style_title">Ժամացույցի տեսք</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Կանխադրված"</item>
+        <item>Նեոն</item>
+        <item>Բաժանված</item>
+        <item>RR նշան</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Դարսված</item>
+        <item>Ածուխ</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline ժամի կողքին</string>
+    <string name="sb_clock_flatline_summary">RR-ի սրտի ռիթմի գիծը չիպի մեջ՝ զարկվում է երաժշտությանը, սուր է դառնում ծանուցման դեպքում</string>
 </resources>

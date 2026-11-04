@@ -8,4 +8,50 @@
         <item>"मध्‍यम"</item>
         <item>"मोठा"</item>
     </string-array>
+    <string name="pie_title">पाय कंट्रोल्स</string>
+    <string name="pie_summary">कडेच्या खालच्या भागावर दाबून धरा, शॉर्टकट्सचा पाय उघडेल</string>
+    <string name="pie_zone">कडेचा भाग</string>
+    <string name="pie_clock">त्याच्या वरती घड्याळ आणि बॅटरी</string>
+    <string name="pie_items">स्लाइस</string>
+    <string-array name="pie_items_entries">
+        <item>"मागे जा"</item>
+        <item>होम</item>
+        <item>"अलीकडील"</item>
+        <item>"सूचना"</item>
+        <item>"फ्लॅशलाइट"</item>
+        <item>"स्क्रीनशॉट"</item>
+        <item>"पॉवर मेनू"</item>
+        <item>असिस्टंट</item>
+        <item>"कॅमेरा"</item>
+    </string-array>
+    <string name="pie_footer">हलवल्याशिवाय पाव सेकंद दाबून धरावे लागते, म्हणून कडेवरून झटकन स्वाइप केल्यास मागे जाणे चालूच राहते. लॉक स्क्रीनवर ते उघडत नाही.</string>
+    <string-array name="pie_edges_entries">
+        <item>"डावे"</item>
+        <item>"उजवे"</item>
+        <item>दोन्ही</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>खालचा तिसरा भाग</item>
+        <item>मधला</item>
+        <item>संपूर्ण कड</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>निऑन</item>
+        <item>ग्लास</item>
+        <item>क्लासिक</item>
+    </string-array>
+    <string name="sidebar_style_title">ॲप साइडबार लुक</string>
+    <string-array name="sidebar_style_entries">
+        <item>क्लासिक</item>
+        <item>RR ग्लास</item>
+        <item>निऑन</item>
+    </string-array>
+    <string name="sidebar_settings_title">ॲप साइडबार</string>
+    <string name="sidebar_settings_summary">ॲप्स आणि टूल्ससाठी हॅंडलवरून आत स्वाइप करा</string>
+    <string name="sidebar_apps_title">ॲप्स, हॅंडल आणि क्लिपबोर्ड</string>
+    <string name="sidebar_apps_summary">हॅंडल चालू करा, ॲप्स निवडा आणि स्मार्ट क्लिपबोर्ड सेट करा</string>
+    <string name="sidebar_handle_size_title">हॅंडलचा आकार</string>
+    <string name="sidebar_tools_title">टूल्स रांग</string>
+    <string name="sidebar_tools_summary">तुमच्या ॲप्सखाली स्क्रीनशॉट आणि फ्लॅशलाइट</string>
+    <string name="sidebar_footer">हॅंडल तुमच्या ॲक्सेंट रंगाची पातळ रेषा आहे; ती कडेवर हलवण्यासाठी ओढा. गेश्चर नेव्हिगेशनसह ते फक्त स्वतःच्या भागावर असते, आणि मागे जाण्याचे काम बाकी सर्व ठिकाणी चालते.</string>
 </resources>

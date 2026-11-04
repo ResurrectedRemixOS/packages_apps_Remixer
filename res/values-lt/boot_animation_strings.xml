@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Paleisties animacija</string>
+    <string name="boot_animation_note">Bus paleista kitą kartą įjungiant telefoną.</string>
+    <string name="boot_animation_custom">Jūsų failas</string>
+    <string name="boot_animation_custom_pick">Pasirinkite failą…</string>
+    <string name="boot_animation_custom_invalid">Šis failas nėra paleisties animacija</string>
+    <string name="boot_animation_failed">Nepavyko pakeisti paleisties animacijos</string>
+</resources>

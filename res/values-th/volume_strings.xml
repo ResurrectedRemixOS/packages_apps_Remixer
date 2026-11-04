@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="volume_page_title">แผงระดับเสียง</string>
+    <string name="volume_page_summary">นีออน กระจก แคปซูล หรือ Classic RR</string>
+    <string name="volume_behavior">พฤติกรรม</string>
+    <string name="volume_on_left_title">แผงอยู่ทางซ้าย</string>
+    <string name="volume_on_left_summary">Classic RR จะอยู่ด้านบนเสมอ</string>
+    <string name="volume_ringer_title">ปุ่มโหมดเสียงเรียกเข้า</string>
+    <string name="volume_tick_title">มีเสียงคลิกขณะเลื่อน</string>
+    <string name="volume_percent_title">แสดงระดับเป็นเปอร์เซ็นต์</string>
+    <string name="volume_timeout_title">ซ่อนหลังจาก</string>
+    <string name="volume_footer">รูปแบบจะเปลี่ยนเฉพาะลักษณะของแผง ไม่ได้เปลี่ยนการทำงาน Android ยังคงใช้แผงเดิม แตะจุดเพื่อดูทุกสตรีม แผงที่ขยายจะใช้รูปแบบเดียวกัน</string>
+</resources>

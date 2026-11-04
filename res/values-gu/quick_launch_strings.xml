@@ -6,4 +6,20 @@
     <string name="quick_launch_timer">ટાઇમર</string>
     <string name="quick_launch_undo">"છેલ્લો ફેરફાર રદ કરો"</string>
     <string name="quick_launch_off">"બંધ છે"</string>
+    <string name="quick_launch_title">ઝડપી લૉન્ચ</string>
+    <string name="quick_launch_main">ફિંગરપ્રિન્ટ ઝડપી લૉન્ચ</string>
+    <string name="quick_launch_main_summary">અનલૉક કર્યા પછી શૉર્ટકટ ખોલવા સેન્સર પર આંગળી રાખો</string>
+    <string name="quick_launch_hint">શૉર્ટકટ બદલવા ટૅપ કરો, કાઢવા દબાવી રાખો, અથવા ક્રમ બદલવા ખેંચો.</string>
+    <string name="quick_launch_behavior">વર્તન</string>
+    <string name="quick_launch_hold">દબાવી રાખવાનો સમય</string>
+    <string name="quick_launch_haptics">દરેક શૉર્ટકટ પર વાઇબ્રેટ કરો</string>
+    <string name="quick_launch_add">ઉમેરો</string>
+    <string name="quick_launch_video">વિડિયો</string>
+    <string name="quick_launch_qr">QR સ્કૅન કરો</string>
+    <string name="quick_launch_app">ઍપ…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> કાઢી નાખ્યું</string>
+    <plurals name="quick_launch_on">
+        <item quantity="one">ચાલુ · <xliff:g id="count" example="4">%d</xliff:g> શૉર્ટકટ</item>
+        <item quantity="other">ચાલુ · <xliff:g id="count" example="4">%d</xliff:g> શૉર્ટકટ્સ</item>
+    </plurals>
 </resources>

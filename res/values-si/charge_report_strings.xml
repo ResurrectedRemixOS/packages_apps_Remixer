@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"බැටරිය"</string>
     <string name="charge_report_temp">"උෂ්ණත්වය"</string>
     <string name="charge_report_time">"වේලාව"</string>
+    <string name="charge_report_title">ආරෝපණ වාර්තා</string>
+    <string name="charge_report_summary">ඔබ විසන්ධි කරන විට එක් එක් ආරෝපණයේ සාරාංශය</string>
+    <string name="charge_report_min_title">එය අවම වශයෙන් එකතු වුවහොත් පමණි</string>
+    <string-array name="charge_report_keep_entries">
+        <item>දින 3</item>
+        <item>දින 7</item>
+        <item>දින 14</item>
+        <item>දින 30</item>
+    </string-array>
+    <string name="charge_report_history_days">අවසන් දින <xliff:g id="days" example="7">%1$d</xliff:g></string>
+    <string name="charge_report_today">අද, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">ඊයේ, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes">මිනි <xliff:g id="minutes" example="31">%1$d</xliff:g></string>
+    <string name="charge_report_hours">පැය <xliff:g id="hours" example="6">%1$d</xliff:g> මිනි <xliff:g id="minutes" example="02">%2$02d</xliff:g></string>
+    <string name="charge_report_watts">වොට්</string>
+    <string name="charge_report_added">එකතු කළ</string>
+    <string name="charge_report_peak">උච්චතම</string>
+    <string name="charge_report_average">සාමාන්‍ය</string>
+    <string name="charge_report_max_temp">උපරිම උෂ්ණත්වය</string>
+    <string name="charge_report_charger">චාජරය</string>
+    <string name="charge_report_started">ආරම්භ වූ වේලාව</string>
+    <string name="charge_report_wired">රිහැඳි</string>
+    <string name="charge_report_wireless">රිහැඳි නොවන</string>
+    <string name="charge_report_dock">ඩොක්</string>
+    <string name="charge_report_empty">තවම ආරෝපණ නැත</string>
+    <string name="charge_report_footer">SystemUI දුරකථනය සම්බන්ධ කර ඇති විට සෑම තත්පර 30කට වරක් බැටරියේ වත්මන්, වෝල්ටීයතාව සහ උෂ්ණත්වය කියවයි. වොට් යනු දුරකථනය මනින අගයන් වන අතර, ඒවා චාජරය මත ඇති අංකවලට වෙනස් විය හැක. වාර්තා දුරකථනයේ පමණක් රැඳේ; කිසිවක් උඩුගත නොවේ.</string>
 </resources>

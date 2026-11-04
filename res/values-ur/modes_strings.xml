@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">ہر Mode کے لیے ایک Look</string>
+    <string name="remix_modes_everyday">روزمرہ کا Look</string>
+    <string name="remix_modes_everyday_summary">کسی Look والے Mode کے آن نہ ہونے پر واپس آ جاتا ہے</string>
+    <string name="remix_modes_wallpaper">وال پیپر بھی Look کے ساتھ بدلتا ہے</string>
+    <string name="remix_modes_wallpaper_summary">کوئی Mode وال پیپر بھی بدل سکتا ہے</string>
+    <string name="remix_modes_modes">آپ کے Modes</string>
+    <string name="remix_modes_no_change">کوئی تبدیلی نہیں</string>
+    <string name="remix_modes_none">پہلے تھیم › Looks میں ایک Look محفوظ کریں</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g> کے لیے Look</string>
+</resources>

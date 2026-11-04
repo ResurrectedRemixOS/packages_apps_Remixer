@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"አዝራሮች"</string>
     <string name="now_bar_text">"ጽሁፍ"</string>
     <string name="now_bar_text_size">"የፅሁፍ መጠን"</string>
+    <string name="now_bar_summary">በማያ ገጽ ቁልፍ ግርጌ ላይ ቀጥታ እንቅስቃሴዎች</string>
+    <string name="now_bar_show">አሳይ</string>
+    <string name="now_bar_music">ሙዚቃ እና ቪዲዮ</string>
+    <string name="now_bar_timers">ሰዓት ቆጣሪዎች፣ ስትፖዋች እና ማንቂያዎች</string>
+    <string name="now_bar_hide_call">የጥሪ ማሳወቂያውን ደብቅ</string>
+    <string name="now_bar_hide_call_summary">በማያ ገጽ ቁልፍ ላይ፣ በ Now Bar ውስጥ ያለ ጥሪ እንደ ማሳወቂያ ተዘርዝሮ አይታይም</string>
+    <string name="now_bar_live">ቀጥታ ዝማኔዎች</string>
+    <string name="now_bar_live_summary">አሰሳ፣ ጉዞዎች፣ ማድረሻዎች፣ ውጤቶች</string>
+    <string name="now_bar_scores">ቀጥታ ውጤቶች</string>
+    <string name="now_bar_live_apps">ለቀጥታ ዝማኔዎች መተግበሪያዎች</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> መተግበሪያዎች</string>
+    <string name="now_bar_pin">በሁልጊዜ ማሳያ ላይ ተሰክቷል</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g>ን ማንሳት ይፈልጋሉ?</string>
+    <string name="now_bar_unpin">አንሳ</string>
+    <string name="now_bar_scores_summary">በቅጽበት እይታ የሚከተሏቸው ጨዋታዎች</string>
+    <string name="now_bar_recording">ማያ ገጽ እና ድምፅ መቅዳት</string>
+    <string name="now_bar_buds">የጆሮ ማዳመጫዎች እና ሰዓቶች</string>
+    <string name="now_bar_buds_summary">የተገናኘ መሣሪያ ባትሪ፦ ግራ፣ ቀኝ እና የጆሮ ማዳመጫ ሣጥን</string>
+    <string name="now_bar_wave">የማዕበል እንቅስቃሴ</string>
+    <string name="now_bar_aod">በሁልጊዜ ማሳያ ላይ አሳይ</string>
+    <string name="now_bar_chip">በሁኔታ አሞሌው ላይ ቺፕ</string>
+    <string name="now_bar_chip_summary">ሲከፈት ሙዚቃና ሰዓት ቆጣሪዎች ከሰዓቱ ቀጥሎ ይጫወታሉ</string>
+    <string name="now_bar_footer">በ Now Bar ውስጥ ሙዚቃ ሲኖር፣ ትልቁ የማያ ገጽ ቁልፍ ማጫወቻ ይደበቃል። በአሞሌው ላይ ወደ ጎን በማንሸራተት እንቅስቃሴዎችን ይቀያይሩ፣ መቆጣጠሪያዎችን ለመክፈት ይንኩት፣ እስኪያልቅ ድረስ አንዱን ለመደበቅ ረጅም ይጫኑት። ወረፋ ላይ ቆሞ ያለ ዘፈን ከአሞሌው ላይ ለማስወገድ ወደ ጎን ያንሸራትቱት።\n\nየቀጥታ ውጤቶች በጎግል መተግበሪያ ውስጥ የሚከተሏቸውን ቡድኖች ጨዋታዎች ያሳያሉ። በSmartspacer የስፖርት ኢላማ ካከሉ፣ ውጤታቸው እዚህ ይታያል።</string>
+    <string name="now_bar_looks">ቅንብሮች</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"ነባሪ"</item>
+        <item>Liquid Glass</item>
+        <item>ትንሽ</item>
+        <item>ትልቅ</item>
+        <item>ኒዮን</item>
+        <item>የመስታወት ካርድ</item>
+    </string-array>
+    <string name="now_bar_material">ቁሳቁስ</string>
+    <string name="now_bar_material_summary">Liquid Glass በገጽታ ውስጥ የመረጡትን መስታወት ይጠቀማል</string>
+    <string-array name="now_bar_material_entries">
+        <item>ጠንካራ</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>የአልበም ሥዕል</item>
+        <item>ማድመቂያ</item>
+        <item>ጨለማ</item>
+    </string-array>
+    <string name="now_bar_opacity">ግልጽነት</string>
+    <string name="now_bar_opacity_summary">በLiquid Glass፣ ቀለም የመስታወቱን ቀለም ምን ያህል እንደሚያጨልም</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"ምንም"</item>
+        <item>ቀጭን</item>
+        <item>ማድመቂያ</item>
+    </string-array>
+    <string name="now_bar_shadow">ጥላ</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"ጠፍቷል"</item>
+        <item>ለስላሳ</item>
+        <item>ብርሃን</item>
+    </string-array>
+    <string name="now_bar_more">ተጨማሪ እንቅስቃሴዎች</string>
+    <string-array name="now_bar_more_entries">
+        <item>ወደ ጎን ብቻ ያንሸራትቱ</item>
+        <item>ነጥቦች</item>
+        <item>ከኋላ ይመልከቱ</item>
+    </string-array>
+    <string name="now_bar_size">መጠን እና ቅርፅ</string>
+    <string name="now_bar_height">ቁመት</string>
+    <string name="now_bar_width_summary">ሙሉ አቋራጮቹን ከአሞሌው በላይ ያንቀሳቅሳል</string>
+    <string-array name="now_bar_width_entries">
+        <item>ጠባብ</item>
+        <item>በአቋራጮች መካከል</item>
+        <item>ሙሉ</item>
+    </string-array>
+    <string name="now_bar_corners">ማዕዘኖች</string>
+    <string name="now_bar_raise">ከፍ አድርግ</string>
+    <string name="now_bar_art">የአልበም ሥዕል</string>
+    <string-array name="now_bar_art_entries">
+        <item>"ክብ"</item>
+        <item>የተጠጋጋ</item>
+        <item>"ካሬ"</item>
+        <item>"ጠፍቷል"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>ዝለል እና አጫውት</item>
+        <item>መጫወት ብቻ</item>
+        <item>"ምንም"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>አንድ መስመር</item>
+        <item>ሁለት መስመሮች</item>
+        <item>ዘፈን ብቻ</item>
+    </string-array>
+    <string name="now_bar_show_page">በአሞሌው ላይ የሚታየው</string>
+    <string name="now_bar_show_page_summary">ሙዚቃ እና ቪዲዮ፣ ሰዓት ቆጣሪዎች፣ ጥሪዎች እና ሌሎችም</string>
+    <string name="now_bar_where">ሌላ የት</string>
 </resources>

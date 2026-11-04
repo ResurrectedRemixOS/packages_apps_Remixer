@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Bateria"</string>
     <string name="battery_style_title">"Stili"</string>
+    <string-array name="battery_style_entries">
+        <item>Portret</item>
+        <item>"Rrethi"</item>
+        <item>Rreth me pika</item>
+        <item>Rreth neoni</item>
+        <item>Pilulë e hollë</item>
+        <item>Përqindja e madhe</item>
+        <item>Tekst</item>
+    </string-array>
+    <string name="battery_percent_title">Përqindja</string>
+    <string-array name="battery_percent_entries">
+        <item>"E fshehur"</item>
+        <item>Brenda ikonës</item>
+        <item>Pranë saj</item>
+    </string-array>
+    <string name="battery_ring_color_title">Ngjyra e rrethit neon</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Sipas nivelit, theksi është mbi 20%%, e kuqe nën këtë dhe kehribar në Kursyesin e baterisë.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Sipas nivelit</item>
+        <item>Theksi</item>
+        <item>"E bardhë"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Shkëndija gjatë karikimit</string>
+    <string name="battery_ring_tile_title">I njëjti rreth te pllakëza e Cilësimeve të shpejta</string>
+    <string name="battery_ring_tile_summary">Me nivelin dhe kohën e ekranit të ndezur</string>
 </resources>

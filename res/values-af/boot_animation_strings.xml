@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Selfoonaanskakelanimasie</string>
+    <string name="boot_animation_note">Speel die volgende keer wanneer die foon begin.</string>
+    <string name="boot_animation_custom">Jou lêer</string>
+    <string name="boot_animation_custom_pick">Kies \'n lêer…</string>
+    <string name="boot_animation_custom_invalid">Daardie lêer is nie \'n opstartanimasie nie</string>
+    <string name="boot_animation_failed">Kon nie die opstartanimasie verander nie</string>
+</resources>

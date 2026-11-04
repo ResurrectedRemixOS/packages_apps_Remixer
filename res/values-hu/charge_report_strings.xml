@@ -5,4 +5,29 @@
     <string name="charge_report_temp">"Hőmérséklet"</string>
     <string name="charge_report_time">"Idő"</string>
     <string name="charge_report_wireless">Vezeték nélküli</string>
+    <string name="charge_report_title">Töltési jelentések</string>
+    <string name="charge_report_summary">Minden töltés összegzése, amikor leválasztja a töltőt</string>
+    <string name="charge_report_min_title">Csak ha legalább ennyivel nőtt</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 nap</item>
+        <item>7 nap</item>
+        <item>14 nap</item>
+        <item>30 nap</item>
+    </string-array>
+    <string name="charge_report_history_days">Az utolsó <xliff:g id="days" example="7">%1$d</xliff:g> nap</string>
+    <string name="charge_report_today">Ma, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Tegnap, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> perc</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ó <xliff:g id="minutes" example="02">%2$02d</xliff:g> perc</string>
+    <string name="charge_report_watts">Watt</string>
+    <string name="charge_report_added">Hozzáadva</string>
+    <string name="charge_report_peak">Csúcs</string>
+    <string name="charge_report_average">Átlag</string>
+    <string name="charge_report_max_temp">Maximális hőmérséklet</string>
+    <string name="charge_report_charger">Töltő</string>
+    <string name="charge_report_started">Kezdés ideje</string>
+    <string name="charge_report_wired">Vezetékes</string>
+    <string name="charge_report_dock">Dokkoló</string>
+    <string name="charge_report_empty">Még nincs töltés</string>
+    <string name="charge_report_footer">A SystemUI töltés közben 30 másodpercenként beolvassa az akkumulátor aktuális áramerősségét, feszültségét és hőmérsékletét. A wattértékek a telefon által mért adatok, ezért eltérhetnek a töltőn feltüntetett értéktől. A jelentések a telefonon maradnak, semmi nem töltődik fel.</string>
 </resources>

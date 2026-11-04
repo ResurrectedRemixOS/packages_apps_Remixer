@@ -15,4 +15,54 @@
     <string name="looks_save_look">"ذخیره"</string>
     <string name="looks_custom_color">"رنگ سفارشی"</string>
     <string name="looks_part_clock_color">"رنگ ساعت"</string>
+    <string name="looks_title">ظاهرها</string>
+    <string name="looks_summary">کل تنظیماتتان در یک ضربه</string>
+    <string name="looks_rr">ظاهرهای RR</string>
+    <string name="looks_yours">ظاهرهای شما</string>
+    <string name="looks_none">هنوز چیزی ذخیره نشده</string>
+    <string name="looks_save">ذخیره وضعیت فعلی</string>
+    <string name="looks_import_clipboard">از کلیپ‌بورد</string>
+    <string name="looks_import_file">از یک فایل</string>
+    <string name="looks_mine">ظاهر من</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> اعمال شد</string>
+    <string name="looks_failed">همه آن اعمال نشد</string>
+    <string name="looks_invalid">این یک ظاهر RR نیست</string>
+    <string name="looks_part_accent">رنگ تأکیدی</string>
+    <string name="looks_part_qs">سبک تنظیمات فوری</string>
+    <string name="looks_part_clock_face">طرح ساعت صفحه قفل</string>
+    <string name="looks_part_clock_look">ساعت نوار وضعیت</string>
+    <string name="looks_part_edge">روشنایی لبه</string>
+    <string name="looks_part_boot">انیمیشن راه‌اندازی</string>
+    <string name="looks_part_haptics">الگوهای Haptic Remix</string>
+    <string name="looks_saturation">اشباع <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">لهجه</string>
+    <string name="looks_share_title">اشتراک‌گذاری «<xliff:g id="name" example="Neon night">%1$s</xliff:g>»</string>
+    <string name="looks_share_hint">با دوربین گوشی RR دیگری یا در ظاهرها › وارد کردن اسکن کنید</string>
+    <string name="looks_share_file">اشتراک‌گذاری فایل</string>
+    <string name="looks_save_file">ذخیره فایل</string>
+    <string name="looks_import_scan">اسکن کد QR</string>
+    <string name="looks_import_title">وارد کردن ظاهر</string>
+    <string name="looks_from_qr">از کد QR</string>
+    <string name="looks_from_file">از یک فایل</string>
+    <string name="looks_from_clipboard">از کلیپ‌بورد</string>
+    <string name="looks_import_same">از قبل با تنظیماتتان یکسان است.</string>
+    <string name="looks_new">ظاهر جدید</string>
+    <string name="looks_edit_title">ویرایش ظاهر</string>
+    <string name="looks_in_look">در این ظاهر</string>
+    <string name="looks_not_included">خارج از این ظاهر</string>
+    <string name="looks_save_apply">ذخیره و اعمال</string>
+    <string name="looks_saved">«<xliff:g id="name" example="Sunday">%1$s</xliff:g>» ذخیره شد</string>
+    <string name="looks_delete_confirm">«<xliff:g id="name" example="Sunday">%1$s</xliff:g>» حذف شود؟</string>
+    <string name="looks_rr_wallpaper">کاغذدیواری RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">اشباع لهجه</string>
+    <string name="looks_part_clock_chip">تراشه ساعت نوار وضعیت</string>
+    <string name="looks_part_edge_style">سبک روشنایی لبه</string>
+    <string name="looks_scan_hint">دوربین را به کد QR یک ظاهر بگیرید</string>
+    <string name="looks_scan_failed">دوربین باز نشد</string>
+    <string name="look_roulette_title">چرخ ظاهر</string>
+    <string-array name="look_roulette_entries">
+        <item>"خاموش"</item>
+        <item>هر بار قفل‌گشایی، ظاهری متفاوت</item>
+        <item>یک ظاهر متفاوت هر روز</item>
+    </string-array>
 </resources>

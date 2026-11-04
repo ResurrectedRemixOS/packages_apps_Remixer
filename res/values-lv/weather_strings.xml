@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Detalizēta informācija"</string>
     <string name="lockscreen_weather_location_title">"Atrašanās vieta"</string>
+    <string name="lockscreen_weather_title">Laikapstākļi bloķēšanas ekrānā</string>
+    <string name="lockscreen_weather_location_summary">Rādīt pilsētas nosaukumu</string>
+    <string name="lockscreen_weather_text_title">Stāvoklis</string>
+    <string name="lockscreen_weather_text_summary">Rādīt stāvokli, piemēram, Mākoņains vai Skaidras debesis</string>
+    <string name="lockscreen_weather_wind_title">Vējš</string>
+    <string name="lockscreen_weather_wind_summary">Rādīt vēja ātrumu un virzienu</string>
+    <string name="lockscreen_weather_humidity_title">Mitrums</string>
+    <string name="lockscreen_weather_humidity_summary">Rādīt mitrumu</string>
+    <string name="custom_clock_weather_title">Laikapstākļi pulksteņa ciparnīcās</string>
+    <string name="custom_clock_weather_summary">Rādīt laikapstākļus ciparnīcās, kurās tam ir vieta</string>
+    <string name="remixer_weather_service">Laikapstākļu pakalpojums</string>
+    <string name="remixer_weather_page_summary">Bloķēšanas ekrāna laikapstākļi un to, ko tie rāda</string>
 </resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="volume_page_title">හඬ පැනලය</string>
+    <string name="volume_page_summary">නියොන්, වීදුරු, පිල්ල හෝ සම්භාව්‍ය RR</string>
+    <string name="volume_behavior">හැසිරීම</string>
+    <string name="volume_on_left_title">වම් පසේ පැනලය</string>
+    <string name="volume_on_left_summary">සම්භාව්‍ය RR සැමවිටම මුදුනේ පිහිටයි</string>
+    <string name="volume_ringer_title">නාද ප්‍රකාර බොත්තම</string>
+    <string name="volume_tick_title">ස්ලයිඩ් කරන විට ටික් ශබ්ද</string>
+    <string name="volume_percent_title">මට්ටම ප්‍රතිශතයකින් පෙන්වන්න</string>
+    <string name="volume_timeout_title">පසුව සඟවන්න</string>
+    <string name="volume_footer">පෙනුමක් වෙනස් කරන්නේ පැනලයේ පෙනුම පමණි, ක්‍රියා කරන ආකාරය නොවේ. Android ස්ටොක් පැනලය තබා ගනී. සියලු ප්‍රවාහ බැලීමට තිත් ටැප් කරන්න; දිගු කළ පැනලයද එම පෙනුම භාවිතා කරයි.</string>
+</resources>

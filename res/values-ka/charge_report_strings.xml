@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"ბატარეა"</string>
     <string name="charge_report_temp">"ტემპერატურა"</string>
     <string name="charge_report_time">"დრო"</string>
+    <string name="charge_report_title">დატენვის ანგარიშები</string>
+    <string name="charge_report_summary">თითოეული დამუხტვის შეჯამება გამოყოფისას</string>
+    <string name="charge_report_min_title">მხოლოდ თუ დაამატა მინიმუმ</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 დღე</item>
+        <item>7 დღე</item>
+        <item>14 დღე</item>
+        <item>30 დღე</item>
+    </string-array>
+    <string name="charge_report_history_days">ბოლო <xliff:g id="days" example="7">%1$d</xliff:g> დღე</string>
+    <string name="charge_report_today">დღეს, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">გუშინ, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> წთ</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> სთ <xliff:g id="minutes" example="02">%2$02d</xliff:g> წთ</string>
+    <string name="charge_report_watts">ვატი</string>
+    <string name="charge_report_added">დამატებული</string>
+    <string name="charge_report_peak">პიკი</string>
+    <string name="charge_report_average">საშუალო</string>
+    <string name="charge_report_max_temp">მაქს. ტემპერატურა</string>
+    <string name="charge_report_charger">დამტენი</string>
+    <string name="charge_report_started">დაიწყო</string>
+    <string name="charge_report_wired">სადენიანი</string>
+    <string name="charge_report_wireless">უსადენო</string>
+    <string name="charge_report_dock">სადგური</string>
+    <string name="charge_report_empty">ჯერ დამუხტვა არ ყოფილა</string>
+    <string name="charge_report_footer">SystemUI ყოველ 30 წამში კითხულობს ბატარეის დენს, ძაბვასა და ტემპერატურას, სანამ ტელეფონი დამტენზეა. ვატები ტელეფონის მიერ გაზომილი მნიშვნელობაა, ამიტომ შეიძლება განსხვავდებოდეს დამტენზე მითითებულისგან. ანგარიშები ტელეფონზე რჩება; არაფერი იტვირთება.</string>
 </resources>

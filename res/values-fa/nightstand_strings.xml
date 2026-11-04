@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"زمان"</string>
+    <string name="nightstand_title">حالت کنار تخت</string>
+    <string name="nightstand_summary">ساعت کم‌نور کنار تخت روی نمایش همیشه‌روشن، هنگام شارژ در شب</string>
+    <string-array name="nightstand_when_entries">
+        <item>"خاموش"</item>
+        <item>روی شارژر در شب</item>
+        <item>هر شب، طبق برنامه</item>
+        <item>وقتی یکی از حالت‌های خواب فعال است</item>
+    </string-array>
+    <string name="nightstand_from">شروع شب</string>
+    <string name="nightstand_to">پایان شب</string>
+    <string name="nightstand_brightness">سقف روشنایی</string>
+    <string name="nightstand_brightness_summary">حداکثر روشنایی نمایش همیشه‌روشن وقتی حالت کنار تخت روشن است</string>
+    <string name="nightstand_face">صفحه ساعت</string>
+    <string name="nightstand_face_keep">همین صفحه فعلی را نگه دار</string>
+    <string name="nightstand_footer">حالت کنار تخت هنگام اجرا، نمایش همیشه‌روشن را روشن می‌کند و بعد آن را به حالت قبل برمی‌گرداند. با جدا شدن شارژر، به صدا درآمدن زنگ هشدار یا پایان شب، پایان می‌یابد. صفحه فقط بین دو صفحه سفارشی جابه‌جا می‌شود؛ ساعت سیستم ثابت می‌ماند.</string>
 </resources>

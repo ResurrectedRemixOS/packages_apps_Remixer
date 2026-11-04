@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Звуков панел</string>
+    <string name="volume_page_summary">Неон, стъкло, лента или класически RR</string>
+    <string name="volume_behavior">Поведение</string>
+    <string name="volume_on_left_title">Панел отляво</string>
+    <string name="volume_on_left_summary">Класическият RR винаги е отгоре</string>
+    <string name="volume_ringer_title">Бутон за режим на звънене</string>
+    <string name="volume_tick_title">Отметка при плъзгане</string>
+    <string name="volume_percent_title">Показване на нивото в проценти</string>
+    <string name="volume_timeout_title">Скриване след</string>
+    <string name="volume_footer">Стилът променя външния вид на панела, а не начина му на работа. Android запазва стандартния панел. Докоснете точките, за да видите всички потоци; разширеният панел използва същия стил.</string>
 </resources>

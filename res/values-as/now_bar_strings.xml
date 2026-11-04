@@ -10,4 +10,95 @@
     <string name="now_bar_buttons">"বুটাম"</string>
     <string name="now_bar_text">"বাৰ্তা পঠিয়াওক"</string>
     <string name="now_bar_text_size">"পাঠৰ আকাৰ"</string>
+    <string name="now_bar_summary">লক স্ক্ৰীনৰ তলত লাইভ কাৰ্যকলাপ</string>
+    <string name="now_bar_show">দেখুৱাওক</string>
+    <string name="now_bar_music">সংগীত আৰু ভিডিঅ\'</string>
+    <string name="now_bar_timers">টাইমাৰ, ষ্ট\'প্ৰৱাচ আৰু এলাৰ্ম</string>
+    <string name="now_bar_hide_call">কল জাননী লুকুৱাওক</string>
+    <string name="now_bar_live">লাইভ আপডেট</string>
+    <string name="now_bar_live_summary">নেভিগেশ্বন, যাত্ৰা, ডেলিভাৰী, স্ক\'ৰ</string>
+    <string name="now_bar_scores">লাইভ স্ক\'ৰ</string>
+    <string name="now_bar_live_apps">লাইভ আপডেটৰ বাবে এপ্‌সমূহ</string>
+    <string name="now_bar_pin">সদা-অন ডিছপ্লেত পিন কৰা</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> পিন আঁতৰাবনে?</string>
+    <string name="now_bar_unpin">পিন আঁতৰাওক</string>
+    <string name="now_bar_scores_summary">এট এ গ্লান্সত অনুসৰণ কৰা খেল</string>
+    <string name="now_bar_recording">স্ক্ৰীন আৰু ভইচ ৰেকৰ্ডিং</string>
+    <string name="now_bar_buds">ইয়াৰবাডছ আৰু ঘড়ী</string>
+    <string name="now_bar_buds_summary">সংযুক্ত ডিভাইচৰ বেটাৰী: ইয়াৰবাডৰ বাওঁ, সোঁ আৰু কেছ</string>
+    <string name="now_bar_wave">ৱেভ এনিমেশ্বন</string>
+    <string name="now_bar_aod">সদা-অন ডিছপ্লেত দেখুৱাওক</string>
+    <string name="now_bar_chip">স্থিতি দণ্ডৰ চিপ</string>
+    <string name="now_bar_chip_summary">আনলক অৱস্থাত ঘড়ীৰ কাষত সংগীত আৰু টাইমাৰ চলাওক</string>
+    <string name="now_bar_looks">ৰূপসমূহ</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"ডিফ’ল্ট"</item>
+        <item>Liquid Glass</item>
+        <item>সৰু</item>
+        <item>ডাঙৰ</item>
+        <item>নিঅ\'ন</item>
+        <item>গ্লাছ কাৰ্ড</item>
+    </string-array>
+    <string name="now_bar_material">মেটেৰিয়েল</string>
+    <string name="now_bar_material_summary">Liquid Glass এ থীমত আপুনি সেট কৰা গ্লাছ ব্যৱহাৰ কৰে</string>
+    <string-array name="now_bar_material_entries">
+        <item>নিৰেট</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>এলবাম আৰ্ট</item>
+        <item>এক্সেণ্ট</item>
+        <item>ক্বাঁৰ</item>
+    </string-array>
+    <string name="now_bar_opacity">অস্বচ্ছতা</string>
+    <string name="now_bar_opacity_summary">Liquid Glass ত ৰঙে গ্লাছক কিমান ৰঙীন কৰিব</string>
+    <string name="now_bar_outline">বাহিৰৰ ৰেখা</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"নাই"</item>
+        <item>পাতল</item>
+        <item>এক্সেণ্ট</item>
+    </string-array>
+    <string name="now_bar_shadow">ছায়া</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"অফ আছে"</item>
+        <item>নৰম</item>
+        <item>উজ্জ্বল আভা</item>
+    </string-array>
+    <string name="now_bar_more">অধিক কাৰ্যকলাপ</string>
+    <string-array name="now_bar_more_entries">
+        <item>কেৱল ছোৱাইপ কৰক</item>
+        <item>বিন্দু</item>
+        <item>পিছফালে চাওক</item>
+    </string-array>
+    <string name="now_bar_size">আকাৰ আৰু আকৃতি</string>
+    <string name="now_bar_height">উচ্চতা</string>
+    <string name="now_bar_width">প্ৰস্থ</string>
+    <string name="now_bar_width_summary">সম্পূৰ্ণে ওপৰৰ শ্বৰ্টকাট বাৰৰ ওপৰলৈ নিয়ে</string>
+    <string-array name="now_bar_width_entries">
+        <item>সৰু</item>
+        <item>শ্বৰ্টকাটৰ মাজত</item>
+        <item>সম্পূৰ্ণ</item>
+    </string-array>
+    <string name="now_bar_corners">চুকবোৰ</string>
+    <string name="now_bar_raise">উঠাওক</string>
+    <string name="now_bar_art">এলবাম আৰ্ট</string>
+    <string-array name="now_bar_art_entries">
+        <item>"পৰিচিত মানুহৰ গোট"</item>
+        <item>গোলাকাৰ</item>
+        <item>"বৰ্গাকাৰ"</item>
+        <item>"অফ আছে"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>স্কিপ আৰু প্লে</item>
+        <item>কেৱল চলোৱা</item>
+        <item>"নাই"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>এটা শাৰী</item>
+        <item>দুটা শাৰী</item>
+        <item>কেৱল গীত</item>
+    </string-array>
+    <string name="now_bar_show_page">বাৰত কি দেখা যায়</string>
+    <string name="now_bar_show_page_summary">সংগীত আৰু ভিডিঅ\', টাইমাৰ, কল আৰু অধিক</string>
+    <string name="now_bar_where">আন ক\'ত</string>
 </resources>

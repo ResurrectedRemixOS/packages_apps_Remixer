@@ -8,4 +8,50 @@
         <item>"Okuphakathi"</item>
         <item>"Okukhulu"</item>
     </string-array>
+    <string name="pie_title">Izilawuli zepie</string>
+    <string name="pie_summary">Bamba ingxenye esezansi yomphetho ukuze uthole ipie yezinqamuleli</string>
+    <string name="pie_zone">Ingxenye yomphetho</string>
+    <string name="pie_clock">Iwashi nebhethri phezulu kwayo</string>
+    <string name="pie_items">Izingcezu</string>
+    <string-array name="pie_items_entries">
+        <item>"Emuva"</item>
+        <item>Ekhaya</item>
+        <item>"Okwakamuva"</item>
+        <item>"Izaziso"</item>
+        <item>"I-Flashlight"</item>
+        <item>"Isithombe-skrini"</item>
+        <item>"Imenyu yamandla"</item>
+        <item>"Umsizi"</item>
+        <item>"Ikhamera"</item>
+    </string-array>
+    <string name="pie_footer">Kudinga ukubamba isigamu sesekhondi ngaphandle kokunyakaza, ukuze ukuswayipha okusheshayo emaphethelweni kusabuyela emuva. Ayivuli esikrinini sokukhiya.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Kwesokunxele"</item>
+        <item>"Kwesokudla"</item>
+        <item>Zombili</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Ingxenye yesithathu esezansi</item>
+        <item>Phakathi</item>
+        <item>Umphetho wonke</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>I-Neon</item>
+        <item>Iglasi</item>
+        <item>Okwakudala</item>
+    </string-array>
+    <string name="sidebar_style_title">Ukubukeka kwesidebha yezinhlelo zokusebenza</string>
+    <string-array name="sidebar_style_entries">
+        <item>Okwakudala</item>
+        <item>Ingilasi ye-RR</item>
+        <item>I-Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Isidebha yezinhlelo zokusebenza</string>
+    <string name="sidebar_settings_summary">Swayipha ukusuka esibambweni ukuze uthole izinhlelo zakho namathuluzi</string>
+    <string name="sidebar_apps_title">Izinhlelo, isibambo nebhodi lokopisha</string>
+    <string name="sidebar_apps_summary">Vula isibambo, khetha izinhlelo bese usetha ibhodi lokopisha elihlakaniphile</string>
+    <string name="sidebar_handle_size_title">Usayizi wesibambo</string>
+    <string name="sidebar_tools_title">Umugqa wamathuluzi</string>
+    <string name="sidebar_tools_summary">Isithombe-skrini ne-Flashlight ngaphansi kwezinhlelo zakho</string>
+    <string name="sidebar_footer">Isibambo ngumugqa omncane wombala wokugqamisa; sidonse ukusihambisa emaphethelweni. Ngokuthinta kokuzula sigubha ingxenye yaso yomphetho kuphela, futhi ukubuyela emuva kusebenza kwezinye izindawo.</string>
 </resources>

@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"डीफॉल्ट"</string>
     <string name="clock_faces_size">"आकार"</string>
     <string name="clock_faces_restart">"रीस्टार्ट करा"</string>
+    <string name="remixer_clock_faces">घड्याळाचे चेहरे</string>
+    <string name="clock_faces_system">सिस्टम घड्याळ</string>
+    <string name="clock_faces_system_desc">वॉलपेपर आणि शैलीमधील घड्याळ</string>
+    <string name="clock_faces_position">%2$d पैकी %1$d</string>
+    <string name="clock_faces_applied">लागू केले</string>
+    <string name="clock_faces_preview_unavailable">पूर्वावलोकन उपलब्ध नाही</string>
+    <string name="clock_faces_failed">घड्याळ बदलता आले नाही</string>
+    <string name="clock_faces_color_accent">ॲक्सेंट</string>
+    <string name="clock_faces_color_custom">सानुकूल</string>
+    <string name="clock_faces_color_album">अल्बम आर्ट</string>
+    <string name="clock_faces_color_gradient">ग्रेडियंट</string>
+    <string name="clock_faces_own_colors">या चेहऱ्याचे स्वतःचे रंग आहेत.</string>
+    <string name="clock_faces_album_hint">संगीत सुरू असताना अल्बम आर्टवरून रंग घेतो.</string>
+    <string name="clock_faces_size_position">आकार आणि स्थान</string>
+    <string name="clock_faces_size_value">आकार · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">वरून अंतर</string>
+    <string name="clock_faces_top_value">वरून अंतर · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">आडवी स्थिती</string>
+    <string name="clock_faces_horizontal_center">आडवी स्थिती · मध्यभागी</string>
+    <string name="clock_faces_horizontal_right">आडवी स्थिती · उजवीकडे <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_left">आडवी स्थिती · डावीकडे <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_fixed">हा चेहरा मध्यभागी राहतो.</string>
+    <string name="clock_faces_opacity">अपारदर्शकता</string>
+    <string name="clock_faces_opacity_value">अपारदर्शकता · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">हालचाल</string>
+    <string name="clock_faces_wobble">चार्ज होत असताना डोलणे</string>
+    <string name="clock_faces_wobble_summary">चार्जर लावल्यावर एकदा उसळते</string>
+    <string name="clock_faces_aod_anim">नेहमी-चालू डिस्प्लेवरील संक्रमण</string>
+    <string name="clock_faces_aod_anim_summary">नेहमी-चालू डिस्प्लेवर घड्याळ लहान होऊन फिके होते</string>
+    <string name="clock_faces_restart_title">लॉक स्क्रीन रीस्टार्ट करायची?</string>
+    <string name="clock_faces_restart_message">सिस्टम घड्याळ आणि कस्टम चेहऱ्यांमध्ये बदल केल्यास SystemUI रीस्टार्ट होईल. स्क्रीन एक सेकंदासाठी काळी होईल.</string>
+    <string name="clock_faces_note">पूर्वावलोकने तुमच्या लॉक स्क्रीन वॉलपेपरवर SystemUI द्वारे काढली जातात. रंग, आकार आणि स्थान बदलल्यास लॉक स्क्रीन लगेच बदलते.</string>
 </resources>

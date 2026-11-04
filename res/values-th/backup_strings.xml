@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">ท่าทาง</string>
     <string name="backup_group_other">"อื่นๆ"</string>
     <string name="backup_done">"เสร็จสิ้น"</string>
+    <string name="backup_summary">การปรับแต่ง RR ทั้งหมดในไฟล์เดียว</string>
+    <string name="backup_now">สำรองข้อมูลตอนนี้</string>
+    <string name="backup_never">สำรองล่าสุด: ยังไม่เคย</string>
+    <string name="backup_last">สำรองล่าสุด: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">กู้คืนจากไฟล์</string>
+    <string name="backup_restore_summary">เลือกไฟล์สำรอง</string>
+    <string name="backup_included">รวมอยู่ด้วย</string>
+    <string name="backup_part_theme">สีเน้น แบบอักษร และไอคอน</string>
+    <string name="backup_part_header">รูปภาพส่วนหัว</string>
+    <string name="backup_part_photo">รูปหัวข้อ (รูปของคุณ)</string>
+    <string name="backup_part_photo_summary">ทำให้ไฟล์มีขนาดใหญ่ขึ้น</string>
+    <string name="backup_part_boot">แอนิเมชันการบูต</string>
+    <string name="backup_part_looks">ลุคของคุณ</string>
+    <string name="backup_weekly">สำรองรายสัปดาห์</string>
+    <string name="backup_weekly_summary">ไปยังโฟลเดอร์ที่คุณเลือก</string>
+    <string name="backup_weekly_on">ทุกสัปดาห์ไปยัง <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">เสนอให้สำรองก่อนอัปเดต</string>
+    <string name="backup_offer_summary">ตัวอัปเดตจะถามก่อนติดตั้ง</string>
+    <string name="backup_sets">ตั้งค่า <xliff:g id="count" example="64">%1$d</xliff:g> รายการ</string>
+    <string name="backup_saved">บันทึกการตั้งค่า <xliff:g id="count" example="64">%1$d</xliff:g> รายการแล้ว</string>
+    <string name="backup_restored">กู้คืนการตั้งค่า <xliff:g id="count" example="64">%1$d</xliff:g> รายการแล้ว</string>
+    <string name="backup_restored_message">SystemUI จะรีสตาร์ทเพื่อใช้การตั้งค่า</string>
+    <string name="backup_skipped">การตั้งค่า <xliff:g id="count" example="2">%1$d</xliff:g> รายการไม่มีในบิลด์นี้และถูกข้าม</string>
+    <string name="backup_failed">ไม่สามารถบันทึกการสำรองข้อมูลได้</string>
+    <string name="backup_invalid">ไฟล์นี้ไม่ใช่ไฟล์สำรองของ Resurrected Remix</string>
+    <string name="backup_footer">ไฟล์นี้มีเฉพาะการตั้งค่าของ RR ไม่มีบัญชี รหัสผ่าน เครือข่าย Wi-Fi แอป หรือข้อความ การกู้คืนจะเขียนเฉพาะการตั้งค่าในรายการของ RR เท่านั้น ไฟล์สำรองจึงเปลี่ยนสิ่งอื่นในโทรศัพท์ไม่ได้ รูปหัวข้อของคุณจะรวมอยู่ด้วยเฉพาะเมื่อเปิดสวิตช์ไว้ เพราะทำให้ไฟล์มีขนาดใหญ่ขึ้น</string>
+    <string name="volume_style_title">รูปแบบแผงระดับเสียง</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>นีออน</item>
+        <item>กระจกใส</item>
+        <item>แคปซูล</item>
+        <item>Classic RR</item>
+        <item>Bento</item>
+        <item>รูปทรง</item>
+        <item>พิมพ์เขียว</item>
+        <item>คู่</item>
+        <item>นุ่ม</item>
+    </string-array>
 </resources>

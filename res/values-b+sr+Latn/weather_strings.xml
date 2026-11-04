@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Detalji"</string>
     <string name="lockscreen_weather_location_title">"Lokacija"</string>
+    <string name="lockscreen_weather_title">Vremenska prognoza na zaključanom ekranu</string>
+    <string name="lockscreen_weather_location_summary">Prikaži naziv grada</string>
+    <string name="lockscreen_weather_text_title">Stanje</string>
+    <string name="lockscreen_weather_text_summary">Prikaži stanje, poput Oblačno ili Vedro</string>
+    <string name="lockscreen_weather_wind_title">Vetar</string>
+    <string name="lockscreen_weather_wind_summary">Prikaži brzinu i smer vetra</string>
+    <string name="lockscreen_weather_humidity_title">Vlažnost</string>
+    <string name="lockscreen_weather_humidity_summary">Prikaži vlažnost vazduha</string>
+    <string name="custom_clock_weather_title">Vremenska prognoza na izgledima sata</string>
+    <string name="custom_clock_weather_summary">Prikaži vremensku prognozu u izgledima sata koji imaju za to mesta</string>
+    <string name="remixer_weather_service">Usluga vremenske prognoze</string>
+    <string name="remixer_weather_page_summary">Vremenska prognoza na zaključanom ekranu i šta prikazuje</string>
 </resources>

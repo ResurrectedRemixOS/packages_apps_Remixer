@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="notification_icons_category">"Pictograme"</string>
+    <string name="notification_app_icons_title">Pictograme aplicații</string>
+    <string name="notification_app_icons_summary">Afișează pictograma aplicației în notificări, în locul simbolului ei mic</string>
 </resources>

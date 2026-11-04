@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"ባትሪ"</string>
     <string name="battery_style_title">"ቅጥ"</string>
+    <string-array name="battery_style_entries">
+        <item>ቁም</item>
+        <item>"ክብ"</item>
+        <item>ነጥበ-ክብ</item>
+        <item>ኒዮን ቀለበት</item>
+        <item>ቀጭን ክኒን</item>
+        <item>ትልቅ መቶኛ</item>
+        <item>"ጽሁፍ"</item>
+    </string-array>
+    <string name="battery_percent_title">መቶኛ</string>
+    <string-array name="battery_percent_entries">
+        <item>"ተደብቋል"</item>
+        <item>በአዶው ውስጥ</item>
+        <item>ከአዶው ቀጥሎ</item>
+    </string-array>
+    <string name="battery_ring_color_title">የኒዮን ቀለበት ቀለም</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s። በደረጃ ማለት ከ20%% በላይ የአክሰንት ቀለም፣ ከዚያ በታች ቀይ፣ በባትሪ ቆጣቢ ጊዜ ደግሞ ቢጫ ነው።</string>
+    <string-array name="battery_ring_color_entries">
+        <item>በደረጃ</item>
+        <item>ማድመቂያ</item>
+        <item>"ነጭ"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">በመሙላት ጊዜ ብልጭታ</string>
+    <string name="battery_ring_tile_title">በፈጣን ቅንብሮች ሰቅ ላይ ያው ቀለበት</string>
+    <string name="battery_ring_tile_summary">ከደረጃውና ስክሪኑ የበራበት ጊዜ ጋር</string>
 </resources>

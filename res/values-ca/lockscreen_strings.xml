@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">Evita l\'encesa accidental</string>
+    <string name="lockscreen_battery_info_title">Informació de càrrega</string>
+    <string name="lockscreen_battery_info_summary">Mostra el corrent, els watts, el voltatge i la temperatura de la bateria mentre carrega</string>
+    <string name="charging_ring_title">Animació de càrrega SuperVOOC</string>
+    <string name="charging_ring_summary">Mostra l\'anell de càrrega i la velocitat quan connectis el carregador</string>
+    <string name="pocket_mode_summary">Mentre el sensor de proximitat estigui tapat, la pantalla no s\'encén i ignora els tocs</string>
+    <string name="screen_on_time_title">Temps amb la pantalla encesa</string>
+    <string name="screen_on_time_summary">Mostra el temps amb la pantalla encesa des de la darrera càrrega completa a la pantalla de bloqueig mentre carrega i al mosaic d\'Estalvi de bateria</string>
 </resources>

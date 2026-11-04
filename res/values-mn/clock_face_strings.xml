@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Өгөгдмөл"</string>
     <string name="clock_faces_size">"Хэмжээ"</string>
     <string name="clock_faces_restart">"Дахин эхлүүлэх"</string>
+    <string name="remixer_clock_faces">Цагны загвар</string>
+    <string name="clock_faces_system">Системийн цаг</string>
+    <string name="clock_faces_system_desc">Дэлгэцийн зураг ба загвараас цаг</string>
+    <string name="clock_faces_position">%1$d / %2$d</string>
+    <string name="clock_faces_applied">Хэрэглэгдсэн</string>
+    <string name="clock_faces_preview_unavailable">Урьдчилан харах боломжгүй</string>
+    <string name="clock_faces_failed">Цагыг өөрчилж чадсангүй</string>
+    <string name="clock_faces_color_accent">Акцент</string>
+    <string name="clock_faces_color_custom">Өөрийн</string>
+    <string name="clock_faces_color_album">Цомгийн зураг</string>
+    <string name="clock_faces_color_gradient">Градиент</string>
+    <string name="clock_faces_own_colors">Энэ загвар өөрийн өнгийг хадгална.</string>
+    <string name="clock_faces_album_hint">Хөгжим тоглож байх үед цомгийн зургаас өнгө авна.</string>
+    <string name="clock_faces_size_position">Хэмжээ ба байрлал</string>
+    <string name="clock_faces_size_value">Хэмжээ · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Дээд талаас зай</string>
+    <string name="clock_faces_top_value">Дээд талаас зай · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Хөндлөн байрлал</string>
+    <string name="clock_faces_horizontal_center">Хөндлөн байрлал · Төв</string>
+    <string name="clock_faces_horizontal_right">Хөндлөн байрлал · <xliff:g id="dp" example="24">%1$d</xliff:g> dp баруун</string>
+    <string name="clock_faces_horizontal_left">Хөндлөн байрлал · <xliff:g id="dp" example="24">%1$d</xliff:g> dp зүүн</string>
+    <string name="clock_faces_horizontal_fixed">Энэ загвар төвд байрлана.</string>
+    <string name="clock_faces_opacity">Тунгалаг байдал</string>
+    <string name="clock_faces_opacity_value">Тод байдал · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Хөдөлгөөн</string>
+    <string name="clock_faces_wobble">Цэнэглэх үед сэгсрэх</string>
+    <string name="clock_faces_wobble_summary">Залгах үед нэг удаа үсрэх</string>
+    <string name="clock_faces_aod_anim">Байнгын дэлгэцийн шилжилт</string>
+    <string name="clock_faces_aod_anim_summary">Цагийг багасгаж, байнгын дэлгэц рүү бүдгэрүүлнэ</string>
+    <string name="clock_faces_restart_title">Түгжээтэй дэлгэцийг дахин эхлүүлэх үү?</string>
+    <string name="clock_faces_restart_message">Системийн цаг ба захиалгат загвар хооронд сольж байх үед SystemUI дахин эхэлнэ. Дэлгэц нэг секундын турш харанхуй болно.</string>
+    <string name="clock_faces_note">Урьдчилан харалтыг SystemUI түгжээтэй дэлгэцийн зураг дээр зурна. Өнгө, хэмжээ, байрлал нь түгжээтэй дэлгэцийг даруй өөрчилнө.</string>
 </resources>

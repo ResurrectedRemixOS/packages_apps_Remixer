@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"నీలి రంగు"</string>
     <string name="haptic_remix_color_green">"ఆకుపచ్చ రంగు"</string>
     <string name="haptic_remix_color_white">"తెలుపు రంగు"</string>
+    <string name="haptic_remix_summary">కాల్‌లు, యాప్‌లు, అలారాలు, అన్‌లాక్‌ల కోసం వైబ్రేషన్ నమూనాలను ట్యాప్ చేసి సృష్టించండి</string>
+    <string name="haptic_remix_record">రికార్డ్</string>
+    <string name="haptic_remix_pad">లయను ట్యాప్ చేయండి</string>
+    <string name="haptic_remix_strength">తీవ్రత</string>
+    <string name="haptic_remix_clear">క్లియర్</string>
+    <string name="haptic_remix_play">ప్లే</string>
+    <string name="haptic_remix_name">నమూనా పేరు</string>
+    <string name="haptic_remix_empty">ఇంకా ఏదీ రికార్డ్ కాలేదు</string>
+    <string name="haptic_remix_too_long">నమూనా 30 సెకన్ల వరకు ఉండవచ్చు</string>
+    <string name="haptic_remix_presets">ప్రీసెట్‌లు</string>
+    <string name="haptic_remix_preset_neon">నియాన్‌</string>
+    <string name="haptic_remix_preset_glass">గ్లాస్‌</string>
+    <string name="haptic_remix_preset_ringtone">రింగ్‌టోన్ లయ</string>
+    <string name="haptic_remix_listening">రింగ్‌టోన్ వింటోంది…</string>
+    <string name="haptic_remix_no_ringtone">రింగ్‌టోన్ చదవలేకపోయాం</string>
+    <string name="haptic_remix_patterns">మీ నమూనాలు</string>
+    <string name="haptic_remix_patterns_none">ముందుగా ఒక నమూనాను సేవ్ చేయండి. తొలగించడానికి ఎక్కువసేపు నొక్కండి.</string>
+    <string name="haptic_remix_broken">ఆ నమూనాను చదవలేము</string>
+    <string name="haptic_remix_delete"><xliff:g id="name" example="Heartbeat">%1$s</xliff:g>ను తొలగించాలా?</string>
+    <string name="haptic_remix_assign">దీనికి కేటాయించు</string>
+    <string name="haptic_remix_alarm">అలారం, టైమర్</string>
+    <string name="haptic_remix_plug">ప్లగ్ చేసి ఉంది</string>
+    <string name="haptic_remix_fingerprint">వేలిముద్ర విజయవంతం</string>
+    <string name="haptic_remix_add_contact">కాంటాక్ట్ జోడించు</string>
+    <string name="haptic_remix_edge_color"><xliff:g id="name" example="Mia">%1$s</xliff:g> సందేశాల కోసం ఎడ్జ్ లైట్</string>
+    <string name="haptic_remix_color_accent">యాక్సెంట్</string>
+    <string name="haptic_remix_color_crimson">క్రిమ్సన్</string>
+    <string name="haptic_remix_color_amber">అంబర్</string>
+    <string name="haptic_remix_add_app">యాప్ నోటిఫికేషన్‌లను జోడించు</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · మార్చడానికి ట్యాప్ చేయండి, ఎడ్జ్ రంగు కోసం ఎక్కువసేపు నొక్కండి</string>
+    <string name="haptic_remix_no_contacts">కాంటాక్ట్స్ నుండి ఏ నంబర్ రాలేదు</string>
 </resources>

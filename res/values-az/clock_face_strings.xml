@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Defolt"</string>
     <string name="clock_faces_size">"Ölçü"</string>
     <string name="clock_faces_restart">"Yenidən başladın"</string>
+    <string name="remixer_clock_faces">Saat üslubları</string>
+    <string name="clock_faces_system">Sistem saatı</string>
+    <string name="clock_faces_system_desc">Divar kağızı və üslub bölməsindəki saat</string>
+    <string name="clock_faces_position">%1$d / %2$d</string>
+    <string name="clock_faces_applied">Tətbiq edildi</string>
+    <string name="clock_faces_preview_unavailable">Önizləmə mövcud deyil</string>
+    <string name="clock_faces_failed">Saatı dəyişmək mümkün olmadı</string>
+    <string name="clock_faces_color_accent">Vurğu</string>
+    <string name="clock_faces_color_custom">Fərdi</string>
+    <string name="clock_faces_color_album">Albom şəkli</string>
+    <string name="clock_faces_color_gradient">Gradiyent</string>
+    <string name="clock_faces_own_colors">Bu üslub öz rənglərini saxlayır.</string>
+    <string name="clock_faces_album_hint">Musiqi işləyərkən albom şəklindən rəng alır.</string>
+    <string name="clock_faces_size_position">Ölçü və yerləşmə</string>
+    <string name="clock_faces_size_value">Ölçü · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Yuxarıdan məsafə</string>
+    <string name="clock_faces_top_value">Yuxarıdan məsafə · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Üfüqi yerləşmə</string>
+    <string name="clock_faces_horizontal_center">Üfüqi yerləşmə · Mərkəz</string>
+    <string name="clock_faces_horizontal_right">Üfüqi yerləşmə · sağdan <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_left">Üfüqi yerləşmə · soldan <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_fixed">Bu üslub mərkəzdə qalır.</string>
+    <string name="clock_faces_opacity">Şəffaflıq</string>
+    <string name="clock_faces_opacity_value">Şəffaflıq · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Hərəkət</string>
+    <string name="clock_faces_wobble">Şarj olarkən yellənmə</string>
+    <string name="clock_faces_wobble_summary">Qoşduqda bir dəfə tullanır</string>
+    <string name="clock_faces_aod_anim">Həmişə açıq ekrana keçid</string>
+    <string name="clock_faces_aod_anim_summary">Saatı kiçilədir və həmişə açıq ekranda solğunlaşdırır</string>
+    <string name="clock_faces_restart_title">Ekran kilidi yenidən başladılsın?</string>
+    <string name="clock_faces_restart_message">Sistem saatı ilə fərdi üslublar arasında keçid SystemUI-ni yenidən başladır. Ekran bir saniyəliyinə qaralacaq.</string>
+    <string name="clock_faces_note">Önizləmələri SystemUI ekran kilidi divar kağızınızın üzərində çəkir. Rəng, ölçü və yerləşmə dəyişiklikləri dərhal ekran kilidində görünür.</string>
 </resources>

@@ -8,4 +8,50 @@
         <item>"Orta"</item>
         <item>"Böyük"</item>
     </string-array>
+    <string name="pie_title">Dairəvi idarəetmə</string>
+    <string name="pie_summary">Kənarın aşağı hissəsini saxlayın — qısayollar dairəsi açılsın</string>
+    <string name="pie_zone">Kənarın bir hissəsi</string>
+    <string name="pie_clock">Saat və batareya yuxarıda</string>
+    <string name="pie_items">Hissələr</string>
+    <string-array name="pie_items_entries">
+        <item>"Geri"</item>
+        <item>Ana ekran</item>
+        <item>"Sonuncular"</item>
+        <item>"Bildirişlər"</item>
+        <item>Fənər</item>
+        <item>"Skrinşot"</item>
+        <item>"Qidalanma düyməsi menyusu"</item>
+        <item>"Assistent"</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Bunun üçün dörddə bir saniyə tərpənmədən saxlamaq lazımdır, beləliklə kənardan sürətli sürüşdürmə hələ də geri qaytarır. Kilid ekranında açılmır.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Sol"</item>
+        <item>"Sağ"</item>
+        <item>Hər ikisi</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Aşağı üçdəbir</item>
+        <item>Orta</item>
+        <item>Bütün kənar</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Şüşə</item>
+        <item>Klassik</item>
+    </string-array>
+    <string name="sidebar_style_title">Tətbiq yan panelinin görünüşü</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klassik</item>
+        <item>RR şüşəsi</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Tətbiq yan paneli</string>
+    <string name="sidebar_settings_summary">Tətbiqləriniz və alətləriniz üçün tutacaqdan içəri sürüşdürün</string>
+    <string name="sidebar_apps_title">Tətbiqlər, tutacaq və buferi</string>
+    <string name="sidebar_apps_summary">Tutacağı aktivləşdirin, tətbiqləri seçin və ağıllı buferi qurun</string>
+    <string name="sidebar_handle_size_title">Tutacağın ölçüsü</string>
+    <string name="sidebar_tools_title">Alətlər sırası</string>
+    <string name="sidebar_tools_summary">Tətbiqlərinizin altında skrinşot və fənər</string>
+    <string name="sidebar_footer">Tutacaq vurğu rənginizdə nazik xəttdir; onu kənar boyunca sürükləyərək yerini dəyişin. Jestlər ilə naviqasiya zamanı o, yalnız öz hissəsini əhatə edir, geri düyməsi isə hər yerdə işləyir.</string>
 </resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Animacioni i nisjes</string>
+    <string name="boot_animation_note">Luhet herën tjetër që telefoni fillon.</string>
+    <string name="boot_animation_custom">Skedari yt</string>
+    <string name="boot_animation_custom_pick">Zgjidh një skedar…</string>
+    <string name="boot_animation_custom_invalid">Ky skedar nuk është animacion nisjeje</string>
+    <string name="boot_animation_failed">Animacioni i nisjes nuk u ndryshua</string>
+</resources>

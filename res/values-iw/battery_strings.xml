@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"סוללה"</string>
     <string name="battery_style_title">"סגנון"</string>
+    <string-array name="battery_style_entries">
+        <item>לאורך</item>
+        <item>"מעגל"</item>
+        <item>עיגול מנוקד</item>
+        <item>טבעת ניאון</item>
+        <item>סרגל סוללה דק</item>
+        <item>אחוז גדול</item>
+        <item>טקסט</item>
+    </string-array>
+    <string name="battery_percent_title">אחוזים</string>
+    <string-array name="battery_percent_entries">
+        <item>מוסתר</item>
+        <item>בתוך הסמל</item>
+        <item>לצד הסוללה</item>
+    </string-array>
+    <string name="battery_ring_color_title">צבע טבעת הניאון</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. לפי רמה: הצבע הראשי מעל 20%%, אדום מתחת לכך וכתום בחיסכון בסוללה.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>לפי רמה</item>
+        <item>הדגשה</item>
+        <item>"לבן"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">ניצוץ בזמן טעינה</string>
+    <string name="battery_ring_tile_title">אותה טבעת גם בכפתור הגדרות מהירות</string>
+    <string name="battery_ring_tile_summary">עם הרמה וזמן המסך דולק</string>
 </resources>

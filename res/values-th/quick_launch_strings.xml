@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">ตัวจับเวลา</string>
     <string name="quick_launch_undo">"เลิกทำ"</string>
     <string name="quick_launch_off">"ปิด"</string>
+    <string name="quick_launch_title">ทางลัดเปิดด่วน</string>
+    <string name="quick_launch_main">ทางลัดเปิดด่วนจากลายนิ้วมือ</string>
+    <string name="quick_launch_main_summary">หลังปลดล็อก กดค้างนิ้วไว้บนเซ็นเซอร์เพื่อเปิดทางลัด</string>
+    <string name="quick_launch_hint">แตะทางลัดเพื่อเปลี่ยน กดค้างเพื่อลบ หรือลากเพื่อจัดเรียงใหม่</string>
+    <string name="quick_launch_behavior">พฤติกรรม</string>
+    <string name="quick_launch_hold">เวลากด</string>
+    <string name="quick_launch_haptics">สั่นเมื่อใช้ทางลัดแต่ละอัน</string>
+    <string name="quick_launch_add">เพิ่ม</string>
+    <string name="quick_launch_video">วิดีโอ</string>
+    <string name="quick_launch_qr">สแกน QR</string>
+    <string name="quick_launch_app">แอป…</string>
+    <string name="quick_launch_removed">ลบ <xliff:g id="shortcut" example="Camera">%1$s</xliff:g> แล้ว</string>
 </resources>

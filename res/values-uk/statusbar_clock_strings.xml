@@ -6,4 +6,31 @@
     <string name="sb_clock_chip_angle_title">Градієнтний кут</string>
     <string name="sb_weather_category">"Погода"</string>
     <string name="sb_weather_position_title">Позиція</string>
+    <string name="sb_clock_category">Годинник і дата</string>
+    <string name="sb_clock_bold_summary">Показувати годинник у рядку стану жирним</string>
+    <string name="sb_clock_period_separator_summary">10.45 замість 10:45</string>
+    <string name="sb_clock_date_position_title">Положення дати</string>
+    <string name="sb_clock_date_style_title">Регістр дати</string>
+    <string name="sb_clock_date_format_title">Формат дати</string>
+    <string name="sb_clock_chip_category">Фон годинника</string>
+    <string name="sb_clock_chip_title">Стиль фону</string>
+    <string name="sb_clock_chip_start_title">Початок градієнта</string>
+    <string name="sb_clock_chip_end_title">Кінець градієнта</string>
+    <string name="sb_clock_chip_mask_title">Вирізати час з градієнта</string>
+    <string name="sb_clock_chip_mask_summary">Градієнт видно крізь цифри, а не позаду них</string>
+    <string name="sb_weather_title">Погода в рядку стану</string>
+    <string name="status_bar_clock_rr_style_title">Вигляд годинника</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"За умовчанням"</item>
+        <item>Неон</item>
+        <item>Розділений</item>
+        <item>Позначка RR</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Складений</item>
+        <item>Жар</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline поруч із часом</string>
+    <string name="sb_clock_flatline_summary">Лінія серцебиття RR всередині значка: б’ється в такт музиці, стрибає, коли надходить сповіщення</string>
 </resources>

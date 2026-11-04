@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Тапет"</item>
+        <item>Воскреснат</item>
+        <item>Android One зелена</item>
+        <item>Aospa зелена</item>
+        <item>Coca Cola црвена</item>
+        <item>Discord виолетова</item>
+        <item>Facebook сина</item>
+        <item>Instagram цереза</item>
+        <item>Jollibee црвена</item>
+        <item>Monster Energy зелена</item>
+        <item>Nextbit мента</item>
+        <item>OnePlus црвена</item>
+        <item>Pepsi сина</item>
+        <item>Pixel сина</item>
+        <item>Pocophone жолта</item>
+        <item>Razer зелена</item>
+        <item>Samsung сина</item>
+        <item>Spotify зелена</item>
+        <item>Starbucks зелена</item>
+        <item>Twitch виолетова</item>
+        <item>Twitter сина</item>
+        <item>Xiaomi портокалова</item>
+        <item>Килибарна</item>
+        <item>"Црна"</item>
+        <item>"Сина"</item>
+        <item>Сиво-сина</item>
+        <item>Кафеава</item>
+        <item>"Тиркизна"</item>
+        <item>Длабоко портокалова</item>
+        <item>Длабоко виолетова</item>
+        <item>"Зелена"</item>
+        <item>"Сива"</item>
+        <item>"Индиго"</item>
+        <item>Светло сина</item>
+        <item>Лимета</item>
+        <item>"Портокалова"</item>
+        <item>"Розова"</item>
+        <item>"Виолетова"</item>
+        <item>"Црвена"</item>
+        <item>"Сино-зелена"</item>
+        <item>Корисник пет</item>
+        <item>Корисник четири</item>
+        <item>Корисник еден</item>
+        <item>Корисник седум</item>
+        <item>Корисник шест</item>
+        <item>Корисник три</item>
+        <item>Корисник два</item>
+        <item>"Бела"</item>
+        <item>"Жолта"</item>
+    </string-array>
+</resources>

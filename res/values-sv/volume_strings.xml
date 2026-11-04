@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Volympanel</string>
+    <string name="volume_page_summary">Neon, Glas, Pill eller Klassisk RR</string>
+    <string name="volume_behavior">Beteende</string>
+    <string name="volume_on_left_title">Panel till vänster</string>
+    <string name="volume_on_left_summary">Klassisk RR sitter alltid överst</string>
+    <string name="volume_ringer_title">Knapp för signalläge</string>
+    <string name="volume_tick_title">Klicka när du skjuter</string>
+    <string name="volume_percent_title">Visa nivån i procent</string>
+    <string name="volume_timeout_title">Dölj efter</string>
+    <string name="volume_footer">Ett utseende ändrar hur panelen ser ut, inte hur den fungerar. Android behåller standardpanelen. Tryck på punkterna för att se alla ljudkanaler; den utökade panelen använder samma utseende.</string>
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Вигляд для кожного режиму</string>
+    <string name="remix_modes_everyday">Звичайний вигляд</string>
+    <string name="remix_modes_everyday_summary">Повертається, коли не ввімкнено жодного режиму з виглядом</string>
+    <string name="remix_modes_wallpaper">Фоновий малюнок слідує за виглядом</string>
+    <string name="remix_modes_wallpaper_summary">Режим може змінювати й фоновий малюнок</string>
+    <string name="remix_modes_modes">Ваші режими</string>
+    <string name="remix_modes_no_change">Без змін</string>
+    <string name="remix_modes_none">Спочатку збережіть вигляд у розділі «Тема › Вигляди»</string>
+    <string name="remix_modes_pick">Вигляд для <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

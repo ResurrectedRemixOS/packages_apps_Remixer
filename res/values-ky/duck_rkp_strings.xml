@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Device RKP колдонуу</string>
+    <string name="ts_rkp_enabled_summary">Түзүлгөн keybox колдонуу. Keybox импорттосоңуз, бул өчөт.</string>
+    <string name="ts_rkp_provision">Keybox түзүү</string>
+    <string name="ts_rkp_provision_summary">Ушул түзмөктүн камсыздоо кызматы аркылуу Google\'дан keybox сураңыз. Шайкеш Qualcomm микропрограммасы талап кылынат.</string>
+    <string name="ts_rkp_status">Камсыздоо абалы</string>
+    <string name="ts_rkp_owner_only">Device RKP башкаруусу түзмөк ээсинин профилинен жүргүзүлөт</string>
+    <string name="ts_rkp_unavailable">Device RKP жеткиликсиз</string>
+    <string name="ts_rkp_imported">Импорттолгон keybox орнотулган кезде өчүрүлгөн</string>
+    <string name="ts_rkp_disabled">Өчүк. Keybox колдонуу же түзүү үчүн Device RKP иштетиңиз.</string>
+    <string name="ts_rkp_idle">Keybox сурооого даяр</string>
+    <string name="ts_rkp_fetching">Камсыздоо маселесин алып жатат…</string>
+    <string name="ts_rkp_hardware">Түзмөктүн камсыздоо кызматын күтүүдө…</string>
+    <string name="ts_rkp_signing">Google\'дан сертификаттар суралып жатат…</string>
+    <string name="ts_rkp_validating">Keybox текшерилип, сакталып жатат…</string>
+    <string name="ts_rkp_ready">Түзүлгөн keybox иштеп жатат. %1$s чейин өзү жаңыланат</string>
+    <string name="ts_rkp_keybox_stored">Device RKP keybox сакталды</string>
+    <string name="ts_rkp_expired">Түзүлгөн keybox мөөнөтү бүттү. Алмаштыруучу түзүңүз.</string>
+    <string name="ts_rkp_hal_rejected">Микропрограмма суроону четке какты (код %1$d). Duck V1 колдоого алынбашы мүмкүн.</string>
+    <string name="ts_rkp_http_error">Камсыздоо серверү суроону четке какты (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Түзмөк шайкеш V1 камсыздоо интерфейсин көрсөтпөйт</string>
+    <string name="ts_rkp_network_error">Камсыздоо серверине жетүү мүмкүн эмес. Интернет байланышын текшериңиз.</string>
+    <string name="ts_rkp_submission_unknown">Серверден жооп жоголду. Суроо иштелиши мүмкүн; автоматтык кайра аракет жасалган жок.</string>
+    <string name="ts_rkp_invalid_chain">Keybox сертификаттары текшерүүдөн өтпөдү. Учурдагы keybox сакталды.</string>
+    <string name="ts_rkp_timeout">Камсыздоо убактысы бүттү. Түзмөктүн кызматы дагы бош эмес болсо, кайра аракет кылардан мурун түзмөктү кайра иштетиңиз.</string>
+    <string name="ts_rkp_canceled">Keybox конфигурациясы өзгөргөндүктөн суроо токтотулду</string>
+    <string name="ts_rkp_save_failed">Түзүлгөн keybox сакталган жок</string>
+    <string name="ts_rkp_action_failed">Keybox операциясы аяктаган жок</string>
+</resources>

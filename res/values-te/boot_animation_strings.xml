@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">బూట్ యానిమేషన్</string>
+    <string name="boot_animation_note">ఫోన్ తదుపరిసారి ప్రారంభమైనప్పుడు ప్లే అవుతుంది.</string>
+    <string name="boot_animation_custom">మీ ఫైల్</string>
+    <string name="boot_animation_custom_pick">ఫైల్‌ను ఎంచుకోండి…</string>
+    <string name="boot_animation_custom_invalid">ఆ ఫైల్ బూట్ యానిమేషన్ కాదు</string>
+    <string name="boot_animation_failed">బూట్ యానిమేషన్‌ను మార్చడం సాధ్యం కాలేదు</string>
+</resources>

@@ -15,4 +15,62 @@
     <string name="looks_save_look">"ছেভ কৰক"</string>
     <string name="looks_custom_color">"কাষ্টম ৰং"</string>
     <string name="looks_part_clock_color">"ঘড়ীৰ ৰং"</string>
+    <string name="looks_title">ৰূপসমূহ</string>
+    <string name="looks_summary">এটা টিপতে আপোনাৰ গোটেই ছেটআপ</string>
+    <string name="looks_rr">RR ৰূপসমূহ</string>
+    <string name="looks_yours">আপোনাৰ ৰূপসমূহ</string>
+    <string name="looks_none">এতিয়ালৈ একো সংৰক্ষণ কৰা হোৱা নাই</string>
+    <string name="looks_save">বৰ্তমানটো সংৰক্ষণ কৰক</string>
+    <string name="looks_import_clipboard">ক্লিপবৰ্ডৰ পৰা</string>
+    <string name="looks_import_file">এটা ফাইলৰ পৰা</string>
+    <string name="looks_mine">মোৰ ৰূপ</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> প্ৰয়োগ কৰা হ\'ল</string>
+    <string name="looks_failed">সকলো প্ৰয়োগ কৰিব পৰা নগ\'ল</string>
+    <string name="looks_invalid">এইটো এটা RR ৰূপ নহয়</string>
+    <string name="looks_part_accent">এক্সেণ্ট ৰং</string>
+    <string name="looks_part_qs">QS শৈলী</string>
+    <string name="looks_part_clock_face">লক স্ক্ৰীনৰ ঘড়ীৰ ৰূপ</string>
+    <string name="looks_part_clock_look">স্থিতি দণ্ডৰ ঘড়ী</string>
+    <string name="looks_part_edge">এজ লাইটিং</string>
+    <string name="looks_part_boot">বুট এনিমেশ্বন</string>
+    <string name="looks_part_haptics">Haptic Remix আৰ্হি</string>
+    <plurals name="looks_haptic_patterns">
+        <item quantity="one">%d টা আৰ্হি আৰু সিহতৰ আবণ্টন</item>
+        <item quantity="other">%d টা আৰ্হি আৰু সিহতৰ আবণ্টন</item>
+    </plurals>
+    <string name="looks_saturation">ছেচাৰেশন <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">এক্সেণ্ট</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>” শ্বেয়াৰ কৰক</string>
+    <string name="looks_share_hint">আন এটা RR ফোনৰ কেমেৰাৰে স্কেন কৰক, নাইবা লুক › আমদানি কৰক ত</string>
+    <string name="looks_share_file">ফাইল শ্বেয়াৰ কৰক</string>
+    <string name="looks_save_file">ফাইল ছেভ কৰক</string>
+    <string name="looks_import_scan">QR ক\'ড স্কেন কৰক</string>
+    <string name="looks_import_title">লুক আমদানি কৰক</string>
+    <string name="looks_from_qr">QR ক\'ডৰ পৰা</string>
+    <string name="looks_from_file">ফাইলৰ পৰা</string>
+    <string name="looks_from_clipboard">ক্লিপবৰ্ডৰ পৰা</string>
+    <string name="looks_import_same">এইটো ইতিমধ্যে আপোনাৰ ছেটিঙৰ লগত মিলিছে।</string>
+    <plurals name="looks_import_changes">
+        <item quantity="one"><xliff:g id="count" example="4">%d</xliff:g>টা সলনি হৈছে:</item>
+        <item quantity="other"><xliff:g id="count" example="4">%d</xliff:g>টা সলনি হৈছে:</item>
+    </plurals>
+    <string name="looks_new">নতুন ৰূপ</string>
+    <string name="looks_edit_title">ৰূপ সম্পাদনা কৰক</string>
+    <string name="looks_in_look">এই ৰূপত আছে</string>
+    <string name="looks_not_included">এই ৰূপত নাই</string>
+    <string name="looks_save_apply">সংৰক্ষণ কৰি প্ৰয়োগ কৰক</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” সংৰক্ষিত হ’ল</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” মচিবনে?</string>
+    <string name="looks_rr_wallpaper">RR ৱালপেপাৰ <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">এক্সেণ্ট ৰঙৰ সম্পৃক্ততা</string>
+    <string name="looks_part_clock_chip">স্থিতি দণ্ডৰ ঘড়ীৰ চিপ</string>
+    <string name="looks_part_edge_style">কিনাৰাৰ আলোকন শৈলী</string>
+    <string name="looks_scan_hint">কোনো ৰূপৰ QR ক\'ডত কেমেৰা লগাওক</string>
+    <string name="looks_scan_failed">কেমেৰা খুলিব পৰা নগ\'ল</string>
+    <string name="look_roulette_title">ৰূপ ৰুলেট</string>
+    <string-array name="look_roulette_entries">
+        <item>"অফ আছে"</item>
+        <item>প্ৰতিবাৰ আনলক কৰোঁতে ভিন্ন ৰূপ</item>
+        <item>প্ৰতিদিনে ভিন্ন ৰূপ</item>
+    </string-array>
 </resources>

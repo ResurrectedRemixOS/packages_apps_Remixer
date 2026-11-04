@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Асаалтын анимаци</string>
+    <string name="boot_animation_note">Утас дараагийн удаа асахад тоглоно.</string>
+    <string name="boot_animation_custom">Таны файл</string>
+    <string name="boot_animation_custom_pick">Файл сонгох…</string>
+    <string name="boot_animation_custom_invalid">Энэ файл эхлэлийн анимац биш байна</string>
+    <string name="boot_animation_failed">Эхлэлийн анимацыг өөрчлөх боломжгүй байна</string>
+</resources>

@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">"Gerak isyarat"</string>
     <string name="backup_group_other">"Lain-lain"</string>
     <string name="backup_done">"Selesai"</string>
+    <string name="backup_summary">Semua pelarasan RR dalam satu fail</string>
+    <string name="backup_now">Sandarkan sekarang</string>
+    <string name="backup_never">Sandaran terakhir: tiada</string>
+    <string name="backup_last">Sandaran terakhir: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Pulihkan daripada fail</string>
+    <string name="backup_restore_summary">Pilih fail sandaran</string>
+    <string name="backup_included">Termasuk</string>
+    <string name="backup_part_theme">Aksen, fon dan ikon</string>
+    <string name="backup_part_header">Imej pengepala</string>
+    <string name="backup_part_photo">Imej pengepala (foto anda)</string>
+    <string name="backup_part_photo_summary">Menjadikan fail lebih besar</string>
+    <string name="backup_part_boot">Animasi but</string>
+    <string name="backup_part_looks">Gaya anda</string>
+    <string name="backup_weekly">Sandaran mingguan</string>
+    <string name="backup_weekly_summary">Ke folder yang anda pilih</string>
+    <string name="backup_weekly_on">Setiap minggu ke <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Tawarkan sandaran sebelum kemas kini</string>
+    <string name="backup_offer_summary">Pengemas kini bertanya sebelum memasang</string>
+    <string name="backup_sets">Menetapkan <xliff:g id="count" example="64">%1$d</xliff:g> tetapan</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> tetapan disimpan</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> tetapan dipulihkan</string>
+    <string name="backup_restored_message">SystemUI dimulakan semula untuk menggunakannya.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> tetapan tidak wujud pada binaan ini dan telah dilangkau.</string>
+    <string name="backup_failed">Tidak dapat menyimpan sandaran</string>
+    <string name="backup_invalid">Fail itu bukan sandaran Resurrected Remix</string>
+    <string name="backup_footer">Hanya tetapan RR yang dimasukkan dalam fail: tiada akaun, kata laluan, rangkaian Wi-Fi, apl atau mesej. Pemulihan hanya menulis tetapan yang ada dalam senarai RR sendiri, jadi fail sandaran tidak boleh mengubah apa-apa lain pada telefon. Foto pengepala anda hanya disertakan jika suisnya dihidupkan, kerana ia menjadikan fail lebih besar.</string>
+    <string name="volume_style_title">Gaya panel kelantangan</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Kaca</item>
+        <item>Pil</item>
+        <item>Klasik RR</item>
+        <item>Bento</item>
+        <item>Bentuk</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Lembut</item>
+    </string-array>
 </resources>

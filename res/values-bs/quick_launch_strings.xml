@@ -6,4 +6,21 @@
     <string name="quick_launch_timer">Tajmer</string>
     <string name="quick_launch_undo">"Poništi"</string>
     <string name="quick_launch_off">"Isključeno"</string>
+    <string name="quick_launch_title">Brzo pokretanje</string>
+    <string name="quick_launch_main">Brzo pokretanje otiskom prsta</string>
+    <string name="quick_launch_main_summary">Nakon otključavanja držite prst na senzoru da otvorite prečicu</string>
+    <string name="quick_launch_hint">Dodirnite prečicu da je promijenite, držite da je uklonite ili prevucite da promijenite redoslijed.</string>
+    <string name="quick_launch_behavior">Ponašanje</string>
+    <string name="quick_launch_hold">Vrijeme držanja</string>
+    <string name="quick_launch_haptics">Vibriranje pri svakoj prečici</string>
+    <string name="quick_launch_add">Dodaj</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">Skeniraj QR kôd</string>
+    <string name="quick_launch_app">Aplikacija…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> uklonjeno</string>
+    <plurals name="quick_launch_on">
+        <item quantity="one">Uključeno · <xliff:g id="count" example="4">%d</xliff:g> prečica</item>
+        <item quantity="few">Uključeno · <xliff:g id="count" example="4">%d</xliff:g> prečice</item>
+        <item quantity="other">Uključeno · <xliff:g id="count" example="4">%d</xliff:g> prečica</item>
+    </plurals>
 </resources>

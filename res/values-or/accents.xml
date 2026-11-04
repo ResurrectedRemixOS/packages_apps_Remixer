@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"ୱାଲପେପର"</item>
+        <item>ପୁନର୍ଜୀବିତ</item>
+        <item>ଆଣ୍ଡ୍ରଏଡ୍ ୱାନ୍ ଗ୍ରୀନ୍</item>
+        <item>ଏସପିଏ ଗ୍ରୀନ୍</item>
+        <item>କୋକା କୋଲା ରେଡ୍</item>
+        <item>ଡିସକର୍ଡ ପର୍ପଲ୍</item>
+        <item>ଫେସବୁକ୍ ବ୍ଲୁ</item>
+        <item>ଇନଷ୍ଟାଗ୍ରାମ୍ ସେରିଜ୍</item>
+        <item>ଜୋଲିବି କ୍ରିମସନ୍</item>
+        <item>ମନଷ୍ଟର ଏନର୍ଜି ଗ୍ରୀନ୍</item>
+        <item>ନେକ୍ସବିଟ୍ ମିଣ୍ଟ୍</item>
+        <item>ୱାନପ୍ଲସ୍ ରେଡ୍</item>
+        <item>ପେପ୍‌ସି ବ୍ଲୁ</item>
+        <item>ପିକ୍ସେଲ୍ ବ୍ଲୁ</item>
+        <item>ପୋକୋଫୋନ୍ ଏଲୋ</item>
+        <item>ରେଜର୍ ଗ୍ରୀନ୍</item>
+        <item>ସାମସଙ୍ଗ ବ୍ଲୁ</item>
+        <item>ସ୍ପଟିଫାଇ ଗ୍ରୀନ୍</item>
+        <item>ଷ୍ଟାରବକ୍ସ ଗ୍ରୀନ୍</item>
+        <item>ଟ୍ୱିଚ୍ ପର୍ପଲ୍</item>
+        <item>ଟ୍ୱିଟର ବ୍ଲୁ</item>
+        <item>ଶାଓମି ଅରେଞ୍ଜ୍</item>
+        <item>ଆମ୍ବର</item>
+        <item>"କଳା"</item>
+        <item>"ନୀଳ"</item>
+        <item>ବ୍ଲୁ ଗ୍ରେ</item>
+        <item>ବାଦାମୀ</item>
+        <item>"ସିଆନ"</item>
+        <item>ଡିପ୍ ଅରେଞ୍ଜ୍</item>
+        <item>ଡିପ୍ ପର୍ପଲ୍</item>
+        <item>"ସବୁଜ"</item>
+        <item>"ଧୂସର"</item>
+        <item>"ଇଣ୍ଡିଗୋ"</item>
+        <item>ଲାଇଟ୍ ବ୍ଲୁ</item>
+        <item>ଲାଇମ୍</item>
+        <item>"କମଳା"</item>
+        <item>"ଗୋଲାପି"</item>
+        <item>"ବାଇଗଣୀ"</item>
+        <item>"ଲାଲ"</item>
+        <item>"ଟିଲ"</item>
+        <item>ବ୍ୟବହାରକାରୀ ପାଞ୍ଚ</item>
+        <item>ବ୍ୟବହାରକାରୀ ଚାରି</item>
+        <item>ବ୍ୟବହାରକାରୀ ଏକ</item>
+        <item>ବ୍ୟବହାରକାରୀ ସାତ</item>
+        <item>ବ୍ୟବହାରକାରୀ ଛଅ</item>
+        <item>ବ୍ୟବହାରକାରୀ ତିନି</item>
+        <item>ବ୍ୟବହାରକାରୀ ଦୁଇ</item>
+        <item>"ଧଳା"</item>
+        <item>"ହଳଦିଆ"</item>
+    </string-array>
+</resources>

@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Noklusējums"</string>
     <string name="clock_faces_size">"Lielums"</string>
     <string name="clock_faces_restart">"Restartēt"</string>
+    <string name="remixer_clock_faces">Pulksteņa ciparnīcas</string>
+    <string name="clock_faces_system">Sistēmas pulkstenis</string>
+    <string name="clock_faces_system_desc">Pulkstenis no Fona tapete un stils</string>
+    <string name="clock_faces_position">%1$d no %2$d</string>
+    <string name="clock_faces_applied">Piemērots</string>
+    <string name="clock_faces_preview_unavailable">Priekšskatījums nav pieejams</string>
+    <string name="clock_faces_failed">Pulksteni nevarēja mainīt</string>
+    <string name="clock_faces_color_accent">Akcents</string>
+    <string name="clock_faces_color_custom">Pielāgots</string>
+    <string name="clock_faces_color_album">Albuma vāciņš</string>
+    <string name="clock_faces_color_gradient">Gradients</string>
+    <string name="clock_faces_own_colors">Šai ciparnīcai ir savas krāsas.</string>
+    <string name="clock_faces_album_hint">Krāsu ņem no albuma vāciņa, kamēr atskaņo mūziku.</string>
+    <string name="clock_faces_size_position">Izmērs un novietojums</string>
+    <string name="clock_faces_size_value">Izmērs · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Attālums no augšas</string>
+    <string name="clock_faces_top_value">Attālums no augšas · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Horizontālais novietojums</string>
+    <string name="clock_faces_horizontal_center">Horizontālais novietojums · Centrā</string>
+    <string name="clock_faces_horizontal_right">Horizontālais novietojums · <xliff:g id="dp" example="24">%1$d</xliff:g> dp pa labi</string>
+    <string name="clock_faces_horizontal_left">Horizontālais novietojums · <xliff:g id="dp" example="24">%1$d</xliff:g> dp pa kreisi</string>
+    <string name="clock_faces_horizontal_fixed">Šī ciparnīca paliek centrēta.</string>
+    <string name="clock_faces_opacity">Caurspīdīgums</string>
+    <string name="clock_faces_opacity_value">Caurspīdīgums · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Kustība</string>
+    <string name="clock_faces_wobble">Šūpošanās uzlādes laikā</string>
+    <string name="clock_faces_wobble_summary">Vienreiz uzlec, kad pievienojat ierīci</string>
+    <string name="clock_faces_aod_anim">Pārejas pastāvīgi ieslēgtajā ekrānā</string>
+    <string name="clock_faces_aod_anim_summary">Pulkstenis sarūk un izbalē, pārejot uz pastāvīgi ieslēgto ekrānu</string>
+    <string name="clock_faces_restart_title">Restartēt bloķēšanas ekrānu?</string>
+    <string name="clock_faces_restart_message">Pārslēdzoties starp sistēmas pulksteni un pielāgotām ciparnīcām, SystemUI tiek restartēts. Ekrāns uz sekundi kļūst tumšs.</string>
+    <string name="clock_faces_note">Priekšskatījumus SystemUI zīmē uz jūsu bloķēšanas ekrāna fona tapetes. Krāsa, izmērs un novietojums bloķēšanas ekrānā mainās uzreiz.</string>
 </resources>

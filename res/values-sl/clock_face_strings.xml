@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Privzeto"</string>
     <string name="clock_faces_size">"Velikost"</string>
     <string name="clock_faces_restart">"Znova zaženi"</string>
+    <string name="remixer_clock_faces">Slogi ure</string>
+    <string name="clock_faces_system">Sistemska ura</string>
+    <string name="clock_faces_system_desc">Ura iz Ozadje in slog</string>
+    <string name="clock_faces_position">%1$d od %2$d</string>
+    <string name="clock_faces_applied">Uporabljeno</string>
+    <string name="clock_faces_preview_unavailable">Predogled ni na voljo</string>
+    <string name="clock_faces_failed">Ure ni bilo mogoče spremeniti</string>
+    <string name="clock_faces_color_accent">Poudarek</string>
+    <string name="clock_faces_color_custom">Po meri</string>
+    <string name="clock_faces_color_album">Naslovnica albuma</string>
+    <string name="clock_faces_color_gradient">Prelivi</string>
+    <string name="clock_faces_own_colors">Ta slog ohrani svoje barve.</string>
+    <string name="clock_faces_album_hint">Med predvajanjem glasbe barvo prevzame iz naslovnice albuma.</string>
+    <string name="clock_faces_size_position">Velikost in položaj</string>
+    <string name="clock_faces_size_value">Velikost · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Razdalja od zgoraj</string>
+    <string name="clock_faces_top_value">Razdalja od zgoraj · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Vodoravni položaj</string>
+    <string name="clock_faces_horizontal_center">Vodoravni položaj · Sredina</string>
+    <string name="clock_faces_horizontal_right">Vodoravni položaj · <xliff:g id="dp" example="24">%1$d</xliff:g> dp desno</string>
+    <string name="clock_faces_horizontal_left">Vodoravni položaj · <xliff:g id="dp" example="24">%1$d</xliff:g> dp levo</string>
+    <string name="clock_faces_horizontal_fixed">Ta slog ostane na sredini.</string>
+    <string name="clock_faces_opacity">Neprosojnost</string>
+    <string name="clock_faces_opacity_value">Neprosojnost · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Gibanje</string>
+    <string name="clock_faces_wobble">Nihanje med polnjenjem</string>
+    <string name="clock_faces_wobble_summary">Ob priklopu se enkrat odbije</string>
+    <string name="clock_faces_aod_anim">Prehod na zaslon, ki je vedno vklopljen</string>
+    <string name="clock_faces_aod_anim_summary">Skrči in zbledi uro na zaslonu, ki je vedno vklopljen</string>
+    <string name="clock_faces_restart_title">Ponovno zaženem zaklenjen zaslon?</string>
+    <string name="clock_faces_restart_message">Preklop med sistemsko uro in slogi ure ponovno zažene SystemUI. Zaslon se za trenutek zatemni.</string>
+    <string name="clock_faces_note">SystemUI nariše predoglede na ozadju vašega zaklenjenega zaslona. Barva, velikost in položaj takoj spremenijo zaklenjen zaslon.</string>
 </resources>

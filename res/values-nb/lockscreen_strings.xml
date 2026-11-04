@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">Hindre utilsiktet vekking</string>
+    <string name="lockscreen_battery_info_title">Ladeinformasjon</string>
+    <string name="lockscreen_battery_info_summary">Vis strøm, watt, spenning og batteritemperatur under lading</string>
+    <string name="charging_ring_title">SuperVOOC-ladeanimasjon</string>
+    <string name="charging_ring_summary">Vis laderingen og hastigheten når du kobler til</string>
+    <string name="pocket_mode_summary">Når nærhetssensoren er dekket, våkner ikke skjermen og berøring ignoreres</string>
+    <string name="screen_on_time_title">Skjermpåslagstid</string>
+    <string name="screen_on_time_summary">Vis skjermpåslagstid siden forrige fulle lading på låseskjermen under lading og på Batterisparing-brikken</string>
 </resources>

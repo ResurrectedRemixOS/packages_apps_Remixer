@@ -5,4 +5,32 @@
     <string name="sb_clock_chip_angle_title">زاوية التدرج</string>
     <string name="sb_weather_category">"الطقس"</string>
     <string name="sb_weather_position_title">الموضع</string>
+    <string name="sb_clock_category">الساعة والتاريخ</string>
+    <string name="sb_clock_bold_title">ساعة عريضة</string>
+    <string name="sb_clock_bold_summary">عرض ساعة شريط الحالة بخط عريض</string>
+    <string name="sb_clock_period_separator_title">فاصل الوقت</string>
+    <string name="sb_clock_period_separator_summary">10.45 بدلاً من 10:45</string>
+    <string name="sb_clock_date_position_title">موضع التاريخ</string>
+    <string name="sb_clock_date_style_title">حالة الأحرف في التاريخ</string>
+    <string name="sb_clock_chip_category">خلفية الساعة</string>
+    <string name="sb_clock_chip_title">نمط الخلفية</string>
+    <string name="sb_clock_chip_start_title">بداية التدرج</string>
+    <string name="sb_clock_chip_end_title">نهاية التدرج</string>
+    <string name="sb_clock_chip_mask_title">قص الوقت من التدرج</string>
+    <string name="sb_clock_chip_mask_summary">يظهر التدرج من خلال الأرقام بدلاً من خلفها</string>
+    <string name="sb_weather_title">الطقس في شريط الحالة</string>
+    <string name="status_bar_clock_rr_style_title">مظهر الساعة</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"تلقائي"</item>
+        <item>نيون</item>
+        <item>منقسم</item>
+        <item>علامة RR</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>مكدّس</item>
+        <item>جمري</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">خط Flatline بجوار الوقت</string>
+    <string name="sb_clock_flatline_summary">خط نبض RR داخل الشريحة: ينبض مع الموسيقى ويرتفع عند وصول إشعار</string>
 </resources>

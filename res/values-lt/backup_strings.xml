@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Gestai</string>
     <string name="backup_group_other">"Kita"</string>
     <string name="backup_done">"Atlikta"</string>
+    <string name="backup_summary">Visi RR pritaikymai viename faile</string>
+    <string name="backup_now">Kurti atsarginę kopiją dabar</string>
+    <string name="backup_never">Paskutinė atsarginė kopija: niekada</string>
+    <string name="backup_last">Paskutinė atsarginė kopija: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Atkurti iš failo</string>
+    <string name="backup_restore_summary">Pasirinkite atsarginės kopijos failą</string>
+    <string name="backup_included">Įtraukta</string>
+    <string name="backup_part_theme">Akcentas, šriftas ir piktogramos</string>
+    <string name="backup_part_header">Antraštės vaizdas</string>
+    <string name="backup_part_photo">Antraštės vaizdas (jūsų nuotrauka)</string>
+    <string name="backup_part_photo_summary">Padaro failą didesnį</string>
+    <string name="backup_part_boot">Paleisties animacija</string>
+    <string name="backup_part_looks">Jūsų išvaizdos</string>
+    <string name="backup_weekly">Savaitinė atsarginė kopija</string>
+    <string name="backup_weekly_summary">Į pasirinktą aplanką</string>
+    <string name="backup_weekly_on">Kiekvieną savaitę į <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Siūlyti kurti atsarginę kopiją prieš atnaujinimus</string>
+    <string name="backup_offer_summary">Atnaujinimo priemonė klausia prieš diegiant</string>
+    <string name="backup_sets">Nustato <xliff:g id="count" example="64">%1$d</xliff:g> nustatymų</string>
+    <string name="backup_saved">Įrašyta nustatymų: <xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_restored">Atkurta nustatymų: <xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_restored_message">SystemUI paleidžiama iš naujo, kad jie įsigaliotų.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> nustatymų šioje versijoje nėra ir buvo praleisti.</string>
+    <string name="backup_failed">Nepavyko įrašyti atsarginės kopijos</string>
+    <string name="backup_invalid">Tai nėra Resurrected Remix atsarginės kopijos failas</string>
+    <string name="backup_footer">Faile yra tik RR nustatymai: be paskyrų, slaptažodžių, Wi-Fi tinklų, programų ar pranešimų. Atkūrimas įrašo tik nustatymus iš RR sąrašo, todėl atsarginės kopijos failas negali pakeisti nieko kito telefone. Antraštės nuotrauka įtraukiama tik tada, jei jos jungiklis įjungtas, nes ji padidina failą.</string>
+    <string name="volume_style_title">Tūrio skydelio stilius</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neoninis</item>
+        <item>Stiklas</item>
+        <item>Piliulė</item>
+        <item>Klasikinis RR</item>
+        <item>Bento</item>
+        <item>Figūros</item>
+        <item>Brėžinys</item>
+        <item>Duetas</item>
+        <item>Minkštas</item>
+    </string-array>
 </resources>

@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Betri"</string>
     <string name="battery_style_title">"Mtindo"</string>
+    <string-array name="battery_style_entries">
+        <item>Wima</item>
+        <item>"Mduara"</item>
+        <item>Duara yenye nukta</item>
+        <item>Pete ya neon</item>
+        <item>Kidonge chembamba</item>
+        <item>Asilimia kubwa</item>
+        <item>"SMS"</item>
+    </string-array>
+    <string name="battery_percent_title">Asilimia</string>
+    <string-array name="battery_percent_entries">
+        <item>"Imefichwa"</item>
+        <item>Ndani ya aikoni</item>
+        <item>Karibu nayo</item>
+    </string-array>
+    <string name="battery_ring_color_title">Rangi ya pete ya neon</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Kwa kiwango, rangi ya lafudhi ni juu ya 20%%, nyekundu chini yake, na manjano wakati wa Kiokoa Betri.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Kwa kiwango</item>
+        <item>Lafudhi</item>
+        <item>"Nyeupe"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Mng\'ao wakati wa kuchaji</string>
+    <string name="battery_ring_tile_title">Pete hiyo hiyo kwenye kigae cha Mipangilio ya haraka</string>
+    <string name="battery_ring_tile_summary">Pamoja na kiwango na muda wa skrini kuwashwa</string>
 </resources>

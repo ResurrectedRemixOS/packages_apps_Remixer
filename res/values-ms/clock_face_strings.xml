@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Lalai"</string>
     <string name="clock_faces_size">"Saiz"</string>
     <string name="clock_faces_restart">"Mulakan semula"</string>
+    <string name="remixer_clock_faces">Muka jam</string>
+    <string name="clock_faces_system">Jam sistem</string>
+    <string name="clock_faces_system_desc">Jam daripada Hiasan latar &amp; gaya</string>
+    <string name="clock_faces_position">%1$d daripada %2$d</string>
+    <string name="clock_faces_applied">Digunakan</string>
+    <string name="clock_faces_preview_unavailable">Pratonton tidak tersedia</string>
+    <string name="clock_faces_failed">Tidak dapat menukar jam</string>
+    <string name="clock_faces_color_accent">Aksen</string>
+    <string name="clock_faces_color_custom">Tersuai</string>
+    <string name="clock_faces_color_album">Seni album</string>
+    <string name="clock_faces_color_gradient">Kecerunan</string>
+    <string name="clock_faces_own_colors">Muka ini mengekalkan warnanya sendiri.</string>
+    <string name="clock_faces_album_hint">Mengambil warna daripada seni album semasa muzik dimainkan.</string>
+    <string name="clock_faces_size_position">Saiz dan kedudukan</string>
+    <string name="clock_faces_size_value">Saiz · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Jarak dari atas</string>
+    <string name="clock_faces_top_value">Jarak dari atas · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Kedudukan mendatar</string>
+    <string name="clock_faces_horizontal_center">Kedudukan mendatar · Tengah</string>
+    <string name="clock_faces_horizontal_right">Kedudukan mendatar · <xliff:g id="dp" example="24">%1$d</xliff:g> dp ke kanan</string>
+    <string name="clock_faces_horizontal_left">Kedudukan mendatar · <xliff:g id="dp" example="24">%1$d</xliff:g> dp ke kiri</string>
+    <string name="clock_faces_horizontal_fixed">Muka ini kekal di tengah.</string>
+    <string name="clock_faces_opacity">Kelegapan</string>
+    <string name="clock_faces_opacity_value">Kelegapan · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Pergerakan</string>
+    <string name="clock_faces_wobble">Goyang semasa mengecas</string>
+    <string name="clock_faces_wobble_summary">Melantun sekali apabila disambungkan</string>
+    <string name="clock_faces_aod_anim">Peralihan paparan sentiasa hidup</string>
+    <string name="clock_faces_aod_anim_summary">Mengecilkan dan memudarkan jam ke paparan sentiasa hidup</string>
+    <string name="clock_faces_restart_title">Mulakan semula skrin kunci?</string>
+    <string name="clock_faces_restart_message">Menukar antara jam sistem dan muka tersuai memulakan semula SystemUI. Skrin akan gelap selama sesaat.</string>
+    <string name="clock_faces_note">Pratonton dilukis oleh SystemUI pada hiasan latar skrin kunci anda. Warna, saiz dan kedudukan akan menukar skrin kunci serta-merta.</string>
 </resources>

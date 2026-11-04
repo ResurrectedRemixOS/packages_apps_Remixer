@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"အပြာ"</string>
     <string name="haptic_remix_color_green">"အစိမ်း"</string>
     <string name="haptic_remix_color_white">"အဖြူ"</string>
+    <string name="haptic_remix_summary">ဖုန်းခေါ်ဆိုမှု၊ အက်ပ်များ၊ နှိုးစက်များနှင့် လော့ခ်ဖွင့်မှုများအတွက် တုန်ခါမှုပုံစံများကို လက်ခေါက်ပြုလုပ်ပါ</string>
+    <string name="haptic_remix_record">မှတ်တမ်းတင်ရန်</string>
+    <string name="haptic_remix_pad">ဂီတသံချက်ကို နှိပ်ပါ</string>
+    <string name="haptic_remix_strength">ပြင်းအား</string>
+    <string name="haptic_remix_clear">ရှင်းရန်</string>
+    <string name="haptic_remix_play">ဖွင့်ရန်</string>
+    <string name="haptic_remix_name">ပုံစံအမည်</string>
+    <string name="haptic_remix_empty">မှတ်တမ်းမတင်ရသေးပါ</string>
+    <string name="haptic_remix_too_long">ပုံစံတစ်ခုသည် စက္ကန့် ၃၀ အထိ ကြာနိုင်သည်</string>
+    <string name="haptic_remix_presets">ကြိုတင်သတ်မှတ်ချက်များ</string>
+    <string name="haptic_remix_preset_neon">နီယွန်</string>
+    <string name="haptic_remix_preset_glass">မှန်</string>
+    <string name="haptic_remix_preset_ringtone">ဖုန်းမြည်သံ၏ သံချက်</string>
+    <string name="haptic_remix_listening">ဖုန်းမြည်သံကို နားထောင်နေသည်…</string>
+    <string name="haptic_remix_no_ringtone">ဖုန်းမြည်သံကို ဖတ်၍မရပါ</string>
+    <string name="haptic_remix_patterns">သင့်ပုံစံများ</string>
+    <string name="haptic_remix_patterns_none">ပထမဦးစွာ ပုံစံတစ်ခု သိမ်းပါ။ ဖျက်ရန် ကြာကြာနှိပ်ပါ။</string>
+    <string name="haptic_remix_broken">ထိုပုံစံကို ဖတ်၍မရပါ</string>
+    <string name="haptic_remix_delete"><xliff:g id="name" example="Heartbeat">%1$s</xliff:g> ကို ဖျက်မလား?</string>
+    <string name="haptic_remix_assign">သတ်မှတ်ရန်</string>
+    <string name="haptic_remix_alarm">နှိုးစက်နှင့် timer</string>
+    <string name="haptic_remix_plug">ချိတ်ဆက်အားသွင်းနေသည်</string>
+    <string name="haptic_remix_fingerprint">လက်ဗွေ အောင်မြင်သည်</string>
+    <string name="haptic_remix_add_contact">အဆက်အသွယ် ထည့်ရန်</string>
+    <string name="haptic_remix_edge_color"><xliff:g id="name" example="Mia">%1$s</xliff:g> ၏ မက်ဆေ့ချ်များအတွက် အစွန်းမီး</string>
+    <string name="haptic_remix_color_accent">အဓိကအရောင်</string>
+    <string name="haptic_remix_color_crimson">Crimson</string>
+    <string name="haptic_remix_color_amber">အမ်ဘာ</string>
+    <string name="haptic_remix_add_app">အက်ပ်၏ အကြောင်းကြားချက်များကို ထည့်ရန်</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · ပြောင်းရန် နှိပ်ပါ၊ အစွန်းအရောင်အတွက် ကြာကြာနှိပ်ပါ</string>
+    <string name="haptic_remix_no_contacts">အဆက်အသွယ်များမှ နံပါတ် မရရှိပါ</string>
 </resources>

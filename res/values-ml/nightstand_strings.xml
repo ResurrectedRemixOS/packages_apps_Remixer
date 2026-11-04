@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">സമയം</string>
+    <string name="nightstand_title">നൈറ്റ്സ്റ്റാൻഡ്</string>
+    <string name="nightstand_summary">ചാർജ് ചെയ്യുമ്പോൾ എപ്പോഴും-ഓൺ ഡിസ്പ്ലേയിൽ മങ്ങിയ ബെഡ്സൈഡ് ക്ലോക്ക്</string>
+    <string-array name="nightstand_when_entries">
+        <item>"ഓഫാണ്"</item>
+        <item>രാത്രിയിൽ ചാർജറിൽ</item>
+        <item>എല്ലാ രാത്രിയും, ഷെഡ്യൂൾ അനുസരിച്ച്</item>
+        <item>ഒരു ബെഡ്‌ടൈം മോഡ് ഓണായിരിക്കുമ്പോൾ</item>
+    </string-array>
+    <string name="nightstand_from">രാത്രി തുടങ്ങുന്നു</string>
+    <string name="nightstand_to">രാത്രി അവസാനിക്കുന്നു</string>
+    <string name="nightstand_brightness">ബ്രൈറ്റ്നസ് പരിധി</string>
+    <string name="nightstand_brightness_summary">നൈറ്റ്സ്റ്റാൻഡ് ഓണായിരിക്കുമ്പോൾ എപ്പോഴും-ഓൺ ഡിസ്പ്ലേയുടെ പരമാവധി തെളിച്ചം</string>
+    <string name="nightstand_face">ക്ലോക്ക് ഫെയ്‌സ്</string>
+    <string name="nightstand_face_keep">നിലവിലെ ഫെയ്‌സ് നിലനിർത്തുക</string>
+    <string name="nightstand_footer">നൈറ്റ്സ്റ്റാൻഡ് പ്രവർത്തിക്കുമ്പോൾ എപ്പോഴും-ഓൺ ഡിസ്പ്ലേ ഓണാക്കുകയും പിന്നീട് പഴയ നിലയിലേക്ക് മടക്കുകയും ചെയ്യുന്നു. ചാർജർ മാറ്റിയാലോ അലാറം മുഴങ്ങിയാലോ രാത്രി അവസാനിച്ചാലോ ഇത് നിൽക്കും. ഫെയ്‌സ് രണ്ട് ഇഷ്ടാനുസൃത ഫെയ്‌സുകൾക്കിടയിൽ മാത്രമേ മാറുന്നുള്ളൂ; സിസ്റ്റം ക്ലോക്ക് അതുപോലെ തുടരും.</string>
 </resources>

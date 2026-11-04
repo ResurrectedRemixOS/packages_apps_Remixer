@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Keinuak</string>
     <string name="backup_group_other">"Beste bat"</string>
     <string name="backup_done">"Eginda"</string>
+    <string name="backup_summary">RR pertsonalizazio guztiak fitxategi bakar batean</string>
+    <string name="backup_now">Egin babeskopia orain</string>
+    <string name="backup_never">Azken babeskopia: inoiz ez</string>
+    <string name="backup_last">Azken babeskopia: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Berrezarri fitxategi batetik</string>
+    <string name="backup_restore_summary">Aukeratu babeskopia-fitxategi bat</string>
+    <string name="backup_included">Barne hartuta</string>
+    <string name="backup_part_theme">Azentua, letra eta ikonoak</string>
+    <string name="backup_part_header">Goiburuko irudia</string>
+    <string name="backup_part_photo">Goiburuko irudia (zure argazkia)</string>
+    <string name="backup_part_photo_summary">Fitxategia handiagoa egiten du</string>
+    <string name="backup_part_boot">Abiatze-animazioa</string>
+    <string name="backup_part_looks">Zure looks</string>
+    <string name="backup_weekly">Asteko babeskopia</string>
+    <string name="backup_weekly_summary">Aukeratzen duzun karpeta batera</string>
+    <string name="backup_weekly_on">Astero <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g>(e)ra</string>
+    <string name="backup_offer">Eskaini babeskopia eguneratzeen aurretik</string>
+    <string name="backup_offer_summary">Eguneratzaileak instalatu aurretik galdetzen du</string>
+    <string name="backup_sets"><xliff:g id="count" example="64">%1$d</xliff:g> ezarpen ezartzen ditu</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> ezarpen gorde dira</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> ezarpen berrezarri dira</string>
+    <string name="backup_restored_message">SystemUI berrabiarazten da aplikatzeko.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> ezarpen ez daude eraikuntza honetan eta saltatu egin dira.</string>
+    <string name="backup_failed">Ezin izan da babeskopia gorde</string>
+    <string name="backup_invalid">Fitxategi hori ez da Resurrected Remix babeskopia</string>
+    <string name="backup_footer">Fitxategian RR ezarpenak bakarrik sartzen dira: kontuak, pasahitzak, Wi-Fi sareak, aplikazioak edo mezuak ez. Berrezarpenak RR-ren zerrendako ezarpenak bakarrik idazten ditu, beraz babeskopia-fitxategi batek ez dezake telefonoko beste ezer aldatu. Goiburuko argazkia bakarrik sartzen da bere etengailua piztuta badago, fitxategia handiagoa egiten duelako.</string>
+    <string name="volume_style_title">Bolumen-panelaren estiloa</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neoia</item>
+        <item>Kristala</item>
+        <item>Pilula</item>
+        <item>RR klasikoa</item>
+        <item>Bento</item>
+        <item>Formak</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Leuna</item>
+    </string-array>
 </resources>

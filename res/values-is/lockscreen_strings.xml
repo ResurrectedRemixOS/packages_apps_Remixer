@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">Koma í veg fyrir slysalega vöknun</string>
+    <string name="lockscreen_battery_info_title">Upplýsingar um hleðslu</string>
+    <string name="lockscreen_battery_info_summary">Sýna straum, vött, spennu og hitastig rafhlöðu meðan á hleðslu stendur</string>
+    <string name="charging_ring_title">Hleðsluhreyfing SuperVOOC</string>
+    <string name="charging_ring_summary">Sýna hleðsluhring og hraða þegar tækið er tengt</string>
+    <string name="pocket_mode_summary">Meðan nálægðarskynjarinn er þakinn vaknar skjárinn ekki og snertingar eru hunsaðar</string>
+    <string name="screen_on_time_title">Skjátími</string>
+    <string name="screen_on_time_summary">Sýna skjátíma frá síðustu fullu hleðslu á lásskjánum meðan á hleðslu stendur og á reitnum fyrir Rafhlöðusparnað</string>
 </resources>

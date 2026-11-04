@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Detajet"</string>
     <string name="lockscreen_weather_location_title">"Vendndodhja"</string>
+    <string name="lockscreen_weather_title">Moti në ekranin e kyçjes</string>
+    <string name="lockscreen_weather_location_summary">Shfaq emrin e qytetit</string>
+    <string name="lockscreen_weather_text_title">Gjendja</string>
+    <string name="lockscreen_weather_text_summary">Shfaq gjendjen, si Vranësirë ose Qiell i pastër</string>
+    <string name="lockscreen_weather_wind_title">Era</string>
+    <string name="lockscreen_weather_wind_summary">Shfaq shpejtësinë dhe drejtimin e erës</string>
+    <string name="lockscreen_weather_humidity_title">Lagështia</string>
+    <string name="lockscreen_weather_humidity_summary">Shfaq lagështinë</string>
+    <string name="custom_clock_weather_title">Moti në pamjet e orës</string>
+    <string name="custom_clock_weather_summary">Shfaq motin brenda pamjeve të orës që kanë vend për të</string>
+    <string name="remixer_weather_service">Shërbimi i motit</string>
+    <string name="remixer_weather_page_summary">Moti i ekranit të kyçjes dhe çfarë shfaq</string>
 </resources>

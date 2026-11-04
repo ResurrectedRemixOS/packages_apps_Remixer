@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">حرکات</string>
     <string name="backup_group_other">"غیره"</string>
     <string name="backup_done">"تمام"</string>
+    <string name="backup_summary">همه سفارشی‌سازی‌های RR در یک فایل</string>
+    <string name="backup_now">همین حالا پشتیبان بگیرید</string>
+    <string name="backup_never">آخرین پشتیبان: هرگز</string>
+    <string name="backup_last">آخرین پشتیبان: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">بازیابی از یک فایل</string>
+    <string name="backup_restore_summary">یک فایل پشتیبان انتخاب کنید</string>
+    <string name="backup_included">شامل‌شده</string>
+    <string name="backup_part_theme">رنگ تأکیدی، قلم و آیکون‌ها</string>
+    <string name="backup_part_header">تصویر سربرگ</string>
+    <string name="backup_part_photo">تصویر سربرگ (عکس شما)</string>
+    <string name="backup_part_photo_summary">حجم فایل را بیشتر می‌کند</string>
+    <string name="backup_part_boot">انیمیشن راه‌اندازی</string>
+    <string name="backup_part_looks">ظاهرهای شما</string>
+    <string name="backup_weekly">پشتیبان هفتگی</string>
+    <string name="backup_weekly_summary">به پوشه‌ای که انتخاب می‌کنید</string>
+    <string name="backup_weekly_on">هر هفته به <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">پیش از به‌روزرسانی‌ها پشتیبان پیشنهاد شود</string>
+    <string name="backup_offer_summary">به‌روزرسان پیش از نصب می‌پرسد</string>
+    <string name="backup_sets"><xliff:g id="count" example="64">%1$d</xliff:g> تنظیم را تعیین می‌کند</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> تنظیم ذخیره شد</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> تنظیم بازیابی شد</string>
+    <string name="backup_restored_message">SystemUI برای اعمال آن‌ها دوباره راه‌اندازی می‌شود.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> تنظیم روی این نسخه وجود ندارد و از آن رد شد.</string>
+    <string name="backup_failed">ذخیره پشتیبان انجام نشد</string>
+    <string name="backup_invalid">این فایل، پشتیبان Resurrected Remix نیست</string>
+    <string name="backup_footer">فقط تنظیمات RR در فایل قرار می‌گیرد: نه حساب‌ها، گذرواژه‌ها، شبکه‌های Wi-Fi، برنامه‌ها یا پیام‌ها. بازیابی فقط تنظیمات فهرست خود RR را می‌نویسد، پس فایل پشتیبان نمی‌تواند چیز دیگری را در گوشی تغییر دهد. عکس سربرگ فقط در صورت روشن بودن کلیدش در فایل قرار می‌گیرد، چون حجم فایل را بیشتر می‌کند.</string>
+    <string name="volume_style_title">سبک پنل صدا</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>نئونی</item>
+        <item>شیشه‌ای</item>
+        <item>قرص</item>
+        <item>RR کلاسیک</item>
+        <item>Bento</item>
+        <item>شکل‌ها</item>
+        <item>طرح فنی</item>
+        <item>Duo</item>
+        <item>نرم</item>
+    </string-array>
 </resources>

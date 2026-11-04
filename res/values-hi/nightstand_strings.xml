@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"कब"</string>
+    <string name="nightstand_title">नाइटस्टैंड</string>
+    <string name="nightstand_summary">चार्ज होते समय रात में ऑलवेज़-ऑन डिस्प्ले पर मंद बेडसाइड घड़ी</string>
+    <string-array name="nightstand_when_entries">
+        <item>"बंद है"</item>
+        <item>रात में चार्जर पर</item>
+        <item>हर रात, तय समय पर</item>
+        <item>बेडटाइम मोड चालू होने पर</item>
+    </string-array>
+    <string name="nightstand_from">रात शुरू</string>
+    <string name="nightstand_to">रात खत्म</string>
+    <string name="nightstand_brightness">चमक की सीमा</string>
+    <string name="nightstand_brightness_summary">नाइटस्टैंड चालू होने पर ऑलवेज़-ऑन डिस्प्ले कितना चमक सकता है</string>
+    <string name="nightstand_face">घड़ी फ़ेस</string>
+    <string name="nightstand_face_keep">मौजूदा फ़ेस रखें</string>
+    <string name="nightstand_footer">नाइटस्टैंड चलते समय ऑलवेज़-ऑन डिस्प्ले चालू करता है और बाद में उसे वापस कर देता है। चार्जर हटने, अलार्म बजने या रात खत्म होने पर यह बंद हो जाता है। फ़ेस केवल दो कस्टम फ़ेस के बीच बदलता है; सिस्टम घड़ी वही रहती है।</string>
 </resources>

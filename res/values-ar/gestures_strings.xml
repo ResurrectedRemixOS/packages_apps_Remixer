@@ -8,4 +8,50 @@
         <item>"متوسط"</item>
         <item>"كبير"</item>
     </string-array>
+    <string name="pie_title">عناصر تحكم الدائرة</string>
+    <string name="pie_summary">اضغط مطولًا على الجزء السفلي من الحافة لفتح دائرة الاختصارات</string>
+    <string name="pie_zone">جزء من الحافة</string>
+    <string name="pie_clock">الساعة والبطارية فوقه</string>
+    <string name="pie_items">الشرائح</string>
+    <string-array name="pie_items_entries">
+        <item>"رجوع"</item>
+        <item>الرئيسية</item>
+        <item>"الأحدث"</item>
+        <item>"الإشعارات"</item>
+        <item>"ضوء الفلاش"</item>
+        <item>"لقطة شاشة"</item>
+        <item>"قائمة زر التشغيل"</item>
+        <item>"‏مساعد Google"</item>
+        <item>"الكاميرا"</item>
+    </string-array>
+    <string name="pie_footer">يلزم الضغط مدة ربع ثانية دون تحريك، لذا يبقى السحب السريع من الحافة للرجوع. ولا تُفتح على شاشة القفل.</string>
+    <string-array name="pie_edges_entries">
+        <item>اليسار</item>
+        <item>اليمين</item>
+        <item>كلاهما</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>الثلث السفلي</item>
+        <item>المنتصف</item>
+        <item>الحافة كاملة</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>نيون</item>
+        <item>زجاجي</item>
+        <item>كلاسيكي</item>
+    </string-array>
+    <string name="sidebar_style_title">مظهر الشريط الجانبي للتطبيقات</string>
+    <string-array name="sidebar_style_entries">
+        <item>كلاسيكي</item>
+        <item>زجاج RR</item>
+        <item>نيون</item>
+    </string-array>
+    <string name="sidebar_settings_title">الشريط الجانبي للتطبيقات</string>
+    <string name="sidebar_settings_summary">اسحب من المقبض للوصول إلى تطبيقاتك وأدواتك</string>
+    <string name="sidebar_apps_title">التطبيقات والمقبض والحافظة</string>
+    <string name="sidebar_apps_summary">فعّل المقبض واختر التطبيقات واضبط الحافظة الذكية</string>
+    <string name="sidebar_handle_size_title">حجم المقبض</string>
+    <string name="sidebar_tools_title">صف الأدوات</string>
+    <string name="sidebar_tools_summary">لقطة الشاشة وضوء الفلاش أسفل تطبيقاتك</string>
+    <string name="sidebar_footer">المقبض خط رفيع بلون التمييز؛ اسحبه لتحريكه على طول الحافة. مع إيماءات التنقل يغطي جزءه من الحافة فقط، ويعمل الرجوع في بقية المواضع.</string>
 </resources>

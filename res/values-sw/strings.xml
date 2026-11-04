@@ -84,4 +84,214 @@
     <string name="wallpaper_apply_lock">"Skrini iliyofungwa"</string>
     <string name="remixer_settings_style_original">"Asili"</string>
     <string name="remixer_navbar_category">"Sehemu ya viungo muhimu"</string>
+    <string name="remixer_dashboard_summary">Hali ya upau, mandhari, skrini iliyofungwa na zaidi</string>
+    <string name="rr_homepage_battery_saver">Kiokoa betri</string>
+    <string name="rr_homepage_personalize">Binafsisha</string>
+    <string name="rr_homepage_privacy">Faragha na usalama</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> bila malipo</string>
+    <string name="rr_homepage_charged">Imejaa chaji kikamilifu</string>
+    <string name="rr_homepage_on_battery">Inatumia betri</string>
+    <string name="rr_homepage_saver_on">Kiokoa betri kimewashwa</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> kifaa</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> vifaa</item>
+    </plurals>
+    <string name="rr_homepage_extras">Mipangilio ya ziada</string>
+    <string name="rr_homepage_saver">Kiokoa</string>
+    <string name="rr_homepage_signed_out">Hujaingia</string>
+    <string name="rr_homepage_remixer_tagline">Fanya iwe yako. Hali ya upau, mandhari, skrini iliyofungwa na zaidi.</string>
+    <string name="rr_homepage_device_tagline">Kitelezi cha tahadhari, onyesho, chaji na GameBar.</string>
+    <string name="rr_homepage_device_action">Rekebisha</string>
+    <string name="rr_group_network">Mtandao na vifaa</string>
+    <string name="rr_group_network_summary">Wi‑Fi, simu ya mkononi, Bluetooth</string>
+    <string name="rr_group_apps_summary">Programu, arifa, Hali</string>
+    <string name="rr_group_display">Onyesho na sauti</string>
+    <string name="rr_group_display_summary">Onyesho, mandhari, sauti</string>
+    <string name="rr_group_security_summary">Kufunga, mahali, dharura</string>
+    <string name="rr_group_security_center">Kituo cha usalama</string>
+    <string name="rr_group_accounts">Google na akaunti</string>
+    <string name="rr_group_accounts_summary">Google, nywila, hifadhi nakala</string>
+    <string name="rr_group_accounts_plain_summary">Nywila, akaunti, hifadhi nakala</string>
+    <string name="rr_group_system_summary">Lugha, miguso, masasisho</string>
+    <string name="remixer_tagline">Fanya iwe yako.</string>
+    <string name="remixer_remix">Ibadilishe</string>
+    <string name="remixer_remixed">Imebadilishwa kwa <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Kivuli · Chaguomsingi</string>
+    <string name="remixer_quick">Mabadiliko ya haraka</string>
+    <string name="remixer_everything">Yote</string>
+    <string name="remixer_quick_accents">Mipangilio iliyowekwa au rangi yoyote</string>
+    <string name="remixer_quick_fonts">Mitindo ya fonti ya mfumo</string>
+    <string name="remixer_quick_walls">Mkusanyiko wa RR</string>
+    <string name="remixer_quick_header">Kichwa cha Mipangilio ya haraka</string>
+    <string name="remixer_quick_header_summary">Picha za kichwa</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Saa, betri, aikoni na matumizi ya mtandao</string>
+    <string name="remixer_qs_summary">Picha ya kichwa</string>
+    <string name="remixer_notifications_summary">Mwangaza wa kingo, aikoni za programu na sauti za kuchaji</string>
+    <string name="remixer_theme_summary">Fonti, lafudhi na mandhari</string>
+    <string name="remixer_lockscreen_summary">UDFPS, taarifa za kuchaji na hali ya hewa</string>
+    <string name="remixer_udfps_icon">Aikoni ya UDFPS</string>
+    <string name="remixer_udfps_icon_summary">Inaonyeshwa juu ya kihisi cha alama ya kidole</string>
+    <string name="remixer_udfps_animation">Uhuishaji wa UDFPS</string>
+    <string name="remixer_udfps_animation_summary">Inacheza kidole chako kikiwa kwenye kitambuzi</string>
+    <string name="remixer_navigation">Viungo muhimu</string>
+    <string name="remixer_navigation_summary">Pulse, vitufe na sehemu ya viungo muhimu</string>
+    <string name="remixer_misc_summary">Sauti, hifadhi nakala, kuiga, kusogeza na USB</string>
+    <string name="scroll_haptics_title">Gusa mwisho wa kusogeza</string>
+    <string name="scroll_haptics_summary">Mtetemo mwepesi orodha au ukurasa unapofikia mwisho</string>
+    <string name="usb_mode_picker_title">Kichagua hali ya USB</string>
+    <string name="usb_mode_picker_summary">Chagua hali unapounganisha kwenye kompyuta</string>
+    <string name="remixer_fonts_summary">Fonti ya mfumo</string>
+    <string name="remixer_wallpapers_summary">Mandhari za Resurrected Remix</string>
+    <string name="remixer_accents">Lafudhi</string>
+    <string name="remixer_accents_summary">Rangi ya lafudhi</string>
+    <string name="remixer_pulse">Mapigo</string>
+    <string name="remixer_pulse_summary">Kionyeshi cha muziki chini ya skrini</string>
+    <string name="pulse_switch">Tumia mapigo</string>
+    <string name="pulse_switch_summary">Mistari ya muziki chini ya skrini wakati midia inacheza</string>
+    <string name="pulse_style_lines">Mistari</string>
+    <string name="pulse_style_fading">Kufifia</string>
+    <string name="pulse_style_blocks">Vizuizi</string>
+    <string name="pulse_style_mirror">Kioo</string>
+    <string name="pulse_color_custom">Maalum</string>
+    <string name="pulse_color_gradient">Upinde wa mvua</string>
+    <string name="pulse_bars">Baa</string>
+    <string name="pulse_bars_value">Baa · %1$d</string>
+    <string name="pulse_height">Urefu</string>
+    <string name="pulse_height_value">Urefu · %1$d dp</string>
+    <string name="pulse_opacity">Uwazi</string>
+    <string name="pulse_opacity_value">Uwazi · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Weka baa kwenye skrini iliyofungwa muziki unapocheza</string>
+    <string name="pulse_failed">Imeshindwa kuhifadhi mpangilio huo wa mapigo</string>
+    <string name="accent_applied">Lafudhi imetumika</string>
+    <string name="accent_current">Lafudhi · %1$s</string>
+    <string name="accent_current_custom">Lafudhi · Maalum</string>
+    <string name="accent_preview_tonal">Toni</string>
+    <string name="accent_failed">Imeshindwa kutumia lafudhi hiyo</string>
+    <string name="accent_custom">Maalum</string>
+    <string name="accent_custom_summary">Rangi yoyote inafanya kazi. Kivuli bado kinatumika juu yake.</string>
+    <string name="accent_custom_pad">Ukolezi na mwangaza</string>
+    <string name="accent_custom_use">Tumia <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">Kivuli</string>
+    <string name="accent_shade_darker">Nyeusi zaidi</string>
+    <string name="accent_shade_lighter">Angavu zaidi</string>
+    <string name="accent_shade_darker_value">Nyeusi zaidi · %1$d</string>
+    <string name="accent_shade_lighter_value">Angavu zaidi · %1$d</string>
+    <string name="remixer_qs_style">Mtindo wa Mipangilio ya haraka</string>
+    <string name="remixer_qs_style_preview">Onyesho la kukagua · %1$s</string>
+    <string name="remixer_qs_style_note">Kila mtindo unafuata rangi yako ya lafudhi. Paneli ya sauti ina mionekano inayolingana ya Bento, Maumbo, Blueprint, Duo na Laini. Stock Lineage huacha vigae vya Android 17 bila kubadilishwa.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Vigae vya Android 17, bila mabadiliko</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Mwangaza kwenye kadi ya lafudhi. Vigae vinajazwa na mteremko wa lafudhi</string>
+    <string name="remixer_qs_style_compact">Fupi</string>
+    <string name="remixer_qs_style_compact_summary">Vigae vifupi zaidi. Vingi zaidi kwenye skrini moja</string>
+    <string name="remixer_qs_style_glass">Kioo</string>
+    <string name="remixer_qs_style_glass_summary">Vigae vya mstari vinavyong\'aa kwa rangi ya lafudhi vikiwashwa</string>
+    <string name="remixer_qs_style_circles">Duara</string>
+    <string name="remixer_qs_style_circles_summary">Swichi za duara zenye lebo. Vigae vipana vinakuwa kadi</string>
+    <string name="remixer_qs_style_classic">Classic</string>
+    <string name="remixer_qs_style_classic_summary">RR ya zamani: aikoni tupu zenye lebo, tano kwa safu, kitelezi chembamba</string>
+    <string name="remixer_qs_style_cards">Kadi</string>
+    <string name="remixer_qs_style_cards_summary">Kadi kubwa zenye hali chini ya kila jina, tatu kwa safu</string>
+    <string name="remixer_qs_style_neon">Neon</string>
+    <string name="remixer_qs_style_neon_summary">Vigae vya mstari vinavyong\'aa kwa rangi ya lafudhi vikiwashwa</string>
+    <string name="remixer_qs_style_bento_summary">Vizuizi vikubwa vya mviringo vilivyojazwa lafudhi yako, lebo chini ya vidogo</string>
+    <string name="remixer_qs_style_shapes">Maumbo</string>
+    <string name="remixer_qs_style_shapes_summary">Swichi za duara zinazotoa mikunjo vikiwashwa, tano kwa safu</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Mistari myembamba na herufi kubwa za monospace</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Vigae vilivyogawanyika. Nusu ya aikoni inawaka na kubadilisha hali</string>
+    <string name="remixer_qs_style_soft">Laini</string>
+    <string name="remixer_qs_style_soft_summary">Vigae vilivyoinuka vinavyozama vikiwashwa</string>
+    <string name="remixer_lock_media_style">Mtindo wa kicheza midia</string>
+    <string name="remixer_lock_media_same">Sawa na Mipangilio ya haraka</string>
+    <string name="remixer_lock_media_same_summary">Inafuata kigae chako cha Midia ya QS, sasa %1$s</string>
+    <string name="remixer_lock_media_off_summary">Hakuna kicheza kwenye skrini iliyofungwa</string>
+    <string name="remixer_lock_media_note">Kadi inaonekana kwenye skrini iliyofungwa wakati kitu kinacheza. Mitindo ya uwazi hupata mandharinyuma meusi ili ibaki wazi juu ya mandhari yako.</string>
+    <string name="remixer_lock_media_stock_summary">Picha ya albamu inajaza kadi</string>
+    <string name="remixer_lock_media_remix_summary">Kadi nyeusi, kitufe cha kucheza cha lafudhi</string>
+    <string name="remixer_lock_media_compact_summary">Kadi ya mviringo zaidi, picha ya mviringo</string>
+    <string name="remixer_lock_media_glass_summary">Kadi ya uwazi yenye mstari wa nje</string>
+    <string name="remixer_lock_media_circles_summary">Kadi laini, kitufe cha kucheza cha lafudhi</string>
+    <string name="remixer_lock_media_classic_summary">Kadi ya mraba zaidi, kitufe cha kucheza chenye mstari wa nje</string>
+    <string name="remixer_lock_media_cards_summary">Kadi laini, kitufe cha kucheza cha lafudhi, kama Duara</string>
+    <string name="remixer_lock_media_neon_summary">Kadi nyeusi yenye mstari wa lafudhi</string>
+    <string name="remixer_lock_media_bento_summary">Kadi laini, kitufe cha kucheza cha lafudhi</string>
+    <string name="remixer_lock_media_shapes_summary">Kadi ya mviringo zaidi, kitufe cha kucheza cha lafudhi</string>
+    <string name="remixer_lock_media_blueprint_summary">Mstari mwembamba wa nje, kitufe cha kucheza chenye mstari wa nje</string>
+    <string name="remixer_lock_media_duo_summary">Kadi yenye rangi mbili, kitufe cha kucheza cha lafudhi</string>
+    <string name="remixer_lock_media_soft_summary">Kadi iliyoinuka yenye ukingo wa mteremko</string>
+    <string name="remixer_headers">Picha ya kichwa</string>
+    <string name="remixer_headers_summary">Chagua picha ya mandharinyuma ya Mipangilio ya haraka</string>
+    <string name="header_switch">Tumia picha ya kichwa</string>
+    <string name="header_switch_summary">Onyesha picha nyuma ya Mipangilio ya haraka</string>
+    <string name="header_source">Chanzo</string>
+    <string name="header_source_collection">Mkusanyiko</string>
+    <string name="header_collections_summary_daylight">Kichwa hufuata wakati wa siku au kubadilishana kupitia mkusanyiko</string>
+    <string name="header_collections_summary_static">Fungua mkusanyiko kisha gusa picha ili kuitumia</string>
+    <string name="header_collections_empty">Hakuna mikusanyiko ya vichwa iliyosakinishwa</string>
+    <string name="header_images_daylight">Katika mkusanyiko huu</string>
+    <plurals name="header_image_count">
+        <item quantity="one">picha %d</item>
+        <item quantity="other">picha %d</item>
+    </plurals>
+    <string name="header_photo_summary">Picha yoyote au GIF iliyohuishwa kutoka matunzio yako</string>
+    <string name="header_height">Urefu</string>
+    <string name="header_height_value">Urefu · %1$d dp</string>
+    <string name="header_shadow">Hafifu</string>
+    <string name="header_shadow_value">Hafifu · %1$d%%</string>
+    <string name="header_failed">Imeshindwa kuhifadhi mpangilio huo wa kichwa</string>
+    <string name="remixer_weather_summary">Huduma ya hali ya hewa na vipimo</string>
+    <string name="font_preview_notification">Hivi ndivyo simu yako itasoma.</string>
+    <string name="font_try_text">Jaribu maandishi yako</string>
+    <string name="font_previewing">Inakagua</string>
+    <string name="font_current">Fonti ya sasa</string>
+    <string name="font_badge_current">Ya sasa</string>
+    <string name="font_apply_done">Imetumika</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Onyesho</string>
+    <string name="font_filter_script">Maandishi</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Fonti imetumika</string>
+    <string name="font_failed">Imeshindwa kutumia fonti hiyo</string>
+    <string name="wallpaper_set">Mandhari imewekwa</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">mandhari %d kutoka Resurrected Remix. Gusa moja ili kuikagua.</item>
+        <item quantity="other">mandhari %d kutoka Resurrected Remix. Gusa moja ili kuikagua.</item>
+    </plurals>
+    <string name="wallpaper_apply_both">Zote mbili</string>
+    <string name="wallpaper_failed">Imeshindwa kuweka mandhari hiyo</string>
+    <string name="missing_app">Programu hiyo haijasakinishwa</string>
+    <string name="remixer_spoofing">Kuiga</string>
+    <string name="remixer_spoofing_summary">Play Integrity, utambulisho wa kifaa, na kuiga kwa kila programu</string>
+    <string name="remixer_settings_style">Mtindo wa mipangilio</string>
+    <string name="rr_maintainer">Msimamizi</string>
+    <string name="remixer_navbar_summary">Urefu, unene na mpangilio wa mapigo ya ishara</string>
+    <string name="remixer_navbar_pill_length">Urefu wa mapigo ya ishara</string>
+    <string name="remixer_navbar_pill_thickness">Unene wa mapigo ya ishara</string>
+    <string name="remixer_navbar_pill_auto_hide">Fifisha mapigo ya ishara</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Ficha mapigo baada ya sekunde chache; yatarudi ukigusa skrini</string>
+    <string name="remixer_navbar_ime">Vitufe vya kibodi</string>
+    <string name="remixer_navbar_ime_summary">Onyesha vitufe vya nyuma na kibadilishaji cha kibodi chini ya kibodi</string>
+    <string name="remixer_navbar_layout">Mpangilio wa vitufe</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Fupi</item>
+        <item>Kawaida</item>
+        <item>Ndefu</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Myembamba kabisa</item>
+        <item>Myembamba zaidi</item>
+        <item>Myembamba</item>
+        <item>Kawaida</item>
+        <item>Nene</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Kawaida</item>
+        <item>Fupi</item>
+        <item>"Inayoegemea kushoto"</item>
+        <item>"Inayoegemea kulia"</item>
+    </string-array>
 </resources>

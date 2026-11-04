@@ -11,4 +11,97 @@
     <string name="now_bar_music_category">"Muzică"</string>
     <string name="now_bar_buttons">Butoane</string>
     <string name="now_bar_text_size">"Dimensiunea textului"</string>
+    <string name="now_bar_summary">Activități live în partea de jos a ecranului de blocare</string>
+    <string name="now_bar_show">Arată</string>
+    <string name="now_bar_music">Muzică și video</string>
+    <string name="now_bar_timers">Cronometre, cronometru și alarme</string>
+    <string name="now_bar_hide_call">Ascunde notificarea de apel</string>
+    <string name="now_bar_hide_call_summary">Pe ecranul de blocare, un apel din Now Bar nu apare și ca notificare</string>
+    <string name="now_bar_live">Actualizări live</string>
+    <string name="now_bar_live_summary">Navigare, curse, livrări, scoruri</string>
+    <string name="now_bar_scores">Scoruri live</string>
+    <string name="now_bar_live_apps">Aplicații pentru actualizări live</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> aplicații</string>
+    <string name="now_bar_pin">Fixate pe afișajul permanent</string>
+    <string name="now_bar_unpin_question">Desprinzi <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Desprinde</string>
+    <string name="now_bar_scores_summary">Jocuri urmărite în At a Glance</string>
+    <string name="now_bar_recording">Înregistrare a ecranului și a vocii</string>
+    <string name="now_bar_buds">Căști și ceasuri</string>
+    <string name="now_bar_buds_summary">Bateria unui dispozitiv conectat: stânga, dreapta și carcasa pentru căști</string>
+    <string name="now_bar_wave">Animație de undă</string>
+    <string name="now_bar_aod">Afișează pe afișajul permanent</string>
+    <string name="now_bar_chip">Cip în bara de stare</string>
+    <string name="now_bar_chip_summary">Redă muzica și cronometrele lângă ceas când ecranul este deblocat</string>
+    <string name="now_bar_footer">Când redai muzică în Now Bar, playerul mare de pe ecranul de blocare este ascuns. Glisează bara pentru a comuta între activități, atinge-o pentru a deschide comenzile și ține apăsat pentru a ascunde una până se termină. Glisează de pe bară o melodie pusă pe pauză pentru a o șterge.\n\nScorurile live arată meciurile echipelor urmărite în aplicația Google. Cu Smartspacer, adaugă o țintă pentru sport acolo și scorurile vor apărea aici.</string>
+    <string name="now_bar_looks">Aspecte</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Prestabilit"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Mare</item>
+        <item>Neon</item>
+        <item>Card de sticlă</item>
+    </string-array>
+    <string name="now_bar_material">Material</string>
+    <string name="now_bar_material_summary">Liquid Glass folosește sticla setată în Temă</string>
+    <string-array name="now_bar_material_entries">
+        <item>Solid</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Copertă album</item>
+        <item>Accent</item>
+        <item>Întunecat</item>
+    </string-array>
+    <string name="now_bar_opacity">Opacitate</string>
+    <string name="now_bar_opacity_summary">Cu Liquid Glass, cât de mult colorează culoarea sticla</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Niciuna"</item>
+        <item>Subțire</item>
+        <item>Accent</item>
+    </string-array>
+    <string name="now_bar_shadow">Umbră</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Dezactivat"</item>
+        <item>Soft</item>
+        <item>Strălucire</item>
+    </string-array>
+    <string name="now_bar_more">Mai multe activități</string>
+    <string-array name="now_bar_more_entries">
+        <item>Doar glisează</item>
+        <item>Puncte</item>
+        <item>Privire din spate</item>
+    </string-array>
+    <string name="now_bar_size">Dimensiune și formă</string>
+    <string name="now_bar_height">Înălțime</string>
+    <string name="now_bar_width_summary">Complet mută comenzile rapide deasupra barei</string>
+    <string-array name="now_bar_width_entries">
+        <item>Îngust</item>
+        <item>Între comenzile rapide</item>
+        <item>Complet</item>
+    </string-array>
+    <string name="now_bar_corners">Colțuri</string>
+    <string name="now_bar_raise">Ridicat</string>
+    <string name="now_bar_art">Copertă album</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Cerc"</item>
+        <item>Rotunjit</item>
+        <item>"Pătrat"</item>
+        <item>"Dezactivat"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Sari peste și redă</item>
+        <item>Doar redare</item>
+        <item>"Niciuna"</item>
+    </string-array>
+    <string name="now_bar_text">Text</string>
+    <string-array name="now_bar_text_entries">
+        <item>O linie</item>
+        <item>Două linii</item>
+        <item>Doar melodia</item>
+    </string-array>
+    <string name="now_bar_show_page">Ce apare în bară</string>
+    <string name="now_bar_show_page_summary">Muzică și video, cronometre, apeluri și altele</string>
+    <string name="now_bar_where">Altele</string>
 </resources>

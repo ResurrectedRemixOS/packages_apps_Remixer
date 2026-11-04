@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Тајмер</string>
     <string name="quick_launch_undo">"Опозови"</string>
     <string name="quick_launch_off">"Искључено"</string>
+    <string name="quick_launch_title">Brzo pokretanje</string>
+    <string name="quick_launch_main">Brzo pokretanje otiskom prsta</string>
+    <string name="quick_launch_main_summary">Držite prst na senzoru nakon otključavanja da otvorite pREČICU</string>
+    <string name="quick_launch_hint">Dodirnite pречицу da je promenite, držite je da je uklonite ili prevucite da promenite redosled.</string>
+    <string name="quick_launch_behavior">Ponašanje</string>
+    <string name="quick_launch_hold">Vreme držanja</string>
+    <string name="quick_launch_haptics">Vibracija pri svakoj pречici</string>
+    <string name="quick_launch_add">Додај</string>
+    <string name="quick_launch_video">Видео</string>
+    <string name="quick_launch_qr">Скенирај QR</string>
+    <string name="quick_launch_app">Aplikacija…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> uklonjeno</string>
 </resources>

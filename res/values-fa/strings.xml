@@ -86,4 +86,212 @@
     <string name="wallpaper_apply_lock">"صفحه قفل"</string>
     <string name="remixer_settings_style_original">"اصلی"</string>
     <string name="remixer_navbar_category">"نوار پیمایش"</string>
+    <string name="remixer_dashboard_summary">نوار وضعیت، زمینه، صفحه قفل و موارد بیشتر</string>
+    <string name="rr_homepage_battery_saver">بهینه‌ساز باتری</string>
+    <string name="rr_homepage_personalize">شخصی‌سازی</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> آزاد</string>
+    <string name="rr_homepage_charged">کاملاً شارژ شد</string>
+    <string name="rr_homepage_on_battery">با باتری</string>
+    <string name="rr_homepage_saver_on">بهینه‌ساز باتری روشن است</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> دستگاه</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> دستگاه</item>
+    </plurals>
+    <string name="rr_homepage_extras">تنظیمات بیشتر</string>
+    <string name="rr_homepage_saver">بهینه‌ساز</string>
+    <string name="rr_homepage_signed_out">وارد نشده‌اید</string>
+    <string name="rr_homepage_remixer_tagline">آن را به دلخواه خود درآورید. نوار وضعیت، زمینه، صفحه قفل و موارد دیگر.</string>
+    <string name="rr_homepage_device_tagline">کلید اعلان، نمایشگر، شارژ و GameBar.</string>
+    <string name="rr_homepage_device_action">آن را تنظیم کنید</string>
+    <string name="rr_group_network">شبکه &amp; دستگاه‌ها</string>
+    <string name="rr_group_network_summary">وای‌فای، شبکه همراه، بلوتوث</string>
+    <string name="rr_group_apps_summary">برنامه‌ها، اعلان‌ها، حالت‌ها</string>
+    <string name="rr_group_display">نمایشگر و صدا</string>
+    <string name="rr_group_display_summary">نمایشگر، کاغذدیواری، صدا</string>
+    <string name="rr_group_security_summary">قفل، مکان، اضطراری</string>
+    <string name="rr_group_security_center">مرکز امنیتی</string>
+    <string name="rr_group_accounts">Google و حساب‌ها</string>
+    <string name="rr_group_accounts_summary">Google، گذرواژه‌ها، پشتیبان‌گیری</string>
+    <string name="rr_group_accounts_plain_summary">گذرواژه‌ها، حساب‌ها، پشتیبان‌گیری</string>
+    <string name="rr_group_system_summary">زبان‌ها، حرکات، به‌روزرسانی‌ها</string>
+    <string name="remixer_tagline">آن را به دلخواه خود درآورید.</string>
+    <string name="remixer_remix">آن را ریمیکس کنید</string>
+    <string name="remixer_remixed">ریمیکس‌شده با <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">سایه · پیش‌فرض</string>
+    <string name="remixer_quick">ریمیکس سریع</string>
+    <string name="remixer_everything">همه چیز</string>
+    <string name="remixer_quick_accents">پیش‌تنظیم‌ها یا هر رنگی</string>
+    <string name="remixer_quick_fonts">سبک‌های قلم سیستم</string>
+    <string name="remixer_quick_walls">مجموعه RR</string>
+    <string name="remixer_quick_header">سربرگ تنظیمات فوری</string>
+    <string name="remixer_quick_header_summary">تصاویر سربرگ</string>
+    <string name="remixer_version">Resurrected Remix · اندروید <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">ساعت، باتری، نمادها و ترافیک شبکه</string>
+    <string name="remixer_qs_summary">تصویر سربرگ</string>
+    <string name="remixer_notifications_summary">روشنایی لبه، نمادهای برنامه و صداهای شارژ</string>
+    <string name="remixer_theme_summary">قلم‌ها، رنگ‌های تأکیدی و کاغذدیواری‌ها</string>
+    <string name="remixer_lockscreen_summary">UDFPS، اطلاعات شارژ و آب‌وهوا</string>
+    <string name="remixer_udfps_icon">نماد UDFPS</string>
+    <string name="remixer_udfps_icon_summary">روی حسگر اثرانگشت نمایش داده می‌شود</string>
+    <string name="remixer_udfps_animation">انیمیشن UDFPS</string>
+    <string name="remixer_udfps_animation_summary">هنگامی که انگشتتان روی حسگر است پخش می‌شود</string>
+    <string name="remixer_navigation_summary">Pulse، دکمه‌ها و نوار پیمایش</string>
+    <string name="remixer_misc_summary">صدا، پشتیبان‌گیری، جعل دستگاه، پیمایش و USB</string>
+    <string name="scroll_haptics_title">لمس در پایان پیمایش</string>
+    <string name="scroll_haptics_summary">لرزش خفیف وقتی فهرست یا صفحه دیگر قابل پیمایش نیست</string>
+    <string name="usb_mode_picker_title">انتخاب‌گر حالت USB</string>
+    <string name="usb_mode_picker_summary">هنگام اتصال به رایانه یک حالت انتخاب کنید</string>
+    <string name="remixer_fonts_summary">قلم سیستم</string>
+    <string name="remixer_wallpapers_summary">کاغذدیواری‌های Resurrected Remix</string>
+    <string name="remixer_accents">رنگ‌های تأکیدی</string>
+    <string name="remixer_accents_summary">رنگ تأکیدی</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">نمایش‌دهنده موسیقی در پایین صفحه</string>
+    <string name="pulse_switch">استفاده از Pulse</string>
+    <string name="pulse_switch_summary">میله‌های موسیقی در پایین صفحه هنگام پخش رسانه</string>
+    <string name="pulse_style_lines">خطوط</string>
+    <string name="pulse_style_fading">محوشونده</string>
+    <string name="pulse_style_blocks">بلوکی</string>
+    <string name="pulse_style_mirror">آینه‌ای</string>
+    <string name="pulse_color_custom">سفارشی</string>
+    <string name="pulse_color_gradient">رنگین‌کمانی</string>
+    <string name="pulse_bars">میله‌ها</string>
+    <string name="pulse_bars_value">میله‌ها · %1$d</string>
+    <string name="pulse_height">ارتفاع</string>
+    <string name="pulse_height_value">ارتفاع · %1$d dp</string>
+    <string name="pulse_opacity">کدورت</string>
+    <string name="pulse_opacity_value">کدورت · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">نگه داشتن میله‌ها روی صفحه قفل هنگام پخش موسیقی</string>
+    <string name="pulse_failed">ذخیره تنظیم Pulse انجام نشد</string>
+    <string name="accent_applied">رنگ تأکیدی اعمال شد</string>
+    <string name="accent_current">رنگ تأکیدی · %1$s</string>
+    <string name="accent_current_custom">رنگ تأکیدی · سفارشی</string>
+    <string name="accent_preview_tonal">هم‌رنگ</string>
+    <string name="accent_failed">اعمال آن رنگ تأکیدی انجام نشد</string>
+    <string name="accent_custom">سفارشی</string>
+    <string name="accent_custom_summary">هر رنگی کار می‌کند. سایه همچنان روی آن اعمال می‌شود.</string>
+    <string name="accent_custom_pad">اشباع و روشنایی</string>
+    <string name="accent_custom_use">استفاده از <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">سایه</string>
+    <string name="accent_shade_darker">تیره‌تر</string>
+    <string name="accent_shade_lighter">روشن‌تر</string>
+    <string name="accent_shade_darker_value">تیره‌تر · %1$d</string>
+    <string name="accent_shade_lighter_value">روشن‌تر · %1$d</string>
+    <string name="remixer_qs_style">سبک تنظیمات فوری</string>
+    <string name="remixer_qs_style_preview">پیش‌نمایش · %1$s</string>
+    <string name="remixer_qs_style_note">هر سبکی از رنگ تأکیدی شما پیروی می‌کند. پنل صدا ظاهرهای هم‌خوان Bento، Shapes، Blueprint، Duo و Soft را دارد. Stock Lineage کاشی‌های Android 17 را بدون تغییر نگه می‌دارد.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">کاشی‌های Android 17، بدون تغییر</string>
+    <string name="remixer_qs_style_remix">ریمیکس</string>
+    <string name="remixer_qs_style_remix_summary">روشنایی در کارت رنگ تأکیدی. کاشی‌ها با گرادیان رنگ تأکیدی پر می‌شوند.</string>
+    <string name="remixer_qs_style_compact">فشرده</string>
+    <string name="remixer_qs_style_compact_summary">کاشی‌های کوتاه‌تر. تعداد بیشتری روی یک صفحه</string>
+    <string name="remixer_qs_style_glass">شیشه‌ای</string>
+    <string name="remixer_qs_style_glass_summary">کاشی‌های شفاف با حاشیه که وقتی روشن‌اند با رنگ تأکیدی می‌درخشند</string>
+    <string name="remixer_qs_style_circles">دایره‌ها</string>
+    <string name="remixer_qs_style_circles_summary">کلیدهای گرد با برچسب. کاشی‌های عریض به کارت تبدیل می‌شوند</string>
+    <string name="remixer_qs_style_classic">کلاسیک</string>
+    <string name="remixer_qs_style_classic_summary">RR کلاسیک: نمادهای ساده با برچسب، پنج تا در هر ردیف و نوار لغزنده نازک</string>
+    <string name="remixer_qs_style_cards">کارت‌ها</string>
+    <string name="remixer_qs_style_cards_summary">کارت‌های بزرگ با وضعیت زیر هر نام، سه تا در هر ردیف</string>
+    <string name="remixer_qs_style_neon">نئونی</string>
+    <string name="remixer_qs_style_neon_summary">کاشی‌های حاشیه‌دار که وقتی روشن‌اند با رنگ تأکیدی می‌درخشند</string>
+    <string name="remixer_qs_style_bento_summary">بلوک‌های بزرگ و گرد با رنگ تأکیدی، برچسب‌ها زیر کاشی‌های کوچک</string>
+    <string name="remixer_qs_style_shapes">شکل‌ها</string>
+    <string name="remixer_qs_style_shapes_summary">کلیدهای گرد که وقتی روشن‌اند لوب می‌گیرند، پنج تا در هر ردیف</string>
+    <string name="remixer_qs_style_blueprint">طرح فنی</string>
+    <string name="remixer_qs_style_blueprint_summary">حاشیه‌های نازک و حروف بزرگ با عرض ثابت</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">کاشی‌های دوتکه. نیمه‌ی نماد روشن می‌شود و کلید می‌زند</string>
+    <string name="remixer_qs_style_soft">نرم</string>
+    <string name="remixer_qs_style_soft_summary">کاشی‌های برجسته که وقتی روشن‌اند فرو می‌روند</string>
+    <string name="remixer_lock_media_style">سبک پخش‌کننده رسانه</string>
+    <string name="remixer_lock_media_same">مانند تنظیمات فوری</string>
+    <string name="remixer_lock_media_same_summary">از کاشی رسانه تنظیمات فوری پیروی می‌کند، اکنون %1$s</string>
+    <string name="remixer_lock_media_off_summary">پخش‌کننده‌ای روی صفحه قفل نیست</string>
+    <string name="remixer_lock_media_note">هنگام پخش چیزی، کارت روی صفحه قفل نمایش داده می‌شود. سبک‌های شفاف پس‌زمینه تیره می‌گیرند تا روی کاغذدیواری خوانا بمانند.</string>
+    <string name="remixer_lock_media_stock_summary">تصویر آلبوم کل کارت را پر می‌کند</string>
+    <string name="remixer_lock_media_remix_summary">کارت تیره، دکمه پخش با رنگ تأکیدی</string>
+    <string name="remixer_lock_media_compact_summary">کارت گردتر، تصویر گرد</string>
+    <string name="remixer_lock_media_glass_summary">کارت شفاف با حاشیه</string>
+    <string name="remixer_lock_media_circles_summary">کارت نرم، دکمه پخش با رنگ تأکیدی</string>
+    <string name="remixer_lock_media_classic_summary">کارت مربعی‌تر، دکمه پخش با حاشیه</string>
+    <string name="remixer_lock_media_cards_summary">کارت نرم، دکمه پخش با رنگ تأکیدی، مانند Circles</string>
+    <string name="remixer_lock_media_neon_summary">کارت سیاه با حاشیه رنگ تأکیدی</string>
+    <string name="remixer_lock_media_bento_summary">کارت نرم، دکمه پخش با رنگ تأکیدی</string>
+    <string name="remixer_lock_media_shapes_summary">کارت گردتر، دکمه پخش با رنگ تأکیدی</string>
+    <string name="remixer_lock_media_blueprint_summary">حاشیه نازک، دکمه پخش با حاشیه</string>
+    <string name="remixer_lock_media_duo_summary">کارت دورنگ، دکمه پخش با رنگ تأکیدی</string>
+    <string name="remixer_lock_media_soft_summary">کارت برجسته با لبه‌ی پخ‌دار</string>
+    <string name="remixer_headers">تصویر سربرگ</string>
+    <string name="remixer_headers_summary">یک تصویر پس‌زمینه برای تنظیمات فوری انتخاب کنید</string>
+    <string name="header_switch">استفاده از تصویر سربرگ</string>
+    <string name="header_switch_summary">نمایش تصویر پشت تنظیمات فوری</string>
+    <string name="header_source">منبع</string>
+    <string name="header_source_collection">مجموعه</string>
+    <string name="header_collections_summary_daylight">سربرگ با زمان روز تغییر می‌کند یا بین مجموعه می‌چرخد</string>
+    <string name="header_collections_summary_static">مجموعه‌ای را باز کنید، سپس برای استفاده روی تصویری ضربه بزنید</string>
+    <string name="header_collections_empty">هیچ مجموعه سربرگی نصب نشده است</string>
+    <string name="header_images_daylight">در این مجموعه</string>
+    <plurals name="header_image_count">
+        <item quantity="one">%d تصویر</item>
+        <item quantity="other">%d تصویر</item>
+    </plurals>
+    <string name="header_photo_summary">هر عکس یا GIF متحرک از گالری شما</string>
+    <string name="header_height">ارتفاع</string>
+    <string name="header_height_value">ارتفاع · %1$d dp</string>
+    <string name="header_shadow">کم‌نور</string>
+    <string name="header_shadow_value">کم‌نور · %1$d%%</string>
+    <string name="header_failed">ذخیره تنظیم سربرگ انجام نشد</string>
+    <string name="remixer_weather_summary">سرویس آب‌وهوا و واحدها</string>
+    <string name="font_preview_notification">این گونه روی گوشی شما خوانده می‌شود.</string>
+    <string name="font_try_text">متن خودتان را امتحان کنید</string>
+    <string name="font_previewing">در حال پیش‌نمایش</string>
+    <string name="font_current">قلم فعلی</string>
+    <string name="font_badge_current">فعلی</string>
+    <string name="font_apply_done">اعمال شد</string>
+    <string name="font_filter_sans">بدون سریف</string>
+    <string name="font_filter_display">نمایش</string>
+    <string name="font_filter_script">دست‌نویس</string>
+    <string name="font_filter_mono">تک‌فاصله</string>
+    <string name="font_applied">قلم اعمال شد</string>
+    <string name="font_failed">اعمال آن قلم انجام نشد</string>
+    <string name="wallpaper_set">کاغذدیواری تنظیم شد</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">%d کاغذدیواری از Resurrected Remix. برای پیش‌نمایش یکی را لمس کنید.</item>
+        <item quantity="other">%d کاغذدیواری از Resurrected Remix. برای پیش‌نمایش یکی را لمس کنید.</item>
+    </plurals>
+    <string name="wallpaper_apply_both">هر دو</string>
+    <string name="wallpaper_failed">تنظیم آن کاغذدیواری انجام نشد</string>
+    <string name="missing_app">آن برنامه نصب نیست</string>
+    <string name="remixer_spoofing">جعل دستگاه</string>
+    <string name="remixer_spoofing_summary">Play Integrity، هویت دستگاه و جعل هویت برای هر برنامه</string>
+    <string name="remixer_settings_style">سبک تنظیمات</string>
+    <string name="rr_maintainer">نگهدارنده</string>
+    <string name="remixer_navbar_summary">طول، ضخامت و چیدمان Pill</string>
+    <string name="remixer_navbar_pill_length">طول Pill حرکات</string>
+    <string name="remixer_navbar_pill_thickness">ضخامت Pill حرکات</string>
+    <string name="remixer_navbar_pill_auto_hide">محو کردن Pill حرکات</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">پس از چند ثانیه Pill پنهان می‌شود؛ با لمس صفحه دوباره ظاهر می‌شود</string>
+    <string name="remixer_navbar_ime">دکمه‌های صفحه‌کلید</string>
+    <string name="remixer_navbar_ime_summary">نمایش دکمه‌های بازگشت و تغییر صفحه‌کلید زیر صفحه‌کلید</string>
+    <string name="remixer_navbar_layout">چیدمان دکمه‌ها</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>کوتاه</item>
+        <item>عادی</item>
+        <item>بلند</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>نازک‌ترین</item>
+        <item>نازک‌تر</item>
+        <item>نازک</item>
+        <item>عادی</item>
+        <item>ضخیم</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>عادی</item>
+        <item>فشرده</item>
+        <item>"متمایل به چپ"</item>
+        <item>"متمایل به راست"</item>
+    </string-array>
 </resources>

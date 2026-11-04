@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"ልጣፍ"</item>
+        <item>ታድሷል</item>
+        <item>Android One አረንጓዴ</item>
+        <item>Aospa አረንጓዴ</item>
+        <item>Coca Cola ቀይ</item>
+        <item>Discord ሐምራዊ</item>
+        <item>Facebook ሰማያዊ</item>
+        <item>Instagram ቼሪ</item>
+        <item>Jollibee ክሪምሰን</item>
+        <item>Monster Energy አረንጓዴ</item>
+        <item>Nextbit ሚንት</item>
+        <item>OnePlus ቀይ</item>
+        <item>Pepsi ሰማያዊ</item>
+        <item>Pixel ሰማያዊ</item>
+        <item>Pocophone ቢጫ</item>
+        <item>Razer አረንጓዴ</item>
+        <item>Samsung ሰማያዊ</item>
+        <item>Spotify አረንጓዴ</item>
+        <item>Starbucks አረንጓዴ</item>
+        <item>Twitch ሐምራዊ</item>
+        <item>Twitter ሰማያዊ</item>
+        <item>Xiaomi ብርቱካናማ</item>
+        <item>ዐምበር</item>
+        <item>"ጥቁር"</item>
+        <item>"ሰማያዊ"</item>
+        <item>ሰማያዊ ግራጫ</item>
+        <item>ቡናማ</item>
+        <item>"ሳያን"</item>
+        <item>ጥልቅ ብርቱካናማ</item>
+        <item>ጥልቅ ሐምራዊ</item>
+        <item>"አረንጓዴ"</item>
+        <item>"ግራጫ"</item>
+        <item>"ሐምራዊ"</item>
+        <item>ቀላል ሰማያዊ</item>
+        <item>ሎሚ</item>
+        <item>"ብርቱካናማ"</item>
+        <item>"ሮዝ"</item>
+        <item>"ሐምራዊ"</item>
+        <item>"ቀይ"</item>
+        <item>"ደማቅ አረንጓዴ-ሰማያዊ"</item>
+        <item>ተጠቃሚ አምስት</item>
+        <item>ተጠቃሚ አራት</item>
+        <item>ተጠቃሚ አንድ</item>
+        <item>ተጠቃሚ ሰባት</item>
+        <item>ተጠቃሚ ስድስት</item>
+        <item>ተጠቃሚ ሦስት</item>
+        <item>ተጠቃሚ ሁለት</item>
+        <item>"ነጭ"</item>
+        <item>"ቢጫ"</item>
+    </string-array>
+</resources>

@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Okuluhlaza okwesibhakabhaka"</string>
     <string name="haptic_remix_color_green">"Okuluhlaza okotshani"</string>
     <string name="haptic_remix_color_white">"Okumhlophe"</string>
+    <string name="haptic_remix_summary">Thepha izinkombandla zokudlidliza zamakholi, izinhlelo zokusebenza, ama-alamu nokuvulwa</string>
+    <string name="haptic_remix_record">Rekhoda</string>
+    <string name="haptic_remix_pad">thepha umdlandla</string>
+    <string name="haptic_remix_strength">Amandla</string>
+    <string name="haptic_remix_clear">Sula</string>
+    <string name="haptic_remix_play">Dlala</string>
+    <string name="haptic_remix_name">Igama lephethini</string>
+    <string name="haptic_remix_empty">Akukaqoshwa lutho</string>
+    <string name="haptic_remix_too_long">Iphethini ingaba ngamasekhondi angu-30</string>
+    <string name="haptic_remix_presets">Okusethiwe ngaphambilini</string>
+    <string name="haptic_remix_preset_neon">I-Neon</string>
+    <string name="haptic_remix_preset_glass">Iglasi</string>
+    <string name="haptic_remix_preset_ringtone">Ukushaya kwetoni yomsindo</string>
+    <string name="haptic_remix_listening">Kulalelwa itoni yomsindo…</string>
+    <string name="haptic_remix_no_ringtone">Itoni yomsindo ayikwazanga ukufundwa</string>
+    <string name="haptic_remix_patterns">Amaphethini akho</string>
+    <string name="haptic_remix_patterns_none">Londoloza iphethini kuqala. Bambelela ukuze uyisuse.</string>
+    <string name="haptic_remix_broken">Le phethini ayifundeki</string>
+    <string name="haptic_remix_delete">Susa <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Abela ku-</string>
+    <string name="haptic_remix_alarm">I-alamu nesibali-sikhathi</string>
+    <string name="haptic_remix_plug">Ixhunyiwe</string>
+    <string name="haptic_remix_fingerprint">Ukuthinta isigxivizo kuphumelele</string>
+    <string name="haptic_remix_add_contact">Engeza oxhumana naye</string>
+    <string name="haptic_remix_edge_color">Ukukhanya kwemiphetho ye-<xliff:g id="name" example="Mia">%1$s</xliff:g> yemilayezo</string>
+    <string name="haptic_remix_color_accent">Umbala oyinhloko</string>
+    <string name="haptic_remix_color_crimson">Okubomvu okujulile</string>
+    <string name="haptic_remix_color_amber">I-Amber</string>
+    <string name="haptic_remix_add_app">Engeza izaziso zohlelo lokusebenza</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · thepha ukushintsha, bamba ukuze uthole umbala wemiphetho</string>
+    <string name="haptic_remix_no_contacts">Akukho nombolo ebuyile ku-Oxhumana naye</string>
 </resources>

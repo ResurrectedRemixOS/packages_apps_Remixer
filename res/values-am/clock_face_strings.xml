@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"ነባሪ"</string>
     <string name="clock_faces_size">"መጠን"</string>
     <string name="clock_faces_restart">"ዳግም ጀምር"</string>
+    <string name="remixer_clock_faces">የሰዓት ቅርጾች</string>
+    <string name="clock_faces_system">የስርዓት ሰዓት</string>
+    <string name="clock_faces_system_desc">ከልጣፍ እና ዘይቤ የመጣ ሰዓት</string>
+    <string name="clock_faces_position">%1$d ከ %2$d</string>
+    <string name="clock_faces_applied">ተተግብሯል</string>
+    <string name="clock_faces_preview_unavailable">ቅድመ እይታ አይገኝም</string>
+    <string name="clock_faces_failed">ሰዓቱን መቀየር አልተቻለም</string>
+    <string name="clock_faces_color_accent">ማድመቂያ</string>
+    <string name="clock_faces_color_custom">ብጁ</string>
+    <string name="clock_faces_color_album">የአልበም ሥዕል</string>
+    <string name="clock_faces_color_gradient">ቅልመት</string>
+    <string name="clock_faces_own_colors">ይህ ቅርጽ የራሱ ቀለሞች አሉት።</string>
+    <string name="clock_faces_album_hint">ሙዚቃ ሲጫወት ቀለሙን ከአልበም ሥዕሉ ይወስዳል።</string>
+    <string name="clock_faces_size_position">መጠን እና ቦታ</string>
+    <string name="clock_faces_size_value">መጠን · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">ከላይ ያለው ርቀት</string>
+    <string name="clock_faces_top_value">ከላይ ያለው ርቀት · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">አግድም ቦታ</string>
+    <string name="clock_faces_horizontal_center">አግድም ቦታ · መሃል</string>
+    <string name="clock_faces_horizontal_right">አግድም ቦታ · <xliff:g id="dp" example="24">%1$d</xliff:g> dp ወደ ቀኝ</string>
+    <string name="clock_faces_horizontal_left">አግድም ቦታ · <xliff:g id="dp" example="24">%1$d</xliff:g> dp ወደ ግራ</string>
+    <string name="clock_faces_horizontal_fixed">ይህ ቅርጽ መሃል ላይ ይቀራል።</string>
+    <string name="clock_faces_opacity">ግልጽነት</string>
+    <string name="clock_faces_opacity_value">ግልጽነት · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">እንቅስቃሴ</string>
+    <string name="clock_faces_wobble">በመሙላት ወቅት መወዛወዝ</string>
+    <string name="clock_faces_wobble_summary">ሲሰኩ አንድ ጊዜ ይዘላል</string>
+    <string name="clock_faces_aod_anim">የሁልጊዜ ማሳያ ሽግግር</string>
+    <string name="clock_faces_aod_anim_summary">ሰዓቱን ወደ ሁልጊዜ ማሳያ ያጠፋና ይደበዝዛል</string>
+    <string name="clock_faces_restart_title">የማያ ገጽ ቁልፉን እንደገና ይጀምር?</string>
+    <string name="clock_faces_restart_message">በስርዓት ሰዓት እና በብጁ ቅርጾች መካከል መቀያየር SystemUIን እንደገና ያስጀምራል። ማያ ገጹ ለአንድ ሰከንድ ይጨልማል።</string>
+    <string name="clock_faces_note">ቅድመ እይታዎች የሚሳሉት በSystemUI በማያ ገጽ ቁልፍ ልጣፍዎ ላይ ነው። ቀለም፣ መጠን እና ቦታ ማያ ገጽ ቁልፉን ወዲያውኑ ይቀይራሉ።</string>
 </resources>

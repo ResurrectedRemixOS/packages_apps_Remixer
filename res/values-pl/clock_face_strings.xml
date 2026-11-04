@@ -7,4 +7,34 @@
     <string name="clock_faces_size_position">Rozmiar i pozycja</string>
     <string name="clock_faces_size">"Rozmiar"</string>
     <string name="clock_faces_restart">"Uruchom ponownie"</string>
+    <string name="remixer_clock_faces">Wygląd zegara</string>
+    <string name="clock_faces_system">Zegar systemowy</string>
+    <string name="clock_faces_system_desc">Zegar z Tapety i stylu</string>
+    <string name="clock_faces_position">%1$d z %2$d</string>
+    <string name="clock_faces_applied">Zastosowano</string>
+    <string name="clock_faces_preview_unavailable">Podgląd niedostępny</string>
+    <string name="clock_faces_failed">Nie udało się zmienić zegara</string>
+    <string name="clock_faces_color_accent">Akcent</string>
+    <string name="clock_faces_color_custom">Własny</string>
+    <string name="clock_faces_color_gradient">Gradient</string>
+    <string name="clock_faces_own_colors">Ten wygląd zachowuje własne kolory.</string>
+    <string name="clock_faces_album_hint">Pobiera kolor z okładki albumu podczas odtwarzania muzyki.</string>
+    <string name="clock_faces_size_value">Rozmiar · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Odległość od góry</string>
+    <string name="clock_faces_top_value">Odległość od góry · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Położenie w poziomie</string>
+    <string name="clock_faces_horizontal_center">Położenie w poziomie · Środek</string>
+    <string name="clock_faces_horizontal_right">Położenie w poziomie · <xliff:g id="dp" example="24">%1$d</xliff:g> dp w prawo</string>
+    <string name="clock_faces_horizontal_left">Położenie w poziomie · <xliff:g id="dp" example="24">%1$d</xliff:g> dp w lewo</string>
+    <string name="clock_faces_horizontal_fixed">Ten wygląd pozostaje na środku.</string>
+    <string name="clock_faces_opacity">Krycie</string>
+    <string name="clock_faces_opacity_value">Krycie · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Ruch</string>
+    <string name="clock_faces_wobble">Kołysanie podczas ładowania</string>
+    <string name="clock_faces_wobble_summary">Podskakuje raz po podłączeniu</string>
+    <string name="clock_faces_aod_anim">Przejście wyświetlacza zawsze włączonego</string>
+    <string name="clock_faces_aod_anim_summary">Zmniejsza i wygasza zegar na wyświetlaczu zawsze włączonym</string>
+    <string name="clock_faces_restart_title">Uruchomić ponownie ekran blokady?</string>
+    <string name="clock_faces_restart_message">Przełączanie między zegarem systemowym a własnymi wyglądami uruchamia ponownie SystemUI. Ekran na sekundę gaśnie.</string>
+    <string name="clock_faces_note">Podglądy rysuje SystemUI na tapecie ekranu blokady. Kolor, rozmiar i położenie zmieniają ekran blokady od razu.</string>
 </resources>

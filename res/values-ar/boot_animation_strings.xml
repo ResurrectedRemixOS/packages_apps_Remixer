@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="remixer_boot_animation">حركة الإقلاع</string>
+    <string name="boot_animation_note">يُشغَّل عند بدء تشغيل الهاتف التالي.</string>
+    <string name="boot_animation_custom">ملفك</string>
+    <string name="boot_animation_custom_pick">اختر ملفًا…</string>
+    <string name="boot_animation_custom_invalid">هذا الملف ليس رسوم متحركة للإقلاع</string>
+    <string name="boot_animation_failed">تعذّر تغيير رسوم الإقلاع المتحركة</string>
 </resources>

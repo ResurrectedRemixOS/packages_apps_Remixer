@@ -7,4 +7,34 @@
     <string name="clock_faces_size_position">サイズと位置</string>
     <string name="clock_faces_size">"サイズ"</string>
     <string name="clock_faces_restart">"再起動"</string>
+    <string name="remixer_clock_faces">時計のデザイン</string>
+    <string name="clock_faces_system">システム時計</string>
+    <string name="clock_faces_system_desc">「壁紙とスタイル」の時計</string>
+    <string name="clock_faces_position">%2$d 件中 %1$d 件目</string>
+    <string name="clock_faces_applied">適用済み</string>
+    <string name="clock_faces_preview_unavailable">プレビューを表示できません</string>
+    <string name="clock_faces_failed">時計を変更できませんでした</string>
+    <string name="clock_faces_color_accent">アクセント</string>
+    <string name="clock_faces_color_custom">カスタム</string>
+    <string name="clock_faces_color_gradient">グラデーション</string>
+    <string name="clock_faces_own_colors">このデザインは独自の色を使用します。</string>
+    <string name="clock_faces_album_hint">音楽の再生中はアルバムアートから色を取得します。</string>
+    <string name="clock_faces_size_value">サイズ · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">上端からの距離</string>
+    <string name="clock_faces_top_value">上端からの距離 · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">水平位置</string>
+    <string name="clock_faces_horizontal_center">水平位置 · 中央</string>
+    <string name="clock_faces_horizontal_right">水平位置 · 右に <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_left">水平位置 · 左に <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_fixed">このデザインは中央に固定されます。</string>
+    <string name="clock_faces_opacity">不透明度</string>
+    <string name="clock_faces_opacity_value">不透明度 · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">動き</string>
+    <string name="clock_faces_wobble">充電中にゆらゆら動く</string>
+    <string name="clock_faces_wobble_summary">電源を接続すると一度跳ねます</string>
+    <string name="clock_faces_aod_anim">常時表示ディスプレイへの切り替え</string>
+    <string name="clock_faces_aod_anim_summary">時計を縮小し、フェードアウトさせて常時表示ディスプレイに移行します</string>
+    <string name="clock_faces_restart_title">ロック画面を再起動しますか？</string>
+    <string name="clock_faces_restart_message">システム時計とカスタムデザインを切り替えると SystemUI が再起動し、画面が 1 秒間暗くなります。</string>
+    <string name="clock_faces_note">プレビューは、ロック画面の壁紙上に SystemUI で描画されます。色、サイズ、位置の変更はすぐにロック画面に反映されます。</string>
 </resources>

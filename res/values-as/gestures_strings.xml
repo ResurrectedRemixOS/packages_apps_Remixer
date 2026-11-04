@@ -7,4 +7,51 @@
         <item>"মধ্যমীয়া"</item>
         <item>"ডাঙৰ"</item>
     </string-array>
+    <string name="pie_title">পাই নিয়ন্ত্ৰণ</string>
+    <string name="pie_summary">edge-ৰ তলৰ অংশ ধৰি ধৰি ৰাখিলে শৰ্টকাটৰ পাই খোল খায়</string>
+    <string name="pie_edges">Edge-বোৰ</string>
+    <string name="pie_zone">edge-ৰ এটা অংশ</string>
+    <string name="pie_clock">ইয়াৰ ওপৰত ঘড়ী আৰু বেটাৰী</string>
+    <string name="pie_items">ভাগ</string>
+    <string-array name="pie_items_entries">
+        <item>"উভতি যাওক"</item>
+        <item>গৃহ</item>
+        <item>"শেহতীয়া"</item>
+        <item>"জাননী"</item>
+        <item>ফ্লেশলাইট</item>
+        <item>"স্ক্ৰীনশ্বট"</item>
+        <item>"পাৱাৰ মেনু"</item>
+        <item>সহায়ক</item>
+        <item>"কেমেৰা"</item>
+    </string-array>
+    <string name="pie_footer">ইয়াক এটা ক্ষণিক সময় নৰচি স্থিৰ ধৰি ৰাখিব লাগিব, যাতে edge-ৰ পৰা দ্ৰুত স্ৱাইপ কৰিলে এতিয়াও উভতি যায়। লক স্ক্ৰীনত ই নেখোলে।</string>
+    <string-array name="pie_edges_entries">
+        <item>"বাওঁ"</item>
+        <item>"সোঁ"</item>
+        <item>দুয়োটা</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>তলৰ তৃতীয়াংশ</item>
+        <item>মাজ</item>
+        <item>সম্পূৰ্ণ edge</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>নিঅ\'ন</item>
+        <item>গ্লাছ</item>
+        <item>ক্লাছিক</item>
+    </string-array>
+    <string name="sidebar_style_title">এপ ছাইডবাৰৰ ৰূপ</string>
+    <string-array name="sidebar_style_entries">
+        <item>ক্লাছিক</item>
+        <item>RR কাচ</item>
+        <item>নিঅ\'ন</item>
+    </string-array>
+    <string name="sidebar_settings_title">এপ ছাইডবাৰ</string>
+    <string name="sidebar_settings_summary">আপোনাৰ এপ আৰু সঁজুলিৰ বাবে হেণ্ডলৰ পৰা ভিতৰলৈ স্ৱাইপ কৰক</string>
+    <string name="sidebar_apps_title">এপ, হেণ্ডল আৰু ক্লিপবোৰ্ড</string>
+    <string name="sidebar_apps_summary">হেণ্ডল অন কৰক, এপ বাছক আৰু স্মাৰ্ট ক্লিপবোৰ্ড ছেট আপ কৰক</string>
+    <string name="sidebar_handle_size_title">হেণ্ডলৰ আকাৰ</string>
+    <string name="sidebar_tools_title">সঁজুলি শাৰী</string>
+    <string name="sidebar_tools_summary">আপোনাৰ এপৰ তলত স্ক্ৰীনশ্বট আৰু ফ্লেশলাইট</string>
+    <string name="sidebar_footer">হেণ্ডলটো আপোনাৰ উচ্চাৰণ ৰঙৰ এটা পাতল ৰেখা; edge-ৰ ওপৰেৰে টানি স্থান সলনি কৰক। ভঙ্গিমা নেভিগেশ্বন থাকিলে ই নিজৰ অংশতহে থাকে, আনখিনিত উভতি যোৱা কাম কৰে।</string>
 </resources>

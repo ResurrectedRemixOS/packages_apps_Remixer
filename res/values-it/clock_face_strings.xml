@@ -7,4 +7,34 @@
     <string name="clock_faces_size_position">Dimensioni e posizione</string>
     <string name="clock_faces_size">"Dimensioni"</string>
     <string name="clock_faces_restart">"Riavvia"</string>
+    <string name="remixer_clock_faces">Quadranti dell\'orologio</string>
+    <string name="clock_faces_system">Orologio di sistema</string>
+    <string name="clock_faces_system_desc">L\'orologio di Sfondo e stile</string>
+    <string name="clock_faces_position">%1$d di %2$d</string>
+    <string name="clock_faces_applied">Applicato</string>
+    <string name="clock_faces_preview_unavailable">Anteprima non disponibile</string>
+    <string name="clock_faces_failed">Impossibile modificare l\'orologio</string>
+    <string name="clock_faces_color_accent">Accento</string>
+    <string name="clock_faces_color_custom">Personalizzato</string>
+    <string name="clock_faces_color_gradient">Sfumatura</string>
+    <string name="clock_faces_own_colors">Questo quadrante mantiene i propri colori.</string>
+    <string name="clock_faces_album_hint">Prende il colore dalla copertina dell\'album durante la riproduzione.</string>
+    <string name="clock_faces_size_value">Dimensione · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Distanza dall\'alto</string>
+    <string name="clock_faces_top_value">Distanza dall\'alto · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Posizione orizzontale</string>
+    <string name="clock_faces_horizontal_center">Posizione orizzontale · Centro</string>
+    <string name="clock_faces_horizontal_right">Posizione orizzontale · <xliff:g id="dp" example="24">%1$d</xliff:g> dp a destra</string>
+    <string name="clock_faces_horizontal_left">Posizione orizzontale · <xliff:g id="dp" example="24">%1$d</xliff:g> dp a sinistra</string>
+    <string name="clock_faces_horizontal_fixed">Questo quadrante resta centrato.</string>
+    <string name="clock_faces_opacity">Opacità</string>
+    <string name="clock_faces_opacity_value">Opacità · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Movimento</string>
+    <string name="clock_faces_wobble">Oscillazione durante la ricarica</string>
+    <string name="clock_faces_wobble_summary">Rimbalza una volta quando colleghi il dispositivo</string>
+    <string name="clock_faces_aod_anim">Transizione dello schermo sempre attivo</string>
+    <string name="clock_faces_aod_anim_summary">Rimpicciolisce e sfuma l\'orologio nello schermo sempre attivo</string>
+    <string name="clock_faces_restart_title">Riavviare la schermata di blocco?</string>
+    <string name="clock_faces_restart_message">Passando dall\'orologio di sistema ai quadranti personalizzati, SystemUI viene riavviato. Lo schermo si spegne per un secondo.</string>
+    <string name="clock_faces_note">Le anteprime sono disegnate da SystemUI sullo sfondo della schermata di blocco. Colore, dimensione e posizione modificano subito la schermata di blocco.</string>
 </resources>

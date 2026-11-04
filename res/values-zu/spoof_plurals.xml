@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="ts_added_installed_count">
+        <item quantity="one">Kungezwe uhlelo lokusebenza olu-%d kwezinhloso</item>
+        <item quantity="other">Kungezwe izinhlelo zokusebenza ezingu-%d kwezinhloso</item>
+    </plurals>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">आपके हर मोड के लिए एक लुक</string>
+    <string name="remix_modes_everyday">रोज़ का लुक</string>
+    <string name="remix_modes_everyday_summary">कोई लुक वाला मोड चालू न होने पर वापस आ जाता है</string>
+    <string name="remix_modes_wallpaper">वॉलपेपर लुक के साथ बदलता है</string>
+    <string name="remix_modes_wallpaper_summary">मोड वॉलपेपर भी बदल सकता है</string>
+    <string name="remix_modes_modes">आपके मोड</string>
+    <string name="remix_modes_no_change">कोई बदलाव नहीं</string>
+    <string name="remix_modes_none">पहले थीम › लुक में एक लुक सेव करें</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g> के लिए लुक</string>
+</resources>

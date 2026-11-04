@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Batteria"</string>
     <string name="charge_report_temp">"Temperatura"</string>
     <string name="charge_report_time">"Ora"</string>
+    <string name="charge_report_title">Report di ricarica</string>
+    <string name="charge_report_summary">Un riepilogo di ogni ricarica quando lo scolleghi</string>
+    <string name="charge_report_min_title">Solo se ha aggiunto almeno</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 giorni</item>
+        <item>7 giorni</item>
+        <item>14 giorni</item>
+        <item>30 giorni</item>
+    </string-array>
+    <string name="charge_report_history_days">Ultimi <xliff:g id="days" example="7">%1$d</xliff:g> giorni</string>
+    <string name="charge_report_today">Oggi, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Ieri, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> h <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Watt</string>
+    <string name="charge_report_added">Aggiunti</string>
+    <string name="charge_report_peak">Picco</string>
+    <string name="charge_report_average">Media</string>
+    <string name="charge_report_max_temp">Temp. massima</string>
+    <string name="charge_report_charger">Caricatore</string>
+    <string name="charge_report_started">Iniziata alle</string>
+    <string name="charge_report_wired">Cablata</string>
+    <string name="charge_report_wireless">Wireless</string>
+    <string name="charge_report_dock">Dock</string>
+    <string name="charge_report_empty">Nessuna ricarica finora</string>
+    <string name="charge_report_footer">SystemUI legge corrente, tensione e temperatura della batteria ogni 30 secondi mentre è collegato. I watt sono quelli misurati dal telefono, quindi possono differire dal valore indicato sul caricatore. I report restano sul telefono; non vengono caricati da nessuna parte.</string>
 </resources>

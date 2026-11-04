@@ -8,4 +8,50 @@
         <item>"ปานกลาง"</item>
         <item>"ใหญ่"</item>
     </string-array>
+    <string name="pie_title">ตัวควบคุมแบบพาย</string>
+    <string name="pie_summary">กดค้างที่ส่วนล่างของขอบเพื่อเปิดเมนูทางลัดแบบพาย</string>
+    <string name="pie_zone">บางส่วนของขอบ</string>
+    <string name="pie_clock">นาฬิกาและแบตเตอรี่อยู่เหนือขอบ</string>
+    <string name="pie_items">ชิ้นส่วน</string>
+    <string-array name="pie_items_entries">
+        <item>"กลับ"</item>
+        <item>หน้าหลัก</item>
+        <item>"ล่าสุด"</item>
+        <item>"การแจ้งเตือน"</item>
+        <item>"ไฟฉาย"</item>
+        <item>"ภาพหน้าจอ"</item>
+        <item>"เมนูเปิด/ปิด"</item>
+        <item>ผู้ช่วย</item>
+        <item>"กล้อง"</item>
+    </string-array>
+    <string name="pie_footer">ต้องกดค้างไว้ประมาณหนึ่งในสี่วินาทีโดยไม่ขยับ การปัดเร็วจากขอบจึงยังย้อนกลับได้ ฟีเจอร์นี้จะไม่เปิดบนหน้าจอล็อก</string>
+    <string-array name="pie_edges_entries">
+        <item>"ซ้าย"</item>
+        <item>"ขวา"</item>
+        <item>ทั้งสอง</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>หนึ่งในสามส่วนล่าง</item>
+        <item>ตรงกลาง</item>
+        <item>ทั้งขอบ</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>นีออน</item>
+        <item>กระจกใส</item>
+        <item>คลาสสิก</item>
+    </string-array>
+    <string name="sidebar_style_title">รูปแบบแถบด้านข้างของแอป</string>
+    <string-array name="sidebar_style_entries">
+        <item>คลาสสิก</item>
+        <item>กระจก RR</item>
+        <item>นีออน</item>
+    </string-array>
+    <string name="sidebar_settings_title">แถบด้านข้างของแอป</string>
+    <string name="sidebar_settings_summary">ปัดจากที่จับเพื่อเปิดแอปและเครื่องมือของคุณ</string>
+    <string name="sidebar_apps_title">แอป ที่จับ และคลิปบอร์ด</string>
+    <string name="sidebar_apps_summary">เปิดที่จับ เลือกแอป และตั้งค่าคลิปบอร์ดอัจฉริยะ</string>
+    <string name="sidebar_handle_size_title">ขนาดที่จับ</string>
+    <string name="sidebar_tools_title">แถบเครื่องมือ</string>
+    <string name="sidebar_tools_summary">ภาพหน้าจอและไฟฉายอยู่ใต้แอปของคุณ</string>
+    <string name="sidebar_footer">ที่จับเป็นเส้นบางสีเน้นของคุณ ลากเพื่อย้ายไปตามขอบ เมื่อใช้ท่าทางนำทาง ที่จับจะครอบคลุมเฉพาะส่วนของตัวเองบนขอบ และการย้อนกลับจะใช้ได้ในที่อื่น</string>
 </resources>

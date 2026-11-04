@@ -7,4 +7,51 @@
         <item>"ମଧ୍ୟମ"</item>
         <item>"ବଡ଼"</item>
     </string-array>
+    <string name="pie_title">ପାଇ ନିୟନ୍ତ୍ରଣ</string>
+    <string name="pie_summary">ଧାରର ତଳ ଅଂଶକୁ କିଛି ସମୟ ଦବାଇ ସର୍ଟକଟ୍ ପାଇ ଖୋଲନ୍ତୁ</string>
+    <string name="pie_edges">ଧାର</string>
+    <string name="pie_zone">ଧାରର ଅଂଶ</string>
+    <string name="pie_clock">ଏହା ଉପରେ ଘଡ଼ି ଓ ବ୍ୟାଟେରୀ</string>
+    <string name="pie_items">ସ୍ଲାଇସ୍</string>
+    <string-array name="pie_items_entries">
+        <item>"ପଛକୁ ଫେରନ୍ତୁ"</item>
+        <item>ହୋମ</item>
+        <item>"ବର୍ତ୍ତମାନର"</item>
+        <item>"ବିଜ୍ଞପ୍ତି"</item>
+        <item>ଫ୍ଲାସଲାଇଟ୍</item>
+        <item>"ସ୍କ୍ରିନସଟ"</item>
+        <item>"ପାୱାର ମେନୁ"</item>
+        <item>ଆସିଷ୍ଟାଣ୍ଟ</item>
+        <item>"କେମେରା"</item>
+    </string-array>
+    <string name="pie_footer">ଏଥିପାଇଁ ଚତୁର୍ଥାଂଶ ସେକେଣ୍ଡ ନଡ଼ାଇ ବିନା ଦବାଇ ରଖିବାକୁ ପଡ଼େ, ତେଣୁ ଧାରରୁ ଦ୍ରୁତ ସ୍ୱାଇପ୍ ଏବେ ବି ପଛକୁ ନେଇଯାଏ। ଲକ ସ୍କ୍ରିନରେ ଏହା ଖୋଲେ ନାହିଁ।</string>
+    <string-array name="pie_edges_entries">
+        <item>"ବାମ"</item>
+        <item>"ଡାହାଣ"</item>
+        <item>ଉଭୟ</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>ତଳ ତୃତୀୟାଂଶ</item>
+        <item>ମଝି</item>
+        <item>ସମଗ୍ର ଧାର</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>ନିଅନ</item>
+        <item>ଗ୍ଲାସ</item>
+        <item>କ୍ଲାସିକ</item>
+    </string-array>
+    <string name="sidebar_style_title">ଆପ୍ ସାଇଡବାର ଲୁକ୍</string>
+    <string-array name="sidebar_style_entries">
+        <item>କ୍ଲାସିକ</item>
+        <item>RR ଗ୍ଲାସ</item>
+        <item>ନିଅନ</item>
+    </string-array>
+    <string name="sidebar_settings_title">ଆପ୍ ସାଇଡବାର</string>
+    <string name="sidebar_settings_summary">ଆପ୍ ଓ ଉପକରଣ ପାଇଁ ହ୍ୟାଣ୍ଡଲରୁ ଭିତରକୁ ସ୍ୱାଇପ୍ କରନ୍ତୁ</string>
+    <string name="sidebar_apps_title">ଆପ୍, ହ୍ୟାଣ୍ଡଲ ଓ କ୍ଲିପବୋର୍ଡ</string>
+    <string name="sidebar_apps_summary">ହ୍ୟାଣ୍ଡଲ ଚାଲୁ କରନ୍ତୁ, ଆପ୍ ବାଛନ୍ତୁ ଓ ସ୍ମାର୍ଟ କ୍ଲିପବୋର୍ଡ ସେଟ୍ କରନ୍ତୁ</string>
+    <string name="sidebar_handle_size_title">ହ୍ୟାଣ୍ଡଲ ଆକାର</string>
+    <string name="sidebar_tools_title">ଉପକରଣ ସାରି</string>
+    <string name="sidebar_tools_summary">ଆପ୍ ତଳେ ସ୍କ୍ରିନସଟ ଓ ଫ୍ଲାସଲାଇଟ୍</string>
+    <string name="sidebar_footer">ହ୍ୟାଣ୍ଡଲ ଆପଣଙ୍କ ଆକ୍ସେଣ୍ଟ ରଙ୍ଗର ପତଳା ରେଖା; ଏହାକୁ ଟାଣି ଧାର ଦେଇ ସରାନ୍ତୁ। ଅଙ୍ଗଭଙ୍ଗୀ ନାଭିଗେସନ୍ ସହିତ ଏହା କେବଳ ନିଜ ଅଂଶ ଢାଙ୍କେ, ଏବଂ ଅନ୍ୟ ସ୍ଥାନରେ ପଛକୁ ଯିବା କାମ କରେ।</string>
 </resources>

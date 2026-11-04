@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Device RKP қолдану</string>
+    <string name="ts_rkp_enabled_summary">Жасалған кілтсөзді қолдану. Кілтсөзді импорттау бұл опцияны өшіреді.</string>
+    <string name="ts_rkp_provision">Кілтсөз жасау</string>
+    <string name="ts_rkp_provision_summary">Осы құрылғының беру қызметі арқылы Google-дан кілтсөз сұраңыз. Үйлесімді Qualcomm микробағдарламасы қажет.</string>
+    <string name="ts_rkp_status">Беру күйі</string>
+    <string name="ts_rkp_owner_only">Device RKP-ды құрылғы иесінің профилінен басқарыңыз</string>
+    <string name="ts_rkp_unavailable">Device RKP қолжетімсіз</string>
+    <string name="ts_rkp_imported">Импортталған кілтсөз орнатылған кезде өшірілген</string>
+    <string name="ts_rkp_disabled">Өшірулі. Кілтсөзді пайдалану немесе жасау үшін Device RKP-ды қосыңыз.</string>
+    <string name="ts_rkp_idle">Кілтсөзді сұрауға дайын</string>
+    <string name="ts_rkp_fetching">Беру сұранысы алынуда…</string>
+    <string name="ts_rkp_hardware">Құрылғының беру қызметін күтуде…</string>
+    <string name="ts_rkp_signing">Google-дан сертификаттар сұралуда…</string>
+    <string name="ts_rkp_validating">Кілтсөз тексерілуде және сақталуда…</string>
+    <string name="ts_rkp_ready">Жасалған кілтсөз белсенді. %1$s дейін өз бетінше жаңартылады</string>
+    <string name="ts_rkp_keybox_stored">Device RKP кілтсөзі сақталды</string>
+    <string name="ts_rkp_expired">Жасалған кілтсөздің мерзімі аяқталған. Ауыстыруға арналған жаңасын жасаңыз.</string>
+    <string name="ts_rkp_hal_rejected">Микробағдарлама сұранысты қабылдамады (код %1$d). Duck V1 қолдау көрсетілмеуі мүмкін.</string>
+    <string name="ts_rkp_http_error">Беру сервері сұранысты қабылдамады (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Құрылғы үйлесімді V1 беру интерфейсін ашпайды</string>
+    <string name="ts_rkp_network_error">Беру серверіне қосылу мүмкін болмады. Интернет байланысын тексеріңіз.</string>
+    <string name="ts_rkp_submission_unknown">Сервер жауабы жоғалды. Сұраныс өңделген болуы мүмкін; автоматты түрде қайталанбады.</string>
+    <string name="ts_rkp_invalid_chain">Кілтсөз сертификаттары тексеруден өтпеді. Бұрынғы кілтсөз сақталды.</string>
+    <string name="ts_rkp_timeout">Беру күту уақыты аяқталды. Құрылғы қызметі әлі бос болмаса, қайта әрекет етер алдында құрылғыны қайта іске қосыңыз.</string>
+    <string name="ts_rkp_canceled">Кілтсөз бапталымы өзгергендіктен сұраныс тоқтатылды</string>
+    <string name="ts_rkp_save_failed">Жасалған кілтсөзді сақтау мүмкін болмады</string>
+    <string name="ts_rkp_action_failed">Кілтсөз әрекетін аяқтау мүмкін болмады</string>
+</resources>

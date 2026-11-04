@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Pemasa</string>
     <string name="quick_launch_undo">"Buat asal"</string>
     <string name="quick_launch_off">"Mati"</string>
+    <string name="quick_launch_title">Pelancaran pantas</string>
+    <string name="quick_launch_main">Pelancaran pantas cap jari</string>
+    <string name="quick_launch_main_summary">Kekalkan jari pada penderia selepas membuka kunci untuk membuka pintasan</string>
+    <string name="quick_launch_hint">Ketik pintasan untuk menukarnya, tahan untuk mengalih keluarnya, atau seret untuk menyusun semula.</string>
+    <string name="quick_launch_behavior">Kelakuan</string>
+    <string name="quick_launch_hold">Masa tahan</string>
+    <string name="quick_launch_haptics">Getar pada setiap pintasan</string>
+    <string name="quick_launch_add">Tambah</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">Imbas QR</string>
+    <string name="quick_launch_app">Aplikasi…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> dialih keluar</string>
 </resources>

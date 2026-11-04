@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Geräte-RKP verwenden</string>
+    <string name="ts_rkp_enabled_summary">Eine generierte Keybox verwenden. Das Importieren einer Keybox deaktiviert dies.</string>
+    <string name="ts_rkp_provision">Keybox generieren</string>
+    <string name="ts_rkp_provision_summary">Eine Keybox von Google über den Bereitstellungsdienst dieses Geräts anfordern. Erfordert kompatible Qualcomm-Firmware.</string>
+    <string name="ts_rkp_status">Bereitstellungsstatus</string>
+    <string name="ts_rkp_owner_only">Geräte-RKP im Profil des Geräteinhabers verwalten</string>
+    <string name="ts_rkp_unavailable">Geräte-RKP ist nicht verfügbar</string>
+    <string name="ts_rkp_imported">Deaktiviert, solange eine importierte Keybox installiert ist</string>
+    <string name="ts_rkp_disabled">Aus. Aktiviere Geräte-RKP, um eine Keybox zu verwenden oder zu generieren.</string>
+    <string name="ts_rkp_idle">Bereit, eine Keybox anzufordern</string>
+    <string name="ts_rkp_fetching">Bereitstellungs-Challenge wird abgerufen…</string>
+    <string name="ts_rkp_hardware">Warten auf den Bereitstellungsdienst des Geräts…</string>
+    <string name="ts_rkp_signing">Zertifikate werden von Google angefordert…</string>
+    <string name="ts_rkp_validating">Keybox wird validiert und gespeichert…</string>
+    <string name="ts_rkp_ready">Generierte Keybox aktiv. Verlängert sich selbstständig vor %1$s</string>
+    <string name="ts_rkp_keybox_stored">Geräte-RKP-Keybox gespeichert</string>
+    <string name="ts_rkp_expired">Generierte Keybox abgelaufen. Erzeuge eine Ersatz-Keybox.</string>
+    <string name="ts_rkp_hal_rejected">Firmware hat die Anfrage abgelehnt (Code %1$d). Duck V1 wird möglicherweise nicht unterstützt.</string>
+    <string name="ts_rkp_http_error">Bereitstellungsserver hat die Anfrage abgelehnt (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Das Gerät stellt keine kompatible V1-Bereitstellungsschnittstelle bereit</string>
+    <string name="ts_rkp_network_error">Bereitstellungsserver nicht erreichbar. Prüfe deine Verbindung.</string>
+    <string name="ts_rkp_submission_unknown">Die Serverantwort ging verloren. Die Anfrage wurde möglicherweise verarbeitet; es wurde kein automatischer Wiederholungsversuch unternommen.</string>
+    <string name="ts_rkp_invalid_chain">Keybox-Zertifikate haben die Validierung nicht bestanden. Die vorhandene Keybox wurde beibehalten.</string>
+    <string name="ts_rkp_timeout">Zeitüberschreitung bei der Bereitstellung. Falls der Gerätedienst noch ausgelastet ist, starte das Gerät neu, bevor du es erneut versuchst.</string>
+    <string name="ts_rkp_canceled">Anfrage abgebrochen, da sich die Keybox-Konfiguration geändert hat</string>
+    <string name="ts_rkp_save_failed">Generierte Keybox konnte nicht gespeichert werden</string>
+    <string name="ts_rkp_action_failed">Keybox-Vorgang konnte nicht abgeschlossen werden</string>
+</resources>

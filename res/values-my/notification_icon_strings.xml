@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="notification_icons_category">"သင်္ကေတများ"</string>
+    <string name="notification_app_icons_title">အက်ပ်အိုင်ကွန်များ</string>
+    <string name="notification_app_icons_summary">အကြောင်းကြားချက်များတွင် အက်ပ်၏ အိုင်ကွန်ကို သေးငယ်သော သင်္ကေတအစား ပြပါ</string>
 </resources>

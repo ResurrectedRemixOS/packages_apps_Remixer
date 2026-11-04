@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Tidtaker</string>
     <string name="quick_launch_undo">"Angre"</string>
     <string name="quick_launch_off">"Av"</string>
+    <string name="quick_launch_title">Hurtigstart</string>
+    <string name="quick_launch_main">Hurtigstart med fingeravtrykk</string>
+    <string name="quick_launch_main_summary">Hold fingeren på sensoren etter opplåsing for å åpne en snarvei</string>
+    <string name="quick_launch_hint">Trykk på en snarvei for å endre den, hold den inne for å fjerne den, eller dra for å endre rekkefølgen.</string>
+    <string name="quick_launch_behavior">Oppførsel</string>
+    <string name="quick_launch_hold">Holdetid</string>
+    <string name="quick_launch_haptics">Vibrer ved hver snarvei</string>
+    <string name="quick_launch_add">Legg til</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">Skann QR</string>
+    <string name="quick_launch_app">App …</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> fjernet</string>
 </resources>

@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">ຕອນໃດ</string>
+    <string name="nightstand_title">ໂໝດໂມງຫົວນອນ</string>
+    <string name="nightstand_summary">ໂມງປລຸກສີ່ຫຼ່ຽມສະຫວ່າງໜ້ອຍເທິງໜ້າຈໍເປີດຕະຫຼອດເມື່ອສາກແບັດຕອນກາງຄືນ</string>
+    <string-array name="nightstand_when_entries">
+        <item>"ປິດ"</item>
+        <item>ຢູ່ກັບເຄື່ອງສາກຕອນກາງຄືນ</item>
+        <item>ທຸກຄືນ ຕາມຕາຕະລາງ</item>
+        <item>ໃນຂະນະທີ່ໂໝດເວລານອນເປີດຢູ່</item>
+    </string-array>
+    <string name="nightstand_from">ເລີ່ມເວລາກາງຄືນ</string>
+    <string name="nightstand_to">ສິ້ນສຸດເວລາກາງຄືນ</string>
+    <string name="nightstand_brightness">ຂີດຈຳກັດຄວາມສະຫວ່າງ</string>
+    <string name="nightstand_brightness_summary">ຄວາມສະຫວ່າງສູງສຸດຂອງໜ້າຈໍເປີດຕະຫຼອດເມື່ອໂໝດໂມງຫົວນອນເປີດຢູ່</string>
+    <string name="nightstand_face">ໜ້າປັດໂມງ</string>
+    <string name="nightstand_face_keep">ໃຊ້ໜ້າປັດປັດຈຸບັນ</string>
+    <string name="nightstand_footer">ໂໝດໂມງຫົວນອນຈະເປີດໜ້າຈໍເປີດຕະຫຼອດໃນຂະນະທີ່ເຮັດວຽກ ແລະ ຈະຄືນຄ່າເດີມຫຼັງຈາກນັ້ນ. ມັນຈະສິ້ນສຸດເມື່ອຖອດເຄື່ອງສາກ, ໂມງປຸກດັງ ຫຼື ສິ້ນສຸດກາງຄືນ. ໜ້າປັດພຽງແຕ່ສະຫຼັບລະຫວ່າງສອງໜ້າປັດກຳນົດເອງ; ໂມງຂອງລະບົບຍັງຄົງເດີມ.</string>
 </resources>

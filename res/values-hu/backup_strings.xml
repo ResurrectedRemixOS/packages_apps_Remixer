@@ -13,4 +13,41 @@
     <string name="backup_group_other">"Egyéb"</string>
     <string name="backup_done">"Kész"</string>
     <string name="volume_style_title">Hangerőpanel stílusa</string>
+    <string name="backup_summary">Minden RR-testreszabás egyetlen fájlban</string>
+    <string name="backup_now">Biztonsági mentés most</string>
+    <string name="backup_never">Utolsó mentés: soha</string>
+    <string name="backup_last">Utolsó mentés: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Visszaállítás fájlból</string>
+    <string name="backup_restore_summary">Válasszon biztonsági mentési fájlt</string>
+    <string name="backup_included">Benne van</string>
+    <string name="backup_part_theme">Kiemelőszín, betűtípus és ikonok</string>
+    <string name="backup_part_header">Fejléc kép</string>
+    <string name="backup_part_photo">Fejléckép (saját fotó)</string>
+    <string name="backup_part_photo_summary">Nagyobbá teszi a fájlt</string>
+    <string name="backup_part_looks">Saját stílusok</string>
+    <string name="backup_weekly">Heti biztonsági mentés</string>
+    <string name="backup_weekly_summary">Kiválasztott mappába</string>
+    <string name="backup_weekly_on">Hetente ide: <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Biztonsági mentés felajánlása frissítés előtt</string>
+    <string name="backup_offer_summary">A frissítő a telepítés előtt kérdez</string>
+    <string name="backup_sets"><xliff:g id="count" example="64">%1$d</xliff:g> beállítást állít be</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> beállítás mentve</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> beállítás visszaállítva</string>
+    <string name="backup_restored_message">A SystemUI újraindul az alkalmazáshoz.</string>
+    <string name="backup_skipped">A(z) <xliff:g id="count" example="2">%1$d</xliff:g> beállítás nem létezik ezen a buildön, ezért kimaradt.</string>
+    <string name="backup_failed">A biztonsági mentés nem menthető</string>
+    <string name="backup_invalid">Ez a fájl nem Resurrected Remix biztonsági mentés</string>
+    <string name="backup_footer">A fájlba csak RR-beállítások kerülnek: nincsenek benne fiókok, jelszavak, Wi-Fi-hálózatok, alkalmazások vagy üzenetek. A visszaállítás csak az RR saját listáján szereplő beállításokat írja felül, így a fájl nem változtathat meg mást a telefonon. A fejléckép csak akkor kerül bele, ha a kapcsoló be van kapcsolva, mert nagyobbá teszi a fájlt.</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Üveg</item>
+        <item>Pirula</item>
+        <item>Klasszikus RR</item>
+        <item>Bento</item>
+        <item>Alakzatok</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Soft</item>
+    </string-array>
 </resources>

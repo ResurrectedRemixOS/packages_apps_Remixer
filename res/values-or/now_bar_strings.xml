@@ -11,4 +11,97 @@
     <string name="now_bar_buttons">"ବଟନ"</string>
     <string name="now_bar_text">"SMS"</string>
     <string name="now_bar_text_size">"ଟେକ୍ସଟ୍‌ ଆକାର"</string>
+    <string name="now_bar_summary">ଲକ ସ୍କ୍ରିନର ତଳେ ଲାଇଭ୍ ଆକ୍ଟିଭିଟି</string>
+    <string name="now_bar_show">ଦେଖାନ୍ତୁ</string>
+    <string name="now_bar_music">ସଙ୍ଗୀତ ଓ ଭିଡିଓ</string>
+    <string name="now_bar_timers">ଟାଇମର, ଷ୍ଟପୱାଚ ଓ ଆଲାରାମ</string>
+    <string name="now_bar_hide_call">କଲ ବିଜ୍ଞପ୍ତି ଲୁଚାନ୍ତୁ</string>
+    <string name="now_bar_hide_call_summary">ଲକ ସ୍କ୍ରିନରେ, Now Bar ରେ ଥିବା କଲ୍‌ ମଧ୍ୟ ବିଜ୍ଞପ୍ତି ଭାବେ ଦେଖାଯିବ ନାହିଁ</string>
+    <string name="now_bar_live">ଲାଇଭ୍ ଅପଡେଟ</string>
+    <string name="now_bar_live_summary">ନାଭିଗେସନ, ରାଇଡ, ଡେଲିଭରୀ, ସ୍କୋର</string>
+    <string name="now_bar_scores">ଲାଇଭ୍ ସ୍କୋର</string>
+    <string name="now_bar_live_apps">ଲାଇଭ ଅପଡେଟ ପାଇଁ ଆପ</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g>ଟି ଆପ</string>
+    <string name="now_bar_pin">ଆଲୱେଜ୍‍-ଅନ୍ ଡିସ୍‌ପ୍ଲେରେ ପିନ ହୋଇଛି</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> ପିନ କାଢ଼ିବେ?</string>
+    <string name="now_bar_unpin">ପିନ କାଢ଼ନ୍ତୁ</string>
+    <string name="now_bar_scores_summary">ଆଟ ଏ ଗ୍ଲାନ୍ସରେ ଅନୁସରଣ କରୁଥିବା ଖେଳ</string>
+    <string name="now_bar_recording">ସ୍କ୍ରିନ ଓ ଭଏସ ରେକର୍ଡିଂ</string>
+    <string name="now_bar_buds">ଇୟରବଡ ଓ ୱାଚ</string>
+    <string name="now_bar_buds_summary">ସଂଯୁକ୍ତ ଡିଭାଇସର ବ୍ୟାଟେରୀ: ଇୟରବଡ ପାଇଁ ବାମ, ଡାହାଣ ଓ କେସ</string>
+    <string name="now_bar_wave">ୱେଭ ଆନିମେସନ</string>
+    <string name="now_bar_aod">ଆଲୱେଜ୍‍-ଅନ୍ ଡିସ୍‌ପ୍ଲେରେ ଦେଖାନ୍ତୁ</string>
+    <string name="now_bar_chip">ଷ୍ଟାଟସ୍‍ ବାର୍‍ରେ ଚିପ</string>
+    <string name="now_bar_chip_summary">ଅନଲକ ଅବସ୍ଥାରେ ଘଡ଼ି ପାଖରେ ସଙ୍ଗୀତ ଓ ଟାଇମର ଦେଖାନ୍ତୁ</string>
+    <string name="now_bar_footer">Now Bar ରେ ସଙ୍ଗୀତ ଥିଲେ, ବଡ଼ ଲକ ସ୍କ୍ରିନ ପ୍ଲେୟାର ଲୁଚିଯାଏ। କାର୍ୟକଳାପ ବଦଳାଇବାକୁ ବାରକୁ ସ୍ୱାଇପ କରନ୍ତୁ, ନିୟନ୍ତ୍ରଣ ଖୋଲିବାକୁ ଟାପ କରନ୍ତୁ, ଏବଂ ଶେଷ ନହେବା ପର୍ଯ୍ୟନ୍ତ ଏକ କାର୍ୟକଳାପ ଲୁଚାଇବାକୁ ଲମ୍ବା ଚାପ ଦିଅନ୍ତୁ। ପଜ ହୋଇଥିବା ଗୀତକୁ ବାରରୁ ସ୍ୱାଇପ କରି ହଟାନ୍ତୁ।\n\nଲାଇଭ ସ୍କୋର ଦେଖାଏ ଯେ ଆପଣ ଅନୁସରଣ କରୁଥିବା ଦଳର ଖେଳ Google ଆପରେ ଅଛି। Smartspacer ସହିତ, ସେଠାରେ ଏକ ସ୍ପୋର୍ଟସ ଟାର୍ଗେଟ ଯୋଡନ୍ତୁ, ଏବଂ ଏହାର ସ୍କୋର ଏଠାରେ ଦେଖାଯିବ।</string>
+    <string name="now_bar_looks">ଲୁକ</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"ଡିଫଲ୍ଟ"</item>
+        <item>Liquid Glass</item>
+        <item>ମିନି</item>
+        <item>ବଡ଼</item>
+        <item>ନିଅନ</item>
+        <item>ଗ୍ଲାସ କାର୍ଡ</item>
+    </string-array>
+    <string name="now_bar_material">ମେଟେରିଆଲ</string>
+    <string name="now_bar_material_summary">Liquid Glass ଥିମରେ ଆପଣ ସେଟ କରିଥିବା ଗ୍ଲାସ ବ୍ୟବହାର କରେ</string>
+    <string-array name="now_bar_material_entries">
+        <item>ସଲିଡ୍</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>ଆଲବମ ଆର୍ଟ</item>
+        <item>ଆକ୍ସେଣ୍ଟ</item>
+        <item>ଡାର୍କ</item>
+    </string-array>
+    <string name="now_bar_opacity">ଅପାସିଟି</string>
+    <string name="now_bar_opacity_summary">Liquid Glass ରେ ଗ୍ଲାସକୁ କେତେ ରଙ୍ଗ ରଙ୍ଗୀନ କରିବ</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"କିଛି ନାହିଁ"</item>
+        <item>ପତଳା</item>
+        <item>ଆକ୍ସେଣ୍ଟ</item>
+    </string-array>
+    <string name="now_bar_shadow">ଛାଇ</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"ବନ୍ଦ ଅଛି"</item>
+        <item>ସଫ୍ଟ</item>
+        <item>ଗ୍ଲୋ</item>
+    </string-array>
+    <string name="now_bar_more">ଅଧିକ ଆକ୍ଟିଭିଟି</string>
+    <string-array name="now_bar_more_entries">
+        <item>କେବଳ ସ୍ୱାଇପ କରନ୍ତୁ</item>
+        <item>ଡଟ</item>
+        <item>ପଛରେ ଦେଖନ୍ତୁ</item>
+    </string-array>
+    <string name="now_bar_size">ଆକାର ଓ ଆକୃତି</string>
+    <string name="now_bar_height">ଉଚ୍ଚତା</string>
+    <string name="now_bar_width">ଚଉଡ଼ା</string>
+    <string name="now_bar_width_summary">Full ରେ ଶର୍ଟକଟ ଉପର ବାର୍‍କୁ ଚାଲିଯାଏ</string>
+    <string-array name="now_bar_width_entries">
+        <item>ସଂକୀର୍ଣ୍ଣ</item>
+        <item>ଶର୍ଟକଟ ମଝିରେ</item>
+        <item>ପୂର୍ଣ୍ଣ</item>
+    </string-array>
+    <string name="now_bar_corners">କୋଣ</string>
+    <string name="now_bar_raise">ଉଠାନ୍ତୁ</string>
+    <string name="now_bar_art">ଆଲବମ ଆର୍ଟ</string>
+    <string-array name="now_bar_art_entries">
+        <item>"ବୃତ୍ତ"</item>
+        <item>ଗୋଲାକାର</item>
+        <item>"ସ୍କୁଏର"</item>
+        <item>"ବନ୍ଦ ଅଛି"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>ଛାଡ଼ି ଚଳାନ୍ତୁ</item>
+        <item>କେବଳ ପ୍ଲେ</item>
+        <item>"କିଛି ନାହିଁ"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>ଗୋଟିଏ ଧାଡ଼ି</item>
+        <item>ଦୁଇ ଧାଡ଼ି</item>
+        <item>କେବଳ ଗୀତ</item>
+    </string-array>
+    <string name="now_bar_show_page">ବାର୍‍ରେ ଯାହା ଦେଖାଯିବ</string>
+    <string name="now_bar_show_page_summary">ସଙ୍ଗୀତ ଓ ଭିଡିଓ, ଟାଇମର, କଲ ଓ ଆହୁରି</string>
+    <string name="now_bar_where">ଆଉ କେଉଁଠି</string>
 </resources>

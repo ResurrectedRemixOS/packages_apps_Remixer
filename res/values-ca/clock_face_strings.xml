@@ -4,4 +4,37 @@
     <string name="clock_faces_color_default">"Predeterminat"</string>
     <string name="clock_faces_size">"Mida"</string>
     <string name="clock_faces_restart">"Reinicia"</string>
+    <string name="remixer_clock_faces">Estils de rellotge</string>
+    <string name="clock_faces_system">Rellotge del sistema</string>
+    <string name="clock_faces_system_desc">El rellotge de Fons de pantalla i estil</string>
+    <string name="clock_faces_position">%1$d de %2$d</string>
+    <string name="clock_faces_applied">Aplicat</string>
+    <string name="clock_faces_preview_unavailable">Vista prèvia no disponible</string>
+    <string name="clock_faces_failed">No s\'ha pogut canviar el rellotge</string>
+    <string name="clock_faces_color">Color</string>
+    <string name="clock_faces_color_accent">Accent</string>
+    <string name="clock_faces_color_custom">Personalitzat</string>
+    <string name="clock_faces_color_album">Caràtula de l\'àlbum</string>
+    <string name="clock_faces_color_gradient">Degradat</string>
+    <string name="clock_faces_own_colors">Aquest estil conserva els seus propis colors.</string>
+    <string name="clock_faces_album_hint">Pren el color de la caràtula de l\'àlbum mentre sona música.</string>
+    <string name="clock_faces_size_position">Mida i posició</string>
+    <string name="clock_faces_size_value">Mida · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Distància des de dalt</string>
+    <string name="clock_faces_top_value">Distància des de dalt · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Posició horitzontal</string>
+    <string name="clock_faces_horizontal_center">Posició horitzontal · Centre</string>
+    <string name="clock_faces_horizontal_right">Posició horitzontal · <xliff:g id="dp" example="24">%1$d</xliff:g> dp a la dreta</string>
+    <string name="clock_faces_horizontal_left">Posició horitzontal · <xliff:g id="dp" example="24">%1$d</xliff:g> dp a l\'esquerra</string>
+    <string name="clock_faces_horizontal_fixed">Aquest estil es manté centrat.</string>
+    <string name="clock_faces_opacity">Opacitat</string>
+    <string name="clock_faces_opacity_value">Opacitat · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Moviment</string>
+    <string name="clock_faces_wobble">Balanceig mentre carrega</string>
+    <string name="clock_faces_wobble_summary">Rebota una vegada quan connectis el carregador</string>
+    <string name="clock_faces_aod_anim">Transició de la pantalla sempre activa</string>
+    <string name="clock_faces_aod_anim_summary">Encongeix i esvaeix el rellotge a la pantalla sempre activa</string>
+    <string name="clock_faces_restart_title">Vols reiniciar la pantalla de bloqueig?</string>
+    <string name="clock_faces_restart_message">En canviar entre el rellotge del sistema i els estils personalitzats, SystemUI es reinicia. La pantalla s\'apaga durant un segon.</string>
+    <string name="clock_faces_note">SystemUI dibuixa les vista prèvies sobre el fons de pantalla de bloqueig. El color, la mida i la posició canvien la pantalla de bloqueig de seguida.</string>
 </resources>

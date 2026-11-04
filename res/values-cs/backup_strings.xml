@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Gesta</string>
     <string name="backup_group_other">"Jiné"</string>
     <string name="backup_done">"Hotovo"</string>
+    <string name="backup_summary">Všechna přizpůsobení RR v jednom souboru</string>
+    <string name="backup_now">Zálohovat nyní</string>
+    <string name="backup_never">Poslední záloha: nikdy</string>
+    <string name="backup_last">Poslední záloha: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Obnovit ze souboru</string>
+    <string name="backup_restore_summary">Vyber soubor se zálohou</string>
+    <string name="backup_included">Zahrnuto</string>
+    <string name="backup_part_theme">Akcent, písmo a ikony</string>
+    <string name="backup_part_header">Obrázek záhlaví</string>
+    <string name="backup_part_photo">Obrázek hlavičky (tvoje fotka)</string>
+    <string name="backup_part_photo_summary">Zvětší soubor</string>
+    <string name="backup_part_boot">Animace spouštění</string>
+    <string name="backup_part_looks">Vaše vzhledy</string>
+    <string name="backup_weekly">Týdenní záloha</string>
+    <string name="backup_weekly_summary">Do vybrané složky</string>
+    <string name="backup_weekly_on">Každý týden do <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Nabídnout zálohu před aktualizacemi</string>
+    <string name="backup_offer_summary">Aktualizátor se zeptá, než nainstaluje</string>
+    <string name="backup_sets">Nastaví <xliff:g id="count" example="64">%1$d</xliff:g> nastavení</string>
+    <string name="backup_saved">Uloženo <xliff:g id="count" example="64">%1$d</xliff:g> nastavení</string>
+    <string name="backup_restored">Obnoveno <xliff:g id="count" example="64">%1$d</xliff:g> nastavení</string>
+    <string name="backup_restored_message">SystemUI se restartuje, aby se změny projevily.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> nastavení na této verzi neexistuje a bylo přeskočeno.</string>
+    <string name="backup_failed">Zálohu se nepodařilo uložit</string>
+    <string name="backup_invalid">Tento soubor není zálohou Resurrected Remix</string>
+    <string name="backup_footer">Soubor obsahuje jen nastavení RR: žádné účty, hesla, Wi-Fi sítě, aplikace ani zprávy. Obnovení zapisuje pouze nastavení z seznamu RR, takže záloha nemůže změnit nic jiného v telefonu. Fotka hlavičky je zahrnuta jen pokud je přepínač zapnutý, protože zvětšuje soubor.</string>
+    <string name="volume_style_title">Styl panelu hlasitosti</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Sklo</item>
+        <item>Pilulka</item>
+        <item>Klasické RR</item>
+        <item>Bento</item>
+        <item>Tvary</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Měkký</item>
+    </string-array>
 </resources>

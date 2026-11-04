@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Sinkronizimi i zilës</string>
+    <string name="ring_sync_tap">Prek kur një rreth përputhet me shenjën</string>
+    <string name="ring_sync_best">Më e mirë <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">PERFEKT</string>
+    <string name="ring_sync_new_best">Rekordi i ri</string>
+    <string name="ring_sync_again">Prek për ta luajtur përsëri</string>
+    <string name="ring_sync_ember">Theksimi Ember u zhbllokua</string>
+    <string name="ring_sync_use_ember">Përdor Ember</string>
+    <string name="ring_sync_android">Vezë e Pashkëve e Android</string>
+    <string name="ring_sync_vibrate_on">Dridhje në goditje · Aktiv</string>
+    <string name="ring_sync_vibrate_off">Dridhje në goditje · Joaktiv</string>
+    <string name="accent_ember">Prush</string>
+</resources>

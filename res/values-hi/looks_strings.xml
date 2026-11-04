@@ -15,4 +15,61 @@
     <string name="looks_save_look">"सेव करें"</string>
     <string name="looks_custom_color">"पसंद के मुताबिक रंग"</string>
     <string name="looks_part_clock_color">"घड़ी का रंग"</string>
+    <string name="looks_title">लुक</string>
+    <string name="looks_summary">एक टैप में आपकी पूरी सेटअप</string>
+    <string name="looks_rr">RR लुक</string>
+    <string name="looks_yours">आपके लुक</string>
+    <string name="looks_none">अभी तक कुछ सहेजा नहीं गया</string>
+    <string name="looks_save">मौजूदा सहेजें</string>
+    <string name="looks_import_clipboard">क्लिपबोर्ड से</string>
+    <string name="looks_import_file">फ़ाइल से</string>
+    <string name="looks_mine">मेरा लुक</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> लागू हो गया</string>
+    <string name="looks_failed">पूरा लागू नहीं हो सका</string>
+    <string name="looks_invalid">यह RR लुक नहीं है</string>
+    <string name="looks_part_accent">एक्सेंट रंग</string>
+    <string name="looks_part_qs">QS स्टाइल</string>
+    <string name="looks_part_clock_face">लॉक स्क्रीन घड़ी का डिज़ाइन</string>
+    <string name="looks_part_clock_look">स्टेटस बार घड़ी</string>
+    <string name="looks_part_edge">एज लाइटिंग</string>
+    <string name="looks_part_boot">बूट एनिमेशन</string>
+    <string name="looks_part_haptics">Haptic Remix पैटर्न</string>
+    <plurals name="looks_haptic_patterns">
+        <item quantity="other">%d पैटर्न और उनकी असाइनमेंट</item>
+    </plurals>
+    <string name="looks_saturation">सैचुरेशन <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">एक्सेंट</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>” साझा करें</string>
+    <string name="looks_share_hint">किसी दूसरे RR फ़ोन के कैमरे से स्कैन करें, या लुक › आयात में जाएं</string>
+    <string name="looks_share_file">फ़ाइल साझा करें</string>
+    <string name="looks_save_file">फ़ाइल सहेजें</string>
+    <string name="looks_import_scan">QR कोड स्कैन करें</string>
+    <string name="looks_import_title">लुक आयात करें</string>
+    <string name="looks_from_qr">QR कोड से</string>
+    <string name="looks_from_file">फ़ाइल से</string>
+    <string name="looks_from_clipboard">क्लिपबोर्ड से</string>
+    <string name="looks_import_same">यह पहले से आपकी सेटअप से मेल खाता है।</string>
+    <plurals name="looks_import_changes">
+        <item quantity="one"><xliff:g id="count" example="4">%d</xliff:g> चीज़ बदलेगा:</item>
+        <item quantity="other"><xliff:g id="count" example="4">%d</xliff:g> चीज़ें बदलेगा:</item>
+    </plurals>
+    <string name="looks_new">नया लुक</string>
+    <string name="looks_edit_title">लुक संपादित करें</string>
+    <string name="looks_in_look">इस लुक में</string>
+    <string name="looks_not_included">इस लुक में नहीं</string>
+    <string name="looks_save_apply">सेव करें और लागू करें</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” सेव हो गया</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” हटाएं?</string>
+    <string name="looks_rr_wallpaper">RR वॉलपेपर <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">एक्सेंट संतृप्ति</string>
+    <string name="looks_part_clock_chip">स्टेटस बार घड़ी चिप</string>
+    <string name="looks_part_edge_style">किनारे की रोशनी की शैली</string>
+    <string name="looks_scan_hint">लुक का QR कोड कैमरे के सामने रखें</string>
+    <string name="looks_scan_failed">कैमरा नहीं खुल सका</string>
+    <string name="look_roulette_title">लुक रूलेट</string>
+    <string-array name="look_roulette_entries">
+        <item>"बंद है"</item>
+        <item>हर अनलॉक पर एक अलग लुक</item>
+        <item>हर दिन एक अलग लुक</item>
+    </string-array>
 </resources>

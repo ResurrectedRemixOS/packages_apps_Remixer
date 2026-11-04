@@ -4,4 +4,14 @@
     <string name="lockscreen_weather_location_title">"Vị trí"</string>
     <string name="lockscreen_weather_wind_title">Gió</string>
     <string name="lockscreen_weather_humidity_title">Độ ẩm</string>
+    <string name="lockscreen_weather_title">Thời tiết trên màn hình khóa</string>
+    <string name="lockscreen_weather_location_summary">Hiện tên thành phố</string>
+    <string name="lockscreen_weather_text_title">Tình trạng</string>
+    <string name="lockscreen_weather_text_summary">Hiện tình trạng, như Nhiều mây hoặc Trời quang</string>
+    <string name="lockscreen_weather_wind_summary">Hiện tốc độ và hướng gió</string>
+    <string name="lockscreen_weather_humidity_summary">Hiện độ ẩm</string>
+    <string name="custom_clock_weather_title">Thời tiết trên mặt đồng hồ</string>
+    <string name="custom_clock_weather_summary">Hiện thời tiết trong các mặt đồng hồ còn chỗ trống</string>
+    <string name="remixer_weather_service">Dịch vụ thời tiết</string>
+    <string name="remixer_weather_page_summary">Thời tiết màn hình khóa và nội dung hiển thị</string>
 </resources>

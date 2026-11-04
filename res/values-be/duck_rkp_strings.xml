@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Выкарыстоўваць RKP прылады</string>
+    <string name="ts_rkp_enabled_summary">Выкарыстоўваць згенераваны ключ-бокс. Імпарт ключ-бокса адключае гэта.</string>
+    <string name="ts_rkp_provision">Згенераваць ключ-бокс</string>
+    <string name="ts_rkp_provision_summary">Запытаць ключ-бокс у Google праз сэрвіс правізіі прылады. Патрабуецца сумяшчальная прашыўка Qualcomm.</string>
+    <string name="ts_rkp_status">Статус правізіі</string>
+    <string name="ts_rkp_owner_only">Кіраваць RKP прылады з профілю ўладальніка прылады</string>
+    <string name="ts_rkp_unavailable">RKP прылады недаступны</string>
+    <string name="ts_rkp_imported">Адключана, пакуль усталяваны імпартаваны ключ-бокс</string>
+    <string name="ts_rkp_disabled">Выключана. Уключыце RKP прылады, каб выкарыстоўваць або генераваць ключ-бокс.</string>
+    <string name="ts_rkp_idle">Гатова да запыту ключ-бокса</string>
+    <string name="ts_rkp_fetching">Атрыманне выкліку правізіі…</string>
+    <string name="ts_rkp_hardware">Чаканне сэрвісу правізіі прылады…</string>
+    <string name="ts_rkp_signing">Запыт сертыфікатаў у Google…</string>
+    <string name="ts_rkp_validating">Праверка і захаванне ключ-бокса…</string>
+    <string name="ts_rkp_ready">Згенераваны ключ-бокс актыўны. Абнаўляецца аўтаматычна да %1$s</string>
+    <string name="ts_rkp_keybox_stored">Ключ-бокс RKP прылады захаваны</string>
+    <string name="ts_rkp_expired">Тэрмін згенераванага ключ-бокса скончыўся. Згенеруйце замену.</string>
+    <string name="ts_rkp_hal_rejected">Прашыўка адхіліла запыт (код %1$d). Duck V1 можа не падтрымлівацца.</string>
+    <string name="ts_rkp_http_error">Сервер правізіі адхіліў запыт (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Прылада не прадастаўляе сумяшчальны інтэрфейс правізіі V1</string>
+    <string name="ts_rkp_network_error">Не ўдалося звязацца з серверам правізіі. Праверце злучэнне.</string>
+    <string name="ts_rkp_submission_unknown">Адказ сервера згубleны. Запыт мог быць апрацаваны; аўтаматычны паўтор не выконваўся.</string>
+    <string name="ts_rkp_invalid_chain">Ланцужкі сертыфікатаў ключ-бокса не прайшлі праверку. Існуючы ключ-бокс захаваны.</string>
+    <string name="ts_rkp_timeout">Час чакання правізіі вычарпаны. Калі сэрвіс прылады ўсё яшчэ заняты, перазапусціце прыладу і паспрабуйце зноў.</string>
+    <string name="ts_rkp_canceled">Запыт скасаваны, бо змянілася канфігурацыя ключ-боксa</string>
+    <string name="ts_rkp_save_failed">Не ўдалося захаваць згенераваны ключ-бокс</string>
+    <string name="ts_rkp_action_failed">Не ўдалося выканаць аперацыю з ключ-боксам</string>
+</resources>

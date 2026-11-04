@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="ts_added_installed_count">
+        <item quantity="one">Engadiuse %d aplicación aos destinos</item>
+        <item quantity="two">Engadironse %d aplicacións aos destinos</item>
+        <item quantity="few">Engadironse %d aplicacións aos destinos</item>
+        <item quantity="many">Engadironse %d aplicacións aos destinos</item>
+        <item quantity="other">Engadironse %d aplicacións aos destinos</item>
+    </plurals>
+</resources>

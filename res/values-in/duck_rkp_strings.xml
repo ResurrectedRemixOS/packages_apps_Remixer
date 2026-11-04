@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Gunakan RKP perangkat</string>
+    <string name="ts_rkp_enabled_summary">Gunakan keybox yang dibuat. Mengimpor keybox akan mematikan ini.</string>
+    <string name="ts_rkp_provision">Buat keybox</string>
+    <string name="ts_rkp_provision_summary">Minta keybox dari Google menggunakan layanan provisioning perangkat ini. Memerlukan firmware Qualcomm yang kompatibel.</string>
+    <string name="ts_rkp_status">Status provisioning</string>
+    <string name="ts_rkp_owner_only">Kelola RKP perangkat dari profil pemilik perangkat</string>
+    <string name="ts_rkp_unavailable">RKP perangkat tidak tersedia</string>
+    <string name="ts_rkp_imported">Dinonaktifkan selama keybox impor terpasang</string>
+    <string name="ts_rkp_disabled">Nonaktif. Aktifkan RKP perangkat untuk menggunakan atau membuat keybox.</string>
+    <string name="ts_rkp_idle">Siap meminta keybox</string>
+    <string name="ts_rkp_fetching">Mendapatkan tantangan provisioning…</string>
+    <string name="ts_rkp_hardware">Menunggu layanan provisioning perangkat…</string>
+    <string name="ts_rkp_signing">Meminta sertifikat dari Google…</string>
+    <string name="ts_rkp_validating">Memvalidasi dan menyimpan keybox…</string>
+    <string name="ts_rkp_ready">Keybox yang dibuat aktif. Diperbarui otomatis sebelum %1$s</string>
+    <string name="ts_rkp_keybox_stored">Keybox RKP perangkat tersimpan</string>
+    <string name="ts_rkp_expired">Keybox yang dibuat sudah kedaluwarsa. Buat pengganti.</string>
+    <string name="ts_rkp_hal_rejected">Firmware menolak permintaan (kode %1$d). Duck V1 mungkin tidak didukung.</string>
+    <string name="ts_rkp_http_error">Server provisioning menolak permintaan (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Perangkat tidak menyediakan antarmuka provisioning V1 yang kompatibel</string>
+    <string name="ts_rkp_network_error">Tidak dapat menjangkau server provisioning. Periksa koneksi Anda.</string>
+    <string name="ts_rkp_submission_unknown">Respons server hilang. Permintaan mungkin sudah diproses; tidak ada percobaan ulang otomatis.</string>
+    <string name="ts_rkp_invalid_chain">Validasi sertifikat keybox gagal. Keybox yang ada tetap disimpan.</string>
+    <string name="ts_rkp_timeout">Provisioning habis waktu. Jika layanan perangkat masih sibuk, mulai ulang perangkat sebelum mencoba lagi.</string>
+    <string name="ts_rkp_canceled">Permintaan dibatalkan karena konfigurasi keybox berubah</string>
+    <string name="ts_rkp_save_failed">Keybox yang dibuat tidak dapat disimpan</string>
+    <string name="ts_rkp_action_failed">Operasi keybox tidak dapat diselesaikan</string>
+</resources>

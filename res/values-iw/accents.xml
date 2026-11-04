@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"טפט"</item>
+        <item>Resurrected</item>
+        <item>Android One Green</item>
+        <item>Aospa Green</item>
+        <item>Coca Cola Red</item>
+        <item>Discord Purple</item>
+        <item>Facebook Blue</item>
+        <item>Instagram Cerise</item>
+        <item>Jollibee Crimson</item>
+        <item>Monster Energy Green</item>
+        <item>Nextbit Mint</item>
+        <item>Oneplus Red</item>
+        <item>Pepsi Blue</item>
+        <item>Pixel Blue</item>
+        <item>Pocophone Yellow</item>
+        <item>Razer Green</item>
+        <item>Samsung Blue</item>
+        <item>Spotify Green</item>
+        <item>Starbucks Green</item>
+        <item>Twitch Purple</item>
+        <item>Twitter Blue</item>
+        <item>Xiaomi Orange</item>
+        <item>ענבר</item>
+        <item>"שחור"</item>
+        <item>"כחול"</item>
+        <item>כחול-אפור</item>
+        <item>חום</item>
+        <item>"ציאן"</item>
+        <item>כתום עמוק</item>
+        <item>סגול עמוק</item>
+        <item>"ירוק"</item>
+        <item>"אפור"</item>
+        <item>"אינדיגו"</item>
+        <item>כחול בהיר</item>
+        <item>ליים</item>
+        <item>"כתום"</item>
+        <item>"ורוד"</item>
+        <item>"סגול"</item>
+        <item>"אדום"</item>
+        <item>"כחול-ירקרק"</item>
+        <item>משתמש חמישי</item>
+        <item>משתמש רביעי</item>
+        <item>משתמש ראשון</item>
+        <item>משתמש שביעי</item>
+        <item>משתמש שישי</item>
+        <item>משתמש שלישי</item>
+        <item>משתמש שני</item>
+        <item>"לבן"</item>
+        <item>"צהוב"</item>
+    </string-array>
+</resources>

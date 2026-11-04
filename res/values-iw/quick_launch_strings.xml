@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">טיימר</string>
     <string name="quick_launch_undo">"ביטול"</string>
     <string name="quick_launch_off">"כבוי"</string>
+    <string name="quick_launch_title">הפעלה מהירה</string>
+    <string name="quick_launch_main">הפעלה מהירה מטביעת אצבע</string>
+    <string name="quick_launch_main_summary">החזיקו את האצבע על החיישן אחרי הפתיחה כדי לפתוח קיצור</string>
+    <string name="quick_launch_hint">הקישו על קיצור כדי לשנות אותו, החזיקו כדי להסיר, או גררו כדי לסדר מחדש.</string>
+    <string name="quick_launch_behavior">התנהגות</string>
+    <string name="quick_launch_hold">זמן החזקה</string>
+    <string name="quick_launch_haptics">רטט בכל קיצור</string>
+    <string name="quick_launch_add">הוסף</string>
+    <string name="quick_launch_video">סרטון</string>
+    <string name="quick_launch_qr">סרוק QR</string>
+    <string name="quick_launch_app">אפליקציה…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> הוסר</string>
 </resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Koristi RKP uređaja</string>
+    <string name="ts_rkp_enabled_summary">Koristi generirani keybox. Uvoz keyboxa to isključuje.</string>
+    <string name="ts_rkp_provision">Generiraj keybox</string>
+    <string name="ts_rkp_provision_summary">Zatražite ključnu kutiju (keybox) od Googlea putem davatelja provizioniranja ovog uređaja. Zahtijeva kompatibilan Qualcomm firmware.</string>
+    <string name="ts_rkp_status">Status provizioniranja</string>
+    <string name="ts_rkp_owner_only">Upravljajte RKP-om uređaja iz profila vlasnika uređaja</string>
+    <string name="ts_rkp_unavailable">RKP uređaja nije dostupan</string>
+    <string name="ts_rkp_imported">Onemogućeno dok je uvezena ključna kutija instalirana</string>
+    <string name="ts_rkp_disabled">Isključeno. Omogućite RKP uređaja za korištenje ili generiranje ključne kutije.</string>
+    <string name="ts_rkp_idle">Spreman za zahtjev keyboxa</string>
+    <string name="ts_rkp_fetching">Dohvaćanje izazova za provizioniranje…</string>
+    <string name="ts_rkp_hardware">Čekanje na davatelja provizioniranja uređaja…</string>
+    <string name="ts_rkp_signing">Zahtjev za certifikatima od Googlea…</string>
+    <string name="ts_rkp_validating">Provjera valjanosti i spremanje ključne kutije…</string>
+    <string name="ts_rkp_ready">Generirana ključna kutija aktivna. Obnavlja se automatski prije %1$s</string>
+    <string name="ts_rkp_keybox_stored">RKP ključne kutije uređaja pohranjen</string>
+    <string name="ts_rkp_expired">Generirana ključna kutija je istekla. Generirajte zamjensku.</string>
+    <string name="ts_rkp_hal_rejected">Firmware je odbio zahtjev (kod %1$d). Duck V1 možda nije podržan.</string>
+    <string name="ts_rkp_http_error">Poslužitelj za provizioniranje odbio je zahtjev (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Uređaj ne nudi kompatibilno sučelje za provizioniranje V1</string>
+    <string name="ts_rkp_network_error">Nije moguće povezati se s poslužiteljem za provizioniranje. Provjerite vezu.</string>
+    <string name="ts_rkp_submission_unknown">Odgovor poslužitelja se izgubio. Zahtjev je možda obrađen; automatski ponovni pokušaj nije izvršen.</string>
+    <string name="ts_rkp_invalid_chain">Certifikati ključne kutije nisu prošli provjeru valjanosti. Postojeća ključna kutija je zadržana.</string>
+    <string name="ts_rkp_timeout">Isteklo je vrijeme za provizioniranje. Ako je usluga uređaja i dalje zauzeta, ponovno pokrenite uređaj pa pokušajte ponovno.</string>
+    <string name="ts_rkp_canceled">Zahtjev je otkazan jer se konfiguracija ključne kutije promijenila</string>
+    <string name="ts_rkp_save_failed">Generirana ključna kutija nije mogla biti spremljena</string>
+    <string name="ts_rkp_action_failed">Radnju s ključnom kutijom nije bilo moguće dovršiti</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Hình nền"</item>
+        <item>Resurrected</item>
+        <item>Android One Green</item>
+        <item>Aospa Green</item>
+        <item>Coca Cola Red</item>
+        <item>Discord Purple</item>
+        <item>Facebook Blue</item>
+        <item>Instagram Cerise</item>
+        <item>Jollibee Crimson</item>
+        <item>Monster Energy Green</item>
+        <item>Nextbit Mint</item>
+        <item>Oneplus Red</item>
+        <item>Pepsi Blue</item>
+        <item>Pixel Blue</item>
+        <item>Pocophone Yellow</item>
+        <item>Razer Green</item>
+        <item>Samsung Blue</item>
+        <item>Spotify Green</item>
+        <item>Starbucks Green</item>
+        <item>Twitch Purple</item>
+        <item>Twitter Blue</item>
+        <item>Xiaomi Orange</item>
+        <item>Hổ phách</item>
+        <item>"Đen"</item>
+        <item>"Lam"</item>
+        <item>Xám xanh</item>
+        <item>Nâu</item>
+        <item>"Lục lam"</item>
+        <item>Cam đậm</item>
+        <item>Tím đậm</item>
+        <item>"Xanh lục"</item>
+        <item>"Xám"</item>
+        <item>"Chàm"</item>
+        <item>Xanh nhạt</item>
+        <item>Chanh</item>
+        <item>"Cam"</item>
+        <item>"Hồng"</item>
+        <item>"Tía"</item>
+        <item>"Đỏ"</item>
+        <item>"Xanh mòng két"</item>
+        <item>Người dùng 5</item>
+        <item>Người dùng 4</item>
+        <item>Người dùng 1</item>
+        <item>Người dùng 7</item>
+        <item>Người dùng 6</item>
+        <item>Người dùng 3</item>
+        <item>Người dùng 2</item>
+        <item>"Trắng"</item>
+        <item>"Vàng"</item>
+    </string-array>
+</resources>

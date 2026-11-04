@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Sinhronizacija prstena</string>
+    <string name="ring_sync_tap">Dodirnite kada se prsten poklopi sa oznakom</string>
+    <string name="ring_sync_best">Najbolje <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">SAVRŠENO</string>
+    <string name="ring_sync_new_best">Novi rekord</string>
+    <string name="ring_sync_again">Dodirnite za ponovnu igru</string>
+    <string name="ring_sync_ember">Ember akcent otključan</string>
+    <string name="ring_sync_use_ember">Koristi Ember</string>
+    <string name="ring_sync_android">Android-ovo uskriveno jaje</string>
+    <string name="ring_sync_vibrate_on">Vibracija pri pogodcima · Uključeno</string>
+    <string name="ring_sync_vibrate_off">Vibracija pri pogodcima · Isključeno</string>
+    <string name="accent_ember">Žar</string>
+</resources>

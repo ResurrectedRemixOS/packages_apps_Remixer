@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Pozadinska slika"</item>
+        <item>Resurrected</item>
+        <item>Android One zelena</item>
+        <item>Aospa zelena</item>
+        <item>Coca Cola crvena</item>
+        <item>Discord ljubičasta</item>
+        <item>Facebook plava</item>
+        <item>Instagram trešnja</item>
+        <item>Jollibee grimizna</item>
+        <item>Monster Energy zelena</item>
+        <item>Nextbit mentol</item>
+        <item>OnePlus crvena</item>
+        <item>Pepsi plava</item>
+        <item>Pixel plava</item>
+        <item>Pocophone žuta</item>
+        <item>Razer zelena</item>
+        <item>Samsung plava</item>
+        <item>Spotify zelena</item>
+        <item>Starbucks zelena</item>
+        <item>Twitch ljubičasta</item>
+        <item>Twitter plava</item>
+        <item>Xiaomi narandžasta</item>
+        <item>Jantarna</item>
+        <item>"Crna"</item>
+        <item>"Plava"</item>
+        <item>Plavo siva</item>
+        <item>Smeđa</item>
+        <item>"Cijan"</item>
+        <item>Tamno narandžasta</item>
+        <item>Tamno ljubičasta</item>
+        <item>"Zelena"</item>
+        <item>"Siva"</item>
+        <item>Indigo</item>
+        <item>Svijetlo plava</item>
+        <item>Limeta</item>
+        <item>"Narandžasta"</item>
+        <item>"Ružičasta"</item>
+        <item>"Ljubičasta"</item>
+        <item>"Crvena"</item>
+        <item>"Tirkizna"</item>
+        <item>Korisnik pet</item>
+        <item>Korisnik četiri</item>
+        <item>Korisnik jedan</item>
+        <item>Korisnik sedam</item>
+        <item>Korisnik šest</item>
+        <item>Korisnik tri</item>
+        <item>Korisnik dva</item>
+        <item>"Bijela"</item>
+        <item>"Žuta"</item>
+    </string-array>
+</resources>

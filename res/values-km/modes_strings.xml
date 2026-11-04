@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Look សម្រាប់ Mode នីមួយៗរបស់អ្នក</string>
+    <string name="remix_modes_everyday">Look ប្រចាំថ្ងៃ</string>
+    <string name="remix_modes_everyday_summary">ត្រឡប់មកវិញនៅពេលគ្មាន Mode ណាដែលមាន Look បើក</string>
+    <string name="remix_modes_wallpaper">ផ្ទាំងរូបភាពធ្វើតាម Look</string>
+    <string name="remix_modes_wallpaper_summary">Mode អាចផ្លាស់ប្តូរផ្ទាំងរូបភាពផងដែរ</string>
+    <string name="remix_modes_modes">Mode របស់អ្នក</string>
+    <string name="remix_modes_no_change">គ្មានការផ្លាស់ប្តូរ</string>
+    <string name="remix_modes_none">សូមរក្សាទុក Look ជាមុនសិន នៅក្នុង ទម្រង់រចនា › Looks</string>
+    <string name="remix_modes_pick">Look សម្រាប់ <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

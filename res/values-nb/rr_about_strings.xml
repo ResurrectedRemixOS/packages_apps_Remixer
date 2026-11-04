@@ -10,4 +10,24 @@
     <string name="rr_about_this_phone">"Denne telefonen"</string>
     <string name="rr_about_network">"Nettverk"</string>
     <string name="rr_about_hidden">Skjult</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Offisiell</string>
+    <string name="rr_about_unofficial">Uoffisiell</string>
+    <string name="rr_about_vanilla">Vanilla</string>
+    <string name="rr_about_hardware">Maskinvare</string>
+    <string name="rr_about_processor">Prosessor</string>
+    <string name="rr_about_processor_sub">%1$d kjerner · opptil %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d kjerner</string>
+    <string name="rr_about_storage_used">%1$s brukt</string>
+    <string name="rr_about_display">Skjerm</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · lader</string>
+    <string name="rr_about_kernel_linux">Linux-kjerne</string>
+    <string name="rr_about_software_purpose">Android-versjon, sikkerhetsoppdatering, byggdato og byggnummer</string>
+    <string name="rr_about_security_patch">Sikkerhetsoppdatering</string>
+    <string name="rr_about_build_date">Byggdato</string>
+    <string name="rr_about_maintainer">Vedlikeholder</string>
+    <string name="rr_about_show">Vis</string>
+    <string name="rr_about_hide">Skjul</string>
 </resources>

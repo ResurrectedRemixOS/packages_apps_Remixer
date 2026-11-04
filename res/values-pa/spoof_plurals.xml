@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="ts_added_installed_count">
+        <item quantity="one">%d ਐਪ ਟਾਰਗੇਟਾਂ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤੀ ਗਈ</item>
+        <item quantity="other">%d ਐਪਾਂ ਟਾਰਗੇਟਾਂ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤੀਆਂ ਗਈਆਂ</item>
+    </plurals>
+</resources>

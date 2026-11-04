@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">"ඉංගිත"</string>
     <string name="backup_group_other">"වෙනත්"</string>
     <string name="backup_done">"නිමයි"</string>
+    <string name="backup_summary">RR අභිරුචිකරණ සියල්ල එක ගොනුවක</string>
+    <string name="backup_now">දැන් උපස්ථ කරන්න</string>
+    <string name="backup_never">අවසන් උපස්ථය: කිසිදා නැත</string>
+    <string name="backup_last">අවසන් උපස්ථය: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">ගොනුවකින් ප්‍රතිස්ථාපනය කරන්න</string>
+    <string name="backup_restore_summary">උපස්ථ ගොනුවක් තෝරන්න</string>
+    <string name="backup_included">ඇතුළත් වේ</string>
+    <string name="backup_part_theme">උච්චාරණ වර්ණය, අකුර සහ නිරූපක</string>
+    <string name="backup_part_header">ශීර්ෂ රූපය</string>
+    <string name="backup_part_photo">ශීර්ෂ රූපය (ඔබේ ඡායාරූපය)</string>
+    <string name="backup_part_photo_summary">ගොනුව විශාල කරයි</string>
+    <string name="backup_part_boot">ආරම්භක සජීවිකරණය</string>
+    <string name="backup_part_looks">ඔබේ පෙනුම්</string>
+    <string name="backup_weekly">සති පතා උපස්ථය</string>
+    <string name="backup_weekly_summary">ඔබ තෝරන ෆෝල්ඩරයකට</string>
+    <string name="backup_weekly_on">සෑම සතියකම <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g> වෙත</string>
+    <string name="backup_offer">යාවත්කාලීන කිරීමට පෙර උපස්ථයක් ඉල්ලන්න</string>
+    <string name="backup_offer_summary">යාවත්කාලීනකරු ස්ථාපනය කිරීමට පෙර අසයි</string>
+    <string name="backup_sets">සැකසුම් <xliff:g id="count" example="64">%1$d</xliff:g> ක් සකසයි</string>
+    <string name="backup_saved">සැකසුම් <xliff:g id="count" example="64">%1$d</xliff:g> ක් සුරකින ලදී</string>
+    <string name="backup_restored">සැකසුම් <xliff:g id="count" example="64">%1$d</xliff:g> ක් ප්‍රතිස්ථාපනය කරන ලදී</string>
+    <string name="backup_restored_message">ඒවා යෙදීමට SystemUI නැවත ආරම්භ වේ.</string>
+    <string name="backup_skipped">මෙම ගොඩනැගීමේ සැකසුම් <xliff:g id="count" example="2">%1$d</xliff:g> නොපවතින බැවින් මඟ හරින ලදී.</string>
+    <string name="backup_failed">උපස්ථය සුරැකිය නොහැකි විය</string>
+    <string name="backup_invalid">එය Resurrected Remix උපස්ථ ගොනුවක් නොවේ</string>
+    <string name="backup_footer">පසුබිම් ගොනුවේ RR සැකසීම් පමණක් ඇතුළත් වේ: ගිණුම්, මුරපද, Wi-Fi ජාල, යෙදුම් හෝ පණිවිඩ නැත. ප්‍රතිසාධනය කරන්නේ RR හි තමන්ගේම ලැයිස්තුවේ ඇති සැකසීම් පමණක් වන බැවින්, උපස්ථ ගොනුවකට දුරකථනයේ වෙනත් කිසිවක් වෙනස් කළ නොහැක. ගොනුව විශාල වීම නිසා, ඔබේ ශීර්ෂ පින්තූරය ඇතුළත් වන්නේ එහි ස්විචය ක්‍රියාත්මක නම් පමණි.</string>
+    <string name="volume_style_title">හඬ පැනලයේ ශෛලිය</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>නියොන්</item>
+        <item>වීදුරු</item>
+        <item>පිල්ල</item>
+        <item>සාම්ප්‍රදායික RR</item>
+        <item>Bento</item>
+        <item>හැඩ</item>
+        <item>ප්ලූප්‍රින්ට්</item>
+        <item>ද්විත්ව</item>
+        <item>මෘදු</item>
+    </string-array>
 </resources>

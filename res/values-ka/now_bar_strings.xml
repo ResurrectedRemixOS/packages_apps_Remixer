@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"ღილაკები"</string>
     <string name="now_bar_text">ტექსტი</string>
     <string name="now_bar_text_size">"ტექსტის ზომა"</string>
+    <string name="now_bar_summary">ცოცხალი აქტივობები ჩაკეტილი ეკრანის ქვედა ნაწილში</string>
+    <string name="now_bar_show">ჩვენება</string>
+    <string name="now_bar_music">მუსიკა და ვიდეო</string>
+    <string name="now_bar_timers">ტაიმერები, წამზომი და მაფრთხილებლები</string>
+    <string name="now_bar_hide_call">ზარის შეტყობინების დამალვა</string>
+    <string name="now_bar_hide_call_summary">ჩაკეტილ ეკრანზე ზარი, რომელიც ხდება Now Bar-ში, შეტყობინებად აღარ ჩანს</string>
+    <string name="now_bar_live">ცოცხალი განახლებები</string>
+    <string name="now_bar_live_summary">ნავიგაცია, მგზავრობა, მიწოდება, ანგარიშები</string>
+    <string name="now_bar_scores">ცოცხალი ანგარიშები</string>
+    <string name="now_bar_live_apps">ცოცხალი განახლებების აპები</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> აპი</string>
+    <string name="now_bar_pin">ჩამაგრებული მუდმივ ეკრანზე</string>
+    <string name="now_bar_unpin_question">მოიხსნას <xliff:g id="app" example="Uber">%1$s</xliff:g> ჩამაგრება?</string>
+    <string name="now_bar_unpin">ჩამაგრების მოხსნა</string>
+    <string name="now_bar_scores_summary">At a Glance-ში გამოწერილი თამაშები</string>
+    <string name="now_bar_recording">ეკრანისა და ხმის ჩაწერა</string>
+    <string name="now_bar_buds">ყურსასმენები და საათები</string>
+    <string name="now_bar_buds_summary">დაკავშირებული მოწყობილობის ბატარეა: მარცხენა, მარჯვენა და ყუთი ყურსასმენებისთვის</string>
+    <string name="now_bar_wave">ტალღის ანიმაცია</string>
+    <string name="now_bar_aod">მუდმივ ეკრანზე ჩვენება</string>
+    <string name="now_bar_chip">ჩიპი სტატუსის ზოლში</string>
+    <string name="now_bar_chip_summary">მუსიკისა და ტაიმერების ჩვენება საათის გვერდით განბლოკილ მდგომარეობაში</string>
+    <string name="now_bar_footer">როცა Now Bar-ში მუსიკაა, ჩაკეტილი ეკრანის დიდი პლეერი იმალება. აქტივობების გადასართავად გადაასრიალეთ ზოლი, მართვისთვის შეეხეთ, ერთი აქტივობის დასამალად კი დიდხანს დააჭირეთ, სანამ არ დამთავრდება. დაპაუზებული სიმღერა ზოლიდან გადაასრიალეთ, რომ მოიხსნას.\n\nცოცხალი ანგარიშები აჩვენებს თქვენ მიერ გამოწერილი გუნდების თამაშებს Google აპში. Smartspacer-ით იქ სპორტული სამიზნე დაამატეთ და ანგარიშები აქ გამოჩნდება.</string>
+    <string name="now_bar_looks">ლუქები</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"ნაგულისხმევი"</item>
+        <item>Liquid Glass</item>
+        <item>მინი</item>
+        <item>დიდი</item>
+        <item>ნეონი</item>
+        <item>მინის ბარათი</item>
+    </string-array>
+    <string name="now_bar_material">მასალა</string>
+    <string name="now_bar_material_summary">Liquid Glass იყენებს თემაში არჩეულ მინას</string>
+    <string-array name="now_bar_material_entries">
+        <item>მყარი</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>ალბომის ყდა</item>
+        <item>აქცენტი</item>
+        <item>მუქი</item>
+    </string-array>
+    <string name="now_bar_opacity">გამჭვირვალობა</string>
+    <string name="now_bar_opacity_summary">Liquid Glass-ში, რამდენად შეღებავს მინას ფერი</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"არცერთი"</item>
+        <item>თხელი</item>
+        <item>აქცენტი</item>
+    </string-array>
+    <string name="now_bar_shadow">ჩრდილი</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"გამორთული"</item>
+        <item>რბილი</item>
+        <item>ბზინვარება</item>
+    </string-array>
+    <string name="now_bar_more">მეტი აქტივობა</string>
+    <string-array name="now_bar_more_entries">
+        <item>უბრალოდ გადაასრიალეთ</item>
+        <item>წერტილები</item>
+        <item>უკან ამოხედვა</item>
+    </string-array>
+    <string name="now_bar_size">ზომა და ფორმა</string>
+    <string name="now_bar_height">სიმაღლე</string>
+    <string name="now_bar_width_summary">Full მალსახმობებს ზოლის ზემოთ გადაიტანს</string>
+    <string-array name="now_bar_width_entries">
+        <item>ვიწრო</item>
+        <item>მალსახმობებს შორის</item>
+        <item>სრული</item>
+    </string-array>
+    <string name="now_bar_corners">კუთხეები</string>
+    <string name="now_bar_raise">ამაღლებული</string>
+    <string name="now_bar_art">ალბომის ყდა</string>
+    <string-array name="now_bar_art_entries">
+        <item>"წრე"</item>
+        <item>მომრგვალებული</item>
+        <item>"კვადრატი"</item>
+        <item>"გამორთული"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>გამოტოვება და დაკვრა</item>
+        <item>მხოლოდ დაკვრა</item>
+        <item>"არცერთი"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>ერთი ხაზი</item>
+        <item>ორი ხაზი</item>
+        <item>მხოლოდ სიმღერა</item>
+    </string-array>
+    <string name="now_bar_show_page">რა გამოჩნდეს ზოლში</string>
+    <string name="now_bar_show_page_summary">მუსიკა და ვიდეო, ტაიმერები, ზარები და სხვა</string>
+    <string name="now_bar_where">სხვა ადგილები</string>
 </resources>

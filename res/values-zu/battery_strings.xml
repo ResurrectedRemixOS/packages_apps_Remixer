@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Ibhethri"</string>
     <string name="battery_style_title">"Isitayela"</string>
+    <string-array name="battery_style_entries">
+        <item>Okuthi-ma</item>
+        <item>"Indingiliza"</item>
+        <item>Isiyingi esinamachashaza</item>
+        <item>Indandatho ye-Neon</item>
+        <item>Ipilisi emincane</item>
+        <item>Iphesenti elikhulu</item>
+        <item>"Umbhalo"</item>
+    </string-array>
+    <string name="battery_percent_title">Iphesenti</string>
+    <string-array name="battery_percent_entries">
+        <item>"Okufihliwe"</item>
+        <item>Ngaphakathi kwesithonjana</item>
+        <item>Eduze kwayo</item>
+    </string-array>
+    <string name="battery_ring_color_title">Umbala wendandatho ye-Neon</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Ngokuzinga kuwumbala wokugqamisa phezulu kuka-20%%, obomvu ngaphansi nowolintshi esigcinini sebhethri.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Ngezinga</item>
+        <item>Umbala oyinhloko</item>
+        <item>"Okumhlophe"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Ukukhanya kokushaja</string>
+    <string name="battery_ring_tile_title">Indandatho efanayo kuthayela lamasethingi asheshayo</string>
+    <string name="battery_ring_tile_summary">Nezinga nesikhathi sokuvulwa kwesikrini</string>
 </resources>

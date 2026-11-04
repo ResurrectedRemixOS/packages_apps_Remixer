@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Akku"</string>
     <string name="battery_style_title">"Tyyli"</string>
+    <string-array name="battery_style_entries">
+        <item>Pystysuunta</item>
+        <item>"Piiri"</item>
+        <item>Pisteympyrä</item>
+        <item>Neonrengas</item>
+        <item>Slim pill → Ohut pilleri</item>
+        <item>Suuri prosenttiluku</item>
+        <item>"Tekstiviesti"</item>
+    </string-array>
+    <string name="battery_percent_title">Prosenttiluku</string>
+    <string-array name="battery_percent_entries">
+        <item>Piilotettu</item>
+        <item>Kuvakkeen sisällä</item>
+        <item>Sen vieressä</item>
+    </string-array>
+    <string name="battery_ring_color_title">Neonrenkaan väri</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Tason mukaan korostusväri on yli 20 %%:lla, punainen sen alla ja meripihkan värinen virransäästötilassa.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Tason mukaan</item>
+        <item>Korostusväri</item>
+        <item>"Valkoinen"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Hehku latauksen aikana</string>
+    <string name="battery_ring_tile_title">Sama rengas pika-asetusten laatassa</string>
+    <string name="battery_ring_tile_summary">Tason ja näytön päälläoloajan kanssa</string>
 </resources>

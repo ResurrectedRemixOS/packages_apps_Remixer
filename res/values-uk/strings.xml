@@ -92,4 +92,194 @@
     <string name="remixer_settings_style">Стиль налаштувань</string>
     <string name="remixer_settings_style_original">"Оригінал"</string>
     <string name="remixer_navbar_category">"Панель навігації"</string>
+    <string name="remixer_dashboard_summary">Статус-бар, тема, заблокований екран та інше</string>
+    <string name="rr_homepage_battery_saver">Режим економії заряду</string>
+    <string name="rr_homepage_personalize">Персоналізація</string>
+    <string name="rr_homepage_free">Вільно: <xliff:g id="size" example="194 GB">%1$s</xliff:g></string>
+    <string name="rr_homepage_charged">Повністю заряджено</string>
+    <string name="rr_homepage_on_battery">Працює від акумулятора</string>
+    <string name="rr_homepage_saver_on">Економія заряду увімкнено</string>
+    <string name="rr_homepage_extras">Додаткові налаштування</string>
+    <string name="rr_homepage_saver">Економія</string>
+    <string name="rr_homepage_signed_out">Не ввійшли в обліковий запис</string>
+    <string name="rr_homepage_remixer_tagline">Зробіть це своїм. Статус-бар, тема, заблокований екран та інше.</string>
+    <string name="rr_homepage_device_tagline">Перемикач сповіщень, дисплей, зарядка й GameBar.</string>
+    <string name="rr_homepage_device_action">Налаштуйте</string>
+    <string name="rr_group_network">Мережа та пристрої</string>
+    <string name="rr_group_network_summary">Wi‑Fi, мобільна мережа, Bluetooth</string>
+    <string name="rr_group_apps_summary">Застосунки, сповіщення, режими</string>
+    <string name="rr_group_display">Дисплей і звук</string>
+    <string name="rr_group_display_summary">Дисплей, фоновий малюнок, звук</string>
+    <string name="rr_group_security_summary">Блокування, місцезнаходження, екстрені виклики</string>
+    <string name="rr_group_security_center">Центр безпеки</string>
+    <string name="rr_group_accounts">Google і облікові записи</string>
+    <string name="rr_group_accounts_summary">Google, паролі, резервне копіювання</string>
+    <string name="rr_group_accounts_plain_summary">Паролі, облікові записи, резервне копіювання</string>
+    <string name="rr_group_system_summary">Мови, жести, оновлення</string>
+    <string name="remixer_tagline">Зробіть це своїм.</string>
+    <string name="remixer_remix">Ремікс</string>
+    <string name="remixer_remixed">Ремікс із <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Відтінок · За замовчуванням</string>
+    <string name="remixer_quick">Швидкий ремікс</string>
+    <string name="remixer_everything">Усе</string>
+    <string name="remixer_quick_accents">Пресети або будь-який колір</string>
+    <string name="remixer_quick_fonts">Стилі системного шрифту</string>
+    <string name="remixer_quick_walls">Колекція RR</string>
+    <string name="remixer_quick_header">Заголовок швидких налаштувань</string>
+    <string name="remixer_quick_header_summary">Зображення заголовка</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Годинник, акумулятор, значки та мережевий трафік</string>
+    <string name="remixer_qs_summary">Зображення заголовка</string>
+    <string name="remixer_notifications_summary">Підсвітка країв, значки застосунків і звуки зарядки</string>
+    <string name="remixer_theme_summary">Шрифти, акценти та фонові малюнки</string>
+    <string name="remixer_lockscreen_summary">UDFPS, інформація про зарядку та погода</string>
+    <string name="remixer_udfps_icon_summary">Відображається над сканером відбитків пальців</string>
+    <string name="remixer_udfps_animation_summary">Працює, поки палець на сканері</string>
+    <string name="remixer_navigation_summary">Pulse, кнопки та панель навігації</string>
+    <string name="remixer_misc_summary">Гучність, резервне копіювання, підміна пристрою, прокручування та USB</string>
+    <string name="scroll_haptics_title">Натискання в кінці прокручування</string>
+    <string name="scroll_haptics_summary">Легка вібрація, коли список або сторінка не можуть прокрутитися далі</string>
+    <string name="usb_mode_picker_title">Вибір режиму USB</string>
+    <string name="usb_mode_picker_summary">Вибирати режим при підключенні до комп’ютера</string>
+    <string name="remixer_fonts_summary">Системний шрифт</string>
+    <string name="remixer_wallpapers_summary">Фонові малюнки Resurrected Remix</string>
+    <string name="remixer_accents">Акценти</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">Візуалізатор музики внизу екрана</string>
+    <string name="pulse_switch">Використовувати Pulse</string>
+    <string name="pulse_switch_summary">Смуги музики внизу екрана, поки відтворюються медіа</string>
+    <string name="pulse_style_lines">Лінії</string>
+    <string name="pulse_style_fading">Згасання</string>
+    <string name="pulse_style_blocks">Блоки</string>
+    <string name="pulse_style_mirror">Дзеркало</string>
+    <string name="pulse_color_custom">Власний</string>
+    <string name="pulse_color_gradient">Веселка</string>
+    <string name="pulse_bars">Смуги</string>
+    <string name="pulse_bars_value">Смуги · %1$d</string>
+    <string name="pulse_height">Висота</string>
+    <string name="pulse_height_value">Висота · %1$d dp</string>
+    <string name="pulse_opacity">Непрозорість</string>
+    <string name="pulse_opacity_value">Непрозорість · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Залишати смуги на заблокованому екрані, поки грає музика</string>
+    <string name="pulse_failed">Не вдалося зберегти це налаштування Pulse</string>
+    <string name="accent_applied">Акцент застосовано</string>
+    <string name="accent_current">Акцент · %1$s</string>
+    <string name="accent_current_custom">Акцент · Власний</string>
+    <string name="accent_preview_tonal">Тональний</string>
+    <string name="accent_failed">Не вдалося застосувати цей акцент</string>
+    <string name="accent_custom">Власний</string>
+    <string name="accent_custom_summary">Працює будь-який колір. Відтінок застосовується поверх нього.</string>
+    <string name="accent_custom_pad">Насиченість і яскравість</string>
+    <string name="accent_custom_use">Використати <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">Відтінок</string>
+    <string name="accent_shade_darker">Темніший</string>
+    <string name="accent_shade_lighter">Світліший</string>
+    <string name="accent_shade_darker_value">Темніший · %1$d</string>
+    <string name="accent_shade_lighter_value">Світліший · %1$d</string>
+    <string name="remixer_qs_style">Стиль швидких налаштувань</string>
+    <string name="remixer_qs_style_preview">Попередній перегляд · %1$s</string>
+    <string name="remixer_qs_style_note">Кожен стиль відповідає вашому кольору акценту. Панель гучності має відповідні вигляди Bento, Shapes, Blueprint, Duo і Soft. Stock Lineage залишає плитки Android 17 без змін.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Плитки Android 17 без змін</string>
+    <string name="remixer_qs_style_remix">Ремікс</string>
+    <string name="remixer_qs_style_remix_summary">Яскравість на картці акценту. Плитки заповнюються градієнтом акценту</string>
+    <string name="remixer_qs_style_compact">Компактний</string>
+    <string name="remixer_qs_style_compact_summary">Нижчі плитки. Більше їх на одному екрані</string>
+    <string name="remixer_qs_style_glass">Скло</string>
+    <string name="remixer_qs_style_glass_summary">Прозорі плитки з контуром, що світяться кольором акценту, коли увімкнені</string>
+    <string name="remixer_qs_style_circles">Кола</string>
+    <string name="remixer_qs_style_circles_summary">Круглі перемикачі з підписами. Широкі плитки стають картками</string>
+    <string name="remixer_qs_style_classic">Класичний</string>
+    <string name="remixer_qs_style_classic_summary">Старий стиль RR: окремі значки з підписами, п’ять в ряд, тонкий повзунок</string>
+    <string name="remixer_qs_style_cards">Картки</string>
+    <string name="remixer_qs_style_cards_summary">Великі картки зі станом під кожною назвою, три в ряд</string>
+    <string name="remixer_qs_style_neon">Неон</string>
+    <string name="remixer_qs_style_neon_summary">Плитки з контуром, що світяться кольором акценту, коли увімкнені</string>
+    <string name="remixer_qs_style_bento_summary">Великі заокруглені блоки, заповнені акцентом, підписи під малими</string>
+    <string name="remixer_qs_style_shapes">Фігури</string>
+    <string name="remixer_qs_style_shapes_summary">Круглі перемикачі, що випускають пелюстки, коли увімкнені, п’ять в ряд</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Тонкі контури та моноширинні великі літери</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Розділені плитки. Half-іконки підсвічується і перемикає стан</string>
+    <string name="remixer_qs_style_soft">М’який</string>
+    <string name="remixer_qs_style_soft_summary">Піднесені плитки, що втискаються, коли увімкнені</string>
+    <string name="remixer_lock_media_style">Стиль медіаплеєра</string>
+    <string name="remixer_lock_media_same">Як у швидких налаштуваннях</string>
+    <string name="remixer_lock_media_same_summary">Відповідає плитці медіа у швидких налаштуваннях, зараз %1$s</string>
+    <string name="remixer_lock_media_off_summary">Немає плеєра на заблокованому екрані</string>
+    <string name="remixer_lock_media_note">Картка відображається на заблокованому екрані, поки щось відтворюється. Прозорі стилі отримують темну підкладку, щоб залишатися читабельними на фоновому малюнку.</string>
+    <string name="remixer_lock_media_stock_summary">Обкладинка заповнює картку</string>
+    <string name="remixer_lock_media_remix_summary">Темна картка, кнопка відтворення в колір акценту</string>
+    <string name="remixer_lock_media_compact_summary">Заокругленіша картка, круглі обкладинки</string>
+    <string name="remixer_lock_media_glass_summary">Прозора картка з контуром</string>
+    <string name="remixer_lock_media_circles_summary">М’яка картка, кнопка відтворення в колір акценту</string>
+    <string name="remixer_lock_media_classic_summary">Квадратніша картка, кнопка відтворення з контуром</string>
+    <string name="remixer_lock_media_cards_summary">М’яка картка, кнопка відтворення в колір акценту, як у Кола</string>
+    <string name="remixer_lock_media_neon_summary">Чорна картка з контуром акценту</string>
+    <string name="remixer_lock_media_bento_summary">М’яка картка, кнопка відтворення в колір акценту</string>
+    <string name="remixer_lock_media_shapes_summary">Заокругленіша картка, кнопка відтворення в колір акценту</string>
+    <string name="remixer_lock_media_blueprint_summary">Тонкий контур, кнопка відтворення з контуром</string>
+    <string name="remixer_lock_media_duo_summary">Двоколірна картка, кнопка відтворення в колір акценту</string>
+    <string name="remixer_lock_media_soft_summary">Піднесена картка з фаскою</string>
+    <string name="remixer_headers">Зображення заголовка</string>
+    <string name="header_switch">Використати зображення заголовка</string>
+    <string name="header_switch_summary">Показувати малюнок за швидкими налаштуваннями</string>
+    <string name="header_source">Джерело</string>
+    <string name="header_source_collection">Колекція</string>
+    <string name="header_collections_summary_daylight">Заголовок змінюється залежно від часу доби або по черзі з колекції</string>
+    <string name="header_collections_summary_static">Відкрийте колекцію, а потім натисніть зображення, щоб його використати</string>
+    <string name="header_collections_empty">Колекції заголовків не встановлено</string>
+    <string name="header_images_daylight">У цій колекції</string>
+    <string name="header_photo_summary">Будь-яке фото або GIF-анімація з галереї</string>
+    <string name="header_height">Висота</string>
+    <string name="header_height_value">Висота · %1$d dp</string>
+    <string name="header_shadow">Затемнення</string>
+    <string name="header_shadow_value">Затемнення · %1$d%%</string>
+    <string name="header_failed">Не вдалося зберегти це налаштування заголовка</string>
+    <string name="remixer_weather_summary">Служба погоди та одиниці виміру</string>
+    <string name="font_preview_notification">Так ваш телефон читатиме текст.</string>
+    <string name="font_try_text">Спробувати власний текст</string>
+    <string name="font_previewing">Попередній перегляд</string>
+    <string name="font_current">Поточний шрифт</string>
+    <string name="font_badge_current">Поточний</string>
+    <string name="font_apply_done">Застосовано</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Дисплей</string>
+    <string name="font_filter_script">Письмовий</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Шрифт застосовано</string>
+    <string name="font_failed">Не вдалося застосувати цей шрифт</string>
+    <string name="wallpaper_set">Фоновий малюнок встановлено</string>
+    <string name="wallpaper_apply_both">Обидва</string>
+    <string name="wallpaper_failed">Не вдалося встановити цей фоновий малюнок</string>
+    <string name="missing_app">Цей застосунок не встановлено</string>
+    <string name="remixer_spoofing_summary">Play Integrity, ідентифікація пристрою та підміна для окремих застосунків</string>
+    <string name="rr_maintainer">Супровідник</string>
+    <string name="remixer_navbar_summary">Довжина, товщина і розташування панелі жестів</string>
+    <string name="remixer_navbar_pill_length">Довжина жестової смуги</string>
+    <string name="remixer_navbar_pill_thickness">Товщина жестової смуги</string>
+    <string name="remixer_navbar_pill_auto_hide">Згасання жестової смуги</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Приховувати смугу через кілька секунд; вона з’являється знову, коли торкаєтеся екрана</string>
+    <string name="remixer_navbar_ime">Кнопки клавіатури</string>
+    <string name="remixer_navbar_ime_summary">Показувати кнопки назад і перемикання клавіатури під клавіатурою</string>
+    <string name="remixer_navbar_layout">Розташування кнопок</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Короткий</item>
+        <item>Звичайний</item>
+        <item>Довгий</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Найтонший</item>
+        <item>Тонший</item>
+        <item>Тонкий</item>
+        <item>Звичайний</item>
+        <item>Товстий</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Звичайний</item>
+        <item>Компактний</item>
+        <item>"Панель ліворуч"</item>
+        <item>"Панель праворуч"</item>
+    </string-array>
 </resources>

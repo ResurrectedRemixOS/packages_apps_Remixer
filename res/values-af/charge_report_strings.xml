@@ -3,4 +3,31 @@
     <string name="charge_report_keep_title">"Behou"</string>
     <string name="charge_report_temp">"Temperatuur"</string>
     <string name="charge_report_time">"Tyd"</string>
+    <string name="charge_report_title">Laaiverslae</string>
+    <string name="charge_report_summary">\'n Opsomming van elke lading wanneer jy ontkoppel</string>
+    <string name="charge_report_min_title">Slegs as dit ten minste bygevoeg het</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 dae</item>
+        <item>7 dae</item>
+        <item>14 dae</item>
+        <item>30 dae</item>
+    </string-array>
+    <string name="charge_report_history_days">Laaste <xliff:g id="days" example="7">%1$d</xliff:g> dae</string>
+    <string name="charge_report_today">Vandag, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Gister, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> u <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Watt</string>
+    <string name="charge_report_battery">Battery</string>
+    <string name="charge_report_added">Bygevoeg</string>
+    <string name="charge_report_peak">Piek</string>
+    <string name="charge_report_average">Gemiddeld</string>
+    <string name="charge_report_max_temp">Maks. temp.</string>
+    <string name="charge_report_charger">Laaier</string>
+    <string name="charge_report_started">Begin om</string>
+    <string name="charge_report_wired">Bedraad</string>
+    <string name="charge_report_wireless">Draadloos</string>
+    <string name="charge_report_dock">Dok</string>
+    <string name="charge_report_empty">Nog geen ladings nie</string>
+    <string name="charge_report_footer">SystemUI lees die battery se stroom, spanning en temperatuur elke 30 sekondes terwyl dit ingeprop is. Die watt is wat die foon meet, so dit kan verskil van die getal op die laaier. Verslae bly op die foon; niks word opgelaai nie.</string>
 </resources>

@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="remixer_boot_animation">Bootanimáció</string>
+    <string name="boot_animation_note">A következő telefonindításkor játszódik le.</string>
+    <string name="boot_animation_custom">Az Ön fájlja</string>
+    <string name="boot_animation_custom_pick">Válasszon fájlt…</string>
+    <string name="boot_animation_custom_invalid">Ez a fájl nem indítóanimáció</string>
+    <string name="boot_animation_failed">Az indítóanimáció nem módosítható</string>
 </resources>

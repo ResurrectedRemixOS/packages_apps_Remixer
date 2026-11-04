@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Дэлгэцийн зураг"</item>
+        <item>Resurrected</item>
+        <item>Android One ногоон</item>
+        <item>Aospa ногоон</item>
+        <item>Coca Cola улаан</item>
+        <item>Discord нил ягаан</item>
+        <item>Facebook цэнхэр</item>
+        <item>Instagram улаан бор</item>
+        <item>Jollibee хар улаан</item>
+        <item>Monster Energy ногоон</item>
+        <item>Nextbit мint</item>
+        <item>Oneplus улаан</item>
+        <item>Pepsi цэнхэр</item>
+        <item>Pixel цэнхэр</item>
+        <item>Pocophone шар</item>
+        <item>Razer ногоон</item>
+        <item>Samsung цэнхэр</item>
+        <item>Spotify ногоон</item>
+        <item>Starbucks ногоон</item>
+        <item>Twitch нил ягаан</item>
+        <item>Twitter цэнхэр</item>
+        <item>Xiaomi улбар шар</item>
+        <item>Амбер</item>
+        <item>"Хар"</item>
+        <item>"Цэнхэр"</item>
+        <item>Цэнхэр саарал</item>
+        <item>Бор</item>
+        <item>"Шар хөх"</item>
+        <item>Гүн улбар шар</item>
+        <item>Гүн нил ягаан</item>
+        <item>"Ногоон"</item>
+        <item>"Саарал"</item>
+        <item>"Хөх нил ягаан"</item>
+        <item>Цайвар цэнхэр</item>
+        <item>Шар ногоон</item>
+        <item>"Улбар шар"</item>
+        <item>"Ягаан"</item>
+        <item>"Нил ягаан"</item>
+        <item>"Улаан"</item>
+        <item>"Усан цэнхэр"</item>
+        <item>Хэрэглэгч тав</item>
+        <item>Хэрэглэгч дөрөв</item>
+        <item>Хэрэглэгч нэг</item>
+        <item>Хэрэглэгч долоо</item>
+        <item>Хэрэглэгч зургаа</item>
+        <item>Хэрэглэгч гурав</item>
+        <item>Хэрэглэгч хоёр</item>
+        <item>"Цагаан"</item>
+        <item>"Шар"</item>
+    </string-array>
+</resources>

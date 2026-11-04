@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">Voorkom toevallige wakker word</string>
+    <string name="lockscreen_battery_info_title">Laaiinligting</string>
+    <string name="lockscreen_battery_info_summary">Wys stroom, watt, spanning en batterytemperatuur tydens laai</string>
+    <string name="charging_ring_title">SuperVOOC-laaianimasie</string>
+    <string name="charging_ring_summary">Wys die laairing en spoed wanneer jy inprop</string>
+    <string name="pocket_mode_summary">Terwyl die nabyheidsensor bedek is, word die skerm nie wakker nie en ignoreer dit raak</string>
+    <string name="screen_on_time_title">Skermaantyd</string>
+    <string name="screen_on_time_summary">Wys skermaantyd sedert die laaste volle laai op die sluitskerm tydens laai en op die Batterybespaarder-teël</string>
 </resources>

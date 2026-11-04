@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_profile_title">ទម្រង់ការញ័រ</string>
+    <string name="haptic_profile_crisp">ច្បាស់</string>
+    <string name="haptic_profile_gentle">ស្រទន់</string>
+    <string name="haptic_profile_op13crisp">OP13 ច្បាស់</string>
+    <string name="haptic_profile_op13gentle">OP13 ស្រទន់</string>
+</resources>

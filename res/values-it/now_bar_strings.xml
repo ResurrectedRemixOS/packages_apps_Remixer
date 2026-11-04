@@ -14,4 +14,94 @@
     <string name="now_bar_buttons">"Pulsanti"</string>
     <string name="now_bar_text">Testo</string>
     <string name="now_bar_text_size">"Dimensioni testo"</string>
+    <string name="now_bar_summary">Attività in corso in fondo alla schermata di blocco</string>
+    <string name="now_bar_show">Mostra</string>
+    <string name="now_bar_music">Musica e video</string>
+    <string name="now_bar_timers">Timer, cronometro e sveglie</string>
+    <string name="now_bar_hide_call">Nascondi la notifica di chiamata</string>
+    <string name="now_bar_hide_call_summary">Nella schermata di blocco, una chiamata nella Now Bar non compare anche come notifica</string>
+    <string name="now_bar_live">Aggiornamenti in tempo reale</string>
+    <string name="now_bar_live_summary">Navigazione, corse, consegne, punteggi</string>
+    <string name="now_bar_scores">Punteggi in tempo reale</string>
+    <string name="now_bar_live_apps">App per Aggiornamenti in tempo reale</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> app</string>
+    <string name="now_bar_pin">Fissate nello schermo sempre attivo</string>
+    <string name="now_bar_unpin_question">Rimuovere <xliff:g id="app" example="Uber">%1$s</xliff:g> dai fissati?</string>
+    <string name="now_bar_unpin">Rimuovi</string>
+    <string name="now_bar_scores_summary">Partite che segui in At a Glance</string>
+    <string name="now_bar_recording">Registrazione dello schermo e dell\'audio</string>
+    <string name="now_bar_buds">Auricolari e orologi</string>
+    <string name="now_bar_buds_summary">Batteria di un dispositivo collegato: sinistro, destro e custodia per gli auricolari</string>
+    <string name="now_bar_wave">Animazione onda</string>
+    <string name="now_bar_chip">Chip nella barra di stato</string>
+    <string name="now_bar_chip_summary">Mostra musica e timer accanto all\'orologio quando il dispositivo è sbloccato</string>
+    <string name="now_bar_footer">Con la musica nella Now Bar, il grande lettore nella schermata di blocco è nascosto. Scorri la barra per passare da un\'attività all\'altra, tocca per aprire i comandi e tieni premuto per nasconderne una fino al termine. Scorri via un brano in pausa dalla barra per rimuoverlo.\n\nI punteggi in tempo reale mostrano le partite delle squadre che segui nell\'app Google. Con Smartspacer, aggiungi lì un obiettivo sportivo e i punteggi compariranno qui.</string>
+    <string name="now_bar_looks">Preset</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Predefinito"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Grande</item>
+        <item>Neon</item>
+        <item>Scheda di vetro</item>
+    </string-array>
+    <string name="now_bar_material">Material</string>
+    <string name="now_bar_material_summary">Liquid Glass usa il vetro impostato in Tema</string>
+    <string-array name="now_bar_material_entries">
+        <item>Pieno</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Copertina dell\'album</item>
+        <item>Accento</item>
+        <item>Scuro</item>
+    </string-array>
+    <string name="now_bar_opacity">Opacità</string>
+    <string name="now_bar_opacity_summary">Con Liquid Glass, quanto colore tinge il vetro</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Nessuno"</item>
+        <item>Sottile</item>
+        <item>Accento</item>
+    </string-array>
+    <string name="now_bar_shadow">Ombra</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>Disattivato</item>
+        <item>Soft</item>
+        <item>Bagliore</item>
+    </string-array>
+    <string name="now_bar_more">Altre attività</string>
+    <string-array name="now_bar_more_entries">
+        <item>Basta scorrere</item>
+        <item>Puntini</item>
+        <item>Sbircia dietro</item>
+    </string-array>
+    <string name="now_bar_size">Dimensione e forma</string>
+    <string name="now_bar_height">Altezza</string>
+    <string name="now_bar_width_summary">Completo sposta le scorciatoie sopra la barra</string>
+    <string-array name="now_bar_width_entries">
+        <item>Stretto</item>
+        <item>Tra le scorciatoie</item>
+        <item>Completo</item>
+    </string-array>
+    <string name="now_bar_corners">Angoli</string>
+    <string name="now_bar_raise">Alza</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Cerchio"</item>
+        <item>Arrotondati</item>
+        <item>"Quadrato"</item>
+        <item>Disattivato</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Salta e riproduci</item>
+        <item>Solo riproduzione</item>
+        <item>"Nessuno"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Una riga</item>
+        <item>Due righe</item>
+        <item>Solo brano</item>
+    </string-array>
+    <string name="now_bar_show_page">Cosa mostrare nella barra</string>
+    <string name="now_bar_show_page_summary">Musica e video, timer, chiamate e altro</string>
+    <string name="now_bar_where">Altro</string>
 </resources>

@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Batareya"</string>
     <string name="battery_style_title">"Uslub"</string>
+    <string-array name="battery_style_entries">
+        <item>Portret</item>
+        <item>"Aylana"</item>
+        <item>Nuqtali aylana</item>
+        <item>Neon halqa</item>
+        <item>Ingichka kapsula</item>
+        <item>Katta foiz</item>
+        <item>"Matn"</item>
+    </string-array>
+    <string name="battery_percent_title">Foiz</string>
+    <string-array name="battery_percent_entries">
+        <item>"Yashirin"</item>
+        <item>Belgi ichida</item>
+        <item>Yonida</item>
+    </string-array>
+    <string name="battery_ring_color_title">Neon halqa rangi</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Daraja bo‘yicha: urg‘u rangi 20%% dan yuqori, pastda qizil, Tejamkor rejimida sariq.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Daraja bo\'yicha</item>
+        <item>Aksent</item>
+        <item>"Oq"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Zaryadlanayotganda uchqun</string>
+    <string name="battery_ring_tile_title">Tezkor sozlamalar katakchasida ham xuddi shu halqa</string>
+    <string name="battery_ring_tile_summary">Daraja va ekran yoqilgan vaqt bilan</string>
 </resources>

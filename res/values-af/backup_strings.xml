@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Gebare</string>
     <string name="backup_group_other">"Ander"</string>
     <string name="backup_done">"Klaar"</string>
+    <string name="backup_summary">Elke RR-aanpassing in een lêer</string>
+    <string name="backup_now">Rugsteun nou</string>
+    <string name="backup_never">Laaste rugsteun: nooit</string>
+    <string name="backup_last">Laaste rugsteun: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Herstel uit \'n lêer</string>
+    <string name="backup_restore_summary">Kies \'n rugsteunlêer</string>
+    <string name="backup_included">Ingesluit</string>
+    <string name="backup_part_theme">Aksent, lettertipe en ikone</string>
+    <string name="backup_part_header">Opskrifbeeld</string>
+    <string name="backup_part_photo">Kopbeeld (jou foto)</string>
+    <string name="backup_part_photo_summary">Maak die lêer groter</string>
+    <string name="backup_part_boot">Selfoonaanskakelanimasie</string>
+    <string name="backup_part_looks">Jou voorkomste</string>
+    <string name="backup_weekly">Weeklikse rugsteun</string>
+    <string name="backup_weekly_summary">Na \'n gids wat jy kies</string>
+    <string name="backup_weekly_on">Elke week na <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Bied \'n rugsteun aan voor opdaterings</string>
+    <string name="backup_offer_summary">Die Opdaterer vra voordat dit installeer</string>
+    <string name="backup_sets">Stel <xliff:g id="count" example="64">%1$d</xliff:g> instellings</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> instellings gestoor</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> instellings herstel</string>
+    <string name="backup_restored_message">SystemUI herbegin om dit toe te pas.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> instellings bestaan nie op hierdie bou nie en is oorgeslaan.</string>
+    <string name="backup_failed">Kon nie die rugsteun stoor nie</string>
+    <string name="backup_invalid">Dit is nie \'n Resurrected Remix-rugsteun nie</string>
+    <string name="backup_footer">Slegs RR-instellings gaan in die lêer: geen rekeninge, wagwoorde, Wi-Fi-netwerke, programme of boodskappe nie. Herstel skryf net instellings op RR se eie lys, so \'n rugsteunlêer kan niks anders op die foon verander nie. Jou kopbeeldfoto is slegs ingesluit as die skakelaar aan is, aangesien dit die lêer groter maak.</string>
+    <string name="volume_style_title">Volumepaneelstyl</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Glas</item>
+        <item>Pil</item>
+        <item>Klassieke RR</item>
+        <item>Bento</item>
+        <item>Vorms</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Sag</item>
+    </string-array>
 </resources>

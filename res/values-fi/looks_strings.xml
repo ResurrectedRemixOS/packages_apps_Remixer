@@ -15,4 +15,62 @@
     <string name="looks_save_look">"Tallenna"</string>
     <string name="looks_custom_color">"Oma väri"</string>
     <string name="looks_part_clock_color">"Kellon väri"</string>
+    <string name="looks_title">Looks</string>
+    <string name="looks_summary">Koko asetelmasi yhdellä napautuksella</string>
+    <string name="looks_rr">RR-lookit</string>
+    <string name="looks_yours">Omat lookit</string>
+    <string name="looks_none">Ei vielä tallennettuja</string>
+    <string name="looks_save">Tallenna nykyinen</string>
+    <string name="looks_import_clipboard">Leikepöydältä</string>
+    <string name="looks_import_file">Tiedostosta</string>
+    <string name="looks_mine">Oma look</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> otettu käyttöön</string>
+    <string name="looks_failed">Kaikkea ei voitu ottaa käyttöön</string>
+    <string name="looks_invalid">Tämä ei ole RR-look</string>
+    <string name="looks_part_accent">Korostusväri</string>
+    <string name="looks_part_qs">Pika-asetusten tyyli</string>
+    <string name="looks_part_clock_face">Lukitusnäytön kellotaulu</string>
+    <string name="looks_part_clock_look">Tilapalkin kello</string>
+    <string name="looks_part_edge">Reunavalaistus</string>
+    <string name="looks_part_boot">Käynnistysanimaatio</string>
+    <string name="looks_part_haptics">Haptic Remix -kuviot</string>
+    <plurals name="looks_haptic_patterns">
+        <item quantity="one">%d kuvio ja sen määritykset</item>
+        <item quantity="other">%d kuviota ja niiden määritykset</item>
+    </plurals>
+    <string name="looks_saturation">Kylläisyys <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Korostusväri</string>
+    <string name="looks_share_title">Jaa ”<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">Skannaa toisen RR-puhelimen kameralla tai Looks › Tuo</string>
+    <string name="looks_share_file">Jaa tiedosto</string>
+    <string name="looks_save_file">Tallenna tiedosto</string>
+    <string name="looks_import_scan">Skannaa QR-koodi</string>
+    <string name="looks_import_title">Tuo look</string>
+    <string name="looks_from_qr">QR-koodista</string>
+    <string name="looks_from_file">tiedostosta</string>
+    <string name="looks_from_clipboard">leikepöydältä</string>
+    <string name="looks_import_same">Se vastaa jo asetelmaasi.</string>
+    <plurals name="looks_import_changes">
+        <item quantity="one">Muuttaa <xliff:g id="count" example="4">%d</xliff:g> asian:</item>
+        <item quantity="other">Muuttaa <xliff:g id="count" example="4">%d</xliff:g> asiaa:</item>
+    </plurals>
+    <string name="looks_new">Uusi look</string>
+    <string name="looks_edit_title">Muokkaa lookia</string>
+    <string name="looks_in_look">Tässä lookissa</string>
+    <string name="looks_not_included">Ei tässä lookissa</string>
+    <string name="looks_save_apply">Tallenna ja ota käyttöön</string>
+    <string name="looks_saved">”<xliff:g id="name" example="Sunday">%1$s</xliff:g>” tallennettu</string>
+    <string name="looks_delete_confirm">Poistetaanko ”<xliff:g id="name" example="Sunday">%1$s</xliff:g>”?</string>
+    <string name="looks_rr_wallpaper">RR-taustakuva <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Korostusvärin kylläisyys</string>
+    <string name="looks_part_clock_chip">Tilapalkin kellopala</string>
+    <string name="looks_part_edge_style">Reunavalaistuksen tyyli</string>
+    <string name="looks_scan_hint">Osoita kameralla tilan QR-koodia</string>
+    <string name="looks_scan_failed">Kameran avaaminen epäonnistui</string>
+    <string name="look_roulette_title">Tilan arpa</string>
+    <string-array name="look_roulette_entries">
+        <item>"Pois päältä"</item>
+        <item>Eri tila jokaisella lukituksen avauksella</item>
+        <item>Eri tila joka päivä</item>
+    </string-array>
 </resources>

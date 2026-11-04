@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"இயல்பு"</string>
     <string name="clock_faces_size">"அளவு"</string>
     <string name="clock_faces_restart">"மீண்டும் தொடங்கு"</string>
+    <string name="remixer_clock_faces">கடிகார வடிவங்கள்</string>
+    <string name="clock_faces_system">சிஸ்டம் கடிகாரம்</string>
+    <string name="clock_faces_system_desc">Wallpaper &amp; style-இலிருந்து கடிகாரம்</string>
+    <string name="clock_faces_position">%2$d-இல் %1$d</string>
+    <string name="clock_faces_applied">பயன்படுத்தப்பட்டது</string>
+    <string name="clock_faces_preview_unavailable">முன்னோட்டம் கிடைக்கவில்லை</string>
+    <string name="clock_faces_failed">கடிகாரத்தை மாற்ற முடியவில்லை</string>
+    <string name="clock_faces_color_accent">உச்சரிப்பு</string>
+    <string name="clock_faces_color_custom">தனிப்பயன்</string>
+    <string name="clock_faces_color_album">ஆல்பம் கலை</string>
+    <string name="clock_faces_color_gradient">சாய்வு</string>
+    <string name="clock_faces_own_colors">இந்த வடிவம் அதன் சொந்த நிறங்களைக் கொண்டிருக்கும்.</string>
+    <string name="clock_faces_album_hint">இசை இயங்கும்போது ஆல்பம் கலையிலிருந்து நிறத்தை எடுக்கும்.</string>
+    <string name="clock_faces_size_position">அளவும் நிலையும்</string>
+    <string name="clock_faces_size_value">அளவு · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">மேலிருந்து தூரம்</string>
+    <string name="clock_faces_top_value">மேலிருந்து தூரம் · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">கிடைமட்ட நிலை</string>
+    <string name="clock_faces_horizontal_center">கிடைமட்ட நிலை · மையம்</string>
+    <string name="clock_faces_horizontal_right">கிடைமட்ட நிலை · வலது <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_left">கிடைமட்ட நிலை · இடது <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_fixed">இந்த வடிவம் நடுவில் நிலையாக இருக்கும்.</string>
+    <string name="clock_faces_opacity">ஒளிபுகாநிலை</string>
+    <string name="clock_faces_opacity_value">ஒளிபுகாநிலை · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">அசைவு</string>
+    <string name="clock_faces_wobble">சார்ஜ் ஆகும்போது அசைவு</string>
+    <string name="clock_faces_wobble_summary">சாதனத்தை இணைக்கும்போது ஒருமுறை துள்ளும்</string>
+    <string name="clock_faces_aod_anim">எப்போதும் காட்சியின் மாற்றம்</string>
+    <string name="clock_faces_aod_anim_summary">கடிகாரத்தை சுருக்கி மங்கச் செய்து எப்போதும் காட்சியில் கொண்டு செல்லும்</string>
+    <string name="clock_faces_restart_title">பூட்டுத் திரையை மறுதொடக்கம் செய்யவா?</string>
+    <string name="clock_faces_restart_message">சிஸ்டம் கடிகாரத்திற்கும் தனிப்பயன் வடிவங்களுக்கும் இடையில் மாற்றும்போது SystemUI மறுதொடக்கம் ஆகும். ஒரு வினாடிக்கு திரை இருண்டுவிடும்.</string>
+    <string name="clock_faces_note">முன்னோட்டங்கள் உங்கள் பூட்டுத் திரை வால்பேப்பரில் SystemUI வரையும். நிறம், அளவு மற்றும் நிலை உடனடியாக பூட்டுத் திரையில் மாறும்.</string>
 </resources>

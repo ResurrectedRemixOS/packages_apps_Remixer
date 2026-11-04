@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">ອະນິເມຊັນເປີດເຄື່ອງ</string>
+    <string name="boot_animation_note">ຈະຫຼິ້ນໃນຄັ້ງຕໍ່ໄປທີ່ໂທລະສັບເປີດເຄື່ອງ.</string>
+    <string name="boot_animation_custom">ໄຟລ໌ຂອງທ່ານ</string>
+    <string name="boot_animation_custom_pick">ເລືອກໄຟລ໌…</string>
+    <string name="boot_animation_custom_invalid">ໄຟລ໌ນີ້ບໍ່ແມ່ນອະນິເມຊັນເປີດເຄື່ອງ</string>
+    <string name="boot_animation_failed">ບໍ່ສາມາດປ່ຽນອະນິເມຊັນເປີດເຄື່ອງໄດ້</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Megjelenés minden módjához</string>
+    <string name="remix_modes_everyday">Mindennapi megjelenés</string>
+    <string name="remix_modes_everyday_summary">Visszatér, ha nincs bekapcsolva megjelenéssel rendelkező mód</string>
+    <string name="remix_modes_wallpaper">A háttérkép követi a megjelenést</string>
+    <string name="remix_modes_wallpaper_summary">Egy mód a háttérképet is megváltoztathatja</string>
+    <string name="remix_modes_modes">Módjai</string>
+    <string name="remix_modes_no_change">Nincs változás</string>
+    <string name="remix_modes_none">Először mentsen egy megjelenést a Téma › Megjelenések menüpontban</string>
+    <string name="remix_modes_pick">Megjelenés: <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

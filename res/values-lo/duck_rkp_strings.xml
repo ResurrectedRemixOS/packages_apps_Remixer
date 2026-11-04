@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">ໃຊ້ RKP ຂອງອຸປະກອນ</string>
+    <string name="ts_rkp_enabled_summary">ໃຊ້ keybox ທີ່ສ້າງຂຶ້ນ. ການນຳເຂົ້າ keybox ຈະປິດອັນນີ້.</string>
+    <string name="ts_rkp_provision">ສ້າງ keybox</string>
+    <string name="ts_rkp_provision_summary">ຂໍ keybox ຈາກ Google ຜ່ານບໍລິການ provisioning ຂອງອຸປະກອນນີ້. ຕ້ອງໃຊ້ firmware Qualcomm ທີ່ເຂົ້າກັນໄດ້.</string>
+    <string name="ts_rkp_status">ສະຖານະ provisioning</string>
+    <string name="ts_rkp_owner_only">ຈັດການ RKP ຂອງອຸປະກອນຈາກໂປຣໄຟລ໌ເຈົ້າຂອງອຸປະກອນ</string>
+    <string name="ts_rkp_unavailable">RKP ຂອງອຸປະກອນບໍ່ສາມາດໃຊ້ໄດ້</string>
+    <string name="ts_rkp_imported">ປິດຢູ່ ໃນຂະນະທີ່ມີ keybox ທີ່ນຳເຂົ້າຕິດຕັ້ງຢູ່</string>
+    <string name="ts_rkp_disabled">ປິດຢູ່. ເປີດ RKP ຂອງອຸປະກອນເພື່ອໃຊ້ ຫຼື ສ້າງ keybox.</string>
+    <string name="ts_rkp_idle">ພ້ອມຂໍ keybox ແລ້ວ</string>
+    <string name="ts_rkp_fetching">ກຳລັງຮັບ provisioning challenge…</string>
+    <string name="ts_rkp_hardware">ກຳລັງລໍຖ້າບໍລິການ provisioning ຂອງອຸປະກອນ…</string>
+    <string name="ts_rkp_signing">ກຳລັງຂໍໃບຮັບຮອງຈາກ Google…</string>
+    <string name="ts_rkp_validating">ກຳລັງກວດສອບ ແລະ ບັນທຶກ keybox…</string>
+    <string name="ts_rkp_ready">keybox ທີ່ສ້າງແລ້ວເຮັດວຽກຢູ່. ຈະຕໍ່ອາຍຸອັດຕະໂນມັດກ່ອນ %1$s</string>
+    <string name="ts_rkp_keybox_stored">ເກັບ keybox RKP ຂອງອຸປະກອນແລ້ວ</string>
+    <string name="ts_rkp_expired">keybox ທີ່ສ້າງແລ້ວໝົດອາຍຸ. ກະລຸນາສ້າງອັນທົດແທນ.</string>
+    <string name="ts_rkp_hal_rejected">Firmware ປະຕິເສດຄຳຂໍ (ລະຫັດ %1$d). Duck V1 ອາດບໍ່ຮອງຮັບ.</string>
+    <string name="ts_rkp_http_error">ເຊີບເວີ provisioning ປະຕິເສດຄຳຂໍ (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">ອຸປະກອນບໍ່ເປີດເຜີຍ interface provisioning V1 ທີ່ເຂົ້າກັນໄດ້</string>
+    <string name="ts_rkp_network_error">ເຊື່ອມຕໍ່ເຊີບເວີ provisioning ບໍ່ໄດ້. ກະລຸນາກວດການເຊື່ອມຕໍ່ຂອງທ່ານ.</string>
+    <string name="ts_rkp_submission_unknown">ການຕອບກັບຈາກເຊີບເວີຫາຍໄປ. ຄຳຂໍອາດຖືກປະມວນຜົນແລ້ວ; ບໍ່ໄດ້ລອງໃໝ່ອັດຕະໂນມັດ.</string>
+    <string name="ts_rkp_invalid_chain">ໃບຮັບຮອງຂອງ keybox ບໍ່ຜ່ານການກວດສອບ. ຮັກສາ keybox ເດີມໄວ້.</string>
+    <string name="ts_rkp_timeout">ໝົດເວລາ provisioning. ຖ້າບໍລິການຂອງອຸປະກອນຍັງຍຸ່ງຢູ່, ໃຫ້ຣີສະຕາດອຸປະກອນກ່ອນລອງໃໝ່.</string>
+    <string name="ts_rkp_canceled">ຍົກເລີກຄຳຂໍເນື່ອງຈາກການຕັ້ງຄ່າ keybox ປ່ຽນແປງ</string>
+    <string name="ts_rkp_save_failed">ບໍ່ສາມາດບັນທຶກ keybox ທີ່ສ້າງແລ້ວ</string>
+    <string name="ts_rkp_action_failed">ບໍ່ສາມາດສຳເລັດການດຳເນີນການ keybox ໄດ້</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Animacija pokretanja</string>
+    <string name="boot_animation_note">Pokreće se sljedeći put kada se telefon pokrene.</string>
+    <string name="boot_animation_custom">Vaša datoteka</string>
+    <string name="boot_animation_custom_pick">Odaberite datoteku…</string>
+    <string name="boot_animation_custom_invalid">Ta datoteka nije animacija pokretanja</string>
+    <string name="boot_animation_failed">Nije moguće promijeniti animaciju pokretanja</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">రింగ్ సింక్</string>
+    <string name="ring_sync_tap">రింగ్ గుర్తుతో సరిపోలినప్పుడు నొక్కండి</string>
+    <string name="ring_sync_best">ఉత్తమ <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">పర్ఫెక్ట్</string>
+    <string name="ring_sync_new_best">కొత్త ఉత్తమ స్కోరు</string>
+    <string name="ring_sync_again">మళ్లీ ఆడేందుకు నొక్కండి</string>
+    <string name="ring_sync_ember">ఎంబర్ యాక్సెంట్ అన్‌లాక్ అయింది</string>
+    <string name="ring_sync_use_ember">ఎంబర్ ఉపయోగించండి</string>
+    <string name="ring_sync_android">ఆండ్రాయిడ్ ఈస్టర్ ఎగ్</string>
+    <string name="ring_sync_vibrate_on">హిట్‌లపై వైబ్రేట్ · ఆన్</string>
+    <string name="ring_sync_vibrate_off">హిట్‌లపై వైబ్రేట్ · ఆఫ్</string>
+    <string name="accent_ember">ఎంబర్</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">אנימציית אתחול</string>
+    <string name="boot_animation_note">ינוגן בפעם הבאה שהטלפון יופעל.</string>
+    <string name="boot_animation_custom">הקובץ שלך</string>
+    <string name="boot_animation_custom_pick">בחירת קובץ…</string>
+    <string name="boot_animation_custom_invalid">הקובץ הזה אינו הנפשת אתחול</string>
+    <string name="boot_animation_failed">לא ניתן לשנות את הנפשת האתחול</string>
+</resources>

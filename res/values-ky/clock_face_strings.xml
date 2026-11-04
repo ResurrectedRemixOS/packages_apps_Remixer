@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Демейки"</string>
     <string name="clock_faces_size">"Өлчөмү"</string>
     <string name="clock_faces_restart">"Өчүрүп күйгүзүү"</string>
+    <string name="remixer_clock_faces">Саат стилдери</string>
+    <string name="clock_faces_system">Системалык саат</string>
+    <string name="clock_faces_system_desc">Тушкагаз жана стиль бөлүмүндөгү саат</string>
+    <string name="clock_faces_position">%1$d / %2$d</string>
+    <string name="clock_faces_applied">Колдонулду</string>
+    <string name="clock_faces_preview_unavailable">Алдын ала көрүү жеткиликсиз</string>
+    <string name="clock_faces_failed">Саатты өзгөртүү мүмкүн болгон жок</string>
+    <string name="clock_faces_color_accent">Акцент</string>
+    <string name="clock_faces_color_custom">Ыңгайлаштырылган</string>
+    <string name="clock_faces_color_album">Альбом сүрөтү</string>
+    <string name="clock_faces_color_gradient">Градиент</string>
+    <string name="clock_faces_own_colors">Бул стилдин өз түстөрү бар.</string>
+    <string name="clock_faces_album_hint">Ыр ойнотулганда түсү альбом сүрөтүнөн алынат.</string>
+    <string name="clock_faces_size_position">Өлчөмү жана жайгашуусу</string>
+    <string name="clock_faces_size_value">Өлчөмү · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Үстүнөн аралыгы</string>
+    <string name="clock_faces_top_value">Үстүнөн аралыгы · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Горизонталдык жайгашуу</string>
+    <string name="clock_faces_horizontal_center">Горизонталдык жайгашуу · Борборунда</string>
+    <string name="clock_faces_horizontal_right">Горизонталдык жайгашуу · <xliff:g id="dp" example="24">%1$d</xliff:g> dp оңго</string>
+    <string name="clock_faces_horizontal_left">Горизонталдык жайгашуу · <xliff:g id="dp" example="24">%1$d</xliff:g> dp солго</string>
+    <string name="clock_faces_horizontal_fixed">Бул стиль борборда калат.</string>
+    <string name="clock_faces_opacity">Мөлдүрлүгү</string>
+    <string name="clock_faces_opacity_value">Тунуктугу · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Кыймыл</string>
+    <string name="clock_faces_wobble">Кубаттоодо термелүү</string>
+    <string name="clock_faces_wobble_summary">Кубаттаганда бир жолу секирет</string>
+    <string name="clock_faces_aod_anim">Always-on display өтүүсү</string>
+    <string name="clock_faces_aod_anim_summary">Саатты always-on displayге кичирейтип, сууп жок кылат</string>
+    <string name="clock_faces_restart_title">Кулпуланган экранды кайра ишке киргизесизби?</string>
+    <string name="clock_faces_restart_message">Системалык саат менен ыкчам стилдердин ортосунда которулганда SystemUI кайра ишке түшөт. Экран бир секундага өчөт.</string>
+    <string name="clock_faces_note">Алдын ала көрүүлөр SystemUI тарабынан кулпуланган экрандын тушкагазына тартылат. Түс, өлчөм жана жайгашуу кулпуланган экранды дароо өзгөртөт.</string>
 </resources>

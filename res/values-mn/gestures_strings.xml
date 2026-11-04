@@ -8,4 +8,50 @@
         <item>"Дунд зэрэг"</item>
         <item>"Том"</item>
     </string-array>
+    <string name="pie_title">Пай товчлуурууд</string>
+    <string name="pie_summary">Ирмэгийн доод хэсгийг удаан дарж товчлолын пай нээнэ</string>
+    <string name="pie_zone">Ирмэгийн хэсэг</string>
+    <string name="pie_clock">Дээрээ цаг ба батерей</string>
+    <string name="pie_items">Хэсгүүд</string>
+    <string-array name="pie_items_entries">
+        <item>"Буцах"</item>
+        <item>Нүүр</item>
+        <item>"Саяхны"</item>
+        <item>"Мэдэгдэл"</item>
+        <item>"Гар чийдэн"</item>
+        <item>"Дэлгэцийн зураг дарах"</item>
+        <item>"Асаах/унтраах цэс"</item>
+        <item>"Туслах"</item>
+        <item>"Камер"</item>
+    </string-array>
+    <string name="pie_footer">Хурдан шударга шилжүүлэлт хийхэд буцах зангаа ажиллахын тулд хөдөлгөөнгүйгээр дөрөвний секунд барих шаардлагатай. Түгжээтэй дэлгэц дээр нээгдэхгүй.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Зүүн"</item>
+        <item>"Баруун"</item>
+        <item>Хоёулаа</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Доод гуравны нэг</item>
+        <item>Дунд</item>
+        <item>Бүх ирмэг</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Неон</item>
+        <item>Шил</item>
+        <item>Сонгодог</item>
+    </string-array>
+    <string name="sidebar_style_title">Аппын самбарын загвар</string>
+    <string-array name="sidebar_style_entries">
+        <item>Сонгодог</item>
+        <item>RR шил</item>
+        <item>Неон</item>
+    </string-array>
+    <string name="sidebar_settings_title">Аппын самбар</string>
+    <string name="sidebar_settings_summary">Таны аппууд болон хэрэгслүүдийг авахын тулд бариулаас гулсуулан нээнэ үү</string>
+    <string name="sidebar_apps_title">Аппууд, бариул ба клипборд</string>
+    <string name="sidebar_apps_summary">Бариулыг асааж, аппуудаа сонгож, ухаалаг клипбордоо тохируулна уу</string>
+    <string name="sidebar_handle_size_title">Бариулын хэмжээ</string>
+    <string name="sidebar_tools_title">Хэрэгслийн мөр</string>
+    <string name="sidebar_tools_summary">Аппуудынхаа доор дэлгэцийн зураг дарах ба гар чийдэн</string>
+    <string name="sidebar_footer">Бариул нь таны өнгөт зохицолтой нимгэн шугам; ирмэгийн дагуу чирэн зөөнө. Зангаагаар навигаци хийхэд зөвхөн өөрийн хэсэгт байрлаж, бусад газарт буцах зангаа ажиллана.</string>
 </resources>

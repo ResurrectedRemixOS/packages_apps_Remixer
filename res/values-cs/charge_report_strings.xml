@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Baterie"</string>
     <string name="charge_report_temp">"Teplota"</string>
     <string name="charge_report_time">"Čas"</string>
+    <string name="charge_report_title">Přehledy nabíjení</string>
+    <string name="charge_report_summary">Shrnutí každého nabíjení po odpojení</string>
+    <string name="charge_report_min_title">Pouze pokud přidalo alespoň</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 dny</item>
+        <item>7 dní</item>
+        <item>14 dní</item>
+        <item>30 dní</item>
+    </string-array>
+    <string name="charge_report_history_days">Posledních <xliff:g id="days" example="7">%1$d</xliff:g> dní</string>
+    <string name="charge_report_today">Dnes, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Včera, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> h <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Watty</string>
+    <string name="charge_report_added">Přidáno</string>
+    <string name="charge_report_peak">Špička</string>
+    <string name="charge_report_average">Průměr</string>
+    <string name="charge_report_max_temp">Max. teplota</string>
+    <string name="charge_report_charger">Nabíječka</string>
+    <string name="charge_report_started">Začátek v</string>
+    <string name="charge_report_wired">Kabelem</string>
+    <string name="charge_report_wireless">Bezdrátově</string>
+    <string name="charge_report_dock">Dok</string>
+    <string name="charge_report_empty">Zatím žádná nabíjení</string>
+    <string name="charge_report_footer">SystemUI čte proud, napětí a teplotu baterie každých 30 sekund, dokud je připojena. Watty jsou naměřené telefonem, takže se mohou lišit od čísla na nabíječce. Zprávy zůstávají v telefonu; nic se nenahrává.</string>
 </resources>

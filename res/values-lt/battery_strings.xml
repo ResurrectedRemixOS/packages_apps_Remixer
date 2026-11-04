@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Akumuliatorius"</string>
     <string name="battery_style_title">"Stilius"</string>
+    <string-array name="battery_style_entries">
+        <item>Portretas</item>
+        <item>"Draugų ratas"</item>
+        <item>Punktyrinis apskritimas</item>
+        <item>Neoninis žiedas</item>
+        <item>Plona pilulė</item>
+        <item>Didelis procentas</item>
+        <item>"Tekstas"</item>
+    </string-array>
+    <string name="battery_percent_title">Procentas</string>
+    <string-array name="battery_percent_entries">
+        <item>"Paslėpta"</item>
+        <item>Piktogramos viduje</item>
+        <item>Šalia jos</item>
+    </string-array>
+    <string name="battery_ring_color_title">Neoninio žiedo spalva</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Pagal lygį – akcentas virš 20%%, raudona žemiau ir gintarinė Akumuliatoriaus taupymo režimu.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Pagal lygį</item>
+        <item>Akcentas</item>
+        <item>"Balta"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Kibirkštis kraunant</string>
+    <string name="battery_ring_tile_title">Tas pats žiedas ant Spartiųjų nustatymų išklotinės elemento</string>
+    <string name="battery_ring_tile_summary">Su lygiu ir ekrano įjungimo laiku</string>
 </resources>

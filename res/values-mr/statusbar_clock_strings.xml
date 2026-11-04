@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"तारीख"</string>
     <string name="sb_weather_category">"हवामान"</string>
+    <string name="sb_clock_category">घड्याळ आणि तारीख</string>
+    <string name="sb_clock_bold_title">ठळक घड्याळ</string>
+    <string name="sb_clock_bold_summary">स्टेटस बारमधील घड्याळ ठळक दाखवा</string>
+    <string name="sb_clock_period_separator_title">कालावधी विभाजक</string>
+    <string name="sb_clock_period_separator_summary">10:45 ऐवजी 10.45</string>
+    <string name="sb_clock_date_position_title">तारखेची स्थिती</string>
+    <string name="sb_clock_date_style_title">तारखेचे स्वरूप</string>
+    <string name="sb_clock_date_format_title">तारीख फॉरमॅट</string>
+    <string name="sb_clock_chip_category">घड्याळाची पार्श्वभूमी</string>
+    <string name="sb_clock_chip_title">पार्श्वभूमी शैली</string>
+    <string name="sb_clock_chip_start_title">ग्रेडियंट सुरुवात</string>
+    <string name="sb_clock_chip_end_title">ग्रेडियंट शेवट</string>
+    <string name="sb_clock_chip_angle_title">ग्रेडियंट कोन</string>
+    <string name="sb_clock_chip_mask_title">ग्रेडियंटमधून वेळ कापा</string>
+    <string name="sb_clock_chip_mask_summary">अंकांच्या मागे दाखवण्याऐवजी ग्रेडियंट अंकांमधून दिसेल</string>
+    <string name="sb_weather_title">स्टेटस बारमध्ये हवामान</string>
+    <string name="sb_weather_position_title">स्थिती</string>
+    <string name="status_bar_clock_rr_style_title">घड्याळाचा लूक</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"डीफॉल्ट"</item>
+        <item>निऑन</item>
+        <item>विभागलेले</item>
+        <item>RR चिन्ह</item>
+        <item>मोनो</item>
+        <item>Pulse</item>
+        <item>रचलेले</item>
+        <item>एम्बर</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">वेळेच्या बाजूला Flatline</string>
+    <string name="sb_clock_flatline_summary">चिपमधील RR ची हार्टबीट रेषा: संगीतासोबत ठोके, सूचना आल्यावर उसळी</string>
 </resources>

@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Ժամաչափ</string>
     <string name="quick_launch_undo">"Հետարկել"</string>
     <string name="quick_launch_off">"Անջատված է"</string>
+    <string name="quick_launch_title">Արագ գործարկում</string>
+    <string name="quick_launch_main">Մատնահետքի արագ գործարկում</string>
+    <string name="quick_launch_main_summary">Ապակողպելուց հետո պահեք մատը սենսորի վրա՝ դյուրանցում բացելու համար</string>
+    <string name="quick_launch_hint">Հպեք դյուրանցմանը՝ այն փոխելու համար, պահեք՝ հեռացնելու համար, կամ քաշեք՝ վերադասավորելու համար։</string>
+    <string name="quick_launch_behavior">Վարքագիծ</string>
+    <string name="quick_launch_hold">Պահելու ժամանակ</string>
+    <string name="quick_launch_haptics">Թրթռալ յուրաքանչյուր դյուրանցման ժամանակ</string>
+    <string name="quick_launch_add">Ավելացնել</string>
+    <string name="quick_launch_video">Տեսանյութ</string>
+    <string name="quick_launch_qr">Սկանավորել QR</string>
+    <string name="quick_launch_app">Հավելված…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g>-ը հեռացված է</string>
 </resources>

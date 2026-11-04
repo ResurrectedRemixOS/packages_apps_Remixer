@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Akumulators"</string>
     <string name="battery_style_title">"Stils"</string>
+    <string-array name="battery_style_entries">
+        <item>Portrets</item>
+        <item>"Loks"</item>
+        <item>Punktēts aplis</item>
+        <item>Neona gredzens</item>
+        <item>Plāna kapsula</item>
+        <item>Liels procents</item>
+        <item>"Sūtīt īsziņu"</item>
+    </string-array>
+    <string name="battery_percent_title">Procents</string>
+    <string-array name="battery_percent_entries">
+        <item>"Paslēpts"</item>
+        <item>Ikonas iekšpusē</item>
+        <item>Blakus tai</item>
+    </string-array>
+    <string name="battery_ring_color_title">Neona gredzena krāsa</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Pēc līmeņa ir akcenta krāsa virs 20%%, sarkana zem tā un dzeltena akumulatora taupītājā.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Pēc līmeņa</item>
+        <item>Akcents</item>
+        <item>"Balta"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Dzirkstis uzlādes laikā</string>
+    <string name="battery_ring_tile_title">Tas pats gredzens ātro iestatījumu elementā</string>
+    <string name="battery_ring_tile_summary">Ar līmeni un ekrāna ieslēgtā laika rādījumu</string>
 </resources>

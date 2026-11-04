@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Animace spouštění</string>
+    <string name="boot_animation_note">Spustí se při příštím startu telefonu.</string>
+    <string name="boot_animation_custom">Tvůj soubor</string>
+    <string name="boot_animation_custom_pick">Vyber soubor…</string>
+    <string name="boot_animation_custom_invalid">Tento soubor není animace spuštění</string>
+    <string name="boot_animation_failed">Animaci spuštění se nepodařilo změnit</string>
+</resources>

@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Poteze</string>
     <string name="backup_group_other">"Drugo"</string>
     <string name="backup_done">"Končano"</string>
+    <string name="backup_summary">Vse prilagoditve RR v eni datoteki</string>
+    <string name="backup_now">Varnostno kopiraj zdaj</string>
+    <string name="backup_never">Zadnja varnostna kopija: nikoli</string>
+    <string name="backup_last">Zadnja varnostna kopija: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Obnovi iz datoteke</string>
+    <string name="backup_restore_summary">Izberite datoteko varnostne kopije</string>
+    <string name="backup_included">Vključeno</string>
+    <string name="backup_part_theme">Poudarek, pisava in ikone</string>
+    <string name="backup_part_header">Slika glave</string>
+    <string name="backup_part_photo">Glava slike (vaša fotografija)</string>
+    <string name="backup_part_photo_summary">Poveča datoteko</string>
+    <string name="backup_part_boot">Animacija zagona</string>
+    <string name="backup_part_looks">Vaši videzi</string>
+    <string name="backup_weekly">Tedenska varnostna kopija</string>
+    <string name="backup_weekly_summary">V mapo, ki jo izberete</string>
+    <string name="backup_weekly_on">Vsak teden v <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Ponudi varnostno kopijo pred posodobitvami</string>
+    <string name="backup_offer_summary">Posodobitvenik vpraša, preden namesti</string>
+    <string name="backup_sets">Nastavi <xliff:g id="count" example="64">%1$d</xliff:g> nastavitev</string>
+    <string name="backup_saved">Shranjenih nastavitev: <xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_restored">Obnovljenih nastavitev: <xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_restored_message">SystemUI se za uveljavitev znova zažene.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> nastavitev na tej gradnji ne obstaja in so bile preskočene.</string>
+    <string name="backup_failed">Varnostne kopije ni bilo mogoče shraniti</string>
+    <string name="backup_invalid">Ta datoteka ni varnostna kopija Resurrected Remix</string>
+    <string name="backup_footer">V datoteko gredo samo nastavitve RR: brez računov, gesel, omrežij Wi-Fi, aplikacij ali sporočil. Obnova zapisuje le nastavitve s seznama RR, zato datoteka ne more spremeniti ničesar drugega v telefonu. Vaša naslovna fotografija je vključena samo, če je stikalo vklopljeno, saj poveča datoteko.</string>
+    <string name="volume_style_title">Slog plošče glasnosti</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Steklo</item>
+        <item>Pilula</item>
+        <item>Klasični RR</item>
+        <item>Bento</item>
+        <item>Oblike</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Mehko</item>
+    </string-array>
 </resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Sincronització de l\'anell</string>
+    <string name="ring_sync_tap">Toca quan un anell coincideixi amb la marca</string>
+    <string name="ring_sync_best">Millor <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">PERFECTE</string>
+    <string name="ring_sync_new_best">Nova millor puntuació</string>
+    <string name="ring_sync_again">Toca per tornar a jugar</string>
+    <string name="ring_sync_ember">Accent Ember desbloquejat</string>
+    <string name="ring_sync_use_ember">Usa Ember</string>
+    <string name="ring_sync_android">L\'ou de Pasqua d\'Android</string>
+    <string name="ring_sync_vibrate_on">Vibra en els impactes · Sí</string>
+    <string name="ring_sync_vibrate_off">Vibra en els impactes · No</string>
+    <string name="accent_ember">Brasa</string>
+</resources>

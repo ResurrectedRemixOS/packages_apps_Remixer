@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Folosește RKP al dispozitivului</string>
+    <string name="ts_rkp_enabled_summary">Folosește un keybox generat. Importarea unui keybox dezactivează această opțiune.</string>
+    <string name="ts_rkp_provision">Generează keybox</string>
+    <string name="ts_rkp_provision_summary">Solicită un keybox de la Google prin serviciul de aprovizionare al acestui dispozitiv. Necesită firmware Qualcomm compatibil.</string>
+    <string name="ts_rkp_status">Starea aprovizionării</string>
+    <string name="ts_rkp_owner_only">Gestionează RKP-ul dispozitivului din profilul proprietarului dispozitivului</string>
+    <string name="ts_rkp_unavailable">RKP-ul dispozitivului nu este disponibil</string>
+    <string name="ts_rkp_imported">Dezactivat cât timp este instalat un keybox importat</string>
+    <string name="ts_rkp_disabled">Dezactivat. Activează RKP-ul dispozitivului pentru a folosi sau genera un keybox.</string>
+    <string name="ts_rkp_idle">Gata să solicite un keybox</string>
+    <string name="ts_rkp_fetching">Se obține o provocare de aprovizionare…</string>
+    <string name="ts_rkp_hardware">Se așteaptă serviciul de aprovizionare al dispozitivului…</string>
+    <string name="ts_rkp_signing">Se solicită certificate de la Google…</string>
+    <string name="ts_rkp_validating">Se validează și se salvează keybox-ul…</string>
+    <string name="ts_rkp_ready">Keybox generat activ. Se reînnoiește automat înainte de %1$s</string>
+    <string name="ts_rkp_keybox_stored">Keybox RKP al dispozitivului stocat</string>
+    <string name="ts_rkp_expired">Keybox generat expirat. Generează un înlocuitor.</string>
+    <string name="ts_rkp_hal_rejected">Firmware-ul a respins solicitarea (cod %1$d). Duck V1 s-ar putea să nu fie acceptat.</string>
+    <string name="ts_rkp_http_error">Serverul de aprovizionare a respins solicitarea (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Dispozitivul nu expune o interfață de aprovizionare V1 compatibilă</string>
+    <string name="ts_rkp_network_error">Nu s-a putut contacta serverul de aprovizionare. Verifică conexiunea.</string>
+    <string name="ts_rkp_submission_unknown">Răspunsul serverului s-a pierdut. Solicitarea poate fi procesată; nu s-a făcut nicio reîncercare automată.</string>
+    <string name="ts_rkp_invalid_chain">Certificatele keybox-ului nu au trecut validarea. Keybox-ul existent a fost păstrat.</string>
+    <string name="ts_rkp_timeout">Aprovizionarea a expirat. Dacă serviciul dispozitivului este încă ocupat, repornește dispozitivul înainte de a încerca din nou.</string>
+    <string name="ts_rkp_canceled">Solicitare anulată deoarece configurația keybox-ului s-a schimbat</string>
+    <string name="ts_rkp_save_failed">Keybox-ul generat nu a putut fi salvat</string>
+    <string name="ts_rkp_action_failed">Operația cu keybox nu a putut fi finalizată</string>
+</resources>

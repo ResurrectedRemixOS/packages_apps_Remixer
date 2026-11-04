@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Batteria"</string>
     <string name="battery_style_title">"Stile"</string>
+    <string-array name="battery_style_entries">
+        <item>Verticale</item>
+        <item>"Cerchio"</item>
+        <item>Cerchio puntinato</item>
+        <item>Anello al neon</item>
+        <item>Pillola sottile</item>
+        <item>Percentuale grande</item>
+        <item>Testo</item>
+    </string-array>
+    <string name="battery_percent_title">Percentuale</string>
+    <string-array name="battery_percent_entries">
+        <item>Nascosta</item>
+        <item>All\'interno dell\'icona</item>
+        <item>Accanto</item>
+    </string-array>
+    <string name="battery_ring_color_title">Colore dell\'anello al neon</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Per livello usa il colore primario sopra il 20%%, rosso sotto e ambra con il risparmio energia.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Per livello</item>
+        <item>Accento</item>
+        <item>"Bianco"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Scintilla durante la ricarica</string>
+    <string name="battery_ring_tile_title">Stesso anello sulla riga delle impostazioni rapide</string>
+    <string name="battery_ring_tile_summary">Con il livello e il tempo di accensione dello schermo</string>
 </resources>

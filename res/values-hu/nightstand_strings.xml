@@ -2,4 +2,18 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Mikor"</string>
     <string name="nightstand_face">Óralap</string>
+    <string name="nightstand_title">Éjjeli óra</string>
+    <string name="nightstand_summary">Halvány éjjeli óra az állandó kijelzőn, éjszaka töltés közben</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Ki"</item>
+        <item>Éjszaka, töltőn</item>
+        <item>Minden éjjel, ütemezve</item>
+        <item>Amíg valamelyik Lefekvés mód be van kapcsolva</item>
+    </string-array>
+    <string name="nightstand_from">Éjszaka kezdete</string>
+    <string name="nightstand_to">Éjszaka vége</string>
+    <string name="nightstand_brightness">Fényerő-korlát</string>
+    <string name="nightstand_brightness_summary">Az állandó kijelző legfeljebb ilyen fényes lehet az éjjeli óra alatt</string>
+    <string name="nightstand_face_keep">Az aktuális óralap megtartása</string>
+    <string name="nightstand_footer">Az éjjeli óra futása alatt bekapcsolja az állandó kijelzőt, majd utána visszaállítja. Véget ér, ha a töltő lecsatlakozik, megszólal az ébresztő vagy véget ér az éjszaka. Az óralap csak két egyéni óralap között vált; a rendszeróra marad.</string>
 </resources>

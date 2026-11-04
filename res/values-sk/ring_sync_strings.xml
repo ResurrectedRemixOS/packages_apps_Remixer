@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Synchronizácia kruhu</string>
+    <string name="ring_sync_tap">Klepnite, keď sa kruh zarovná so značkou</string>
+    <string name="ring_sync_best">Najlepšie <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">DOKONALÉ</string>
+    <string name="ring_sync_new_best">Nový rekord</string>
+    <string name="ring_sync_again">Klepnutím hrajte znova</string>
+    <string name="ring_sync_ember">Odomknutá farba Ember</string>
+    <string name="ring_sync_use_ember">Použiť Ember</string>
+    <string name="ring_sync_android">Easterov vajíčko systému Android</string>
+    <string name="ring_sync_vibrate_on">Vibrovať pri zásahoch · Zap.</string>
+    <string name="ring_sync_vibrate_off">Vibrovať pri zásahoch · Vyp.</string>
+    <string name="accent_ember">Žeravé</string>
+</resources>

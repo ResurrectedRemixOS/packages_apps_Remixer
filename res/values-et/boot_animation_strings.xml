@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Käivitusanimatsioon</string>
+    <string name="boot_animation_note">Mängitakse järgmisel telefoni käivitamisel.</string>
+    <string name="boot_animation_custom">Sinu fail</string>
+    <string name="boot_animation_custom_pick">Vali fail…</string>
+    <string name="boot_animation_custom_invalid">See fail ei ole käivitusanimatsioon</string>
+    <string name="boot_animation_failed">Käivitusanimatsiooni ei õnnestunud muuta</string>
+</resources>

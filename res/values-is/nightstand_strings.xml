@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">Hvenær</string>
+    <string name="nightstand_title">Náttborð</string>
+    <string name="nightstand_summary">Dauf náttborðsklukka á skjánum sem er alltaf á meðan hleðst að næturlagi</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Slökkt"</item>
+        <item>Í hleðslu að næturlagi</item>
+        <item>Á hverju kvöldi, eftir áætlun</item>
+        <item>Meðan svefnstilling er á</item>
+    </string-array>
+    <string name="nightstand_from">Nótt byrjar</string>
+    <string name="nightstand_to">Nótt endar</string>
+    <string name="nightstand_brightness">Hámarksbirta</string>
+    <string name="nightstand_brightness_summary">Hversu björt skjárinn sem er alltaf á má verða meðan Náttborð er á</string>
+    <string name="nightstand_face">Klukkuskjár</string>
+    <string name="nightstand_face_keep">Halda núverandi skjá</string>
+    <string name="nightstand_footer">Náttborð kveikir á skjánum sem er alltaf á meðan það keyrir og setur hann aftur eftir á. Það hættir þegar hleðslutækið er tekið úr sambandi, vekjarinn hringir eða nóttin endar. Skjárinn skiptir aðeins milli tveggja sérsniðinna skjáa; kerfisklukkan helst.</string>
 </resources>

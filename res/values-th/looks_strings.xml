@@ -15,4 +15,60 @@
     <string name="looks_save_look">"บันทึก"</string>
     <string name="looks_custom_color">"สีที่กำหนดเอง"</string>
     <string name="looks_part_clock_color">"สีนาฬิกา"</string>
+    <string name="looks_title">ลุค</string>
+    <string name="looks_summary">การตั้งค่าทั้งหมดของคุณในแตะเดียว</string>
+    <string name="looks_rr">ลุค RR</string>
+    <string name="looks_yours">ลุคของคุณ</string>
+    <string name="looks_none">ยังไม่มีการบันทึก</string>
+    <string name="looks_save">บันทึกปัจจุบัน</string>
+    <string name="looks_import_clipboard">จากคลิปบอร์ด</string>
+    <string name="looks_import_file">จากไฟล์</string>
+    <string name="looks_mine">ลุคของฉัน</string>
+    <string name="looks_applied">ใช้ <xliff:g id="name" example="Neon night">%1$s</xliff:g> แล้ว</string>
+    <string name="looks_failed">ใช้ไม่ได้ทั้งหมด</string>
+    <string name="looks_invalid">นี่ไม่ใช่ลุค RR</string>
+    <string name="looks_part_accent">สีเน้น</string>
+    <string name="looks_part_qs">รูปแบบการตั้งค่าด่วน</string>
+    <string name="looks_part_clock_face">รูปแบบนาฬิกาหน้าจอล็อก</string>
+    <string name="looks_part_clock_look">นาฬิกาในแถบสถานะ</string>
+    <string name="looks_part_edge">ไฟขอบ</string>
+    <string name="looks_part_boot">แอนิเมชันการบูต</string>
+    <string name="looks_part_haptics">รูปแบบ Haptic Remix</string>
+    <plurals name="looks_haptic_patterns">
+        <item quantity="other">%d รูปแบบและการกำหนดค่า</item>
+    </plurals>
+    <string name="looks_saturation">ความอิ่มสี <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">สีเน้น</string>
+    <string name="looks_share_title">แชร์ “<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">สแกนด้วยกล้องของโทรศัพท์ RR เครื่องอื่น หรือในลุค › นำเข้า</string>
+    <string name="looks_share_file">แชร์ไฟล์</string>
+    <string name="looks_save_file">บันทึกไฟล์</string>
+    <string name="looks_import_scan">สแกนรหัส QR</string>
+    <string name="looks_import_title">นำเข้าลุค</string>
+    <string name="looks_from_qr">จากรหัส QR</string>
+    <string name="looks_from_file">จากไฟล์</string>
+    <string name="looks_from_clipboard">จากคลิปบอร์ด</string>
+    <string name="looks_import_same">ตรงกับการตั้งค่าของคุณอยู่แล้ว</string>
+    <plurals name="looks_import_changes">
+        <item quantity="other">มีการเปลี่ยนแปลง <xliff:g id="count" example="4">%d</xliff:g> รายการ:</item>
+    </plurals>
+    <string name="looks_new">ลุคใหม่</string>
+    <string name="looks_edit_title">แก้ไขลุค</string>
+    <string name="looks_in_look">ในลุคนี้</string>
+    <string name="looks_not_included">ไม่อยู่ในลุคนี้</string>
+    <string name="looks_save_apply">บันทึกและใช้</string>
+    <string name="looks_saved">บันทึก “<xliff:g id="name" example="Sunday">%1$s</xliff:g>” แล้ว</string>
+    <string name="looks_delete_confirm">ลบ “<xliff:g id="name" example="Sunday">%1$s</xliff:g>” ใช่ไหม?</string>
+    <string name="looks_rr_wallpaper">วอลเปเปอร์ RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">ความอิ่มตัวของสีเน้น</string>
+    <string name="looks_part_clock_chip">ชิปนาฬิกาในแถบสถานะ</string>
+    <string name="looks_part_edge_style">รูปแบบแสงขอบจอ</string>
+    <string name="looks_scan_hint">เล็งกล้องไปที่คิวอาร์โค้ดของลุค</string>
+    <string name="looks_scan_failed">เปิดกล้องไม่ได้</string>
+    <string name="look_roulette_title">ลุคสุ่ม</string>
+    <string-array name="look_roulette_entries">
+        <item>"ปิด"</item>
+        <item>ลุคต่างกันทุกครั้งที่ปลดล็อก</item>
+        <item>ลุคต่างกันทุกวัน</item>
+    </string-array>
 </resources>

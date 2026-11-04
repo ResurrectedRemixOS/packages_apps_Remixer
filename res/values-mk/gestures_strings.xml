@@ -8,4 +8,50 @@
         <item>"Средно"</item>
         <item>"Големо"</item>
     </string-array>
+    <string name="pie_title">Пита контроли</string>
+    <string name="pie_summary">Задржете го долниот дел од работ за пита со кратенки</string>
+    <string name="pie_zone">Дел од работ</string>
+    <string name="pie_clock">Часовникот и батеријата над него</string>
+    <string name="pie_items">Парчиња</string>
+    <string-array name="pie_items_entries">
+        <item>"Назад"</item>
+        <item>Почетен</item>
+        <item>"Неодамнешни"</item>
+        <item>"Известувања"</item>
+        <item>"Светилка"</item>
+        <item>"Слика од екранот"</item>
+        <item>"Мени на копчето за вклучување"</item>
+        <item>"Помошник"</item>
+        <item>"Камера"</item>
+    </string-array>
+    <string name="pie_footer">Потребно е држење од четвртина секунда без движење, за брзото повлекување од работ да сè уште води назад. Не се отвора на заклучен екран.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Лево"</item>
+        <item>"Десно"</item>
+        <item>И двете</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Долна третина</item>
+        <item>Средина</item>
+        <item>Цел раб</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Неон</item>
+        <item>Стакло</item>
+        <item>Класично</item>
+    </string-array>
+    <string name="sidebar_style_title">Изглед на бочната лента со апликации</string>
+    <string-array name="sidebar_style_entries">
+        <item>Класично</item>
+        <item>RR стакло</item>
+        <item>Неон</item>
+    </string-array>
+    <string name="sidebar_settings_title">Бочна лента со апликации</string>
+    <string name="sidebar_settings_summary">Повлечете од рачката за вашите апликации и алатки</string>
+    <string name="sidebar_apps_title">Апликации, рачка и привремена меморија</string>
+    <string name="sidebar_apps_summary">Вклучете ја рачката, изберете апликации и поставете паметна привремена меморија</string>
+    <string name="sidebar_handle_size_title">Големина на рачката</string>
+    <string name="sidebar_tools_title">Ред со алатки</string>
+    <string name="sidebar_tools_summary">Слика од екранот и светилка под вашите апликации</string>
+    <string name="sidebar_footer">Рачката е тенка линија во вашата акцентна боја; повлечете ја за да ја поместите по работ. Со навигација со движења ја покрива само својот дел од работ, а назад работи на сите други места.</string>
 </resources>

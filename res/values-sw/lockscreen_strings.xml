@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lockscreen_battery_info_title">Maelezo ya kuchaji</string>
+    <string name="lockscreen_battery_info_summary">Onyesha mkondo, wati, volteji na joto la betri wakati wa kuchaji</string>
+    <string name="charging_ring_title">Uhuishaji wa kuchaji wa SuperVOOC</string>
+    <string name="charging_ring_summary">Onyesha pete ya kuchaji na kasi unapochomeka kifaa</string>
+    <string name="pocket_mode_title">Hali ya mfukoni</string>
+    <string name="pocket_mode_summary">Kihisi cha ukaribu kikiwa kimefunikwa, skrini haiwaki na miguso inapuuzwa</string>
+    <string name="screen_on_time_title">Muda wa skrini kuwaka</string>
+    <string name="screen_on_time_summary">Onyesha muda wa skrini kuwaka tangu chaji kamili ya mwisho kwenye skrini iliyofungwa wakati wa kuchaji na kwenye kigae cha Battery Saver</string>
+</resources>

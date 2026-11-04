@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"ವಾಲ್‌ಪೇಪರ್"</item>
+        <item>ಪುನರುಜ್ಜೀವನಗೊಂಡ</item>
+        <item>ಆಂಡ್ರಾಯ್ಡ್ ಒನ್ ಗ್ರೀನ್</item>
+        <item>ಅಸ್ಪಾ ಗ್ರೀನ್</item>
+        <item>ಕೋಕಾ ಕೋಲಾ ರೆಡ್</item>
+        <item>ಡಿಸ್ಕಾರ್ಡ್ ಪರ್ಪಲ್</item>
+        <item>ಫೇಸ್‌ಬುಕ್ ಬ್ಲೂ</item>
+        <item>ಇನ್‌ಸ್ಟಾಗ್ರಾಮ್ ಸೆರಿಸ್</item>
+        <item>ಜೋಲಿಬೀ ಕ್ರಿಮ್ಸನ್</item>
+        <item>ಮಾನ್‌ಸ್ಟರ್ ಎನರ್ಜಿ ಗ್ರೀನ್</item>
+        <item>ನೆಕ್ಸ್‌ಬಿಟ್ ಮಿಂಟ್</item>
+        <item>ಒನ್‌ಪ್ಲಸ್ ರೆಡ್</item>
+        <item>ಪೆಪ್ಸಿ ಬ್ಲೂ</item>
+        <item>ಪಿಕ್ಸೆಲ್ ಬ್ಲೂ</item>
+        <item>ಪೋಕೋಫೋನ್ ಯೆಲ್ಲೋ</item>
+        <item>ರೇಜರ್ ಗ್ರೀನ್</item>
+        <item>ಸ್ಯಾಮ್‌ಸಂಗ್ ಬ್ಲೂ</item>
+        <item>ಸ್ಪಾಟಿಫೈ ಗ್ರೀನ್</item>
+        <item>ಸ್ಟಾರ್‌ಬಕ್ಸ್ ಗ್ರೀನ್</item>
+        <item>ಟ್ವಿಚ್ ಪರ್ಪಲ್</item>
+        <item>ಟ್ವಿಟ್ಟರ್ ಬ್ಲೂ</item>
+        <item>ಶಿಯೋಮಿ ಆರೆಂಜ್</item>
+        <item>ಆಂಬರ್</item>
+        <item>"ಕಪ್ಪು"</item>
+        <item>"ನೀಲಿ"</item>
+        <item>ಬ್ಲೂ ಗ್ರೇ</item>
+        <item>ಬ್ರೌನ್</item>
+        <item>"ಹಸಿರುನೀಲಿ"</item>
+        <item>ಡೀಪ್ ಆರೆಂಜ್</item>
+        <item>ಡೀಪ್ ಪರ್ಪಲ್</item>
+        <item>"ಹಸಿರು"</item>
+        <item>"ಬೂದು"</item>
+        <item>"ಇಂಡಿಗೊ"</item>
+        <item>ಲೈಟ್ ಬ್ಲೂ</item>
+        <item>ಲೈಮ್</item>
+        <item>"ಕಿತ್ತಳೆ"</item>
+        <item>"ಗುಲಾಬಿ ಬಣ್ಣ"</item>
+        <item>"ನೇರಳೆ"</item>
+        <item>"ಕೆಂಪು"</item>
+        <item>"ಟೀಲ್"</item>
+        <item>ಬಳಕೆದಾರ ಐದು</item>
+        <item>ಬಳಕೆದಾರ ನಾಲ್ಕು</item>
+        <item>ಬಳಕೆದಾರ ಒಂದು</item>
+        <item>ಬಳಕೆದಾರ ಏಳು</item>
+        <item>ಬಳಕೆದಾರ ಆರು</item>
+        <item>ಬಳಕೆದಾರ ಮೂರು</item>
+        <item>ಬಳಕೆದಾರ ಎರಡು</item>
+        <item>"ಬಿಳಿ"</item>
+        <item>"ಹಳದಿ"</item>
+    </string-array>
+</resources>

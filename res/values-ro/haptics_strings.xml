@@ -7,4 +7,36 @@
     <string name="haptic_remix_color_blue">"Albastru"</string>
     <string name="haptic_remix_color_green">"Verde"</string>
     <string name="haptic_remix_color_white">"Alb"</string>
+    <string name="haptic_remix_summary">Bate modelele de vibrație pentru apeluri, aplicații, alarme și deblocări</string>
+    <string name="haptic_remix_record">Înregistrează</string>
+    <string name="haptic_remix_pad">bate ritmul</string>
+    <string name="haptic_remix_strength">Intensitate</string>
+    <string name="haptic_remix_clear">Golește</string>
+    <string name="haptic_remix_play">Redă</string>
+    <string name="haptic_remix_name">Numele modelului</string>
+    <string name="haptic_remix_empty">Nimic înregistrat încă</string>
+    <string name="haptic_remix_too_long">Un model poate dura 30 de secunde</string>
+    <string name="haptic_remix_presets">Presetări</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Sticlă</string>
+    <string name="haptic_remix_preset_ringtone">Ritmul melodiei de apel</string>
+    <string name="haptic_remix_listening">Se ascultă melodia de apel…</string>
+    <string name="haptic_remix_no_ringtone">Melodia de apel nu a putut fi citită</string>
+    <string name="haptic_remix_patterns">Modelele tale</string>
+    <string name="haptic_remix_patterns_none">Salvează mai întâi un model. Ține apăsat pe unul pentru a-l șterge.</string>
+    <string name="haptic_remix_broken">Modelul nu poate fi citit</string>
+    <string name="haptic_remix_delete">Ștergi <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Atribuie la</string>
+    <string name="haptic_remix_alarm">Alarmă și cronometru</string>
+    <string name="haptic_remix_plug">Conectat la încărcător</string>
+    <string name="haptic_remix_fingerprint">Amprentă recunoscută</string>
+    <string name="haptic_remix_add_contact">Adaugă un contact</string>
+    <string name="haptic_remix_edge_color">Iluminarea marginilor pentru mesajele lui <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">Accent</string>
+    <string name="haptic_remix_color_crimson">Carmin</string>
+    <string name="haptic_remix_color_violet">Violet</string>
+    <string name="haptic_remix_color_amber">Chihlimbar</string>
+    <string name="haptic_remix_add_app">Adaugă notificările unei aplicații</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · atinge pentru a schimba, ține apăsat pentru culoarea marginii</string>
+    <string name="haptic_remix_no_contacts">Contactele nu au returnat niciun număr</string>
 </resources>

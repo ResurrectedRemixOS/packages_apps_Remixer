@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"แบตเตอรี่"</string>
     <string name="battery_style_title">"รูปแบบ"</string>
+    <string-array name="battery_style_entries">
+        <item>แนวตั้ง</item>
+        <item>"แวดวง"</item>
+        <item>วงกลมจุด</item>
+        <item>วงนีออน</item>
+        <item>แคปซูลบาง</item>
+        <item>เปอร์เซ็นต์ขนาดใหญ่</item>
+        <item>"ส่งข้อความ"</item>
+    </string-array>
+    <string name="battery_percent_title">เปอร์เซ็นต์</string>
+    <string-array name="battery_percent_entries">
+        <item>ซ่อน</item>
+        <item>ภายในไอคอน</item>
+        <item>ถัดจากไอคอน</item>
+    </string-array>
+    <string name="battery_ring_color_title">สีวงนีออน</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s ตามระดับคือสีเน้นเมื่อมากกว่า 20%% สีแดงเมื่อต่ำกว่านั้น และสีเหลืองอำพันขณะเปิดโหมดประหยัดแบตเตอรี่</string>
+    <string-array name="battery_ring_color_entries">
+        <item>ตามระดับ</item>
+        <item>สีเน้น</item>
+        <item>"ขาว"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">ประกายขณะชาร์จ</string>
+    <string name="battery_ring_tile_title">วงเดียวกันบนการ์ดการตั้งค่าด่วน</string>
+    <string name="battery_ring_tile_summary">พร้อมระดับและเวลาที่หน้าจอเปิด</string>
 </resources>

@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">ഗസ്റ്ററുകൾ</string>
     <string name="backup_group_other">"മറ്റുള്ളവ"</string>
     <string name="backup_done">"പൂർത്തിയായി"</string>
+    <string name="backup_summary">എല്ലാ RR ഇഷ്ടാനുസൃതമാക്കലുകളും ഒരു ഫയലിൽ</string>
+    <string name="backup_now">ഇപ്പോൾ ബാക്കപ്പ് ചെയ്യുക</string>
+    <string name="backup_never">അവസാന ബാക്കപ്പ്: ഒരിക്കലുമില്ല</string>
+    <string name="backup_last">അവസാന ബാക്കപ്പ്: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">ഒരു ഫയലിൽ നിന്ന് പുനഃസ്ഥാപിക്കുക</string>
+    <string name="backup_restore_summary">ഒരു ബാക്കപ്പ് ഫയൽ തിരഞ്ഞെടുക്കുക</string>
+    <string name="backup_included">ഉൾപ്പെടുത്തിയവ</string>
+    <string name="backup_part_theme">ആക്സന്റ്, ഫോണ്ട്, ഐക്കണുകൾ</string>
+    <string name="backup_part_header">ഹെഡർ ചിത്രം</string>
+    <string name="backup_part_photo">ഹെഡർ ചിത്രം (നിങ്ങളുടെ ഫോട്ടോ)</string>
+    <string name="backup_part_photo_summary">ഫയൽ വലുതാക്കുന്നു</string>
+    <string name="backup_part_boot">ബൂട്ട് ആനിമേഷൻ</string>
+    <string name="backup_part_looks">നിങ്ങളുടെ ലുക്കുകൾ</string>
+    <string name="backup_weekly">പ്രതിവാര ബാക്കപ്പ്</string>
+    <string name="backup_weekly_summary">നിങ്ങൾ തിരഞ്ഞെടുക്കുന്ന ഒരു ഫോൾഡറിലേക്ക്</string>
+    <string name="backup_weekly_on">എല്ലാ ആഴ്ചയും <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g> ലേക്ക്</string>
+    <string name="backup_offer">അപ്‌ഡേറ്റുകൾക്ക് മുമ്പ് ബാക്കപ്പ് വാഗ്ദാനം ചെയ്യുക</string>
+    <string name="backup_offer_summary">ഇൻസ്റ്റാൾ ചെയ്യുന്നതിന് മുമ്പ് അപ്‌ഡേറ്റർ ചോദിക്കും</string>
+    <string name="backup_sets"><xliff:g id="count" example="64">%1$d</xliff:g> ക്രമീകരണങ്ങൾ സജ്ജമാക്കുന്നു</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> ക്രമീകരണങ്ങൾ സംരക്ഷിച്ചു</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> ക്രമീകരണങ്ങൾ പുനഃസ്ഥാപിച്ചു</string>
+    <string name="backup_restored_message">ഇവ പ്രയോഗിക്കാൻ SystemUI പുനരാരംഭിക്കുന്നു.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> ക്രമീകരണങ്ങൾ ഈ ബിൽഡിൽ ഇല്ലാത്തതിനാൽ ഒഴിവാക്കി.</string>
+    <string name="backup_failed">ബാക്കപ്പ് സംരക്ഷിക്കാനായില്ല</string>
+    <string name="backup_invalid">ഇത് ഒരു Resurrected Remix ബാക്കപ്പ് ഫയലല്ല</string>
+    <string name="backup_footer">ബാക്കപ്പ് ഫയലിൽ RR ക്രമീകരണങ്ങൾ മാത്രമേ ഉണ്ടാകൂ: അക്കൗണ്ടുകൾ, പാസ്‌വേഡുകൾ, വൈ-ഫൈ നെറ്റ്‌വർക്കുകൾ, ആപ്പുകൾ, സന്ദേശങ്ങൾ എന്നിവ ഉൾപ്പെടില്ല. പുനഃസ്ഥാപിക്കുമ്പോൾ RR-ന്റെ സ്വന്തം പട്ടികയിലുള്ള ക്രമീകരണങ്ങൾ മാത്രമേ എഴുതുകയുള്ളൂ, അതിനാൽ ബാക്കപ്പ് ഫയലിന് ഫോണിലെ മറ്റൊന്നും മാറ്റാനാകില്ല. ഫയൽ വലുതാക്കുന്നതിനാൽ, നിങ്ങളുടെ ഹെഡർ ഫോട്ടോ അതിന്റെ സ്വിച്ച് ഓണാണെങ്കിൽ മാത്രമേ ഉൾപ്പെടുത്തുകയുള്ളൂ.</string>
+    <string name="volume_style_title">വോളിയം പാനൽ ശൈലി</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Glass</item>
+        <item>പിൽ</item>
+        <item>ക്ലാസിക് RR</item>
+        <item>Bento</item>
+        <item>ഷേപ്പുകൾ</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Soft</item>
+    </string-array>
 </resources>

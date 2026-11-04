@@ -2,4 +2,18 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"När"</string>
     <string name="nightstand_face">Urtavla</string>
+    <string name="nightstand_title">Nattbordsläge</string>
+    <string name="nightstand_summary">En dämpad sänglampsklocka på alltid-på-skärmen när telefonen laddas på natten</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Av"</item>
+        <item>På laddare på natten</item>
+        <item>Varje natt, enligt schema</item>
+        <item>Medan ett sovläge är på</item>
+    </string-array>
+    <string name="nightstand_from">Natten börjar</string>
+    <string name="nightstand_to">Natten slutar</string>
+    <string name="nightstand_brightness">Ljusstyrkegräns</string>
+    <string name="nightstand_brightness_summary">Hur ljus alltid-på-skärmen får bli när nattbordsläget är på</string>
+    <string name="nightstand_face_keep">Behåll den nuvarande skärmen</string>
+    <string name="nightstand_footer">Nattbordsläget slår på alltid-på-skärmen medan det körs och återställer den efteråt. Det avslutas när laddaren kopplas bort, när alarmet ringer eller när natten tar slut. Skärmen byter bara mellan två egna skärmar; systemklockan finns kvar.</string>
 </resources>

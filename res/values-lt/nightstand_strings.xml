@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Kada"</string>
+    <string name="nightstand_title">Naktinis laikrodis</string>
+    <string name="nightstand_summary">Prieblandos laikrodis ekrane, visada įjungtame kraunant naktį</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Išjungta"</item>
+        <item>Kraunant naktį</item>
+        <item>Kasnakt pagal tvarkaraštį</item>
+        <item>Kol įjungtas miego režimas</item>
+    </string-array>
+    <string name="nightstand_from">Naktis prasideda</string>
+    <string name="nightstand_to">Naktis baigiasi</string>
+    <string name="nightstand_brightness">Ryškumo riba</string>
+    <string name="nightstand_brightness_summary">Koks ryškus gali būti visada įjungtas ekranas, kol įjungtas naktinis laikrodis</string>
+    <string name="nightstand_face">Ciferblatas</string>
+    <string name="nightstand_face_keep">Palikti dabartinį ciferblatą</string>
+    <string name="nightstand_footer">Naktinis laikrodis įjungia visada įjungtą ekraną jam veikiant ir jį vėl išjungia po to. Jis baigiasi, kai atjungiamas įkroviklis, suskamba signalas arba baigiasi naktis. Ciferblatas tik perjungia tarp dviejų pasirinktinių ciferblatų; sistemos laikrodis lieka.</string>
 </resources>

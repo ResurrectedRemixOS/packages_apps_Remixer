@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="volume_page_title">បន្ទះកម្រិតសំឡេង</string>
+    <string name="volume_page_summary">Neon, Glass, Pill ឬ Classic RR</string>
+    <string name="volume_behavior">ឥរិយាបថ</string>
+    <string name="volume_on_left_title">ផ្ទាំងនៅខាងឆ្វេង</string>
+    <string name="volume_on_left_summary">Classic RR តែងតែនៅខាងលើ</string>
+    <string name="volume_ringer_title">ប៊ូតុងរបៀបរោទ៍</string>
+    <string name="volume_tick_title">ឮសំឡេង ពេលអូសរលុក</string>
+    <string name="volume_percent_title">បង្ហាញកម្រិតជាភាគរយ</string>
+    <string name="volume_timeout_title">លាក់បន្ទាប់ពី</string>
+    <string name="volume_footer">រូបរាងផ្លាស់ប្ដូរតែរូបរាងផ្ទាំង មិនមែនវិធីដំណើរការទេ។ Android រក្សាផ្ទាំងដើម។ ចុចចំណុចដើម្បីមើលគ្រប់ប្រភពសំឡេង; ផ្ទាំងពង្រីកប្រើរូបរាងដូចគ្នា។</string>
+</resources>

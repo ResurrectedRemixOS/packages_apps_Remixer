@@ -4,4 +4,14 @@
     <string name="lockscreen_weather_location_title">"লোকেশন"</string>
     <string name="lockscreen_weather_wind_title">বায়ু</string>
     <string name="lockscreen_weather_humidity_title">আর্দ্রতা</string>
+    <string name="lockscreen_weather_title">লক স্ক্রিনে আবহাওয়া</string>
+    <string name="lockscreen_weather_location_summary">শহরের নাম দেখান</string>
+    <string name="lockscreen_weather_text_title">অবস্থা</string>
+    <string name="lockscreen_weather_text_summary">অবস্থা দেখান, যেমন মেঘলা বা পরিষ্কার আকাশ</string>
+    <string name="lockscreen_weather_wind_summary">বাতাসের গতি ও দিক দেখান</string>
+    <string name="lockscreen_weather_humidity_summary">আর্দ্রতা দেখান</string>
+    <string name="custom_clock_weather_title">ঘড়ির ফেসে আবহাওয়া</string>
+    <string name="custom_clock_weather_summary">যেসব ঘড়ির ফেসে জায়গা আছে সেখানে আবহাওয়া দেখান</string>
+    <string name="remixer_weather_service">আবহাওয়া সেবা</string>
+    <string name="remixer_weather_page_summary">লক স্ক্রিনের আবহাওয়া ও তার বিষয়বস্তু</string>
 </resources>

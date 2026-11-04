@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="volume_page_title">Panel kelantangan</string>
+    <string name="volume_page_summary">Neon, Kaca, Pil atau RR Klasik</string>
+    <string name="volume_behavior">Kelakuan</string>
+    <string name="volume_on_left_title">Panel di sebelah kiri</string>
+    <string name="volume_on_left_summary">RR Klasik sentiasa berada di bahagian atas</string>
+    <string name="volume_ringer_title">Butang mod deringan</string>
+    <string name="volume_tick_title">Tanda semasa anda meluncur</string>
+    <string name="volume_percent_title">Tunjukkan tahap dalam peratus</string>
+    <string name="volume_timeout_title">Sembunyi selepas</string>
+    <string name="volume_footer">Gaya hanya mengubah rupa panel, bukan cara ia berfungsi. Android mengekalkan panel asal. Ketik titik untuk melihat setiap aliran; panel kembang menggunakan gaya yang sama.</string>
+</resources>

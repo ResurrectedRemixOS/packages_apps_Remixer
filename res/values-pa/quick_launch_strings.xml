@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">ਟਾਈਮਰ</string>
     <string name="quick_launch_undo">"ਅਣਕੀਤਾ ਕਰੋ"</string>
     <string name="quick_launch_off">"ਬੰਦ"</string>
+    <string name="quick_launch_title">ਤੁਰੰਤ ਲਾਂਚ</string>
+    <string name="quick_launch_main">ਫਿੰਗਰਪ੍ਰਿੰਟ ਤੁਰੰਤ ਲਾਂਚ</string>
+    <string name="quick_launch_main_summary">ਅਨਲਾਕ ਕਰਨ ਤੋਂ ਬਾਅਦ ਸੈਂਸਰ \'ਤੇ ਉਂਗਲ ਰੱਖੋ ਤਾਂ ਸ਼ਾਰਟਕੱਟ ਖੁੱਲ੍ਹੇਗਾ</string>
+    <string name="quick_launch_hint">ਸ਼ਾਰਟਕੱਟ ਬਦਲਣ ਲਈ ਟੈਪ ਕਰੋ, ਹਟਾਉਣ ਲਈ ਦਬਾ ਕੇ ਰੱਖੋ, ਜਾਂ ਕ੍ਰਮ ਬਦਲਣ ਲਈ ਖਿੱਚੋ।</string>
+    <string name="quick_launch_behavior">ਵਿਹਾਰ</string>
+    <string name="quick_launch_hold">ਦਬਾਉਣ ਦਾ ਸਮਾਂ</string>
+    <string name="quick_launch_haptics">ਹਰ ਸ਼ਾਰਟਕੱਟ \'ਤੇ ਵਾਈਬ੍ਰੇਟ ਕਰੋ</string>
+    <string name="quick_launch_add">ਜੋੜੋ</string>
+    <string name="quick_launch_video">ਵੀਡੀਓ</string>
+    <string name="quick_launch_qr">QR ਸਕੈਨ ਕਰੋ</string>
+    <string name="quick_launch_app">ਐਪ…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> ਹਟਾਇਆ ਗਿਆ</string>
 </resources>

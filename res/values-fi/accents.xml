@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Taustakuva"</item>
+        <item>Resurrected</item>
+        <item>Android One Green</item>
+        <item>Aospa Green</item>
+        <item>Coca Cola Red</item>
+        <item>Discord Purple</item>
+        <item>Facebook Blue</item>
+        <item>Instagram Cerise</item>
+        <item>Jollibee Crimson</item>
+        <item>Monster Energy Green</item>
+        <item>Nextbit Mint</item>
+        <item>Oneplus Red</item>
+        <item>Pepsi Blue</item>
+        <item>Pixel Blue</item>
+        <item>Pocophone Yellow</item>
+        <item>Razer Green</item>
+        <item>Samsung Blue</item>
+        <item>Spotify Green</item>
+        <item>Starbucks Green</item>
+        <item>Twitch Purple</item>
+        <item>Twitter Blue</item>
+        <item>Xiaomi Orange</item>
+        <item>Meripihka</item>
+        <item>"Musta"</item>
+        <item>"Sininen"</item>
+        <item>Siniharmaa</item>
+        <item>Ruskea</item>
+        <item>"Syaani"</item>
+        <item>Syvä oranssi</item>
+        <item>Syvä violetti</item>
+        <item>"Vihreä"</item>
+        <item>"Harmaa"</item>
+        <item>Indigo</item>
+        <item>Vaaleansininen</item>
+        <item>Limenvihreä</item>
+        <item>"Oranssi"</item>
+        <item>"Pinkki"</item>
+        <item>"Violetti"</item>
+        <item>"Punainen"</item>
+        <item>"Turkoosi"</item>
+        <item>Käyttäjä viisi</item>
+        <item>Käyttäjä neljä</item>
+        <item>Käyttäjä yksi</item>
+        <item>Käyttäjä seitsemän</item>
+        <item>Käyttäjä kuusi</item>
+        <item>Käyttäjä kolme</item>
+        <item>Käyttäjä kaksi</item>
+        <item>"Valkoinen"</item>
+        <item>"Keltainen"</item>
+    </string-array>
+</resources>

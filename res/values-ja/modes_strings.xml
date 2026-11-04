@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">モードごとのルック</string>
+    <string name="remix_modes_everyday">通常のルック</string>
+    <string name="remix_modes_everyday_summary">ルックが設定されたモードがオフのときに戻ります</string>
+    <string name="remix_modes_wallpaper">壁紙はルックに従います</string>
+    <string name="remix_modes_wallpaper_summary">モードによって壁紙も変更される場合があります</string>
+    <string name="remix_modes_modes">あなたのモード</string>
+    <string name="remix_modes_no_change">変更なし</string>
+    <string name="remix_modes_none">先に テーマ › ルック で、ルックを保存してください</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g> のルック</string>
+</resources>

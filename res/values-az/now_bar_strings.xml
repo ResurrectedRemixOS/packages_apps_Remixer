@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">Düymәlәr</string>
     <string name="now_bar_text">Mətn</string>
     <string name="now_bar_text_size">"Mətn ölçüsü"</string>
+    <string name="now_bar_summary">Ekran kilidinin aşağısında canlı fəaliyyətlər</string>
+    <string name="now_bar_show">Göstər</string>
+    <string name="now_bar_music">Musiqi və video</string>
+    <string name="now_bar_timers">Taymerlər, sekundomer və siqnallar</string>
+    <string name="now_bar_hide_call">Zəng bildirişini gizlədin</string>
+    <string name="now_bar_hide_call_summary">Ekran kilidində Now Bar-da olan zəng bildiriş kimi ayrıca göstərilmir</string>
+    <string name="now_bar_live">Canlı yeniləmələr</string>
+    <string name="now_bar_live_summary">Naviqasiya, sürücülük, çatdırılmalar, hesablar</string>
+    <string name="now_bar_scores">Canlı hesablar</string>
+    <string name="now_bar_live_apps">Canlı yeniləmələr üçün tətbiqlər</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> tətbiq</string>
+    <string name="now_bar_pin">Həmişə açıq ekrana bərkidilib</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> bərkidilməsin?</string>
+    <string name="now_bar_unpin">Bərkidilməsin</string>
+    <string name="now_bar_scores_summary">At a Glance-də izlədiyiniz oyunlar</string>
+    <string name="now_bar_recording">Ekran və səs yazısı</string>
+    <string name="now_bar_buds">Qulaqlıqlar və saatlar</string>
+    <string name="now_bar_buds_summary">Qoşulmuş cihazın batareyası: sol, sağ və qutu (qulaqlıqlar üçün)</string>
+    <string name="now_bar_wave">Dalğa animasiyası</string>
+    <string name="now_bar_aod">Həmişə açıq ekranda göstər</string>
+    <string name="now_bar_chip">Status panelində çip</string>
+    <string name="now_bar_chip_summary">Kilid açıq olanda musiqi və taymerlər saatın yanında göstərilsin</string>
+    <string name="now_bar_footer">Now Bar-da musiqi olanda böyük ekran kilidi pleyeri gizlənir. Fəaliyyətlər arasında keçmək üçün çubuğu sürüşdürün, idarəetmə üçün toxunun, gizlətmək üçün isə basıb saxlayın. Dayandırılmış mahnını çubuqdan sürüşdürərək silin.\n\nCanlı hesablar Google tətbiqində izlədiyiniz komandaların oyunlarını göstərir. Smartspacer ilə orada idman hədəfi əlavə etsəniz, nəticələr burada görünəcək.</string>
+    <string name="now_bar_looks">Görünüşlər</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Defolt"</item>
+        <item>Liquid Glass</item>
+        <item>Kiçik</item>
+        <item>Böyük</item>
+        <item>Neon</item>
+        <item>Şüşə kart</item>
+    </string-array>
+    <string name="now_bar_material">Material</string>
+    <string name="now_bar_material_summary">Liquid Glass Tema bölməsində seçdiyiniz şüşəni istifadə edir</string>
+    <string-array name="now_bar_material_entries">
+        <item>Bərk</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Albom şəkli</item>
+        <item>Vurğu</item>
+        <item>Tünd</item>
+    </string-array>
+    <string name="now_bar_opacity">Şəffaflıq</string>
+    <string name="now_bar_opacity_summary">Liquid Glass ilə şüşəni nə qədər rəng boyasın</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Heç biri"</item>
+        <item>Nazik</item>
+        <item>Vurğu</item>
+    </string-array>
+    <string name="now_bar_shadow">Kölgə</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Deaktiv"</item>
+        <item>Yumşaq</item>
+        <item>Parıltı</item>
+    </string-array>
+    <string name="now_bar_more">Digər fəaliyyətlər</string>
+    <string-array name="now_bar_more_entries">
+        <item>Sadəcə sürüşdürün</item>
+        <item>Nöqtələr</item>
+        <item>Arxasını göstər</item>
+    </string-array>
+    <string name="now_bar_size">Ölçü və forma</string>
+    <string name="now_bar_height">Hündürlük</string>
+    <string name="now_bar_width_summary">Tam olduqda qısayollar çubuğun üstünə keçir</string>
+    <string-array name="now_bar_width_entries">
+        <item>Dar</item>
+        <item>Qısayollar arasında</item>
+        <item>Tam</item>
+    </string-array>
+    <string name="now_bar_corners">Künclər</string>
+    <string name="now_bar_raise">Qaldır</string>
+    <string name="now_bar_art">Albom şəkli</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Çevrə"</item>
+        <item>Yumru</item>
+        <item>"Kvadrat"</item>
+        <item>"Deaktiv"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Ötür və oxut</item>
+        <item>Yalnız oynatma</item>
+        <item>"Heç biri"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Bir sətir</item>
+        <item>İki sətir</item>
+        <item>Yalnız mahnı</item>
+    </string-array>
+    <string name="now_bar_show_page">Çubuqda nə göstərilsin</string>
+    <string name="now_bar_show_page_summary">Musiqi və video, taymerlər, zənglər və s.</string>
+    <string name="now_bar_where">Digər yerlər</string>
 </resources>

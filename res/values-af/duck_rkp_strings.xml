@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Gebruik toestel-RKP</string>
+    <string name="ts_rkp_enabled_summary">Gebruik \'n gegenereerde keybox. Die invoer van \'n keybox skakel dit af.</string>
+    <string name="ts_rkp_provision">Genereer keybox</string>
+    <string name="ts_rkp_provision_summary">Vra \'n keybox by Google aan deur hierdie toestel se voorsieningsdiens te gebruik. Vereis verenigbare Qualcomm-firmware.</string>
+    <string name="ts_rkp_status">Voorsieningstatus</string>
+    <string name="ts_rkp_owner_only">Bestuur toestel-RKP vanaf die toesteleienaar se profiel</string>
+    <string name="ts_rkp_unavailable">Toestel-RKP is nie beskikbaar nie</string>
+    <string name="ts_rkp_imported">Gedeaktiveer terwyl \'n ingevoerde keybox geïnstalleer is</string>
+    <string name="ts_rkp_disabled">Af. Aktiveer toestel-RKP om \'n keybox te gebruik of te genereer.</string>
+    <string name="ts_rkp_idle">Gereed om \'n keybox aan te vra</string>
+    <string name="ts_rkp_fetching">Verkry \'n voorsieningsuitdaging…</string>
+    <string name="ts_rkp_hardware">Wag vir die toestel se voorsieningsdiens…</string>
+    <string name="ts_rkp_signing">Sertifikate word by Google aangevra…</string>
+    <string name="ts_rkp_validating">Keybox word bekragtig en gestoor…</string>
+    <string name="ts_rkp_ready">Gegenereerde keybox aktief. Hernu outomaties voor %1$s</string>
+    <string name="ts_rkp_keybox_stored">Toestel-RKP-keybox gestoor</string>
+    <string name="ts_rkp_expired">Gegenereerde keybox het verval. Genereer \'n plaasvervanger.</string>
+    <string name="ts_rkp_hal_rejected">Firmware het die versoek verwerp (kode %1$d). Duck V1 word dalk nie ondersteun nie.</string>
+    <string name="ts_rkp_http_error">Voorsieningsbediener het die versoek verwerp (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Die toestel stel nie \'n verenigbare V1-voorsieningskoppelvlak bloot nie</string>
+    <string name="ts_rkp_network_error">Kon nie die voorsieningsbediener bereik nie. Kontroleer jou verbinding.</string>
+    <string name="ts_rkp_submission_unknown">Die bedienerantwoord het verlore gegaan. Die versoek is dalk verwerk; geen outomatiese herprobeer is gedoen nie.</string>
+    <string name="ts_rkp_invalid_chain">Keybox-sertifikate het bekragtiging misluk. Die bestaande keybox is behou.</string>
+    <string name="ts_rkp_timeout">Voorsiening het getydsoorskry. As die toestelddiens steeds besig is, herbegin die toestel voordat jy weer probeer.</string>
+    <string name="ts_rkp_canceled">Versoek gekanselleer omdat die keybox-konfigurasie verander het</string>
+    <string name="ts_rkp_save_failed">Kon nie die gegenereerde keybox stoor nie</string>
+    <string name="ts_rkp_action_failed">Kon nie die keybox-bewerking voltooi nie</string>
+</resources>

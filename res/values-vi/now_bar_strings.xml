@@ -13,4 +13,95 @@
     <string name="now_bar_buttons">Phím</string>
     <string name="now_bar_text">Văn bản</string>
     <string name="now_bar_text_size">"Cỡ chữ"</string>
+    <string name="now_bar_summary">Hoạt động trực tiếp ở cuối màn hình khóa</string>
+    <string name="now_bar_show">Hiện</string>
+    <string name="now_bar_music">Nhạc và video</string>
+    <string name="now_bar_timers">Hẹn giờ, đồng hồ bấm giờ và báo thức</string>
+    <string name="now_bar_hide_call">Ẩn thông báo cuộc gọi</string>
+    <string name="now_bar_hide_call_summary">Trên màn hình khóa, cuộc gọi trong Now Bar không được liệt kê thêm như một thông báo</string>
+    <string name="now_bar_live">Cập nhật trực tiếp</string>
+    <string name="now_bar_live_summary">Điều hướng, chuyến đi, giao hàng, tỷ số</string>
+    <string name="now_bar_scores">Tỷ số trực tiếp</string>
+    <string name="now_bar_live_apps">Ứng dụng cho Cập nhật trực tiếp</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> ứng dụng</string>
+    <string name="now_bar_pin">Ghim trên màn hình luôn bật</string>
+    <string name="now_bar_unpin_question">Bỏ ghim <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Bỏ ghim</string>
+    <string name="now_bar_scores_summary">Trận đấu bạn theo dõi trong At a Glance</string>
+    <string name="now_bar_recording">Ghi màn hình và giọng nói</string>
+    <string name="now_bar_buds">Tai nghe và đồng hồ</string>
+    <string name="now_bar_buds_summary">Pin của thiết bị được kết nối: trái, phải và hộp cho tai nghe</string>
+    <string name="now_bar_wave">Hiệu ứng sóng</string>
+    <string name="now_bar_chip">Chip trên thanh trạng thái</string>
+    <string name="now_bar_chip_summary">Hiển thị nhạc và bộ hẹn giờ cạnh đồng hồ khi đã mở khóa</string>
+    <string name="now_bar_footer">Khi có nhạc trong Now Bar, trình phát nhạc lớn trên màn hình khóa sẽ bị ẩn. Vuốt thanh để chuyển giữa các hoạt động, chạm để mở các điều khiển, và nhấn giữ để ẩn một hoạt động cho đến khi kết thúc. Vuốt một bài hát đang tạm dừng ra khỏi thanh để xóa.\n\nTỷ số trực tiếp hiển thị các trận của đội bạn theo dõi trong ứng dụng Google. Với Smartspacer, thêm một mục tiêu thể thao ở đó và tỷ số sẽ hiển thị tại đây.</string>
+    <string name="now_bar_looks">Bộ cài đặt</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Mặc định"</item>
+        <item>Liquid Glass</item>
+        <item>Nhỏ</item>
+        <item>Lớn</item>
+        <item>Neon</item>
+        <item>Thẻ kính</item>
+    </string-array>
+    <string name="now_bar_material">Vật liệu</string>
+    <string name="now_bar_material_summary">Liquid Glass dùng kính bạn chọn trong Giao diện</string>
+    <string-array name="now_bar_material_entries">
+        <item>Đặc</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Ảnh bìa album</item>
+        <item>Nhấn mạnh</item>
+        <item>Tối</item>
+    </string-array>
+    <string name="now_bar_opacity">Độ mờ</string>
+    <string name="now_bar_opacity_summary">Với Liquid Glass, màu sắc tô lên kính nhiều đến mức nào</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Không có"</item>
+        <item>Mỏng</item>
+        <item>Nhấn mạnh</item>
+    </string-array>
+    <string name="now_bar_shadow">Bóng đổ</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Đang tắt"</item>
+        <item>Mềm</item>
+        <item>Phát sáng</item>
+    </string-array>
+    <string name="now_bar_more">Thêm hoạt động</string>
+    <string-array name="now_bar_more_entries">
+        <item>Chỉ cần vuốt</item>
+        <item>Chấm</item>
+        <item>Thò ra phía sau</item>
+    </string-array>
+    <string name="now_bar_size">Kích thước và hình dạng</string>
+    <string name="now_bar_height">Chiều cao</string>
+    <string name="now_bar_width_summary">Đầy đủ đưa các phím tắt lên phía trên thanh</string>
+    <string-array name="now_bar_width_entries">
+        <item>Hẹp</item>
+        <item>Giữa các phím tắt</item>
+        <item>Đầy đủ</item>
+    </string-array>
+    <string name="now_bar_corners">Góc bo</string>
+    <string name="now_bar_raise">Nổi lên</string>
+    <string name="now_bar_art">Ảnh bìa album</string>
+    <string-array name="now_bar_art_entries">
+        <item>Vòng tròn</item>
+        <item>Bo tròn</item>
+        <item>"Hình vuông"</item>
+        <item>"Đang tắt"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Bỏ qua và phát</item>
+        <item>Chỉ phát</item>
+        <item>"Không có"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Một dòng</item>
+        <item>Hai dòng</item>
+        <item>Chỉ bài hát</item>
+    </string-array>
+    <string name="now_bar_show_page">Nội dung hiển thị trên thanh</string>
+    <string name="now_bar_show_page_summary">Nhạc và video, bộ hẹn giờ, cuộc gọi và nhiều hơn nữa</string>
+    <string name="now_bar_where">Khác</string>
 </resources>

@@ -8,4 +8,50 @@
         <item>"මධ්‍යම"</item>
         <item>"විශාල"</item>
     </string-array>
+    <string name="pie_title">පයි පාලන</string>
+    <string name="pie_summary">දාරයේ පහළ කොටස ඔබා ගෙන කෙටිමං පයි එකක් සඳහා රඳවන්න</string>
+    <string name="pie_zone">දාරයේ කොටසක්</string>
+    <string name="pie_clock">ඊට ඉහළින් ඔරලෝසුව සහ බැටරිය</string>
+    <string name="pie_items">ස්ලයිස්</string>
+    <string-array name="pie_items_entries">
+        <item>"ආපසු"</item>
+        <item>මුල් පිටුව</item>
+        <item>"මෑත"</item>
+        <item>"දැනුම්දීම්"</item>
+        <item>"සැණෙළි ආලෝකය"</item>
+        <item>"තිර රුව"</item>
+        <item>"බල මෙනුව"</item>
+        <item>"සහායක"</item>
+        <item>"කැමරාව"</item>
+    </string-array>
+    <string name="pie_footer">චලනය නොකර තත්පර හතරෙන් එකක් රඳවා තබන්න අවශ්‍යයි, එබැවින් දාරයෙන් වේගවත් ස්වයිප් කිරීම තවමත් ආපසු යයි. එය අගුලු තිරයේ විවෘත නොවේ.</string>
+    <string-array name="pie_edges_entries">
+        <item>"වම"</item>
+        <item>"දකුණ"</item>
+        <item>දෙකම</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>පහළ තුනෙන් එක</item>
+        <item>මැද</item>
+        <item>සම්පූර්ණ දාරය</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>නියොන්</item>
+        <item>වීදුරු</item>
+        <item>සම්භාව්‍ය</item>
+    </string-array>
+    <string name="sidebar_style_title">යෙදුම් පැති තීරුවේ පෙනුම</string>
+    <string-array name="sidebar_style_entries">
+        <item>සම්භාව්‍ය</item>
+        <item>RR වීදුරු</item>
+        <item>නියොන්</item>
+    </string-array>
+    <string name="sidebar_settings_title">යෙදුම් පැති තීරුව</string>
+    <string name="sidebar_settings_summary">ඔබේ යෙදුම් සහ මෙවලම් සඳහා හැන්ඩලය වෙතින් ඇතුළට ස්වයිප් කරන්න</string>
+    <string name="sidebar_apps_title">යෙදුම්, හැන්ඩලය සහ පසුරු පුවරුව</string>
+    <string name="sidebar_apps_summary">හැන්ඩලය ක්‍රියාත්මක කර, යෙදුම් තෝරා, බුද්ධිමත් පසුරු පුවරුව සකසන්න</string>
+    <string name="sidebar_handle_size_title">හැන්ඩල ප්‍රමාණය</string>
+    <string name="sidebar_tools_title">මෙවලම් පේළිය</string>
+    <string name="sidebar_tools_summary">ඔබේ යෙදුම් යට තිර රුව සහ සැණෙළි ආලෝකය</string>
+    <string name="sidebar_footer">හැන්ඩලය ඔබේ උච්චාරණ වර්ණයේ තුනී රේඛාවකි; එය දාරය දිගේ ගෙනයාමට ඇද ගන්න. ඉංගිත සංචලනය සමඟ එය තමාගේ කොටසේ පමණක් පවතින අතර, අනෙකුත් දාර මත ආපසු යාම ක්‍රියා කරයි.</string>
 </resources>

@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"ব্যাটারি"</string>
     <string name="battery_style_title">"স্টাইল"</string>
+    <string-array name="battery_style_entries">
+        <item>পোর্ট্রেট</item>
+        <item>"চেনাশোনা"</item>
+        <item>বিন্দুযুক্ত বৃত্ত</item>
+        <item>নিয়ন রিং</item>
+        <item>চিকন পিল</item>
+        <item>বড় শতাংশ</item>
+        <item>"পাঠ্য"</item>
+    </string-array>
+    <string name="battery_percent_title">শতাংশ</string>
+    <string-array name="battery_percent_entries">
+        <item>"লুকানো"</item>
+        <item>আইকনের ভেতরে</item>
+        <item>আইকনের পাশে</item>
+    </string-array>
+    <string name="battery_ring_color_title">নিয়ন রিংয়ের রং</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s। স্তর অনুযায়ী মানে ২০%% এর উপরে অ্যাকসেন্ট, নিচে লাল এবং ব্যাটারি সেভারে কমলা।</string>
+    <string-array name="battery_ring_color_entries">
+        <item>স্তর অনুযায়ী</item>
+        <item>অ্যাকসেন্ট</item>
+        <item>"সাদা"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">চার্জ হওয়ার সময় ঝলক</string>
+    <string name="battery_ring_tile_title">দ্রুত সেটিংস টাইলেও একই রিং</string>
+    <string name="battery_ring_tile_summary">স্তর ও স্ক্রিন চালু থাকার সময় সহ</string>
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Izgled za svaki vaš režim</string>
+    <string name="remix_modes_everyday">Svakodnevni izgled</string>
+    <string name="remix_modes_everyday_summary">Vraća se kada nijedan režim s izgledom nije uključen</string>
+    <string name="remix_modes_wallpaper">Pozadinska slika prati izgled</string>
+    <string name="remix_modes_wallpaper_summary">Režim može promijeniti i pozadinsku sliku</string>
+    <string name="remix_modes_modes">Vaši režimi</string>
+    <string name="remix_modes_no_change">Bez promjene</string>
+    <string name="remix_modes_none">Prvo sačuvajte izgled u Temi › Izgledi</string>
+    <string name="remix_modes_pick">Izgled za <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

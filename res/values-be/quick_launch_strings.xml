@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Таймер</string>
     <string name="quick_launch_undo">"Адрабіць"</string>
     <string name="quick_launch_off">"Выключана"</string>
+    <string name="quick_launch_title">Хуткі запуск</string>
+    <string name="quick_launch_main">Хуткі запуск з адбіткам пальца</string>
+    <string name="quick_launch_main_summary">Пасля разблакіроўкі trzymайце палец на датчыку, каб адкрыць ярлык</string>
+    <string name="quick_launch_hint">Націсніце на ярлык, каб змяніць яго, утрымлівайце, каб выдаліць, або перацягніце, каб змяніць парадак.</string>
+    <string name="quick_launch_behavior">Паводзіны</string>
+    <string name="quick_launch_hold">Час утрымання</string>
+    <string name="quick_launch_haptics">Вібрацыя пры кожным ярлыку</string>
+    <string name="quick_launch_add">Дадаць</string>
+    <string name="quick_launch_video">Відэа</string>
+    <string name="quick_launch_qr">Сканаваць QR</string>
+    <string name="quick_launch_app">Праграма…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> выдалены</string>
 </resources>

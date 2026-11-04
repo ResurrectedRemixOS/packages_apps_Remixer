@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">உங்கள் ஒவ்வொரு Mode-க்கும் ஒரு Look</string>
+    <string name="remix_modes_everyday">தினசரி Look</string>
+    <string name="remix_modes_everyday_summary">Look உள்ள Mode எதுவும் இயக்கத்தில் இல்லாதபோது மீண்டும் வரும்</string>
+    <string name="remix_modes_wallpaper">வால்பேப்பர் Look-ஐப் பின்தொடரும்</string>
+    <string name="remix_modes_wallpaper_summary">Mode வால்பேப்பரையும் மாற்றலாம்</string>
+    <string name="remix_modes_modes">உங்கள் Modes</string>
+    <string name="remix_modes_no_change">மாற்றம் இல்லை</string>
+    <string name="remix_modes_none">முதலில் Theme › Looks-இல் ஒரு Look சேமிக்கவும்</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g>-க்கான Look</string>
+</resources>

@@ -6,4 +6,31 @@
     <string name="sb_clock_date_format_title">Фармат даты</string>
     <string name="sb_weather_category">"Надвор’е"</string>
     <string name="sb_weather_position_title">Пазіцыя</string>
+    <string name="sb_clock_bold_title">Тлусты гадзіннік</string>
+    <string name="sb_clock_bold_summary">Паказваць гадзіннік у панэлі стану тлустым шрыфтам</string>
+    <string name="sb_clock_period_separator_title">Раздзяляльнік гадзін</string>
+    <string name="sb_clock_period_separator_summary">10.45 замест 10:45</string>
+    <string name="sb_clock_date_style_title">Рэгістр даты</string>
+    <string name="sb_clock_chip_category">Фон гадзінніка</string>
+    <string name="sb_clock_chip_title">Стыль фону</string>
+    <string name="sb_clock_chip_start_title">Пачатак градыенту</string>
+    <string name="sb_clock_chip_end_title">Канец градыенту</string>
+    <string name="sb_clock_chip_angle_title">Кут градыенту</string>
+    <string name="sb_clock_chip_mask_title">Выразаць час з градыенту</string>
+    <string name="sb_clock_chip_mask_summary">Градыент праглядаецца праз лічбы, а не за імі</string>
+    <string name="sb_weather_title">Надвор\'е ў панэлі стану</string>
+    <string name="status_bar_clock_rr_style_title">Выгляд гадзінніка</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Стандартна"</item>
+        <item>Неон</item>
+        <item>Раздзелены</item>
+        <item>Знак RR</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Складзены</item>
+        <item>Жар</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline побач з гадзінай</string>
+    <string name="sb_clock_flatline_summary">Лінія пульсу RR унутры пліткі: б\'ецца ў такт музыцы, скача пры новым апавяшчэнні</string>
 </resources>

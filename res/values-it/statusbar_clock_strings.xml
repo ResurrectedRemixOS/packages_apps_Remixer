@@ -4,4 +4,33 @@
     <string name="sb_clock_chip_angle_title">Angolo del gradiente</string>
     <string name="sb_weather_category">Meteo</string>
     <string name="sb_weather_position_title">Posizione</string>
+    <string name="sb_clock_category">Orologio e data</string>
+    <string name="sb_clock_bold_title">Orologio in grassetto</string>
+    <string name="sb_clock_bold_summary">Mostra l\'orologio nella barra di stato in grassetto</string>
+    <string name="sb_clock_period_separator_title">Separatore delle ore</string>
+    <string name="sb_clock_period_separator_summary">10.45 invece di 10:45</string>
+    <string name="sb_clock_date_position_title">Posizione della data</string>
+    <string name="sb_clock_date_style_title">Maiuscole della data</string>
+    <string name="sb_clock_date_format_title">Formato della data</string>
+    <string name="sb_clock_chip_category">Sfondo dell\'orologio</string>
+    <string name="sb_clock_chip_title">Stile dello sfondo</string>
+    <string name="sb_clock_chip_start_title">Inizio del gradiente</string>
+    <string name="sb_clock_chip_end_title">Fine del gradiente</string>
+    <string name="sb_clock_chip_mask_title">Ritaglia l\'ora dal gradiente</string>
+    <string name="sb_clock_chip_mask_summary">Il gradiente si vede attraverso le cifre invece che dietro di esse</string>
+    <string name="sb_weather_title">Meteo nella barra di stato</string>
+    <string name="status_bar_clock_rr_style_title">Aspetto dell\'orologio</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Predefinito"</item>
+        <item>Neon</item>
+        <item>Diviso</item>
+        <item>Simbolo RR</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Impilato</item>
+        <item>Ember</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Linea Flatline accanto all\'ora</string>
+    <string name="sb_clock_flatline_summary">La linea battito di RR dentro il chip: pulsa con la musica, si impenna quando arriva una notifica</string>
 </resources>

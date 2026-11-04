@@ -15,4 +15,54 @@
     <string name="looks_save_look">"Londoloza"</string>
     <string name="looks_custom_color">"Umbala ongokwezifiso"</string>
     <string name="looks_part_clock_color">"Umbala wewashi"</string>
+    <string name="looks_title">Izimbukeko</string>
+    <string name="looks_summary">Konke okusethiwe kwakho ngethepha elilodwa</string>
+    <string name="looks_rr">Izimbukeko ze-RR</string>
+    <string name="looks_yours">Izimbukeko zakho</string>
+    <string name="looks_none">Akukho okugcinwe okwamanje</string>
+    <string name="looks_save">Gcina okwamanje</string>
+    <string name="looks_import_clipboard">Kusuka ku-clipboard</string>
+    <string name="looks_import_file">Kusuka kufayela</string>
+    <string name="looks_mine">Ukubukeka kwami</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> isetshenzisiwe</string>
+    <string name="looks_failed">Yehlulekile ukusebenzisa konke</string>
+    <string name="looks_invalid">Lokhu akusona ukubukeka kwe-RR</string>
+    <string name="looks_part_accent">Umbala oyinhloko</string>
+    <string name="looks_part_qs">Isitayela se-QS</string>
+    <string name="looks_part_clock_face">Isitayela sewashi lesikrini sokukhiya</string>
+    <string name="looks_part_clock_look">Iwashi lebha yesimo</string>
+    <string name="looks_part_edge">Ukukhanyisa kumaphethelo</string>
+    <string name="looks_part_boot">Upopayi wokuqalisa</string>
+    <string name="looks_part_haptics">Amaphethini we-Haptic Remix</string>
+    <string name="looks_saturation">Ukugcwala <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Umbala oyinhloko</string>
+    <string name="looks_share_title">Yabelana nge-“<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">Skena ngekhamera yefoni ye-RR yomunye, noma kwi-Izimbukeko › Ngenisa</string>
+    <string name="looks_share_file">Yabelana ngefayela</string>
+    <string name="looks_save_file">Gcina ifayela</string>
+    <string name="looks_import_scan">Skena ikhodi ye-QR</string>
+    <string name="looks_import_title">Ngenisa ukubukeka</string>
+    <string name="looks_from_qr">ngekhodi ye-QR</string>
+    <string name="looks_from_file">ngefayela</string>
+    <string name="looks_from_clipboard">ku-clipboard</string>
+    <string name="looks_import_same">Sekuhambisana nezilungiselelo zakho.</string>
+    <string name="looks_new">Ukubukeka okusha</string>
+    <string name="looks_edit_title">Hlela ukubukeka</string>
+    <string name="looks_in_look">Kulokhu kubukeka</string>
+    <string name="looks_not_included">Akukho kulokhu kubukeka</string>
+    <string name="looks_save_apply">Londoloza bese usebenzisa</string>
+    <string name="looks_saved">\"<xliff:g id="name" example="Sunday">%1$s</xliff:g>\" kugcinwe</string>
+    <string name="looks_delete_confirm">Susa \"<xliff:g id="name" example="Sunday">%1$s</xliff:g>\"?</string>
+    <string name="looks_rr_wallpaper">Isithombe sangemuva se-RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Ukuhlanganiswa kombala wokugcizelela</string>
+    <string name="looks_part_clock_chip">Ichip yesikhathi ku-status bar</string>
+    <string name="looks_part_edge_style">Isitayela sokukhanyisa imiphetho</string>
+    <string name="looks_scan_hint">Beka ikhamera ku-QR code ye-Look</string>
+    <string name="looks_scan_failed">Akukwazanga ukuvula ikhamera</string>
+    <string name="look_roulette_title">I-Look roulette</string>
+    <string-array name="look_roulette_entries">
+        <item>"Valiwe"</item>
+        <item>I-Look ehlukile kokhiyo ngalunye</item>
+        <item>I-Look ehlukile ngalunye usuku</item>
+    </string-array>
 </resources>

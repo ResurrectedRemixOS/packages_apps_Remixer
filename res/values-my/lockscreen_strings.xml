@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lockscreen_battery_info_title">အားသွင်းအချက်အလက်</string>
+    <string name="lockscreen_battery_info_summary">အားသွင်းနေစဉ် လက်ရှိ၊ ဝပ်၊ voltage နှင့် ဘက်ထရီအပူချိန်ကို ပြပါ</string>
+    <string name="charging_ring_title">SuperVOOC အားသွင်းလှုပ်ရှားမှု</string>
+    <string name="charging_ring_summary">ဖုန်းချိတ်လိုက်သည့်အခါ အားသွင်းဘီးနှင့် အမြန်နှုန်းကို ပြပါ</string>
+    <string name="pocket_mode_title">အိတ်ထဲမုဒ်</string>
+    <string name="pocket_mode_summary">Proximity sensor ကို ဖုံးထားစဉ် ဖန်သားပြင် မနိုးပါ၊ အထိအတွေ့များကို လျစ်လျူရှုပါမည်</string>
+    <string name="screen_on_time_title">ဖန်သားပြင်ဖွင့်ထားသည့်အချိန်</string>
+    <string name="screen_on_time_summary">အားသွင်းနေစဉ်နှင့် Battery Saver အကွက်ငယ်တွင် နောက်ဆုံး အပြည့်အ၀ အားသွင်းပြီးချိန်မှစ၍ ဖန်သားပြင်ဖွင့်ထားသည့်အချိန်ကို လော့ခ်စခရင်တွင် ပြပါ</string>
+</resources>

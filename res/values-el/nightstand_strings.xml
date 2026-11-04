@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Πότε"</string>
+    <string name="nightstand_title">Κομοδίνο</string>
+    <string name="nightstand_summary">Ένα αμυδρό ρολόι κομοδίνου στην οθόνη πάντα ενεργή όσο φορτίζει τη νύχτα</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Ανενεργό"</item>
+        <item>Σε φορτιστή τη νύχτα</item>
+        <item>Κάθε βράδυ, με πρόγραμμα</item>
+        <item>Όσο είναι ενεργή μια λειτουργία Ώρα ύπνου</item>
+    </string-array>
+    <string name="nightstand_from">Έναρξη νύχτας</string>
+    <string name="nightstand_to">Λήξη νύχτας</string>
+    <string name="nightstand_brightness">Όριο φωτεινότητας</string>
+    <string name="nightstand_brightness_summary">Πόσο φωτεινή μπορεί να γίνει η οθόνη πάντα ενεργή όσο είναι ενεργό το Κομοδίνο</string>
+    <string name="nightstand_face">Όψη ρολογιού</string>
+    <string name="nightstand_face_keep">Διατήρηση της τρέχουσας όψης</string>
+    <string name="nightstand_footer">Το Κομοδίνο ενεργοποιεί την οθόνη πάντα ενεργή όσο λειτουργεί και την επαναφέρει μετά. Τερματίζεται όταν αποσυνδεθεί ο φορτιστής, χτυπήσει το ξυπνητήρι ή λήξει η νύχτα. Η όψη απλώς εναλλάσσεται ανάμεσα σε δύο προσαρμοσμένες όψεις· το ρολόι του συστήματος παραμένει.</string>
 </resources>

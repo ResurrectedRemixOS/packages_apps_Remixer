@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"باتری"</string>
     <string name="battery_style_title">"سبک"</string>
+    <string-array name="battery_style_entries">
+        <item>عمودی</item>
+        <item>"دایره"</item>
+        <item>دایره نقطه چین</item>
+        <item>حلقه نئونی</item>
+        <item>قرص باریک</item>
+        <item>درصد بزرگ</item>
+        <item>متن</item>
+    </string-array>
+    <string name="battery_percent_title">درصد</string>
+    <string-array name="battery_percent_entries">
+        <item>"پنهان"</item>
+        <item>داخل آیکون</item>
+        <item>کنار آن</item>
+    </string-array>
+    <string name="battery_ring_color_title">رنگ حلقه نئونی</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. بر اساس سطح: رنگ تأکید بالای ۲۰%%، قرمز زیر آن و کهربایی در حالت Battery Saver.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>بر اساس سطح</item>
+        <item>لهجه</item>
+        <item>"سفید"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">درخشش هنگام شارژ</string>
+    <string name="battery_ring_tile_title">همان حلقه روی کاشی تنظیمات فوری</string>
+    <string name="battery_ring_tile_summary">همراه با سطح و مدت روشن بودن صفحه</string>
 </resources>

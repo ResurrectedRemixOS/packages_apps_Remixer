@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Чоо-жайы"</string>
     <string name="lockscreen_weather_location_title">"Жайгашкан жер"</string>
+    <string name="lockscreen_weather_title">Кулпуланган экрандагы аба ырайы</string>
+    <string name="lockscreen_weather_location_summary">Шаар атын көрсөтүү</string>
+    <string name="lockscreen_weather_text_title">Абалы</string>
+    <string name="lockscreen_weather_text_summary">Абалды көрсөтүү, мисалы Булуттуу же Ачык асман</string>
+    <string name="lockscreen_weather_wind_title">Шамал</string>
+    <string name="lockscreen_weather_wind_summary">Шамалдын ылдамдыгын жана багытын көрсөтүү</string>
+    <string name="lockscreen_weather_humidity_title">Нымдуулук</string>
+    <string name="lockscreen_weather_humidity_summary">Нымдуулукту көрсөтүү</string>
+    <string name="custom_clock_weather_title">Саат циферблаттарындагы аба ырайы</string>
+    <string name="custom_clock_weather_summary">Орун бар саат циферблаттарында аба ырайын көрсөтүү</string>
+    <string name="remixer_weather_service">Аба ырайы кызматы</string>
+    <string name="remixer_weather_page_summary">Кулпуланган экрандагы аба ырайы жана анын көрсөткөндөрү</string>
 </resources>

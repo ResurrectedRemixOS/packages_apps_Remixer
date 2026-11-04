@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">استفاده از RKP دستگاه</string>
+    <string name="ts_rkp_enabled_summary">از یک keybox تولیدشده استفاده کنید. وارد کردن keybox این گزینه را خاموش می‌کند.</string>
+    <string name="ts_rkp_provision">تولید keybox</string>
+    <string name="ts_rkp_provision_summary">از دستگاه با سرویس تأمین اعتبار، یک keybox از Google درخواست کنید. به سخت‌افزار سازگار با Qualcomm نیاز دارد.</string>
+    <string name="ts_rkp_status">وضعیت تأمین اعتبار</string>
+    <string name="ts_rkp_owner_only">مدیریت RKP دستگاه از نمایه مالک دستگاه</string>
+    <string name="ts_rkp_unavailable">RKP دستگاه در دسترس نیست</string>
+    <string name="ts_rkp_imported">هنگام نصب keybox وارد‌شده، غیرفعال است</string>
+    <string name="ts_rkp_disabled">خاموش. برای استفاده یا ساخت keybox، RKP دستگاه را فعال کنید.</string>
+    <string name="ts_rkp_idle">آماده درخواست keybox</string>
+    <string name="ts_rkp_fetching">در حال دریافت چالش تأمین اعتبار…</string>
+    <string name="ts_rkp_hardware">در انتظار سرویس تأمین اعتبار دستگاه…</string>
+    <string name="ts_rkp_signing">در حال درخواست گواهی‌ها از Google…</string>
+    <string name="ts_rkp_validating">در حال اعتبارسنجی و ذخیره keybox…</string>
+    <string name="ts_rkp_ready">keybox ساخته‌شده فعال است. پیش از %1$s خودکار تمدید می‌شود</string>
+    <string name="ts_rkp_keybox_stored">keybox RKP دستگاه ذخیره شد</string>
+    <string name="ts_rkp_expired">keybox ساخته‌شده منقضی شده است. یک جایگزین بسازید.</string>
+    <string name="ts_rkp_hal_rejected">فریمور درخواست را رد کرد (کد %1$d). ممکن است Duck V1 پشتیبانی نشود.</string>
+    <string name="ts_rkp_http_error">سرور تأمین اعتبار درخواست را رد کرد (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">دستگاه رابط تأمین اعتبار V1 سازگاری را ارائه نمی‌دهد</string>
+    <string name="ts_rkp_network_error">به سرور تأمین اعتبار دسترسی نیست. اتصال خود را بررسی کنید.</string>
+    <string name="ts_rkp_submission_unknown">پاسخ سرور از دست رفت. ممکن است درخواست پردازش شده باشد؛ تلاش مجدد خودکار انجام نشد.</string>
+    <string name="ts_rkp_invalid_chain">اعتبارسنجی گواهی‌های keybox ناموفق بود. keybox موجود نگه داشته شد.</string>
+    <string name="ts_rkp_timeout">زمان تأمین اعتبار به پایان رسید. اگر سرویس دستگاه هنوز مشغول است، پیش از تلاش دوباره دستگاه را راه‌اندازی مجدد کنید.</string>
+    <string name="ts_rkp_canceled">درخواست لغو شد زیرا پیکربندی keybox تغییر کرد</string>
+    <string name="ts_rkp_save_failed">keybox ساخته‌شده ذخیره نشد</string>
+    <string name="ts_rkp_action_failed">عملیات keybox کامل نشد</string>
+</resources>

@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">როდის</string>
+    <string name="nightstand_title">ღამის საათი</string>
+    <string name="nightstand_summary">მკრთალი საწოლის გვერდის საათი მუდმივად ჩართულ ეკრანზე დამუხტვისას ღამით</string>
+    <string-array name="nightstand_when_entries">
+        <item>"გამორთული"</item>
+        <item>ღამით დამტენზე</item>
+        <item>ყოველ ღამე, განრიგით</item>
+        <item>საძინებელი რეჟიმის ჩართვისას</item>
+    </string-array>
+    <string name="nightstand_from">ღამე იწყება</string>
+    <string name="nightstand_to">ღამე მთავრდება</string>
+    <string name="nightstand_brightness">სიკაშკაშის ზღვარი</string>
+    <string name="nightstand_brightness_summary">რამდენად ნათელი შეიძლება იყოს მუდმივად ჩართული ეკრანი ღამის საათის ჩართვისას</string>
+    <string name="nightstand_face">საათის ციფერბლატი</string>
+    <string name="nightstand_face_keep">მიმდინარე ციფერბლატის შენარჩუნება</string>
+    <string name="nightstand_footer">ღამის საათი მუშაობისას ჩართავს მუდმივად ჩართულ ეკრანს და შემდეგ აბრუნებს მას. ის მთავრდება, როცა დამტენი გაითიშება, მაღვიძარა დარეკავს ან ღამე დასრულდება. ციფერბლატი მხოლოდ ორ მორგებულ ციფერბლატს შორის იცვლება; სისტემური საათი რჩება.</string>
 </resources>

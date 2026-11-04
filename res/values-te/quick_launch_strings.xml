@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">టైమర్</string>
     <string name="quick_launch_undo">"చర్య రద్దు చేయండి"</string>
     <string name="quick_launch_off">"ఆఫ్‌లో ఉంది"</string>
+    <string name="quick_launch_title">త్వరిత ప్రారంభం</string>
+    <string name="quick_launch_main">ఫింగర్‌ప్రింట్ త్వరిత ప్రారంభం</string>
+    <string name="quick_launch_main_summary">అన్‌లాక్ చేసిన తర్వాత సెన్సార్‌పై వేలు ఉంచితే షార్ట్‌కట్ తెరుచుకుంటుంది</string>
+    <string name="quick_launch_hint">షార్ట్‌కట్‌ను మార్చడానికి ట్యాప్ చేయండి, తీసివేయడానికి నొక్కి పట్టుకోండి, క్రమం మార్చడానికి లాగండి.</string>
+    <string name="quick_launch_behavior">ప్రవర్తన</string>
+    <string name="quick_launch_hold">పట్టుకునే సమయం</string>
+    <string name="quick_launch_haptics">ప్రతి షార్ట్‌కట్‌కు వైబ్రేట్ చేయండి</string>
+    <string name="quick_launch_add">జోడించు</string>
+    <string name="quick_launch_video">వీడియో</string>
+    <string name="quick_launch_qr">QR స్కాన్ చేయండి</string>
+    <string name="quick_launch_app">యాప్…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> తీసివేయబడింది</string>
 </resources>

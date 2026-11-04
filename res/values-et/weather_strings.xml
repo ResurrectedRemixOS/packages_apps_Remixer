@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Üksikasjad"</string>
     <string name="lockscreen_weather_location_title">"Asukoht"</string>
+    <string name="lockscreen_weather_title">Ilm avalukustusekraanil</string>
+    <string name="lockscreen_weather_location_summary">Näita linna nime</string>
+    <string name="lockscreen_weather_text_title">Olukord</string>
+    <string name="lockscreen_weather_text_summary">Näita olukorda, nt Pilvine või Selge taevas</string>
+    <string name="lockscreen_weather_wind_title">Tuul</string>
+    <string name="lockscreen_weather_wind_summary">Näita tuule kiirust ja suunda</string>
+    <string name="lockscreen_weather_humidity_title">Õhuniiskus</string>
+    <string name="lockscreen_weather_humidity_summary">Näita õhuniiskust</string>
+    <string name="custom_clock_weather_title">Ilm kellakujundustel</string>
+    <string name="custom_clock_weather_summary">Näita ilma kellakujundustes, kus sellele ruumi on</string>
+    <string name="remixer_weather_service">Ilmateenus</string>
+    <string name="remixer_weather_page_summary">Avalukustusekraani ilm ja mida see näitab</string>
 </resources>

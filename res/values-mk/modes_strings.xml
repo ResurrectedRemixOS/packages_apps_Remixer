@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Look за секој ваш Mode</string>
+    <string name="remix_modes_everyday">Секојдневен Look</string>
+    <string name="remix_modes_everyday_summary">Се враќа кога нема вклучен Mode со Look</string>
+    <string name="remix_modes_wallpaper">Тапетот го следи Look-от</string>
+    <string name="remix_modes_wallpaper_summary">Mode може да го промени и тапетот</string>
+    <string name="remix_modes_modes">Вашите Modes</string>
+    <string name="remix_modes_no_change">Без промена</string>
+    <string name="remix_modes_none">Прво зачувајте Look, во Тема › Looks</string>
+    <string name="remix_modes_pick">Look за <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

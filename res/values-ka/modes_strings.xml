@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Look თითოეული რეჟიმისთვის</string>
+    <string name="remix_modes_everyday">ყოველდღიური Look</string>
+    <string name="remix_modes_everyday_summary">ბრუნდება, როცა Look-იანი რეჟიმი ჩართული არ არის</string>
+    <string name="remix_modes_wallpaper">ფონი Look-ს მიჰყვება</string>
+    <string name="remix_modes_wallpaper_summary">რეჟიმმა ფონიც შეიძლება შეცვალოს</string>
+    <string name="remix_modes_modes">თქვენი რეჟიმები</string>
+    <string name="remix_modes_no_change">ცვლილების გარეშე</string>
+    <string name="remix_modes_none">ჯერ შეინახეთ Look თემა › Look-ებში</string>
+    <string name="remix_modes_pick">Look <xliff:g id="mode" example="Sleep">%1$s</xliff:g>-ისთვის</string>
+</resources>

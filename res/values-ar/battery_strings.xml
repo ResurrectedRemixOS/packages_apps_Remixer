@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"البطارية"</string>
     <string name="battery_style_title">"النمط"</string>
+    <string-array name="battery_style_entries">
+        <item>عمودي</item>
+        <item>"دائرة"</item>
+        <item>دائرة منقطة</item>
+        <item>حلقة نيون</item>
+        <item>كبسولة نحيفة</item>
+        <item>نسبة كبيرة</item>
+        <item>"رسالة نصية"</item>
+    </string-array>
+    <string name="battery_percent_title">النسبة المئوية</string>
+    <string-array name="battery_percent_entries">
+        <item>مخفي</item>
+        <item>داخل الرمز</item>
+        <item>بجانبها</item>
+    </string-array>
+    <string name="battery_ring_color_title">لون حلقة النيون</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. \"حسب المستوى\" يعني لون التمييز فوق 20%%، والأحمر دون ذلك، والكهرماني في موفّر البطارية.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>حسب المستوى</item>
+        <item>التمييز</item>
+        <item>"أبيض"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">وميض أثناء الشحن</string>
+    <string name="battery_ring_tile_title">الحلقة نفسها على مربّع الإعدادات السريعة</string>
+    <string name="battery_ring_tile_summary">مع المستوى ووقت تشغيل الشاشة</string>
 </resources>

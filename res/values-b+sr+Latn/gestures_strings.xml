@@ -7,4 +7,50 @@
         <item>"Srednje"</item>
         <item>"Veliki"</item>
     </string-array>
+    <string name="pie_title">Kružne kontrole</string>
+    <string name="pie_summary">Držite donji deo ivice za kružni meni prečica</string>
+    <string name="pie_zone">Deo ivice</string>
+    <string name="pie_clock">Sat i baterija iznad njega</string>
+    <string name="pie_items">Isečci</string>
+    <string-array name="pie_items_entries">
+        <item>"Nazad"</item>
+        <item>Početna</item>
+        <item>"Nedavno"</item>
+        <item>"Obaveštenja"</item>
+        <item>"Lampa"</item>
+        <item>"Snimak ekrana"</item>
+        <item>"Meni dugmeta za uključivanje"</item>
+        <item>"Pomoćnik"</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Potrebno je zadržavanje od četvrtine sekunde bez pomeranja, pa brzo prevlačenje od ivice i dalje vraća nazad. Ne otvara se na zaključanom ekranu.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Levo"</item>
+        <item>"Desno"</item>
+        <item>Obe</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Donja trećina</item>
+        <item>Sredina</item>
+        <item>Cela ivica</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Staklo</item>
+        <item>Klasično</item>
+    </string-array>
+    <string name="sidebar_style_title">Izgled bočne trake aplikacija</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klasično</item>
+        <item>RR staklo</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Bočna traka aplikacija</string>
+    <string name="sidebar_settings_summary">Prevucite od ručice za svoje aplikacije i alatke</string>
+    <string name="sidebar_apps_title">Aplikacije, ručica i ostave</string>
+    <string name="sidebar_apps_summary">Uključite ručicu, izaberite aplikacije i podesite pametnu ostavu</string>
+    <string name="sidebar_handle_size_title">Veličina ručice</string>
+    <string name="sidebar_tools_title">Red alatki</string>
+    <string name="sidebar_tools_summary">Snimak ekrana i lampa ispod vaših aplikacija</string>
+    <string name="sidebar_footer">Ručica je tanka linija u akcentnoj boji; prevucite je da je pomerite duž ivice. Uz navigaciju pokretima pokriva samo svoj deo ivice, a nazad radi svuda drugde.</string>
 </resources>

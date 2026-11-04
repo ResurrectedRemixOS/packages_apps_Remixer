@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">तुमच्या प्रत्येक मोडसाठी एक लूक</string>
+    <string name="remix_modes_everyday">नेहमीचा लूक</string>
+    <string name="remix_modes_everyday_summary">लूक असलेला कोणताही मोड चालू नसताना परत येतो</string>
+    <string name="remix_modes_wallpaper">वॉलपेपर लूकनुसार बदलतो</string>
+    <string name="remix_modes_wallpaper_summary">मोड वॉलपेपरही बदलू शकतो</string>
+    <string name="remix_modes_modes">तुमचे मोड</string>
+    <string name="remix_modes_no_change">बदल नाही</string>
+    <string name="remix_modes_none">आधी थीम › लूक्समध्ये एक लूक जतन करा</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g> साठी लूक</string>
+</resources>

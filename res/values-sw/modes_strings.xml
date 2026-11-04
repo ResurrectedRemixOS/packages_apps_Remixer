@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Look kwa kila Mode yako</string>
+    <string name="remix_modes_everyday">Look ya kila siku</string>
+    <string name="remix_modes_everyday_summary">Hurudi wakati hakuna Mode yenye Look iliyowashwa</string>
+    <string name="remix_modes_wallpaper">Mandhari hufuata Look</string>
+    <string name="remix_modes_wallpaper_summary">Mode inaweza kubadilisha mandhari pia</string>
+    <string name="remix_modes_modes">Mode zako</string>
+    <string name="remix_modes_no_change">Hakuna mabadiliko</string>
+    <string name="remix_modes_none">Hifadhi Look kwanza, kwenye Mandhari › Looks</string>
+    <string name="remix_modes_pick">Look ya <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

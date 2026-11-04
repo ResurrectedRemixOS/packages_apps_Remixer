@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Temporitzador</string>
     <string name="quick_launch_undo">"Desfés"</string>
     <string name="quick_launch_off">"Desactivat"</string>
+    <string name="quick_launch_title">Llançament ràpid</string>
+    <string name="quick_launch_main">Llançament ràpid amb l\'empremta</string>
+    <string name="quick_launch_main_summary">Mantén el dit al sensor després de desbloquejar per obrir una drecera</string>
+    <string name="quick_launch_hint">Toca una drecera per canviar-la, mantén-la premuda per suprimir-la o arrossega-la per reordenar-la.</string>
+    <string name="quick_launch_behavior">Comportament</string>
+    <string name="quick_launch_hold">Temps de pressió</string>
+    <string name="quick_launch_haptics">Vibra a cada drecera</string>
+    <string name="quick_launch_add">Afegeix</string>
+    <string name="quick_launch_video">Vídeo</string>
+    <string name="quick_launch_qr">Escaneja el codi QR</string>
+    <string name="quick_launch_app">Aplicació…</string>
+    <string name="quick_launch_removed">S\'ha suprimit <xliff:g id="shortcut" example="Camera">%1$s</xliff:g></string>
 </resources>

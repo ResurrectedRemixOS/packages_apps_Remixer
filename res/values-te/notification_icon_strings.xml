@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="notification_icons_category">"చిహ్నాలు"</string>
+    <string name="notification_app_icons_title">యాప్ ఐకాన్‌లు</string>
+    <string name="notification_app_icons_summary">నోటిఫికేషన్‌లలో యాప్ చిన్న చిహ్నానికి బదులు దాని ఐకాన్ చూపండి</string>
 </resources>

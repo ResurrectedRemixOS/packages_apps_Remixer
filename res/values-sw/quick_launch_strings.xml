@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Kipima wakati</string>
     <string name="quick_launch_undo">"Tendua"</string>
     <string name="quick_launch_off">"Imezimwa"</string>
+    <string name="quick_launch_title">Uzinduzi wa haraka</string>
+    <string name="quick_launch_main">Uzinduzi wa haraka kwa alama ya kidole</string>
+    <string name="quick_launch_main_summary">Bonyeza kidole kwenye kitambuzi baada ya kufungua ili kufungua njia ya mkato</string>
+    <string name="quick_launch_hint">Gusa njia ya mkato ili kuibadilisha, bonyeza kwa muda mrefu ili kuiondoa, au iburute ili kupanga upya.</string>
+    <string name="quick_launch_behavior">Tabia</string>
+    <string name="quick_launch_hold">Muda wa kushikilia</string>
+    <string name="quick_launch_haptics">Tetema kwa kila njia ya mkato</string>
+    <string name="quick_launch_add">Ongeza</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">Changanua QR</string>
+    <string name="quick_launch_app">Programu…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> imeondolewa</string>
 </resources>

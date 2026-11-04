@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Bateria"</string>
     <string name="charge_report_temp">"Temperatura"</string>
     <string name="charge_report_time">"Ora"</string>
+    <string name="charge_report_title">Raportet e ngarkimit</string>
+    <string name="charge_report_summary">Një përmbledhje e çdo karikimi kur e shkëput</string>
+    <string name="charge_report_min_title">Vetëm nëse shtoi të paktën</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 ditë</item>
+        <item>7 ditë</item>
+        <item>14 ditë</item>
+        <item>30 ditë</item>
+    </string-array>
+    <string name="charge_report_history_days"><xliff:g id="days" example="7">%1$d</xliff:g> ditët e fundit</string>
+    <string name="charge_report_today">Sot, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Dje, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> o <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Vat</string>
+    <string name="charge_report_added">Shtuar</string>
+    <string name="charge_report_peak">Maksimumi</string>
+    <string name="charge_report_average">Mesatarja</string>
+    <string name="charge_report_max_temp">Temp. maks.</string>
+    <string name="charge_report_charger">Karikuesi</string>
+    <string name="charge_report_started">Filloi në</string>
+    <string name="charge_report_wired">Me kabllo</string>
+    <string name="charge_report_wireless">Pa kabllo</string>
+    <string name="charge_report_dock">Stacioni</string>
+    <string name="charge_report_empty">Ende asnjë karikim</string>
+    <string name="charge_report_footer">SystemUI e lexon rrymën, tensionin dhe temperaturën e baterisë çdo 30 sekonda ndërsa është e lidhur. Vatet janë ato që mat telefoni, kështu që mund të ndryshojnë nga numri në karikues. Raportet qëndrojnë në telefon; asgjë nuk ngarkohet.</string>
 </resources>

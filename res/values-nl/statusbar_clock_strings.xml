@@ -3,4 +3,34 @@
     <string name="sb_clock_date_title">"Datum"</string>
     <string name="sb_weather_category">"Weer"</string>
     <string name="sb_weather_position_title">Positie</string>
+    <string name="sb_clock_category">Klok en datum</string>
+    <string name="sb_clock_bold_title">Vette klok</string>
+    <string name="sb_clock_bold_summary">Toon de klok in de statusbalk vet</string>
+    <string name="sb_clock_period_separator_title">Scheidingsteken voor tijd</string>
+    <string name="sb_clock_period_separator_summary">10.45 in plaats van 10:45</string>
+    <string name="sb_clock_date_position_title">Positie van datum</string>
+    <string name="sb_clock_date_style_title">Hoofdletters datum</string>
+    <string name="sb_clock_date_format_title">Datumnotatie</string>
+    <string name="sb_clock_chip_category">Achtergrond van klok</string>
+    <string name="sb_clock_chip_title">Achtergrondstijl</string>
+    <string name="sb_clock_chip_start_title">Verloop begin</string>
+    <string name="sb_clock_chip_end_title">Verloop einde</string>
+    <string name="sb_clock_chip_angle_title">Verloophoek</string>
+    <string name="sb_clock_chip_mask_title">Snijd de tijd uit het verloop</string>
+    <string name="sb_clock_chip_mask_summary">Het verloop schijnt door de cijfers heen in plaats van erachter</string>
+    <string name="sb_weather_title">Weer in de statusbalk</string>
+    <string name="status_bar_clock_rr_style_title">Klokuiterlijk</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Standaard"</item>
+        <item>Neon</item>
+        <item>Gesplitst</item>
+        <item>RR-logo</item>
+        <item>Mono</item>
+        <item>Puls</item>
+        <item>Gestapeld</item>
+        <item>Gloed</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline naast de tijd</string>
+    <string name="sb_clock_flatline_summary">RR\'s hartslaglijn in de chip: klopt mee met muziek, piekt wanneer een melding binnenkomt</string>
 </resources>

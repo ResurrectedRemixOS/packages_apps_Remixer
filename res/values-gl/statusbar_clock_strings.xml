@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Data"</string>
     <string name="sb_weather_category">"O tempo"</string>
+    <string name="sb_clock_category">Reloxo e data</string>
+    <string name="sb_clock_bold_title">Reloxo en negriña</string>
+    <string name="sb_clock_bold_summary">Mostrar o reloxo da barra de estado en negriña</string>
+    <string name="sb_clock_period_separator_title">Separador de hora</string>
+    <string name="sb_clock_period_separator_summary">10.45 en lugar de 10:45</string>
+    <string name="sb_clock_date_position_title">Posición da data</string>
+    <string name="sb_clock_date_style_title">Maiúsculas da data</string>
+    <string name="sb_clock_date_format_title">Formato da data</string>
+    <string name="sb_clock_chip_category">Fondo do reloxo</string>
+    <string name="sb_clock_chip_title">Estilo do fondo</string>
+    <string name="sb_clock_chip_start_title">Inicio do degradado</string>
+    <string name="sb_clock_chip_end_title">Fin do degradado</string>
+    <string name="sb_clock_chip_angle_title">Ángulo do degradado</string>
+    <string name="sb_clock_chip_mask_title">Recortar a hora do degradado</string>
+    <string name="sb_clock_chip_mask_summary">O degradado vese a través dos díxitos en lugar de detrás deles</string>
+    <string name="sb_weather_title">Tempo na barra de estado</string>
+    <string name="sb_weather_position_title">Posición</string>
+    <string name="status_bar_clock_rr_style_title">Aspecto do reloxo</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Predeterminado"</item>
+        <item>Neón</item>
+        <item>Dividido</item>
+        <item>Marca RR</item>
+        <item>Monoespazado</item>
+        <item>Pulso</item>
+        <item>Apilado</item>
+        <item>Brasa</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline xunto á hora</string>
+    <string name="sb_clock_flatline_summary">A liña de latido de RR dentro do chip: pulsa coa música e dispara cando chega unha notificación</string>
 </resources>

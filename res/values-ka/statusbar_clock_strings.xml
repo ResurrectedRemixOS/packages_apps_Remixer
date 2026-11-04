@@ -3,4 +3,34 @@
     <string name="sb_clock_date_title">"თარიღი"</string>
     <string name="sb_weather_category">"ამინდი"</string>
     <string name="sb_weather_position_title">მდებარეობა</string>
+    <string name="sb_clock_category">საათი და თარიღი</string>
+    <string name="sb_clock_bold_title">მუქი საათი</string>
+    <string name="sb_clock_bold_summary">სტატუსის ზოლის საათის მუქად ჩვენება</string>
+    <string name="sb_clock_period_separator_title">პერიოდის გამყოფი</string>
+    <string name="sb_clock_period_separator_summary">10.45 და არა 10:45</string>
+    <string name="sb_clock_date_position_title">თარიღის პოზიცია</string>
+    <string name="sb_clock_date_style_title">თარიღის რეგისტრი</string>
+    <string name="sb_clock_date_format_title">თარიღის ფორმატი</string>
+    <string name="sb_clock_chip_category">საათის ფონი</string>
+    <string name="sb_clock_chip_title">ფონის სტილი</string>
+    <string name="sb_clock_chip_start_title">გრადიენტის დასაწყისი</string>
+    <string name="sb_clock_chip_end_title">გრადიენტის დასასრული</string>
+    <string name="sb_clock_chip_angle_title">გრადიენტის კუთხე</string>
+    <string name="sb_clock_chip_mask_title">დროის ამოჭრა გრადიენტიდან</string>
+    <string name="sb_clock_chip_mask_summary">გრადიენტი ციფრებში გამოჩნდება და არა მათ უკან</string>
+    <string name="sb_weather_title">ამინდი სტატუსის ზოლში</string>
+    <string name="status_bar_clock_rr_style_title">საათის სახე</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"ნაგულისხმევი"</item>
+        <item>ნეონი</item>
+        <item>გაყოფილი</item>
+        <item>RR ნიშანი</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>დაწყობილი</item>
+        <item>ნაკვერჩხალი</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline დროის გვერდით</string>
+    <string name="sb_clock_flatline_summary">RR-ის გულისცემის ხაზი ჩიპში: მუსიკასთან ერთად ცემს, შეტყობინების მოსვლისას იწევს</string>
 </resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Позадина"</item>
+        <item>Resurrected</item>
+        <item>Android One Green</item>
+        <item>Aospa Green</item>
+        <item>Coca Cola Red</item>
+        <item>Discord Purple</item>
+        <item>Facebook Blue</item>
+        <item>Instagram Cerise</item>
+        <item>Jollibee Crimson</item>
+        <item>Monster Energy Green</item>
+        <item>Nextbit Mint</item>
+        <item>Oneplus Red</item>
+        <item>Pepsi Blue</item>
+        <item>Pixel Blue</item>
+        <item>Pocophone Yellow</item>
+        <item>Razer Green</item>
+        <item>Samsung Blue</item>
+        <item>Spotify Green</item>
+        <item>Starbucks Green</item>
+        <item>Twitch Purple</item>
+        <item>Twitter Blue</item>
+        <item>Xiaomi Orange</item>
+        <item>Јантарна</item>
+        <item>"Црна"</item>
+        <item>"Плава"</item>
+        <item>Plavo-siva</item>
+        <item>Smeđa</item>
+        <item>"Тиркизна"</item>
+        <item>Duboko narandžasta</item>
+        <item>Duboko ljubičasta</item>
+        <item>"Зелена"</item>
+        <item>"Сива"</item>
+        <item>"Индиго"</item>
+        <item>Svetloplava</item>
+        <item>Limun-zelena</item>
+        <item>"Наранџаста"</item>
+        <item>"Розе"</item>
+        <item>"Љубичаста"</item>
+        <item>"Црвена"</item>
+        <item>"Тиркизна"</item>
+        <item>Korisnik pet</item>
+        <item>Korisnik četiri</item>
+        <item>Korisnik jedan</item>
+        <item>Korisnik sedam</item>
+        <item>Korisnik šest</item>
+        <item>Korisnik tri</item>
+        <item>Korisnik dva</item>
+        <item>"Бела"</item>
+        <item>"Жута"</item>
+    </string-array>
+</resources>

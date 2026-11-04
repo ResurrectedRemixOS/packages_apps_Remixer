@@ -3,4 +3,31 @@
     <string name="charge_report_battery">"ବେଟେରୀ"</string>
     <string name="charge_report_temp">"ତାପମାତ୍ରା"</string>
     <string name="charge_report_time">"ସମୟ"</string>
+    <string name="charge_report_title">ଚାର୍ଜ ରିପୋର୍ଟ</string>
+    <string name="charge_report_summary">ଅନପ୍ଲଗ୍ କଲାବେଳେ ପ୍ରତ୍ୟେକ ଚାର୍ଜର ସାରାଂଶ</string>
+    <string name="charge_report_min_title">ଯଦି ଏହା ଅନ୍ତତଃ ଯୋଡ଼ିଥାଏ</string>
+    <string name="charge_report_keep_title">ରଖନ୍ତୁ</string>
+    <string-array name="charge_report_keep_entries">
+        <item>୩ ଦିନ</item>
+        <item>୭ ଦିନ</item>
+        <item>୧୪ ଦିନ</item>
+        <item>୩୦ ଦିନ</item>
+    </string-array>
+    <string name="charge_report_history_days">ଶେଷ <xliff:g id="days" example="7">%1$d</xliff:g> ଦିନ</string>
+    <string name="charge_report_today">ଆଜି, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">ଗତକାଲି, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> ମିନିଟ</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ଘ <xliff:g id="minutes" example="02">%2$02d</xliff:g> ମି</string>
+    <string name="charge_report_watts">ୱାଟ୍</string>
+    <string name="charge_report_added">ଯୋଡ଼ାଗଲା</string>
+    <string name="charge_report_peak">ଶିଖର</string>
+    <string name="charge_report_average">ହାରାହାରି</string>
+    <string name="charge_report_max_temp">ସର୍ବାଧିକ ତାପମାତ୍ରା</string>
+    <string name="charge_report_charger">ଚାର୍ଜର</string>
+    <string name="charge_report_started">ଆରମ୍ଭ ସମୟ</string>
+    <string name="charge_report_wired">ୱାୟାର୍ଡ</string>
+    <string name="charge_report_wireless">ୱାୟରଲେସ</string>
+    <string name="charge_report_dock">ଡକ</string>
+    <string name="charge_report_empty">ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ଚାର୍ଜ ନାହିଁ</string>
+    <string name="charge_report_footer">ଚାର୍ଜ ହେଉଥିବା ସମୟରେ SystemUI ପ୍ରତି ୩୦ ସେକେଣ୍ଡରେ ବ୍ୟାଟେରୀର ବିଦ୍ୟୁତ୍ ପ୍ରବାହ, ଭୋଲଟେଜ ଓ ତାପମାତ୍ରା ପଢ଼େ। ୱାଟ୍ ଫୋନ୍ ମାପୁଥିବା ମୂଲ୍ୟ, ତେଣୁ ଚାର୍ଜର ଉପରେ ଥିବା ସଂଖ୍ୟାରୁ ଭିନ୍ନ ହୋଇପାରେ। ରିପୋର୍ଟ ଫୋନରେ ରହେ; କିଛି ଅପଲୋଡ୍ ହୁଏ ନାହିଁ।</string>
 </resources>

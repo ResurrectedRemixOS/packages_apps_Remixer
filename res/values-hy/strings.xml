@@ -83,4 +83,224 @@
     <string name="wallpaper_apply_lock">"Կողպէկրան"</string>
     <string name="remixer_settings_style_original">"Բնօրինակ"</string>
     <string name="remixer_navbar_category">"Նավիգացիայի գոտի"</string>
+    <string name="remixer_dashboard_summary">Կարգավիճակի գոտի, թեմա, կողպէկրան և այլն</string>
+    <string name="rr_homepage_battery_saver">Մարտկոցի խնայում</string>
+    <string name="rr_homepage_personalize">Անհատականացում</string>
+    <string name="rr_homepage_privacy">Գաղտնիություն և անվտանգություն</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g>-ը անվճար</string>
+    <string name="rr_homepage_charged">Լրիվ լիցքավորված</string>
+    <string name="rr_homepage_on_battery">Մարտկոցով</string>
+    <string name="rr_homepage_saver_on">Մարտկոցի խնայումը միացված է</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> սարք</item>
+        <item quantity="two"><xliff:g id="count" example="2">%d</xliff:g> սարք</item>
+        <item quantity="few"><xliff:g id="count" example="2">%d</xliff:g> սարք</item>
+        <item quantity="many"><xliff:g id="count" example="2">%d</xliff:g> սարք</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> սարք</item>
+    </plurals>
+    <string name="rr_homepage_extras">Լրացուցիչ կարգավորումներ</string>
+    <string name="rr_homepage_saver">Խնայում</string>
+    <string name="rr_homepage_signed_out">Մուտք չի գործված</string>
+    <string name="rr_homepage_remixer_tagline">Դարձրու այն քո սեփականը։ Կարգավիճակի գոտի, թեմա, կողպէկրան և այլն։</string>
+    <string name="rr_homepage_device_tagline">Զարթուցիչի սահիչ, էկրան, լիցքավորում և GameBar:</string>
+    <string name="rr_homepage_device_action">Կարգավորիր</string>
+    <string name="rr_group_network">Ցանց և սարքեր</string>
+    <string name="rr_group_network_summary">Wi‑Fi, բջջային, Bluetooth</string>
+    <string name="rr_group_apps_summary">Հավելվածներ, ծանուցումներ, Ռեժիմներ</string>
+    <string name="rr_group_display">Էկրան և ձայն</string>
+    <string name="rr_group_display_summary">Էկրան, պաստառ, ձայն</string>
+    <string name="rr_group_security_summary">Կողպում, տեղորոշում, արտակարգ</string>
+    <string name="rr_group_security_center">Անվտանգության կենտրոն</string>
+    <string name="rr_group_accounts">Google և հաշիվներ</string>
+    <string name="rr_group_accounts_summary">Google, գաղտնաբառեր, պահուստավորում</string>
+    <string name="rr_group_accounts_plain_summary">Գաղտնաբառեր, հաշիվներ, պահուստավորում</string>
+    <string name="rr_group_system_summary">Լեզուներ, ժեստեր, թարմացումներ</string>
+    <string name="remixer_tagline">Դարձրու այն քո սեփականը։</string>
+    <string name="remixer_remix">Վերամշակիր այն</string>
+    <string name="remixer_remixed">Վերամշակված <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g>-ով</string>
+    <string name="remixer_chip_shade_default">Երանգ · Լռելյայն</string>
+    <string name="remixer_quick">Արագ վերամշակում</string>
+    <string name="remixer_everything">Ամեն ինչ</string>
+    <string name="remixer_quick_accents">Նախադրյալներ կամ ցանկացած գույն</string>
+    <string name="remixer_quick_fonts">Համակարգի տառատեսակի ոճեր</string>
+    <string name="remixer_quick_walls">RR հավաքածու</string>
+    <string name="remixer_quick_header">Արագ կարգավորումների վերնագիր</string>
+    <string name="remixer_quick_header_summary">Վերնագրի պատկերներ</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Ժամացույց, մարտկոց, պատկերակներ և ցանցի տրաֆիկ</string>
+    <string name="remixer_qs_summary">Վերնագրի պատկեր</string>
+    <string name="remixer_notifications_summary">Եզրային լուսավորում, հավելվածների պատկերակներ և լիցքավորման ձայներ</string>
+    <string name="remixer_theme_summary">Տառատեսակներ, շեշտադրումներ և պաստառներ</string>
+    <string name="remixer_lockscreen_summary">UDFPS, լիցքավորման տեղեկություն և եղանակ</string>
+    <string name="remixer_udfps_icon">UDFPS պատկերակ</string>
+    <string name="remixer_udfps_icon_summary">Ցուցադրվում է մատնահետքի սենսորի վրա</string>
+    <string name="remixer_udfps_animation">UDFPS անիմացիա</string>
+    <string name="remixer_udfps_animation_summary">Նվագարկվում է, մինչ մատդ սենսորի վրա է</string>
+    <string name="remixer_navigation">Նավիգացիա</string>
+    <string name="remixer_navigation_summary">Pulse, կոճակներ և նավիգացիայի գոտի</string>
+    <string name="remixer_misc_summary">Ձայն, պահուստավորում, սպուֆինգ, ոլորում և USB</string>
+    <string name="scroll_haptics_title">Հպում ոլորման վերջում</string>
+    <string name="scroll_haptics_summary">Թեթև թրթռոց, երբ ցուցակը կամ էջը այլևս չի կարող ոլորվել</string>
+    <string name="usb_mode_picker_title">USB ռեժիմի ընտրիչ</string>
+    <string name="usb_mode_picker_summary">Ընտրիր ռեժիմ, երբ միացնում ես համակարգչին</string>
+    <string name="remixer_fonts_summary">Համակարգի տառատեսակ</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix պաստառներ</string>
+    <string name="remixer_accents">Շեշտադրումներ</string>
+    <string name="remixer_accents_summary">Շեշտադրման գույն</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">Երաժշտության վիզուալիզատոր էկրանի ներքևում</string>
+    <string name="pulse_switch">Օգտագործել Pulse</string>
+    <string name="pulse_switch_summary">Երաժշտության գծեր էկրանի ներքևում, երբ մեդիան նվագարկվում է</string>
+    <string name="pulse_preview_title">Հիմա նվագարկվում է</string>
+    <string name="pulse_style_lines">Գծեր</string>
+    <string name="pulse_style_fading">Մարող</string>
+    <string name="pulse_style_blocks">Բլոկներ</string>
+    <string name="pulse_style_mirror">Հայելային</string>
+    <string name="pulse_color_custom">Հատուկ</string>
+    <string name="pulse_color_gradient">Ծիածան</string>
+    <string name="pulse_bars">Գծեր</string>
+    <string name="pulse_bars_value">Գծեր · %1$d</string>
+    <string name="pulse_height">Բարձրություն</string>
+    <string name="pulse_height_value">Բարձրություն · %1$d dp</string>
+    <string name="pulse_opacity">Անթափանցություն</string>
+    <string name="pulse_opacity_value">Անթափանցություն · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Պահել գծերը կողպէկրանին, երբ երաժշտություն է նվագարկվում</string>
+    <string name="pulse_failed">Չհաջողվեց պահել այդ Pulse կարգավորումը</string>
+    <string name="accent_applied">Շեշտադրումը կիրառվեց</string>
+    <string name="accent_current">Շեշտադրում · %1$s</string>
+    <string name="accent_current_custom">Շեշտադրում · Հատուկ</string>
+    <string name="accent_preview_tonal">Տոնալ</string>
+    <string name="accent_failed">Չհաջողվեց կիրառել այդ շեշտադրումը</string>
+    <string name="accent_custom">Հատուկ</string>
+    <string name="accent_custom_summary">Աշխատում է ցանկացած գույն։ Երանգը դեռ կիրառվում է վերևից։</string>
+    <string name="accent_custom_pad">Հագեցվածություն և պայծառություն</string>
+    <string name="accent_custom_use">Օգտագործել <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">Երանգ</string>
+    <string name="accent_shade_darker">Մուգ</string>
+    <string name="accent_shade_lighter">Բաց</string>
+    <string name="accent_shade_darker_value">Մուգ · %1$d</string>
+    <string name="accent_shade_lighter_value">Բաց · %1$d</string>
+    <string name="remixer_qs_style">Արագ կարգավորումների ոճ</string>
+    <string name="remixer_qs_style_preview">Նախադիտում · %1$s</string>
+    <string name="remixer_qs_style_note">Յուրաքանչյուր ոճ հետևում է քո շեշտադրման գույնին։ Ձայնի վահանակն ունի համապատասխան Bento, Shapes, Blueprint, Duo և Soft ոճեր։ Stock Lineage-ը պահում է Android 17 սալիկները անփոփոխ։</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Android 17 սալիկները, անփոփոխ</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Պայծառություն շեշտադրման քարտում։ Սալիկները լցվում են շեշտադրման գրադիենտով</string>
+    <string name="remixer_qs_style_compact">Սեղմ</string>
+    <string name="remixer_qs_style_compact_summary">Ավելի կարճ սալիկներ։ Մեկ էկրանում ավելի շատ դրանք</string>
+    <string name="remixer_qs_style_glass">Ապակե</string>
+    <string name="remixer_qs_style_glass_summary">Թափանցիկ ուրվագծված սալիկներ, որոնք միացած ժամանակ փայլում են շեշտադրման գույնով</string>
+    <string name="remixer_qs_style_circles">Շրջաններ</string>
+    <string name="remixer_qs_style_circles_summary">Կլոր անջատիչներ՝ պիտակներով։ Լայն սալիկները դառնում են քարտեր</string>
+    <string name="remixer_qs_style_classic">Դասական</string>
+    <string name="remixer_qs_style_classic_summary">Հին դպրոցի RR․ մերկ պատկերակներ պիտակներով, հինգ շարքով, բարակ սլայդեր</string>
+    <string name="remixer_qs_style_cards">Քարտեր</string>
+    <string name="remixer_qs_style_cards_summary">Մեծ քարտեր, յուրաքանչյուր անվան տակ՝ վիճակը, երեք շարքով</string>
+    <string name="remixer_qs_style_neon">Նեոն</string>
+    <string name="remixer_qs_style_neon_summary">Ուրվագծված սալիկներ, որոնք միացած ժամանակ փայլում են շեշտադրման գույնով</string>
+    <string name="remixer_qs_style_bento_summary">Մեծ կլորացված բլոկներ՝ լցված շեշտադրմամբ, փոքրերի տակ՝ պիտակներ</string>
+    <string name="remixer_qs_style_shapes">Ձևեր</string>
+    <string name="remixer_qs_style_shapes_summary">Կլոր անջատիչներ, որոնք միացած ժամանակ աճում են բլթակներ, հինգ շարքով</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Բարակ ուրվագծեր և մոնոտարածությամբ մեծատառեր</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Բաժանված սալիկներ։ Պատկերակի կեսը լուսավորվում է և միացնում</string>
+    <string name="remixer_qs_style_soft">Փափուկ</string>
+    <string name="remixer_qs_style_soft_summary">Բարձրացված սալիկներ, որոնք միացած ժամանակ սեղմվում են ներս</string>
+    <string name="remixer_lock_media_style">Մեդիա նվագարկչի ոճ</string>
+    <string name="remixer_lock_media_same">Նույնը, ինչ Արագ կարգավորումներում</string>
+    <string name="remixer_lock_media_same_summary">Հետևում է Արագ կարգավորումների մեդիա սալիկին, հիմա՝ %1$s</string>
+    <string name="remixer_lock_media_off_summary">Կողպէկրանին նվագարկիչ չկա</string>
+    <string name="remixer_lock_media_note">Քարտը կողպէկրանին ցուցադրվում է, երբ ինչ-որ բան է նվագարկվում։ Թափանցիկ ոճերը ստանում են մուգ ֆոն, որպեսզի կարդացվեն պաստառի վրա։</string>
+    <string name="remixer_lock_media_stock_summary">Ալբոմի շապիկը լցնում է քարտը</string>
+    <string name="remixer_lock_media_remix_summary">Մուգ քարտ, շեշտադրված նվագարկման կոճակ</string>
+    <string name="remixer_lock_media_compact_summary">Ավելի կլորացված քարտ, կլոր շապիկ</string>
+    <string name="remixer_lock_media_glass_summary">Ուրվագծված թափանցիկ քարտ</string>
+    <string name="remixer_lock_media_circles_summary">Փափուկ քարտ, շեշտադրված նվագարկման կոճակ</string>
+    <string name="remixer_lock_media_classic_summary">Ավելի քառակուսի քարտ, ուրվագծված նվագարկման կոճակ</string>
+    <string name="remixer_lock_media_cards_summary">Փափուկ քարտ, շեշտադրված նվագարկման կոճակ, ինչպես Շրջաններում</string>
+    <string name="remixer_lock_media_neon_summary">Սև քարտ շեշտադրված եզրագծով</string>
+    <string name="remixer_lock_media_bento_summary">Փափուկ քարտ, շեշտադրված նվագարկման կոճակ</string>
+    <string name="remixer_lock_media_shapes_summary">Ավելի կլորացված քարտ, շեշտադրված նվագարկման կոճակ</string>
+    <string name="remixer_lock_media_blueprint_summary">Բարակ ուրվագիծ, ուրվագծված նվագարկման կոճակ</string>
+    <string name="remixer_lock_media_duo_summary">Երկտոն քարտ, շեշտադրված նվագարկման կոճակ</string>
+    <string name="remixer_lock_media_soft_summary">Բարձրացված քարտ՝ եզրով</string>
+    <string name="remixer_headers">Վերնագրի պատկեր</string>
+    <string name="remixer_headers_summary">Ընտրիր ֆոնային պատկեր Արագ կարգավորումների համար</string>
+    <string name="header_switch">Օգտագործել վերնագրի պատկերը</string>
+    <string name="header_switch_summary">Ցույց տուր պատկեր Արագ կարգավորումների հետևում</string>
+    <string name="header_source">Աղբյուր</string>
+    <string name="header_source_collection">Հավաքածու</string>
+    <string name="header_collections_summary_daylight">Վերնագիրը հետևում է օրվա ժամին կամ պտտվում է հավաքածուում</string>
+    <string name="header_collections_summary_static">Բացիր հավաքածու, ապա հպիր պատկերին՝ այն օգտագործելու համար</string>
+    <string name="header_collections_empty">Վերնագրի հավաքածուներ տեղադրված չեն</string>
+    <string name="header_images_daylight">Այս հավաքածուում</string>
+    <plurals name="header_image_count">
+        <item quantity="one">%d պատկեր</item>
+        <item quantity="two">%d պատկեր</item>
+        <item quantity="few">%d պատկեր</item>
+        <item quantity="many">%d պատկեր</item>
+        <item quantity="other">%d պատկեր</item>
+    </plurals>
+    <string name="header_photo_summary">Ցանկացած լուսանկար կամ անիմացիոն GIF՝ քո galery-ից</string>
+    <string name="header_height">Բարձրություն</string>
+    <string name="header_height_value">Բարձրություն · %1$d dp</string>
+    <string name="header_shadow">Մգեցում</string>
+    <string name="header_shadow_value">Մգեցում · %1$d%%</string>
+    <string name="header_failed">Չհաջողվեց պահել այդ վերնագրի կարգավորումը</string>
+    <string name="remixer_weather_summary">Եղանակի ծառայություն և միավորներ</string>
+    <string name="font_preview_notification">Ահա, թե ինչպես կկարդա քո հեռախոսը։</string>
+    <string name="font_try_text">Փորձիր քո սեփական տեքստը</string>
+    <string name="font_previewing">Նախադիտում</string>
+    <string name="font_current">Ընթացիկ տառատեսակ</string>
+    <string name="font_badge_current">Ընթացիկ</string>
+    <string name="font_apply_done">Կիրառված է</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Էկրան</string>
+    <string name="font_filter_script">Սկրիպտ</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Տառատեսակը կիրառվեց</string>
+    <string name="font_failed">Չհաջողվեց կիրառել այդ տառատեսակը</string>
+    <string name="wallpaper_set">Պաստառը դրված է</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">Resurrected Remix-ից %d պաստառ։ Հպիր մեկին՝ նախադիտելու համար։</item>
+        <item quantity="two">Resurrected Remix-ից %d պաստառ։ Հպիր մեկին՝ նախադիտելու համար։</item>
+        <item quantity="few">Resurrected Remix-ից %d պաստառ։ Հպիր մեկին՝ նախադիտելու համար։</item>
+        <item quantity="many">Resurrected Remix-ից %d պաստառ։ Հպիր մեկին՝ նախադիտելու համար։</item>
+        <item quantity="other">Resurrected Remix-ից %d պաստառ։ Հպիր մեկին՝ նախադիտելու համար։</item>
+    </plurals>
+    <string name="wallpaper_apply_both">Երկուսը</string>
+    <string name="wallpaper_failed">Չհաջողվեց դնել այդ պաստառը</string>
+    <string name="missing_app">Այդ հավելվածը տեղադրված չէ</string>
+    <string name="remixer_spoofing">Սպուֆինգ</string>
+    <string name="remixer_spoofing_summary">Play Integrity, սարքի ինքնությունը և հավելվածի առ հավելված սպուֆինգը</string>
+    <string name="remixer_settings_style">Կարգավորումների ոճ</string>
+    <string name="rr_maintainer">Պահպանող</string>
+    <string name="remixer_navbar_summary">Նավիգացիայի գծի երկարություն, հաստություն և դասավորություն</string>
+    <string name="remixer_navbar_pill_length">Ժեստերի գծի երկարություն</string>
+    <string name="remixer_navbar_pill_thickness">Ժեստերի գծի հաստություն</string>
+    <string name="remixer_navbar_pill_auto_hide">Մարեցնել ժեստերի գիծը</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Թաքցնել գիծը մի քանի վայրկյանից հետո․ այն վերադառնում է, երբ դիպչես էկրանին</string>
+    <string name="remixer_navbar_ime">Ստեղնաշարի կոճակներ</string>
+    <string name="remixer_navbar_ime_summary">Ցույց տալ հետ և ստեղնաշարի փոխարկիչի կոճակները ստեղնաշարի տակ</string>
+    <string name="remixer_navbar_layout">Կոճակների դասավորություն</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Կարճ</item>
+        <item>Նորմալ</item>
+        <item>Երկար</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Ամենաբարակը</item>
+        <item>Ավելի բարակ</item>
+        <item>Բարակ</item>
+        <item>Նորմալ</item>
+        <item>Հաստ</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Նորմալ</item>
+        <item>Սեղմ</item>
+        <item>"Ձախակողմյան"</item>
+        <item>"Աջակողմյան"</item>
+    </string-array>
 </resources>

@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Pin"</string>
     <string name="battery_style_title">"Kiểu"</string>
+    <string-array name="battery_style_entries">
+        <item>Dọc</item>
+        <item>Vòng tròn</item>
+        <item>Vòng tròn chấm</item>
+        <item>Vòng neon</item>
+        <item>Viên thuốc mảnh</item>
+        <item>Phần trăm lớn</item>
+        <item>Văn bản</item>
+    </string-array>
+    <string name="battery_percent_title">Phần trăm</string>
+    <string-array name="battery_percent_entries">
+        <item>Ẩn</item>
+        <item>Bên trong biểu tượng pin</item>
+        <item>Bên cạnh</item>
+    </string-array>
+    <string name="battery_ring_color_title">Màu vòng neon</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Theo mức là màu nhấn khi trên 20%%, đỏ khi dưới đó và hổ phách khi Trình tiết kiệm pin bật.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Theo mức</item>
+        <item>Nhấn mạnh</item>
+        <item>"Trắng"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Phát sáng khi đang sạc</string>
+    <string name="battery_ring_tile_title">Cùng vòng này trên ô Cài đặt nhanh</string>
+    <string name="battery_ring_tile_summary">Kèm mức pin và thời gian màn hình bật</string>
 </resources>

@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"ბატარეა"</string>
     <string name="battery_style_title">"სტილი"</string>
+    <string-array name="battery_style_entries">
+        <item>ვერტიკალური</item>
+        <item>"წრე"</item>
+        <item>წყვეტილი წრე</item>
+        <item>ნეონის რგოლი</item>
+        <item>თხელი ზოლი</item>
+        <item>დიდი პროცენტი</item>
+        <item>ტექსტი</item>
+    </string-array>
+    <string name="battery_percent_title">პროცენტი</string>
+    <string-array name="battery_percent_entries">
+        <item>დამალული</item>
+        <item>ხატულას შიგნით</item>
+        <item>მის გვერდით</item>
+    </string-array>
+    <string name="battery_ring_color_title">ნეონის რგოლის ფერი</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. დონის მიხედვით აქცენტი 20%% -ზე მაღლა არის, წითელი ქვემოთ და ქარვისფერი ბატარეის დამზოგველში.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>დონის მიხედვით</item>
+        <item>აქცენტი</item>
+        <item>"თეთრი"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">ნაპერწკალი დამუხტვისას</string>
+    <string name="battery_ring_tile_title">იგივე რგოლი სწრაფი პარამეტრების ფილაზეც</string>
+    <string name="battery_ring_tile_summary">დონითა და ეკრანის ჩართულობის დროით</string>
 </resources>

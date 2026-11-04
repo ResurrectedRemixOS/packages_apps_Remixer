@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Hər Rejim üçün görünüş</string>
+    <string name="remix_modes_everyday">Gündəlik görünüş</string>
+    <string name="remix_modes_everyday_summary">Görünüşü olan Rejim açıq olmadıqda geri qayıdır</string>
+    <string name="remix_modes_wallpaper">Divar kağızı görünüşü izləyir</string>
+    <string name="remix_modes_wallpaper_summary">Rejim divar kağızını da dəyişə bilər</string>
+    <string name="remix_modes_modes">Rejimləriniz</string>
+    <string name="remix_modes_no_change">Dəyişiklik yoxdur</string>
+    <string name="remix_modes_none">Əvvəlcə Tema › Görünüşlər bölməsində görünüş saxlayın</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g> üçün görünüş</string>
+</resources>

@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Таймер</string>
     <string name="quick_launch_undo">"Отмяна"</string>
     <string name="quick_launch_off">"Изкл."</string>
+    <string name="quick_launch_title">Бързо стартиране</string>
+    <string name="quick_launch_main">Бързо стартиране с пръстов отпечатък</string>
+    <string name="quick_launch_main_summary">Задръжте пръста си на сензора след отключване, за да отворите пряк път</string>
+    <string name="quick_launch_hint">Докоснете пряк път, за да го смените, задръжте го, за да го премахнете, или го плъзнете, за да промените реда.</string>
+    <string name="quick_launch_behavior">Поведение</string>
+    <string name="quick_launch_hold">Време за задържане</string>
+    <string name="quick_launch_haptics">Вибрация при всеки пряк път</string>
+    <string name="quick_launch_add">Добавяне</string>
+    <string name="quick_launch_video">Видео</string>
+    <string name="quick_launch_qr">Сканиране на QR код</string>
+    <string name="quick_launch_app">Приложение…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> премахнат</string>
 </resources>

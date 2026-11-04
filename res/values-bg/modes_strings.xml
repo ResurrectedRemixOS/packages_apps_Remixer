@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Look за всеки от вашите режими</string>
+    <string name="remix_modes_everyday">Ежедневен Look</string>
+    <string name="remix_modes_everyday_summary">Връща се, когато няма включен режим с Look</string>
+    <string name="remix_modes_wallpaper">Тапетът следва Look</string>
+    <string name="remix_modes_wallpaper_summary">Режимът може да променя и тапета</string>
+    <string name="remix_modes_modes">Вашите режими</string>
+    <string name="remix_modes_no_change">Без промяна</string>
+    <string name="remix_modes_none">Първо запазете Look в Тема › Looks</string>
+    <string name="remix_modes_pick">Look за <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

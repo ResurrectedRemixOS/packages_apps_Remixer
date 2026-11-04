@@ -13,4 +13,41 @@
     <string name="backup_group_other">"Inne"</string>
     <string name="backup_done">"Gotowe"</string>
     <string name="volume_style_title">Styl panelu głośności</string>
+    <string name="backup_summary">Wszystkie ustawienia RR w jednym pliku</string>
+    <string name="backup_now">Utwórz kopię teraz</string>
+    <string name="backup_never">Ostatnia kopia: nigdy</string>
+    <string name="backup_last">Ostatnia kopia: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Przywróć z pliku</string>
+    <string name="backup_restore_summary">Wybierz plik kopii zapasowej</string>
+    <string name="backup_included">Uwzględnione</string>
+    <string name="backup_part_theme">Akcent, czcionka i ikony</string>
+    <string name="backup_part_header">Obraz nagłówka</string>
+    <string name="backup_part_photo">Obraz nagłówka (Twoje zdjęcie)</string>
+    <string name="backup_part_photo_summary">Powiększa plik</string>
+    <string name="backup_part_looks">Twoje Look</string>
+    <string name="backup_weekly">Cotygodniowa kopia zapasowa</string>
+    <string name="backup_weekly_summary">Do wybranego folderu</string>
+    <string name="backup_weekly_on">Co tydzień do <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Proponuj kopię przed aktualizacjami</string>
+    <string name="backup_offer_summary">Aktualizator zapyta przed instalacją</string>
+    <string name="backup_sets">Ustawia <xliff:g id="count" example="64">%1$d</xliff:g> ustawień</string>
+    <string name="backup_saved">Zapisano ustawień: <xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_restored">Przywrócono ustawień: <xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_restored_message">SystemUI uruchomi się ponownie, aby je zastosować.</string>
+    <string name="backup_skipped">Ustawienia <xliff:g id="count" example="2">%1$d</xliff:g> nie istnieją w tej wersji i zostały pominięte.</string>
+    <string name="backup_failed">Nie udało się zapisać kopii zapasowej</string>
+    <string name="backup_invalid">To nie jest plik kopii zapasowej Resurrected Remix</string>
+    <string name="backup_footer">Plik zawiera tylko ustawienia RR: bez kont, haseł, sieci Wi-Fi, aplikacji ani wiadomości. Przywracanie zapisuje wyłącznie ustawienia z listy RR, więc plik kopii nie może zmienić niczego innego w telefonie. Zdjęcie nagłówka jest dołączane tylko przy włączonym przełączniku, ponieważ zwiększa rozmiar pliku.</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Szklane</item>
+        <item>Pigułka</item>
+        <item>Klasyczny RR</item>
+        <item>Bento</item>
+        <item>Kształty</item>
+        <item>Schemat</item>
+        <item>Duo</item>
+        <item>Miękkie</item>
+    </string-array>
 </resources>

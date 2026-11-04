@@ -13,4 +13,21 @@
     <string name="rr_about_this_phone">"Ez a telefon"</string>
     <string name="rr_about_network">"Hálózat"</string>
     <string name="rr_about_hidden">Rejtett</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Hivatalos</string>
+    <string name="rr_about_vanilla">Vanília</string>
+    <string name="rr_about_hardware">Hardver</string>
+    <string name="rr_about_processor">Processzor</string>
+    <string name="rr_about_processor_sub">%1$d mag · legfeljebb %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d mag</string>
+    <string name="rr_about_storage_used">%1$s használva</string>
+    <string name="rr_about_display">Kijelző</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · Töltés</string>
+    <string name="rr_about_kernel_linux">Linux kernel</string>
+    <string name="rr_about_software_purpose">Android-verzió, biztonsági frissítés, buildelés dátuma és buildszám</string>
+    <string name="rr_about_maintainer">Karbantartó</string>
+    <string name="rr_about_show">Megjelenítés</string>
+    <string name="rr_about_hide">Elrejtés</string>
 </resources>

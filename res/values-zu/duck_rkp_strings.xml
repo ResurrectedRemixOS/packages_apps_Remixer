@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Sebenzisa i-RKP yedivayisi</string>
+    <string name="ts_rkp_enabled_summary">Sebenzisa i-keybox edalwe. Ukungenisa i-keybox kuyayivala lokhu.</string>
+    <string name="ts_rkp_provision">Dala i-keybox</string>
+    <string name="ts_rkp_provision_summary">Cela i-keybox ku-Google usebenzisa isevisi yokuhlinzeka yale divayisi. Idinga i-firmware ye-Qualcomm ehambisanayo.</string>
+    <string name="ts_rkp_status">Isimo sokuhlinzeka</string>
+    <string name="ts_rkp_owner_only">Phatha i-RKP yedivayisi kusuka kuphrofayela yomnikazi wedivayisi</string>
+    <string name="ts_rkp_unavailable">I-RKP yedivayisi ayitholakali</string>
+    <string name="ts_rkp_imported">Ivaliwe ngenkathi kufakwe i-keybox engeniswe</string>
+    <string name="ts_rkp_disabled">Icimile. Vula i-RKP yedivayisi ukuze usebenzise noma udale i-keybox.</string>
+    <string name="ts_rkp_idle">Ilungele ukucela i-keybox</string>
+    <string name="ts_rkp_fetching">Ithola inselelo yokuhlinzeka…</string>
+    <string name="ts_rkp_hardware">Ilinde isevisi yokuhlinzeka yedivayisi…</string>
+    <string name="ts_rkp_signing">Icela izitifiketi ku-Google…</string>
+    <string name="ts_rkp_validating">Iqinisekisa futhi igcina i-keybox…</string>
+    <string name="ts_rkp_ready">I-keybox edalwe isebenza. Izivuselela yodwa ngaphambi kuka-%1$s</string>
+    <string name="ts_rkp_keybox_stored">I-keybox ye-RKP yedivayisi igcinwe</string>
+    <string name="ts_rkp_expired">I-keybox edalwe iphelelwe yisikhathi. Dala enye esikhundleni sayo.</string>
+    <string name="ts_rkp_hal_rejected">I-firmware iphikisile isicelo (ikhodi %1$d). I-Duck V1 ingase ingasekelwa.</string>
+    <string name="ts_rkp_http_error">Iseva yokuhlinzeka iphikisile isicelo (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Idivayisi ayiveze ukuxhumana kwe-V1 okuhambisanayo</string>
+    <string name="ts_rkp_network_error">Ayikwazanga ukufinyelela iseva yokuhlinzeka. Hlola uxhumo lwakho.</string>
+    <string name="ts_rkp_submission_unknown">Impendulo yeseva ilahlekile. Isicelo mhlawumbe sesicutshungulwe; akukho ukuzama kabusha okwenziwe ngokuzenzakalelayo.</string>
+    <string name="ts_rkp_invalid_chain">Izitifiketi ze-keybox zehlulekile ukuqinisekiswa. I-keybox ekhona igciniwe.</string>
+    <string name="ts_rkp_timeout">Isikhathi sokuhlinzeka siphelile. Uma isevisi yedivayisi isathiyelwe, qala kabusha idivayisi ngaphambi kokuzama futhi.</string>
+    <string name="ts_rkp_canceled">Isicelo sikhanseliwe ngoba ukumiswa kwe-keybox kushintshile</string>
+    <string name="ts_rkp_save_failed">Ayikwazanga ukugcina i-keybox edalwe</string>
+    <string name="ts_rkp_action_failed">Ayikwazanga ukuqedela umsebenzi we-keybox</string>
+</resources>

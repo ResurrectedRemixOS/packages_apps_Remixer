@@ -8,4 +8,50 @@
         <item>"中"</item>
         <item>"大"</item>
     </string-array>
+    <string name="pie_title">パイ コントロール</string>
+    <string name="pie_summary">端末の縁の下部を長押しすると、ショートカットのパイが開きます</string>
+    <string name="pie_zone">縁の一部</string>
+    <string name="pie_clock">その上に時計とバッテリー</string>
+    <string name="pie_items">スライス</string>
+    <string-array name="pie_items_entries">
+        <item>"戻る"</item>
+        <item>ホーム</item>
+        <item>"最近"</item>
+        <item>"通知"</item>
+        <item>"ライト"</item>
+        <item>"スクリーンショット"</item>
+        <item>"電源ボタン メニュー"</item>
+        <item>"アシスタント"</item>
+        <item>"カメラ"</item>
+    </string-array>
+    <string name="pie_footer">縁から素早くスワイプすると戻る操作になるよう、動かさずに4分の1秒ほど押し続ける必要があります。ロック画面では開きません。</string>
+    <string-array name="pie_edges_entries">
+        <item>"左"</item>
+        <item>"右"</item>
+        <item>両方</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>下3分の1</item>
+        <item>中央</item>
+        <item>縁全体</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>ネオン</item>
+        <item>ガラス</item>
+        <item>クラシック</item>
+    </string-array>
+    <string name="sidebar_style_title">アプリ サイドバーの見た目</string>
+    <string-array name="sidebar_style_entries">
+        <item>クラシック</item>
+        <item>RR ガラス</item>
+        <item>ネオン</item>
+    </string-array>
+    <string name="sidebar_settings_title">アプリ サイドバー</string>
+    <string name="sidebar_settings_summary">ハンドルから内側にスワイプして、アプリやツールを表示</string>
+    <string name="sidebar_apps_title">アプリ、ハンドル、クリップボード</string>
+    <string name="sidebar_apps_summary">ハンドルをオンにし、アプリを選んで、スマート クリップボードを設定します</string>
+    <string name="sidebar_handle_size_title">ハンドルのサイズ</string>
+    <string name="sidebar_tools_title">ツールの行</string>
+    <string name="sidebar_tools_summary">アプリの下にスクリーンショットとライトを表示</string>
+    <string name="sidebar_footer">ハンドルはアクセントカラーの細い線です。ドラッグして縁に沿って移動できます。ジェスチャー ナビゲーションでは、ハンドルは自身の部分だけを覆い、それ以外の縁では戻る操作が使えます。</string>
 </resources>

@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"बैटरी"</string>
     <string name="charge_report_temp">"तापमान"</string>
     <string name="charge_report_time">"समय"</string>
+    <string name="charge_report_title">चार्ज रिपोर्ट</string>
+    <string name="charge_report_summary">अनप्लग करने पर हर चार्ज का सारांश</string>
+    <string name="charge_report_min_title">केवल तभी अगर इतना जुड़ा हो</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 दिन</item>
+        <item>7 दिन</item>
+        <item>14 दिन</item>
+        <item>30 दिन</item>
+    </string-array>
+    <string name="charge_report_history_days">पिछले <xliff:g id="days" example="7">%1$d</xliff:g> दिन</string>
+    <string name="charge_report_today">आज, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">कल, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> मिनट</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> घं <xliff:g id="minutes" example="02">%2$02d</xliff:g> मिनट</string>
+    <string name="charge_report_watts">वॉट</string>
+    <string name="charge_report_added">जोड़ा गया</string>
+    <string name="charge_report_peak">उच्चतम</string>
+    <string name="charge_report_average">औसत</string>
+    <string name="charge_report_max_temp">अधिकतम तापमान</string>
+    <string name="charge_report_charger">चार्जर</string>
+    <string name="charge_report_started">शुरू हुआ</string>
+    <string name="charge_report_wired">वायर्ड</string>
+    <string name="charge_report_wireless">वायरलेस</string>
+    <string name="charge_report_dock">डॉक</string>
+    <string name="charge_report_empty">अभी तक कोई चार्ज नहीं</string>
+    <string name="charge_report_footer">प्लग लगे होने पर SystemUI हर 30 सेकंड में बैटरी की धारा, वोल्टेज और तापमान पढ़ता है। वॉट वही हैं जो फ़ोन मापता है, इसलिए चार्जर पर लिखी संख्या से अलग हो सकते हैं। रिपोर्ट फ़ोन पर ही रहती हैं; कुछ भी अपलोड नहीं होता।</string>
 </resources>

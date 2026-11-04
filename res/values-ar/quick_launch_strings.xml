@@ -6,4 +6,22 @@
     <string name="quick_launch_timer">المؤقت</string>
     <string name="quick_launch_undo">"تراجع"</string>
     <string name="quick_launch_off">"الميزة غير مفعّلة"</string>
+    <string name="quick_launch_title">الإطلاق السريع</string>
+    <string name="quick_launch_main">الإطلاق السريع بالبصمة</string>
+    <string name="quick_launch_main_summary">أبقِ إصبعك على المستشعر بعد الفتح لفتح اختصار</string>
+    <string name="quick_launch_hint">اضغط اختصارًا لتغييره، أو اضغط مطولًا لإزالته، أو اسحبه لإعادة ترتيبه.</string>
+    <string name="quick_launch_behavior">السلوك</string>
+    <string name="quick_launch_hold">مدة الضغط</string>
+    <string name="quick_launch_haptics">اهتزاز عند كل اختصار</string>
+    <string name="quick_launch_add">إضافة</string>
+    <string name="quick_launch_video">فيديو</string>
+    <string name="quick_launch_qr">مسح رمز QR</string>
+    <string name="quick_launch_app">تطبيق…</string>
+    <string name="quick_launch_removed">تمت إزالة <xliff:g id="shortcut" example="Camera">%1$s</xliff:g></string>
+    <plurals name="quick_launch_on">
+        <item quantity="few">تشغيل · <xliff:g id="count" example="4">%d</xliff:g> اختصارات</item>
+        <item quantity="many">تشغيل · <xliff:g id="count" example="4">%d</xliff:g> اختصارًا</item>
+        <item quantity="zero">تشغيل · <xliff:g id="count" example="4">%d</xliff:g> اختصار</item>
+        <item quantity="other">تشغيل · <xliff:g id="count" example="4">%d</xliff:g> اختصار</item>
+    </plurals>
 </resources>

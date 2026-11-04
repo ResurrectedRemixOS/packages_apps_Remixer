@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Gamitin ang device RKP</string>
+    <string name="ts_rkp_enabled_summary">Gumamit ng nabuong keybox. Kapag nag-import ng keybox, mapapatay ito.</string>
+    <string name="ts_rkp_provision">Gumawa ng keybox</string>
+    <string name="ts_rkp_provision_summary">Humiling ng keybox mula sa Google gamit ang provisioning service ng device na ito. Kailangan ng compatible na Qualcomm firmware.</string>
+    <string name="ts_rkp_status">Status ng provisioning</string>
+    <string name="ts_rkp_owner_only">Pamahalaan ang device RKP mula sa profile ng may-ari ng device</string>
+    <string name="ts_rkp_unavailable">Hindi available ang device RKP</string>
+    <string name="ts_rkp_imported">Naka-disable habang may naka-install na na-import na keybox</string>
+    <string name="ts_rkp_disabled">Naka-off. I-enable ang device RKP para magamit o makagawa ng keybox.</string>
+    <string name="ts_rkp_idle">Handa nang humiling ng keybox</string>
+    <string name="ts_rkp_fetching">Kumukuha ng provisioning challenge…</string>
+    <string name="ts_rkp_hardware">Naghihintay sa provisioning service ng device…</string>
+    <string name="ts_rkp_signing">Humihiling ng certificate mula sa Google…</string>
+    <string name="ts_rkp_validating">Bine-validate at sine-save ang keybox…</string>
+    <string name="ts_rkp_ready">Aktibo ang nabuong keybox. Awtomatikong nagre-renew bago ang %1$s</string>
+    <string name="ts_rkp_keybox_stored">Na-store ang device RKP keybox</string>
+    <string name="ts_rkp_expired">Nag-expire na ang nabuong keybox. Gumawa ng kapalit.</string>
+    <string name="ts_rkp_hal_rejected">Tinanggihan ng firmware ang request (code %1$d). Maaaring hindi suportado ang Duck V1.</string>
+    <string name="ts_rkp_http_error">Tinanggihan ng provisioning server ang request (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Walang compatible na V1 provisioning interface ang device</string>
+    <string name="ts_rkp_network_error">Hindi maabot ang provisioning server. Suriin ang koneksyon mo.</string>
+    <string name="ts_rkp_submission_unknown">Nawala ang server response. Maaaring naproseso na ang request; walang awtomatikong retry na ginawa.</string>
+    <string name="ts_rkp_invalid_chain">Nabigo ang validation ng keybox certificates. Itinago ang dating keybox.</string>
+    <string name="ts_rkp_timeout">Nag-timeout ang provisioning. Kung abala pa rin ang device service, i-restart ang device bago subukan ulit.</string>
+    <string name="ts_rkp_canceled">Nakansela ang request dahil nagbago ang keybox configuration</string>
+    <string name="ts_rkp_save_failed">Hindi ma-save ang nabuong keybox</string>
+    <string name="ts_rkp_action_failed">Hindi matapos ang keybox operation</string>
+</resources>

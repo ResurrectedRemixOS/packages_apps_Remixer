@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Halqa sinxronlaşdırması</string>
+    <string name="ring_sync_tap">Halqa işarə ilə üst-üstə düşəndə toxunun</string>
+    <string name="ring_sync_best">Ən yaxşı <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">MÜKƏMMƏL</string>
+    <string name="ring_sync_new_best">Yeni rekord</string>
+    <string name="ring_sync_again">Yenidən oynamaq üçün toxunun</string>
+    <string name="ring_sync_ember">Ember vurğusu açıldı</string>
+    <string name="ring_sync_use_ember">Ember-i istifadə et</string>
+    <string name="ring_sync_android">Android-in pasxalı</string>
+    <string name="ring_sync_vibrate_on">Zərbələrdə vibrasiya · Aktiv</string>
+    <string name="ring_sync_vibrate_off">Zərbələrdə vibrasiya · Deaktiv</string>
+    <string name="accent_ember">Közərmə</string>
+</resources>

@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"ແບັດເຕີຣີ"</string>
     <string name="charge_report_temp">"ອຸນຫະພູມ"</string>
     <string name="charge_report_time">"ເວລາ"</string>
+    <string name="charge_report_title">ລາຍງານການສາກ</string>
+    <string name="charge_report_summary">ສະຫຼຸບທຸກຄັ້ງທີ່ສາກແບັດເມື່ອຖອດສາຍ</string>
+    <string name="charge_report_min_title">ສະແດງສະເພາະເມື່ອເພີ່ມຢ່າງໜ້ອຍ</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 ມື້</item>
+        <item>7 ມື້</item>
+        <item>14 ມື້</item>
+        <item>30 ມື້</item>
+    </string-array>
+    <string name="charge_report_history_days"><xliff:g id="days" example="7">%1$d</xliff:g> ມື້ຜ່ານມາ</string>
+    <string name="charge_report_today">ມື້ນີ້, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">ມື້ວານ, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> ນາທີ</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ຊມ <xliff:g id="minutes" example="02">%2$02d</xliff:g> ນທ</string>
+    <string name="charge_report_watts">ວັດ</string>
+    <string name="charge_report_added">ເພີ່ມ</string>
+    <string name="charge_report_peak">ສູງສຸດ</string>
+    <string name="charge_report_average">ສະເລ່ຍ</string>
+    <string name="charge_report_max_temp">ອຸນຫະພູມສູງສຸດ</string>
+    <string name="charge_report_charger">ເຄື່ອງສາກ</string>
+    <string name="charge_report_started">ເລີ່ມເວລາ</string>
+    <string name="charge_report_wired">ສາຍ</string>
+    <string name="charge_report_wireless">ໄຮ້ສາຍ</string>
+    <string name="charge_report_dock">ດັອກ</string>
+    <string name="charge_report_empty">ຍັງບໍ່ມີການສາກ</string>
+    <string name="charge_report_footer">SystemUI ອ່ານກະແສ, ແຮງດັນ ແລະ ອຸນຫະພູມຂອງແບັດເຕີຣີທຸກ 30 ວິນາທີຂະນະສາກ. ວັດທີ່ສະແດງແມ່ນສິ່ງທີ່ໂທລະສັບວັດໄດ້, ດັ່ງນັ້ນອາດຕ່າງຈາກຕົວເລກໃນເຄື່ອງສາກ. ລາຍງານຈະຢູ່ໃນໂທລະສັບເທົ່ານັ້ນ; ບໍ່ມີການອັບໂຫຼດ.</string>
 </resources>

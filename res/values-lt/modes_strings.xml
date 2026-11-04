@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Išvaizda kiekvienam jūsų režimui</string>
+    <string name="remix_modes_everyday">Įprasta išvaizda</string>
+    <string name="remix_modes_everyday_summary">Grįžta, kai neįjungtas nė vienas režimas su išvaizda</string>
+    <string name="remix_modes_wallpaper">Ekrano fonas seka išvaizdą</string>
+    <string name="remix_modes_wallpaper_summary">Režimas gali pakeisti ir ekrano foną</string>
+    <string name="remix_modes_modes">Jūsų režimai</string>
+    <string name="remix_modes_no_change">Be pakeitimo</string>
+    <string name="remix_modes_none">Pirmiausia išsaugokite išvaizdą Tema › Išvaizdos</string>
+    <string name="remix_modes_pick">Išvaizda: <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

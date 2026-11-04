@@ -2,4 +2,15 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Baterija"</string>
     <string name="battery_style_title">"Stil"</string>
+    <string name="battery_percent_title">Procenat</string>
+    <string name="battery_ring_color_title">Boja neonskog prstena</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Po nivou je akcentna boja iznad 20%%, crvena ispod i žuta u uštedi baterije.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Po nivou</item>
+        <item>Akcenat</item>
+        <item>"Bela"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Iskra tokom punjenja</string>
+    <string name="battery_ring_tile_title">Isti prsten na pločici Brzih podešavanja</string>
+    <string name="battery_ring_tile_summary">Sa nivoom i vremenom uključenog ekrana</string>
 </resources>

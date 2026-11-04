@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"លំនាំដើម"</string>
     <string name="clock_faces_size">"ទំហំ"</string>
     <string name="clock_faces_restart">"ចាប់ផ្ដើមឡើងវិញ"</string>
+    <string name="remixer_clock_faces">មុខនាឡិកា</string>
+    <string name="clock_faces_system">នាឡិកាប្រព័ន្ធ</string>
+    <string name="clock_faces_system_desc">នាឡិកាពី ផ្ទាំងរូបភាព &amp; រចនាប័ទ្ម</string>
+    <string name="clock_faces_position">%1$d នៃ %2$d</string>
+    <string name="clock_faces_applied">បានអនុវត្ត</string>
+    <string name="clock_faces_preview_unavailable">មិនអាចមើលជាមុនបានទេ</string>
+    <string name="clock_faces_failed">មិនអាចផ្លាស់ប្តូរនាឡិកាបានទេ</string>
+    <string name="clock_faces_color_accent">ពណ៌សំខាន់</string>
+    <string name="clock_faces_color_custom">ផ្ទាល់ខ្លួន</string>
+    <string name="clock_faces_color_album">សិល្បៈអាល់ប៊ុម</string>
+    <string name="clock_faces_color_gradient">ពណ៌ចុះឡើង</string>
+    <string name="clock_faces_own_colors">មុខនេះរក្សាពណ៌ផ្ទាល់ខ្លួន។</string>
+    <string name="clock_faces_album_hint">យកពណ៌ពីស្បែកអាល់ប៊ុមពេលចាក់តន្ត្រី។</string>
+    <string name="clock_faces_size_position">ទំហំ និងទីតាំង</string>
+    <string name="clock_faces_size_value">ទំហំ · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">ចម្ងាយពីលើ</string>
+    <string name="clock_faces_top_value">ចម្ងាយពីលើ · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">ទីតាំងផ្តេក</string>
+    <string name="clock_faces_horizontal_center">ទីតាំងផ្តេក · កណ្តាល</string>
+    <string name="clock_faces_horizontal_right">ទីតាំងផ្តេក · <xliff:g id="dp" example="24">%1$d</xliff:g> dp ខាងស្តាំ</string>
+    <string name="clock_faces_horizontal_left">ទីតាំងផ្តេក · <xliff:g id="dp" example="24">%1$d</xliff:g> dp ខាងឆ្វេង</string>
+    <string name="clock_faces_horizontal_fixed">មុខនេះនៅកណ្តាលជានិច្ច។</string>
+    <string name="clock_faces_opacity">ភាពថ្លា</string>
+    <string name="clock_faces_opacity_value">ភាពថ្លា · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">ចលនា</string>
+    <string name="clock_faces_wobble">ញ័រពេលកំពុងសាក</string>
+    <string name="clock_faces_wobble_summary">លោតមួយដងពេលដោតចូល</string>
+    <string name="clock_faces_aod_anim">ការផ្លាស់ប្តូរអេក្រង់បង្ហាញជានិច្ច</string>
+    <string name="clock_faces_aod_anim_summary">បង្រួម និងបាត់បន្តិចបន្តួចនាឡិកាទៅអេក្រង់បង្ហាញជានិច្ច</string>
+    <string name="clock_faces_restart_title">ចាប់ផ្តើមអេក្រង់ចាក់សោឡើងវិញឬ?</string>
+    <string name="clock_faces_restart_message">ការប្តូររវាងនាឡិកាប្រព័ន្ធ និងមុខផ្ទាល់ខ្លួន នឹងចាប់ផ្តើម SystemUI ឡើងវិញ។ អេក្រង់នឹងងងឹតមួយវិនាទី។</string>
+    <string name="clock_faces_note">រូបមើលជាមុនត្រូវបានគូរដោយ SystemUI នៅលើផ្ទាំងរូបភាពអេក្រង់ចាក់សោរបស់អ្នក។ ពណ៌ ទំហំ និងទីតាំងផ្លាស់ប្តូរអេក្រង់ចាក់សោភ្លាមៗ។</string>
 </resources>

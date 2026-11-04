@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">使用设备 RKP</string>
+    <string name="ts_rkp_enabled_summary">使用生成的 keybox。导入 keybox 会将此选项关闭。</string>
+    <string name="ts_rkp_provision">生成 keybox</string>
+    <string name="ts_rkp_provision_summary">使用此设备的配置服务向 Google 请求 keybox。需要兼容的高通固件。</string>
+    <string name="ts_rkp_status">配置状态</string>
+    <string name="ts_rkp_owner_only">从设备所有者的配置文件管理设备 RKP</string>
+    <string name="ts_rkp_unavailable">设备 RKP 不可用</string>
+    <string name="ts_rkp_imported">导入的 keybox 已安装时此项不可用</string>
+    <string name="ts_rkp_disabled">已关闭。启用设备 RKP 以使用或生成 keybox。</string>
+    <string name="ts_rkp_idle">已准备好请求 keybox</string>
+    <string name="ts_rkp_fetching">正在获取配置挑战…</string>
+    <string name="ts_rkp_hardware">正在等待设备的配置服务…</string>
+    <string name="ts_rkp_signing">正在向 Google 请求证书…</string>
+    <string name="ts_rkp_validating">正在验证并保存 keybox…</string>
+    <string name="ts_rkp_ready">已启用生成的 keybox。将在 %1$s 前自动续期</string>
+    <string name="ts_rkp_keybox_stored">设备 RKP keybox 已存储</string>
+    <string name="ts_rkp_expired">生成的 keybox 已过期。请生成替代项。</string>
+    <string name="ts_rkp_hal_rejected">固件拒绝了请求(代码 %1$d)。可能不支持 Duck V1。</string>
+    <string name="ts_rkp_http_error">配置服务器拒绝了请求(HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">设备未提供兼容的 V1 配置接口</string>
+    <string name="ts_rkp_network_error">无法连接配置服务器。请检查网络连接。</string>
+    <string name="ts_rkp_submission_unknown">服务器响应丢失。请求可能已被处理;未进行自动重试。</string>
+    <string name="ts_rkp_invalid_chain">keybox 证书验证失败。已保留现有 keybox。</string>
+    <string name="ts_rkp_timeout">配置超时。如果设备服务仍在忙碌,请重启设备后再试。</string>
+    <string name="ts_rkp_canceled">因 keybox 配置已更改,请求已取消</string>
+    <string name="ts_rkp_save_failed">无法保存生成的 keybox</string>
+    <string name="ts_rkp_action_failed">无法完成 keybox 操作</string>
+</resources>

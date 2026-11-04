@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Batería"</string>
     <string name="charge_report_temp">"Temperatura"</string>
     <string name="charge_report_time">"Hora"</string>
+    <string name="charge_report_title">Informes de carga</string>
+    <string name="charge_report_summary">Un resumo de cada carga ao desconectar</string>
+    <string name="charge_report_min_title">Só se engadiu polo menos</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 días</item>
+        <item>7 días</item>
+        <item>14 días</item>
+        <item>30 días</item>
+    </string-array>
+    <string name="charge_report_history_days">Últimos <xliff:g id="days" example="7">%1$d</xliff:g> días</string>
+    <string name="charge_report_today">Hoxe, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Onte, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> h <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Vatios</string>
+    <string name="charge_report_added">Engadido</string>
+    <string name="charge_report_peak">Pico</string>
+    <string name="charge_report_average">Media</string>
+    <string name="charge_report_max_temp">Temp. máx.</string>
+    <string name="charge_report_charger">Cargador</string>
+    <string name="charge_report_started">Iniciada ás</string>
+    <string name="charge_report_wired">Con cable</string>
+    <string name="charge_report_wireless">Sen fíos</string>
+    <string name="charge_report_dock">Base</string>
+    <string name="charge_report_empty">Aínda non hai cargas</string>
+    <string name="charge_report_footer">SystemUI le a corrente, a tensión e a temperatura da batería cada 30 segundos mentres está conectado. Os vatios son o que mide o teléfono, así que poden diferir do número do cargador. Os informes quedan no teléfono; non se sube nada.</string>
 </resources>

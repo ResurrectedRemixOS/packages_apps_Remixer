@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">Knapper</string>
     <string name="now_bar_text">Tekst</string>
     <string name="now_bar_text_size">"Tekststørrelse"</string>
+    <string name="now_bar_summary">Live-aktiviteter nederst på låseskærmen</string>
+    <string name="now_bar_show">Vis</string>
+    <string name="now_bar_music">Musik og video</string>
+    <string name="now_bar_timers">Timere, stopur og alarmer</string>
+    <string name="now_bar_hide_call">Skjul opkaldsnotifikationen</string>
+    <string name="now_bar_hide_call_summary">På låseskærmen vises et opkald i Now Bar ikke også som notifikation</string>
+    <string name="now_bar_live">Live-opdateringer</string>
+    <string name="now_bar_live_summary">Navigation, ture, leverancer, resultater</string>
+    <string name="now_bar_scores">Liveresultater</string>
+    <string name="now_bar_live_apps">Apps til live-opdateringer</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> apps</string>
+    <string name="now_bar_pin">Fastgjort til det altid tændte display</string>
+    <string name="now_bar_unpin_question">Frigør <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Frigør</string>
+    <string name="now_bar_scores_summary">Spil du følger i Ved et blik</string>
+    <string name="now_bar_recording">Skærm- og stemmeoptagelse</string>
+    <string name="now_bar_buds">Øretelefoner og ure</string>
+    <string name="now_bar_buds_summary">Batteri på en tilsluttet enhed: venstre, højre og etui til øretelefoner</string>
+    <string name="now_bar_wave">Bølgeanimation</string>
+    <string name="now_bar_aod">Vis på det altid tændte display</string>
+    <string name="now_bar_chip">Chip i statusbjælken</string>
+    <string name="now_bar_chip_summary">Afspiller musik og timere ved siden af uret, når telefonen er låst op</string>
+    <string name="now_bar_footer">Når der er musik i Now Bar, skjules den store afspiller på låseskærmen. Swipe bjælken for at skifte mellem aktiviteter, tryk på den for at åbne styringen, og hold den nede for at skjule en aktivitet, indtil den slutter. Swipe en pauset sang væk fra bjælken for at fjerne den.\n\nLiveresultater viser kampe for de hold, du følger i Google-appen. Med Smartspacer kan du tilføje et sportsmål ddér, så vises resultaterne her.</string>
+    <string name="now_bar_looks">Looks</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Standard"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Stor</item>
+        <item>Neon</item>
+        <item>Glaskort</item>
+    </string-array>
+    <string name="now_bar_material">Materiale</string>
+    <string name="now_bar_material_summary">Liquid Glass bruger det glas, du har valgt i Tema</string>
+    <string-array name="now_bar_material_entries">
+        <item>Massiv</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Albumcover</item>
+        <item>Accent</item>
+        <item>Mørk</item>
+    </string-array>
+    <string name="now_bar_opacity">Gennemsigtighed</string>
+    <string name="now_bar_opacity_summary">Hvor meget farve der farver glasset, når Liquid Glass er aktiv</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Ingen"</item>
+        <item>Tynd</item>
+        <item>Accent</item>
+    </string-array>
+    <string name="now_bar_shadow">Skygge</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Fra"</item>
+        <item>Blød</item>
+        <item>Glød</item>
+    </string-array>
+    <string name="now_bar_more">Flere aktiviteter</string>
+    <string-array name="now_bar_more_entries">
+        <item>Bare swipe</item>
+        <item>Prikker</item>
+        <item>Kig bag ved</item>
+    </string-array>
+    <string name="now_bar_size">Størrelse og form</string>
+    <string name="now_bar_height">Højde</string>
+    <string name="now_bar_width_summary">Fuld flytter genvejene over bjælken</string>
+    <string-array name="now_bar_width_entries">
+        <item>Smal</item>
+        <item>Mellem genveje</item>
+        <item>Fuld</item>
+    </string-array>
+    <string name="now_bar_corners">Hjørner</string>
+    <string name="now_bar_raise">Hævet</string>
+    <string name="now_bar_art">Albumcover</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Cirkel"</item>
+        <item>Afrundet</item>
+        <item>"Kvadrat"</item>
+        <item>"Fra"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Spring over og afspil</item>
+        <item>Kun afspil</item>
+        <item>"Ingen"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Én linje</item>
+        <item>To linjer</item>
+        <item>Kun sang</item>
+    </string-array>
+    <string name="now_bar_show_page">Hvad der vises i bjælken</string>
+    <string name="now_bar_show_page_summary">Musik og video, timere, opkald og mere</string>
+    <string name="now_bar_where">Andre steder</string>
 </resources>

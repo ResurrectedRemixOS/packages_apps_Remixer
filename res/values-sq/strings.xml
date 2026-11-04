@@ -86,4 +86,200 @@
     <string name="wallpaper_apply_lock">"Ekrani i kyçjes"</string>
     <string name="remixer_settings_style_original">"Origjinali"</string>
     <string name="remixer_navbar_category">"Shiriti i navigimit"</string>
+    <string name="remixer_dashboard_summary">Statusi i shiritit, tema, ekrani i kyçjes dhe më shumë</string>
+    <string name="rr_homepage_battery_saver">Kursyesi i baterisë</string>
+    <string name="rr_homepage_personalize">Personalizo</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> falas</string>
+    <string name="rr_homepage_charged">Plotësisht i ngarkuar</string>
+    <string name="rr_homepage_on_battery">Në bateri</string>
+    <string name="rr_homepage_saver_on">Kursyesi i baterisë aktiv</string>
+    <string name="rr_homepage_extras">Cilësime shtesë</string>
+    <string name="rr_homepage_saver">Kursyesi</string>
+    <string name="rr_homepage_signed_out">Nuk jeni i kyçur</string>
+    <string name="rr_homepage_remixer_tagline">Bëjeni tuajin. Shiriti i statusit, tema, ekrani i kyçjes dhe më shumë.</string>
+    <string name="rr_homepage_device_tagline">Çelësi i zërit, ekrani, ngarkimi dhe GameBar.</string>
+    <string name="rr_homepage_device_action">Rregulloje</string>
+    <string name="rr_group_network">Rrjeti dhe pajisjet</string>
+    <string name="rr_group_network_summary">Wi‑Fi, celular, Bluetooth</string>
+    <string name="rr_group_apps_summary">Aplikacionet, njoftimet, Mënyrat</string>
+    <string name="rr_group_display">Ekrani dhe tingulli</string>
+    <string name="rr_group_display_summary">Ekrani, sfondi, tingulli</string>
+    <string name="rr_group_security_summary">Kyçja, vendndodhja, emergjenca</string>
+    <string name="rr_group_security_center">Qendra e sigurisë</string>
+    <string name="rr_group_accounts">Google dhe llogaritë</string>
+    <string name="rr_group_accounts_summary">Google, fjalëkalimet, rezervimi</string>
+    <string name="rr_group_accounts_plain_summary">Fjalëkalimet, llogaritë, rezervimi</string>
+    <string name="rr_group_system_summary">Gjuhët, gjestet, përditësimet</string>
+    <string name="remixer_tagline">Bëjeni tuajin.</string>
+    <string name="remixer_remix">Ripërpunoje</string>
+    <string name="remixer_remixed">Ripërpunuar me <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Nuancë · Parazgjedhur</string>
+    <string name="remixer_quick">Ripërpunim i shpejtë</string>
+    <string name="remixer_everything">Gjithçka</string>
+    <string name="remixer_quick_accents">Paraprakisht ose çdo ngjyrë</string>
+    <string name="remixer_quick_fonts">Stilet e fontit të sistemit</string>
+    <string name="remixer_quick_walls">Koleksioni RR</string>
+    <string name="remixer_quick_header">Koka e CS</string>
+    <string name="remixer_quick_header_summary">Imazhet e kokës</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Ora, bateria, ikonat dhe trafiku i rrjetit</string>
+    <string name="remixer_qs_summary">Imazhi i kokës</string>
+    <string name="remixer_notifications_summary">Ndriçimi i skajeve, ikonat e aplikacioneve dhe tingujt e ngarkimit</string>
+    <string name="remixer_theme_summary">Fontet, theksimet dhe sfondet</string>
+    <string name="remixer_lockscreen_summary">UDFPS, informacioni i ngarkimit dhe moti</string>
+    <string name="remixer_udfps_icon">Ikona UDFPS</string>
+    <string name="remixer_udfps_icon_summary">Shfaqet mbi sensorin e gjurmës së gishtit</string>
+    <string name="remixer_udfps_animation">Animacioni UDFPS</string>
+    <string name="remixer_udfps_animation_summary">Luhet ndërsa gishti juaj është mbi sensor</string>
+    <string name="remixer_navigation_summary">Pulsi, butonat dhe shiriti i navigimit</string>
+    <string name="remixer_misc_summary">Zëri, rezervimi, mashtrimi i pajisjes, lëvizja dhe USB</string>
+    <string name="scroll_haptics_title">Prekni në fund të lëvizjes</string>
+    <string name="scroll_haptics_summary">Një dridhje e lehtë kur një listë ose faqe nuk mund të shkojë më tej</string>
+    <string name="usb_mode_picker_title">Zgjedhësi i modalitetit USB</string>
+    <string name="usb_mode_picker_summary">Zgjidhni një modalitet kur lidheni me një kompjuter</string>
+    <string name="remixer_fonts_summary">Fonti i sistemit</string>
+    <string name="remixer_wallpapers_summary">Sfondet e Resurrected Remix</string>
+    <string name="remixer_accents">Theksimet</string>
+    <string name="remixer_accents_summary">Ngjyra e theksit</string>
+    <string name="remixer_pulse">Pulsi</string>
+    <string name="remixer_pulse_summary">Vizualizuesi i muzikës përgjatë fundit të ekranit</string>
+    <string name="pulse_switch">Përdor pulsin</string>
+    <string name="pulse_switch_summary">Shiritat muzikorë përgjatë fundit të ekranit ndërsa luhet media</string>
+    <string name="pulse_style_lines">Vija</string>
+    <string name="pulse_style_fading">Zbehje</string>
+    <string name="pulse_style_blocks">Blloqe</string>
+    <string name="pulse_style_mirror">Pasqyrë</string>
+    <string name="pulse_color_custom">Të personalizuar</string>
+    <string name="pulse_color_gradient">Ylber</string>
+    <string name="pulse_bars">Shiritat</string>
+    <string name="pulse_bars_value">Shiritat · %1$d</string>
+    <string name="pulse_height">Lartësia</string>
+    <string name="pulse_height_value">Lartësia · %1$d dp</string>
+    <string name="pulse_opacity">Opacitet</string>
+    <string name="pulse_opacity_value">Opaciteti · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Mbaji shiritat në ekranin e kyçjes ndërsa luhet muzika</string>
+    <string name="pulse_failed">Nuk u ruajt ky cilësim i pulsit</string>
+    <string name="accent_applied">Theksi u aplikua</string>
+    <string name="accent_current">Theksi · %1$s</string>
+    <string name="accent_current_custom">Theksi · I personalizuar</string>
+    <string name="accent_preview_tonal">Tonal</string>
+    <string name="accent_failed">Nuk u aplikua ky theks</string>
+    <string name="accent_custom">Të personalizuar</string>
+    <string name="accent_custom_summary">Çdo ngjyrë funksionon. Nuanca zbatohet gjithashtu mbi të.</string>
+    <string name="accent_custom_pad">Ngjyrueshmëria dhe ndriçimi</string>
+    <string name="accent_custom_use">Përdor <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">Nuanca</string>
+    <string name="accent_shade_darker">Më e errët</string>
+    <string name="accent_shade_lighter">Më e çelët</string>
+    <string name="accent_shade_darker_value">Më e errët · %1$d</string>
+    <string name="accent_shade_lighter_value">Më e çelët · %1$d</string>
+    <string name="remixer_qs_style">Stili i CS</string>
+    <string name="remixer_qs_style_preview">Pamja paraprake · %1$s</string>
+    <string name="remixer_qs_style_note">Çdo stil ndjek ngjyrën tuaj të theksit. Paneli i volumit ka pamje përputhëse Bento, Shapes, Blueprint, Duo dhe Soft. Stock Lineage i mban pllakëzat e Android 17 të pandryshuara.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Pllakëzat e Android 17, të pandryshuara</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Ndriçim në një kartë theksi. Pllakëzat mbushen me gradient theksi</string>
+    <string name="remixer_qs_style_compact">Kompakt</string>
+    <string name="remixer_qs_style_compact_summary">Pllakëza më të shkurtra. Më shumë prej tyre në një ekran</string>
+    <string name="remixer_qs_style_glass">Xham</string>
+    <string name="remixer_qs_style_glass_summary">Pllakëza tejdukshme me kontur që ndriçojnë me theksin kur janë aktive</string>
+    <string name="remixer_qs_style_circles">Rrethe</string>
+    <string name="remixer_qs_style_circles_summary">Çelësa të rrumbullakët me etiketa. Pllakëzat e gjera bëhen karta</string>
+    <string name="remixer_qs_style_classic">Klasike</string>
+    <string name="remixer_qs_style_classic_summary">RR i vjetër: ikona të thjeshta me etiketa, pesë në rresht, një rrëshqitës i hollë</string>
+    <string name="remixer_qs_style_cards">Karta</string>
+    <string name="remixer_qs_style_cards_summary">Karta të mëdha me gjendjen nën çdo emër, tre në rresht</string>
+    <string name="remixer_qs_style_neon">Neon</string>
+    <string name="remixer_qs_style_neon_summary">Pllakëza me kontur që ndriçojnë me theksin kur janë aktive</string>
+    <string name="remixer_qs_style_bento_summary">Blloqe të mëdha të rrumbullakosura të mbushura me theksin tuaj, etiketat nën ato të vogla</string>
+    <string name="remixer_qs_style_shapes">Forma</string>
+    <string name="remixer_qs_style_shapes_summary">Çelësa të rrumbullakët që formojnë lobe kur janë aktive, pesë në rresht</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Kontura me vijë të hollë dhe shkronja monospace</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Pllakëza të ndara. Gjysma e ikonës ndizet dhe ndërron gjendjen</string>
+    <string name="remixer_qs_style_soft">Soft</string>
+    <string name="remixer_qs_style_soft_summary">Pllakëza të ngritura që shtypen kur janë aktive</string>
+    <string name="remixer_lock_media_style">Stili i lojtarit të medias</string>
+    <string name="remixer_lock_media_same">Njësoj si Cilësimet e shpejta</string>
+    <string name="remixer_lock_media_same_summary">Ndjek pllakëzën e Mediave të CS, tani %1$s</string>
+    <string name="remixer_lock_media_off_summary">Nuk ka lojtar në ekranin e kyçjes</string>
+    <string name="remixer_lock_media_note">Karta shfaqet në ekranin e kyçjes ndërsa diçka luhet. Stilet tejdukshme marrin një sfond të errët që të mbeten të lexueshëm mbi sfondin tuaj.</string>
+    <string name="remixer_lock_media_stock_summary">Arti i albumit mbush kartën</string>
+    <string name="remixer_lock_media_remix_summary">Kartë e errët, buton luajtjeje me theks</string>
+    <string name="remixer_lock_media_compact_summary">Kartë më e rrumbullakët, art i rrumbullakët</string>
+    <string name="remixer_lock_media_glass_summary">Kartë tejdukshme me kontur</string>
+    <string name="remixer_lock_media_circles_summary">Kartë e butë, buton luajtjeje me theks</string>
+    <string name="remixer_lock_media_classic_summary">Kartë më e drejtkëndëshe, buton luajtjeje me kontur</string>
+    <string name="remixer_lock_media_cards_summary">Kartë e butë, buton luajtjeje me theks, si Rrethet</string>
+    <string name="remixer_lock_media_neon_summary">Kartë e zezë me kontur theksi</string>
+    <string name="remixer_lock_media_bento_summary">Kartë e butë, buton luajtjeje me theks</string>
+    <string name="remixer_lock_media_shapes_summary">Kartë më e rrumbullakët, buton luajtjeje me theks</string>
+    <string name="remixer_lock_media_blueprint_summary">Kontur me vijë të hollë, buton luajtjeje me kontur</string>
+    <string name="remixer_lock_media_duo_summary">Kartë me dy ngjyra, buton luajtjeje me theks</string>
+    <string name="remixer_lock_media_soft_summary">Kartë e ngritur me buzë të skajuar</string>
+    <string name="remixer_headers">Imazhi i kokës</string>
+    <string name="remixer_headers_summary">Zgjidhni një imazh sfondi për cilësimet e shpejta</string>
+    <string name="header_switch">Përdor imazhin e kokës</string>
+    <string name="header_switch_summary">Shfaq një imazh prapa cilësimeve të shpejta</string>
+    <string name="header_source">Burimi</string>
+    <string name="header_source_collection">Koleksioni</string>
+    <string name="header_collections_summary_daylight">Koka ndjek orën e ditës ose rrotullohet nëpër koleksion</string>
+    <string name="header_collections_summary_static">Hapni një koleksion, pastaj prekni një imazh për ta përdorur</string>
+    <string name="header_collections_empty">Nuk ka koleksione kokash të instaluara</string>
+    <string name="header_images_daylight">Në këtë koleksion</string>
+    <string name="header_photo_summary">Çdo foto ose GIF i animuar nga galeria juaj</string>
+    <string name="header_height">Lartësia</string>
+    <string name="header_height_value">Lartësia · %1$d dp</string>
+    <string name="header_shadow">Errët</string>
+    <string name="header_shadow_value">Errët · %1$d%%</string>
+    <string name="header_failed">Nuk u ruajt ky cilësim i kokës</string>
+    <string name="remixer_weather_summary">Shërbimi i motit dhe njësitë</string>
+    <string name="font_preview_notification">Kështu do ta lexojë telefoni juaj.</string>
+    <string name="font_try_text">Provoni tekstin tuaj</string>
+    <string name="font_previewing">Pamja paraprake</string>
+    <string name="font_current">Fonti aktual</string>
+    <string name="font_badge_current">Aktuale</string>
+    <string name="font_apply_done">Aplikuar</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Ekrani</string>
+    <string name="font_filter_script">Shkrimi</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Fonti u aplikua</string>
+    <string name="font_failed">Nuk u aplikua ky font</string>
+    <string name="wallpaper_set">Sfondi u vendos</string>
+    <string name="wallpaper_apply_both">Të dyja</string>
+    <string name="wallpaper_failed">Nuk u vendos ky sfond</string>
+    <string name="missing_app">Ai aplikacion nuk është i instaluar</string>
+    <string name="remixer_spoofing">Mashtrimi i pajisjes</string>
+    <string name="remixer_spoofing_summary">Play Integrity, identiteti i pajisjes dhe mashtrimi për aplikacion</string>
+    <string name="remixer_settings_style">Stili i cilësimeve</string>
+    <string name="rr_maintainer">Mirëmbajtësi</string>
+    <string name="remixer_navbar_summary">Gjatësia, trashësia dhe paraqitja e pulsit</string>
+    <string name="remixer_navbar_pill_length">Gjatësia e pulsit të gjesteve</string>
+    <string name="remixer_navbar_pill_thickness">Trashësia e pulsit të gjesteve</string>
+    <string name="remixer_navbar_pill_auto_hide">Zbehe pulsin e gjesteve</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Fshih pulsin pas disa sekondash; kthehet kur prekni ekranin</string>
+    <string name="remixer_navbar_ime">Butonat e tastierës</string>
+    <string name="remixer_navbar_ime_summary">Shfaq butonat e kthimit dhe ndërrimit të tastierës nën tastierë</string>
+    <string name="remixer_navbar_layout">Paraqitja e butonave</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>I shkurtër</item>
+        <item>Normal</item>
+        <item>I gjatë</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Më i holli</item>
+        <item>Më i hollë</item>
+        <item>I hollë</item>
+        <item>Normal</item>
+        <item>I trashë</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Normal</item>
+        <item>Kompakt</item>
+        <item>"Me prirje majtas"</item>
+        <item>"Me prirje djathtas"</item>
+    </string-array>
 </resources>

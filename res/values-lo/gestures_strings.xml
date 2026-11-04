@@ -8,4 +8,50 @@
         <item>"ປານກາງ"</item>
         <item>"ໃຫຍ່"</item>
     </string-array>
+    <string name="pie_title">ປຸ່ມວົງກົມ</string>
+    <string name="pie_summary">ກົດຄ້າງທີ່ສ່ວນລຸ່ມຂອງຂອບເພື່ອເປີດວົງທາງລັດ</string>
+    <string name="pie_zone">ສ່ວນໜຶ່ງຂອງຂອບ</string>
+    <string name="pie_clock">ໂມງ ແລະ ແບັດເຕີຣີຢູ່ເທິງ</string>
+    <string name="pie_items">ຊິ້ນ</string>
+    <string-array name="pie_items_entries">
+        <item>"ກັບຄືນ"</item>
+        <item>ໂຮມ</item>
+        <item>"ຫຼ້າສຸດ"</item>
+        <item>"ການແຈ້ງເຕືອນ"</item>
+        <item>"​ໄຟ​ສາຍ"</item>
+        <item>"ຮູບໜ້າຈໍ"</item>
+        <item>"ເມນູເປີດປິດ"</item>
+        <item>"ຜູ້ຊ່ວຍ"</item>
+        <item>"ກ້ອງ"</item>
+    </string-array>
+    <string name="pie_footer">ຕ້ອງກົດຄ້າງໄວ້ເຄິ່ງວິນາທີໂດຍບໍ່ເລື່ອນ ດັ່ງນັ້ນການປັດໄວຈາກຂອບຍັງຈະກັບຄືນໄດ້. ມັນຈະບໍ່ເປີດໃນໜ້າຈໍລັອກ.</string>
+    <string-array name="pie_edges_entries">
+        <item>"ຊ້າຍ"</item>
+        <item>"ຂວາ"</item>
+        <item>ທັງສອງ</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>ສາມສ່ວນລຸ່ມ</item>
+        <item>ກາງ</item>
+        <item>ທັງຂອບ</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>ນີອອນ</item>
+        <item>ແກ້ວ</item>
+        <item>ຄລາສສິກ</item>
+    </string-array>
+    <string name="sidebar_style_title">ຮູບແບບແຖບດ້ານຂ້າງແອັບ</string>
+    <string-array name="sidebar_style_entries">
+        <item>ຄລາສສິກ</item>
+        <item>ແກ້ວ RR</item>
+        <item>ນີອອນ</item>
+    </string-array>
+    <string name="sidebar_settings_title">ແຖບດ້ານຂ້າງແອັບ</string>
+    <string name="sidebar_settings_summary">ປັດເຂົ້າຈາກຕົວຈັບເພື່ອເປີດແອັບ ແລະ ເຄື່ອງມືຂອງທ່ານ</string>
+    <string name="sidebar_apps_title">ແອັບ, ຕົວຈັບ ແລະ ຄລິບບອດ</string>
+    <string name="sidebar_apps_summary">ເປີດຕົວຈັບ ເລືອກແອັບ ແລະ ຕັ້ງຄ່າຄລິບບອດອັດສະລິຍະ</string>
+    <string name="sidebar_handle_size_title">ຂະໜາດຕົວຈັບ</string>
+    <string name="sidebar_tools_title">ແຖວເຄື່ອງມື</string>
+    <string name="sidebar_tools_summary">ຮູບໜ້າຈໍ ແລະ ໄຟສາຍຢູ່ໃຕ້ແອັບຂອງທ່ານ</string>
+    <string name="sidebar_footer">ຕົວຈັບເປັນເສັ້ນບາງໆໃນສີເນັ້ນຂອງທ່ານ; ລາກເພື່ອຍ້າຍຕາມຂອບ. ເມື່ອໃຊ້ການນຳທາງດ້ວຍທ່າທາງ ມັນຈະຄອບຄຸມສະເພາະສ່ວນຂອງຕົນເອງ ແລະ ປຸ່ມກັບຈະໃຊ້ໄດ້ທຸກບ່ອນອື່ນ.</string>
 </resources>

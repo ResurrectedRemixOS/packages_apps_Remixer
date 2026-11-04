@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Шыңгыroo sync</string>
+    <string name="ring_sync_tap">Шакек белгиге туш келгенде басыңыз</string>
+    <string name="ring_sync_best">Эң жакшы <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">МЫКТЫ</string>
+    <string name="ring_sync_new_best">Жаңы рекорд</string>
+    <string name="ring_sync_again">Кайра ойнотуу үчүн басыңыз</string>
+    <string name="ring_sync_ember">Ember акцент ачылды</string>
+    <string name="ring_sync_use_ember">Ember колдонуу</string>
+    <string name="ring_sync_android">Android\'дин пасхалык жумурткасы</string>
+    <string name="ring_sync_vibrate_on">Соккуларда дирилдөө · Күйүк</string>
+    <string name="ring_sync_vibrate_off">Соккуларда дирилдөө · Өчүк</string>
+    <string name="accent_ember">Көмүр</string>
+</resources>

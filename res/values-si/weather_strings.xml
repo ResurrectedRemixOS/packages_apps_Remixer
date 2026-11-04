@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"විස්තර"</string>
     <string name="lockscreen_weather_location_title">"ස්ථානය"</string>
+    <string name="lockscreen_weather_title">අගුලු තිරයේ කාලගුණය</string>
+    <string name="lockscreen_weather_location_summary">නගරයේ නම පෙන්වන්න</string>
+    <string name="lockscreen_weather_text_title">තත්ත්වය</string>
+    <string name="lockscreen_weather_text_summary">වලාකුළු සහිත හෝ පැහැදිලි අහස වැනි තත්ත්වය පෙන්වන්න</string>
+    <string name="lockscreen_weather_wind_title">සුළඟ</string>
+    <string name="lockscreen_weather_wind_summary">සුළං වේගය සහ දිශාව පෙන්වන්න</string>
+    <string name="lockscreen_weather_humidity_title">ආර්ද්‍රතාවය</string>
+    <string name="lockscreen_weather_humidity_summary">ආර්ද්‍රතාවය පෙන්වන්න</string>
+    <string name="custom_clock_weather_title">ඔරලෝසු මුහුණුවරවල කාලගුණය</string>
+    <string name="custom_clock_weather_summary">ඉඩ ඇති ඔරලෝසු මුහුණුවරවල කාලගුණය පෙන්වන්න</string>
+    <string name="remixer_weather_service">කාලගුණ සේවාව</string>
+    <string name="remixer_weather_page_summary">අගුලු තිරයේ කාලගුණය සහ එය පෙන්වන දේ</string>
 </resources>

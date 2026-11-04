@@ -6,4 +6,31 @@
     <string name="sb_clock_date_format_title">تاریخ وضع کریں</string>
     <string name="sb_weather_category">"موسم"</string>
     <string name="sb_weather_position_title">مقام</string>
+    <string name="sb_clock_bold_title">موٹی گھڑی</string>
+    <string name="sb_clock_bold_summary">اسٹیٹس بار کی گھڑی موٹے حروف میں دکھائیں</string>
+    <string name="sb_clock_period_separator_title">وقفے کی علامت</string>
+    <string name="sb_clock_period_separator_summary">10.45 جیسا، 10:45 کی جگہ</string>
+    <string name="sb_clock_date_style_title">تاریخ کا انداز</string>
+    <string name="sb_clock_chip_category">گھڑی کا پس منظر</string>
+    <string name="sb_clock_chip_title">پس منظر کا انداز</string>
+    <string name="sb_clock_chip_start_title">گریڈیئنٹ کا آغاز</string>
+    <string name="sb_clock_chip_end_title">گریڈیئنٹ کا اختتام</string>
+    <string name="sb_clock_chip_angle_title">گریڈیئنٹ کا زاویہ</string>
+    <string name="sb_clock_chip_mask_title">گریڈیئنٹ سے وقت کاٹیں</string>
+    <string name="sb_clock_chip_mask_summary">ہندسوں کے پیچھے کے بجائے گریڈیئنٹ ہندسوں میں سے جھلکے</string>
+    <string name="sb_weather_title">اسٹیٹس بار میں موسم</string>
+    <string name="status_bar_clock_rr_style_title">گھڑی کا انداز</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"ڈیفالٹ"</item>
+        <item>نیون</item>
+        <item>تقسیم شدہ</item>
+        <item>RR نشان</item>
+        <item>مونو</item>
+        <item>Pulse</item>
+        <item>تہہ شدہ</item>
+        <item>انگارہ</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">وقت کے ساتھ Flatline</string>
+    <string name="sb_clock_flatline_summary">چِپ کے اندر RR کی دھڑکن کی لکیر: موسیقی کے ساتھ دھڑکتی ہے، اطلاع آنے پر اچھلتی ہے</string>
 </resources>

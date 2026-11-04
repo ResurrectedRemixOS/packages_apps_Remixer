@@ -4,4 +4,18 @@
     <string name="quick_launch_timer">Timer</string>
     <string name="quick_launch_undo">"I-undo"</string>
     <string name="quick_launch_off">"Naka-off"</string>
+    <string name="quick_launch_title">Mabilisang paglunsad</string>
+    <string name="quick_launch_main">Mabilisang paglunsad sa fingerprint</string>
+    <string name="quick_launch_main_summary">Panatilihing nakadikit ang daliri sa sensor pagkatapos mag-unlock para buksan ang shortcut</string>
+    <string name="quick_launch_hint">I-tap ang shortcut para baguhin ito, pindutin nang matagal para alisin, o i-drag para ayusin ang pagkakasunod-sunod.</string>
+    <string name="quick_launch_behavior">Gawi</string>
+    <string name="quick_launch_hold">Tagal ng pagpindot</string>
+    <string name="quick_launch_haptics">Mag-vibrate sa bawat shortcut</string>
+    <string name="quick_launch_add">Idagdag</string>
+    <string name="quick_launch_camera">Camera</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_flashlight">Flashlight</string>
+    <string name="quick_launch_qr">I-scan ang QR</string>
+    <string name="quick_launch_app">App…</string>
+    <string name="quick_launch_removed">Naalis ang <xliff:g id="shortcut" example="Camera">%1$s</xliff:g></string>
 </resources>

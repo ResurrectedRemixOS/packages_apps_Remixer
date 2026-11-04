@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"ባትሪ"</string>
     <string name="charge_report_temp">"የሙቀት መጠን"</string>
     <string name="charge_report_time">"ሰዓት"</string>
+    <string name="charge_report_title">የመሙያ ሪፖርቶች</string>
+    <string name="charge_report_summary">ቻርጀሩ ሲነቀል የእያንዳንዱ ቻርጅ ማጠቃለያ</string>
+    <string name="charge_report_min_title">ቢያንስ ከጨመረ ብቻ</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 ቀናት</item>
+        <item>7 ቀናት</item>
+        <item>14 ቀናት</item>
+        <item>30 ቀናት</item>
+    </string-array>
+    <string name="charge_report_history_days">ያለፉት <xliff:g id="days" example="7">%1$d</xliff:g> ቀናት</string>
+    <string name="charge_report_today">ዛሬ፣ <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">ትናንት፣ <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> ደቂቃ</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ሰዓት <xliff:g id="minutes" example="02">%2$02d</xliff:g> ደቂቃ</string>
+    <string name="charge_report_watts">ዋት</string>
+    <string name="charge_report_added">የተጨመረ</string>
+    <string name="charge_report_peak">ከፍተኛ</string>
+    <string name="charge_report_average">አማካይ</string>
+    <string name="charge_report_max_temp">ከፍተኛ ሙቀት</string>
+    <string name="charge_report_charger">ቻርጀር</string>
+    <string name="charge_report_started">የጀመረበት</string>
+    <string name="charge_report_wired">በገመድ</string>
+    <string name="charge_report_wireless">ያለ ገመድ</string>
+    <string name="charge_report_dock">ዶክ</string>
+    <string name="charge_report_empty">እስካሁን ቻርጅ የለም</string>
+    <string name="charge_report_footer">ስርዓተ-ዩአይ ስልኩ ሲሰካ የባትሪውን ጅረት፣ ቮልቴጅና ሙቀት በየ30 ሰከንዱ ያነባል። ዋቶቹ ስልኩ የሚለካው ነው፤ ስለዚህ በቻርጀሩ ላይ ካለው ቁጥር ሊለያዩ ይችላሉ። ሪፖርቶቹ በስልኩ ላይ ይቀራሉ፤ ምንም አይጫንም።</string>
 </resources>

@@ -14,4 +14,94 @@
     <string name="now_bar_buttons">버튼</string>
     <string name="now_bar_text">텍스트</string>
     <string name="now_bar_text_size">"텍스트 크기"</string>
+    <string name="now_bar_summary">잠금 화면 하단의 실시간 활동</string>
+    <string name="now_bar_show">표시</string>
+    <string name="now_bar_music">음악 및 동영상</string>
+    <string name="now_bar_timers">타이머, 스톱워치 및 알람</string>
+    <string name="now_bar_hide_call">통화 알림 숨기기</string>
+    <string name="now_bar_hide_call_summary">잠금 화면에서 Now Bar에 표시된 통화는 알림 목록에도 표시하지 않습니다</string>
+    <string name="now_bar_live">실시간 업데이트</string>
+    <string name="now_bar_live_summary">내비게이션, 운행, 배달, 점수</string>
+    <string name="now_bar_scores">실시간 점수</string>
+    <string name="now_bar_live_apps">실시간 업데이트 앱</string>
+    <string name="now_bar_live_apps_count">앱 <xliff:g id="count" example="2">%1$d</xliff:g>개</string>
+    <string name="now_bar_pin">상시 표시 화면에 고정됨</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> 고정 해제할까요?</string>
+    <string name="now_bar_unpin">고정 해제</string>
+    <string name="now_bar_scores_summary">At a Glance에서 팔로우한 게임</string>
+    <string name="now_bar_recording">화면 및 음성 녹음</string>
+    <string name="now_bar_buds">이어폰 및 워치</string>
+    <string name="now_bar_buds_summary">연결된 기기의 배터리: 이어폰의 왼쪽, 오른쪽, 케이스</string>
+    <string name="now_bar_wave">물결 애니메이션</string>
+    <string name="now_bar_chip">상태 표시줄의 칩</string>
+    <string name="now_bar_chip_summary">잠금 해제 상태에서 시계 옆에 음악과 타이머를 표시합니다</string>
+    <string name="now_bar_footer">Now Bar에 음악이 있으면 잠금 화면의 큰 플레이어는 숨겨집니다. 바를 밀어서 활동을 전환하고, 탭하면 컨트롤이 열리며, 길게 누르면 끝날 때까지 숨길 수 있습니다. 일시정지된 노래는 바에서 밀어서 지울 수 있습니다.\n\n실시간 점수는 Google 앱에서 팔로우한 팀의 경기를 보여줍니다. Smartspacer에 스포츠 타겟을 추가하면 점수가 여기에 표시됩니다.</string>
+    <string name="now_bar_looks">룩</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"기본값"</item>
+        <item>Liquid Glass</item>
+        <item>미니</item>
+        <item>큰</item>
+        <item>네온</item>
+        <item>유리 카드</item>
+    </string-array>
+    <string name="now_bar_material">머티리얼</string>
+    <string name="now_bar_material_summary">Liquid Glass는 테마에서 설정한 유리를 사용합니다</string>
+    <string-array name="now_bar_material_entries">
+        <item>단색</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>앨범 아트</item>
+        <item>강조</item>
+        <item>어둡게</item>
+    </string-array>
+    <string name="now_bar_opacity">불투명도</string>
+    <string name="now_bar_opacity_summary">Liquid Glass에서 유리에 입히는 색상의 양</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"없음"</item>
+        <item>얇게</item>
+        <item>강조</item>
+    </string-array>
+    <string name="now_bar_shadow">그림자</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"사용 안함"</item>
+        <item>소프트</item>
+        <item>글로우</item>
+    </string-array>
+    <string name="now_bar_more">더 많은 활동</string>
+    <string-array name="now_bar_more_entries">
+        <item>밀기만 하기</item>
+        <item>점</item>
+        <item>뒤쪽 엿보기</item>
+    </string-array>
+    <string name="now_bar_size">크기 및 모양</string>
+    <string name="now_bar_height">높이</string>
+    <string name="now_bar_width_summary">전체는 위의 바로가기를 바 위로 옮깁니다</string>
+    <string-array name="now_bar_width_entries">
+        <item>좁게</item>
+        <item>바로가기 사이</item>
+        <item>전체</item>
+    </string-array>
+    <string name="now_bar_corners">모서리</string>
+    <string name="now_bar_raise">올림</string>
+    <string-array name="now_bar_art_entries">
+        <item>"원"</item>
+        <item>둥글게</item>
+        <item>"정사각형"</item>
+        <item>"사용 안함"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>건너뛰기 및 재생</item>
+        <item>재생만</item>
+        <item>"없음"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>한 줄</item>
+        <item>두 줄</item>
+        <item>노래만</item>
+    </string-array>
+    <string name="now_bar_show_page">바에 표시할 항목</string>
+    <string name="now_bar_show_page_summary">음악 및 동영상, 타이머, 통화 등</string>
+    <string name="now_bar_where">기타 위치</string>
 </resources>

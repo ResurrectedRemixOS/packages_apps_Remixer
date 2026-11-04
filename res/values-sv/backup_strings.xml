@@ -13,4 +13,41 @@
     <string name="backup_group_other">"Övrigt"</string>
     <string name="backup_done">"Klar"</string>
     <string name="volume_style_title">Volympanelens stil</string>
+    <string name="backup_summary">Alla RR-anpassningar i en fil</string>
+    <string name="backup_now">Säkerhetskopiera nu</string>
+    <string name="backup_never">Senaste säkerhetskopia: aldrig</string>
+    <string name="backup_last">Senaste säkerhetskopia: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Återställ från en fil</string>
+    <string name="backup_restore_summary">Välj en säkerhetskopia</string>
+    <string name="backup_included">Inkluderat</string>
+    <string name="backup_part_theme">Accent, typsnitt och ikoner</string>
+    <string name="backup_part_header">Sidhuvudbild</string>
+    <string name="backup_part_photo">Sidhuvudsbild (ditt foto)</string>
+    <string name="backup_part_photo_summary">Gör filen större</string>
+    <string name="backup_part_looks">Dina lägen</string>
+    <string name="backup_weekly">Veckovis säkerhetskopia</string>
+    <string name="backup_weekly_summary">Till en mapp du väljer</string>
+    <string name="backup_weekly_on">Varje vecka till <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Erbjud säkerhetskopiering före uppdateringar</string>
+    <string name="backup_offer_summary">Uppdateraren frågar innan den installerar</string>
+    <string name="backup_sets">Anger <xliff:g id="count" example="64">%1$d</xliff:g> inställningar</string>
+    <string name="backup_saved">Sparade <xliff:g id="count" example="64">%1$d</xliff:g> inställningar</string>
+    <string name="backup_restored">Återställde <xliff:g id="count" example="64">%1$d</xliff:g> inställningar</string>
+    <string name="backup_restored_message">SystemUI startar om för att tillämpa dem.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> inställningar finns inte i den här builden och hoppades över.</string>
+    <string name="backup_failed">Det gick inte att spara säkerhetskopian</string>
+    <string name="backup_invalid">Den filen är ingen säkerhetskopia från Resurrected Remix</string>
+    <string name="backup_footer">Endast RR-inställningar ingår i filen: inga konton, lösenord, Wi-Fi-nätverk, appar eller meddelanden. Återställningen skriver bara inställningar från RR:s egna lista, så en säkerhetskopia kan inte ändra något annat i telefonen. Ditt sidhuvudsfoto ingår bara om dess reglage är på, eftersom det gör filen större.</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Glas</item>
+        <item>Pill</item>
+        <item>Klassisk RR</item>
+        <item>Bento</item>
+        <item>Former</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Mjuk</item>
+    </string-array>
 </resources>

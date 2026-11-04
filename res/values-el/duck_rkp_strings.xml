@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ts_rkp_enabled">Χρήση RKP συσκευής</string>
+    <string name="ts_rkp_enabled_summary">Χρήση δημιουργημένου keybox. Η εισαγωγή keybox το απενεργοποιεί.</string>
+    <string name="ts_rkp_provision">Δημιουργία keybox</string>
+    <string name="ts_rkp_provision_summary">Αίτημα keybox από την Google μέσω της υπηρεσίας παροχής της συσκευής. Απαιτεί συμβατό υλικολογισμικό Qualcomm.</string>
+    <string name="ts_rkp_status">Κατάσταση παροχής</string>
+    <string name="ts_rkp_owner_only">Διαχείριση RKP συσκευής από το προφίλ του κατόχου της συσκευής</string>
+    <string name="ts_rkp_unavailable">Το RKP συσκευής δεν είναι διαθέσιμο</string>
+    <string name="ts_rkp_imported">Απενεργοποιημένο όσο είναι εγκατεστημένο εισηγμένο keybox</string>
+    <string name="ts_rkp_disabled">Απενεργοποιημένο. Ενεργοποιήστε το RKP συσκευής για χρήση ή δημιουργία keybox.</string>
+    <string name="ts_rkp_idle">Έτοιμο για αίτημα keybox</string>
+    <string name="ts_rkp_fetching">Λήψη πρόκλησης παροχής…</string>
+    <string name="ts_rkp_hardware">Αναμονή για την υπηρεσία παροχής της συσκευής…</string>
+    <string name="ts_rkp_signing">Αίτηση πιστοποιητικών από την Google…</string>
+    <string name="ts_rkp_validating">Επαλήθευση και αποθήκευση του keybox…</string>
+    <string name="ts_rkp_ready">Το δημιουργημένο keybox είναι ενεργό. Ανανεώνεται αυτόματα πριν από %1$s</string>
+    <string name="ts_rkp_keybox_stored">Το keybox RKP συσκευής αποθηκεύτηκε</string>
+    <string name="ts_rkp_expired">Το δημιουργημένο keybox έληξε. Δημιουργήστε αντικατάσταση.</string>
+    <string name="ts_rkp_hal_rejected">Το υλικολογισμικό απέρριψε το αίτημα (κωδικός %1$d). Το Duck V1 ενδέχεται να μην υποστηρίζεται.</string>
+    <string name="ts_rkp_http_error">Ο διακομιστής παροχής απέρριψε το αίτημα (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Η συσκευή δεν διαθέτει συμβατή διεπαφή παροχής V1</string>
+    <string name="ts_rkp_network_error">Δεν ήταν δυνατή η σύνδεση με τον διακομιστή παροχής. Ελέγξτε τη σύνδεσή σας.</string>
+    <string name="ts_rkp_submission_unknown">Η απάντηση του διακομιστή χάθηκε. Το αίτημα ενδέχεται να έχει υποβληθεί· δεν έγινε αυτόματη νέα προσπάθεια.</string>
+    <string name="ts_rkp_invalid_chain">Η επαλήθευση των πιστοποιητικών του keybox απέτυχε. Το υπάρχον keybox διατηρήθηκε.</string>
+    <string name="ts_rkp_timeout">Η παροχή έληξε λόγω χρονικού ορίου. Αν η υπηρεσία της συσκευής είναι ακόμη απασχολημένη, επανεκκινήστε τη συσκευή πριν δοκιμάσετε ξανά.</string>
+    <string name="ts_rkp_canceled">Το αίτημα ακυρώθηκε επειδή άλλαξε η ρύθμιση του keybox</string>
+    <string name="ts_rkp_save_failed">Δεν ήταν δυνατή η αποθήκευση του δημιουργημένου keybox</string>
+    <string name="ts_rkp_action_failed">Δεν ήταν δυνατή η ολοκλήρωση της λειτουργίας keybox</string>
+</resources>

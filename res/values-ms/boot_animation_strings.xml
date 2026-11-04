@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Animasi but</string>
+    <string name="boot_animation_note">Dimainkan kali seterusnya telefon dihidupkan.</string>
+    <string name="boot_animation_custom">Fail anda</string>
+    <string name="boot_animation_custom_pick">Pilih fail…</string>
+    <string name="boot_animation_custom_invalid">Fail itu bukan animasi but</string>
+    <string name="boot_animation_failed">Tidak dapat menukar animasi but</string>
+</resources>

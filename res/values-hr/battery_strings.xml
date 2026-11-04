@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Baterija"</string>
     <string name="battery_style_title">"Stil"</string>
+    <string-array name="battery_style_entries">
+        <item>Okomito</item>
+        <item>"Krug"</item>
+        <item>Točkasti krug</item>
+        <item>Neonski prsten</item>
+        <item>Tanka pilula</item>
+        <item>Velik postotak</item>
+        <item>"Tekst"</item>
+    </string-array>
+    <string name="battery_percent_title">Postotak</string>
+    <string-array name="battery_percent_entries">
+        <item>Skriveno</item>
+        <item>Unutar ikone</item>
+        <item>Pored nje</item>
+    </string-array>
+    <string name="battery_ring_color_title">Boja neonskog prstena</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Po razini je naglašena boja iznad 20%%, crvena ispod i jantarna u štednji baterije.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Po razini</item>
+        <item>Naglasak</item>
+        <item>"Bijela"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Iskra tijekom punjenja</string>
+    <string name="battery_ring_tile_title">Isti prsten na pločici brzih postavki</string>
+    <string name="battery_ring_tile_summary">S razinom i vremenom uključenog zaslona</string>
 </resources>

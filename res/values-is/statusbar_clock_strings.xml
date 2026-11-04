@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Dagsetning"</string>
     <string name="sb_weather_category">"Veður"</string>
+    <string name="sb_clock_category">Klukka og dagsetning</string>
+    <string name="sb_clock_bold_title">Feitletruð klukka</string>
+    <string name="sb_clock_bold_summary">Sýna klukku stöðustikunnar feitletraða</string>
+    <string name="sb_clock_period_separator_title">Aðskilnaðarmerki tíma</string>
+    <string name="sb_clock_period_separator_summary">10.45 í stað 10:45</string>
+    <string name="sb_clock_date_position_title">Staðsetning dagsetningar</string>
+    <string name="sb_clock_date_style_title">Hástafir dagsetningar</string>
+    <string name="sb_clock_date_format_title">Snið dagsetningar</string>
+    <string name="sb_clock_chip_category">Bakgrunnur klukku</string>
+    <string name="sb_clock_chip_title">Stíll bakgrunns</string>
+    <string name="sb_clock_chip_start_title">Upphaf litstigulsins</string>
+    <string name="sb_clock_chip_end_title">Endir litstigulsins</string>
+    <string name="sb_clock_chip_angle_title">Horn litstigulsins</string>
+    <string name="sb_clock_chip_mask_title">Skera tímann út úr litstigulnum</string>
+    <string name="sb_clock_chip_mask_summary">Litstigullinn birtist í tölustöfunum í stað þess að vera á bak við þá</string>
+    <string name="sb_weather_title">Veður í stöðustiku</string>
+    <string name="sb_weather_position_title">Staðsetning</string>
+    <string name="status_bar_clock_rr_style_title">Útlit klukku</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Sjálfgefið"</item>
+        <item>Neon</item>
+        <item>Klofið</item>
+        <item>RR-merki</item>
+        <item>Einbil</item>
+        <item>Pulse</item>
+        <item>Staflað</item>
+        <item>Glóð</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline við hlið tímans</string>
+    <string name="sb_clock_flatline_summary">Hjartsláttarlína RR inni í merkinu: slær í takt við tónlist, skýtur upp þegar tilkynning berst</string>
 </resources>

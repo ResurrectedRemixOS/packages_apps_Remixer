@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"ခလုတ်များ"</string>
     <string name="now_bar_text">"စာပို့ရန်"</string>
     <string name="now_bar_text_size">"စာလုံး အရွယ်အစား"</string>
+    <string name="now_bar_summary">လော့ခ်စခရင်၏ အောက်ခြေတွင် တိုက်ရိုက်လုပ်ဆောင်ချက်များ</string>
+    <string name="now_bar_show">ပြ</string>
+    <string name="now_bar_music">music နှင့် ဗီဒီယို</string>
+    <string name="now_bar_timers">ကြိမ်ဝါရှင်၊ စတော့ဝပ်နှင့် နှိုးစက်များ</string>
+    <string name="now_bar_hide_call">ဖုန်းခေါ်ဆို အကြောင်းကြားချက်ကို ဝှက်ရန်</string>
+    <string name="now_bar_hide_call_summary">လော့ခ်စခရင်တွင် Now Bar ရှိ ဖုန်းခေါ်ဆိုမှုကို အကြောင်းကြားချက်အဖြစ် ထပ်မပြပါ</string>
+    <string name="now_bar_live">တိုက်ရိုက်အပ်ဒိတ်များ</string>
+    <string name="now_bar_live_summary">လမ်းညွှန်၊ ခရီးစဉ်၊ ပို့ဆောင်မှု၊ အမှတ်များ</string>
+    <string name="now_bar_scores">တိုက်ရိုက် အမှတ်များ</string>
+    <string name="now_bar_live_apps">တိုက်ရိုက်အပ်ဒိတ်အတွက် အက်ပ်များ</string>
+    <string name="now_bar_live_apps_count">အက်ပ် <xliff:g id="count" example="2">%1$d</xliff:g> ခု</string>
+    <string name="now_bar_pin">Always-on display တွင် ပင့်ထားသည်</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> ကို ဖြုတ်မလား?</string>
+    <string name="now_bar_unpin">ဖြုတ်ရန်</string>
+    <string name="now_bar_scores_summary">At a Glance တွင် လိုက်ကြည့်သော ဂိမ်းများ</string>
+    <string name="now_bar_recording">ဖန်သားပြင်နှင့် အသံ ရိုက်ကူးခြင်း</string>
+    <string name="now_bar_buds">နားကြပ်များနှင့် နာရီများ</string>
+    <string name="now_bar_buds_summary">ချိတ်ဆက်ထားသော စက်၏ဘက်ထရီ- နားကြပ်အတွက် ဘယ်၊ ညာနှင့် အမှုအိတ်</string>
+    <string name="now_bar_wave">လှိုင်းလှုပ်ရှားမှု</string>
+    <string name="now_bar_aod">Always-on display တွင် ပြရန်</string>
+    <string name="now_bar_chip">အခြေအနေပြနေရာရှိ ချစ်</string>
+    <string name="now_bar_chip_summary">လော့ခ်ဖွင့်ထားစဉ် နာရီဘေးတွင် သီချင်းနှင့် တိုင်မာများ ဖွင့်ပြခြင်း</string>
+    <string name="now_bar_footer">Now Bar တွင် သီချင်းရှိနေချိန်တွင် လော့ခ်စခရင်ရှိ ကြီးမားသော ဖျဉ်းရှင်ကို ဝှက်ထားပါမည်။ လုပ်ဆောင်ချက်များကြား ပြောင်းရန် ဘားကို ပွတ်ဆွဲပါ၊ ထိန်းချုပ်မှုများဖွင့်ရန် နှိပ်ပါ၊ အဆုံးသတ်သည်အထိ ဝှက်ရန် ကြာကြာနှိပ်ပါ။ ခဏရပ်ထားသော သီချင်းကို ဘားမှ ပွတ်ဖယ်ပါက ရှင်းလင်းပါမည်။\n\nတိုက်ရိုက်အမှတ်များတွင် Google အက်ပ်တွင် သင်လိုက်ကြည့်သော အသင်းများ၏ ပွဲများကို ပြပါသည်။ Smartspacer ဖြင့် ထိုနေရာတွင် အားကစားပစ်မှတ်ကို ထည့်ပါက ရမှတ်များ ဤနေရာသို့ ရောက်လာပါမည်။</string>
+    <string name="now_bar_looks">ပုံစံများ</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"မူရင်း"</item>
+        <item>Liquid Glass</item>
+        <item>အသေး</item>
+        <item>အကြီး</item>
+        <item>နီယွန်</item>
+        <item>မှန်ကတ်ပြား</item>
+    </string-array>
+    <string name="now_bar_material">ပစ္စည်း</string>
+    <string name="now_bar_material_summary">Liquid Glass သည် အပြင်အဆင်တွင် သတ်မှတ်ထားသော မှန်ကို သုံးသည်</string>
+    <string-array name="now_bar_material_entries">
+        <item>တစ်ရောင်တည်း</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>အယ်လ်ဘမ်ပုံ</item>
+        <item>အဓိကအရောင်</item>
+        <item>မှောင်</item>
+    </string-array>
+    <string name="now_bar_opacity">အလင်းမျက်နှာပြင် ပွင့်လင်းမှု</string>
+    <string name="now_bar_opacity_summary">Liquid Glass တွင် အရောင်မှ မှန်ကို မည်မျှ အရောင်ဆိုးမည်ကို သတ်မှတ်ပါ</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"မရှိ"</item>
+        <item>ပါး</item>
+        <item>အဓိကအရောင်</item>
+    </string-array>
+    <string name="now_bar_shadow">အရိပ်</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"ပိတ်"</item>
+        <item>Soft</item>
+        <item>တောက်ပ</item>
+    </string-array>
+    <string name="now_bar_more">ပိုမိုသော လုပ်ဆောင်ချက်များ</string>
+    <string-array name="now_bar_more_entries">
+        <item>ပွတ်ဆွဲရုံသာ</item>
+        <item>အစက်များ</item>
+        <item>နောက်ဘက်မှ ချောင်းကြည့်</item>
+    </string-array>
+    <string name="now_bar_size">အရွယ်အစားနှင့် ပုံသဏ္ဍာန်</string>
+    <string name="now_bar_height">အမြင့်</string>
+    <string name="now_bar_width_summary">Full ဖြင့် ဖြတ်လမ်းလင့်ခ်များကို ဘားအပေါ်သို့ ရွှေ့ပါ</string>
+    <string-array name="now_bar_width_entries">
+        <item>ကျဉ်းမြောင်း</item>
+        <item>ဖြတ်လမ်းလင့်ခ်များကြား</item>
+        <item>အပြည့်</item>
+    </string-array>
+    <string name="now_bar_corners">ထောင့်များ</string>
+    <string name="now_bar_raise">မြှင့်တင်</string>
+    <string name="now_bar_art">အယ်လ်ဘမ်ပုံ</string>
+    <string-array name="now_bar_art_entries">
+        <item>"စက်ဝိုင်း"</item>
+        <item>ထောင့်ဝိုင်း</item>
+        <item>"စတုရန်း"</item>
+        <item>"ပိတ်"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>ကျော်ပြီး ဖွင့်ရန်</item>
+        <item>ဖွင့်ခြင်းသာ</item>
+        <item>"မရှိ"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>တစ်ကြောင်း</item>
+        <item>နှစ်ကြောင်း</item>
+        <item>သီချင်းသာ</item>
+    </string-array>
+    <string name="now_bar_show_page">ဘားတွင် ပြရန်</string>
+    <string name="now_bar_show_page_summary">Music နှင့် ဗီဒီယို၊ တိုင်မာများ၊ ခေါ်ဆိုမှုများနှင့် အခြားများ</string>
+    <string name="now_bar_where">အခြားနေရာများ</string>
 </resources>

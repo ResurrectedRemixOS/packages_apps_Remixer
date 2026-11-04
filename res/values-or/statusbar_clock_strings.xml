@@ -1,4 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"ତାରିଖ"</string>
+    <string name="sb_clock_category">ଘଡ଼ି ଓ ତାରିଖ</string>
+    <string name="sb_clock_bold_title">ଗାଢ଼ ଘଡ଼ି</string>
+    <string name="sb_clock_bold_summary">ଷ୍ଟାଟସ୍‍ ବାର୍‍ ଘଡ଼ି ଗାଢ଼ ଦେଖାନ୍ତୁ</string>
+    <string name="sb_clock_period_separator_title">ପିରିଅଡ ବିଭାଜକ</string>
+    <string name="sb_clock_period_separator_summary">10:45 ବଦଳରେ 10.45</string>
+    <string name="sb_clock_date_position_title">ତାରିଖ ସ୍ଥିତି</string>
+    <string name="sb_clock_date_style_title">ତାରିଖ ଅକ୍ଷର ଶୈଳୀ</string>
+    <string name="sb_clock_date_format_title">ତାରିଖ ଫର୍ମାଟ</string>
+    <string name="sb_clock_chip_category">ଘଡ଼ି ପୃଷ୍ଠଭୂମି</string>
+    <string name="sb_clock_chip_title">ପୃଷ୍ଠଭୂମି ଶୈଳୀ</string>
+    <string name="sb_clock_chip_start_title">ଗ୍ରେଡିଏଣ୍ଟ ଆରମ୍ଭ</string>
+    <string name="sb_clock_chip_end_title">ଗ୍ରେଡିଏଣ୍ଟ ଶେଷ</string>
+    <string name="sb_clock_chip_angle_title">ଗ୍ରେଡିଏଣ୍ଟ କୋଣ</string>
+    <string name="sb_clock_chip_mask_title">ଗ୍ରେଡିଏଣ୍ଟରୁ ସମୟ କାଟନ୍ତୁ</string>
+    <string name="sb_clock_chip_mask_summary">ଗ୍ରେଡିଏଣ୍ଟ ଅଙ୍କ ଭିତର ଦେଇ ଦେଖାଯିବ, ପଛରେ ନୁହେଁ</string>
+    <string name="sb_weather_category">ପାଣିପାଗ</string>
+    <string name="sb_weather_title">ଷ୍ଟାଟସ୍‍ ବାର୍‍ରେ ପାଣିପାଗ</string>
+    <string name="sb_weather_position_title">ସ୍ଥିତି</string>
+    <string name="status_bar_clock_rr_style_title">ଘଡ଼ି ଲୁକ</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"ଡିଫଲ୍ଟ"</item>
+        <item>ନିଅନ</item>
+        <item>ବିଭକ୍ତ</item>
+        <item>RR ଚିହ୍ନ</item>
+        <item>ମୋନୋ</item>
+        <item>Pulse</item>
+        <item>ଉପରେ-ତଳେ</item>
+        <item>ଏମ୍‌ବର</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">ସମୟ ପାଖରେ Flatline</string>
+    <string name="sb_clock_flatline_summary">ଚିପ ଭିତରେ RR ର ହୃତସ୍ପନ୍ଦନ ରେଖା: ସଙ୍ଗୀତ ସହ ଧଡ଼କନ, ବିଜ୍ଞପ୍ତି ଆସିଲେ ଉପରକୁ ଉଠେ</string>
 </resources>

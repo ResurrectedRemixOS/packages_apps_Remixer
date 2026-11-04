@@ -12,4 +12,96 @@
     <string name="now_bar_buttons">"Botoiak"</string>
     <string name="now_bar_text">"Bidali testu-mezua"</string>
     <string name="now_bar_text_size">"Testuaren tamaina"</string>
+    <string name="now_bar_summary">Jarduera zuzenekoak pantaila blokeatuaren behealdean</string>
+    <string name="now_bar_show">Erakutsi</string>
+    <string name="now_bar_music">Musika eta bideoa</string>
+    <string name="now_bar_timers">Tenporizadoreak, kronometroa eta alarmak</string>
+    <string name="now_bar_hide_call">Ezkutatu deialdiaren jakinarazpena</string>
+    <string name="now_bar_hide_call_summary">Pantaila blokeatuan, Now Bar-eko deia ez da jakinarazpen gisa ere agertzen</string>
+    <string name="now_bar_live">Zuzeneko eguneraketak</string>
+    <string name="now_bar_live_summary">Nabigazioa, bidaiak, entregak, emaitzak</string>
+    <string name="now_bar_scores">Zuzeneko emaitzak</string>
+    <string name="now_bar_live_apps">Zuzeneko eguneraketen aplikazioak</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> aplikazio</string>
+    <string name="now_bar_pin">Bilduta bistaratze beti aktiboan</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> desbilotu?</string>
+    <string name="now_bar_unpin">Desbilotu</string>
+    <string name="now_bar_scores_summary">At a Glance-en jarraitzen dituzun jokoak</string>
+    <string name="now_bar_recording">Pantaila eta ahots grabazioa</string>
+    <string name="now_bar_buds">Belarriko entzungailuak eta erlojuak</string>
+    <string name="now_bar_buds_summary">Konektatutako gailuaren bateria: ezkerra, eskuina eta entzungailuen kutxa</string>
+    <string name="now_bar_wave">Uhin-animazioa</string>
+    <string name="now_bar_aod">Erakutsi bistaratze beti aktiboan</string>
+    <string name="now_bar_chip">Txipa egoera-barran</string>
+    <string name="now_bar_chip_summary">Musika eta tenporizadoreak erloju ondoan erakutsi desblokeatuta dagoenean</string>
+    <string name="now_bar_footer">Now Bar-en musika dagoenean, pantaila blokeatuko erreproduktore handia ezkutatzen da. Barra jo aulki jardueren artean aldatzeko, sakatu kontrolak irekitzeko, eta luze sakatu amaitu arte ezkutatzeko. Pausatutako abesti bat barratik kentzeko, irristatu alde batera.\n\nBizi-emaitzek Google aplikazioan jarraitzen dituzun taldeen partiden emaitzak erakusten dituzte. Smartspacer-ekin kirol-helburu bat gehitzen baduzu, haren emaitzak hemen agertuko dira.</string>
+    <string name="now_bar_looks">Looks</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Lehenetsia"</item>
+        <item>Liquid Glass</item>
+        <item>Txikia</item>
+        <item>Handia</item>
+        <item>Neoia</item>
+        <item>Beira-txartela</item>
+    </string-array>
+    <string name="now_bar_material">Materiala</string>
+    <string name="now_bar_material_summary">Liquid Glass-ek Gaia-n ezarritako beira erabiltzen du</string>
+    <string-array name="now_bar_material_entries">
+        <item>Solidoa</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Albumaren azala</item>
+        <item>Azentua</item>
+        <item>Iluna</item>
+    </string-array>
+    <string name="now_bar_opacity">Opakutasuna</string>
+    <string name="now_bar_opacity_summary">Liquid Glass-en, zenbat kolorek tintatzen duten beira</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Bat ere ez"</item>
+        <item>Mehea</item>
+        <item>Azentua</item>
+    </string-array>
+    <string name="now_bar_shadow">Itzala</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Desaktibatuta"</item>
+        <item>Leuna</item>
+        <item>Distira</item>
+    </string-array>
+    <string name="now_bar_more">Jarduera gehiago</string>
+    <string-array name="now_bar_more_entries">
+        <item>Irristatu soilik</item>
+        <item>Puntuak</item>
+        <item>Begiratu atzetik</item>
+    </string-array>
+    <string name="now_bar_size">Tamaina eta forma</string>
+    <string name="now_bar_height">Altuera</string>
+    <string name="now_bar_width_summary">Osoa lasterbideak goiko aldera mugitzen ditu</string>
+    <string-array name="now_bar_width_entries">
+        <item>Estua</item>
+        <item>Lasterbideen artean</item>
+        <item>Osoa</item>
+    </string-array>
+    <string name="now_bar_corners">Ertzak</string>
+    <string name="now_bar_raise">Altxatu</string>
+    <string name="now_bar_art">Albumaren azala</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Zirkulua"</item>
+        <item>Biribildua</item>
+        <item>"Karratua"</item>
+        <item>"Desaktibatuta"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Salto egin eta erreproduzitu</item>
+        <item>Erreproduzitzailea soilik</item>
+        <item>"Bat ere ez"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Lerro bat</item>
+        <item>Bi lerro</item>
+        <item>Abestia soilik</item>
+    </string-array>
+    <string name="now_bar_show_page">Barran zer agertzen den</string>
+    <string name="now_bar_show_page_summary">Musika eta bideoa, tenporizadoreak, deialdiak eta gehiago</string>
+    <string name="now_bar_where">Beste non</string>
 </resources>

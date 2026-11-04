@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"ខៀវ"</string>
     <string name="haptic_remix_color_green">"បៃតង"</string>
     <string name="haptic_remix_color_white">"ស"</string>
+    <string name="haptic_remix_summary">ចុចដើម្បីថតលំនាំការញ័រសម្រាប់ការហៅ កម្មវិធី ម៉ោងរោទ៍ និងការដោះសោ</string>
+    <string name="haptic_remix_record">ថត</string>
+    <string name="haptic_remix_pad">ចុចចង្វាក់</string>
+    <string name="haptic_remix_strength">កម្លាំង</string>
+    <string name="haptic_remix_clear">សម្អាត</string>
+    <string name="haptic_remix_play">ចាក់</string>
+    <string name="haptic_remix_name">ឈ្មោះលំនាំ</string>
+    <string name="haptic_remix_empty">មិនទាន់មានការថតនៅឡើយទេ</string>
+    <string name="haptic_remix_too_long">លំនាំមួយអាចមានរយៈពេលរហូតដល់ 30 វិនាទី</string>
+    <string name="haptic_remix_presets">លំនាំស្រាប់</string>
+    <string name="haptic_remix_preset_neon">នេអុង</string>
+    <string name="haptic_remix_preset_glass">កញ្ចក់</string>
+    <string name="haptic_remix_preset_ringtone">ចង្វាក់នៃសំឡេងរោទ៍</string>
+    <string name="haptic_remix_listening">កំពុងស្តាប់សំឡេងរោទ៍…</string>
+    <string name="haptic_remix_no_ringtone">មិនអាចអានសំឡេងរោទ៍បានទេ</string>
+    <string name="haptic_remix_patterns">លំនាំរបស់អ្នក</string>
+    <string name="haptic_remix_patterns_none">សូមរក្សាទុកលំនាំជាមុនសិន។ សង្កត់មួយដើម្បីលុប។</string>
+    <string name="haptic_remix_broken">លំនាំនោះមិនអាចអានបានទេ</string>
+    <string name="haptic_remix_delete">លុប <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">កំណត់ឱ្យ</string>
+    <string name="haptic_remix_alarm">ម៉ោងរោទ៍ និងម៉ោងកំណត់</string>
+    <string name="haptic_remix_plug">ដោតចូល</string>
+    <string name="haptic_remix_fingerprint">ស្កេនម្រាមដៃជោគជ័យ</string>
+    <string name="haptic_remix_add_contact">បន្ថែមទំនាក់ទំនង</string>
+    <string name="haptic_remix_edge_color">ពន្លឺគែមសម្រាប់សាររបស់ <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">ពណ៌សំខាន់</string>
+    <string name="haptic_remix_color_crimson">ក្រហមចាស់</string>
+    <string name="haptic_remix_color_amber">ពណ៌អំព័រ</string>
+    <string name="haptic_remix_add_app">បន្ថែមការជូនដំណឹងកម្មវិធី</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · ចុចដើម្បីផ្លាស់ប្តូរ សង្កត់សម្រាប់ពណ៌គែម</string>
+    <string name="haptic_remix_no_contacts">មិនមានលេខត្រឡប់មកពីទំនាក់ទំនងទេ</string>
 </resources>

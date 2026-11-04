@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">ป้องกันการเปิดหน้าจอโดยไม่เจตนา</string>
+    <string name="lockscreen_battery_info_title">ข้อมูลการชาร์จ</string>
+    <string name="lockscreen_battery_info_summary">แสดงกระแส วัตต์ แรงดัน และอุณหภูมิแบตเตอรี่ขณะชาร์จ</string>
+    <string name="charging_ring_title">แอนิเมชันการชาร์จ SuperVOOC</string>
+    <string name="charging_ring_summary">แสดงวงแหวนการชาร์จและความเร็วเมื่อเสียบสาย</string>
+    <string name="pocket_mode_summary">ขณะที่เซ็นเซอร์ระยะใกล้ถูกปิดกั้น หน้าจอจะไม่ตื่นและจะไม่รับการสัมผัส</string>
+    <string name="screen_on_time_title">เวลาที่หน้าจอเปิด</string>
+    <string name="screen_on_time_summary">แสดงเวลาที่หน้าจอเปิดนับตั้งแต่ชาร์จเต็มครั้งล่าสุดบนหน้าจอล็อกขณะชาร์จ และบนการ์ดโหมดประหยัดแบตเตอรี่</string>
 </resources>

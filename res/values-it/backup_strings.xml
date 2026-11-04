@@ -13,4 +13,41 @@
     <string name="backup_group_other">"Altro"</string>
     <string name="backup_done">"Fine"</string>
     <string name="volume_style_title">Stile pannello volume</string>
+    <string name="backup_summary">Tutte le personalizzazioni RR in un unico file</string>
+    <string name="backup_now">Esegui backup ora</string>
+    <string name="backup_never">Ultimo backup: mai</string>
+    <string name="backup_last">Ultimo backup: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Ripristina da un file</string>
+    <string name="backup_restore_summary">Scegli un file di backup</string>
+    <string name="backup_included">Incluso</string>
+    <string name="backup_part_theme">Colore primario, carattere e icone</string>
+    <string name="backup_part_header">Immagine di intestazione</string>
+    <string name="backup_part_photo">Immagine di intestazione (la tua foto)</string>
+    <string name="backup_part_photo_summary">Aumenta le dimensioni del file</string>
+    <string name="backup_part_looks">I tuoi preset</string>
+    <string name="backup_weekly">Backup settimanale</string>
+    <string name="backup_weekly_summary">In una cartella scelta</string>
+    <string name="backup_weekly_on">Ogni settimana in <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Proponi un backup prima degli aggiornamenti</string>
+    <string name="backup_offer_summary">L\'Updater chiede prima di installare</string>
+    <string name="backup_sets">Imposta <xliff:g id="count" example="64">%1$d</xliff:g> impostazioni</string>
+    <string name="backup_saved">Salvate <xliff:g id="count" example="64">%1$d</xliff:g> impostazioni</string>
+    <string name="backup_restored">Ripristinate <xliff:g id="count" example="64">%1$d</xliff:g> impostazioni</string>
+    <string name="backup_restored_message">SystemUI si riavvia per applicarle.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> impostazioni non esistono in questa build e sono state saltate.</string>
+    <string name="backup_failed">Impossibile salvare il backup</string>
+    <string name="backup_invalid">Questo file non è un backup di Resurrected Remix</string>
+    <string name="backup_footer">Nel file vengono incluse solo le impostazioni RR: nessun account, password, rete Wi-Fi, app o messaggio. Il ripristino scrive solo le impostazioni nell\'elenco di RR, quindi un file di backup non può modificare altro sul telefono. La foto di intestazione è inclusa solo se l\'interruttore è attivo, perché aumenta le dimensioni del file.</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Vetro</item>
+        <item>Pillola</item>
+        <item>RR classico</item>
+        <item>Bento</item>
+        <item>Forme</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Soft</item>
+    </string-array>
 </resources>

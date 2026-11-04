@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remixer_boot_animation">Animația de pornire</string>
+    <string name="boot_animation_note">Se redă data viitoare când telefonul pornește.</string>
+    <string name="boot_animation_custom">Fișierul tău</string>
+    <string name="boot_animation_custom_pick">Alege un fișier…</string>
+    <string name="boot_animation_custom_invalid">Fișierul nu este o animație de pornire</string>
+    <string name="boot_animation_failed">Nu s-a putut schimba animația de pornire</string>
+</resources>

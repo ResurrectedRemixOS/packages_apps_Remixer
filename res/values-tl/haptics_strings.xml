@@ -6,4 +6,37 @@
     <string name="haptic_remix_color_blue">"Asul"</string>
     <string name="haptic_remix_color_green">"Berde"</string>
     <string name="haptic_remix_color_white">"Puti"</string>
+    <string name="haptic_remix_summary">I-tap ang mga pattern ng vibration para sa tawag, app, alarm at unlock</string>
+    <string name="haptic_remix_record">I-record</string>
+    <string name="haptic_remix_pad">i-tap ang ritmo</string>
+    <string name="haptic_remix_strength">Lakas</string>
+    <string name="haptic_remix_clear">Burahin</string>
+    <string name="haptic_remix_play">I-play</string>
+    <string name="haptic_remix_name">Pangalan ng pattern</string>
+    <string name="haptic_remix_empty">Wala pang nare-record</string>
+    <string name="haptic_remix_too_long">Hanggang 30 segundo ang isang pattern</string>
+    <string name="haptic_remix_presets">Mga preset</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Glass</string>
+    <string name="haptic_remix_preset_ringtone">Tibok ng ringtone</string>
+    <string name="haptic_remix_listening">Nakikinig sa ringtone…</string>
+    <string name="haptic_remix_no_ringtone">Hindi mabasa ang ringtone</string>
+    <string name="haptic_remix_patterns">Ang mga pattern mo</string>
+    <string name="haptic_remix_patterns_none">Mag-save muna ng pattern. Pindutin nang matagal para burahin ito.</string>
+    <string name="haptic_remix_broken">Hindi mabasa ang pattern na iyon</string>
+    <string name="haptic_remix_delete">Burahin ang <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Italaga sa</string>
+    <string name="haptic_remix_default">Default</string>
+    <string name="haptic_remix_alarm">Alarm at timer</string>
+    <string name="haptic_remix_plug">Nakasaksak</string>
+    <string name="haptic_remix_fingerprint">Matagumpay ang fingerprint</string>
+    <string name="haptic_remix_add_contact">Magdagdag ng contact</string>
+    <string name="haptic_remix_edge_color">Edge light para sa mga mensahe ni <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">Accent</string>
+    <string name="haptic_remix_color_crimson">Crimson</string>
+    <string name="haptic_remix_color_violet">Violet</string>
+    <string name="haptic_remix_color_amber">Amber</string>
+    <string name="haptic_remix_add_app">Magdagdag ng notification ng app</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · pindutin para baguhin, pindutin nang matagal para sa kulay ng gilid</string>
+    <string name="haptic_remix_no_contacts">Walang numerong nakuha mula sa Contacts</string>
 </resources>

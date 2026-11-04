@@ -6,4 +6,31 @@
     <string name="sb_clock_date_format_title">Tarix formatı</string>
     <string name="sb_weather_category">"Hava"</string>
     <string name="sb_weather_position_title">Mövqeyi</string>
+    <string name="sb_clock_bold_title">Qalın saat</string>
+    <string name="sb_clock_bold_summary">Status panelindəki saatı qalın göstər</string>
+    <string name="sb_clock_period_separator_title">Vaxt ayırıcısı</string>
+    <string name="sb_clock_period_separator_summary">10.45 əvəzinə 10:45</string>
+    <string name="sb_clock_date_style_title">Tarixin hərf həssaslığı</string>
+    <string name="sb_clock_chip_category">Saatın fonu</string>
+    <string name="sb_clock_chip_title">Fon üslubu</string>
+    <string name="sb_clock_chip_start_title">Qradiyentin başlanğıcı</string>
+    <string name="sb_clock_chip_end_title">Qradiyentin sonu</string>
+    <string name="sb_clock_chip_angle_title">Qradiyent bucağı</string>
+    <string name="sb_clock_chip_mask_title">Vaxtı qradiyentdən kəsin</string>
+    <string name="sb_clock_chip_mask_summary">Qradiyent rəqəmlərin arxasında yox, içərisindən görünür</string>
+    <string name="sb_weather_title">Status panelində hava</string>
+    <string name="status_bar_clock_rr_style_title">Saat görünüşü</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Defolt"</item>
+        <item>Neon</item>
+        <item>Bölünmüş</item>
+        <item>RR nişanı</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Üst-üstə</item>
+        <item>Közərmə</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Vaxtın yanında Flatline</string>
+    <string name="sb_clock_flatline_summary">RR-in ürək döyüntüsü xətti çipin içində: musiqi ilə döyünür, bildiriş gələndə qalxır</string>
 </resources>

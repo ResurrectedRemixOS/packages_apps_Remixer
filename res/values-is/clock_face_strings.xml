@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Sjálfgefið"</string>
     <string name="clock_faces_size">"Stærð"</string>
     <string name="clock_faces_restart">"Endurræsa"</string>
+    <string name="remixer_clock_faces">Klukkuviðmót</string>
+    <string name="clock_faces_system">Kerfisklukka</string>
+    <string name="clock_faces_system_desc">Klukkan úr Veggfóður og stíll</string>
+    <string name="clock_faces_position">%1$d af %2$d</string>
+    <string name="clock_faces_applied">Sett</string>
+    <string name="clock_faces_preview_unavailable">Forskoðun ekki tiltæk</string>
+    <string name="clock_faces_failed">Ekki tókst að breyta klukkunni</string>
+    <string name="clock_faces_color_accent">Áherslulitur</string>
+    <string name="clock_faces_color_custom">Sérsniðið</string>
+    <string name="clock_faces_color_album">Plötuumslag</string>
+    <string name="clock_faces_color_gradient">Stigull</string>
+    <string name="clock_faces_own_colors">Þetta viðmót heldur sínum eigin litum.</string>
+    <string name="clock_faces_album_hint">Tekur lit sinn af plötuumslaginu meðan tónlist spilar.</string>
+    <string name="clock_faces_size_position">Stærð og staðsetning</string>
+    <string name="clock_faces_size_value">Stærð · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Fjarlægð frá efri brún</string>
+    <string name="clock_faces_top_value">Fjarlægð frá efri brún · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Lárétt staðsetning</string>
+    <string name="clock_faces_horizontal_center">Lárétt staðsetning · Miðja</string>
+    <string name="clock_faces_horizontal_right">Lárétt staðsetning · <xliff:g id="dp" example="24">%1$d</xliff:g> dp til hægri</string>
+    <string name="clock_faces_horizontal_left">Lárétt staðsetning · <xliff:g id="dp" example="24">%1$d</xliff:g> dp til vinstri</string>
+    <string name="clock_faces_horizontal_fixed">Þetta viðmót er áfram miðjað.</string>
+    <string name="clock_faces_opacity">Ógegnsæi</string>
+    <string name="clock_faces_opacity_value">Ógagnsæi · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Hreyfing</string>
+    <string name="clock_faces_wobble">Hreyfing meðan á hleðslu stendur</string>
+    <string name="clock_faces_wobble_summary">Skoppar einu sinni þegar tækið er tengt</string>
+    <string name="clock_faces_aod_anim">Umskipti á alltaf-á-skjánum</string>
+    <string name="clock_faces_aod_anim_summary">Minnkar og dofnar klukkuna inn á alltaf-á-skjáinn</string>
+    <string name="clock_faces_restart_title">Endurræsa lásskjáinn?</string>
+    <string name="clock_faces_restart_message">Skipt á milli kerfisklukkunnar og sérsniðinna viðmóta endurræsir SystemUI. Skjárinn slokknar í eina sekúndu.</string>
+    <string name="clock_faces_note">SystemUI teiknar forskoðanir á veggfóðri lásskjásins. Litur, stærð og staðsetning breytast strax á lásskjánum.</string>
 </resources>

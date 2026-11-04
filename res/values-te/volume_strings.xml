@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="volume_page_title">వాల్యూమ్ ప్యానెల్</string>
+    <string name="volume_page_summary">నియాన్, గ్లాస్, పిల్ లేదా క్లాసిక్ RR</string>
+    <string name="volume_behavior">ప్రవర్తన</string>
+    <string name="volume_on_left_title">ఎడమవైపు ప్యానెల్</string>
+    <string name="volume_on_left_summary">క్లాసిక్ RR ఎప్పుడూ పైభాగంలోనే ఉంటుంది</string>
+    <string name="volume_ringer_title">రింగర్ మోడ్ బటన్</string>
+    <string name="volume_tick_title">స్లైడ్ చేస్తున్నప్పుడు టిక్ చేయండి</string>
+    <string name="volume_percent_title">స్థాయిని శాతంలో చూపండి</string>
+    <string name="volume_timeout_title">తర్వాత దాచు</string>
+    <string name="volume_footer">లుక్ ప్యానెల్ కనిపించే తీరును మాత్రమే మారుస్తుంది, పనిచేసే విధానాన్ని కాదు. Android స్టాక్ ప్యానెల్‌ను ఉంచుతుంది. ప్రతి స్ట్రీమ్‌ను చూడటానికి చుక్కలను ట్యాప్ చేయండి; విస్తరించిన ప్యానెల్ కూడా అదే లుక్‌ను ఉపయోగిస్తుంది.</string>
+</resources>

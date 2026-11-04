@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">Timer</string>
     <string name="quick_launch_undo">"Ångra"</string>
     <string name="quick_launch_off">"Av"</string>
+    <string name="quick_launch_title">Snabbstart</string>
+    <string name="quick_launch_main">Snabbstart med fingeravtryck</string>
+    <string name="quick_launch_main_summary">Håll fingret kvar på sensorn efter upplåsning för att öppna en genväg</string>
+    <string name="quick_launch_hint">Tryck på en genväg för att ändra den, håll den nere för att ta bort den eller dra den för att ändra ordningen.</string>
+    <string name="quick_launch_behavior">Beteende</string>
+    <string name="quick_launch_hold">Håll-tid</string>
+    <string name="quick_launch_haptics">Vibrera vid varje genväg</string>
+    <string name="quick_launch_add">Lägg till</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">Skanna QR</string>
+    <string name="quick_launch_app">App…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> borttagen</string>
 </resources>

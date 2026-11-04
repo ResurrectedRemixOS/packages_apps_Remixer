@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">သင့် Mode တစ်ခုစီအတွက် Look တစ်ခု</string>
+    <string name="remix_modes_everyday">နေ့စဉ် Look</string>
+    <string name="remix_modes_everyday_summary">Look ပါသော Mode မရှိသောအခါ ပြန်လာမည်</string>
+    <string name="remix_modes_wallpaper">နောက်ခံသည် Look ကို လိုက်မည်</string>
+    <string name="remix_modes_wallpaper_summary">Mode တစ်ခုက နောက်ခံကိုလည်း ပြောင်းနိုင်သည်</string>
+    <string name="remix_modes_modes">သင့် Mode များ</string>
+    <string name="remix_modes_no_change">ပြောင်းလဲမှုမရှိ</string>
+    <string name="remix_modes_none">ပထမဦးစွာ Look တစ်ခုကို သိမ်းပါ၊ အပြင်အဆင် › Looks တွင်</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g> အတွက် Look</string>
+</resources>

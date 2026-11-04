@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glance_title">एट ए ग्लांस</string>
+    <string name="glance_summary">स्टॉक घड़ी के नीचे Google की तारीख, मौसम और कार्ड, Pixel की तरह। घड़ी के चेहरे अपनी अलग पंक्ति रखते हैं</string>
+</resources>

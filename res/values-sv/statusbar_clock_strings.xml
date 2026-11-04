@@ -3,4 +3,34 @@
     <string name="sb_clock_date_title">"Datum"</string>
     <string name="sb_clock_chip_angle_title">Övertoningsvinkel</string>
     <string name="sb_weather_category">"Väder"</string>
+    <string name="sb_clock_category">Klocka och datum</string>
+    <string name="sb_clock_bold_title">Fet klocka</string>
+    <string name="sb_clock_bold_summary">Visa statusfältets klocka i fetstil</string>
+    <string name="sb_clock_period_separator_title">Tidsavskiljare</string>
+    <string name="sb_clock_period_separator_summary">10.45 i stället för 10:45</string>
+    <string name="sb_clock_date_position_title">Datumposition</string>
+    <string name="sb_clock_date_style_title">Datumskiftläge</string>
+    <string name="sb_clock_date_format_title">Datumformat</string>
+    <string name="sb_clock_chip_category">Klockbakgrund</string>
+    <string name="sb_clock_chip_title">Bakgrundsstil</string>
+    <string name="sb_clock_chip_start_title">Gradient start</string>
+    <string name="sb_clock_chip_end_title">Gradient slut</string>
+    <string name="sb_clock_chip_mask_title">Klipp bort tiden ur gradienten</string>
+    <string name="sb_clock_chip_mask_summary">Gradienten syns genom siffrorna i stället för bakom dem</string>
+    <string name="sb_weather_title">Väder i statusfältet</string>
+    <string name="sb_weather_position_title">Position</string>
+    <string name="status_bar_clock_rr_style_title">Klockans utseende</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Standard"</item>
+        <item>Neon</item>
+        <item>Delad</item>
+        <item>RR-märke</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Staplad</item>
+        <item>Glöd</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline bredvid tiden</string>
+    <string name="sb_clock_flatline_summary">RR:s hjärtlinje inuti chipet: slår med musiken, spikar när en avisering kommer</string>
 </resources>

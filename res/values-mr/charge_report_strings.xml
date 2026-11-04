@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"बॅटरी"</string>
     <string name="charge_report_temp">"तापमान"</string>
     <string name="charge_report_time">"वेळ"</string>
+    <string name="charge_report_title">चार्ज अहवाल</string>
+    <string name="charge_report_summary">अनप्लग केल्यावर प्रत्येक चार्जचा सारांश</string>
+    <string name="charge_report_min_title">फक्त तेवढेच वाढले असल्यास किमान</string>
+    <string-array name="charge_report_keep_entries">
+        <item>३ दिवस</item>
+        <item>७ दिवस</item>
+        <item>१४ दिवस</item>
+        <item>३० दिवस</item>
+    </string-array>
+    <string name="charge_report_history_days">शेवटचे <xliff:g id="days" example="7">%1$d</xliff:g> दिवस</string>
+    <string name="charge_report_today">आज, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">काल, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> मि</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> तास <xliff:g id="minutes" example="02">%2$02d</xliff:g> मि</string>
+    <string name="charge_report_watts">वॉट्स</string>
+    <string name="charge_report_added">जोडले</string>
+    <string name="charge_report_peak">सर्वोच्च</string>
+    <string name="charge_report_average">सरासरी</string>
+    <string name="charge_report_max_temp">कमाल तापमान</string>
+    <string name="charge_report_charger">चार्जर</string>
+    <string name="charge_report_started">सुरू झाले</string>
+    <string name="charge_report_wired">वायर्ड</string>
+    <string name="charge_report_wireless">वायरलेस</string>
+    <string name="charge_report_dock">डॉक</string>
+    <string name="charge_report_empty">अजून चार्जिंग नाही</string>
+    <string name="charge_report_footer">चार्जरवर असताना SystemUI दर ३० सेकंदांनी बॅटरीचा करंट, व्होल्टेज आणि तापमान वाचते. वॉट्स हे फोन मोजतो ते आहेत, त्यामुळे चार्जरवरील आकड्याशी ते वेगळे असू शकतात. अहवाल फोनवरच राहतात; काहीही अपलोड होत नाही.</string>
 </resources>

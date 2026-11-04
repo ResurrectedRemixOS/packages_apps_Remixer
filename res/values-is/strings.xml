@@ -86,4 +86,212 @@
     <string name="wallpaper_apply_lock">"Lásskjár"</string>
     <string name="remixer_settings_style_original">"Upprunaleg"</string>
     <string name="remixer_navbar_category">"Yfirlitsstika"</string>
+    <string name="remixer_dashboard_summary">Staða og þema, lásskjár og fleira</string>
+    <string name="rr_homepage_battery_saver">Rafhlöðusparnaður</string>
+    <string name="rr_homepage_personalize">Sérsníða</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> laust</string>
+    <string name="rr_homepage_charged">Fullhlaðin</string>
+    <string name="rr_homepage_on_battery">Á rafhlöðu</string>
+    <string name="rr_homepage_saver_on">Rafhlöðusparnaður í gangi</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> tæki</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> tæki</item>
+    </plurals>
+    <string name="rr_homepage_extras">Frekari stillingar</string>
+    <string name="rr_homepage_saver">Sparnaður</string>
+    <string name="rr_homepage_signed_out">Ekki skráð inn</string>
+    <string name="rr_homepage_remixer_tagline">Gerðu þetta að þínu. Stöðustika, þema, lásskjár og fleira.</string>
+    <string name="rr_homepage_device_tagline">Hljóðstyrkstakki, skjár, hleðsla og GameBar.</string>
+    <string name="rr_homepage_device_action">Stilla til</string>
+    <string name="rr_group_network">Net og tæki</string>
+    <string name="rr_group_network_summary">Wi‑Fi, farsímanet, Bluetooth</string>
+    <string name="rr_group_apps_summary">Forrit, tilkynningar, stillingar</string>
+    <string name="rr_group_display">Skjár og hljóð</string>
+    <string name="rr_group_display_summary">Skjár, veggfóður, hljóð</string>
+    <string name="rr_group_security_summary">Lás, staðsetning, neyðarþjónusta</string>
+    <string name="rr_group_security_center">Öryggismiðstöð</string>
+    <string name="rr_group_accounts">Google og aðgangar</string>
+    <string name="rr_group_accounts_summary">Google, lykilorð, öryggisafrit</string>
+    <string name="rr_group_accounts_plain_summary">Lykilorð, aðgangar, öryggisafrit</string>
+    <string name="rr_group_system_summary">Tungumál, bendingar, uppfærslur</string>
+    <string name="remixer_tagline">Gerðu þetta að þínu.</string>
+    <string name="remixer_remix">Endurgerðu</string>
+    <string name="remixer_remixed">Endurgert með <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Tónn · Sjálfgefið</string>
+    <string name="remixer_quick">Snögg endurgerð</string>
+    <string name="remixer_everything">Allt</string>
+    <string name="remixer_quick_accents">Forstillingar eða hvaða litur sem er</string>
+    <string name="remixer_quick_fonts">Leturstílar kerfisins</string>
+    <string name="remixer_quick_walls">RR safn</string>
+    <string name="remixer_quick_header">Haus flýtistillinga</string>
+    <string name="remixer_quick_header_summary">Hausmyndir</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Klukka, rafhlaða, tákn og netumferð</string>
+    <string name="remixer_qs_summary">Hausmynd</string>
+    <string name="remixer_notifications_summary">Kantlýsing, forritatákn og hleðsluhljóð</string>
+    <string name="remixer_theme_summary">Leturgerðir, áherslulitir og veggfóður</string>
+    <string name="remixer_lockscreen_summary">UDFPS, hleðsluupplýsingar og veður</string>
+    <string name="remixer_udfps_icon">UDFPS tákn</string>
+    <string name="remixer_udfps_icon_summary">Birtist yfir fingrafaraskynjaranum</string>
+    <string name="remixer_udfps_animation">UDFPS hreyfimynd</string>
+    <string name="remixer_udfps_animation_summary">Spilast meðan fingurinn er á skynjaranum</string>
+    <string name="remixer_navigation_summary">Pulse, hnappar og yfirlitsstika</string>
+    <string name="remixer_misc_summary">Hljóðstyrkur, öryggisafrit, falsanir, skrun og USB</string>
+    <string name="scroll_haptics_title">Smella í lok skrunar</string>
+    <string name="scroll_haptics_summary">Létt titringur þegar listi eða síða kemst ekki lengra</string>
+    <string name="usb_mode_picker_title">Val á USB-ham</string>
+    <string name="usb_mode_picker_summary">Veldu ham þegar tækið er tengt við tölvu</string>
+    <string name="remixer_fonts_summary">Kerfisleturgerð</string>
+    <string name="remixer_wallpapers_summary">Veggfóður frá Resurrected Remix</string>
+    <string name="remixer_accents">Áherslulitir</string>
+    <string name="remixer_accents_summary">Áherslulitur</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">Tónlistarsjóngerving meðfram neðri brún skjásins</string>
+    <string name="pulse_switch">Nota Pulse</string>
+    <string name="pulse_switch_summary">Tónlistarstikur meðfram neðri brún skjásins meðan efni spilast</string>
+    <string name="pulse_style_lines">Línur</string>
+    <string name="pulse_style_fading">Dofnandi</string>
+    <string name="pulse_style_blocks">Kubbar</string>
+    <string name="pulse_style_mirror">Spegill</string>
+    <string name="pulse_color_custom">Sérsniðið</string>
+    <string name="pulse_color_gradient">Regnbogi</string>
+    <string name="pulse_bars">Stikur</string>
+    <string name="pulse_bars_value">Stikur · %1$d</string>
+    <string name="pulse_height">Hæð</string>
+    <string name="pulse_height_value">Hæð · %1$d dp</string>
+    <string name="pulse_opacity">Ógegnsæi</string>
+    <string name="pulse_opacity_value">Ógegnsæi · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Hafa stikurnar á lásskjánum meðan tónlist spilast</string>
+    <string name="pulse_failed">Ekki tókst að vista þessa Pulse-stillingu</string>
+    <string name="accent_applied">Áherslulitur settur</string>
+    <string name="accent_current">Áherslulitur · %1$s</string>
+    <string name="accent_current_custom">Áherslulitur · Sérsniðinn</string>
+    <string name="accent_preview_tonal">Tónað</string>
+    <string name="accent_failed">Ekki tókst að setja þennan áherslulit</string>
+    <string name="accent_custom">Sérsniðið</string>
+    <string name="accent_custom_summary">Hvaða litur sem er virkar. Tónn leggst samt ofan á.</string>
+    <string name="accent_custom_pad">Mettun og birtustig</string>
+    <string name="accent_custom_use">Nota <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">Tónn</string>
+    <string name="accent_shade_darker">Dekkri</string>
+    <string name="accent_shade_lighter">Ljósari</string>
+    <string name="accent_shade_darker_value">Dekkri · %1$d</string>
+    <string name="accent_shade_lighter_value">Ljósari · %1$d</string>
+    <string name="remixer_qs_style">Stíll flýtistillinga</string>
+    <string name="remixer_qs_style_preview">Forskoðun · %1$s</string>
+    <string name="remixer_qs_style_note">Allir stílar fylgja áherslulitnum þínum. Hljóðstyrkspjaldið hefur samsvarandi stíla Bento, Shapes, Blueprint, Duo og Soft. Stock Lineage heldur reitunum frá Android 17 óbreyttum.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Reitirnir frá Android 17, óbreyttir</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Birta á áherslukorti. Reitir fyllast með áherslulitsstigli</string>
+    <string name="remixer_qs_style_compact">Þjappað</string>
+    <string name="remixer_qs_style_compact_summary">Styttri reitir. Fleiri á einum skjá</string>
+    <string name="remixer_qs_style_glass">Gler</string>
+    <string name="remixer_qs_style_glass_summary">Gegnsæir útlínureitir sem ljóma í áherslulit þegar kveikt er á þeim</string>
+    <string name="remixer_qs_style_circles">Hringir</string>
+    <string name="remixer_qs_style_circles_summary">Kringlóttir rofar með texta. Breiðir reitir verða að spjöldum</string>
+    <string name="remixer_qs_style_classic">Klassískt</string>
+    <string name="remixer_qs_style_classic_summary">Gamla RR-útlitið: naktir tákn með texta, fimm í röð, mjór sleði</string>
+    <string name="remixer_qs_style_cards">Spjöld</string>
+    <string name="remixer_qs_style_cards_summary">Stór spjöld með stöðu undir hverju heiti, þrjú í röð</string>
+    <string name="remixer_qs_style_neon">Neon</string>
+    <string name="remixer_qs_style_neon_summary">Útlínureitir sem ljóma í áherslulit þegar kveikt er á þeim</string>
+    <string name="remixer_qs_style_bento_summary">Stórir ávalir kubbar fylltir með áherslulit, textar undir þeim smærri</string>
+    <string name="remixer_qs_style_shapes">Form</string>
+    <string name="remixer_qs_style_shapes_summary">Kringlóttir rofar sem stækka blöðkur þegar kveikt er á þeim, fimm í röð</string>
+    <string name="remixer_qs_style_blueprint">Blárprent</string>
+    <string name="remixer_qs_style_blueprint_summary">Hárfínar útlínur og einhliða hástafir</string>
+    <string name="remixer_qs_style_duo">Tvíþætt</string>
+    <string name="remixer_qs_style_duo_summary">Klofnir reitir. Táknhelmingurinn lýsir upp og kveikir og slekkur</string>
+    <string name="remixer_qs_style_soft">Mjúkt</string>
+    <string name="remixer_qs_style_soft_summary">Upphleyptir reitir sem þrýstast inn þegar kveikt er á þeim</string>
+    <string name="remixer_lock_media_style">Stíll miðlunarspilara</string>
+    <string name="remixer_lock_media_same">Eins og flýtistillingar</string>
+    <string name="remixer_lock_media_same_summary">Fylgir QS Media-reitnum þínum, nú %1$s</string>
+    <string name="remixer_lock_media_off_summary">Enginn spilari á lásskjánum</string>
+    <string name="remixer_lock_media_note">Spjaldið birtist á lásskjánum meðan eitthvað spilast. Gegnsæir stílar fá dökkan bakgrunn svo þeir séu læsilegir yfir veggfóðrinu.</string>
+    <string name="remixer_lock_media_stock_summary">Plötuumslag fyllir spjaldið</string>
+    <string name="remixer_lock_media_remix_summary">Dökkt spjald, spilunarhnappur í áherslulit</string>
+    <string name="remixer_lock_media_compact_summary">Ávalara spjald, kringlótt myndefni</string>
+    <string name="remixer_lock_media_glass_summary">Gegnsætt spjald með útlínum</string>
+    <string name="remixer_lock_media_circles_summary">Mjúkt spjald, spilunarhnappur í áherslulit</string>
+    <string name="remixer_lock_media_classic_summary">Ferkantaðra spjald, spilunarhnappur með útlínum</string>
+    <string name="remixer_lock_media_cards_summary">Mjúkt spjald, spilunarhnappur í áherslulit, eins og Hringir</string>
+    <string name="remixer_lock_media_neon_summary">Svart spjald með áherslulitaðri útlínu</string>
+    <string name="remixer_lock_media_bento_summary">Mjúkt spjald, spilunarhnappur í áherslulit</string>
+    <string name="remixer_lock_media_shapes_summary">Ávalara spjald, spilunarhnappur í áherslulit</string>
+    <string name="remixer_lock_media_blueprint_summary">Hárfín útlína, spilunarhnappur með útlínum</string>
+    <string name="remixer_lock_media_duo_summary">Tvílitt spjald, spilunarhnappur í áherslulit</string>
+    <string name="remixer_lock_media_soft_summary">Upphleypt spjald með skáskorinni brún</string>
+    <string name="remixer_headers">Hausmynd</string>
+    <string name="remixer_headers_summary">Veldu bakgrunnsmynd fyrir flýtistillingar</string>
+    <string name="header_switch">Nota hausmynd</string>
+    <string name="header_switch_summary">Sýna mynd á bak við flýtistillingar</string>
+    <string name="header_source">Uppruni</string>
+    <string name="header_source_collection">Safn</string>
+    <string name="header_collections_summary_daylight">Hausinn fylgir tíma dagsins eða snýst í gegnum safnið</string>
+    <string name="header_collections_summary_static">Opnaðu safn og pikkaðu á mynd til að nota hana</string>
+    <string name="header_collections_empty">Engin hausmyndasöfn uppsett</string>
+    <string name="header_images_daylight">Í þessu safni</string>
+    <plurals name="header_image_count">
+        <item quantity="one">%d mynd</item>
+        <item quantity="other">%d myndir</item>
+    </plurals>
+    <string name="header_photo_summary">Hvaða ljósmynd eða hreyfimynd (GIF) sem er úr myndasafninu</string>
+    <string name="header_height">Hæð</string>
+    <string name="header_height_value">Hæð · %1$d dp</string>
+    <string name="header_shadow">Dekkja</string>
+    <string name="header_shadow_value">Dekkja · %1$d%%</string>
+    <string name="header_failed">Ekki tókst að vista þessa hausstillingu</string>
+    <string name="remixer_weather_summary">Veðurþjónusta og einingar</string>
+    <string name="font_preview_notification">Svona mun síminn lesa þetta.</string>
+    <string name="font_try_text">Prófaðu þinn eigin texta</string>
+    <string name="font_previewing">Forskoðun</string>
+    <string name="font_current">Núverandi leturgerð</string>
+    <string name="font_badge_current">Núverandi</string>
+    <string name="font_apply_done">Sett</string>
+    <string name="font_filter_sans">Án serifs</string>
+    <string name="font_filter_display">Skjár</string>
+    <string name="font_filter_script">Letur</string>
+    <string name="font_filter_mono">Einbil</string>
+    <string name="font_applied">Leturgerð sett</string>
+    <string name="font_failed">Ekki tókst að setja þessa leturgerð</string>
+    <string name="wallpaper_set">Veggfóður sett</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">%d veggfóður frá Resurrected Remix. Pikkaðu á eitt til að forskoða það.</item>
+        <item quantity="other">%d veggfóður frá Resurrected Remix. Pikkaðu á eitt til að forskoða það.</item>
+    </plurals>
+    <string name="wallpaper_apply_both">Bæði</string>
+    <string name="wallpaper_failed">Ekki tókst að setja þetta veggfóður</string>
+    <string name="missing_app">Þetta forrit er ekki uppsett</string>
+    <string name="remixer_spoofing">Falsanir</string>
+    <string name="remixer_spoofing_summary">Play Integrity, auðkenni tækis og falsanir fyrir hvert forrit</string>
+    <string name="remixer_settings_style">Stíll stillinga</string>
+    <string name="rr_maintainer">Umsjónaraðili</string>
+    <string name="remixer_navbar_summary">Lengd, þykkt og útlit stikunnar</string>
+    <string name="remixer_navbar_pill_length">Lengd bendingastikunnar</string>
+    <string name="remixer_navbar_pill_thickness">Þykkt bendingastikunnar</string>
+    <string name="remixer_navbar_pill_auto_hide">Dofna bendingastikuna</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Fela stikuna eftir nokkrar sekúndur; hún birtist aftur þegar þú snertir skjáinn</string>
+    <string name="remixer_navbar_ime">Lyklaborðshnappar</string>
+    <string name="remixer_navbar_ime_summary">Sýna til baka- og lyklaborðsskiptihnappa undir lyklaborðinu</string>
+    <string name="remixer_navbar_layout">Útlit hnappa</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Stutt</item>
+        <item>Venjulegt</item>
+        <item>Langt</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Þynnst</item>
+        <item>Þynnra</item>
+        <item>Þunnt</item>
+        <item>Venjulegt</item>
+        <item>Þykkt</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Venjulegt</item>
+        <item>Þjappað</item>
+        <item>"Hallar til vinstri"</item>
+        <item>"Hallar til hægri"</item>
+    </string-array>
 </resources>

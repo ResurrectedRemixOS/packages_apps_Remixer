@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Baterie"</string>
     <string name="charge_report_temp">"Temperatură"</string>
     <string name="charge_report_time">"Ora"</string>
+    <string name="charge_report_title">Rapoarte de încărcare</string>
+    <string name="charge_report_summary">Un rezumat al fiecărei încărcări la deconectare</string>
+    <string name="charge_report_min_title">Doar dacă a adăugat cel puțin</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 zile</item>
+        <item>7 zile</item>
+        <item>14 zile</item>
+        <item>30 de zile</item>
+    </string-array>
+    <string name="charge_report_history_days">Ultimele <xliff:g id="days" example="7">%1$d</xliff:g> zile</string>
+    <string name="charge_report_today">Azi, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Ieri, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> h <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Wați</string>
+    <string name="charge_report_added">Adăugat</string>
+    <string name="charge_report_peak">Vârf</string>
+    <string name="charge_report_average">Medie</string>
+    <string name="charge_report_max_temp">Temperatura maximă</string>
+    <string name="charge_report_charger">Încărcător</string>
+    <string name="charge_report_started">Început la</string>
+    <string name="charge_report_wired">Cu fir</string>
+    <string name="charge_report_wireless">Fără fir</string>
+    <string name="charge_report_dock">Stație</string>
+    <string name="charge_report_empty">Nicio încărcare încă</string>
+    <string name="charge_report_footer">SystemUI citește curentul, tensiunea și temperatura bateriei la fiecare 30 de secunde cât este conectat. Wații sunt cei măsurați de telefon, așa că pot diferi de cifra de pe încărcător. Rapoartele rămân pe telefon; nimic nu este încărcat.</string>
 </resources>

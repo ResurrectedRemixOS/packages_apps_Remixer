@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"ਵਾਲਪੇਪਰ"</item>
+        <item>ਰੀਜ਼ਰੈਕਟਿਡ</item>
+        <item>ਐਂਡਰਾਇਡ ਵਨ ਹਰਾ</item>
+        <item>ਏਓਐਸਪੀਏ ਹਰਾ</item>
+        <item>ਕੋਕਾ ਕੋਲਾ ਲਾਲ</item>
+        <item>ਡਿਸਕੋਰਡ ਜਾਮਨੀ</item>
+        <item>ਫੇਸਬੁੱਕ ਨੀਲਾ</item>
+        <item>ਇੰਸਟਾਗ੍ਰਾਮ ਸੇਰਿਸ</item>
+        <item>ਜੋਲੀਬੀ ਕ੍ਰਿਮਸਨ</item>
+        <item>ਮੌਨਸਟਰ ਐਨਰਜੀ ਹਰਾ</item>
+        <item>ਨੈਕਸਟਬਿਟ ਮਿੰਟ</item>
+        <item>ਵਨਪਲੱਸ ਲਾਲ</item>
+        <item>ਪੈਪਸੀ ਨੀਲਾ</item>
+        <item>ਪਿਕਸਲ ਨੀਲਾ</item>
+        <item>ਪੋਕੋਫੋਨ ਪੀਲਾ</item>
+        <item>ਰੇਜ਼ਰ ਹਰਾ</item>
+        <item>ਸੈਮਸੰਗ ਨੀਲਾ</item>
+        <item>ਸਪੌਟੀਫਾਈ ਹਰਾ</item>
+        <item>ਸਟਾਰਬਕਸ ਹਰਾ</item>
+        <item>ਟਵਿੱਚ ਜਾਮਨੀ</item>
+        <item>ਟਵਿੱਟਰ ਨੀਲਾ</item>
+        <item>ਸ਼ਾਓਮੀ ਸੰਤਰੀ</item>
+        <item>ਅੰਬਰ</item>
+        <item>"ਕਾਲਾ"</item>
+        <item>"ਨੀਲਾ"</item>
+        <item>ਨੀਲਾ ਸਲੇਟੀ</item>
+        <item>ਭੂਰਾ</item>
+        <item>"ਹਰਾ ਨੀਲਾ"</item>
+        <item>ਗੂੜ੍ਹਾ ਸੰਤਰੀ</item>
+        <item>ਗੂੜ੍ਹਾ ਜਾਮਨੀ</item>
+        <item>"ਹਰਾ"</item>
+        <item>"ਸਲੇਟੀ"</item>
+        <item>"ਲਾਜਵਰ"</item>
+        <item>ਹਲਕਾ ਨੀਲਾ</item>
+        <item>ਹਰਾ ਪੀਲਾ</item>
+        <item>"ਸੰਤਰੀ"</item>
+        <item>"ਗੁਲਾਬੀ"</item>
+        <item>"ਜਾਮਨੀ"</item>
+        <item>"ਲਾਲ"</item>
+        <item>"ਟੀਲ"</item>
+        <item>ਯੂਜ਼ਰ ਪੰਜ</item>
+        <item>ਯੂਜ਼ਰ ਚਾਰ</item>
+        <item>ਯੂਜ਼ਰ ਇੱਕ</item>
+        <item>ਯੂਜ਼ਰ ਸੱਤ</item>
+        <item>ਯੂਜ਼ਰ ਛੇ</item>
+        <item>ਯੂਜ਼ਰ ਤਿੰਨ</item>
+        <item>ਯੂਜ਼ਰ ਦੋ</item>
+        <item>"ਸਫੈਦ"</item>
+        <item>"ਪੀਲਾ"</item>
+    </string-array>
+</resources>

@@ -5,4 +5,29 @@
     <string name="charge_report_temp">"Температура"</string>
     <string name="charge_report_time">"Час"</string>
     <string name="charge_report_wireless">Бездротова</string>
+    <string name="charge_report_title">Звіти про заряджання</string>
+    <string name="charge_report_summary">Підсумок кожного заряджання після відключення</string>
+    <string name="charge_report_min_title">Лише якщо додано щонайменше</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 дні</item>
+        <item>7 днів</item>
+        <item>14 днів</item>
+        <item>30 днів</item>
+    </string-array>
+    <string name="charge_report_history_days">Останні <xliff:g id="days" example="7">%1$d</xliff:g> днів</string>
+    <string name="charge_report_today">Сьогодні, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Вчора, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> хв</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> год <xliff:g id="minutes" example="02">%2$02d</xliff:g> хв</string>
+    <string name="charge_report_watts">Ватти</string>
+    <string name="charge_report_added">Додано</string>
+    <string name="charge_report_peak">Пік</string>
+    <string name="charge_report_average">Середнє</string>
+    <string name="charge_report_max_temp">Макс. температура</string>
+    <string name="charge_report_charger">Зарядний пристрій</string>
+    <string name="charge_report_started">Почато о</string>
+    <string name="charge_report_wired">Дротове</string>
+    <string name="charge_report_dock">Док-станція</string>
+    <string name="charge_report_empty">Заряджань ще не було</string>
+    <string name="charge_report_footer">SystemUI щоп 30 секунд зчитує силу струму, напругу й температуру акумулятора, поки пристрій підключено до зарядки. Ватти — це значення, виміряні телефоном, тому вони можуть відрізнятися від числа на зарядному пристрої. Звіти зберігаються на телефоні; нічого не вивантажується.</string>
 </resources>

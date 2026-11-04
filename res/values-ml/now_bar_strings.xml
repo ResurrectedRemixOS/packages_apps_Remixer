@@ -11,4 +11,97 @@
     <string name="now_bar_buttons">"ബട്ടണുകൾ"</string>
     <string name="now_bar_text">"ടെക്‌സ്റ്റ്"</string>
     <string name="now_bar_text_size">"ടെക്‌സ്‌റ്റ് വലുപ്പം"</string>
+    <string name="now_bar_summary">ലോക്ക് സ്‌ക്രീനിന്റെ താഴെ ലൈവ് ആക്റ്റിവിറ്റികൾ</string>
+    <string name="now_bar_show">കാണിക്കുക</string>
+    <string name="now_bar_music">സംഗീതവും വീഡിയോയും</string>
+    <string name="now_bar_timers">ടൈമറുകൾ, സ്റ്റോപ്പ് വാച്ചും അലാറങ്ങളും</string>
+    <string name="now_bar_hide_call">കോൾ അറിയിപ്പ് മറയ്ക്കുക</string>
+    <string name="now_bar_hide_call_summary">ലോക്ക് സ്‌ക്രീനിൽ, Now Bar-ലുള്ള കോൾ അറിയിപ്പായും പട്ടികപ്പെടുത്തില്ല</string>
+    <string name="now_bar_live">ലൈവ് അപ്‌ഡേറ്റുകൾ</string>
+    <string name="now_bar_live_summary">നാവിഗേഷൻ, യാത്രകൾ, ഡെലിവറികൾ, സ്കോറുകൾ</string>
+    <string name="now_bar_scores">ലൈവ് സ്കോറുകൾ</string>
+    <string name="now_bar_live_apps">ലൈവ് അപ്‌ഡേറ്റുകൾക്കുള്ള ആപ്പുകൾ</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> ആപ്പുകൾ</string>
+    <string name="now_bar_pin">ആൽവെയ്‌സ്-ഓൺ ഡിസ്‌പ്ലേയിൽ പിൻ ചെയ്തത്</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> അൺപിൻ ചെയ്യണോ?</string>
+    <string name="now_bar_unpin">അൺപിൻ</string>
+    <string name="now_bar_scores_summary">At a Glance-ൽ പിന്തുടരുന്ന ഗെയിമുകൾ</string>
+    <string name="now_bar_recording">സ്ക്രീനും വോയ്സ് റെക്കോർഡിംഗും</string>
+    <string name="now_bar_buds">ഇയർബഡുകളും വാച്ചുകളും</string>
+    <string name="now_bar_buds_summary">കണക്ട് ചെയ്ത ഉപകരണത്തിന്റെ ബാറ്ററി: ഇയർബഡുകളുടെ ഇടത്, വലത്, കേസ്</string>
+    <string name="now_bar_wave">വേവ് ആനിമേഷൻ</string>
+    <string name="now_bar_aod">ആൽവെയ്‌സ്-ഓൺ ഡിസ്‌പ്ലേയിൽ കാണിക്കുക</string>
+    <string name="now_bar_chip">സ്റ്റാറ്റസ് ബാറിലെ ചിപ്പ്</string>
+    <string name="now_bar_chip_summary">അൺലോക്ക് ചെയ്തിരിക്കുമ്പോൾ ക്ലോക്കിനരികെ സംഗീതവും ടൈമറുകളും കാണിക്കുക</string>
+    <string name="now_bar_footer">Now Bar-ൽ സംഗീതം ഉള്ളപ്പോൾ വലിയ ലോക്ക് സ്‌ക്രീൻ പ്ലെയർ മറയ്ക്കപ്പെടും. പ്രവർത്തനങ്ങൾ മാറ്റാൻ ബാർ സ്വൈപ്പ് ചെയ്യുക, നിയന്ത്രണങ്ങൾ തുറക്കാൻ ടാപ്പ് ചെയ്യുക, ഒന്ന് അവസാനിക്കുന്നതുവരെ മറയ്ക്കാൻ ദീർഘനേരം അമർത്തുക. താൽക്കാലികമായി നിർത്തിയ പാട്ട് ക്ലിയർ ചെയ്യാൻ ബാറിൽ നിന്ന് സ്വൈപ്പ് ചെയ്യുക.\n\nGoogle ആപ്പിൽ നിങ്ങൾ പിന്തുടരുന്ന ടീമുകളുടെ ലൈവ് സ്കോറുകൾ കാണിക്കും. Smartspacer ഉപയോഗിച്ച് അവിടെ ഒരു സ്പോർട്സ് ടാർഗെറ്റ് ചേർത്താൽ അതിന്റെ സ്കോറുകൾ ഇവിടെ വരും.</string>
+    <string name="now_bar_looks">ലുക്കുകൾ</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"ഡിഫോൾട്ട്"</item>
+        <item>Liquid Glass</item>
+        <item>മിനി</item>
+        <item>വലുത്</item>
+        <item>Neon</item>
+        <item>ഗ്ലാസ് കാർഡ്</item>
+    </string-array>
+    <string name="now_bar_material">മെറ്റീരിയൽ</string>
+    <string name="now_bar_material_summary">Liquid Glass, തീമിൽ നിങ്ങൾ സജ്ജമാക്കിയ ഗ്ലാസ് ഉപയോഗിക്കുന്നു</string>
+    <string-array name="now_bar_material_entries">
+        <item>സോളിഡ്</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>ആൽബം ആർട്ട്</item>
+        <item>ആക്സന്റ്</item>
+        <item>ഡാർക്ക്</item>
+    </string-array>
+    <string name="now_bar_opacity">അതാര്യത</string>
+    <string name="now_bar_opacity_summary">Liquid Glass ഉപയോഗിക്കുമ്പോൾ ഗ്ലാസിന് എത്രത്തോളം നിറം ചേരും</string>
+    <string name="now_bar_outline">ഔട്ട്‌ലൈൻ</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"ഒന്നുമില്ല"</item>
+        <item>നേർത്തത്</item>
+        <item>ആക്സന്റ്</item>
+    </string-array>
+    <string name="now_bar_shadow">ഷാഡോ</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"ഓഫാണ്"</item>
+        <item>Soft</item>
+        <item>ഗ്ലോ</item>
+    </string-array>
+    <string name="now_bar_more">കൂടുതൽ ആക്റ്റിവിറ്റികൾ</string>
+    <string-array name="now_bar_more_entries">
+        <item>സ്വൈപ്പ് ചെയ്താൽ മതി</item>
+        <item>ഡോട്ടുകൾ</item>
+        <item>പിന്നിൽ നോക്കുക</item>
+    </string-array>
+    <string name="now_bar_size">വലുപ്പവും ആകൃതിയും</string>
+    <string name="now_bar_height">ഉയരം</string>
+    <string name="now_bar_width_summary">Full ആയാൽ ഷോർട്ട്കട്ടുകൾ മുകളിലുള്ള ബാറിലേക്ക് മാറും</string>
+    <string-array name="now_bar_width_entries">
+        <item>ഇടുങ്ങിയത്</item>
+        <item>ഷോർട്ട്കട്ടുകൾക്കിടയിൽ</item>
+        <item>ഫുൾ</item>
+    </string-array>
+    <string name="now_bar_corners">കോണുകൾ</string>
+    <string name="now_bar_raise">ഉയർത്തുക</string>
+    <string name="now_bar_art">ആൽബം ആർട്ട്</string>
+    <string-array name="now_bar_art_entries">
+        <item>"സർക്കിൾ"</item>
+        <item>വൃത്താകൃതി</item>
+        <item>"ചതുരം"</item>
+        <item>"ഓഫാണ്"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>ഒഴിവാക്കി പ്ലേ ചെയ്യുക</item>
+        <item>പ്ലേ മാത്രം</item>
+        <item>"ഒന്നുമില്ല"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>ഒരു വരി</item>
+        <item>രണ്ടു വരി</item>
+        <item>പാട്ട് മാത്രം</item>
+    </string-array>
+    <string name="now_bar_show_page">ബാറിൽ കാണിക്കുന്നത്</string>
+    <string name="now_bar_show_page_summary">സംഗീതവും വീഡിയോയും, ടൈമറുകൾ, കോളുകളും മറ്റും</string>
+    <string name="now_bar_where">മറ്റ് സ്ഥലങ്ങൾ</string>
 </resources>

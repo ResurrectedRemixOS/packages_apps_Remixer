@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Baterie"</string>
     <string name="battery_style_title">"Styl"</string>
+    <string-array name="battery_style_entries">
+        <item>Na výšku</item>
+        <item>"Kruh"</item>
+        <item>Tečkovaný kruh</item>
+        <item>Neonový kruh</item>
+        <item>Tenká pilulka</item>
+        <item>Velké procento</item>
+        <item>Text</item>
+    </string-array>
+    <string name="battery_percent_title">Procento</string>
+    <string-array name="battery_percent_entries">
+        <item>"Skrytý"</item>
+        <item>Uvnitř ikony</item>
+        <item>Vedle něj</item>
+    </string-array>
+    <string name="battery_ring_color_title">Barva neonového kruhu</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Podle úrovně je akcent nad 20 %%, pod ním červená a v režimu úspory žlutá.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Podle úrovně</item>
+        <item>Akcent</item>
+        <item>"Bílá"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Jiskření při nabíjení</string>
+    <string name="battery_ring_tile_title">Stejný kruh na dlaždici Rychlého nastavení</string>
+    <string name="battery_ring_tile_summary">S úrovní a dobou zapnutí obrazovky</string>
 </resources>

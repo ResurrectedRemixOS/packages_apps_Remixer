@@ -10,4 +10,98 @@
     <string name="now_bar_buttons">"Mga Button"</string>
     <string name="now_bar_text">"Teksto"</string>
     <string name="now_bar_text_size">"Laki ng text"</string>
+    <string name="now_bar_summary">Mga live activity sa ibaba ng lock screen</string>
+    <string name="now_bar_show">Ipakita</string>
+    <string name="now_bar_music">Musika at video</string>
+    <string name="now_bar_timers">Mga timer, stopwatch at alarm</string>
+    <string name="now_bar_hide_call">Itago ang notification ng tawag</string>
+    <string name="now_bar_hide_call_summary">Sa lock screen, ang tawag sa Now Bar ay hindi na rin nakalista bilang notification</string>
+    <string name="now_bar_live">Mga Live Update</string>
+    <string name="now_bar_live_summary">Navigation, biyahe, delivery, iskor</string>
+    <string name="now_bar_scores">Mga live na iskor</string>
+    <string name="now_bar_live_apps">Mga app para sa Live Update</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> na app</string>
+    <string name="now_bar_pin">Nakapin sa always-on display</string>
+    <string name="now_bar_unpin_question">Alisin ang pin sa <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Alisin ang pin</string>
+    <string name="now_bar_scores_summary">Mga larong sinusundan mo sa At a Glance</string>
+    <string name="now_bar_recording">Pag-record ng screen at boses</string>
+    <string name="now_bar_flashlight">Flashlight</string>
+    <string name="now_bar_buds">Earbuds at relo</string>
+    <string name="now_bar_buds_summary">Baterya ng nakakonektang device: kaliwa, kanan at case para sa earbuds</string>
+    <string name="now_bar_wave">Wave animation</string>
+    <string name="now_bar_aod">Ipakita sa always-on display</string>
+    <string name="now_bar_chip">Chip sa status bar</string>
+    <string name="now_bar_chip_summary">Tumutugtog na musika at mga timer sa tabi ng orasan habang naka-unlock</string>
+    <string name="now_bar_footer">Kapag may musika sa Now Bar, nakatago ang malaking player sa lock screen. Mag-swipe sa bar para magpalit ng activity, i-tap para buksan ang mga kontrol, at pindutin nang matagal para itago ang isa hanggang matapos ito. I-swipe ang naka-pause na kanta palabas ng bar para alisin ito.\n\nIpinapakita ng mga live na iskor ang mga laro ng mga koponang sinusundan mo sa Google app. Kapag may Smartspacer, magdagdag ng sports target doon at lalabas dito ang mga iskor nito.</string>
+    <string name="now_bar_looks">Mga Look</string>
+    <string-array name="now_bar_looks_entries">
+        <item>Default</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Malaki</item>
+        <item>Neon</item>
+        <item>Glass card</item>
+    </string-array>
+    <string name="now_bar_material">Material</string>
+    <string name="now_bar_material_summary">Ginagamit ng Liquid Glass ang glass na itinakda mo sa Tema</string>
+    <string-array name="now_bar_material_entries">
+        <item>Solid</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Album art</item>
+        <item>Accent</item>
+        <item>Madilim</item>
+    </string-array>
+    <string name="now_bar_opacity">Opacity</string>
+    <string name="now_bar_opacity_summary">Sa Liquid Glass, gaano karaming kulay ang tumitina sa glass</string>
+    <string name="now_bar_outline">Outline</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Wala"</item>
+        <item>Manipis</item>
+        <item>Accent</item>
+    </string-array>
+    <string name="now_bar_shadow">Anino</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Naka-off"</item>
+        <item>Malambot</item>
+        <item>Glow</item>
+    </string-array>
+    <string name="now_bar_more">Mas maraming activity</string>
+    <string-array name="now_bar_more_entries">
+        <item>I-swipe lang</item>
+        <item>Mga tuldok</item>
+        <item>Sumilip sa likod</item>
+    </string-array>
+    <string name="now_bar_size">Laki at hugis</string>
+    <string name="now_bar_height">Taas</string>
+    <string name="now_bar_width_summary">Inililipat ng Full ang mga shortcut sa itaas ng bar</string>
+    <string-array name="now_bar_width_entries">
+        <item>Makitid</item>
+        <item>Sa pagitan ng mga shortcut</item>
+        <item>Buo</item>
+    </string-array>
+    <string name="now_bar_corners">Mga sulok</string>
+    <string name="now_bar_raise">Nakaangat</string>
+    <string name="now_bar_art">Album art</string>
+    <string-array name="now_bar_art_entries">
+        <item>Bilog</item>
+        <item>Bilugan</item>
+        <item>"Parisukat"</item>
+        <item>"Naka-off"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Laktawan at i-play</item>
+        <item>Pag-play lang</item>
+        <item>"Wala"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Isang linya</item>
+        <item>Dalawang linya</item>
+        <item>Kanta lang</item>
+    </string-array>
+    <string name="now_bar_show_page">Ano ang makikita sa bar</string>
+    <string name="now_bar_show_page_summary">Musika at video, timer, tawag at iba pa</string>
+    <string name="now_bar_where">Saan pa</string>
 </resources>

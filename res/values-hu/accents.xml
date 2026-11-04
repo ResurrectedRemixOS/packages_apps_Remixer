@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Háttérkép"</item>
+        <item>Resurrected</item>
+        <item>Android One Zöld</item>
+        <item>Aospa Zöld</item>
+        <item>Coca Cola Piros</item>
+        <item>Discord Lila</item>
+        <item>Facebook Kék</item>
+        <item>Instagram Cseresznye</item>
+        <item>Jollibee Bíborvörös</item>
+        <item>Monster Energy Zöld</item>
+        <item>Nextbit Mentazöld</item>
+        <item>Oneplus Piros</item>
+        <item>Pepsi Kék</item>
+        <item>Pixel Kék</item>
+        <item>Pocophone Sárga</item>
+        <item>Razer Zöld</item>
+        <item>Samsung Kék</item>
+        <item>Spotify Zöld</item>
+        <item>Starbucks Zöld</item>
+        <item>Twitch Lila</item>
+        <item>Twitter Kék</item>
+        <item>Xiaomi Narancs</item>
+        <item>Borostyán</item>
+        <item>"Fekete"</item>
+        <item>"Kék"</item>
+        <item>Kékesszürke</item>
+        <item>Barna</item>
+        <item>"Zöldeskék"</item>
+        <item>Mélynarancs</item>
+        <item>Mélylila</item>
+        <item>"Zöld"</item>
+        <item>"Szürke"</item>
+        <item>"Indigókék"</item>
+        <item>Világoskék</item>
+        <item>Lime</item>
+        <item>"Narancssárga"</item>
+        <item>"Rózsaszín"</item>
+        <item>"Lila"</item>
+        <item>"Piros"</item>
+        <item>"Pávakék"</item>
+        <item>Felhasználó öt</item>
+        <item>Felhasználó négy</item>
+        <item>Felhasználó egy</item>
+        <item>Felhasználó hét</item>
+        <item>Felhasználó hat</item>
+        <item>Felhasználó három</item>
+        <item>Felhasználó kettő</item>
+        <item>"Fehér"</item>
+        <item>"Sárga"</item>
+    </string-array>
+</resources>

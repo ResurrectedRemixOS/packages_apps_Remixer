@@ -6,4 +6,16 @@
     <string name="quick_launch_timer">ሰዓት ቆጣሪ</string>
     <string name="quick_launch_undo">"ቀልብስ"</string>
     <string name="quick_launch_off">"ጠፍቷል"</string>
+    <string name="quick_launch_title">ፈጣን ማስጀመር</string>
+    <string name="quick_launch_main">በጣት አሻራ ፈጣን ማስጀመር</string>
+    <string name="quick_launch_main_summary">ከተከፈተ በኋላ ጣትዎን በዳሳሹ ላይ በማቆየት አቋራጭ ይክፈቱ</string>
+    <string name="quick_launch_hint">አቋራጭን ለመቀየር ይንኩት፣ ለማስወገድ ይያዙት፣ ቅደም ተከተሉን ለመቀየር ይጎትቱት።</string>
+    <string name="quick_launch_behavior">ባህሪ</string>
+    <string name="quick_launch_hold">የመያዣ ጊዜ</string>
+    <string name="quick_launch_haptics">ለእያንዳንዱ አቋራጭ ንዝረት</string>
+    <string name="quick_launch_add">ጨምር</string>
+    <string name="quick_launch_video">ቪዲዮ</string>
+    <string name="quick_launch_qr">QR ኮድ ቃኝ</string>
+    <string name="quick_launch_app">መተግበሪያ…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> ተወግዷል</string>
 </resources>

@@ -83,4 +83,215 @@
     <string name="wallpaper_apply_lock">"ਲਾਕ ਸਕ੍ਰੀਨ"</string>
     <string name="remixer_settings_style_original">"ਮੂਲ"</string>
     <string name="remixer_navbar_category">"ਨੈਵੀਗੇਸ਼ਨ ਵਾਲੀ ਪੱਟੀ"</string>
+    <string name="remixer_dashboard_summary">ਸਥਿਤੀ ਪੱਟੀ, ਥੀਮ, ਲਾਕ ਸਕ੍ਰੀਨ ਅਤੇ ਹੋਰ</string>
+    <string name="rr_homepage_battery_saver">ਬੈਟਰੀ ਸੇਵਰ</string>
+    <string name="rr_homepage_personalize">ਨਿੱਜੀਕਰਨ</string>
+    <string name="rr_homepage_privacy">ਗੋਪਨੀਯਤਾ ਅਤੇ ਸੁਰੱਖਿਆ</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> ਮੁਫ਼ਤ</string>
+    <string name="rr_homepage_charged">ਪੂਰੀ ਤਰ੍ਹਾਂ ਚਾਰਜ ਹੋਈ</string>
+    <string name="rr_homepage_on_battery">ਬੈਟਰੀ \'ਤੇ</string>
+    <string name="rr_homepage_saver_on">ਬੈਟਰੀ ਸੇਵਰ ਚਾਲੂ ਹੈ</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> ਡੀਵਾਈਸ</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> ਡੀਵਾਈਸ</item>
+    </plurals>
+    <string name="rr_homepage_extras">ਵਾਧੂ ਸੈਟਿੰਗਾਂ</string>
+    <string name="rr_homepage_saver">ਸੇਵਰ</string>
+    <string name="rr_homepage_signed_out">ਸਾਈਨ ਇਨ ਨਹੀਂ ਹੈ</string>
+    <string name="rr_homepage_remixer_tagline">ਇਸਨੂੰ ਆਪਣਾ ਬਣਾਓ। ਸਥਿਤੀ ਪੱਟੀ, ਥੀਮ, ਲਾਕ ਸਕ੍ਰੀਨ ਅਤੇ ਹੋਰ।</string>
+    <string name="rr_homepage_device_tagline">ਅਲਰਟ ਸਲਾਈਡਰ, ਡਿਸਪਲੇ, ਚਾਰਜਿੰਗ ਅਤੇ GameBar।</string>
+    <string name="rr_homepage_device_action">ਟਿਊਨ ਕਰੋ</string>
+    <string name="rr_group_network">ਨੈੱਟਵਰਕ ਅਤੇ ਡੀਵਾਈਸ</string>
+    <string name="rr_group_network_summary">ਵਾਈ-ਫਾਈ, ਮੋਬਾਈਲ, ਬਲੂਟੁੱਥ</string>
+    <string name="rr_group_apps_summary">ਐਪਾਂ, ਸੂਚਨਾਵਾਂ, Modes</string>
+    <string name="rr_group_display">ਡਿਸਪਲੇ ਅਤੇ ਆਵਾਜ਼</string>
+    <string name="rr_group_display_summary">ਡਿਸਪਲੇ, ਵਾਲਪੇਪਰ, ਆਵਾਜ਼</string>
+    <string name="rr_group_security_summary">ਲਾਕ, ਟਿਕਾਣਾ, ਐਮਰਜੈਂਸੀ</string>
+    <string name="rr_group_security_center">ਸਕਿਉਰਿਟੀ ਸੈਂਟਰ</string>
+    <string name="rr_group_accounts">Google ਅਤੇ ਖਾਤੇ</string>
+    <string name="rr_group_accounts_summary">Google, ਪਾਸਵਰਡ, ਬੈਕਅੱਪ</string>
+    <string name="rr_group_accounts_plain_summary">ਪਾਸਵਰਡ, ਖਾਤੇ, ਬੈਕਅੱਪ</string>
+    <string name="rr_group_system_summary">ਭਾਸ਼ਾਵਾਂ, ਇਸ਼ਾਰੇ, ਅੱਪਡੇਟ</string>
+    <string name="remixer_tagline">ਇਸਨੂੰ ਆਪਣਾ ਬਣਾਓ।</string>
+    <string name="remixer_remix">Remix ਕਰੋ</string>
+    <string name="remixer_remixed"><xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g> ਨਾਲ Remix ਕੀਤਾ ਗਿਆ</string>
+    <string name="remixer_chip_shade_default">Shade · ਡਿਫਾਲਟ</string>
+    <string name="remixer_quick">ਤੁਰੰਤ Remix</string>
+    <string name="remixer_everything">ਸਭ ਕੁਝ</string>
+    <string name="remixer_quick_accents">Presets ਜਾਂ ਕੋਈ ਵੀ ਰੰਗ</string>
+    <string name="remixer_quick_fonts">ਸਿਸਟਮ ਫੌਂਟ ਸਟਾਈਲ</string>
+    <string name="remixer_quick_walls">RR ਕਲੈਕਸ਼ਨ</string>
+    <string name="remixer_quick_header">QS ਹੈਡਰ</string>
+    <string name="remixer_quick_header_summary">ਹੈਡਰ ਤਸਵੀਰਾਂ</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">ਘੜੀ, ਬੈਟਰੀ, ਆਈਕਨ ਅਤੇ ਨੈੱਟਵਰਕ ਟ੍ਰੈਫਿਕ</string>
+    <string name="remixer_qs_summary">ਹੈਡਰ ਤਸਵੀਰ</string>
+    <string name="remixer_notifications_summary">ਐਜ ਲਾਈਟਿੰਗ, ਐਪ ਆਈਕਨ ਅਤੇ ਚਾਰਜਿੰਗ ਆਵਾਜ਼ਾਂ</string>
+    <string name="remixer_theme_summary">ਫੌਂਟ, ਐਕਸੈਂਟ ਅਤੇ ਵਾਲਪੇਪਰ</string>
+    <string name="remixer_lockscreen_summary">UDFPS, ਚਾਰਜਿੰਗ ਜਾਣਕਾਰੀ ਅਤੇ ਮੌਸਮ</string>
+    <string name="remixer_udfps_icon">UDFPS ਆਈਕਨ</string>
+    <string name="remixer_udfps_icon_summary">ਫਿੰਗਰਪ੍ਰਿੰਟ ਸੈਂਸਰ ਉੱਤੇ ਦਿਖਾਇਆ ਗਿਆ</string>
+    <string name="remixer_udfps_animation">UDFPS ਐਨੀਮੇਸ਼ਨ</string>
+    <string name="remixer_udfps_animation_summary">ਜਦੋਂ ਤੁਹਾਡੀ ਉਂਗਲ ਸੈਂਸਰ \'ਤੇ ਹੋਵੇ ਤਾਂ ਚੱਲਦੀ ਹੈ</string>
+    <string name="remixer_navigation">ਨੈਵੀਗੇਸ਼ਨ</string>
+    <string name="remixer_navigation_summary">Pulse, ਬਟਨ ਅਤੇ ਨੈਵੀਗੇਸ਼ਨ ਵਾਲੀ ਪੱਟੀ</string>
+    <string name="remixer_misc_summary">ਆਵਾਜ਼, ਬੈਕਅੱਪ, ਸਪੂਫਿੰਗ, ਸਕ੍ਰੋਲਿੰਗ ਅਤੇ USB</string>
+    <string name="scroll_haptics_title">ਸਕ੍ਰੋਲ ਦੇ ਅੰਤ \'ਤੇ ਟੈਪ ਕਰੋ</string>
+    <string name="scroll_haptics_summary">ਜਦੋਂ ਕੋਈ ਸੂਚੀ ਜਾਂ ਪੰਨਾ ਹੋਰ ਅੱਗੇ ਨਾ ਜਾ ਸਕੇ ਤਾਂ ਹਲਕੀ ਵਾਈਬ੍ਰੇਸ਼ਨ</string>
+    <string name="usb_mode_picker_title">USB ਮੋਡ ਚੁਣਨਾ</string>
+    <string name="usb_mode_picker_summary">ਕੰਪਿਊਟਰ ਨਾਲ ਜੋੜਨ \'ਤੇ ਮੋਡ ਚੁਣੋ</string>
+    <string name="remixer_fonts_summary">ਸਿਸਟਮ ਫੌਂਟ</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix ਵਾਲਪੇਪਰ</string>
+    <string name="remixer_accents">ਐਕਸੈਂਟ</string>
+    <string name="remixer_accents_summary">ਐਕਸੈਂਟ ਰੰਗ</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">ਸਕ੍ਰੀਨ ਦੇ ਹੇਠਾਂ ਮਿਊਜ਼ਿਕ ਵਿਜ਼ੂਅਲਾਈਜ਼ਰ</string>
+    <string name="pulse_switch">Pulse ਵਰਤੋ</string>
+    <string name="pulse_switch_summary">ਮੀਡੀਆ ਚੱਲਣ ਵੇਲੇ ਸਕ੍ਰੀਨ ਦੇ ਹੇਠਾਂ ਮਿਊਜ਼ਿਕ ਬਾਰ</string>
+    <string name="pulse_preview_title">ਹੁਣ ਚੱਲ ਰਿਹਾ ਹੈ</string>
+    <string name="pulse_style_lines">ਲਾਈਨਾਂ</string>
+    <string name="pulse_style_fading">ਫੇਡਿੰਗ</string>
+    <string name="pulse_style_blocks">ਬਲਾਕ</string>
+    <string name="pulse_style_mirror">ਮਿਰਰ</string>
+    <string name="pulse_color_custom">ਕਸਟਮ</string>
+    <string name="pulse_color_gradient">ਰੇਨਬੋ</string>
+    <string name="pulse_bars">ਬਾਰ</string>
+    <string name="pulse_bars_value">ਬਾਰ · %1$d</string>
+    <string name="pulse_height">ਉਚਾਈ</string>
+    <string name="pulse_height_value">ਉਚਾਈ · %1$d dp</string>
+    <string name="pulse_opacity">ਧੁੰਦਲਾਪਨ</string>
+    <string name="pulse_opacity_value">ਧੁੰਦਲਾਪਨ · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">ਸੰਗੀਤ ਚੱਲਣ ਵੇਲੇ ਲਾਕ ਸਕ੍ਰੀਨ \'ਤੇ ਬਾਰ ਰੱਖੋ</string>
+    <string name="pulse_failed">ਉਹ Pulse ਸੈਟਿੰਗ ਸੰਭਾਲੀ ਨਹੀਂ ਜਾ ਸਕੀ</string>
+    <string name="accent_applied">ਐਕਸੈਂਟ ਲਾਗੂ ਹੋ ਗਿਆ</string>
+    <string name="accent_current">ਐਕਸੈਂਟ · %1$s</string>
+    <string name="accent_current_custom">ਐਕਸੈਂਟ · ਕਸਟਮ</string>
+    <string name="accent_preview_tonal">ਟੋਨਲ</string>
+    <string name="accent_failed">ਉਹ ਐਕਸੈਂਟ ਲਾਗੂ ਨਹੀਂ ਹੋ ਸਕਿਆ</string>
+    <string name="accent_custom">ਕਸਟਮ</string>
+    <string name="accent_custom_summary">ਕੋਈ ਵੀ ਰੰਗ ਕੰਮ ਕਰਦਾ ਹੈ। Shade ਉੱਤੇ ਵੀ ਲਾਗੂ ਹੁੰਦਾ ਹੈ।</string>
+    <string name="accent_custom_pad">ਸੰਤ੍ਰਿਪਤਾ ਅਤੇ ਚਮਕ</string>
+    <string name="accent_custom_use"><xliff:g id="color" example="#12B5A6">%1$s</xliff:g> ਵਰਤੋ</string>
+    <string name="accent_shade">Shade</string>
+    <string name="accent_shade_darker">ਗੂੜ੍ਹਾ</string>
+    <string name="accent_shade_lighter">ਹਲਕਾ</string>
+    <string name="accent_shade_darker_value">ਗੂੜ੍ਹਾ · %1$d</string>
+    <string name="accent_shade_lighter_value">ਹਲਕਾ · %1$d</string>
+    <string name="remixer_qs_style">QS ਸਟਾਈਲ</string>
+    <string name="remixer_qs_style_preview">ਪੂਰਵ-ਦ੍ਰਿਸ਼ · %1$s</string>
+    <string name="remixer_qs_style_note">ਹਰ ਸਟਾਈਲ ਤੁਹਾਡੇ ਐਕਸੈਂਟ ਰੰਗ ਦੀ ਪਾਲਣਾ ਕਰਦਾ ਹੈ। ਵਾਲੀਅਮ ਪੈਨਲ ਵਿੱਚ Bento, Shapes, Blueprint, Duo ਅਤੇ Soft ਵਰਗੇ ਮੇਲ ਖਾਂਦੇ ਸਟਾਈਲ ਹਨ। Stock Lineage ਐਂਡਰਾਇਡ 17 ਦੀਆਂ ਟਾਇਲਾਂ ਨੂੰ ਬਦਲਦਾ ਨਹੀਂ।</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">ਐਂਡਰਾਇਡ 17 ਦੀਆਂ ਟਾਇਲਾਂ, ਬਿਨਾਂ ਬਦਲਾਅ ਦੇ</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">ਐਕਸੈਂਟ ਕਾਰਡ ਵਿੱਚ ਚਮਕ। ਟਾਇਲਾਂ ਵਿੱਚ ਐਕਸੈਂਟ ਗ੍ਰੇਡੀਐਂਟ ਭਰਿਆ ਜਾਂਦਾ ਹੈ</string>
+    <string name="remixer_qs_style_compact">ਸੰਖੇਪ</string>
+    <string name="remixer_qs_style_compact_summary">ਛੋਟੀਆਂ ਟਾਇਲਾਂ। ਇੱਕ ਸਕ੍ਰੀਨ \'ਤੇ ਵੱਧ ਟਾਇਲਾਂ</string>
+    <string name="remixer_qs_style_glass">ਗਲਾਸ</string>
+    <string name="remixer_qs_style_glass_summary">ਆਰ-ਪਾਰ ਦਿਖਣ ਵਾਲੀਆਂ ਰੂਪਰੇਖਾ ਵਾਲੀਆਂ ਟਾਇਲਾਂ, ਚਾਲੂ ਹੋਣ \'ਤੇ ਐਕਸੈਂਟ ਵਿੱਚ ਚਮਕਦੀਆਂ ਹਨ</string>
+    <string name="remixer_qs_style_circles">ਸਰਕਲ</string>
+    <string name="remixer_qs_style_circles_summary">ਲੇਬਲ ਵਾਲੇ ਗੋਲ ਟੌਗਲ। ਚੌੜੀਆਂ ਟਾਇਲਾਂ ਕਾਰਡ ਬਣ ਜਾਂਦੀਆਂ ਹਨ</string>
+    <string name="remixer_qs_style_classic">ਕਲਾਸਿਕ</string>
+    <string name="remixer_qs_style_classic_summary">ਪੁਰਾਣਾ RR ਸਟਾਈਲ: ਲੇਬਲ ਵਾਲੇ ਸਾਦੇ ਆਈਕਨ, ਇੱਕ ਲਾਈਨ ਵਿੱਚ ਪੰਜ, ਪਤਲਾ ਸਲਾਈਡਰ</string>
+    <string name="remixer_qs_style_cards">ਕਾਰਡ</string>
+    <string name="remixer_qs_style_cards_summary">ਵੱਡੇ ਕਾਰਡ, ਹਰ ਨਾਮ ਹੇਠ ਸਥਿਤੀ, ਇੱਕ ਲਾਈਨ ਵਿੱਚ ਤਿੰਨ</string>
+    <string name="remixer_qs_style_neon">ਨਿਓਨ</string>
+    <string name="remixer_qs_style_neon_summary">ਰੂਪਰੇਖਾ ਵਾਲੀਆਂ ਟਾਇਲਾਂ, ਚਾਲੂ ਹੋਣ \'ਤੇ ਐਕਸੈਂਟ ਵਿੱਚ ਚਮਕਦੀਆਂ ਹਨ</string>
+    <string name="remixer_qs_style_bento_summary">ਵੱਡੇ ਗੋਲ ਬਲਾਕ, ਐਕਸੈਂਟ ਨਾਲ ਭਰੇ, ਛੋਟੀਆਂ ਟਾਇਲਾਂ ਹੇਠ ਲੇਬਲ</string>
+    <string name="remixer_qs_style_shapes">ਸ਼ੇਪਸ</string>
+    <string name="remixer_qs_style_shapes_summary">ਗੋਲ ਟੌਗਲ ਜੋ ਚਾਲੂ ਹੋਣ \'ਤੇ ਲੋਬ ਵਧਾਉਂਦੇ ਹਨ, ਇੱਕ ਲਾਈਨ ਵਿੱਚ ਪੰਜ</string>
+    <string name="remixer_qs_style_blueprint">ਬਲੂਪ੍ਰਿੰਟ</string>
+    <string name="remixer_qs_style_blueprint_summary">ਬਰੀਕ ਰੂਪਰੇਖਾ ਅਤੇ ਮੋਨੋਸਪੇਸ ਵੱਡੇ ਅੱਖਰ</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">ਵੰਡੀਆਂ ਟਾਇਲਾਂ। ਆਈਕਨ ਵਾਲਾ ਅੱਧ ਚਾਲੂ ਹੁੰਦਾ ਹੈ ਅਤੇ ਟੌਗਲ ਕਰਦਾ ਹੈ</string>
+    <string name="remixer_qs_style_soft">ਸਾਫਟ</string>
+    <string name="remixer_qs_style_soft_summary">ਉੱਚੀਆਂ ਟਾਇਲਾਂ ਜੋ ਚਾਲੂ ਹੋਣ \'ਤੇ ਦਬ ਜਾਂਦੀਆਂ ਹਨ</string>
+    <string name="remixer_lock_media_style">ਮੀਡੀਆ ਪਲੇਅਰ ਸਟਾਈਲ</string>
+    <string name="remixer_lock_media_same">ਤਤਕਾਲ ਸੈਟਿੰਗਾਂ ਵਾਂਗ ਹੀ</string>
+    <string name="remixer_lock_media_same_summary">ਤੁਹਾਡੀ QS Media ਟਾਇਲ ਦੀ ਪਾਲਣਾ ਕਰਦਾ ਹੈ, ਹੁਣ %1$s</string>
+    <string name="remixer_lock_media_off_summary">ਲਾਕ ਸਕ੍ਰੀਨ \'ਤੇ ਕੋਈ ਪਲੇਅਰ ਨਹੀਂ</string>
+    <string name="remixer_lock_media_note">ਕੁਝ ਚੱਲਦੇ ਸਮੇਂ ਲਾਕ ਸਕ੍ਰੀਨ \'ਤੇ ਕਾਰਡ ਦਿਖਦਾ ਹੈ। ਆਰ-ਪਾਰ ਸਟਾਈਲਾਂ ਨੂੰ ਵਾਲਪੇਪਰ ਉੱਤੇ ਪੜ੍ਹਨਯੋਗ ਰੱਖਣ ਲਈ ਗੂੜ੍ਹਾ ਪਿਛੋਕੜ ਮਿਲਦਾ ਹੈ।</string>
+    <string name="remixer_lock_media_stock_summary">ਐਲਬਮ ਆਰਟ ਕਾਰਡ ਭਰਦੀ ਹੈ</string>
+    <string name="remixer_lock_media_remix_summary">ਗੂੜ੍ਹਾ ਕਾਰਡ, ਐਕਸੈਂਟ ਪਲੇ ਬਟਨ</string>
+    <string name="remixer_lock_media_compact_summary">ਹੋਰ ਗੋਲ ਕਾਰਡ, ਗੋਲ ਤਸਵੀਰ</string>
+    <string name="remixer_lock_media_glass_summary">ਰੂਪਰੇਖਾ ਵਾਲਾ ਆਰ-ਪਾਰ ਕਾਰਡ</string>
+    <string name="remixer_lock_media_circles_summary">ਨਰਮ ਕਾਰਡ, ਐਕਸੈਂਟ ਪਲੇ ਬਟਨ</string>
+    <string name="remixer_lock_media_classic_summary">ਚੌਰਸ ਕਾਰਡ, ਰੂਪਰੇਖਾ ਵਾਲਾ ਪਲੇ ਬਟਨ</string>
+    <string name="remixer_lock_media_cards_summary">ਨਰਮ ਕਾਰਡ, ਐਕਸੈਂਟ ਪਲੇ ਬਟਨ, ਸਰਕਲ ਵਾਂਗ</string>
+    <string name="remixer_lock_media_neon_summary">ਕਾਲਾ ਕਾਰਡ ਐਕਸੈਂਟ ਰੂਪਰੇਖਾ ਨਾਲ</string>
+    <string name="remixer_lock_media_bento_summary">ਨਰਮ ਕਾਰਡ, ਐਕਸੈਂਟ ਪਲੇ ਬਟਨ</string>
+    <string name="remixer_lock_media_shapes_summary">ਹੋਰ ਗੋਲ ਕਾਰਡ, ਐਕਸੈਂਟ ਪਲੇ ਬਟਨ</string>
+    <string name="remixer_lock_media_blueprint_summary">ਬਰੀਕ ਰੂਪਰੇਖਾ, ਰੂਪਰੇਖਾ ਵਾਲਾ ਪਲੇ ਬਟਨ</string>
+    <string name="remixer_lock_media_duo_summary">ਦੋ-ਰੰਗੀ ਕਾਰਡ, ਐਕਸੈਂਟ ਪਲੇ ਬਟਨ</string>
+    <string name="remixer_lock_media_soft_summary">ਉੱਚਾ ਕਾਰਡ, ਬੇਵਲ ਕੀਤਾ ਕਿਨਾਰਾ</string>
+    <string name="remixer_headers">ਹੈਡਰ ਤਸਵੀਰ</string>
+    <string name="remixer_headers_summary">ਤਤਕਾਲ ਸੈਟਿੰਗਾਂ ਲਈ ਪਿਛੋਕੜ ਤਸਵੀਰ ਚੁਣੋ</string>
+    <string name="header_switch">ਹੈਡਰ ਤਸਵੀਰ ਵਰਤੋ</string>
+    <string name="header_switch_summary">ਤਤਕਾਲ ਸੈਟਿੰਗਾਂ ਦੇ ਪਿੱਛੇ ਤਸਵੀਰ ਦਿਖਾਓ</string>
+    <string name="header_source">ਸਰੋਤ</string>
+    <string name="header_source_collection">ਕਲੈਕਸ਼ਨ</string>
+    <string name="header_collections_summary_daylight">ਹੈਡਰ ਦਿਨ ਦੇ ਸਮੇਂ ਮੁਤਾਬਕ ਬਦਲਦਾ ਹੈ ਜਾਂ ਕਲੈਕਸ਼ਨ ਵਿੱਚੋਂ ਘੁੰਮਦਾ ਹੈ</string>
+    <string name="header_collections_summary_static">ਕੋਈ ਕਲੈਕਸ਼ਨ ਖੋਲ੍ਹੋ, ਫਿਰ ਵਰਤਣ ਲਈ ਕੋਈ ਤਸਵੀਰ ਟੈਪ ਕਰੋ</string>
+    <string name="header_collections_empty">ਕੋਈ ਹੈਡਰ ਕਲੈਕਸ਼ਨ ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ</string>
+    <string name="header_images_daylight">ਇਸ ਕਲੈਕਸ਼ਨ ਵਿੱਚ</string>
+    <plurals name="header_image_count">
+        <item quantity="one">%d ਤਸਵੀਰ</item>
+        <item quantity="other">%d ਤਸਵੀਰਾਂ</item>
+    </plurals>
+    <string name="header_photo_summary">ਤੁਹਾਡੀ ਗੈਲਰੀ ਦੀ ਕੋਈ ਵੀ ਫੋਟੋ ਜਾਂ ਐਨੀਮੇਟਡ GIF</string>
+    <string name="header_height">ਉਚਾਈ</string>
+    <string name="header_height_value">ਉਚਾਈ · %1$d dp</string>
+    <string name="header_shadow">ਧੁੰਦਲਾ</string>
+    <string name="header_shadow_value">ਧੁੰਦਲਾ · %1$d%%</string>
+    <string name="header_failed">ਉਹ ਹੈਡਰ ਸੈਟਿੰਗ ਸੰਭਾਲੀ ਨਹੀਂ ਜਾ ਸਕੀ</string>
+    <string name="remixer_weather_summary">ਮੌਸਮ ਸੇਵਾ ਅਤੇ ਇਕਾਈਆਂ</string>
+    <string name="font_preview_notification">ਤੁਹਾਡਾ ਫੋਨ ਇਸ ਤਰ੍ਹਾਂ ਪੜ੍ਹੇਗਾ।</string>
+    <string name="font_try_text">ਆਪਣਾ ਟੈਕਸਟ ਅਜ਼ਮਾਓ</string>
+    <string name="font_previewing">ਪੂਰਵ-ਦ੍ਰਿਸ਼</string>
+    <string name="font_current">ਮੌਜੂਦਾ ਫੌਂਟ</string>
+    <string name="font_badge_current">ਮੌਜੂਦਾ</string>
+    <string name="font_apply_done">ਲਾਗੂ ਕੀਤਾ ਗਿਆ</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">ਡਿਸਪਲੇ</string>
+    <string name="font_filter_script">ਸਕ੍ਰਿਪਟ</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">ਫੌਂਟ ਲਾਗੂ ਹੋ ਗਿਆ</string>
+    <string name="font_failed">ਉਹ ਫੌਂਟ ਲਾਗੂ ਨਹੀਂ ਹੋ ਸਕਿਆ</string>
+    <string name="wallpaper_set">ਵਾਲਪੇਪਰ ਸੈੱਟ ਹੋ ਗਿਆ</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">Resurrected Remix ਦਾ %d ਵਾਲਪੇਪਰ। ਪੂਰਵ-ਦ੍ਰਿਸ਼ ਵੇਖਣ ਲਈ ਟੈਪ ਕਰੋ।</item>
+        <item quantity="other">Resurrected Remix ਦੇ %d ਵਾਲਪੇਪਰ। ਪੂਰਵ-ਦ੍ਰਿਸ਼ ਵੇਖਣ ਲਈ ਕੋਈ ਟੈਪ ਕਰੋ।</item>
+    </plurals>
+    <string name="wallpaper_apply_both">ਦੋਵੇਂ</string>
+    <string name="wallpaper_failed">ਉਹ ਵਾਲਪੇਪਰ ਸੈੱਟ ਨਹੀਂ ਹੋ ਸਕਿਆ</string>
+    <string name="missing_app">ਉਹ ਐਪ ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ</string>
+    <string name="remixer_spoofing">ਸਪੂਫਿੰਗ</string>
+    <string name="remixer_spoofing_summary">Play Integrity, ਡੀਵਾਈਸ ਪਛਾਣ ਅਤੇ ਹਰ ਐਪ ਲਈ ਸਪੂਫਿੰਗ</string>
+    <string name="remixer_settings_style">ਸੈਟਿੰਗਾਂ ਦਾ ਸਟਾਈਲ</string>
+    <string name="rr_maintainer">ਮੇਨਟੇਨਰ</string>
+    <string name="remixer_navbar_summary">Pill ਦੀ ਲੰਬਾਈ, ਮੋਟਾਈ ਅਤੇ ਲੇਆਉਟ</string>
+    <string name="remixer_navbar_pill_length">ਇਸ਼ਾਰਾ Pill ਦੀ ਲੰਬਾਈ</string>
+    <string name="remixer_navbar_pill_thickness">ਇਸ਼ਾਰਾ Pill ਦੀ ਮੋਟਾਈ</string>
+    <string name="remixer_navbar_pill_auto_hide">ਇਸ਼ਾਰਾ Pill ਨੂੰ ਫੇਡ ਆਉਟ ਕਰੋ</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Pill ਕੁਝ ਸਕਿੰਟਾਂ ਬਾਅਦ ਲੁਕਾਓ; ਸਕ੍ਰੀਨ ਛੂਹਣ \'ਤੇ ਵਾਪਸ ਆਉਂਦੀ ਹੈ</string>
+    <string name="remixer_navbar_ime">ਕੀਬੋਰਡ ਬਟਨ</string>
+    <string name="remixer_navbar_ime_summary">ਕੀਬੋਰਡ ਹੇਠਾਂ ਬੈਕ ਅਤੇ ਕੀਬੋਰਡ ਸਵਿੱਚਰ ਬਟਨ ਦਿਖਾਓ</string>
+    <string name="remixer_navbar_layout">ਬਟਨ ਲੇਆਉਟ</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>ਛੋਟਾ</item>
+        <item>ਆਮ</item>
+        <item>ਲੰਮਾ</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>ਸਭ ਤੋਂ ਪਤਲਾ</item>
+        <item>ਹੋਰ ਪਤਲਾ</item>
+        <item>ਪਤਲਾ</item>
+        <item>ਆਮ</item>
+        <item>ਮੋਟਾ</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>ਆਮ</item>
+        <item>ਸੰਖੇਪ</item>
+        <item>"ਖੱਬੇ-ਉਲਾਰ"</item>
+        <item>"ਸੱਜੇ-ਉਲਾਰ"</item>
+    </string-array>
 </resources>

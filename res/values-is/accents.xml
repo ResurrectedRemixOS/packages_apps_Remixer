@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Veggfóður"</item>
+        <item>Endurrisið</item>
+        <item>Android One grænt</item>
+        <item>Aospa grænt</item>
+        <item>Coca Cola rautt</item>
+        <item>Discord fjólublátt</item>
+        <item>Facebook blátt</item>
+        <item>Instagram kirsuberjarautt</item>
+        <item>Jollibee karmínrautt</item>
+        <item>Monster Energy grænt</item>
+        <item>Nextbit myntugrænt</item>
+        <item>Oneplus rautt</item>
+        <item>Pepsi blátt</item>
+        <item>Pixel blátt</item>
+        <item>Pocophone gult</item>
+        <item>Razer grænt</item>
+        <item>Samsung blátt</item>
+        <item>Spotify grænt</item>
+        <item>Starbucks grænt</item>
+        <item>Twitch fjólublátt</item>
+        <item>Twitter blátt</item>
+        <item>Xiaomi appelsínugult</item>
+        <item>Gulbrúnt</item>
+        <item>"Svartur"</item>
+        <item>"Blár"</item>
+        <item>Blágrátt</item>
+        <item>Brúnt</item>
+        <item>"Ljósblár"</item>
+        <item>Djúpappelsínugult</item>
+        <item>Djúpfjólublátt</item>
+        <item>"Grænn"</item>
+        <item>"Grár"</item>
+        <item>"Dimmfjólublár"</item>
+        <item>Ljósblátt</item>
+        <item>Límónugrænt</item>
+        <item>"Appelsínugulur"</item>
+        <item>"Bleikur"</item>
+        <item>"Fjólublár"</item>
+        <item>"Rauður"</item>
+        <item>"Grænblár"</item>
+        <item>Notandi fimm</item>
+        <item>Notandi fjögur</item>
+        <item>Notandi eitt</item>
+        <item>Notandi sjö</item>
+        <item>Notandi sex</item>
+        <item>Notandi þrjú</item>
+        <item>Notandi tvö</item>
+        <item>"Hvítur"</item>
+        <item>"Gulur"</item>
+    </string-array>
+</resources>
