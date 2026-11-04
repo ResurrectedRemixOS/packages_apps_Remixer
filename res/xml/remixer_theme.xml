@@ -7,6 +7,13 @@
         android:key="remixer_looks"
         android:title="@string/looks_title"
         android:summary="@string/looks_summary" />
+    <lineageos.preference.SystemSettingListPreference
+        android:key="rr_look_roulette"
+        android:title="@string/look_roulette_title"
+        android:summary="%s"
+        android:entries="@array/look_roulette_entries"
+        android:entryValues="@array/look_roulette_values"
+        android:defaultValue="0" />
 
     <Preference
         android:key="remixer_modes"

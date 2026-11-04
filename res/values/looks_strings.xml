@@ -75,4 +75,16 @@
     <string name="looks_part_edge_style">Edge lighting style</string>
     <string name="looks_scan_hint">Point the camera at a look\'s QR code</string>
     <string name="looks_scan_failed">Couldn\'t open the camera</string>
+    <!-- Look roulette -->
+    <string name="look_roulette_title">Look roulette</string>
+    <string-array name="look_roulette_entries">
+        <item>Off</item>
+        <item>A different Look at every unlock</item>
+        <item>A different Look each day</item>
+    </string-array>
+    <string-array name="look_roulette_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>
