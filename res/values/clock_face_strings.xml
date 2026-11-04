@@ -147,5 +147,7 @@
         <item>Polyline</item>
         <item>Big clock</item>
         <item>Flatline</item>
+        <item>Flatline Vitals</item>
+        <item>Flatline Signature</item>
     </string-array>
 </resources>
