@@ -39,6 +39,17 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="misc_haptics"
+        android:title="@string/haptic_remix_title">
+
+        <Preference
+            android:key="remixer_haptics"
+            android:icon="@drawable/ic_misc_volume"
+            android:title="@string/haptic_remix_title"
+            android:summary="@string/haptic_remix_summary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="misc_scrolling"
         android:title="@string/misc_category_scrolling">
 

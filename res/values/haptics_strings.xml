@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_title">Haptic Remix</string>
+    <string name="haptic_remix_summary">Tap out vibration patterns for calls, apps, alarms and unlocks</string>
+    <string name="haptic_remix_record">Record</string>
+    <string name="haptic_remix_pad">tap the rhythm</string>
+    <string name="haptic_remix_strength">Strength</string>
+    <string name="haptic_remix_clear">Clear</string>
+    <string name="haptic_remix_play">Play</string>
+    <string name="haptic_remix_save">Save</string>
+    <string name="haptic_remix_name">Pattern name</string>
+    <string name="haptic_remix_empty">Nothing recorded yet</string>
+    <string name="haptic_remix_seconds"><xliff:g id="seconds" example="1.4">%1$.1f</xliff:g> s</string>
+    <string name="haptic_remix_too_long">A pattern can last 30 seconds</string>
+    <string name="haptic_remix_presets">Presets</string>
+    <string name="haptic_remix_preset_flatline">Flatline</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Glass</string>
+    <string name="haptic_remix_preset_sos">SOS</string>
+    <string name="haptic_remix_preset_ringtone">Beat of the ringtone</string>
+    <string name="haptic_remix_listening">Listening to the ringtone…</string>
+    <string name="haptic_remix_no_ringtone">The ringtone could not be read</string>
+    <string name="haptic_remix_patterns">Your patterns</string>
+    <string name="haptic_remix_patterns_none">Save a pattern first. Hold one to delete it.</string>
+    <string name="haptic_remix_broken">That pattern cannot be read</string>
+    <string name="haptic_remix_delete">Delete <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_delete_button">Delete</string>
+    <string name="haptic_remix_assign">Assign to</string>
+    <string name="haptic_remix_default">Default</string>
+    <string name="haptic_remix_calls">Calls</string>
+    <string name="haptic_remix_alarm">Alarm and timer</string>
+    <string name="haptic_remix_plug">Plugged in</string>
+    <string name="haptic_remix_fingerprint">Fingerprint success</string>
+    <string name="haptic_remix_add_contact">Add a contact</string>
+    <string name="haptic_remix_add_app">Add an app\'s notifications</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · tap to change</string>
+    <string name="haptic_remix_no_contacts">No number came back from Contacts</string>
+</resources>

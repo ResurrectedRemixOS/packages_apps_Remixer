@@ -23,6 +23,7 @@ import com.resurrection.settings.homepage.HomepageStyle;
 import java.util.Locale;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
+import com.resurrection.settings.haptics.HapticRemixActivity;
 
 /**
  * One Remixer section, picked by the "section" extra of its hub entry: a banner in the
@@ -242,6 +243,8 @@ public class RemixerSection extends SettingsPreferenceFragment {
         switch (key) {
             case "remixer_fonts":
                 return new Intent(getContext(), FontActivity.class);
+            case "remixer_haptics":
+                return new Intent(getContext(), HapticRemixActivity.class);
             case "remixer_wallpapers":
                 return new Intent(getContext(), WallpaperActivity.class);
             case "remixer_accents":
