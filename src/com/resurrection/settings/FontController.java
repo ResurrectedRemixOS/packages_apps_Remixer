@@ -18,7 +18,9 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Enables Resurrected Remix font overlays through the theme overlay category.
@@ -53,7 +55,10 @@ public final class FontController {
             }
         } catch (RemoteException ignored) {
         }
-        fonts.sort(Comparator.comparing(info -> label(info.packageName), String.CASE_INSENSITIVE_ORDER));
+        Map<String, String> labels = new HashMap<>();
+        for (OverlayInfo info : fonts) labels.put(info.packageName, label(info.packageName));
+        fonts.sort(Comparator.comparing(info -> labels.get(info.packageName),
+                String.CASE_INSENSITIVE_ORDER));
         return fonts;
     }
 

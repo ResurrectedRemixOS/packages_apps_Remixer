@@ -172,14 +172,32 @@ public class FontActivity extends CollapsingToolbarBaseActivity {
         setupFilters();
         filter(ALL);
         updatePreview();
+        loadTypefaces();
     }
 
     private void add(String pkg) {
         mPackages.add(pkg);
         mLabels.add(mFonts.label(pkg));
-        mTypefaces.add(mFonts.typeface(pkg));
+        mTypefaces.add(null);
         String key = pkg.startsWith(PREFIX) ? pkg.substring(PREFIX.length()) : pkg;
         mCategories.add(CATEGORIES.getOrDefault(key, ALL));
+    }
+
+    /** A typeface means opening its overlay's resources: off the main thread, in list order. */
+    private void loadTypefaces() {
+        List<String> packages = new ArrayList<>(mPackages);
+        new Thread(() -> {
+            for (int i = 0; i < packages.size(); i++) {
+                Typeface typeface = mFonts.typeface(packages.get(i));
+                int index = i;
+                runOnUiThread(() -> {
+                    if (isDestroyed()) return;
+                    mTypefaces.set(index, typeface);
+                    notifyFont(index);
+                    if (index == mPreview) updatePreview();
+                });
+            }
+        }, "RemixerFonts").start();
     }
 
     private void setupHero() {
