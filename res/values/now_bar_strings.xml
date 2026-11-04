@@ -28,6 +28,8 @@
     <string name="now_bar_recording">Screen and voice recording</string>
     <string name="now_bar_charging">Charging</string>
     <string name="now_bar_flashlight">Flashlight</string>
+    <string name="now_bar_buds">Earbuds and watches</string>
+    <string name="now_bar_buds_summary">Battery of a connected device: left, right and case for earbuds</string>
     <string name="now_bar_wave">Wave animation</string>
     <string name="now_bar_aod">Show on always-on display</string>
     <string name="now_bar_chip">Chip in the status bar</string>
