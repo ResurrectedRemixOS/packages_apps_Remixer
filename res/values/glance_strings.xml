@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="glance_title">At a Glance</string>
+    <string name="glance_summary">Google\'s date, weather and cards under the stock clock, like a Pixel. Clock faces keep their own row</string>
+</resources>

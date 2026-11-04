@@ -6,6 +6,12 @@
         android:key="remixer_clock_faces"
         android:title="@string/remixer_clock_faces" />
 
+    <lineageos.preference.SecureSettingSwitchPreference
+        android:key="lockscreen_weather_enabled"
+        android:title="@string/glance_title"
+        android:summary="@string/glance_summary"
+        android:defaultValue="true" />
+
     <Preference
         android:key="remixer_lock_stage"
         android:title="@string/lock_stage_title"
