@@ -37,10 +37,14 @@ public class NowBarShowSettings extends SettingsPreferenceFragment {
     private static final String KEY_LIVE_APPS = "now_bar_live_apps";
     private static final String KEY_PIN = "now_bar_pin";
     private static final String KEY_GLANCE = "now_bar_glance_settings";
-    /** The Google app's At a Glance settings, where Sports is switched on and teams followed. */
-    private static final Intent GLANCE_SETTINGS =
-            new Intent("com.google.android.apps.gsa.smartspace.SETTINGS")
-                    .setPackage("com.google.android.googlequicksearchbox");
+    /**
+     * The Google app's settings, where At a Glance and its Sports live when the app offers them.
+     * Its At a Glance deep link (com.google.android.apps.gsa.smartspace.SETTINGS) closes at once
+     * on devices the app does not treat as Pixels.
+     */
+    private static final Intent GLANCE_SETTINGS = new Intent().setClassName(
+            "com.google.android.googlequicksearchbox",
+            "com.google.android.apps.search.googleapp.settingsui.SettingsActivity");
 
     private final Executor mExecutor = Executors.newSingleThreadExecutor();
     private final Handler mHandler = new Handler(Looper.getMainLooper());
@@ -57,7 +61,14 @@ public class NowBarShowSettings extends SettingsPreferenceFragment {
         updateSummaries();
         Preference glance = findPreference(KEY_GLANCE);
         if (glance != null) {
-            glance.setVisible(GLANCE_SETTINGS.resolveActivity(getContext().getPackageManager()) != null);
+            boolean installed;
+            try {
+                getContext().getPackageManager().getActivityInfo(GLANCE_SETTINGS.getComponent(), 0);
+                installed = true;
+            } catch (PackageManager.NameNotFoundException e) {
+                installed = false;
+            }
+            glance.setVisible(installed);
         }
     }
 
