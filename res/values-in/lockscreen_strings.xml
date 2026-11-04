@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">Mencegah bangun yang tidak disengaja</string>
+    <string name="lockscreen_battery_info_title">Info pengisian daya</string>
+    <string name="lockscreen_battery_info_summary">Tampilkan arus, watt, tegangan, dan suhu baterai saat mengisi daya</string>
+    <string name="charging_ring_title">Animasi pengisian daya SuperVOOC</string>
+    <string name="charging_ring_summary">Tampilkan cincin pengisian daya dan kecepatan saat dicolokkan</string>
+    <string name="pocket_mode_summary">Saat sensor kedekatan tertutup, layar tidak menyala dan mengabaikan sentuhan</string>
+    <string name="screen_on_time_title">Waktu layar aktif</string>
+    <string name="screen_on_time_summary">Tampilkan waktu layar aktif sejak pengisian penuh terakhir di layar kunci saat mengisi daya dan di kartu Penghemat Baterai</string>
 </resources>

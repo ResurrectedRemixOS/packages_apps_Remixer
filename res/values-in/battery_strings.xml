@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Baterai"</string>
     <string name="battery_style_title">"Gaya"</string>
+    <string-array name="battery_style_entries">
+        <item>Potret</item>
+        <item>"Lingkaran"</item>
+        <item>Lingkaran putus-putus</item>
+        <item>Cincin neon</item>
+        <item>Pil ramping</item>
+        <item>Persentase besar</item>
+        <item>Teks</item>
+    </string-array>
+    <string name="battery_percent_title">Persentase</string>
+    <string-array name="battery_percent_entries">
+        <item>Tersembunyi</item>
+        <item>Di dalam ikon</item>
+        <item>Di sampingnya</item>
+    </string-array>
+    <string name="battery_ring_color_title">Warna cincin neon</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Menurut level berarti aksen di atas 20%%, merah di bawahnya, dan amber saat Penghemat Baterai.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Menurut level</item>
+        <item>Aksen</item>
+        <item>"Putih"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Percikan saat mengisi daya</string>
+    <string name="battery_ring_tile_title">Cincin yang sama di kartu Setelan Cepat</string>
+    <string name="battery_ring_tile_summary">Dengan level dan waktu layar aktif</string>
 </resources>

@@ -15,4 +15,27 @@
     <string name="edge_light_moment_calls">"Panggilan masuk"</string>
     <string name="edge_light_moment_battery_low">Baterai lemah</string>
     <string name="edge_light_moment_unlock">"Tidak terkunci"</string>
+    <string name="edge_light_title">Lampu tepi</string>
+    <string name="edge_light_summary">Nyalakan tepi layar untuk notifikasi, panggilan, alarm, dan lainnya</string>
+    <string name="edge_light_color_rainbow">Pelangi</string>
+    <string name="edge_light_color_custom">Kustom</string>
+    <string name="edge_light_style_default">Sisi</string>
+    <string name="edge_light_style_frame">Bingkai penuh</string>
+    <string name="edge_light_animation_effect_none">Standar</string>
+    <string name="edge_light_animation_effect_breathing">Bernapas</string>
+    <string name="edge_light_animation_effect_wave">Gelombang</string>
+    <string name="edge_light_animation_effect_sparkle">Kilau</string>
+    <string name="edge_light_pulse_count_title">Denyut</string>
+    <string name="edge_light_pulse_count_summary">Berapa kali tepi menyala</string>
+    <string name="edge_light_stroke_width_title">Ketebalan</string>
+    <string name="edge_light_stroke_width_summary">Lebar cahaya dalam dp</string>
+    <string name="edge_light_spread_summary">Seberapa jauh pendar masuk dari tepi</string>
+    <string name="edge_light_intensity_summary">Kecerahan pendar. 0 menonaktifkannya</string>
+    <string name="edge_light_moments_title">Momen</string>
+    <string name="edge_light_moment_alarms">Alarm dan timer</string>
+    <string name="edge_light_moment_plugged">Dicolokkan</string>
+    <string name="edge_light_moment_color">Ubah warna</string>
+    <string name="edge_light_moments_footer">Ketuk titik momen untuk mengubah warnanya. Panggilan dan alarm menyala saat berdering, bahkan dalam mode senyap. Momen lainnya tidak diputar saat Jangan Ganggu.</string>
+    <string name="edge_light_look_title">Tampilan</string>
+    <string name="remixer_color_default">Default</string>
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Свой образ для каждого режима</string>
+    <string name="remix_modes_everyday">Повседневный образ</string>
+    <string name="remix_modes_everyday_summary">Возвращается, когда не активен ни один режим с образом</string>
+    <string name="remix_modes_wallpaper">Обои следуют за образом</string>
+    <string name="remix_modes_wallpaper_summary">Режим также может менять обои</string>
+    <string name="remix_modes_modes">Ваши режимы</string>
+    <string name="remix_modes_no_change">Без изменений</string>
+    <string name="remix_modes_none">Сначала сохраните образ в разделе «Тема › Образы»</string>
+    <string name="remix_modes_pick">Образ для <xliff:g id="mode" example="Sleep">%1$s</xliff:g></string>
+</resources>

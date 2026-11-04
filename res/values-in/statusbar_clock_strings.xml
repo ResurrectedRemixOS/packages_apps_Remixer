@@ -8,4 +8,29 @@
     <string name="sb_clock_chip_angle_title">Sudut gradien</string>
     <string name="sb_weather_category">"Cuaca"</string>
     <string name="sb_weather_position_title">Posisi</string>
+    <string name="sb_clock_category">Jam &amp; tanggal</string>
+    <string name="sb_clock_bold_summary">Tampilkan jam status bar dengan huruf tebal</string>
+    <string name="sb_clock_period_separator_summary">10.45, bukan 10:45</string>
+    <string name="sb_clock_date_style_title">Huruf tanggal</string>
+    <string name="sb_clock_chip_category">Latar jam</string>
+    <string name="sb_clock_chip_title">Gaya latar</string>
+    <string name="sb_clock_chip_start_title">Awal gradien</string>
+    <string name="sb_clock_chip_end_title">Akhir gradien</string>
+    <string name="sb_clock_chip_mask_title">Potong waktu dari gradien</string>
+    <string name="sb_clock_chip_mask_summary">Gradien terlihat melalui angka, bukan di belakangnya</string>
+    <string name="sb_weather_title">Cuaca di status bar</string>
+    <string name="status_bar_clock_rr_style_title">Tampilan jam</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>Default</item>
+        <item>Neon</item>
+        <item>Terbagi</item>
+        <item>Tanda RR</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Bertumpuk</item>
+        <item>Bara</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline di samping waktu</string>
+    <string name="sb_clock_flatline_summary">Garis detak RR di dalam chip: berdetak mengikuti musik, melonjak saat notifikasi masuk</string>
 </resources>

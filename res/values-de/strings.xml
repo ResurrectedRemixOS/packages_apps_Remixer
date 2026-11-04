@@ -88,4 +88,214 @@
     <string name="wallpaper_apply_lock">"Sperrbildschirm"</string>
     <string name="remixer_spoofing">Signatur vortäuschen (Spoofing)</string>
     <string name="remixer_navbar_category">"Navigationsleiste"</string>
+    <string name="remixer_dashboard_summary">Statusleiste, Design, Sperrbildschirm und mehr</string>
+    <string name="rr_homepage_battery_saver">Energiesparmodus</string>
+    <string name="rr_homepage_personalize">Personalisieren</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> frei</string>
+    <string name="rr_homepage_charged">Voll aufgeladen</string>
+    <string name="rr_homepage_on_battery">Im Akkubetrieb</string>
+    <string name="rr_homepage_saver_on">Energiesparmodus an</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="one"><xliff:g id="count" example="2">%d</xliff:g> Gerät</item>
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> Geräte</item>
+    </plurals>
+    <string name="rr_homepage_extras">Weitere Einstellungen</string>
+    <string name="rr_homepage_saver">Energiesparen</string>
+    <string name="rr_homepage_signed_out">Nicht angemeldet</string>
+    <string name="rr_homepage_remixer_tagline">Mach es zu deinem. Statusleiste, Design, Sperrbildschirm und mehr.</string>
+    <string name="rr_homepage_device_tagline">Benachrichtigungsschieber, Display, Laden und GameBar.</string>
+    <string name="rr_homepage_device_action">Feinabstimmung</string>
+    <string name="rr_group_network">Netzwerk &amp; Geräte</string>
+    <string name="rr_group_network_summary">WLAN, Mobilfunk, Bluetooth</string>
+    <string name="rr_group_apps_summary">Apps, Benachrichtigungen, Modi</string>
+    <string name="rr_group_display">Display &amp; Ton</string>
+    <string name="rr_group_display_summary">Display, Hintergrund, Ton</string>
+    <string name="rr_group_security_summary">Sperre, Standort, Notfall</string>
+    <string name="rr_group_security_center">Sicherheitscenter</string>
+    <string name="rr_group_accounts">Google &amp; Konten</string>
+    <string name="rr_group_accounts_summary">Google, Passwörter, Sicherung</string>
+    <string name="rr_group_accounts_plain_summary">Passwörter, Konten, Sicherung</string>
+    <string name="rr_group_system_summary">Sprachen, Gesten, Updates</string>
+    <string name="remixer_tagline">Mach es zu deinem.</string>
+    <string name="remixer_remix">Remixen</string>
+    <string name="remixer_remixed">Geremixt mit <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Abstufung · Standard</string>
+    <string name="remixer_quick">Schneller Remix</string>
+    <string name="remixer_everything">Alles</string>
+    <string name="remixer_quick_accents">Vorlagen oder beliebige Farbe</string>
+    <string name="remixer_quick_fonts">Systemschriftstile</string>
+    <string name="remixer_quick_walls">RR-Sammlung</string>
+    <string name="remixer_quick_header">Header der Schnelleinstellungen</string>
+    <string name="remixer_quick_header_summary">Header-Bilder</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Uhr, Akku, Symbole und Datenverkehr</string>
+    <string name="remixer_qs_summary">Header-Bild</string>
+    <string name="remixer_notifications_summary">Randbeleuchtung, App-Symbole und Ladetöne</string>
+    <string name="remixer_theme_summary">Schriftarten, Akzente und Hintergründe</string>
+    <string name="remixer_lockscreen_summary">UDFPS, Ladeinfos und Wetter</string>
+    <string name="remixer_udfps_icon_summary">Wird über dem Fingerabdrucksensor angezeigt</string>
+    <string name="remixer_udfps_animation_summary">Läuft, solange dein Finger auf dem Sensor liegt</string>
+    <string name="remixer_navigation">Navigation</string>
+    <string name="remixer_navigation_summary">Pulse, Tasten und Navigationsleiste</string>
+    <string name="remixer_misc_summary">Lautstärke, Sicherung, Spoofing, Scrollen und USB</string>
+    <string name="scroll_haptics_title">Tippen am Scrollende</string>
+    <string name="scroll_haptics_summary">Eine leichte Vibration, wenn eine Liste oder Seite nicht weiter scrollen kann</string>
+    <string name="usb_mode_picker_title">USB-Modusauswahl</string>
+    <string name="usb_mode_picker_summary">Wähle einen Modus, wenn du dich mit einem Computer verbindest</string>
+    <string name="remixer_fonts_summary">Systemschriftart</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix-Hintergründe</string>
+    <string name="remixer_accents">Akzente</string>
+    <string name="remixer_accents_summary">Akzentfarbe</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">Musikvisualisierung am unteren Bildschirmrand</string>
+    <string name="pulse_switch">Pulse verwenden</string>
+    <string name="pulse_switch_summary">Musikbalken am unteren Bildschirmrand während der Wiedergabe</string>
+    <string name="pulse_style_lines">Linien</string>
+    <string name="pulse_style_fading">Ausblenden</string>
+    <string name="pulse_style_blocks">Blöcke</string>
+    <string name="pulse_style_mirror">Spiegel</string>
+    <string name="pulse_color_custom">Benutzerdefiniert</string>
+    <string name="pulse_color_gradient">Regenbogen</string>
+    <string name="pulse_bars">Balken</string>
+    <string name="pulse_bars_value">Balken · %1$d</string>
+    <string name="pulse_height">Höhe</string>
+    <string name="pulse_height_value">Höhe · %1$d dp</string>
+    <string name="pulse_opacity">Deckkraft</string>
+    <string name="pulse_opacity_value">Deckkraft · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Balken bei Musikwiedergabe auf dem Sperrbildschirm behalten</string>
+    <string name="pulse_failed">Diese Pulse-Einstellung konnte nicht gespeichert werden</string>
+    <string name="accent_applied">Akzent angewendet</string>
+    <string name="accent_current">Akzent · %1$s</string>
+    <string name="accent_current_custom">Akzent · Benutzerdefiniert</string>
+    <string name="accent_preview_button">Taste</string>
+    <string name="accent_preview_tonal">Tonal</string>
+    <string name="accent_failed">Dieser Akzent konnte nicht angewendet werden</string>
+    <string name="accent_custom">Benutzerdefiniert</string>
+    <string name="accent_custom_summary">Jede Farbe funktioniert. Die Abstufung wird weiterhin darüber angewendet.</string>
+    <string name="accent_custom_pad">Sättigung und Helligkeit</string>
+    <string name="accent_custom_use"><xliff:g id="color" example="#12B5A6">%1$s</xliff:g> verwenden</string>
+    <string name="accent_shade">Abstufung</string>
+    <string name="accent_shade_darker">Dunkler</string>
+    <string name="accent_shade_lighter">Heller</string>
+    <string name="accent_shade_darker_value">Dunkler · %1$d</string>
+    <string name="accent_shade_lighter_value">Heller · %1$d</string>
+    <string name="remixer_qs_style">Stil der Schnelleinstellungen</string>
+    <string name="remixer_qs_customize_summary">Öffne die Schnelleinstellungen und tippe auf den Stift. Tippe auf eine Kachel für Optionen und Aussehen, halte sie zum Verschieben, ziehe an der Ecke für die Größe und nutze die Tabs unter dem Bereich für den ganzen Bereich.</string>
+    <string name="remixer_qs_style_preview">Vorschau · %1$s</string>
+    <string name="remixer_qs_style_note">Jeder Stil folgt deiner Akzentfarbe. Der Lautstärkebereich hat passende Stile: Bento, Formen, Blueprint, Duo und Weich. Stock Lineage lässt die Android 17-Kacheln unverändert.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Die Android 17-Kacheln, unverändert</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Helligkeit in einer Akzentkarte. Kacheln füllen sich mit einem Akzentverlauf</string>
+    <string name="remixer_qs_style_compact">Kompakt</string>
+    <string name="remixer_qs_style_compact_summary">Niedrigere Kacheln. Mehr davon auf einem Bildschirm</string>
+    <string name="remixer_qs_style_glass">Glas</string>
+    <string name="remixer_qs_style_glass_summary">Durchsichtige Kacheln mit Umriss, die eingeschaltet in deinem Akzent leuchten</string>
+    <string name="remixer_qs_style_circles">Kreise</string>
+    <string name="remixer_qs_style_circles_summary">Runde Schalter mit Beschriftung. Breite Kacheln werden zu Karten</string>
+    <string name="remixer_qs_style_classic">Klassisch</string>
+    <string name="remixer_qs_style_classic_summary">RR der alten Schule: schlichte Symbole mit Beschriftung, fünf pro Reihe, dünner Schieberegler</string>
+    <string name="remixer_qs_style_cards">Karten</string>
+    <string name="remixer_qs_style_cards_summary">Große Karten mit dem Status unter dem Namen, drei pro Reihe</string>
+    <string name="remixer_qs_style_neon">Neon</string>
+    <string name="remixer_qs_style_neon_summary">Kacheln mit Umriss, die eingeschaltet in deinem Akzent leuchten</string>
+    <string name="remixer_qs_style_bento_summary">Große abgerundete Blöcke in deinem Akzent, Beschriftung unter den kleinen</string>
+    <string name="remixer_qs_style_shapes">Formen</string>
+    <string name="remixer_qs_style_shapes_summary">Runde Schalter, denen eingeschaltet Blätter wachsen, fünf pro Reihe</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Haarfeine Umrisse und Monospace-Großbuchstaben</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Geteilte Kacheln. Die Symbolhälfte leuchtet auf und schaltet um</string>
+    <string name="remixer_qs_style_soft">Weich</string>
+    <string name="remixer_qs_style_soft_summary">Erhabene Kacheln, die sich eingeschaltet eindrücken</string>
+    <string name="remixer_lock_media_style">Stil des Mediaplayers</string>
+    <string name="remixer_lock_media_same">Wie Schnelleinstellungen</string>
+    <string name="remixer_lock_media_same_summary">Folgt deiner Medien-Kachel in den Schnelleinstellungen, derzeit %1$s</string>
+    <string name="remixer_lock_media_off_summary">Kein Player auf dem Sperrbildschirm</string>
+    <string name="remixer_lock_media_note">Die Karte erscheint auf dem Sperrbildschirm, solange etwas läuft. Durchsichtige Stile bekommen einen dunklen Hintergrund, damit sie über dem Hintergrundbild lesbar bleiben.</string>
+    <string name="remixer_lock_media_stock_summary">Albumcover füllt die Karte</string>
+    <string name="remixer_lock_media_remix_summary">Dunkle Karte, Wiedergabetaste in Akzentfarbe</string>
+    <string name="remixer_lock_media_compact_summary">Rundere Karte, rundes Cover</string>
+    <string name="remixer_lock_media_glass_summary">Durchsichtige Karte mit Umriss</string>
+    <string name="remixer_lock_media_circles_summary">Weiche Karte, Wiedergabetaste in Akzentfarbe</string>
+    <string name="remixer_lock_media_classic_summary">Eckigere Karte, Wiedergabetaste mit Umriss</string>
+    <string name="remixer_lock_media_cards_summary">Weiche Karte, Wiedergabetaste in Akzentfarbe, wie Kreise</string>
+    <string name="remixer_lock_media_neon_summary">Schwarze Karte mit Umriss in Akzentfarbe</string>
+    <string name="remixer_lock_media_bento_summary">Weiche Karte, Wiedergabetaste in Akzentfarbe</string>
+    <string name="remixer_lock_media_shapes_summary">Rundere Karte, Wiedergabetaste in Akzentfarbe</string>
+    <string name="remixer_lock_media_blueprint_summary">Haarfeiner Umriss, Wiedergabetaste mit Umriss</string>
+    <string name="remixer_lock_media_duo_summary">Zweifarbige Karte, Wiedergabetaste in Akzentfarbe</string>
+    <string name="remixer_lock_media_soft_summary">Erhabene Karte mit abgeschrägtem Rand</string>
+    <string name="remixer_headers">Header-Bild</string>
+    <string name="header_switch">Header-Bild verwenden</string>
+    <string name="header_switch_summary">Zeigt ein Bild hinter den Schnelleinstellungen</string>
+    <string name="header_source">Quelle</string>
+    <string name="header_source_collection">Sammlung</string>
+    <string name="header_collections_summary_daylight">Der Header folgt der Tageszeit oder wechselt durch die Sammlung</string>
+    <string name="header_collections_summary_static">Öffne eine Sammlung und tippe auf ein Bild, um es zu verwenden</string>
+    <string name="header_collections_empty">Keine Header-Sammlungen installiert</string>
+    <string name="header_images_daylight">In dieser Sammlung</string>
+    <plurals name="header_image_count">
+        <item quantity="one">%d Bild</item>
+        <item quantity="other">%d Bilder</item>
+    </plurals>
+    <string name="header_photo_summary">Beliebiges Foto oder animiertes GIF aus deiner Galerie</string>
+    <string name="header_height">Höhe</string>
+    <string name="header_height_value">Höhe · %1$d dp</string>
+    <string name="header_shadow">Abdunkeln</string>
+    <string name="header_shadow_value">Abdunkeln · %1$d%%</string>
+    <string name="header_failed">Diese Header-Einstellung konnte nicht gespeichert werden</string>
+    <string name="remixer_weather_summary">Wetterdienst und Einheiten</string>
+    <string name="font_preview_notification">So liest sich dein Smartphone.</string>
+    <string name="font_try_text">Probiere deinen eigenen Text</string>
+    <string name="font_previewing">Vorschau</string>
+    <string name="font_current">Aktuelle Schriftart</string>
+    <string name="font_badge_current">Aktuell</string>
+    <string name="font_apply_done">Angewendet</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Display</string>
+    <string name="font_filter_script">Script</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Schriftart angewendet</string>
+    <string name="font_failed">Diese Schriftart konnte nicht angewendet werden</string>
+    <string name="wallpaper_set">Hintergrund festgelegt</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="one">%d Hintergrund von Resurrected Remix. Tippe darauf für eine Vorschau.</item>
+        <item quantity="other">%d Hintergründe von Resurrected Remix. Tippe auf einen für eine Vorschau.</item>
+    </plurals>
+    <string name="wallpaper_apply_both">Beide</string>
+    <string name="wallpaper_failed">Dieser Hintergrund konnte nicht festgelegt werden</string>
+    <string name="missing_app">Diese App ist nicht installiert</string>
+    <string name="remixer_spoofing_summary">Play Integrity, Geräteidentität und Spoofing pro App</string>
+    <string name="remixer_settings_style">Stil der Einstellungen</string>
+    <string name="remixer_settings_style_original">Original</string>
+    <string name="remixer_settings_tile_hues">Farbige Kategoriekacheln</string>
+    <string name="remixer_settings_tile_hues_summary">Jede Kachel erhält einen Farbton nahe deinem Akzent. Aus: Alle erhalten den Akzent.</string>
+    <string name="rr_maintainer">Betreuer</string>
+    <string name="remixer_navbar_summary">Länge, Dicke und Layout der Leiste</string>
+    <string name="remixer_navbar_pill_length">Länge der Gestenleiste</string>
+    <string name="remixer_navbar_pill_thickness">Dicke der Gestenleiste</string>
+    <string name="remixer_navbar_pill_auto_hide">Gestenleiste ausblenden</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Blendet die Leiste nach ein paar Sekunden aus; sie kommt zurück, wenn du den Bildschirm berührst</string>
+    <string name="remixer_navbar_ime">Tastaturschaltflächen</string>
+    <string name="remixer_navbar_ime_summary">Zeigt Zurück und Tastaturwechsel unter der Tastatur an</string>
+    <string name="remixer_navbar_layout">Tastenlayout</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Kurz</item>
+        <item>Normal</item>
+        <item>Lang</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Am dünnsten</item>
+        <item>Dünner</item>
+        <item>Dünn</item>
+        <item>Normal</item>
+        <item>Dick</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Normal</item>
+        <item>Kompakt</item>
+        <item>"Links­bün­dig"</item>
+        <item>"Rechtsbündig"</item>
+    </string-array>
 </resources>

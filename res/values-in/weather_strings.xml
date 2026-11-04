@@ -4,4 +4,14 @@
     <string name="lockscreen_weather_location_title">"Lokasi"</string>
     <string name="lockscreen_weather_wind_title">Angin</string>
     <string name="lockscreen_weather_humidity_title">Kelembaban</string>
+    <string name="lockscreen_weather_title">Cuaca di layar kunci</string>
+    <string name="lockscreen_weather_location_summary">Tampilkan nama kota</string>
+    <string name="lockscreen_weather_text_title">Kondisi</string>
+    <string name="lockscreen_weather_text_summary">Tampilkan kondisi, seperti Berawan atau Cerah</string>
+    <string name="lockscreen_weather_wind_summary">Tampilkan kecepatan dan arah angin</string>
+    <string name="lockscreen_weather_humidity_summary">Tampilkan kelembapan</string>
+    <string name="custom_clock_weather_title">Cuaca di tampilan jam</string>
+    <string name="custom_clock_weather_summary">Tampilkan cuaca di tampilan jam yang memiliki ruang</string>
+    <string name="remixer_weather_service">Layanan cuaca</string>
+    <string name="remixer_weather_page_summary">Cuaca layar kunci dan yang ditampilkannya</string>
 </resources>

@@ -6,4 +6,31 @@
     <string name="sb_clock_date_format_title">Формат даты</string>
     <string name="sb_weather_category">Погода</string>
     <string name="sb_weather_position_title">Расположение</string>
+    <string name="sb_clock_bold_title">Жирные часы</string>
+    <string name="sb_clock_bold_summary">Показывать часы в строке состояния жирным шрифтом</string>
+    <string name="sb_clock_period_separator_title">Разделитель-точка</string>
+    <string name="sb_clock_period_separator_summary">10.45 вместо 10:45</string>
+    <string name="sb_clock_date_style_title">Регистр даты</string>
+    <string name="sb_clock_chip_category">Фон часов</string>
+    <string name="sb_clock_chip_title">Стиль фона</string>
+    <string name="sb_clock_chip_start_title">Начало градиента</string>
+    <string name="sb_clock_chip_end_title">Конец градиента</string>
+    <string name="sb_clock_chip_angle_title">Угол градиента</string>
+    <string name="sb_clock_chip_mask_title">Вырезать время из градиента</string>
+    <string name="sb_clock_chip_mask_summary">Градиент виден сквозь цифры, а не за ними</string>
+    <string name="sb_weather_title">Погода в строке состояния</string>
+    <string name="status_bar_clock_rr_style_title">Вид часов</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"По умолчанию"</item>
+        <item>Неон</item>
+        <item>Раздельный</item>
+        <item>Знак RR</item>
+        <item>Моно</item>
+        <item>Pulse</item>
+        <item>Стопка</item>
+        <item>Уголёк</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline рядом со временем</string>
+    <string name="sb_clock_flatline_summary">Линия пульса RR внутри чипа: бьётся в такт музыке и подскакивает при новом уведомлении</string>
 </resources>

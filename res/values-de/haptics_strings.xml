@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Blau"</string>
     <string name="haptic_remix_color_green">"Grün"</string>
     <string name="haptic_remix_color_white">"Weiß"</string>
+    <string name="haptic_remix_summary">Tippe Vibrationsmuster für Anrufe, Apps, Wecker und Entsperren</string>
+    <string name="haptic_remix_record">Aufnehmen</string>
+    <string name="haptic_remix_pad">tippe den Rhythmus</string>
+    <string name="haptic_remix_strength">Stärke</string>
+    <string name="haptic_remix_clear">Löschen</string>
+    <string name="haptic_remix_play">Abspielen</string>
+    <string name="haptic_remix_name">Mustername</string>
+    <string name="haptic_remix_empty">Noch nichts aufgenommen</string>
+    <string name="haptic_remix_too_long">Ein Muster kann 30 Sekunden lang sein</string>
+    <string name="haptic_remix_presets">Vorlagen</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Glas</string>
+    <string name="haptic_remix_preset_ringtone">Rhythmus des Klingeltons</string>
+    <string name="haptic_remix_listening">Klingelton wird angehört…</string>
+    <string name="haptic_remix_no_ringtone">Der Klingelton konnte nicht gelesen werden</string>
+    <string name="haptic_remix_patterns">Deine Muster</string>
+    <string name="haptic_remix_patterns_none">Speichere zuerst ein Muster. Halte eines gedrückt, um es zu löschen.</string>
+    <string name="haptic_remix_broken">Dieses Muster kann nicht gelesen werden</string>
+    <string name="haptic_remix_delete"><xliff:g id="name" example="Heartbeat">%1$s</xliff:g> löschen?</string>
+    <string name="haptic_remix_assign">Zuweisen zu</string>
+    <string name="haptic_remix_alarm">Wecker und Timer</string>
+    <string name="haptic_remix_plug">Angesteckt</string>
+    <string name="haptic_remix_fingerprint">Fingerabdruck erkannt</string>
+    <string name="haptic_remix_add_contact">Kontakt hinzufügen</string>
+    <string name="haptic_remix_edge_color">Randlicht für Nachrichten von <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">Akzent</string>
+    <string name="haptic_remix_color_crimson">Karmesin</string>
+    <string name="haptic_remix_color_amber">Bernstein</string>
+    <string name="haptic_remix_add_app">Benachrichtigungen einer App hinzufügen</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · tippen zum Ändern, halten für die Randfarbe</string>
+    <string name="haptic_remix_no_contacts">Kontakte hat keine Nummer geliefert</string>
 </resources>

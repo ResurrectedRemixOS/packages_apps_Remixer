@@ -3,4 +3,23 @@
     <string name="nightstand_when">"Wann"</string>
     <string name="nightstand_face">Zifferblatt</string>
     <string name="lock_stage_tab_lock">"Sperrbildschirm"</string>
+    <string name="nightstand_title">Nachttisch</string>
+    <string name="nightstand_summary">Eine gedimmte Nachttischuhr auf dem Always-on-Display beim nächtlichen Laden</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Aus"</item>
+        <item>Nachts am Ladegerät</item>
+        <item>Jede Nacht, nach Zeitplan</item>
+        <item>Während ein Schlafenszeitmodus aktiv ist</item>
+    </string-array>
+    <string name="nightstand_from">Nacht beginnt</string>
+    <string name="nightstand_to">Nacht endet</string>
+    <string name="nightstand_brightness">Helligkeitsgrenze</string>
+    <string name="nightstand_brightness_summary">Wie hell das Always-on-Display werden darf, solange Nachttisch aktiv ist</string>
+    <string name="nightstand_face_keep">Aktuelles Zifferblatt behalten</string>
+    <string name="nightstand_layout">Layout bearbeiten</string>
+    <string name="nightstand_layout_summary">Nachttisch hat eine eigene Lock Stage: zu Beginn Uhr, Wecker und Akkuring</string>
+    <string name="nightstand_footer">Nachttisch schaltet das Always-on-Display ein, solange er läuft, und stellt es danach wieder her. Er endet, wenn das Ladegerät getrennt wird, der Wecker klingelt oder die Nacht endet. Das Zifferblatt wechselt nur zwischen zwei eigenen Zifferblättern; die Systemuhr bleibt.</string>
+    <string name="lock_stage_tab_page">Seite <xliff:g id="number" example="2">%d</xliff:g></string>
+    <string name="lock_stage_remove_page">Seite <xliff:g id="number" example="2">%d</xliff:g> entfernen?</string>
+    <string name="lock_stage_tab_night">Nachttisch</string>
 </resources>

@@ -4,4 +4,14 @@
     <string name="lockscreen_weather_location_title">"Местоположение"</string>
     <string name="lockscreen_weather_wind_title">Ветер</string>
     <string name="lockscreen_weather_humidity_title">Влажность</string>
+    <string name="lockscreen_weather_title">Погода на экране блокировки</string>
+    <string name="lockscreen_weather_location_summary">Показывать название города</string>
+    <string name="lockscreen_weather_text_title">Состояние</string>
+    <string name="lockscreen_weather_text_summary">Показывать состояние, например «Облачно» или «Ясно»</string>
+    <string name="lockscreen_weather_wind_summary">Показывать скорость и направление ветра</string>
+    <string name="lockscreen_weather_humidity_summary">Показывать влажность</string>
+    <string name="custom_clock_weather_title">Погода на циферблатах</string>
+    <string name="custom_clock_weather_summary">Показывать погоду на циферблатах, где для неё есть место</string>
+    <string name="remixer_weather_service">Сервис погоды</string>
+    <string name="remixer_weather_page_summary">Погода на экране блокировки и что показывать</string>
 </resources>

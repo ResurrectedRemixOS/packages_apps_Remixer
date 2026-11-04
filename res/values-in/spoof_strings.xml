@@ -161,4 +161,8 @@
     <string name="user_select_spoofing_profile_title">Pilih profil pemalsuan</string>
     <string name="user_selectable_app_spoofing_summary">Memalsukan properti perangkat untuk aplikasi dan game tertentu</string>
     <string name="user_selectable_app_spoofing_title">Pemalsuan Aplikasi &amp; Game</string>
+    <string name="action_reset">Reset</string>
+    <string name="spoofing_reset_defaults_confirm">Reset</string>
+    <string name="spoofing_title">Spoofing</string>
+    <string name="ts_mode_skip">Lewati</string>
 </resources>

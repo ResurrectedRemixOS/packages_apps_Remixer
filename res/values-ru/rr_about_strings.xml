@@ -13,4 +13,21 @@
     <string name="rr_about_this_phone">"Этот телефон"</string>
     <string name="rr_about_network">"Сеть"</string>
     <string name="rr_about_hidden">Не показывать</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Официальная</string>
+    <string name="rr_about_vanilla">Vanilla</string>
+    <string name="rr_about_hardware">Оборудование</string>
+    <string name="rr_about_processor">Процессор</string>
+    <string name="rr_about_processor_sub">%1$d ядер · до %2$s ГГц</string>
+    <string name="rr_about_processor_cores">%1$d ядер</string>
+    <string name="rr_about_storage_used">Использовано: %1$s</string>
+    <string name="rr_about_display">Display</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Гц</string>
+    <string name="rr_about_battery_capacity">%1$s мА·ч</string>
+    <string name="rr_about_battery_charging">%1$s · Зарядка</string>
+    <string name="rr_about_kernel_linux">Ядро Linux</string>
+    <string name="rr_about_software_purpose">Версия Android, обновление безопасности, дата и номер сборки</string>
+    <string name="rr_about_maintainer">Сопровождающий</string>
+    <string name="rr_about_show">Показать</string>
+    <string name="rr_about_hide">Скрыть</string>
 </resources>

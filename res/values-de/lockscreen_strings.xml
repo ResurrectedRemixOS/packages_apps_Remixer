@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">Unbeabsichtigtes Aufwecken verhindern</string>
+    <string name="lockscreen_battery_info_title">Ladeinfos</string>
+    <string name="lockscreen_battery_info_summary">Zeigt beim Laden Stromstärke, Watt, Spannung und Akkutemperatur</string>
+    <string name="charging_ring_title">SuperVOOC-Ladeanimation</string>
+    <string name="charging_ring_summary">Zeigt beim Einstecken den Ladering und die Geschwindigkeit</string>
+    <string name="pocket_mode_summary">Solange der Näherungssensor verdeckt ist, wird der Bildschirm nicht aktiviert und ignoriert Berührungen</string>
+    <string name="screen_on_time_title">Displayzeit</string>
+    <string name="screen_on_time_summary">Zeigt die Displayzeit seit der letzten vollen Ladung beim Laden auf dem Sperrbildschirm und auf der Energiespar-Kachel</string>
 </resources>

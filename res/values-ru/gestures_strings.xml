@@ -8,4 +8,50 @@
         <item>"Средний"</item>
         <item>"Крупный"</item>
     </string-array>
+    <string name="pie_title">Круговое меню</string>
+    <string name="pie_summary">Удерживайте нижнюю часть края, чтобы открыть круг ярлыков</string>
+    <string name="pie_zone">Часть края</string>
+    <string name="pie_clock">Часы и батарея над ним</string>
+    <string name="pie_items">Секторы</string>
+    <string-array name="pie_items_entries">
+        <item>"Назад"</item>
+        <item>Главный экран</item>
+        <item>"Недавние"</item>
+        <item>"Уведомления"</item>
+        <item>Фонарик</item>
+        <item>"Скриншот"</item>
+        <item>"Меню кнопки питания"</item>
+        <item>"Ассистент"</item>
+        <item>"Камера"</item>
+    </string-array>
+    <string name="pie_footer">Нужно удерживать четверть секунды не двигая пальцем, поэтому быстрый свайп от края по-прежнему работает как «назад». На экране блокировки не открывается.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Левый"</item>
+        <item>"Правый"</item>
+        <item>Оба</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Нижняя треть</item>
+        <item>Середина</item>
+        <item>Весь край</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Неон</item>
+        <item>Стекло</item>
+        <item>Классический</item>
+    </string-array>
+    <string name="sidebar_style_title">Вид боковой панели приложений</string>
+    <string-array name="sidebar_style_entries">
+        <item>Классический</item>
+        <item>Стекло RR</item>
+        <item>Неон</item>
+    </string-array>
+    <string name="sidebar_settings_title">Боковая панель приложений</string>
+    <string name="sidebar_settings_summary">Проведите от ручки, чтобы открыть приложения и инструменты</string>
+    <string name="sidebar_apps_title">Приложения, ручка и буфер обмена</string>
+    <string name="sidebar_apps_summary">Включите ручку, выберите приложения и настройте умный буфер обмена</string>
+    <string name="sidebar_handle_size_title">Размер ручки</string>
+    <string name="sidebar_tools_title">Ряд инструментов</string>
+    <string name="sidebar_tools_summary">Скриншот и фонарик под приложениями</string>
+    <string name="sidebar_footer">Ручка — это тонкая линия цвета акцента; перетаскивайте её вдоль края. При навигации жестами она занимает только свою часть края, а «назад» работает везде в остальном.</string>
 </resources>

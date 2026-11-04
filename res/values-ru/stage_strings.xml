@@ -5,4 +5,20 @@
     <string name="stage_tile_clock">"Часы"</string>
     <string name="stage_tile_weather">Погода</string>
     <string name="stage_tile_shortcuts">"Быстрые действия"</string>
+    <string name="lock_stage_summary">Расставьте элементы экрана блокировки по сетке и добавьте неоновые виджеты</string>
+    <string name="lock_stage_hint">Перетащите плитку, чтобы переместить, потяните за угол, чтобы изменить размер, нажмите для настройки. Верхний ряд — строка состояния.</string>
+    <string name="lock_stage_remove">Удалить</string>
+    <string name="lock_stage_center">По центру</string>
+    <string name="lock_stage_aod_on">На Always On Display</string>
+    <string name="lock_stage_aod_off">Не на Always On Display</string>
+    <string name="lock_stage_not_on_aod">только экран блокировки</string>
+    <string name="lock_stage_add">Добавить</string>
+    <string name="lock_stage_all_placed">Всё уже на сцене</string>
+    <string name="lock_stage_reset_summary">Вернуть стандартный макет экрана блокировки. Сохранённая сцена будет удалена.</string>
+    <string name="lock_stage_saved">Сцена сохранена. Заблокируйте телефон, чтобы увидеть её.</string>
+    <string name="lock_stage_failed">Не удалось сохранить сцену</string>
+    <string name="stage_tile_glance">Строка даты</string>
+    <string name="stage_tile_battery">Кольцо батареи</string>
+    <string name="stage_tile_alarm">Следующий будильник</string>
+    <string name="stage_tile_toggles">Переключатели</string>
 </resources>

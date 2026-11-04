@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Батарея"</string>
     <string name="battery_style_title">"Стиль"</string>
+    <string-array name="battery_style_entries">
+        <item>Портретная</item>
+        <item>"Круг"</item>
+        <item>Пунктирный круг</item>
+        <item>Неоновое кольцо</item>
+        <item>Тонкая полоска</item>
+        <item>Большой процент</item>
+        <item>Текст</item>
+    </string-array>
+    <string name="battery_percent_title">Процент</string>
+    <string-array name="battery_percent_entries">
+        <item>Не показывать</item>
+        <item>Внутри значка</item>
+        <item>Рядом со значком</item>
+    </string-array>
+    <string name="battery_ring_color_title">Цвет неонового кольца</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. «По уровню» — цвет акцента выше 20%%, красный ниже и янтарный при экономии заряда.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>По уровню</item>
+        <item>Акцент</item>
+        <item>"Белый"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Искра при зарядке</string>
+    <string name="battery_ring_tile_title">То же кольцо на плитке быстрых настроек</string>
+    <string name="battery_ring_tile_summary">С уровнем заряда и временем работы экрана</string>
 </resources>

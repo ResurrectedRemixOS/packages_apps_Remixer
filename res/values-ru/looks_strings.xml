@@ -17,4 +17,67 @@
     <string name="looks_save_look">"Сохранить"</string>
     <string name="looks_custom_color">"Пользовательский цвет"</string>
     <string name="looks_part_clock_color">"Цвет часов"</string>
+    <string name="looks_title">Образы</string>
+    <string name="looks_summary">Вся ваша настройка одним нажатием</string>
+    <string name="looks_rr">Образы RR</string>
+    <string name="looks_yours">Ваши образы</string>
+    <string name="looks_none">Пока ничего не сохранено</string>
+    <string name="looks_save">Сохранить текущий</string>
+    <string name="looks_import_clipboard">Из буфера обмена</string>
+    <string name="looks_import_file">Из файла</string>
+    <string name="looks_mine">Мой образ</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> применён</string>
+    <string name="looks_failed">Не удалось применить всё</string>
+    <string name="looks_invalid">Это не образ RR</string>
+    <string name="looks_part_qs">Стиль быстрых настроек</string>
+    <string name="looks_part_clock_face">Циферблат экрана блокировки</string>
+    <string name="looks_part_clock_look">Часы в строке состояния</string>
+    <string name="looks_part_edge">Подсветка краёв</string>
+    <string name="looks_part_stage">Макет Lock Stage</string>
+    <string name="looks_part_haptics">Узоры Haptic Remix</string>
+    <string name="looks_stage_custom">Ваш макет</string>
+    <string name="looks_stage_default">Стандартный макет</string>
+    <plurals name="looks_haptic_patterns">
+        <item quantity="one">%d узор и его назначения</item>
+        <item quantity="few">%d узора и их назначения</item>
+        <item quantity="many">%d узоров и их назначения</item>
+        <item quantity="other">%d узора и их назначения</item>
+    </plurals>
+    <string name="looks_saturation">Насыщенность <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Акцент</string>
+    <string name="looks_share_title">Поделиться «<xliff:g id="name" example="Neon night">%1$s</xliff:g>»</string>
+    <string name="looks_share_hint">Отсканируйте камерой другого телефона с RR или в разделе «Образы › Импорт»</string>
+    <string name="looks_share_file">Поделиться файлом</string>
+    <string name="looks_save_file">Сохранить файл</string>
+    <string name="looks_import_scan">Сканировать QR-код</string>
+    <string name="looks_import_title">Импорт образа</string>
+    <string name="looks_from_qr">из QR-кода</string>
+    <string name="looks_from_file">из файла</string>
+    <string name="looks_from_clipboard">из буфера обмена</string>
+    <string name="looks_import_same">Это уже совпадает с вашей настройкой.</string>
+    <plurals name="looks_import_changes">
+        <item quantity="one">Изменится <xliff:g id="count" example="4">%d</xliff:g> пункт:</item>
+        <item quantity="few">Изменятся <xliff:g id="count" example="4">%d</xliff:g> пункта:</item>
+        <item quantity="many">Изменится <xliff:g id="count" example="4">%d</xliff:g> пунктов:</item>
+        <item quantity="other">Изменится <xliff:g id="count" example="4">%d</xliff:g> пункта:</item>
+    </plurals>
+    <string name="looks_new">Новый образ</string>
+    <string name="looks_edit_title">Изменить образ</string>
+    <string name="looks_in_look">В этом образе</string>
+    <string name="looks_not_included">Не в этом образе</string>
+    <string name="looks_save_apply">Сохранить и применить</string>
+    <string name="looks_saved">«<xliff:g id="name" example="Sunday">%1$s</xliff:g>» сохранён</string>
+    <string name="looks_delete_confirm">Удалить «<xliff:g id="name" example="Sunday">%1$s</xliff:g>»?</string>
+    <string name="looks_rr_wallpaper">Обои RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Насыщенность акцента</string>
+    <string name="looks_part_clock_chip">Чип часов в строке состояния</string>
+    <string name="looks_part_edge_style">Стиль подсветки краёв</string>
+    <string name="looks_scan_hint">Наведите камеру на QR-код образа</string>
+    <string name="looks_scan_failed">Не удалось открыть камеру</string>
+    <string name="look_roulette_title">Рулетка образов</string>
+    <string-array name="look_roulette_entries">
+        <item>"Отключено"</item>
+        <item>Новый образ при каждой разблокировке</item>
+        <item>Новый образ каждый день</item>
+    </string-array>
 </resources>

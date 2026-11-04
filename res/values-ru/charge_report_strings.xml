@@ -5,4 +5,29 @@
     <string name="charge_report_temp">"Температура"</string>
     <string name="charge_report_time">"Время"</string>
     <string name="charge_report_wireless">Беспроводной</string>
+    <string name="charge_report_title">Отчёты о зарядке</string>
+    <string name="charge_report_summary">Сводка по каждой зарядке при отключении</string>
+    <string name="charge_report_min_title">Только если добавлено не менее</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 дня</item>
+        <item>7 дней</item>
+        <item>14 дней</item>
+        <item>30 дней</item>
+    </string-array>
+    <string name="charge_report_history_days">Последние <xliff:g id="days" example="7">%1$d</xliff:g> дн.</string>
+    <string name="charge_report_today">Сегодня, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Вчера, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> мин</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> ч <xliff:g id="minutes" example="02">%2$02d</xliff:g> мин</string>
+    <string name="charge_report_watts">Ватты</string>
+    <string name="charge_report_added">Добавлено</string>
+    <string name="charge_report_peak">Пик</string>
+    <string name="charge_report_average">Среднее</string>
+    <string name="charge_report_max_temp">Макс. темп.</string>
+    <string name="charge_report_charger">Зарядное устройство</string>
+    <string name="charge_report_started">Начато с</string>
+    <string name="charge_report_wired">Проводная</string>
+    <string name="charge_report_dock">Док-станция</string>
+    <string name="charge_report_empty">Зарядок пока нет</string>
+    <string name="charge_report_footer">SystemUI считывает ток, напряжение и температуру батареи каждые 30 секунд, пока телефон подключён. Ватты измеряет сам телефон, поэтому они могут отличаться от значения на зарядном устройстве. Отчёты остаются на телефоне и никуда не отправляются.</string>
 </resources>

@@ -88,4 +88,211 @@
     <string name="remixer_settings_style">Gaya setelan</string>
     <string name="remixer_settings_style_original">"Asli"</string>
     <string name="remixer_navbar_category">"Menu navigasi"</string>
+    <string name="remixer_dashboard_summary">Status bar, tema, layar kunci, dan lainnya</string>
+    <string name="rr_homepage_battery_saver">Penghemat baterai</string>
+    <string name="rr_homepage_personalize">Personalisasi</string>
+    <string name="rr_homepage_free"><xliff:g id="size" example="194 GB">%1$s</xliff:g> kosong</string>
+    <string name="rr_homepage_charged">Terisi penuh</string>
+    <string name="rr_homepage_on_battery">Pakai baterai</string>
+    <string name="rr_homepage_saver_on">Penghemat baterai aktif</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> perangkat</item>
+    </plurals>
+    <string name="rr_homepage_extras">Setelan tambahan</string>
+    <string name="rr_homepage_saver">Hemat</string>
+    <string name="rr_homepage_signed_out">Belum login</string>
+    <string name="rr_homepage_remixer_tagline">Jadikan milik Anda. Status bar, tema, layar kunci, dan lainnya.</string>
+    <string name="rr_homepage_device_tagline">Penggeser notifikasi, layar, pengisian daya, dan GameBar.</string>
+    <string name="rr_homepage_device_action">Setel</string>
+    <string name="rr_group_network">Jaringan &amp; perangkat</string>
+    <string name="rr_group_network_summary">Wi‑Fi, seluler, Bluetooth</string>
+    <string name="rr_group_apps_summary">Aplikasi, notifikasi, Mode</string>
+    <string name="rr_group_display">Layar &amp; suara</string>
+    <string name="rr_group_display_summary">Layar, wallpaper, suara</string>
+    <string name="rr_group_security_summary">Kunci, lokasi, darurat</string>
+    <string name="rr_group_security_center">Pusat keamanan</string>
+    <string name="rr_group_accounts">Google &amp; akun</string>
+    <string name="rr_group_accounts_summary">Google, sandi, cadangan</string>
+    <string name="rr_group_accounts_plain_summary">Sandi, akun, cadangan</string>
+    <string name="rr_group_system_summary">Bahasa, gestur, update</string>
+    <string name="remixer_tagline">Jadikan milik Anda.</string>
+    <string name="remixer_remix">Remix sekarang</string>
+    <string name="remixer_remixed">Di-remix dengan <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g></string>
+    <string name="remixer_chip_shade_default">Rona · Default</string>
+    <string name="remixer_quick">Remix cepat</string>
+    <string name="remixer_everything">Semuanya</string>
+    <string name="remixer_quick_accents">Preset atau warna apa pun</string>
+    <string name="remixer_quick_fonts">Gaya font sistem</string>
+    <string name="remixer_quick_walls">Koleksi RR</string>
+    <string name="remixer_quick_header">Header Setelan Cepat</string>
+    <string name="remixer_quick_header_summary">Gambar header</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">Jam, baterai, ikon, dan lalu lintas jaringan</string>
+    <string name="remixer_qs_summary">Gambar header</string>
+    <string name="remixer_notifications_summary">Lampu tepi, ikon aplikasi, dan suara pengisian daya</string>
+    <string name="remixer_theme_summary">Font, aksen, dan wallpaper</string>
+    <string name="remixer_lockscreen_summary">UDFPS, info pengisian daya, dan cuaca</string>
+    <string name="remixer_udfps_icon_summary">Ditampilkan di atas sensor sidik jari</string>
+    <string name="remixer_udfps_animation_summary">Diputar saat jari Anda ada di sensor</string>
+    <string name="remixer_navigation_summary">Pulse, tombol, dan menu navigasi</string>
+    <string name="remixer_misc_summary">Volume, pencadangan, spoofing, scrolling, dan USB</string>
+    <string name="misc_category_volume">Volume</string>
+    <string name="scroll_haptics_title">Ketukan di akhir scroll</string>
+    <string name="scroll_haptics_summary">Getaran ringan saat daftar atau halaman tidak bisa digulir lagi</string>
+    <string name="usb_mode_picker_title">Pemilih mode USB</string>
+    <string name="usb_mode_picker_summary">Pilih mode saat terhubung ke komputer</string>
+    <string name="remixer_fonts_summary">Font sistem</string>
+    <string name="remixer_wallpapers_summary">Wallpaper Resurrected Remix</string>
+    <string name="remixer_accents">Aksen</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">Visualisasi musik di bagian bawah layar</string>
+    <string name="pulse_switch">Gunakan Pulse</string>
+    <string name="pulse_switch_summary">Batang musik di bagian bawah layar saat media diputar</string>
+    <string name="pulse_style_lines">Garis</string>
+    <string name="pulse_style_fading">Memudar</string>
+    <string name="pulse_style_blocks">Blok</string>
+    <string name="pulse_style_mirror">Cermin</string>
+    <string name="pulse_color_custom">Kustom</string>
+    <string name="pulse_color_accent">Wallpaper</string>
+    <string name="pulse_color_gradient">Pelangi</string>
+    <string name="pulse_bars">Batang</string>
+    <string name="pulse_bars_value">Batang · %1$d</string>
+    <string name="pulse_height">Tinggi</string>
+    <string name="pulse_height_value">Tinggi · %1$d dp</string>
+    <string name="pulse_opacity">Opasitas</string>
+    <string name="pulse_opacity_value">Opasitas · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">Pertahankan batang di layar kunci saat musik diputar</string>
+    <string name="pulse_failed">Tidak dapat menyimpan setelan Pulse tersebut</string>
+    <string name="accent_applied">Aksen diterapkan</string>
+    <string name="accent_current">Aksen · %1$s</string>
+    <string name="accent_current_custom">Aksen · Kustom</string>
+    <string name="accent_preview_tonal">Tonal</string>
+    <string name="accent_failed">Tidak dapat menerapkan aksen tersebut</string>
+    <string name="accent_custom">Kustom</string>
+    <string name="accent_custom_summary">Warna apa pun bisa. Rona tetap diterapkan di atasnya.</string>
+    <string name="accent_custom_pad">Saturasi dan kecerahan</string>
+    <string name="accent_custom_use">Gunakan <xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">Rona</string>
+    <string name="accent_shade_default">Default</string>
+    <string name="accent_shade_darker">Lebih gelap</string>
+    <string name="accent_shade_lighter">Lebih terang</string>
+    <string name="accent_shade_darker_value">Lebih gelap · %1$d</string>
+    <string name="accent_shade_lighter_value">Lebih terang · %1$d</string>
+    <string name="remixer_qs_style">Gaya Setelan Cepat</string>
+    <string name="remixer_qs_customize_summary">Buka Setelan Cepat dan ketuk pensil. Ketuk kartu untuk melihat opsi dan tampilannya, tahan untuk memindahkannya, tarik sudutnya untuk mengubah ukuran, dan gunakan tab di bawah panel untuk seluruh panel.</string>
+    <string name="remixer_qs_style_preview">Pratinjau · %1$s</string>
+    <string name="remixer_qs_style_note">Setiap gaya mengikuti warna aksen Anda. Panel volume memiliki tampilan serasi Bento, Bentuk, Blueprint, Duo, dan Lembut. Stock Lineage membiarkan kartu Android 17 apa adanya.</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Kartu Android 17, tanpa perubahan</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">Kecerahan dalam kartu aksen. Kartu terisi gradien aksen</string>
+    <string name="remixer_qs_style_compact">Ringkas</string>
+    <string name="remixer_qs_style_compact_summary">Kartu lebih pendek. Lebih banyak dalam satu layar</string>
+    <string name="remixer_qs_style_glass">Kaca</string>
+    <string name="remixer_qs_style_glass_summary">Kartu tembus pandang berkontur yang menyala dengan warna aksen saat aktif</string>
+    <string name="remixer_qs_style_circles">Lingkaran</string>
+    <string name="remixer_qs_style_circles_summary">Tombol bulat dengan label. Kartu lebar menjadi kartu besar</string>
+    <string name="remixer_qs_style_classic">Klasik</string>
+    <string name="remixer_qs_style_classic_summary">RR lawas: ikon polos dengan label, lima per baris, penggeser tipis</string>
+    <string name="remixer_qs_style_cards">Kartu besar</string>
+    <string name="remixer_qs_style_cards_summary">Kartu besar dengan status di bawah setiap nama, tiga per baris</string>
+    <string name="remixer_qs_style_neon">Neon</string>
+    <string name="remixer_qs_style_neon_summary">Kartu berkontur yang menyala dengan warna aksen saat aktif</string>
+    <string name="remixer_qs_style_bento_summary">Blok besar membulat berisi warna aksen, label di bawah yang kecil</string>
+    <string name="remixer_qs_style_shapes">Bentuk</string>
+    <string name="remixer_qs_style_shapes_summary">Tombol bulat yang menumbuhkan kelopak saat aktif, lima per baris</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">Kontur tipis dan huruf besar monospace</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">Kartu terbagi. Separuh ikon menyala dan beralih</string>
+    <string name="remixer_qs_style_soft">Lembut</string>
+    <string name="remixer_qs_style_soft_summary">Kartu timbul yang tertekan ke dalam saat aktif</string>
+    <string name="remixer_lock_media_style">Gaya pemutar media</string>
+    <string name="remixer_lock_media_same">Sama seperti Setelan Cepat</string>
+    <string name="remixer_lock_media_same_summary">Mengikuti kartu Media Setelan Cepat, sekarang %1$s</string>
+    <string name="remixer_lock_media_off_summary">Tanpa pemutar di layar kunci</string>
+    <string name="remixer_lock_media_note">Kartu muncul di layar kunci saat ada yang diputar. Gaya tembus pandang mendapat latar gelap agar tetap terbaca di atas wallpaper.</string>
+    <string name="remixer_lock_media_stock_summary">Sampul album memenuhi kartu</string>
+    <string name="remixer_lock_media_remix_summary">Kartu gelap, tombol putar warna aksen</string>
+    <string name="remixer_lock_media_compact_summary">Kartu lebih bulat, sampul bulat</string>
+    <string name="remixer_lock_media_glass_summary">Kartu tembus pandang berkontur</string>
+    <string name="remixer_lock_media_circles_summary">Kartu lembut, tombol putar warna aksen</string>
+    <string name="remixer_lock_media_classic_summary">Kartu lebih persegi, tombol putar berkontur</string>
+    <string name="remixer_lock_media_cards_summary">Kartu lembut, tombol putar warna aksen, seperti Lingkaran</string>
+    <string name="remixer_lock_media_neon_summary">Kartu hitam dengan kontur warna aksen</string>
+    <string name="remixer_lock_media_bento_summary">Kartu lembut, tombol putar warna aksen</string>
+    <string name="remixer_lock_media_shapes_summary">Kartu lebih bulat, tombol putar warna aksen</string>
+    <string name="remixer_lock_media_blueprint_summary">Kontur tipis, tombol putar berkontur</string>
+    <string name="remixer_lock_media_duo_summary">Kartu dua warna, tombol putar warna aksen</string>
+    <string name="remixer_lock_media_soft_summary">Kartu timbul dengan tepi miring</string>
+    <string name="remixer_headers">Gambar header</string>
+    <string name="header_switch">Gunakan gambar header</string>
+    <string name="header_switch_summary">Tampilkan gambar di belakang Setelan Cepat</string>
+    <string name="header_source">Sumber</string>
+    <string name="header_source_collection">Koleksi</string>
+    <string name="header_collections_summary_daylight">Header mengikuti waktu atau berganti-ganti dalam koleksi</string>
+    <string name="header_collections_summary_static">Buka koleksi, lalu ketuk gambar untuk menggunakannya</string>
+    <string name="header_collections_empty">Tidak ada koleksi header terpasang</string>
+    <string name="header_images_daylight">Dalam koleksi ini</string>
+    <plurals name="header_image_count">
+        <item quantity="other">%d gambar</item>
+    </plurals>
+    <string name="header_photo_summary">Foto atau GIF animasi apa pun dari galeri Anda</string>
+    <string name="header_height">Tinggi</string>
+    <string name="header_height_value">Tinggi · %1$d dp</string>
+    <string name="header_shadow">Redup</string>
+    <string name="header_shadow_value">Redup · %1$d%%</string>
+    <string name="header_failed">Tidak dapat menyimpan setelan header tersebut</string>
+    <string name="remixer_weather_summary">Layanan cuaca dan satuan</string>
+    <string name="font_default">Default</string>
+    <string name="font_preview_notification">Beginilah tampilan teks di ponsel Anda.</string>
+    <string name="font_try_text">Coba teks Anda sendiri</string>
+    <string name="font_previewing">Pratinjau</string>
+    <string name="font_current">Font saat ini</string>
+    <string name="font_badge_current">Saat ini</string>
+    <string name="font_apply_done">Diterapkan</string>
+    <string name="font_filter_sans">Sans</string>
+    <string name="font_filter_display">Display</string>
+    <string name="font_filter_script">Script</string>
+    <string name="font_filter_mono">Mono</string>
+    <string name="font_applied">Font diterapkan</string>
+    <string name="font_failed">Tidak dapat menerapkan font tersebut</string>
+    <string name="wallpaper_set">Wallpaper disetel</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="other">%d wallpaper dari Resurrected Remix. Ketuk salah satu untuk melihat pratinjau.</item>
+    </plurals>
+    <string name="wallpaper_apply_both">Keduanya</string>
+    <string name="wallpaper_failed">Tidak dapat menyetel wallpaper tersebut</string>
+    <string name="missing_app">Aplikasi tersebut tidak terinstal</string>
+    <string name="remixer_spoofing">Spoofing</string>
+    <string name="remixer_spoofing_summary">Play Integrity, identitas perangkat, dan spoofing per aplikasi</string>
+    <string name="remixer_settings_tile_hues">Kartu kategori berwarna</string>
+    <string name="remixer_settings_tile_hues_summary">Setiap kartu mengambil hue di dekat aksen Anda. Nonaktif berarti semuanya memakai aksen.</string>
+    <string name="rr_maintainer">Pengelola</string>
+    <string name="remixer_navbar_summary">Panjang, ketebalan, dan tata letak pil</string>
+    <string name="remixer_navbar_pill_length">Panjang pil gestur</string>
+    <string name="remixer_navbar_pill_thickness">Ketebalan pil gestur</string>
+    <string name="remixer_navbar_pill_auto_hide">Pudarkan pil gestur</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">Sembunyikan pil setelah beberapa detik; muncul lagi saat Anda menyentuh layar</string>
+    <string name="remixer_navbar_ime">Tombol keyboard</string>
+    <string name="remixer_navbar_ime_summary">Tampilkan tombol kembali dan pengalih keyboard di bawah keyboard</string>
+    <string name="remixer_navbar_layout">Tata letak tombol</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>Pendek</item>
+        <item>Normal</item>
+        <item>Panjang</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>Paling tipis</item>
+        <item>Lebih tipis</item>
+        <item>Tipis</item>
+        <item>Normal</item>
+        <item>Tebal</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>Normal</item>
+        <item>Ringkas</item>
+        <item>"Condong ke kiri"</item>
+        <item>"Condong ke kanan"</item>
+    </string-array>
 </resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Hintergrund"</item>
+        <item>Resurrected</item>
+        <item>Android One Grün</item>
+        <item>Aospa Grün</item>
+        <item>Coca-Cola Rot</item>
+        <item>Discord Lila</item>
+        <item>Facebook Blau</item>
+        <item>Instagram Kirschrot</item>
+        <item>Jollibee Karmesin</item>
+        <item>Monster Energy Grün</item>
+        <item>Nextbit Mint</item>
+        <item>OnePlus Rot</item>
+        <item>Pepsi Blau</item>
+        <item>Pixel Blau</item>
+        <item>Pocophone Gelb</item>
+        <item>Razer Grün</item>
+        <item>Samsung Blau</item>
+        <item>Spotify Grün</item>
+        <item>Starbucks Grün</item>
+        <item>Twitch Lila</item>
+        <item>Twitter Blau</item>
+        <item>Xiaomi Orange</item>
+        <item>Bernstein</item>
+        <item>"Schwarz"</item>
+        <item>"Blau"</item>
+        <item>Blaugrau</item>
+        <item>Braun</item>
+        <item>Cyan</item>
+        <item>Tieforange</item>
+        <item>Tieflila</item>
+        <item>"Grün"</item>
+        <item>"Grau"</item>
+        <item>Indigo</item>
+        <item>Hellblau</item>
+        <item>Limette</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>"Lila"</item>
+        <item>"Rot"</item>
+        <item>"Blaugrün"</item>
+        <item>Benutzer fünf</item>
+        <item>Benutzer vier</item>
+        <item>Benutzer eins</item>
+        <item>Benutzer sieben</item>
+        <item>Benutzer sechs</item>
+        <item>Benutzer drei</item>
+        <item>Benutzer zwei</item>
+        <item>"Weiß"</item>
+        <item>"Gelb"</item>
+    </string-array>
+</resources>

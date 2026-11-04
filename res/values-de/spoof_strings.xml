@@ -29,4 +29,5 @@
     <string name="ts_untrusted_root_keep">"Beibehalten"</string>
     <string name="ts_untrusted_root_replace">"Ersetzen"</string>
     <string name="ts_verification_mode_auto">"Automatisch"</string>
+    <string name="ts_mode_skip">Überspringen</string>
 </resources>

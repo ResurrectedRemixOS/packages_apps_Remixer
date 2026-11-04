@@ -13,4 +13,41 @@
     <string name="backup_group_other">"Sonstige"</string>
     <string name="backup_done">"Fertig"</string>
     <string name="volume_style_title">Stil der Lautstärkeanzeige</string>
+    <string name="backup_summary">Alle RR-Anpassungen in einer Datei</string>
+    <string name="backup_now">Jetzt sichern</string>
+    <string name="backup_never">Letzte Sicherung: nie</string>
+    <string name="backup_last">Letzte Sicherung: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Aus einer Datei wiederherstellen</string>
+    <string name="backup_restore_summary">Sicherungsdatei auswählen</string>
+    <string name="backup_included">Enthalten</string>
+    <string name="backup_part_theme">Akzent, Schriftart und Symbole</string>
+    <string name="backup_part_header">Header-Bild</string>
+    <string name="backup_part_photo">Header-Bild (dein Foto)</string>
+    <string name="backup_part_photo_summary">Macht die Datei größer</string>
+    <string name="backup_part_looks">Deine Looks</string>
+    <string name="backup_weekly">Wöchentliche Sicherung</string>
+    <string name="backup_weekly_summary">In einen Ordner deiner Wahl</string>
+    <string name="backup_weekly_on">Jede Woche nach <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Vor Updates eine Sicherung anbieten</string>
+    <string name="backup_offer_summary">Der Updater fragt vor der Installation</string>
+    <string name="backup_sets">Setzt <xliff:g id="count" example="64">%1$d</xliff:g> Einstellungen</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> Einstellungen gespeichert</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> Einstellungen wiederhergestellt</string>
+    <string name="backup_restored_message">SystemUI startet neu, um sie anzuwenden.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> Einstellungen gibt es in diesem Build nicht, sie wurden übersprungen.</string>
+    <string name="backup_failed">Die Sicherung konnte nicht gespeichert werden</string>
+    <string name="backup_invalid">Diese Datei ist keine Resurrected Remix-Sicherung</string>
+    <string name="backup_footer">In die Datei kommen nur RR-Einstellungen: keine Konten, Passwörter, WLAN-Netze, Apps oder Nachrichten. Beim Wiederherstellen werden nur Einstellungen aus der eigenen RR-Liste geschrieben, eine Sicherungsdatei kann also nichts anderes auf dem Smartphone ändern. Dein Header-Foto wird nur mit eingeschaltetem Schalter eingefügt, weil es die Datei größer macht.</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Glas</item>
+        <item>Leiste</item>
+        <item>Klassisches RR</item>
+        <item>Bento</item>
+        <item>Formen</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Weich</item>
+    </string-array>
 </resources>

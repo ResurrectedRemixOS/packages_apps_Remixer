@@ -14,4 +14,97 @@
     <string name="now_bar_buttons">Кнопки</string>
     <string name="now_bar_text">Текст</string>
     <string name="now_bar_text_size">"Размер текста"</string>
+    <string name="now_bar_summary">Активные действия внизу экрана блокировки</string>
+    <string name="now_bar_show">Показать</string>
+    <string name="now_bar_music">Музыка и видео</string>
+    <string name="now_bar_timers">Таймеры, секундомер и будильники</string>
+    <string name="now_bar_hide_call">Скрывать уведомление о вызове</string>
+    <string name="now_bar_hide_call_summary">На экране блокировки вызов в Now Bar не дублируется уведомлением</string>
+    <string name="now_bar_live">Обновления в реальном времени</string>
+    <string name="now_bar_live_summary">Навигация, поездки, доставка, счёт матчей</string>
+    <string name="now_bar_scores">Счёт матчей</string>
+    <string name="now_bar_live_apps">Приложения для обновлений в реальном времени</string>
+    <string name="now_bar_live_apps_count">Приложений: <xliff:g id="count" example="2">%1$d</xliff:g></string>
+    <string name="now_bar_pin">Закреплено на Always On Display</string>
+    <string name="now_bar_pin_none">Нет. Удерживайте обновление на панели, чтобы закрепить его</string>
+    <string name="now_bar_unpin_question">Открепить <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Открепить</string>
+    <string name="now_bar_scores_summary">Матчи, за которыми вы следите в «Коротко о главном»</string>
+    <string name="now_bar_glance_settings">Настройки «Коротко о главном»</string>
+    <string name="now_bar_glance_settings_summary">Включите «Спорт» и подпишитесь на команды в приложении Google</string>
+    <string name="now_bar_recording">Запись экрана и голоса</string>
+    <string name="now_bar_buds">Наушники и часы</string>
+    <string name="now_bar_buds_summary">Батарея подключённого устройства: левый, правый наушник и кейс</string>
+    <string name="now_bar_wave">Анимация волны</string>
+    <string name="now_bar_chip">Чип в строке состояния</string>
+    <string name="now_bar_chip_summary">Музыка и таймеры рядом с часами на разблокированном телефоне</string>
+    <string name="now_bar_footer">Когда музыка в Now Bar, большой плеер на экране блокировки скрыт. Смахните панель, чтобы переключать действия, нажмите, чтобы открыть управление, удерживайте, чтобы скрыть действие до его окончания. Смахните приостановленную песню с панели, чтобы убрать её.\n\nСчёт матчей показывает игры команд, на которые вы подписаны в приложении Google. Со Smartspacer добавьте там спортивную цель, и счёт появится здесь.</string>
+    <string name="now_bar_looks">Образы</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"По умолчанию"</item>
+        <item>Liquid Glass</item>
+        <item>Мини</item>
+        <item>Большой</item>
+        <item>Неон</item>
+        <item>Стеклянная карточка</item>
+    </string-array>
+    <string name="now_bar_material">Материал</string>
+    <string name="now_bar_material_summary">Liquid Glass использует стекло, заданное в разделе «Тема»</string>
+    <string-array name="now_bar_material_entries">
+        <item>Сплошной</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Обложка альбома</item>
+        <item>Акцент</item>
+        <item>Тёмный</item>
+    </string-array>
+    <string name="now_bar_opacity">Непрозрачность</string>
+    <string name="now_bar_opacity_summary">С Liquid Glass определяет, насколько цвет окрашивает стекло</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Нет"</item>
+        <item>Тонкая</item>
+        <item>Акцент</item>
+    </string-array>
+    <string name="now_bar_shadow">Тень</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Отключено"</item>
+        <item>Мягкий</item>
+        <item>Свечение</item>
+    </string-array>
+    <string name="now_bar_more">Другие действия</string>
+    <string-array name="now_bar_more_entries">
+        <item>Просто смахнуть</item>
+        <item>Точки</item>
+        <item>Выглядывают сзади</item>
+    </string-array>
+    <string name="now_bar_size">Размер и форма</string>
+    <string name="now_bar_height">Высота</string>
+    <string name="now_bar_width_summary">В режиме «Полный» ярлыки перемещаются над панелью</string>
+    <string-array name="now_bar_width_entries">
+        <item>Узкий</item>
+        <item>Между ярлыками</item>
+        <item>Полный</item>
+    </string-array>
+    <string name="now_bar_corners">Углы</string>
+    <string name="now_bar_raise">Приподнять</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Круг"</item>
+        <item>Скруглённый</item>
+        <item>"Квадрат"</item>
+        <item>"Отключено"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Пропуск и воспроизведение</item>
+        <item>Только воспроизведение</item>
+        <item>"Нет"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Одна строка</item>
+        <item>Две строки</item>
+        <item>Только песня</item>
+    </string-array>
+    <string name="now_bar_show_page">Что показывать на панели</string>
+    <string name="now_bar_show_page_summary">Музыка и видео, таймеры, вызовы и не только</string>
+    <string name="now_bar_where">Где ещё</string>
 </resources>

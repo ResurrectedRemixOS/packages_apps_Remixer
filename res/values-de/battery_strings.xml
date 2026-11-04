@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Akku"</string>
     <string name="battery_style_title">"Stil"</string>
+    <string-array name="battery_style_entries">
+        <item>Hochformat</item>
+        <item>"Kreis"</item>
+        <item>Kreis (gepunktet)</item>
+        <item>Neonring</item>
+        <item>Schmale Leiste</item>
+        <item>Große Prozentanzeige</item>
+        <item>Text</item>
+    </string-array>
+    <string name="battery_percent_title">Prozent</string>
+    <string-array name="battery_percent_entries">
+        <item>Ausgeblendet</item>
+        <item>Innerhalb des Symbols</item>
+        <item>Daneben</item>
+    </string-array>
+    <string name="battery_ring_color_title">Neonring-Farbe</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Nach Stand heißt Akzent über 20%%, Rot darunter und Bernstein im Energiesparmodus.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Nach Stand</item>
+        <item>Akzent</item>
+        <item>"Weiß"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Funke beim Laden</string>
+    <string name="battery_ring_tile_title">Derselbe Ring auf der Schnelleinstellungen-Kachel</string>
+    <string name="battery_ring_tile_summary">Mit Stand und Displayzeit</string>
 </resources>

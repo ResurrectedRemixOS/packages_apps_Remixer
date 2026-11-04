@@ -3,4 +3,23 @@
     <string name="nightstand_when">"Когда"</string>
     <string name="nightstand_face">Циферблат часов</string>
     <string name="lock_stage_tab_lock">"Заблокированный экран"</string>
+    <string name="nightstand_title">Ночник</string>
+    <string name="nightstand_summary">Тусклые прикроватные часы на Always On Display при ночной зарядке</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Отключено"</item>
+        <item>На зарядке ночью</item>
+        <item>Каждую ночь, по расписанию</item>
+        <item>Пока включён режим «Отход ко сну»</item>
+    </string-array>
+    <string name="nightstand_from">Начало ночи</string>
+    <string name="nightstand_to">Конец ночи</string>
+    <string name="nightstand_brightness">Предел яркости</string>
+    <string name="nightstand_brightness_summary">Насколько ярким может быть Always On Display, пока работает Ночник</string>
+    <string name="nightstand_face_keep">Оставить текущий циферблат</string>
+    <string name="nightstand_layout">Изменить макет</string>
+    <string name="nightstand_layout_summary">У Ночника свой Lock Stage: для начала часы, будильник и кольцо батареи</string>
+    <string name="nightstand_footer">Ночник включает Always On Display на время работы и потом возвращает как было. Он завершается, когда отключается зарядка, звонит будильник или кончается ночь. Циферблат меняется только между двумя своими циферблатами; системные часы остаются.</string>
+    <string name="lock_stage_tab_page">Страница <xliff:g id="number" example="2">%d</xliff:g></string>
+    <string name="lock_stage_remove_page">Удалить страницу <xliff:g id="number" example="2">%d</xliff:g>?</string>
+    <string name="lock_stage_tab_night">Ночник</string>
 </resources>

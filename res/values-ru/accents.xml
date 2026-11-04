@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Обои"</item>
+        <item>Resurrected</item>
+        <item>Зелёный Android One</item>
+        <item>Зелёный Aospa</item>
+        <item>Красный Coca-Cola</item>
+        <item>Фиолетовый Discord</item>
+        <item>Синий Facebook</item>
+        <item>Вишнёвый Instagram</item>
+        <item>Малиновый Jollibee</item>
+        <item>Зелёный Monster Energy</item>
+        <item>Мятный Nextbit</item>
+        <item>Красный OnePlus</item>
+        <item>Синий Pepsi</item>
+        <item>Синий Pixel</item>
+        <item>Жёлтый Pocophone</item>
+        <item>Зелёный Razer</item>
+        <item>Синий Samsung</item>
+        <item>Зелёный Spotify</item>
+        <item>Зелёный Starbucks</item>
+        <item>Фиолетовый Twitch</item>
+        <item>Голубой Twitter</item>
+        <item>Оранжевый Xiaomi</item>
+        <item>Янтарный</item>
+        <item>"Черный"</item>
+        <item>"Синий"</item>
+        <item>Серо-голубой</item>
+        <item>Коричневый</item>
+        <item>"Голубой"</item>
+        <item>Тёмно-оранжевый</item>
+        <item>Тёмно-фиолетовый</item>
+        <item>"Зеленый"</item>
+        <item>"Серый"</item>
+        <item>"Индиго"</item>
+        <item>Светло-голубой</item>
+        <item>Лаймовый</item>
+        <item>"Оранжевый"</item>
+        <item>"Розовый"</item>
+        <item>"Фиолетовый"</item>
+        <item>"Красный"</item>
+        <item>"Темно-бирюзовый"</item>
+        <item>Пользовательский пять</item>
+        <item>Пользовательский четыре</item>
+        <item>Пользовательский один</item>
+        <item>Пользовательский семь</item>
+        <item>Пользовательский шесть</item>
+        <item>Пользовательский три</item>
+        <item>Пользовательский два</item>
+        <item>"Белый"</item>
+        <item>"Желтый"</item>
+    </string-array>
+</resources>

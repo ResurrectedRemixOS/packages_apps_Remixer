@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Standard"</string>
     <string name="clock_faces_size">"Größe"</string>
     <string name="clock_faces_restart">"Neu starten"</string>
+    <string name="remixer_clock_faces">Zifferblätter</string>
+    <string name="clock_faces_system">Systemuhr</string>
+    <string name="clock_faces_system_desc">Die Uhr aus Hintergrund &amp; Stil</string>
+    <string name="clock_faces_position">%1$d von %2$d</string>
+    <string name="clock_faces_applied">Angewendet</string>
+    <string name="clock_faces_preview_unavailable">Vorschau nicht verfügbar</string>
+    <string name="clock_faces_failed">Die Uhr konnte nicht geändert werden</string>
+    <string name="clock_faces_color_accent">Akzent</string>
+    <string name="clock_faces_color_custom">Benutzerdefiniert</string>
+    <string name="clock_faces_color_album">Albumcover</string>
+    <string name="clock_faces_color_gradient">Farbverlauf</string>
+    <string name="clock_faces_own_colors">Dieses Zifferblatt behält seine eigenen Farben.</string>
+    <string name="clock_faces_album_hint">Übernimmt bei Musikwiedergabe die Farbe des Albumcovers.</string>
+    <string name="clock_faces_size_position">Größe und Position</string>
+    <string name="clock_faces_size_value">Größe · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Abstand von oben</string>
+    <string name="clock_faces_top_value">Abstand von oben · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Horizontale Position</string>
+    <string name="clock_faces_horizontal_center">Horizontale Position · Mitte</string>
+    <string name="clock_faces_horizontal_right">Horizontale Position · <xliff:g id="dp" example="24">%1$d</xliff:g> dp rechts</string>
+    <string name="clock_faces_horizontal_left">Horizontale Position · <xliff:g id="dp" example="24">%1$d</xliff:g> dp links</string>
+    <string name="clock_faces_horizontal_fixed">Dieses Zifferblatt bleibt zentriert.</string>
+    <string name="clock_faces_opacity">Deckkraft</string>
+    <string name="clock_faces_opacity_value">Deckkraft · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Bewegung</string>
+    <string name="clock_faces_wobble">Wackeln beim Laden</string>
+    <string name="clock_faces_wobble_summary">Hüpft einmal beim Einstecken</string>
+    <string name="clock_faces_aod_anim">Übergang zum Always-on-Display</string>
+    <string name="clock_faces_aod_anim_summary">Lässt die Uhr schrumpfen und ins Always-on-Display übergehen</string>
+    <string name="clock_faces_restart_title">Sperrbildschirm neu starten?</string>
+    <string name="clock_faces_restart_message">Der Wechsel zwischen Systemuhr und eigenen Zifferblättern startet SystemUI neu. Der Bildschirm wird kurz dunkel.</string>
+    <string name="clock_faces_note">Vorschauen zeichnet SystemUI auf deinem Sperrbildschirm-Hintergrund. Farbe, Größe und Position ändern den Sperrbildschirm sofort.</string>
 </resources>

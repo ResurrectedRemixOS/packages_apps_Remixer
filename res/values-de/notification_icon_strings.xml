@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="notification_icons_category">"Symbole"</string>
+    <string name="notification_app_icons_title">App-Symbole</string>
+    <string name="notification_app_icons_summary">Zeigt in Benachrichtigungen das App-Symbol statt des kleinen Zeichens</string>
 </resources>

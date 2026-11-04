@@ -3,4 +3,15 @@
     <string name="lockscreen_weather_details_category">"Details"</string>
     <string name="lockscreen_weather_location_title">"Standort"</string>
     <string name="lockscreen_weather_humidity_title">Luftfeuchtigkeit</string>
+    <string name="lockscreen_weather_title">Wetter auf dem Sperrbildschirm</string>
+    <string name="lockscreen_weather_location_summary">Stadtnamen anzeigen</string>
+    <string name="lockscreen_weather_text_title">Wetterlage</string>
+    <string name="lockscreen_weather_text_summary">Zeigt die Wetterlage, z. B. Bewölkt oder Klarer Himmel</string>
+    <string name="lockscreen_weather_wind_title">Wind</string>
+    <string name="lockscreen_weather_wind_summary">Zeigt Windgeschwindigkeit und -richtung</string>
+    <string name="lockscreen_weather_humidity_summary">Zeigt die Luftfeuchtigkeit</string>
+    <string name="custom_clock_weather_title">Wetter auf Zifferblättern</string>
+    <string name="custom_clock_weather_summary">Zeigt Wetter auf Zifferblättern, die Platz dafür haben</string>
+    <string name="remixer_weather_service">Wetterdienst</string>
+    <string name="remixer_weather_page_summary">Wetter auf dem Sperrbildschirm und was es zeigt</string>
 </resources>

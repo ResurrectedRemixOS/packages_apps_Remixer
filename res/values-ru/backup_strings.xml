@@ -13,4 +13,41 @@
     <string name="backup_group_other">"Другое"</string>
     <string name="backup_done">"Готово"</string>
     <string name="volume_style_title">Стили панели громкости</string>
+    <string name="backup_summary">Все настройки RR в одном файле</string>
+    <string name="backup_now">Создать копию</string>
+    <string name="backup_never">Последняя копия: никогда</string>
+    <string name="backup_last">Последняя копия: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Восстановить из файла</string>
+    <string name="backup_restore_summary">Выберите файл копии</string>
+    <string name="backup_included">Включено</string>
+    <string name="backup_part_theme">Акцент, шрифт и значки</string>
+    <string name="backup_part_header">Изображение заголовка</string>
+    <string name="backup_part_photo">Изображение заголовка (ваше фото)</string>
+    <string name="backup_part_photo_summary">Увеличивает размер файла</string>
+    <string name="backup_part_looks">Ваши образы</string>
+    <string name="backup_weekly">Еженедельная копия</string>
+    <string name="backup_weekly_summary">В выбранную вами папку</string>
+    <string name="backup_weekly_on">Каждую неделю в <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Предлагать копию перед обновлениями</string>
+    <string name="backup_offer_summary">Программа обновления спросит перед установкой</string>
+    <string name="backup_sets">Задаёт настроек: <xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_saved">Сохранено настроек: <xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_restored">Восстановлено настроек: <xliff:g id="count" example="64">%1$d</xliff:g></string>
+    <string name="backup_restored_message">SystemUI перезапустится, чтобы применить их.</string>
+    <string name="backup_skipped">Настроек нет в этой сборке, и они пропущены: <xliff:g id="count" example="2">%1$d</xliff:g>.</string>
+    <string name="backup_failed">Не удалось сохранить копию</string>
+    <string name="backup_invalid">Этот файл не является копией Resurrected Remix</string>
+    <string name="backup_footer">В файл попадают только настройки RR: никаких аккаунтов, паролей, сетей Wi-Fi, приложений или сообщений. Восстановление записывает только настройки из собственного списка RR, поэтому файл копии не может изменить на телефоне ничего другого. Фото заголовка включается, только если включён его переключатель, потому что оно увеличивает файл.</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Неон</item>
+        <item>Стекло</item>
+        <item>Полоска</item>
+        <item>Классический RR</item>
+        <item>Bento</item>
+        <item>Формы</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Мягкий</item>
+    </string-array>
 </resources>

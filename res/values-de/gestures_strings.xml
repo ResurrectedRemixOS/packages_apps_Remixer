@@ -8,4 +8,50 @@
         <item>"Mittel"</item>
         <item>"Groß"</item>
     </string-array>
+    <string name="pie_title">Kreissteuerung</string>
+    <string name="pie_summary">Halte den unteren Teil eines Rands für einen Kreis aus Verknüpfungen</string>
+    <string name="pie_zone">Teil des Rands</string>
+    <string name="pie_clock">Uhr und Akku darüber</string>
+    <string name="pie_items">Segmente</string>
+    <string-array name="pie_items_entries">
+        <item>"Zurück"</item>
+        <item>Startbildschirm</item>
+        <item>"Letzte"</item>
+        <item>"Benachrichtigungen"</item>
+        <item>Taschenlampe</item>
+        <item>"Screenshot"</item>
+        <item>"Ein/Aus-Menü"</item>
+        <item>Assistant</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Es braucht eine Viertelsekunde Halten ohne Bewegung, ein schnelles Wischen vom Rand geht also weiter zurück. Auf dem Sperrbildschirm öffnet es sich nicht.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Links"</item>
+        <item>"Rechts"</item>
+        <item>Beide</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Unteres Drittel</item>
+        <item>Mitte</item>
+        <item>Ganzer Rand</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Glas</item>
+        <item>Klassisch</item>
+    </string-array>
+    <string name="sidebar_style_title">Aussehen der App-Seitenleiste</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klassisch</item>
+        <item>RR-Glas</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">App-Seitenleiste</string>
+    <string name="sidebar_settings_summary">Wische vom Griff für deine Apps und Tools</string>
+    <string name="sidebar_apps_title">Apps, Griff und Zwischenablage</string>
+    <string name="sidebar_apps_summary">Griff einschalten, Apps wählen und die smarte Zwischenablage einrichten</string>
+    <string name="sidebar_handle_size_title">Griffgröße</string>
+    <string name="sidebar_tools_title">Tool-Reihe</string>
+    <string name="sidebar_tools_summary">Screenshot und Taschenlampe unter deinen Apps</string>
+    <string name="sidebar_footer">Der Griff ist eine dünne Linie in deinem Akzent; ziehe ihn, um ihn am Rand zu verschieben. Bei Gestennavigation belegt er nur seinen Teil des Rands, Zurück funktioniert überall sonst.</string>
 </resources>

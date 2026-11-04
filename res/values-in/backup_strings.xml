@@ -13,4 +13,41 @@
     <string name="backup_group_other">"Lainnya"</string>
     <string name="backup_done">"Selesai"</string>
     <string name="volume_style_title">Gaya panel volume</string>
+    <string name="backup_summary">Semua kustomisasi RR dalam satu file</string>
+    <string name="backup_now">Cadangkan sekarang</string>
+    <string name="backup_never">Cadangan terakhir: belum pernah</string>
+    <string name="backup_last">Cadangan terakhir: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Pulihkan dari file</string>
+    <string name="backup_restore_summary">Pilih file cadangan</string>
+    <string name="backup_included">Disertakan</string>
+    <string name="backup_part_theme">Aksen, font, dan ikon</string>
+    <string name="backup_part_header">Gambar header</string>
+    <string name="backup_part_photo">Gambar header (foto Anda)</string>
+    <string name="backup_part_photo_summary">Memperbesar file</string>
+    <string name="backup_part_looks">Tampilan Anda</string>
+    <string name="backup_weekly">Cadangan mingguan</string>
+    <string name="backup_weekly_summary">Ke folder pilihan Anda</string>
+    <string name="backup_weekly_on">Setiap minggu ke <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Tawarkan pencadangan sebelum update</string>
+    <string name="backup_offer_summary">Updater bertanya sebelum menginstal</string>
+    <string name="backup_sets">Menyetel <xliff:g id="count" example="64">%1$d</xliff:g> setelan</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> setelan disimpan</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> setelan dipulihkan</string>
+    <string name="backup_restored_message">SystemUI dimulai ulang untuk menerapkannya.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> setelan tidak ada di build ini dan dilewati.</string>
+    <string name="backup_failed">Tidak dapat menyimpan cadangan</string>
+    <string name="backup_invalid">File tersebut bukan cadangan Resurrected Remix</string>
+    <string name="backup_footer">Hanya setelan RR yang masuk ke file: tanpa akun, sandi, jaringan Wi-Fi, aplikasi, atau pesan. Pemulihan hanya menulis setelan dalam daftar RR, jadi file cadangan tidak dapat mengubah hal lain di ponsel. Foto header hanya disertakan jika tombolnya aktif, karena memperbesar file.</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Kaca</item>
+        <item>Pil</item>
+        <item>RR Klasik</item>
+        <item>Bento</item>
+        <item>Bentuk</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Lembut</item>
+    </string-array>
 </resources>

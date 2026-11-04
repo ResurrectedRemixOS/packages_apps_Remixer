@@ -11,4 +11,100 @@
     <string name="now_bar_music_category">"Musik"</string>
     <string name="now_bar_buttons">Tasten</string>
     <string name="now_bar_text_size">"Textgröße"</string>
+    <string name="now_bar_summary">Live-Aktivitäten unten auf dem Sperrbildschirm</string>
+    <string name="now_bar_show">Anzeigen</string>
+    <string name="now_bar_music">Musik und Video</string>
+    <string name="now_bar_timers">Timer, Stoppuhr und Wecker</string>
+    <string name="now_bar_hide_call">Anrufbenachrichtigung ausblenden</string>
+    <string name="now_bar_hide_call_summary">Auf dem Sperrbildschirm wird ein Anruf in der Now Bar nicht zusätzlich als Benachrichtigung angezeigt</string>
+    <string name="now_bar_live">Live-Updates</string>
+    <string name="now_bar_live_summary">Navigation, Fahrten, Lieferungen, Spielstände</string>
+    <string name="now_bar_scores">Live-Spielstände</string>
+    <string name="now_bar_live_apps">Apps für Live-Updates</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> Apps</string>
+    <string name="now_bar_pin">Ans Always-on-Display angepinnt</string>
+    <string name="now_bar_pin_none">Keine. Halte ein Live-Update in der Leiste, um es anzupinnen</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> lösen?</string>
+    <string name="now_bar_unpin">Lösen</string>
+    <string name="now_bar_scores_summary">Spiele, denen du in „Auf einen Blick“ folgst</string>
+    <string name="now_bar_glance_settings">„Auf einen Blick“-Einstellungen</string>
+    <string name="now_bar_glance_settings_summary">Schalte Sport ein und folge deinen Teams in der Google App</string>
+    <string name="now_bar_recording">Bildschirm- und Sprachaufnahme</string>
+    <string name="now_bar_buds">Earbuds und Uhren</string>
+    <string name="now_bar_buds_summary">Akku eines verbundenen Geräts: links, rechts und Ladecase bei Earbuds</string>
+    <string name="now_bar_wave">Wellenanimation</string>
+    <string name="now_bar_aod">Auf Always-on-Display anzeigen</string>
+    <string name="now_bar_chip">Chip in der Statusleiste</string>
+    <string name="now_bar_chip_summary">Musik und Timer neben der Uhr, wenn entsperrt</string>
+    <string name="now_bar_footer">Bei Musik in der Now Bar ist der große Player auf dem Sperrbildschirm ausgeblendet. Wische über die Leiste, um zwischen Aktivitäten zu wechseln, tippe darauf für die Steuerung und halte sie gedrückt, um eine bis zum Ende auszublenden. Wische einen pausierten Titel von der Leiste, um ihn zu entfernen.\n\nLive-Spielstände zeigen Spiele der Teams, denen du in der Google App folgst. Füge mit Smartspacer dort ein Sport-Ziel hinzu, dann erscheinen die Spielstände hier.</string>
+    <string name="now_bar_looks">Looks</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Standard"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Groß</item>
+        <item>Neon</item>
+        <item>Glaskarte</item>
+    </string-array>
+    <string name="now_bar_material">Material</string>
+    <string name="now_bar_material_summary">Liquid Glass nutzt das Glas, das du unter Design eingestellt hast</string>
+    <string-array name="now_bar_material_entries">
+        <item>Vollton</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Albumcover</item>
+        <item>Akzent</item>
+        <item>Dunkel</item>
+    </string-array>
+    <string name="now_bar_opacity">Deckkraft</string>
+    <string name="now_bar_opacity_summary">Bei Liquid Glass: wie stark die Farbe das Glas tönt</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Keine"</item>
+        <item>Dünn</item>
+        <item>Akzent</item>
+    </string-array>
+    <string name="now_bar_shadow">Schatten</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Aus"</item>
+        <item>Weich</item>
+        <item>Leuchten</item>
+    </string-array>
+    <string name="now_bar_more">Weitere Aktivitäten</string>
+    <string-array name="now_bar_more_entries">
+        <item>Nur wischen</item>
+        <item>Punkte</item>
+        <item>Dahinter hervorschauen</item>
+    </string-array>
+    <string name="now_bar_size">Größe und Form</string>
+    <string name="now_bar_height">Höhe</string>
+    <string name="now_bar_width_summary">Voll verschiebt die Verknüpfungen über die Leiste</string>
+    <string-array name="now_bar_width_entries">
+        <item>Schmal</item>
+        <item>Zwischen Verknüpfungen</item>
+        <item>Voll</item>
+    </string-array>
+    <string name="now_bar_corners">Ecken</string>
+    <string name="now_bar_raise">Anheben</string>
+    <string name="now_bar_art">Albumcover</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Kreis"</item>
+        <item>Abgerundet</item>
+        <item>"Quadrat"</item>
+        <item>"Aus"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Überspringen und abspielen</item>
+        <item>Nur Wiedergabe</item>
+        <item>"Keine"</item>
+    </string-array>
+    <string name="now_bar_text">Text</string>
+    <string-array name="now_bar_text_entries">
+        <item>Eine Zeile</item>
+        <item>Zwei Zeilen</item>
+        <item>Nur Titel</item>
+    </string-array>
+    <string name="now_bar_show_page">Was in der Leiste erscheint</string>
+    <string name="now_bar_show_page_summary">Musik und Video, Timer, Anrufe und mehr</string>
+    <string name="now_bar_where">Wo sonst</string>
 </resources>

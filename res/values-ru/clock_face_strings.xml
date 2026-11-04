@@ -6,4 +6,35 @@
     <string name="clock_faces_color_album">Обложка альбома</string>
     <string name="clock_faces_size">"Размер"</string>
     <string name="clock_faces_restart">"Перезапустить"</string>
+    <string name="remixer_clock_faces">Циферблаты</string>
+    <string name="clock_faces_system">Системные часы</string>
+    <string name="clock_faces_system_desc">Часы из раздела «Обои и стиль»</string>
+    <string name="clock_faces_position">%1$d из %2$d</string>
+    <string name="clock_faces_applied">Применён</string>
+    <string name="clock_faces_preview_unavailable">Предпросмотр недоступен</string>
+    <string name="clock_faces_failed">Не удалось изменить часы</string>
+    <string name="clock_faces_color_accent">Акцент</string>
+    <string name="clock_faces_color_custom">Свой</string>
+    <string name="clock_faces_color_gradient">Градиент</string>
+    <string name="clock_faces_own_colors">Этот циферблат сохраняет свои цвета.</string>
+    <string name="clock_faces_album_hint">Берёт цвет из обложки альбома во время воспроизведения музыки.</string>
+    <string name="clock_faces_size_position">Размер и положение</string>
+    <string name="clock_faces_size_value">Размер · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Расстояние от верха</string>
+    <string name="clock_faces_top_value">Расстояние от верха · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Положение по горизонтали</string>
+    <string name="clock_faces_horizontal_center">Положение по горизонтали · По центру</string>
+    <string name="clock_faces_horizontal_right">Положение по горизонтали · <xliff:g id="dp" example="24">%1$d</xliff:g> dp вправо</string>
+    <string name="clock_faces_horizontal_left">Положение по горизонтали · <xliff:g id="dp" example="24">%1$d</xliff:g> dp влево</string>
+    <string name="clock_faces_horizontal_fixed">Этот циферблат остаётся по центру.</string>
+    <string name="clock_faces_opacity">Непрозрачность</string>
+    <string name="clock_faces_opacity_value">Непрозрачность · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Движение</string>
+    <string name="clock_faces_wobble">Покачивание при зарядке</string>
+    <string name="clock_faces_wobble_summary">Подпрыгивает один раз при подключении</string>
+    <string name="clock_faces_aod_anim">Переход к Always On Display</string>
+    <string name="clock_faces_aod_anim_summary">Уменьшает и растворяет часы при переходе к Always On Display</string>
+    <string name="clock_faces_restart_title">Перезапустить экран блокировки?</string>
+    <string name="clock_faces_restart_message">Переключение между системными часами и своими циферблатами перезапускает SystemUI. Экран погаснет на секунду.</string>
+    <string name="clock_faces_note">SystemUI рисует предпросмотр поверх обоев экрана блокировки. Цвет, размер и положение меняются на экране блокировки сразу.</string>
 </resources>

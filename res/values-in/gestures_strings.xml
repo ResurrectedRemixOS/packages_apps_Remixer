@@ -8,4 +8,50 @@
         <item>"Sedang"</item>
         <item>"Besar"</item>
     </string-array>
+    <string name="pie_title">Kontrol pie</string>
+    <string name="pie_summary">Tahan bagian bawah tepi untuk membuka pie pintasan</string>
+    <string name="pie_zone">Bagian tepi</string>
+    <string name="pie_clock">Jam dan baterai di atasnya</string>
+    <string name="pie_items">Irisan</string>
+    <string-array name="pie_items_entries">
+        <item>"Kembali"</item>
+        <item>Beranda</item>
+        <item>"Terbaru"</item>
+        <item>"Notifikasi"</item>
+        <item>Senter</item>
+        <item>"Screenshot"</item>
+        <item>"Menu daya"</item>
+        <item>"Asisten"</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Perlu ditahan seperempat detik tanpa bergerak, jadi geser cepat dari tepi tetap berfungsi sebagai kembali. Tidak terbuka di layar kunci.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Kiri"</item>
+        <item>"Kanan"</item>
+        <item>Keduanya</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Sepertiga bawah</item>
+        <item>Tengah</item>
+        <item>Seluruh tepi</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Kaca</item>
+        <item>Klasik</item>
+    </string-array>
+    <string name="sidebar_style_title">Tampilan bilah sisi aplikasi</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klasik</item>
+        <item>Kaca RR</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Bilah sisi aplikasi</string>
+    <string name="sidebar_settings_summary">Geser dari pegangan untuk aplikasi dan alat Anda</string>
+    <string name="sidebar_apps_title">Aplikasi, pegangan, dan papan klip</string>
+    <string name="sidebar_apps_summary">Aktifkan pegangan, pilih aplikasi, dan siapkan papan klip pintar</string>
+    <string name="sidebar_handle_size_title">Ukuran pegangan</string>
+    <string name="sidebar_tools_title">Baris alat</string>
+    <string name="sidebar_tools_summary">Screenshot dan senter di bawah aplikasi Anda</string>
+    <string name="sidebar_footer">Pegangan adalah garis tipis warna aksen; tarik untuk memindahkannya di sepanjang tepi. Dengan navigasi gestur, pegangan hanya mencakup bagiannya sendiri, dan kembali berfungsi di tempat lain.</string>
 </resources>

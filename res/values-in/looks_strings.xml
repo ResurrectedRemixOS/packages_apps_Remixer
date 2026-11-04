@@ -13,4 +13,65 @@
     <string name="looks_save_look">"Simpan"</string>
     <string name="looks_custom_color">"Warna khusus"</string>
     <string name="looks_part_clock_color">"Warna jam"</string>
+    <string name="looks_title">Tampilan</string>
+    <string name="looks_summary">Seluruh setelan Anda dalam satu ketukan</string>
+    <string name="looks_rr">Tampilan RR</string>
+    <string name="looks_yours">Tampilan Anda</string>
+    <string name="looks_none">Belum ada yang disimpan</string>
+    <string name="looks_save">Simpan yang sekarang</string>
+    <string name="looks_import_clipboard">Dari papan klip</string>
+    <string name="looks_import_file">Dari file</string>
+    <string name="looks_mine">Tampilan saya</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> diterapkan</string>
+    <string name="looks_failed">Tidak dapat menerapkan semuanya</string>
+    <string name="looks_invalid">Itu bukan Tampilan RR</string>
+    <string name="looks_part_qs">Gaya Setelan Cepat</string>
+    <string name="looks_part_clock_face">Tampilan jam layar kunci</string>
+    <string name="looks_part_font">Font</string>
+    <string name="looks_part_clock_look">Jam status bar</string>
+    <string name="looks_part_edge">Lampu tepi</string>
+    <string name="looks_part_wallpaper">Wallpaper</string>
+    <string name="looks_part_stage">Tata letak Lock Stage</string>
+    <string name="looks_part_haptics">Pola Haptic Remix</string>
+    <string name="looks_stage_custom">Tata letak Anda</string>
+    <string name="looks_stage_default">Tata letak bawaan</string>
+    <plurals name="looks_haptic_patterns">
+        <item quantity="other">%d pola dan penetapannya</item>
+    </plurals>
+    <string name="looks_saturation">Saturasi <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Aksen</string>
+    <string name="looks_color_default">Default</string>
+    <string name="looks_share_title">Bagikan “<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">Pindai dengan kamera ponsel RR lain, atau di Tampilan › Impor</string>
+    <string name="looks_share_file">Bagikan file</string>
+    <string name="looks_save_file">Simpan file</string>
+    <string name="looks_import_scan">Pindai kode QR</string>
+    <string name="looks_import_title">Impor Tampilan</string>
+    <string name="looks_from_qr">dari kode QR</string>
+    <string name="looks_from_file">dari file</string>
+    <string name="looks_from_clipboard">dari papan klip</string>
+    <string name="looks_import_same">Sudah sesuai dengan setelan Anda.</string>
+    <plurals name="looks_import_changes">
+        <item quantity="other">Mengubah <xliff:g id="count" example="4">%d</xliff:g> hal:</item>
+    </plurals>
+    <string name="looks_new">Tampilan baru</string>
+    <string name="looks_edit">Edit</string>
+    <string name="looks_edit_title">Edit Tampilan</string>
+    <string name="looks_in_look">Dalam Tampilan ini</string>
+    <string name="looks_not_included">Tidak dalam Tampilan ini</string>
+    <string name="looks_save_apply">Simpan dan terapkan</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” disimpan</string>
+    <string name="looks_delete_confirm">Hapus “<xliff:g id="name" example="Sunday">%1$s</xliff:g>”?</string>
+    <string name="looks_rr_wallpaper">Wallpaper RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Saturasi aksen</string>
+    <string name="looks_part_clock_chip">Chip jam status bar</string>
+    <string name="looks_part_edge_style">Gaya lampu tepi</string>
+    <string name="looks_scan_hint">Arahkan kamera ke kode QR Tampilan</string>
+    <string name="looks_scan_failed">Tidak dapat membuka kamera</string>
+    <string name="look_roulette_title">Rolet Tampilan</string>
+    <string-array name="look_roulette_entries">
+        <item>"Nonaktif"</item>
+        <item>Tampilan berbeda setiap membuka kunci</item>
+        <item>Tampilan berbeda setiap hari</item>
+    </string-array>
 </resources>

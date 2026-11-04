@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glance_title">Auf einen Blick</string>
+    <string name="glance_summary">Datum, Wetter und Karten von Google unter der Standarduhr, wie bei einem Pixel. Zifferblätter behalten ihre eigene Zeile</string>
+</resources>

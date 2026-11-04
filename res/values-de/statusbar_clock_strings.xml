@@ -2,4 +2,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_clock_date_title">"Datum"</string>
     <string name="sb_weather_category">Wetter</string>
+    <string name="sb_clock_category">Uhr &amp; Datum</string>
+    <string name="sb_clock_bold_title">Fette Uhr</string>
+    <string name="sb_clock_bold_summary">Zeigt die Uhr der Statusleiste fett an</string>
+    <string name="sb_clock_period_separator_title">Punkt als Trenner</string>
+    <string name="sb_clock_period_separator_summary">10.45 statt 10:45</string>
+    <string name="sb_clock_date_position_title">Datumsposition</string>
+    <string name="sb_clock_date_style_title">Groß-/Kleinschreibung des Datums</string>
+    <string name="sb_clock_date_format_title">Datumsformat</string>
+    <string name="sb_clock_chip_category">Uhrhintergrund</string>
+    <string name="sb_clock_chip_title">Hintergrundstil</string>
+    <string name="sb_clock_chip_start_title">Verlaufsbeginn</string>
+    <string name="sb_clock_chip_end_title">Verlaufsende</string>
+    <string name="sb_clock_chip_angle_title">Verlaufswinkel</string>
+    <string name="sb_clock_chip_mask_title">Uhrzeit aus dem Verlauf ausschneiden</string>
+    <string name="sb_clock_chip_mask_summary">Der Verlauf scheint durch die Ziffern statt hinter ihnen</string>
+    <string name="sb_weather_title">Wetter in der Statusleiste</string>
+    <string name="sb_weather_position_title">Position</string>
+    <string name="status_bar_clock_rr_style_title">Aussehen der Uhr</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Standard"</item>
+        <item>Neon</item>
+        <item>Geteilt</item>
+        <item>RR-Zeichen</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Gestapelt</item>
+        <item>Glut</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline neben der Uhrzeit</string>
+    <string name="sb_clock_flatline_summary">RRs Herzschlaglinie im Chip: schlägt zur Musik, schlägt aus, wenn eine Benachrichtigung eingeht</string>
 </resources>

@@ -6,4 +6,19 @@
     <string name="stage_tile_shortcuts">"Pintasan"</string>
     <string name="stage_tile_battery">Cincin baterai</string>
     <string name="stage_tile_toggles">Pilihan</string>
+    <string name="lock_stage_summary">Atur layar kunci pada kisi, tambahkan komplikasi neon</string>
+    <string name="lock_stage_hint">Tarik kartu untuk memindahkannya, tarik sudutnya untuk mengubah ukuran, ketuk untuk opsi. Baris atas adalah status bar.</string>
+    <string name="lock_stage_remove">Hapus</string>
+    <string name="lock_stage_center">Tengah</string>
+    <string name="lock_stage_aod_on">Di layar selalu aktif</string>
+    <string name="lock_stage_aod_off">Tidak di layar selalu aktif</string>
+    <string name="lock_stage_not_on_aod">hanya layar kunci</string>
+    <string name="lock_stage_add">Tambahkan</string>
+    <string name="lock_stage_all_placed">Semuanya sudah ada di panggung</string>
+    <string name="lock_stage_reset">Reset</string>
+    <string name="lock_stage_reset_summary">Kembali ke tata letak layar kunci bawaan. Panggung yang tersimpan dihapus.</string>
+    <string name="lock_stage_saved">Panggung disimpan. Kunci ponsel untuk melihatnya.</string>
+    <string name="lock_stage_failed">Panggung tidak dapat disimpan</string>
+    <string name="stage_tile_glance">Baris tanggal</string>
+    <string name="stage_tile_alarm">Alarm berikutnya</string>
 </resources>

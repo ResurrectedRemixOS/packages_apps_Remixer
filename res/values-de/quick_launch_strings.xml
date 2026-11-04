@@ -6,4 +6,20 @@
     <string name="quick_launch_timer">Timer</string>
     <string name="quick_launch_undo">"Rückgängig machen"</string>
     <string name="quick_launch_off">"Aus"</string>
+    <string name="quick_launch_title">Schnellstart</string>
+    <string name="quick_launch_main">Schnellstart per Fingerabdruck</string>
+    <string name="quick_launch_main_summary">Lasse den Finger nach dem Entsperren auf dem Sensor, um eine Verknüpfung zu öffnen</string>
+    <string name="quick_launch_hint">Tippe auf eine Verknüpfung zum Ändern, halte sie zum Entfernen oder ziehe sie zum Umsortieren.</string>
+    <string name="quick_launch_behavior">Verhalten</string>
+    <string name="quick_launch_hold">Haltedauer</string>
+    <string name="quick_launch_haptics">Bei jeder Verknüpfung vibrieren</string>
+    <string name="quick_launch_add">Hinzufügen</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">QR scannen</string>
+    <string name="quick_launch_app">App…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> entfernt</string>
+    <plurals name="quick_launch_on">
+        <item quantity="one">An · <xliff:g id="count" example="4">%d</xliff:g> Verknüpfung</item>
+        <item quantity="other">An · <xliff:g id="count" example="4">%d</xliff:g> Verknüpfungen</item>
+    </plurals>
 </resources>

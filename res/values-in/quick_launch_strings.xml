@@ -6,4 +6,19 @@
     <string name="quick_launch_timer">Timer</string>
     <string name="quick_launch_undo">"Urungkan"</string>
     <string name="quick_launch_off">"Nonaktif"</string>
+    <string name="quick_launch_title">Peluncuran cepat</string>
+    <string name="quick_launch_main">Peluncuran cepat sidik jari</string>
+    <string name="quick_launch_main_summary">Biarkan jari di sensor setelah membuka kunci untuk membuka pintasan</string>
+    <string name="quick_launch_hint">Ketuk pintasan untuk mengubahnya, tahan untuk menghapusnya, atau tarik untuk mengubah urutan.</string>
+    <string name="quick_launch_behavior">Perilaku</string>
+    <string name="quick_launch_hold">Waktu tahan</string>
+    <string name="quick_launch_haptics">Getar pada setiap pintasan</string>
+    <string name="quick_launch_add">Tambahkan</string>
+    <string name="quick_launch_video">Video</string>
+    <string name="quick_launch_qr">Pindai QR</string>
+    <string name="quick_launch_app">Aplikasi…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> dihapus</string>
+    <plurals name="quick_launch_on">
+        <item quantity="other">Aktif · <xliff:g id="count" example="4">%d</xliff:g> pintasan</item>
+    </plurals>
 </resources>

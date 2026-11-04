@@ -6,4 +6,35 @@
     <string name="clock_faces_size_position">Ukuran dan posisi</string>
     <string name="clock_faces_size">"Ukuran"</string>
     <string name="clock_faces_restart">"Mulai ulang"</string>
+    <string name="remixer_clock_faces">Tampilan jam</string>
+    <string name="clock_faces_system">Jam sistem</string>
+    <string name="clock_faces_system_desc">Jam dari Wallpaper &amp; gaya</string>
+    <string name="clock_faces_position">%1$d dari %2$d</string>
+    <string name="clock_faces_applied">Diterapkan</string>
+    <string name="clock_faces_preview_unavailable">Pratinjau tidak tersedia</string>
+    <string name="clock_faces_failed">Tidak dapat mengubah jam</string>
+    <string name="clock_faces_color_default">Default</string>
+    <string name="clock_faces_color_accent">Aksen</string>
+    <string name="clock_faces_color_custom">Kustom</string>
+    <string name="clock_faces_color_gradient">Gradien</string>
+    <string name="clock_faces_own_colors">Tampilan ini mempertahankan warnanya sendiri.</string>
+    <string name="clock_faces_album_hint">Mengambil warna dari sampul album saat musik diputar.</string>
+    <string name="clock_faces_size_value">Ukuran · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Jarak dari atas</string>
+    <string name="clock_faces_top_value">Jarak dari atas · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Posisi horizontal</string>
+    <string name="clock_faces_horizontal_center">Posisi horizontal · Tengah</string>
+    <string name="clock_faces_horizontal_right">Posisi horizontal · <xliff:g id="dp" example="24">%1$d</xliff:g> dp ke kanan</string>
+    <string name="clock_faces_horizontal_left">Posisi horizontal · <xliff:g id="dp" example="24">%1$d</xliff:g> dp ke kiri</string>
+    <string name="clock_faces_horizontal_fixed">Tampilan ini tetap di tengah.</string>
+    <string name="clock_faces_opacity">Opasitas</string>
+    <string name="clock_faces_opacity_value">Opasitas · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Gerakan</string>
+    <string name="clock_faces_wobble">Bergoyang saat mengisi daya</string>
+    <string name="clock_faces_wobble_summary">Memantul sekali saat dicolokkan</string>
+    <string name="clock_faces_aod_anim">Transisi layar selalu aktif</string>
+    <string name="clock_faces_aod_anim_summary">Mengecilkan dan memudarkan jam ke layar selalu aktif</string>
+    <string name="clock_faces_restart_title">Mulai ulang layar kunci?</string>
+    <string name="clock_faces_restart_message">Beralih antara jam sistem dan tampilan kustom memulai ulang SystemUI. Layar menjadi gelap sedetik.</string>
+    <string name="clock_faces_note">Pratinjau digambar oleh SystemUI di wallpaper layar kunci. Warna, ukuran, dan posisi langsung mengubah layar kunci.</string>
 </resources>

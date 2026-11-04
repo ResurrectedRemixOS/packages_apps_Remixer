@@ -12,4 +12,22 @@
     <string name="rr_about_this_phone">"Ponsel ini"</string>
     <string name="rr_about_network">"Jaringan"</string>
     <string name="rr_about_hidden">Tersembunyi</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Resmi</string>
+    <string name="rr_about_vanilla">Vanilla</string>
+    <string name="rr_about_hardware">Hardware</string>
+    <string name="rr_about_processor">Prosesor</string>
+    <string name="rr_about_processor_sub">%1$d inti · hingga %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d inti</string>
+    <string name="rr_about_storage_used">%1$s terpakai</string>
+    <string name="rr_about_display">Display</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · Mengisi daya</string>
+    <string name="rr_about_kernel_linux">Kernel Linux</string>
+    <string name="rr_about_software_purpose">Versi Android, update keamanan, tanggal build, dan nomor build</string>
+    <string name="rr_about_security_patch">Update keamanan</string>
+    <string name="rr_about_maintainer">Pengelola</string>
+    <string name="rr_about_show">Tampilkan</string>
+    <string name="rr_about_hide">Sembunyikan</string>
 </resources>

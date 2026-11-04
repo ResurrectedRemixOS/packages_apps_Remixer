@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Akku"</string>
     <string name="charge_report_temp">"Temperatur"</string>
     <string name="charge_report_time">"Uhrzeit"</string>
+    <string name="charge_report_title">Ladeberichte</string>
+    <string name="charge_report_summary">Eine Zusammenfassung jeder Ladung beim Abstecken</string>
+    <string name="charge_report_min_title">Nur wenn mindestens hinzugefügt</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 Tage</item>
+        <item>7 Tage</item>
+        <item>14 Tage</item>
+        <item>30 Tage</item>
+    </string-array>
+    <string name="charge_report_history_days">Letzte <xliff:g id="days" example="7">%1$d</xliff:g> Tage</string>
+    <string name="charge_report_today">Heute, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Gestern, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> Min.</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> Std. <xliff:g id="minutes" example="02">%2$02d</xliff:g> Min.</string>
+    <string name="charge_report_watts">Watt</string>
+    <string name="charge_report_added">Hinzugefügt</string>
+    <string name="charge_report_peak">Spitze</string>
+    <string name="charge_report_average">Durchschnitt</string>
+    <string name="charge_report_max_temp">Max. Temp.</string>
+    <string name="charge_report_charger">Ladegerät</string>
+    <string name="charge_report_started">Begonnen bei</string>
+    <string name="charge_report_wired">Kabel</string>
+    <string name="charge_report_wireless">Kabellos</string>
+    <string name="charge_report_dock">Dock</string>
+    <string name="charge_report_empty">Noch keine Ladungen</string>
+    <string name="charge_report_footer">SystemUI liest bei angeschlossenem Gerät alle 30 Sekunden Stromstärke, Spannung und Temperatur des Akkus. Die Watt misst das Smartphone selbst, sie können also von der Angabe am Ladegerät abweichen. Berichte bleiben auf dem Smartphone; nichts wird hochgeladen.</string>
 </resources>

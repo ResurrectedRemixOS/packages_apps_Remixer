@@ -15,4 +15,96 @@
     <string name="now_bar_buttons">Tombol</string>
     <string name="now_bar_text">Teks</string>
     <string name="now_bar_text_size">"Ukuran teks"</string>
+    <string name="now_bar_summary">Aktivitas live di bagian bawah layar kunci</string>
+    <string name="now_bar_show">Tampilkan</string>
+    <string name="now_bar_music">Musik dan video</string>
+    <string name="now_bar_timers">Timer, stopwatch, dan alarm</string>
+    <string name="now_bar_hide_call">Sembunyikan notifikasi panggilan</string>
+    <string name="now_bar_hide_call_summary">Di layar kunci, panggilan di Now Bar tidak juga dicantumkan sebagai notifikasi</string>
+    <string name="now_bar_live">Info Terbaru Live</string>
+    <string name="now_bar_live_summary">Navigasi, perjalanan, pengiriman, skor</string>
+    <string name="now_bar_live_apps">Aplikasi untuk Info Terbaru Live</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> aplikasi</string>
+    <string name="now_bar_pin">Disematkan ke layar selalu aktif</string>
+    <string name="now_bar_pin_none">Tidak ada. Tahan Info Terbaru Live di bar untuk menyematkannya</string>
+    <string name="now_bar_unpin_question">Lepas sematan <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Lepas sematan</string>
+    <string name="now_bar_scores_summary">Pertandingan yang Anda ikuti di Sekilas</string>
+    <string name="now_bar_glance_settings">Setelan Sekilas</string>
+    <string name="now_bar_glance_settings_summary">Aktifkan Olahraga dan ikuti tim Anda di aplikasi Google</string>
+    <string name="now_bar_recording">Perekaman layar dan suara</string>
+    <string name="now_bar_buds">Earbud dan jam tangan</string>
+    <string name="now_bar_buds_summary">Baterai perangkat terhubung: kiri, kanan, dan casing untuk earbud</string>
+    <string name="now_bar_wave">Animasi gelombang</string>
+    <string name="now_bar_chip">Chip di status bar</string>
+    <string name="now_bar_chip_summary">Musik dan timer di samping jam saat tidak terkunci</string>
+    <string name="now_bar_footer">Dengan musik di Now Bar, pemutar besar di layar kunci disembunyikan. Geser bar untuk beralih antar-aktivitas, ketuk untuk membuka kontrol, dan tekan lama untuk menyembunyikan salah satunya hingga selesai. Geser lagu yang dijeda keluar dari bar untuk menghapusnya.\n\nSkor live menampilkan pertandingan tim yang Anda ikuti di aplikasi Google. Dengan Smartspacer, tambahkan target olahraga di sana dan skornya muncul di sini.</string>
+    <string name="now_bar_looks">Tampilan</string>
+    <string-array name="now_bar_looks_entries">
+        <item>Default</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Besar</item>
+        <item>Neon</item>
+        <item>Kartu kaca</item>
+    </string-array>
+    <string name="now_bar_material">Material</string>
+    <string name="now_bar_material_summary">Liquid Glass memakai kaca yang Anda setel di Tema</string>
+    <string-array name="now_bar_material_entries">
+        <item>Solid</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Sampul album</item>
+        <item>Aksen</item>
+        <item>Gelap</item>
+    </string-array>
+    <string name="now_bar_opacity">Opasitas</string>
+    <string name="now_bar_opacity_summary">Dengan Liquid Glass, seberapa kuat warna mewarnai kaca</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Tidak ada"</item>
+        <item>Tipis</item>
+        <item>Aksen</item>
+    </string-array>
+    <string name="now_bar_shadow">Bayangan</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Nonaktif"</item>
+        <item>Lembut</item>
+        <item>Pendar</item>
+    </string-array>
+    <string name="now_bar_more">Aktivitas lainnya</string>
+    <string-array name="now_bar_more_entries">
+        <item>Geser saja</item>
+        <item>Titik</item>
+        <item>Mengintip di belakang</item>
+    </string-array>
+    <string name="now_bar_size">Ukuran dan bentuk</string>
+    <string name="now_bar_height">Tinggi</string>
+    <string name="now_bar_width_summary">Penuh memindahkan pintasan ke atas bar</string>
+    <string-array name="now_bar_width_entries">
+        <item>Sempit</item>
+        <item>Di antara pintasan</item>
+        <item>Penuh</item>
+    </string-array>
+    <string name="now_bar_corners">Sudut</string>
+    <string name="now_bar_raise">Naikkan</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Lingkaran"</item>
+        <item>Membulat</item>
+        <item>"Persegi"</item>
+        <item>"Nonaktif"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Lewati dan putar</item>
+        <item>Putar saja</item>
+        <item>"Tidak ada"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Satu baris</item>
+        <item>Dua baris</item>
+        <item>Lagu saja</item>
+    </string-array>
+    <string name="now_bar_show_page">Yang ditampilkan di bar</string>
+    <string name="now_bar_show_page_summary">Musik dan video, timer, panggilan, dan lainnya</string>
+    <string name="now_bar_where">Di mana lagi</string>
 </resources>

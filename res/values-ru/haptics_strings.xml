@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Синий"</string>
     <string name="haptic_remix_color_green">"Зеленый"</string>
     <string name="haptic_remix_color_white">"Белый"</string>
+    <string name="haptic_remix_summary">Отстучите узоры вибрации для вызовов, приложений, будильников и разблокировки</string>
+    <string name="haptic_remix_record">Запись</string>
+    <string name="haptic_remix_pad">отстучите ритм</string>
+    <string name="haptic_remix_strength">Сила</string>
+    <string name="haptic_remix_clear">Очистить</string>
+    <string name="haptic_remix_play">Воспроизвести</string>
+    <string name="haptic_remix_name">Название узора</string>
+    <string name="haptic_remix_empty">Пока ничего не записано</string>
+    <string name="haptic_remix_too_long">Узор может длиться 30 секунд</string>
+    <string name="haptic_remix_presets">Пресеты</string>
+    <string name="haptic_remix_preset_neon">Неон</string>
+    <string name="haptic_remix_preset_glass">Стекло</string>
+    <string name="haptic_remix_preset_ringtone">Ритм рингтона</string>
+    <string name="haptic_remix_listening">Прослушивание рингтона…</string>
+    <string name="haptic_remix_no_ringtone">Не удалось прочитать рингтон</string>
+    <string name="haptic_remix_patterns">Ваши узоры</string>
+    <string name="haptic_remix_patterns_none">Сначала сохраните узор. Удерживайте узор, чтобы удалить его.</string>
+    <string name="haptic_remix_broken">Не удаётся прочитать этот узор</string>
+    <string name="haptic_remix_delete">Удалить <xliff:g id="name" example="Heartbeat">%1$s</xliff:g>?</string>
+    <string name="haptic_remix_assign">Назначить для</string>
+    <string name="haptic_remix_alarm">Будильник и таймер</string>
+    <string name="haptic_remix_plug">Подключено к зарядке</string>
+    <string name="haptic_remix_fingerprint">Отпечаток распознан</string>
+    <string name="haptic_remix_add_contact">Добавить контакт</string>
+    <string name="haptic_remix_edge_color">Подсветка краёв для сообщений от <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">Акцент</string>
+    <string name="haptic_remix_color_crimson">Малиновый</string>
+    <string name="haptic_remix_color_amber">Янтарный</string>
+    <string name="haptic_remix_add_app">Добавить уведомления приложения</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · нажмите, чтобы изменить, удерживайте для цвета края</string>
+    <string name="haptic_remix_no_contacts">Контакты не вернули номер</string>
 </resources>
