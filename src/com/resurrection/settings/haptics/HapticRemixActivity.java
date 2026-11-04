@@ -838,7 +838,7 @@ public class HapticRemixActivity extends CollapsingToolbarBaseActivity {
     private class PadView extends View {
         private final Paint mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         private final int mAccent = MaterialColors.getColor(mThemed,
-                com.google.android.material.R.attr.colorPrimary, Color.RED);
+                androidx.appcompat.R.attr.colorPrimary, Color.RED);
         private final String mLabel = getString(R.string.haptic_remix_pad);
         private boolean mPressed;
 
@@ -895,7 +895,7 @@ public class HapticRemixActivity extends CollapsingToolbarBaseActivity {
     private class StripView extends View {
         private final Paint mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         private final int mAccent = MaterialColors.getColor(mThemed,
-                com.google.android.material.R.attr.colorPrimary, Color.RED);
+                androidx.appcompat.R.attr.colorPrimary, Color.RED);
 
         StripView(Context context) {
             super(context);

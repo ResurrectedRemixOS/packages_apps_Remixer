@@ -507,7 +507,7 @@ public class LockStageActivity extends CollapsingToolbarBaseActivity {
         private final RectF mRect = new RectF();
         private final Rect mSrc = new Rect();
         private final int mAccent = MaterialColors.getColor(mThemed,
-                com.google.android.material.R.attr.colorPrimary, Color.RED);
+                androidx.appcompat.R.attr.colorPrimary, Color.RED);
         private Tile mTouched;
         private boolean mResizing;
         private float mDownX, mDownY;
