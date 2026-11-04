@@ -7,4 +7,30 @@
     <string name="sb_clock_chip_angle_title">渐变角度</string>
     <string name="sb_weather_category">天气</string>
     <string name="sb_weather_position_title">位置</string>
+    <string name="sb_clock_bold_title">粗体时钟</string>
+    <string name="sb_clock_bold_summary">以粗体显示状态栏时钟</string>
+    <string name="sb_clock_period_separator_title">点号分隔符</string>
+    <string name="sb_clock_period_separator_summary">10.45 而非 10:45</string>
+    <string name="sb_clock_date_style_title">日期大小写</string>
+    <string name="sb_clock_chip_category">时钟背景</string>
+    <string name="sb_clock_chip_title">背景样式</string>
+    <string name="sb_clock_chip_start_title">渐变起点</string>
+    <string name="sb_clock_chip_end_title">渐变终点</string>
+    <string name="sb_clock_chip_mask_title">从渐变中镂空时间</string>
+    <string name="sb_clock_chip_mask_summary">渐变透过数字显示，而不是在数字后方</string>
+    <string name="sb_weather_title">状态栏天气</string>
+    <string name="status_bar_clock_rr_style_title">时钟外观</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"默认"</item>
+        <item>霓虹</item>
+        <item>分割</item>
+        <item>RR 标记</item>
+        <item>等宽</item>
+        <item>Pulse</item>
+        <item>堆叠</item>
+        <item>余烬</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">时间旁的 Flatline</string>
+    <string name="sb_clock_flatline_summary">标签内的 RR 心跳线：随音乐跳动，收到通知时跳升</string>
 </resources>

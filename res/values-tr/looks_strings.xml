@@ -17,4 +17,63 @@
     <string name="looks_save_look">"Kaydet"</string>
     <string name="looks_custom_color">"Özel renk"</string>
     <string name="looks_part_clock_color">"Saat rengi"</string>
+    <string name="looks_title">Görünümler</string>
+    <string name="looks_summary">Tüm kurulumunuz tek dokunuşta</string>
+    <string name="looks_rr">RR görünümleri</string>
+    <string name="looks_yours">Görünümleriniz</string>
+    <string name="looks_none">Henüz kaydedilen bir şey yok</string>
+    <string name="looks_save">Geçerli olanı kaydet</string>
+    <string name="looks_import_clipboard">Panodan</string>
+    <string name="looks_import_file">Dosyadan</string>
+    <string name="looks_mine">Görünümüm</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> uygulandı</string>
+    <string name="looks_failed">Hepsi uygulanamadı</string>
+    <string name="looks_invalid">Bu bir RR görünümü değil</string>
+    <string name="looks_part_qs">Hızlı Ayarlar stili</string>
+    <string name="looks_part_clock_face">Kilit ekranı saat kadranı</string>
+    <string name="looks_part_clock_look">Durum çubuğu saati</string>
+    <string name="looks_part_edge">Kenar aydınlatması</string>
+    <string name="looks_part_stage">Lock Stage düzeni</string>
+    <string name="looks_part_haptics">Haptic Remix desenleri</string>
+    <string name="looks_stage_custom">Düzeniniz</string>
+    <string name="looks_stage_default">Varsayılan düzen</string>
+    <plurals name="looks_haptic_patterns">
+        <item quantity="one">%d desen ve atamaları</item>
+        <item quantity="other">%d desen ve atamaları</item>
+    </plurals>
+    <string name="looks_saturation">Doygunluk %%<xliff:g id="percent" example="120">%1$d</xliff:g></string>
+    <string name="looks_color_accent">Vurgu</string>
+    <string name="looks_share_title">“<xliff:g id="name" example="Neon night">%1$s</xliff:g>” paylaş</string>
+    <string name="looks_share_hint">Başka bir RR telefonunun kamerasıyla veya Görünümler › İçe aktar\'da tarayın</string>
+    <string name="looks_share_file">Dosyayı paylaş</string>
+    <string name="looks_save_file">Dosyayı kaydet</string>
+    <string name="looks_import_scan">QR kodu tara</string>
+    <string name="looks_import_title">Görünümü içe aktar</string>
+    <string name="looks_from_qr">QR kodundan</string>
+    <string name="looks_from_file">dosyadan</string>
+    <string name="looks_from_clipboard">panodan</string>
+    <string name="looks_import_same">Bu zaten kurulumunuzla eşleşiyor.</string>
+    <plurals name="looks_import_changes">
+        <item quantity="one"><xliff:g id="count" example="4">%d</xliff:g> şeyi değiştirir:</item>
+        <item quantity="other"><xliff:g id="count" example="4">%d</xliff:g> şeyi değiştirir:</item>
+    </plurals>
+    <string name="looks_new">Yeni görünüm</string>
+    <string name="looks_edit_title">Görünümü düzenle</string>
+    <string name="looks_in_look">Bu görünümde</string>
+    <string name="looks_not_included">Bu görünümde değil</string>
+    <string name="looks_save_apply">Kaydet ve uygula</string>
+    <string name="looks_saved">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” kaydedildi</string>
+    <string name="looks_delete_confirm">“<xliff:g id="name" example="Sunday">%1$s</xliff:g>” silinsin mi?</string>
+    <string name="looks_rr_wallpaper">RR duvar kağıdı <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Vurgu doygunluğu</string>
+    <string name="looks_part_clock_chip">Durum çubuğu saat çipi</string>
+    <string name="looks_part_edge_style">Kenar aydınlatması stili</string>
+    <string name="looks_scan_hint">Kamerayı görünümün QR koduna tutun</string>
+    <string name="looks_scan_failed">Kamera açılamadı</string>
+    <string name="look_roulette_title">Görünüm ruleti</string>
+    <string-array name="look_roulette_entries">
+        <item>"Kapalı"</item>
+        <item>Her kilit açışta farklı bir Görünüm</item>
+        <item>Her gün farklı bir Görünüm</item>
+    </string-array>
 </resources>

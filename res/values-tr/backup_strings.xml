@@ -13,4 +13,41 @@
     <string name="backup_group_other">"Diğer"</string>
     <string name="backup_done">"Bitti"</string>
     <string name="volume_style_title">Ses paneli stilleri</string>
+    <string name="backup_summary">Tüm RR özelleştirmeleri tek dosyada</string>
+    <string name="backup_now">Şimdi yedekle</string>
+    <string name="backup_never">Son yedekleme: hiç</string>
+    <string name="backup_last">Son yedekleme: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Dosyadan geri yükle</string>
+    <string name="backup_restore_summary">Yedek dosyası seçin</string>
+    <string name="backup_included">Dahil</string>
+    <string name="backup_part_theme">Vurgu, yazı tipi ve simgeler</string>
+    <string name="backup_part_header">Başlık görseli</string>
+    <string name="backup_part_photo">Başlık görseli (fotoğrafınız)</string>
+    <string name="backup_part_photo_summary">Dosyayı büyütür</string>
+    <string name="backup_part_looks">Görünümleriniz</string>
+    <string name="backup_weekly">Haftalık yedek</string>
+    <string name="backup_weekly_summary">Seçtiğiniz bir klasöre</string>
+    <string name="backup_weekly_on">Her hafta <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g> konumuna</string>
+    <string name="backup_offer">Güncellemelerden önce yedek öner</string>
+    <string name="backup_offer_summary">Güncelleyici yüklemeden önce sorar</string>
+    <string name="backup_sets"><xliff:g id="count" example="64">%1$d</xliff:g> ayarı değiştirir</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> ayar kaydedildi</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> ayar geri yüklendi</string>
+    <string name="backup_restored_message">Uygulamak için SystemUI yeniden başlar.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> ayar bu derlemede bulunmuyor ve atlandı.</string>
+    <string name="backup_failed">Yedek kaydedilemedi</string>
+    <string name="backup_invalid">Bu dosya bir Resurrected Remix yedeği değil</string>
+    <string name="backup_footer">Dosyaya yalnızca RR ayarları girer: hesap, şifre, Wi-Fi ağı, uygulama veya mesaj yok. Geri yükleme yalnızca RR\'nin kendi listesindeki ayarları yazar, bu yüzden bir yedek dosyası telefonda başka bir şeyi değiştiremez. Başlık fotoğrafınız, dosyayı büyüttüğü için yalnızca anahtarı açıksa dahil edilir.</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Cam</item>
+        <item>Hap</item>
+        <item>Klasik RR</item>
+        <item>Bento</item>
+        <item>Şekiller</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Yumuşak</item>
+    </string-array>
 </resources>

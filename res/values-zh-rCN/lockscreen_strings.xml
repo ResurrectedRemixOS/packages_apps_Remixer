@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">防止意外唤醒</string>
+    <string name="lockscreen_battery_info_title">充电信息</string>
+    <string name="lockscreen_battery_info_summary">充电时显示电流、功率、电压和电池温度</string>
+    <string name="charging_ring_title">SuperVOOC 充电动画</string>
+    <string name="charging_ring_summary">插入充电器时显示充电环和速度</string>
+    <string name="pocket_mode_summary">距离传感器被遮挡时，屏幕不会唤醒并忽略触摸</string>
+    <string name="screen_on_time_title">亮屏时间</string>
+    <string name="screen_on_time_summary">充电时在锁定屏幕上以及省电模式功能块上显示自上次充满以来的亮屏时间</string>
 </resources>

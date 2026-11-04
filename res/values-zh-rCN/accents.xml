@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"壁纸"</item>
+        <item>Resurrected</item>
+        <item>Android One 绿</item>
+        <item>Aospa 绿</item>
+        <item>可口可乐红</item>
+        <item>Discord 紫</item>
+        <item>Facebook 蓝</item>
+        <item>Instagram 樱桃红</item>
+        <item>Jollibee 深红</item>
+        <item>Monster Energy 绿</item>
+        <item>Nextbit 薄荷绿</item>
+        <item>OnePlus 红</item>
+        <item>百事蓝</item>
+        <item>Pixel 蓝</item>
+        <item>Pocophone 黄</item>
+        <item>Razer 绿</item>
+        <item>Samsung 蓝</item>
+        <item>Spotify 绿</item>
+        <item>星巴克绿</item>
+        <item>Twitch 紫</item>
+        <item>Twitter 蓝</item>
+        <item>小米橙</item>
+        <item>琥珀色</item>
+        <item>"黑色"</item>
+        <item>"蓝色"</item>
+        <item>蓝灰色</item>
+        <item>棕色</item>
+        <item>"青色"</item>
+        <item>深橙色</item>
+        <item>深紫色</item>
+        <item>"绿色"</item>
+        <item>"灰色"</item>
+        <item>"靛蓝色"</item>
+        <item>浅蓝色</item>
+        <item>青柠色</item>
+        <item>"橙色"</item>
+        <item>"粉红色"</item>
+        <item>"紫色"</item>
+        <item>"红色"</item>
+        <item>"蓝绿色"</item>
+        <item>自定义五</item>
+        <item>自定义四</item>
+        <item>自定义一</item>
+        <item>自定义七</item>
+        <item>自定义六</item>
+        <item>自定义三</item>
+        <item>自定义二</item>
+        <item>"白色"</item>
+        <item>"黄色"</item>
+    </string-array>
+</resources>

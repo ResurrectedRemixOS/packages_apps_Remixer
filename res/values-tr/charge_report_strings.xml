@@ -5,4 +5,29 @@
     <string name="charge_report_temp">"Sıcaklık"</string>
     <string name="charge_report_time">"Saat"</string>
     <string name="charge_report_wireless">Kablosuz</string>
+    <string name="charge_report_title">Şarj raporları</string>
+    <string name="charge_report_summary">Fişi çektiğinizde her şarjın özeti</string>
+    <string name="charge_report_min_title">Yalnızca en az şu kadar eklediyse</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 gün</item>
+        <item>7 gün</item>
+        <item>14 gün</item>
+        <item>30 gün</item>
+    </string-array>
+    <string name="charge_report_history_days">Son <xliff:g id="days" example="7">%1$d</xliff:g> gün</string>
+    <string name="charge_report_today">Bugün, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Dün, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> dk</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> sa <xliff:g id="minutes" example="02">%2$02d</xliff:g> dk</string>
+    <string name="charge_report_watts">Watt</string>
+    <string name="charge_report_added">Eklenen</string>
+    <string name="charge_report_peak">Tepe</string>
+    <string name="charge_report_average">Ortalama</string>
+    <string name="charge_report_max_temp">En yüksek sıc.</string>
+    <string name="charge_report_charger">Şarj cihazı</string>
+    <string name="charge_report_started">Başlangıç</string>
+    <string name="charge_report_wired">Kablolu</string>
+    <string name="charge_report_dock">Yuva</string>
+    <string name="charge_report_empty">Henüz şarj yok</string>
+    <string name="charge_report_footer">SystemUI, takılıyken her 30 saniyede bir pilin akımını, voltajını ve sıcaklığını okur. Watt değerleri telefonun ölçtüğü değerlerdir, bu yüzden şarj cihazındaki sayıdan farklı olabilir. Raporlar telefonda kalır; hiçbir şey yüklenmez.</string>
 </resources>

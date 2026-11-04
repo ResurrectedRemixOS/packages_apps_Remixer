@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"Mavi"</string>
     <string name="haptic_remix_color_green">"Yeşil"</string>
     <string name="haptic_remix_color_white">"Beyaz"</string>
+    <string name="haptic_remix_summary">Aramalar, uygulamalar, alarmlar ve kilit açma için titreşim desenleri vurun</string>
+    <string name="haptic_remix_record">Kaydet</string>
+    <string name="haptic_remix_pad">ritmi vurun</string>
+    <string name="haptic_remix_strength">Güç</string>
+    <string name="haptic_remix_clear">Temizle</string>
+    <string name="haptic_remix_play">Oynat</string>
+    <string name="haptic_remix_name">Desen adı</string>
+    <string name="haptic_remix_empty">Henüz kaydedilen bir şey yok</string>
+    <string name="haptic_remix_too_long">Bir desen 30 saniye sürebilir</string>
+    <string name="haptic_remix_presets">Hazır ayarlar</string>
+    <string name="haptic_remix_preset_neon">Neon</string>
+    <string name="haptic_remix_preset_glass">Cam</string>
+    <string name="haptic_remix_preset_ringtone">Zil sesinin ritmi</string>
+    <string name="haptic_remix_listening">Zil sesi dinleniyor…</string>
+    <string name="haptic_remix_no_ringtone">Zil sesi okunamadı</string>
+    <string name="haptic_remix_patterns">Desenleriniz</string>
+    <string name="haptic_remix_patterns_none">Önce bir desen kaydedin. Silmek için birini basılı tutun.</string>
+    <string name="haptic_remix_broken">Bu desen okunamıyor</string>
+    <string name="haptic_remix_delete"><xliff:g id="name" example="Heartbeat">%1$s</xliff:g> silinsin mi?</string>
+    <string name="haptic_remix_assign">Şuna ata</string>
+    <string name="haptic_remix_alarm">Alarm ve zamanlayıcı</string>
+    <string name="haptic_remix_plug">Takılı</string>
+    <string name="haptic_remix_fingerprint">Parmak izi başarılı</string>
+    <string name="haptic_remix_add_contact">Kişi ekle</string>
+    <string name="haptic_remix_edge_color"><xliff:g id="name" example="Mia">%1$s</xliff:g> mesajları için kenar ışığı</string>
+    <string name="haptic_remix_color_accent">Vurgu</string>
+    <string name="haptic_remix_color_crimson">Koyu kırmızı</string>
+    <string name="haptic_remix_color_amber">Kehribar</string>
+    <string name="haptic_remix_add_app">Bir uygulamanın bildirimlerini ekle</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · değiştirmek için dokunun, kenar rengi için basılı tutun</string>
+    <string name="haptic_remix_no_contacts">Kişiler\'den numara gelmedi</string>
 </resources>

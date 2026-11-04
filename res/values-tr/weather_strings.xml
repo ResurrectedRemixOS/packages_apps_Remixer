@@ -4,4 +4,14 @@
     <string name="lockscreen_weather_location_title">"Konum"</string>
     <string name="lockscreen_weather_wind_title">Rüzgar</string>
     <string name="lockscreen_weather_humidity_title">Nem</string>
+    <string name="lockscreen_weather_title">Kilit ekranında hava durumu</string>
+    <string name="lockscreen_weather_location_summary">Şehir adını göster</string>
+    <string name="lockscreen_weather_text_title">Durum</string>
+    <string name="lockscreen_weather_text_summary">Bulutlu veya Açık gibi durumu gösterir</string>
+    <string name="lockscreen_weather_wind_summary">Rüzgar hızını ve yönünü gösterir</string>
+    <string name="lockscreen_weather_humidity_summary">Nemi gösterir</string>
+    <string name="custom_clock_weather_title">Saat kadranlarında hava durumu</string>
+    <string name="custom_clock_weather_summary">Yeri olan saat kadranlarında hava durumunu gösterir</string>
+    <string name="remixer_weather_service">Hava durumu hizmeti</string>
+    <string name="remixer_weather_page_summary">Kilit ekranı hava durumu ve gösterdikleri</string>
 </resources>

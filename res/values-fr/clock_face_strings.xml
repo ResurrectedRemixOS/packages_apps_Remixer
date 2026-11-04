@@ -5,4 +5,36 @@
     <string name="clock_faces_color_default">"Par défaut"</string>
     <string name="clock_faces_size">"Taille"</string>
     <string name="clock_faces_restart">"Redémarrer"</string>
+    <string name="remixer_clock_faces">Cadrans</string>
+    <string name="clock_faces_system">Horloge du système</string>
+    <string name="clock_faces_system_desc">L\'horloge de Fond d\'écran et style</string>
+    <string name="clock_faces_position">%1$d sur %2$d</string>
+    <string name="clock_faces_applied">Appliquée</string>
+    <string name="clock_faces_preview_unavailable">Aperçu indisponible</string>
+    <string name="clock_faces_failed">Impossible de changer l\'horloge</string>
+    <string name="clock_faces_color_accent">Accent</string>
+    <string name="clock_faces_color_custom">Personnalisé</string>
+    <string name="clock_faces_color_album">Pochette d\'album</string>
+    <string name="clock_faces_color_gradient">Dégradé</string>
+    <string name="clock_faces_own_colors">Ce cadran garde ses propres couleurs.</string>
+    <string name="clock_faces_album_hint">Prend la couleur de la pochette pendant la musique.</string>
+    <string name="clock_faces_size_position">Taille et position</string>
+    <string name="clock_faces_size_value">Taille · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Distance depuis le haut</string>
+    <string name="clock_faces_top_value">Distance depuis le haut · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Position horizontale</string>
+    <string name="clock_faces_horizontal_center">Position horizontale · Centre</string>
+    <string name="clock_faces_horizontal_right">Position horizontale · <xliff:g id="dp" example="24">%1$d</xliff:g> dp à droite</string>
+    <string name="clock_faces_horizontal_left">Position horizontale · <xliff:g id="dp" example="24">%1$d</xliff:g> dp à gauche</string>
+    <string name="clock_faces_horizontal_fixed">Ce cadran reste centré.</string>
+    <string name="clock_faces_opacity">Opacité</string>
+    <string name="clock_faces_opacity_value">Opacité · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Mouvement</string>
+    <string name="clock_faces_wobble">Vacillement pendant la recharge</string>
+    <string name="clock_faces_wobble_summary">Rebondit une fois au branchement</string>
+    <string name="clock_faces_aod_anim">Transition vers l\'écran toujours activé</string>
+    <string name="clock_faces_aod_anim_summary">Réduit et estompe l\'horloge vers l\'écran toujours activé</string>
+    <string name="clock_faces_restart_title">Redémarrer l\'écran de verrouillage ?</string>
+    <string name="clock_faces_restart_message">Passer de l\'horloge du système aux cadrans personnalisés redémarre SystemUI. L\'écran s\'assombrit une seconde.</string>
+    <string name="clock_faces_note">Les aperçus sont dessinés par SystemUI sur le fond de votre écran de verrouillage. La couleur, la taille et la position changent l\'écran de verrouillage tout de suite.</string>
 </resources>

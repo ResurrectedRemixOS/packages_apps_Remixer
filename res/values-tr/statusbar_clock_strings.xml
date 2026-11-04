@@ -4,4 +4,33 @@
     <string name="sb_clock_chip_angle_title">Renk geçişi açısı</string>
     <string name="sb_weather_category">Hava durumu</string>
     <string name="sb_weather_position_title">Konum</string>
+    <string name="sb_clock_category">Saat ve tarih</string>
+    <string name="sb_clock_bold_title">Kalın saat</string>
+    <string name="sb_clock_bold_summary">Durum çubuğu saatini kalın gösterir</string>
+    <string name="sb_clock_period_separator_title">Nokta ayırıcı</string>
+    <string name="sb_clock_period_separator_summary">10:45 yerine 10.45</string>
+    <string name="sb_clock_date_position_title">Tarih konumu</string>
+    <string name="sb_clock_date_style_title">Tarih harf biçimi</string>
+    <string name="sb_clock_date_format_title">Tarih biçimi</string>
+    <string name="sb_clock_chip_category">Saat arka planı</string>
+    <string name="sb_clock_chip_title">Arka plan stili</string>
+    <string name="sb_clock_chip_start_title">Geçiş başlangıcı</string>
+    <string name="sb_clock_chip_end_title">Geçiş sonu</string>
+    <string name="sb_clock_chip_mask_title">Saati geçişten kes</string>
+    <string name="sb_clock_chip_mask_summary">Geçiş, rakamların arkasında değil içinden görünür</string>
+    <string name="sb_weather_title">Durum çubuğunda hava durumu</string>
+    <string name="status_bar_clock_rr_style_title">Saat görünümü</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Varsayılan"</item>
+        <item>Neon</item>
+        <item>Bölünmüş</item>
+        <item>RR işareti</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Yığılmış</item>
+        <item>Kor</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Saatin yanında Flatline</string>
+    <string name="sb_clock_flatline_summary">Çipin içinde RR\'nin kalp atışı çizgisi: müzikle atar, bildirim gelince yükselir</string>
 </resources>

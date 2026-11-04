@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">为每个模式设定一个造型</string>
+    <string name="remix_modes_everyday">日常造型</string>
+    <string name="remix_modes_everyday_summary">没有开启带造型的模式时恢复</string>
+    <string name="remix_modes_wallpaper">壁纸跟随造型</string>
+    <string name="remix_modes_wallpaper_summary">模式也可以更改壁纸</string>
+    <string name="remix_modes_modes">你的模式</string>
+    <string name="remix_modes_no_change">不更改</string>
+    <string name="remix_modes_none">请先在“主题 › 造型”中保存造型</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g>的造型</string>
+</resources>

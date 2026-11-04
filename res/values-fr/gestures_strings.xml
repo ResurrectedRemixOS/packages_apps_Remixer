@@ -7,4 +7,51 @@
         <item>"Moyen"</item>
         <item>"Grande"</item>
     </string-array>
+    <string name="pie_title">Commandes en secteurs</string>
+    <string name="pie_summary">Maintenez le bas d\'un bord pour afficher un cercle de raccourcis</string>
+    <string name="pie_zone">Partie du bord</string>
+    <string name="pie_style">Style</string>
+    <string name="pie_clock">Horloge et batterie au-dessus</string>
+    <string name="pie_items">Secteurs</string>
+    <string-array name="pie_items_entries">
+        <item>"Retour"</item>
+        <item>Accueil</item>
+        <item>"Récents"</item>
+        <item>Notifications</item>
+        <item>"Lampe de poche"</item>
+        <item>"Capture d\'écran"</item>
+        <item>"Menu Marche/Arrêt"</item>
+        <item>Assistant</item>
+        <item>"Appareil photo"</item>
+    </string-array>
+    <string name="pie_footer">Il faut maintenir un quart de seconde sans bouger, un balayage rapide depuis le bord revient donc toujours en arrière. Ne s\'ouvre pas sur l\'écran de verrouillage.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Gauche"</item>
+        <item>"Droite"</item>
+        <item>Les deux</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Tiers inférieur</item>
+        <item>Milieu</item>
+        <item>Bord entier</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Néon</item>
+        <item>Verre</item>
+        <item>Classique</item>
+    </string-array>
+    <string name="sidebar_style_title">Aspect de la barre latérale d\'applis</string>
+    <string-array name="sidebar_style_entries">
+        <item>Classique</item>
+        <item>Verre RR</item>
+        <item>Néon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Barre latérale d\'applis</string>
+    <string name="sidebar_settings_summary">Balayez depuis la poignée pour vos applis et outils</string>
+    <string name="sidebar_apps_title">Applis, poignée et presse-papiers</string>
+    <string name="sidebar_apps_summary">Activez la poignée, choisissez les applis et configurez le presse-papiers intelligent</string>
+    <string name="sidebar_handle_size_title">Taille de la poignée</string>
+    <string name="sidebar_tools_title">Rangée d\'outils</string>
+    <string name="sidebar_tools_summary">Capture d\'écran et lampe sous vos applis</string>
+    <string name="sidebar_footer">La poignée est une ligne fine de votre couleur d\'accent ; faites-la glisser pour la déplacer le long du bord. Avec la navigation par gestes, elle ne couvre que sa partie du bord et le retour fonctionne partout ailleurs.</string>
 </resources>

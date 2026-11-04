@@ -13,4 +13,41 @@
     <string name="backup_group_other">"其他"</string>
     <string name="backup_done">"完成"</string>
     <string name="volume_style_title">音量面板样式</string>
+    <string name="backup_summary">所有 RR 自定义设置都在一个文件中</string>
+    <string name="backup_now">立即备份</string>
+    <string name="backup_never">上次备份：从未</string>
+    <string name="backup_last">上次备份：<xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">从文件恢复</string>
+    <string name="backup_restore_summary">选择备份文件</string>
+    <string name="backup_included">已包含</string>
+    <string name="backup_part_theme">强调色、字体和图标</string>
+    <string name="backup_part_header">页眉图片</string>
+    <string name="backup_part_photo">页眉图片（你的照片）</string>
+    <string name="backup_part_photo_summary">会使文件变大</string>
+    <string name="backup_part_looks">你的造型</string>
+    <string name="backup_weekly">每周备份</string>
+    <string name="backup_weekly_summary">保存到你选择的文件夹</string>
+    <string name="backup_weekly_on">每周备份到 <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">更新前提示备份</string>
+    <string name="backup_offer_summary">更新程序会在安装前询问</string>
+    <string name="backup_sets">设置 <xliff:g id="count" example="64">%1$d</xliff:g> 项</string>
+    <string name="backup_saved">已保存 <xliff:g id="count" example="64">%1$d</xliff:g> 项设置</string>
+    <string name="backup_restored">已恢复 <xliff:g id="count" example="64">%1$d</xliff:g> 项设置</string>
+    <string name="backup_restored_message">SystemUI 将重启以应用这些设置。</string>
+    <string name="backup_skipped">此版本没有 <xliff:g id="count" example="2">%1$d</xliff:g> 项设置，已跳过。</string>
+    <string name="backup_failed">无法保存备份</string>
+    <string name="backup_invalid">该文件不是 Resurrected Remix 备份</string>
+    <string name="backup_footer">文件中只包含 RR 设置：不含账号、密码、WLAN 网络、应用或消息。恢复时只写入 RR 自身列表中的设置，因此备份文件无法更改手机上的其他内容。页眉照片只有在开关开启时才会包含，因为它会使文件变大。</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>霓虹</item>
+        <item>玻璃</item>
+        <item>横条</item>
+        <item>经典 RR</item>
+        <item>Bento</item>
+        <item>Shapes</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>柔和</item>
+    </string-array>
 </resources>

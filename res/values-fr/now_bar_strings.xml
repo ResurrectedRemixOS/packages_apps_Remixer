@@ -11,4 +11,100 @@
     <string name="now_bar_buttons">Boutons</string>
     <string name="now_bar_text">Texte</string>
     <string name="now_bar_text_size">"Taille de la police"</string>
+    <string name="now_bar_summary">Activités en direct en bas de l\'écran de verrouillage</string>
+    <string name="now_bar_show">Afficher</string>
+    <string name="now_bar_music">Musique et vidéo</string>
+    <string name="now_bar_timers">Minuteurs, chronomètre et alarmes</string>
+    <string name="now_bar_hide_call">Masquer la notification d\'appel</string>
+    <string name="now_bar_hide_call_summary">Sur l\'écran de verrouillage, un appel dans la Now Bar n\'apparaît pas aussi en notification</string>
+    <string name="now_bar_live">Actus en direct</string>
+    <string name="now_bar_live_summary">Navigation, trajets, livraisons, scores</string>
+    <string name="now_bar_scores">Scores en direct</string>
+    <string name="now_bar_live_apps">Applis pour les actus en direct</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> applis</string>
+    <string name="now_bar_pin">Épinglées à l\'écran toujours activé</string>
+    <string name="now_bar_pin_none">Aucune. Maintenez une actu en direct dans la barre pour l\'épingler</string>
+    <string name="now_bar_unpin_question">Retirer <xliff:g id="app" example="Uber">%1$s</xliff:g> ?</string>
+    <string name="now_bar_unpin">Retirer</string>
+    <string name="now_bar_scores_summary">Matchs suivis dans En un coup d\'œil</string>
+    <string name="now_bar_glance_settings">Paramètres d\'En un coup d\'œil</string>
+    <string name="now_bar_glance_settings_summary">Activez Sports et suivez vos équipes dans l\'appli Google</string>
+    <string name="now_bar_recording">Enregistrement de l\'écran et de la voix</string>
+    <string name="now_bar_buds">Écouteurs et montres</string>
+    <string name="now_bar_buds_summary">Batterie d\'un appareil connecté : gauche, droite et boîtier pour les écouteurs</string>
+    <string name="now_bar_wave">Animation de vague</string>
+    <string name="now_bar_aod">Afficher sur l\'écran toujours activé</string>
+    <string name="now_bar_chip">Puce dans la barre d\'état</string>
+    <string name="now_bar_chip_summary">Musique et minuteurs à côté de l\'horloge une fois déverrouillé</string>
+    <string name="now_bar_footer">Avec de la musique dans la Now Bar, le grand lecteur de l\'écran de verrouillage est masqué. Balayez la barre pour changer d\'activité, appuyez dessus pour ouvrir les commandes et maintenez pour en masquer une jusqu\'à la fin. Balayez un titre en pause hors de la barre pour le retirer.\n\nLes scores en direct montrent les matchs des équipes que vous suivez dans l\'appli Google. Avec Smartspacer, ajoutez-y une cible sportive et ses scores arrivent ici.</string>
+    <string name="now_bar_looks">Looks</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Par défaut"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Grand</item>
+        <item>Néon</item>
+        <item>Carte en verre</item>
+    </string-array>
+    <string name="now_bar_style">Style</string>
+    <string name="now_bar_material">Matière</string>
+    <string name="now_bar_material_summary">Liquid Glass utilise le verre défini dans Thème</string>
+    <string-array name="now_bar_material_entries">
+        <item>Plein</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Pochette d\'album</item>
+        <item>Accent</item>
+        <item>Sombre</item>
+    </string-array>
+    <string name="now_bar_opacity">Opacité</string>
+    <string name="now_bar_opacity_summary">Avec Liquid Glass, à quel point la couleur teinte le verre</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Aucun"</item>
+        <item>Fine</item>
+        <item>Accent</item>
+    </string-array>
+    <string name="now_bar_shadow">Ombre</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Désactivé"</item>
+        <item>Doux</item>
+        <item>Lueur</item>
+    </string-array>
+    <string name="now_bar_more">Autres activités</string>
+    <string-array name="now_bar_more_entries">
+        <item>Simple balayage</item>
+        <item>Points</item>
+        <item>Dépasser derrière</item>
+    </string-array>
+    <string name="now_bar_size">Taille et forme</string>
+    <string name="now_bar_height">Hauteur</string>
+    <string name="now_bar_width_summary">Complet déplace les raccourcis au-dessus de la barre</string>
+    <string-array name="now_bar_width_entries">
+        <item>Étroit</item>
+        <item>Entre les raccourcis</item>
+        <item>Complet</item>
+    </string-array>
+    <string name="now_bar_corners">Coins</string>
+    <string name="now_bar_raise">Surélever</string>
+    <string name="now_bar_art">Pochette d\'album</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Cercle"</item>
+        <item>Arrondi</item>
+        <item>"Carré"</item>
+        <item>"Désactivé"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Passer et lire</item>
+        <item>Lecture seule</item>
+        <item>"Aucun"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Une ligne</item>
+        <item>Deux lignes</item>
+        <item>Titre seul</item>
+    </string-array>
+    <string name="now_bar_show_page">Ce qui s\'affiche dans la barre</string>
+    <string name="now_bar_show_page_summary">Musique et vidéo, minuteurs, appels et plus</string>
+    <string name="now_bar_where">Où d\'autre</string>
 </resources>

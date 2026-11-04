@@ -6,4 +6,20 @@
     <string name="quick_launch_timer">Minuteur</string>
     <string name="quick_launch_undo">"Annuler"</string>
     <string name="quick_launch_off">"Désactivé"</string>
+    <string name="quick_launch_title">Lancement rapide</string>
+    <string name="quick_launch_main">Lancement rapide par empreinte</string>
+    <string name="quick_launch_main_summary">Laissez le doigt sur le capteur après le déverrouillage pour ouvrir un raccourci</string>
+    <string name="quick_launch_hint">Appuyez sur un raccourci pour le changer, maintenez-le pour le retirer ou faites-le glisser pour le réordonner.</string>
+    <string name="quick_launch_behavior">Comportement</string>
+    <string name="quick_launch_hold">Durée d\'appui</string>
+    <string name="quick_launch_haptics">Vibrer sur chaque raccourci</string>
+    <string name="quick_launch_add">Ajouter</string>
+    <string name="quick_launch_video">Vidéo</string>
+    <string name="quick_launch_qr">Scanner QR</string>
+    <string name="quick_launch_app">Appli…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> retiré</string>
+    <plurals name="quick_launch_on">
+        <item quantity="one">Activé · <xliff:g id="count" example="4">%d</xliff:g> raccourci</item>
+        <item quantity="other">Activé · <xliff:g id="count" example="4">%d</xliff:g> raccourcis</item>
+    </plurals>
 </resources>

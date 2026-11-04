@@ -16,4 +16,26 @@
     <string name="edge_light_moment_battery_low">Düşük pil</string>
     <string name="edge_light_moment_unlock">"Kilitli değil"</string>
     <string name="remixer_color_default">"Varsayılan"</string>
+    <string name="edge_light_title">Kenar aydınlatması</string>
+    <string name="edge_light_summary">Bildirimler, aramalar, alarmlar ve daha fazlası için ekran kenarlarını aydınlatır</string>
+    <string name="edge_light_color_rainbow">Gökkuşağı</string>
+    <string name="edge_light_color_custom">Özel</string>
+    <string name="edge_light_style_default">Yanlar</string>
+    <string name="edge_light_style_frame">Tam çerçeve</string>
+    <string name="edge_light_animation_effect_none">Standart</string>
+    <string name="edge_light_animation_effect_breathing">Nefes alma</string>
+    <string name="edge_light_animation_effect_wave">Dalga</string>
+    <string name="edge_light_animation_effect_sparkle">Pırıltı</string>
+    <string name="edge_light_pulse_count_title">Atımlar</string>
+    <string name="edge_light_pulse_count_summary">Kenarların kaç kez yanacağı</string>
+    <string name="edge_light_stroke_width_title">Kalınlık</string>
+    <string name="edge_light_stroke_width_summary">Işığın dp cinsinden genişliği</string>
+    <string name="edge_light_spread_summary">Parıltının kenardan ne kadar içeri uzanacağı</string>
+    <string name="edge_light_intensity_summary">Parıltının parlaklığı. 0 kapatır</string>
+    <string name="edge_light_moments_title">Anlar</string>
+    <string name="edge_light_moment_alarms">Alarm ve zamanlayıcı</string>
+    <string name="edge_light_moment_plugged">Takılı</string>
+    <string name="edge_light_moment_color">Rengi değiştir</string>
+    <string name="edge_light_moments_footer">Rengini değiştirmek için bir anın noktasına dokunun. Aramalar ve alarmlar çalarken yanar, sessiz modda bile. Diğer anlar Rahatsız Etmeyin\'de oynatılmaz.</string>
+    <string name="edge_light_look_title">Görünüm</string>
 </resources>

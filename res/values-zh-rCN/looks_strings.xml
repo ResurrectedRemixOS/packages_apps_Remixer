@@ -17,4 +17,61 @@
     <string name="looks_save_look">"保存"</string>
     <string name="looks_custom_color">自定义颜色</string>
     <string name="looks_part_clock_color">"时钟颜色"</string>
+    <string name="looks_title">造型</string>
+    <string name="looks_summary">一键切换你的整套设置</string>
+    <string name="looks_rr">RR 造型</string>
+    <string name="looks_yours">你的造型</string>
+    <string name="looks_none">尚未保存任何内容</string>
+    <string name="looks_save">保存当前设置</string>
+    <string name="looks_import_clipboard">从剪贴板</string>
+    <string name="looks_import_file">从文件</string>
+    <string name="looks_mine">我的造型</string>
+    <string name="looks_applied">已应用<xliff:g id="name" example="Neon night">%1$s</xliff:g></string>
+    <string name="looks_failed">无法全部应用</string>
+    <string name="looks_invalid">这不是 RR 造型</string>
+    <string name="looks_part_qs">快捷设置样式</string>
+    <string name="looks_part_clock_face">锁定屏幕表盘</string>
+    <string name="looks_part_clock_look">状态栏时钟</string>
+    <string name="looks_part_edge">边缘灯效</string>
+    <string name="looks_part_stage">Lock Stage 布局</string>
+    <string name="looks_part_haptics">Haptic Remix 模式</string>
+    <string name="looks_stage_custom">你的布局</string>
+    <string name="looks_stage_default">默认布局</string>
+    <plurals name="looks_haptic_patterns">
+        <item quantity="other">%d 个振动模式及其分配</item>
+    </plurals>
+    <string name="looks_saturation">饱和度 <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">强调色</string>
+    <string name="looks_share_title">分享“<xliff:g id="name" example="Neon night">%1$s</xliff:g>”</string>
+    <string name="looks_share_hint">用另一台 RR 手机的相机扫描，或前往“造型 › 导入”</string>
+    <string name="looks_share_file">分享文件</string>
+    <string name="looks_save_file">保存文件</string>
+    <string name="looks_import_scan">扫描二维码</string>
+    <string name="looks_import_title">导入造型</string>
+    <string name="looks_from_qr">来自二维码</string>
+    <string name="looks_from_file">来自文件</string>
+    <string name="looks_from_clipboard">来自剪贴板</string>
+    <string name="looks_import_same">已与你的设置一致。</string>
+    <plurals name="looks_import_changes">
+        <item quantity="other">更改 <xliff:g id="count" example="4">%d</xliff:g> 项：</item>
+    </plurals>
+    <string name="looks_new">新造型</string>
+    <string name="looks_edit_title">修改造型</string>
+    <string name="looks_in_look">在此造型中</string>
+    <string name="looks_not_included">不在此造型中</string>
+    <string name="looks_save_apply">保存并应用</string>
+    <string name="looks_saved">已保存“<xliff:g id="name" example="Sunday">%1$s</xliff:g>”</string>
+    <string name="looks_delete_confirm">要删除“<xliff:g id="name" example="Sunday">%1$s</xliff:g>”吗？</string>
+    <string name="looks_rr_wallpaper">RR 壁纸 <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">强调色饱和度</string>
+    <string name="looks_part_clock_chip">状态栏时钟标签</string>
+    <string name="looks_part_edge_style">边缘灯效样式</string>
+    <string name="looks_scan_hint">将相机对准造型的二维码</string>
+    <string name="looks_scan_failed">无法打开相机</string>
+    <string name="look_roulette_title">造型轮盘</string>
+    <string-array name="look_roulette_entries">
+        <item>"已关闭"</item>
+        <item>每次解锁都换一个造型</item>
+        <item>每天都换一个造型</item>
+    </string-array>
 </resources>

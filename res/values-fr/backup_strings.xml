@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Gestes</string>
     <string name="backup_group_other">"Autre"</string>
     <string name="backup_done">"OK"</string>
+    <string name="backup_summary">Toutes les personnalisations RR dans un fichier</string>
+    <string name="backup_now">Sauvegarder maintenant</string>
+    <string name="backup_never">Dernière sauvegarde : jamais</string>
+    <string name="backup_last">Dernière sauvegarde : <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Restaurer depuis un fichier</string>
+    <string name="backup_restore_summary">Choisissez un fichier de sauvegarde</string>
+    <string name="backup_included">Inclus</string>
+    <string name="backup_part_theme">Accent, police et icônes</string>
+    <string name="backup_part_header">Image d\'en-tête</string>
+    <string name="backup_part_photo">Image d\'en-tête (votre photo)</string>
+    <string name="backup_part_photo_summary">Agrandit le fichier</string>
+    <string name="backup_part_looks">Vos Looks</string>
+    <string name="backup_weekly">Sauvegarde hebdomadaire</string>
+    <string name="backup_weekly_summary">Dans un dossier de votre choix</string>
+    <string name="backup_weekly_on">Chaque semaine dans <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Proposer une sauvegarde avant les mises à jour</string>
+    <string name="backup_offer_summary">Le programme de mise à jour demande avant d\'installer</string>
+    <string name="backup_sets">Définit <xliff:g id="count" example="64">%1$d</xliff:g> paramètres</string>
+    <string name="backup_group_notifications">Notifications</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> paramètres enregistrés</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> paramètres restaurés</string>
+    <string name="backup_restored_message">SystemUI redémarre pour les appliquer.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> paramètres n\'existent pas dans ce build et ont été ignorés.</string>
+    <string name="backup_failed">Impossible d\'enregistrer la sauvegarde</string>
+    <string name="backup_invalid">Ce fichier n\'est pas une sauvegarde Resurrected Remix</string>
+    <string name="backup_footer">Seuls les paramètres RR vont dans le fichier : ni comptes, ni mots de passe, ni réseaux Wi-Fi, ni applis, ni messages. La restauration n\'écrit que les paramètres de la liste de RR, un fichier de sauvegarde ne peut donc rien changer d\'autre sur le téléphone. Votre photo d\'en-tête n\'est incluse que si son interrupteur est activé, car elle agrandit le fichier.</string>
+    <string name="volume_style_title">Style du panneau de volume</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Néon</item>
+        <item>Verre</item>
+        <item>Pilule</item>
+        <item>RR classique</item>
+        <item>Bento</item>
+        <item>Formes</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Doux</item>
+    </string-array>
 </resources>

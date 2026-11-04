@@ -1,4 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sb_weather_category">Météo</string>
+    <string name="sb_clock_category">Horloge et date</string>
+    <string name="sb_clock_bold_title">Horloge en gras</string>
+    <string name="sb_clock_bold_summary">Affiche l\'horloge de la barre d\'état en gras</string>
+    <string name="sb_clock_period_separator_title">Séparateur point</string>
+    <string name="sb_clock_period_separator_summary">10.45 au lieu de 10:45</string>
+    <string name="sb_clock_date_title">Date</string>
+    <string name="sb_clock_date_position_title">Position de la date</string>
+    <string name="sb_clock_date_style_title">Casse de la date</string>
+    <string name="sb_clock_date_format_title">Format de la date</string>
+    <string name="sb_clock_chip_category">Fond de l\'horloge</string>
+    <string name="sb_clock_chip_title">Style du fond</string>
+    <string name="sb_clock_chip_start_title">Début du dégradé</string>
+    <string name="sb_clock_chip_end_title">Fin du dégradé</string>
+    <string name="sb_clock_chip_angle_title">Angle du dégradé</string>
+    <string name="sb_clock_chip_mask_title">Découper l\'heure dans le dégradé</string>
+    <string name="sb_clock_chip_mask_summary">Le dégradé apparaît à travers les chiffres et non derrière</string>
+    <string name="sb_weather_title">Météo dans la barre d\'état</string>
+    <string name="sb_weather_position_title">Position</string>
+    <string name="status_bar_clock_rr_style_title">Aspect de l\'horloge</string>
+    <string-array name="status_bar_clock_rr_style_entries">
+        <item>"Par défaut"</item>
+        <item>Néon</item>
+        <item>Divisé</item>
+        <item>Marque RR</item>
+        <item>Mono</item>
+        <item>Pulse</item>
+        <item>Empilé</item>
+        <item>Braise</item>
+        <item>Glitch</item>
+    </string-array>
+    <string name="sb_clock_flatline_title">Flatline à côté de l\'heure</string>
+    <string name="sb_clock_flatline_summary">La ligne de pouls de RR dans la puce : bat avec la musique, pique quand une notification arrive</string>
 </resources>

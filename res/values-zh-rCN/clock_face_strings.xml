@@ -7,4 +7,34 @@
     <string name="clock_faces_size_position">大小 &amp; 位置</string>
     <string name="clock_faces_size">"大小"</string>
     <string name="clock_faces_restart">"重启"</string>
+    <string name="remixer_clock_faces">表盘</string>
+    <string name="clock_faces_system">系统时钟</string>
+    <string name="clock_faces_system_desc">“壁纸和样式”中的时钟</string>
+    <string name="clock_faces_position">第 %1$d 个，共 %2$d 个</string>
+    <string name="clock_faces_applied">已应用</string>
+    <string name="clock_faces_preview_unavailable">无法预览</string>
+    <string name="clock_faces_failed">无法更改时钟</string>
+    <string name="clock_faces_color_accent">强调色</string>
+    <string name="clock_faces_color_custom">自定义</string>
+    <string name="clock_faces_color_gradient">渐变</string>
+    <string name="clock_faces_own_colors">此表盘保留自己的颜色。</string>
+    <string name="clock_faces_album_hint">播放音乐时使用专辑封面的颜色。</string>
+    <string name="clock_faces_size_value">大小 · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">距顶部距离</string>
+    <string name="clock_faces_top_value">距顶部距离 · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">水平位置</string>
+    <string name="clock_faces_horizontal_center">水平位置 · 居中</string>
+    <string name="clock_faces_horizontal_right">水平位置 · 向右 <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_left">水平位置 · 向左 <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_fixed">此表盘保持居中。</string>
+    <string name="clock_faces_opacity">不透明度</string>
+    <string name="clock_faces_opacity_value">不透明度 · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">动效</string>
+    <string name="clock_faces_wobble">充电时摇摆</string>
+    <string name="clock_faces_wobble_summary">插入充电器时弹跳一次</string>
+    <string name="clock_faces_aod_anim">息屏显示过渡</string>
+    <string name="clock_faces_aod_anim_summary">将时钟缩小并淡入息屏显示</string>
+    <string name="clock_faces_restart_title">要重启锁定屏幕吗？</string>
+    <string name="clock_faces_restart_message">在系统时钟和自定义表盘之间切换会重启 SystemUI。屏幕会变暗一秒钟。</string>
+    <string name="clock_faces_note">预览由 SystemUI 绘制在你的锁定屏幕壁纸上。颜色、大小和位置会立即改变锁定屏幕。</string>
 </resources>

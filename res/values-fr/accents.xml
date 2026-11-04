@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Fond d\'écran"</item>
+        <item>Resurrected</item>
+        <item>Vert Android One</item>
+        <item>Vert Aospa</item>
+        <item>Rouge Coca-Cola</item>
+        <item>Violet Discord</item>
+        <item>Bleu Facebook</item>
+        <item>Cerise Instagram</item>
+        <item>Cramoisi Jollibee</item>
+        <item>Vert Monster Energy</item>
+        <item>Menthe Nextbit</item>
+        <item>Rouge OnePlus</item>
+        <item>Bleu Pepsi</item>
+        <item>Bleu Pixel</item>
+        <item>Jaune Pocophone</item>
+        <item>Vert Razer</item>
+        <item>Bleu Samsung</item>
+        <item>Vert Spotify</item>
+        <item>Vert Starbucks</item>
+        <item>Violet Twitch</item>
+        <item>Bleu Twitter</item>
+        <item>Orange Xiaomi</item>
+        <item>Ambre</item>
+        <item>"Noir"</item>
+        <item>"Bleu"</item>
+        <item>Gris-bleu</item>
+        <item>Marron</item>
+        <item>Cyan</item>
+        <item>Orange foncé</item>
+        <item>Violet foncé</item>
+        <item>"Vert"</item>
+        <item>"Gris"</item>
+        <item>Indigo</item>
+        <item>Bleu clair</item>
+        <item>Citron vert</item>
+        <item>Orange</item>
+        <item>"Rose"</item>
+        <item>"Violet"</item>
+        <item>"Rouge"</item>
+        <item>"Turquoise"</item>
+        <item>Utilisateur cinq</item>
+        <item>Utilisateur quatre</item>
+        <item>Utilisateur un</item>
+        <item>Utilisateur sept</item>
+        <item>Utilisateur six</item>
+        <item>Utilisateur trois</item>
+        <item>Utilisateur deux</item>
+        <item>"Blanc"</item>
+        <item>"Jaune"</item>
+    </string-array>
+</resources>

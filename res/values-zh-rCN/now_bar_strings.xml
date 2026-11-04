@@ -14,4 +14,97 @@
     <string name="now_bar_buttons">按键</string>
     <string name="now_bar_text">文本</string>
     <string name="now_bar_text_size">"文字大小"</string>
+    <string name="now_bar_summary">锁定屏幕底部的实时活动</string>
+    <string name="now_bar_show">显示</string>
+    <string name="now_bar_music">音乐和视频</string>
+    <string name="now_bar_timers">计时器、秒表和闹钟</string>
+    <string name="now_bar_hide_call">隐藏来电通知</string>
+    <string name="now_bar_hide_call_summary">在锁定屏幕上，Now Bar 中的通话不会同时列为通知</string>
+    <string name="now_bar_live">实时动态</string>
+    <string name="now_bar_live_summary">导航、行程、配送、比分</string>
+    <string name="now_bar_scores">实时比分</string>
+    <string name="now_bar_live_apps">实时动态应用</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> 个应用</string>
+    <string name="now_bar_pin">已固定到息屏显示</string>
+    <string name="now_bar_pin_none">无。按住栏中的实时动态即可固定</string>
+    <string name="now_bar_unpin_question">要取消固定<xliff:g id="app" example="Uber">%1$s</xliff:g>吗？</string>
+    <string name="now_bar_unpin">取消固定</string>
+    <string name="now_bar_scores_summary">你在“一目了然”中关注的比赛</string>
+    <string name="now_bar_glance_settings">“一目了然”设置</string>
+    <string name="now_bar_glance_settings_summary">在 Google 应用中开启“体育”并关注你的球队</string>
+    <string name="now_bar_recording">屏幕和语音录制</string>
+    <string name="now_bar_buds">耳机和手表</string>
+    <string name="now_bar_buds_summary">已连接设备的电量：耳机的左耳、右耳和充电盒</string>
+    <string name="now_bar_wave">波浪动画</string>
+    <string name="now_bar_chip">状态栏中的标签</string>
+    <string name="now_bar_chip_summary">解锁时在时钟旁显示正在播放的音乐和计时器</string>
+    <string name="now_bar_footer">Now Bar 中有音乐时，锁定屏幕的大播放器会隐藏。滑动该栏可切换活动，点按可打开控件，长按可隐藏某项活动直至结束。将已暂停的歌曲从栏中滑走即可清除。\n\n实时比分显示你在 Google 应用中关注的球队的比赛。如果使用 Smartspacer，在其中添加体育目标，比分就会显示在这里。</string>
+    <string name="now_bar_looks">造型</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"默认"</item>
+        <item>Liquid Glass</item>
+        <item>迷你</item>
+        <item>大</item>
+        <item>霓虹</item>
+        <item>玻璃卡片</item>
+    </string-array>
+    <string name="now_bar_material">材质</string>
+    <string name="now_bar_material_summary">Liquid Glass 使用你在“主题”中设置的玻璃</string>
+    <string-array name="now_bar_material_entries">
+        <item>纯色</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>专辑封面</item>
+        <item>强调色</item>
+        <item>深色</item>
+    </string-array>
+    <string name="now_bar_opacity">不透明度</string>
+    <string name="now_bar_opacity_summary">使用 Liquid Glass 时颜色对玻璃的染色程度</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"无"</item>
+        <item>细</item>
+        <item>强调色</item>
+    </string-array>
+    <string name="now_bar_shadow">阴影</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"已关闭"</item>
+        <item>柔和</item>
+        <item>发光</item>
+    </string-array>
+    <string name="now_bar_more">更多活动</string>
+    <string-array name="now_bar_more_entries">
+        <item>仅滑动</item>
+        <item>圆点</item>
+        <item>从后方露出</item>
+    </string-array>
+    <string name="now_bar_size">大小和形状</string>
+    <string name="now_bar_height">高度</string>
+    <string name="now_bar_width_summary">“完整”会将快捷方式移到栏的上方</string>
+    <string-array name="now_bar_width_entries">
+        <item>窄</item>
+        <item>快捷方式之间</item>
+        <item>完整</item>
+    </string-array>
+    <string name="now_bar_corners">圆角</string>
+    <string name="now_bar_raise">抬高</string>
+    <string-array name="now_bar_art_entries">
+        <item>"圆形"</item>
+        <item>圆角</item>
+        <item>"方形"</item>
+        <item>"已关闭"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>跳过和播放</item>
+        <item>仅播放</item>
+        <item>"无"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>一行</item>
+        <item>两行</item>
+        <item>仅歌曲</item>
+    </string-array>
+    <string name="now_bar_show_page">栏中显示的内容</string>
+    <string name="now_bar_show_page_summary">音乐和视频、计时器、通话等</string>
+    <string name="now_bar_where">其他位置</string>
 </resources>

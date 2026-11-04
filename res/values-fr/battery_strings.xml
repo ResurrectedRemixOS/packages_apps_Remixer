@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Batterie"</string>
+    <string name="battery_style_title">Style</string>
+    <string-array name="battery_style_entries">
+        <item>Portrait</item>
+        <item>"Cercle"</item>
+        <item>Cercle en pointillés</item>
+        <item>Anneau néon</item>
+        <item>Pilule fine</item>
+        <item>Grand pourcentage</item>
+        <item>Texte</item>
+    </string-array>
+    <string name="battery_percent_title">Pourcentage</string>
+    <string-array name="battery_percent_entries">
+        <item>"Masquer"</item>
+        <item>Dans l\'icône</item>
+        <item>À côté</item>
+    </string-array>
+    <string name="battery_ring_color_title">Couleur de l\'anneau néon</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Selon le niveau : l\'accent au-dessus de 20%%, rouge en dessous et ambre avec l\'Économiseur de batterie.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Selon le niveau</item>
+        <item>Accent</item>
+        <item>"Blanc"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Étincelle pendant la recharge</string>
+    <string name="battery_ring_tile_title">Le même anneau sur la vignette des Réglages rapides</string>
+    <string name="battery_ring_tile_summary">Avec le niveau et le temps d\'écran allumé</string>
 </resources>

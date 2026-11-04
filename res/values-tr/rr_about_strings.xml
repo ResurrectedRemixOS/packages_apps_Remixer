@@ -12,4 +12,22 @@
     <string name="rr_about_this_phone">"Bu telefon"</string>
     <string name="rr_about_network">"Ağ"</string>
     <string name="rr_about_hidden">Gizli</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">Resmi</string>
+    <string name="rr_about_vanilla">Vanilla</string>
+    <string name="rr_about_hardware">Donanım</string>
+    <string name="rr_about_processor">İşlemci</string>
+    <string name="rr_about_processor_sub">%1$d çekirdek · %2$s GHz\'e kadar</string>
+    <string name="rr_about_processor_cores">%1$d çekirdek</string>
+    <string name="rr_about_storage_used">%1$s kullanıldı</string>
+    <string name="rr_about_display">Display</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · Şarj oluyor</string>
+    <string name="rr_about_kernel_linux">Linux çekirdeği</string>
+    <string name="rr_about_software_purpose">Android sürümü, güvenlik güncellemesi, derleme tarihi ve derleme numarası</string>
+    <string name="rr_about_security_patch">Güvenlik güncellemesi</string>
+    <string name="rr_about_maintainer">Geliştirici</string>
+    <string name="rr_about_show">Göster</string>
+    <string name="rr_about_hide">Gizle</string>
 </resources>

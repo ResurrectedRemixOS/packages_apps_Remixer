@@ -94,4 +94,205 @@
     <string name="remixer_settings_style">设置样式</string>
     <string name="remixer_settings_style_original">"原图"</string>
     <string name="remixer_navbar_category">"导航栏"</string>
+    <string name="remixer_dashboard_summary">状态栏、主题、锁定屏幕等</string>
+    <string name="rr_homepage_battery_saver">省电模式</string>
+    <string name="rr_homepage_personalize">个性化</string>
+    <string name="rr_homepage_free">可用空间：<xliff:g id="size" example="194 GB">%1$s</xliff:g></string>
+    <string name="rr_homepage_charged">已充满</string>
+    <string name="rr_homepage_on_battery">使用电池</string>
+    <string name="rr_homepage_saver_on">省电模式已开启</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> 台设备</item>
+    </plurals>
+    <string name="rr_homepage_extras">更多设置</string>
+    <string name="rr_homepage_saver">省电</string>
+    <string name="rr_homepage_signed_out">未登录</string>
+    <string name="rr_homepage_remixer_tagline">打造你的专属手机。状态栏、主题、锁定屏幕等。</string>
+    <string name="rr_homepage_device_tagline">提醒滑块、显示、充电和 GameBar。</string>
+    <string name="rr_homepage_device_action">调校</string>
+    <string name="rr_group_network">网络和设备</string>
+    <string name="rr_group_network_summary">WLAN、移动网络、蓝牙</string>
+    <string name="rr_group_apps_summary">应用、通知、模式</string>
+    <string name="rr_group_display">显示和声音</string>
+    <string name="rr_group_display_summary">显示、壁纸、声音</string>
+    <string name="rr_group_security_summary">锁定、位置信息、紧急情况</string>
+    <string name="rr_group_security_center">安全中心</string>
+    <string name="rr_group_accounts">Google 和账号</string>
+    <string name="rr_group_accounts_summary">Google、密码、备份</string>
+    <string name="rr_group_accounts_plain_summary">密码、账号、备份</string>
+    <string name="rr_group_system_summary">语言、手势、更新</string>
+    <string name="remixer_tagline">打造你的专属手机。</string>
+    <string name="remixer_remix">开始混搭</string>
+    <string name="remixer_remixed">已用 <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g> 混搭</string>
+    <string name="remixer_chip_shade_default">色调 · 默认</string>
+    <string name="remixer_quick">快速混搭</string>
+    <string name="remixer_everything">全部</string>
+    <string name="remixer_quick_accents">预设或任意颜色</string>
+    <string name="remixer_quick_fonts">系统字体样式</string>
+    <string name="remixer_quick_walls">RR 精选</string>
+    <string name="remixer_quick_header">快捷设置页眉</string>
+    <string name="remixer_quick_header_summary">页眉图片</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">时钟、电池、图标和网络流量</string>
+    <string name="remixer_qs_summary">页眉图片</string>
+    <string name="remixer_notifications_summary">边缘灯效、应用图标和充电提示音</string>
+    <string name="remixer_theme_summary">字体、强调色和壁纸</string>
+    <string name="remixer_lockscreen_summary">UDFPS、充电信息和天气</string>
+    <string name="remixer_udfps_icon_summary">显示在指纹传感器上方</string>
+    <string name="remixer_udfps_animation_summary">手指放在传感器上时播放</string>
+    <string name="remixer_navigation_summary">Pulse、按钮和导航栏</string>
+    <string name="remixer_misc_summary">音量、备份、伪装、滚动和 USB</string>
+    <string name="scroll_haptics_title">滚动到底时轻触反馈</string>
+    <string name="scroll_haptics_summary">列表或页面无法继续滚动时轻微振动</string>
+    <string name="usb_mode_picker_title">USB 模式选择器</string>
+    <string name="usb_mode_picker_summary">连接电脑时选择模式</string>
+    <string name="remixer_fonts_summary">系统字体</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix 壁纸</string>
+    <string name="remixer_accents">强调色</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">屏幕底部的音乐可视化效果</string>
+    <string name="pulse_switch">使用 Pulse</string>
+    <string name="pulse_switch_summary">播放媒体时在屏幕底部显示音乐条</string>
+    <string name="pulse_style_lines">线条</string>
+    <string name="pulse_style_fading">渐隐</string>
+    <string name="pulse_style_blocks">方块</string>
+    <string name="pulse_style_mirror">镜像</string>
+    <string name="pulse_color_custom">自定义</string>
+    <string name="pulse_color_gradient">彩虹</string>
+    <string name="pulse_bars">音乐条</string>
+    <string name="pulse_bars_value">音乐条 · %1$d</string>
+    <string name="pulse_height">高度</string>
+    <string name="pulse_height_value">高度 · %1$d dp</string>
+    <string name="pulse_opacity">不透明度</string>
+    <string name="pulse_opacity_value">不透明度 · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">播放音乐时在锁定屏幕上保留音乐条</string>
+    <string name="pulse_failed">无法保存该 Pulse 设置</string>
+    <string name="accent_applied">已应用强调色</string>
+    <string name="accent_current">强调色 · %1$s</string>
+    <string name="accent_current_custom">强调色 · 自定义</string>
+    <string name="accent_preview_tonal">柔和色调</string>
+    <string name="accent_failed">无法应用该强调色</string>
+    <string name="accent_custom">自定义</string>
+    <string name="accent_custom_summary">任意颜色均可。色调仍会叠加在上面。</string>
+    <string name="accent_custom_pad">饱和度和亮度</string>
+    <string name="accent_custom_use">使用<xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">色调</string>
+    <string name="accent_shade_darker">更深</string>
+    <string name="accent_shade_lighter">更浅</string>
+    <string name="accent_shade_darker_value">更深 · %1$d</string>
+    <string name="accent_shade_lighter_value">更浅 · %1$d</string>
+    <string name="remixer_qs_style">快捷设置样式</string>
+    <string name="remixer_qs_customize_summary">打开快捷设置并点按铅笔图标。点按功能块可查看选项和外观，按住可移动，拖动边角可调整大小，面板下方的标签页用于设置整个面板。</string>
+    <string name="remixer_qs_style_preview">预览 · %1$s</string>
+    <string name="remixer_qs_style_note">所有样式都会跟随你的强调色。音量面板有配套的 Bento、Shapes、Blueprint、Duo 和柔和外观。Stock Lineage 会保持 Android 17 功能块不变。</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Android 17 功能块，未作更改</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">亮度显示在强调色卡片中。功能块以强调色渐变填充</string>
+    <string name="remixer_qs_style_compact">紧凑</string>
+    <string name="remixer_qs_style_compact_summary">功能块更矮，一屏可放更多</string>
+    <string name="remixer_qs_style_glass">玻璃</string>
+    <string name="remixer_qs_style_glass_summary">带轮廓的透明功能块，开启时发出强调色光芒</string>
+    <string name="remixer_qs_style_circles">圆形</string>
+    <string name="remixer_qs_style_circles_summary">带标签的圆形开关。宽功能块变为卡片</string>
+    <string name="remixer_qs_style_classic">经典</string>
+    <string name="remixer_qs_style_classic_summary">老派 RR：简单图标加标签，每行五个，细滑块</string>
+    <string name="remixer_qs_style_cards">卡片</string>
+    <string name="remixer_qs_style_cards_summary">大卡片，名称下方显示状态，每行三个</string>
+    <string name="remixer_qs_style_neon">霓虹</string>
+    <string name="remixer_qs_style_neon_summary">带轮廓的功能块，开启时发出强调色光芒</string>
+    <string name="remixer_qs_style_bento_summary">填充强调色的大圆角方块，小方块下方显示标签</string>
+    <string name="remixer_qs_style_shapes">Shapes</string>
+    <string name="remixer_qs_style_shapes_summary">开启时长出花瓣的圆形开关，每行五个</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">细线轮廓和等宽大写字母</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">分割功能块。图标部分会亮起并切换</string>
+    <string name="remixer_qs_style_soft">柔和</string>
+    <string name="remixer_qs_style_soft_summary">凸起的功能块，开启时会凹陷</string>
+    <string name="remixer_lock_media_style">媒体播放器样式</string>
+    <string name="remixer_lock_media_same">与快捷设置相同</string>
+    <string name="remixer_lock_media_same_summary">跟随快捷设置中的媒体功能块，当前为%1$s</string>
+    <string name="remixer_lock_media_off_summary">锁定屏幕上不显示播放器</string>
+    <string name="remixer_lock_media_note">播放内容时，卡片会显示在锁定屏幕上。透明样式带有深色背景，以便在壁纸上保持清晰可读。</string>
+    <string name="remixer_lock_media_stock_summary">专辑封面填满卡片</string>
+    <string name="remixer_lock_media_remix_summary">深色卡片，强调色播放按钮</string>
+    <string name="remixer_lock_media_compact_summary">更圆的卡片，圆形封面</string>
+    <string name="remixer_lock_media_glass_summary">带轮廓的透明卡片</string>
+    <string name="remixer_lock_media_circles_summary">柔和卡片，强调色播放按钮</string>
+    <string name="remixer_lock_media_classic_summary">更方的卡片，轮廓播放按钮</string>
+    <string name="remixer_lock_media_cards_summary">柔和卡片，强调色播放按钮，类似圆形样式</string>
+    <string name="remixer_lock_media_neon_summary">带强调色轮廓的黑色卡片</string>
+    <string name="remixer_lock_media_bento_summary">柔和卡片，强调色播放按钮</string>
+    <string name="remixer_lock_media_shapes_summary">更圆的卡片，强调色播放按钮</string>
+    <string name="remixer_lock_media_blueprint_summary">细线轮廓，轮廓播放按钮</string>
+    <string name="remixer_lock_media_duo_summary">双色卡片，强调色播放按钮</string>
+    <string name="remixer_lock_media_soft_summary">带斜面边缘的凸起卡片</string>
+    <string name="remixer_headers">页眉图片</string>
+    <string name="header_switch">使用页眉图片</string>
+    <string name="header_switch_summary">在快捷设置后方显示图片</string>
+    <string name="header_source">来源</string>
+    <string name="header_source_collection">合集</string>
+    <string name="header_collections_summary_daylight">页眉跟随一天中的时间或在合集中轮换</string>
+    <string name="header_collections_summary_static">打开合集，然后点按图片即可使用</string>
+    <string name="header_collections_empty">未安装页眉合集</string>
+    <string name="header_images_daylight">此合集中</string>
+    <plurals name="header_image_count">
+        <item quantity="other">%d 张图片</item>
+    </plurals>
+    <string name="header_photo_summary">图库中的任意照片或动图 GIF</string>
+    <string name="header_height">高度</string>
+    <string name="header_height_value">高度 · %1$d dp</string>
+    <string name="header_shadow">调暗</string>
+    <string name="header_shadow_value">调暗 · %1$d%%</string>
+    <string name="header_failed">无法保存该页眉设置</string>
+    <string name="remixer_weather_summary">天气服务和单位</string>
+    <string name="font_preview_notification">这就是手机上的文字效果。</string>
+    <string name="font_try_text">试试你自己的文字</string>
+    <string name="font_previewing">预览中</string>
+    <string name="font_badge_current">当前</string>
+    <string name="font_apply_done">已应用</string>
+    <string name="font_filter_sans">无衬线</string>
+    <string name="font_filter_display">展示</string>
+    <string name="font_filter_script">手写</string>
+    <string name="font_filter_mono">等宽</string>
+    <string name="font_applied">已应用字体</string>
+    <string name="font_failed">无法应用该字体</string>
+    <string name="wallpaper_set">壁纸已设置</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="other">%d 张 Resurrected Remix 壁纸。点按一张即可预览。</item>
+    </plurals>
+    <string name="wallpaper_apply_both">全部</string>
+    <string name="wallpaper_failed">无法设置该壁纸</string>
+    <string name="missing_app">该应用未安装</string>
+    <string name="remixer_spoofing_summary">Play Integrity、设备身份和按应用伪装</string>
+    <string name="remixer_settings_tile_hues">彩色类别方块</string>
+    <string name="remixer_settings_tile_hues_summary">每个方块都使用接近强调色的色相。关闭后全部使用强调色。</string>
+    <string name="rr_maintainer">维护者</string>
+    <string name="remixer_navbar_summary">横条长度、粗细和布局</string>
+    <string name="remixer_navbar_pill_length">手势横条长度</string>
+    <string name="remixer_navbar_pill_thickness">手势横条粗细</string>
+    <string name="remixer_navbar_pill_auto_hide">淡出手势横条</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">几秒后隐藏横条；触摸屏幕时重新出现</string>
+    <string name="remixer_navbar_ime">键盘按钮</string>
+    <string name="remixer_navbar_ime_summary">在键盘下方显示返回和键盘切换按钮</string>
+    <string name="remixer_navbar_layout">按钮布局</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>短</item>
+        <item>正常</item>
+        <item>长</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>最细</item>
+        <item>较细</item>
+        <item>细</item>
+        <item>正常</item>
+        <item>粗</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>正常</item>
+        <item>紧凑</item>
+        <item>"靠左"</item>
+        <item>"靠右"</item>
+    </string-array>
 </resources>

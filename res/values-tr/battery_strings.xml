@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"Pil"</string>
     <string name="battery_style_title">"Stil"</string>
+    <string-array name="battery_style_entries">
+        <item>Dikey</item>
+        <item>"Daire"</item>
+        <item>Daire (Noktalı)</item>
+        <item>Neon halka</item>
+        <item>İnce hap</item>
+        <item>Büyük yüzde</item>
+        <item>Metin</item>
+    </string-array>
+    <string name="battery_percent_title">Yüzde</string>
+    <string-array name="battery_percent_entries">
+        <item>Gizli</item>
+        <item>Simgenin içinde</item>
+        <item>Yanında</item>
+    </string-array>
+    <string name="battery_ring_color_title">Neon halka rengi</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s. Seviyeye göre: %%20 üzeri vurgu, altı kırmızı ve Pil Tasarrufu\'nda kehribar.</string>
+    <string-array name="battery_ring_color_entries">
+        <item>Seviyeye göre</item>
+        <item>Vurgu</item>
+        <item>"Beyaz"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">Şarj olurken kıvılcım</string>
+    <string name="battery_ring_tile_title">Hızlı Ayarlar kutusunda aynı halka</string>
+    <string name="battery_ring_tile_summary">Seviye ve ekran süresiyle</string>
 </resources>

@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="remixer_boot_animation">开机动画样式</string>
+    <string name="boot_animation_note">手机下次启动时播放。</string>
+    <string name="boot_animation_custom">你的文件</string>
+    <string name="boot_animation_custom_pick">选择文件…</string>
+    <string name="boot_animation_custom_invalid">该文件不是开机动画</string>
+    <string name="boot_animation_failed">无法更改开机动画</string>
 </resources>

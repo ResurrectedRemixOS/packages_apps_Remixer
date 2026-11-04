@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Batterie"</string>
     <string name="charge_report_temp">"Température"</string>
     <string name="charge_report_time">"Heure"</string>
+    <string name="charge_report_title">Rapports de charge</string>
+    <string name="charge_report_summary">Un résumé de chaque charge au débranchement</string>
+    <string name="charge_report_min_title">Seulement si la charge a ajouté au moins</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 jours</item>
+        <item>7 jours</item>
+        <item>14 jours</item>
+        <item>30 jours</item>
+    </string-array>
+    <string name="charge_report_history_days"><xliff:g id="days" example="7">%1$d</xliff:g> derniers jours</string>
+    <string name="charge_report_today">Aujourd\'hui, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Hier, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> h <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Watts</string>
+    <string name="charge_report_added">Ajouté</string>
+    <string name="charge_report_peak">Pic</string>
+    <string name="charge_report_average">Moyenne</string>
+    <string name="charge_report_max_temp">Temp. max.</string>
+    <string name="charge_report_charger">Chargeur</string>
+    <string name="charge_report_started">Commencé à</string>
+    <string name="charge_report_wired">Filaire</string>
+    <string name="charge_report_wireless">Sans fil</string>
+    <string name="charge_report_dock">Station</string>
+    <string name="charge_report_empty">Aucune charge pour le moment</string>
+    <string name="charge_report_footer">SystemUI lit le courant, la tension et la température de la batterie toutes les 30 secondes tant que le téléphone est branché. Les watts sont mesurés par le téléphone, ils peuvent donc différer du chiffre du chargeur. Les rapports restent sur le téléphone ; rien n\'est envoyé.</string>
 </resources>

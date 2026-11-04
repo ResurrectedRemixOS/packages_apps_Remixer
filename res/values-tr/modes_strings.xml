@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="remix_modes_summary">Modlarınızın her biri için bir Görünüm</string>
+    <string name="remix_modes_everyday">Günlük Görünüm</string>
+    <string name="remix_modes_everyday_summary">Görünümü olan hiçbir mod açık değilken geri gelir</string>
+    <string name="remix_modes_wallpaper">Duvar kağıdı Görünümü izler</string>
+    <string name="remix_modes_wallpaper_summary">Bir mod duvar kağıdını da değiştirebilir</string>
+    <string name="remix_modes_modes">Modlarınız</string>
+    <string name="remix_modes_no_change">Değişiklik yok</string>
+    <string name="remix_modes_none">Önce Tema › Görünümler\'de bir Görünüm kaydedin</string>
+    <string name="remix_modes_pick"><xliff:g id="mode" example="Sleep">%1$s</xliff:g> için Görünüm</string>
+</resources>

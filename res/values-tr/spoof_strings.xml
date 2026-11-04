@@ -149,4 +149,6 @@
     <string name="user_select_spoofing_profile_title">Sahte profili seç</string>
     <string name="user_selectable_app_spoofing_summary">Belirli uygulamalar ve oyunlar için cihaz özelliklerini taklit et</string>
     <string name="user_selectable_app_spoofing_title">Uygulama ve oyun sahteliği</string>
+    <string name="spoofing_title">Sahteleme</string>
+    <string name="ts_mode_skip">Atla</string>
 </resources>

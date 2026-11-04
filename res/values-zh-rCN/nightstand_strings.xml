@@ -3,4 +3,23 @@
     <string name="nightstand_when">"时间"</string>
     <string name="nightstand_face">时钟样式</string>
     <string name="lock_stage_tab_lock">"锁定屏幕"</string>
+    <string name="nightstand_title">床头时钟</string>
+    <string name="nightstand_summary">夜间充电时在息屏显示上显示昏暗的床头时钟</string>
+    <string-array name="nightstand_when_entries">
+        <item>"已关闭"</item>
+        <item>夜间充电时</item>
+        <item>每晚，按时间表</item>
+        <item>就寝时间模式开启时</item>
+    </string-array>
+    <string name="nightstand_from">夜晚开始</string>
+    <string name="nightstand_to">夜晚结束</string>
+    <string name="nightstand_brightness">亮度上限</string>
+    <string name="nightstand_brightness_summary">床头时钟开启时息屏显示的最高亮度</string>
+    <string name="nightstand_face_keep">保留当前表盘</string>
+    <string name="nightstand_layout">修改布局</string>
+    <string name="nightstand_layout_summary">床头时钟有自己的 Lock Stage：默认包含时钟、闹钟和电池环</string>
+    <string name="nightstand_footer">床头时钟运行时会开启息屏显示，结束后恢复。拔掉充电器、闹钟响起或夜晚结束时停止。表盘只会在两个自定义表盘之间切换；系统时钟不变。</string>
+    <string name="lock_stage_tab_page">第 <xliff:g id="number" example="2">%d</xliff:g> 页</string>
+    <string name="lock_stage_remove_page">要移除第 <xliff:g id="number" example="2">%d</xliff:g> 页吗？</string>
+    <string name="lock_stage_tab_night">床头时钟</string>
 </resources>

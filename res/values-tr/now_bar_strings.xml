@@ -14,4 +14,97 @@
     <string name="now_bar_buttons">Tuşlar</string>
     <string name="now_bar_text">Metin</string>
     <string name="now_bar_text_size">"Metin boyutu"</string>
+    <string name="now_bar_summary">Kilit ekranının altında canlı etkinlikler</string>
+    <string name="now_bar_show">Göster</string>
+    <string name="now_bar_music">Müzik ve video</string>
+    <string name="now_bar_timers">Zamanlayıcılar, kronometre ve alarmlar</string>
+    <string name="now_bar_hide_call">Arama bildirimini gizle</string>
+    <string name="now_bar_hide_call_summary">Kilit ekranında Now Bar\'daki arama ayrıca bildirim olarak listelenmez</string>
+    <string name="now_bar_live">Canlı Güncellemeler</string>
+    <string name="now_bar_live_summary">Navigasyon, yolculuklar, teslimatlar, skorlar</string>
+    <string name="now_bar_scores">Canlı skorlar</string>
+    <string name="now_bar_live_apps">Canlı Güncellemeler için uygulamalar</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> uygulama</string>
+    <string name="now_bar_pin">Her zaman açık ekrana sabitlendi</string>
+    <string name="now_bar_pin_none">Yok. Sabitlemek için çubuktaki bir Canlı Güncellemeyi basılı tutun</string>
+    <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> kaldırılsın mı?</string>
+    <string name="now_bar_unpin">Sabitlemeyi kaldır</string>
+    <string name="now_bar_scores_summary">Bir Bakışta\'da takip ettiğiniz maçlar</string>
+    <string name="now_bar_glance_settings">Bir Bakışta ayarları</string>
+    <string name="now_bar_glance_settings_summary">Google uygulamasında Spor\'u açıp takımlarınızı takip edin</string>
+    <string name="now_bar_recording">Ekran ve ses kaydı</string>
+    <string name="now_bar_buds">Kulaklıklar ve saatler</string>
+    <string name="now_bar_buds_summary">Bağlı cihazın pili: kulaklıklarda sol, sağ ve kılıf</string>
+    <string name="now_bar_wave">Dalga animasyonu</string>
+    <string name="now_bar_chip">Durum çubuğunda çip</string>
+    <string name="now_bar_chip_summary">Kilit açıkken saatin yanında müzik ve zamanlayıcılar</string>
+    <string name="now_bar_footer">Now Bar\'da müzik varken kilit ekranındaki büyük oynatıcı gizlenir. Etkinlikler arasında geçmek için çubuğu kaydırın, kontrolleri açmak için dokunun, bir etkinliği bitene kadar gizlemek için uzun basın. Duraklatılan şarkıyı kaldırmak için çubuktan dışarı kaydırın.\n\nCanlı skorlar, Google uygulamasında takip ettiğiniz takımların maçlarını gösterir. Smartspacer ile oraya bir spor hedefi ekleyin, skorlar buraya gelsin.</string>
+    <string name="now_bar_looks">Görünümler</string>
+    <string-array name="now_bar_looks_entries">
+        <item>"Varsayılan"</item>
+        <item>Liquid Glass</item>
+        <item>Mini</item>
+        <item>Büyük</item>
+        <item>Neon</item>
+        <item>Cam kart</item>
+    </string-array>
+    <string name="now_bar_material">Malzeme</string>
+    <string name="now_bar_material_summary">Liquid Glass, Tema\'da ayarladığınız camı kullanır</string>
+    <string-array name="now_bar_material_entries">
+        <item>Düz renk</item>
+        <item>Liquid Glass</item>
+    </string-array>
+    <string-array name="now_bar_color_entries">
+        <item>Albüm kapağı</item>
+        <item>Vurgu</item>
+        <item>Koyu</item>
+    </string-array>
+    <string name="now_bar_opacity">Opaklık</string>
+    <string name="now_bar_opacity_summary">Liquid Glass ile rengin camı ne kadar boyayacağı</string>
+    <string-array name="now_bar_outline_entries">
+        <item>"Yok"</item>
+        <item>İnce</item>
+        <item>Vurgu</item>
+    </string-array>
+    <string name="now_bar_shadow">Gölge</string>
+    <string-array name="now_bar_shadow_entries">
+        <item>"Kapalı"</item>
+        <item>Yumuşak</item>
+        <item>Parlama</item>
+    </string-array>
+    <string name="now_bar_more">Diğer etkinlikler</string>
+    <string-array name="now_bar_more_entries">
+        <item>Sadece kaydır</item>
+        <item>Noktalar</item>
+        <item>Arkadan görünsün</item>
+    </string-array>
+    <string name="now_bar_size">Boyut ve şekil</string>
+    <string name="now_bar_height">Yükseklik</string>
+    <string name="now_bar_width_summary">Tam, kısayolları çubuğun üstüne taşır</string>
+    <string-array name="now_bar_width_entries">
+        <item>Dar</item>
+        <item>Kısayolların arasında</item>
+        <item>Tam</item>
+    </string-array>
+    <string name="now_bar_corners">Köşeler</string>
+    <string name="now_bar_raise">Yükselt</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Daire"</item>
+        <item>Yuvarlak</item>
+        <item>"Kare"</item>
+        <item>"Kapalı"</item>
+    </string-array>
+    <string-array name="now_bar_buttons_entries">
+        <item>Atla ve oynat</item>
+        <item>Yalnızca oynat</item>
+        <item>"Yok"</item>
+    </string-array>
+    <string-array name="now_bar_text_entries">
+        <item>Tek satır</item>
+        <item>İki satır</item>
+        <item>Yalnızca şarkı</item>
+    </string-array>
+    <string name="now_bar_show_page">Çubukta neler görünsün</string>
+    <string name="now_bar_show_page_summary">Müzik ve video, zamanlayıcılar, aramalar ve daha fazlası</string>
+    <string name="now_bar_where">Başka nerede</string>
 </resources>

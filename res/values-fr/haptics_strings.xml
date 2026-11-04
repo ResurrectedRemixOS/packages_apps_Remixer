@@ -7,4 +7,36 @@
     <string name="haptic_remix_color_blue">"Bleu"</string>
     <string name="haptic_remix_color_green">"Vert"</string>
     <string name="haptic_remix_color_white">"Blanc"</string>
+    <string name="haptic_remix_summary">Tapotez des motifs de vibration pour les appels, les applis, les alarmes et les déverrouillages</string>
+    <string name="haptic_remix_record">Enregistrer</string>
+    <string name="haptic_remix_pad">tapotez le rythme</string>
+    <string name="haptic_remix_strength">Intensité</string>
+    <string name="haptic_remix_clear">Effacer</string>
+    <string name="haptic_remix_play">Lire</string>
+    <string name="haptic_remix_name">Nom du motif</string>
+    <string name="haptic_remix_empty">Rien d\'enregistré pour le moment</string>
+    <string name="haptic_remix_too_long">Un motif peut durer 30 secondes</string>
+    <string name="haptic_remix_presets">Préréglages</string>
+    <string name="haptic_remix_preset_neon">Néon</string>
+    <string name="haptic_remix_preset_glass">Verre</string>
+    <string name="haptic_remix_preset_ringtone">Rythme de la sonnerie</string>
+    <string name="haptic_remix_listening">Écoute de la sonnerie…</string>
+    <string name="haptic_remix_no_ringtone">Impossible de lire la sonnerie</string>
+    <string name="haptic_remix_patterns">Vos motifs</string>
+    <string name="haptic_remix_patterns_none">Enregistrez d\'abord un motif. Maintenez-en un pour le supprimer.</string>
+    <string name="haptic_remix_broken">Impossible de lire ce motif</string>
+    <string name="haptic_remix_delete">Supprimer <xliff:g id="name" example="Heartbeat">%1$s</xliff:g> ?</string>
+    <string name="haptic_remix_assign">Attribuer à</string>
+    <string name="haptic_remix_alarm">Alarme et minuteur</string>
+    <string name="haptic_remix_plug">Branché</string>
+    <string name="haptic_remix_fingerprint">Empreinte reconnue</string>
+    <string name="haptic_remix_add_contact">Ajouter un contact</string>
+    <string name="haptic_remix_edge_color">Éclairage des bords pour les messages de <xliff:g id="name" example="Mia">%1$s</xliff:g></string>
+    <string name="haptic_remix_color_accent">Accent</string>
+    <string name="haptic_remix_color_crimson">Cramoisi</string>
+    <string name="haptic_remix_color_violet">Violet</string>
+    <string name="haptic_remix_color_amber">Ambre</string>
+    <string name="haptic_remix_add_app">Ajouter les notifications d\'une appli</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · appuyez pour changer, maintenez pour la couleur du bord</string>
+    <string name="haptic_remix_no_contacts">Contacts n\'a renvoyé aucun numéro</string>
 </resources>

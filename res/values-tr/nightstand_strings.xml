@@ -3,4 +3,23 @@
     <string name="nightstand_when">Ne zaman</string>
     <string name="nightstand_face">Saat arayüzü</string>
     <string name="lock_stage_tab_lock">"Kilit ekranı"</string>
+    <string name="nightstand_title">Komodin</string>
+    <string name="nightstand_summary">Geceleri şarj olurken her zaman açık ekranda loş bir komodin saati</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Kapalı"</item>
+        <item>Geceleri şarj cihazındayken</item>
+        <item>Her gece, plana göre</item>
+        <item>Yatma Vakti modu açıkken</item>
+    </string-array>
+    <string name="nightstand_from">Gece başlangıcı</string>
+    <string name="nightstand_to">Gece bitişi</string>
+    <string name="nightstand_brightness">Parlaklık sınırı</string>
+    <string name="nightstand_brightness_summary">Komodin açıkken her zaman açık ekranın ne kadar parlayabileceği</string>
+    <string name="nightstand_face_keep">Geçerli kadranı koru</string>
+    <string name="nightstand_layout">Düzeni düzenle</string>
+    <string name="nightstand_layout_summary">Komodin\'in kendi Lock Stage\'i vardır: başlangıçta saat, alarm ve pil halkası</string>
+    <string name="nightstand_footer">Komodin çalıştığı sürece her zaman açık ekranı açar ve sonra eski haline getirir. Şarj cihazı çıkınca, alarm çalınca veya gece bitince sona erer. Kadran yalnızca iki özel kadran arasında değişir; sistem saati kalır.</string>
+    <string name="lock_stage_tab_page">Sayfa <xliff:g id="number" example="2">%d</xliff:g></string>
+    <string name="lock_stage_remove_page">Sayfa <xliff:g id="number" example="2">%d</xliff:g> kaldırılsın mı?</string>
+    <string name="lock_stage_tab_night">Komodin</string>
 </resources>

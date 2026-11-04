@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_sync_title">Ring sync</string>
+    <string name="ring_sync_tap">Appuyez quand un anneau s\'aligne avec la marque</string>
+    <string name="ring_sync_best">Record <xliff:g id="score" example="42">%1$d</xliff:g></string>
+    <string name="ring_sync_perfect">PARFAIT</string>
+    <string name="ring_sync_new_best">Nouveau record</string>
+    <string name="ring_sync_again">Appuyez pour rejouer</string>
+    <string name="ring_sync_ember">Accent Braise débloqué</string>
+    <string name="ring_sync_use_ember">Utiliser Braise</string>
+    <string name="ring_sync_android">Easter egg d\'Android</string>
+    <string name="ring_sync_vibrate_on">Vibrer sur les touches · Activé</string>
+    <string name="ring_sync_vibrate_off">Vibrer sur les touches · Désactivé</string>
+    <string name="accent_ember">Braise</string>
+</resources>

@@ -14,4 +14,20 @@
     <string name="rr_about_this_phone">"本机"</string>
     <string name="rr_about_network">"网络"</string>
     <string name="rr_about_hidden">隐藏</string>
+    <string name="rr_about_android">Android %1$s</string>
+    <string name="rr_about_official">官方版</string>
+    <string name="rr_about_vanilla">Vanilla</string>
+    <string name="rr_about_processor">处理器</string>
+    <string name="rr_about_processor_sub">%1$d 核 · 最高 %2$s GHz</string>
+    <string name="rr_about_processor_cores">%1$d 核</string>
+    <string name="rr_about_storage_used">已使用 %1$s</string>
+    <string name="rr_about_display">展示</string>
+    <string name="rr_about_display_value">%1$s″ · %2$d Hz</string>
+    <string name="rr_about_battery_capacity">%1$s mAh</string>
+    <string name="rr_about_battery_charging">%1$s · 正在充电</string>
+    <string name="rr_about_kernel_linux">Linux 内核</string>
+    <string name="rr_about_software_purpose">Android 版本、安全更新、构建日期和版本号</string>
+    <string name="rr_about_maintainer">维护者</string>
+    <string name="rr_about_show">显示</string>
+    <string name="rr_about_hide">隐藏</string>
 </resources>

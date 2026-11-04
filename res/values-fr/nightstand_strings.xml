@@ -2,4 +2,24 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Date"</string>
     <string name="lock_stage_tab_lock">"Écran de verrouillage"</string>
+    <string name="nightstand_title">Table de chevet</string>
+    <string name="nightstand_summary">Une horloge de chevet tamisée sur l\'écran toujours activé pendant la recharge de nuit</string>
+    <string-array name="nightstand_when_entries">
+        <item>"Désactivé"</item>
+        <item>Sur le chargeur la nuit</item>
+        <item>Toutes les nuits, selon un horaire</item>
+        <item>Pendant un mode Coucher</item>
+    </string-array>
+    <string name="nightstand_from">Début de la nuit</string>
+    <string name="nightstand_to">Fin de la nuit</string>
+    <string name="nightstand_brightness">Limite de luminosité</string>
+    <string name="nightstand_brightness_summary">La luminosité maximale de l\'écran toujours activé en mode Table de chevet</string>
+    <string name="nightstand_face">Cadran</string>
+    <string name="nightstand_face_keep">Garder le cadran actuel</string>
+    <string name="nightstand_layout">Modifier la disposition</string>
+    <string name="nightstand_layout_summary">Table de chevet a son propre Lock Stage : l\'horloge, l\'alarme et l\'anneau de batterie pour commencer</string>
+    <string name="nightstand_footer">Table de chevet active l\'écran toujours activé pendant son fonctionnement puis le rétablit. Il s\'arrête quand le chargeur est retiré, que l\'alarme sonne ou que la nuit se termine. Le cadran ne change qu\'entre deux cadrans personnalisés ; l\'horloge du système reste.</string>
+    <string name="lock_stage_tab_page">Page <xliff:g id="number" example="2">%d</xliff:g></string>
+    <string name="lock_stage_remove_page">Retirer la page <xliff:g id="number" example="2">%d</xliff:g> ?</string>
+    <string name="lock_stage_tab_night">Table de chevet</string>
 </resources>

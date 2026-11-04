@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pocket_mode_title">Empêcher un réveil accidentel</string>
+    <string name="lockscreen_battery_info_title">Infos de recharge</string>
+    <string name="lockscreen_battery_info_summary">Affiche le courant, les watts, la tension et la température de la batterie pendant la recharge</string>
+    <string name="charging_ring_title">Animation de charge SuperVOOC</string>
+    <string name="charging_ring_summary">Affiche l\'anneau de charge et la vitesse au branchement</string>
+    <string name="pocket_mode_summary">Tant que le capteur de proximité est couvert, l\'écran ne s\'allume pas et ignore les contacts</string>
+    <string name="screen_on_time_title">Temps d\'écran allumé</string>
+    <string name="screen_on_time_summary">Affiche le temps d\'écran allumé depuis la dernière charge complète sur l\'écran de verrouillage pendant la recharge et sur la vignette Économiseur de batterie</string>
 </resources>

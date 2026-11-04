@@ -4,4 +4,14 @@
     <string name="lockscreen_weather_location_title">"Localisation"</string>
     <string name="lockscreen_weather_wind_title">Vent</string>
     <string name="lockscreen_weather_humidity_title">Humidité</string>
+    <string name="lockscreen_weather_title">Météo sur l\'écran de verrouillage</string>
+    <string name="lockscreen_weather_location_summary">Afficher le nom de la ville</string>
+    <string name="lockscreen_weather_text_title">Conditions</string>
+    <string name="lockscreen_weather_text_summary">Affiche les conditions, comme Nuageux ou Ciel dégagé</string>
+    <string name="lockscreen_weather_wind_summary">Affiche la vitesse et la direction du vent</string>
+    <string name="lockscreen_weather_humidity_summary">Affiche l\'humidité</string>
+    <string name="custom_clock_weather_title">Météo sur les cadrans</string>
+    <string name="custom_clock_weather_summary">Affiche la météo sur les cadrans qui ont la place</string>
+    <string name="remixer_weather_service">Service météo</string>
+    <string name="remixer_weather_page_summary">La météo de l\'écran de verrouillage et ce qu\'elle affiche</string>
 </resources>

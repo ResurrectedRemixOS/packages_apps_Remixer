@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="accent_names">
+        <item>"Duvar kağıdı"</item>
+        <item>Resurrected</item>
+        <item>Android One Yeşili</item>
+        <item>Aospa Yeşili</item>
+        <item>Coca-Cola Kırmızısı</item>
+        <item>Discord Moru</item>
+        <item>Facebook Mavisi</item>
+        <item>Instagram Kirazı</item>
+        <item>Jollibee Koyu Kırmızısı</item>
+        <item>Monster Energy Yeşili</item>
+        <item>Nextbit Nanesi</item>
+        <item>OnePlus Kırmızısı</item>
+        <item>Pepsi Mavisi</item>
+        <item>Pixel Mavisi</item>
+        <item>Pocophone Sarısı</item>
+        <item>Razer Yeşili</item>
+        <item>Samsung Mavisi</item>
+        <item>Spotify Yeşili</item>
+        <item>Starbucks Yeşili</item>
+        <item>Twitch Moru</item>
+        <item>Twitter Mavisi</item>
+        <item>Xiaomi Turuncusu</item>
+        <item>Kehribar</item>
+        <item>"Siyah"</item>
+        <item>"Mavi"</item>
+        <item>Mavi Gri</item>
+        <item>Kahverengi</item>
+        <item>"Camgöbeği"</item>
+        <item>Koyu Turuncu</item>
+        <item>Koyu Mor</item>
+        <item>"Yeşil"</item>
+        <item>"Gri"</item>
+        <item>"Çivit mavisi"</item>
+        <item>Açık Mavi</item>
+        <item>Limon Yeşili</item>
+        <item>"Turuncu"</item>
+        <item>"Pembe"</item>
+        <item>"Mor"</item>
+        <item>"Kırmızı"</item>
+        <item>"Deniz mavisi"</item>
+        <item>Kullanıcı beş</item>
+        <item>Kullanıcı dört</item>
+        <item>Kullanıcı bir</item>
+        <item>Kullanıcı yedi</item>
+        <item>Kullanıcı altı</item>
+        <item>Kullanıcı üç</item>
+        <item>Kullanıcı iki</item>
+        <item>"Beyaz"</item>
+        <item>"Sarı"</item>
+    </string-array>
+</resources>

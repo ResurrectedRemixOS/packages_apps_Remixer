@@ -4,4 +4,14 @@
     <string name="lockscreen_weather_location_title">"位置信息"</string>
     <string name="lockscreen_weather_wind_title">风力</string>
     <string name="lockscreen_weather_humidity_title">湿度</string>
+    <string name="lockscreen_weather_title">锁定屏幕天气</string>
+    <string name="lockscreen_weather_location_summary">显示城市名称</string>
+    <string name="lockscreen_weather_text_title">天气状况</string>
+    <string name="lockscreen_weather_text_summary">显示天气状况，如多云或晴朗</string>
+    <string name="lockscreen_weather_wind_summary">显示风速和风向</string>
+    <string name="lockscreen_weather_humidity_summary">显示湿度</string>
+    <string name="custom_clock_weather_title">表盘上的天气</string>
+    <string name="custom_clock_weather_summary">在有空间的表盘上显示天气</string>
+    <string name="remixer_weather_service">天气服务</string>
+    <string name="remixer_weather_page_summary">锁定屏幕天气及其显示内容</string>
 </resources>

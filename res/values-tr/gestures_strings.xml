@@ -8,4 +8,50 @@
         <item>"Orta"</item>
         <item>"Büyük"</item>
     </string-array>
+    <string name="pie_title">Pasta kontrolleri</string>
+    <string name="pie_summary">Bir pasta kısayol için kenarın alt kısmını basılı tutun</string>
+    <string name="pie_zone">Kenarın bölümü</string>
+    <string name="pie_clock">Üstünde saat ve pil</string>
+    <string name="pie_items">Dilimler</string>
+    <string-array name="pie_items_entries">
+        <item>"Geri"</item>
+        <item>Ana ekran</item>
+        <item>"Son Kullanılanlar"</item>
+        <item>"Bildirimler"</item>
+        <item>El feneri</item>
+        <item>"Ekran görüntüsü"</item>
+        <item>"Güç menüsü"</item>
+        <item>"Asistan"</item>
+        <item>"Kamera"</item>
+    </string-array>
+    <string name="pie_footer">Hareket etmeden çeyrek saniye basılı tutmak gerekir, yani kenardan hızlı kaydırma yine geri gider. Kilit ekranında açılmaz.</string>
+    <string-array name="pie_edges_entries">
+        <item>"Sol"</item>
+        <item>"Sağ"</item>
+        <item>Her ikisi</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>Alt üçte bir</item>
+        <item>Orta</item>
+        <item>Tüm kenar</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>Neon</item>
+        <item>Cam</item>
+        <item>Klasik</item>
+    </string-array>
+    <string name="sidebar_style_title">Uygulama kenar çubuğu görünümü</string>
+    <string-array name="sidebar_style_entries">
+        <item>Klasik</item>
+        <item>RR camı</item>
+        <item>Neon</item>
+    </string-array>
+    <string name="sidebar_settings_title">Uygulama kenar çubuğu</string>
+    <string name="sidebar_settings_summary">Uygulamalarınız ve araçlarınız için tutamaçtan kaydırın</string>
+    <string name="sidebar_apps_title">Uygulamalar, tutamaç ve pano</string>
+    <string name="sidebar_apps_summary">Tutamacı açın, uygulamaları seçin ve akıllı panoyu ayarlayın</string>
+    <string name="sidebar_handle_size_title">Tutamaç boyutu</string>
+    <string name="sidebar_tools_title">Araç satırı</string>
+    <string name="sidebar_tools_summary">Uygulamalarınızın altında ekran görüntüsü ve el feneri</string>
+    <string name="sidebar_footer">Tutamaç, vurgu renginizde ince bir çizgidir; kenar boyunca taşımak için sürükleyin. Hareketle gezinmede yalnızca kendi kenar bölümünü kaplar, geri her yerde çalışır.</string>
 </resources>

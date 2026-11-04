@@ -8,4 +8,35 @@
     <string name="haptic_remix_color_blue">"蓝色"</string>
     <string name="haptic_remix_color_green">"绿色"</string>
     <string name="haptic_remix_color_white">"白色"</string>
+    <string name="haptic_remix_summary">为来电、应用、闹钟和解锁敲出振动模式</string>
+    <string name="haptic_remix_record">录制</string>
+    <string name="haptic_remix_pad">敲出节奏</string>
+    <string name="haptic_remix_strength">强度</string>
+    <string name="haptic_remix_clear">清除</string>
+    <string name="haptic_remix_play">播放</string>
+    <string name="haptic_remix_name">模式名称</string>
+    <string name="haptic_remix_empty">尚未录制任何内容</string>
+    <string name="haptic_remix_too_long">模式最长 30 秒</string>
+    <string name="haptic_remix_presets">预设</string>
+    <string name="haptic_remix_preset_neon">霓虹</string>
+    <string name="haptic_remix_preset_glass">玻璃</string>
+    <string name="haptic_remix_preset_ringtone">铃声节奏</string>
+    <string name="haptic_remix_listening">正在聆听铃声…</string>
+    <string name="haptic_remix_no_ringtone">无法读取铃声</string>
+    <string name="haptic_remix_patterns">你的模式</string>
+    <string name="haptic_remix_patterns_none">请先保存一个模式。按住模式可将其删除。</string>
+    <string name="haptic_remix_broken">无法读取该模式</string>
+    <string name="haptic_remix_delete">要删除<xliff:g id="name" example="Heartbeat">%1$s</xliff:g>吗？</string>
+    <string name="haptic_remix_assign">分配给</string>
+    <string name="haptic_remix_alarm">闹钟和计时器</string>
+    <string name="haptic_remix_plug">已插入充电器</string>
+    <string name="haptic_remix_fingerprint">指纹验证成功</string>
+    <string name="haptic_remix_add_contact">添加联系人</string>
+    <string name="haptic_remix_edge_color"><xliff:g id="name" example="Mia">%1$s</xliff:g>的消息边缘灯效</string>
+    <string name="haptic_remix_color_accent">强调色</string>
+    <string name="haptic_remix_color_crimson">深红色</string>
+    <string name="haptic_remix_color_amber">琥珀色</string>
+    <string name="haptic_remix_add_app">添加应用的通知</string>
+    <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · 点按可更改，按住可设置边缘颜色</string>
+    <string name="haptic_remix_no_contacts">通讯录未返回号码</string>
 </resources>

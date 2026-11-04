@@ -28,4 +28,6 @@
     <string name="ts_untrusted_root_keep">"Conserver"</string>
     <string name="ts_untrusted_root_replace">"Remplacer"</string>
     <string name="ts_verification_mode_auto">"Automatique"</string>
+    <string name="spoofing_title">Spoofing</string>
+    <string name="ts_mode_skip">Ignorer</string>
 </resources>

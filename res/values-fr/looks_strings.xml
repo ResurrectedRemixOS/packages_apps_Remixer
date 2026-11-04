@@ -17,4 +17,63 @@
     <string name="looks_save_look">"Enregistrer"</string>
     <string name="looks_custom_color">"Couleur personnalisée"</string>
     <string name="looks_part_clock_color">"Couleur horloge"</string>
+    <string name="looks_title">Looks</string>
+    <string name="looks_summary">Toute votre configuration en un geste</string>
+    <string name="looks_rr">Looks RR</string>
+    <string name="looks_yours">Vos Looks</string>
+    <string name="looks_none">Rien d\'enregistré pour le moment</string>
+    <string name="looks_save">Enregistrer l\'actuel</string>
+    <string name="looks_import_clipboard">Depuis le presse-papiers</string>
+    <string name="looks_import_file">Depuis un fichier</string>
+    <string name="looks_mine">Mon Look</string>
+    <string name="looks_applied"><xliff:g id="name" example="Neon night">%1$s</xliff:g> appliqué</string>
+    <string name="looks_failed">Impossible de tout appliquer</string>
+    <string name="looks_invalid">Ce n\'est pas un Look RR</string>
+    <string name="looks_part_qs">Style des Réglages rapides</string>
+    <string name="looks_part_clock_face">Cadran de l\'écran de verrouillage</string>
+    <string name="looks_part_clock_look">Horloge de la barre d\'état</string>
+    <string name="looks_part_edge">Éclairage des bords</string>
+    <string name="looks_part_stage">Disposition de Lock Stage</string>
+    <string name="looks_part_haptics">Motifs Haptic Remix</string>
+    <string name="looks_stage_custom">Votre disposition</string>
+    <string name="looks_stage_default">Disposition d\'origine</string>
+    <plurals name="looks_haptic_patterns">
+        <item quantity="one">%d motif et ses attributions</item>
+        <item quantity="other">%d motifs et leurs attributions</item>
+    </plurals>
+    <string name="looks_saturation">Saturation <xliff:g id="percent" example="120">%1$d</xliff:g>%%</string>
+    <string name="looks_color_accent">Accent</string>
+    <string name="looks_share_title">Partager « <xliff:g id="name" example="Neon night">%1$s</xliff:g> »</string>
+    <string name="looks_share_hint">Scannez avec l\'appareil photo d\'un autre téléphone RR, ou dans Looks › Importer</string>
+    <string name="looks_share_file">Partager le fichier</string>
+    <string name="looks_save_file">Enregistrer le fichier</string>
+    <string name="looks_import_scan">Scanner un code QR</string>
+    <string name="looks_import_title">Importer un Look</string>
+    <string name="looks_from_qr">depuis un code QR</string>
+    <string name="looks_from_file">depuis un fichier</string>
+    <string name="looks_from_clipboard">depuis le presse-papiers</string>
+    <string name="looks_import_same">Cela correspond déjà à votre configuration.</string>
+    <plurals name="looks_import_changes">
+        <item quantity="one">Modifie <xliff:g id="count" example="4">%d</xliff:g> élément :</item>
+        <item quantity="other">Modifie <xliff:g id="count" example="4">%d</xliff:g> éléments :</item>
+    </plurals>
+    <string name="looks_new">Nouveau Look</string>
+    <string name="looks_edit_title">Modifier le Look</string>
+    <string name="looks_in_look">Dans ce Look</string>
+    <string name="looks_not_included">Hors de ce Look</string>
+    <string name="looks_save_apply">Enregistrer et appliquer</string>
+    <string name="looks_saved">« <xliff:g id="name" example="Sunday">%1$s</xliff:g> » enregistré</string>
+    <string name="looks_delete_confirm">Supprimer « <xliff:g id="name" example="Sunday">%1$s</xliff:g> » ?</string>
+    <string name="looks_rr_wallpaper">Fond d\'écran RR <xliff:g id="number" example="3">%1$d</xliff:g></string>
+    <string name="looks_part_saturation">Saturation de l\'accent</string>
+    <string name="looks_part_clock_chip">Puce de l\'horloge de la barre d\'état</string>
+    <string name="looks_part_edge_style">Style d\'éclairage des bords</string>
+    <string name="looks_scan_hint">Pointez l\'appareil photo vers le code QR d\'un Look</string>
+    <string name="looks_scan_failed">Impossible d\'ouvrir l\'appareil photo</string>
+    <string name="look_roulette_title">Roulette de Looks</string>
+    <string-array name="look_roulette_entries">
+        <item>"Désactivé"</item>
+        <item>Un Look différent à chaque déverrouillage</item>
+        <item>Un Look différent chaque jour</item>
+    </string-array>
 </resources>

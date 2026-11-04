@@ -6,4 +6,19 @@
     <string name="stage_tile_weather">Hava durumu</string>
     <string name="stage_tile_shortcuts">"Kısayollar"</string>
     <string name="stage_tile_battery">Batarya halkası</string>
+    <string name="lock_stage_summary">Kilit ekranını ızgaraya yerleştirin, neon eklentiler ekleyin</string>
+    <string name="lock_stage_hint">Taşımak için kutuyu, boyut için köşesini sürükleyin, seçenekler için dokunun. Üst sıra durum çubuğudur.</string>
+    <string name="lock_stage_remove">Kaldır</string>
+    <string name="lock_stage_center">Ortala</string>
+    <string name="lock_stage_aod_on">Her zaman açık ekranda</string>
+    <string name="lock_stage_aod_off">Her zaman açık ekranda değil</string>
+    <string name="lock_stage_not_on_aod">yalnızca kilit ekranı</string>
+    <string name="lock_stage_add">Ekle</string>
+    <string name="lock_stage_all_placed">Her şey sahnede</string>
+    <string name="lock_stage_reset_summary">Varsayılan kilit ekranı düzenine döner. Kayıtlı sahneniz silinir.</string>
+    <string name="lock_stage_saved">Sahne kaydedildi. Görmek için telefonu kilitleyin.</string>
+    <string name="lock_stage_failed">Sahne kaydedilemedi</string>
+    <string name="stage_tile_glance">Tarih satırı</string>
+    <string name="stage_tile_alarm">Sonraki alarm</string>
+    <string name="stage_tile_toggles">Düğmeler</string>
 </resources>
