@@ -273,8 +273,6 @@
     <string name="missing_app">Это приложение не установлено</string>
     <string name="remixer_spoofing_summary">Play Integrity, данные устройства и подмена для отдельных приложений</string>
     <string name="remixer_settings_style">Стиль настроек</string>
-    <string name="remixer_settings_tile_hues">Цветные плитки категорий</string>
-    <string name="remixer_settings_tile_hues_summary">Каждая плитка получает оттенок рядом с акцентом. Если выключено, у всех цвет акцента.</string>
     <string name="rr_maintainer">Сопровождающий</string>
     <string name="remixer_navbar_summary">Длина, толщина и расположение полоски</string>
     <string name="remixer_navbar_pill_length">Длина полоски жестов</string>

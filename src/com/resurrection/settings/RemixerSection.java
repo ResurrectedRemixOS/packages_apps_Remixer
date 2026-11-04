@@ -12,7 +12,6 @@ import android.widget.Toast;
 import androidx.core.graphics.ColorUtils;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
-import androidx.preference.TwoStatePreference;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
@@ -108,30 +107,6 @@ public class RemixerSection extends SettingsPreferenceFragment {
                 "statusbar_clock_chip_gradient_end_color",
                 "statusbar_clock_chip_gradient_angle",
                 "statusbar_clock_chip_gradient_mask_text");
-
-        final TwoStatePreference tileHues = findPreference("remixer_settings_tile_hues");
-        if (tileHues != null) {
-            tileHues.setChecked(HomepageStyle.tileHues(context));
-            tileHues.setVisible(HomepageStyle.isV2(context));
-            tileHues.setOnPreferenceChangeListener((preference, value) -> {
-                HomepageStyle.setTileHues(context, (Boolean) value);
-                return true;
-            });
-        }
-        final ListPreference settingsStyle = findPreference("remixer_settings_style");
-        if (settingsStyle != null) {
-            settingsStyle.setValue(HomepageStyle.isV1(context)
-                    ? HomepageStyle.V1
-                    : HomepageStyle.isOriginal(context)
-                            ? HomepageStyle.ORIGINAL : HomepageStyle.RR);
-            settingsStyle.setOnPreferenceChangeListener((preference, value) -> {
-                HomepageStyle.set(context, (String) value);
-                if (tileHues != null) {
-                    tileHues.setVisible(HomepageStyle.RR.equals(value));
-                }
-                return true;
-            });
-        }
     }
 
     /** Shows the dependent entries only while the list's value passes the test. */
@@ -185,6 +160,10 @@ public class RemixerSection extends SettingsPreferenceFragment {
         final Preference lockMedia = findPreference("remixer_lock_media_style");
         if (lockMedia != null) {
             lockMedia.setSummary(QsStyleActivity.currentLockMediaName(getContext()));
+        }
+        final Preference settingsStyle = findPreference("remixer_settings_style");
+        if (settingsStyle != null) {
+            settingsStyle.setSummary(SettingsStyleActivity.currentName(getContext()));
         }
         // Entries launched from XML get no title from SubSettingLauncher.
         getActivity().setTitle(getPreferenceScreen().getTitle());
@@ -258,6 +237,8 @@ public class RemixerSection extends SettingsPreferenceFragment {
                 return new Intent(getContext(), AccentActivity.class);
             case "remixer_pulse":
                 return new Intent(getContext(), PulseActivity.class);
+            case "remixer_settings_style":
+                return new Intent(getContext(), SettingsStyleActivity.class);
             case "remixer_qs_style":
                 return new Intent(getContext(), QsStyleActivity.class);
             case "remixer_lock_media_style":

@@ -306,18 +306,12 @@
     <string name="remixer_settings_style_rr_v1">Resurrected Remix v1</string>
     <string name="remixer_settings_style_rr_v2">Resurrected Remix v2</string>
     <string name="remixer_settings_style_original">Original</string>
-    <string name="remixer_settings_tile_hues">Colorful category tiles</string>
-    <string name="remixer_settings_tile_hues_summary">Each tile takes a hue near your accent. Off gives them all the accent.</string>
-    <string-array name="remixer_settings_style_entries" translatable="false">
-        <item>@string/remixer_settings_style_rr_v1</item>
-        <item>@string/remixer_settings_style_rr_v2</item>
-        <item>@string/remixer_settings_style_original</item>
-    </string-array>
-    <string-array name="remixer_settings_style_values" translatable="false">
-        <item>rr_v1</item>
-        <item>rr</item>
-        <item>original</item>
-    </string-array>
+    <string name="remixer_settings_style_rr_v2_hues">Resurrected Remix v2 \u00b7 Colorful</string>
+    <string name="remixer_settings_style_rr_v2_summary">Category tiles and the device card, all in your accent</string>
+    <string name="remixer_settings_style_rr_v2_hues_summary">Each category tile takes its own hue near your accent</string>
+    <string name="remixer_settings_style_rr_v1_summary">The Resurrected Remix list with neon ring icons</string>
+    <string name="remixer_settings_style_original_summary">Android\'s own Settings home, untouched</string>
+    <string name="remixer_settings_style_note">The Settings home takes the new style the next time it opens.</string>
 
     <!-- About phone > Android version -->
     <string name="rr_maintainer">Maintainer</string>

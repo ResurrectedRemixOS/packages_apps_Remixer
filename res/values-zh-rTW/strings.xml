@@ -264,8 +264,6 @@
     <string name="wallpaper_failed">無法設定該桌布</string>
     <string name="missing_app">該應用程式未安裝</string>
     <string name="remixer_spoofing_summary">Play Integrity、裝置身份和按應用程式偽裝</string>
-    <string name="remixer_settings_tile_hues">彩色類別方塊</string>
-    <string name="remixer_settings_tile_hues_summary">每個方塊都使用接近強調色的色相。關閉後全部使用強調色。</string>
     <string name="rr_maintainer">維護者</string>
     <string name="remixer_navbar_summary">橫條長度、粗細和佈局</string>
     <string name="remixer_navbar_pill_length">手勢橫條長度</string>

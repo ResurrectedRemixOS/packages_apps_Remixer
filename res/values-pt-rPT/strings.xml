@@ -267,8 +267,6 @@
     <string name="remixer_spoofing_summary">Play Integrity, identidade do dispositivo e spoofing por app</string>
     <string name="remixer_settings_style">Estilo das Definições</string>
     <string name="remixer_settings_style_original">Original</string>
-    <string name="remixer_settings_tile_hues">Mosaicos de categoria coloridos</string>
-    <string name="remixer_settings_tile_hues_summary">Cada mosaico usa um matiz próximo ao seu destaque. Desativado, todos usam o destaque.</string>
     <string name="rr_maintainer">Mantenedor</string>
     <string name="remixer_navbar_summary">Comprimento, espessura e layout da pílula</string>
     <string name="remixer_navbar_pill_length">Comprimento da pílula de gestos</string>

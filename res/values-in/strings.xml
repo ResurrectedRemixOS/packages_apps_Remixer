@@ -264,8 +264,6 @@
     <string name="missing_app">Aplikasi tersebut tidak terinstal</string>
     <string name="remixer_spoofing">Spoofing</string>
     <string name="remixer_spoofing_summary">Play Integrity, identitas perangkat, dan spoofing per aplikasi</string>
-    <string name="remixer_settings_tile_hues">Kartu kategori berwarna</string>
-    <string name="remixer_settings_tile_hues_summary">Setiap kartu mengambil hue di dekat aksen Anda. Nonaktif berarti semuanya memakai aksen.</string>
     <string name="rr_maintainer">Pengelola</string>
     <string name="remixer_navbar_summary">Panjang, ketebalan, dan tata letak pil</string>
     <string name="remixer_navbar_pill_length">Panjang pil gestur</string>

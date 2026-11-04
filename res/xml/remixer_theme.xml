@@ -46,18 +46,8 @@
         android:key="remixer_boot_animation"
         android:title="@string/remixer_boot_animation" />
 
-    <ListPreference
+    <Preference
         android:key="remixer_settings_style"
-        android:title="@string/remixer_settings_style"
-        android:entries="@array/remixer_settings_style_entries"
-        android:entryValues="@array/remixer_settings_style_values"
-        android:persistent="false"
-        app:useSimpleSummaryProvider="true" />
-
-    <SwitchPreferenceCompat
-        android:key="remixer_settings_tile_hues"
-        android:title="@string/remixer_settings_tile_hues"
-        android:summary="@string/remixer_settings_tile_hues_summary"
-        android:persistent="false" />
+        android:title="@string/remixer_settings_style" />
 
 </PreferenceScreen>

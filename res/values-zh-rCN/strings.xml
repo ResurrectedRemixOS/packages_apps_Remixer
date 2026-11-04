@@ -264,8 +264,6 @@
     <string name="wallpaper_failed">无法设置该壁纸</string>
     <string name="missing_app">该应用未安装</string>
     <string name="remixer_spoofing_summary">Play Integrity、设备身份和按应用伪装</string>
-    <string name="remixer_settings_tile_hues">彩色类别方块</string>
-    <string name="remixer_settings_tile_hues_summary">每个方块都使用接近强调色的色相。关闭后全部使用强调色。</string>
     <string name="rr_maintainer">维护者</string>
     <string name="remixer_navbar_summary">横条长度、粗细和布局</string>
     <string name="remixer_navbar_pill_length">手势横条长度</string>

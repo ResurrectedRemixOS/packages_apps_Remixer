@@ -267,8 +267,6 @@
     <string name="remixer_spoofing_summary">Play Integrity, Geräteidentität und Spoofing pro App</string>
     <string name="remixer_settings_style">Stil der Einstellungen</string>
     <string name="remixer_settings_style_original">Original</string>
-    <string name="remixer_settings_tile_hues">Farbige Kategoriekacheln</string>
-    <string name="remixer_settings_tile_hues_summary">Jede Kachel erhält einen Farbton nahe deinem Akzent. Aus: Alle erhalten den Akzent.</string>
     <string name="rr_maintainer">Betreuer</string>
     <string name="remixer_navbar_summary">Länge, Dicke und Layout der Leiste</string>
     <string name="remixer_navbar_pill_length">Länge der Gestenleiste</string>
