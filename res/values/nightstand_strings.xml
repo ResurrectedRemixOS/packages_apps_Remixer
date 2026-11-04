@@ -28,6 +28,7 @@
     <string name="nightstand_layout">Edit the layout</string>
     <string name="nightstand_layout_summary">Nightstand has its own Lock Stage: the clock, the alarm and the battery ring to start with</string>
     <string name="nightstand_footer">Nightstand turns the always-on display on while it runs and puts it back after. It ends when the charger goes, the alarm rings or the night ends. The face only swaps between two custom faces; the system clock stays.</string>
-    <string name="lock_stage_tab_lock">Lock screen</string>
+    <string name="lock_stage_tab_page">Page <xliff:g id="number" example="2">%d</xliff:g></string>
+    <string name="lock_stage_remove_page">Remove page <xliff:g id="number" example="2">%d</xliff:g>?</string>
     <string name="lock_stage_tab_night">Nightstand</string>
 </resources>

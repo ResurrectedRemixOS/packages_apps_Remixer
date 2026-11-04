@@ -79,13 +79,18 @@ public class LockStageActivity extends CollapsingToolbarBaseActivity {
 
     private Context mThemed;
     private final Handler mHandler = new Handler(Looper.getMainLooper());
-    private final List<Tile> mTiles = new ArrayList<>();
+    /** The tiles of the page being edited; one of [mPages] on the lock screen. */
+    private List<Tile> mTiles = new ArrayList<>();
+    private final List<List<Tile>> mPages = new ArrayList<>();
+    private int mPage;
+    private static final int MAX_PAGES = 3;
     private Tile mSelected;
     private StageView mStage;
     private LinearLayout mToolbar;
     private MaterialButton mAodButton;
     private ChipGroup mTray;
     private boolean mNight;
+    private ChipGroup mTabs;
     private Bitmap mClock;
 
     @Override
@@ -104,24 +109,11 @@ public class LockStageActivity extends CollapsingToolbarBaseActivity {
         mNight = getIntent().getBooleanExtra(EXTRA_NIGHT, false);
         load();
 
-        ChipGroup tabs = new ChipGroup(mThemed);
-        tabs.setSingleSelection(true);
-        tabs.setSelectionRequired(true);
-        Chip lock = tab(R.string.lock_stage_tab_lock);
-        Chip night = tab(R.string.lock_stage_tab_night);
-        tabs.addView(lock);
-        tabs.addView(night);
-        tabs.check(mNight ? night.getId() : lock.getId());
-        tabs.setOnCheckedStateChangeListener((group, ids) -> {
-            boolean toNight = ids.contains(night.getId());
-            if (toNight == mNight) return;
-            mNight = toNight;
-            load();
-            select(null);
-            fillTray();
-            mStage.invalidate();
-        });
-        list.addView(tabs);
+        mTabs = new ChipGroup(mThemed);
+        mTabs.setSingleSelection(true);
+        mTabs.setSelectionRequired(true);
+        list.addView(mTabs);
+        fillTabs();
 
         int width = Math.min(getResources().getDisplayMetrics().widthPixels - dp(32), dp(340));
         mStage = new StageView(mThemed);
@@ -169,12 +161,94 @@ public class LockStageActivity extends CollapsingToolbarBaseActivity {
         renderClock(width);
     }
 
-    private Chip tab(int title) {
+    private Chip tab(CharSequence title) {
         Chip chip = new Chip(mThemed);
         chip.setId(View.generateViewId());
         chip.setCheckable(true);
         chip.setText(title);
         return chip;
+    }
+
+    /** Page 1, 2, 3 and a plus on the lock screen, then Nightstand; hold a page to remove it. */
+    private void fillTabs() {
+        mTabs.setOnCheckedStateChangeListener(null);
+        mTabs.removeAllViews();
+        List<Chip> pageChips = new ArrayList<>();
+        if (mNight) {
+            // One way back; the pages are listed once the lock screen is on show again.
+            pageChips.add(tab(getString(R.string.lock_stage_tab_lock)));
+            mTabs.addView(pageChips.get(0));
+        }
+        for (int i = 0; !mNight && i < mPages.size(); i++) {
+            Chip chip = tab(getString(R.string.lock_stage_tab_page, i + 1));
+            final int index = i;
+            chip.setOnLongClickListener(v -> {
+                removePage(index);
+                return true;
+            });
+            pageChips.add(chip);
+            mTabs.addView(chip);
+        }
+        Chip add = !mNight && mPages.size() < MAX_PAGES ? tab("+") : null;
+        if (add != null) mTabs.addView(add);
+        Chip night = tab(getString(R.string.lock_stage_tab_night));
+        mTabs.addView(night);
+        mTabs.check(mNight ? night.getId() : pageChips.get(Math.min(mPage, pageChips.size() - 1)).getId());
+        mTabs.setOnCheckedStateChangeListener((group, ids) -> {
+            if (ids.isEmpty()) return;
+            int id = ids.get(0);
+            if (add != null && id == add.getId()) {
+                addPage();
+                return;
+            }
+            boolean toNight = id == night.getId();
+            int toPage = toNight || mNight ? 0 : indexOf(pageChips, id);
+            if (toNight == mNight && toPage == mPage) return;
+            boolean reload = mNight != toNight;
+            mNight = toNight;
+            if (reload) load();
+            mPage = toPage;
+            mTiles = mPages.get(mPage);
+            select(null);
+            if (reload) fillTabs();
+            fillTray();
+            mStage.invalidate();
+        });
+    }
+
+    private static int indexOf(List<Chip> chips, int id) {
+        for (int i = 0; i < chips.size(); i++) if (chips.get(i).getId() == id) return i;
+        return 0;
+    }
+
+    private void addPage() {
+        if (mNight || mPages.size() >= MAX_PAGES) return;
+        List<Tile> page = new ArrayList<>();
+        page.add(new Tile("clock", 0, 1, 6, 2, true));
+        mPages.add(page);
+        mPage = mPages.size() - 1;
+        mTiles = page;
+        select(null);
+        fillTabs();
+        fillTray();
+        mStage.invalidate();
+    }
+
+    private void removePage(int index) {
+        if (mNight || mPages.size() <= 1) return;
+        new MaterialAlertDialogBuilder(mThemed)
+                .setTitle(getString(R.string.lock_stage_remove_page, index + 1))
+                .setPositiveButton(R.string.lock_stage_remove, (d, w) -> {
+                    mPages.remove(index);
+                    mPage = Math.min(mPage, mPages.size() - 1);
+                    mTiles = mPages.get(mPage);
+                    select(null);
+                    fillTabs();
+                    fillTray();
+                    mStage.invalidate();
+                })
+                .setNegativeButton(android.R.string.cancel, null)
+                .show();
     }
 
     // Model
@@ -184,22 +258,38 @@ public class LockStageActivity extends CollapsingToolbarBaseActivity {
     }
 
     private void load() {
-        mTiles.clear();
+        mPages.clear();
+        mPage = 0;
+        mTiles = new ArrayList<>();
         try {
             String json = Settings.System.getStringForUser(getContentResolver(), key(),
                     UserHandle.USER_CURRENT);
             if (!TextUtils.isEmpty(json)) {
-                JSONArray array = new JSONObject(json).getJSONArray("tiles");
-                for (int i = 0; i < array.length(); i++) {
-                    JSONObject t = array.getJSONObject(i);
-                    mTiles.add(new Tile(t.getString("id"), t.optInt("x"), t.optInt("y"),
-                            t.optInt("w", 1), t.optInt("h", 1), t.optBoolean("aod", true)));
+                JSONObject spec = new JSONObject(json);
+                mTiles.addAll(tiles(spec.getJSONArray("tiles")));
+                JSONArray more = spec.optJSONArray("pages");
+                for (int i = 0; !mNight && more != null && i < more.length()
+                        && mPages.size() < MAX_PAGES - 1; i++) {
+                    List<Tile> page = tiles(more.getJSONObject(i).getJSONArray("tiles"));
+                    if (!page.isEmpty()) mPages.add(page);
                 }
             }
         } catch (Exception e) {
             mTiles.clear();
+            mPages.clear();
         }
         if (mTiles.isEmpty()) defaults();
+        mPages.add(0, mTiles);
+    }
+
+    private static List<Tile> tiles(JSONArray array) throws Exception {
+        List<Tile> tiles = new ArrayList<>();
+        for (int i = 0; i < array.length(); i++) {
+            JSONObject t = array.getJSONObject(i);
+            tiles.add(new Tile(t.getString("id"), t.optInt("x"), t.optInt("y"),
+                    t.optInt("w", 1), t.optInt("h", 1), t.optBoolean("aod", true)));
+        }
+        return tiles;
     }
 
     /** Where the stock lock screen puts things, near enough; a bare bedside stage at night. */
@@ -218,12 +308,23 @@ public class LockStageActivity extends CollapsingToolbarBaseActivity {
     }
 
     private String json() throws Exception {
+        JSONObject spec = new JSONObject().put("cols", COLS).put("rows", ROWS)
+                .put("tiles", array(mPages.get(0)));
+        JSONArray pages = new JSONArray();
+        for (int i = 1; i < mPages.size(); i++) {
+            pages.put(new JSONObject().put("tiles", array(mPages.get(i))));
+        }
+        if (pages.length() > 0) spec.put("pages", pages);
+        return spec.toString();
+    }
+
+    private static JSONArray array(List<Tile> tiles) throws Exception {
         JSONArray array = new JSONArray();
-        for (Tile t : mTiles) {
+        for (Tile t : tiles) {
             array.put(new JSONObject().put("id", t.id).put("x", t.x).put("y", t.y).put("w", t.w)
                     .put("h", t.h).put("aod", t.aod));
         }
-        return new JSONObject().put("cols", COLS).put("rows", ROWS).put("tiles", array).toString();
+        return array;
     }
 
     private void save() {
@@ -243,8 +344,9 @@ public class LockStageActivity extends CollapsingToolbarBaseActivity {
                 .setPositiveButton(R.string.lock_stage_reset, (d, w) -> {
                     Settings.System.putStringForUser(getContentResolver(), key(), "",
                             UserHandle.USER_CURRENT);
-                    defaults();
+                    load();
                     select(null);
+                    fillTabs();
                     fillTray();
                     mStage.invalidate();
                 })
