@@ -22,16 +22,9 @@
     <string name="now_bar_pin_none">None. Hold a Live Update in the bar to pin it</string>
     <string name="now_bar_unpin_question">Unpin <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Unpin</string>
-    <string-array name="now_bar_scores_entries">
-        <item>Off</item>
-        <item>From At a Glance</item>
-        <item>From Smartspacer</item>
-    </string-array>
-    <string-array name="now_bar_scores_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
+    <string name="now_bar_scores_summary">Games you follow in At a Glance</string>
+    <string name="now_bar_glance_settings">At a Glance settings</string>
+    <string name="now_bar_glance_settings_summary">Turn on Sports and follow your teams in the Google app</string>
     <string name="now_bar_recording">Screen and voice recording</string>
     <string name="now_bar_charging">Charging</string>
     <string name="now_bar_flashlight">Flashlight</string>

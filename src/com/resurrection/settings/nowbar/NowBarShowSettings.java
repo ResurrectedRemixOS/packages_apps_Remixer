@@ -36,6 +36,11 @@ import java.util.concurrent.Executors;
 public class NowBarShowSettings extends SettingsPreferenceFragment {
     private static final String KEY_LIVE_APPS = "now_bar_live_apps";
     private static final String KEY_PIN = "now_bar_pin";
+    private static final String KEY_GLANCE = "now_bar_glance_settings";
+    /** The Google app's At a Glance settings, where Sports is switched on and teams followed. */
+    private static final Intent GLANCE_SETTINGS =
+            new Intent("com.google.android.apps.gsa.smartspace.SETTINGS")
+                    .setPackage("com.google.android.googlequicksearchbox");
 
     private final Executor mExecutor = Executors.newSingleThreadExecutor();
     private final Handler mHandler = new Handler(Looper.getMainLooper());
@@ -50,6 +55,10 @@ public class NowBarShowSettings extends SettingsPreferenceFragment {
     public void onResume() {
         super.onResume();
         updateSummaries();
+        Preference glance = findPreference(KEY_GLANCE);
+        if (glance != null) {
+            glance.setVisible(GLANCE_SETTINGS.resolveActivity(getContext().getPackageManager()) != null);
+        }
     }
 
     @Override
@@ -60,6 +69,14 @@ public class NowBarShowSettings extends SettingsPreferenceFragment {
         }
         if (KEY_PIN.equals(preference.getKey())) {
             unpin();
+            return true;
+        }
+        if (KEY_GLANCE.equals(preference.getKey())) {
+            try {
+                startActivity(GLANCE_SETTINGS);
+            } catch (Exception e) {
+                // Hidden when it does not resolve; a race at most.
+            }
             return true;
         }
         return super.onPreferenceTreeClick(preference);
