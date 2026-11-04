@@ -19,7 +19,8 @@
     <string name="now_bar_live_apps_all">All apps</string>
     <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> apps</string>
     <string name="now_bar_pin">Pinned to the always-on display</string>
-    <string name="now_bar_pin_none">None. Hold a Live Update in the bar to pin it</string>
+    <string name="now_bar_pin_none">None. Tap to pick an app, or hold a Live Update in the bar</string>
+    <string name="now_bar_pin_change">Change</string>
     <string name="now_bar_unpin_question">Unpin <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Unpin</string>
     <string name="now_bar_scores_summary">Games you follow in At a Glance</string>

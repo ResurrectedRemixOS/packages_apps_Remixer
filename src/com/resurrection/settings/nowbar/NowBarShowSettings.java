@@ -68,7 +68,7 @@ public class NowBarShowSettings extends SettingsPreferenceFragment {
             return true;
         }
         if (KEY_PIN.equals(preference.getKey())) {
-            unpin();
+            if (pinned() == null) pickPin(); else unpin();
             return true;
         }
         if (KEY_GLANCE.equals(preference.getKey())) {
@@ -135,6 +135,28 @@ public class NowBarShowSettings extends SettingsPreferenceFragment {
 
     /** Every launchable app, checked when its Live Updates may show. */
     private void pickApps() {
+        loadApps(this::showApps);
+    }
+
+    /** Every launchable app; the one picked leads the bar and holds the always-on display. */
+    private void pickPin() {
+        loadApps(this::showPin);
+    }
+
+    private void showPin(String[] packages, CharSequence[] labels) {
+        if (!isAdded()) return;
+        new MaterialAlertDialogBuilder(themed())
+                .setTitle(R.string.now_bar_pin)
+                .setItems(labels, (d, which) -> {
+                    Settings.System.putStringForUser(getContentResolver(), KEY_PIN,
+                            packages[which], UserHandle.USER_CURRENT);
+                    updateSummaries();
+                })
+                .setNegativeButton(android.R.string.cancel, null)
+                .show();
+    }
+
+    private void loadApps(java.util.function.BiConsumer<String[], CharSequence[]> then) {
         Context context = getContext();
         if (context == null) return;
         mExecutor.execute(() -> {
@@ -161,7 +183,7 @@ public class NowBarShowSettings extends SettingsPreferenceFragment {
                 sortedPackages[i] = packages.get(order[i]);
                 sortedLabels[i] = labels.get(order[i]);
             }
-            mHandler.post(() -> showApps(sortedPackages, sortedLabels));
+            mHandler.post(() -> then.accept(sortedPackages, sortedLabels));
         });
     }
 
@@ -199,6 +221,7 @@ public class NowBarShowSettings extends SettingsPreferenceFragment {
                             UserHandle.USER_CURRENT);
                     updateSummaries();
                 })
+                .setNeutralButton(R.string.now_bar_pin_change, (d, w) -> pickPin())
                 .setNegativeButton(android.R.string.cancel, null)
                 .show();
     }
