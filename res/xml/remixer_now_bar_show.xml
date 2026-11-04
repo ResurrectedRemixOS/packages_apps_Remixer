@@ -29,6 +29,16 @@
         android:title="@string/now_bar_live"
         android:summary="@string/now_bar_live_summary"
         android:defaultValue="true" />
+    <Preference
+        android:key="now_bar_live_apps"
+        android:title="@string/now_bar_live_apps"
+        android:summary="@string/now_bar_live_apps_all"
+        android:dependency="now_bar_live_updates" />
+    <Preference
+        android:key="now_bar_pin"
+        android:title="@string/now_bar_pin"
+        android:summary="@string/now_bar_pin_none"
+        android:dependency="now_bar_live_updates" />
     <com.resurrection.settings.preferences.SystemSettingListPreference
         android:key="now_bar_scores"
         android:title="@string/now_bar_scores"

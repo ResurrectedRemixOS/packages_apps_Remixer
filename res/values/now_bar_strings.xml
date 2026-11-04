@@ -3,7 +3,7 @@
      SPDX-FileCopyrightText: The Resurrected Remix Project
      SPDX-License-Identifier: Apache-2.0
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="now_bar_title">Now Bar</string>
     <string name="now_bar_summary">Live activities at the bottom of the lock screen</string>
     <string name="now_bar_show">Show</string>
@@ -15,6 +15,13 @@
     <string name="now_bar_live">Live Updates</string>
     <string name="now_bar_live_summary">Navigation, rides, deliveries, scores</string>
     <string name="now_bar_scores">Live scores</string>
+    <string name="now_bar_live_apps">Apps for Live Updates</string>
+    <string name="now_bar_live_apps_all">All apps</string>
+    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> apps</string>
+    <string name="now_bar_pin">Pinned to the always-on display</string>
+    <string name="now_bar_pin_none">None. Hold a Live Update in the bar to pin it</string>
+    <string name="now_bar_unpin_question">Unpin <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
+    <string name="now_bar_unpin">Unpin</string>
     <string-array name="now_bar_scores_entries">
         <item>Off</item>
         <item>From At a Glance</item>
