@@ -50,7 +50,6 @@
     <string name="accent_custom_apply">"Примени"</string>
     <string name="accent_shade_default">"Подразумевано"</string>
     <string name="accent_saturation">"Засићеност боја"</string>
-    <string name="remixer_qs_customize">"Прилагоди"</string>
     <string name="remixer_qs_style_section">"Стил"</string>
     <string name="remixer_lock_media_off">"Искључено"</string>
     <string name="remixer_lock_preview_device">"Овај телефон"</string>

@@ -52,7 +52,6 @@
     <string name="accent_custom_apply">"Uygula"</string>
     <string name="accent_shade_default">"Varsayılan"</string>
     <string name="accent_saturation">"Doygunluk"</string>
-    <string name="remixer_qs_customize">"Özelleştir"</string>
     <string name="remixer_qs_style_section">"Stil"</string>
     <string name="remixer_lock_media_off">"Kapalı"</string>
     <string name="remixer_lock_preview_device">"Bu telefon"</string>
@@ -181,7 +180,6 @@
     <string name="accent_shade_darker_value">Daha koyu · %1$d</string>
     <string name="accent_shade_lighter_value">Daha açık · %1$d</string>
     <string name="remixer_qs_style">Hızlı Ayarlar stili</string>
-    <string name="remixer_qs_customize_summary">Hızlı Ayarlar\'ı açıp kaleme dokunun. Seçenekleri ve görünümü için bir kutuya dokunun, taşımak için basılı tutun, yeniden boyutlandırmak için köşesini sürükleyin, panelin tamamı için alttaki sekmeleri kullanın.</string>
     <string name="remixer_qs_style_preview">Önizleme · %1$s</string>
     <string name="remixer_qs_style_note">Her stil vurgu renginizi izler. Ses paneli de uyumlu Bento, Şekiller, Blueprint, Duo ve Yumuşak görünümlerine sahiptir. Stock Lineage, Android 17 kutularına dokunmaz.</string>
     <string name="remixer_qs_style_stock">Stock Lineage</string>

@@ -53,7 +53,6 @@
     <string name="accent_custom_apply">"適用"</string>
     <string name="accent_shade_default">"デフォルト"</string>
     <string name="accent_saturation">"彩度"</string>
-    <string name="remixer_qs_customize">"カスタマイズ"</string>
     <string name="remixer_qs_style_section">"スタイル"</string>
     <string name="remixer_lock_media_off">"OFF"</string>
     <string name="remixer_lock_preview_device">"このデバイス"</string>

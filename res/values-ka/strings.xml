@@ -49,7 +49,6 @@
     <string name="accent_custom_apply">"გამოყენება"</string>
     <string name="accent_shade_default">"ნაგულისხმევი"</string>
     <string name="accent_saturation">"ინტენსივობა"</string>
-    <string name="remixer_qs_customize">"მორგება"</string>
     <string name="remixer_qs_style_section">"სტილი"</string>
     <string name="remixer_lock_media_off">"გამორთული"</string>
     <string name="remixer_lock_preview_device">"ეს ტელეფონი"</string>

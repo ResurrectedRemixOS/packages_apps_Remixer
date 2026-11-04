@@ -51,7 +51,6 @@
     <string name="accent_custom_apply">"Прилагане"</string>
     <string name="accent_shade_default">"По подразбиране"</string>
     <string name="accent_saturation">"Насищане"</string>
-    <string name="remixer_qs_customize">"Персонализиране"</string>
     <string name="remixer_qs_style_section">"Стил"</string>
     <string name="remixer_lock_media_off">"Изкл."</string>
     <string name="remixer_lock_preview_device">"Този телефон"</string>

@@ -50,7 +50,6 @@
     <string name="accent_custom_apply">"Εφαρμογή"</string>
     <string name="accent_shade_default">"Προεπιλογή"</string>
     <string name="accent_saturation">"Κορεσμός"</string>
-    <string name="remixer_qs_customize">"Προσαρμογή"</string>
     <string name="remixer_qs_style_section">"Στιλ"</string>
     <string name="remixer_lock_media_off">"Ανενεργό"</string>
     <string name="remixer_lock_preview_device">"Αυτό το τηλέφωνο"</string>

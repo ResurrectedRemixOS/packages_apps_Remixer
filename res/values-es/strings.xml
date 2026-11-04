@@ -52,7 +52,6 @@
     <string name="accent_custom_apply">"Aplicar"</string>
     <string name="accent_shade_default">"Predeterminado"</string>
     <string name="accent_saturation">"Saturación"</string>
-    <string name="remixer_qs_customize">"Personalizar"</string>
     <string name="remixer_qs_style_section">"Estilo"</string>
     <string name="remixer_lock_media_off">"Desactivado"</string>
     <string name="remixer_lock_preview_device">"Este teléfono"</string>
@@ -180,7 +179,6 @@
     <string name="accent_shade_darker_value">Más oscuro · %1$d</string>
     <string name="accent_shade_lighter_value">Más claro · %1$d</string>
     <string name="remixer_qs_style">Estilo de ajustes rápidos</string>
-    <string name="remixer_qs_customize_summary">Abre Ajustes rápidos y toca el lápiz. Toca un recuadro para ver sus opciones y su aspecto, mantenlo pulsado para moverlo, arrastra su esquina para cambiar el tamaño y usa las pestañas de debajo del panel para todo el panel.</string>
     <string name="remixer_qs_style_preview">Vista previa · %1$s</string>
     <string name="remixer_qs_style_note">Todos los estilos siguen tu color de acento. El panel de volumen tiene los aspectos a juego Bento, Formas, Blueprint, Duo y Suave. Stock Lineage mantiene intactos los recuadros de Android 17.</string>
     <string name="remixer_qs_style_stock">Stock Lineage</string>

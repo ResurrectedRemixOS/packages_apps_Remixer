@@ -53,7 +53,6 @@
     <string name="accent_custom_apply">"تطبيق"</string>
     <string name="accent_shade_default">"تلقائي"</string>
     <string name="accent_saturation">"تشبع اللون"</string>
-    <string name="remixer_qs_customize">"تخصيص"</string>
     <string name="remixer_qs_style_section">"النمط"</string>
     <string name="remixer_lock_media_off">"الميزة غير مفعّلة"</string>
     <string name="remixer_lock_preview_device">"هذا الهاتف"</string>

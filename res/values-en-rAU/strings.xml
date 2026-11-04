@@ -8,6 +8,5 @@
     <string name="remixer_qs">"Quick Settings"</string>
     <string name="pulse_color">"Colour"</string>
     <string name="accent_custom_title">"Customised colour"</string>
-    <string name="remixer_qs_customize">"Customise"</string>
     <string name="font_filter_serif">"Serif"</string>
 </resources>

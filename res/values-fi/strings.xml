@@ -50,7 +50,6 @@
     <string name="accent_custom_apply">"Käytä"</string>
     <string name="accent_shade_default">"Oletus"</string>
     <string name="accent_saturation">"Värikylläisyys"</string>
-    <string name="remixer_qs_customize">"Muokkaa"</string>
     <string name="remixer_qs_style_section">"Tyyli"</string>
     <string name="remixer_lock_media_off">"Pois päältä"</string>
     <string name="remixer_lock_preview_device">"Tämä puhelin"</string>

@@ -53,7 +53,6 @@
     <string name="accent_custom_apply">"套用"</string>
     <string name="accent_shade_default">"預設"</string>
     <string name="accent_saturation">"飽和度"</string>
-    <string name="remixer_qs_customize">"自訂"</string>
     <string name="remixer_qs_style_section">"樣式"</string>
     <string name="remixer_lock_media_off">"關閉"</string>
     <string name="remixer_lock_preview_device">"這支手機"</string>
@@ -181,7 +180,6 @@
     <string name="accent_shade_darker_value">更深 · %1$d</string>
     <string name="accent_shade_lighter_value">更淺 · %1$d</string>
     <string name="remixer_qs_style">快速設定樣式</string>
-    <string name="remixer_qs_customize_summary">開啟快速設定並點按鉛筆圖示。點按設定方塊可檢視選項和外觀，按住可移動，拖動邊角可調整大小，面板下方的標籤頁用於設定整個面板。</string>
     <string name="remixer_qs_style_preview">預覽 · %1$s</string>
     <string name="remixer_qs_style_note">所有樣式都會跟隨你的強調色。音量面板有配套的 Bento、Shapes、Blueprint、Duo 和柔和外觀。Stock Lineage 會保持 Android 17 設定方塊不變。</string>
     <string name="remixer_qs_style_stock">Stock Lineage</string>

@@ -7,12 +7,6 @@
         android:title="@string/remixer_qs_style" />
 
     <Preference
-        android:key="remixer_qs_customize"
-        android:title="@string/remixer_qs_customize"
-        android:summary="@string/remixer_qs_customize_summary"
-        android:selectable="false" />
-
-    <Preference
         android:key="remixer_headers"
         android:title="@string/remixer_headers"
         android:summary="@string/remixer_headers_summary" />

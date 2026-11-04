@@ -47,7 +47,6 @@
     <string name="accent_custom_apply">"Aplicar"</string>
     <string name="accent_shade_default">"Predeterminado"</string>
     <string name="accent_saturation">"Saturación"</string>
-    <string name="remixer_qs_customize">"Personalizar"</string>
     <string name="remixer_qs_style_section">"Estilo"</string>
     <string name="remixer_lock_media_off">"Desactivado"</string>
     <string name="remixer_lock_preview_device">"Este teléfono"</string>

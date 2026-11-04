@@ -47,7 +47,6 @@
     <string name="accent_custom_recent">"Récents"</string>
     <string name="accent_custom_apply">"Appliquer"</string>
     <string name="accent_shade_default">"Par défaut"</string>
-    <string name="remixer_qs_customize">"Personnaliser"</string>
     <string name="remixer_lock_media_off">"Désactivé"</string>
     <string name="remixer_lock_preview_device">"Ce téléphone"</string>
     <string name="remixer_qs_preview_on">"Activé"</string>
@@ -174,7 +173,6 @@
     <string name="accent_shade_lighter_value">Plus clair · %1$d</string>
     <string name="accent_saturation">Saturation</string>
     <string name="remixer_qs_style">Style des Réglages rapides</string>
-    <string name="remixer_qs_customize_summary">Ouvrez les Réglages rapides et appuyez sur le crayon. Appuyez sur une vignette pour ses options et son aspect, maintenez-la pour la déplacer, faites glisser son coin pour la redimensionner et utilisez les onglets sous le panneau pour tout le panneau.</string>
     <string name="remixer_qs_style_section">Style</string>
     <string name="remixer_qs_style_preview">Aperçu · %1$s</string>
     <string name="remixer_qs_style_note">Chaque style suit votre couleur d\'accentuation. Le panneau de volume a les aspects assortis Bento, Formes, Blueprint, Duo et Doux. Stock Lineage laisse les vignettes d\'Android 17 intactes.</string>

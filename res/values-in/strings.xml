@@ -50,7 +50,6 @@
     <string name="accent_custom_recent">"Terbaru"</string>
     <string name="accent_custom_apply">"Terapkan"</string>
     <string name="accent_saturation">"Saturasi"</string>
-    <string name="remixer_qs_customize">"Sesuaikan"</string>
     <string name="remixer_qs_style_section">"Gaya"</string>
     <string name="remixer_lock_media_off">"Nonaktif"</string>
     <string name="remixer_lock_preview_device">"Ponsel ini"</string>
@@ -179,7 +178,6 @@
     <string name="accent_shade_darker_value">Lebih gelap · %1$d</string>
     <string name="accent_shade_lighter_value">Lebih terang · %1$d</string>
     <string name="remixer_qs_style">Gaya Setelan Cepat</string>
-    <string name="remixer_qs_customize_summary">Buka Setelan Cepat dan ketuk pensil. Ketuk kartu untuk melihat opsi dan tampilannya, tahan untuk memindahkannya, tarik sudutnya untuk mengubah ukuran, dan gunakan tab di bawah panel untuk seluruh panel.</string>
     <string name="remixer_qs_style_preview">Pratinjau · %1$s</string>
     <string name="remixer_qs_style_note">Setiap gaya mengikuti warna aksen Anda. Panel volume memiliki tampilan serasi Bento, Bentuk, Blueprint, Duo, dan Lembut. Stock Lineage membiarkan kartu Android 17 apa adanya.</string>
     <string name="remixer_qs_style_stock">Stock Lineage</string>

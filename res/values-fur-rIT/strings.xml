@@ -37,7 +37,6 @@
     <string name="accent_custom_apply">Apliche</string>
     <string name="accent_shade_default">Predefinide</string>
     <string name="accent_saturation">Saturazion</string>
-    <string name="remixer_qs_customize">Personalize</string>
     <string name="remixer_qs_style_section">Stîl</string>
     <string name="remixer_lock_preview_device">Chest telefon</string>
     <string-array name="remixer_qs_preview_labels">

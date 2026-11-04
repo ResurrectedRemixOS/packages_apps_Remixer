@@ -48,7 +48,6 @@
     <string name="accent_custom_apply">"Taikyti"</string>
     <string name="accent_shade_default">"Numatytasis"</string>
     <string name="accent_saturation">"Spalvų sodrumas"</string>
-    <string name="remixer_qs_customize">"Tinkinti"</string>
     <string name="remixer_qs_style_section">"Stilius"</string>
     <string name="remixer_lock_media_off">"Išjungta"</string>
     <string name="remixer_lock_preview_device">"Šis telefonas"</string>
