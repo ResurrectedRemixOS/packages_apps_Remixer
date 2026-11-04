@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pie_edges">"Imiphetho"</string>
+    <string name="pie_style">"Isitayela"</string>
+    <string name="pie_size">"Usayizi"</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>"Esincane"</item>
+        <item>"Okuphakathi"</item>
+        <item>"Okukhulu"</item>
+    </string-array>
+</resources>

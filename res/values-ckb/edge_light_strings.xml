@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">ڕەنگ</string>
+    <string name="edge_light_color_wallpaper">ڕەنگی وێنەی پاشبنەما</string>
+    <string name="edge_light_custom_color_title">ڕەنگی دڵخواز</string>
+    <string name="edge_light_style_title">شێواز</string>
+    <string name="edge_light_animation_effect_comet">کلکدار</string>
+    <string name="edge_light_moment_notifications">ئاگادارییەکان</string>
+    <string name="edge_light_moment_calls">پەیوەندییە هاتووەکان</string>
+    <string name="edge_light_moment_battery_low">باتری کەمە</string>
+    <string name="edge_light_moment_unlock">کراوەیە</string>
+    <string name="remixer_color_default">بنەڕەتی</string>
+</resources>

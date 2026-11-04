@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"Pamäť"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"Úložisko"</string>
+    <string name="rr_about_battery">"Batéria"</string>
+    <string name="rr_about_kernel">"Jadro"</string>
+    <string name="rr_about_software">"Softvér"</string>
+    <string name="rr_about_updates">"Aktualizácie"</string>
+    <string name="rr_about_build_date">Dátum zostavenia</string>
+    <string name="rr_about_this_phone">"Tento telefón"</string>
+    <string name="rr_about_network">"Sieť"</string>
+    <string name="rr_about_hidden">Skryté</string>
+</resources>

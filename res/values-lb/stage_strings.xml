@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lock_stage_reset">Zrécksetzen</string>
+    <string name="lock_stage_save">Späicheren</string>
+    <string name="stage_tile_clock">Auer</string>
+    <string name="stage_tile_weather">Wieder</string>
+</resources>

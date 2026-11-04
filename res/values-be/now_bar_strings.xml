@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Выклікі"</string>
+    <string name="now_bar_live_apps_all">"Усе праграмы"</string>
+    <string name="now_bar_charging">"Зарадка"</string>
+    <string name="now_bar_flashlight">Ліхтарык</string>
+    <string name="now_bar_style">"Стыль"</string>
+    <string name="now_bar_color">"Колер"</string>
+    <string name="now_bar_outline">"Контур"</string>
+    <string name="now_bar_width">"Шырыня"</string>
+    <string name="now_bar_music_category">"Музыка"</string>
+    <string name="now_bar_buttons">Кнопкі</string>
+    <string name="now_bar_text">"Тэкст"</string>
+    <string name="now_bar_text_size">"Памер тэксту"</string>
+</resources>

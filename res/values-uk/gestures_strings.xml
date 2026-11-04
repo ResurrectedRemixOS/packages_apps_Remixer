@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pie_edges">"Краї"</string>
+    <string name="pie_style">"Стиль"</string>
+    <string name="pie_size">"Розмір"</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>"Малий"</item>
+        <item>"Середній"</item>
+        <item>"Великий"</item>
+    </string-array>
+</resources>

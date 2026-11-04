@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pie_style">"ଷ୍ଟାଇଲ"</string>
+    <string name="pie_size">"ଆକାର"</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>"ଛୋଟ"</item>
+        <item>"ମଧ୍ୟମ"</item>
+        <item>"ବଡ଼"</item>
+    </string-array>
+</resources>

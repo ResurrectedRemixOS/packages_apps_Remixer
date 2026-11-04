@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"ການໂທ"</string>
+    <string name="now_bar_live_apps_all">"ແອັບທັງໝົດ"</string>
+    <string name="now_bar_charging">"ກຳລັງສາກໄຟ"</string>
+    <string name="now_bar_flashlight">"​ໄຟ​ສາຍ"</string>
+    <string name="now_bar_style">"ຮູບແບບ"</string>
+    <string name="now_bar_color">"ສີ"</string>
+    <string name="now_bar_outline">"ເສັ້ນຂອບ"</string>
+    <string name="now_bar_width">"ກວ້າງ"</string>
+    <string name="now_bar_music_category">"ເພງ"</string>
+    <string name="now_bar_buttons">"ປຸ່ມ"</string>
+    <string name="now_bar_text">"ສົ່ງຂໍ້ຄວາມ"</string>
+    <string name="now_bar_text_size">"ຂະໜາດຕົວອັກສອນ"</string>
+</resources>

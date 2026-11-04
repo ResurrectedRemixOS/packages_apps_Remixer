@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Izbriši"</string>
+    <string name="action_reset">"Vrati na zadano"</string>
+    <string name="action_search_apps">"Pretražite aplikacije"</string>
+    <string name="action_select_all">"Odaberi sve"</string>
+    <string name="app_spoofing_clear_all">"Obriši sve"</string>
+    <string name="app_spoofing_disabled">"Onemogućeno"</string>
+    <string name="common_clear_search">"Obriši pretragu"</string>
+    <string name="custom_spoof_profile_brand">"Brend"</string>
+    <string name="custom_spoof_profile_device">"Uređaj"</string>
+    <string name="custom_spoof_profile_manufacturer">"Proizvođač"</string>
+    <string name="hide_system_apps">"Sakrij sistemske aplikacije"</string>
+    <string name="pif_recommended_suffix">"Preporučeno"</string>
+    <string name="pif_status">"Status"</string>
+    <string name="pif_wipe_confirm">"Obriši podatke"</string>
+    <string name="show_system_apps">"Prikaži sistemske aplikacije"</string>
+    <string name="spoofing_reset_defaults_confirm">"Vrati na zadano"</string>
+    <string name="ts_mode_auto">"Automatski"</string>
+    <string name="ts_untrusted_root_keep">"Zadrži"</string>
+    <string name="ts_untrusted_root_replace">"Zamijeni"</string>
+    <string name="ts_verification_mode_auto">"Automatski"</string>
+</resources>

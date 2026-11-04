@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"ផ្លូវកាត់"</string>
+    <string name="quick_launch_camera">"កាមេរ៉ា"</string>
+    <string name="quick_launch_flashlight">"ពិល"</string>
+    <string name="quick_launch_timer">កម្មវិធី​កំណត់​ម៉ោង</string>
+    <string name="quick_launch_undo">"ត្រឡប់វិញ"</string>
+    <string name="quick_launch_off">"បិទ"</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"મેમરી"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"સ્ટોરેજ"</string>
+    <string name="rr_about_battery">"બૅટરી"</string>
+    <string name="rr_about_kernel">"કર્નલ"</string>
+    <string name="rr_about_software">"સૉફ્ટવેર"</string>
+    <string name="rr_about_updates">"અપડેટ્સ"</string>
+    <string name="rr_about_this_phone">"આ ફોન"</string>
+    <string name="rr_about_network">"નેટવર્ક"</string>
+    <string name="rr_about_hidden">"છુપાવેલ"</string>
+</resources>

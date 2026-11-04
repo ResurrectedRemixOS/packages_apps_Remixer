@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">Clamadis</string>
+    <string name="now_bar_live_apps_all">Dutis lis aplicazions</string>
+    <string name="now_bar_charging">In cjarie</string>
+    <string name="now_bar_flashlight">Torce</string>
+    <string name="now_bar_style">Stîl</string>
+    <string name="now_bar_color">Colôr</string>
+    <string name="now_bar_outline">Ôr</string>
+    <string name="now_bar_music_category">Musiche</string>
+    <string name="now_bar_buttons">Botons</string>
+    <string name="now_bar_text">Test</string>
+    <string name="now_bar_text_size">Dimension test</string>
+</resources>

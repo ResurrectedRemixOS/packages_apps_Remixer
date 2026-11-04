@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Konto"</string>
+    <string name="rr_homepage_storage">"Salvestusruum"</string>
+    <string name="rr_homepage_battery">"Aku"</string>
+    <string name="rr_homepage_connections">"Ühendused"</string>
+    <string name="rr_homepage_device">"Seade"</string>
+    <string name="rr_homepage_help">"Abi"</string>
+    <string name="rr_live_wifi">"WiFi"</string>
+    <string name="rr_live_mobile">"Mobiil"</string>
+    <string name="rr_live_offline">"Võrguühenduseta"</string>
+    <string name="rr_live_on">"Sees"</string>
+    <string name="rr_live_off">"Väljas"</string>
+    <string name="rr_homepage_charging">"Laadimine"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_homepage_mobile_data">"Mobiilne andmeside"</string>
+    <string name="rr_homepage_not_connected">"Ühendus puudub"</string>
+    <string name="rr_homepage_dark_theme">"Tume teema"</string>
+    <string name="rr_homepage_on">"Sees"</string>
+    <string name="rr_homepage_off">"Väljas"</string>
+    <string name="rr_homepage_signed_in">"Sisse logitud"</string>
+    <string name="rr_homepage_device_word">"SEADED"</string>
+    <string name="rr_group_apps">"Rakendused ja märguanded"</string>
+    <string name="rr_group_security">"Turvalisus ja privaatsus"</string>
+    <string name="rr_group_accounts_plain">"Kontod"</string>
+    <string name="rr_group_accessibility_summary">"Ekraan, interaktsioon, heli"</string>
+    <string name="remixer_statusbar">"Olekuriba"</string>
+    <string name="remixer_qs">"Kiirseaded"</string>
+    <string name="remixer_notifications">"Märguanded"</string>
+    <string name="remixer_theme">"Teema"</string>
+    <string name="remixer_lockscreen">"Lukustuskuva"</string>
+    <string name="remixer_navigation">Navigeerimine</string>
+    <string name="remixer_misc">"Mitmesugust"</string>
+    <string name="misc_category_volume">"Helitugevus"</string>
+    <string name="misc_category_backup">"Varundamine"</string>
+    <string name="misc_category_scrolling">"Kerimine"</string>
+    <string name="remixer_fonts">"Fondid"</string>
+    <string name="remixer_wallpapers">"Taustapildid"</string>
+    <string name="remixer_accents_summary">Aktsentvärv</string>
+    <string name="pulse_preview_title">"Esitamine kestab"</string>
+    <string name="pulse_style">"Stiil"</string>
+    <string name="pulse_color">"Värv"</string>
+    <string name="pulse_color_accent">"Taustapilt"</string>
+    <string name="pulse_look">"Ilme"</string>
+    <string name="pulse_lockscreen">"Kuva lukustuskuval"</string>
+    <string name="accent_preview_button">"Nupp"</string>
+    <string name="accent_custom_title">"Kohandatud värv"</string>
+    <string name="accent_custom_hue">"Värvitoon"</string>
+    <string name="accent_custom_recent">"Hiljutised"</string>
+    <string name="accent_custom_apply">"Rakenda"</string>
+    <string name="accent_shade_default">"Vaikeseade"</string>
+    <string name="accent_saturation">"Küllastus"</string>
+    <string name="remixer_qs_customize">"Kohanda"</string>
+    <string name="remixer_qs_style_section">"Stiil"</string>
+    <string name="remixer_lock_media_off">"Väljas"</string>
+    <string name="remixer_lock_preview_device">"See telefon"</string>
+    <string name="remixer_qs_preview_on">"Sees"</string>
+    <string name="remixer_qs_preview_off">"Väljas"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>Taskulamp</item>
+        <item>"Mitte segada"</item>
+        <item>"Autom. pööramine"</item>
+        <item>"Tume teema"</item>
+        <item>"Kuumkoht"</item>
+        <item>"Lennukirežiim"</item>
+        <item>"Andmemahu säästja"</item>
+        <item>NFC</item>
+        <item>"Sünkroonimine"</item>
+        <item>"QR-koodi skannimine"</item>
+    </string-array>
+    <string name="header_preview_none">"Pilti ei ole valitud."</string>
+    <string name="header_source_image">"Pilt"</string>
+    <string name="header_source_photo">"Foto"</string>
+    <string name="header_collections">"Kogud"</string>
+    <string name="header_images">"Pildid"</string>
+    <string name="header_photo_choose">"Valige foto"</string>
+    <string name="header_look">"Ilme"</string>
+    <string name="remixer_weather">"Ilm"</string>
+    <string name="font_default">"Vaikeseade"</string>
+    <string name="font_apply">"Rakenda"</string>
+    <string name="font_filter_all">"Kõik"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Määra taustapilt"</string>
+    <string name="wallpaper_apply_home">"Avakuva"</string>
+    <string name="wallpaper_apply_lock">"Lukustuskuva"</string>
+    <string name="remixer_settings_style_original">"Algne"</string>
+    <string name="remixer_navbar_category">"Navigeerimisriba"</string>
+</resources>

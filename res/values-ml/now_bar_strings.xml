@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"കോളുകൾ"</string>
+    <string name="now_bar_live_apps_all">"എല്ലാ ആപ്പുകളും"</string>
+    <string name="now_bar_charging">"ചാർജ് ചെയ്യുന്നു"</string>
+    <string name="now_bar_flashlight">"ടോർച്ച്"</string>
+    <string name="now_bar_style">"സ്റ്റൈൽ"</string>
+    <string name="now_bar_color">"നിറം"</string>
+    <string name="now_bar_width">"വീതി"</string>
+    <string name="now_bar_music_category">"സംഗീതം"</string>
+    <string name="now_bar_buttons">"ബട്ടണുകൾ"</string>
+    <string name="now_bar_text">"ടെക്‌സ്റ്റ്"</string>
+    <string name="now_bar_text_size">"ടെക്‌സ്‌റ്റ് വലുപ്പം"</string>
+</resources>

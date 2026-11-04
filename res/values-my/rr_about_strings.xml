@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"မှတ်ဉာဏ်"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"သိုလှောင်ခန်း"</string>
+    <string name="rr_about_battery">"ဘက်ထရီ"</string>
+    <string name="rr_about_kernel">"Kernel"</string>
+    <string name="rr_about_software">"ဆော့ဖ်ဝဲ"</string>
+    <string name="rr_about_updates">"အပ်ဒိတ်များ"</string>
+    <string name="rr_about_this_phone">"ဤဖုန်း"</string>
+    <string name="rr_about_network">"ကွန်ရက်"</string>
+    <string name="rr_about_hidden">"ဝှက်ထား၏"</string>
+</resources>

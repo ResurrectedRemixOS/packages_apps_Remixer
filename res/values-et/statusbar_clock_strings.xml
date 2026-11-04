@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sb_clock_category">Kellaaeg ja kuupäev</string>
+    <string name="sb_clock_date_title">"Kuupäev"</string>
+    <string name="sb_clock_date_position_title">Kuupäeva asukoht</string>
+    <string name="sb_clock_date_format_title">Kuupäeva vorming</string>
+    <string name="sb_weather_category">"Ilm"</string>
+    <string name="sb_weather_position_title">Asukoht</string>
+</resources>

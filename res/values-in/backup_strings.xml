@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"Pencadangan &amp; pemulihan"</string>
+    <string name="backup_restore">"Pulihkan"</string>
+    <string name="backup_part_boot">Animasi boot</string>
+    <string name="backup_auto">"Otomatis"</string>
+    <string name="backup_group_status_bar">"Bilah status"</string>
+    <string name="backup_group_lock_screen">"Layar kunci"</string>
+    <string name="backup_group_theme">"Tema"</string>
+    <string name="backup_group_qs">"Setelan Cepat"</string>
+    <string name="backup_group_notifications">"Notifikasi"</string>
+    <string name="backup_group_gestures">Gerakan</string>
+    <string name="backup_group_other">"Lainnya"</string>
+    <string name="backup_done">"Selesai"</string>
+    <string name="volume_style_title">Gaya panel volume</string>
+</resources>

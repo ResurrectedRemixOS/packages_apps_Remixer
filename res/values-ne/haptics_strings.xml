@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"सेभ गर्नुहोस्"</string>
+    <string name="haptic_remix_delete_button">"मेटाउनुहोस्"</string>
+    <string name="haptic_remix_default">"डिफल्ट"</string>
+    <string name="haptic_remix_calls">"कलहरू"</string>
+    <string name="haptic_remix_color_violet">"बैजनी रङ"</string>
+    <string name="haptic_remix_color_blue">"निलो"</string>
+    <string name="haptic_remix_color_green">"हरियो"</string>
+    <string name="haptic_remix_color_white">"सेतो"</string>
+</resources>

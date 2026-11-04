@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">Forigi</string>
+    <string name="app_spoofing_disabled">Malŝaltita</string>
+    <string name="custom_spoof_profile_device">Aparato</string>
+</resources>

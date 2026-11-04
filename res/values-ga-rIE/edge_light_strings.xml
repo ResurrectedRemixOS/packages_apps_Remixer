@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">Dath</string>
+    <string name="edge_light_custom_color_title">Dath saincheaptha</string>
+    <string name="edge_light_style_title">Stíl</string>
+    <string name="edge_light_animation_effect_comet">Cóiméad</string>
+    <string name="edge_light_moment_notifications">Fógraí</string>
+    <string name="edge_light_moment_calls">Glaonna isteach</string>
+    <string name="edge_light_moment_battery_low">Ceallraí íseal</string>
+    <string name="remixer_color_default">Réamhshocrú</string>
+</resources>

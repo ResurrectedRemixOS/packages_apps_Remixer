@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lock_stage_reset">"Stel terug"</string>
+    <string name="lock_stage_save">"Stoor"</string>
+    <string name="stage_tile_clock">"Horlosie"</string>
+    <string name="stage_tile_weather">"Weer"</string>
+    <string name="stage_tile_shortcuts">"Kortpaaie"</string>
+</resources>

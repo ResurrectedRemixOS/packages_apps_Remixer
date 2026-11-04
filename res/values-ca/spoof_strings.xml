@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Suprimeix"</string>
+    <string name="action_reset">"Restableix"</string>
+    <string name="action_search_apps">"Cerca aplicacions"</string>
+    <string name="action_select_all">"Selecciona-ho tot"</string>
+    <string name="app_spoofing_clear_all">"Esborra-ho tot"</string>
+    <string name="app_spoofing_disabled">"Desactivat"</string>
+    <string name="common_clear_search">"Esborra la cerca"</string>
+    <string name="custom_spoof_profile_brand">"Marca"</string>
+    <string name="custom_spoof_profile_device">"Dispositiu"</string>
+    <string name="custom_spoof_profile_manufacturer">"Fabricant"</string>
+    <string name="hide_system_apps">"Amaga les aplicacions del sistema"</string>
+    <string name="pif_recommended_suffix">"Recomanat"</string>
+    <string name="pif_status">"Estat"</string>
+    <string name="pif_wipe_confirm">"Esborra les dades"</string>
+    <string name="show_system_apps">"Mostra les aplicacions del sistema"</string>
+    <string name="spoofing_reset_defaults_confirm">"Restableix"</string>
+    <string name="ts_mode_auto">"Automàtic"</string>
+    <string name="ts_untrusted_root_keep">"Conserva"</string>
+    <string name="ts_untrusted_root_replace">"Substitueix"</string>
+    <string name="ts_verification_mode_auto">"Automàtic"</string>
+</resources>

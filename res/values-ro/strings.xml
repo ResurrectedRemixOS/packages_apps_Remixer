@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Cont"</string>
+    <string name="rr_homepage_storage">"Stocare"</string>
+    <string name="rr_homepage_battery">"Baterie"</string>
+    <string name="rr_homepage_connections">"Conexiuni"</string>
+    <string name="rr_homepage_device">"Dispozitiv"</string>
+    <string name="rr_homepage_privacy">Confidențialitate &amp; securitate</string>
+    <string name="rr_homepage_help">"Ajutor"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"Mobil"</string>
+    <string name="rr_live_offline">"Offline"</string>
+    <string name="rr_live_on">"Activat"</string>
+    <string name="rr_live_off">"Dezactivat"</string>
+    <string name="rr_homepage_charging">"Încărcare"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_homepage_mobile_data">"Date mobile"</string>
+    <string name="rr_homepage_not_connected">"Neconectat"</string>
+    <string name="rr_homepage_dark_theme">"Temă întunecată"</string>
+    <string name="rr_homepage_on">"Activat"</string>
+    <string name="rr_homepage_off">"Dezactivat"</string>
+    <string name="rr_homepage_signed_in">"Conectat"</string>
+    <string name="rr_homepage_device_word">"SETĂRI"</string>
+    <string name="rr_group_apps">"Aplicații și notificări"</string>
+    <string name="rr_group_security">"Securitate și confidențialitate"</string>
+    <string name="rr_group_accounts_plain">"Conturi"</string>
+    <string name="rr_group_accessibility_summary">"Afișaj, interacțiune, audio"</string>
+    <string name="remixer_statusbar">"Bară de stare"</string>
+    <string name="remixer_qs">"Setări rapide"</string>
+    <string name="remixer_notifications">"Notificări"</string>
+    <string name="remixer_theme">"Temă"</string>
+    <string name="remixer_lockscreen">"Ecran de blocare"</string>
+    <string name="remixer_navigation">Navigare</string>
+    <string name="remixer_misc">"Diverse"</string>
+    <string name="misc_category_volume">"Volum"</string>
+    <string name="misc_category_scrolling">"Derulare"</string>
+    <string name="remixer_fonts">"Fonturi"</string>
+    <string name="remixer_wallpapers">"Imagini de fundal"</string>
+    <string name="pulse_preview_title">"Acum se redă"</string>
+    <string name="pulse_style">"Stil"</string>
+    <string name="pulse_color">"Culoare"</string>
+    <string name="pulse_color_accent">"Imagine de fundal"</string>
+    <string name="pulse_look">"Aspect"</string>
+    <string name="pulse_lockscreen">"Afișează pe ecranul de blocare"</string>
+    <string name="accent_preview_button">"Buton"</string>
+    <string name="accent_custom_title">"Culoare personalizată"</string>
+    <string name="accent_custom_hue">"Tonalitate"</string>
+    <string name="accent_custom_recent">"Recente"</string>
+    <string name="accent_custom_apply">"Aplică"</string>
+    <string name="accent_shade_default">"Prestabilit"</string>
+    <string name="accent_saturation">"Saturație"</string>
+    <string name="remixer_qs_customize">"Personalizează"</string>
+    <string name="remixer_qs_style_section">"Stil"</string>
+    <string name="remixer_lock_media_off">"Dezactivat"</string>
+    <string name="remixer_lock_preview_device">"Acest telefon"</string>
+    <string name="remixer_qs_preview_on">"Activat"</string>
+    <string name="remixer_qs_preview_off">"Dezactivat"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>Lanternă</item>
+        <item>"Nu deranja"</item>
+        <item>"Rotire automată"</item>
+        <item>"Temă întunecată"</item>
+        <item>"Hotspot"</item>
+        <item>"Mod Avion"</item>
+        <item>"Economizor de date"</item>
+        <item>NFC</item>
+        <item>"Sincronizare"</item>
+        <item>"Scanează codul QR"</item>
+    </string-array>
+    <string name="header_preview_none">"Nu a fost selectată nicio imagine"</string>
+    <string name="header_source_image">"Imagine"</string>
+    <string name="header_source_photo">"Fotografie"</string>
+    <string name="header_collections">"Colecții"</string>
+    <string name="header_images">"Imagini"</string>
+    <string name="header_photo_choose">"Alege o fotografie"</string>
+    <string name="header_look">"Aspect"</string>
+    <string name="remixer_weather">"Meteo"</string>
+    <string name="font_default">"Prestabilit"</string>
+    <string name="font_apply">"Aplică"</string>
+    <string name="font_filter_all">"Toate"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Setează fundal"</string>
+    <string name="wallpaper_apply_home">"Ecran de pornire"</string>
+    <string name="wallpaper_apply_lock">"Ecran de blocare"</string>
+    <string name="remixer_navbar_category">"Bară de navigare"</string>
+</resources>

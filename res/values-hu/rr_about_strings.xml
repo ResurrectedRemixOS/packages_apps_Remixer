@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_unofficial">Nem hivatalos</string>
+    <string name="rr_about_memory">"Memória"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"Tárhely"</string>
+    <string name="rr_about_battery">"Akkumulátor"</string>
+    <string name="rr_about_kernel">"Kernel"</string>
+    <string name="rr_about_software">"Szoftver"</string>
+    <string name="rr_about_updates">"Frissítések"</string>
+    <string name="rr_about_security_patch">Biztonsági frissítés</string>
+    <string name="rr_about_build_date">A kiadás dátuma</string>
+    <string name="rr_about_this_phone">"Ez a telefon"</string>
+    <string name="rr_about_network">"Hálózat"</string>
+    <string name="rr_about_hidden">Rejtett</string>
+</resources>

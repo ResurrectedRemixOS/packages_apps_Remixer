@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Chaqiruvlar"</string>
+    <string name="now_bar_live_apps_all">"Barcha ilovalar"</string>
+    <string name="now_bar_charging">"Quvvat olmoqda"</string>
+    <string name="now_bar_flashlight">"Fonar"</string>
+    <string name="now_bar_style">"Uslub"</string>
+    <string name="now_bar_color">"Rang"</string>
+    <string name="now_bar_outline">"Chegara"</string>
+    <string name="now_bar_width">"Eniga"</string>
+    <string name="now_bar_music_category">"Musiqa"</string>
+    <string name="now_bar_buttons">"Tugmalar"</string>
+    <string name="now_bar_text">"Matn"</string>
+    <string name="now_bar_text_size">"Matn o‘lchami"</string>
+</resources>

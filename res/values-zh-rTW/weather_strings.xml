@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lockscreen_weather_details_category">"詳細資料"</string>
+    <string name="lockscreen_weather_location_title">"位置"</string>
+    <string name="lockscreen_weather_wind_title">風</string>
+    <string name="lockscreen_weather_humidity_title">濕度</string>
+</resources>

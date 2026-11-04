@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Tài khoản"</string>
+    <string name="rr_homepage_storage">"Bộ nhớ"</string>
+    <string name="rr_homepage_battery">"Pin"</string>
+    <string name="rr_homepage_connections">"Kết nối"</string>
+    <string name="rr_homepage_device">"Thiết bị"</string>
+    <string name="rr_homepage_privacy">Riêng tư &amp; bảo mật</string>
+    <string name="rr_homepage_help">"Trợ giúp"</string>
+    <string name="rr_live_wifi">"Wi‑Fi"</string>
+    <string name="rr_live_mobile">"Di động"</string>
+    <string name="rr_live_offline">"Ngoại tuyến"</string>
+    <string name="rr_live_on">"Đang bật"</string>
+    <string name="rr_live_off">"Đang tắt"</string>
+    <string name="rr_homepage_charging">"Đang sạc"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_homepage_mobile_data">"Dữ liệu di động"</string>
+    <string name="rr_homepage_not_connected">"Chưa kết nối"</string>
+    <string name="rr_homepage_dark_theme">"Giao diện tối"</string>
+    <string name="rr_homepage_on">"Đang bật"</string>
+    <string name="rr_homepage_off">"Đang tắt"</string>
+    <string name="rr_homepage_signed_in">"Đã đăng nhập"</string>
+    <string name="rr_homepage_device_word">"CÀI ĐẶT"</string>
+    <string name="rr_group_apps">"Ứng dụng và thông báo"</string>
+    <string name="rr_group_security">"Bảo mật và quyền riêng tư"</string>
+    <string name="rr_group_accounts_plain">"Tài khoản"</string>
+    <string name="rr_group_accessibility_summary">"Màn hình, tương tác, âm thanh"</string>
+    <string name="remixer_statusbar">"Thanh trạng thái"</string>
+    <string name="remixer_qs">"Cài đặt nhanh"</string>
+    <string name="remixer_notifications">"Thông báo"</string>
+    <string name="remixer_theme">"Giao diện"</string>
+    <string name="remixer_lockscreen">"Màn hình khóa"</string>
+    <string name="remixer_udfps_icon">Biểu tượng vân tay</string>
+    <string name="remixer_udfps_animation">Hiệu ứng vân tay trên màn hình</string>
+    <string name="remixer_navigation">Điều hướng</string>
+    <string name="remixer_misc">"Tuỳ chọn khác"</string>
+    <string name="misc_category_volume">"Âm lượng"</string>
+    <string name="misc_category_backup">"Sao lưu"</string>
+    <string name="misc_category_scrolling">"Thao tác cuộn"</string>
+    <string name="remixer_fonts">"Phông chữ"</string>
+    <string name="remixer_wallpapers">"Hình nền"</string>
+    <string name="pulse_preview_title">"Hiện đang phát"</string>
+    <string name="pulse_style">"Kiểu"</string>
+    <string name="pulse_color">"Màu"</string>
+    <string name="pulse_color_accent">"Hình nền"</string>
+    <string name="pulse_look">"Giao diện"</string>
+    <string name="pulse_lockscreen">"Hiển thị trên màn hình khoá"</string>
+    <string name="accent_preview_button">"Nút"</string>
+    <string name="accent_custom_title">"Màu tùy chỉnh"</string>
+    <string name="accent_custom_hue">"Màu sắc"</string>
+    <string name="accent_custom_recent">"Gần đây"</string>
+    <string name="accent_custom_apply">"Áp dụng"</string>
+    <string name="accent_shade_default">"Mặc định"</string>
+    <string name="accent_saturation">"Bão hòa"</string>
+    <string name="remixer_qs_customize">"Tùy chỉnh"</string>
+    <string name="remixer_qs_style_section">"Kiểu"</string>
+    <string name="remixer_lock_media_off">"Đang tắt"</string>
+    <string name="remixer_lock_preview_device">"Điện thoại này"</string>
+    <string name="remixer_qs_preview_on">"Đang bật"</string>
+    <string name="remixer_qs_preview_off">"Đang tắt"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>Đèn pin</item>
+        <item>"Không làm phiền"</item>
+        <item>"Tự động xoay"</item>
+        <item>"Giao diện tối"</item>
+        <item>"Điểm phát sóng"</item>
+        <item>"Chế độ trên máy bay"</item>
+        <item>"Trình tiết kiệm dữ liệu"</item>
+        <item>NFC</item>
+        <item>"Đồng bộ hóa"</item>
+        <item>"Quét mã QR"</item>
+    </string-array>
+    <string name="remixer_headers_summary">Chọn ảnh nền đầu bảng</string>
+    <string name="header_preview_none">"Chưa chọn hình ảnh nào"</string>
+    <string name="header_source_image">"Hình ảnh"</string>
+    <string name="header_source_photo">"Ảnh"</string>
+    <string name="header_collections">"Bộ sưu tập"</string>
+    <string name="header_images">"Hình ảnh"</string>
+    <string name="header_photo_choose">"Chọn ảnh"</string>
+    <string name="header_look">"Giao diện"</string>
+    <string name="remixer_weather">"Thời tiết"</string>
+    <string name="font_default">"Mặc định"</string>
+    <string name="font_apply">"Áp dụng"</string>
+    <string name="font_filter_all">"Tất cả"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Đặt hình nền"</string>
+    <string name="wallpaper_apply_home">"Màn hình chính"</string>
+    <string name="wallpaper_apply_lock">"Màn hình khóa"</string>
+    <string name="remixer_settings_style_original">"Gốc"</string>
+    <string name="remixer_navbar_category">"Thanh điều hướng"</string>
+</resources>

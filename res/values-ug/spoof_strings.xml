@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">ئۆچۈر</string>
+    <string name="action_reset">ئەسلىگە قايتۇر</string>
+    <string name="action_select_all">ھەممىنى تاللا</string>
+    <string name="app_spoofing_disabled">چەكلەنگەن</string>
+    <string name="common_clear_search">ئىزدەشنى تازىلا</string>
+    <string name="custom_spoof_profile_device">ئۈسكۈنە</string>
+    <string name="custom_spoof_profile_model">ئەندىزە</string>
+    <string name="pif_status">ھالەت</string>
+    <string name="spoofing_reset_defaults_confirm">ئەسلىگە قايتۇر</string>
+    <string name="ts_mode_auto">ئاپتوماتىك</string>
+    <string name="ts_untrusted_root_keep">ساقلاپ قال</string>
+    <string name="ts_untrusted_root_replace">ئالماشتۇرۈش</string>
+    <string name="ts_verification_mode_auto">ئاپتوماتىك</string>
+</resources>

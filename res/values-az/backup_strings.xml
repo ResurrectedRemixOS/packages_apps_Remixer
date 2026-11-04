@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"Yedəkləyin &amp; bərpa edin"</string>
+    <string name="backup_restore">"Bərpa edin"</string>
+    <string name="backup_auto">"Avtomatik"</string>
+    <string name="backup_group_status_bar">"Status paneli"</string>
+    <string name="backup_group_lock_screen">"Ekran kilidi"</string>
+    <string name="backup_group_theme">"Tema"</string>
+    <string name="backup_group_qs">"Sürətli Ayarlar"</string>
+    <string name="backup_group_notifications">"Bildirişlər"</string>
+    <string name="backup_group_gestures">Jestlər</string>
+    <string name="backup_group_other">"Digər"</string>
+    <string name="backup_done">"Hazırdır"</string>
+</resources>

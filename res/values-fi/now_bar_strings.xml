@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Puhelut"</string>
+    <string name="now_bar_live_apps_all">"Kaikki sovellukset"</string>
+    <string name="now_bar_charging">"Ladataan"</string>
+    <string name="now_bar_flashlight">Taskulamppu</string>
+    <string name="now_bar_style">"Tyyli"</string>
+    <string name="now_bar_color">"Väri"</string>
+    <string name="now_bar_outline">"Ääriviiva"</string>
+    <string name="now_bar_width">"Leveys"</string>
+    <string name="now_bar_music_category">"Musiikki"</string>
+    <string name="now_bar_buttons">Painikkeet</string>
+    <string name="now_bar_text">"Tekstiviesti"</string>
+    <string name="now_bar_text_size">"Tekstin koko"</string>
+</resources>

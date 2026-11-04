@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"მეხსიერება"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"მეხსიერება"</string>
+    <string name="rr_about_battery">"ბატარეა"</string>
+    <string name="rr_about_kernel">"ბირთვი"</string>
+    <string name="rr_about_software">"პროგრამული უზრუნველყოფა"</string>
+    <string name="rr_about_updates">"განახლებები"</string>
+    <string name="rr_about_build_date">აწყობის თარიღი</string>
+    <string name="rr_about_this_phone">"ეს ტელეფონი"</string>
+    <string name="rr_about_network">"ქსელი"</string>
+    <string name="rr_about_hidden">დამალული</string>
+</resources>

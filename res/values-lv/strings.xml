@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Konts"</string>
+    <string name="rr_homepage_storage">"Krātuve"</string>
+    <string name="rr_homepage_battery">"Akumulators"</string>
+    <string name="rr_homepage_connections">"Savienojumi"</string>
+    <string name="rr_homepage_device">"Ierīce"</string>
+    <string name="rr_homepage_help">"Palīdzība"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"Mobilais"</string>
+    <string name="rr_live_offline">"Bezsaistē"</string>
+    <string name="rr_live_on">"Ieslēgts"</string>
+    <string name="rr_live_off">"Izslēgts"</string>
+    <string name="rr_homepage_charging">"Notiek uzlāde"</string>
+    <string name="rr_homepage_internet">"Internets"</string>
+    <string name="rr_homepage_mobile_data">"Mobilie dati"</string>
+    <string name="rr_homepage_not_connected">"Savienojums nav izveidots"</string>
+    <string name="rr_homepage_dark_theme">"Tumšais motīvs"</string>
+    <string name="rr_homepage_on">"Ieslēgts"</string>
+    <string name="rr_homepage_off">"Izslēgts"</string>
+    <string name="rr_homepage_signed_in">"Esat pierakstījies"</string>
+    <string name="rr_homepage_device_word">"IESTATĪJUMI"</string>
+    <string name="rr_group_apps">"Lietotnes un paziņojumi"</string>
+    <string name="rr_group_security">"Drošība un konfidencialitāte"</string>
+    <string name="rr_group_accounts_plain">"Konti"</string>
+    <string name="rr_group_accessibility_summary">"Displejs, mijiedarbība, audio"</string>
+    <string name="remixer_statusbar">"Statusa josla"</string>
+    <string name="remixer_qs">"Ātrie iestatījumi"</string>
+    <string name="remixer_notifications">"Paziņojumi"</string>
+    <string name="remixer_theme">"Motīvs"</string>
+    <string name="remixer_lockscreen">"Bloķēšanas ekrāns"</string>
+    <string name="remixer_misc">"Dažādi"</string>
+    <string name="misc_category_volume">"Skaļums"</string>
+    <string name="misc_category_backup">"Dublēšana"</string>
+    <string name="misc_category_scrolling">"Ritināšana"</string>
+    <string name="remixer_fonts">"Fonti"</string>
+    <string name="remixer_wallpapers">"Fona tapetes"</string>
+    <string name="pulse_preview_title">"Pašlaik atskaņo"</string>
+    <string name="pulse_style">"Stils"</string>
+    <string name="pulse_color">"Krāsa"</string>
+    <string name="pulse_color_accent">"Fona tapete"</string>
+    <string name="pulse_look">"Izskats"</string>
+    <string name="pulse_lockscreen">"Rādīt bloķēšanas ekrānā"</string>
+    <string name="accent_preview_button">"Poga"</string>
+    <string name="accent_custom_title">"Pielāgota krāsa"</string>
+    <string name="accent_custom_hue">"Nokrāsa"</string>
+    <string name="accent_custom_recent">"Nesens"</string>
+    <string name="accent_custom_apply">"Lietot"</string>
+    <string name="accent_shade_default">"Noklusējums"</string>
+    <string name="accent_saturation">"Piesātinājums"</string>
+    <string name="remixer_qs_customize">"Pielāgot"</string>
+    <string name="remixer_qs_style_section">"Stils"</string>
+    <string name="remixer_lock_media_off">"Izslēgts"</string>
+    <string name="remixer_lock_preview_device">"Šis tālrunis"</string>
+    <string name="remixer_qs_preview_on">"Ieslēgts"</string>
+    <string name="remixer_qs_preview_off">"Izslēgts"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internets"</item>
+        <item>Bluetooth</item>
+        <item>"Lukturītis"</item>
+        <item>"Netraucēt"</item>
+        <item>"Automātiska pagriešana"</item>
+        <item>"Tumšais motīvs"</item>
+        <item>"Tīklājs"</item>
+        <item>"Lidojuma režīms"</item>
+        <item>"Datu lietojuma samazinātājs"</item>
+        <item>NFC</item>
+        <item>"Sinhronizācija"</item>
+        <item>"Kvadrātkoda skenēšana"</item>
+    </string-array>
+    <string name="header_preview_none">"Nav atlasīts neviens attēls."</string>
+    <string name="header_source_image">"Attēls"</string>
+    <string name="header_source_photo">"Fotoattēls"</string>
+    <string name="header_collections">"Kolekcijas"</string>
+    <string name="header_images">"Attēli"</string>
+    <string name="header_photo_choose">"Izvēlieties fotoattēlu"</string>
+    <string name="header_look">"Izskats"</string>
+    <string name="remixer_weather">"Laikapstākļi"</string>
+    <string name="font_default">"Noklusējums"</string>
+    <string name="font_apply">"Lietot"</string>
+    <string name="font_filter_all">"Visi"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Iestatīt fona tapeti"</string>
+    <string name="wallpaper_apply_home">"Sākuma ekrāns"</string>
+    <string name="wallpaper_apply_lock">"Bloķēšanas ekrāns"</string>
+    <string name="remixer_settings_style_original">"Sākotnējais"</string>
+    <string name="remixer_navbar_category">"Navigācijas josla"</string>
+</resources>

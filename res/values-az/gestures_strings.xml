@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pie_edges">"Kənarlar"</string>
+    <string name="pie_style">"Üslub"</string>
+    <string name="pie_size">"Ölçü"</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>"Kiçik"</item>
+        <item>"Orta"</item>
+        <item>"Böyük"</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"Otseteed"</string>
+    <string name="quick_launch_camera">"Kaamera"</string>
+    <string name="quick_launch_flashlight">Taskulamp</string>
+    <string name="quick_launch_timer">Taimer</string>
+    <string name="quick_launch_undo">"Võta tagasi"</string>
+    <string name="quick_launch_off">"Väljas"</string>
+</resources>

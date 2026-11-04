@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="clock_faces_apply">"ដាក់ប្រើ"</string>
+    <string name="clock_faces_color">"ពណ៌"</string>
+    <string name="clock_faces_color_default">"លំនាំដើម"</string>
+    <string name="clock_faces_size">"ទំហំ"</string>
+    <string name="clock_faces_restart">"ចាប់ផ្ដើមឡើងវិញ"</string>
+</resources>

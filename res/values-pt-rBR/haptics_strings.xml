@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"Salvar"</string>
+    <string name="haptic_remix_delete_button">"Excluir"</string>
+    <string name="haptic_remix_default">"Padrão"</string>
+    <string name="haptic_remix_calls">"Chamadas"</string>
+    <string name="haptic_remix_color_violet">"Violeta"</string>
+    <string name="haptic_remix_color_blue">"Azul"</string>
+    <string name="haptic_remix_color_green">"Verde"</string>
+    <string name="haptic_remix_color_white">"Branco"</string>
+</resources>

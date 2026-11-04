@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Värv"</string>
+    <string name="edge_light_color_accent">Aktsentvärv</string>
+    <string name="edge_light_color_notification">Teavituse värv</string>
+    <string name="edge_light_color_wallpaper">"Taustapildi värv"</string>
+    <string name="edge_light_custom_color_title">"Kohandatud värv"</string>
+    <string name="edge_light_style_title">"Stiil"</string>
+    <string name="edge_light_moment_notifications">"Märguanded"</string>
+    <string name="edge_light_moment_calls">"Sissetulevad kõned"</string>
+    <string name="edge_light_moment_battery_low">Aku tühjeneb</string>
+    <string name="edge_light_moment_unlock">"Avatud"</string>
+    <string name="remixer_color_default">"Vaikeseade"</string>
+</resources>

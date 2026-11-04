@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"Snelkoppelingen"</string>
+    <string name="quick_launch_flashlight">Zaklamp</string>
+    <string name="quick_launch_timer">Timer</string>
+    <string name="quick_launch_undo">"Ongedaan maken"</string>
+    <string name="quick_launch_off">"Uit"</string>
+</resources>

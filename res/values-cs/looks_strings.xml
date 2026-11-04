@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Uložit"</string>
+    <string name="looks_import">"Importovat"</string>
+    <string name="looks_name">"Název"</string>
+    <string name="looks_apply">"Použít"</string>
+    <string name="looks_share">"Sdílet"</string>
+    <string name="looks_delete">"Smazat"</string>
+    <string name="looks_part_font">"Písmo"</string>
+    <string name="looks_part_wallpaper">"Tapeta"</string>
+    <string name="looks_color_default">"Výchozí"</string>
+    <string name="looks_create">"Vytvořit"</string>
+    <string name="looks_edit">"Upravit"</string>
+    <string name="looks_customize">"Přizpůsobit"</string>
+    <string name="looks_save_look">"Uložit"</string>
+    <string name="looks_custom_color">"Vlastní barva"</string>
+    <string name="looks_part_clock_color">"Barva hodin"</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"บันทึก"</string>
+    <string name="looks_import">"นำเข้า"</string>
+    <string name="looks_name">"ชื่อ"</string>
+    <string name="looks_apply">"ใช้"</string>
+    <string name="looks_share">"แชร์"</string>
+    <string name="looks_delete">"ลบ"</string>
+    <string name="looks_part_font">"แบบอักษร"</string>
+    <string name="looks_part_wallpaper">"วอลเปเปอร์"</string>
+    <string name="looks_color_default">"ค่าเริ่มต้น"</string>
+    <string name="looks_create">"สร้าง"</string>
+    <string name="looks_edit">"แก้ไข"</string>
+    <string name="looks_customize">"ปรับแต่ง"</string>
+    <string name="looks_save_look">"บันทึก"</string>
+    <string name="looks_custom_color">"สีที่กำหนดเอง"</string>
+    <string name="looks_part_clock_color">"สีนาฬิกา"</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Salvesta"</string>
+    <string name="looks_import">"Impordi"</string>
+    <string name="looks_name">"Nimi"</string>
+    <string name="looks_apply">"Rakenda"</string>
+    <string name="looks_share">"Jaga"</string>
+    <string name="looks_delete">"Kustuta"</string>
+    <string name="looks_part_accent">Aktsentvärv</string>
+    <string name="looks_part_wallpaper">"Taustapilt"</string>
+    <string name="looks_color_default">"Vaikeseade"</string>
+    <string name="looks_create">"Loo"</string>
+    <string name="looks_edit">"Muuda"</string>
+    <string name="looks_customize">"Kohanda"</string>
+    <string name="looks_save_look">"Salvesta"</string>
+    <string name="looks_custom_color">"Kohandatud värv"</string>
+    <string name="looks_part_clock_color">"Kella värv"</string>
+</resources>

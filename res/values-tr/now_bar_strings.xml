@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Aramalar"</string>
+    <string name="now_bar_live_apps_all">"Tüm uygulamalar"</string>
+    <string name="now_bar_charging">"Şarj oluyor"</string>
+    <string name="now_bar_flashlight">El feneri</string>
+    <string name="now_bar_aod">Her zaman açık ekranda göster</string>
+    <string name="now_bar_style">"Stil"</string>
+    <string name="now_bar_color">"Renk"</string>
+    <string name="now_bar_outline">"Dış çizgi"</string>
+    <string name="now_bar_width">"Genişlik"</string>
+    <string name="now_bar_music_category">"Müzik"</string>
+    <string name="now_bar_art">Albüm kapağı</string>
+    <string name="now_bar_buttons">Tuşlar</string>
+    <string name="now_bar_text">Metin</string>
+    <string name="now_bar_text_size">"Metin boyutu"</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Звонки"</string>
+    <string name="now_bar_live_apps_all">"Все приложения"</string>
+    <string name="now_bar_charging">"Зарядка"</string>
+    <string name="now_bar_flashlight">Фонарик</string>
+    <string name="now_bar_aod">Показывать в режиме AOD</string>
+    <string name="now_bar_style">"Стиль"</string>
+    <string name="now_bar_color">"Цвет"</string>
+    <string name="now_bar_outline">"Контур"</string>
+    <string name="now_bar_width">"Ширина"</string>
+    <string name="now_bar_music_category">"Музыка"</string>
+    <string name="now_bar_art">Обложка альбома</string>
+    <string name="now_bar_buttons">Кнопки</string>
+    <string name="now_bar_text">Текст</string>
+    <string name="now_bar_text_size">"Размер текста"</string>
+</resources>

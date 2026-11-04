@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Zvani"</string>
+    <string name="now_bar_live_apps_all">"Visas lietotnes"</string>
+    <string name="now_bar_charging">"Notiek uzlāde"</string>
+    <string name="now_bar_flashlight">"Lukturītis"</string>
+    <string name="now_bar_style">"Stils"</string>
+    <string name="now_bar_color">"Krāsa"</string>
+    <string name="now_bar_outline">"Kontūra"</string>
+    <string name="now_bar_width">"Platums"</string>
+    <string name="now_bar_music_category">"Mūzika"</string>
+    <string name="now_bar_buttons">"Pogas"</string>
+    <string name="now_bar_text">"Sūtīt īsziņu"</string>
+    <string name="now_bar_text_size">"Teksta lielums"</string>
+</resources>

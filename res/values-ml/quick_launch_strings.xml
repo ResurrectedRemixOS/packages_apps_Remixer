@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"കുറുക്കുവഴികൾ"</string>
+    <string name="quick_launch_camera">"ക്യാമറ"</string>
+    <string name="quick_launch_flashlight">"ടോർച്ച്"</string>
+    <string name="quick_launch_timer">ടൈമർ</string>
+    <string name="quick_launch_undo">"പഴയപടിയാക്കുക"</string>
+    <string name="quick_launch_off">"ഓഫാണ്"</string>
+</resources>

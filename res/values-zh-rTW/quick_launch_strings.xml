@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"捷徑"</string>
+    <string name="quick_launch_camera">"相機"</string>
+    <string name="quick_launch_flashlight">手電筒</string>
+    <string name="quick_launch_timer">計時器</string>
+    <string name="quick_launch_undo">"復原"</string>
+    <string name="quick_launch_off">"關閉"</string>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"帳戶"</string>
+    <string name="rr_homepage_storage">"儲存空間"</string>
+    <string name="rr_homepage_battery">"電池"</string>
+    <string name="rr_homepage_connections">"連線"</string>
+    <string name="rr_homepage_device">"裝置"</string>
+    <string name="rr_homepage_privacy">隱私權和安全性</string>
+    <string name="rr_homepage_help">"說明"</string>
+    <string name="rr_live_wifi">"Wi‑Fi"</string>
+    <string name="rr_live_mobile">"行動網路"</string>
+    <string name="rr_live_offline">"離線"</string>
+    <string name="rr_live_on">"已開啟"</string>
+    <string name="rr_live_off">"關閉"</string>
+    <string name="rr_homepage_charging">"充電中"</string>
+    <string name="rr_homepage_internet">"網際網路"</string>
+    <string name="rr_homepage_mobile_data">"行動數據"</string>
+    <string name="rr_homepage_not_connected">"未連線"</string>
+    <string name="rr_homepage_dark_theme">"深色主題"</string>
+    <string name="rr_homepage_on">"已開啟"</string>
+    <string name="rr_homepage_off">"關閉"</string>
+    <string name="rr_homepage_signed_in">"已登入"</string>
+    <string name="rr_homepage_device_word">"設定"</string>
+    <string name="rr_group_apps">"應用程式和通知"</string>
+    <string name="rr_group_security">"安全性與隱私權"</string>
+    <string name="rr_group_accounts_plain">"帳戶"</string>
+    <string name="rr_group_accessibility_summary">"螢幕、互動、音訊"</string>
+    <string name="remixer_statusbar">狀態列</string>
+    <string name="remixer_qs">"快速設定"</string>
+    <string name="remixer_notifications">"通知"</string>
+    <string name="remixer_theme">"主題"</string>
+    <string name="remixer_lockscreen">"螢幕鎖定"</string>
+    <string name="remixer_udfps_icon">指紋辨識圖示</string>
+    <string name="remixer_udfps_animation">螢幕下指紋辨識動畫</string>
+    <string name="remixer_navigation">導航欄</string>
+    <string name="remixer_misc">"其他"</string>
+    <string name="misc_category_volume">"音量"</string>
+    <string name="misc_category_backup">"備份"</string>
+    <string name="misc_category_scrolling">"捲動"</string>
+    <string name="remixer_fonts">"字型"</string>
+    <string name="remixer_wallpapers">"桌布"</string>
+    <string name="remixer_accents_summary">強調色</string>
+    <string name="pulse_preview_title">"目前播放"</string>
+    <string name="pulse_style">"樣式"</string>
+    <string name="pulse_color">"顏色"</string>
+    <string name="pulse_color_accent">"桌布"</string>
+    <string name="pulse_look">"外觀"</string>
+    <string name="pulse_lockscreen">"顯示在螢幕鎖定畫面上"</string>
+    <string name="accent_preview_button">"按鈕"</string>
+    <string name="accent_custom_title">自訂顏色</string>
+    <string name="accent_custom_hue">"色調"</string>
+    <string name="accent_custom_recent">"最近"</string>
+    <string name="accent_custom_apply">"套用"</string>
+    <string name="accent_shade_default">"預設"</string>
+    <string name="accent_saturation">"飽和度"</string>
+    <string name="remixer_qs_customize">"自訂"</string>
+    <string name="remixer_qs_style_section">"樣式"</string>
+    <string name="remixer_lock_media_off">"關閉"</string>
+    <string name="remixer_lock_preview_device">"這支手機"</string>
+    <string name="remixer_qs_preview_on">"已開啟"</string>
+    <string name="remixer_qs_preview_off">"關閉"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"網際網路"</item>
+        <item>Bluetooth</item>
+        <item>手電筒</item>
+        <item>"零打擾"</item>
+        <item>"自動旋轉"</item>
+        <item>"深色主題"</item>
+        <item>"熱點"</item>
+        <item>"飛航模式"</item>
+        <item>"數據節省模式"</item>
+        <item>NFC</item>
+        <item>"同步處理"</item>
+        <item>"掃描 QR code"</item>
+    </string-array>
+    <string name="remixer_headers_summary">選擇快速設定頂部標題圖片</string>
+    <string name="header_preview_none">"未選取圖片"</string>
+    <string name="header_source_image">"圖片"</string>
+    <string name="header_source_photo">"相片"</string>
+    <string name="header_collections">"收藏"</string>
+    <string name="header_images">"圖片"</string>
+    <string name="header_photo_choose">"選擇相片"</string>
+    <string name="header_look">"外觀"</string>
+    <string name="remixer_weather">天氣</string>
+    <string name="font_default">"預設"</string>
+    <string name="font_apply">"套用"</string>
+    <string name="font_filter_all">"全部"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"設定桌布"</string>
+    <string name="wallpaper_apply_home">"主畫面"</string>
+    <string name="wallpaper_apply_lock">"螢幕鎖定"</string>
+    <string name="remixer_spoofing">裝置偽裝</string>
+    <string name="remixer_settings_style">設定應用程式樣式</string>
+    <string name="remixer_settings_style_original">"原始"</string>
+    <string name="remixer_navbar_category">"導覽列"</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"ဖျက်ရန်"</string>
+    <string name="action_reset">"ပြင်ဆင်သတ်မှတ်ရန်"</string>
+    <string name="action_search_apps">"ရှာဖွေမှု အက်ပ်များ"</string>
+    <string name="action_select_all">"အားလုံးရွေးချယ်ရန်"</string>
+    <string name="app_spoofing_clear_all">"အားလုံးရှင်းရန်"</string>
+    <string name="app_spoofing_disabled">"ပိတ်ထားသည်"</string>
+    <string name="common_clear_search">"ရှာဖွေမှုကို ရှင်းပါ"</string>
+    <string name="custom_spoof_profile_brand">"ကုန်အမှတ်တံဆိပ်"</string>
+    <string name="custom_spoof_profile_device">"ကိရိယာ"</string>
+    <string name="custom_spoof_profile_manufacturer">"ထုတ်လုပ်သူ"</string>
+    <string name="custom_spoof_profile_model">"မိုဒယ်"</string>
+    <string name="hide_system_apps">"စနစ်အက်ပ်များ ဖျောက်ထားရန်"</string>
+    <string name="pif_recommended_suffix">"အကြံပြုချက်"</string>
+    <string name="pif_status">"အခြေအနေ"</string>
+    <string name="pif_wipe_confirm">"ဒေတာကို ဖယ်ရှားရန်"</string>
+    <string name="show_system_apps">"စနစ်အက်ပ်များ ပြသရန်"</string>
+    <string name="spoofing_reset_defaults_confirm">"ပြင်ဆင်သတ်မှတ်ရန်"</string>
+    <string name="ts_mode_auto">"အလိုအလျောက်"</string>
+    <string name="ts_untrusted_root_keep">"သိမ်းထားပါ"</string>
+    <string name="ts_untrusted_root_replace">"အစားထိုးပါ"</string>
+    <string name="ts_verification_mode_auto">"အလိုအလျောက်"</string>
+</resources>

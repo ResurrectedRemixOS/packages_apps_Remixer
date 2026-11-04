@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Պահել"</string>
+    <string name="looks_import">"Ներմուծել"</string>
+    <string name="looks_name">"Անուն"</string>
+    <string name="looks_apply">"Կիրառել"</string>
+    <string name="looks_share">"Կիսվել"</string>
+    <string name="looks_delete">"Ջնջել"</string>
+    <string name="looks_part_font">"Տառատեսակ"</string>
+    <string name="looks_part_wallpaper">"Պաստառ"</string>
+    <string name="looks_color_default">"Կանխադրված"</string>
+    <string name="looks_create">"Ստեղծել"</string>
+    <string name="looks_edit">"Փոփոխել"</string>
+    <string name="looks_customize">"Կարգավորել"</string>
+    <string name="looks_save_look">"Պահել"</string>
+    <string name="looks_custom_color">"Հատուկ գույն"</string>
+    <string name="looks_part_clock_color">"Ժամ․ գույնը"</string>
+</resources>

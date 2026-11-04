@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"Njia za mkato"</string>
+    <string name="quick_launch_camera">"Kamera"</string>
+    <string name="quick_launch_flashlight">"Tochi"</string>
+    <string name="quick_launch_timer">Kipima wakati</string>
+    <string name="quick_launch_undo">"Tendua"</string>
+    <string name="quick_launch_off">"Imezimwa"</string>
+</resources>

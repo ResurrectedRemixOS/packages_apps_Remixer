@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"通話"</string>
+    <string name="now_bar_live_apps_all">"所有應用程式"</string>
+    <string name="now_bar_charging">"充電中"</string>
+    <string name="now_bar_flashlight">手電筒</string>
+    <string name="now_bar_aod">在 Always-On Display 上顯示</string>
+    <string name="now_bar_style">"樣式"</string>
+    <string name="now_bar_color">"顏色"</string>
+    <string name="now_bar_outline">"外框"</string>
+    <string name="now_bar_width">"寬度"</string>
+    <string name="now_bar_music_category">"音樂"</string>
+    <string name="now_bar_art">專輯封面</string>
+    <string name="now_bar_buttons">按鍵</string>
+    <string name="now_bar_text">文字</string>
+    <string name="now_bar_text_size">"文字大小"</string>
+</resources>

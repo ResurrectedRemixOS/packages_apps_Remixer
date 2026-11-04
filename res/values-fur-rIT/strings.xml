@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_storage">Spazi di archiviazion</string>
+    <string name="rr_homepage_battery">Batarie</string>
+    <string name="rr_homepage_connections">Conessions</string>
+    <string name="rr_homepage_device">Dispositîf</string>
+    <string name="rr_homepage_privacy">Riservatece e sigurece</string>
+    <string name="rr_homepage_help">Jutori</string>
+    <string name="rr_live_mobile">Celulâr</string>
+    <string name="rr_live_offline">Fûr rêt</string>
+    <string name="rr_homepage_charging">In cjarie</string>
+    <string name="rr_homepage_internet">Internet</string>
+    <string name="rr_homepage_mobile_data">Dâts mobii</string>
+    <string name="rr_homepage_not_connected">No conetût</string>
+    <string name="rr_homepage_dark_theme">Teme scûr</string>
+    <string name="rr_homepage_signed_in">Jentrât</string>
+    <string name="rr_homepage_device_word">IMPOSTAZIONS</string>
+    <string name="rr_group_apps">Aplicazions e notifichis</string>
+    <string name="rr_group_security">Sigurece e riservatece</string>
+    <string name="rr_group_accessibility_summary">Schermi, display, interazion, audio</string>
+    <string name="remixer_statusbar">Sbare di stât</string>
+    <string name="remixer_notifications">Notifichis</string>
+    <string name="remixer_theme">Teme</string>
+    <string name="remixer_lockscreen">Schermade di bloc</string>
+    <string name="remixer_navigation">Navigazion</string>
+    <string name="misc_category_volume">Volum</string>
+    <string name="remixer_fonts">Caratars</string>
+    <string name="remixer_wallpapers">Fonts</string>
+    <string name="pulse_preview_title">Cumò in riproduzion</string>
+    <string name="pulse_style">Stîl</string>
+    <string name="pulse_color">Colôr</string>
+    <string name="pulse_color_accent">Fonts</string>
+    <string name="pulse_look">Aspiet</string>
+    <string name="accent_custom_title">Colôr personalizât</string>
+    <string name="accent_custom_hue">Tonalitât</string>
+    <string name="accent_custom_recent">Resint</string>
+    <string name="accent_custom_apply">Apliche</string>
+    <string name="accent_shade_default">Predefinide</string>
+    <string name="accent_saturation">Saturazion</string>
+    <string name="remixer_qs_customize">Personalize</string>
+    <string name="remixer_qs_style_section">Stîl</string>
+    <string name="remixer_lock_preview_device">Chest telefon</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>Internet</item>
+        <item>Bluetooth</item>
+        <item>Torce</item>
+        <item>No Sta Disturbâ</item>
+        <item>Rotazion automatiche</item>
+        <item>Teme scûr</item>
+        <item>Pont di acès</item>
+        <item>Modalitât avion</item>
+        <item>Sparagn dâts</item>
+        <item>NFC</item>
+        <item>Sincronizazion</item>
+        <item>Scansione codiç QR</item>
+    </string-array>
+    <string name="header_source_image">Imagjin</string>
+    <string name="header_source_photo">Foto</string>
+    <string name="header_images">Imagjins</string>
+    <string name="header_look">Aspiet</string>
+    <string name="remixer_weather">Meteo</string>
+    <string name="font_default">Predefinide</string>
+    <string name="font_apply">Apliche</string>
+    <string name="font_filter_all">Dut</string>
+    <string name="font_filter_serif">Serif</string>
+    <string name="wallpaper_apply_title">Stabilìs fonts</string>
+    <string name="wallpaper_apply_home">Schermade di inizi</string>
+    <string name="wallpaper_apply_lock">Schermade di bloc</string>
+    <string name="remixer_navbar_category">Sbare di navigazion</string>
+</resources>

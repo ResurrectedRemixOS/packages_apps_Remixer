@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"Δημιουργία αντιγράφου ασφαλείας και επαναφορά"</string>
+    <string name="backup_restore">"Επαναφορά"</string>
+    <string name="backup_auto">"Αυτόματα"</string>
+    <string name="backup_group_status_bar">"Γραμμή κατάστασης"</string>
+    <string name="backup_group_lock_screen">"Οθόνη κλειδώματος"</string>
+    <string name="backup_group_theme">"Θέμα"</string>
+    <string name="backup_group_qs">"Γρήγορες ρυθμίσεις"</string>
+    <string name="backup_group_notifications">"Ειδοποιήσεις"</string>
+    <string name="backup_group_gestures">Χειρονομίες</string>
+    <string name="backup_group_other">"Άλλο"</string>
+    <string name="backup_done">"Τέλος"</string>
+</resources>

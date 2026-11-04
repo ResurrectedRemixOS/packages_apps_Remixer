@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"저장"</string>
+    <string name="haptic_remix_delete_button">"삭제"</string>
+    <string name="haptic_remix_default">"기본값"</string>
+    <string name="haptic_remix_calls">"전화"</string>
+    <string name="haptic_remix_color_violet">"보라색"</string>
+    <string name="haptic_remix_color_blue">"파란색"</string>
+    <string name="haptic_remix_color_green">"녹색"</string>
+    <string name="haptic_remix_color_white">"흰색"</string>
+</resources>

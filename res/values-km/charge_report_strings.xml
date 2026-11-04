@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="charge_report_keep_title">"បន្ត"</string>
+    <string name="charge_report_battery">"ថ្ម"</string>
+    <string name="charge_report_temp">"សីតុណ្ហភាព"</string>
+    <string name="charge_report_time">"ម៉ោង"</string>
+</resources>

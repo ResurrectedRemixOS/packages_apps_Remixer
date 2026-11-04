@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"保存"</string>
+    <string name="looks_import">"导入"</string>
+    <string name="looks_name">"名称"</string>
+    <string name="looks_apply">"应用"</string>
+    <string name="looks_share">"分享"</string>
+    <string name="looks_delete">"删除"</string>
+    <string name="looks_part_accent">强调色</string>
+    <string name="looks_part_font">"字体"</string>
+    <string name="looks_part_wallpaper">"壁纸"</string>
+    <string name="looks_part_boot">开机动画样式</string>
+    <string name="looks_color_default">"默认"</string>
+    <string name="looks_create">"创建"</string>
+    <string name="looks_edit">"修改"</string>
+    <string name="looks_customize">"自定义"</string>
+    <string name="looks_save_look">"保存"</string>
+    <string name="looks_custom_color">自定义颜色</string>
+    <string name="looks_part_clock_color">"时钟颜色"</string>
+</resources>

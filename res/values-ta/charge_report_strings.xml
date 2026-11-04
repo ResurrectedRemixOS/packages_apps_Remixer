@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="charge_report_keep_title">"வைத்திரு"</string>
+    <string name="charge_report_battery">"பேட்டரி"</string>
+    <string name="charge_report_temp">"வெப்பநிலை"</string>
+    <string name="charge_report_time">"நேரம்"</string>
+</resources>

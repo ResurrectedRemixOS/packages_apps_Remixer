@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"백업 및 복원"</string>
+    <string name="backup_restore">"복원"</string>
+    <string name="backup_part_boot">부트 애니메이션</string>
+    <string name="backup_auto">"자동"</string>
+    <string name="backup_group_status_bar">"상태 표시줄"</string>
+    <string name="backup_group_lock_screen">"잠금 화면"</string>
+    <string name="backup_group_theme">"테마"</string>
+    <string name="backup_group_qs">"빠른 설정"</string>
+    <string name="backup_group_notifications">"알림"</string>
+    <string name="backup_group_gestures">제스처</string>
+    <string name="backup_group_other">"기타"</string>
+    <string name="backup_done">"완료"</string>
+    <string name="volume_style_title">음량 패널 스타일</string>
+</resources>

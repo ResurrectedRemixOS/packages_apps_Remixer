@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">زاپاسلا ۋە ئەسلىگە كەلتۈر</string>
+    <string name="backup_group_status_bar">ھالەت بالداق</string>
+    <string name="backup_group_lock_screen">قۇلۇپ ئېكران</string>
+    <string name="backup_group_theme">ئۆرنەك</string>
+    <string name="backup_group_notifications">ئۇقتۇرۇشلار</string>
+    <string name="backup_group_gestures">قول ئىشارەت</string>
+    <string name="backup_group_other">باشقا</string>
+    <string name="backup_done">تامام</string>
+</resources>

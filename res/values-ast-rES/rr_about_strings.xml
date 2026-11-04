@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">Memoria</string>
+    <string name="rr_about_storage">Almacenamientu</string>
+    <string name="rr_about_battery">Batería</string>
+    <string name="rr_about_updates">Anovamientos</string>
+    <string name="rr_about_build_date">Data de la compilación</string>
+    <string name="rr_about_this_phone">Esti teléfonu</string>
+    <string name="rr_about_network">Rede</string>
+</resources>

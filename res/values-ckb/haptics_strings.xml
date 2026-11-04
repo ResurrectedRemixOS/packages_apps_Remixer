@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">پاشەکەوتکردن</string>
+    <string name="haptic_remix_delete_button">سڕینەوە</string>
+    <string name="haptic_remix_default">بنەڕەتی</string>
+    <string name="haptic_remix_calls">پەیوەندییەکان</string>
+    <string name="haptic_remix_color_violet">مۆری کاڵ</string>
+    <string name="haptic_remix_color_blue">شین</string>
+    <string name="haptic_remix_color_green">سەوز</string>
+    <string name="haptic_remix_color_white">سپی</string>
+</resources>

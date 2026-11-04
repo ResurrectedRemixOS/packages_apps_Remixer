@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="charge_report_keep_title">"مواصلة"</string>
+    <string name="charge_report_battery">"البطارية"</string>
+    <string name="charge_report_temp">"درجة الحرارة"</string>
+    <string name="charge_report_time">"الوقت"</string>
+</resources>

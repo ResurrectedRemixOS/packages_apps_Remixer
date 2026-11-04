@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Panggilan"</string>
+    <string name="now_bar_live_apps_all">"Semua apl"</string>
+    <string name="now_bar_charging">"Mengecas"</string>
+    <string name="now_bar_flashlight">"Lampu Suluh"</string>
+    <string name="now_bar_style">"Gaya"</string>
+    <string name="now_bar_color">"Warna"</string>
+    <string name="now_bar_outline">"Garis bentuk"</string>
+    <string name="now_bar_width">"Lebar"</string>
+    <string name="now_bar_music_category">"Muzik"</string>
+    <string name="now_bar_buttons">"Butang"</string>
+    <string name="now_bar_text">"Teks"</string>
+    <string name="now_bar_text_size">"Saiz teks"</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pie_edges">"Kanter"</string>
+    <string name="pie_style">"Stil"</string>
+    <string name="pie_size">"Størrelse"</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>"Lille"</item>
+        <item>"Mellem"</item>
+        <item>"Stor"</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"মচক"</string>
+    <string name="action_reset">"ৰিছেট কৰক"</string>
+    <string name="action_search_apps">"এপ্‌সমূহ সন্ধান কৰক"</string>
+    <string name="action_select_all">"আটাইবোৰ বাছনি কৰক"</string>
+    <string name="app_spoofing_clear_all">"আটাইবোৰ মচক"</string>
+    <string name="app_spoofing_disabled">"অক্ষম কৰা আছে"</string>
+    <string name="common_clear_search">"সন্ধান কৰা বস্তুবোৰ মচক"</string>
+    <string name="custom_spoof_profile_brand">"ব্ৰেণ্ড"</string>
+    <string name="custom_spoof_profile_device">"ডিভাইচ"</string>
+    <string name="custom_spoof_profile_manufacturer">"নিৰ্মাতা"</string>
+    <string name="custom_spoof_profile_model">"মডেল"</string>
+    <string name="hide_system_apps">"ছিষ্টেম এপ্‌ লুকুৱাওক"</string>
+    <string name="pif_recommended_suffix">"চুপাৰিছ কৰা হৈছে"</string>
+    <string name="pif_status">"স্থিতি"</string>
+    <string name="pif_wipe_confirm">"ডেটা মচক"</string>
+    <string name="show_system_apps">"ছিষ্টেম এপ্‌সমূহ দেখুৱাওক"</string>
+    <string name="spoofing_reset_defaults_confirm">"ৰিছেট কৰক"</string>
+    <string name="ts_mode_auto">"স্বয়ংক্ৰিয়"</string>
+    <string name="ts_untrusted_root_replace">"সলনি কৰক"</string>
+    <string name="ts_verification_mode_auto">"স্বয়ংক্ৰিয়"</string>
+</resources>

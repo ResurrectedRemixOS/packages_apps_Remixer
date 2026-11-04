@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sb_clock_bold_title">Жирний годинник</string>
+    <string name="sb_clock_period_separator_title">Розділювач циклів</string>
+    <string name="sb_clock_date_title">"Дата"</string>
+    <string name="sb_clock_chip_angle_title">Градієнтний кут</string>
+    <string name="sb_weather_category">"Погода"</string>
+    <string name="sb_weather_position_title">Позиція</string>
+</resources>

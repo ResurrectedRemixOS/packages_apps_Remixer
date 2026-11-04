@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Reikningur"</string>
+    <string name="rr_homepage_storage">"Geymsla"</string>
+    <string name="rr_homepage_battery">"Rafhlaða"</string>
+    <string name="rr_homepage_connections">"Tengingar"</string>
+    <string name="rr_homepage_device">"Tæki"</string>
+    <string name="rr_homepage_privacy">Gagnaleynd og öryggi</string>
+    <string name="rr_homepage_help">"Hjálp"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"Farsími"</string>
+    <string name="rr_live_offline">"Ótengdur"</string>
+    <string name="rr_live_on">"Kveikt"</string>
+    <string name="rr_live_off">"Slökkt"</string>
+    <string name="rr_homepage_charging">"Í hleðslu"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_homepage_mobile_data">"Farsímagögn"</string>
+    <string name="rr_homepage_not_connected">"Ekki tengt"</string>
+    <string name="rr_homepage_dark_theme">"Dökkt þema"</string>
+    <string name="rr_homepage_on">"Kveikt"</string>
+    <string name="rr_homepage_off">"Slökkt"</string>
+    <string name="rr_homepage_signed_in">"Innskráð(ur)"</string>
+    <string name="rr_homepage_device_word">"STILLINGAR"</string>
+    <string name="rr_group_apps">"Forrit og tilkynningar"</string>
+    <string name="rr_group_security">"Öryggi og persónuvernd"</string>
+    <string name="rr_group_accounts_plain">"Reikningar"</string>
+    <string name="rr_group_accessibility_summary">"Skjár, gagnvirkni, hljóð"</string>
+    <string name="remixer_statusbar">"Stöðustika"</string>
+    <string name="remixer_qs">"Flýtistillingar"</string>
+    <string name="remixer_notifications">"Tilkynningar"</string>
+    <string name="remixer_theme">"Þema"</string>
+    <string name="remixer_lockscreen">"Lásskjár"</string>
+    <string name="remixer_navigation">Flakk</string>
+    <string name="remixer_misc">"Ýmislegt"</string>
+    <string name="misc_category_volume">"Hljóðstyrkur"</string>
+    <string name="misc_category_backup">"Öryggisafrit"</string>
+    <string name="misc_category_scrolling">"Fletting"</string>
+    <string name="remixer_fonts">"Leturgerðir"</string>
+    <string name="remixer_wallpapers">"Veggfóður"</string>
+    <string name="pulse_preview_title">Í afspilun</string>
+    <string name="pulse_style">"Stíll"</string>
+    <string name="pulse_color">"Litur"</string>
+    <string name="pulse_color_accent">"Veggfóður"</string>
+    <string name="pulse_look">"Útlit"</string>
+    <string name="pulse_lockscreen">"Sýna á lásskjá"</string>
+    <string name="accent_preview_button">"Hnappur"</string>
+    <string name="accent_custom_title">"Sérsniðinn litur"</string>
+    <string name="accent_custom_hue">"Litblær"</string>
+    <string name="accent_custom_recent">"Nýlegt"</string>
+    <string name="accent_custom_apply">"Nota"</string>
+    <string name="accent_shade_default">"Sjálfgefið"</string>
+    <string name="accent_saturation">"Mettun"</string>
+    <string name="remixer_qs_customize">"Sérsníða"</string>
+    <string name="remixer_qs_style_section">"Stíll"</string>
+    <string name="remixer_lock_media_off">"Slökkt"</string>
+    <string name="remixer_lock_preview_device">"Þessi sími"</string>
+    <string name="remixer_qs_preview_on">"Kveikt"</string>
+    <string name="remixer_qs_preview_off">"Slökkt"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>"Vasaljós"</item>
+        <item>"Ónáðið ekki"</item>
+        <item>"Sjálfvirkur snúningur"</item>
+        <item>"Dökkt þema"</item>
+        <item>"Heitur reitur"</item>
+        <item>"Flugstilling"</item>
+        <item>"Gagnasparnaður"</item>
+        <item>NFC</item>
+        <item>"Samstilla"</item>
+        <item>"Skanna QR-kóða"</item>
+    </string-array>
+    <string name="header_preview_none">"Engin mynd valin"</string>
+    <string name="header_source_image">"Mynd"</string>
+    <string name="header_source_photo">"Mynd"</string>
+    <string name="header_collections">"Söfn"</string>
+    <string name="header_images">"Myndir"</string>
+    <string name="header_photo_choose">"Veldu mynd"</string>
+    <string name="header_look">"Útlit"</string>
+    <string name="remixer_weather">"Veður"</string>
+    <string name="font_default">"Sjálfgefið"</string>
+    <string name="font_apply">"Nota"</string>
+    <string name="font_filter_all">"Allt"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Velja veggfóður"</string>
+    <string name="wallpaper_apply_home">"Heimaskjár"</string>
+    <string name="wallpaper_apply_lock">"Lásskjár"</string>
+    <string name="remixer_settings_style_original">"Upprunaleg"</string>
+    <string name="remixer_navbar_category">"Yfirlitsstika"</string>
+</resources>

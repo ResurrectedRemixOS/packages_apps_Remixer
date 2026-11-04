@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">Glaonna</string>
+    <string name="now_bar_live_apps_all">Gach aip</string>
+    <string name="now_bar_charging">Muirearú</string>
+    <string name="now_bar_flashlight">Tóirse</string>
+    <string name="now_bar_style">Stíl</string>
+    <string name="now_bar_color">Dath</string>
+    <string name="now_bar_outline">Imlíne</string>
+    <string name="now_bar_music_category">Ceol</string>
+    <string name="now_bar_buttons">Cnaipí</string>
+    <string name="now_bar_text">Téacs</string>
+    <string name="now_bar_text_size">Méid an téacs</string>
+</resources>

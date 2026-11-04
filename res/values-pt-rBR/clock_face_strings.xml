@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="clock_faces_apply">"Aplicar"</string>
+    <string name="clock_faces_color">"Cor"</string>
+    <string name="clock_faces_color_default">"Padrão"</string>
+    <string name="clock_faces_color_album">Arte do álbum</string>
+    <string name="clock_faces_size_position">Tamanho e posição</string>
+    <string name="clock_faces_size">"Tamanho"</string>
+    <string name="clock_faces_restart">"Reiniciar"</string>
+</resources>

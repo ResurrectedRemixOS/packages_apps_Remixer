@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_unofficial">Неофициальная</string>
+    <string name="rr_about_memory">"Память"</string>
+    <string name="rr_about_ram">"ОЗУ"</string>
+    <string name="rr_about_storage">"Хранилище"</string>
+    <string name="rr_about_battery">"Батарея"</string>
+    <string name="rr_about_kernel">"Ядро"</string>
+    <string name="rr_about_software">"Программное обеспечение"</string>
+    <string name="rr_about_updates">"Обновления"</string>
+    <string name="rr_about_security_patch">Обновления безопасности</string>
+    <string name="rr_about_build_date">Дата сборки</string>
+    <string name="rr_about_this_phone">"Этот телефон"</string>
+    <string name="rr_about_network">"Сеть"</string>
+    <string name="rr_about_hidden">Не показывать</string>
+</resources>

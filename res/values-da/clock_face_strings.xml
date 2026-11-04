@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="clock_faces_apply">"Anvend"</string>
+    <string name="clock_faces_color">"Farve"</string>
+    <string name="clock_faces_color_default">"Standard"</string>
+    <string name="clock_faces_size">"Størrelse"</string>
+    <string name="clock_faces_restart">"Genstart"</string>
+</resources>

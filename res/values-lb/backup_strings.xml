@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">Sécheren an erëmhierstellen</string>
+    <string name="backup_auto">Automatesch</string>
+    <string name="backup_group_theme">Design</string>
+    <string name="backup_group_notifications">Notifikatiounen</string>
+    <string name="backup_group_gestures">Gesten</string>
+    <string name="backup_group_other">Aner</string>
+    <string name="backup_done">Fäerdeg</string>
+</resources>

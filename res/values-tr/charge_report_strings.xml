@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="charge_report_keep_title">"Sakla"</string>
+    <string name="charge_report_battery">"Pil"</string>
+    <string name="charge_report_temp">"Sıcaklık"</string>
+    <string name="charge_report_time">"Saat"</string>
+    <string name="charge_report_wireless">Kablosuz</string>
+</resources>

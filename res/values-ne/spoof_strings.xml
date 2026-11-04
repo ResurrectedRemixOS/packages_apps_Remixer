@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"मेटाउनुहोस्"</string>
+    <string name="action_reset">"रिसेट गर्नुहोस्"</string>
+    <string name="action_search_apps">"एपहरू खोज्नुहोस्"</string>
+    <string name="action_select_all">"सबैलाई चयन गर्नुहोस्"</string>
+    <string name="app_spoofing_clear_all">"सबै हटाउनुहोस्"</string>
+    <string name="app_spoofing_disabled">"अफ गरिएको छ"</string>
+    <string name="common_clear_search">"खोजी सफा गर्नुहोस्"</string>
+    <string name="custom_spoof_profile_brand">"ब्रान्ड"</string>
+    <string name="custom_spoof_profile_device">"डिभाइस"</string>
+    <string name="custom_spoof_profile_manufacturer">"उत्पादक"</string>
+    <string name="custom_spoof_profile_model">"मोडेल"</string>
+    <string name="hide_system_apps">"प्रणालीका एप लुकाउनुहोस्"</string>
+    <string name="pif_recommended_suffix">"सिफारिस गरिएको"</string>
+    <string name="pif_status">"स्थिति"</string>
+    <string name="pif_wipe_confirm">"डेटा हटाउनुहोस्"</string>
+    <string name="show_system_apps">"प्रणालीका एपहरू देखाउनुहोस्"</string>
+    <string name="spoofing_reset_defaults_confirm">"रिसेट गर्नुहोस्"</string>
+    <string name="ts_mode_auto">"स्वतः"</string>
+    <string name="ts_untrusted_root_keep">"राख्नुहोस्"</string>
+    <string name="ts_untrusted_root_replace">"प्रतिस्थापन गर्नुहोस्"</string>
+    <string name="ts_verification_mode_auto">"स्वतः"</string>
+</resources>

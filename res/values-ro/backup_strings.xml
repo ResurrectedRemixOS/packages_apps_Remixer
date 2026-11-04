@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"Backup și restabilire"</string>
+    <string name="backup_restore">"Restabilește"</string>
+    <string name="backup_auto">"Automat"</string>
+    <string name="backup_group_status_bar">"Bară de stare"</string>
+    <string name="backup_group_lock_screen">"Ecran de blocare"</string>
+    <string name="backup_group_theme">"Temă"</string>
+    <string name="backup_group_qs">"Setări rapide"</string>
+    <string name="backup_group_notifications">"Notificări"</string>
+    <string name="backup_group_gestures">Gesturi</string>
+    <string name="backup_group_other">"Altele"</string>
+    <string name="backup_done">"Gata"</string>
+</resources>

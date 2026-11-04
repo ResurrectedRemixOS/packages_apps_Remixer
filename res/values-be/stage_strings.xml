@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lock_stage_reset">"Скінуць"</string>
+    <string name="lock_stage_save">"Захаваць"</string>
+    <string name="stage_tile_clock">"Гадзіннік"</string>
+    <string name="stage_tile_weather">"Надвор’е"</string>
+    <string name="stage_tile_shortcuts">"Ярлыкі"</string>
+</resources>

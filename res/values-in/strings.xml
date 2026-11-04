@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Akun"</string>
+    <string name="rr_homepage_storage">"Penyimpanan"</string>
+    <string name="rr_homepage_battery">"Baterai"</string>
+    <string name="rr_homepage_connections">"Koneksi"</string>
+    <string name="rr_homepage_device">"Perangkat"</string>
+    <string name="rr_homepage_privacy">Privasi &amp; keamanan</string>
+    <string name="rr_homepage_help">"Bantuan"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"Ponsel"</string>
+    <string name="rr_live_offline">"Offline"</string>
+    <string name="rr_live_on">"Aktif"</string>
+    <string name="rr_live_off">"Nonaktif"</string>
+    <string name="rr_homepage_charging">"Mengisi daya"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_homepage_mobile_data">"Data seluler"</string>
+    <string name="rr_homepage_not_connected">"Tidak terhubung"</string>
+    <string name="rr_homepage_dark_theme">"Tema gelap"</string>
+    <string name="rr_homepage_on">"Aktif"</string>
+    <string name="rr_homepage_off">"Nonaktif"</string>
+    <string name="rr_homepage_signed_in">"Sudah login"</string>
+    <string name="rr_homepage_device_word">"SETELAN"</string>
+    <string name="rr_group_apps">"Aplikasi &amp; notifikasi"</string>
+    <string name="rr_group_security">"Keamanan &amp; privasi"</string>
+    <string name="rr_group_accounts_plain">"Akun"</string>
+    <string name="rr_group_accessibility_summary">"Tampilan, interaksi, audio"</string>
+    <string name="remixer_statusbar">"Bilah status"</string>
+    <string name="remixer_qs">"Setelan cepat"</string>
+    <string name="remixer_notifications">"Notifikasi"</string>
+    <string name="remixer_theme">"Tema"</string>
+    <string name="remixer_lockscreen">"Layar kunci"</string>
+    <string name="remixer_udfps_icon">Ikon Sidik Jari Dalam Layar</string>
+    <string name="remixer_udfps_animation">Animasi Sidik Jari</string>
+    <string name="remixer_navigation">Navigasi</string>
+    <string name="remixer_misc">"Lain-lain"</string>
+    <string name="misc_category_backup">"Pencadangan"</string>
+    <string name="misc_category_scrolling">"Scroll"</string>
+    <string name="remixer_fonts">"Font"</string>
+    <string name="remixer_wallpapers">"Wallpaper"</string>
+    <string name="remixer_accents_summary">Warna aksen</string>
+    <string name="pulse_preview_title">"Sedang diputar"</string>
+    <string name="pulse_style">"Gaya"</string>
+    <string name="pulse_color">"Warna"</string>
+    <string name="pulse_look">"Tampilan"</string>
+    <string name="pulse_lockscreen">"Tampilkan di layar kunci"</string>
+    <string name="accent_preview_button">"Tombol"</string>
+    <string name="accent_custom_title">"Warna khusus"</string>
+    <string name="accent_custom_hue">"Rona"</string>
+    <string name="accent_custom_recent">"Terbaru"</string>
+    <string name="accent_custom_apply">"Terapkan"</string>
+    <string name="accent_saturation">"Saturasi"</string>
+    <string name="remixer_qs_customize">"Sesuaikan"</string>
+    <string name="remixer_qs_style_section">"Gaya"</string>
+    <string name="remixer_lock_media_off">"Nonaktif"</string>
+    <string name="remixer_lock_preview_device">"Ponsel ini"</string>
+    <string name="remixer_qs_preview_on">"Aktif"</string>
+    <string name="remixer_qs_preview_off">"Nonaktif"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>Senter</item>
+        <item>"Jangan Ganggu"</item>
+        <item>"Putar otomatis"</item>
+        <item>"Tema gelap"</item>
+        <item>"Hotspot"</item>
+        <item>"Mode pesawat"</item>
+        <item>"Penghemat Data"</item>
+        <item>NFC</item>
+        <item>"Sinkron"</item>
+        <item>"Pindai kode QR"</item>
+    </string-array>
+    <string name="remixer_headers_summary">Pilih gambar latar belakang untuk setelan cepat</string>
+    <string name="header_preview_none">"Tidak ada gambar yang dipilih"</string>
+    <string name="header_source_image">"Gambar"</string>
+    <string name="header_source_photo">"Foto"</string>
+    <string name="header_collections">"Koleksi"</string>
+    <string name="header_images">"Gambar"</string>
+    <string name="header_photo_choose">"Pilih foto"</string>
+    <string name="header_look">"Tampilan"</string>
+    <string name="remixer_weather">"Cuaca"</string>
+    <string name="font_apply">"Terapkan"</string>
+    <string name="font_filter_all">"Semua"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Setel wallpaper"</string>
+    <string name="wallpaper_apply_home">"Layar utama"</string>
+    <string name="wallpaper_apply_lock">"Layar kunci"</string>
+    <string name="remixer_settings_style">Gaya setelan</string>
+    <string name="remixer_settings_style_original">"Asli"</string>
+    <string name="remixer_navbar_category">"Menu navigasi"</string>
+</resources>

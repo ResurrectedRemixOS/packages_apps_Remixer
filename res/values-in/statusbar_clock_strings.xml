@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sb_clock_bold_title">Tebalkan jam</string>
+    <string name="sb_clock_period_separator_title">Pemisah periode</string>
+    <string name="sb_clock_date_title">"Tanggal"</string>
+    <string name="sb_clock_date_position_title">Posisi tanggal</string>
+    <string name="sb_clock_date_format_title">Format tanggal</string>
+    <string name="sb_clock_chip_angle_title">Sudut gradien</string>
+    <string name="sb_weather_category">"Cuaca"</string>
+    <string name="sb_weather_position_title">Posisi</string>
+</resources>

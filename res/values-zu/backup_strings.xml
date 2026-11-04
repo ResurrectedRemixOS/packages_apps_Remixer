@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"Isipele ukubuyiselwa"</string>
+    <string name="backup_restore">"Buyisela"</string>
+    <string name="backup_auto">"Okuzenzakalelayo"</string>
+    <string name="backup_group_status_bar">"Ibha yesimo"</string>
+    <string name="backup_group_lock_screen">"Khiya isikrini"</string>
+    <string name="backup_group_theme">"Itimu"</string>
+    <string name="backup_group_qs">"Izilungiselelo ezisheshayo"</string>
+    <string name="backup_group_notifications">"Izaziso"</string>
+    <string name="backup_group_gestures">"Ukuthinta"</string>
+    <string name="backup_group_other">"Okunye"</string>
+    <string name="backup_done">"Kwenziwe"</string>
+</resources>

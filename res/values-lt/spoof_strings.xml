@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Ištrinti"</string>
+    <string name="action_reset">"Nustatyti iš naujo"</string>
+    <string name="action_search_apps">"Paieškos programos"</string>
+    <string name="action_select_all">"Pasirinkti viską"</string>
+    <string name="app_spoofing_clear_all">"Išvalyti viską"</string>
+    <string name="app_spoofing_disabled">"Išjungta"</string>
+    <string name="common_clear_search">"Išvalyti paiešką"</string>
+    <string name="custom_spoof_profile_brand">"Prekės ženklas"</string>
+    <string name="custom_spoof_profile_device">"Įrenginys"</string>
+    <string name="custom_spoof_profile_manufacturer">"Gamintojas"</string>
+    <string name="custom_spoof_profile_model">"Modelis"</string>
+    <string name="hide_system_apps">"Slėpti sistemos programas"</string>
+    <string name="pif_recommended_suffix">"Rekomenduojama"</string>
+    <string name="pif_status">"Būsena"</string>
+    <string name="pif_wipe_confirm">"Išvalyti duomenis"</string>
+    <string name="show_system_apps">"Rodyti sistemos programas"</string>
+    <string name="spoofing_reset_defaults_confirm">"Nustatyti iš naujo"</string>
+    <string name="ts_mode_auto">"Automatiškai"</string>
+    <string name="ts_untrusted_root_keep">"Palikti"</string>
+    <string name="ts_untrusted_root_replace">"Pakeisti"</string>
+    <string name="ts_verification_mode_auto">"Automatiškai"</string>
+</resources>

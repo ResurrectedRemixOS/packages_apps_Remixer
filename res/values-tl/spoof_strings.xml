@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"I-delete"</string>
+    <string name="action_reset">"I-reset"</string>
+    <string name="action_search_apps">"Maghanap ng mga app"</string>
+    <string name="action_select_all">"Piliin lahat"</string>
+    <string name="app_spoofing_clear_all">"I-clear lahat"</string>
+    <string name="app_spoofing_disabled">"Naka-disable"</string>
+    <string name="common_clear_search">"I-clear ang paghahanap"</string>
+    <string name="custom_spoof_profile_model">"Modelo"</string>
+    <string name="hide_system_apps">"Itago ang mga app ng system"</string>
+    <string name="pif_recommended_suffix">"Inirerekomenda"</string>
+    <string name="pif_status">"Status"</string>
+    <string name="pif_wipe_confirm">"I-clear ang data"</string>
+    <string name="show_system_apps">"Ipakita ang mga system app"</string>
+    <string name="spoofing_reset_defaults_confirm">"I-reset"</string>
+    <string name="ts_untrusted_root_keep">"Panatilihin"</string>
+    <string name="ts_untrusted_root_replace">"Palitan"</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"Dreceres"</string>
+    <string name="quick_launch_camera">"Càmera"</string>
+    <string name="quick_launch_flashlight">Llanterna</string>
+    <string name="quick_launch_timer">Temporitzador</string>
+    <string name="quick_launch_undo">"Desfés"</string>
+    <string name="quick_launch_off">"Desactivat"</string>
+</resources>

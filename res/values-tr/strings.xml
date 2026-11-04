@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Hesap"</string>
+    <string name="rr_homepage_storage">"Depolama"</string>
+    <string name="rr_homepage_battery">"Pil"</string>
+    <string name="rr_homepage_connections">"Bağlantılar"</string>
+    <string name="rr_homepage_device">"Cihaz"</string>
+    <string name="rr_homepage_privacy">Gizlilik &amp; güvenlik</string>
+    <string name="rr_homepage_help">"Yardım"</string>
+    <string name="rr_live_wifi">"Kablosuz"</string>
+    <string name="rr_live_mobile">"Mobil"</string>
+    <string name="rr_live_offline">"Çevrimdışı"</string>
+    <string name="rr_live_on">"Açık"</string>
+    <string name="rr_live_off">"Kapalı"</string>
+    <string name="rr_homepage_charging">"Şarj oluyor"</string>
+    <string name="rr_homepage_internet">"İnternet"</string>
+    <string name="rr_homepage_mobile_data">"Mobil veri"</string>
+    <string name="rr_homepage_not_connected">"Bağlı değil"</string>
+    <string name="rr_homepage_dark_theme">"Koyu tema"</string>
+    <string name="rr_homepage_on">"Açık"</string>
+    <string name="rr_homepage_off">"Kapalı"</string>
+    <string name="rr_homepage_signed_in">"Oturum açıldı"</string>
+    <string name="rr_homepage_device_word">"AYARLAR"</string>
+    <string name="rr_group_apps">"Uygulamalar ve bildirimler"</string>
+    <string name="rr_group_security">"Güvenlik ve gizlilik"</string>
+    <string name="rr_group_accounts_plain">"Hesaplar"</string>
+    <string name="rr_group_accessibility_summary">"Ekran, etkileşim, ses"</string>
+    <string name="remixer_statusbar">"Durum çubuğu"</string>
+    <string name="remixer_qs">"Hızlı Ayarlar"</string>
+    <string name="remixer_notifications">"Bildirimler"</string>
+    <string name="remixer_theme">"Tema"</string>
+    <string name="remixer_lockscreen">"Kilit ekranı"</string>
+    <string name="remixer_udfps_icon">UDFPS simgesi</string>
+    <string name="remixer_udfps_animation">Parmak izi animasyonu</string>
+    <string name="remixer_navigation">Gezinme</string>
+    <string name="remixer_misc">"Çeşitli"</string>
+    <string name="misc_category_volume">"Ses"</string>
+    <string name="misc_category_backup">"Yedekle"</string>
+    <string name="misc_category_scrolling">"Kaydırma"</string>
+    <string name="remixer_fonts">"Yazı Tipleri"</string>
+    <string name="remixer_wallpapers">"Duvar kağıtları"</string>
+    <string name="remixer_accents_summary">Vurgu rengi</string>
+    <string name="pulse_preview_title">"Şimdi yürütülüyor"</string>
+    <string name="pulse_style">"Stil"</string>
+    <string name="pulse_color">"Renk"</string>
+    <string name="pulse_color_accent">"Duvar kağıdı"</string>
+    <string name="pulse_look">"Görünüm"</string>
+    <string name="pulse_lockscreen">"Kilit ekranında göster"</string>
+    <string name="accent_preview_button">"Düğme"</string>
+    <string name="accent_custom_title">"Özel renk"</string>
+    <string name="accent_custom_recent">"En Son Görevler"</string>
+    <string name="accent_custom_apply">"Uygula"</string>
+    <string name="accent_shade_default">"Varsayılan"</string>
+    <string name="accent_saturation">"Doygunluk"</string>
+    <string name="remixer_qs_customize">"Özelleştir"</string>
+    <string name="remixer_qs_style_section">"Stil"</string>
+    <string name="remixer_lock_media_off">"Kapalı"</string>
+    <string name="remixer_lock_preview_device">"Bu telefon"</string>
+    <string name="remixer_qs_preview_on">"Açık"</string>
+    <string name="remixer_qs_preview_off">"Kapalı"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"İnternet"</item>
+        <item>Bluetooth</item>
+        <item>El feneri</item>
+        <item>"Rahatsız Etmeyin"</item>
+        <item>"Otomatik döndür"</item>
+        <item>"Koyu tema"</item>
+        <item>"Hotspot"</item>
+        <item>"Uçak modu"</item>
+        <item>"Veri Tasarrufu"</item>
+        <item>NFC</item>
+        <item>"Senk."</item>
+        <item>"QR kodunu tara"</item>
+    </string-array>
+    <string name="remixer_headers_summary">Hızlı ayarlar arka plan başlık resmi seç</string>
+    <string name="header_preview_none">"Resim seçilmedi"</string>
+    <string name="header_source_image">"Resim"</string>
+    <string name="header_source_photo">"Fotoğraf"</string>
+    <string name="header_collections">"Koleksiyonlar"</string>
+    <string name="header_images">"Resimler"</string>
+    <string name="header_photo_choose">"Fotoğraf seçin"</string>
+    <string name="header_look">"Görünüm"</string>
+    <string name="remixer_weather">Hava durumu</string>
+    <string name="font_default">"Varsayılan"</string>
+    <string name="font_apply">"Uygula"</string>
+    <string name="font_filter_all">"Tümü"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Duvar kağıdını ayarla"</string>
+    <string name="wallpaper_apply_home">"Ana ekran"</string>
+    <string name="wallpaper_apply_lock">"Kilit ekranı"</string>
+    <string name="remixer_settings_style">Ayarlar stili</string>
+    <string name="remixer_settings_style_original">"Orijinal"</string>
+    <string name="remixer_navbar_category">"Gezinme çubuğu"</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Llamadas"</string>
+    <string name="now_bar_scores">Marcadores en vivo</string>
+    <string name="now_bar_live_apps_all">"Todas las aplicaciones"</string>
+    <string name="now_bar_charging">"Cargando"</string>
+    <string name="now_bar_flashlight">Linterna</string>
+    <string name="now_bar_aod">Mostrar en Pantalla siempre activa</string>
+    <string name="now_bar_style">"Estilo"</string>
+    <string name="now_bar_outline">"Contorno"</string>
+    <string name="now_bar_width">"Ancho"</string>
+    <string name="now_bar_music_category">"Música"</string>
+    <string name="now_bar_art">Portada del álbum</string>
+    <string-array name="now_bar_art_entries">
+        <item>"Círculo"</item>
+        <item>Redondeado</item>
+        <item>"Cuadrado"</item>
+        <item>"Desactivado"</item>
+    </string-array>
+    <string name="now_bar_buttons">Botones</string>
+    <string name="now_bar_text">Texto</string>
+    <string name="now_bar_text_size">"Tamaño de la letra"</string>
+</resources>

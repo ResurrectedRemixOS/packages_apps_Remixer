@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"គណនី"</string>
+    <string name="rr_homepage_storage">"ទំហំផ្ទុក"</string>
+    <string name="rr_homepage_battery">"ថ្ម"</string>
+    <string name="rr_homepage_connections">"ការ​តភ្ជាប់"</string>
+    <string name="rr_homepage_device">"ឧបករណ៍"</string>
+    <string name="rr_homepage_help">"ជំនួយ"</string>
+    <string name="rr_live_wifi">"Wi‑Fi"</string>
+    <string name="rr_live_mobile">"ទូរសព្ទ​ចល័ត"</string>
+    <string name="rr_live_offline">"គ្មានអ៊ីនធឺណិត"</string>
+    <string name="rr_live_on">"បើក"</string>
+    <string name="rr_live_off">"បិទ"</string>
+    <string name="rr_homepage_charging">"កំពុងសាកថ្ម"</string>
+    <string name="rr_homepage_internet">"អ៊ីនធឺណិត"</string>
+    <string name="rr_homepage_mobile_data">"ទិន្នន័យ​ទូរសព្ទចល័ត"</string>
+    <string name="rr_homepage_not_connected">"មិន​បាន​ភ្ជាប់"</string>
+    <string name="rr_homepage_dark_theme">"ទម្រង់រចនាងងឹត"</string>
+    <string name="rr_homepage_on">"បើក"</string>
+    <string name="rr_homepage_off">"បិទ"</string>
+    <string name="rr_homepage_signed_in">"បានចូលគណនី"</string>
+    <string name="rr_homepage_device_word">"ការកំណត់"</string>
+    <string name="rr_group_apps">"កម្មវិធី និងការជូនដំណឹង"</string>
+    <string name="rr_group_security">"សន្តិសុខ និងឯកជនភាព"</string>
+    <string name="rr_group_accounts_plain">"គណនី"</string>
+    <string name="rr_group_accessibility_summary">"ផ្ទាំងអេក្រង់ អន្តរកម្ម សំឡេង"</string>
+    <string name="remixer_statusbar">"របារស្ថានភាព"</string>
+    <string name="remixer_qs">"ការកំណត់​រហ័ស"</string>
+    <string name="remixer_notifications">"ការ​ជូនដំណឹង"</string>
+    <string name="remixer_theme">"ទម្រង់រចនា"</string>
+    <string name="remixer_lockscreen">"អេក្រង់ចាក់សោ"</string>
+    <string name="remixer_misc">"ផ្សេងៗ"</string>
+    <string name="misc_category_volume">"កម្រិតសំឡេង"</string>
+    <string name="misc_category_backup">"បម្រុង​ទុក"</string>
+    <string name="misc_category_scrolling">"ការរំកិល"</string>
+    <string name="remixer_fonts">"ពុម្ពអក្សរ"</string>
+    <string name="remixer_wallpapers">"ផ្ទាំង​រូបភាព"</string>
+    <string name="pulse_style">"រចនាប័ទ្ម"</string>
+    <string name="pulse_color">"ពណ៌"</string>
+    <string name="pulse_color_accent">"ផ្ទាំង​រូបភាព"</string>
+    <string name="pulse_look">"រូបរាង"</string>
+    <string name="pulse_lockscreen">"បង្ហាញ​នៅលើ​អេក្រង់ចាក់សោ"</string>
+    <string name="accent_preview_button">"ប៊ូតុង"</string>
+    <string name="accent_custom_title">"ពណ៌​ផ្ទាល់ខ្លួន"</string>
+    <string name="accent_custom_hue">"ពណ៌​លាំៗ"</string>
+    <string name="accent_custom_recent">"ថ្មីៗ"</string>
+    <string name="accent_custom_apply">"ដាក់ប្រើ"</string>
+    <string name="accent_shade_default">"លំនាំដើម"</string>
+    <string name="accent_saturation">"តិត្ថិភាព"</string>
+    <string name="remixer_qs_customize">"ប្ដូរតាមបំណង"</string>
+    <string name="remixer_qs_style_section">"រចនាប័ទ្ម"</string>
+    <string name="remixer_lock_media_off">"បិទ"</string>
+    <string name="remixer_lock_preview_device">"ទូរសព្ទនេះ"</string>
+    <string name="remixer_qs_preview_on">"បើក"</string>
+    <string name="remixer_qs_preview_off">"បិទ"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"អ៊ីនធឺណិត"</item>
+        <item>Bluetooth</item>
+        <item>"ពិល"</item>
+        <item>"កុំ​រំខាន"</item>
+        <item>"បង្វិល​ស្វ័យ​ប្រវត្តិ"</item>
+        <item>"ទម្រង់រចនាងងឹត"</item>
+        <item>"ហតស្ប៉ត"</item>
+        <item>"ពេល​ជិះ​យន្តហោះ"</item>
+        <item>"មុខងារសន្សំសំចៃទិន្នន័យ"</item>
+        <item>NFC</item>
+        <item>"ធ្វើ​សម​កាល​កម្ម"</item>
+        <item>"ស្កេន​កូដ QR"</item>
+    </string-array>
+    <string name="header_preview_none">"គ្មាន​រូបភាពដែល​បាន​ជ្រើសរើសទេ"</string>
+    <string name="header_source_image">"រូបភាព"</string>
+    <string name="header_source_photo">"រូបថត"</string>
+    <string name="header_collections">"បណ្ដុំ"</string>
+    <string name="header_images">"រូបភាព"</string>
+    <string name="header_photo_choose">"ជ្រើសរើស​រូបថត"</string>
+    <string name="header_look">"រូបរាង"</string>
+    <string name="remixer_weather">"អាកាសធាតុ"</string>
+    <string name="font_default">"លំនាំដើម"</string>
+    <string name="font_apply">"ដាក់ប្រើ"</string>
+    <string name="font_filter_all">"ទាំង​អស់"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"កំណត់​ផ្ទាំង​រូបភាព"</string>
+    <string name="wallpaper_apply_home">"អេក្រង់ដើម"</string>
+    <string name="wallpaper_apply_lock">"អេក្រង់ចាក់សោ"</string>
+    <string name="remixer_settings_style_original">"ដើម"</string>
+    <string name="remixer_navbar_category">"របាររុករក"</string>
+</resources>

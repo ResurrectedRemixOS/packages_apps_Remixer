@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Дзвінки"</string>
+    <string name="now_bar_scores">Результати в реальному часі</string>
+    <string name="now_bar_live_apps_all">"Усі додатки"</string>
+    <string name="now_bar_charging">"Заряджається"</string>
+    <string name="now_bar_flashlight">Ліхтарик</string>
+    <string name="now_bar_aod">Показувати на завжди ввімкненому дисплеї</string>
+    <string name="now_bar_style">"Стиль"</string>
+    <string name="now_bar_color">"Колір"</string>
+    <string name="now_bar_outline">"Контур"</string>
+    <string name="now_bar_width">"Ширина"</string>
+    <string name="now_bar_music_category">"Музика"</string>
+    <string name="now_bar_art">Обкладинка альбому</string>
+    <string name="now_bar_buttons">Кнопки</string>
+    <string name="now_bar_text">Текст</string>
+    <string name="now_bar_text_size">"Розмір тексту"</string>
+</resources>

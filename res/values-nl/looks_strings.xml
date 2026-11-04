@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Opslaan"</string>
+    <string name="looks_import">"Importeren"</string>
+    <string name="looks_name">"Naam"</string>
+    <string name="looks_apply">"Toepassen"</string>
+    <string name="looks_share">"Delen"</string>
+    <string name="looks_delete">"Verwijderen"</string>
+    <string name="looks_part_font">"Lettertype"</string>
+    <string name="looks_part_wallpaper">"Achtergrond"</string>
+    <string name="looks_color_default">"Standaard"</string>
+    <string name="looks_create">"Aan­maken"</string>
+    <string name="looks_edit">"Bewerken"</string>
+    <string name="looks_customize">"Aanpassen"</string>
+    <string name="looks_save_look">"Opslaan"</string>
+    <string name="looks_custom_color">"Aangepaste kleur"</string>
+    <string name="looks_part_clock_color">"Kleur van klok"</string>
+</resources>

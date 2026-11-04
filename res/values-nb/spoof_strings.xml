@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Slett"</string>
+    <string name="action_reset">"Tilbakestill"</string>
+    <string name="action_search_apps">"Søk etter apper"</string>
+    <string name="action_select_all">"Velg alle"</string>
+    <string name="app_spoofing_clear_all">"Fjern alt"</string>
+    <string name="app_spoofing_disabled">"Slått av"</string>
+    <string name="common_clear_search">"Slett søk"</string>
+    <string name="custom_spoof_profile_brand">"Merke"</string>
+    <string name="custom_spoof_profile_device">"Enhet"</string>
+    <string name="custom_spoof_profile_manufacturer">"Produsent"</string>
+    <string name="custom_spoof_profile_model">"Modell"</string>
+    <string name="hide_system_apps">"Skjul systemapper"</string>
+    <string name="pif_recommended_suffix">"Anbefalt"</string>
+    <string name="pif_status">"Status"</string>
+    <string name="pif_wipe_confirm">"Slett data"</string>
+    <string name="show_system_apps">"Vis systemapper"</string>
+    <string name="spoofing_reset_defaults_confirm">"Tilbakestill"</string>
+    <string name="ts_untrusted_root_keep">"Behold"</string>
+    <string name="ts_untrusted_root_replace">"Erstatt"</string>
+</resources>

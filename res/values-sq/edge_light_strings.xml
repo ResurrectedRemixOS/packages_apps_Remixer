@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Ngjyra"</string>
+    <string name="edge_light_color_wallpaper">"Ngjyra e imazhit të sfondit"</string>
+    <string name="edge_light_custom_color_title">"Ngjyra e personalizuar"</string>
+    <string name="edge_light_style_title">"Stili"</string>
+    <string name="edge_light_moment_notifications">"Njoftimet"</string>
+    <string name="edge_light_moment_calls">"Telefonatat hyrëse"</string>
+    <string name="edge_light_moment_battery_low">Bateria e ulët</string>
+    <string name="edge_light_moment_unlock">"Shkyçur"</string>
+    <string name="remixer_color_default">"E parazgjedhur"</string>
+</resources>

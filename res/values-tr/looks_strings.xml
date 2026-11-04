@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Kaydet"</string>
+    <string name="looks_import">"İçe aktar"</string>
+    <string name="looks_name">"Ad"</string>
+    <string name="looks_apply">"Uygula"</string>
+    <string name="looks_share">"Paylaş"</string>
+    <string name="looks_delete">"Sil"</string>
+    <string name="looks_part_accent">Vurgu rengi</string>
+    <string name="looks_part_font">"Yazı tipi"</string>
+    <string name="looks_part_wallpaper">"Duvar kağıdı"</string>
+    <string name="looks_part_boot">Açılış animasyonu</string>
+    <string name="looks_color_default">"Varsayılan"</string>
+    <string name="looks_create">"Oluştur"</string>
+    <string name="looks_edit">"Düzenle"</string>
+    <string name="looks_customize">"Özelleştir"</string>
+    <string name="looks_save_look">"Kaydet"</string>
+    <string name="looks_custom_color">"Özel renk"</string>
+    <string name="looks_part_clock_color">"Saat rengi"</string>
+</resources>

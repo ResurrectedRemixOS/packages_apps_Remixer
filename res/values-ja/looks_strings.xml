@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"保存"</string>
+    <string name="looks_import">"インポート"</string>
+    <string name="looks_name">"名前"</string>
+    <string name="looks_apply">"適用"</string>
+    <string name="looks_share">"共有"</string>
+    <string name="looks_delete">"削除"</string>
+    <string name="looks_part_accent">アクセントカラー</string>
+    <string name="looks_part_font">"フォント"</string>
+    <string name="looks_part_wallpaper">"壁紙"</string>
+    <string name="looks_part_boot">起動アニメーション</string>
+    <string name="looks_color_default">"デフォルト"</string>
+    <string name="looks_create">"作成"</string>
+    <string name="looks_edit">"編集"</string>
+    <string name="looks_customize">"カスタマイズ"</string>
+    <string name="looks_save_look">"保存"</string>
+    <string name="looks_custom_color">"カスタム色"</string>
+    <string name="looks_part_clock_color">"時計の色"</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"Saglabāt"</string>
+    <string name="haptic_remix_delete_button">"Dzēst"</string>
+    <string name="haptic_remix_default">"Noklusējums"</string>
+    <string name="haptic_remix_calls">"Zvani"</string>
+    <string name="haptic_remix_color_violet">"Violeta"</string>
+    <string name="haptic_remix_color_blue">"Zila"</string>
+    <string name="haptic_remix_color_green">"Zaļa"</string>
+    <string name="haptic_remix_color_white">"Balta"</string>
+</resources>

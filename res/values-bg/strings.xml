@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Профил"</string>
+    <string name="rr_homepage_storage">"Хранилище"</string>
+    <string name="rr_homepage_battery">"Батерия"</string>
+    <string name="rr_homepage_connections">"Връзки"</string>
+    <string name="rr_homepage_device">"Устройство"</string>
+    <string name="rr_homepage_privacy">Поверителност и сигурност</string>
+    <string name="rr_homepage_help">"Помощ"</string>
+    <string name="rr_live_wifi">"Wi‑Fi"</string>
+    <string name="rr_live_mobile">"Мобилен"</string>
+    <string name="rr_live_offline">"Офлайн"</string>
+    <string name="rr_live_on">"Вкл."</string>
+    <string name="rr_live_off">"Изкл."</string>
+    <string name="rr_homepage_charging">"Зареждане"</string>
+    <string name="rr_homepage_internet">"Интернет"</string>
+    <string name="rr_homepage_mobile_data">"Мобилни данни"</string>
+    <string name="rr_homepage_not_connected">"Няма връзка"</string>
+    <string name="rr_homepage_dark_theme">"Тъмна тема"</string>
+    <string name="rr_homepage_on">"Вкл."</string>
+    <string name="rr_homepage_off">"Изкл."</string>
+    <string name="rr_homepage_signed_in">"Влязохте в профила"</string>
+    <string name="rr_homepage_device_word">"НАСТРОЙКИ"</string>
+    <string name="rr_group_apps">"Приложения и известия"</string>
+    <string name="rr_group_security">"Сигурност и поверителност"</string>
+    <string name="rr_group_accounts_plain">"Профили"</string>
+    <string name="rr_group_accessibility_summary">"Дисплей, взаимодействие, аудио"</string>
+    <string name="remixer_statusbar">"Лента на състоянието"</string>
+    <string name="remixer_qs">"Бързи настройки"</string>
+    <string name="remixer_notifications">"Известия"</string>
+    <string name="remixer_theme">"Тема"</string>
+    <string name="remixer_lockscreen">"Заключен екран"</string>
+    <string name="remixer_navigation">Ориентиране</string>
+    <string name="remixer_misc">"Други"</string>
+    <string name="misc_category_volume">"Сила на звука"</string>
+    <string name="misc_category_backup">"Резервно копие"</string>
+    <string name="misc_category_scrolling">"Превъртане"</string>
+    <string name="remixer_fonts">"Шрифтове"</string>
+    <string name="remixer_wallpapers">"Тапети"</string>
+    <string name="remixer_accents_summary">Цвят на акцента</string>
+    <string name="pulse_preview_title">"Възпроизвежда се сега"</string>
+    <string name="pulse_style">"Стил"</string>
+    <string name="pulse_color">"Цвят"</string>
+    <string name="pulse_color_accent">"Тапет"</string>
+    <string name="pulse_look">"Облик"</string>
+    <string name="pulse_lockscreen">"Показване на заключения екран"</string>
+    <string name="accent_preview_button">"Бутон"</string>
+    <string name="accent_custom_title">"Персонализиран цвят"</string>
+    <string name="accent_custom_hue">"Нюанс"</string>
+    <string name="accent_custom_recent">"Скорошни"</string>
+    <string name="accent_custom_apply">"Прилагане"</string>
+    <string name="accent_shade_default">"По подразбиране"</string>
+    <string name="accent_saturation">"Насищане"</string>
+    <string name="remixer_qs_customize">"Персонализиране"</string>
+    <string name="remixer_qs_style_section">"Стил"</string>
+    <string name="remixer_lock_media_off">"Изкл."</string>
+    <string name="remixer_lock_preview_device">"Този телефон"</string>
+    <string name="remixer_qs_preview_on">"Вкл."</string>
+    <string name="remixer_qs_preview_off">"Изкл."</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Интернет"</item>
+        <item>Bluetooth</item>
+        <item>Фенерче</item>
+        <item>"Не безпокойте"</item>
+        <item>"Авт. ориентация"</item>
+        <item>"Тъмна тема"</item>
+        <item>"Точка за достъп"</item>
+        <item>"Самолетен режим"</item>
+        <item>"Икономия на данни"</item>
+        <item>NFC</item>
+        <item>"Синхронизиране"</item>
+        <item>"Сканиране на QR код"</item>
+    </string-array>
+    <string name="header_preview_none">"Няма избрано изображение"</string>
+    <string name="header_source_image">"Изображение"</string>
+    <string name="header_source_photo">"Снимка"</string>
+    <string name="header_collections">"Колекции"</string>
+    <string name="header_images">"Изображения"</string>
+    <string name="header_photo_choose">"Избиране на снимка"</string>
+    <string name="header_look">"Облик"</string>
+    <string name="remixer_weather">"Времето"</string>
+    <string name="font_default">"По подразбиране"</string>
+    <string name="font_apply">"Прилагане"</string>
+    <string name="font_filter_all">"Всички"</string>
+    <string name="font_filter_serif">"Серифни"</string>
+    <string name="wallpaper_apply_title">"Задаване на тапет"</string>
+    <string name="wallpaper_apply_home">"Начален екран"</string>
+    <string name="wallpaper_apply_lock">"Заключен екран"</string>
+    <string name="remixer_settings_style_original">"Оригинал"</string>
+    <string name="remixer_navbar_category">"Лента за навигация"</string>
+</resources>

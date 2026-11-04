@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Захаваць"</string>
+    <string name="looks_import">"Імпартаваць"</string>
+    <string name="looks_name">"Назва"</string>
+    <string name="looks_apply">"Прымяніць"</string>
+    <string name="looks_share">"Абагуліць"</string>
+    <string name="looks_delete">"Выдаліць"</string>
+    <string name="looks_part_accent">Асноўны колер</string>
+    <string name="looks_part_font">"Шрыфт"</string>
+    <string name="looks_part_wallpaper">"Шпалеры"</string>
+    <string name="looks_color_default">"Стандартна"</string>
+    <string name="looks_create">"Стварыць"</string>
+    <string name="looks_edit">"Змяніць"</string>
+    <string name="looks_customize">"Наладзіць"</string>
+    <string name="looks_save_look">"Захаваць"</string>
+    <string name="looks_custom_color">"Карыстальніцкі колер"</string>
+    <string name="looks_part_clock_color">"Колер гадзінніка"</string>
+</resources>

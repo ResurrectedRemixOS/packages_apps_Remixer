@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"ခေါ်ဆိုမှုများ"</string>
+    <string name="now_bar_live_apps_all">"အက်ပ်အားလုံး"</string>
+    <string name="now_bar_charging">"အားသွင်းနေပါသည်"</string>
+    <string name="now_bar_flashlight">"ဖလက်ရှ်မီး"</string>
+    <string name="now_bar_style">"ပုံစံ"</string>
+    <string name="now_bar_color">"အရောင်"</string>
+    <string name="now_bar_outline">"အနားသတ်"</string>
+    <string name="now_bar_width">"အနံ"</string>
+    <string name="now_bar_music_category">"တေးဂီတ"</string>
+    <string name="now_bar_buttons">"ခလုတ်များ"</string>
+    <string name="now_bar_text">"စာပို့ရန်"</string>
+    <string name="now_bar_text_size">"စာလုံး အရွယ်အစား"</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Kleur"</string>
+    <string name="edge_light_color_wallpaper">"Muurpapierkleur"</string>
+    <string name="edge_light_custom_color_title">"Gepasmaakte kleur"</string>
+    <string name="edge_light_style_title">"Styl"</string>
+    <string name="edge_light_moment_notifications">"Kennisgewings"</string>
+    <string name="edge_light_moment_calls">"Inkomende oproepe"</string>
+    <string name="edge_light_moment_battery_low">Battery is amper leeg</string>
+    <string name="edge_light_moment_unlock">"Ontsluit"</string>
+    <string name="remixer_color_default">"Verstek"</string>
+</resources>

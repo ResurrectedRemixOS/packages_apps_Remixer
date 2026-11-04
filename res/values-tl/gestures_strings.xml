@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pie_edges">"Mga Gilid"</string>
+    <string name="pie_style">"Istilo"</string>
+    <string name="pie_size">"Laki"</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>"Maliit"</item>
+        <item>"Katamtaman"</item>
+        <item>"Malaki"</item>
+    </string-array>
+</resources>

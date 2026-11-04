@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="liquid_glass_blur_title">"ብዥታ"</string>
+    <string name="liquid_glass_lockscreen_title">"ማያ ገጽ ቁልፍ"</string>
+    <string name="liquid_glass_power_title">"የኃይል ምናሌ"</string>
+    <string name="liquid_glass_battery_title">"ባትሪ"</string>
+    <string name="liquid_glass_preview_internet">"በይነመረብ"</string>
+</resources>

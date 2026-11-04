@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Бүртгэл"</string>
+    <string name="rr_homepage_storage">"Хадгалах сан"</string>
+    <string name="rr_homepage_battery">"Батарей"</string>
+    <string name="rr_homepage_connections">"Холболтууд"</string>
+    <string name="rr_homepage_device">"Төхөөрөмж"</string>
+    <string name="rr_homepage_help">"Тусламж"</string>
+    <string name="rr_live_wifi">"Wi‑Fi"</string>
+    <string name="rr_live_mobile">"Мобайл"</string>
+    <string name="rr_live_offline">"Офлайн"</string>
+    <string name="rr_live_on">"Асаалттай"</string>
+    <string name="rr_live_off">"Унтраалттай"</string>
+    <string name="rr_homepage_charging">"Цэнэглэж байна"</string>
+    <string name="rr_homepage_internet">"Интернэт"</string>
+    <string name="rr_homepage_mobile_data">"Мобайл дата"</string>
+    <string name="rr_homepage_not_connected">"Холбогдоогүй"</string>
+    <string name="rr_homepage_dark_theme">"Бараан загвар"</string>
+    <string name="rr_homepage_on">"Асаалттай"</string>
+    <string name="rr_homepage_off">"Унтраалттай"</string>
+    <string name="rr_homepage_signed_in">"Нэвтэрсэн"</string>
+    <string name="rr_homepage_device_word">"ТОХИРГОО"</string>
+    <string name="rr_group_apps">"Апп ба мэдэгдэл"</string>
+    <string name="rr_group_security">"Аюулгүй байдал ба нууцлал"</string>
+    <string name="rr_group_accounts_plain">"Бүртгэл"</string>
+    <string name="rr_group_accessibility_summary">"Дэлгэц, харилцан үйлдэл, аудио"</string>
+    <string name="remixer_statusbar">"Статус самбар"</string>
+    <string name="remixer_qs">"Шуурхай тохиргоо"</string>
+    <string name="remixer_notifications">"Мэдэгдэл"</string>
+    <string name="remixer_theme">"Загвар"</string>
+    <string name="remixer_lockscreen">"Түгжээтэй дэлгэц"</string>
+    <string name="remixer_misc">"Бусад"</string>
+    <string name="misc_category_volume">"Дууны түвшин"</string>
+    <string name="misc_category_backup">"Нөөцлөх"</string>
+    <string name="misc_category_scrolling">"Гүйлгэх"</string>
+    <string name="remixer_fonts">"Фонт"</string>
+    <string name="remixer_wallpapers">"Дэлгэцийн зураг"</string>
+    <string name="pulse_style">"Загвар"</string>
+    <string name="pulse_color">"Өнгө"</string>
+    <string name="pulse_color_accent">"Дэлгэцийн зураг"</string>
+    <string name="pulse_look">"Харагдах байдал"</string>
+    <string name="pulse_lockscreen">"Түгжээтэй дэлгэц дээр харуулах"</string>
+    <string name="accent_preview_button">"Товч"</string>
+    <string name="accent_custom_title">"Захиалгат өнгө"</string>
+    <string name="accent_custom_hue">"Үндсэн өнгөжүүлэлт"</string>
+    <string name="accent_custom_recent">"Саяхны"</string>
+    <string name="accent_custom_apply">"Ашиглах"</string>
+    <string name="accent_shade_default">"Өгөгдмөл"</string>
+    <string name="accent_saturation">"Өнгө ялгалт"</string>
+    <string name="remixer_qs_customize">"Өөрчлөх"</string>
+    <string name="remixer_qs_style_section">"Загвар"</string>
+    <string name="remixer_lock_media_off">"Унтраалттай"</string>
+    <string name="remixer_lock_preview_device">"Энэ утас"</string>
+    <string name="remixer_qs_preview_on">"Асаалттай"</string>
+    <string name="remixer_qs_preview_off">"Унтраалттай"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Интернэт"</item>
+        <item>Bluetooth</item>
+        <item>"Гар чийдэн"</item>
+        <item>"Бүү саад бол"</item>
+        <item>"Автоматаар эргэх"</item>
+        <item>"Бараан загвар"</item>
+        <item>"Сүлжээний цэг"</item>
+        <item>"Нислэгийн горим"</item>
+        <item>"Дата хэмнэгч"</item>
+        <item>NFC</item>
+        <item>"Синк"</item>
+        <item>"QR кодыг скан хийх"</item>
+    </string-array>
+    <string name="header_preview_none">"Ямар ч зураг сонгоогүй"</string>
+    <string name="header_source_image">"Зураг"</string>
+    <string name="header_source_photo">"Зураг"</string>
+    <string name="header_collections">"Цуглуулга"</string>
+    <string name="header_images">"Зураг"</string>
+    <string name="header_photo_choose">"Зураг сонгох"</string>
+    <string name="header_look">"Харагдах байдал"</string>
+    <string name="remixer_weather">"Цаг агаар"</string>
+    <string name="font_default">"Өгөгдмөл"</string>
+    <string name="font_apply">"Ашиглах"</string>
+    <string name="font_filter_all">"Бүгд"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Дэлгэцийн зургийг тохируулах"</string>
+    <string name="wallpaper_apply_home">"Үндсэн нүүр"</string>
+    <string name="wallpaper_apply_lock">"Түгжээтэй дэлгэц"</string>
+    <string name="remixer_settings_style_original">"Эх хувь"</string>
+    <string name="remixer_navbar_category">"Навигацын самбар"</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Қоңыраулар"</string>
+    <string name="now_bar_live_apps_all">"Барлық қолданба"</string>
+    <string name="now_bar_charging">"Зарядталуда"</string>
+    <string name="now_bar_flashlight">"Қолшам"</string>
+    <string name="now_bar_style">"Стиль"</string>
+    <string name="now_bar_color">"Түс"</string>
+    <string name="now_bar_outline">"Контур"</string>
+    <string name="now_bar_width">"Ені"</string>
+    <string name="now_bar_music_category">"Музыка"</string>
+    <string name="now_bar_buttons">"Түймелер"</string>
+    <string name="now_bar_text">"Мәтін"</string>
+    <string name="now_bar_text_size">"Мәтін өлшемі"</string>
+</resources>

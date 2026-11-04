@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="liquid_glass_blur_title">"Bulanıq"</string>
+    <string name="liquid_glass_lockscreen_title">"Ekran kilidi"</string>
+    <string name="liquid_glass_volume_title">Səs paneli</string>
+    <string name="liquid_glass_power_title">"Qidalanma düyməsi menyusu"</string>
+    <string name="liquid_glass_battery_title">"Batareya"</string>
+    <string name="liquid_glass_preview_internet">"İnternet"</string>
+</resources>

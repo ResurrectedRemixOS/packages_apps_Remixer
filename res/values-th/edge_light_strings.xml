@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"สี"</string>
+    <string name="edge_light_color_wallpaper">"สีวอลเปเปอร์"</string>
+    <string name="edge_light_custom_color_title">"สีที่กำหนดเอง"</string>
+    <string name="edge_light_style_title">"รูปแบบ"</string>
+    <string name="edge_light_moment_notifications">"การแจ้งเตือน"</string>
+    <string name="edge_light_moment_calls">"สายเรียกเข้า"</string>
+    <string name="edge_light_moment_battery_low">แบตเตอรี่ต่ำ</string>
+    <string name="edge_light_moment_unlock">"ปลดล็อกแล้ว"</string>
+    <string name="remixer_color_default">"ค่าเริ่มต้น"</string>
+</resources>

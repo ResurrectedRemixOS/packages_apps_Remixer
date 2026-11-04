@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Simpan"</string>
+    <string name="looks_import">"Impor"</string>
+    <string name="looks_name">"Nama"</string>
+    <string name="looks_apply">"Terapkan"</string>
+    <string name="looks_share">"Bagikan"</string>
+    <string name="looks_delete">"Hapus"</string>
+    <string name="looks_part_accent">Warna aksen</string>
+    <string name="looks_part_boot">Animasi boot</string>
+    <string name="looks_create">"Buat"</string>
+    <string name="looks_customize">"Sesuaikan"</string>
+    <string name="looks_save_look">"Simpan"</string>
+    <string name="looks_custom_color">"Warna khusus"</string>
+    <string name="looks_part_clock_color">"Warna jam"</string>
+</resources>

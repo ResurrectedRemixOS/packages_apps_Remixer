@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Účet"</string>
+    <string name="rr_homepage_storage">"Úložisko"</string>
+    <string name="rr_homepage_battery">"Batéria"</string>
+    <string name="rr_homepage_connections">"Pripojenia"</string>
+    <string name="rr_homepage_device">"Zariadenie"</string>
+    <string name="rr_homepage_privacy">Súkromie a zabezpečenie</string>
+    <string name="rr_homepage_help">"Pomocník"</string>
+    <string name="rr_live_wifi">"Wi‑Fi"</string>
+    <string name="rr_live_mobile">"Mobil"</string>
+    <string name="rr_live_offline">"Offline"</string>
+    <string name="rr_live_on">"Zapnuté"</string>
+    <string name="rr_live_off">"Vypnuté"</string>
+    <string name="rr_homepage_charging">"Nabíja sa"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_homepage_mobile_data">"Mobilné dáta"</string>
+    <string name="rr_homepage_not_connected">"Nepripojené"</string>
+    <string name="rr_homepage_dark_theme">"Tmavý motív"</string>
+    <string name="rr_homepage_on">"Zapnuté"</string>
+    <string name="rr_homepage_off">"Vypnuté"</string>
+    <string name="rr_homepage_signed_in">"Prihlásili ste sa"</string>
+    <string name="rr_homepage_device_word">"NASTAVENIA"</string>
+    <string name="rr_group_apps">"Aplikácie a upozornenia"</string>
+    <string name="rr_group_security">"Zabezpečenie a ochrana súkromia"</string>
+    <string name="rr_group_accounts_plain">"Účty"</string>
+    <string name="rr_group_accessibility_summary">"Zobrazenie, interakcia, zvuk"</string>
+    <string name="remixer_statusbar">"Stavový riadok"</string>
+    <string name="remixer_qs">"Rýchle nastavenia"</string>
+    <string name="remixer_notifications">"Upozornenia"</string>
+    <string name="remixer_theme">"Motív"</string>
+    <string name="remixer_lockscreen">"Uzamknutá obrazovka"</string>
+    <string name="remixer_udfps_icon">Ikona UDFPS</string>
+    <string name="remixer_udfps_animation">UDFPS animácia</string>
+    <string name="remixer_navigation">Navigácia</string>
+    <string name="remixer_misc">"Rôzne"</string>
+    <string name="misc_category_volume">"Hlasitosť"</string>
+    <string name="misc_category_backup">"Záloha"</string>
+    <string name="misc_category_scrolling">"Posúvanie"</string>
+    <string name="remixer_fonts">"Písma"</string>
+    <string name="remixer_wallpapers">"Tapety"</string>
+    <string name="remixer_accents_summary">Farba zvýraznenia (základné)</string>
+    <string name="pulse_preview_title">"Práve sa prehráva"</string>
+    <string name="pulse_style">"Štýl"</string>
+    <string name="pulse_color">"Farba"</string>
+    <string name="pulse_color_accent">"Tapeta"</string>
+    <string name="pulse_look">"Vzhľad"</string>
+    <string name="pulse_lockscreen">"Zobrazovať na uzamknutej obrazovke"</string>
+    <string name="accent_preview_button">"Tlačidlo"</string>
+    <string name="accent_custom_title">"Vlastná farba"</string>
+    <string name="accent_custom_hue">"Odtieň"</string>
+    <string name="accent_custom_recent">"Nedávne"</string>
+    <string name="accent_custom_apply">"Použiť"</string>
+    <string name="accent_shade_default">"Predvolené"</string>
+    <string name="accent_saturation">"Sýtosť"</string>
+    <string name="remixer_qs_customize">"Prispôsobiť"</string>
+    <string name="remixer_qs_style_section">"Štýl"</string>
+    <string name="remixer_lock_media_off">"Vypnuté"</string>
+    <string name="remixer_lock_preview_device">"Tento telefón"</string>
+    <string name="remixer_qs_preview_on">"Zapnuté"</string>
+    <string name="remixer_qs_preview_off">"Vypnuté"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>Baterka</item>
+        <item>"Režim bez vyrušení"</item>
+        <item>"Automatické otáčanie"</item>
+        <item>"Tmavý motív"</item>
+        <item>"Hotspot"</item>
+        <item>"Režim v lietadle"</item>
+        <item>"Šetrič dát"</item>
+        <item>NFC</item>
+        <item>"Synchronizovať"</item>
+        <item>"Naskenujte QR kód"</item>
+    </string-array>
+    <string name="header_preview_none">"Nie sú vybraté žiadne obrázky"</string>
+    <string name="header_source_image">"Obrázok"</string>
+    <string name="header_source_photo">"Fotka"</string>
+    <string name="header_collections">"Zbierky"</string>
+    <string name="header_images">"Obrázky"</string>
+    <string name="header_photo_choose">"Vybrať fotku"</string>
+    <string name="header_look">"Vzhľad"</string>
+    <string name="remixer_weather">Počasie</string>
+    <string name="font_default">"Predvolené"</string>
+    <string name="font_apply">"Použiť"</string>
+    <string name="font_filter_all">"Všetko"</string>
+    <string name="font_filter_serif">"Pätkové"</string>
+    <string name="wallpaper_apply_title">"Nastaviť tapetu"</string>
+    <string name="wallpaper_apply_home">"Plocha"</string>
+    <string name="wallpaper_apply_lock">"Uzamknutá obrazovka"</string>
+    <string name="remixer_spoofing">Falšovanie</string>
+    <string name="remixer_settings_style_original">"Pôvodné"</string>
+    <string name="remixer_navbar_category">"Navigačný panel"</string>
+</resources>

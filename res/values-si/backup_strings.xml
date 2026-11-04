@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"උපස්ථය සහ පිළිනැගුම"</string>
+    <string name="backup_restore">"ප්‍රතිසාධනය කරන්න"</string>
+    <string name="backup_auto">"ස්වයංක්‍රිය"</string>
+    <string name="backup_group_status_bar">"තත්ත්ව තීරුව"</string>
+    <string name="backup_group_lock_screen">"අගුලු තිරය"</string>
+    <string name="backup_group_theme">"තේමාව"</string>
+    <string name="backup_group_qs">"ඉක්මන් සැකසීම්"</string>
+    <string name="backup_group_notifications">"දැනුම්දීම්"</string>
+    <string name="backup_group_gestures">"ඉංගිත"</string>
+    <string name="backup_group_other">"වෙනත්"</string>
+    <string name="backup_done">"නිමයි"</string>
+</resources>

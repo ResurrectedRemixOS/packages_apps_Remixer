@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"બેકઅપ અને પુનર્સ્થાપન"</string>
+    <string name="backup_restore">"રિસ્ટોર કરો"</string>
+    <string name="backup_auto">"ઑટોમૅટિક"</string>
+    <string name="backup_group_status_bar">"સ્ટેટસ બાર"</string>
+    <string name="backup_group_lock_screen">"લૉક સ્ક્રીન"</string>
+    <string name="backup_group_theme">"થીમ"</string>
+    <string name="backup_group_qs">"ઝડપી સેટિંગ"</string>
+    <string name="backup_group_notifications">"નોટિફિકેશન"</string>
+    <string name="backup_group_gestures">જેસ્ચર્સ</string>
+    <string name="backup_group_other">"અન્ય"</string>
+    <string name="backup_done">"થઈ ગયું"</string>
+</resources>

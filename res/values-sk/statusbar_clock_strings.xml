@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sb_clock_category">Hodiny &amp; dátum</string>
+    <string name="sb_clock_date_title">"Dátum"</string>
+    <string name="sb_clock_date_position_title">Pozícia dátumu</string>
+    <string name="sb_clock_date_format_title">Formát dátumu</string>
+    <string name="sb_weather_category">Počasie</string>
+    <string name="sb_weather_position_title">Pozícia</string>
+</resources>

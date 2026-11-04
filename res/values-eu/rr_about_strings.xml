@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"Memoria"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"Memoria"</string>
+    <string name="rr_about_battery">"Bateria"</string>
+    <string name="rr_about_kernel">"Kernel-a"</string>
+    <string name="rr_about_software">"Softwarea"</string>
+    <string name="rr_about_updates">"Eguneratzeak"</string>
+    <string name="rr_about_build_date">Konpilatze data</string>
+    <string name="rr_about_this_phone">"Telefono hau"</string>
+    <string name="rr_about_network">"Sarea"</string>
+    <string name="rr_about_hidden">Ezkutatua</string>
+</resources>

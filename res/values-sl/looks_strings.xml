@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Shrani"</string>
+    <string name="looks_import">"Uvozi"</string>
+    <string name="looks_name">"Ime"</string>
+    <string name="looks_apply">"Uporabi"</string>
+    <string name="looks_share">"Deli"</string>
+    <string name="looks_delete">"Izbriši"</string>
+    <string name="looks_part_accent">Barva poudarka</string>
+    <string name="looks_part_font">"Pisava"</string>
+    <string name="looks_part_wallpaper">"Ozadje"</string>
+    <string name="looks_color_default">"Privzeto"</string>
+    <string name="looks_create">"Ustvari"</string>
+    <string name="looks_edit">"Uredi"</string>
+    <string name="looks_customize">"Prilagodi"</string>
+    <string name="looks_save_look">"Shrani"</string>
+    <string name="looks_custom_color">"Barva po meri"</string>
+    <string name="looks_part_clock_color">"Barva ure"</string>
+</resources>

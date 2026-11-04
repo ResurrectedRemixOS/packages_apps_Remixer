@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Hívások"</string>
+    <string name="now_bar_live_apps_all">"Összes alkalmazás"</string>
+    <string name="now_bar_charging">"Töltés"</string>
+    <string name="now_bar_flashlight">Zseblámpa</string>
+    <string name="now_bar_aod">Megjelenítés \'Mindig bekapcsolva\' módban</string>
+    <string name="now_bar_style">"Stílus"</string>
+    <string name="now_bar_color">"Szín"</string>
+    <string name="now_bar_outline">"Körvonal"</string>
+    <string name="now_bar_width">"Szélesség"</string>
+    <string name="now_bar_music_category">"Zene"</string>
+    <string name="now_bar_art">Albumborító</string>
+    <string name="now_bar_buttons">Gombok</string>
+    <string name="now_bar_text">Szöveg</string>
+    <string name="now_bar_text_size">"Szöveg mérete"</string>
+</resources>

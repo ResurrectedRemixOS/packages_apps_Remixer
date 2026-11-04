@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Pozivi"</string>
+    <string name="now_bar_live_apps_all">"Sve aplikacije"</string>
+    <string name="now_bar_charging">"Puni se"</string>
+    <string name="now_bar_flashlight">"Lampa"</string>
+    <string name="now_bar_style">"Stil"</string>
+    <string name="now_bar_color">"Boja"</string>
+    <string name="now_bar_outline">"Kontura"</string>
+    <string name="now_bar_width">"Širina"</string>
+    <string name="now_bar_music_category">"Muzika"</string>
+    <string name="now_bar_buttons">"Dugmad"</string>
+    <string name="now_bar_text">"Tekst"</string>
+    <string name="now_bar_text_size">"Veličina teksta"</string>
+</resources>

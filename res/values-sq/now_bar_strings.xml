@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Telefonatat"</string>
+    <string name="now_bar_live_apps_all">"Të gjitha aplikacionet"</string>
+    <string name="now_bar_charging">"Po karikohet"</string>
+    <string name="now_bar_flashlight">Elektriku i dorës</string>
+    <string name="now_bar_style">"Stili"</string>
+    <string name="now_bar_color">"Ngjyra"</string>
+    <string name="now_bar_outline">"Kontur"</string>
+    <string name="now_bar_width">"Gjerësia"</string>
+    <string name="now_bar_music_category">Muzika</string>
+    <string name="now_bar_buttons">Butonat</string>
+    <string name="now_bar_text">Tekst</string>
+    <string name="now_bar_text_size">"Madhësia e tekstit"</string>
+</resources>

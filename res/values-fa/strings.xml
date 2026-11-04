@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"حساب"</string>
+    <string name="rr_homepage_storage">"فضای ذخیره‌سازی"</string>
+    <string name="rr_homepage_battery">"باتری"</string>
+    <string name="rr_homepage_connections">"اتصال‌ها"</string>
+    <string name="rr_homepage_device">"دستگاه"</string>
+    <string name="rr_homepage_privacy">محرمانگی &amp; امنیت</string>
+    <string name="rr_homepage_help">"راهنما"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"تلفن همراه"</string>
+    <string name="rr_live_offline">"آفلاین"</string>
+    <string name="rr_live_on">"روشن"</string>
+    <string name="rr_live_off">"خاموش"</string>
+    <string name="rr_homepage_charging">"در حال شارژ شدن"</string>
+    <string name="rr_homepage_internet">"اینترنت"</string>
+    <string name="rr_homepage_mobile_data">"داده تلفن همراه"</string>
+    <string name="rr_homepage_not_connected">"متصل نیست"</string>
+    <string name="rr_homepage_dark_theme">"زمینه تاریک"</string>
+    <string name="rr_homepage_on">"روشن"</string>
+    <string name="rr_homepage_off">"خاموش"</string>
+    <string name="rr_homepage_signed_in">"به سیستم واردشده"</string>
+    <string name="rr_homepage_device_word">"تنظیمات"</string>
+    <string name="rr_group_apps">"برنامه‌ها و اعلان‌ها"</string>
+    <string name="rr_group_security">"امنیت و حریم خصوصی"</string>
+    <string name="rr_group_accounts_plain">"حساب‌ها"</string>
+    <string name="rr_group_accessibility_summary">"صفحه‌نمایش، تعامل، صدا"</string>
+    <string name="remixer_statusbar">"نوار وضعیت"</string>
+    <string name="remixer_qs">"تنظیمات فوری"</string>
+    <string name="remixer_notifications">"اعلان‌ها"</string>
+    <string name="remixer_theme">"زمینه"</string>
+    <string name="remixer_lockscreen">"صفحه قفل"</string>
+    <string name="remixer_navigation">پیمایش</string>
+    <string name="remixer_misc">"متفرقه"</string>
+    <string name="misc_category_volume">"میزان صدا"</string>
+    <string name="misc_category_backup">"پشتیبان‌گیری"</string>
+    <string name="misc_category_scrolling">"پیمایش"</string>
+    <string name="remixer_fonts">"قلم"</string>
+    <string name="remixer_wallpapers">"کاغذدیواری"</string>
+    <string name="pulse_preview_title">"در حال پخش"</string>
+    <string name="pulse_style">"سبک"</string>
+    <string name="pulse_color">"رنگ"</string>
+    <string name="pulse_color_accent">"کاغذدیواری"</string>
+    <string name="pulse_look">"ظاهر"</string>
+    <string name="pulse_lockscreen">"نشان دادن در صفحه قفل"</string>
+    <string name="accent_preview_button">"دکمه"</string>
+    <string name="accent_custom_title">"رنگ سفارشی"</string>
+    <string name="accent_custom_hue">"رنگ‌مایه"</string>
+    <string name="accent_custom_recent">"اخیر"</string>
+    <string name="accent_custom_apply">"اعمال"</string>
+    <string name="accent_shade_default">"پیش‌فرض"</string>
+    <string name="accent_saturation">"اشباع رنگ"</string>
+    <string name="remixer_qs_customize">"سفارشی کردن"</string>
+    <string name="remixer_qs_style_section">"سبک"</string>
+    <string name="remixer_lock_media_off">"خاموش"</string>
+    <string name="remixer_lock_preview_device">"این تلفن"</string>
+    <string name="remixer_qs_preview_on">"روشن"</string>
+    <string name="remixer_qs_preview_off">"خاموش"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"اینترنت"</item>
+        <item>Bluetooth</item>
+        <item>چراغ قوه</item>
+        <item>"مزاحم نشوید"</item>
+        <item>"چرخش خودکار"</item>
+        <item>"زمینه تاریک"</item>
+        <item>"نقطه اتصال"</item>
+        <item>"حالت هواپیما"</item>
+        <item>"صرفه‌جویی داده"</item>
+        <item>NFC</item>
+        <item>"همگام‌سازی"</item>
+        <item>"اسکن رمزینه پاسخ‌سریع"</item>
+    </string-array>
+    <string name="header_preview_none">"هیچ تصویری انتخاب نشد"</string>
+    <string name="header_source_image">"تصویر"</string>
+    <string name="header_source_photo">"عکس"</string>
+    <string name="header_collections">"مجموعه‌ها"</string>
+    <string name="header_images">"تصاویر"</string>
+    <string name="header_photo_choose">"انتخاب عکس"</string>
+    <string name="header_look">"ظاهر"</string>
+    <string name="remixer_weather">آب و هوا</string>
+    <string name="font_default">"پیش‌فرض"</string>
+    <string name="font_apply">"اعمال"</string>
+    <string name="font_filter_all">"همه"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"تنظیم کاغذدیواری"</string>
+    <string name="wallpaper_apply_home">"صفحه اصلی"</string>
+    <string name="wallpaper_apply_lock">"صفحه قفل"</string>
+    <string name="remixer_settings_style_original">"اصلی"</string>
+    <string name="remixer_navbar_category">"نوار پیمایش"</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="liquid_glass_blur_title">"બ્લર કરો"</string>
+    <string name="liquid_glass_lockscreen_title">"લૉક સ્ક્રીન"</string>
+    <string name="liquid_glass_power_title">"પાવર મેનૂ"</string>
+    <string name="liquid_glass_battery_title">"બૅટરી"</string>
+    <string name="liquid_glass_preview_internet">"ઇન્ટરનેટ"</string>
+</resources>

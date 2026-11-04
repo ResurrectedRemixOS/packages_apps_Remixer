@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Londoloza"</string>
+    <string name="looks_import">"Ngenisa"</string>
+    <string name="looks_name">"Igama"</string>
+    <string name="looks_apply">"Faka"</string>
+    <string name="looks_share">"Yabelana"</string>
+    <string name="looks_delete">"Susa"</string>
+    <string name="looks_part_font">"Ifonti"</string>
+    <string name="looks_part_wallpaper">"Isithombe sangemuva"</string>
+    <string name="looks_color_default">"Okuzenzakalelayo"</string>
+    <string name="looks_create">"Yakha"</string>
+    <string name="looks_edit">"Hlela"</string>
+    <string name="looks_customize">"Enza ngendlela oyifisayo"</string>
+    <string name="looks_save_look">"Londoloza"</string>
+    <string name="looks_custom_color">"Umbala ongokwezifiso"</string>
+    <string name="looks_part_clock_color">"Umbala wewashi"</string>
+</resources>

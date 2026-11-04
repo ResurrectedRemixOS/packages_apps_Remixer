@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">Takatut</string>
+    <string name="rr_about_storage">Asekles</string>
+    <string name="rr_about_battery">Aẓru</string>
+    <string name="rr_about_updates">Ileqman</string>
+    <string name="rr_about_build_date">Azemz n usefsu</string>
+    <string name="rr_about_network">Aẓeṭṭa</string>
+    <string name="rr_about_hidden">Yeffer</string>
+</resources>

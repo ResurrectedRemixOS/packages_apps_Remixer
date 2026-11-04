@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"ଡିଲିଟ କରନ୍ତୁ"</string>
+    <string name="action_reset">"ରିସେଟ କରନ୍ତୁ"</string>
+    <string name="action_search_apps">"ଆପ ସର୍ଚ୍ଚ କରନ୍ତୁ"</string>
+    <string name="action_select_all">"ସବୁ ଚୟନ କରନ୍ତୁ"</string>
+    <string name="app_spoofing_clear_all">"ସବୁ ଖାଲି କରନ୍ତୁ"</string>
+    <string name="app_spoofing_disabled">"ଅକ୍ଷମ କରାଯାଇଛି"</string>
+    <string name="common_clear_search">"ସର୍ଚ୍ଚ ଖାଲି କରନ୍ତୁ"</string>
+    <string name="custom_spoof_profile_brand">"ବ୍ରାଣ୍ଡ"</string>
+    <string name="custom_spoof_profile_device">"ଡିଭାଇସ୍"</string>
+    <string name="custom_spoof_profile_manufacturer">"ନିର୍ମାତା"</string>
+    <string name="custom_spoof_profile_model">"ମଡେଲ"</string>
+    <string name="hide_system_apps">"ସିଷ୍ଟମ୍ ଆପଗୁଡ଼ିକୁ ଲୁଚାନ୍ତୁ"</string>
+    <string name="pif_recommended_suffix">"ସୁପାରିଶ କରାଯାଇଛି"</string>
+    <string name="pif_status">"ସ୍ଥିତି"</string>
+    <string name="pif_wipe_confirm">"ଡାଟା ଖାଲି କରନ୍ତୁ"</string>
+    <string name="show_system_apps">"ସିଷ୍ଟମ୍‍ ଆପ୍‍ ଦେଖାନ୍ତୁ"</string>
+    <string name="spoofing_reset_defaults_confirm">"ରିସେଟ କରନ୍ତୁ"</string>
+    <string name="ts_mode_auto">"ସ୍ଵଚାଳିତ"</string>
+    <string name="ts_untrusted_root_replace">"ପରିବର୍ତ୍ତନ"</string>
+    <string name="ts_verification_mode_auto">"ସ୍ଵଚାଳିତ"</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="clock_faces_apply">Bruk</string>
+    <string name="clock_faces_color">Farge</string>
+    <string name="clock_faces_color_default">Standard</string>
+    <string name="clock_faces_size">Storleik</string>
+    <string name="clock_faces_restart">Start på nytt</string>
+</resources>

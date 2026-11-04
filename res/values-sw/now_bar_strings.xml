@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Simu"</string>
+    <string name="now_bar_live_apps_all">"Programu zote"</string>
+    <string name="now_bar_charging">"Inachaji"</string>
+    <string name="now_bar_flashlight">"Tochi"</string>
+    <string name="now_bar_style">"Mtindo"</string>
+    <string name="now_bar_color">"Rangi"</string>
+    <string name="now_bar_outline">"Mistari"</string>
+    <string name="now_bar_width">"Upana"</string>
+    <string name="now_bar_music_category">"Muziki"</string>
+    <string name="now_bar_buttons">"Vitufe"</string>
+    <string name="now_bar_text">"SMS"</string>
+    <string name="now_bar_text_size">"Ukubwa wa maandishi"</string>
+</resources>

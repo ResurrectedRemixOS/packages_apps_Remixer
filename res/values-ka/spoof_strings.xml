@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"წაშლა"</string>
+    <string name="action_reset">"გადაყენება"</string>
+    <string name="action_search_apps">"აპების ძიება"</string>
+    <string name="action_select_all">"ყველას არჩევა"</string>
+    <string name="app_spoofing_clear_all">"ყველას გასუფთავება"</string>
+    <string name="app_spoofing_disabled">გამორთული</string>
+    <string name="common_clear_search">"ძიების გასუფთავება"</string>
+    <string name="custom_spoof_profile_brand">"ბრენდი"</string>
+    <string name="custom_spoof_profile_device">"მოწყობილობა"</string>
+    <string name="custom_spoof_profile_manufacturer">"მწარმოებელი"</string>
+    <string name="custom_spoof_profile_model">"მოდელი"</string>
+    <string name="hide_system_apps">"სისტემის აპების დამალვა"</string>
+    <string name="pif_recommended_suffix">"რეკომენდებული"</string>
+    <string name="pif_status">"სტატუსი"</string>
+    <string name="pif_wipe_confirm">"მონაცემების გასუფთავება"</string>
+    <string name="show_system_apps">"სისტემის აპების ჩვენება"</string>
+    <string name="spoofing_reset_defaults_confirm">"გადაყენება"</string>
+    <string name="ts_mode_auto">"ავტომატური"</string>
+    <string name="ts_untrusted_root_keep">"შენარჩუნება"</string>
+    <string name="ts_untrusted_root_replace">"ჩანაცვლება"</string>
+    <string name="ts_verification_mode_auto">"ავტომატური"</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sb_clock_category">Relógio e data</string>
+    <string name="sb_clock_bold_title">Relógio em negrito</string>
+    <string name="sb_clock_period_separator_title">Separador de período</string>
+    <string name="sb_clock_date_title">"Data"</string>
+    <string name="sb_clock_date_position_title">Posição da data</string>
+    <string name="sb_clock_date_format_title">Formato da data</string>
+    <string name="sb_clock_chip_angle_title">Ângulo de gradiente</string>
+    <string name="sb_weather_category">Clima</string>
+    <string name="sb_weather_position_title">Posição</string>
+</resources>

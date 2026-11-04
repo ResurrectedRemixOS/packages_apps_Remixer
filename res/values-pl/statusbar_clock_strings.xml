@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sb_clock_bold_title">Pogrubiony zegar</string>
+    <string name="sb_clock_period_separator_title">Separator godziny</string>
+    <string name="sb_clock_date_title">"Data"</string>
+    <string name="sb_clock_chip_angle_title">Kąt gradientu</string>
+    <string name="sb_weather_category">"Pogoda"</string>
+    <string name="sb_weather_position_title">Położenie</string>
+</resources>

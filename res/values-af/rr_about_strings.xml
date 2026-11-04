@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"Geheue"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"Berging"</string>
+    <string name="rr_about_kernel">"Kern"</string>
+    <string name="rr_about_software">"Sagteware"</string>
+    <string name="rr_about_updates">"Opdaterings"</string>
+    <string name="rr_about_this_phone">"Hierdie foon"</string>
+    <string name="rr_about_network">"Netwerk"</string>
+    <string name="rr_about_hidden">Versteek</string>
+</resources>

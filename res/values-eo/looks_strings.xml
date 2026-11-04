@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">Konservi</string>
+    <string name="looks_import">Enporti</string>
+    <string name="looks_name">Nomo</string>
+    <string name="looks_share">Konigi</string>
+    <string name="looks_delete">Forigi</string>
+    <string name="looks_color_default">Defaŭlte</string>
+    <string name="looks_edit">Redakti</string>
+    <string name="looks_save_look">Konservi</string>
+</resources>

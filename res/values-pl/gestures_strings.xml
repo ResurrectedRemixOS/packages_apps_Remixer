@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pie_edges">"Krawędzie"</string>
+    <string name="pie_style">"Styl"</string>
+    <string name="pie_size">"Rozmiar"</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>"Mały"</item>
+        <item>"Średni"</item>
+        <item>"Duży"</item>
+    </string-array>
+</resources>

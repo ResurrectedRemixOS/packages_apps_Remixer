@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Hisob"</string>
+    <string name="rr_homepage_storage">"Xotira"</string>
+    <string name="rr_homepage_battery">"Batareya"</string>
+    <string name="rr_homepage_connections">"Ulanishlar"</string>
+    <string name="rr_homepage_device">"Qurilma"</string>
+    <string name="rr_homepage_help">"Yordam"</string>
+    <string name="rr_live_wifi">"Wi‑Fi"</string>
+    <string name="rr_live_mobile">"Mobil"</string>
+    <string name="rr_live_offline">"Oflayn"</string>
+    <string name="rr_live_on">"Yoniq"</string>
+    <string name="rr_live_off">"Oʻchiq"</string>
+    <string name="rr_homepage_charging">"Quvvat olmoqda"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_homepage_mobile_data">"Mobil internet"</string>
+    <string name="rr_homepage_not_connected">"Ulanmagan"</string>
+    <string name="rr_homepage_dark_theme">"Tungi mavzu"</string>
+    <string name="rr_homepage_on">"Yoniq"</string>
+    <string name="rr_homepage_off">"Oʻchiq"</string>
+    <string name="rr_homepage_signed_in">"Hisobga kirilgan"</string>
+    <string name="rr_homepage_device_word">"SOZLAMALAR"</string>
+    <string name="rr_group_apps">"Ilovalar va bildirishnomalar"</string>
+    <string name="rr_group_security">"Xavfsizlik va maxfiylik"</string>
+    <string name="rr_group_accounts_plain">"Hisoblar"</string>
+    <string name="rr_group_accessibility_summary">"Displey, taʼsir, audio"</string>
+    <string name="remixer_statusbar">"Holat qatori"</string>
+    <string name="remixer_qs">"Tezkor sozlamalar"</string>
+    <string name="remixer_notifications">"Bildirishnomalar"</string>
+    <string name="remixer_theme">"Mavzu"</string>
+    <string name="remixer_lockscreen">"Ekran qulfi"</string>
+    <string name="remixer_misc">"Boshqa"</string>
+    <string name="misc_category_volume">"Tovush balandligi"</string>
+    <string name="misc_category_backup">"Zaxiralash"</string>
+    <string name="misc_category_scrolling">"Varaqlash"</string>
+    <string name="remixer_fonts">"Shriftlar"</string>
+    <string name="remixer_wallpapers">"Fon rasmlari"</string>
+    <string name="pulse_style">"Uslub"</string>
+    <string name="pulse_color">"Rang"</string>
+    <string name="pulse_color_accent">"Fon rasmi"</string>
+    <string name="pulse_look">"Mavzu"</string>
+    <string name="pulse_lockscreen">"Ekran qulfida ko‘rsatish"</string>
+    <string name="accent_preview_button">"Tugma"</string>
+    <string name="accent_custom_title">"Maxsus rang"</string>
+    <string name="accent_custom_hue">"Tus"</string>
+    <string name="accent_custom_recent">"Yaqinda"</string>
+    <string name="accent_custom_apply">"Tatbiq etish"</string>
+    <string name="accent_shade_default">"Standart"</string>
+    <string name="accent_saturation">"Och/to‘qlik"</string>
+    <string name="remixer_qs_customize">"Moslash"</string>
+    <string name="remixer_qs_style_section">"Uslub"</string>
+    <string name="remixer_lock_media_off">"Oʻchiq"</string>
+    <string name="remixer_lock_preview_device">"Shu telefon"</string>
+    <string name="remixer_qs_preview_on">"Yoniq"</string>
+    <string name="remixer_qs_preview_off">"Oʻchiq"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>"Fonar"</item>
+        <item>"Bezovta qilinmasin"</item>
+        <item>"Avto-burilish"</item>
+        <item>"Tungi mavzu"</item>
+        <item>"Hotspot"</item>
+        <item>"Parvoz rejimi"</item>
+        <item>"Trafik tejash"</item>
+        <item>NFC</item>
+        <item>"Sinx"</item>
+        <item>"QR kodni skanerlash"</item>
+    </string-array>
+    <string name="header_preview_none">"Rasm tanlanmagan"</string>
+    <string name="header_source_image">"Rasm"</string>
+    <string name="header_source_photo">"Surat"</string>
+    <string name="header_collections">"Termalar"</string>
+    <string name="header_images">"Rasmlar"</string>
+    <string name="header_photo_choose">"Rasm tanlang"</string>
+    <string name="header_look">"Mavzu"</string>
+    <string name="remixer_weather">"Ob-havo"</string>
+    <string name="font_default">"Standart"</string>
+    <string name="font_apply">"Tatbiq etish"</string>
+    <string name="font_filter_all">"Hammasi"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Fonga rasm tanlash"</string>
+    <string name="wallpaper_apply_home">"Bosh ekran"</string>
+    <string name="wallpaper_apply_lock">"Ekran qulfi"</string>
+    <string name="remixer_settings_style_original">"Asl"</string>
+    <string name="remixer_navbar_category">"Navigatsiya paneli"</string>
+</resources>

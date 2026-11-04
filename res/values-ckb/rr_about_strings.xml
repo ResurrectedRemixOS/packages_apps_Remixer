@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">بیرگە</string>
+    <string name="rr_about_ram">RAM</string>
+    <string name="rr_about_storage">بیرگە</string>
+    <string name="rr_about_battery">باتری</string>
+    <string name="rr_about_kernel">کێرنێڵ</string>
+    <string name="rr_about_software">نەرمەکاڵا (Software)</string>
+    <string name="rr_about_updates">نوێکردنەوەکان</string>
+    <string name="rr_about_security_patch">نوێکاریی ئاسایش</string>
+    <string name="rr_about_build_date">ڕێکەوتی بنیاتنان</string>
+    <string name="rr_about_this_phone">ئەم تەلەفۆنە</string>
+    <string name="rr_about_network">تۆڕ</string>
+    <string name="rr_about_hidden">شاراوە</string>
+</resources>

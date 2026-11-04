@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">Sguab às</string>
+    <string name="action_reset">Ath-shuidhich</string>
+    <string name="action_search_apps">Lorg aplacaidean</string>
+    <string name="action_select_all">Tagh na h-uile</string>
+    <string name="app_spoofing_clear_all">Falamhaich na h-uile</string>
+    <string name="app_spoofing_disabled">À comas</string>
+    <string name="common_clear_search">Falamhaich an lorg</string>
+    <string name="custom_spoof_profile_device">Uidheam</string>
+    <string name="custom_spoof_profile_model">Modail</string>
+    <string name="pif_status">Staid</string>
+    <string name="pif_wipe_confirm">Falamhaich an dàta</string>
+    <string name="show_system_apps">Seall aplacaidean an t-siostaim</string>
+    <string name="spoofing_reset_defaults_confirm">Ath-shuidhich</string>
+    <string name="ts_mode_auto">Fèin-obrachail</string>
+    <string name="ts_untrusted_root_keep">Cùm</string>
+    <string name="ts_untrusted_root_replace">Cuir ’na àite</string>
+    <string name="ts_verification_mode_auto">Fèin-obrachail</string>
+</resources>

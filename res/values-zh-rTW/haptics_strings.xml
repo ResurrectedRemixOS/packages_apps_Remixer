@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"儲存"</string>
+    <string name="haptic_remix_delete_button">"刪除"</string>
+    <string name="haptic_remix_default">"預設"</string>
+    <string name="haptic_remix_calls">"通話"</string>
+    <string name="haptic_remix_color_violet">"紫羅蘭"</string>
+    <string name="haptic_remix_color_blue">"藍色"</string>
+    <string name="haptic_remix_color_green">"綠色"</string>
+    <string name="haptic_remix_color_white">"白色"</string>
+</resources>

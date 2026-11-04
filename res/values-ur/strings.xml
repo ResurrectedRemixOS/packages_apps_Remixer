@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"اکاؤنٹ"</string>
+    <string name="rr_homepage_storage">"اسٹوریج"</string>
+    <string name="rr_homepage_battery">"بیٹری"</string>
+    <string name="rr_homepage_connections">"کنکشنز"</string>
+    <string name="rr_homepage_device">"آلہ"</string>
+    <string name="rr_homepage_help">"مدد"</string>
+    <string name="rr_live_wifi">"Wi‑Fi"</string>
+    <string name="rr_live_mobile">"موبائل"</string>
+    <string name="rr_live_offline">"آف لائن"</string>
+    <string name="rr_live_on">"آن ہے"</string>
+    <string name="rr_live_off">"آف"</string>
+    <string name="rr_homepage_charging">"چارج ہو رہی ہے"</string>
+    <string name="rr_homepage_internet">"انٹرنیٹ"</string>
+    <string name="rr_homepage_mobile_data">"موبائل ڈیٹا"</string>
+    <string name="rr_homepage_not_connected">"منسلک نہیں ہے"</string>
+    <string name="rr_homepage_dark_theme">"گہری تھیم"</string>
+    <string name="rr_homepage_on">"آن ہے"</string>
+    <string name="rr_homepage_off">"آف"</string>
+    <string name="rr_homepage_signed_in">"سائن ان ہو گیا"</string>
+    <string name="rr_homepage_device_word">"ترتیبات"</string>
+    <string name="rr_group_apps">"ایپس اور اطلاعات"</string>
+    <string name="rr_group_security">"سیکیورٹی اور رازداری"</string>
+    <string name="rr_group_accounts_plain">"اکاؤنٹس"</string>
+    <string name="rr_group_accessibility_summary">"ڈسپلے، انٹرایکشن، آڈیو"</string>
+    <string name="remixer_statusbar">"اسٹیٹس بار"</string>
+    <string name="remixer_qs">"فوری ترتیبات"</string>
+    <string name="remixer_notifications">"اطلاعات"</string>
+    <string name="remixer_theme">"تھیم"</string>
+    <string name="remixer_lockscreen">"مقفل اسکرین"</string>
+    <string name="remixer_navigation">سمت شناسی</string>
+    <string name="remixer_misc">"متفرقات"</string>
+    <string name="misc_category_volume">"والیوم"</string>
+    <string name="misc_category_backup">"بیک اپ لیں"</string>
+    <string name="misc_category_scrolling">"اسکرولنگ"</string>
+    <string name="remixer_fonts">"فونٹس"</string>
+    <string name="remixer_wallpapers">"وال پیپرز"</string>
+    <string name="remixer_accents_summary">لہجے کا رنگ</string>
+    <string name="pulse_style">"طرز"</string>
+    <string name="pulse_color">"رنگ"</string>
+    <string name="pulse_color_accent">"وال پیپر"</string>
+    <string name="pulse_look">"ہیئت"</string>
+    <string name="pulse_lockscreen">"مقفل اسکرین پر دکھائیں"</string>
+    <string name="accent_preview_button">"بٹن"</string>
+    <string name="accent_custom_title">"حسب ضرورت رنگ"</string>
+    <string name="accent_custom_hue">"ہیو"</string>
+    <string name="accent_custom_recent">"حالیہ"</string>
+    <string name="accent_custom_apply">"لاگو کریں"</string>
+    <string name="accent_shade_default">"ڈیفالٹ"</string>
+    <string name="accent_saturation">"سیچوریشن"</string>
+    <string name="remixer_qs_customize">"حسب ضرورت بنائیں"</string>
+    <string name="remixer_qs_style_section">"طرز"</string>
+    <string name="remixer_lock_media_off">"آف"</string>
+    <string name="remixer_lock_preview_device">"یہ فون"</string>
+    <string name="remixer_qs_preview_on">"آن ہے"</string>
+    <string name="remixer_qs_preview_off">"آف"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"انٹرنیٹ"</item>
+        <item>Bluetooth</item>
+        <item>"فلیش لائٹ"</item>
+        <item>"ڈسٹرب نہ کریں"</item>
+        <item>"خود کار طور پر گھمائیں"</item>
+        <item>"گہری تھیم"</item>
+        <item>"ہاٹ اسپاٹ"</item>
+        <item>"ہوائی جہاز وضع"</item>
+        <item>"ڈیٹا سیور"</item>
+        <item>NFC</item>
+        <item>"مطابقت پذیری کریں"</item>
+        <item>"‏QR کوڈ اسکین کریں"</item>
+    </string-array>
+    <string name="header_preview_none">"کوئی تصویر منتخب نہیں ہوئی"</string>
+    <string name="header_source_image">"تصویر"</string>
+    <string name="header_source_photo">"تصویر"</string>
+    <string name="header_collections">"مجموعے"</string>
+    <string name="header_images">"تصاویر"</string>
+    <string name="header_photo_choose">"ایک تصویر منتخب کریں"</string>
+    <string name="header_look">"ہیئت"</string>
+    <string name="remixer_weather">"موسم"</string>
+    <string name="font_default">"ڈیفالٹ"</string>
+    <string name="font_apply">"لاگو کریں"</string>
+    <string name="font_filter_all">"تمام"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"وال پیپر سیٹ کریں"</string>
+    <string name="wallpaper_apply_home">"ہوم اسکرین"</string>
+    <string name="wallpaper_apply_lock">"مقفل اسکرین"</string>
+    <string name="remixer_settings_style_original">"اصل"</string>
+    <string name="remixer_navbar_category">"نیویگیشن بار"</string>
+</resources>

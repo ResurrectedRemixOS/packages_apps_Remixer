@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"บัญชี"</string>
+    <string name="rr_homepage_storage">"พื้นที่เก็บข้อมูล"</string>
+    <string name="rr_homepage_battery">"แบตเตอรี่"</string>
+    <string name="rr_homepage_connections">"การเชื่อมต่อ"</string>
+    <string name="rr_homepage_device">"อุปกรณ์"</string>
+    <string name="rr_homepage_privacy">ข้อมูลส่วนบุคคลและความปลอดภัย</string>
+    <string name="rr_homepage_help">"ความช่วยเหลือ"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"มือถือ"</string>
+    <string name="rr_live_offline">"ออฟไลน์"</string>
+    <string name="rr_live_on">"เปิด"</string>
+    <string name="rr_live_off">"ปิด"</string>
+    <string name="rr_homepage_charging">"กำลังชาร์จ"</string>
+    <string name="rr_homepage_internet">"อินเทอร์เน็ต"</string>
+    <string name="rr_homepage_mobile_data">"เน็ตมือถือ"</string>
+    <string name="rr_homepage_not_connected">"ไม่ได้เชื่อมต่อ"</string>
+    <string name="rr_homepage_dark_theme">"ธีมมืด"</string>
+    <string name="rr_homepage_on">"เปิด"</string>
+    <string name="rr_homepage_off">"ปิด"</string>
+    <string name="rr_homepage_signed_in">"ลงชื่อเข้าใช้แล้ว"</string>
+    <string name="rr_homepage_device_word">"การตั้งค่า"</string>
+    <string name="rr_group_apps">"แอปและการแจ้งเตือน"</string>
+    <string name="rr_group_security">"การรักษาความปลอดภัยและความเป็นส่วนตัว"</string>
+    <string name="rr_group_accounts_plain">"บัญชี"</string>
+    <string name="rr_group_accessibility_summary">"การแสดงผล การโต้ตอบ เสียง"</string>
+    <string name="remixer_statusbar">"แถบสถานะ"</string>
+    <string name="remixer_qs">"การตั้งค่าด่วน"</string>
+    <string name="remixer_notifications">"การแจ้งเตือน"</string>
+    <string name="remixer_theme">"ธีม"</string>
+    <string name="remixer_lockscreen">"หน้าจอล็อก"</string>
+    <string name="remixer_misc">"เบ็ดเตล็ด"</string>
+    <string name="misc_category_volume">"ระดับเสียง"</string>
+    <string name="misc_category_backup">"การสำรองข้อมูล"</string>
+    <string name="misc_category_scrolling">"การเลื่อน"</string>
+    <string name="remixer_fonts">"แบบอักษร"</string>
+    <string name="remixer_wallpapers">"วอลเปเปอร์"</string>
+    <string name="pulse_preview_title">"กำลังเล่น"</string>
+    <string name="pulse_style">"รูปแบบ"</string>
+    <string name="pulse_color">"สี"</string>
+    <string name="pulse_color_accent">"วอลเปเปอร์"</string>
+    <string name="pulse_look">"ลักษณะที่ปรากฏ"</string>
+    <string name="pulse_lockscreen">"แสดงบนหน้าจอล็อก"</string>
+    <string name="accent_preview_button">"ปุ่ม"</string>
+    <string name="accent_custom_title">"สีที่กำหนดเอง"</string>
+    <string name="accent_custom_hue">"สี"</string>
+    <string name="accent_custom_recent">"ล่าสุด"</string>
+    <string name="accent_custom_apply">"ใช้"</string>
+    <string name="accent_shade_default">"ค่าเริ่มต้น"</string>
+    <string name="accent_saturation">"ความอิ่มตัว"</string>
+    <string name="remixer_qs_customize">"ปรับแต่ง"</string>
+    <string name="remixer_qs_style_section">"รูปแบบ"</string>
+    <string name="remixer_lock_media_off">"ปิด"</string>
+    <string name="remixer_lock_preview_device">"โทรศัพท์เครื่องนี้"</string>
+    <string name="remixer_qs_preview_on">"เปิด"</string>
+    <string name="remixer_qs_preview_off">"ปิด"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"อินเทอร์เน็ต"</item>
+        <item>Bluetooth</item>
+        <item>"ไฟฉาย"</item>
+        <item>"ห้ามรบกวน"</item>
+        <item>"หมุนอัตโนมัติ"</item>
+        <item>"ธีมมืด"</item>
+        <item>"ฮอตสปอต"</item>
+        <item>"โหมดบนเครื่องบิน"</item>
+        <item>"การประหยัดอินเทอร์เน็ต"</item>
+        <item>NFC</item>
+        <item>"ซิงค์"</item>
+        <item>"สแกนคิวอาร์โค้ด"</item>
+    </string-array>
+    <string name="header_preview_none">"ไม่มีรูปภาพที่เลือก"</string>
+    <string name="header_source_image">"ไฟล์รูปภาพ"</string>
+    <string name="header_source_photo">"รูปภาพ"</string>
+    <string name="header_collections">"คอลเล็กชัน"</string>
+    <string name="header_images">"รูปภาพ"</string>
+    <string name="header_photo_choose">"เลือกรูปภาพ"</string>
+    <string name="header_look">"ลักษณะที่ปรากฏ"</string>
+    <string name="remixer_weather">"สภาพอากาศ"</string>
+    <string name="font_default">"ค่าเริ่มต้น"</string>
+    <string name="font_apply">"ใช้"</string>
+    <string name="font_filter_all">"ทั้งหมด"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"ตั้งค่าวอลเปเปอร์"</string>
+    <string name="wallpaper_apply_home">"หน้าจอหลัก"</string>
+    <string name="wallpaper_apply_lock">"หน้าจอล็อก"</string>
+    <string name="remixer_settings_style_original">"ต้นฉบับ"</string>
+    <string name="remixer_navbar_category">"แถบนำทาง"</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"සුරකින්න"</string>
+    <string name="haptic_remix_delete_button">"මකන්න"</string>
+    <string name="haptic_remix_default">"පෙරනිමි"</string>
+    <string name="haptic_remix_calls">"ඇමතුම්"</string>
+    <string name="haptic_remix_color_violet">"වයලට්"</string>
+    <string name="haptic_remix_color_blue">"නිල්"</string>
+    <string name="haptic_remix_color_green">"කොළ"</string>
+    <string name="haptic_remix_color_white">"සුදු"</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Kustuta"</string>
+    <string name="action_reset">"Lähtesta"</string>
+    <string name="action_search_apps">"Otsige rakendusi"</string>
+    <string name="action_select_all">"Vali kõik"</string>
+    <string name="app_spoofing_clear_all">"Tühjenda kõik"</string>
+    <string name="app_spoofing_disabled">"Keelatud"</string>
+    <string name="common_clear_search">"Otsingu kustutamine"</string>
+    <string name="custom_spoof_profile_brand">"Bränd"</string>
+    <string name="custom_spoof_profile_device">"Seade"</string>
+    <string name="custom_spoof_profile_manufacturer">"Tootja"</string>
+    <string name="custom_spoof_profile_model">"Mudel"</string>
+    <string name="hide_system_apps">"Peida süsteemirakendused"</string>
+    <string name="pif_recommended_suffix">"Soovitatud"</string>
+    <string name="pif_status">"Olek"</string>
+    <string name="pif_wipe_confirm">"Kustuta andmed"</string>
+    <string name="show_system_apps">"Kuva süsteemirakendused"</string>
+    <string name="spoofing_reset_defaults_confirm">"Lähtesta"</string>
+    <string name="ts_mode_auto">"Automaatne"</string>
+    <string name="ts_untrusted_root_keep">"Jäta alles"</string>
+    <string name="ts_untrusted_root_replace">"Asenda"</string>
+    <string name="ts_verification_mode_auto">"Automaatne"</string>
+</resources>

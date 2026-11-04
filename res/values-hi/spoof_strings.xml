@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"मिटाएं"</string>
+    <string name="action_reset">"रीसेट करें"</string>
+    <string name="action_search_apps">"ऐप्लिकेशन खोजें"</string>
+    <string name="action_select_all">"सभी चुनें"</string>
+    <string name="app_spoofing_clear_all">"सभी हटाएं"</string>
+    <string name="app_spoofing_disabled">"बंद है"</string>
+    <string name="common_clear_search">"खोज साफ़ करें"</string>
+    <string name="custom_spoof_profile_brand">"ब्रैंड"</string>
+    <string name="custom_spoof_profile_device">"डिवाइस"</string>
+    <string name="custom_spoof_profile_manufacturer">"मैन्युफ़ैक्चरर"</string>
+    <string name="custom_spoof_profile_model">"मॉडल"</string>
+    <string name="hide_system_apps">"सिस्टम के ऐप्लिकेशन छिपाएं"</string>
+    <string name="pif_recommended_suffix">"सुझाया गया"</string>
+    <string name="pif_status">"स्थिति"</string>
+    <string name="pif_wipe_confirm">"डेटा साफ़ करें"</string>
+    <string name="show_system_apps">"सिस्टम ऐप्लिकेशन दिखाएं"</string>
+    <string name="spoofing_reset_defaults_confirm">"रीसेट करें"</string>
+    <string name="ts_mode_auto">"अपने आप"</string>
+    <string name="ts_untrusted_root_keep">"रखें"</string>
+    <string name="ts_untrusted_root_replace">"बदलें"</string>
+    <string name="ts_verification_mode_auto">"अपने आप"</string>
+</resources>

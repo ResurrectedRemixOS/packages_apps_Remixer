@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"ບັນຊີ"</string>
+    <string name="rr_homepage_storage">"ບ່ອນເກັບຂໍ້ມູນ"</string>
+    <string name="rr_homepage_battery">"ແບັດເຕີຣີ"</string>
+    <string name="rr_homepage_connections">"ການເຊື່ອມຕໍ່"</string>
+    <string name="rr_homepage_device">"ອຸປະກອນ"</string>
+    <string name="rr_homepage_help">"ຊ່ວຍເຫຼືອ"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"ມືຖື"</string>
+    <string name="rr_live_offline">"ອອບລາຍ"</string>
+    <string name="rr_live_on">"ເປີດ"</string>
+    <string name="rr_live_off">"ປິດ"</string>
+    <string name="rr_homepage_charging">"ກຳລັງສາກໄຟ"</string>
+    <string name="rr_homepage_internet">"ອິນເຕີເນັດ"</string>
+    <string name="rr_homepage_mobile_data">"ອິນເຕີເນັດມືຖື"</string>
+    <string name="rr_homepage_not_connected">"ບໍ່ໄດ້ເຊື່ອມຕໍ່"</string>
+    <string name="rr_homepage_dark_theme">"ຮູບແບບສີສັນມືດ"</string>
+    <string name="rr_homepage_on">"ເປີດ"</string>
+    <string name="rr_homepage_off">"ປິດ"</string>
+    <string name="rr_homepage_signed_in">"ເຂົ້າສູ່ລະບົບແລ້ວ"</string>
+    <string name="rr_homepage_device_word">"ການຕັ້ງຄ່າ"</string>
+    <string name="rr_group_apps">"ແອັບ ແລະ ການແຈ້ງເຕືອນ"</string>
+    <string name="rr_group_security">"ຄວາມປອດໄພ ແລະ ຄວາມເປັນສ່ວນຕົວ"</string>
+    <string name="rr_group_accounts_plain">"ບັນຊີ"</string>
+    <string name="rr_group_accessibility_summary">"ການສະແດງຜົນ, ການໂຕ້ຕອບ, ສຽງ"</string>
+    <string name="remixer_statusbar">"ແຖບສະຖານະ"</string>
+    <string name="remixer_qs">"ການຕັ້ງຄ່າດ່ວນ"</string>
+    <string name="remixer_notifications">"ການແຈ້ງເຕືອນ"</string>
+    <string name="remixer_theme">"ຮູບແບບສີສັນ"</string>
+    <string name="remixer_lockscreen">"ໜ້າຈໍລັອກ"</string>
+    <string name="remixer_misc">"ອື່ນໆ"</string>
+    <string name="misc_category_volume">"ລະດັບສຽງ"</string>
+    <string name="misc_category_backup">"ສຳຮອງຂໍ້ມູນ"</string>
+    <string name="misc_category_scrolling">"ການເລື່ອນ"</string>
+    <string name="remixer_fonts">"ຟອນ"</string>
+    <string name="remixer_wallpapers">"ພາບພື້ນຫຼັງ"</string>
+    <string name="pulse_style">"ຮູບແບບ"</string>
+    <string name="pulse_color">"ສີ"</string>
+    <string name="pulse_color_accent">"ຮູບພື້ນຫຼັງ"</string>
+    <string name="pulse_look">"ຮູບແບບໜ້າຕາ"</string>
+    <string name="pulse_lockscreen">"ສະແດງຢູ່ໜ້າຈໍລັອກ"</string>
+    <string name="accent_preview_button">"ປຸ່ມ"</string>
+    <string name="accent_custom_title">"ສີກຳນົດເອງ"</string>
+    <string name="accent_custom_hue">"ໂທນສີ"</string>
+    <string name="accent_custom_recent">"ຫຼ້າສຸດ"</string>
+    <string name="accent_custom_apply">"ນຳໃຊ້"</string>
+    <string name="accent_shade_default">"ຄ່າເລີ່ມຕົ້ນ"</string>
+    <string name="accent_saturation">"ຄວາມແຈດຂອງສີ"</string>
+    <string name="remixer_qs_customize">"ປັບແຕ່ງ"</string>
+    <string name="remixer_qs_style_section">"ຮູບແບບ"</string>
+    <string name="remixer_lock_media_off">"ປິດ"</string>
+    <string name="remixer_lock_preview_device">"ໂທລະສັບນີ້"</string>
+    <string name="remixer_qs_preview_on">"ເປີດ"</string>
+    <string name="remixer_qs_preview_off">"ປິດ"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"ອິນເຕີເນັດ"</item>
+        <item>Bluetooth</item>
+        <item>"​ໄຟ​ສາຍ"</item>
+        <item>"ຫ້າມລົບກວນ"</item>
+        <item>"ໝຸນ​ອັດ​ຕະ​ໂນ​ມັດ"</item>
+        <item>"ຮູບແບບສີສັນມືດ"</item>
+        <item>"​ຮັອດ​ສະ​ປອດ"</item>
+        <item>"ໂໝດຢູ່ໃນຍົນ"</item>
+        <item>"ຕົວປະຢັດຂໍ້ມູນ"</item>
+        <item>NFC</item>
+        <item>"ຊິ້ງຂໍ້ມູນ"</item>
+        <item>"ສະແກນລະຫັດ QR"</item>
+    </string-array>
+    <string name="header_preview_none">"ບໍ່ມີຮູບພາບທີ່ເລືອກ"</string>
+    <string name="header_source_image">"ຮູບພາບ"</string>
+    <string name="header_source_photo">"ຮູບພາບ"</string>
+    <string name="header_collections">"ຄໍເລັກຊັນ"</string>
+    <string name="header_images">"ຮູບພາບ"</string>
+    <string name="header_photo_choose">"ເລືອກຮູບພາບ"</string>
+    <string name="header_look">"ຮູບແບບໜ້າຕາ"</string>
+    <string name="remixer_weather">"ສະພາບອາກາດ"</string>
+    <string name="font_default">"ຄ່າເລີ່ມຕົ້ນ"</string>
+    <string name="font_apply">"ນຳໃຊ້"</string>
+    <string name="font_filter_all">"ທັງໝົດ"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"ຕັ້ງພາບພື້ນຫຼັງ"</string>
+    <string name="wallpaper_apply_home">"ໂຮມສະກຣີນ"</string>
+    <string name="wallpaper_apply_lock">"ໜ້າຈໍລັອກ"</string>
+    <string name="remixer_settings_style_original">"ຕົ້ນສະບັບ"</string>
+    <string name="remixer_navbar_category">"ແຖບການນຳທາງ"</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Silin"</string>
+    <string name="action_reset">"Sıfırlayın"</string>
+    <string name="action_search_apps">"Tətbiqləri axtarın"</string>
+    <string name="action_select_all">"Hamısını seçin"</string>
+    <string name="app_spoofing_clear_all">"Hamısını silin"</string>
+    <string name="app_spoofing_disabled">"Deaktiv"</string>
+    <string name="common_clear_search">"Axtarışı təmizləyin"</string>
+    <string name="custom_spoof_profile_brand">"Brend"</string>
+    <string name="custom_spoof_profile_device">"Cihaz"</string>
+    <string name="custom_spoof_profile_manufacturer">"İstehsalçı"</string>
+    <string name="hide_system_apps">"Sistem tətbiqlərini gizlədin"</string>
+    <string name="pif_recommended_suffix">"Tövsiyə olunur"</string>
+    <string name="pif_status">"Status"</string>
+    <string name="pif_wipe_confirm">"Datanı silin"</string>
+    <string name="show_system_apps">"Sistem tətbiqlərini göstərin"</string>
+    <string name="spoofing_reset_defaults_confirm">"Sıfırlayın"</string>
+    <string name="ts_mode_auto">"Avto"</string>
+    <string name="ts_untrusted_root_keep">"Saxla"</string>
+    <string name="ts_untrusted_root_replace">"Əvəz edin"</string>
+    <string name="ts_verification_mode_auto">"Avto"</string>
+</resources>

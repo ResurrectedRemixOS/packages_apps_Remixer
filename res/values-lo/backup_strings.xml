@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"ສຳຮອງຂໍ້ມູນ &amp; ດຶງຂໍ້ມູນຄືນ"</string>
+    <string name="backup_restore">"ກູ້ຄືນ"</string>
+    <string name="backup_auto">"ອັດຕະໂນມັດ"</string>
+    <string name="backup_group_status_bar">"ແຖບສະຖານະ"</string>
+    <string name="backup_group_lock_screen">"ໜ້າຈໍລັອກ"</string>
+    <string name="backup_group_theme">"ຮູບແບບສີສັນ"</string>
+    <string name="backup_group_qs">"ການຕັ້ງຄ່າດ່ວນ"</string>
+    <string name="backup_group_notifications">"ການແຈ້ງເຕືອນ"</string>
+    <string name="backup_group_gestures">"ທ່າທາງ"</string>
+    <string name="backup_group_other">"ອື່ນໆ"</string>
+    <string name="backup_done">"ແລ້ວໆ"</string>
+</resources>

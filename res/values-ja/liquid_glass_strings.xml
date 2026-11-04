@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="liquid_glass_blur_title">"ぼかし"</string>
+    <string name="liquid_glass_lockscreen_title">"ロック画面"</string>
+    <string name="liquid_glass_volume_title">音量パネル</string>
+    <string name="liquid_glass_power_title">"電源ボタン メニュー"</string>
+    <string name="liquid_glass_battery_title">"バッテリー"</string>
+    <string name="liquid_glass_preview_internet">"インターネット"</string>
+</resources>

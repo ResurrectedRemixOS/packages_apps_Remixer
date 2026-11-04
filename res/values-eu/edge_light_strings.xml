@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Kolorea"</string>
+    <string name="edge_light_color_wallpaper">"Horma-paperaren kolorea"</string>
+    <string name="edge_light_custom_color_title">"Kolore pertsonalizatua"</string>
+    <string name="edge_light_style_title">"Estiloa"</string>
+    <string name="edge_light_moment_notifications">"Jakinarazpenak"</string>
+    <string name="edge_light_moment_calls">"Sarrerako deiak"</string>
+    <string name="edge_light_moment_battery_low">Bateria baxua</string>
+    <string name="edge_light_moment_unlock">"Desblokeatuta"</string>
+    <string name="remixer_color_default">"Lehenetsia"</string>
+</resources>

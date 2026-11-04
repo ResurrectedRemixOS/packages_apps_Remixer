@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"சேமி"</string>
+    <string name="looks_import">"இறக்கு"</string>
+    <string name="looks_name">"பெயர்"</string>
+    <string name="looks_apply">"பயன்படுத்து"</string>
+    <string name="looks_share">"பகிர்"</string>
+    <string name="looks_delete">"நீக்கு"</string>
+    <string name="looks_part_accent">உச்சரிப்பு நிறம்</string>
+    <string name="looks_part_font">"எழுத்துரு"</string>
+    <string name="looks_part_wallpaper">"வால்பேப்பர்"</string>
+    <string name="looks_color_default">"இயல்பு"</string>
+    <string name="looks_create">"உருவாக்கு"</string>
+    <string name="looks_edit">"திருத்து"</string>
+    <string name="looks_customize">"பிரத்தியேகமாக்கு"</string>
+    <string name="looks_save_look">"சேமி"</string>
+    <string name="looks_custom_color">"பிரத்தியேக வண்ணம்"</string>
+    <string name="looks_part_clock_color">"கடிகார வண்ணம்"</string>
+</resources>

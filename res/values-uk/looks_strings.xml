@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Зберегти"</string>
+    <string name="looks_import">"Імпортувати"</string>
+    <string name="looks_name">"Назва"</string>
+    <string name="looks_apply">"Застосувати"</string>
+    <string name="looks_share">"Поділитися"</string>
+    <string name="looks_delete">"Видалити"</string>
+    <string name="looks_part_accent">Колір акценту</string>
+    <string name="looks_part_font">"Шрифт"</string>
+    <string name="looks_part_wallpaper">"Фоновий малюнок"</string>
+    <string name="looks_part_boot">Анімація завантаження</string>
+    <string name="looks_color_default">"За умовчанням"</string>
+    <string name="looks_create">"Створити"</string>
+    <string name="looks_edit">"Редагувати"</string>
+    <string name="looks_customize">"Налаштувати"</string>
+    <string name="looks_save_look">"Зберегти"</string>
+    <string name="looks_custom_color">"Спеціальний колір"</string>
+    <string name="looks_part_clock_color">"Колір годинника"</string>
+</resources>

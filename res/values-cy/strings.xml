@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">Cyfrif</string>
+    <string name="rr_homepage_storage">Storfa</string>
+    <string name="rr_homepage_battery">Batri</string>
+    <string name="rr_homepage_connections">Cysylltiadau</string>
+    <string name="rr_homepage_device">Dyfais</string>
+    <string name="rr_homepage_privacy">Preifatrwydd a diogelwch</string>
+    <string name="rr_homepage_help">Cymorth</string>
+    <string name="rr_live_mobile">Symudol</string>
+    <string name="rr_live_offline">All-lein</string>
+    <string name="rr_live_on">Ymlaen</string>
+    <string name="rr_live_off">I ffwrdd</string>
+    <string name="rr_homepage_charging">Yn gwefru</string>
+    <string name="rr_homepage_internet">Rhyngrwyd</string>
+    <string name="rr_homepage_mobile_data">Data symudol</string>
+    <string name="rr_homepage_not_connected">Heb gysylltu</string>
+    <string name="rr_homepage_dark_theme">Thema dywyll</string>
+    <string name="rr_homepage_on">Ymlaen</string>
+    <string name="rr_homepage_off">I ffwrdd</string>
+    <string name="rr_homepage_device_word">GOSODIADAU</string>
+    <string name="rr_group_apps">Apiau a hysbysiadau</string>
+    <string name="rr_group_security">Diogelwch a phreifatrwydd</string>
+    <string name="rr_group_accounts_plain">Cyfrifon</string>
+    <string name="rr_group_accessibility_summary">Dangosydd, rhyngweithio, sain</string>
+    <string name="remixer_statusbar">Bar statws</string>
+    <string name="remixer_notifications">Hysbysiadau</string>
+    <string name="remixer_theme">Thema</string>
+    <string name="remixer_lockscreen">Sgrin glo</string>
+    <string name="remixer_navigation">Llywio</string>
+    <string name="misc_category_volume">Uchder sain</string>
+    <string name="misc_category_backup">Copi wrth gefn</string>
+    <string name="misc_category_scrolling">Sgrolio</string>
+    <string name="remixer_wallpapers">Papurau wal</string>
+    <string name="pulse_style">Arddull</string>
+    <string name="pulse_color">Lliw</string>
+    <string name="pulse_color_accent">Papur wal</string>
+    <string name="pulse_look">Golwg</string>
+    <string name="accent_custom_title">Lliw addasu</string>
+    <string name="accent_custom_hue">Gwawr</string>
+    <string name="accent_custom_recent">Diweddar</string>
+    <string name="accent_custom_apply">Gosod</string>
+    <string name="accent_shade_default">Rhagosodiad</string>
+    <string name="accent_saturation">Dyfnder Lliw</string>
+    <string name="remixer_qs_customize">Addasu</string>
+    <string name="remixer_qs_style_section">Arddull</string>
+    <string name="remixer_lock_media_off">I ffwrdd</string>
+    <string name="remixer_lock_preview_device">Y ffôn hwn</string>
+    <string name="remixer_qs_preview_on">Ymlaen</string>
+    <string name="remixer_qs_preview_off">I ffwrdd</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>Rhyngrwyd</item>
+        <item>Bluetooth</item>
+        <item>Fflacholau</item>
+        <item>Dim Tarfu</item>
+        <item>Troi yn Awtomatig</item>
+        <item>Thema dywyll</item>
+        <item>Llecyn Wi-Fi</item>
+        <item>Modd awyren</item>
+        <item>Arbedwr Data</item>
+        <item>NFC</item>
+        <item>Cydweddu</item>
+        <item>Sganio cod QR</item>
+    </string-array>
+    <string name="header_source_image">Delwedd</string>
+    <string name="header_source_photo">Llun</string>
+    <string name="header_images">Delweddau</string>
+    <string name="header_look">Golwg</string>
+    <string name="remixer_weather">Tywydd</string>
+    <string name="font_default">Rhagosodiad</string>
+    <string name="font_apply">Gosod</string>
+    <string name="font_filter_all">Y Cwbl</string>
+    <string name="font_filter_serif">Serif</string>
+    <string name="wallpaper_apply_title">Gosod papur wal</string>
+    <string name="wallpaper_apply_home">Sgrin gartref</string>
+    <string name="wallpaper_apply_lock">Sgrin glo</string>
+    <string name="remixer_settings_style_original">Gwreiddiol</string>
+    <string name="remixer_navbar_category">Bar llywio</string>
+</resources>

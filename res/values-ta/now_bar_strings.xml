@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"அழைப்புகள்"</string>
+    <string name="now_bar_live_apps_all">"அனைத்து ஆப்ஸும்"</string>
+    <string name="now_bar_charging">"சார்ஜ் ஆகிறது"</string>
+    <string name="now_bar_flashlight">ஒளிவிளக்கு</string>
+    <string name="now_bar_style">"ஸ்டைல்"</string>
+    <string name="now_bar_color">"வண்ணம்"</string>
+    <string name="now_bar_outline">"வெளிக்கோடு"</string>
+    <string name="now_bar_width">"அகலம்"</string>
+    <string name="now_bar_music_category">"இசை"</string>
+    <string name="now_bar_buttons">பொத்தான்கள்</string>
+    <string name="now_bar_text">உரை</string>
+    <string name="now_bar_text_size">"உரையின் அளவு"</string>
+</resources>

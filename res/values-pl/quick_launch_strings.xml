@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"Skróty"</string>
+    <string name="quick_launch_camera">"Aparat"</string>
+    <string name="quick_launch_flashlight">Latarka</string>
+    <string name="quick_launch_timer">Minutnik</string>
+    <string name="quick_launch_undo">"Cofnij"</string>
+    <string name="quick_launch_off">"Wyłączono"</string>
+</resources>

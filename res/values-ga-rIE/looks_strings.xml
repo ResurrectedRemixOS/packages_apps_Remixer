@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">Sábháil</string>
+    <string name="looks_import">Iompórtáil</string>
+    <string name="looks_name">Ainm</string>
+    <string name="looks_apply">Cuir isteach</string>
+    <string name="looks_share">Comhroinn</string>
+    <string name="looks_delete">Scrios</string>
+    <string name="looks_part_font">Cló</string>
+    <string name="looks_part_wallpaper">Páipéar balla</string>
+    <string name="looks_color_default">Réamhshocrú</string>
+    <string name="looks_create">Cruthaigh</string>
+    <string name="looks_edit">Cuir in Eagar</string>
+    <string name="looks_customize">Saincheap</string>
+    <string name="looks_save_look">Sábháil</string>
+    <string name="looks_custom_color">Dath saincheaptha</string>
+    <string name="looks_part_clock_color">Dath an chloig</string>
+</resources>

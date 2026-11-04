@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Amakholi"</string>
+    <string name="now_bar_live_apps_all">"Zonke izinhlelo zokusebenza"</string>
+    <string name="now_bar_charging">"Iyashaja"</string>
+    <string name="now_bar_flashlight">"I-Flashlight"</string>
+    <string name="now_bar_style">"Isitayela"</string>
+    <string name="now_bar_color">"Umbala"</string>
+    <string name="now_bar_outline">"Uhlaka"</string>
+    <string name="now_bar_width">"Ububanzi"</string>
+    <string name="now_bar_music_category">"Umculo"</string>
+    <string name="now_bar_buttons">"Izinkinobho"</string>
+    <string name="now_bar_text">"Umbhalo"</string>
+    <string name="now_bar_text_size">"Usayizi wombhalo"</string>
+</resources>

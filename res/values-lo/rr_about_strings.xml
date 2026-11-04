@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"ໜ່ວຍ​ຄວາມ​ຈຳ"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"ບ່ອນເກັບຂໍ້ມູນ"</string>
+    <string name="rr_about_battery">"ແບັດເຕີຣີ"</string>
+    <string name="rr_about_kernel">"​ເຄີນ​ເນວ"</string>
+    <string name="rr_about_software">"ຊອບແວ"</string>
+    <string name="rr_about_updates">"ອັບເດດ"</string>
+    <string name="rr_about_this_phone">"ໂທລະສັບນີ້"</string>
+    <string name="rr_about_network">"ເຄືອຂ່າຍ"</string>
+    <string name="rr_about_hidden">"ເຊື່ອງໄວ້ແລ້ວ"</string>
+</resources>

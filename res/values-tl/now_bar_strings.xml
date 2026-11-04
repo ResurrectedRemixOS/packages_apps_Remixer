@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Mga Tawag"</string>
+    <string name="now_bar_live_apps_all">"Lahat ng app"</string>
+    <string name="now_bar_charging">"Nagcha-charge"</string>
+    <string name="now_bar_style">"Istilo"</string>
+    <string name="now_bar_color">"Kulay"</string>
+    <string name="now_bar_width">"Lapad"</string>
+    <string name="now_bar_music_category">"Musika"</string>
+    <string name="now_bar_buttons">"Mga Button"</string>
+    <string name="now_bar_text">"Teksto"</string>
+    <string name="now_bar_text_size">"Laki ng text"</string>
+</resources>

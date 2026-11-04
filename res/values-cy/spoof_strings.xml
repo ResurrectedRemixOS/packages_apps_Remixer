@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">Dileu</string>
+    <string name="action_reset">Ailosod</string>
+    <string name="action_search_apps">Chwilio apiau</string>
+    <string name="action_select_all">Dewis y cyfan</string>
+    <string name="app_spoofing_clear_all">Clirio\u2019r cwbl</string>
+    <string name="app_spoofing_disabled">Wedi\'i analluogi</string>
+    <string name="common_clear_search">Clirio\u2019r chwiliad</string>
+    <string name="custom_spoof_profile_device">Dyfais</string>
+    <string name="pif_status">Statws</string>
+    <string name="pif_wipe_confirm">Clirio data</string>
+    <string name="show_system_apps">Dangos apiau system</string>
+    <string name="spoofing_reset_defaults_confirm">Ailosod</string>
+    <string name="ts_mode_auto">Awto</string>
+    <string name="ts_untrusted_root_keep">Cadw</string>
+    <string name="ts_untrusted_root_replace">Disodli</string>
+    <string name="ts_verification_mode_auto">Awto</string>
+</resources>

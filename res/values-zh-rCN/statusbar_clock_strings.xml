@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sb_clock_category">时钟和日期设置</string>
+    <string name="sb_clock_date_title">"日期"</string>
+    <string name="sb_clock_date_position_title">日期位置</string>
+    <string name="sb_clock_date_format_title">日期格式</string>
+    <string name="sb_clock_chip_angle_title">渐变角度</string>
+    <string name="sb_weather_category">天气</string>
+    <string name="sb_weather_position_title">位置</string>
+</resources>

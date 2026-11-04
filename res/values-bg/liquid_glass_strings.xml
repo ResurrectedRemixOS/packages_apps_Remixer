@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="liquid_glass_blur_title">"Замъгляване"</string>
+    <string name="liquid_glass_lockscreen_title">"Заключен екран"</string>
+    <string name="liquid_glass_volume_title">Звуков панел</string>
+    <string name="liquid_glass_power_title">"Меню за включване/изключване"</string>
+    <string name="liquid_glass_battery_title">"Батерия"</string>
+    <string name="liquid_glass_preview_internet">"Интернет"</string>
+</resources>

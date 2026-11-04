@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Διαγραφή"</string>
+    <string name="action_reset">"Επαναφορά"</string>
+    <string name="action_search_apps">"Αναζήτηση εφαρμογών"</string>
+    <string name="action_select_all">"Επιλογή όλων"</string>
+    <string name="app_spoofing_clear_all">"Διαγραφή όλων"</string>
+    <string name="app_spoofing_disabled">"Απενεργοποιημένο"</string>
+    <string name="common_clear_search">"Διαγραφή αναζητήσεων"</string>
+    <string name="custom_spoof_profile_brand">"Επωνυμία"</string>
+    <string name="custom_spoof_profile_device">"Συσκευή"</string>
+    <string name="custom_spoof_profile_manufacturer">"Κατασκευαστής"</string>
+    <string name="custom_spoof_profile_model">"Μοντέλο"</string>
+    <string name="hide_system_apps">"Απόκρυψη εφαρμογών συστήματος"</string>
+    <string name="pif_recommended_suffix">"Συνιστάται"</string>
+    <string name="pif_status">"Κατάσταση"</string>
+    <string name="pif_wipe_confirm">"Διαγραφή δεδομένων"</string>
+    <string name="show_system_apps">"Εμφάνιση εφαρμογών συστήματος"</string>
+    <string name="spoofing_reset_defaults_confirm">"Επαναφορά"</string>
+    <string name="spoofing_reset_defaults_title">Επαναφορά προεπιλογών</string>
+    <string name="ts_mode_auto">"Αυτόματα"</string>
+    <string name="ts_untrusted_root_keep">"Διατήρηση"</string>
+    <string name="ts_untrusted_root_replace">"Αντικατάσταση"</string>
+    <string name="ts_verification_mode_auto">"Αυτόματα"</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">Cadw</string>
+    <string name="haptic_remix_delete_button">Dileu</string>
+    <string name="haptic_remix_default">Rhagosodiad</string>
+    <string name="haptic_remix_calls">Galwadau</string>
+    <string name="haptic_remix_color_violet">Fioled</string>
+    <string name="haptic_remix_color_blue">Glas</string>
+    <string name="haptic_remix_color_green">Gwyrdd</string>
+    <string name="haptic_remix_color_white">Gwyn</string>
+</resources>

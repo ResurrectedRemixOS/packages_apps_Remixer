@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_charging">Dwaande mei opladen</string>
+    <string name="now_bar_flashlight">Bûslampe</string>
+    <string name="now_bar_music_category">Muzyk</string>
+    <string name="now_bar_buttons">Knoppen</string>
+    <string name="now_bar_text">Tekst</string>
+</resources>

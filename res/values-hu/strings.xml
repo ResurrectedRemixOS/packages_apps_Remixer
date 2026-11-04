@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Fiók"</string>
+    <string name="rr_homepage_storage">"Tárhely"</string>
+    <string name="rr_homepage_battery">"Akkumulátor"</string>
+    <string name="rr_homepage_connections">"Kapcsolatok"</string>
+    <string name="rr_homepage_device">"Eszköz"</string>
+    <string name="rr_homepage_privacy">Adatvédelem és biztonság</string>
+    <string name="rr_homepage_help">"Súgó"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"Mobil"</string>
+    <string name="rr_live_offline">"Offline"</string>
+    <string name="rr_live_on">"Be"</string>
+    <string name="rr_live_off">"Ki"</string>
+    <string name="rr_homepage_charging">"Töltés"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_homepage_mobile_data">"Mobiladat"</string>
+    <string name="rr_homepage_not_connected">"Nincs kapcsolat"</string>
+    <string name="rr_homepage_dark_theme">"Sötét téma"</string>
+    <string name="rr_homepage_on">"Be"</string>
+    <string name="rr_homepage_off">"Ki"</string>
+    <string name="rr_homepage_signed_in">"Bejelentkezve"</string>
+    <string name="rr_homepage_device_word">"BEÁLLÍTÁSOK"</string>
+    <string name="rr_group_apps">"Alkalmazások és értesítések"</string>
+    <string name="rr_group_security">"Biztonság és adatvédelem"</string>
+    <string name="rr_group_accounts_plain">"Fiókok"</string>
+    <string name="rr_group_accessibility_summary">"Megjelenítés, interakció, hang"</string>
+    <string name="remixer_statusbar">"Állapotsor"</string>
+    <string name="remixer_qs">"Gyorsbeállítások"</string>
+    <string name="remixer_notifications">"Értesítések"</string>
+    <string name="remixer_theme">"Téma"</string>
+    <string name="remixer_lockscreen">"Lezárási képernyő"</string>
+    <string name="remixer_udfps_icon">Ujjlenyomat-ikon</string>
+    <string name="remixer_udfps_animation">Ujjlenyomat-animáció</string>
+    <string name="remixer_navigation">Navigáció</string>
+    <string name="remixer_misc">"Egyéb"</string>
+    <string name="misc_category_volume">"Hangerő"</string>
+    <string name="misc_category_backup">"Biztonsági mentés"</string>
+    <string name="misc_category_scrolling">"Görgetés"</string>
+    <string name="remixer_fonts">"Betűtípusok"</string>
+    <string name="remixer_wallpapers">"Háttérképek"</string>
+    <string name="remixer_accents_summary">Kiemelőszín</string>
+    <string name="pulse_preview_title">"Most hallható"</string>
+    <string name="pulse_style">"Stílus"</string>
+    <string name="pulse_color">"Szín"</string>
+    <string name="pulse_color_accent">"Háttérkép"</string>
+    <string name="pulse_look">"Megjelenés"</string>
+    <string name="pulse_lockscreen">"Megjelenítés a lezárási képernyőn"</string>
+    <string name="accent_preview_button">"Gomb"</string>
+    <string name="accent_custom_title">"Egyéni szín"</string>
+    <string name="accent_custom_hue">"Színárnyalat"</string>
+    <string name="accent_custom_recent">"Legutóbbiak"</string>
+    <string name="accent_custom_apply">"Alkalmaz"</string>
+    <string name="accent_shade_default">"Alapértelmezett"</string>
+    <string name="accent_saturation">"Telítettség"</string>
+    <string name="remixer_qs_customize">"Személyre szabás"</string>
+    <string name="remixer_qs_style_section">"Stílus"</string>
+    <string name="remixer_lock_media_off">"Ki"</string>
+    <string name="remixer_lock_preview_device">"Ez a telefon"</string>
+    <string name="remixer_qs_preview_on">"Be"</string>
+    <string name="remixer_qs_preview_off">"Ki"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>Zseblámpa</item>
+        <item>"Ne zavarjanak"</item>
+        <item>"Automatikus elforgatás"</item>
+        <item>"Sötét téma"</item>
+        <item>"Hotspot"</item>
+        <item>"Repülős üzemmód"</item>
+        <item>"Adatforgalom-csökkentő"</item>
+        <item>NFC</item>
+        <item>"Szinkronizálás"</item>
+        <item>"QR-kód beolvasása"</item>
+    </string-array>
+    <string name="remixer_headers_summary">Háttérkép kiválasztása a gyorsbeállításokhoz</string>
+    <string name="header_preview_none">"Nincs kiválasztva kép"</string>
+    <string name="header_source_image">"Kép"</string>
+    <string name="header_source_photo">"Fotó"</string>
+    <string name="header_collections">"Gyűjtemények"</string>
+    <string name="header_images">"Képek"</string>
+    <string name="header_photo_choose">"Fotó kiválasztása"</string>
+    <string name="header_look">"Megjelenés"</string>
+    <string name="remixer_weather">"Időjárás"</string>
+    <string name="font_default">"Alapértelmezett"</string>
+    <string name="font_apply">"Alkalmaz"</string>
+    <string name="font_filter_all">"Összes"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Háttérkép kiválasztása"</string>
+    <string name="wallpaper_apply_home">"Kezdőképernyő"</string>
+    <string name="wallpaper_apply_lock">"Lezárási képernyő"</string>
+    <string name="remixer_settings_style">a Beállítások stílusa</string>
+    <string name="remixer_settings_style_original">"Eredeti"</string>
+    <string name="remixer_navbar_category">"Navigációs sáv"</string>
+</resources>

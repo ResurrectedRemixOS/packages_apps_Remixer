@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Сачувај"</string>
+    <string name="looks_import">"Увeзи"</string>
+    <string name="looks_name">"Назив"</string>
+    <string name="looks_apply">"Примени"</string>
+    <string name="looks_share">"Дели"</string>
+    <string name="looks_delete">"Избриши"</string>
+    <string name="looks_part_font">"Фонт"</string>
+    <string name="looks_part_wallpaper">"Позадина"</string>
+    <string name="looks_color_default">"Подразумевано"</string>
+    <string name="looks_create">"Направи"</string>
+    <string name="looks_edit">"Измени"</string>
+    <string name="looks_customize">"Прилагоди"</string>
+    <string name="looks_save_look">"Сачувај"</string>
+    <string name="looks_custom_color">"Прилагођена боја"</string>
+    <string name="looks_part_clock_color">"Боја сата"</string>
+</resources>

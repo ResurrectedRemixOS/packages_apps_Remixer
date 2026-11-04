@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="clock_faces_apply">"אישור"</string>
+    <string name="clock_faces_color">"צבע"</string>
+    <string name="clock_faces_color_default">"ברירת מחדל"</string>
+    <string name="clock_faces_size">"גודל"</string>
+    <string name="clock_faces_restart">"הפעלה מחדש"</string>
+</resources>

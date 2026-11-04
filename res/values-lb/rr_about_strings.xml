@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_ram">RAM</string>
+    <string name="rr_about_storage">Späicher</string>
+    <string name="rr_about_battery">Akku</string>
+    <string name="rr_about_kernel">Kernel</string>
+    <string name="rr_about_network">Netzwierk</string>
+    <string name="rr_about_hidden">Verstoppt</string>
+</resources>

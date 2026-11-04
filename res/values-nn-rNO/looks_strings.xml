@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">Lagra</string>
+    <string name="looks_import">Importer</string>
+    <string name="looks_name">Namn</string>
+    <string name="looks_apply">Bruk</string>
+    <string name="looks_share">Del</string>
+    <string name="looks_delete">Slett</string>
+    <string name="looks_part_font">Skrifttype</string>
+    <string name="looks_part_wallpaper">Bakgrunnsbilete</string>
+    <string name="looks_color_default">Standard</string>
+    <string name="looks_create">Lag</string>
+    <string name="looks_edit">Rediger</string>
+    <string name="looks_customize">Tilpassa</string>
+    <string name="looks_save_look">Lagra</string>
+    <string name="looks_custom_color">Eigen farge</string>
+    <string name="looks_part_clock_color">Klokkefarge</string>
+</resources>

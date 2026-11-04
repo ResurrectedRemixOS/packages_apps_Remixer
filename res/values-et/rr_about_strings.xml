@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"Mälu"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"Salvestusruum"</string>
+    <string name="rr_about_battery">"Aku"</string>
+    <string name="rr_about_kernel">"Tuum"</string>
+    <string name="rr_about_software">"Tarkvara"</string>
+    <string name="rr_about_updates">"Värskendused"</string>
+    <string name="rr_about_build_date">Järgu kuupäev</string>
+    <string name="rr_about_this_phone">"See telefon"</string>
+    <string name="rr_about_network">"Võrk"</string>
+    <string name="rr_about_hidden">Peidetud</string>
+</resources>

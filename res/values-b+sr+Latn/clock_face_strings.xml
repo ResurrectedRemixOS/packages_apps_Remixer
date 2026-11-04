@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="clock_faces_apply">"Primeni"</string>
+    <string name="clock_faces_color">"Boja"</string>
+    <string name="clock_faces_color_default">"Podrazumevano"</string>
+    <string name="clock_faces_size">"Veličina"</string>
+    <string name="clock_faces_restart">"Restartuj"</string>
+</resources>

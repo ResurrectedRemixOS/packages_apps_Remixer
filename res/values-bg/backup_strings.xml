@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"Резервни копия и възстановяване"</string>
+    <string name="backup_restore">"Възстановяване"</string>
+    <string name="backup_auto">"Автоматично"</string>
+    <string name="backup_group_status_bar">"Лента на състоянието"</string>
+    <string name="backup_group_lock_screen">"Заключен екран"</string>
+    <string name="backup_group_theme">"Тема"</string>
+    <string name="backup_group_qs">"Бързи настройки"</string>
+    <string name="backup_group_notifications">"Известия"</string>
+    <string name="backup_group_gestures">Жестове</string>
+    <string name="backup_group_other">"Друго"</string>
+    <string name="backup_done">"Готово"</string>
+</resources>

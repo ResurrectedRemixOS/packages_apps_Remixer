@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="clock_faces_apply">"Застосувати"</string>
+    <string name="clock_faces_color">"Колір"</string>
+    <string name="clock_faces_color_default">"За умовчанням"</string>
+    <string name="clock_faces_color_album">Обкладинка альбому</string>
+    <string name="clock_faces_size_position">Розмір і положення</string>
+    <string name="clock_faces_size">"Розмір"</string>
+    <string name="clock_faces_restart">"Перезапустити"</string>
+</resources>

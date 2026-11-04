@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"ਮਿਟਾਓ"</string>
+    <string name="action_reset">"ਰੀਸੈੱਟ ਕਰੋ"</string>
+    <string name="action_search_apps">"ਐਪਾਂ ਖੋਜੋ"</string>
+    <string name="action_select_all">"ਸਭ ਚੁਣੋ"</string>
+    <string name="app_spoofing_clear_all">"ਸਭ ਕਲੀਅਰ ਕਰੋ"</string>
+    <string name="app_spoofing_disabled">"ਬੰਦ ਕੀਤਾ ਗਿਆ"</string>
+    <string name="common_clear_search">"ਖੋਜ ਕਲੀਅਰ ਕਰੋ"</string>
+    <string name="custom_spoof_profile_brand">"ਬ੍ਰਾਂਡ"</string>
+    <string name="custom_spoof_profile_device">"ਡੀਵਾਈਸ"</string>
+    <string name="custom_spoof_profile_manufacturer">"ਨਿਰਮਾਤਾ"</string>
+    <string name="custom_spoof_profile_model">"ਮਾਡਲ"</string>
+    <string name="hide_system_apps">"ਸਿਸਟਮ ਐਪਾਂ ਨੂੰ ਲੁਕਾਓ"</string>
+    <string name="pif_recommended_suffix">"ਸਿਫ਼ਾਰਸ਼ੀ"</string>
+    <string name="pif_status">"ਸਥਿਤੀ"</string>
+    <string name="pif_wipe_confirm">"ਡਾਟਾ ਕਲੀਅਰ ਕਰੋ"</string>
+    <string name="show_system_apps">"ਸਿਸਟਮ ਐਪਾਂ ਦਿਖਾਓ"</string>
+    <string name="spoofing_reset_defaults_confirm">"ਰੀਸੈੱਟ ਕਰੋ"</string>
+    <string name="ts_mode_auto">"ਆਟੋ"</string>
+    <string name="ts_untrusted_root_replace">"ਤਬਦੀਲ ਕਰੋ"</string>
+    <string name="ts_verification_mode_auto">"ਆਟੋ"</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Аккаунт"</string>
+    <string name="rr_homepage_storage">"Хранилище"</string>
+    <string name="rr_homepage_battery">"Батарея"</string>
+    <string name="rr_homepage_connections">"Подключения"</string>
+    <string name="rr_homepage_device">"Устройство"</string>
+    <string name="rr_homepage_privacy">Конфиденциальность и безопасность</string>
+    <string name="rr_homepage_help">"Справка"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"Мобильный интернет"</string>
+    <string name="rr_live_offline">"Нет подключения к Интернету"</string>
+    <string name="rr_live_on">"Вкл."</string>
+    <string name="rr_live_off">"Отключено"</string>
+    <string name="rr_homepage_charging">"Зарядка"</string>
+    <string name="rr_homepage_internet">"Интернет"</string>
+    <string name="rr_homepage_mobile_data">"Мобильный интернет"</string>
+    <string name="rr_homepage_not_connected">"Не подключено"</string>
+    <string name="rr_homepage_dark_theme">"Тёмная тема"</string>
+    <string name="rr_homepage_on">"Вкл."</string>
+    <string name="rr_homepage_off">"Отключено"</string>
+    <string name="rr_homepage_signed_in">"Вход выполнен"</string>
+    <string name="rr_homepage_device_word">"НАСТРОЙКИ"</string>
+    <string name="rr_group_apps">"Приложения и уведомления"</string>
+    <string name="rr_group_security">"Защита и кон­фи­ден­циаль­ность"</string>
+    <string name="rr_group_accounts_plain">"Аккаунты"</string>
+    <string name="rr_group_accessibility_summary">"Экран, элементы управления, аудио"</string>
+    <string name="remixer_statusbar">"Строка состояния"</string>
+    <string name="remixer_qs">"Быстрые настройки"</string>
+    <string name="remixer_notifications">"Уведомления"</string>
+    <string name="remixer_theme">"Тема"</string>
+    <string name="remixer_lockscreen">"Заблокированный экран"</string>
+    <string name="remixer_udfps_icon">Иконка подэкранного отпечатка пальца</string>
+    <string name="remixer_udfps_animation">Анимация UDFPS</string>
+    <string name="remixer_navigation">Навигация</string>
+    <string name="remixer_misc">"Другое"</string>
+    <string name="misc_category_volume">"Громкость"</string>
+    <string name="misc_category_backup">"Резервное копирование"</string>
+    <string name="misc_category_scrolling">"Прокрутка"</string>
+    <string name="remixer_fonts">"Шрифты"</string>
+    <string name="remixer_wallpapers">"Обои"</string>
+    <string name="remixer_accents_summary">Цветовой акцент</string>
+    <string name="pulse_preview_title">"Что играет"</string>
+    <string name="pulse_style">"Стиль"</string>
+    <string name="pulse_color">"Цвет"</string>
+    <string name="pulse_color_accent">"Обои"</string>
+    <string name="pulse_look">"Оформление"</string>
+    <string name="pulse_lockscreen">"Показывать на заблокированном экране"</string>
+    <string name="accent_preview_button">"Кнопка"</string>
+    <string name="accent_custom_title">"Пользовательский цвет"</string>
+    <string name="accent_custom_hue">"Оттенок"</string>
+    <string name="accent_custom_recent">"Недавние"</string>
+    <string name="accent_custom_apply">"Применить"</string>
+    <string name="accent_shade_default">"По умолчанию"</string>
+    <string name="accent_saturation">"Насыщенность"</string>
+    <string name="remixer_qs_customize">"Настроить"</string>
+    <string name="remixer_qs_style_section">"Стиль"</string>
+    <string name="remixer_lock_media_off">"Отключено"</string>
+    <string name="remixer_lock_preview_device">"Этот телефон"</string>
+    <string name="remixer_qs_preview_on">"Вкл."</string>
+    <string name="remixer_qs_preview_off">"Отключено"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Интернет"</item>
+        <item>Bluetooth</item>
+        <item>Фонарик</item>
+        <item>"Не беспокоить"</item>
+        <item>"Автоповорот"</item>
+        <item>"Тёмная тема"</item>
+        <item>"Точка доступа"</item>
+        <item>"Режим полета"</item>
+        <item>"Экономия трафика"</item>
+        <item>NFC</item>
+        <item>"Синхр."</item>
+        <item>"Отсканируйте QR-код"</item>
+    </string-array>
+    <string name="remixer_headers_summary">Выбор фонового изображения заголовка быстрых настроек</string>
+    <string name="header_preview_none">"Изображение не выбрано"</string>
+    <string name="header_source_image">"Изображение"</string>
+    <string name="header_source_photo">"Фото"</string>
+    <string name="header_collections">"Подборки"</string>
+    <string name="header_images">"Изображения"</string>
+    <string name="header_photo_choose">"Выбрать фото"</string>
+    <string name="header_look">"Оформление"</string>
+    <string name="remixer_weather">Погода</string>
+    <string name="font_default">"По умолчанию"</string>
+    <string name="font_apply">"Применить"</string>
+    <string name="font_filter_all">"Все"</string>
+    <string name="font_filter_serif">"С засечками"</string>
+    <string name="wallpaper_apply_title">"Установить как обои"</string>
+    <string name="wallpaper_apply_home">"Главный экран"</string>
+    <string name="wallpaper_apply_lock">"Заблокированный экран"</string>
+    <string name="remixer_spoofing">Подмена</string>
+    <string name="remixer_settings_style_original">"Оригинал"</string>
+    <string name="remixer_navbar_category">"Панель навигации"</string>
+</resources>

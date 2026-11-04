@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"ሰርዝ"</string>
+    <string name="action_reset">"ዳግም አስጀምር"</string>
+    <string name="action_search_apps">"መተግበሪያዎችን ፈልግ"</string>
+    <string name="action_select_all">"ሁሉንም ምረጥ"</string>
+    <string name="app_spoofing_clear_all">"ሁሉንም አጽዳ"</string>
+    <string name="app_spoofing_disabled">"ተሰናክሏል"</string>
+    <string name="common_clear_search">"ፍለጋን አጽዳ"</string>
+    <string name="custom_spoof_profile_brand">"የምርት ስም"</string>
+    <string name="custom_spoof_profile_device">"መሣሪያ"</string>
+    <string name="custom_spoof_profile_manufacturer">"አምራች"</string>
+    <string name="custom_spoof_profile_model">"ሞዴል"</string>
+    <string name="hide_system_apps">"የሥርዓት መተግበሪያዎችን ደብቅ"</string>
+    <string name="pif_recommended_suffix">"የሚመከር"</string>
+    <string name="pif_status">"ሁኔታ"</string>
+    <string name="pif_wipe_confirm">"ውሂብን አጽዳ"</string>
+    <string name="show_system_apps">"የስርዓት መተግበሪያዎችን አሳይ"</string>
+    <string name="spoofing_reset_defaults_confirm">"ዳግም አስጀምር"</string>
+    <string name="ts_mode_auto">"ራስ-ሰር"</string>
+    <string name="ts_untrusted_root_keep">"ጠብቅ"</string>
+    <string name="ts_untrusted_root_replace">"ተካ"</string>
+    <string name="ts_verification_mode_auto">"ራስ-ሰር"</string>
+</resources>

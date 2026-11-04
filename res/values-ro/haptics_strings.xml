@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"Salvează"</string>
+    <string name="haptic_remix_delete_button">"Șterge"</string>
+    <string name="haptic_remix_default">"Prestabilit"</string>
+    <string name="haptic_remix_calls">"Apeluri"</string>
+    <string name="haptic_remix_color_blue">"Albastru"</string>
+    <string name="haptic_remix_color_green">"Verde"</string>
+    <string name="haptic_remix_color_white">"Alb"</string>
+</resources>

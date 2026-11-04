@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Хадгалах"</string>
+    <string name="looks_import">"Импортлох"</string>
+    <string name="looks_name">"Нэр"</string>
+    <string name="looks_apply">"Ашиглах"</string>
+    <string name="looks_share">"Хуваалцах"</string>
+    <string name="looks_delete">"Устгах"</string>
+    <string name="looks_part_font">"Фонт"</string>
+    <string name="looks_part_wallpaper">"Дэлгэцийн зураг"</string>
+    <string name="looks_color_default">"Өгөгдмөл"</string>
+    <string name="looks_create">"Үүсгэх"</string>
+    <string name="looks_edit">"Засах"</string>
+    <string name="looks_customize">"Өөрчлөх"</string>
+    <string name="looks_save_look">"Хадгалах"</string>
+    <string name="looks_custom_color">"Захиалгат өнгө"</string>
+    <string name="looks_part_clock_color">"Цагны өнгө"</string>
+</resources>

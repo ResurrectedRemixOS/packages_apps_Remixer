@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Հաշիվ"</string>
+    <string name="rr_homepage_storage">"Տարածք"</string>
+    <string name="rr_homepage_battery">"Մարտկոց"</string>
+    <string name="rr_homepage_connections">"Միացումներ"</string>
+    <string name="rr_homepage_device">"Սարք"</string>
+    <string name="rr_homepage_help">"Օգնություն"</string>
+    <string name="rr_live_wifi">"Wi‑Fi"</string>
+    <string name="rr_live_mobile">"Բջջային"</string>
+    <string name="rr_live_offline">"Անցանց"</string>
+    <string name="rr_live_on">"Միացված է"</string>
+    <string name="rr_live_off">"Անջատված է"</string>
+    <string name="rr_homepage_charging">"Լիցքավորում"</string>
+    <string name="rr_homepage_internet">"Ինտերնետ"</string>
+    <string name="rr_homepage_mobile_data">"Բջջային ինտերնետ"</string>
+    <string name="rr_homepage_not_connected">"Միացված չէ"</string>
+    <string name="rr_homepage_dark_theme">"Մուգ թեմա"</string>
+    <string name="rr_homepage_on">"Միացված է"</string>
+    <string name="rr_homepage_off">"Անջատված է"</string>
+    <string name="rr_homepage_signed_in">"Դուք մուտք եք գործել"</string>
+    <string name="rr_homepage_device_word">"ԿԱՐԳԱՎՈՐՈՒՄՆԵՐ"</string>
+    <string name="rr_group_apps">"Հավելվածներ և ծանուցումներ"</string>
+    <string name="rr_group_security">"Ապահովություն և գաղտնիություն"</string>
+    <string name="rr_group_accounts_plain">"Հաշիվներ"</string>
+    <string name="rr_group_accessibility_summary">"Էկրան, փոխազդեցություն, աուդիո"</string>
+    <string name="remixer_statusbar">"Կարգավիճակի գոտի"</string>
+    <string name="remixer_qs">"Արագ կարգավորումներ"</string>
+    <string name="remixer_notifications">"Ծանուցումներ"</string>
+    <string name="remixer_theme">"Թեմա"</string>
+    <string name="remixer_lockscreen">"Կողպէկրան"</string>
+    <string name="remixer_misc">"Այլ"</string>
+    <string name="misc_category_volume">"Ձայն"</string>
+    <string name="misc_category_backup">"Պահուստավորում"</string>
+    <string name="misc_category_scrolling">"Ոլորում"</string>
+    <string name="remixer_fonts">"Տառատեսակներ"</string>
+    <string name="remixer_wallpapers">"Պաստառներ"</string>
+    <string name="pulse_style">"Ոճ"</string>
+    <string name="pulse_color">"Գույն"</string>
+    <string name="pulse_color_accent">"Պաստառ"</string>
+    <string name="pulse_look">"Տեսք"</string>
+    <string name="pulse_lockscreen">"Ցույց տալ կողպէկրանին"</string>
+    <string name="accent_preview_button">"Կոճակ"</string>
+    <string name="accent_custom_title">"Հատուկ գույն"</string>
+    <string name="accent_custom_hue">"Գուներանգ"</string>
+    <string name="accent_custom_recent">"Վերջինները"</string>
+    <string name="accent_custom_apply">"Կիրառել"</string>
+    <string name="accent_shade_default">"Կանխադրված"</string>
+    <string name="accent_saturation">"Հագեցում"</string>
+    <string name="remixer_qs_customize">"Կարգավորել"</string>
+    <string name="remixer_qs_style_section">"Ոճ"</string>
+    <string name="remixer_lock_media_off">"Անջատված է"</string>
+    <string name="remixer_lock_preview_device">"Այս հեռախոսը"</string>
+    <string name="remixer_qs_preview_on">"Միացված է"</string>
+    <string name="remixer_qs_preview_off">"Անջատված է"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Ինտերնետ"</item>
+        <item>Bluetooth</item>
+        <item>"Լապտեր"</item>
+        <item>"Չանհանգստացնել"</item>
+        <item>"Ինքնապտտում"</item>
+        <item>"Մուգ թեմա"</item>
+        <item>"Թեժ կետ"</item>
+        <item>"Ավիառեժիմ"</item>
+        <item>"Թրաֆիկի տնտեսում"</item>
+        <item>NFC</item>
+        <item>"Համաժամացնել"</item>
+        <item>"QR կոդի սկանավորում"</item>
+    </string-array>
+    <string name="header_preview_none">"Որևէ պատկեր ընտրված չէ"</string>
+    <string name="header_source_image">"Պատկեր"</string>
+    <string name="header_source_photo">"Լուսանկար"</string>
+    <string name="header_collections">"Հավաքածուներ"</string>
+    <string name="header_images">"Պատկերներ"</string>
+    <string name="header_photo_choose">"Ընտրել լուսանկար"</string>
+    <string name="header_look">"Տեսք"</string>
+    <string name="remixer_weather">"Եղանակ"</string>
+    <string name="font_default">"Կանխադրված"</string>
+    <string name="font_apply">"Կիրառել"</string>
+    <string name="font_filter_all">"Բոլորը"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Սահմանել պաստառ"</string>
+    <string name="wallpaper_apply_home">"Հիմնական էկրան"</string>
+    <string name="wallpaper_apply_lock">"Կողպէկրան"</string>
+    <string name="remixer_settings_style_original">"Բնօրինակ"</string>
+    <string name="remixer_navbar_category">"Նավիգացիայի գոտի"</string>
+</resources>

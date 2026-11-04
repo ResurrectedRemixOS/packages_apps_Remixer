@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Dzēst"</string>
+    <string name="action_reset">"Atiestatīt"</string>
+    <string name="action_search_apps">"Meklēt lietotnes"</string>
+    <string name="action_select_all">"Atlasīt visu"</string>
+    <string name="app_spoofing_clear_all">"Notīrīt visu"</string>
+    <string name="app_spoofing_disabled">"Atspējots"</string>
+    <string name="common_clear_search">"Notīrīt meklēšanas lauku"</string>
+    <string name="custom_spoof_profile_brand">"Zīmols"</string>
+    <string name="custom_spoof_profile_device">"Ierīce"</string>
+    <string name="custom_spoof_profile_manufacturer">"Ražotājs"</string>
+    <string name="custom_spoof_profile_model">"Modelis"</string>
+    <string name="hide_system_apps">"Slēpt sistēmas lietotnes"</string>
+    <string name="pif_recommended_suffix">"Ieteicama"</string>
+    <string name="pif_status">"Statuss"</string>
+    <string name="pif_wipe_confirm">"Notīrīt datus"</string>
+    <string name="show_system_apps">"Rādīt sistēmas lietotnes"</string>
+    <string name="spoofing_reset_defaults_confirm">"Atiestatīt"</string>
+    <string name="ts_mode_auto">"Automātiski"</string>
+    <string name="ts_untrusted_root_keep">"Paturēt"</string>
+    <string name="ts_untrusted_root_replace">"Aizstāt"</string>
+    <string name="ts_verification_mode_auto">"Automātiski"</string>
+</resources>

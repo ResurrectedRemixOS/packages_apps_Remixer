@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="charge_report_battery">"బ్యాటరీ"</string>
+    <string name="charge_report_temp">"ఉష్ణోగ్రత"</string>
+    <string name="charge_report_time">"సమయం"</string>
+</resources>

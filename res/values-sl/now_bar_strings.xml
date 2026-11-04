@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Klici"</string>
+    <string name="now_bar_live_apps_all">"Vse aplikacije"</string>
+    <string name="now_bar_charging">"Polnjenje"</string>
+    <string name="now_bar_flashlight">Svetilka</string>
+    <string name="now_bar_style">"Slog"</string>
+    <string name="now_bar_color">"Barva"</string>
+    <string name="now_bar_outline">"Oris"</string>
+    <string name="now_bar_width">"Širina"</string>
+    <string name="now_bar_music_category">"Glasba"</string>
+    <string name="now_bar_buttons">Gumbi</string>
+    <string name="now_bar_text">Besedilo</string>
+    <string name="now_bar_text_size">"Velikost besedila"</string>
+</resources>

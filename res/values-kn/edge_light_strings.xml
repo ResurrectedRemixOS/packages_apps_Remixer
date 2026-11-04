@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"ಬಣ್ಣ"</string>
+    <string name="edge_light_color_wallpaper">"ವಾಲ್‌ಪೇಪರ್ ಬಣ್ಣ"</string>
+    <string name="edge_light_custom_color_title">"ಕಸ್ಟಮ್ ಬಣ್ಣ"</string>
+    <string name="edge_light_style_title">"ಶೈಲಿ"</string>
+    <string name="edge_light_moment_notifications">"ನೋಟಿಫಿಕೇಶನ್‌ಗಳು"</string>
+    <string name="edge_light_moment_calls">"ಒಳಬರುವ ಕರೆಗಳು"</string>
+    <string name="edge_light_moment_battery_low">ಮಿಂತಿಣಿ ಕ್ಷೀಣ</string>
+    <string name="edge_light_moment_unlock">"ಅನ್‌ಲಾಕ್ ಮಾಡಲಾಗಿದೆ"</string>
+    <string name="remixer_color_default">"ಡೀಫಾಲ್ಟ್"</string>
+</resources>

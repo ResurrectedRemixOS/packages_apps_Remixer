@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">Cuenta</string>
+    <string name="rr_homepage_storage">Almacenamientu</string>
+    <string name="rr_homepage_battery">Batería</string>
+    <string name="rr_homepage_connections">Conexones</string>
+    <string name="rr_homepage_device">Preséu</string>
+    <string name="rr_homepage_privacy">Privacidá y seguranza</string>
+    <string name="rr_homepage_help">Ayuda</string>
+    <string name="rr_live_mobile">Móvil</string>
+    <string name="rr_live_offline">Ensin conexón</string>
+    <string name="rr_live_on">Sí</string>
+    <string name="rr_live_off">Non</string>
+    <string name="rr_homepage_charging">En carga</string>
+    <string name="rr_homepage_internet">Internet</string>
+    <string name="rr_homepage_mobile_data">Datos móviles</string>
+    <string name="rr_homepage_dark_theme">Estilu escuru</string>
+    <string name="rr_homepage_on">Sí</string>
+    <string name="rr_homepage_off">Non</string>
+    <string name="rr_homepage_signed_in">Anicióse la sesión</string>
+    <string name="rr_homepage_device_word">CONFIGURACIÓN</string>
+    <string name="rr_group_security">Seguranza y privacidá</string>
+    <string name="rr_group_accounts_plain">Cuentes</string>
+    <string name="remixer_statusbar">Barra d\'estáu</string>
+    <string name="remixer_notifications">Avisos</string>
+    <string name="remixer_theme">Estilu</string>
+    <string name="remixer_lockscreen">Pantalla de bloquéu</string>
+    <string name="remixer_navigation">Navegación</string>
+    <string name="remixer_wallpapers">Fondos de pantalla</string>
+    <string name="pulse_preview_title">En reproducción</string>
+    <string name="pulse_style">Estilu</string>
+    <string name="pulse_color_accent">Fondu de pantalla</string>
+    <string name="pulse_look">Aspeutu</string>
+    <string name="accent_preview_button">Botón</string>
+    <string name="accent_custom_title">Color personalizáu</string>
+    <string name="accent_custom_recent">De recién</string>
+    <string name="accent_custom_apply">Aplicar</string>
+    <string name="accent_shade_default">Por defeutu</string>
+    <string name="accent_saturation">Saturación</string>
+    <string name="remixer_qs_customize">Personalizar</string>
+    <string name="remixer_qs_style_section">Estilu</string>
+    <string name="remixer_lock_media_off">Non</string>
+    <string name="remixer_lock_preview_device">Esti teléfonu</string>
+    <string name="remixer_qs_preview_on">Sí</string>
+    <string name="remixer_qs_preview_off">Non</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>Internet</item>
+        <item>Bluetooth</item>
+        <item>Llinterna</item>
+        <item>Nun molestar</item>
+        <item>Voltéu automáticu</item>
+        <item>Estilu escuru</item>
+        <item>Puntu Wi-Fi</item>
+        <item>Mou avión</item>
+        <item>Aforrador de datos</item>
+        <item>NFC</item>
+        <item>Sincronización</item>
+        <item>Escanéu d\'un códigu QR</item>
+    </string-array>
+    <string name="header_source_image">Imaxe</string>
+    <string name="header_source_photo">Semeya</string>
+    <string name="header_images">Imáxenes</string>
+    <string name="header_look">Aspeutu</string>
+    <string name="remixer_weather">Clima</string>
+    <string name="font_default">Por defeutu</string>
+    <string name="font_apply">Aplicar</string>
+    <string name="font_filter_all">Too</string>
+    <string name="wallpaper_apply_title">Afitar el fondu de pantalla</string>
+    <string name="wallpaper_apply_home">Pantalla d\'aniciu</string>
+    <string name="wallpaper_apply_lock">Pantalla de bloquéu</string>
+    <string name="remixer_navbar_category">Barra de navegación</string>
+</resources>

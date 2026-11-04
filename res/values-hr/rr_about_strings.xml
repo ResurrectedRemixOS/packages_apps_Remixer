@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_unofficial">Neslužbeno</string>
+    <string name="rr_about_memory">"Memorija"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"Pohrana"</string>
+    <string name="rr_about_battery">"Baterija"</string>
+    <string name="rr_about_kernel">"Jezgra sustava"</string>
+    <string name="rr_about_software">"Softver"</string>
+    <string name="rr_about_updates">"Ažuriranja"</string>
+    <string name="rr_about_build_date">Datum izdavanja</string>
+    <string name="rr_about_this_phone">"Ovaj telefon"</string>
+    <string name="rr_about_network">"Mreža"</string>
+    <string name="rr_about_hidden">Skriveno</string>
+</resources>

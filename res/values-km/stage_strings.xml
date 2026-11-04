@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lock_stage_reset">"កំណត់​ឡើងវិញ"</string>
+    <string name="lock_stage_save">"រក្សាទុក"</string>
+    <string name="stage_tile_clock">"នាឡិកា"</string>
+    <string name="stage_tile_weather">"អាកាសធាតុ"</string>
+    <string name="stage_tile_shortcuts">"ផ្លូវកាត់"</string>
+</resources>

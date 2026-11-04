@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">Cof</string>
+    <string name="rr_about_ram">RAM</string>
+    <string name="rr_about_storage">Storfa</string>
+    <string name="rr_about_battery">Batri</string>
+    <string name="rr_about_kernel">Cnewyllyn</string>
+    <string name="rr_about_updates">Diweddariadau</string>
+    <string name="rr_about_build_date">Dyddiad adeiledd</string>
+    <string name="rr_about_this_phone">Y ffôn hwn</string>
+    <string name="rr_about_network">Rhwydwaith</string>
+    <string name="rr_about_hidden">Cudd</string>
+</resources>

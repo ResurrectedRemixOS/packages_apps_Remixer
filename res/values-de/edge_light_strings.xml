@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Farbe"</string>
+    <string name="edge_light_color_notification">Benachrichtigungsfarbe</string>
+    <string name="edge_light_color_wallpaper">"Hintergrundfarbe"</string>
+    <string name="edge_light_custom_color_title">"Benutzerdefinierte Farbe"</string>
+    <string name="edge_light_style_title">"Stil"</string>
+    <string name="edge_light_moment_notifications">"Benachrichtigungen"</string>
+    <string name="edge_light_moment_calls">"Eingehende Anrufe"</string>
+    <string name="edge_light_moment_battery_low">Akku schwach</string>
+    <string name="edge_light_moment_unlock">"Entsperrt"</string>
+    <string name="remixer_color_default">"Standard"</string>
+</resources>

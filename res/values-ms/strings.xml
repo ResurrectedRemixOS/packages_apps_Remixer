@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Akaun"</string>
+    <string name="rr_homepage_storage">"Storan"</string>
+    <string name="rr_homepage_battery">"Bateri"</string>
+    <string name="rr_homepage_connections">"Sambungan"</string>
+    <string name="rr_homepage_device">"Peranti"</string>
+    <string name="rr_homepage_help">"Bantuan"</string>
+    <string name="rr_live_wifi">"Wi‑Fi"</string>
+    <string name="rr_live_mobile">"Mudah alih"</string>
+    <string name="rr_live_offline">"Luar talian"</string>
+    <string name="rr_live_on">"Hidup"</string>
+    <string name="rr_live_off">"Mati"</string>
+    <string name="rr_homepage_charging">"Mengecas"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_homepage_mobile_data">"Data mudah alih"</string>
+    <string name="rr_homepage_not_connected">"Tidak disambungkan"</string>
+    <string name="rr_homepage_dark_theme">"Tema gelap"</string>
+    <string name="rr_homepage_on">"Hidup"</string>
+    <string name="rr_homepage_off">"Mati"</string>
+    <string name="rr_homepage_signed_in">"Dilog masuk"</string>
+    <string name="rr_homepage_device_word">"TETAPAN"</string>
+    <string name="rr_group_apps">"Apl &amp; pemberitahuan"</string>
+    <string name="rr_group_security">"Keselamatan &amp; privasi"</string>
+    <string name="rr_group_accounts_plain">"Akaun"</string>
+    <string name="rr_group_accessibility_summary">"Paparan, interaksi, audio"</string>
+    <string name="remixer_statusbar">"Bar status"</string>
+    <string name="remixer_qs">"Tetapan pantas"</string>
+    <string name="remixer_notifications">"Pemberitahuan"</string>
+    <string name="remixer_theme">"Tema"</string>
+    <string name="remixer_lockscreen">"Skrin kunci"</string>
+    <string name="remixer_misc">"Pelbagai"</string>
+    <string name="misc_category_volume">"Kelantangan"</string>
+    <string name="misc_category_backup">"Sandaran"</string>
+    <string name="misc_category_scrolling">"Penatalan"</string>
+    <string name="remixer_fonts">"Fon"</string>
+    <string name="remixer_wallpapers">"Hiasan latar"</string>
+    <string name="pulse_preview_title">"Sedang dimainkan"</string>
+    <string name="pulse_style">"Gaya"</string>
+    <string name="pulse_color">"Warna"</string>
+    <string name="pulse_color_accent">"Hiasan latar"</string>
+    <string name="pulse_look">"Penampilan"</string>
+    <string name="pulse_lockscreen">"Tunjukkan pada skrin kunci"</string>
+    <string name="accent_preview_button">"Butang"</string>
+    <string name="accent_custom_title">"Warna tersuai"</string>
+    <string name="accent_custom_hue">"Rona"</string>
+    <string name="accent_custom_recent">"Terbaharu"</string>
+    <string name="accent_custom_apply">"Gunakan"</string>
+    <string name="accent_shade_default">"Lalai"</string>
+    <string name="accent_saturation">"Ketepuan"</string>
+    <string name="remixer_qs_customize">"Sesuaikan"</string>
+    <string name="remixer_qs_style_section">"Gaya"</string>
+    <string name="remixer_lock_media_off">"Mati"</string>
+    <string name="remixer_lock_preview_device">"Telefon ini"</string>
+    <string name="remixer_qs_preview_on">"Hidup"</string>
+    <string name="remixer_qs_preview_off">"Mati"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>"Lampu Suluh"</item>
+        <item>"Jangan Ganggu"</item>
+        <item>"Autoputar"</item>
+        <item>"Tema gelap"</item>
+        <item>"Tempat Liputan"</item>
+        <item>"Mod pesawat"</item>
+        <item>"Penjimat Data"</item>
+        <item>NFC</item>
+        <item>"Penyegerakan"</item>
+        <item>"Imbas kod QR"</item>
+    </string-array>
+    <string name="header_preview_none">"Tiada imej dipilih"</string>
+    <string name="header_source_image">"Imej"</string>
+    <string name="header_source_photo">"Foto"</string>
+    <string name="header_collections">"Koleksi"</string>
+    <string name="header_images">"Imej"</string>
+    <string name="header_photo_choose">"Pilih foto"</string>
+    <string name="header_look">"Penampilan"</string>
+    <string name="remixer_weather">"Cuaca"</string>
+    <string name="font_default">"Lalai"</string>
+    <string name="font_apply">"Gunakan"</string>
+    <string name="font_filter_all">"Semua"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Tetapkan hiasan latar"</string>
+    <string name="wallpaper_apply_home">"Skrin utama"</string>
+    <string name="wallpaper_apply_lock">"Skrin kunci"</string>
+    <string name="remixer_settings_style_original">"Asal"</string>
+    <string name="remixer_navbar_category">"Bar navigasi"</string>
+</resources>

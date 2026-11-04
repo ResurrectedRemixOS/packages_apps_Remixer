@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"ഇല്ലാതാക്കുക"</string>
+    <string name="action_reset">"റീസെറ്റ് ചെയ്യുക"</string>
+    <string name="action_search_apps">"ആപ്പുകൾ തിരയുക"</string>
+    <string name="action_select_all">"എല്ലാം തിരഞ്ഞെടുക്കുക"</string>
+    <string name="app_spoofing_clear_all">"എല്ലാം മായ്‌ക്കുക"</string>
+    <string name="app_spoofing_disabled">"പ്രവർത്തനരഹിതമാക്കി"</string>
+    <string name="common_clear_search">"തിരയൽ മായ്ക്കുക"</string>
+    <string name="custom_spoof_profile_brand">"ബ്രാൻഡ്"</string>
+    <string name="custom_spoof_profile_device">"ഉപകരണം"</string>
+    <string name="custom_spoof_profile_manufacturer">"നിർമ്മാതാവ്"</string>
+    <string name="custom_spoof_profile_model">"മോഡല്‍"</string>
+    <string name="hide_system_apps">"സിസ്‌റ്റം ആപ്പുകൾ മറയ്‌ക്കുക"</string>
+    <string name="pif_recommended_suffix">"നിർദ്ദേശിക്കുന്നത്"</string>
+    <string name="pif_status">"നില"</string>
+    <string name="pif_wipe_confirm">"വിവരം മായ്‌ക്കുക"</string>
+    <string name="show_system_apps">"സിസ്റ്റം ആപ്പുകൾ കാണിക്കുക"</string>
+    <string name="spoofing_reset_defaults_confirm">"റീസെറ്റ് ചെയ്യുക"</string>
+    <string name="ts_mode_auto">"യാന്ത്രികം"</string>
+    <string name="ts_untrusted_root_replace">"മാറ്റി മറ്റൊന്ന് നൽകുക"</string>
+    <string name="ts_verification_mode_auto">"യാന്ത്രികം"</string>
+</resources>

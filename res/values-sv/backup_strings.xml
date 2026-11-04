@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"Säkerhetskopiera och återställ"</string>
+    <string name="backup_restore">"Återställ"</string>
+    <string name="backup_part_boot">Startanimering</string>
+    <string name="backup_auto">"Automatiskt"</string>
+    <string name="backup_group_status_bar">"Statusfält"</string>
+    <string name="backup_group_lock_screen">"Låsskärm"</string>
+    <string name="backup_group_theme">"Tema"</string>
+    <string name="backup_group_qs">"Snabbinställningar"</string>
+    <string name="backup_group_notifications">"Aviseringar"</string>
+    <string name="backup_group_gestures">Gester</string>
+    <string name="backup_group_other">"Övrigt"</string>
+    <string name="backup_done">"Klar"</string>
+    <string name="volume_style_title">Volympanelens stil</string>
+</resources>

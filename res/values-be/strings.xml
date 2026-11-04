@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Уліковы запіс"</string>
+    <string name="rr_homepage_storage">"Сховішча"</string>
+    <string name="rr_homepage_battery">"Акумулятар"</string>
+    <string name="rr_homepage_connections">"Падключэнні"</string>
+    <string name="rr_homepage_device">"Прылада"</string>
+    <string name="rr_homepage_privacy">Прыватнасць і бяспека</string>
+    <string name="rr_homepage_help">"Даведка"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"Мабільны інтэрнэт"</string>
+    <string name="rr_live_offline">"Пазасеткавы рэжым"</string>
+    <string name="rr_live_on">"Уключана"</string>
+    <string name="rr_live_off">"Выключана"</string>
+    <string name="rr_homepage_charging">"Зарадка"</string>
+    <string name="rr_homepage_internet">"Інтэрнэт"</string>
+    <string name="rr_homepage_mobile_data">"Мабільная перадача даных"</string>
+    <string name="rr_homepage_not_connected">"Не падключана"</string>
+    <string name="rr_homepage_dark_theme">"Цёмная тэма"</string>
+    <string name="rr_homepage_on">"Уключана"</string>
+    <string name="rr_homepage_off">"Выключана"</string>
+    <string name="rr_homepage_signed_in">"Уваход выкананы"</string>
+    <string name="rr_homepage_device_word">"НАЛАДЫ"</string>
+    <string name="rr_group_apps">"Праграмы і апавяшчэнні"</string>
+    <string name="rr_group_security">"Бяспека і прыватнасць"</string>
+    <string name="rr_group_accounts_plain">"Уліковыя запісы"</string>
+    <string name="rr_group_accessibility_summary">"Дысплэй, узаемадзеянне, аўдыя"</string>
+    <string name="remixer_statusbar">"Панэль стану"</string>
+    <string name="remixer_qs">"Хуткія налады"</string>
+    <string name="remixer_notifications">"Апавяшчэнні"</string>
+    <string name="remixer_theme">"Тэма"</string>
+    <string name="remixer_lockscreen">"Экран блакіроўкі"</string>
+    <string name="remixer_navigation">Навігацыя</string>
+    <string name="remixer_misc">"Рознае"</string>
+    <string name="misc_category_volume">"Гучнасць"</string>
+    <string name="misc_category_backup">"Рэзервовае капіраванне"</string>
+    <string name="misc_category_scrolling">"Прагортванне"</string>
+    <string name="remixer_fonts">"Шрыфты"</string>
+    <string name="remixer_wallpapers">"Шпалеры"</string>
+    <string name="remixer_accents_summary">Асноўны колер</string>
+    <string name="pulse_preview_title">"Прайграецца"</string>
+    <string name="pulse_style">"Стыль"</string>
+    <string name="pulse_color">"Колер"</string>
+    <string name="pulse_color_accent">"Шпалеры"</string>
+    <string name="pulse_look">"Выгляд"</string>
+    <string name="pulse_lockscreen">"Паказваць на экране блакіроўкі"</string>
+    <string name="accent_preview_button">"Кнопка"</string>
+    <string name="accent_custom_title">"Карыстальніцкі колер"</string>
+    <string name="accent_custom_hue">Адценне</string>
+    <string name="accent_custom_recent">"Нядаўнія"</string>
+    <string name="accent_custom_apply">"Прымяніць"</string>
+    <string name="accent_shade_default">"Стандартна"</string>
+    <string name="accent_saturation">Насычанасць</string>
+    <string name="remixer_qs_customize">"Наладзіць"</string>
+    <string name="remixer_qs_style_section">"Стыль"</string>
+    <string name="remixer_lock_media_off">"Выключана"</string>
+    <string name="remixer_lock_preview_device">"Гэты тэлефон"</string>
+    <string name="remixer_qs_preview_on">"Уключана"</string>
+    <string name="remixer_qs_preview_off">"Выключана"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Інтэрнэт"</item>
+        <item>Bluetooth</item>
+        <item>Ліхтарык</item>
+        <item>"Не турбаваць"</item>
+        <item>"Аўтапаварот"</item>
+        <item>"Цёмная тэма"</item>
+        <item>"Хот-спот"</item>
+        <item>"Рэжым палёту"</item>
+        <item>"Эканомія трафіка"</item>
+        <item>NFC</item>
+        <item>"Сінхранізацыя"</item>
+        <item>"Сканіраваць QR-код"</item>
+    </string-array>
+    <string name="header_preview_none">"Відарыс не выбраны"</string>
+    <string name="header_source_image">"Відарыс"</string>
+    <string name="header_source_photo">"Фота"</string>
+    <string name="header_collections">"Калекцыі"</string>
+    <string name="header_images">"Відарысы"</string>
+    <string name="header_photo_choose">"Выбраць фота"</string>
+    <string name="header_look">"Выгляд"</string>
+    <string name="remixer_weather">"Надвор’е"</string>
+    <string name="font_default">"Стандартна"</string>
+    <string name="font_apply">"Прымяніць"</string>
+    <string name="font_filter_all">"Усе"</string>
+    <string name="font_filter_serif">"З засечкамі"</string>
+    <string name="wallpaper_apply_title">"Задаць шпалеры"</string>
+    <string name="wallpaper_apply_home">"Галоўны экран"</string>
+    <string name="wallpaper_apply_lock">"Экран блакіроўкі"</string>
+    <string name="remixer_settings_style_original">"Арыгінальны"</string>
+    <string name="remixer_navbar_category">"Панэль навігацыі"</string>
+</resources>

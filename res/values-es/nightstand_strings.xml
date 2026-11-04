@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="nightstand_when">"Cuándo"</string>
+    <string name="nightstand_face">Esfera del reloj</string>
+    <string name="lock_stage_tab_lock">"Pantalla de bloqueo"</string>
+</resources>

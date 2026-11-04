@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Колір"</string>
+    <string name="edge_light_color_accent">Колір акценту</string>
+    <string name="edge_light_color_notification">Колір сповіщення</string>
+    <string name="edge_light_color_wallpaper">"Колір фонового малюнка"</string>
+    <string name="edge_light_custom_color_title">"Спеціальний колір"</string>
+    <string name="edge_light_style_title">"Стиль"</string>
+    <string name="edge_light_animation_effect_title">Анімація</string>
+    <string name="edge_light_animation_effect_chase">Переслідування</string>
+    <string name="edge_light_animation_effect_comet">Комета</string>
+    <string name="edge_light_spread_title">Поширення світіння</string>
+    <string name="edge_light_intensity_title">Інтенсивність світіння</string>
+    <string name="edge_light_moment_notifications">"Сповіщення"</string>
+    <string name="edge_light_moment_calls">"Вхідні виклики"</string>
+    <string name="edge_light_moment_battery_low">Батарея розряджена</string>
+    <string name="edge_light_moment_unlock">"Розблоковано"</string>
+    <string name="remixer_color_default">"За умовчанням"</string>
+</resources>

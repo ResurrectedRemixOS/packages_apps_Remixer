@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"O‘chirish"</string>
+    <string name="action_reset">"Tiklash"</string>
+    <string name="action_search_apps">"Ilovalarni qidirish"</string>
+    <string name="action_select_all">"Hammasini belgilash"</string>
+    <string name="app_spoofing_clear_all">"Hammasini tozalash"</string>
+    <string name="app_spoofing_disabled">"Oʻchiq"</string>
+    <string name="common_clear_search">"Izlashni tozalash"</string>
+    <string name="custom_spoof_profile_brand">"Brend"</string>
+    <string name="custom_spoof_profile_device">"Qurilma"</string>
+    <string name="custom_spoof_profile_manufacturer">"Ishlab chiqaruvchi"</string>
+    <string name="hide_system_apps">"Tizim ilovalarini yashirish"</string>
+    <string name="pif_recommended_suffix">"Tavsiya etiladi"</string>
+    <string name="pif_status">"Holati"</string>
+    <string name="pif_wipe_confirm">"Malumotlarni tozalash"</string>
+    <string name="show_system_apps">"Tizimga oid ilovalar"</string>
+    <string name="spoofing_reset_defaults_confirm">"Tiklash"</string>
+    <string name="ts_mode_auto">"Avto"</string>
+    <string name="ts_untrusted_root_keep">"Saqlash"</string>
+    <string name="ts_untrusted_root_replace">"Almashtirish"</string>
+    <string name="ts_verification_mode_auto">"Avto"</string>
+</resources>

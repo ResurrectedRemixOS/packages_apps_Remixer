@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Χρώμα"</string>
+    <string name="edge_light_color_notification">Χρώμα ειδοποίησης</string>
+    <string name="edge_light_color_wallpaper">"Χρώμα ταπετσαρίας"</string>
+    <string name="edge_light_custom_color_title">"Προσαρμοσμένο χρώμα"</string>
+    <string name="edge_light_style_title">"Στιλ"</string>
+    <string name="edge_light_moment_notifications">"Ειδοποιήσεις"</string>
+    <string name="edge_light_moment_calls">"Εισερχόμενες κλήσεις"</string>
+    <string name="edge_light_moment_battery_low">Χαμηλή μπαταρία</string>
+    <string name="edge_light_moment_unlock">"Ξεκλειδώθηκε"</string>
+    <string name="remixer_color_default">"Προεπιλογή"</string>
+</resources>

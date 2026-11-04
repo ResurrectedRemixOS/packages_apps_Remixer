@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"Sačuvaj"</string>
+    <string name="haptic_remix_delete_button">"Izbriši"</string>
+    <string name="haptic_remix_default">"Zadano"</string>
+    <string name="haptic_remix_calls">"Pozivi"</string>
+    <string name="haptic_remix_color_violet">"Ljubičasta"</string>
+    <string name="haptic_remix_color_blue">"Plava"</string>
+    <string name="haptic_remix_color_green">"Zelena"</string>
+    <string name="haptic_remix_color_white">"Bijela"</string>
+</resources>

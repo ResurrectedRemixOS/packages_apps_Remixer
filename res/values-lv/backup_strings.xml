@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"Dublēšana un atjaunošana"</string>
+    <string name="backup_restore">"Atjaunot"</string>
+    <string name="backup_auto">"Automātiski"</string>
+    <string name="backup_group_status_bar">"Statusa josla"</string>
+    <string name="backup_group_lock_screen">"Bloķēšanas ekrāns"</string>
+    <string name="backup_group_theme">"Motīvs"</string>
+    <string name="backup_group_qs">"Ātrie iestatījumi"</string>
+    <string name="backup_group_notifications">"Paziņojumi"</string>
+    <string name="backup_group_gestures">Žesti</string>
+    <string name="backup_group_other">"Cits"</string>
+    <string name="backup_done">"Gatavs"</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"Yedekleme ve geri yükleme"</string>
+    <string name="backup_restore">"Geri yükle"</string>
+    <string name="backup_part_boot">Açılış animasyonu</string>
+    <string name="backup_auto">"Otomatik"</string>
+    <string name="backup_group_status_bar">"Durum çubuğu"</string>
+    <string name="backup_group_lock_screen">"Kilit ekranı"</string>
+    <string name="backup_group_theme">"Tema"</string>
+    <string name="backup_group_qs">"Hızlı Ayarlar"</string>
+    <string name="backup_group_notifications">"Bildirimler"</string>
+    <string name="backup_group_gestures">Hareketler</string>
+    <string name="backup_group_other">"Diğer"</string>
+    <string name="backup_done">"Bitti"</string>
+    <string name="volume_style_title">Ses paneli stilleri</string>
+</resources>

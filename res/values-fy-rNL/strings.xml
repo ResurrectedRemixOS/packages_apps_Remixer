@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_device">Apparaat</string>
+    <string name="rr_homepage_privacy">Privacy en befeiliging</string>
+    <string name="rr_live_wifi">Wifi</string>
+    <string name="rr_live_on">Oan</string>
+    <string name="rr_live_off">Ut</string>
+    <string name="rr_homepage_charging">Dwaande mei opladen</string>
+    <string name="rr_homepage_on">Oan</string>
+    <string name="rr_homepage_off">Ut</string>
+    <string name="remixer_statusbar">Steatbalke</string>
+    <string name="accent_custom_hue">Skakearring</string>
+    <string name="accent_shade_default">Standert</string>
+    <string name="accent_saturation">Sêding</string>
+    <string name="remixer_lock_media_off">Ut</string>
+    <string name="remixer_qs_preview_on">Oan</string>
+    <string name="remixer_qs_preview_off">Ut</string>
+    <string name="remixer_weather">Waar</string>
+    <string name="font_default">Standert</string>
+    <string name="remixer_navbar_category">Navigaasjebalke</string>
+</resources>

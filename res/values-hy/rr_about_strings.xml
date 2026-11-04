@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"Հիշողություն"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"Տարածք"</string>
+    <string name="rr_about_battery">"Մարտկոց"</string>
+    <string name="rr_about_kernel">"Միջուկ"</string>
+    <string name="rr_about_software">"Ծրագրեր"</string>
+    <string name="rr_about_updates">"Թարմացումներ"</string>
+    <string name="rr_about_this_phone">"Այս հեռախոսը"</string>
+    <string name="rr_about_network">"Ցանց"</string>
+    <string name="rr_about_hidden">"Թաքցված"</string>
+</resources>

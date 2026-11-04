@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"رنگ"</string>
+    <string name="edge_light_color_accent">لہجے کا رنگ</string>
+    <string name="edge_light_color_wallpaper">"وال پیپر کا رنگ"</string>
+    <string name="edge_light_custom_color_title">"حسب ضرورت رنگ"</string>
+    <string name="edge_light_style_title">"طرز"</string>
+    <string name="edge_light_moment_notifications">"اطلاعات"</string>
+    <string name="edge_light_moment_calls">"آنے والی کالیں"</string>
+    <string name="edge_light_moment_battery_low">بیٹری کم ہے</string>
+    <string name="edge_light_moment_unlock">"غیر مقفل ہے"</string>
+    <string name="remixer_color_default">"ڈیفالٹ"</string>
+</resources>

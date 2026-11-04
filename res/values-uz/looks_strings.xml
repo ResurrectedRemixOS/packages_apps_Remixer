@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Saqlash"</string>
+    <string name="looks_import">"Import qilish"</string>
+    <string name="looks_name">"Nomi"</string>
+    <string name="looks_apply">"Tatbiq etish"</string>
+    <string name="looks_share">"Ulashish"</string>
+    <string name="looks_delete">"O‘chirish"</string>
+    <string name="looks_part_font">"Shrift"</string>
+    <string name="looks_part_wallpaper">"Fon rasmi"</string>
+    <string name="looks_color_default">"Standart"</string>
+    <string name="looks_create">"Yaratish"</string>
+    <string name="looks_edit">"Tahrirlash"</string>
+    <string name="looks_customize">"Moslash"</string>
+    <string name="looks_save_look">"Saqlash"</string>
+    <string name="looks_custom_color">"Maxsus rang"</string>
+    <string name="looks_part_clock_color">"Soat rangi"</string>
+</resources>

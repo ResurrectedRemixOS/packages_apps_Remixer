@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">ساقلا</string>
+    <string name="looks_import">ئەكىر</string>
+    <string name="looks_name">ئاتى</string>
+    <string name="looks_apply">قوللان</string>
+    <string name="looks_share">ھەمبەھىر</string>
+    <string name="looks_delete">ئۆچۈر</string>
+    <string name="looks_part_wallpaper">تام قەغىزى</string>
+    <string name="looks_color_default">كۆڭۈلدىكى</string>
+    <string name="looks_create">قۇر</string>
+    <string name="looks_edit">تەھرىر</string>
+    <string name="looks_save_look">ساقلا</string>
+</resources>

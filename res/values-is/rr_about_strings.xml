@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"Minni"</string>
+    <string name="rr_about_ram">"Vinnslum."</string>
+    <string name="rr_about_storage">"Geymsla"</string>
+    <string name="rr_about_battery">"Rafhlaða"</string>
+    <string name="rr_about_kernel">"Kjarni"</string>
+    <string name="rr_about_software">"Hugbúnaður"</string>
+    <string name="rr_about_updates">"Uppfærslur"</string>
+    <string name="rr_about_build_date">Dagsetning samsetningar</string>
+    <string name="rr_about_this_phone">"Þessi sími"</string>
+    <string name="rr_about_network">"Netkerfi"</string>
+    <string name="rr_about_hidden">Falið</string>
+</resources>

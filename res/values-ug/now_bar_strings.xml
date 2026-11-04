@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_live_apps_all">ھەممە ئەپ</string>
+    <string name="now_bar_charging">توكلاۋاتىدۇ</string>
+    <string name="now_bar_flashlight">قول چىراغ</string>
+    <string name="now_bar_style">ئۇسلۇب</string>
+    <string name="now_bar_color">رەڭ</string>
+    <string name="now_bar_width">كەڭلىك</string>
+    <string name="now_bar_music_category">نەغمە</string>
+    <string name="now_bar_buttons">توپچە</string>
+    <string name="now_bar_text">تېكىست</string>
+</resources>

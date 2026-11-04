@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"షార్ట్‌కట్‌లు"</string>
+    <string name="quick_launch_camera">"కెమెరా"</string>
+    <string name="quick_launch_flashlight">"ఫ్లాష్‌లైట్"</string>
+    <string name="quick_launch_timer">టైమర్</string>
+    <string name="quick_launch_undo">"చర్య రద్దు చేయండి"</string>
+    <string name="quick_launch_off">"ఆఫ్‌లో ఉంది"</string>
+</resources>

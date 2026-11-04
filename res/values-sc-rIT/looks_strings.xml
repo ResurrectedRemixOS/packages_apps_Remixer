@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">Sarva</string>
+    <string name="looks_import">Importa</string>
+    <string name="looks_name">Nòmine</string>
+    <string name="looks_apply">Àplica</string>
+    <string name="looks_share">Cumpartzi</string>
+    <string name="looks_delete">Cantzella</string>
+    <string name="looks_part_wallpaper">Immàgine de isfundu</string>
+    <string name="looks_color_default">Predefinidu</string>
+    <string name="looks_create">Crea·nde una</string>
+    <string name="looks_edit">Modìfica</string>
+    <string name="looks_customize">Personaliza</string>
+    <string name="looks_save_look">Sarva</string>
+    <string name="looks_part_clock_color">Colore de su rellògiu</string>
+</resources>

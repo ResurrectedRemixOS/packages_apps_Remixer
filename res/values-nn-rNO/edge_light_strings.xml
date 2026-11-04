@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">Farge</string>
+    <string name="edge_light_color_wallpaper">Bakgrunnsfarge</string>
+    <string name="edge_light_custom_color_title">Eigen farge</string>
+    <string name="edge_light_style_title">Stil</string>
+    <string name="edge_light_animation_effect_comet">Komet</string>
+    <string name="edge_light_moment_notifications">Varsel</string>
+    <string name="edge_light_moment_calls">Inngåande samtalar</string>
+    <string name="edge_light_moment_battery_low">Lite batteri</string>
+    <string name="edge_light_moment_unlock">Opplåst</string>
+    <string name="remixer_color_default">Standard</string>
+</resources>

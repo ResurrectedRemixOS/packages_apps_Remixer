@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pie_edges">که‌ناری</string>
+    <string name="pie_style">شێواز</string>
+    <string name="pie_size">قەبارە</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>بچووک</item>
+        <item>ناوەند</item>
+        <item>گەورە</item>
+    </string-array>
+</resources>

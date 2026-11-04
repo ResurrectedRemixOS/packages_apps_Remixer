@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"Товчлол"</string>
+    <string name="quick_launch_camera">"Камер"</string>
+    <string name="quick_launch_flashlight">"Гар чийдэн"</string>
+    <string name="quick_launch_timer">Цаг хэмжигч</string>
+    <string name="quick_launch_undo">"Болих"</string>
+    <string name="quick_launch_off">"Унтраалттай"</string>
+</resources>

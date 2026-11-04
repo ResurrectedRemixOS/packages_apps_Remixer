@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Konto"</string>
+    <string name="rr_homepage_storage">"Lagerplads"</string>
+    <string name="rr_homepage_battery">"Batteri"</string>
+    <string name="rr_homepage_connections">"Forbindelser"</string>
+    <string name="rr_homepage_device">"Enhed"</string>
+    <string name="rr_homepage_privacy">Privatliv &amp; sikkerhed</string>
+    <string name="rr_homepage_help">"Hjælp"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"Mobil"</string>
+    <string name="rr_live_offline">"Offline"</string>
+    <string name="rr_live_on">"Til"</string>
+    <string name="rr_live_off">"Fra"</string>
+    <string name="rr_homepage_charging">"Oplader"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_homepage_mobile_data">"Mobildata"</string>
+    <string name="rr_homepage_not_connected">"Ikke tilsluttet"</string>
+    <string name="rr_homepage_dark_theme">"Mørkt tema"</string>
+    <string name="rr_homepage_on">"Til"</string>
+    <string name="rr_homepage_off">"Fra"</string>
+    <string name="rr_homepage_signed_in">"Logget ind"</string>
+    <string name="rr_homepage_device_word">"INDSTILLINGER"</string>
+    <string name="rr_group_apps">"Apps og notifikationer"</string>
+    <string name="rr_group_security">"Sikkerhed og privatliv"</string>
+    <string name="rr_group_accounts_plain">"Konti"</string>
+    <string name="rr_group_accessibility_summary">"Skærm, interaktion, lyd"</string>
+    <string name="remixer_statusbar">"Statusbjælke"</string>
+    <string name="remixer_qs">"Kvikmenu"</string>
+    <string name="remixer_notifications">"Notifikationer"</string>
+    <string name="remixer_theme">"Tema"</string>
+    <string name="remixer_lockscreen">"Låseskærm"</string>
+    <string name="remixer_misc">"Diverse"</string>
+    <string name="misc_category_volume">"Lydstyrke"</string>
+    <string name="misc_category_backup">"Sikkerheds­kopiér"</string>
+    <string name="misc_category_scrolling">"Rulning"</string>
+    <string name="remixer_fonts">"Skrifttyper"</string>
+    <string name="remixer_wallpapers">"Baggrunde"</string>
+    <string name="pulse_preview_title">"Spiller nu"</string>
+    <string name="pulse_style">"Stil"</string>
+    <string name="pulse_color">"Farve"</string>
+    <string name="pulse_color_accent">"Baggrund"</string>
+    <string name="pulse_look">"Udseende"</string>
+    <string name="pulse_lockscreen">"Vis på låseskærmen"</string>
+    <string name="accent_preview_button">"Knap"</string>
+    <string name="accent_custom_title">"Tilpasset farve"</string>
+    <string name="accent_custom_hue">"Nuance"</string>
+    <string name="accent_custom_recent">"Seneste"</string>
+    <string name="accent_custom_apply">"Anvend"</string>
+    <string name="accent_shade_default">"Standard"</string>
+    <string name="accent_saturation">"Mætning"</string>
+    <string name="remixer_qs_customize">"Tilpas"</string>
+    <string name="remixer_qs_style_section">"Stil"</string>
+    <string name="remixer_lock_media_off">"Fra"</string>
+    <string name="remixer_lock_preview_device">"Denne telefon"</string>
+    <string name="remixer_qs_preview_on">"Til"</string>
+    <string name="remixer_qs_preview_off">"Fra"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>Lommelygte</item>
+        <item>"Forstyr ikke"</item>
+        <item>"Roter automatisk"</item>
+        <item>"Mørkt tema"</item>
+        <item>"Hotspot"</item>
+        <item>"Flytilstand"</item>
+        <item>"Datasparefunktion"</item>
+        <item>NFC</item>
+        <item>"Synkroniser"</item>
+        <item>"Scan QR-kode"</item>
+    </string-array>
+    <string name="header_preview_none">"Der er ikke valgt noget billede"</string>
+    <string name="header_source_image">"Billede"</string>
+    <string name="header_source_photo">"Billede"</string>
+    <string name="header_collections">"Samlinger"</string>
+    <string name="header_images">"Billeder"</string>
+    <string name="header_photo_choose">"Vælg et billede"</string>
+    <string name="header_look">"Udseende"</string>
+    <string name="remixer_weather">"Vejr"</string>
+    <string name="font_default">"Standard"</string>
+    <string name="font_apply">"Anvend"</string>
+    <string name="font_filter_all">"Alle"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Angiv baggrund"</string>
+    <string name="wallpaper_apply_home">"Startskærm"</string>
+    <string name="wallpaper_apply_lock">"Låseskærm"</string>
+    <string name="remixer_navbar_category">"Navigationslinje"</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">Sàbhail</string>
+    <string name="looks_import">Ion-phortaich</string>
+    <string name="looks_name">Ainm</string>
+    <string name="looks_apply">Cuir an sàs</string>
+    <string name="looks_share">Co-roinn</string>
+    <string name="looks_delete">Sguab às</string>
+    <string name="looks_part_font">Cruth-clò</string>
+    <string name="looks_part_wallpaper">Pàipear-balla</string>
+    <string name="looks_color_default">Bun-roghainn</string>
+    <string name="looks_create">Cruthaich</string>
+    <string name="looks_edit">Deasaich</string>
+    <string name="looks_customize">Gnàthaich</string>
+    <string name="looks_save_look">Sàbhail</string>
+</resources>

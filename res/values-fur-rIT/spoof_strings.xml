@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">Elimine</string>
+    <string name="action_reset">Ristabilìs</string>
+    <string name="action_search_apps">Cîr tes aplicazions</string>
+    <string name="action_select_all">Selezione dut</string>
+    <string name="app_spoofing_clear_all">Nete dut</string>
+    <string name="app_spoofing_disabled">Disativât</string>
+    <string name="common_clear_search">Nete la ricercje</string>
+    <string name="custom_spoof_profile_device">Dispositîf</string>
+    <string name="hide_system_apps">Plate aplicazions di sisteme</string>
+    <string name="pif_status">Stât</string>
+    <string name="pif_wipe_confirm">Nete vie i dâts</string>
+    <string name="show_system_apps">Mostre aplicazions di sisteme</string>
+    <string name="spoofing_reset_defaults_confirm">Ristabilìs</string>
+    <string name="ts_untrusted_root_keep">Ten</string>
+    <string name="ts_untrusted_root_replace">Sostituìs</string>
+</resources>

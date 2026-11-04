@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"บันทึก"</string>
+    <string name="haptic_remix_delete_button">"ลบ"</string>
+    <string name="haptic_remix_default">"ค่าเริ่มต้น"</string>
+    <string name="haptic_remix_calls">"การโทร"</string>
+    <string name="haptic_remix_color_violet">"ม่วงแกมน้ำเงิน"</string>
+    <string name="haptic_remix_color_blue">"น้ำเงิน"</string>
+    <string name="haptic_remix_color_green">"เขียว"</string>
+    <string name="haptic_remix_color_white">"ขาว"</string>
+</resources>

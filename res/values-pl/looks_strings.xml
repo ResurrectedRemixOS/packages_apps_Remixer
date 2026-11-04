@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Zapisz"</string>
+    <string name="looks_import">"Importuj"</string>
+    <string name="looks_name">"Nazwa"</string>
+    <string name="looks_apply">"Zastosuj"</string>
+    <string name="looks_share">"Udostępnij"</string>
+    <string name="looks_delete">"Usuń"</string>
+    <string name="looks_part_accent">Kolor akcentu</string>
+    <string name="looks_part_font">"Czcionka"</string>
+    <string name="looks_part_wallpaper">"Tapeta"</string>
+    <string name="looks_part_boot">Animacja startowa</string>
+    <string name="looks_color_default">"Domyślny"</string>
+    <string name="looks_create">"Utwórz"</string>
+    <string name="looks_edit">"Edytuj"</string>
+    <string name="looks_customize">"Dostosuj"</string>
+    <string name="looks_save_look">"Zapisz"</string>
+    <string name="looks_custom_color">"Kolor niestandardowy"</string>
+    <string name="looks_part_clock_color">"Kolor zegara"</string>
+</resources>

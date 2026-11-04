@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"காப்புப் பிரதி &amp; மீட்டெடுத்தல்"</string>
+    <string name="backup_restore">"மீட்டெடு"</string>
+    <string name="backup_auto">"தானியங்கு"</string>
+    <string name="backup_group_status_bar">"நிலைப் பட்டி"</string>
+    <string name="backup_group_lock_screen">"பூட்டுத் திரை"</string>
+    <string name="backup_group_theme">"தீம்"</string>
+    <string name="backup_group_qs">"விரைவு அமைப்புகள்"</string>
+    <string name="backup_group_notifications">"அறிவிப்புகள்"</string>
+    <string name="backup_group_gestures">சைகைகள்</string>
+    <string name="backup_group_other">"மற்றவை"</string>
+    <string name="backup_done">"முடிந்தது"</string>
+</resources>

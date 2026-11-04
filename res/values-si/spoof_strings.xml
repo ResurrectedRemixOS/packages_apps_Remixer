@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"මකන්න"</string>
+    <string name="action_reset">"යළි සකසන්න"</string>
+    <string name="action_search_apps">"යෙදුම් සොයන්න"</string>
+    <string name="action_select_all">"සියල්ල තෝරන්න"</string>
+    <string name="app_spoofing_clear_all">"සියල්ල හිස් කරන්න"</string>
+    <string name="app_spoofing_disabled">"අබලයි"</string>
+    <string name="common_clear_search">"සෙවීම හිස් කරන්න"</string>
+    <string name="custom_spoof_profile_brand">"සන්නම"</string>
+    <string name="custom_spoof_profile_device">"උපාංගය"</string>
+    <string name="custom_spoof_profile_manufacturer">"නිෂ්පාදකයා"</string>
+    <string name="custom_spoof_profile_model">"මාදිලිය"</string>
+    <string name="hide_system_apps">"පද්ධති යෙදුම් සඟවන්න"</string>
+    <string name="pif_recommended_suffix">"නිර්දේශිත"</string>
+    <string name="pif_status">"තත්ත්වය"</string>
+    <string name="pif_wipe_confirm">"දත්ත හිස් කිරීම"</string>
+    <string name="show_system_apps">"පද්ධති යෙදුම් පෙන්වන්න"</string>
+    <string name="spoofing_reset_defaults_confirm">"යළි සකසන්න"</string>
+    <string name="ts_mode_auto">"ස්වයං"</string>
+    <string name="ts_untrusted_root_keep">"තබාගැනීම"</string>
+    <string name="ts_untrusted_root_replace">"ප්‍රතිස්ථාපනය කරන්න"</string>
+    <string name="ts_verification_mode_auto">"ස්වයං"</string>
+</resources>

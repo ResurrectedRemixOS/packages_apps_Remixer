@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"الحساب"</string>
+    <string name="rr_homepage_storage">"مساحة التخزين"</string>
+    <string name="rr_homepage_battery">"البطارية"</string>
+    <string name="rr_homepage_connections">"الاتصالات"</string>
+    <string name="rr_homepage_device">"الجهاز"</string>
+    <string name="rr_homepage_privacy">الخصوصية والأمان</string>
+    <string name="rr_homepage_help">"مساعدة"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"الجوّال"</string>
+    <string name="rr_live_offline">"بلا اتصال"</string>
+    <string name="rr_live_on">"الميزة مفعّلة"</string>
+    <string name="rr_live_off">"الميزة غير مفعّلة"</string>
+    <string name="rr_homepage_charging">"جارٍ الشحن"</string>
+    <string name="rr_homepage_internet">"الإنترنت"</string>
+    <string name="rr_homepage_mobile_data">"بيانات الجوّال"</string>
+    <string name="rr_homepage_not_connected">"غير متصل"</string>
+    <string name="rr_homepage_dark_theme">"المظهر الداكن"</string>
+    <string name="rr_homepage_on">"الميزة مفعّلة"</string>
+    <string name="rr_homepage_off">"الميزة غير مفعّلة"</string>
+    <string name="rr_homepage_signed_in">"مسجّلٌ الدخول"</string>
+    <string name="rr_homepage_device_word">"الإعدادات"</string>
+    <string name="rr_group_apps">"التطبيقات والإشعارات"</string>
+    <string name="rr_group_security">"الأمان والخصوصية"</string>
+    <string name="rr_group_accounts_plain">"الحسابات"</string>
+    <string name="rr_group_accessibility_summary">"العرض والتفاعل والصوت"</string>
+    <string name="remixer_statusbar">"شريط الحالة"</string>
+    <string name="remixer_qs">"الإعدادات السريعة"</string>
+    <string name="remixer_notifications">"الإشعارات"</string>
+    <string name="remixer_theme">"المظهر"</string>
+    <string name="remixer_lockscreen">"شاشة القفل"</string>
+    <string name="remixer_udfps_icon">أيقونة بصمة الإصبع تحت الشاشة</string>
+    <string name="remixer_udfps_animation">حركة بصمة الإصبع تحت الشاشة</string>
+    <string name="remixer_navigation">التنقل</string>
+    <string name="remixer_misc">"خيارات متنوعة"</string>
+    <string name="misc_category_volume">"مستوى الصوت"</string>
+    <string name="misc_category_backup">"الاحتفاظ بنسخة احتياطية"</string>
+    <string name="misc_category_scrolling">"الانتقال"</string>
+    <string name="remixer_fonts">"خطوط"</string>
+    <string name="remixer_wallpapers">"الخلفيات"</string>
+    <string name="remixer_accents_summary">لون التمييز</string>
+    <string name="pulse_preview_title">"يجري الآن تشغيل"</string>
+    <string name="pulse_style">"النمط"</string>
+    <string name="pulse_color">"اللون"</string>
+    <string name="pulse_color_accent">"الخلفية"</string>
+    <string name="pulse_look">"المظهر"</string>
+    <string name="pulse_lockscreen">"العرض على شاشة القفل"</string>
+    <string name="accent_preview_button">"زرّ"</string>
+    <string name="accent_custom_title">"لون مخصص"</string>
+    <string name="accent_custom_hue">"تدرج اللون"</string>
+    <string name="accent_custom_recent">"حديثة"</string>
+    <string name="accent_custom_apply">"تطبيق"</string>
+    <string name="accent_shade_default">"تلقائي"</string>
+    <string name="accent_saturation">"تشبع اللون"</string>
+    <string name="remixer_qs_customize">"تخصيص"</string>
+    <string name="remixer_qs_style_section">"النمط"</string>
+    <string name="remixer_lock_media_off">"الميزة غير مفعّلة"</string>
+    <string name="remixer_lock_preview_device">"هذا الهاتف"</string>
+    <string name="remixer_qs_preview_on">"الميزة مفعّلة"</string>
+    <string name="remixer_qs_preview_off">"الميزة غير مفعّلة"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"الإنترنت"</item>
+        <item>Bluetooth</item>
+        <item>"ضوء الفلاش"</item>
+        <item>"عدم الإزعاج"</item>
+        <item>"التدوير التلقائي"</item>
+        <item>"المظهر الداكن"</item>
+        <item>"نقطة اتصال"</item>
+        <item>"وضع الطيران"</item>
+        <item>"توفير البيانات"</item>
+        <item>NFC</item>
+        <item>"مزامنة"</item>
+        <item>"مسح رمز الاستجابة السريعة ضوئيًا"</item>
+    </string-array>
+    <string name="remixer_headers_summary">اختيار صورة خلفية للإعدادات السريعة</string>
+    <string name="header_preview_none">"لم يتم تحديد أي صورة"</string>
+    <string name="header_source_image">"صورة"</string>
+    <string name="header_source_photo">"صورة"</string>
+    <string name="header_collections">"المجموعات"</string>
+    <string name="header_images">"الصور"</string>
+    <string name="header_photo_choose">"اختيار صورة"</string>
+    <string name="header_look">"المظهر"</string>
+    <string name="remixer_weather">"الطقس"</string>
+    <string name="font_default">"تلقائي"</string>
+    <string name="font_apply">"تطبيق"</string>
+    <string name="font_filter_all">"الكل"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"ضبط الخلفية"</string>
+    <string name="wallpaper_apply_home">"الشاشة الرئيسية"</string>
+    <string name="wallpaper_apply_lock">"شاشة القفل"</string>
+    <string name="remixer_settings_style">نمط الإعدادات</string>
+    <string name="remixer_settings_style_original">"أصلية"</string>
+    <string name="remixer_navbar_category">"شريط التنقل"</string>
+</resources>

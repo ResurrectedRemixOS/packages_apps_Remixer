@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="charge_report_keep_title">"Giữ"</string>
+    <string name="charge_report_battery">"Pin"</string>
+    <string name="charge_report_temp">"Nhiệt độ"</string>
+    <string name="charge_report_time">"Thời gian"</string>
+</resources>

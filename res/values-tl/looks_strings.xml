@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"I-save"</string>
+    <string name="looks_import">"I-import"</string>
+    <string name="looks_name">"Pangalan"</string>
+    <string name="looks_apply">"Ilapat"</string>
+    <string name="looks_share">"Ibahagi"</string>
+    <string name="looks_delete">"I-delete"</string>
+    <string name="looks_create">"Gawin"</string>
+    <string name="looks_edit">"I-edit"</string>
+    <string name="looks_customize">"I-customize"</string>
+    <string name="looks_save_look">"I-save"</string>
+    <string name="looks_custom_color">"Custom na kulay"</string>
+    <string name="looks_part_clock_color">"Kulay ng orasan"</string>
+</resources>

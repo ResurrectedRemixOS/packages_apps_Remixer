@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"تماس‌ها"</string>
+    <string name="now_bar_live_apps_all">"همه برنامه‌ها"</string>
+    <string name="now_bar_charging">"در حال شارژ شدن"</string>
+    <string name="now_bar_flashlight">چراغ قوه</string>
+    <string name="now_bar_style">"سبک"</string>
+    <string name="now_bar_material">متریال</string>
+    <string name="now_bar_color">"رنگ"</string>
+    <string name="now_bar_outline">"نمای کلی"</string>
+    <string name="now_bar_width">"عرض"</string>
+    <string name="now_bar_music_category">"موسیقی"</string>
+    <string name="now_bar_buttons">دکمه‌ها</string>
+    <string name="now_bar_text">متن</string>
+    <string name="now_bar_text_size">"اندازه نوشتار"</string>
+</resources>

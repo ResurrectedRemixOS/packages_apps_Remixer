@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">Konto</string>
+    <string name="rr_homepage_storage">Lagring</string>
+    <string name="rr_homepage_battery">Batteri</string>
+    <string name="rr_homepage_connections">Tilkoplingar</string>
+    <string name="rr_homepage_device">Eining</string>
+    <string name="rr_homepage_privacy">Personvern og tryggleik</string>
+    <string name="rr_homepage_help">Hjelp</string>
+    <string name="rr_live_wifi">Wi-Fi</string>
+    <string name="rr_live_mobile">Mobil</string>
+    <string name="rr_live_offline">Fråkopla</string>
+    <string name="rr_live_on">På</string>
+    <string name="rr_live_off">Av</string>
+    <string name="rr_homepage_charging">Lading</string>
+    <string name="rr_homepage_internet">Internett</string>
+    <string name="rr_homepage_mobile_data">Mobildata</string>
+    <string name="rr_homepage_not_connected">Ikkje tilkopla</string>
+    <string name="rr_homepage_dark_theme">Mørkt tema</string>
+    <string name="rr_homepage_on">På</string>
+    <string name="rr_homepage_off">Av</string>
+    <string name="rr_homepage_signed_in">Logga på</string>
+    <string name="rr_homepage_device_word">INNSTILLINGAR</string>
+    <string name="rr_group_apps">Appar og varslingar</string>
+    <string name="rr_group_security">Tryggleik og personvern</string>
+    <string name="rr_group_accounts_plain">Kontoar</string>
+    <string name="rr_group_accessibility_summary">Skjerm, samhandling og lyd</string>
+    <string name="remixer_statusbar">Statusfelt</string>
+    <string name="remixer_qs">Snøgginnstillingar</string>
+    <string name="remixer_notifications">Varsel</string>
+    <string name="remixer_theme">Tema</string>
+    <string name="remixer_lockscreen">Låseskjerm</string>
+    <string name="remixer_navigation">Navigasjon</string>
+    <string name="misc_category_volume">Lydstyrke</string>
+    <string name="misc_category_backup">Tryggingskopi</string>
+    <string name="misc_category_scrolling">Rulling</string>
+    <string name="remixer_fonts">Skrifttypar</string>
+    <string name="remixer_wallpapers">Bakgrunnsbilete</string>
+    <string name="pulse_preview_title">Spelar no</string>
+    <string name="pulse_style">Stil</string>
+    <string name="pulse_color">Farge</string>
+    <string name="pulse_color_accent">Bakgrunnsbilete</string>
+    <string name="pulse_look">Utsjånad</string>
+    <string name="pulse_lockscreen">Vis på låseskjermen</string>
+    <string name="accent_preview_button">Knapp</string>
+    <string name="accent_custom_title">Eigen farge</string>
+    <string name="accent_custom_hue">Fargetone</string>
+    <string name="accent_custom_recent">Nylege</string>
+    <string name="accent_custom_apply">Bruk</string>
+    <string name="accent_shade_default">Standard</string>
+    <string name="accent_saturation">Fargemetning</string>
+    <string name="remixer_qs_customize">Tilpassa</string>
+    <string name="remixer_qs_style_section">Stil</string>
+    <string name="remixer_lock_media_off">Av</string>
+    <string name="remixer_lock_preview_device">Denne telefonen</string>
+    <string name="remixer_qs_preview_on">På</string>
+    <string name="remixer_qs_preview_off">Av</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>Internett</item>
+        <item>Bluetooth</item>
+        <item>Lommelykt</item>
+        <item>Ikkje forstyrr</item>
+        <item>Snu automatisk</item>
+        <item>Mørkt tema</item>
+        <item>Wi-Fi-sone</item>
+        <item>Flymodus</item>
+        <item>Datasparing</item>
+        <item>NFC</item>
+        <item>Synkronisering</item>
+        <item>Skann QR-koden</item>
+    </string-array>
+    <string name="header_source_image">Bilete</string>
+    <string name="header_source_photo">Bilete</string>
+    <string name="header_collections">Samlingar</string>
+    <string name="header_images">Bilete</string>
+    <string name="header_photo_choose">Vel eit bilete</string>
+    <string name="header_look">Utsjånad</string>
+    <string name="remixer_weather">Vêr</string>
+    <string name="font_default">Standard</string>
+    <string name="font_apply">Bruk</string>
+    <string name="font_filter_all">Alle</string>
+    <string name="font_filter_serif">Serif</string>
+    <string name="wallpaper_apply_title">Vel bakgrunnsbilete</string>
+    <string name="wallpaper_apply_home">Startskjerm</string>
+    <string name="wallpaper_apply_lock">Låseskjerm</string>
+    <string name="remixer_navbar_category">Navigasjonsrad</string>
+</resources>

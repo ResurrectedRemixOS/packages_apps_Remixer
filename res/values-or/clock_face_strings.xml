@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="clock_faces_apply">"ଲାଗୁ କରନ୍ତୁ"</string>
+    <string name="clock_faces_color">"ରଙ୍ଗ"</string>
+    <string name="clock_faces_color_default">"ଡିଫଲ୍ଟ"</string>
+    <string name="clock_faces_size">"ଆକାର"</string>
+    <string name="clock_faces_restart">"ରିଷ୍ଟାର୍ଟ କରନ୍ତୁ"</string>
+</resources>

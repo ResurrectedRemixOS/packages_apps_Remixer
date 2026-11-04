@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Szín"</string>
+    <string name="edge_light_color_accent">Kiemelőszín</string>
+    <string name="edge_light_color_notification">Értesítési szín</string>
+    <string name="edge_light_color_wallpaper">"Háttérkép színe"</string>
+    <string name="edge_light_custom_color_title">"Egyéni szín"</string>
+    <string name="edge_light_style_title">"Stílus"</string>
+    <string name="edge_light_animation_effect_title">Animáció</string>
+    <string name="edge_light_animation_effect_chase">Rovátkás</string>
+    <string name="edge_light_animation_effect_comet">Hullócsillag</string>
+    <string name="edge_light_spread_title">Fényszóró</string>
+    <string name="edge_light_intensity_title">A ragyogás erőssége</string>
+    <string name="edge_light_moment_notifications">"Értesítések"</string>
+    <string name="edge_light_moment_calls">"Beérkező hívások"</string>
+    <string name="edge_light_moment_battery_low">Alacsony töltöttség</string>
+    <string name="edge_light_moment_unlock">"Feloldva"</string>
+    <string name="remixer_color_default">"Alapértelmezett"</string>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"အကောင့်"</string>
+    <string name="rr_homepage_storage">"သိုလှောင်ခန်း"</string>
+    <string name="rr_homepage_battery">"ဘက်ထရီ"</string>
+    <string name="rr_homepage_connections">"ချိတ်ဆက်မှုများ"</string>
+    <string name="rr_homepage_device">"ကိရိယာ"</string>
+    <string name="rr_homepage_help">"အကူအညီ"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"မိုဘိုင်း"</string>
+    <string name="rr_live_offline">"အော့ဖ်လိုင်းဖြစ်နေသည်"</string>
+    <string name="rr_live_on">"ဖွင့်"</string>
+    <string name="rr_live_off">"ပိတ်"</string>
+    <string name="rr_homepage_charging">"အားသွင်းနေပါသည်"</string>
+    <string name="rr_homepage_internet">"အင်တာနက်"</string>
+    <string name="rr_homepage_mobile_data">"မိုဘိုင်းဒေတာ"</string>
+    <string name="rr_homepage_not_connected">"ချိတ်ဆက်မထားပါ"</string>
+    <string name="rr_homepage_dark_theme">"အမှောင်အပြင်အဆင်"</string>
+    <string name="rr_homepage_on">"ဖွင့်"</string>
+    <string name="rr_homepage_off">"ပိတ်"</string>
+    <string name="rr_homepage_signed_in">"လက်မှတ်ထိုးဝင်ထားသည်"</string>
+    <string name="rr_homepage_device_word">"ဆက်တင်များ"</string>
+    <string name="rr_group_apps">"အက်ပ်များနှင့် အကြောင်းကြားချက်များ"</string>
+    <string name="rr_group_security">"စက်နှင့်အချက်အလက်လုံခြုံရေး"</string>
+    <string name="rr_group_accounts_plain">"အကောင့်များ"</string>
+    <string name="rr_group_accessibility_summary">"ဖန်သားပြင်၊ ပြန်လှန်တုံ့ပြန်မှု၊ အသံ"</string>
+    <string name="remixer_statusbar">"အခြေအနေပြနေရာ"</string>
+    <string name="remixer_qs">"အမြန်ဆက်တင်များ"</string>
+    <string name="remixer_notifications">"အကြောင်းကြားချက်များ"</string>
+    <string name="remixer_theme">"အပြင်အဆင်"</string>
+    <string name="remixer_lockscreen">"လော့ခ်စခရင်"</string>
+    <string name="remixer_navigation">လမ်းညွှန်</string>
+    <string name="remixer_misc">"အထွေထွေ"</string>
+    <string name="misc_category_volume">"အသံအတိုးအကျယ်"</string>
+    <string name="misc_category_backup">"အရန်သိမ်းရန်"</string>
+    <string name="misc_category_scrolling">"လှိမ့်ခြင်း"</string>
+    <string name="remixer_fonts">"ဖောင့်များ"</string>
+    <string name="remixer_wallpapers">"နောက်ခံပုံများ"</string>
+    <string name="pulse_style">"ပုံစံ"</string>
+    <string name="pulse_color">"အရောင်"</string>
+    <string name="pulse_color_accent">"နောက်ခံ"</string>
+    <string name="pulse_look">"အပြင်အဆင်"</string>
+    <string name="pulse_lockscreen">"လော့ခ်မျက်နှာပြင်တွင် ပြရန်"</string>
+    <string name="accent_preview_button">"ခလုတ်"</string>
+    <string name="accent_custom_title">"စိတ်ကြိုက်အရောင်"</string>
+    <string name="accent_custom_hue">"အရောင်ဆင်း"</string>
+    <string name="accent_custom_recent">"လတ်တလော"</string>
+    <string name="accent_custom_apply">"အသုံးပြုရန်"</string>
+    <string name="accent_shade_default">"မူရင်း"</string>
+    <string name="accent_saturation">"အရောင်ပြည့်"</string>
+    <string name="remixer_qs_customize">"စိတ်ကြိုက်လုပ်ရန်"</string>
+    <string name="remixer_qs_style_section">"ပုံစံ"</string>
+    <string name="remixer_lock_media_off">"ပိတ်"</string>
+    <string name="remixer_lock_preview_device">"ဤဖုန်း"</string>
+    <string name="remixer_qs_preview_on">"ဖွင့်"</string>
+    <string name="remixer_qs_preview_off">"ပိတ်"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"အင်တာနက်"</item>
+        <item>Bluetooth</item>
+        <item>"ဖလက်ရှ်မီး"</item>
+        <item>"မနှောင့်ယှက်ရ"</item>
+        <item>"အော်တိုလှည့်"</item>
+        <item>"အမှောင်အပြင်အဆင်"</item>
+        <item>"ဟော့စပေါ့"</item>
+        <item>"လေယာဉ်ပျံမုဒ်"</item>
+        <item>"ဒေတာချွေတာမှု"</item>
+        <item>NFC</item>
+        <item>"ထပ်တူ ကိုက်ညီခြင်း"</item>
+        <item>"QR ကုဒ်ကို စကင်ဖတ်ပါ"</item>
+    </string-array>
+    <string name="header_preview_none">"မည်သည့်ပုံမျှ ရွေးမထားပါ"</string>
+    <string name="header_source_image">"ပုံ"</string>
+    <string name="header_source_photo">"ဓာတ်ပုံ"</string>
+    <string name="header_collections">"စုစည်းမှု"</string>
+    <string name="header_images">"ပုံများ"</string>
+    <string name="header_photo_choose">"ဓာတ်ပုံ ရွေးရန်"</string>
+    <string name="header_look">"အပြင်အဆင်"</string>
+    <string name="remixer_weather">"မိုးလေဝသ"</string>
+    <string name="font_default">"မူရင်း"</string>
+    <string name="font_apply">"အသုံးပြုရန်"</string>
+    <string name="font_filter_all">"အားလုံး"</string>
+    <string name="font_filter_serif">"Seri"</string>
+    <string name="wallpaper_apply_title">"နောက်ခံ သတ်မှတ်ရန်"</string>
+    <string name="wallpaper_apply_home">"ပင်မစာမျက်နှာ"</string>
+    <string name="wallpaper_apply_lock">"လော့ခ်စခရင်"</string>
+    <string name="remixer_settings_style_original">"မူလ"</string>
+    <string name="remixer_navbar_category">"လမ်းညွှန်ဘား"</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="clock_faces_apply">"প্রয়োগ করুন"</string>
+    <string name="clock_faces_color">"রঙ"</string>
+    <string name="clock_faces_color_default">"ডিফল্ট"</string>
+    <string name="clock_faces_size">"সাইজ"</string>
+    <string name="clock_faces_restart">"রিস্টার্ট করুন"</string>
+</resources>

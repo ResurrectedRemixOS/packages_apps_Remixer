@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">Galwadau</string>
+    <string name="now_bar_live_apps_all">Pob ap</string>
+    <string name="now_bar_charging">Yn gwefru</string>
+    <string name="now_bar_flashlight">Fflacholau</string>
+    <string name="now_bar_style">Arddull</string>
+    <string name="now_bar_color">Lliw</string>
+    <string name="now_bar_outline">Amlinell</string>
+    <string name="now_bar_width">Lled</string>
+    <string name="now_bar_music_category">Cerddoriaeth</string>
+    <string name="now_bar_buttons">Botymau</string>
+    <string name="now_bar_text">Testun</string>
+    <string name="now_bar_text_size">Maint testun</string>
+</resources>

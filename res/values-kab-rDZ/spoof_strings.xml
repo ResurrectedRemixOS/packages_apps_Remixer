@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">Kkes</string>
+    <string name="action_reset">Wennez</string>
+    <string name="action_search_apps">Nadi</string>
+    <string name="action_select_all">Fren kulec</string>
+    <string name="app_spoofing_clear_all">Sfeḍ akk</string>
+    <string name="app_spoofing_disabled">Insa</string>
+    <string name="common_clear_search">Sfeḍ a nadi</string>
+    <string name="custom_spoof_profile_device">Ibenk</string>
+    <string name="custom_spoof_profile_model">ModÃ¨le</string>
+    <string name="pif_status">Addad</string>
+    <string name="pif_wipe_confirm">Sfeḍ isefka</string>
+    <string name="spoofing_reset_defaults_confirm">Wennez</string>
+    <string name="ts_untrusted_root_keep">Eǧǧ</string>
+    <string name="ts_untrusted_root_replace">Semselsi</string>
+</resources>

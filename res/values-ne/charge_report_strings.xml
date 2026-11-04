@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="charge_report_keep_title">"राख्नुहोस्"</string>
+    <string name="charge_report_battery">"ब्याट्री"</string>
+    <string name="charge_report_temp">"तापक्रम"</string>
+    <string name="charge_report_time">"समय"</string>
+</resources>

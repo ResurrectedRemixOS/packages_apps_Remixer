@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"חשבון"</string>
+    <string name="rr_homepage_storage">"אחסון"</string>
+    <string name="rr_homepage_battery">"סוללה"</string>
+    <string name="rr_homepage_connections">"חיבורים"</string>
+    <string name="rr_homepage_device">"מכשיר"</string>
+    <string name="rr_homepage_privacy">פרטיות ואבטחה</string>
+    <string name="rr_homepage_help">"עזרה"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"נייד"</string>
+    <string name="rr_live_offline">"המדפסת לא מחוברת לאינטרנט"</string>
+    <string name="rr_live_on">"פועל"</string>
+    <string name="rr_live_off">"כבוי"</string>
+    <string name="rr_homepage_charging">"בטעינה"</string>
+    <string name="rr_homepage_internet">"אינטרנט"</string>
+    <string name="rr_homepage_mobile_data">"חבילת גלישה"</string>
+    <string name="rr_homepage_not_connected">"לא מחובר"</string>
+    <string name="rr_homepage_dark_theme">"עיצוב כהה"</string>
+    <string name="rr_homepage_on">"פועל"</string>
+    <string name="rr_homepage_off">"כבוי"</string>
+    <string name="rr_homepage_signed_in">"מחובר"</string>
+    <string name="rr_homepage_device_word">"הגדרות"</string>
+    <string name="rr_group_apps">"אפליקציות והתראות"</string>
+    <string name="rr_group_security">"אבטחה ופרטיות"</string>
+    <string name="rr_group_accounts_plain">"חשבונות"</string>
+    <string name="rr_group_accessibility_summary">"תצוגה, אינטראקציה, אודיו"</string>
+    <string name="remixer_statusbar">"שורת סטטוס"</string>
+    <string name="remixer_qs">"הגדרות מהירות"</string>
+    <string name="remixer_notifications">"התראות"</string>
+    <string name="remixer_theme">"עיצוב"</string>
+    <string name="remixer_lockscreen">"מסך הנעילה"</string>
+    <string name="remixer_navigation">ניווט</string>
+    <string name="remixer_misc">"שונות"</string>
+    <string name="misc_category_volume">"עוצמת קול"</string>
+    <string name="misc_category_backup">"גיבוי"</string>
+    <string name="misc_category_scrolling">"גלילה"</string>
+    <string name="remixer_fonts">"גופנים"</string>
+    <string name="remixer_wallpapers">"טפטים"</string>
+    <string name="pulse_preview_title">"מציג כעת"</string>
+    <string name="pulse_style">"סגנון"</string>
+    <string name="pulse_color">"צבע"</string>
+    <string name="pulse_color_accent">"טפט"</string>
+    <string name="pulse_look">"מראה"</string>
+    <string name="pulse_lockscreen">"הצגה במסך הנעילה"</string>
+    <string name="accent_preview_button">"כפתור"</string>
+    <string name="accent_custom_title">"צבע מותאם אישית"</string>
+    <string name="accent_custom_hue">"גוון"</string>
+    <string name="accent_custom_recent">"אחרונות"</string>
+    <string name="accent_custom_apply">"אישור"</string>
+    <string name="accent_shade_default">"ברירת מחדל"</string>
+    <string name="accent_saturation">"רוויה"</string>
+    <string name="remixer_qs_customize">"התאמה אישית"</string>
+    <string name="remixer_qs_style_section">"סגנון"</string>
+    <string name="remixer_lock_media_off">"כבוי"</string>
+    <string name="remixer_lock_preview_device">"הטלפון הזה"</string>
+    <string name="remixer_qs_preview_on">"פועל"</string>
+    <string name="remixer_qs_preview_off">"כבוי"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"אינטרנט"</item>
+        <item>Bluetooth</item>
+        <item>פנס</item>
+        <item>"נא לא להפריע"</item>
+        <item>"סיבוב אוטומטי"</item>
+        <item>"עיצוב כהה"</item>
+        <item>"‏נקודת אינטרנט (hotspot)"</item>
+        <item>"מצב טיסה"</item>
+        <item>"חוסך הנתונים"</item>
+        <item>NFC</item>
+        <item>"סנכרון"</item>
+        <item>"‏סריקת קוד QR"</item>
+    </string-array>
+    <string name="header_preview_none">"לא נבחרה תמונה"</string>
+    <string name="header_source_image">"תמונה"</string>
+    <string name="header_source_photo">"תמונה"</string>
+    <string name="header_collections">"אוספים"</string>
+    <string name="header_images">"תמונות"</string>
+    <string name="header_photo_choose">"בחירת תמונה"</string>
+    <string name="header_look">"מראה"</string>
+    <string name="remixer_weather">"מזג אוויר"</string>
+    <string name="font_default">"ברירת מחדל"</string>
+    <string name="font_apply">"אישור"</string>
+    <string name="font_filter_all">"הכול"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"הגדרת טפט"</string>
+    <string name="wallpaper_apply_home">"מסך הבית"</string>
+    <string name="wallpaper_apply_lock">"מסך הנעילה"</string>
+    <string name="remixer_settings_style_original">"מקור"</string>
+    <string name="remixer_navbar_category">"סרגל הניווט"</string>
+</resources>

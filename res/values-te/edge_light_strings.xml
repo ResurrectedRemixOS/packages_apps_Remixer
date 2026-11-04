@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"రంగు"</string>
+    <string name="edge_light_color_wallpaper">"వాల్‌పేపర్ రంగు"</string>
+    <string name="edge_light_custom_color_title">"అనుకూల రంగు"</string>
+    <string name="edge_light_style_title">"శైలి"</string>
+    <string name="edge_light_moment_notifications">"నోటిఫికేషన్‌లు"</string>
+    <string name="edge_light_moment_calls">"ఇన్‌కమింగ్ కాల్స్"</string>
+    <string name="edge_light_moment_unlock">"అన్‌లాక్ చేయబడింది"</string>
+    <string name="remixer_color_default">"ఆటోమేటిక్"</string>
+</resources>

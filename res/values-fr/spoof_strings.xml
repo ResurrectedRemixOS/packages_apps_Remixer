@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Supprimer"</string>
+    <string name="action_reset">"Réinitialiser"</string>
+    <string name="action_search_apps">"Rechercher dans les applications"</string>
+    <string name="action_select_all">"Tout sélectionner"</string>
+    <string name="app_spoofing_clear_all">"Tout effacer"</string>
+    <string name="app_spoofing_disabled">"Désactivé"</string>
+    <string name="common_clear_search">"Effacer la recherche"</string>
+    <string name="custom_spoof_profile_brand">"Marque"</string>
+    <string name="custom_spoof_profile_device">"Appareil"</string>
+    <string name="custom_spoof_profile_manufacturer">"Fabricant"</string>
+    <string name="custom_spoof_profile_model">"Modèle"</string>
+    <string name="hide_system_apps">"Masquer les applications système"</string>
+    <string name="pif_recommended_suffix">"Recommandé"</string>
+    <string name="pif_status">"État"</string>
+    <string name="pif_wipe_confirm">"Effacer les données"</string>
+    <string name="show_system_apps">"Afficher les applications système"</string>
+    <string name="spoofing_photos_summary">Faire passer votre appareil pour un Pixel XL dans Google Photos</string>
+    <string name="spoofing_photos_title">Spoof Google Photos</string>
+    <string name="spoofing_pixel_props_summary">Faire passer votre appareil pour un Pixel 8 Pro pour les applications Google</string>
+    <string name="spoofing_reset_defaults_confirm">"Réinitialiser"</string>
+    <string name="spoofing_reset_defaults_title">Réinitialiser les paramètres par défaut</string>
+    <string name="spoofing_snap_summary">Spoof Snapchat en tant que Pixel XL pour résoudre les éventuels problèmes de chat</string>
+    <string name="tensor_spoof_enable">Se faire passer pour un processeur tensor</string>
+    <string name="tensor_spoof_summary">Débloquer les fonctionnalités exclusives tensor/pixel</string>
+    <string name="ts_mode_auto">"Automatique"</string>
+    <string name="ts_untrusted_root_keep">"Conserver"</string>
+    <string name="ts_untrusted_root_replace">"Remplacer"</string>
+    <string name="ts_verification_mode_auto">"Automatique"</string>
+</resources>

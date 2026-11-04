@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Smazat"</string>
+    <string name="action_reset">"Resetovat"</string>
+    <string name="action_search_apps">"Hledat v aplikacích"</string>
+    <string name="action_select_all">"Vybrat vše"</string>
+    <string name="app_spoofing_clear_all">"Vymazat vše"</string>
+    <string name="app_spoofing_disabled">"Vypnuto"</string>
+    <string name="common_clear_search">"Vymazat vyhledávání"</string>
+    <string name="custom_spoof_profile_brand">"Značka"</string>
+    <string name="custom_spoof_profile_device">"Zařízení"</string>
+    <string name="custom_spoof_profile_manufacturer">"Výrobce"</string>
+    <string name="hide_system_apps">"Skrýt systémové aplikace"</string>
+    <string name="pif_recommended_suffix">"Doporučeno"</string>
+    <string name="pif_status">"Stav"</string>
+    <string name="pif_wipe_confirm">"Vymazat data"</string>
+    <string name="show_system_apps">"Zobrazit systémové aplikace"</string>
+    <string name="spoofing_reset_defaults_confirm">"Resetovat"</string>
+    <string name="spoofing_reset_defaults_title">Obnovit výchozí</string>
+    <string name="ts_mode_auto">"Automaticky"</string>
+    <string name="ts_untrusted_root_keep">"Zachovat"</string>
+    <string name="ts_untrusted_root_replace">"Nahradit"</string>
+    <string name="ts_verification_mode_auto">"Automaticky"</string>
+</resources>

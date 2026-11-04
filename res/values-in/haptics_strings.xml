@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"Simpan"</string>
+    <string name="haptic_remix_delete_button">"Hapus"</string>
+    <string name="haptic_remix_calls">"Panggilan telepon"</string>
+    <string name="haptic_remix_color_blue">"Biru"</string>
+    <string name="haptic_remix_color_green">"Hijau"</string>
+    <string name="haptic_remix_color_white">"Putih"</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">پەیوەندییەکان</string>
+    <string name="now_bar_live_apps_all">هەموو بەرنامەکان</string>
+    <string name="now_bar_charging">بارگاوی دەبێتەوە</string>
+    <string name="now_bar_flashlight">لایت</string>
+    <string name="now_bar_style">شێواز</string>
+    <string name="now_bar_color">ڕەنگ</string>
+    <string name="now_bar_outline">هێڵی دەرەکی</string>
+    <string name="now_bar_width">پانی</string>
+    <string name="now_bar_music_category">مۆسیقا</string>
+    <string name="now_bar_buttons">دوگمەکان</string>
+    <string name="now_bar_text">دەق</string>
+    <string name="now_bar_text_size">قەبارەی دەق</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"അക്കൗണ്ട്"</string>
+    <string name="rr_homepage_storage">"സ്റ്റോറേജ്"</string>
+    <string name="rr_homepage_battery">"ബാറ്ററി"</string>
+    <string name="rr_homepage_connections">"കണക്ഷനുകൾ"</string>
+    <string name="rr_homepage_device">"ഉപകരണം"</string>
+    <string name="rr_homepage_help">"സഹായം"</string>
+    <string name="rr_live_wifi">"വൈഫൈ"</string>
+    <string name="rr_live_mobile">"മൊബൈൽ"</string>
+    <string name="rr_live_offline">"ഓഫ്‌ലൈന്‍‍"</string>
+    <string name="rr_live_on">"ഓണാണ്"</string>
+    <string name="rr_live_off">"ഓഫാണ്"</string>
+    <string name="rr_homepage_charging">"ചാർജ് ചെയ്യുന്നു"</string>
+    <string name="rr_homepage_internet">"ഇന്റർനെറ്റ്"</string>
+    <string name="rr_homepage_mobile_data">"മൊബൈൽ ഡാറ്റ"</string>
+    <string name="rr_homepage_not_connected">"കണ‌ക്റ്റ് ചെയ്‌തിട്ടില്ല"</string>
+    <string name="rr_homepage_dark_theme">"ഡാർക്ക് തീം"</string>
+    <string name="rr_homepage_on">"ഓണാണ്"</string>
+    <string name="rr_homepage_off">"ഓഫാണ്"</string>
+    <string name="rr_homepage_signed_in">"സൈൻ ഇൻ ചെയ്‌തു"</string>
+    <string name="rr_homepage_device_word">"ക്രമീകരണം"</string>
+    <string name="rr_group_apps">"ആപ്പുകളും അറിയിപ്പുകളും"</string>
+    <string name="rr_group_security">"സുരക്ഷയും സ്വകാര്യതയും"</string>
+    <string name="rr_group_accounts_plain">"അക്കൗണ്ടുകൾ"</string>
+    <string name="rr_group_accessibility_summary">"ഡിസ്പ്ലേ, ഇടപെടൽ, ഓഡിയോ"</string>
+    <string name="remixer_statusbar">"സ്റ്റാറ്റസ് ബാർ"</string>
+    <string name="remixer_qs">"ദ്രുത ക്രമീകരണം"</string>
+    <string name="remixer_notifications">"അറിയിപ്പുകൾ"</string>
+    <string name="remixer_theme">"തീം"</string>
+    <string name="remixer_lockscreen">"ലോക്ക് സ്‌ക്രീൻ"</string>
+    <string name="remixer_misc">"മറ്റുള്ളവ"</string>
+    <string name="misc_category_volume">"വോളിയം"</string>
+    <string name="misc_category_backup">"ബാക്കപ്പ് ചെയ്യുക"</string>
+    <string name="misc_category_scrolling">"സ്ക്രോളിംഗ്"</string>
+    <string name="remixer_fonts">"ഫോണ്ടുകൾ"</string>
+    <string name="remixer_wallpapers">"വാൾപേപ്പറുകൾ"</string>
+    <string name="pulse_style">"സ്റ്റൈൽ"</string>
+    <string name="pulse_color">"നിറം"</string>
+    <string name="pulse_color_accent">"വാൾപേപ്പർ"</string>
+    <string name="pulse_look">"ദൃശ്യപരത"</string>
+    <string name="pulse_lockscreen">"ലോക്ക് സ്‌ക്രീനിൽ കാണിക്കുക"</string>
+    <string name="accent_preview_button">"ബട്ടൺ"</string>
+    <string name="accent_custom_title">"ഇഷ്‌ടാനുസൃത നിറം"</string>
+    <string name="accent_custom_hue">"ഹ്യൂ"</string>
+    <string name="accent_custom_recent">"അടുത്തിടെയുള്ളത്"</string>
+    <string name="accent_custom_apply">"ബാധകമാക്കുക"</string>
+    <string name="accent_shade_default">"ഡിഫോൾട്ട്"</string>
+    <string name="accent_saturation">"സാച്ചുറേഷൻ"</string>
+    <string name="remixer_qs_customize">"ഇഷ്‌ടാനുസൃതമാക്കുക"</string>
+    <string name="remixer_qs_style_section">"സ്റ്റൈൽ"</string>
+    <string name="remixer_lock_media_off">"ഓഫാണ്"</string>
+    <string name="remixer_lock_preview_device">"ഈ ഫോൺ"</string>
+    <string name="remixer_qs_preview_on">"ഓണാണ്"</string>
+    <string name="remixer_qs_preview_off">"ഓഫാണ്"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"ഇന്റർനെറ്റ്"</item>
+        <item>Bluetooth</item>
+        <item>"ടോർച്ച്"</item>
+        <item>"ശല്യപ്പെടുത്തരുത്"</item>
+        <item>"സ്‌ക്രീൻ സ്വയമേവ തിരിയൽ"</item>
+        <item>"ഡാർക്ക് തീം"</item>
+        <item>"ഹോട്ട്‌സ്‌പോട്ട്"</item>
+        <item>"ഫ്ലൈറ്റ് മോഡ്"</item>
+        <item>"ഡാറ്റാ സേവർ"</item>
+        <item>NFC</item>
+        <item>"സമന്വയിപ്പിക്കുക"</item>
+        <item>"QR കോഡ് സ്‌കാൻ ചെയ്യുക"</item>
+    </string-array>
+    <string name="header_preview_none">"ചിത്രങ്ങളൊന്നും തിരഞ്ഞെടുത്തിട്ടില്ല"</string>
+    <string name="header_source_image">"ഇമേജ്"</string>
+    <string name="header_source_photo">"ഫോട്ടോ"</string>
+    <string name="header_collections">"ശേഖരങ്ങൾ"</string>
+    <string name="header_images">"ചിത്രങ്ങൾ"</string>
+    <string name="header_photo_choose">"ഒരു ഫോട്ടോ തിരഞ്ഞെടുക്കുക"</string>
+    <string name="header_look">"ദൃശ്യപരത"</string>
+    <string name="remixer_weather">"കാലാവസ്ഥ"</string>
+    <string name="font_default">"ഡിഫോൾട്ട്"</string>
+    <string name="font_apply">"ബാധകമാക്കുക"</string>
+    <string name="font_filter_all">"എല്ലാം"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"വാൾപേപ്പർ സജ്ജീകരിക്കുക"</string>
+    <string name="wallpaper_apply_home">"ഹോം സ്‌ക്രീൻ"</string>
+    <string name="wallpaper_apply_lock">"ലോക്ക് സ്‌ക്രീൻ"</string>
+    <string name="remixer_settings_style_original">"യഥാർത്ഥമായത്"</string>
+    <string name="remixer_navbar_category">"നാവിഗേഷൻ ബാർ"</string>
+</resources>

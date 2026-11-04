@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"Bližnjice"</string>
+    <string name="quick_launch_camera">"Fotoaparat"</string>
+    <string name="quick_launch_flashlight">Svetilka</string>
+    <string name="quick_launch_timer">Časovnik</string>
+    <string name="quick_launch_undo">"Razveljavi"</string>
+    <string name="quick_launch_off">"Izklopljeno"</string>
+</resources>

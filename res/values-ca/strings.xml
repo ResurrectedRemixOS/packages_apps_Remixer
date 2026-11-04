@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Compte"</string>
+    <string name="rr_homepage_storage">"Emmagatzematge"</string>
+    <string name="rr_homepage_battery">"Bateria"</string>
+    <string name="rr_homepage_connections">"Connexions"</string>
+    <string name="rr_homepage_device">"Dispositiu"</string>
+    <string name="rr_homepage_privacy">Privacitat i seguretat</string>
+    <string name="rr_homepage_help">"Ajuda"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"Mòbil"</string>
+    <string name="rr_live_offline">"Sense connexió"</string>
+    <string name="rr_live_on">"Activat"</string>
+    <string name="rr_live_off">"Desactivat"</string>
+    <string name="rr_homepage_charging">"S\'està carregant"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_homepage_mobile_data">"Dades mòbils"</string>
+    <string name="rr_homepage_not_connected">"No connectat"</string>
+    <string name="rr_homepage_dark_theme">"Tema fosc"</string>
+    <string name="rr_homepage_on">"Activat"</string>
+    <string name="rr_homepage_off">"Desactivat"</string>
+    <string name="rr_homepage_signed_in">"Sessió iniciada"</string>
+    <string name="rr_homepage_device_word">"CONFIGURACIÓ"</string>
+    <string name="rr_group_apps">"Aplicacions i notificacions"</string>
+    <string name="rr_group_security">"Seguretat i privadesa"</string>
+    <string name="rr_group_accounts_plain">"Comptes"</string>
+    <string name="rr_group_accessibility_summary">"Pantalla, interacció, àudio"</string>
+    <string name="remixer_statusbar">"Barra d\'estat"</string>
+    <string name="remixer_qs">"Configuració ràpida"</string>
+    <string name="remixer_notifications">"Notificacions"</string>
+    <string name="remixer_theme">"Tema"</string>
+    <string name="remixer_lockscreen">"Pantalla de bloqueig"</string>
+    <string name="remixer_navigation">Navegació</string>
+    <string name="remixer_misc">"Miscel·lània"</string>
+    <string name="misc_category_volume">"Volum"</string>
+    <string name="misc_category_backup">"Còpia de seguretat"</string>
+    <string name="misc_category_scrolling">"Desplaçament"</string>
+    <string name="remixer_wallpapers">"Fons de pantalla"</string>
+    <string name="pulse_preview_title">"Reproducció en curs"</string>
+    <string name="pulse_style">"Estil"</string>
+    <string name="pulse_color_accent">"Fons de pantalla"</string>
+    <string name="pulse_look">"Aparença"</string>
+    <string name="pulse_lockscreen">"Mostra a la pantalla de bloqueig"</string>
+    <string name="accent_preview_button">"Botó"</string>
+    <string name="accent_custom_title">"Color personalitzat"</string>
+    <string name="accent_custom_hue">"To de color"</string>
+    <string name="accent_custom_recent">"Recents"</string>
+    <string name="accent_custom_apply">"Aplica"</string>
+    <string name="accent_shade_default">"Predeterminat"</string>
+    <string name="accent_saturation">"Saturació"</string>
+    <string name="remixer_qs_customize">"Personalitza"</string>
+    <string name="remixer_qs_style_section">"Estil"</string>
+    <string name="remixer_lock_media_off">"Desactivat"</string>
+    <string name="remixer_lock_preview_device">"Aquest telèfon"</string>
+    <string name="remixer_qs_preview_on">"Activat"</string>
+    <string name="remixer_qs_preview_off">"Desactivat"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>Llanterna</item>
+        <item>"No molestis"</item>
+        <item>"Gir automàtic"</item>
+        <item>"Tema fosc"</item>
+        <item>"Punt d\'accés Wi-Fi"</item>
+        <item>"Mode d\'avió"</item>
+        <item>"Estalvi de dades"</item>
+        <item>NFC</item>
+        <item>"Sincronització"</item>
+        <item>"Escaneja un codi QR"</item>
+    </string-array>
+    <string name="header_preview_none">"No hi ha cap imatge seleccionada"</string>
+    <string name="header_source_image">"Imatge"</string>
+    <string name="header_source_photo">"Foto"</string>
+    <string name="header_collections">"Col·leccions"</string>
+    <string name="header_images">"Imatges"</string>
+    <string name="header_photo_choose">"Tria una foto"</string>
+    <string name="header_look">"Aparença"</string>
+    <string name="remixer_weather">"Temps"</string>
+    <string name="font_default">"Predeterminat"</string>
+    <string name="font_apply">"Aplica"</string>
+    <string name="font_filter_all">"Tot"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Estableix el fons de pantalla"</string>
+    <string name="wallpaper_apply_home">"Pantalla d\'inici"</string>
+    <string name="wallpaper_apply_lock">"Pantalla de bloqueig"</string>
+    <string name="remixer_navbar_category">"Barra de navegació"</string>
+</resources>

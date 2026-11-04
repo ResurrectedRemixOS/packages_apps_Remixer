@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_unofficial">Tidak resmi</string>
+    <string name="rr_about_memory">"Memoria"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"Spazio di archiviazione"</string>
+    <string name="rr_about_battery">"Batteria"</string>
+    <string name="rr_about_kernel">"Kernel"</string>
+    <string name="rr_about_software">"Software"</string>
+    <string name="rr_about_updates">"Aggiornamenti"</string>
+    <string name="rr_about_security_patch">Aggiornamento di sicurezza</string>
+    <string name="rr_about_build_date">Data build</string>
+    <string name="rr_about_this_phone">"Questo smartphone"</string>
+    <string name="rr_about_network">"Rete"</string>
+    <string name="rr_about_hidden">Nascosta</string>
+</resources>

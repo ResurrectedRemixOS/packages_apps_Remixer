@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"শ্বৰ্টকাট"</string>
+    <string name="quick_launch_camera">"কেমেৰা"</string>
+    <string name="quick_launch_flashlight">ফ্লেশলাইট</string>
+    <string name="quick_launch_timer">টাইমাৰ</string>
+    <string name="quick_launch_undo">"আনডু কৰক"</string>
+    <string name="quick_launch_off">"অফ আছে"</string>
+</resources>

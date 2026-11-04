@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"I-save"</string>
+    <string name="haptic_remix_delete_button">"I-delete"</string>
+    <string name="haptic_remix_calls">"Mga Tawag"</string>
+    <string name="haptic_remix_color_blue">"Asul"</string>
+    <string name="haptic_remix_color_green">"Berde"</string>
+    <string name="haptic_remix_color_white">"Puti"</string>
+</resources>

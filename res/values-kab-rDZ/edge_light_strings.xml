@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">Ini</string>
+    <string name="edge_light_style_title">Aɣanib</string>
+    <string name="edge_light_animation_effect_comet">Asmil</string>
+    <string name="edge_light_moment_notifications">Ilɣa</string>
+    <string name="edge_light_moment_battery_low">Aẓru qrib ad yefak</string>
+    <string name="remixer_color_default">Akk-a kan</string>
+</resources>

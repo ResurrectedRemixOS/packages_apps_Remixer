@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lockscreen_weather_details_category">"Szczegóły"</string>
+    <string name="lockscreen_weather_location_title">"Lokalizacja"</string>
+    <string name="lockscreen_weather_wind_title">Wiatr</string>
+    <string name="lockscreen_weather_humidity_title">Wilgotność</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"Դյուրանցումներ"</string>
+    <string name="quick_launch_camera">"Տեսախցիկ"</string>
+    <string name="quick_launch_flashlight">"Լապտեր"</string>
+    <string name="quick_launch_timer">Ժամաչափ</string>
+    <string name="quick_launch_undo">"Հետարկել"</string>
+    <string name="quick_launch_off">"Անջատված է"</string>
+</resources>

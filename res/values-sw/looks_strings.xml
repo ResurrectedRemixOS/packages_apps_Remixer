@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Hifadhi"</string>
+    <string name="looks_import">"Leta"</string>
+    <string name="looks_name">"Jina"</string>
+    <string name="looks_apply">"Tumia"</string>
+    <string name="looks_share">"Shiriki"</string>
+    <string name="looks_delete">"Futa"</string>
+    <string name="looks_part_font">"Fonti"</string>
+    <string name="looks_part_wallpaper">"Mandhari"</string>
+    <string name="looks_color_default">"Chaguomsingi"</string>
+    <string name="looks_create">"Unda"</string>
+    <string name="looks_edit">"Badilisha"</string>
+    <string name="looks_customize">"Weka mapendeleo"</string>
+    <string name="looks_save_look">"Hifadhi"</string>
+    <string name="looks_custom_color">"Rangi maalum"</string>
+    <string name="looks_part_clock_color">"Rangi ya saa"</string>
+</resources>

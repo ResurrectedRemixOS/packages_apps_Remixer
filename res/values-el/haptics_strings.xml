@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"Αποθήκευση"</string>
+    <string name="haptic_remix_delete_button">"Διαγραφή"</string>
+    <string name="haptic_remix_default">"Προεπιλογή"</string>
+    <string name="haptic_remix_calls">"Κλήσεις"</string>
+    <string name="haptic_remix_color_violet">"Βιολετί"</string>
+    <string name="haptic_remix_color_blue">"Μπλε"</string>
+    <string name="haptic_remix_color_green">"Πράσινο"</string>
+    <string name="haptic_remix_color_white">"Λευκό"</string>
+</resources>

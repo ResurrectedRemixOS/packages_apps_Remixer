@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Rang"</string>
+    <string name="edge_light_color_wallpaper">"Fon rasmi rangi"</string>
+    <string name="edge_light_custom_color_title">"Maxsus rang"</string>
+    <string name="edge_light_style_title">"Uslub"</string>
+    <string name="edge_light_moment_notifications">"Bildirishnomalar"</string>
+    <string name="edge_light_moment_calls">"Kiruvchi chaqiruvlar"</string>
+    <string name="edge_light_moment_unlock">"Qulfi ochilgan"</string>
+    <string name="remixer_color_default">"Standart"</string>
+</resources>

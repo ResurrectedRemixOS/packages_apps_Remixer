@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_live_wifi">"Wi‑Fi"</string>
+    <string name="rr_live_offline">"Offline"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_group_apps">"Apps and notifications"</string>
+    <string name="rr_group_security">"Security and privacy"</string>
+    <string name="remixer_qs">"Quick Settings"</string>
+    <string name="pulse_color">"Colour"</string>
+    <string name="accent_custom_title">"Customised colour"</string>
+    <string name="remixer_qs_customize">"Customise"</string>
+    <string name="font_filter_serif">"Serif"</string>
+</resources>

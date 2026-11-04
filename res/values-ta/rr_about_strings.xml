@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"நினைவகம்"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"சேமிப்பகம்"</string>
+    <string name="rr_about_battery">"பேட்டரி"</string>
+    <string name="rr_about_kernel">"கெர்னல்"</string>
+    <string name="rr_about_software">"மென்பொருள்"</string>
+    <string name="rr_about_updates">"புதுப்பிப்புகள்"</string>
+    <string name="rr_about_security_patch">பாதுகாப்பு இற்றை</string>
+    <string name="rr_about_build_date">கட்டிய நாள்</string>
+    <string name="rr_about_this_phone">"இந்த மொபைல்"</string>
+    <string name="rr_about_network">"நெட்வொர்க்"</string>
+    <string name="rr_about_hidden">"மறைக்கப்பட்டவை"</string>
+</resources>

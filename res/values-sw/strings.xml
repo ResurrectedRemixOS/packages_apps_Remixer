@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Akaunti"</string>
+    <string name="rr_homepage_storage">"Hifadhi"</string>
+    <string name="rr_homepage_battery">"Betri"</string>
+    <string name="rr_homepage_connections">"Miunganisho"</string>
+    <string name="rr_homepage_device">"Kifaa"</string>
+    <string name="rr_homepage_help">"Usaidizi"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"Simu ya mkononi"</string>
+    <string name="rr_live_offline">"Nje ya mtandao"</string>
+    <string name="rr_live_on">"Imewashwa"</string>
+    <string name="rr_live_off">"Imezimwa"</string>
+    <string name="rr_homepage_charging">"Inachaji"</string>
+    <string name="rr_homepage_internet">"Intaneti"</string>
+    <string name="rr_homepage_mobile_data">"Data ya simu"</string>
+    <string name="rr_homepage_not_connected">"Haijaunganishwa"</string>
+    <string name="rr_homepage_dark_theme">"Mandhari meusi"</string>
+    <string name="rr_homepage_on">"Imewashwa"</string>
+    <string name="rr_homepage_off">"Imezimwa"</string>
+    <string name="rr_homepage_signed_in">"Umeingia katika akaunti"</string>
+    <string name="rr_homepage_device_word">"MIPANGILIO"</string>
+    <string name="rr_group_apps">"Programu na arifa"</string>
+    <string name="rr_group_security">"Ulinzi na faragha"</string>
+    <string name="rr_group_accounts_plain">"Akaunti"</string>
+    <string name="rr_group_accessibility_summary">"Mwonekano, utumiaji, sauti"</string>
+    <string name="remixer_statusbar">"Sehemu ya kuonyesha hali"</string>
+    <string name="remixer_qs">"Mipangilio ya haraka"</string>
+    <string name="remixer_notifications">"Arifa"</string>
+    <string name="remixer_theme">"Mandhari"</string>
+    <string name="remixer_lockscreen">"Skrini iliyofungwa"</string>
+    <string name="remixer_misc">"Zinginezo"</string>
+    <string name="misc_category_volume">"Sauti"</string>
+    <string name="misc_category_backup">"Hifadhi nakala"</string>
+    <string name="misc_category_scrolling">"Usogezaji"</string>
+    <string name="remixer_fonts">"Fonti"</string>
+    <string name="remixer_wallpapers">"Mandhari"</string>
+    <string name="pulse_preview_title">"Inacheza sasa hivi"</string>
+    <string name="pulse_style">"Mtindo"</string>
+    <string name="pulse_color">"Rangi"</string>
+    <string name="pulse_color_accent">"Mandhari"</string>
+    <string name="pulse_look">"Mwonekano"</string>
+    <string name="pulse_lockscreen">"Onyesha kwenye skrini iliyofungwa"</string>
+    <string name="accent_preview_button">"Kitufe"</string>
+    <string name="accent_custom_title">"Rangi maalum"</string>
+    <string name="accent_custom_hue">"Rangi"</string>
+    <string name="accent_custom_recent">"Za hivi majuzi"</string>
+    <string name="accent_custom_apply">"Tumia"</string>
+    <string name="accent_shade_default">"Chaguomsingi"</string>
+    <string name="accent_saturation">"Ukolezaji"</string>
+    <string name="remixer_qs_customize">"Weka mapendeleo"</string>
+    <string name="remixer_qs_style_section">"Mtindo"</string>
+    <string name="remixer_lock_media_off">"Imezimwa"</string>
+    <string name="remixer_lock_preview_device">"Simu hii"</string>
+    <string name="remixer_qs_preview_on">"Imewashwa"</string>
+    <string name="remixer_qs_preview_off">"Imezimwa"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Intaneti"</item>
+        <item>Bluetooth</item>
+        <item>"Tochi"</item>
+        <item>"Usinisumbue"</item>
+        <item>"Zungusha kiotomatiki"</item>
+        <item>"Mandhari meusi"</item>
+        <item>"Mtandaopepe"</item>
+        <item>"Hali ya ndegeni"</item>
+        <item>"Kiokoa Data"</item>
+        <item>NFC</item>
+        <item>"Sawazisha"</item>
+        <item>"Changanua msimbo wa QR"</item>
+    </string-array>
+    <string name="header_preview_none">"Hujachagua picha yoyote"</string>
+    <string name="header_source_image">"Picha"</string>
+    <string name="header_source_photo">"Picha"</string>
+    <string name="header_collections">"Mikusanyiko"</string>
+    <string name="header_images">"Picha"</string>
+    <string name="header_photo_choose">"Chagua picha"</string>
+    <string name="header_look">"Mwonekano"</string>
+    <string name="remixer_weather">"Hali ya Hewa"</string>
+    <string name="font_default">"Chaguomsingi"</string>
+    <string name="font_apply">"Tumia"</string>
+    <string name="font_filter_all">"Zote"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Weka mandhari"</string>
+    <string name="wallpaper_apply_home">"Skrini ya kwanza"</string>
+    <string name="wallpaper_apply_lock">"Skrini iliyofungwa"</string>
+    <string name="remixer_settings_style_original">"Asili"</string>
+    <string name="remixer_navbar_category">"Sehemu ya viungo muhimu"</string>
+</resources>

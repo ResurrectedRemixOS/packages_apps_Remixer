@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"কল"</string>
+    <string name="now_bar_live_apps_all">"সব অ্যাপ"</string>
+    <string name="now_bar_charging">"চার্জ হচ্ছে"</string>
+    <string name="now_bar_flashlight">"ফ্ল্যাশলাইট"</string>
+    <string name="now_bar_style">"স্টাইল"</string>
+    <string name="now_bar_color">"রঙ"</string>
+    <string name="now_bar_outline">"আউটলাইন"</string>
+    <string name="now_bar_width">"প্রস্থ"</string>
+    <string name="now_bar_music_category">"মিউজিক"</string>
+    <string name="now_bar_buttons">"বোতাম"</string>
+    <string name="now_bar_text">"পাঠ্য"</string>
+    <string name="now_bar_text_size">"পাঠ্যের আকার"</string>
+</resources>

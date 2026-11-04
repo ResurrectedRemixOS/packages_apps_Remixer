@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">Cadw</string>
+    <string name="looks_import">Mewnforio</string>
+    <string name="looks_name">Enw</string>
+    <string name="looks_apply">Gosod</string>
+    <string name="looks_share">Rhannu</string>
+    <string name="looks_delete">Dileu</string>
+    <string name="looks_part_font">Ffont</string>
+    <string name="looks_part_wallpaper">Papur wal</string>
+    <string name="looks_color_default">Rhagosodiad</string>
+    <string name="looks_create">Creu</string>
+    <string name="looks_edit">Golygu</string>
+    <string name="looks_customize">Addasu</string>
+    <string name="looks_save_look">Cadw</string>
+    <string name="looks_custom_color">Lliw addasu</string>
+    <string name="looks_part_clock_color">Lliw cloc</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">Konto</string>
+    <string name="rr_homepage_device">Aparato</string>
+    <string name="rr_homepage_device_word">AGORDOJ</string>
+    <string name="remixer_notifications">Sciigoj</string>
+    <string name="remixer_theme">Etoso</string>
+    <string name="pulse_style">Stilo</string>
+    <string name="pulse_color">Koloro</string>
+    <string name="accent_shade_default">Defaŭlte</string>
+    <string name="remixer_qs_style_section">Stilo</string>
+    <string name="header_images">Bildoj</string>
+    <string name="font_default">Defaŭlte</string>
+    <string name="wallpaper_apply_title">Apliki ekranfonon</string>
+</resources>

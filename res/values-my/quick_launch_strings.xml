@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"ဖြတ်လမ်းလင့်ခ်"</string>
+    <string name="quick_launch_camera">"ကင်မရာ"</string>
+    <string name="quick_launch_flashlight">"ဖလက်ရှ်မီး"</string>
+    <string name="quick_launch_timer">တိုင်မာ</string>
+    <string name="quick_launch_undo">"နောက်ပြန်ရန်"</string>
+    <string name="quick_launch_off">"ပိတ်"</string>
+</resources>

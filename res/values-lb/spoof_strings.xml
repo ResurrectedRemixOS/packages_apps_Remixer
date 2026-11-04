@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">Läschen</string>
+    <string name="action_reset">Zrécksetzen</string>
+    <string name="action_select_all">All auswielen</string>
+    <string name="app_spoofing_clear_all">Alles eidel maachen</string>
+    <string name="app_spoofing_disabled">Desaktivéiert</string>
+    <string name="custom_spoof_profile_device">Apparat</string>
+    <string name="custom_spoof_profile_model">Modell</string>
+    <string name="pif_status">Status</string>
+    <string name="spoofing_reset_defaults_confirm">Zrécksetzen</string>
+    <string name="ts_mode_auto">Automatesch</string>
+    <string name="ts_untrusted_root_keep">Behalen</string>
+    <string name="ts_untrusted_root_replace">Ersetzen</string>
+    <string name="ts_verification_mode_auto">Automatesch</string>
+</resources>

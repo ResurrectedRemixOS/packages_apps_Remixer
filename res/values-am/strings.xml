@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"መለያ"</string>
+    <string name="rr_homepage_storage">"ማከማቻ"</string>
+    <string name="rr_homepage_battery">"ባትሪ"</string>
+    <string name="rr_homepage_connections">"ግንኙነቶች"</string>
+    <string name="rr_homepage_device">"መሣሪያ"</string>
+    <string name="rr_homepage_help">"እገዛ"</string>
+    <string name="rr_live_wifi">"Wi‑Fi"</string>
+    <string name="rr_live_mobile">"ተንቀሳቃሽ ስልክ"</string>
+    <string name="rr_live_offline">"ከመስመር ውጭ"</string>
+    <string name="rr_live_on">"በርቷል"</string>
+    <string name="rr_live_off">"ጠፍቷል"</string>
+    <string name="rr_homepage_charging">"ኃይል በመሙላት ላይ"</string>
+    <string name="rr_homepage_internet">"በይነመረብ"</string>
+    <string name="rr_homepage_mobile_data">"የተንቀሳቃሽ ስልክ ውሂብ"</string>
+    <string name="rr_homepage_not_connected">"አልተገናኘም"</string>
+    <string name="rr_homepage_dark_theme">"ጨለማ ገጽታ"</string>
+    <string name="rr_homepage_on">"በርቷል"</string>
+    <string name="rr_homepage_off">"ጠፍቷል"</string>
+    <string name="rr_homepage_signed_in">"በመለያ ገብተዋል"</string>
+    <string name="rr_homepage_device_word">"ቅንብሮች"</string>
+    <string name="rr_group_apps">"መተግበሪያዎች እና ማሳወቂያዎች"</string>
+    <string name="rr_group_security">"ደህንነት እና ግላዊነት"</string>
+    <string name="rr_group_accounts_plain">"መለያዎች"</string>
+    <string name="rr_group_accessibility_summary">"ማሳያ፣ መስተጋብር፣ ኦዲዮ"</string>
+    <string name="remixer_statusbar">"የሁኔታ አሞሌ"</string>
+    <string name="remixer_qs">"ፈጣን ቅንብሮች"</string>
+    <string name="remixer_notifications">"ማሳወቂያዎች"</string>
+    <string name="remixer_theme">"ገፅታ"</string>
+    <string name="remixer_lockscreen">"ማያ ገጽ ቁልፍ"</string>
+    <string name="remixer_misc">"የተለያዩ"</string>
+    <string name="misc_category_volume">"የድምፅመጠን"</string>
+    <string name="misc_category_backup">"ምትኬ"</string>
+    <string name="misc_category_scrolling">"መሸብለል"</string>
+    <string name="remixer_fonts">"ቅርጸ-ቁምፊዎች"</string>
+    <string name="remixer_wallpapers">"ልጣፎች"</string>
+    <string name="pulse_preview_title">"አሁን እየተጫወተ ያለ"</string>
+    <string name="pulse_style">"ቅጥ"</string>
+    <string name="pulse_color">"ቀለም"</string>
+    <string name="pulse_color_accent">"ልጣፍ"</string>
+    <string name="pulse_look">"ገጽታ"</string>
+    <string name="pulse_lockscreen">"በቁልፍ ማያ ገጽ ላይ አሳይ"</string>
+    <string name="accent_preview_button">"አዝራር"</string>
+    <string name="accent_custom_title">"ብጁ ቀለም"</string>
+    <string name="accent_custom_hue">"የቀለም ድባብ"</string>
+    <string name="accent_custom_recent">"የቅርብ ጊዜ"</string>
+    <string name="accent_custom_apply">"ተግብር"</string>
+    <string name="accent_shade_default">"ነባሪ"</string>
+    <string name="accent_saturation">"የቀለም ሙሌት"</string>
+    <string name="remixer_qs_customize">"አብጅ"</string>
+    <string name="remixer_qs_style_section">"ቅጥ"</string>
+    <string name="remixer_lock_media_off">"ጠፍቷል"</string>
+    <string name="remixer_lock_preview_device">"ይህ ስልክ"</string>
+    <string name="remixer_qs_preview_on">"በርቷል"</string>
+    <string name="remixer_qs_preview_off">"ጠፍቷል"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"በይነመረብ"</item>
+        <item>Bluetooth</item>
+        <item>"የባትሪ ብርሃን"</item>
+        <item>"አትረብሽ"</item>
+        <item>"በራስ ሰር አሽከርክር"</item>
+        <item>"ጨለማ ገጽታ"</item>
+        <item>"መገናኛ ነጥብ"</item>
+        <item>"የአውሮፕላን ሁነታ"</item>
+        <item>"ውሂብ ቆጣቢ"</item>
+        <item>NFC</item>
+        <item>"ሥምሪያ"</item>
+        <item>"QR ኮድን ይቃኙ"</item>
+    </string-array>
+    <string name="header_preview_none">"ምንም ምስል አልተመረጠም"</string>
+    <string name="header_source_image">"ምስል"</string>
+    <string name="header_source_photo">"ፎቶ"</string>
+    <string name="header_collections">"ስብስቦች"</string>
+    <string name="header_images">"ምስሎች"</string>
+    <string name="header_photo_choose">"ፎቶ ይምረጡ"</string>
+    <string name="header_look">"ገጽታ"</string>
+    <string name="remixer_weather">"የአየር ሁኔታ"</string>
+    <string name="font_default">"ነባሪ"</string>
+    <string name="font_apply">"ተግብር"</string>
+    <string name="font_filter_all">"ሁሉም"</string>
+    <string name="font_filter_serif">"ሰሪፍ"</string>
+    <string name="wallpaper_apply_title">"ልጣፍ አዘጋጅ"</string>
+    <string name="wallpaper_apply_home">"መነሻ ገፅ"</string>
+    <string name="wallpaper_apply_lock">"ማያ ገጽ ቁልፍ"</string>
+    <string name="remixer_settings_style_original">"የመጀመሪያው"</string>
+    <string name="remixer_navbar_category">"የአሰሳ አሞሌ"</string>
+</resources>

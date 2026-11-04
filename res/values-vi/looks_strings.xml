@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Lưu"</string>
+    <string name="looks_import">"Nhập"</string>
+    <string name="looks_name">"Tên"</string>
+    <string name="looks_apply">"Áp dụng"</string>
+    <string name="looks_share">"Chia sẻ"</string>
+    <string name="looks_delete">"Xóa"</string>
+    <string name="looks_part_font">"Phông chữ"</string>
+    <string name="looks_part_wallpaper">"Hình nền"</string>
+    <string name="looks_part_boot">Hiệu ứng khởi động</string>
+    <string name="looks_color_default">"Mặc định"</string>
+    <string name="looks_create">"Tạo"</string>
+    <string name="looks_edit">"Chỉnh sửa"</string>
+    <string name="looks_customize">"Tùy chỉnh"</string>
+    <string name="looks_save_look">"Lưu"</string>
+    <string name="looks_custom_color">"Màu tùy chỉnh"</string>
+    <string name="looks_part_clock_color">"Màu đồng hồ"</string>
+</resources>

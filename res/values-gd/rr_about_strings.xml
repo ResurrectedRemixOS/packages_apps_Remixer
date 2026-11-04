@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">Cuimhne</string>
+    <string name="rr_about_ram">RAM</string>
+    <string name="rr_about_storage">An stòras</string>
+    <string name="rr_about_battery">Bataraidh</string>
+    <string name="rr_about_kernel">Eitean</string>
+    <string name="rr_about_updates">Ùrachaidhean</string>
+    <string name="rr_about_build_date">Ceann-là na togail</string>
+    <string name="rr_about_network">Lìonra</string>
+    <string name="rr_about_hidden">Falaichte</string>
+</resources>

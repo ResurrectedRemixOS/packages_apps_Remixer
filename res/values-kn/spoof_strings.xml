@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"ಅಳಿಸಿ"</string>
+    <string name="action_reset">"ರೀಸೆಟ್ ಮಾಡಿ"</string>
+    <string name="action_search_apps">"ಆ್ಯಪ್‍ಗಳನ್ನು ಹುಡುಕಿ"</string>
+    <string name="action_select_all">"ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆಮಾಡಿ"</string>
+    <string name="app_spoofing_clear_all">"ಎಲ್ಲವನ್ನೂ ತೆರವುಗೊಳಿಸಿ"</string>
+    <string name="app_spoofing_disabled">"ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"</string>
+    <string name="common_clear_search">"ಹುಡುಕಾಟವನ್ನು ತೆರವುಗೊಳಿಸಿ"</string>
+    <string name="custom_spoof_profile_brand">"ಬ್ರ್ಯಾಂಡ್"</string>
+    <string name="custom_spoof_profile_device">"ಸಾಧನ"</string>
+    <string name="custom_spoof_profile_manufacturer">"ತಯಾರಕರು"</string>
+    <string name="custom_spoof_profile_model">"ಮಾಡೆಲ್"</string>
+    <string name="hide_system_apps">"ಸಿಸ್ಟಂ ಆ್ಯಪ್‌ಗಳನ್ನು ಕಾಪಿ ಮಾಡಿ"</string>
+    <string name="pif_recommended_suffix">"ಶಿಫಾರಸು ಮಾಡಿರುವುದು"</string>
+    <string name="pif_status">"ಸ್ಥಿತಿ"</string>
+    <string name="pif_wipe_confirm">"ಡೇಟಾ ತೆರವುಗೊಳಿಸಿ"</string>
+    <string name="show_system_apps">"ಸಿಸ್ಟಂ ಅಪ್ಲಿಕೇಶನ್‌‌ಗಳನ್ನು ತೋರಿಸಿ"</string>
+    <string name="spoofing_reset_defaults_confirm">"ರೀಸೆಟ್ ಮಾಡಿ"</string>
+    <string name="ts_mode_auto">"ಸ್ವಯಂ"</string>
+    <string name="ts_untrusted_root_replace">"ಸ್ಥಾನಾಂತರಿಸು"</string>
+    <string name="ts_verification_mode_auto">"ಸ್ವಯಂ"</string>
+</resources>

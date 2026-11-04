@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">Bewarje</string>
+    <string name="haptic_remix_delete_button">Fuortsmite</string>
+    <string name="haptic_remix_default">Standert</string>
+    <string name="haptic_remix_color_blue">Blau</string>
+    <string name="haptic_remix_color_green">Grien</string>
+</resources>

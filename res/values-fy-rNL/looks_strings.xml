@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">Bewarje</string>
+    <string name="looks_name">Namme</string>
+    <string name="looks_share">Diele</string>
+    <string name="looks_delete">Fuortsmite</string>
+    <string name="looks_color_default">Standert</string>
+    <string name="looks_edit">Bewurkje</string>
+    <string name="looks_save_look">Bewarje</string>
+</resources>

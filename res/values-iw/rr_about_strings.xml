@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"זיכרון"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"אחסון"</string>
+    <string name="rr_about_battery">"סוללה"</string>
+    <string name="rr_about_kernel">"ליבה"</string>
+    <string name="rr_about_software">"תוכנות"</string>
+    <string name="rr_about_updates">"עדכונים"</string>
+    <string name="rr_about_security_patch">עדכון אבטחה</string>
+    <string name="rr_about_build_date">תאריך בנייה</string>
+    <string name="rr_about_this_phone">"הטלפון הזה"</string>
+    <string name="rr_about_network">"רשת"</string>
+    <string name="rr_about_hidden">מוסתר</string>
+</resources>

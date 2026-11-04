@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Ruaj"</string>
+    <string name="looks_import">"Importo"</string>
+    <string name="looks_name">"Emri"</string>
+    <string name="looks_apply">"Zbato"</string>
+    <string name="looks_share">"Ndaj"</string>
+    <string name="looks_delete">"Fshi"</string>
+    <string name="looks_part_font">"Fonti"</string>
+    <string name="looks_part_wallpaper">"Imazhi i sfondit"</string>
+    <string name="looks_color_default">"E parazgjedhur"</string>
+    <string name="looks_create">"Krijo"</string>
+    <string name="looks_edit">"Modifiko"</string>
+    <string name="looks_customize">"Personalizo"</string>
+    <string name="looks_save_look">"Ruaj"</string>
+    <string name="looks_custom_color">"Ngjyra e personalizuar"</string>
+    <string name="looks_part_clock_color">"Ngjyra e orës"</string>
+</resources>

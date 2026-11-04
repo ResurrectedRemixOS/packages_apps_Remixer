@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"Zálohování a obnovení"</string>
+    <string name="backup_restore">"Obnovit"</string>
+    <string name="backup_auto">"Automaticky"</string>
+    <string name="backup_group_status_bar">"Stavový řádek"</string>
+    <string name="backup_group_lock_screen">"Obrazovka uzamčení"</string>
+    <string name="backup_group_theme">"Motiv"</string>
+    <string name="backup_group_qs">"Rychlé nastavení"</string>
+    <string name="backup_group_notifications">"Oznámení"</string>
+    <string name="backup_group_gestures">Gesta</string>
+    <string name="backup_group_other">"Jiné"</string>
+    <string name="backup_done">"Hotovo"</string>
+</resources>

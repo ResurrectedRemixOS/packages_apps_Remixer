@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Desa"</string>
+    <string name="looks_import">"Importa"</string>
+    <string name="looks_name">"Nom"</string>
+    <string name="looks_apply">"Aplica"</string>
+    <string name="looks_share">"Comparteix"</string>
+    <string name="looks_delete">"Suprimeix"</string>
+    <string name="looks_part_font">"Tipus de lletra"</string>
+    <string name="looks_part_wallpaper">"Fons de pantalla"</string>
+    <string name="looks_color_default">"Predeterminat"</string>
+    <string name="looks_create">"Crea"</string>
+    <string name="looks_edit">"Edita"</string>
+    <string name="looks_customize">"Personalitza"</string>
+    <string name="looks_save_look">"Desa"</string>
+    <string name="looks_custom_color">"Color personalitzat"</string>
+    <string name="looks_part_clock_color">"Color del rellotge"</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="charge_report_keep_title">"เก็บไว้"</string>
+    <string name="charge_report_battery">"แบตเตอรี่"</string>
+    <string name="charge_report_temp">"อุณหภูมิ"</string>
+    <string name="charge_report_time">"เวลา"</string>
+</resources>

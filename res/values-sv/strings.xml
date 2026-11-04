@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Konto"</string>
+    <string name="rr_homepage_storage">"Lagring"</string>
+    <string name="rr_homepage_battery">"Batteri"</string>
+    <string name="rr_homepage_connections">"Anslutningar"</string>
+    <string name="rr_homepage_device">"Enhet"</string>
+    <string name="rr_homepage_privacy">Sekretess &amp; säkerhet</string>
+    <string name="rr_homepage_help">"Hjälp"</string>
+    <string name="rr_live_wifi">"Wifi"</string>
+    <string name="rr_live_mobile">"Mobil"</string>
+    <string name="rr_live_offline">"Offline"</string>
+    <string name="rr_live_on">"På"</string>
+    <string name="rr_live_off">"Av"</string>
+    <string name="rr_homepage_charging">"Laddar"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_homepage_mobile_data">"Mobildata"</string>
+    <string name="rr_homepage_not_connected">"Inte ansluten"</string>
+    <string name="rr_homepage_dark_theme">"Mörkt tema"</string>
+    <string name="rr_homepage_on">"På"</string>
+    <string name="rr_homepage_off">"Av"</string>
+    <string name="rr_homepage_signed_in">"Inloggad"</string>
+    <string name="rr_homepage_device_word">"INSTÄLLNINGAR"</string>
+    <string name="rr_group_apps">"Appar och aviseringar"</string>
+    <string name="rr_group_security">"Säkerhet och integritet"</string>
+    <string name="rr_group_accounts_plain">"Konton"</string>
+    <string name="rr_group_accessibility_summary">"Skärm, interaktion och ljud"</string>
+    <string name="remixer_statusbar">"Statusfält"</string>
+    <string name="remixer_qs">"Snabbinställningar"</string>
+    <string name="remixer_notifications">"Aviseringar"</string>
+    <string name="remixer_theme">"Tema"</string>
+    <string name="remixer_lockscreen">"Låsskärm"</string>
+    <string name="remixer_udfps_icon">UDFPS-ikon</string>
+    <string name="remixer_udfps_animation">UDFPS-animering</string>
+    <string name="remixer_navigation">Navigering</string>
+    <string name="remixer_misc">"Övrigt"</string>
+    <string name="misc_category_volume">"Volym"</string>
+    <string name="misc_category_backup">"Säkerhetskopiering"</string>
+    <string name="misc_category_scrolling">"Scrollning"</string>
+    <string name="remixer_fonts">"Fonter"</string>
+    <string name="remixer_wallpapers">"Bakgrunder"</string>
+    <string name="remixer_accents_summary">Accentfärg</string>
+    <string name="pulse_preview_title">"Nu spelas"</string>
+    <string name="pulse_style">"Stil"</string>
+    <string name="pulse_color">"Färg"</string>
+    <string name="pulse_color_accent">"Bakgrund"</string>
+    <string name="pulse_look">"Utseende"</string>
+    <string name="pulse_lockscreen">"Visa på låsskärmen"</string>
+    <string name="accent_preview_button">"Knapp"</string>
+    <string name="accent_custom_title">"Anpassad färg"</string>
+    <string name="accent_custom_hue">"Nyans"</string>
+    <string name="accent_custom_recent">"Senaste"</string>
+    <string name="accent_custom_apply">"Använd"</string>
+    <string name="accent_shade_default">"Standard"</string>
+    <string name="accent_saturation">"Mättnad"</string>
+    <string name="remixer_qs_customize">"Anpassa"</string>
+    <string name="remixer_qs_style_section">"Stil"</string>
+    <string name="remixer_lock_media_off">"Av"</string>
+    <string name="remixer_lock_preview_device">"Den här telefonen"</string>
+    <string name="remixer_qs_preview_on">"På"</string>
+    <string name="remixer_qs_preview_off">"Av"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>Ficklampa</item>
+        <item>"Stör ej"</item>
+        <item>"Rotera automatiskt"</item>
+        <item>"Mörkt tema"</item>
+        <item>"Surfzon"</item>
+        <item>"Flygplansläge"</item>
+        <item>"Databesparing"</item>
+        <item>NFC</item>
+        <item>"Synkronisera"</item>
+        <item>"Skanna QR-kod"</item>
+    </string-array>
+    <string name="remixer_headers_summary">Välj en bakgrundsbild för snabbinställningarna</string>
+    <string name="header_preview_none">"Ingen bild har valts"</string>
+    <string name="header_source_image">"Bild"</string>
+    <string name="header_source_photo">"Foto"</string>
+    <string name="header_collections">"Samlingar"</string>
+    <string name="header_images">"Bilder"</string>
+    <string name="header_photo_choose">"Välj ett foto"</string>
+    <string name="header_look">"Utseende"</string>
+    <string name="remixer_weather">"Väder"</string>
+    <string name="font_default">"Standard"</string>
+    <string name="font_apply">"Använd"</string>
+    <string name="font_filter_all">"Alla"</string>
+    <string name="font_filter_serif">"Seriff"</string>
+    <string name="wallpaper_apply_title">"Ange bakgrund"</string>
+    <string name="wallpaper_apply_home">"Startskärm"</string>
+    <string name="wallpaper_apply_lock">"Låsskärm"</string>
+    <string name="remixer_settings_style">Inställningsstil</string>
+    <string name="remixer_navbar_category">"Navigeringsfält"</string>
+</resources>

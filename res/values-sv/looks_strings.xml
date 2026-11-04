@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Spara"</string>
+    <string name="looks_import">"Importera"</string>
+    <string name="looks_name">"Namn"</string>
+    <string name="looks_apply">"Använd"</string>
+    <string name="looks_share">"Dela"</string>
+    <string name="looks_delete">"Radera"</string>
+    <string name="looks_part_accent">Accentfärg</string>
+    <string name="looks_part_wallpaper">"Bakgrund"</string>
+    <string name="looks_part_boot">Startanimering</string>
+    <string name="looks_color_default">"Standard"</string>
+    <string name="looks_create">"Skapa"</string>
+    <string name="looks_edit">"Redigera"</string>
+    <string name="looks_customize">"Anpassa"</string>
+    <string name="looks_save_look">"Spara"</string>
+    <string name="looks_custom_color">"Anpassad färg"</string>
+    <string name="looks_part_clock_color">"Klockfärg"</string>
+</resources>

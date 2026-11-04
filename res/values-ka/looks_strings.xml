@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"შენახვა"</string>
+    <string name="looks_import">"იმპორტი"</string>
+    <string name="looks_name">"სახელი"</string>
+    <string name="looks_apply">"გამოყენება"</string>
+    <string name="looks_share">"გაზიარება"</string>
+    <string name="looks_delete">"წაშლა"</string>
+    <string name="looks_part_font">"შრიფტი"</string>
+    <string name="looks_part_wallpaper">"ფონი"</string>
+    <string name="looks_color_default">"ნაგულისხმევი"</string>
+    <string name="looks_create">"შექმნა"</string>
+    <string name="looks_edit">"რედაქტირება"</string>
+    <string name="looks_customize">"მორგება"</string>
+    <string name="looks_save_look">"შენახვა"</string>
+    <string name="looks_custom_color">"მორგებული ფერი"</string>
+    <string name="looks_part_clock_color">"საათის ფერი"</string>
+</resources>

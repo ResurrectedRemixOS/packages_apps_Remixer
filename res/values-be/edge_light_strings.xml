@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Колер"</string>
+    <string name="edge_light_color_accent">Асноўны колер</string>
+    <string name="edge_light_color_notification">Колер апавяшчэння</string>
+    <string name="edge_light_color_wallpaper">"Колер шпалер"</string>
+    <string name="edge_light_custom_color_title">"Карыстальніцкі колер"</string>
+    <string name="edge_light_style_title">"Стыль"</string>
+    <string name="edge_light_moment_notifications">"Апавяшчэнні"</string>
+    <string name="edge_light_moment_calls">"Уваходныя выклікі"</string>
+    <string name="edge_light_moment_battery_low">Акумулятар разраджаны</string>
+    <string name="edge_light_moment_unlock">"Разблакіравана"</string>
+    <string name="remixer_color_default">"Стандартна"</string>
+</resources>

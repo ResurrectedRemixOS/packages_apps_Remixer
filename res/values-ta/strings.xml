@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"கணக்கு"</string>
+    <string name="rr_homepage_storage">"சேமிப்பகம்"</string>
+    <string name="rr_homepage_battery">"பேட்டரி"</string>
+    <string name="rr_homepage_connections">"இணைப்புகள்"</string>
+    <string name="rr_homepage_device">"சாதனம்"</string>
+    <string name="rr_homepage_privacy">தனிமைக்காப்பு</string>
+    <string name="rr_homepage_help">"உதவி"</string>
+    <string name="rr_live_wifi">"வைஃபை"</string>
+    <string name="rr_live_mobile">"மொபைல்"</string>
+    <string name="rr_live_offline">"ஆஃப்லைன்"</string>
+    <string name="rr_live_on">"இயக்கப்பட்டுள்ளது"</string>
+    <string name="rr_live_off">"ஆஃப்"</string>
+    <string name="rr_homepage_charging">"சார்ஜ் ஆகிறது"</string>
+    <string name="rr_homepage_internet">"இணையம்"</string>
+    <string name="rr_homepage_mobile_data">"மொபைல் டேட்டா"</string>
+    <string name="rr_homepage_not_connected">"இணைக்கப்படவில்லை"</string>
+    <string name="rr_homepage_dark_theme">"டார்க் தீம்"</string>
+    <string name="rr_homepage_on">"இயக்கப்பட்டுள்ளது"</string>
+    <string name="rr_homepage_off">"ஆஃப்"</string>
+    <string name="rr_homepage_signed_in">"உள்நுழைந்துள்ளீர்கள்"</string>
+    <string name="rr_homepage_device_word">அமைப்புகள்</string>
+    <string name="rr_group_apps">"ஆப்ஸ் &amp; அறிவிப்புகள்"</string>
+    <string name="rr_group_security">"பாதுகாப்பு &amp; தனியுரிமை"</string>
+    <string name="rr_group_accounts_plain">"கணக்குகள்"</string>
+    <string name="rr_group_accessibility_summary">"காட்சி, இன்டராக்‌ஷன், ஆடியோ"</string>
+    <string name="remixer_statusbar">"நிலைப் பட்டி"</string>
+    <string name="remixer_qs">"விரைவு அமைப்புகள்"</string>
+    <string name="remixer_notifications">"அறிவிப்புகள்"</string>
+    <string name="remixer_theme">"தீம்"</string>
+    <string name="remixer_lockscreen">"பூட்டுத் திரை"</string>
+    <string name="remixer_navigation">வழிசெலுத்தல்</string>
+    <string name="remixer_misc">"மற்றவை"</string>
+    <string name="misc_category_volume">"ஒலியளவு"</string>
+    <string name="misc_category_backup">"காப்புப் பிரதி எடு"</string>
+    <string name="misc_category_scrolling">"ஸ்க்ரோலிங்"</string>
+    <string name="remixer_fonts">"எழுத்து வடிவங்கள்"</string>
+    <string name="remixer_wallpapers">"வால்பேப்பர்கள்"</string>
+    <string name="remixer_accents_summary">உச்சரிப்பு நிறம்</string>
+    <string name="pulse_preview_title">இப்போது ஒலிப்பது</string>
+    <string name="pulse_style">"ஸ்டைல்"</string>
+    <string name="pulse_color">"வண்ணம்"</string>
+    <string name="pulse_color_accent">"வால்பேப்பர்"</string>
+    <string name="pulse_look">"தோற்றம்"</string>
+    <string name="pulse_lockscreen">"பூட்டுத் திரையில் காட்டு"</string>
+    <string name="accent_preview_button">"பட்டன்"</string>
+    <string name="accent_custom_title">"பிரத்தியேக வண்ணம்"</string>
+    <string name="accent_custom_hue">"நிறச்சாயல்"</string>
+    <string name="accent_custom_recent">"சமீபத்தியவை"</string>
+    <string name="accent_custom_apply">"பயன்படுத்து"</string>
+    <string name="accent_shade_default">"இயல்பு"</string>
+    <string name="accent_saturation">"நிறைசெறிவுநிலை"</string>
+    <string name="remixer_qs_customize">"பிரத்தியேகமாக்கு"</string>
+    <string name="remixer_qs_style_section">"ஸ்டைல்"</string>
+    <string name="remixer_lock_media_off">"ஆஃப்"</string>
+    <string name="remixer_lock_preview_device">"இந்த மொபைல்"</string>
+    <string name="remixer_qs_preview_on">"இயக்கப்பட்டுள்ளது"</string>
+    <string name="remixer_qs_preview_off">"ஆஃப்"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"இணையம்"</item>
+        <item>Bluetooth</item>
+        <item>ஒளிவிளக்கு</item>
+        <item>"தொந்தரவு செய்ய வேண்டாம்"</item>
+        <item>"தானாகச் சுழற்று"</item>
+        <item>"டார்க் தீம்"</item>
+        <item>"ஹாட்ஸ்பாட்"</item>
+        <item>"விமான மோட்"</item>
+        <item>"டேட்டா சேமிப்பான்"</item>
+        <item>NFC</item>
+        <item>"ஒத்திசை"</item>
+        <item>"QR குறியீட்டை ஸ்கேன் செய்தல்"</item>
+    </string-array>
+    <string name="header_preview_none">"படம் எதுவும் தேர்ந்தெடுக்கப்படவில்லை"</string>
+    <string name="header_source_image">"படம்"</string>
+    <string name="header_source_photo">"படம்"</string>
+    <string name="header_collections">"தொகுப்புகள்"</string>
+    <string name="header_photo_choose">"படத்தைத் தேர்வுசெய்யுங்கள்"</string>
+    <string name="header_look">"தோற்றம்"</string>
+    <string name="remixer_weather">"வானிலை"</string>
+    <string name="font_default">"இயல்பு"</string>
+    <string name="font_apply">"பயன்படுத்து"</string>
+    <string name="font_filter_all">"எல்லாம்"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"வால்பேப்பரை அமை"</string>
+    <string name="wallpaper_apply_home">"முகப்புத் திரை"</string>
+    <string name="wallpaper_apply_lock">"பூட்டுத் திரை"</string>
+    <string name="remixer_settings_style_original">"அசல்"</string>
+    <string name="remixer_navbar_category">"வழிசெலுத்தல் பட்டி"</string>
+</resources>

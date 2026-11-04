@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Устгах"</string>
+    <string name="action_reset">"Шинэчлэх"</string>
+    <string name="action_search_apps">"Апп хайх"</string>
+    <string name="action_select_all">"Бүгдийг сонгох"</string>
+    <string name="app_spoofing_clear_all">"Бүгдийг арилгах"</string>
+    <string name="app_spoofing_disabled">"Идэвхгүй болгосон"</string>
+    <string name="common_clear_search">"Хайлтыг цэвэрлэх"</string>
+    <string name="custom_spoof_profile_brand">"Брэнд"</string>
+    <string name="custom_spoof_profile_device">"Төхөөрөмж"</string>
+    <string name="custom_spoof_profile_manufacturer">"Үйлдвэрлэгч"</string>
+    <string name="custom_spoof_profile_model">"Загвар"</string>
+    <string name="hide_system_apps">"Системийн аппуудыг нуух"</string>
+    <string name="pif_recommended_suffix">"Санал болгосон"</string>
+    <string name="pif_status">"Төлөв"</string>
+    <string name="pif_wipe_confirm">"Өгөгдлийг арилгах"</string>
+    <string name="show_system_apps">"Системийн аппыг харуулах"</string>
+    <string name="spoofing_reset_defaults_confirm">"Шинэчлэх"</string>
+    <string name="ts_mode_auto">"Автомат"</string>
+    <string name="ts_untrusted_root_keep">"Байлгах"</string>
+    <string name="ts_untrusted_root_replace">"Орлуулах"</string>
+    <string name="ts_verification_mode_auto">"Автомат"</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lock_stage_reset">"Repor"</string>
+    <string name="lock_stage_save">"Guardar"</string>
+    <string name="stage_tile_clock">Relógio</string>
+    <string name="stage_tile_weather">"Tempo"</string>
+    <string name="stage_tile_shortcuts">"Atalhos"</string>
+    <string name="stage_tile_battery">Anel da bateria</string>
+</resources>

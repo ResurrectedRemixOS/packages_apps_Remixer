@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Colour"</string>
+    <string name="edge_light_color_wallpaper">"Wallpaper colour"</string>
+    <string name="edge_light_custom_color_title">"Customised colour"</string>
+</resources>

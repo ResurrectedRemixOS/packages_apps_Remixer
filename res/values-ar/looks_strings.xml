@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"حفظ"</string>
+    <string name="looks_import">"استيراد"</string>
+    <string name="looks_name">"الاسم"</string>
+    <string name="looks_apply">"تطبيق"</string>
+    <string name="looks_share">"مشاركة"</string>
+    <string name="looks_delete">"حذف"</string>
+    <string name="looks_part_accent">لون التمييز</string>
+    <string name="looks_part_font">"الخط"</string>
+    <string name="looks_part_wallpaper">"الخلفية"</string>
+    <string name="looks_part_boot">حركة الإقلاع</string>
+    <string name="looks_color_default">"تلقائي"</string>
+    <string name="looks_create">"إنشاء"</string>
+    <string name="looks_edit">"تعديل"</string>
+    <string name="looks_customize">"تخصيص"</string>
+    <string name="looks_save_look">"حفظ"</string>
+    <string name="looks_custom_color">"لون مخصص"</string>
+    <string name="looks_part_clock_color">"لون الساعة"</string>
+</resources>

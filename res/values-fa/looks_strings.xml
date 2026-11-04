@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"ذخیره"</string>
+    <string name="looks_import">"وارد کردن"</string>
+    <string name="looks_name">"نام"</string>
+    <string name="looks_apply">"اعمال"</string>
+    <string name="looks_share">"هم‌رسانی"</string>
+    <string name="looks_delete">"حذف"</string>
+    <string name="looks_part_font">"قلم"</string>
+    <string name="looks_part_wallpaper">"کاغذدیواری"</string>
+    <string name="looks_color_default">"پیش‌فرض"</string>
+    <string name="looks_create">"ایجاد کردن"</string>
+    <string name="looks_edit">"ویرایش"</string>
+    <string name="looks_customize">"سفارشی کردن"</string>
+    <string name="looks_save_look">"ذخیره"</string>
+    <string name="looks_custom_color">"رنگ سفارشی"</string>
+    <string name="looks_part_clock_color">"رنگ ساعت"</string>
+</resources>

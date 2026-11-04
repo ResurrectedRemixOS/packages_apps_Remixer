@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pie_edges">"គែម"</string>
+    <string name="pie_style">"រចនាប័ទ្ម"</string>
+    <string name="pie_size">"ទំហំ"</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>"តូច"</item>
+        <item>"មធ្យម"</item>
+        <item>"ធំ"</item>
+    </string-array>
+</resources>

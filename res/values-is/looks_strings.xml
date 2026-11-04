@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Vista"</string>
+    <string name="looks_import">"Flytja inn"</string>
+    <string name="looks_name">"Heiti"</string>
+    <string name="looks_apply">"Nota"</string>
+    <string name="looks_share">"Deila"</string>
+    <string name="looks_delete">"Eyða"</string>
+    <string name="looks_part_font">"Leturgerð"</string>
+    <string name="looks_part_wallpaper">"Veggfóður"</string>
+    <string name="looks_color_default">"Sjálfgefið"</string>
+    <string name="looks_create">"Búa til"</string>
+    <string name="looks_edit">"Breyta"</string>
+    <string name="looks_customize">"Sérsníða"</string>
+    <string name="looks_save_look">"Vista"</string>
+    <string name="looks_custom_color">"Sérsniðinn litur"</string>
+    <string name="looks_part_clock_color">"Litur klukku"</string>
+</resources>

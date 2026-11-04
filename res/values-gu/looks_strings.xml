@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"સાચવો"</string>
+    <string name="looks_import">"આયાત કરો"</string>
+    <string name="looks_name">"નામ"</string>
+    <string name="looks_apply">"લાગુ કરો"</string>
+    <string name="looks_share">"શેર કરો"</string>
+    <string name="looks_delete">"ડિલીટ કરો"</string>
+    <string name="looks_part_font">"ફોન્ટ"</string>
+    <string name="looks_part_wallpaper">"વૉલપેપર"</string>
+    <string name="looks_color_default">"ડિફૉલ્ટ"</string>
+    <string name="looks_create">"બનાવો"</string>
+    <string name="looks_edit">"ફેરફાર કરો"</string>
+    <string name="looks_customize">"કસ્ટમાઇઝ કરો"</string>
+    <string name="looks_save_look">"સાચવો"</string>
+    <string name="looks_custom_color">"કસ્ટમ રંગ"</string>
+    <string name="looks_part_clock_color">"ઘડિયાળનો રંગ"</string>
+</resources>

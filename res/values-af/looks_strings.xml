@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Stoor"</string>
+    <string name="looks_import">"Voer in"</string>
+    <string name="looks_name">"Naam"</string>
+    <string name="looks_apply">"Pas toe"</string>
+    <string name="looks_share">"Deel"</string>
+    <string name="looks_delete">"Vee uit"</string>
+    <string name="looks_part_font">"Lettertipe"</string>
+    <string name="looks_part_wallpaper">"Muurpapier"</string>
+    <string name="looks_color_default">"Verstek"</string>
+    <string name="looks_create">"Skep"</string>
+    <string name="looks_edit">"Wysig"</string>
+    <string name="looks_customize">"Pasmaak"</string>
+    <string name="looks_save_look">"Stoor"</string>
+    <string name="looks_custom_color">"Gepasmaakte kleur"</string>
+    <string name="looks_part_clock_color">"Horlosiekleur"</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"การโทร"</string>
+    <string name="now_bar_live_apps_all">"แอปทั้งหมด"</string>
+    <string name="now_bar_charging">"กำลังชาร์จ"</string>
+    <string name="now_bar_flashlight">"ไฟฉาย"</string>
+    <string name="now_bar_style">"รูปแบบ"</string>
+    <string name="now_bar_color">"สี"</string>
+    <string name="now_bar_outline">"ตีกรอบ"</string>
+    <string name="now_bar_width">"ความกว้าง"</string>
+    <string name="now_bar_music_category">"เพลง"</string>
+    <string name="now_bar_buttons">"ปุ่ม"</string>
+    <string name="now_bar_text">"ส่งข้อความ"</string>
+    <string name="now_bar_text_size">"ขนาดข้อความ"</string>
+</resources>

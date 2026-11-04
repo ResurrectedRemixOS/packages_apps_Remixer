@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"שמירה"</string>
+    <string name="haptic_remix_delete_button">"מחיקה"</string>
+    <string name="haptic_remix_default">"ברירת מחדל"</string>
+    <string name="haptic_remix_calls">"שיחות"</string>
+    <string name="haptic_remix_color_violet">"סגול"</string>
+    <string name="haptic_remix_color_blue">"כחול"</string>
+    <string name="haptic_remix_color_green">"ירוק"</string>
+    <string name="haptic_remix_color_white">"לבן"</string>
+</resources>

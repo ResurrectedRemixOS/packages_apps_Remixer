@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"खाते"</string>
+    <string name="rr_homepage_storage">"स्टोरेज"</string>
+    <string name="rr_homepage_battery">"बॅटरी"</string>
+    <string name="rr_homepage_connections">"कनेक्शन"</string>
+    <string name="rr_homepage_device">"डिव्हाइस"</string>
+    <string name="rr_homepage_help">"मदत"</string>
+    <string name="rr_live_wifi">"वाय-फाय"</string>
+    <string name="rr_live_mobile">"मोबाइल"</string>
+    <string name="rr_live_offline">"ऑफलाइन"</string>
+    <string name="rr_live_on">"सुरू आहे"</string>
+    <string name="rr_live_off">"बंद आहे"</string>
+    <string name="rr_homepage_charging">"चार्ज होत आहे"</string>
+    <string name="rr_homepage_internet">"इंटरनेट"</string>
+    <string name="rr_homepage_mobile_data">"मोबाइल डेटा"</string>
+    <string name="rr_homepage_not_connected">"कनेक्ट केलेले नाही"</string>
+    <string name="rr_homepage_dark_theme">"गडद थीम"</string>
+    <string name="rr_homepage_on">"सुरू आहे"</string>
+    <string name="rr_homepage_off">"बंद आहे"</string>
+    <string name="rr_homepage_signed_in">"साइन इन केले"</string>
+    <string name="rr_homepage_device_word">"सेटिंग्ज"</string>
+    <string name="rr_group_apps">"अ‍ॅप्स आणि सूचना"</string>
+    <string name="rr_group_security">"सुरक्षा आणि गोपनीयता"</string>
+    <string name="rr_group_accounts_plain">"खाती"</string>
+    <string name="rr_group_accessibility_summary">"डिस्प्ले, संवाद, ऑडिओ"</string>
+    <string name="remixer_statusbar">"स्टेटस बार"</string>
+    <string name="remixer_qs">"क्विक सेटिंग्ज"</string>
+    <string name="remixer_notifications">"सूचना"</string>
+    <string name="remixer_theme">"थीम"</string>
+    <string name="remixer_lockscreen">"लॉक स्क्रीन"</string>
+    <string name="remixer_misc">"संकीर्ण"</string>
+    <string name="misc_category_volume">"व्हॉल्यूम"</string>
+    <string name="misc_category_backup">"बॅकअप"</string>
+    <string name="misc_category_scrolling">"स्क्रोल करणे"</string>
+    <string name="remixer_fonts">"फॉंट"</string>
+    <string name="remixer_wallpapers">"वॉलपेपर"</string>
+    <string name="pulse_style">"शैली"</string>
+    <string name="pulse_color">"रंग"</string>
+    <string name="pulse_color_accent">"वॉलपेपर"</string>
+    <string name="pulse_look">"स्वरूप"</string>
+    <string name="pulse_lockscreen">"लॉक स्क्रीनवर दाखवा"</string>
+    <string name="accent_preview_button">"बटण"</string>
+    <string name="accent_custom_title">"कस्टम रंग"</string>
+    <string name="accent_custom_hue">"रंगछटा"</string>
+    <string name="accent_custom_recent">"अलीकडील"</string>
+    <string name="accent_custom_apply">"लागू करा"</string>
+    <string name="accent_shade_default">"डीफॉल्ट"</string>
+    <string name="accent_saturation">"संपृक्तता"</string>
+    <string name="remixer_qs_customize">"कस्टमाइझ करा"</string>
+    <string name="remixer_qs_style_section">"शैली"</string>
+    <string name="remixer_lock_media_off">"बंद आहे"</string>
+    <string name="remixer_lock_preview_device">"हा फोन"</string>
+    <string name="remixer_qs_preview_on">"सुरू आहे"</string>
+    <string name="remixer_qs_preview_off">"बंद आहे"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"इंटरनेट"</item>
+        <item>Bluetooth</item>
+        <item>"फ्लॅशलाइट"</item>
+        <item>"व्यत्यय आणू नका"</item>
+        <item>"ऑटोमॅटिक रोटेट"</item>
+        <item>"गडद थीम"</item>
+        <item>"हॉटस्पॉट"</item>
+        <item>"विमान मोड"</item>
+        <item>"डेटा सेव्हर"</item>
+        <item>NFC</item>
+        <item>"सिंक करा"</item>
+        <item>"QR कोड स्कॅन करा"</item>
+    </string-array>
+    <string name="header_preview_none">"कोणतीही इमेज निवडली नाही"</string>
+    <string name="header_source_image">"इमेज"</string>
+    <string name="header_source_photo">"फोटो"</string>
+    <string name="header_collections">"संग्रह"</string>
+    <string name="header_images">"इमेज"</string>
+    <string name="header_photo_choose">"फोटो निवडा"</string>
+    <string name="header_look">"स्वरूप"</string>
+    <string name="remixer_weather">"हवामान"</string>
+    <string name="font_default">"डीफॉल्ट"</string>
+    <string name="font_apply">"लागू करा"</string>
+    <string name="font_filter_all">"सर्व"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"वॉलपेपर सेट करा"</string>
+    <string name="wallpaper_apply_home">"होम स्क्रीन"</string>
+    <string name="wallpaper_apply_lock">"लॉक स्क्रीन"</string>
+    <string name="remixer_settings_style_original">"मूळ"</string>
+    <string name="remixer_navbar_category">"नेव्हिगेशन बार"</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Panggilan telepon"</string>
+    <string name="now_bar_scores">Live score</string>
+    <string name="now_bar_live_apps_all">"Semua aplikasi"</string>
+    <string name="now_bar_charging">"Mengisi daya"</string>
+    <string name="now_bar_flashlight">Senter</string>
+    <string name="now_bar_aod">Tampilkan di Always On Display</string>
+    <string name="now_bar_style">"Gaya"</string>
+    <string name="now_bar_color">"Warna"</string>
+    <string name="now_bar_outline">"Garis batas"</string>
+    <string name="now_bar_width">"Lebar"</string>
+    <string name="now_bar_music_category">"Musik"</string>
+    <string name="now_bar_art">Sampul album</string>
+    <string name="now_bar_buttons">Tombol</string>
+    <string name="now_bar_text">Teks</string>
+    <string name="now_bar_text_size">"Ukuran teks"</string>
+</resources>

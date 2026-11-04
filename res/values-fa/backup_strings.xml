@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"پشتیبان‌گیری و بازیابی"</string>
+    <string name="backup_restore">"بازگرداندن"</string>
+    <string name="backup_auto">"خودکار"</string>
+    <string name="backup_group_status_bar">"نوار وضعیت"</string>
+    <string name="backup_group_lock_screen">"صفحه قفل"</string>
+    <string name="backup_group_theme">"زمینه"</string>
+    <string name="backup_group_qs">"تنظیمات سریع"</string>
+    <string name="backup_group_notifications">"اعلان‌ها"</string>
+    <string name="backup_group_gestures">حرکات</string>
+    <string name="backup_group_other">"غیره"</string>
+    <string name="backup_done">"تمام"</string>
+</resources>

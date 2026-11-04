@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Llogaria"</string>
+    <string name="rr_homepage_storage">"Hapësira ruajtëse"</string>
+    <string name="rr_homepage_battery">"Bateria"</string>
+    <string name="rr_homepage_connections">"Lidhjet"</string>
+    <string name="rr_homepage_device">"Pajisja"</string>
+    <string name="rr_homepage_privacy">Privatësia &amp; siguria</string>
+    <string name="rr_homepage_help">"Ndihma"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"Celular"</string>
+    <string name="rr_live_offline">"Offline"</string>
+    <string name="rr_live_on">"Aktiv"</string>
+    <string name="rr_live_off">"Joaktiv"</string>
+    <string name="rr_homepage_charging">"Po karikohet"</string>
+    <string name="rr_homepage_internet">"Interneti"</string>
+    <string name="rr_homepage_mobile_data">"Të dhënat celulare"</string>
+    <string name="rr_homepage_not_connected">"Nuk është lidhur"</string>
+    <string name="rr_homepage_dark_theme">"Tema e errët"</string>
+    <string name="rr_homepage_on">"Aktiv"</string>
+    <string name="rr_homepage_off">"Joaktiv"</string>
+    <string name="rr_homepage_signed_in">"Identifikuar"</string>
+    <string name="rr_homepage_device_word">"CILËSIMET"</string>
+    <string name="rr_group_apps">"Aplikacionet dhe njoftimet"</string>
+    <string name="rr_group_security">"Siguria dhe privatësia"</string>
+    <string name="rr_group_accounts_plain">"Llogaritë"</string>
+    <string name="rr_group_accessibility_summary">"Ekrani, ndërveprimi, audioja"</string>
+    <string name="remixer_statusbar">"Shiriti i statusit"</string>
+    <string name="remixer_qs">"Cilësimet e shpejta"</string>
+    <string name="remixer_notifications">"Njoftimet"</string>
+    <string name="remixer_theme">"Tema"</string>
+    <string name="remixer_lockscreen">"Ekrani i kyçjes"</string>
+    <string name="remixer_navigation">Lundrimi</string>
+    <string name="remixer_misc">"Të ndryshme"</string>
+    <string name="misc_category_volume">"Volumi"</string>
+    <string name="misc_category_backup">"Rezervimi"</string>
+    <string name="misc_category_scrolling">"Lëvizja"</string>
+    <string name="remixer_fonts">"Fontet"</string>
+    <string name="remixer_wallpapers">"Imazhet e sfondit"</string>
+    <string name="pulse_preview_title">Duke luajtur</string>
+    <string name="pulse_style">"Stili"</string>
+    <string name="pulse_color">"Ngjyra"</string>
+    <string name="pulse_color_accent">"Imazhi i sfondit"</string>
+    <string name="pulse_look">"Paraqitja"</string>
+    <string name="pulse_lockscreen">"Shfaq në ekranin e kyçjes"</string>
+    <string name="accent_preview_button">"Buton"</string>
+    <string name="accent_custom_title">"Ngjyra e personalizuar"</string>
+    <string name="accent_custom_hue">"Nuanca"</string>
+    <string name="accent_custom_recent">"Të fundit"</string>
+    <string name="accent_custom_apply">"Zbato"</string>
+    <string name="accent_shade_default">"E parazgjedhur"</string>
+    <string name="accent_saturation">"Ngopja"</string>
+    <string name="remixer_qs_customize">"Personalizo"</string>
+    <string name="remixer_qs_style_section">"Stili"</string>
+    <string name="remixer_lock_media_off">"Joaktiv"</string>
+    <string name="remixer_lock_preview_device">"Ky telefon"</string>
+    <string name="remixer_qs_preview_on">"Aktiv"</string>
+    <string name="remixer_qs_preview_off">"Joaktiv"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Interneti"</item>
+        <item>Bluetooth</item>
+        <item>Elektriku i dorës</item>
+        <item>"Mos shqetëso"</item>
+        <item>"Rrotullim automatik"</item>
+        <item>"Tema e errët"</item>
+        <item>"Zona e qasjes për internet"</item>
+        <item>"Modaliteti i aeroplanit"</item>
+        <item>"Kursyesi i të dhënave"</item>
+        <item>NFC</item>
+        <item>"Sinkronizo"</item>
+        <item>"Skano kodin QR"</item>
+    </string-array>
+    <string name="header_preview_none">"Nuk është zgjedhur asnjë imazh"</string>
+    <string name="header_source_image">"Imazh"</string>
+    <string name="header_source_photo">"Fotografi"</string>
+    <string name="header_collections">"Koleksionet"</string>
+    <string name="header_images">"Imazhet"</string>
+    <string name="header_photo_choose">"Zgjidh një fotografi"</string>
+    <string name="header_look">"Paraqitja"</string>
+    <string name="remixer_weather">"Moti"</string>
+    <string name="font_default">"E parazgjedhur"</string>
+    <string name="font_apply">"Zbato"</string>
+    <string name="font_filter_all">"Të gjitha"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Cakto imazhin në sfond"</string>
+    <string name="wallpaper_apply_home">"Ekrani bazë"</string>
+    <string name="wallpaper_apply_lock">"Ekrani i kyçjes"</string>
+    <string name="remixer_settings_style_original">"Origjinali"</string>
+    <string name="remixer_navbar_category">"Shiriti i navigimit"</string>
+</resources>

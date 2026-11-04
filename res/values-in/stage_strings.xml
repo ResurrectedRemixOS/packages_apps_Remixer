@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lock_stage_save">"Simpan"</string>
+    <string name="stage_tile_clock">"Jam"</string>
+    <string name="stage_tile_weather">"Cuaca"</string>
+    <string name="stage_tile_shortcuts">"Pintasan"</string>
+    <string name="stage_tile_battery">Cincin baterai</string>
+    <string name="stage_tile_toggles">Pilihan</string>
+</resources>

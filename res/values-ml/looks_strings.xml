@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"സംരക്ഷിക്കുക"</string>
+    <string name="looks_import">"ഇമ്പോർട്ടുചെയ്യുക"</string>
+    <string name="looks_name">"പേര്"</string>
+    <string name="looks_apply">"ബാധകമാക്കുക"</string>
+    <string name="looks_share">"പങ്കിടുക"</string>
+    <string name="looks_delete">"ഇല്ലാതാക്കുക"</string>
+    <string name="looks_part_font">"ഫോണ്ട്"</string>
+    <string name="looks_part_wallpaper">"വാൾപേപ്പർ"</string>
+    <string name="looks_color_default">"ഡിഫോൾട്ട്"</string>
+    <string name="looks_create">"സൃഷ്ടിക്കുക"</string>
+    <string name="looks_edit">"എഡിറ്റ് ചെയ്യുക"</string>
+    <string name="looks_customize">"ഇഷ്‌ടാനുസൃതമാക്കുക"</string>
+    <string name="looks_save_look">"സംരക്ഷിക്കുക"</string>
+    <string name="looks_custom_color">"ഇഷ്‌ടാനുസൃത നിറം"</string>
+    <string name="looks_part_clock_color">"ക്ലോക്ക് നിറം"</string>
+</resources>

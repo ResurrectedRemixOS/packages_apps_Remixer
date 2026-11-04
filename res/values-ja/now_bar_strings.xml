@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"通話"</string>
+    <string name="now_bar_scores">ライブスコア</string>
+    <string name="now_bar_live_apps_all">"すべてのアプリ"</string>
+    <string name="now_bar_charging">"充電中"</string>
+    <string name="now_bar_flashlight">"ライト"</string>
+    <string name="now_bar_aod">AODに表示</string>
+    <string name="now_bar_style">"スタイル"</string>
+    <string name="now_bar_color">"色"</string>
+    <string name="now_bar_outline">"アウトライン"</string>
+    <string name="now_bar_width">"幅"</string>
+    <string name="now_bar_music_category">"音楽"</string>
+    <string name="now_bar_art">アルバムアート</string>
+    <string name="now_bar_buttons">ボタン</string>
+    <string name="now_bar_text">テキスト</string>
+    <string name="now_bar_text_size">"文字サイズ"</string>
+</resources>

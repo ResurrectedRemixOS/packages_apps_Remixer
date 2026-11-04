@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Renk"</string>
+    <string name="edge_light_color_accent">Vurgu rengi</string>
+    <string name="edge_light_color_notification">Bildirim rengi</string>
+    <string name="edge_light_color_wallpaper">"Duvar kağıdı rengi"</string>
+    <string name="edge_light_custom_color_title">"Özel renk"</string>
+    <string name="edge_light_style_title">"Stil"</string>
+    <string name="edge_light_animation_effect_title">Animasyon</string>
+    <string name="edge_light_animation_effect_chase">Takip</string>
+    <string name="edge_light_animation_effect_comet">Kuyruklu yıldız</string>
+    <string name="edge_light_spread_title">Parıltı yayılması</string>
+    <string name="edge_light_intensity_title">Parlama yoğunluğu</string>
+    <string name="edge_light_moment_notifications">"Bildirimler"</string>
+    <string name="edge_light_moment_calls">"Gelen çağrılar"</string>
+    <string name="edge_light_moment_battery_low">Düşük pil</string>
+    <string name="edge_light_moment_unlock">"Kilitli değil"</string>
+    <string name="remixer_color_default">"Varsayılan"</string>
+</resources>

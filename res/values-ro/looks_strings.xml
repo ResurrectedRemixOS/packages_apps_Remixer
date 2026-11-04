@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Salvează"</string>
+    <string name="looks_import">"Importați"</string>
+    <string name="looks_name">"Nume"</string>
+    <string name="looks_apply">"Aplică"</string>
+    <string name="looks_share">"Trimite"</string>
+    <string name="looks_delete">"Șterge"</string>
+    <string name="looks_part_wallpaper">"Imagine de fundal"</string>
+    <string name="looks_color_default">"Prestabilit"</string>
+    <string name="looks_create">"Creează"</string>
+    <string name="looks_edit">"Editează"</string>
+    <string name="looks_customize">"Personalizează"</string>
+    <string name="looks_save_look">"Salvează"</string>
+    <string name="looks_custom_color">"Culoare personalizată"</string>
+    <string name="looks_part_clock_color">"Culoare ceas"</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"การสำรองและคืนค่าข้อมูล"</string>
+    <string name="backup_restore">"คืนค่า"</string>
+    <string name="backup_auto">"อัตโนมัติ"</string>
+    <string name="backup_group_status_bar">"แถบสถานะ"</string>
+    <string name="backup_group_lock_screen">"หน้าจอล็อก"</string>
+    <string name="backup_group_theme">"ธีม"</string>
+    <string name="backup_group_qs">"การตั้งค่าด่วน"</string>
+    <string name="backup_group_notifications">"การแจ้งเตือน"</string>
+    <string name="backup_group_gestures">ท่าทาง</string>
+    <string name="backup_group_other">"อื่นๆ"</string>
+    <string name="backup_done">"เสร็จสิ้น"</string>
+</resources>

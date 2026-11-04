@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"Zaxira nusxa va qayta tiklash"</string>
+    <string name="backup_restore">"Tiklash"</string>
+    <string name="backup_auto">"Avtomatik"</string>
+    <string name="backup_group_status_bar">"Holat qatori"</string>
+    <string name="backup_group_lock_screen">"Ekran qulfi"</string>
+    <string name="backup_group_theme">"Mavzu"</string>
+    <string name="backup_group_qs">"Tezkor sozlamalar"</string>
+    <string name="backup_group_notifications">"Bildirishnomalar"</string>
+    <string name="backup_group_gestures">"Ishoralar"</string>
+    <string name="backup_group_other">"Boshqa"</string>
+    <string name="backup_done">"Tayyor"</string>
+</resources>

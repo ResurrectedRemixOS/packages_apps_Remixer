@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Anrop"</string>
+    <string name="now_bar_live_apps_all">"Alle apper"</string>
+    <string name="now_bar_charging">"Lader"</string>
+    <string name="now_bar_flashlight">"Lommelykt"</string>
+    <string name="now_bar_style">"Stil"</string>
+    <string name="now_bar_color">"Farge"</string>
+    <string name="now_bar_outline">"Omriss"</string>
+    <string name="now_bar_width">"Bredde"</string>
+    <string name="now_bar_music_category">"Musikk"</string>
+    <string name="now_bar_buttons">"Knapper"</string>
+    <string name="now_bar_text">"Send tekstmelding"</string>
+    <string name="now_bar_text_size">"Tekststørrelse"</string>
+</resources>

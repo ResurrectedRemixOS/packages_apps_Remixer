@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Kontua"</string>
+    <string name="rr_homepage_storage">"Memoria"</string>
+    <string name="rr_homepage_battery">"Bateria"</string>
+    <string name="rr_homepage_connections">"Konexioak"</string>
+    <string name="rr_homepage_device">"Gailua"</string>
+    <string name="rr_homepage_privacy">Pribatutasuna eta segurtasuna</string>
+    <string name="rr_homepage_help">"Laguntza"</string>
+    <string name="rr_live_wifi">"Wifia"</string>
+    <string name="rr_live_mobile">"Datu-konexioa"</string>
+    <string name="rr_live_offline">"Konexiorik gabe"</string>
+    <string name="rr_live_on">"Aktibatuta"</string>
+    <string name="rr_live_off">"Desaktibatuta"</string>
+    <string name="rr_homepage_charging">"Kargatzen"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_homepage_mobile_data">"Datu-konexioa"</string>
+    <string name="rr_homepage_not_connected">"Konektatu gabe"</string>
+    <string name="rr_homepage_dark_theme">"Gai iluna"</string>
+    <string name="rr_homepage_on">"Aktibatuta"</string>
+    <string name="rr_homepage_off">"Desaktibatuta"</string>
+    <string name="rr_homepage_signed_in">"Saioa hasita"</string>
+    <string name="rr_homepage_device_word">"EZARPENAK"</string>
+    <string name="rr_group_apps">"Aplikazioak eta jakinarazpenak"</string>
+    <string name="rr_group_security">"Segurtasuna eta pribatutasuna"</string>
+    <string name="rr_group_accounts_plain">"Kontuak"</string>
+    <string name="rr_group_accessibility_summary">"Bistaratzea, interakzioak, audioa"</string>
+    <string name="remixer_statusbar">"Egoera-barra"</string>
+    <string name="remixer_qs">"Ezarpen bizkorrak"</string>
+    <string name="remixer_notifications">"Jakinarazpenak"</string>
+    <string name="remixer_theme">"Gaia"</string>
+    <string name="remixer_lockscreen">"Pantaila blokeatua"</string>
+    <string name="remixer_misc">"Askotarikoak"</string>
+    <string name="misc_category_volume">"Bolumena"</string>
+    <string name="misc_category_backup">"Babeskopiak"</string>
+    <string name="misc_category_scrolling">"Gora eta behera egin"</string>
+    <string name="remixer_fonts">"Letrak"</string>
+    <string name="remixer_wallpapers">"Horma-paperak"</string>
+    <string name="pulse_style">"Estiloa"</string>
+    <string name="pulse_color">"Kolorea"</string>
+    <string name="pulse_color_accent">"Horma-papera"</string>
+    <string name="pulse_look">"Itxura"</string>
+    <string name="pulse_lockscreen">"Erakutsi pantaila blokeatuan"</string>
+    <string name="accent_preview_button">"Botoia"</string>
+    <string name="accent_custom_title">"Kolore pertsonalizatua"</string>
+    <string name="accent_custom_hue">"Ñabardura"</string>
+    <string name="accent_custom_recent">"Azkenaldikoak"</string>
+    <string name="accent_custom_apply">"Aplikatu"</string>
+    <string name="accent_shade_default">"Lehenetsia"</string>
+    <string name="accent_saturation">"Saturazioa"</string>
+    <string name="remixer_qs_customize">"Pertsonalizatu"</string>
+    <string name="remixer_qs_style_section">"Estiloa"</string>
+    <string name="remixer_lock_media_off">"Desaktibatuta"</string>
+    <string name="remixer_lock_preview_device">"Telefono hau"</string>
+    <string name="remixer_qs_preview_on">"Aktibatuta"</string>
+    <string name="remixer_qs_preview_off">"Desaktibatuta"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>Linterna</item>
+        <item>"Ez molestatzeko modua"</item>
+        <item>"Biratze automatikoa"</item>
+        <item>"Gai iluna"</item>
+        <item>"Wifi-gunea"</item>
+        <item>"Hegaldi modua"</item>
+        <item>"Datu-aurreztailea"</item>
+        <item>NFC</item>
+        <item>"Sinkronizatu"</item>
+        <item>"Eskaneatu QR kodea"</item>
+    </string-array>
+    <string name="header_preview_none">"Ez da hautatu irudirik"</string>
+    <string name="header_source_image">"Irudia"</string>
+    <string name="header_source_photo">"Argazkia"</string>
+    <string name="header_collections">"Bildumak"</string>
+    <string name="header_images">"Irudiak"</string>
+    <string name="header_photo_choose">"Aukeratu argazki bat"</string>
+    <string name="header_look">"Itxura"</string>
+    <string name="remixer_weather">"Eguraldia"</string>
+    <string name="font_default">"Lehenetsia"</string>
+    <string name="font_apply">"Aplikatu"</string>
+    <string name="font_filter_all">"Guztiak"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Ezarri horma-papera"</string>
+    <string name="wallpaper_apply_home">"Orri nagusia"</string>
+    <string name="wallpaper_apply_lock">"Pantaila blokeatua"</string>
+    <string name="remixer_settings_style_original">"Jatorrizkoa"</string>
+    <string name="remixer_navbar_category">"Nabigazio-barra"</string>
+</resources>

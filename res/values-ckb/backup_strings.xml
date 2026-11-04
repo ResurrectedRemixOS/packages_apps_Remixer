@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">پشتیوانیکردن و گەڕاندنەوە</string>
+    <string name="backup_restore">گەڕاندنەوە</string>
+    <string name="backup_auto">خۆکار</string>
+    <string name="backup_group_status_bar">شریتی دۆخ</string>
+    <string name="backup_group_lock_screen">قوفڵی ڕوونما</string>
+    <string name="backup_group_theme">ڕوکار</string>
+    <string name="backup_group_qs">ڕێکخستنە خێراکان</string>
+    <string name="backup_group_notifications">ئاگادارییەکان</string>
+    <string name="backup_group_gestures">جوڵەکان</string>
+    <string name="backup_group_other">هیتر</string>
+    <string name="backup_done">تەواو</string>
+</resources>

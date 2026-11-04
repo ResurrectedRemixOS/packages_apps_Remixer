@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="clock_faces_apply">Snes</string>
+    <string name="clock_faces_color">Ini</string>
+    <string name="clock_faces_color_default">Akk-a kan</string>
+    <string name="clock_faces_size">Tiddi</string>
+    <string name="clock_faces_restart">Ales tanekra</string>
+</resources>

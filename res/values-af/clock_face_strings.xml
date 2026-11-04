@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="clock_faces_apply">"Pas toe"</string>
+    <string name="clock_faces_color">"Kleur"</string>
+    <string name="clock_faces_color_default">"Verstek"</string>
+    <string name="clock_faces_size">"Grootte"</string>
+    <string name="clock_faces_restart">"Herbegin"</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">هەژمار</string>
+    <string name="rr_homepage_storage">بیرگە</string>
+    <string name="rr_homepage_battery">باتری</string>
+    <string name="rr_homepage_connections">پەیوەندییەکان</string>
+    <string name="rr_homepage_device">ئامێر</string>
+    <string name="rr_homepage_privacy">تایبەتمەندیی و ئاسایش</string>
+    <string name="rr_homepage_help">یارمەتی</string>
+    <string name="rr_live_wifi">وایفای</string>
+    <string name="rr_live_mobile">تۆڕی مۆبایل</string>
+    <string name="rr_live_offline">ئۆفلاین</string>
+    <string name="rr_live_on">چالاک</string>
+    <string name="rr_live_off">ناچالاک</string>
+    <string name="rr_homepage_charging">بارگاوی دەبێتەوە</string>
+    <string name="rr_homepage_internet">ئینتەرنێت</string>
+    <string name="rr_homepage_mobile_data">داتای مۆبایل</string>
+    <string name="rr_homepage_not_connected">پەیوەست نییە</string>
+    <string name="rr_homepage_dark_theme">دۆخی تاریک</string>
+    <string name="rr_homepage_on">چالاک</string>
+    <string name="rr_homepage_off">ناچالاک</string>
+    <string name="rr_homepage_signed_in">چووەتە ژوورەوە</string>
+    <string name="rr_homepage_device_word">ڕێکخستنەکان</string>
+    <string name="rr_group_apps">ئەپەکان و ئاگادارکردنەوەکان</string>
+    <string name="rr_group_security">ئاسایش و پاراستنی زانیاری</string>
+    <string name="rr_group_accounts_plain">هەژمارەکان</string>
+    <string name="rr_group_accessibility_summary">ڕوونما، کارلێک، دەنگ</string>
+    <string name="remixer_statusbar">شریتی دۆخ</string>
+    <string name="remixer_qs">ڕێکخستنە خێراکان</string>
+    <string name="remixer_notifications">ئاگادارییەکان</string>
+    <string name="remixer_theme">ڕوکار</string>
+    <string name="remixer_lockscreen">قوفڵی ڕوونما</string>
+    <string name="remixer_navigation">ڕێدۆزی (Navigation)</string>
+    <string name="misc_category_volume">دەنگ</string>
+    <string name="misc_category_backup">یەدەگگرتن</string>
+    <string name="misc_category_scrolling">خلیسکاندن (Scrolling)</string>
+    <string name="remixer_fonts">فۆنتەکان</string>
+    <string name="remixer_wallpapers">پاشبنەماکان</string>
+    <string name="pulse_preview_title">ئێستا پەخش دەکرێت</string>
+    <string name="pulse_style">شێواز</string>
+    <string name="pulse_color">ڕەنگ</string>
+    <string name="pulse_color_accent">وێنەی پاشبنەما</string>
+    <string name="pulse_look">ڕوکار</string>
+    <string name="pulse_lockscreen">پیشاندان لەسەر ڕوونمای قوفڵ</string>
+    <string name="accent_preview_button">دوگمە</string>
+    <string name="accent_custom_title">ڕەنگی دڵخواز</string>
+    <string name="accent_custom_hue">ڕه‌نگ</string>
+    <string name="accent_custom_recent">دواهەمینەکان</string>
+    <string name="accent_custom_apply">جێبەجێکردن</string>
+    <string name="accent_shade_default">بنەڕەتی</string>
+    <string name="accent_saturation">تێریی ڕەنگ</string>
+    <string name="remixer_qs_customize">تایبەتکردن</string>
+    <string name="remixer_qs_style_section">شێواز</string>
+    <string name="remixer_lock_media_off">ناچالاک</string>
+    <string name="remixer_lock_preview_device">ئەم تەلەفۆنە</string>
+    <string name="remixer_qs_preview_on">چالاک</string>
+    <string name="remixer_qs_preview_off">ناچالاک</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>ئینتەرنێت</item>
+        <item>Bluetooth</item>
+        <item>لایت</item>
+        <item>بێزارم مەکە</item>
+        <item>خولانەوەی خۆکار</item>
+        <item>دۆخی تاریک</item>
+        <item>خاڵی گەرم</item>
+        <item>دۆخی فڕۆکە</item>
+        <item>پاشکەوتکاری داتا</item>
+        <item>NFC</item>
+        <item>هاوکاتکردن</item>
+        <item>سەرنجدانی کۆدی QR</item>
+    </string-array>
+    <string name="header_preview_none">هیچ وێنەیەک هەڵنەبژێردراوە</string>
+    <string name="header_source_image">وێنە</string>
+    <string name="header_source_photo">وێنە</string>
+    <string name="header_collections">کۆمەڵەکان</string>
+    <string name="header_images">وێنەکان</string>
+    <string name="header_photo_choose">وێنەیەک هەڵبژێرە</string>
+    <string name="header_look">ڕوکار</string>
+    <string name="remixer_weather">کەشوهەوا</string>
+    <string name="font_default">بنەڕەتی</string>
+    <string name="font_apply">جێبەجێکردن</string>
+    <string name="font_filter_all">هەموو</string>
+    <string name="font_filter_serif">سێریف (Serif)</string>
+    <string name="wallpaper_apply_title">دانانی وێنەی پاشبنەما</string>
+    <string name="wallpaper_apply_home">ڕوونمای سەرەکی</string>
+    <string name="wallpaper_apply_lock">قوفڵی ڕوونما</string>
+    <string name="remixer_settings_style_original">ڕەسەن</string>
+    <string name="remixer_navbar_category">شریتی ڕێدۆزی</string>
+</resources>

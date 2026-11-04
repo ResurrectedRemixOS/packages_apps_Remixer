@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"ബാക്കപ്പുചെയ്യലും പുനഃസ്ഥാപിക്കലും"</string>
+    <string name="backup_restore">"പുനഃസ്ഥാപിക്കുക"</string>
+    <string name="backup_auto">"സ്വയമേവ"</string>
+    <string name="backup_group_status_bar">"സ്റ്റാറ്റസ് ബാർ"</string>
+    <string name="backup_group_lock_screen">"ലോക്ക് സ്‌ക്രീൻ"</string>
+    <string name="backup_group_theme">"തീം"</string>
+    <string name="backup_group_qs">"ദ്രുത ക്രമീകരണം"</string>
+    <string name="backup_group_notifications">"അറിയിപ്പുകൾ"</string>
+    <string name="backup_group_gestures">ഗസ്റ്ററുകൾ</string>
+    <string name="backup_group_other">"മറ്റുള്ളവ"</string>
+    <string name="backup_done">"പൂർത്തിയായി"</string>
+</resources>

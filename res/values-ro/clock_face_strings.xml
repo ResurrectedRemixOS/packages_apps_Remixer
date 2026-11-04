@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="clock_faces_apply">"Aplică"</string>
+    <string name="clock_faces_color">"Culoare"</string>
+    <string name="clock_faces_color_default">"Prestabilit"</string>
+    <string name="clock_faces_size">"Dimensiune"</string>
+    <string name="clock_faces_restart">"Repornește"</string>
+</resources>

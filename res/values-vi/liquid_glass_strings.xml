@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="liquid_glass_blur_title">"Làm mờ"</string>
+    <string name="liquid_glass_lockscreen_title">"Màn hình khóa"</string>
+    <string name="liquid_glass_volume_title">Bảng âm lượng</string>
+    <string name="liquid_glass_power_title">"Trình đơn nguồn"</string>
+    <string name="liquid_glass_battery_title">"Pin"</string>
+    <string name="liquid_glass_preview_internet">"Internet"</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"Sigurnosna kopija i vraćanje"</string>
+    <string name="backup_restore">"Vrati"</string>
+    <string name="backup_auto">"Automatski"</string>
+    <string name="backup_group_status_bar">"Statusna traka"</string>
+    <string name="backup_group_lock_screen">"Zaključani ekran"</string>
+    <string name="backup_group_theme">"Tema"</string>
+    <string name="backup_group_qs">"Brze postavke"</string>
+    <string name="backup_group_notifications">"Obavještenja"</string>
+    <string name="backup_group_gestures">"Pokreti"</string>
+    <string name="backup_group_other">"Ostalo"</string>
+    <string name="backup_done">"Gotovo"</string>
+</resources>

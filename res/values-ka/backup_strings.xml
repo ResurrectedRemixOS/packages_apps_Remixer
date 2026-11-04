@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"სარეზერვო კოპირება და აღდგენა"</string>
+    <string name="backup_restore">"აღდგენა"</string>
+    <string name="backup_auto">"ავტომატური"</string>
+    <string name="backup_group_status_bar">"სტატუსის ზოლი"</string>
+    <string name="backup_group_lock_screen">"ჩაკეტილი ეკრანი"</string>
+    <string name="backup_group_theme">"თემა"</string>
+    <string name="backup_group_qs">"სწრაფი პარამეტრები"</string>
+    <string name="backup_group_notifications">"შეტყობინებები"</string>
+    <string name="backup_group_gestures">ჟესტები</string>
+    <string name="backup_group_other">"სხვა"</string>
+    <string name="backup_done">"მზადაა"</string>
+</resources>

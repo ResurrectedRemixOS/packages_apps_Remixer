@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"Hifadhi nakala na uzirejeshe"</string>
+    <string name="backup_restore">"Rejesha"</string>
+    <string name="backup_auto">"Otomatiki"</string>
+    <string name="backup_group_status_bar">"Sehemu ya kuonyesha hali"</string>
+    <string name="backup_group_lock_screen">"Skrini iliyofungwa"</string>
+    <string name="backup_group_theme">"Mandhari"</string>
+    <string name="backup_group_qs">"Mipangilio ya Haraka"</string>
+    <string name="backup_group_notifications">"Arifa"</string>
+    <string name="backup_group_gestures">"Miguso"</string>
+    <string name="backup_group_other">"Nyinginezo"</string>
+    <string name="backup_done">"Nimemaliza"</string>
+</resources>

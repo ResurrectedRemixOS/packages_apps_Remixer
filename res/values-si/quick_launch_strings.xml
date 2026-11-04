@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"කෙටිමං"</string>
+    <string name="quick_launch_camera">"කැමරාව"</string>
+    <string name="quick_launch_flashlight">"සැණෙළි ආලෝකය"</string>
+    <string name="quick_launch_timer">කාලමාපකය</string>
+    <string name="quick_launch_undo">"අස් කරන්න"</string>
+    <string name="quick_launch_off">"ක්‍රියාවිරහිතයි"</string>
+</resources>

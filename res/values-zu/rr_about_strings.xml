@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"Imemori"</string>
+    <string name="rr_about_ram">"i-RAM"</string>
+    <string name="rr_about_storage">"Isitoreji"</string>
+    <string name="rr_about_battery">"Ibhethri"</string>
+    <string name="rr_about_kernel">"I-Kernel"</string>
+    <string name="rr_about_software">"Isofthiwe"</string>
+    <string name="rr_about_updates">"Izibuyekezo"</string>
+    <string name="rr_about_this_phone">"Le foni"</string>
+    <string name="rr_about_network">"Inethiwekhi"</string>
+    <string name="rr_about_hidden">"Okufihliwe"</string>
+</resources>

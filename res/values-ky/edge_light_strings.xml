@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Түс"</string>
+    <string name="edge_light_color_wallpaper">"Тушкагаздын түсү"</string>
+    <string name="edge_light_custom_color_title">"Жеке түс"</string>
+    <string name="edge_light_style_title">"Стиль"</string>
+    <string name="edge_light_moment_notifications">"Билдирмелер"</string>
+    <string name="edge_light_moment_calls">"Кирүүчү чалуулар"</string>
+    <string name="edge_light_moment_unlock">"Кулпусу ачылды"</string>
+    <string name="remixer_color_default">"Демейки"</string>
+</resources>

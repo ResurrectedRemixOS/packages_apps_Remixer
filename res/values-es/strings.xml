@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Cuenta"</string>
+    <string name="rr_homepage_storage">"Almacenamiento"</string>
+    <string name="rr_homepage_battery">"Batería"</string>
+    <string name="rr_homepage_connections">"Conexiones"</string>
+    <string name="rr_homepage_device">"Dispositivo"</string>
+    <string name="rr_homepage_privacy">Privacidad y seguridad</string>
+    <string name="rr_homepage_help">"Ayuda"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"Móvil"</string>
+    <string name="rr_live_offline">"Sin conexión"</string>
+    <string name="rr_live_on">"Activado"</string>
+    <string name="rr_live_off">"Desactivado"</string>
+    <string name="rr_homepage_charging">"Cargando"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_homepage_mobile_data">"Datos móviles"</string>
+    <string name="rr_homepage_not_connected">"No conectado"</string>
+    <string name="rr_homepage_dark_theme">"Tema oscuro"</string>
+    <string name="rr_homepage_on">"Activado"</string>
+    <string name="rr_homepage_off">"Desactivado"</string>
+    <string name="rr_homepage_signed_in">"Sesión iniciada"</string>
+    <string name="rr_homepage_device_word">"AJUSTES"</string>
+    <string name="rr_group_apps">"Aplicaciones y notificaciones"</string>
+    <string name="rr_group_security">"Seguridad y privacidad"</string>
+    <string name="rr_group_accounts_plain">"Cuentas"</string>
+    <string name="rr_group_accessibility_summary">"Pantalla, interacción, audio"</string>
+    <string name="remixer_statusbar">Barra de estado</string>
+    <string name="remixer_qs">"Ajustes rápidos"</string>
+    <string name="remixer_notifications">"Notificaciones"</string>
+    <string name="remixer_theme">"Tema"</string>
+    <string name="remixer_lockscreen">"Pantalla de bloqueo"</string>
+    <string name="remixer_udfps_icon">Icono UDFPS</string>
+    <string name="remixer_udfps_animation">Animación de Huella en Pantalla</string>
+    <string name="remixer_navigation">Navegación</string>
+    <string name="remixer_misc">"Otras opciones"</string>
+    <string name="misc_category_volume">"Volumen"</string>
+    <string name="misc_category_backup">"Copia de seguridad"</string>
+    <string name="misc_category_scrolling">"Desplazamiento"</string>
+    <string name="remixer_fonts">"Fuentes"</string>
+    <string name="remixer_wallpapers">"Fondos de pantalla"</string>
+    <string name="remixer_accents_summary">Color de acento</string>
+    <string name="pulse_preview_title">"Reproduciendo"</string>
+    <string name="pulse_style">"Estilo"</string>
+    <string name="pulse_color_accent">"Fondo de pantalla"</string>
+    <string name="pulse_look">"Aspecto"</string>
+    <string name="pulse_lockscreen">"Mostrar en la pantalla de bloqueo"</string>
+    <string name="accent_preview_button">"Botón"</string>
+    <string name="accent_custom_title">"Color personalizado"</string>
+    <string name="accent_custom_hue">"Tonalidad"</string>
+    <string name="accent_custom_recent">"Recientes"</string>
+    <string name="accent_custom_apply">"Aplicar"</string>
+    <string name="accent_shade_default">"Predeterminado"</string>
+    <string name="accent_saturation">"Saturación"</string>
+    <string name="remixer_qs_customize">"Personalizar"</string>
+    <string name="remixer_qs_style_section">"Estilo"</string>
+    <string name="remixer_lock_media_off">"Desactivado"</string>
+    <string name="remixer_lock_preview_device">"Este teléfono"</string>
+    <string name="remixer_qs_preview_on">"Activado"</string>
+    <string name="remixer_qs_preview_off">"Desactivado"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>Linterna</item>
+        <item>"No molestar"</item>
+        <item>"Giro automático"</item>
+        <item>"Tema oscuro"</item>
+        <item>"Compartir Internet"</item>
+        <item>"Modo Avión"</item>
+        <item>"Ahorro de datos"</item>
+        <item>NFC</item>
+        <item>"Sincronización"</item>
+        <item>"Escanear código QR"</item>
+    </string-array>
+    <string name="remixer_headers_summary">Selecciona imagen de fondo del encabezado de ajustes rápidos</string>
+    <string name="header_preview_none">"No hay ninguna imagen seleccionada"</string>
+    <string name="header_source_image">"Imagen"</string>
+    <string name="header_source_photo">"Foto"</string>
+    <string name="header_collections">"Colecciones"</string>
+    <string name="header_images">"Imágenes"</string>
+    <string name="header_photo_choose">"Elegir una foto"</string>
+    <string name="header_look">"Aspecto"</string>
+    <string name="remixer_weather">"Tiempo"</string>
+    <string name="font_default">"Predeterminado"</string>
+    <string name="font_current">Fuente actual</string>
+    <string name="font_apply">"Aplicar"</string>
+    <string name="font_filter_all">"Todo"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Establecer fondo"</string>
+    <string name="wallpaper_apply_home">"Pantalla de inicio"</string>
+    <string name="wallpaper_apply_lock">"Pantalla de bloqueo"</string>
+    <string name="remixer_navbar_category">"Barra de navegación"</string>
+</resources>

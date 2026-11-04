@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"ບັນທຶກ"</string>
+    <string name="looks_import">"ນຳເຂົ້າ"</string>
+    <string name="looks_name">"ຊື່"</string>
+    <string name="looks_apply">"ນຳໃຊ້"</string>
+    <string name="looks_share">"ແບ່ງປັນ"</string>
+    <string name="looks_delete">"ລຶບ"</string>
+    <string name="looks_part_font">"ຟອນ"</string>
+    <string name="looks_part_wallpaper">"ຮູບພື້ນຫຼັງ"</string>
+    <string name="looks_color_default">"ຄ່າເລີ່ມຕົ້ນ"</string>
+    <string name="looks_create">"ສ້າງ"</string>
+    <string name="looks_edit">"ແກ້ໄຂ"</string>
+    <string name="looks_customize">"ປັບແຕ່ງ"</string>
+    <string name="looks_save_look">"ບັນທຶກ"</string>
+    <string name="looks_custom_color">"ສີກຳນົດເອງ"</string>
+    <string name="looks_part_clock_color">"ສີຂອງໂມງ"</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Hesab"</string>
+    <string name="rr_homepage_storage">"Yaddaş"</string>
+    <string name="rr_homepage_battery">"Batareya"</string>
+    <string name="rr_homepage_connections">"Əlaqələr"</string>
+    <string name="rr_homepage_device">"Cihaz"</string>
+    <string name="rr_homepage_privacy">Məxfilik &amp; təhlükəsizlik</string>
+    <string name="rr_homepage_help">"Yardım"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"Mobil"</string>
+    <string name="rr_live_offline">"Oflayn"</string>
+    <string name="rr_live_on">"Aktiv"</string>
+    <string name="rr_live_off">"Deaktiv"</string>
+    <string name="rr_homepage_charging">"Qidalanır"</string>
+    <string name="rr_homepage_internet">"İnternet"</string>
+    <string name="rr_homepage_mobile_data">"Mobil data"</string>
+    <string name="rr_homepage_not_connected">"Qoşulmayıb"</string>
+    <string name="rr_homepage_dark_theme">"Tünd tema"</string>
+    <string name="rr_homepage_on">"Aktiv"</string>
+    <string name="rr_homepage_off">"Deaktiv"</string>
+    <string name="rr_homepage_signed_in">"Daxil olunub"</string>
+    <string name="rr_homepage_device_word">"AYARLAR"</string>
+    <string name="rr_group_apps">"Tətbiqlər və bildirişlər"</string>
+    <string name="rr_group_security">"Güvənlik və məxfilik"</string>
+    <string name="rr_group_accounts_plain">"Hesablar"</string>
+    <string name="rr_group_accessibility_summary">"Ekran, qarşılıqlı əlaqə, audio"</string>
+    <string name="remixer_statusbar">"Status paneli"</string>
+    <string name="remixer_qs">"Sürətli ayarlar"</string>
+    <string name="remixer_notifications">"Bildirişlər"</string>
+    <string name="remixer_theme">"Tema"</string>
+    <string name="remixer_lockscreen">"Ekran kilidi"</string>
+    <string name="remixer_navigation">Hərəkət</string>
+    <string name="remixer_misc">"Müxtəlif"</string>
+    <string name="misc_category_volume">"Səs"</string>
+    <string name="misc_category_backup">"Yedəkləyin"</string>
+    <string name="misc_category_scrolling">"Sürüşdürmə"</string>
+    <string name="remixer_fonts">"Şriftlər"</string>
+    <string name="remixer_wallpapers">"Divar kağızları"</string>
+    <string name="remixer_accents_summary">Vurğu rəngi</string>
+    <string name="pulse_preview_title">İndi oxudulur</string>
+    <string name="pulse_style">"Üslub"</string>
+    <string name="pulse_color">"Rəng"</string>
+    <string name="pulse_color_accent">"Divar kağızı"</string>
+    <string name="pulse_look">"Görünüş"</string>
+    <string name="pulse_lockscreen">"Kilid ekranında göstərin"</string>
+    <string name="accent_preview_button">"Düymə"</string>
+    <string name="accent_custom_title">"Fərdi rəng"</string>
+    <string name="accent_custom_hue">"Çalar"</string>
+    <string name="accent_custom_recent">"Son"</string>
+    <string name="accent_custom_apply">"Tətbiq edin"</string>
+    <string name="accent_shade_default">"Defolt"</string>
+    <string name="accent_saturation">"Dolğunluq"</string>
+    <string name="remixer_qs_customize">"Fərdiləşdirin"</string>
+    <string name="remixer_qs_style_section">"Üslub"</string>
+    <string name="remixer_lock_media_off">"Deaktiv"</string>
+    <string name="remixer_lock_preview_device">"Bu telefon"</string>
+    <string name="remixer_qs_preview_on">"Aktiv"</string>
+    <string name="remixer_qs_preview_off">"Deaktiv"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"İnternet"</item>
+        <item>Bluetooth</item>
+        <item>Fənər</item>
+        <item>"Narahat etməyin"</item>
+        <item>"Avtodönüş"</item>
+        <item>"Tünd tema"</item>
+        <item>"Hotspot"</item>
+        <item>"Təyyarə rejimi"</item>
+        <item>"Trafikə qənaət"</item>
+        <item>NFC</item>
+        <item>"Sinxronizasiya"</item>
+        <item>"QR kodunu skan edin"</item>
+    </string-array>
+    <string name="header_preview_none">"Şəkil seçilmədi"</string>
+    <string name="header_source_image">"Şəkil"</string>
+    <string name="header_source_photo">"Foto"</string>
+    <string name="header_collections">"Kolleksiyalar"</string>
+    <string name="header_images">"Şəkillər"</string>
+    <string name="header_photo_choose">"Foto seçin"</string>
+    <string name="header_look">"Görünüş"</string>
+    <string name="remixer_weather">"Hava"</string>
+    <string name="font_default">"Defolt"</string>
+    <string name="font_apply">"Tətbiq edin"</string>
+    <string name="font_filter_all">"Bütün"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Divar kağızı seçin"</string>
+    <string name="wallpaper_apply_home">"Əsas ekran"</string>
+    <string name="wallpaper_apply_lock">"Ekran kilidi"</string>
+    <string name="remixer_settings_style_original">"Orijinal"</string>
+    <string name="remixer_navbar_category">"Naviqasiya paneli"</string>
+</resources>

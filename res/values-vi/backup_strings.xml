@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"Sao lưu &amp; khôi phục"</string>
+    <string name="backup_restore">"Khôi phục"</string>
+    <string name="backup_part_boot">Hiệu ứng khởi động</string>
+    <string name="backup_auto">"Tự động"</string>
+    <string name="backup_group_status_bar">"Thanh trạng thái"</string>
+    <string name="backup_group_lock_screen">"Màn hình khóa"</string>
+    <string name="backup_group_theme">"Giao diện"</string>
+    <string name="backup_group_qs">"Cài đặt nhanh"</string>
+    <string name="backup_group_notifications">"Thông báo"</string>
+    <string name="backup_group_gestures">Cử chỉ</string>
+    <string name="backup_group_other">"Khác"</string>
+    <string name="backup_done">"Xong"</string>
+    <string name="volume_style_title">Kiểu bảng âm lượng</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Susa"</string>
+    <string name="action_reset">"Setha kabusha"</string>
+    <string name="action_search_apps">"Sesha izinhlelo zokusebenza"</string>
+    <string name="action_select_all">"Khetha konke"</string>
+    <string name="app_spoofing_clear_all">"Sula konke"</string>
+    <string name="app_spoofing_disabled">"Kukhutshaziwe"</string>
+    <string name="common_clear_search">"Sula usesho"</string>
+    <string name="custom_spoof_profile_brand">"Ibhrendi"</string>
+    <string name="custom_spoof_profile_device">"Idivayisi"</string>
+    <string name="custom_spoof_profile_manufacturer">"Umkhiqizi"</string>
+    <string name="custom_spoof_profile_model">"Imodeli"</string>
+    <string name="hide_system_apps">"Fihla izinhlelo zokusebenza zesistimu"</string>
+    <string name="pif_recommended_suffix">"Okunconyiwe"</string>
+    <string name="pif_status">"Isimo"</string>
+    <string name="pif_wipe_confirm">"Sula idatha"</string>
+    <string name="show_system_apps">"Bonisa izinhlelo zokusebenza zesistimu"</string>
+    <string name="spoofing_reset_defaults_confirm">"Setha kabusha"</string>
+    <string name="ts_mode_auto">"Okuzenzakalelayo"</string>
+    <string name="ts_untrusted_root_keep">"Gcina"</string>
+    <string name="ts_untrusted_root_replace">"Miselela"</string>
+    <string name="ts_verification_mode_auto">"Okuzenzakalelayo"</string>
+</resources>

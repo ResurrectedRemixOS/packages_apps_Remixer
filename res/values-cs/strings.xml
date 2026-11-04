@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Účet"</string>
+    <string name="rr_homepage_storage">"Úložiště"</string>
+    <string name="rr_homepage_battery">"Baterie"</string>
+    <string name="rr_homepage_connections">"Připojení"</string>
+    <string name="rr_homepage_device">"Zařízení"</string>
+    <string name="rr_homepage_privacy">Soukromí a zabezpečení</string>
+    <string name="rr_homepage_help">"Nápověda"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"Mobil"</string>
+    <string name="rr_live_offline">"Offline"</string>
+    <string name="rr_live_on">"Zapnuto"</string>
+    <string name="rr_live_off">"Vypnuto"</string>
+    <string name="rr_homepage_charging">"Nabíjení"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_homepage_mobile_data">"Mobilní data"</string>
+    <string name="rr_homepage_not_connected">"Nepřipojeno"</string>
+    <string name="rr_homepage_dark_theme">"Tmavý motiv"</string>
+    <string name="rr_homepage_on">"Zapnuto"</string>
+    <string name="rr_homepage_off">"Vypnuto"</string>
+    <string name="rr_homepage_signed_in">"Přihlášeno"</string>
+    <string name="rr_homepage_device_word">"NASTAVENÍ"</string>
+    <string name="rr_group_apps">"Aplikace a oznámení"</string>
+    <string name="rr_group_security">"Zabezpečení a ochrana soukromí"</string>
+    <string name="rr_group_accounts_plain">"Účty"</string>
+    <string name="rr_group_accessibility_summary">"Zobrazení, interakce, zvuk"</string>
+    <string name="remixer_statusbar">"Stavový řádek"</string>
+    <string name="remixer_qs">"Rychlé nastavení"</string>
+    <string name="remixer_notifications">"Oznámení"</string>
+    <string name="remixer_theme">"Motiv"</string>
+    <string name="remixer_lockscreen">"Obrazovka uzamčení"</string>
+    <string name="remixer_navigation">Navigace</string>
+    <string name="remixer_misc">"Různé"</string>
+    <string name="misc_category_volume">"Hlasitost"</string>
+    <string name="misc_category_backup">"Záloha"</string>
+    <string name="misc_category_scrolling">"Posouvání"</string>
+    <string name="remixer_fonts">"Písma"</string>
+    <string name="remixer_wallpapers">"Tapety"</string>
+    <string name="pulse_preview_title">"Nyní se přehrává"</string>
+    <string name="pulse_style">"Styl"</string>
+    <string name="pulse_color">"Barva"</string>
+    <string name="pulse_color_accent">"Tapeta"</string>
+    <string name="pulse_look">"Vzhled"</string>
+    <string name="pulse_lockscreen">"Zobrazovat na obrazovce uzamčení"</string>
+    <string name="accent_preview_button">"Tlačítko"</string>
+    <string name="accent_custom_title">"Vlastní barva"</string>
+    <string name="accent_custom_hue">"Odstín"</string>
+    <string name="accent_custom_recent">"Nedávné"</string>
+    <string name="accent_custom_apply">"Použít"</string>
+    <string name="accent_shade_default">"Výchozí"</string>
+    <string name="accent_saturation">"Sytost"</string>
+    <string name="remixer_qs_customize">"Přizpůsobit"</string>
+    <string name="remixer_qs_style_section">"Styl"</string>
+    <string name="remixer_lock_media_off">"Vypnuto"</string>
+    <string name="remixer_lock_preview_device">"Tento telefon"</string>
+    <string name="remixer_qs_preview_on">"Zapnuto"</string>
+    <string name="remixer_qs_preview_off">"Vypnuto"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>Svítilna</item>
+        <item>"Nerušit"</item>
+        <item>"Automatické otáčení"</item>
+        <item>"Tmavý motiv"</item>
+        <item>"Hotspot"</item>
+        <item>"Režim Letadlo"</item>
+        <item>"Spořič dat"</item>
+        <item>NFC</item>
+        <item>"Synchronizace"</item>
+        <item>"Naskenujte QR kód"</item>
+    </string-array>
+    <string name="header_preview_none">"Není vybrán žádný obrázek"</string>
+    <string name="header_source_image">"Obrázek"</string>
+    <string name="header_source_photo">"Fotka"</string>
+    <string name="header_collections">"Sbírky"</string>
+    <string name="header_images">"Obrázky"</string>
+    <string name="header_photo_choose">"Vyberte fotku"</string>
+    <string name="header_look">"Vzhled"</string>
+    <string name="remixer_weather">Počasí</string>
+    <string name="font_default">"Výchozí"</string>
+    <string name="font_apply">"Použít"</string>
+    <string name="font_filter_all">"Vše"</string>
+    <string name="font_filter_serif">"Patkové"</string>
+    <string name="wallpaper_apply_title">"Nastavit tapetu"</string>
+    <string name="wallpaper_apply_home">"Plocha"</string>
+    <string name="wallpaper_apply_lock">"Obrazovka uzamčení"</string>
+    <string name="remixer_settings_style_original">"Původní"</string>
+    <string name="remixer_navbar_category">"Navigační panel"</string>
+</resources>

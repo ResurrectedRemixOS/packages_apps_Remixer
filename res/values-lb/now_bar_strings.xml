@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">Uriff</string>
+    <string name="now_bar_flashlight">Täscheluucht</string>
+    <string name="now_bar_style">Stil</string>
+    <string name="now_bar_color">Faarf</string>
+    <string name="now_bar_outline">Kontur</string>
+    <string name="now_bar_width">Breet</string>
+    <string name="now_bar_text_size">Textgréisst</string>
+</resources>

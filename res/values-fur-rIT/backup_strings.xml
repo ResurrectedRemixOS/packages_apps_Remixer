@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">Backup e ripristinament</string>
+    <string name="backup_restore">Ripristine</string>
+    <string name="backup_group_status_bar">Sbare di stât</string>
+    <string name="backup_group_lock_screen">Schermade di bloc</string>
+    <string name="backup_group_theme">Teme</string>
+    <string name="backup_group_qs">Impostazions rapidis</string>
+    <string name="backup_group_notifications">Notifichis</string>
+    <string name="backup_group_gestures">Mots</string>
+    <string name="backup_group_other">Altri</string>
+    <string name="backup_done">Fat</string>
+</resources>

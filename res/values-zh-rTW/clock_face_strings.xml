@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="clock_faces_apply">"套用"</string>
+    <string name="clock_faces_color">"顏色"</string>
+    <string name="clock_faces_color_default">"預設"</string>
+    <string name="clock_faces_color_album">專輯封面</string>
+    <string name="clock_faces_size_position">大小 &amp; 位置</string>
+    <string name="clock_faces_size">"大小"</string>
+    <string name="clock_faces_restart">"重新啟動"</string>
+</resources>

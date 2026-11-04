@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">Desaniciar</string>
+    <string name="action_reset">Reafitar</string>
+    <string name="action_search_apps">Buscar aplicaciones</string>
+    <string name="action_select_all">Seleicionar too</string>
+    <string name="app_spoofing_clear_all">Quitar too</string>
+    <string name="app_spoofing_disabled">Desactivóse</string>
+    <string name="common_clear_search">Borrar la busca</string>
+    <string name="custom_spoof_profile_device">Preséu</string>
+    <string name="custom_spoof_profile_model">Modelu</string>
+    <string name="pif_status">Estáu</string>
+    <string name="spoofing_reset_defaults_confirm">Reafitar</string>
+    <string name="ts_untrusted_root_keep">Caltener</string>
+    <string name="ts_untrusted_root_replace">Trocar</string>
+</resources>

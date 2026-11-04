@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_restore">Riprìstina</string>
+    <string name="backup_auto">Automàticu</string>
+    <string name="backup_group_status_bar">Barra de istadu</string>
+    <string name="backup_group_lock_screen">Ischermu de blocu</string>
+    <string name="backup_group_theme">Tema</string>
+    <string name="backup_group_qs">Cunfiguratziones lestras</string>
+    <string name="backup_group_notifications">Notìficas</string>
+    <string name="backup_group_gestures">Gestos</string>
+    <string name="backup_group_other">Àteru</string>
+    <string name="backup_done">Fatu</string>
+</resources>

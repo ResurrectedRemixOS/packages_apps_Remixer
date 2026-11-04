@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Аккаунт"</string>
+    <string name="rr_homepage_storage">"Сактагыч"</string>
+    <string name="rr_homepage_battery">"Батарея"</string>
+    <string name="rr_homepage_connections">"Туташуулар"</string>
+    <string name="rr_homepage_device">"Түзмөк"</string>
+    <string name="rr_homepage_help">"Жардам"</string>
+    <string name="rr_live_wifi">"Wi‑Fi"</string>
+    <string name="rr_live_mobile">"Мобилдик"</string>
+    <string name="rr_live_offline">"Оффлайн"</string>
+    <string name="rr_live_on">"Күйүк"</string>
+    <string name="rr_live_off">"Өчүк"</string>
+    <string name="rr_homepage_charging">"Кубатталууда"</string>
+    <string name="rr_homepage_internet">"Интернет"</string>
+    <string name="rr_homepage_mobile_data">"Мобилдик Интернет"</string>
+    <string name="rr_homepage_not_connected">"Туташкан жок"</string>
+    <string name="rr_homepage_dark_theme">"Караңгы тема"</string>
+    <string name="rr_homepage_on">"Күйүк"</string>
+    <string name="rr_homepage_off">"Өчүк"</string>
+    <string name="rr_homepage_signed_in">"Кирип турасыз"</string>
+    <string name="rr_homepage_device_word">"ЖӨНДӨӨЛӨР"</string>
+    <string name="rr_group_apps">"Колдонмолор жана билдирмелер"</string>
+    <string name="rr_group_security">"Коопсуздук жана купуялык"</string>
+    <string name="rr_group_accounts_plain">"Аккаунттар"</string>
+    <string name="rr_group_accessibility_summary">"Экран, башкаруу элементтери, аудио"</string>
+    <string name="remixer_statusbar">"Абал тилкеси"</string>
+    <string name="remixer_qs">"Ыкчам параметрлер"</string>
+    <string name="remixer_notifications">"Билдирмелер"</string>
+    <string name="remixer_theme">"Тема"</string>
+    <string name="remixer_lockscreen">"Кулпуланган экран"</string>
+    <string name="remixer_misc">"Аралаш"</string>
+    <string name="misc_category_volume">"Үндүн катуулугу"</string>
+    <string name="misc_category_backup">"Камдык көчүрмөнү сактоо"</string>
+    <string name="misc_category_scrolling">"Сыдыруу"</string>
+    <string name="remixer_fonts">"Ариптер"</string>
+    <string name="remixer_wallpapers">"Тушкагаздар"</string>
+    <string name="pulse_style">"Стиль"</string>
+    <string name="pulse_color">"Түс"</string>
+    <string name="pulse_color_accent">"Тушкагаз"</string>
+    <string name="pulse_look">"Тышкы көрүнүшү"</string>
+    <string name="pulse_lockscreen">"Кулпуланган экранда көрүнсүн"</string>
+    <string name="accent_preview_button">"Баскыч"</string>
+    <string name="accent_custom_title">"Жеке түс"</string>
+    <string name="accent_custom_hue">"Кошумча түс"</string>
+    <string name="accent_custom_recent">"Акыркы"</string>
+    <string name="accent_custom_apply">"Колдонуу"</string>
+    <string name="accent_shade_default">"Демейки"</string>
+    <string name="accent_saturation">"Коюлтуу"</string>
+    <string name="remixer_qs_customize">"Ыңгайлаштыруу"</string>
+    <string name="remixer_qs_style_section">"Стиль"</string>
+    <string name="remixer_lock_media_off">"Өчүк"</string>
+    <string name="remixer_lock_preview_device">"Ушул телефон"</string>
+    <string name="remixer_qs_preview_on">"Күйүк"</string>
+    <string name="remixer_qs_preview_off">"Өчүк"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Интернет"</item>
+        <item>Bluetooth</item>
+        <item>"Кол чырак"</item>
+        <item>"Тынчымды алба"</item>
+        <item>"Авто буруу"</item>
+        <item>"Караңгы тема"</item>
+        <item>"Байланыш түйүнү"</item>
+        <item>"Учак режими"</item>
+        <item>"Трафикти үнөмдөө"</item>
+        <item>NFC</item>
+        <item>"Шайкештирүү"</item>
+        <item>"QR кодду скандоо"</item>
+    </string-array>
+    <string name="header_preview_none">"Сүрөт тандалган жок"</string>
+    <string name="header_source_image">"Сүрөт"</string>
+    <string name="header_source_photo">"Сүрөт"</string>
+    <string name="header_collections">"Жыйнактар"</string>
+    <string name="header_images">"Сүрөттөр"</string>
+    <string name="header_photo_choose">"Сүрөт тандоо"</string>
+    <string name="header_look">"Тышкы көрүнүшү"</string>
+    <string name="remixer_weather">"Аба ырайы"</string>
+    <string name="font_default">"Демейки"</string>
+    <string name="font_apply">"Колдонуу"</string>
+    <string name="font_filter_all">"Бардыгы"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Тушкагаз коюу"</string>
+    <string name="wallpaper_apply_home">"Башкы экран"</string>
+    <string name="wallpaper_apply_lock">"Кулпуланган экран"</string>
+    <string name="remixer_settings_style_original">"Түпнуска"</string>
+    <string name="remixer_navbar_category">"Чабыттоо тилкеси"</string>
+</resources>

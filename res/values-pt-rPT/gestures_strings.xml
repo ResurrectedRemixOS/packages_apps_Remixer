@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pie_edges">"Limites"</string>
+    <string name="pie_style">"Estilo"</string>
+    <string name="pie_size">"Tamanho"</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>"Pequeno"</item>
+        <item>"Médio"</item>
+        <item>"Grande"</item>
+    </string-array>
+</resources>

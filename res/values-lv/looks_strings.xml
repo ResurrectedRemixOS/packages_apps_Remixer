@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Saglabāt"</string>
+    <string name="looks_import">"Importēt"</string>
+    <string name="looks_name">"Nosaukums"</string>
+    <string name="looks_apply">"Lietot"</string>
+    <string name="looks_share">"Kopīgot"</string>
+    <string name="looks_delete">"Dzēst"</string>
+    <string name="looks_part_font">"Fonts"</string>
+    <string name="looks_part_wallpaper">"Fona tapete"</string>
+    <string name="looks_color_default">"Noklusējums"</string>
+    <string name="looks_create">"Izveidot"</string>
+    <string name="looks_edit">"Rediģēt"</string>
+    <string name="looks_customize">"Pielāgot"</string>
+    <string name="looks_save_look">"Saglabāt"</string>
+    <string name="looks_custom_color">"Pielāgota krāsa"</string>
+    <string name="looks_part_clock_color">"Pulksteņa krāsa"</string>
+</resources>

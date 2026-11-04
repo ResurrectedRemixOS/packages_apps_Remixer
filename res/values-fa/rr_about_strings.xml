@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_unofficial">غیر رسمی</string>
+    <string name="rr_about_hardware">سخت‌افزار</string>
+    <string name="rr_about_memory">"حافظه"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"فضای ذخیره‌سازی"</string>
+    <string name="rr_about_battery">"باتری"</string>
+    <string name="rr_about_kernel">"مرکزی"</string>
+    <string name="rr_about_software">"نرم‌افزار"</string>
+    <string name="rr_about_updates">"به‌روزرسانی‌ها"</string>
+    <string name="rr_about_security_patch">به‌روزرسانی امنیتی</string>
+    <string name="rr_about_build_date">تاریخ ساخت</string>
+    <string name="rr_about_this_phone">"این تلفن"</string>
+    <string name="rr_about_network">"شبکه"</string>
+    <string name="rr_about_hidden">"پنهان"</string>
+</resources>

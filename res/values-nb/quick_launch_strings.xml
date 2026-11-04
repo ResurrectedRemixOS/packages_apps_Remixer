@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"Snarveier"</string>
+    <string name="quick_launch_camera">"Kamera"</string>
+    <string name="quick_launch_flashlight">"Lommelykt"</string>
+    <string name="quick_launch_timer">Tidtaker</string>
+    <string name="quick_launch_undo">"Angre"</string>
+    <string name="quick_launch_off">"Av"</string>
+</resources>

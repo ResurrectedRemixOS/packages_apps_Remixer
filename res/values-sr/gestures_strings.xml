@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pie_edges">"Ивице"</string>
+    <string name="pie_style">"Стил"</string>
+    <string name="pie_size">"Величина"</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>"Мали"</item>
+        <item>"Средње"</item>
+        <item>"Велики"</item>
+    </string-array>
+</resources>

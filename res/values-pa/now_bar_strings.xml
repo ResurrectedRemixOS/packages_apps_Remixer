@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"ਕਾਲਾਂ"</string>
+    <string name="now_bar_live_apps_all">"ਸਾਰੀਆਂ ਐਪਾਂ"</string>
+    <string name="now_bar_charging">"ਚਾਰਜ ਹੋ ਰਹੀ ਹੈ"</string>
+    <string name="now_bar_flashlight">"ਫਲੈਸ਼ਲਾਈਟ"</string>
+    <string name="now_bar_style">"ਸਟਾਈਲ"</string>
+    <string name="now_bar_color">"ਰੰਗ"</string>
+    <string name="now_bar_outline">"ਰੂਪਰੇਖਾ"</string>
+    <string name="now_bar_width">"ਚੁੜਾਈ"</string>
+    <string name="now_bar_music_category">"ਸੰਗੀਤ"</string>
+    <string name="now_bar_buttons">"ਬਟਨ"</string>
+    <string name="now_bar_text">"ਸੁਨੇਹਾ ਭੇਜੋ"</string>
+    <string name="now_bar_text_size">"ਲਿਖਤ ਦਾ ਆਕਾਰ"</string>
+</resources>

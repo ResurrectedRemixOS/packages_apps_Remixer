@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="liquid_glass_blur_title">"ব্লার করুন"</string>
+    <string name="liquid_glass_lockscreen_title">"লক স্ক্রিন"</string>
+    <string name="liquid_glass_volume_title">ভলিউম প্যানেল</string>
+    <string name="liquid_glass_power_title">"পাওয়ার মেনু"</string>
+    <string name="liquid_glass_battery_title">"ব্যাটারি"</string>
+    <string name="liquid_glass_preview_internet">"ইন্টারনেট"</string>
+</resources>

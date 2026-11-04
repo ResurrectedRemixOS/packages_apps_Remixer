@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Сақтау"</string>
+    <string name="looks_import">"Импорттау"</string>
+    <string name="looks_name">"Атауы"</string>
+    <string name="looks_apply">"Қолдану"</string>
+    <string name="looks_share">"Бөлісу"</string>
+    <string name="looks_delete">"Жою"</string>
+    <string name="looks_part_font">"Қаріп"</string>
+    <string name="looks_part_wallpaper">"Тұсқағаз"</string>
+    <string name="looks_color_default">"Әдепкі"</string>
+    <string name="looks_create">"Жасау"</string>
+    <string name="looks_edit">"Өзгерту"</string>
+    <string name="looks_customize">"Реттеу"</string>
+    <string name="looks_save_look">"Сақтау"</string>
+    <string name="looks_custom_color">"Арнаулы түс"</string>
+    <string name="looks_part_clock_color">"Сағаттың түсі"</string>
+</resources>

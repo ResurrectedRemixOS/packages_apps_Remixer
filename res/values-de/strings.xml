@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Konto"</string>
+    <string name="rr_homepage_storage">"Speicher"</string>
+    <string name="rr_homepage_battery">"Akku"</string>
+    <string name="rr_homepage_connections">"Verbindungen"</string>
+    <string name="rr_homepage_device">"Gerät"</string>
+    <string name="rr_homepage_privacy">Datenschutz &amp; Sicherheit</string>
+    <string name="rr_homepage_help">"Hilfe"</string>
+    <string name="rr_live_wifi">"WLAN"</string>
+    <string name="rr_live_mobile">"Mobil"</string>
+    <string name="rr_live_offline">"Offline"</string>
+    <string name="rr_live_on">"An"</string>
+    <string name="rr_live_off">"Aus"</string>
+    <string name="rr_homepage_charging">"Wird aufgeladen"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_homepage_mobile_data">"Mobile Daten"</string>
+    <string name="rr_homepage_not_connected">"Nicht verbunden"</string>
+    <string name="rr_homepage_dark_theme">"Dunkles Design"</string>
+    <string name="rr_homepage_on">"An"</string>
+    <string name="rr_homepage_off">"Aus"</string>
+    <string name="rr_homepage_signed_in">"Angemeldet"</string>
+    <string name="rr_homepage_device_word">"Einstellungen"</string>
+    <string name="rr_group_apps">"Apps &amp; Benachrichtigungen"</string>
+    <string name="rr_group_security">"Datenschutz &amp; Sicherheit"</string>
+    <string name="rr_group_accounts_plain">"Konten"</string>
+    <string name="rr_group_accessibility_summary">"Display, Interaktion, Audio"</string>
+    <string name="remixer_statusbar">"Statusleiste"</string>
+    <string name="remixer_qs">"Schnelleinstellungen"</string>
+    <string name="remixer_notifications">"Benachrichtigungen"</string>
+    <string name="remixer_theme">"Design"</string>
+    <string name="remixer_lockscreen">"Sperrbildschirm"</string>
+    <string name="remixer_udfps_icon">UDFPS-Symbol</string>
+    <string name="remixer_udfps_animation">Animation des Fingerabdrucksymbols</string>
+    <string name="remixer_misc">"Sonstiges"</string>
+    <string name="misc_category_volume">"Lautstärke"</string>
+    <string name="misc_category_backup">"Sicherung"</string>
+    <string name="misc_category_scrolling">"Scrollen"</string>
+    <string name="remixer_fonts">"Schriftarten"</string>
+    <string name="remixer_wallpapers">"Hintergründe"</string>
+    <string name="pulse_preview_title">"Läuft gerade"</string>
+    <string name="pulse_style">"Stil"</string>
+    <string name="pulse_color">"Farbe"</string>
+    <string name="pulse_color_accent">"Hintergrund"</string>
+    <string name="pulse_look">"Darstellung"</string>
+    <string name="pulse_lockscreen">"Auf Sperrbildschirm zeigen"</string>
+    <string name="accent_custom_title">"Benutzerdefinierte Farbe"</string>
+    <string name="accent_custom_hue">"Farbton"</string>
+    <string name="accent_custom_recent">"Letzte"</string>
+    <string name="accent_custom_apply">"Anwenden"</string>
+    <string name="accent_shade_default">"Standard"</string>
+    <string name="accent_saturation">"Sättigung"</string>
+    <string name="remixer_qs_customize">"Anpassen"</string>
+    <string name="remixer_qs_style_section">"Stil"</string>
+    <string name="remixer_lock_media_off">"Aus"</string>
+    <string name="remixer_lock_preview_device">"Dieses Smartphone"</string>
+    <string name="remixer_qs_preview_on">"An"</string>
+    <string name="remixer_qs_preview_off">"Aus"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>Taschenlampe</item>
+        <item>"Bitte nicht stören"</item>
+        <item>"Autom. drehen"</item>
+        <item>"Dunkles Design"</item>
+        <item>"Hotspot"</item>
+        <item>"Flugmodus"</item>
+        <item>"Datensparmodus"</item>
+        <item>NFC</item>
+        <item>"Synchronisierung"</item>
+        <item>"QR-Code scannen"</item>
+    </string-array>
+    <string name="remixer_headers_summary">Hintergrundbild der Schnelleinstellungskopfzeile auswählen</string>
+    <string name="header_preview_none">"Kein Bild ausgewählt"</string>
+    <string name="header_source_image">"Bild"</string>
+    <string name="header_source_photo">"Foto"</string>
+    <string name="header_collections">"Sammlungen"</string>
+    <string name="header_images">"Bilder"</string>
+    <string name="header_photo_choose">"Foto auswählen"</string>
+    <string name="header_look">"Darstellung"</string>
+    <string name="remixer_weather">Wetter</string>
+    <string name="font_default">"Standard"</string>
+    <string name="font_apply">"Anwenden"</string>
+    <string name="font_filter_all">"Alle"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Hintergrund festlegen"</string>
+    <string name="wallpaper_apply_home">"Startbildschirm"</string>
+    <string name="wallpaper_apply_lock">"Sperrbildschirm"</string>
+    <string name="remixer_spoofing">Signatur vortäuschen (Spoofing)</string>
+    <string name="remixer_navbar_category">"Navigationsleiste"</string>
+</resources>

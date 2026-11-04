@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Өчүрүү"</string>
+    <string name="action_reset">"Баштапкы абалга келтирүү"</string>
+    <string name="action_search_apps">"Колдонмолорду издөө"</string>
+    <string name="action_select_all">"Баарын тандоо"</string>
+    <string name="app_spoofing_clear_all">"Баарын тазалоо"</string>
+    <string name="app_spoofing_disabled">"Өчүк"</string>
+    <string name="common_clear_search">"Изделип жаткан нерсени өчүрүү"</string>
+    <string name="custom_spoof_profile_brand">"Бренд"</string>
+    <string name="custom_spoof_profile_device">"Түзмөк"</string>
+    <string name="custom_spoof_profile_manufacturer">"Өндүрүүчү"</string>
+    <string name="custom_spoof_profile_model">"Үлгүсү"</string>
+    <string name="hide_system_apps">"Система колдонмолорун жашыруу"</string>
+    <string name="pif_recommended_suffix">"Сунушталат"</string>
+    <string name="pif_status">"Абалы"</string>
+    <string name="pif_wipe_confirm">"Маалыматты өчүрүү"</string>
+    <string name="show_system_apps">"Система колдонмолорун көрсөтүү"</string>
+    <string name="spoofing_reset_defaults_confirm">"Баштапкы абалга келтирүү"</string>
+    <string name="ts_mode_auto">"Авто"</string>
+    <string name="ts_untrusted_root_keep">"Калтыруу"</string>
+    <string name="ts_untrusted_root_replace">"Алмаштыруу"</string>
+    <string name="ts_verification_mode_auto">"Авто"</string>
+</resources>

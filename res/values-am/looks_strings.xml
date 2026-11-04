@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"አስቀምጥ"</string>
+    <string name="looks_import">"አምጣ"</string>
+    <string name="looks_name">"ስም"</string>
+    <string name="looks_apply">"ተግብር"</string>
+    <string name="looks_share">"አጋራ"</string>
+    <string name="looks_delete">"ሰርዝ"</string>
+    <string name="looks_part_font">"ቅርጸ-ቁምፊ"</string>
+    <string name="looks_part_wallpaper">"ልጣፍ"</string>
+    <string name="looks_color_default">"ነባሪ"</string>
+    <string name="looks_create">"ፍጠር"</string>
+    <string name="looks_edit">"አርትዕ"</string>
+    <string name="looks_customize">"አብጅ"</string>
+    <string name="looks_save_look">"አስቀምጥ"</string>
+    <string name="looks_custom_color">"ብጁ ቀለም"</string>
+    <string name="looks_part_clock_color">"የሰዓት ቀለም"</string>
+</resources>

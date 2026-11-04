@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Позиви"</string>
+    <string name="now_bar_live_apps_all">"Све апликације"</string>
+    <string name="now_bar_charging">"Пуни се"</string>
+    <string name="now_bar_flashlight">"Лампа"</string>
+    <string name="now_bar_style">"Стил"</string>
+    <string name="now_bar_color">"Боја"</string>
+    <string name="now_bar_outline">"Контура"</string>
+    <string name="now_bar_width">"Ширина"</string>
+    <string name="now_bar_music_category">"Музика"</string>
+    <string name="now_bar_buttons">"Дугмад"</string>
+    <string name="now_bar_text">"Teкст"</string>
+    <string name="now_bar_text_size">"Величина текста"</string>
+</resources>

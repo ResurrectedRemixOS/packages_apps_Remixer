@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="charge_report_keep_title">"保留"</string>
+    <string name="charge_report_battery">"电池"</string>
+    <string name="charge_report_temp">"温度"</string>
+    <string name="charge_report_time">"时间"</string>
+</resources>

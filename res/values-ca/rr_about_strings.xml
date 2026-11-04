@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"Memòria"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"Emmagatzematge"</string>
+    <string name="rr_about_battery">"Bateria"</string>
+    <string name="rr_about_kernel">"Kernel"</string>
+    <string name="rr_about_software">"Programari"</string>
+    <string name="rr_about_updates">"Actualitzacions"</string>
+    <string name="rr_about_security_patch">Actualització de seguretat</string>
+    <string name="rr_about_build_date">Data de compilació</string>
+    <string name="rr_about_this_phone">"Aquest telèfon"</string>
+    <string name="rr_about_network">"Xarxa"</string>
+    <string name="rr_about_hidden">Amagat</string>
+</resources>

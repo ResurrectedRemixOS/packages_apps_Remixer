@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"שיחות"</string>
+    <string name="now_bar_live_apps_all">"כל האפליקציות"</string>
+    <string name="now_bar_charging">"בטעינה"</string>
+    <string name="now_bar_flashlight">פנס</string>
+    <string name="now_bar_style">"סגנון"</string>
+    <string name="now_bar_color">"צבע"</string>
+    <string name="now_bar_outline">"קו מתאר"</string>
+    <string name="now_bar_width">"רוחב"</string>
+    <string name="now_bar_music_category">"מוזיקה"</string>
+    <string name="now_bar_buttons">מקשים</string>
+    <string name="now_bar_text">טקסט</string>
+    <string name="now_bar_text_size">"גודל טקסט"</string>
+</resources>

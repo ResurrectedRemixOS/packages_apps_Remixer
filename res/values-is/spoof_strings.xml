@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Eyða"</string>
+    <string name="action_reset">"Endurstilla"</string>
+    <string name="action_search_apps">"Leita í forritum"</string>
+    <string name="action_select_all">"Velja allt"</string>
+    <string name="app_spoofing_clear_all">"Hreinsa allt"</string>
+    <string name="app_spoofing_disabled">Óvirkt</string>
+    <string name="common_clear_search">"Hreinsa leit"</string>
+    <string name="custom_spoof_profile_brand">"Vörumerki"</string>
+    <string name="custom_spoof_profile_device">"Tæki"</string>
+    <string name="custom_spoof_profile_manufacturer">"Framleiðandi"</string>
+    <string name="custom_spoof_profile_model">"Gerð"</string>
+    <string name="hide_system_apps">"Fela kerfisforrit"</string>
+    <string name="pif_recommended_suffix">"Mælt með"</string>
+    <string name="pif_status">"Staða"</string>
+    <string name="pif_wipe_confirm">"Hreinsa gögn"</string>
+    <string name="show_system_apps">"Sýna kerfisforrit"</string>
+    <string name="spoofing_reset_defaults_confirm">"Endurstilla"</string>
+    <string name="ts_mode_auto">"Sjálfvirkt"</string>
+    <string name="ts_untrusted_root_keep">"Halda"</string>
+    <string name="ts_untrusted_root_replace">"Skipta út"</string>
+    <string name="ts_verification_mode_auto">"Sjálfvirkt"</string>
+</resources>

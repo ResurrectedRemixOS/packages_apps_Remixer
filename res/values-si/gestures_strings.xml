@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pie_edges">"දාර"</string>
+    <string name="pie_style">"විලාසය"</string>
+    <string name="pie_size">"තරම"</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>"කුඩා"</item>
+        <item>"මධ්‍යම"</item>
+        <item>"විශාල"</item>
+    </string-array>
+</resources>

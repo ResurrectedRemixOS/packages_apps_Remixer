@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_storage">Stóráil</string>
+    <string name="rr_about_battery">Ceallraí</string>
+    <string name="rr_about_security_patch">Nuashonrú slándála</string>
+    <string name="rr_about_build_date">Dáta tógála</string>
+    <string name="rr_about_this_phone">An fón seo</string>
+    <string name="rr_about_network">Líonra</string>
+    <string name="rr_about_hidden">i bhfolach</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_unofficial">Không chính thức</string>
+    <string name="rr_about_memory">"Bộ nhớ"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"Bộ nhớ"</string>
+    <string name="rr_about_battery">"Pin"</string>
+    <string name="rr_about_kernel">"Kernel"</string>
+    <string name="rr_about_software">"Phần mềm"</string>
+    <string name="rr_about_updates">"Cập nhật"</string>
+    <string name="rr_about_security_patch">Cập nhật bảo mật</string>
+    <string name="rr_about_build_date">Ngày dựng</string>
+    <string name="rr_about_this_phone">"Điện thoại này"</string>
+    <string name="rr_about_network">"Mạng"</string>
+    <string name="rr_about_hidden">Ẩn</string>
+</resources>

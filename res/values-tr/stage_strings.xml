@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lock_stage_reset">"Sıfırla"</string>
+    <string name="lock_stage_save">"Kaydet"</string>
+    <string name="stage_tile_clock">"Saat"</string>
+    <string name="stage_tile_weather">Hava durumu</string>
+    <string name="stage_tile_shortcuts">"Kısayollar"</string>
+    <string name="stage_tile_battery">Batarya halkası</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="liquid_glass_blur_title">"טשטוש"</string>
+    <string name="liquid_glass_lockscreen_title">"מסך הנעילה"</string>
+    <string name="liquid_glass_volume_title">לוח עוצמת קול</string>
+    <string name="liquid_glass_power_title">"תפריט הפעלה"</string>
+    <string name="liquid_glass_battery_title">"סוללה"</string>
+    <string name="liquid_glass_preview_internet">"אינטרנט"</string>
+</resources>

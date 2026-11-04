@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Slet"</string>
+    <string name="action_reset">"Nulstil"</string>
+    <string name="action_search_apps">"Søg efter apps"</string>
+    <string name="action_select_all">"Markér alle"</string>
+    <string name="app_spoofing_clear_all">"Ryd alt"</string>
+    <string name="app_spoofing_disabled">"Deaktiveret"</string>
+    <string name="common_clear_search">"Ryd søgning"</string>
+    <string name="custom_spoof_profile_device">"Enhed"</string>
+    <string name="custom_spoof_profile_manufacturer">"Producent"</string>
+    <string name="hide_system_apps">"Skjul systemapps"</string>
+    <string name="pif_recommended_suffix">"Anbefalet"</string>
+    <string name="pif_status">"Status"</string>
+    <string name="pif_wipe_confirm">"Ryd data"</string>
+    <string name="show_system_apps">"Vis systemapps"</string>
+    <string name="spoofing_reset_defaults_confirm">"Nulstil"</string>
+    <string name="ts_mode_auto">"Automatisk"</string>
+    <string name="ts_untrusted_root_keep">"Behold"</string>
+    <string name="ts_untrusted_root_replace">"Erstat"</string>
+    <string name="ts_verification_mode_auto">"Automatisk"</string>
+</resources>

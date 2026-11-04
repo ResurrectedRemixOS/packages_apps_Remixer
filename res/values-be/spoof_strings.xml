@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Выдаліць"</string>
+    <string name="action_reset">"Скінуць"</string>
+    <string name="action_search_apps">"Пошук праграм"</string>
+    <string name="action_select_all">"Выбраць усё"</string>
+    <string name="app_spoofing_clear_all">"Ачысціць усё"</string>
+    <string name="app_spoofing_disabled">Адключана</string>
+    <string name="common_clear_search">"Ачысціць поле пошуку"</string>
+    <string name="custom_spoof_profile_brand">"Брэнд"</string>
+    <string name="custom_spoof_profile_device">"Прылада"</string>
+    <string name="custom_spoof_profile_manufacturer">"Вытворца"</string>
+    <string name="custom_spoof_profile_model">"Мадэль"</string>
+    <string name="hide_system_apps">"Схаваць сістэмныя праграмы"</string>
+    <string name="pif_recommended_suffix">"Рэкамендаваная"</string>
+    <string name="pif_status">"Стан"</string>
+    <string name="pif_wipe_confirm">"Ачысціць даныя"</string>
+    <string name="show_system_apps">"Паказваць сістэмныя праграмы"</string>
+    <string name="spoofing_reset_defaults_confirm">"Скінуць"</string>
+    <string name="spoofing_reset_defaults_title">Скід да значэнняў па змаўчанні</string>
+    <string name="ts_mode_auto">"Аўтаматычна"</string>
+    <string name="ts_untrusted_root_keep">"Пакінуць"</string>
+    <string name="ts_untrusted_root_replace">"Замяніць"</string>
+    <string name="ts_verification_mode_auto">"Аўтаматычна"</string>
+</resources>

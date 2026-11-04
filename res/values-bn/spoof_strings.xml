@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"মুছুন"</string>
+    <string name="action_reset">"রিসেট করুন"</string>
+    <string name="action_search_apps">"অ্যাপ খুঁজুন"</string>
+    <string name="action_select_all">"সবগুলি বেছে নিন"</string>
+    <string name="app_spoofing_clear_all">"সব মুছে দিন"</string>
+    <string name="app_spoofing_disabled">"বন্ধ করা আছে"</string>
+    <string name="common_clear_search">"সার্চ সাফ করুন"</string>
+    <string name="custom_spoof_profile_brand">"ব্র্যান্ড"</string>
+    <string name="custom_spoof_profile_device">"ডিভাইস"</string>
+    <string name="custom_spoof_profile_manufacturer">"প্রস্তুতকারক"</string>
+    <string name="custom_spoof_profile_model">"মডেল"</string>
+    <string name="hide_system_apps">"সিস্টেম অ্যাপ আড়াল করুন"</string>
+    <string name="pif_recommended_suffix">"সাজেস্ট করা হয়েছে"</string>
+    <string name="pif_status">"স্ট্যাটাস"</string>
+    <string name="pif_wipe_confirm">"ডেটা সরান"</string>
+    <string name="show_system_apps">"সিস্টেম অ্যাপগুলি দেখান"</string>
+    <string name="spoofing_reset_defaults_confirm">"রিসেট করুন"</string>
+    <string name="ts_mode_auto">"স্বতঃ"</string>
+    <string name="ts_untrusted_root_replace">"প্রতিস্থাপন করুন"</string>
+    <string name="ts_verification_mode_auto">"স্বতঃ"</string>
+</resources>

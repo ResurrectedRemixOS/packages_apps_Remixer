@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Litur"</string>
+    <string name="edge_light_color_wallpaper">"Veggfóðurslitur"</string>
+    <string name="edge_light_custom_color_title">"Sérsniðinn litur"</string>
+    <string name="edge_light_style_title">"Stíll"</string>
+    <string name="edge_light_moment_notifications">"Tilkynningar"</string>
+    <string name="edge_light_moment_calls">"Móttekin símtöl"</string>
+    <string name="edge_light_moment_battery_low">Lítil hleðsla á rafhlöðu</string>
+    <string name="edge_light_moment_unlock">"Ólæst"</string>
+    <string name="remixer_color_default">"Sjálfgefið"</string>
+</resources>

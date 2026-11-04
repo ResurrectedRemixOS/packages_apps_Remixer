@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_unofficial">非官方版本</string>
+    <string name="rr_about_hardware">硬件</string>
+    <string name="rr_about_memory">"内存"</string>
+    <string name="rr_about_ram">"内存"</string>
+    <string name="rr_about_storage">"存储空间"</string>
+    <string name="rr_about_battery">"电池"</string>
+    <string name="rr_about_kernel">"内核"</string>
+    <string name="rr_about_software">"软件"</string>
+    <string name="rr_about_updates">"更新"</string>
+    <string name="rr_about_security_patch">安全更新</string>
+    <string name="rr_about_build_date">编译日期</string>
+    <string name="rr_about_this_phone">"本机"</string>
+    <string name="rr_about_network">"网络"</string>
+    <string name="rr_about_hidden">隐藏</string>
+</resources>

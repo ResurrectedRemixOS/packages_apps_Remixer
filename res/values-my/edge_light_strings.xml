@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"အရောင်"</string>
+    <string name="edge_light_color_wallpaper">"နောက်ခံအရောင်"</string>
+    <string name="edge_light_custom_color_title">"စိတ်ကြိုက်အရောင်"</string>
+    <string name="edge_light_style_title">"ပုံစံ"</string>
+    <string name="edge_light_moment_notifications">"အကြောင်းကြားချက်များ"</string>
+    <string name="edge_light_moment_calls">"အဝင်ဖုန်းခေါ်ဆိုမှုများ"</string>
+    <string name="edge_light_moment_unlock">"လော့ခ်ဖွင့်ထားသည်"</string>
+    <string name="remixer_color_default">"မူရင်း"</string>
+</resources>

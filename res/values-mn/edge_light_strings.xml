@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Өнгө"</string>
+    <string name="edge_light_color_wallpaper">"Дэлгэцийн зургийн өнгө"</string>
+    <string name="edge_light_custom_color_title">"Захиалгат өнгө"</string>
+    <string name="edge_light_style_title">"Загвар"</string>
+    <string name="edge_light_moment_notifications">"Мэдэгдэл"</string>
+    <string name="edge_light_moment_calls">"Ирж буй дуудлага"</string>
+    <string name="edge_light_moment_unlock">"Түгжээг тайлсан"</string>
+    <string name="remixer_color_default">"Өгөгдмөл"</string>
+</resources>

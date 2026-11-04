@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"Londoloza"</string>
+    <string name="haptic_remix_delete_button">"Susa"</string>
+    <string name="haptic_remix_default">"Okuzenzakalelayo"</string>
+    <string name="haptic_remix_calls">"Amakholi"</string>
+    <string name="haptic_remix_color_violet">"I-Violet"</string>
+    <string name="haptic_remix_color_blue">"Okuluhlaza okwesibhakabhaka"</string>
+    <string name="haptic_remix_color_green">"Okuluhlaza okotshani"</string>
+    <string name="haptic_remix_color_white">"Okumhlophe"</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Rangi"</string>
+    <string name="edge_light_color_wallpaper">"Rangi ya mandhari"</string>
+    <string name="edge_light_custom_color_title">"Rangi maalum"</string>
+    <string name="edge_light_style_title">"Mtindo"</string>
+    <string name="edge_light_moment_notifications">"Arifa"</string>
+    <string name="edge_light_moment_calls">"Simu zinazoingia"</string>
+    <string name="edge_light_moment_unlock">"Imefunguliwa"</string>
+    <string name="remixer_color_default">"Chaguomsingi"</string>
+</resources>

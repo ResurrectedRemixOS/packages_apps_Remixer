@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Odstrániť"</string>
+    <string name="action_reset">"Resetovať"</string>
+    <string name="action_search_apps">"Hľadať aplikácie"</string>
+    <string name="action_select_all">"Vybrať všetko"</string>
+    <string name="app_spoofing_clear_all">"Vymazať všetko"</string>
+    <string name="app_spoofing_disabled">"Vypnuté"</string>
+    <string name="common_clear_search">"Vymazať vyhľadávanie"</string>
+    <string name="custom_spoof_profile_brand">"Značka"</string>
+    <string name="custom_spoof_profile_device">"Zariadenie"</string>
+    <string name="custom_spoof_profile_manufacturer">"Výrobca"</string>
+    <string name="hide_system_apps">"Skryť systémové aplikácie"</string>
+    <string name="pif_recommended_suffix">"Odporúčané"</string>
+    <string name="pif_status">"Stav"</string>
+    <string name="pif_wipe_confirm">"Vymazať údaje"</string>
+    <string name="show_system_apps">"Zobraziť systémové aplikácie"</string>
+    <string name="spoofing_pixel_props_summary">Falšovať zariadenie ako Pixel 8 Pro pre Google aplikácie</string>
+    <string name="spoofing_pixel_props_title">Pixel rekvizity</string>
+    <string name="spoofing_reset_defaults_confirm">"Resetovať"</string>
+    <string name="spoofing_title">Falšovanie</string>
+    <string name="ts_untrusted_root_keep">"Zachovať"</string>
+    <string name="ts_untrusted_root_replace">"Nahradiť"</string>
+</resources>

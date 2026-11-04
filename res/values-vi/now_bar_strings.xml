@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Cuộc gọi"</string>
+    <string name="now_bar_live_apps_all">"Tất cả ứng dụng"</string>
+    <string name="now_bar_charging">"Đang sạc"</string>
+    <string name="now_bar_flashlight">Đèn pin</string>
+    <string name="now_bar_aod">Hiển thị trên Always-On Display</string>
+    <string name="now_bar_style">"Kiểu"</string>
+    <string name="now_bar_color">"Màu"</string>
+    <string name="now_bar_outline">"Viền ngoài"</string>
+    <string name="now_bar_width">"Chiều rộng"</string>
+    <string name="now_bar_music_category">"Âm nhạc"</string>
+    <string name="now_bar_buttons">Phím</string>
+    <string name="now_bar_text">Văn bản</string>
+    <string name="now_bar_text_size">"Cỡ chữ"</string>
+</resources>

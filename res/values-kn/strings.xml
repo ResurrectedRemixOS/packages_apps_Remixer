@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"ಖಾತೆ"</string>
+    <string name="rr_homepage_storage">"ಸಂಗ್ರಹಣೆ"</string>
+    <string name="rr_homepage_battery">"ಬ್ಯಾಟರಿ"</string>
+    <string name="rr_homepage_connections">"ಸಂಪರ್ಕಗಳು"</string>
+    <string name="rr_homepage_device">"ಸಾಧನ"</string>
+    <string name="rr_homepage_help">"ಸಹಾಯ"</string>
+    <string name="rr_live_wifi">"ವೈ‑ಫೈ"</string>
+    <string name="rr_live_mobile">"ಮೊಬೈಲ್"</string>
+    <string name="rr_live_offline">"ಆಫ್‌ಲೈನ್"</string>
+    <string name="rr_live_on">"ಆನ್"</string>
+    <string name="rr_live_off">"ಆಫ್"</string>
+    <string name="rr_homepage_charging">"ಚಾರ್ಜ್ ಆಗುತ್ತಿದೆ"</string>
+    <string name="rr_homepage_internet">"ಇಂಟರ್ನೆಟ್"</string>
+    <string name="rr_homepage_mobile_data">"ಮೊಬೈಲ್ ಡೇಟಾ"</string>
+    <string name="rr_homepage_not_connected">"ಕನೆಕ್ಟ್ ಆಗಿಲ್ಲ"</string>
+    <string name="rr_homepage_dark_theme">"ಡಾರ್ಕ್ ಥೀಮ್"</string>
+    <string name="rr_homepage_on">"ಆನ್"</string>
+    <string name="rr_homepage_off">"ಆಫ್"</string>
+    <string name="rr_homepage_signed_in">"ಸೈನ್ ಇನ್ ಮಾಡಲಾಗಿದೆ"</string>
+    <string name="rr_homepage_device_word">"ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
+    <string name="rr_group_apps">"ಆ್ಯಪ್‌ಗಳು ಮತ್ತು ಅಧಿಸೂಚನೆಗಳು"</string>
+    <string name="rr_group_security">"ಭದ್ರತೆ ಮತ್ತು ಗೌಪ್ಯತೆ"</string>
+    <string name="rr_group_accounts_plain">"ಖಾತೆಗಳು"</string>
+    <string name="rr_group_accessibility_summary">"ಡಿಸ್‌ಪ್ಲೇ, ಸಂವಹನ, ಆಡಿಯೋ"</string>
+    <string name="remixer_statusbar">"ಸ್ಥಿತಿ ಪಟ್ಟಿ"</string>
+    <string name="remixer_qs">"ತ್ವರಿತ ಸೆಟ್ಟಿಂಗ್‍ಗಳು"</string>
+    <string name="remixer_notifications">"ನೋಟಿಫಿಕೇಶನ್‌ಗಳು"</string>
+    <string name="remixer_theme">"ಥೀಮ್"</string>
+    <string name="remixer_lockscreen">"ಲಾಕ್ ಸ್ಕ್ರೀನ್"</string>
+    <string name="remixer_misc">"ಇತರೆ"</string>
+    <string name="misc_category_volume">"ವಾಲ್ಯೂಮ್"</string>
+    <string name="misc_category_backup">"ಬ್ಯಾಕಪ್"</string>
+    <string name="misc_category_scrolling">"ಸ್ಕ್ರಾಲ್ ಮಾಡುವಿಕೆ"</string>
+    <string name="remixer_fonts">"ಫಾಂಟ್‍ಗಳು"</string>
+    <string name="remixer_wallpapers">"ವಾಲ್‌ಪೇಪರ್‌ಗಳು"</string>
+    <string name="pulse_style">"ಶೈಲಿ"</string>
+    <string name="pulse_color">"ಬಣ್ಣ"</string>
+    <string name="pulse_color_accent">"ವಾಲ್‌ಪೇಪರ್"</string>
+    <string name="pulse_look">"ನೋಟ"</string>
+    <string name="pulse_lockscreen">"ಲಾಕ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ತೋರಿಸಿ"</string>
+    <string name="accent_preview_button">"ಬಟನ್"</string>
+    <string name="accent_custom_title">"ಕಸ್ಟಮ್ ಬಣ್ಣ"</string>
+    <string name="accent_custom_hue">"ವರ್ಣ"</string>
+    <string name="accent_custom_recent">"ಇತ್ತೀಚಿನದು"</string>
+    <string name="accent_custom_apply">"ಅನ್ವಯಿಸಿ"</string>
+    <string name="accent_shade_default">"ಡೀಫಾಲ್ಟ್"</string>
+    <string name="accent_saturation">"ಸ್ಯಾಚುರೇಶನ್"</string>
+    <string name="remixer_qs_customize">"ಕಸ್ಟಮೈಸ್ ಮಾಡಿ"</string>
+    <string name="remixer_qs_style_section">"ಶೈಲಿ"</string>
+    <string name="remixer_lock_media_off">"ಆಫ್"</string>
+    <string name="remixer_lock_preview_device">"ಈ ಫೋನ್"</string>
+    <string name="remixer_qs_preview_on">"ಆನ್"</string>
+    <string name="remixer_qs_preview_off">"ಆಫ್"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"ಇಂಟರ್ನೆಟ್"</item>
+        <item>Bluetooth</item>
+        <item>"ಫ್ಲಾಶ್‌ಲೈಟ್‌"</item>
+        <item>"ಅಡಚಣೆ ಮಾಡಬೇಡಿ"</item>
+        <item>"ಸ್ವಯಂ-ತಿರುಗುವಿಕೆ"</item>
+        <item>"ಡಾರ್ಕ್ ಥೀಮ್"</item>
+        <item>"ಹಾಟ್‌ಸ್ಪಾಟ್"</item>
+        <item>"ಏರ್‌ಪ್ಲೇನ್ ಮೋಡ್"</item>
+        <item>"ಡೇಟಾ ಸೇವರ್"</item>
+        <item>NFC</item>
+        <item>"ಸಿಂಕ್ ಮಾಡು"</item>
+        <item>"QR ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ"</item>
+    </string-array>
+    <string name="header_preview_none">"ಯಾವುದೇ ಚಿತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿಲ್ಲ"</string>
+    <string name="header_source_image">"ಚಿತ್ರ"</string>
+    <string name="header_source_photo">"ಫೋಟೋ"</string>
+    <string name="header_collections">"ಸಂಗ್ರಹಣೆಗಳು"</string>
+    <string name="header_images">"ಚಿತ್ರಗಳು"</string>
+    <string name="header_photo_choose">"ಫೋಟೋವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"</string>
+    <string name="header_look">"ನೋಟ"</string>
+    <string name="remixer_weather">"ಹವಾಮಾನ"</string>
+    <string name="font_default">"ಡೀಫಾಲ್ಟ್"</string>
+    <string name="font_apply">"ಅನ್ವಯಿಸಿ"</string>
+    <string name="font_filter_all">"ಎಲ್ಲಾ"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"ವಾಲ್‌ಪೇಪರ್ ಸೆಟ್ ಮಾಡಿ"</string>
+    <string name="wallpaper_apply_home">"ಹೋಮ್ ಸ್ಕ್ರೀನ್"</string>
+    <string name="wallpaper_apply_lock">"ಲಾಕ್ ಸ್ಕ್ರೀನ್"</string>
+    <string name="remixer_settings_style_original">"ಮೂಲ"</string>
+    <string name="remixer_navbar_category">"ನ್ಯಾವಿಗೇಷನ್ ಬಾರ್"</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Избриши"</string>
+    <string name="action_reset">"Ресетирај"</string>
+    <string name="action_search_apps">"Пребарувајте апликации"</string>
+    <string name="action_select_all">"Избери ги сите"</string>
+    <string name="app_spoofing_clear_all">"Избриши ги сите"</string>
+    <string name="app_spoofing_disabled">"Оневозможено"</string>
+    <string name="common_clear_search">"Исчисти го полето за пребарување"</string>
+    <string name="custom_spoof_profile_brand">"Бренд"</string>
+    <string name="custom_spoof_profile_device">"Уред"</string>
+    <string name="custom_spoof_profile_manufacturer">"Производител"</string>
+    <string name="custom_spoof_profile_model">"Модел"</string>
+    <string name="hide_system_apps">"Скриј ги системските апликации"</string>
+    <string name="pif_recommended_suffix">"Препорачано"</string>
+    <string name="pif_status">"Статус"</string>
+    <string name="pif_wipe_confirm">"Избриши податоци"</string>
+    <string name="show_system_apps">"Прикажи ги системските апликации"</string>
+    <string name="spoofing_reset_defaults_confirm">"Ресетирај"</string>
+    <string name="ts_mode_auto">"Автоматски"</string>
+    <string name="ts_untrusted_root_keep">"Задржи"</string>
+    <string name="ts_untrusted_root_replace">"Замени"</string>
+    <string name="ts_verification_mode_auto">"Автоматски"</string>
+</resources>

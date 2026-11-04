@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Appels"</string>
+    <string name="now_bar_live_apps_all">"Toutes les applis"</string>
+    <string name="now_bar_charging">"En charge"</string>
+    <string name="now_bar_flashlight">"Lampe de poche"</string>
+    <string name="now_bar_color">"Couleur"</string>
+    <string name="now_bar_outline">"Contour"</string>
+    <string name="now_bar_width">"Largeur"</string>
+    <string name="now_bar_music_category">"Musique"</string>
+    <string name="now_bar_buttons">Boutons</string>
+    <string name="now_bar_text">Texte</string>
+    <string name="now_bar_text_size">"Taille de la police"</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_unofficial">غير رسمي</string>
+    <string name="rr_about_memory">"الذاكرة"</string>
+    <string name="rr_about_ram">"ذاكرة الوصول العشوائي"</string>
+    <string name="rr_about_storage">"مساحة التخزين"</string>
+    <string name="rr_about_battery">"البطارية"</string>
+    <string name="rr_about_kernel">"Kernel"</string>
+    <string name="rr_about_software">"برامج"</string>
+    <string name="rr_about_updates">"التحديثات"</string>
+    <string name="rr_about_build_date">تاريخ الإنشاء</string>
+    <string name="rr_about_this_phone">"هذا الهاتف"</string>
+    <string name="rr_about_network">"الشبكة"</string>
+    <string name="rr_about_hidden">مخفي</string>
+</resources>

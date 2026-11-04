@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Cor"</string>
+    <string name="edge_light_color_wallpaper">"Cor do fondo de pantalla"</string>
+    <string name="edge_light_custom_color_title">"Cor personalizada"</string>
+    <string name="edge_light_style_title">"Estilo"</string>
+    <string name="edge_light_moment_notifications">"Notificacións"</string>
+    <string name="edge_light_moment_calls">"Chamadas entrantes"</string>
+    <string name="edge_light_moment_battery_low">Batería baixa</string>
+    <string name="edge_light_moment_unlock">"Desbloqueouse"</string>
+    <string name="remixer_color_default">"Predeterminado"</string>
+</resources>

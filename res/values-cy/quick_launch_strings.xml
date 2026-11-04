@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">Llwybrau Byr</string>
+    <string name="quick_launch_flashlight">Fflacholau</string>
+    <string name="quick_launch_timer">Amserydd</string>
+    <string name="quick_launch_undo">Dad-wneud</string>
+    <string name="quick_launch_off">I ffwrdd</string>
+</resources>

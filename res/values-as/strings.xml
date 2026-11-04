@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"একাউণ্ট"</string>
+    <string name="rr_homepage_storage">"ষ্ট’ৰেজ"</string>
+    <string name="rr_homepage_battery">"বেটাৰী"</string>
+    <string name="rr_homepage_connections">"সংযোগসমূহ"</string>
+    <string name="rr_homepage_device">"ডিভাইচ"</string>
+    <string name="rr_homepage_help">"সহায়"</string>
+    <string name="rr_live_wifi">"ৱাই-ফাই"</string>
+    <string name="rr_live_mobile">"ম’বাইল"</string>
+    <string name="rr_live_offline">"প্ৰিণ্টাৰ অফলাইন হৈ আছে"</string>
+    <string name="rr_live_on">"অন আছে"</string>
+    <string name="rr_live_off">"অফ আছে"</string>
+    <string name="rr_homepage_charging">"চাৰ্জ কৰি থকা হৈছে"</string>
+    <string name="rr_homepage_internet">"ইণ্টাৰনেট"</string>
+    <string name="rr_homepage_mobile_data">"ম’বাইল ডেটা"</string>
+    <string name="rr_homepage_not_connected">"সংযোজিত হৈ থকা নাই"</string>
+    <string name="rr_homepage_dark_theme">"গাঢ় ৰঙৰ থীম"</string>
+    <string name="rr_homepage_on">"অন আছে"</string>
+    <string name="rr_homepage_off">"অফ আছে"</string>
+    <string name="rr_homepage_signed_in">"ছাইন ইন কৰা হৈছে"</string>
+    <string name="rr_homepage_device_word">"ছেটিং"</string>
+    <string name="rr_group_apps">"এপ্ আৰু জাননী"</string>
+    <string name="rr_group_security">"সুৰক্ষা আৰু গোপনীয়তা"</string>
+    <string name="rr_group_accounts_plain">"একাউণ্টসমূহ"</string>
+    <string name="rr_group_accessibility_summary">"ডিছপ্লে’, ভাব-বিনিময়, অডিঅ’"</string>
+    <string name="remixer_statusbar">"স্থিতি দণ্ড"</string>
+    <string name="remixer_qs">"ক্ষিপ্ৰ ছেটিং"</string>
+    <string name="remixer_notifications">"জাননী"</string>
+    <string name="remixer_theme">"থীম"</string>
+    <string name="remixer_lockscreen">"লক স্ক্ৰীন"</string>
+    <string name="remixer_misc">"সানমিহলি"</string>
+    <string name="misc_category_volume">"ভলিউম"</string>
+    <string name="misc_category_backup">"বেকআপ"</string>
+    <string name="misc_category_scrolling">"স্ক্ৰ’ল কৰাৰ সুবিধা"</string>
+    <string name="remixer_fonts">"ফণ্ট"</string>
+    <string name="remixer_wallpapers">"ৱালপেপাৰ"</string>
+    <string name="pulse_style">"শৈলী"</string>
+    <string name="pulse_color">"ৰং"</string>
+    <string name="pulse_color_accent">"ৱালপেপাৰ"</string>
+    <string name="pulse_look">"ৰূপ"</string>
+    <string name="pulse_lockscreen">"লক স্ক্ৰীনত দেখুৱাওক"</string>
+    <string name="accent_preview_button">"বুটাম"</string>
+    <string name="accent_custom_title">"কাষ্টম ৰং"</string>
+    <string name="accent_custom_recent">"শেহতীয়া"</string>
+    <string name="accent_custom_apply">"প্ৰয়োগ কৰক"</string>
+    <string name="accent_shade_default">"ডিফ’ল্ট"</string>
+    <string name="remixer_qs_customize">"কাষ্টমাইজ কৰক"</string>
+    <string name="remixer_qs_style_section">"শৈলী"</string>
+    <string name="remixer_lock_media_off">"অফ আছে"</string>
+    <string name="remixer_lock_preview_device">"এই ফ’নটো"</string>
+    <string name="remixer_qs_preview_on">"অন আছে"</string>
+    <string name="remixer_qs_preview_off">"অফ আছে"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"ইণ্টাৰনেট"</item>
+        <item>Bluetooth</item>
+        <item>ফ্লেশলাইট</item>
+        <item>"অসুবিধা নিদিব"</item>
+        <item>"স্বয়ং-ঘূৰ্ণন"</item>
+        <item>"গাঢ় ৰঙৰ থীম"</item>
+        <item>"হটস্পট"</item>
+        <item>"এয়াৰপ্লে’ন ম’ড"</item>
+        <item>"ডেটা সঞ্চয়কাৰী"</item>
+        <item>NFC</item>
+        <item>"ছিংক"</item>
+        <item>"কিউআৰ ক’ড স্কেন কৰক"</item>
+    </string-array>
+    <string name="header_preview_none">"কোনো প্ৰতিচ্ছবি বাছনি কৰা হোৱা নাই"</string>
+    <string name="header_source_image">"ছবি"</string>
+    <string name="header_source_photo">"ফট’"</string>
+    <string name="header_collections">"সংগ্ৰহ"</string>
+    <string name="header_images">"প্ৰতিচ্ছবি"</string>
+    <string name="header_photo_choose">"এখন ফট’ বাছনি কৰক"</string>
+    <string name="header_look">"ৰূপ"</string>
+    <string name="remixer_weather">"বতৰ"</string>
+    <string name="font_default">"ডিফ’ল্ট"</string>
+    <string name="font_apply">"প্ৰয়োগ কৰক"</string>
+    <string name="font_filter_all">"আটাইবোৰ"</string>
+    <string name="font_filter_serif">"ছেৰিফ"</string>
+    <string name="wallpaper_apply_title">"ৱালপেপাৰ ছেট কৰক"</string>
+    <string name="wallpaper_apply_home">"গৃহ স্ক্ৰীন"</string>
+    <string name="wallpaper_apply_lock">"লক স্ক্ৰীন"</string>
+    <string name="remixer_settings_style_original">"মূল"</string>
+    <string name="remixer_navbar_category">"নেভিগেশ্বন দণ্ড"</string>
+</resources>

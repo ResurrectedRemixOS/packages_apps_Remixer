@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Símtöl"</string>
+    <string name="now_bar_live_apps_all">"Öll forrit"</string>
+    <string name="now_bar_charging">"Í hleðslu"</string>
+    <string name="now_bar_flashlight">"Vasaljós"</string>
+    <string name="now_bar_style">"Stíll"</string>
+    <string name="now_bar_color">"Litur"</string>
+    <string name="now_bar_outline">"Útlína"</string>
+    <string name="now_bar_width">"Breidd"</string>
+    <string name="now_bar_music_category">"Tónlist"</string>
+    <string name="now_bar_buttons">"Takkar"</string>
+    <string name="now_bar_text">Texti</string>
+    <string name="now_bar_text_size">"Leturstærð"</string>
+</resources>

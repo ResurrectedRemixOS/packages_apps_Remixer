@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Poista"</string>
+    <string name="action_reset">"Nollaa"</string>
+    <string name="action_search_apps">"Hae sovelluksia"</string>
+    <string name="action_select_all">"Valitse kaikki"</string>
+    <string name="app_spoofing_clear_all">"Tyhjennä kaikki"</string>
+    <string name="app_spoofing_disabled">"Ei käytössä"</string>
+    <string name="common_clear_search">"Tyhjennä haku"</string>
+    <string name="custom_spoof_profile_brand">"Brändi"</string>
+    <string name="custom_spoof_profile_device">"Laite"</string>
+    <string name="custom_spoof_profile_manufacturer">"Valmistaja"</string>
+    <string name="custom_spoof_profile_model">"Malli"</string>
+    <string name="hide_system_apps">"Piilota järjestelmäsovellukset"</string>
+    <string name="pif_recommended_suffix">"Suositus"</string>
+    <string name="pif_status">"Tila"</string>
+    <string name="pif_wipe_confirm">"Tyhjennä tiedot"</string>
+    <string name="show_system_apps">"Näytä järjestelmäsovellukset"</string>
+    <string name="spoofing_reset_defaults_confirm">"Nollaa"</string>
+    <string name="ts_untrusted_root_keep">"Säilytä"</string>
+    <string name="ts_untrusted_root_replace">"Korvaa"</string>
+</resources>

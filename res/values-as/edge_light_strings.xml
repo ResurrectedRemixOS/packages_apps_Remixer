@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"ৰং"</string>
+    <string name="edge_light_color_wallpaper">"ৱালপেপাৰৰ ৰং"</string>
+    <string name="edge_light_custom_color_title">"কাষ্টম ৰং"</string>
+    <string name="edge_light_style_title">"শৈলী"</string>
+    <string name="edge_light_animation_effect_comet">"ধূমকেতু"</string>
+    <string name="edge_light_moment_notifications">"জাননী"</string>
+    <string name="edge_light_moment_calls">"অন্তৰ্গামী কল"</string>
+    <string name="edge_light_moment_unlock">"আনলক কৰা আছে"</string>
+    <string name="remixer_color_default">"ডিফ’ল্ট"</string>
+</resources>

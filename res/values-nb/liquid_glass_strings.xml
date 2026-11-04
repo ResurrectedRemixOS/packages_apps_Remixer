@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="liquid_glass_blur_title">"Gjør uskarpt"</string>
+    <string name="liquid_glass_lockscreen_title">"Låseskjerm"</string>
+    <string name="liquid_glass_power_title">"Av/på-meny"</string>
+    <string name="liquid_glass_battery_title">"Batteri"</string>
+    <string name="liquid_glass_preview_internet">"Internett"</string>
+</resources>

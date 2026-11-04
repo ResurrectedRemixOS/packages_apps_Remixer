@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lock_stage_reset">"Бастапқы күйге қайтару"</string>
+    <string name="lock_stage_save">"Сақтау"</string>
+    <string name="stage_tile_clock">"Cағат"</string>
+    <string name="stage_tile_weather">"Ауа райы"</string>
+    <string name="stage_tile_shortcuts">"Жылдам пәрмендер"</string>
+</resources>

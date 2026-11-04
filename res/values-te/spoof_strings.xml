@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"తొలగించండి"</string>
+    <string name="action_reset">"రీసెట్ చేయండి"</string>
+    <string name="action_search_apps">"యాప్‌ల కోసం సెర్చ్ చేయండి"</string>
+    <string name="action_select_all">"అన్నింటినీ ఎంచుకోండి"</string>
+    <string name="app_spoofing_clear_all">"అన్నీ క్లియర్ చేయండి"</string>
+    <string name="app_spoofing_disabled">"డిజేబుల్ చేయబడింది"</string>
+    <string name="common_clear_search">"సెర్చ్‌ను క్లియర్ చేయండి"</string>
+    <string name="custom_spoof_profile_brand">"బ్రాండ్"</string>
+    <string name="custom_spoof_profile_device">"డివైజ్"</string>
+    <string name="custom_spoof_profile_manufacturer">"తయారీదారు"</string>
+    <string name="custom_spoof_profile_model">"మోడల్"</string>
+    <string name="hide_system_apps">"సిస్టమ్ యాప్‌లను దాచు"</string>
+    <string name="pif_recommended_suffix">"సిఫార్సు చేసినవి"</string>
+    <string name="pif_status">"స్టేటస్‌"</string>
+    <string name="pif_wipe_confirm">"డేటాను తీసివేయండి"</string>
+    <string name="show_system_apps">"సిస్టమ్ యాప్‌లను చూపు"</string>
+    <string name="spoofing_reset_defaults_confirm">"రీసెట్ చేయండి"</string>
+    <string name="ts_mode_auto">"స్వయంచాలకం"</string>
+    <string name="ts_untrusted_root_replace">"భర్తీ చేయి"</string>
+    <string name="ts_verification_mode_auto">"స్వయంచాలకం"</string>
+</resources>

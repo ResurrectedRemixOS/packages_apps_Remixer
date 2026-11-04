@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Išsaugoti"</string>
+    <string name="looks_import">"Importuoti"</string>
+    <string name="looks_name">"Pavadinimas"</string>
+    <string name="looks_apply">"Taikyti"</string>
+    <string name="looks_share">"Bendrinti"</string>
+    <string name="looks_delete">"Ištrinti"</string>
+    <string name="looks_part_font">"Šriftas"</string>
+    <string name="looks_part_wallpaper">"Ekrano fonas"</string>
+    <string name="looks_color_default">"Numatytasis"</string>
+    <string name="looks_create">"Kurti"</string>
+    <string name="looks_edit">"Redaguoti"</string>
+    <string name="looks_customize">"Tinkinti"</string>
+    <string name="looks_save_look">"Išsaugoti"</string>
+    <string name="looks_custom_color">"Tinkinta spalva"</string>
+    <string name="looks_part_clock_color">"Laikrodžio spalva"</string>
+</resources>

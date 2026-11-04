@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Fshi"</string>
+    <string name="action_reset">"Rivendos"</string>
+    <string name="action_search_apps">"Kërko për aplikacione"</string>
+    <string name="action_select_all">"Përzgjidhi të gjitha"</string>
+    <string name="app_spoofing_clear_all">"Pastroji të gjitha"</string>
+    <string name="app_spoofing_disabled">"Çaktivizuar"</string>
+    <string name="common_clear_search">"Pastro kërkimin"</string>
+    <string name="custom_spoof_profile_brand">"Marka"</string>
+    <string name="custom_spoof_profile_device">"Pajisja"</string>
+    <string name="custom_spoof_profile_manufacturer">"Prodhuesi"</string>
+    <string name="custom_spoof_profile_model">"Modeli"</string>
+    <string name="hide_system_apps">"Fshih aplikacionet e sistemit"</string>
+    <string name="pif_recommended_suffix">"Të rekomanduara"</string>
+    <string name="pif_status">"Statusi"</string>
+    <string name="pif_wipe_confirm">"Pastro të dhënat"</string>
+    <string name="show_system_apps">"Shfaq aplikacionet e sistemit"</string>
+    <string name="spoofing_reset_defaults_confirm">"Rivendos"</string>
+    <string name="ts_mode_auto">"Automatik"</string>
+    <string name="ts_untrusted_root_keep">"Mbaje"</string>
+    <string name="ts_untrusted_root_replace">"Zëvendëso"</string>
+    <string name="ts_verification_mode_auto">"Automatik"</string>
+</resources>

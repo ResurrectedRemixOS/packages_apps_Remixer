@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sb_clock_date_title">"Ngày"</string>
+    <string name="sb_clock_chip_angle_title">Góc độ gradient</string>
+    <string name="sb_weather_category">"Thời tiết"</string>
+    <string name="sb_weather_position_title">Vị trí</string>
+</resources>

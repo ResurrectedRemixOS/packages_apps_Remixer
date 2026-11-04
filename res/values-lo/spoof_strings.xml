@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"ລຶບ"</string>
+    <string name="action_reset">"ຣີເຊັດ"</string>
+    <string name="action_search_apps">"ຊອກຫາແອັບ"</string>
+    <string name="action_select_all">"ເລືອກທັງໝົດ"</string>
+    <string name="app_spoofing_clear_all">"ລຶບລ້າງທັງໝົດ"</string>
+    <string name="app_spoofing_disabled">"ປິດນຳໃຊ້ແລ້ວ"</string>
+    <string name="common_clear_search">"ລຶບ​ການ​ຊອກ​ຫາ"</string>
+    <string name="custom_spoof_profile_brand">"ແບຣນ"</string>
+    <string name="custom_spoof_profile_device">"ອຸປະກອນ"</string>
+    <string name="custom_spoof_profile_manufacturer">"ຜູ້ຜະລິດ"</string>
+    <string name="custom_spoof_profile_model">"ໂມເດວ"</string>
+    <string name="hide_system_apps">"ເຊື່ອງແອັບລະບົບໄວ້"</string>
+    <string name="pif_recommended_suffix">"ແນະນຳ"</string>
+    <string name="pif_status">"ສະຖານະ"</string>
+    <string name="pif_wipe_confirm">"ລຶບຂໍ້ມູນ"</string>
+    <string name="show_system_apps">"ສະ​ແດງ​ແອັບ​ລະ​ບົບ"</string>
+    <string name="spoofing_reset_defaults_confirm">"ຣີເຊັດ"</string>
+    <string name="ts_mode_auto">"ອັດຕະໂນມັດ"</string>
+    <string name="ts_untrusted_root_keep">"ເກັບໄວ້"</string>
+    <string name="ts_untrusted_root_replace">"ແທນທີ່"</string>
+    <string name="ts_verification_mode_auto">"ອັດຕະໂນມັດ"</string>
+</resources>

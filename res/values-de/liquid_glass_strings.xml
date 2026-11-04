@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="liquid_glass_blur_title">"Weichzeichnen"</string>
+    <string name="liquid_glass_lockscreen_title">"Sperrbildschirm"</string>
+    <string name="liquid_glass_volume_title">Lautstärkeregler</string>
+    <string name="liquid_glass_power_title">"Ein/Aus-Menü"</string>
+    <string name="liquid_glass_battery_title">"Akku"</string>
+    <string name="liquid_glass_preview_internet">"Internet"</string>
+</resources>

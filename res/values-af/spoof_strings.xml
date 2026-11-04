@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Vee uit"</string>
+    <string name="action_reset">"Stel terug"</string>
+    <string name="action_search_apps">"Deursoek programme"</string>
+    <string name="action_select_all">"Kies almal"</string>
+    <string name="app_spoofing_clear_all">"Vee alles uit"</string>
+    <string name="app_spoofing_disabled">"Gedeaktiveer"</string>
+    <string name="common_clear_search">"Vee soektog uit"</string>
+    <string name="custom_spoof_profile_brand">"Handelsmerk"</string>
+    <string name="custom_spoof_profile_device">"Toestel"</string>
+    <string name="custom_spoof_profile_manufacturer">"Vervaardiger"</string>
+    <string name="hide_system_apps">"Versteek stelselprogramme"</string>
+    <string name="pif_recommended_suffix">"Aanbeveel"</string>
+    <string name="pif_status">"Status"</string>
+    <string name="pif_wipe_confirm">"Vee data uit"</string>
+    <string name="show_system_apps">"Wys stelselprogramme"</string>
+    <string name="spoofing_reset_defaults_confirm">"Stel terug"</string>
+    <string name="ts_mode_auto">"Outo"</string>
+    <string name="ts_untrusted_root_keep">"Behou"</string>
+    <string name="ts_untrusted_root_replace">"Vervang"</string>
+    <string name="ts_verification_mode_auto">"Outo"</string>
+</resources>

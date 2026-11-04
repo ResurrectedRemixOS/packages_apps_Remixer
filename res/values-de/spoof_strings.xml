@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Löschen"</string>
+    <string name="action_reset">"Zurücksetzen"</string>
+    <string name="action_search_apps">"Apps finden"</string>
+    <string name="action_select_all">"Alle auswählen"</string>
+    <string name="app_spoofing_clear_all">"Alle löschen"</string>
+    <string name="app_spoofing_disabled">"Deaktiviert"</string>
+    <string name="common_clear_search">"Suche zurücksetzen"</string>
+    <string name="custom_spoof_profile_brand">"Marke"</string>
+    <string name="custom_spoof_profile_device">"Gerät"</string>
+    <string name="custom_spoof_profile_manufacturer">"Hersteller"</string>
+    <string name="custom_spoof_profile_model">"Modell"</string>
+    <string name="hide_system_apps">"System-Apps ausblenden"</string>
+    <string name="pif_recommended_suffix">"Empfohlen"</string>
+    <string name="pif_status">"Status"</string>
+    <string name="pif_wipe_confirm">"Daten löschen"</string>
+    <string name="show_system_apps">"System-Apps anzeigen"</string>
+    <string name="spoofing_photos_summary">in Google Fotos als Pixel XL ausgeben</string>
+    <string name="spoofing_photos_title">Google Fotos</string>
+    <string name="spoofing_pixel_props_summary">Spoof als Pixel 8 Pro für alle Google Apps</string>
+    <string name="spoofing_reset_defaults_confirm">"Zurücksetzen"</string>
+    <string name="spoofing_reset_defaults_title">Auf Standardwerte zurücksetzen</string>
+    <string name="spoofing_snap_summary">Spoof Snapchat als Pixel XL um mögliche Chat-Probleme zu beheben</string>
+    <string name="spoofing_title">Signatur vortäuschen (Spoofing)</string>
+    <string name="tensor_spoof_enable">Tensor-Funktionen spoofen</string>
+    <string name="tensor_spoof_summary">Tensor/Pixelfunktionen freischalten</string>
+    <string name="ts_mode_auto">"Automatisch"</string>
+    <string name="ts_untrusted_root_keep">"Beibehalten"</string>
+    <string name="ts_untrusted_root_replace">"Ersetzen"</string>
+    <string name="ts_verification_mode_auto">"Automatisch"</string>
+</resources>

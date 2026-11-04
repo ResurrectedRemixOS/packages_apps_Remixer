@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"Пречице"</string>
+    <string name="quick_launch_camera">"Камера"</string>
+    <string name="quick_launch_flashlight">"Лампа"</string>
+    <string name="quick_launch_timer">Тајмер</string>
+    <string name="quick_launch_undo">"Опозови"</string>
+    <string name="quick_launch_off">"Искључено"</string>
+</resources>

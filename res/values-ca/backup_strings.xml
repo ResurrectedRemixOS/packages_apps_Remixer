@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"Còpia de seguretat i restauració"</string>
+    <string name="backup_restore">"Restaura"</string>
+    <string name="backup_auto">"Automàtic"</string>
+    <string name="backup_group_status_bar">"Barra d\'estat"</string>
+    <string name="backup_group_lock_screen">"Pantalla de bloqueig"</string>
+    <string name="backup_group_theme">"Tema"</string>
+    <string name="backup_group_qs">"Configuració ràpida"</string>
+    <string name="backup_group_notifications">"Notificacions"</string>
+    <string name="backup_group_gestures">Gestos</string>
+    <string name="backup_group_other">"Altres"</string>
+    <string name="backup_done">"Fet"</string>
+</resources>

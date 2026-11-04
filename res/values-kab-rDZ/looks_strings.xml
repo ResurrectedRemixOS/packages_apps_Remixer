@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">Sekles</string>
+    <string name="looks_import">Ssekcem</string>
+    <string name="looks_name">Isem</string>
+    <string name="looks_apply">Snes</string>
+    <string name="looks_share">Bḍu</string>
+    <string name="looks_delete">Kkes</string>
+    <string name="looks_part_font">Tasefsit</string>
+    <string name="looks_part_wallpaper">Agalis</string>
+    <string name="looks_color_default">Akk-a kan</string>
+    <string name="looks_create">Snulfu</string>
+    <string name="looks_edit">Ẓreg</string>
+    <string name="looks_customize">Sagen</string>
+    <string name="looks_save_look">Sekles</string>
+</resources>

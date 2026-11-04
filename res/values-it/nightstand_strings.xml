@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="nightstand_when">"Intervallo di tempo"</string>
+    <string name="nightstand_face">Quadrante</string>
+    <string name="lock_stage_tab_lock">"Schermata di blocco"</string>
+</resources>

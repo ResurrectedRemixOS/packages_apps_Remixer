@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"حذف"</string>
+    <string name="action_reset">"بازنشانی"</string>
+    <string name="action_search_apps">"جستجوی برنامه‌ها"</string>
+    <string name="action_select_all">"انتخاب همه"</string>
+    <string name="app_spoofing_clear_all">"پاک کردن همه"</string>
+    <string name="app_spoofing_disabled">غیرفعال</string>
+    <string name="common_clear_search">پاک کردن جستجو</string>
+    <string name="custom_spoof_profile_brand">"نمانام"</string>
+    <string name="custom_spoof_profile_device">"دستگاه"</string>
+    <string name="custom_spoof_profile_manufacturer">"سازنده"</string>
+    <string name="custom_spoof_profile_model">"مدل"</string>
+    <string name="hide_system_apps">"پنهان کردن برنامه‌های سیستم"</string>
+    <string name="pif_recommended_suffix">"توصیه‌شده"</string>
+    <string name="pif_status">"وضعیت"</string>
+    <string name="pif_wipe_confirm">"پاک کردن داده‌ها"</string>
+    <string name="show_system_apps">"نمایش‌ برنامه‌های سیستم"</string>
+    <string name="spoofing_reset_defaults_confirm">"بازنشانی"</string>
+    <string name="ts_mode_auto">"خودکار"</string>
+    <string name="ts_untrusted_root_keep">"حفظ"</string>
+    <string name="ts_untrusted_root_replace">"جایگزین کردن"</string>
+    <string name="ts_verification_mode_auto">"خودکار"</string>
+</resources>

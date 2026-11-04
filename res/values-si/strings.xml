@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"ගිණුම"</string>
+    <string name="rr_homepage_storage">"ආචයනය"</string>
+    <string name="rr_homepage_battery">"බැටරිය"</string>
+    <string name="rr_homepage_connections">"සබැඳුම්"</string>
+    <string name="rr_homepage_device">"උපාංගය"</string>
+    <string name="rr_homepage_help">"උදවු"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"ජංගම"</string>
+    <string name="rr_live_offline">"නොබැඳි"</string>
+    <string name="rr_live_on">"ක්‍රියාත්මකයි"</string>
+    <string name="rr_live_off">"ක්‍රියාවිරහිතයි"</string>
+    <string name="rr_homepage_charging">"ආරෝපණය වෙමින්"</string>
+    <string name="rr_homepage_internet">"අන්තර්ජාලය"</string>
+    <string name="rr_homepage_mobile_data">"ජංගම දත්ත"</string>
+    <string name="rr_homepage_not_connected">"සම්බන්ධ වී නොමැත"</string>
+    <string name="rr_homepage_dark_theme">"අඳුරු තේමාව"</string>
+    <string name="rr_homepage_on">"ක්‍රියාත්මකයි"</string>
+    <string name="rr_homepage_off">"ක්‍රියාවිරහිතයි"</string>
+    <string name="rr_homepage_signed_in">"පුරන ලදි"</string>
+    <string name="rr_homepage_device_word">"සැකසීම්"</string>
+    <string name="rr_group_apps">"යෙදුම් සහ දැනුම්දීම්"</string>
+    <string name="rr_group_security">"ආරක්ෂාව සහ පෞද්ගලිකත්වය"</string>
+    <string name="rr_group_accounts_plain">"ගිණුම්"</string>
+    <string name="rr_group_accessibility_summary">"සංදර්ශනය, අන්තර්ක්‍රියාව, ශ්‍රව්‍යය"</string>
+    <string name="remixer_statusbar">"තත්ත්ව තීරුව"</string>
+    <string name="remixer_qs">"ක්ෂණික සැකසීම්"</string>
+    <string name="remixer_notifications">"දැනුම්දීම්"</string>
+    <string name="remixer_theme">"තේමාව"</string>
+    <string name="remixer_lockscreen">"අගුලු තිරය"</string>
+    <string name="remixer_misc">"විවිධ"</string>
+    <string name="misc_category_volume">"ශබ්දය ත්‍රීවතාවය"</string>
+    <string name="misc_category_backup">"උපස්ථය"</string>
+    <string name="misc_category_scrolling">"අනුචලනය කරමින්"</string>
+    <string name="remixer_fonts">"අකුරු වර්ග"</string>
+    <string name="remixer_wallpapers">"වෝල්පේපර"</string>
+    <string name="pulse_style">"විලාසය"</string>
+    <string name="pulse_color">"වර්ණය"</string>
+    <string name="pulse_color_accent">"වෝල්පේපරය"</string>
+    <string name="pulse_look">"පෙනුම"</string>
+    <string name="pulse_lockscreen">"අගුළු තිරයෙහි පෙන්වන්න"</string>
+    <string name="accent_preview_button">"බොත්තම"</string>
+    <string name="accent_custom_title">"අභිරුචි වර්ණය"</string>
+    <string name="accent_custom_hue">"පාට"</string>
+    <string name="accent_custom_recent">"මෑත"</string>
+    <string name="accent_custom_apply">"යොදන්න"</string>
+    <string name="accent_shade_default">"පෙරනිමි"</string>
+    <string name="accent_saturation">"සන්තෘප්තිය"</string>
+    <string name="remixer_qs_customize">"අභිරුචිකරණය"</string>
+    <string name="remixer_qs_style_section">"විලාසය"</string>
+    <string name="remixer_lock_media_off">"ක්‍රියාවිරහිතයි"</string>
+    <string name="remixer_lock_preview_device">"මෙම දුරකථනය"</string>
+    <string name="remixer_qs_preview_on">"ක්‍රියාත්මකයි"</string>
+    <string name="remixer_qs_preview_off">"ක්‍රියාවිරහිතයි"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"අන්තර්ජාලය"</item>
+        <item>Bluetooth</item>
+        <item>"සැණෙළි ආලෝකය"</item>
+        <item>"බාධා නොකරන්න"</item>
+        <item>"ස්වයංක්‍රීය කරකැවීම"</item>
+        <item>"අඳුරු තේමාව"</item>
+        <item>"හොට්ස්පොට්"</item>
+        <item>"අහස්යානා ආකාරය"</item>
+        <item>"දත්ත සුරැකුම"</item>
+        <item>NFC</item>
+        <item>"සමමුහුර්ත කිරීම"</item>
+        <item>"QR කේතය ස්කෑන් කරන්න"</item>
+    </string-array>
+    <string name="header_preview_none">"රූපයක් තෝරා නැත"</string>
+    <string name="header_source_image">"රූපය"</string>
+    <string name="header_source_photo">"ඡායාරූපය"</string>
+    <string name="header_collections">"එකතු"</string>
+    <string name="header_images">"රූප"</string>
+    <string name="header_photo_choose">"ඡායාරූපයක් තෝරා ගන්න"</string>
+    <string name="header_look">"පෙනුම"</string>
+    <string name="remixer_weather">"කාලගුණය"</string>
+    <string name="font_default">"පෙරනිමි"</string>
+    <string name="font_apply">"යොදන්න"</string>
+    <string name="font_filter_all">"සියලු"</string>
+    <string name="font_filter_serif">"සේරිෆ්"</string>
+    <string name="wallpaper_apply_title">"වෝල්පේපරය සකසන්න"</string>
+    <string name="wallpaper_apply_home">"මුල් පිටු තිරය"</string>
+    <string name="wallpaper_apply_lock">"අගුලු තිරය"</string>
+    <string name="remixer_settings_style_original">"මුල්"</string>
+    <string name="remixer_navbar_category">"සංචලන තීරුව"</string>
+</resources>

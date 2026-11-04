@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="liquid_glass_blur_title">"Rozmycie"</string>
+    <string name="liquid_glass_lockscreen_title">"Ekran blokady"</string>
+    <string name="liquid_glass_volume_title">Panel głośności</string>
+    <string name="liquid_glass_power_title">"Menu zasilania"</string>
+    <string name="liquid_glass_battery_title">"Bateria"</string>
+    <string name="liquid_glass_preview_internet">"Internet"</string>
+</resources>

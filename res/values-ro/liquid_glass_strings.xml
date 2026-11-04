@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="liquid_glass_blur_title">"Estompează"</string>
+    <string name="liquid_glass_lockscreen_title">"Ecran de blocare"</string>
+    <string name="liquid_glass_volume_title">Panou de volum</string>
+    <string name="liquid_glass_power_title">"Meniul de pornire"</string>
+    <string name="liquid_glass_battery_title">"Baterie"</string>
+    <string name="liquid_glass_preview_internet">"Internet"</string>
+</resources>

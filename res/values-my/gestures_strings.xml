@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pie_edges">"အစွန်းများ"</string>
+    <string name="pie_style">"ပုံစံ"</string>
+    <string name="pie_size">"အရွယ်အစား"</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>"သေး"</item>
+        <item>"အလယ်အလတ်"</item>
+        <item>"ကြီး"</item>
+    </string-array>
+</resources>

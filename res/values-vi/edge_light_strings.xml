@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Màu"</string>
+    <string name="edge_light_color_notification">Màu thông báo</string>
+    <string name="edge_light_color_wallpaper">"Màu hình nền"</string>
+    <string name="edge_light_custom_color_title">"Màu tùy chỉnh"</string>
+    <string name="edge_light_style_title">"Kiểu"</string>
+    <string name="edge_light_animation_effect_chase">Đuổi</string>
+    <string name="edge_light_animation_effect_comet">Sao chổi</string>
+    <string name="edge_light_intensity_title">Cường độ phát sáng</string>
+    <string name="edge_light_moment_notifications">"Thông báo"</string>
+    <string name="edge_light_moment_calls">"Cuộc gọi đến"</string>
+    <string name="edge_light_moment_battery_low">Pin yếu</string>
+    <string name="edge_light_moment_unlock">"Đã mở khoá"</string>
+    <string name="remixer_color_default">"Mặc định"</string>
+</resources>

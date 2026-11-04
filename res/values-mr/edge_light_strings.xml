@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"रंग"</string>
+    <string name="edge_light_color_wallpaper">"वॉलपेपरचा रंग"</string>
+    <string name="edge_light_custom_color_title">"कस्टम रंग"</string>
+    <string name="edge_light_style_title">"शैली"</string>
+    <string name="edge_light_moment_notifications">"सूचना"</string>
+    <string name="edge_light_moment_calls">"इनकमिंग कॉल"</string>
+    <string name="edge_light_moment_unlock">"अनलॉक केले"</string>
+    <string name="remixer_color_default">"डीफॉल्ट"</string>
+</resources>

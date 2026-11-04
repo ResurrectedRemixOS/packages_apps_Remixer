@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Αποθήκευση"</string>
+    <string name="looks_import">"Εισαγωγή"</string>
+    <string name="looks_name">"Όνομα"</string>
+    <string name="looks_apply">"Εφαρμογή"</string>
+    <string name="looks_share">"Κοινοποίηση"</string>
+    <string name="looks_delete">"Διαγραφή"</string>
+    <string name="looks_part_font">"Γραμματοσειρά"</string>
+    <string name="looks_part_wallpaper">"Ταπετσαρία"</string>
+    <string name="looks_color_default">"Προεπιλογή"</string>
+    <string name="looks_create">"Δημιουργία"</string>
+    <string name="looks_edit">"Επεξεργασία"</string>
+    <string name="looks_customize">"Προσαρμογή"</string>
+    <string name="looks_save_look">"Αποθήκευση"</string>
+    <string name="looks_custom_color">"Προσαρμοσμένο χρώμα"</string>
+    <string name="looks_part_clock_color">"Χρώμα ρολογιού"</string>
+</resources>

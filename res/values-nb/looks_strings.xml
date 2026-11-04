@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Lagre"</string>
+    <string name="looks_import">"Importér"</string>
+    <string name="looks_name">"Navn"</string>
+    <string name="looks_apply">"Bruk"</string>
+    <string name="looks_share">"Del"</string>
+    <string name="looks_delete">"Slett"</string>
+    <string name="looks_part_font">"Skrifttype"</string>
+    <string name="looks_part_wallpaper">"Bakgrunn"</string>
+    <string name="looks_color_default">"Standard"</string>
+    <string name="looks_create">"Opprett"</string>
+    <string name="looks_edit">"Endre"</string>
+    <string name="looks_customize">"Tilpass"</string>
+    <string name="looks_save_look">"Lagre"</string>
+    <string name="looks_custom_color">"Egendefinert farge"</string>
+    <string name="looks_part_clock_color">"Klokkefarge"</string>
+</resources>

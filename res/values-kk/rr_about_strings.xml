@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"Жад"</string>
+    <string name="rr_about_ram">"Жедел жадтау құрылғысы"</string>
+    <string name="rr_about_storage">"Жад"</string>
+    <string name="rr_about_battery">"Батарея"</string>
+    <string name="rr_about_kernel">"Ядро"</string>
+    <string name="rr_about_software">"Бағдарламалық құрал"</string>
+    <string name="rr_about_updates">"Жаңартулар"</string>
+    <string name="rr_about_this_phone">"Осы телефон"</string>
+    <string name="rr_about_network">"Желі"</string>
+    <string name="rr_about_hidden">"Жасырын"</string>
+</resources>

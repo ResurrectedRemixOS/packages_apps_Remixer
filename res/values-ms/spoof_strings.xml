@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Padam"</string>
+    <string name="action_reset">"Tetapkan semula"</string>
+    <string name="action_search_apps">"Cari apl"</string>
+    <string name="action_select_all">"Pilih semua"</string>
+    <string name="app_spoofing_clear_all">"Kosongkan semua"</string>
+    <string name="app_spoofing_disabled">"Dilumpuhkan"</string>
+    <string name="common_clear_search">"Kosongkan carian"</string>
+    <string name="custom_spoof_profile_brand">"Jenama"</string>
+    <string name="custom_spoof_profile_device">"Peranti"</string>
+    <string name="custom_spoof_profile_manufacturer">"Pengilang"</string>
+    <string name="hide_system_apps">"Sembunyikan apl sistem"</string>
+    <string name="pif_recommended_suffix">"Disyorkan"</string>
+    <string name="pif_status">"Status"</string>
+    <string name="pif_wipe_confirm">"Padam bersih data"</string>
+    <string name="show_system_apps">"Tunjukkan apl sistem"</string>
+    <string name="spoofing_reset_defaults_confirm">"Tetapkan semula"</string>
+    <string name="ts_untrusted_root_keep">"Simpan"</string>
+    <string name="ts_untrusted_root_replace">"Ganti"</string>
+</resources>

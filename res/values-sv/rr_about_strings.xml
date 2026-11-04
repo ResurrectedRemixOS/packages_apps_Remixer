@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"Minne"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"Lagring"</string>
+    <string name="rr_about_battery">"Batteri"</string>
+    <string name="rr_about_kernel">"Kärna"</string>
+    <string name="rr_about_software">"Mjukvara"</string>
+    <string name="rr_about_updates">"Uppdateringar"</string>
+    <string name="rr_about_build_date">Kompileringsdatum</string>
+    <string name="rr_about_this_phone">"Den här telefonen"</string>
+    <string name="rr_about_network">"Nätverk"</string>
+    <string name="rr_about_hidden">Dold</string>
+</resources>

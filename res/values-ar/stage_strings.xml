@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lock_stage_reset">"إعادة الضبط"</string>
+    <string name="lock_stage_save">"حفظ"</string>
+    <string name="stage_tile_clock">الساعة</string>
+    <string name="stage_tile_weather">"الطقس"</string>
+    <string name="stage_tile_shortcuts">"الاختصارات"</string>
+    <string name="stage_tile_battery">حلقة البطارية</string>
+</resources>

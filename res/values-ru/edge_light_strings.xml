@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Цвет"</string>
+    <string name="edge_light_color_accent">Цветовой акцент</string>
+    <string name="edge_light_color_notification">Цвет уведомлений</string>
+    <string name="edge_light_color_wallpaper">"Цвет обоев"</string>
+    <string name="edge_light_custom_color_title">"Пользовательский цвет"</string>
+    <string name="edge_light_style_title">"Стиль"</string>
+    <string name="edge_light_animation_effect_chase">Преследование</string>
+    <string name="edge_light_animation_effect_comet">Комета</string>
+    <string name="edge_light_moment_notifications">"Уведомления"</string>
+    <string name="edge_light_moment_calls">"Входящие вызовы"</string>
+    <string name="edge_light_moment_battery_low">Батарея разряжена</string>
+    <string name="edge_light_moment_unlock">"Разблокировано"</string>
+    <string name="remixer_color_default">"По умолчанию"</string>
+</resources>

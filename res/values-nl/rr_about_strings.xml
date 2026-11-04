@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_unofficial">Onofficieel</string>
+    <string name="rr_about_memory">"Geheugen"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"Opslag"</string>
+    <string name="rr_about_battery">"Batterij"</string>
+    <string name="rr_about_kernel">"Kernel"</string>
+    <string name="rr_about_software">"Software"</string>
+    <string name="rr_about_build_date">Build-datum</string>
+    <string name="rr_about_this_phone">"Deze telefoon"</string>
+    <string name="rr_about_network">"Netwerk"</string>
+    <string name="rr_about_hidden">Verborgen</string>
+</resources>

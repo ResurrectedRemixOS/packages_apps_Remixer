@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"Hukommelse"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"Lagerplads"</string>
+    <string name="rr_about_battery">"Batteri"</string>
+    <string name="rr_about_kernel">"Kerne"</string>
+    <string name="rr_about_software">"Software"</string>
+    <string name="rr_about_updates">"Opdateringer"</string>
+    <string name="rr_about_this_phone">"Denne telefon"</string>
+    <string name="rr_about_network">"Netværk"</string>
+    <string name="rr_about_hidden">Skjult</string>
+</resources>

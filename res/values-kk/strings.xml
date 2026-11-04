@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Аккаунт"</string>
+    <string name="rr_homepage_storage">"Жад"</string>
+    <string name="rr_homepage_battery">"Батарея"</string>
+    <string name="rr_homepage_connections">"Байланыстар"</string>
+    <string name="rr_homepage_device">"Құрылғы"</string>
+    <string name="rr_homepage_help">"Анықтама"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"Мобильдік"</string>
+    <string name="rr_live_offline">"Офлайн"</string>
+    <string name="rr_live_on">"Қосулы"</string>
+    <string name="rr_live_off">"Өшірулі"</string>
+    <string name="rr_homepage_charging">"Зарядталуда"</string>
+    <string name="rr_homepage_internet">"Интернет"</string>
+    <string name="rr_homepage_mobile_data">"Мобильдік интернет"</string>
+    <string name="rr_homepage_not_connected">"Қосылмаған"</string>
+    <string name="rr_homepage_dark_theme">"Қараңғы режим"</string>
+    <string name="rr_homepage_on">"Қосулы"</string>
+    <string name="rr_homepage_off">"Өшірулі"</string>
+    <string name="rr_homepage_signed_in">"Аккаунтқа кірулі"</string>
+    <string name="rr_homepage_device_word">"ПАРАМЕТРЛЕР"</string>
+    <string name="rr_group_apps">"Қолданбалар мен хабарландырулар"</string>
+    <string name="rr_group_security">"Қауіпсіздік және құпиялық"</string>
+    <string name="rr_group_accounts_plain">"Аккаунттар"</string>
+    <string name="rr_group_accessibility_summary">"Экран, басқару элементтері, аудио"</string>
+    <string name="remixer_statusbar">"Күйін көрсету жолағы"</string>
+    <string name="remixer_qs">"Жылдам параметрлер"</string>
+    <string name="remixer_notifications">"Хабарландырулар"</string>
+    <string name="remixer_theme">"Тақырып"</string>
+    <string name="remixer_lockscreen">"Құлыптаулы экран"</string>
+    <string name="remixer_misc">"Әртүрлі"</string>
+    <string name="misc_category_volume">"Дыбыс деңгейі"</string>
+    <string name="misc_category_backup">"Сақтық көшірме жасау"</string>
+    <string name="misc_category_scrolling">"Айналдыру"</string>
+    <string name="remixer_fonts">"Қаріптер"</string>
+    <string name="remixer_wallpapers">"Тұсқағаздар"</string>
+    <string name="pulse_style">"Стиль"</string>
+    <string name="pulse_color">"Түс"</string>
+    <string name="pulse_color_accent">"Тұсқағаз"</string>
+    <string name="pulse_look">"Көрініс"</string>
+    <string name="pulse_lockscreen">"Құлып экранында көрсету"</string>
+    <string name="accent_preview_button">"Түйме"</string>
+    <string name="accent_custom_title">"Арнаулы түс"</string>
+    <string name="accent_custom_hue">"Реңк"</string>
+    <string name="accent_custom_recent">"Соңғы"</string>
+    <string name="accent_custom_apply">"Қолдану"</string>
+    <string name="accent_shade_default">"Әдепкі"</string>
+    <string name="accent_saturation">"Қанықтығы"</string>
+    <string name="remixer_qs_customize">"Реттеу"</string>
+    <string name="remixer_qs_style_section">"Стиль"</string>
+    <string name="remixer_lock_media_off">"Өшірулі"</string>
+    <string name="remixer_lock_preview_device">"Осы телефон"</string>
+    <string name="remixer_qs_preview_on">"Қосулы"</string>
+    <string name="remixer_qs_preview_off">"Өшірулі"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Интернет"</item>
+        <item>Bluetooth</item>
+        <item>"Қолшам"</item>
+        <item>"Мазаламау"</item>
+        <item>"Автоматты түрде бұру"</item>
+        <item>"Қараңғы режим"</item>
+        <item>"Хотспот"</item>
+        <item>"Ұшақ режимі"</item>
+        <item>"Трафикті үнемдеу"</item>
+        <item>NFC</item>
+        <item>"Синх"</item>
+        <item>"QR кодын сканерлеу"</item>
+    </string-array>
+    <string name="header_preview_none">"Ешқандай сурет таңдалған жоқ"</string>
+    <string name="header_source_image">"Сурет"</string>
+    <string name="header_source_photo">"Фотосурет"</string>
+    <string name="header_collections">"Жинақтар"</string>
+    <string name="header_images">"Суреттер"</string>
+    <string name="header_photo_choose">"Фотосурет таңдау"</string>
+    <string name="header_look">"Көрініс"</string>
+    <string name="remixer_weather">"Ауа райы"</string>
+    <string name="font_default">"Әдепкі"</string>
+    <string name="font_apply">"Қолдану"</string>
+    <string name="font_filter_all">"Барлығы"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Тұсқағаз орнату"</string>
+    <string name="wallpaper_apply_home">"Негізгі экран"</string>
+    <string name="wallpaper_apply_lock">"Құлыптаулы экран"</string>
+    <string name="remixer_settings_style_original">"Түпнұсқа"</string>
+    <string name="remixer_navbar_category">"Навигация жолағы"</string>
+</resources>

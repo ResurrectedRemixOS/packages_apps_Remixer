@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Konto"</string>
+    <string name="rr_homepage_storage">"Pamięć wewnętrzna"</string>
+    <string name="rr_homepage_battery">"Bateria"</string>
+    <string name="rr_homepage_connections">"Połączenia"</string>
+    <string name="rr_homepage_device">"Urządzenie"</string>
+    <string name="rr_homepage_privacy">Prywatność i bezpieczeństwo</string>
+    <string name="rr_homepage_help">"Pomoc"</string>
+    <string name="rr_live_wifi">"Wi‑Fi"</string>
+    <string name="rr_live_mobile">"Komórka"</string>
+    <string name="rr_live_offline">"Tryb offline"</string>
+    <string name="rr_live_on">"Włączony"</string>
+    <string name="rr_live_off">"Wyłączono"</string>
+    <string name="rr_homepage_charging">"Ładowanie"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_homepage_mobile_data">"Mobilna transmisja danych"</string>
+    <string name="rr_homepage_not_connected">"Nie połączono"</string>
+    <string name="rr_homepage_dark_theme">"Ciemny motyw"</string>
+    <string name="rr_homepage_on">"Włączony"</string>
+    <string name="rr_homepage_off">"Wyłączono"</string>
+    <string name="rr_homepage_signed_in">"Zalogowano"</string>
+    <string name="rr_homepage_device_word">"USTAWIENIA"</string>
+    <string name="rr_group_apps">"Aplikacje i powiadomienia"</string>
+    <string name="rr_group_security">"Bezpieczeństwo i prywatność"</string>
+    <string name="rr_group_accounts_plain">"Konta"</string>
+    <string name="rr_group_accessibility_summary">"Wyświetlacz, interakcje, dźwięk"</string>
+    <string name="remixer_statusbar">"Pasek stanu"</string>
+    <string name="remixer_qs">"Szybkie ustawienia"</string>
+    <string name="remixer_notifications">"Powiadomienia"</string>
+    <string name="remixer_theme">"Motyw"</string>
+    <string name="remixer_lockscreen">"Ekran blokady"</string>
+    <string name="remixer_udfps_icon">Ikona odcisku palca</string>
+    <string name="remixer_udfps_animation">Animacja odcisku palca</string>
+    <string name="remixer_navigation">Nawigacja w systemie</string>
+    <string name="remixer_misc">"Inne"</string>
+    <string name="misc_category_volume">"Głośność"</string>
+    <string name="misc_category_backup">"Kopia zapasowa"</string>
+    <string name="misc_category_scrolling">"Przewijanie"</string>
+    <string name="remixer_fonts">"Czcionki"</string>
+    <string name="remixer_wallpapers">"Tapety"</string>
+    <string name="remixer_accents_summary">Kolor akcentu</string>
+    <string name="pulse_preview_title">"Teraz odtwarzane"</string>
+    <string name="pulse_style">"Styl"</string>
+    <string name="pulse_color">"Kolor"</string>
+    <string name="pulse_color_accent">"Tapeta"</string>
+    <string name="pulse_look">"Wygląd"</string>
+    <string name="pulse_lockscreen">"Pokaż na ekranie blokady"</string>
+    <string name="accent_preview_button">"Przycisk"</string>
+    <string name="accent_custom_title">"Kolor niestandardowy"</string>
+    <string name="accent_custom_hue">"Odcień"</string>
+    <string name="accent_custom_recent">"Najnowsze"</string>
+    <string name="accent_custom_apply">"Zastosuj"</string>
+    <string name="accent_shade_default">"Domyślny"</string>
+    <string name="accent_saturation">"Nasycenie"</string>
+    <string name="remixer_qs_customize">"Dostosuj"</string>
+    <string name="remixer_qs_style_section">"Styl"</string>
+    <string name="remixer_lock_media_off">"Wyłączono"</string>
+    <string name="remixer_lock_preview_device">"Ten telefon"</string>
+    <string name="remixer_qs_preview_on">"Włączony"</string>
+    <string name="remixer_qs_preview_off">"Wyłączono"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>Latarka</item>
+        <item>"Nie przeszkadzać"</item>
+        <item>"Autoobracanie"</item>
+        <item>"Ciemny motyw"</item>
+        <item>"Hotspot"</item>
+        <item>"Tryb samolotowy"</item>
+        <item>"Oszczędzanie danych"</item>
+        <item>NFC</item>
+        <item>"Synchronizacja"</item>
+        <item>"Zeskanuj kod QR"</item>
+    </string-array>
+    <string name="remixer_headers_summary">Wybierz obraz tła dla szybkich ustawień</string>
+    <string name="header_preview_none">"Nie wybrano obrazu"</string>
+    <string name="header_source_image">"Obraz"</string>
+    <string name="header_source_photo">"Zdjęcie"</string>
+    <string name="header_collections">"Kolekcje"</string>
+    <string name="header_images">"Obrazy"</string>
+    <string name="header_photo_choose">"Wybierz zdjęcie"</string>
+    <string name="header_look">"Wygląd"</string>
+    <string name="remixer_weather">"Pogoda"</string>
+    <string name="font_default">"Domyślny"</string>
+    <string name="font_apply">"Zastosuj"</string>
+    <string name="font_filter_all">"Wszystkie"</string>
+    <string name="font_filter_serif">"Szeryfowa"</string>
+    <string name="wallpaper_apply_title">"Ustaw tapetę"</string>
+    <string name="wallpaper_apply_home">"Ekran główny"</string>
+    <string name="wallpaper_apply_lock">"Ekran blokady"</string>
+    <string name="remixer_settings_style">Styl ustawień</string>
+    <string name="remixer_settings_style_original">"Oryginał"</string>
+    <string name="remixer_navbar_category">"Pasek nawigacji"</string>
+</resources>

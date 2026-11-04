@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Paskyra"</string>
+    <string name="rr_homepage_storage">"Saugykla"</string>
+    <string name="rr_homepage_battery">"Akumuliatorius"</string>
+    <string name="rr_homepage_connections">"Ryšiai"</string>
+    <string name="rr_homepage_device">"Įrenginys"</string>
+    <string name="rr_homepage_help">"Pagalba"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"Mobilusis"</string>
+    <string name="rr_live_offline">"Neprisijungęs"</string>
+    <string name="rr_live_on">"Įjungta"</string>
+    <string name="rr_live_off">"Išjungta"</string>
+    <string name="rr_homepage_charging">"Įkraunama"</string>
+    <string name="rr_homepage_internet">"Internetas"</string>
+    <string name="rr_homepage_mobile_data">"Mobiliojo ryšio duomenys"</string>
+    <string name="rr_homepage_not_connected">"Neprisijungta"</string>
+    <string name="rr_homepage_dark_theme">"Tamsioji tema"</string>
+    <string name="rr_homepage_on">"Įjungta"</string>
+    <string name="rr_homepage_off">"Išjungta"</string>
+    <string name="rr_homepage_signed_in">"Prisijungta"</string>
+    <string name="rr_homepage_device_word">"NUSTATYMAI"</string>
+    <string name="rr_group_apps">"Programos ir pranešimai"</string>
+    <string name="rr_group_security">"Sauga ir privatumas"</string>
+    <string name="rr_group_accounts_plain">"Paskyros"</string>
+    <string name="rr_group_accessibility_summary">"Ekranas, sąveika, garsas"</string>
+    <string name="remixer_statusbar">"Būsenos juosta"</string>
+    <string name="remixer_qs">"Spartieji nustatymai"</string>
+    <string name="remixer_notifications">"Pranešimai"</string>
+    <string name="remixer_theme">"Tema"</string>
+    <string name="remixer_lockscreen">"Užrakinimo ekranas"</string>
+    <string name="remixer_misc">"Įvairūs"</string>
+    <string name="misc_category_volume">"Garsumas"</string>
+    <string name="misc_category_backup">"Atsarginė kopija"</string>
+    <string name="misc_category_scrolling">"Slinkimas"</string>
+    <string name="remixer_fonts">"Šriftai"</string>
+    <string name="remixer_wallpapers">"Ekrano fonai"</string>
+    <string name="pulse_preview_title">"Dabar grojama"</string>
+    <string name="pulse_style">"Stilius"</string>
+    <string name="pulse_color">"Spalva"</string>
+    <string name="pulse_color_accent">"Ekrano fonas"</string>
+    <string name="pulse_look">"Išvaizda"</string>
+    <string name="pulse_lockscreen">"Rodyti užrakinimo ekrane"</string>
+    <string name="accent_preview_button">"Mygtukas"</string>
+    <string name="accent_custom_title">"Tinkinta spalva"</string>
+    <string name="accent_custom_hue">"Atspalvis"</string>
+    <string name="accent_custom_recent">"Naujausi"</string>
+    <string name="accent_custom_apply">"Taikyti"</string>
+    <string name="accent_shade_default">"Numatytasis"</string>
+    <string name="accent_saturation">"Spalvų sodrumas"</string>
+    <string name="remixer_qs_customize">"Tinkinti"</string>
+    <string name="remixer_qs_style_section">"Stilius"</string>
+    <string name="remixer_lock_media_off">"Išjungta"</string>
+    <string name="remixer_lock_preview_device">"Šis telefonas"</string>
+    <string name="remixer_qs_preview_on">"Įjungta"</string>
+    <string name="remixer_qs_preview_off">"Išjungta"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internetas"</item>
+        <item>Bluetooth</item>
+        <item>"Žibintuvėlis"</item>
+        <item>"Netrukdymo režimas"</item>
+        <item>"Automatinis pasukimas"</item>
+        <item>"Tamsioji tema"</item>
+        <item>"Viešosios interneto prieigos taškas"</item>
+        <item>"Lėktuvo režimas"</item>
+        <item>"Duomenų taupymo pr."</item>
+        <item>NFC</item>
+        <item>"Sinchronizuoti"</item>
+        <item>"QR kodo nuskaitymas"</item>
+    </string-array>
+    <string name="header_preview_none">"Vaizdas nepasirinktas"</string>
+    <string name="header_source_image">"Vaizdas"</string>
+    <string name="header_source_photo">"Nuotrauka"</string>
+    <string name="header_collections">"Rinkiniai"</string>
+    <string name="header_images">"Vaizdai"</string>
+    <string name="header_photo_choose">"Pasirinkite nuotrauką"</string>
+    <string name="header_look">"Išvaizda"</string>
+    <string name="remixer_weather">"Orai"</string>
+    <string name="font_default">"Numatytasis"</string>
+    <string name="font_apply">"Taikyti"</string>
+    <string name="font_filter_all">"Viskas"</string>
+    <string name="font_filter_serif">"Su užraitais"</string>
+    <string name="wallpaper_apply_title">"Nustatyti ekrano foną"</string>
+    <string name="wallpaper_apply_home">"Pagrindinis ekranas"</string>
+    <string name="wallpaper_apply_lock">"Užrakinimo ekranas"</string>
+    <string name="remixer_settings_style_original">"Originalus"</string>
+    <string name="remixer_navbar_category">"Naršymo juosta"</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="liquid_glass_blur_title">"Zamuti"</string>
+    <string name="liquid_glass_lockscreen_title">"Zaključani ekran"</string>
+    <string name="liquid_glass_power_title">"Meni napajanja"</string>
+    <string name="liquid_glass_battery_title">"Baterija"</string>
+    <string name="liquid_glass_preview_internet">"Internet"</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"Copia de seguridad y restauración"</string>
+    <string name="backup_restore">"Restaurar"</string>
+    <string name="backup_part_boot">Animación de inicio</string>
+    <string name="backup_auto">"Automático"</string>
+    <string name="backup_group_status_bar">Barra de estado</string>
+    <string name="backup_group_lock_screen">"Pantalla de bloqueo"</string>
+    <string name="backup_group_theme">"Tema"</string>
+    <string name="backup_group_qs">"Ajustes rápidos"</string>
+    <string name="backup_group_notifications">"Notificaciones"</string>
+    <string name="backup_group_gestures">Gestos</string>
+    <string name="backup_group_other">"Otro"</string>
+    <string name="backup_done">"Hecho"</string>
+    <string name="volume_style_title">Estilos del panel de volumen</string>
+</resources>

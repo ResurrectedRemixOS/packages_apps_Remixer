@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"ଆକାଉଣ୍ଟ"</string>
+    <string name="rr_homepage_storage">"ଷ୍ଟୋରେଜ"</string>
+    <string name="rr_homepage_battery">"ବେଟେରୀ"</string>
+    <string name="rr_homepage_connections">"ସଂଯୋଗଗୁଡ଼ିକ"</string>
+    <string name="rr_homepage_device">"ଡିଭାଇସ୍"</string>
+    <string name="rr_homepage_help">"ସାହାଯ୍ୟ"</string>
+    <string name="rr_live_wifi">"ୱାଇ-ଫାଇ"</string>
+    <string name="rr_live_mobile">"ମୋବାଇଲ୍‍"</string>
+    <string name="rr_live_offline">"ଅଫଲାଇନ୍"</string>
+    <string name="rr_live_on">"ଚାଲୁ ଅଛି"</string>
+    <string name="rr_live_off">"ବନ୍ଦ ଅଛି"</string>
+    <string name="rr_homepage_charging">"ଚାର୍ଜ ହେଉଛି"</string>
+    <string name="rr_homepage_internet">"ଇଣ୍ଟର୍ନେଟ"</string>
+    <string name="rr_homepage_mobile_data">"ମୋବାଇଲ ଡାଟା"</string>
+    <string name="rr_homepage_not_connected">"କନେକ୍ଟ ହୋଇନାହିଁ"</string>
+    <string name="rr_homepage_dark_theme">"ଡାର୍କ ଥିମ"</string>
+    <string name="rr_homepage_on">"ଚାଲୁ ଅଛି"</string>
+    <string name="rr_homepage_off">"ବନ୍ଦ ଅଛି"</string>
+    <string name="rr_homepage_signed_in">"ସାଇନ ଇନ କରାଯାଇଛି"</string>
+    <string name="rr_homepage_device_word">"ସେଟିଂସ"</string>
+    <string name="rr_group_apps">"ଆପ୍ସ ଓ ବିଜ୍ଞପ୍ତି"</string>
+    <string name="rr_group_security">"ସୁରକ୍ଷା ଏବଂ ଗୋପନୀୟତା"</string>
+    <string name="rr_group_accounts_plain">"ଆକାଉଣ୍ଟ"</string>
+    <string name="rr_group_accessibility_summary">"ଡିସପ୍ଲେ, ଇଣ୍ଟରାକ୍ସନ, ଅଡିଓ"</string>
+    <string name="remixer_statusbar">"ଷ୍ଟାଟସ୍‍ ବାର୍‍"</string>
+    <string name="remixer_qs">"କ୍ୱିକ ସେଟିଂସ"</string>
+    <string name="remixer_notifications">"ବିଜ୍ଞପ୍ତି"</string>
+    <string name="remixer_theme">"ଥିମ"</string>
+    <string name="remixer_lockscreen">"ଲକ ସ୍କ୍ରିନ"</string>
+    <string name="remixer_misc">"ବିବିଧ"</string>
+    <string name="misc_category_volume">"ଭଲ୍ୟୁମ୍"</string>
+    <string name="misc_category_backup">"ବେକଅପ ନିଅନ୍ତୁ"</string>
+    <string name="misc_category_scrolling">"ସ୍କ୍ରୋଲିଂ"</string>
+    <string name="remixer_fonts">"ଫଣ୍ଟଗୁଡ଼ିକ"</string>
+    <string name="remixer_wallpapers">"ୱାଲ୍‌ପେପର୍‌"</string>
+    <string name="pulse_style">"ଷ୍ଟାଇଲ"</string>
+    <string name="pulse_color">"ରଙ୍ଗ"</string>
+    <string name="pulse_color_accent">"ୱାଲପେପର"</string>
+    <string name="pulse_look">"ଏପିଏରେନ୍ସ"</string>
+    <string name="pulse_lockscreen">"ଲକ ସ୍କ୍ରିନରେ ଦେଖାନ୍ତୁ"</string>
+    <string name="accent_preview_button">"ବଟନ"</string>
+    <string name="accent_custom_title">"କଷ୍ଟମ୍ ରଙ୍ଗ"</string>
+    <string name="accent_custom_recent">"ବର୍ତ୍ତମାନର"</string>
+    <string name="accent_custom_apply">"ଲାଗୁ କରନ୍ତୁ"</string>
+    <string name="accent_shade_default">"ଡିଫଲ୍ଟ"</string>
+    <string name="remixer_qs_customize">"କଷ୍ଟମାଇଜ୍‌ କରନ୍ତୁ"</string>
+    <string name="remixer_qs_style_section">"ଷ୍ଟାଇଲ"</string>
+    <string name="remixer_lock_media_off">"ବନ୍ଦ ଅଛି"</string>
+    <string name="remixer_lock_preview_device">"ଏହି ଫୋନ"</string>
+    <string name="remixer_qs_preview_on">"ଚାଲୁ ଅଛି"</string>
+    <string name="remixer_qs_preview_off">"ବନ୍ଦ ଅଛି"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"ଇଣ୍ଟର୍ନେଟ"</item>
+        <item>Bluetooth</item>
+        <item>ଫ୍ଲାସଲାଇଟ୍</item>
+        <item>"ବିରକ୍ତ କରନ୍ତୁ ନାହିଁ"</item>
+        <item>"ଅଟୋ-ରୋଟେଟ"</item>
+        <item>"ଡାର୍କ ଥିମ"</item>
+        <item>"ହଟସ୍ପଟ"</item>
+        <item>"ଏୟାରପ୍ଲେନ ମୋଡ"</item>
+        <item>"ଡାଟା ସେଭର"</item>
+        <item>NFC</item>
+        <item>"ସିଙ୍କ୍"</item>
+        <item>"QR କୋଡ ସ୍କାନ କରନ୍ତୁ"</item>
+    </string-array>
+    <string name="header_preview_none">"କୌଣସି ଇମେଜ ଚୟନ କରାଯାଇନାହିଁ"</string>
+    <string name="header_source_image">"ଛବି"</string>
+    <string name="header_source_photo">"ଫଟୋ"</string>
+    <string name="header_collections">"ସଂଗ୍ରହ"</string>
+    <string name="header_images">"ଇମେଜ୍"</string>
+    <string name="header_photo_choose">"ଗୋଟିଏ ଫଟୋ ବାଛନ୍ତୁ"</string>
+    <string name="header_look">"ଏପିଏରେନ୍ସ"</string>
+    <string name="font_default">"ଡିଫଲ୍ଟ"</string>
+    <string name="font_apply">"ଲାଗୁ କରନ୍ତୁ"</string>
+    <string name="font_filter_all">"ସମସ୍ତ"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"ୱାଲପେପର ସେଟ କରନ୍ତୁ"</string>
+    <string name="wallpaper_apply_home">"ହୋମ ସ୍କ୍ରିନ"</string>
+    <string name="wallpaper_apply_lock">"ଲକ ସ୍କ୍ରିନ"</string>
+    <string name="remixer_settings_style_original">"ମୂଳ"</string>
+    <string name="remixer_navbar_category">"ନାଭିଗେସନ ବାର"</string>
+</resources>

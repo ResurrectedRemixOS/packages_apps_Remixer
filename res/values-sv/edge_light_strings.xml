@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Färg"</string>
+    <string name="edge_light_color_accent">Accentfärg</string>
+    <string name="edge_light_color_notification">Aviseringsfärg</string>
+    <string name="edge_light_color_wallpaper">"Bakgrundsfärg"</string>
+    <string name="edge_light_custom_color_title">"Anpassad färg"</string>
+    <string name="edge_light_style_title">"Stil"</string>
+    <string name="edge_light_animation_effect_title">Animering</string>
+    <string name="edge_light_animation_effect_chase">Förföljelse</string>
+    <string name="edge_light_animation_effect_comet">Komet</string>
+    <string name="edge_light_spread_title">Glödens spridning</string>
+    <string name="edge_light_intensity_title">Glödintensitet</string>
+    <string name="edge_light_moment_notifications">"Aviseringar"</string>
+    <string name="edge_light_moment_calls">"Inkommande samtal"</string>
+    <string name="edge_light_moment_battery_low">Låg batterinivå</string>
+    <string name="edge_light_moment_unlock">"Upplåst"</string>
+    <string name="remixer_color_default">"Standard"</string>
+</resources>

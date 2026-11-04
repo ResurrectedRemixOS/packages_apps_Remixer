@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Kõned"</string>
+    <string name="now_bar_live_apps_all">"Kõik rakendused"</string>
+    <string name="now_bar_charging">"Laadimine"</string>
+    <string name="now_bar_flashlight">Taskulamp</string>
+    <string name="now_bar_style">"Stiil"</string>
+    <string name="now_bar_color">"Värv"</string>
+    <string name="now_bar_outline">"Piirjoon"</string>
+    <string name="now_bar_width">"Laius"</string>
+    <string name="now_bar_music_category">"Muusika"</string>
+    <string name="now_bar_buttons">Nupud</string>
+    <string name="now_bar_text">Tekst</string>
+    <string name="now_bar_text_size">"Teksti suurus"</string>
+</resources>

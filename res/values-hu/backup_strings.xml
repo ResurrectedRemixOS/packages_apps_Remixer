@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"Biztonsági mentés és visszaállítás"</string>
+    <string name="backup_restore">"Visszaállítás"</string>
+    <string name="backup_part_boot">Bootanimáció</string>
+    <string name="backup_auto">"Automatikus"</string>
+    <string name="backup_group_status_bar">"Állapotsor"</string>
+    <string name="backup_group_lock_screen">"Lezárási képernyő"</string>
+    <string name="backup_group_theme">"Téma"</string>
+    <string name="backup_group_qs">"Gyorsbeállítások"</string>
+    <string name="backup_group_notifications">"Értesítések"</string>
+    <string name="backup_group_gestures">Kézmozdulatok</string>
+    <string name="backup_group_other">"Egyéb"</string>
+    <string name="backup_done">"Kész"</string>
+    <string name="volume_style_title">Hangerőpanel stílusa</string>
+</resources>

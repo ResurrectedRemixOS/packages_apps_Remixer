@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Eliminar"</string>
+    <string name="action_reset">"Restablecer"</string>
+    <string name="action_search_apps">"Buscar aplicacións"</string>
+    <string name="action_select_all">"Seleccionar todo"</string>
+    <string name="app_spoofing_clear_all">"Borrar todo"</string>
+    <string name="app_spoofing_disabled">"Desactivado"</string>
+    <string name="common_clear_search">"Borrar busca"</string>
+    <string name="custom_spoof_profile_brand">"Marca"</string>
+    <string name="custom_spoof_profile_device">"Dispositivo"</string>
+    <string name="custom_spoof_profile_manufacturer">"Fabricante"</string>
+    <string name="custom_spoof_profile_model">"Modelo"</string>
+    <string name="hide_system_apps">"Ocultar aplicacións do sistema"</string>
+    <string name="pif_recommended_suffix">"É a opción recomendada."</string>
+    <string name="pif_status">"Estado"</string>
+    <string name="pif_wipe_confirm">"Borrar datos"</string>
+    <string name="show_system_apps">"Mostrar aplicacións do sistema"</string>
+    <string name="spoofing_reset_defaults_confirm">"Restablecer"</string>
+    <string name="ts_mode_auto">"Automático"</string>
+    <string name="ts_untrusted_root_keep">"Manter"</string>
+    <string name="ts_untrusted_root_replace">"Substituír"</string>
+    <string name="ts_verification_mode_auto">"Automático"</string>
+</resources>

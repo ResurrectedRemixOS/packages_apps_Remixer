@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">سڕینەوە</string>
+    <string name="action_reset">ڕێکخستنەوە</string>
+    <string name="action_search_apps">گەڕان لە بەرنامەکان</string>
+    <string name="action_select_all">دیاریکردنی هەموو</string>
+    <string name="app_spoofing_clear_all">سڕینەوەی هەمووی</string>
+    <string name="app_spoofing_disabled">ناچالاکە</string>
+    <string name="common_clear_search">پاککردنەوەی گەڕان</string>
+    <string name="custom_spoof_profile_device">ئامێر</string>
+    <string name="custom_spoof_profile_model">مۆدێل</string>
+    <string name="hide_system_apps">شاردنەوەی ئەپەکانی سیستم</string>
+    <string name="pif_status">دۆخ</string>
+    <string name="pif_wipe_confirm">سڕینەوەی داتا</string>
+    <string name="show_system_apps">پیشاندانی ئەپەکانی سیستم</string>
+    <string name="spoofing_reset_defaults_confirm">ڕێکخستنەوە</string>
+    <string name="ts_mode_auto">خۆکار</string>
+    <string name="ts_untrusted_root_keep">هێشتنەوە</string>
+    <string name="ts_untrusted_root_replace">گۆڕین</string>
+    <string name="ts_verification_mode_auto">خۆکار</string>
+</resources>

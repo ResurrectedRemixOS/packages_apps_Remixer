@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Hovory"</string>
+    <string name="now_bar_live_apps_all">"Všetky aplikácie"</string>
+    <string name="now_bar_charging">"Nabíja sa"</string>
+    <string name="now_bar_flashlight">Baterka</string>
+    <string name="now_bar_style">"Štýl"</string>
+    <string name="now_bar_color">"Farba"</string>
+    <string name="now_bar_outline">"Obrys"</string>
+    <string name="now_bar_width">"Šírka"</string>
+    <string name="now_bar_music_category">"Hudba"</string>
+    <string name="now_bar_buttons">Tlačidlá</string>
+    <string name="now_bar_text_size">"Veľkosť textu"</string>
+</resources>

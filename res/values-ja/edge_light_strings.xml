@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"色"</string>
+    <string name="edge_light_color_accent">アクセントカラー</string>
+    <string name="edge_light_color_notification">通知の色</string>
+    <string name="edge_light_color_wallpaper">"壁紙の色"</string>
+    <string name="edge_light_custom_color_title">"カスタム色"</string>
+    <string name="edge_light_style_title">"スタイル"</string>
+    <string name="edge_light_animation_effect_title">アニメーション</string>
+    <string name="edge_light_animation_effect_chase">チェイス</string>
+    <string name="edge_light_animation_effect_comet">コメット</string>
+    <string name="edge_light_spread_title">グロースプレッド</string>
+    <string name="edge_light_intensity_title">グローの強度</string>
+    <string name="edge_light_moment_notifications">"通知"</string>
+    <string name="edge_light_moment_calls">"着信"</string>
+    <string name="edge_light_moment_battery_low">残量低下</string>
+    <string name="edge_light_moment_unlock">"ロック解除済み"</string>
+    <string name="remixer_color_default">"デフォルト"</string>
+</resources>

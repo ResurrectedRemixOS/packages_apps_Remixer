@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">Mutidas</string>
+    <string name="now_bar_live_apps_all">Totu is aplicatziones</string>
+    <string name="now_bar_charging">Carrighende</string>
+    <string name="now_bar_flashlight">Tortza</string>
+    <string name="now_bar_style">Istile</string>
+    <string name="now_bar_color">Colore</string>
+    <string name="now_bar_width">Larghesa</string>
+    <string name="now_bar_music_category">Mùsica</string>
+    <string name="now_bar_buttons">Butones</string>
+    <string name="now_bar_text">Testu</string>
+</resources>

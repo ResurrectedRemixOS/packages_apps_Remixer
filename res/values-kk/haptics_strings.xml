@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"Сақтау"</string>
+    <string name="haptic_remix_delete_button">"Жою"</string>
+    <string name="haptic_remix_default">"Әдепкі"</string>
+    <string name="haptic_remix_calls">"Қоңыраулар"</string>
+    <string name="haptic_remix_color_violet">"Күлгін"</string>
+    <string name="haptic_remix_color_blue">"Көк"</string>
+    <string name="haptic_remix_color_green">"Жасыл"</string>
+    <string name="haptic_remix_color_white">"Ақ"</string>
+</resources>

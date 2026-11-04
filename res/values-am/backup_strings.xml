@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"ምትኬ &amp; እነበረበት መልስ"</string>
+    <string name="backup_restore">"ወደነበረበት መልስ"</string>
+    <string name="backup_auto">"ራስ-ሰር"</string>
+    <string name="backup_group_status_bar">"የሁኔታ አሞሌ"</string>
+    <string name="backup_group_lock_screen">"ማያ ገጽ ቁልፍ"</string>
+    <string name="backup_group_theme">"ገፅታ"</string>
+    <string name="backup_group_qs">"ፈጣን ቅንብሮች"</string>
+    <string name="backup_group_notifications">"ማሳወቂያዎች"</string>
+    <string name="backup_group_gestures">"የእጅ ምልክቶች"</string>
+    <string name="backup_group_other">"ሌላ"</string>
+    <string name="backup_done">"ተከናውኗል"</string>
+</resources>

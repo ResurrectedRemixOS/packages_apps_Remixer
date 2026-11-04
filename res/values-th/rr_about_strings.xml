@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"หน่วยความจำ"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"พื้นที่เก็บข้อมูล"</string>
+    <string name="rr_about_battery">"แบตเตอรี่"</string>
+    <string name="rr_about_kernel">"เคอร์เนล"</string>
+    <string name="rr_about_software">"ซอฟต์แวร์"</string>
+    <string name="rr_about_updates">"การอัปเดต"</string>
+    <string name="rr_about_build_date">วันที่สร้าง</string>
+    <string name="rr_about_this_phone">"โทรศัพท์เครื่องนี้"</string>
+    <string name="rr_about_network">"เครือข่าย"</string>
+    <string name="rr_about_hidden">ซ่อน</string>
+</resources>

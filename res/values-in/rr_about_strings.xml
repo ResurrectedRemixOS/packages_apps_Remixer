@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_unofficial">Tidak resmi</string>
+    <string name="rr_about_memory">"Memori"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"Penyimpanan"</string>
+    <string name="rr_about_battery">"Baterai"</string>
+    <string name="rr_about_kernel">"Kernel"</string>
+    <string name="rr_about_software">"Software"</string>
+    <string name="rr_about_updates">"Update"</string>
+    <string name="rr_about_build_date">Tanggal pembuatan</string>
+    <string name="rr_about_this_phone">"Ponsel ini"</string>
+    <string name="rr_about_network">"Jaringan"</string>
+    <string name="rr_about_hidden">Tersembunyi</string>
+</resources>

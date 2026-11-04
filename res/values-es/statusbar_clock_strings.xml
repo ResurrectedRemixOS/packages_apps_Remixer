@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sb_clock_bold_title">Reloj en negrita</string>
+    <string name="sb_clock_period_separator_title">Separador de punto</string>
+    <string name="sb_clock_date_title">"Fecha"</string>
+    <string name="sb_clock_date_position_title">Posición de la fecha</string>
+    <string name="sb_clock_date_format_title">Formato de fecha</string>
+    <string name="sb_clock_chip_angle_title">Ángulo del degradado</string>
+    <string name="sb_weather_category">"Tiempo"</string>
+    <string name="sb_weather_position_title">Posición</string>
+</resources>

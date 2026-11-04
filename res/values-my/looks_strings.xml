@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"သိမ်းရန်"</string>
+    <string name="looks_import">"ထည့်သွင်းရန်"</string>
+    <string name="looks_name">"အမည်"</string>
+    <string name="looks_apply">"အသုံးပြုရန်"</string>
+    <string name="looks_share">"မျှဝေရန်"</string>
+    <string name="looks_delete">"ဖျက်ရန်"</string>
+    <string name="looks_part_font">"ဖောင့်"</string>
+    <string name="looks_part_wallpaper">"နောက်ခံ"</string>
+    <string name="looks_color_default">"မူရင်း"</string>
+    <string name="looks_create">"ပြုလုပ်ရန်"</string>
+    <string name="looks_edit">"တည်းဖြတ်ရန်"</string>
+    <string name="looks_customize">"စိတ်ကြိုက်လုပ်ရန်"</string>
+    <string name="looks_save_look">"သိမ်းရန်"</string>
+    <string name="looks_custom_color">"စိတ်ကြိုက်အရောင်"</string>
+    <string name="looks_part_clock_color">"နာရီအရောင်"</string>
+</resources>

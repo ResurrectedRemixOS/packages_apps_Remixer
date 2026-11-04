@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"Санах ой"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"Хадгалах сан"</string>
+    <string name="rr_about_battery">"Батарей"</string>
+    <string name="rr_about_kernel">"Kernel"</string>
+    <string name="rr_about_software">"Программ хангамж"</string>
+    <string name="rr_about_updates">"Шинэчлэлтүүд"</string>
+    <string name="rr_about_this_phone">"Энэ утас"</string>
+    <string name="rr_about_network">"Сүлжээ"</string>
+    <string name="rr_about_hidden">"Нуусан"</string>
+</resources>

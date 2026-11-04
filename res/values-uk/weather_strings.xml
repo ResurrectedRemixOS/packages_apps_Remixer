@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lockscreen_weather_details_category">"Деталі"</string>
+    <string name="lockscreen_weather_location_title">"Місцезнаходження"</string>
+    <string name="lockscreen_weather_wind_title">Вітряно</string>
+    <string name="lockscreen_weather_humidity_title">Вологість</string>
+</resources>

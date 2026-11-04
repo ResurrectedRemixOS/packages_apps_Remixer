@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="clock_faces_apply">"適用"</string>
+    <string name="clock_faces_color">"色"</string>
+    <string name="clock_faces_color_default">"デフォルト"</string>
+    <string name="clock_faces_color_album">アルバムアート</string>
+    <string name="clock_faces_size_position">サイズと位置</string>
+    <string name="clock_faces_size">"サイズ"</string>
+    <string name="clock_faces_restart">"再起動"</string>
+</resources>

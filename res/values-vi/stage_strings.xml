@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lock_stage_reset">"Đặt lại"</string>
+    <string name="lock_stage_save">"Lưu"</string>
+    <string name="stage_tile_clock">"Đồng hồ"</string>
+    <string name="stage_tile_weather">"Thời tiết"</string>
+    <string name="stage_tile_shortcuts">"Lối tắt"</string>
+    <string name="stage_tile_battery">Vòng pin</string>
+</resources>

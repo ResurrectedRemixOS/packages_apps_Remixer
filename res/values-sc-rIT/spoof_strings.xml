@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">Cantzella</string>
+    <string name="action_reset">Torra a impostare</string>
+    <string name="action_search_apps">Chirca aplicatziones</string>
+    <string name="action_select_all">Seletziona totu</string>
+    <string name="app_spoofing_clear_all">Cantzella·nche totu</string>
+    <string name="app_spoofing_disabled">Disativadu</string>
+    <string name="common_clear_search">Cantzella sa chirca</string>
+    <string name="custom_spoof_profile_device">Dispositivu</string>
+    <string name="custom_spoof_profile_model">Modellu</string>
+    <string name="pif_status">Istadu</string>
+    <string name="spoofing_reset_defaults_confirm">Torra a impostare</string>
+    <string name="ts_mode_auto">Automàticu</string>
+    <string name="ts_untrusted_root_replace">Sostitui</string>
+    <string name="ts_verification_mode_auto">Automàticu</string>
+</resources>

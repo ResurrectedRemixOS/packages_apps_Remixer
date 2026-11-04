@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Боја"</string>
+    <string name="edge_light_color_wallpaper">"Боја позадине"</string>
+    <string name="edge_light_custom_color_title">"Прилагођена боја"</string>
+    <string name="edge_light_style_title">"Стил"</string>
+    <string name="edge_light_moment_notifications">"Обавештења"</string>
+    <string name="edge_light_moment_calls">"Долазни позиви"</string>
+    <string name="edge_light_moment_battery_low">Батерија на измаку</string>
+    <string name="edge_light_moment_unlock">"Откључано"</string>
+    <string name="remixer_color_default">"Подразумевано"</string>
+</resources>

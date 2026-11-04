@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pie_edges">"എഡ്‌ജുകൾ"</string>
+    <string name="pie_style">"സ്റ്റൈൽ"</string>
+    <string name="pie_size">"വലുപ്പം"</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>"ചെറുത്"</item>
+        <item>"ഇടത്തരം"</item>
+        <item>"വലുത്"</item>
+    </string-array>
+</resources>

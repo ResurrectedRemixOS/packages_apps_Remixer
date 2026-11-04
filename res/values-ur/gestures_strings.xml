@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pie_edges">"کنارے"</string>
+    <string name="pie_style">"طرز"</string>
+    <string name="pie_size">"سائز"</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>"چھوٹا"</item>
+        <item>"متوسط"</item>
+        <item>"بڑا"</item>
+    </string-array>
+</resources>

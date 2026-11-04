@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"Enregistrer"</string>
+    <string name="haptic_remix_delete_button">"Supprimer"</string>
+    <string name="haptic_remix_default">"Par défaut"</string>
+    <string name="haptic_remix_calls">"Appels"</string>
+    <string name="haptic_remix_color_blue">"Bleu"</string>
+    <string name="haptic_remix_color_green">"Vert"</string>
+    <string name="haptic_remix_color_white">"Blanc"</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lockscreen_weather_details_category">"Pojedinosti"</string>
+    <string name="lockscreen_weather_location_title">"Lokacija"</string>
+    <string name="lockscreen_weather_wind_title">Vjetar</string>
+</resources>

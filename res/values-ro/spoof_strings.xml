@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Șterge"</string>
+    <string name="action_reset">"Resetează"</string>
+    <string name="action_search_apps">"Caută aplicații"</string>
+    <string name="action_select_all">"Selectează-le pe toate"</string>
+    <string name="app_spoofing_clear_all">"Șterge tot"</string>
+    <string name="app_spoofing_disabled">Dezactivat</string>
+    <string name="common_clear_search">"Ștergeți căutarea"</string>
+    <string name="custom_spoof_profile_brand">"Marcă"</string>
+    <string name="custom_spoof_profile_device">"Dispozitiv"</string>
+    <string name="custom_spoof_profile_manufacturer">"Producător"</string>
+    <string name="hide_system_apps">"Ascunde aplicațiile de sistem"</string>
+    <string name="pif_recommended_suffix">"Recomandată"</string>
+    <string name="pif_status">"Stare"</string>
+    <string name="pif_wipe_confirm">"Șterge datele"</string>
+    <string name="show_system_apps">"Afișează aplicațiile de sistem"</string>
+    <string name="spoofing_reset_defaults_confirm">"Resetează"</string>
+    <string name="spoofing_reset_defaults_title">Resetare la valorile implicite</string>
+    <string name="ts_mode_auto">"Automat"</string>
+    <string name="ts_untrusted_root_keep">"Păstrează"</string>
+    <string name="ts_untrusted_root_replace">"Înlocuiește"</string>
+    <string name="ts_verification_mode_auto">"Automat"</string>
+</resources>

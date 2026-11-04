@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Salvar"</string>
+    <string name="looks_import">"Importar"</string>
+    <string name="looks_name">"Nome"</string>
+    <string name="looks_apply">"Aplicar"</string>
+    <string name="looks_share">"Compartilhar"</string>
+    <string name="looks_delete">"Excluir"</string>
+    <string name="looks_part_accent">Cor de destaque</string>
+    <string name="looks_part_font">"Fonte"</string>
+    <string name="looks_part_wallpaper">"Plano de fundo"</string>
+    <string name="looks_part_boot">Animação de inicialização</string>
+    <string name="looks_color_default">"Padrão"</string>
+    <string name="looks_create">"Criar"</string>
+    <string name="looks_edit">"Editar"</string>
+    <string name="looks_customize">"Personalizar"</string>
+    <string name="looks_save_look">"Salvar"</string>
+    <string name="looks_custom_color">Cor personalizada</string>
+    <string name="looks_part_clock_color">"Cor do relógio"</string>
+</resources>

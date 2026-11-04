@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Oproepe"</string>
+    <string name="now_bar_live_apps_all">"Alle apps"</string>
+    <string name="now_bar_charging">"Laai tans"</string>
+    <string name="now_bar_flashlight">"Flitslig"</string>
+    <string name="now_bar_style">"Styl"</string>
+    <string name="now_bar_color">"Kleur"</string>
+    <string name="now_bar_outline">"Raamwerk"</string>
+    <string name="now_bar_width">"Wydte"</string>
+    <string name="now_bar_music_category">"Musiek"</string>
+    <string name="now_bar_buttons">"Knoppies"</string>
+    <string name="now_bar_text">"Teks"</string>
+    <string name="now_bar_text_size">"Teksgrootte"</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="clock_faces_apply">"ಅನ್ವಯಿಸಿ"</string>
+    <string name="clock_faces_color">"ಬಣ್ಣ"</string>
+    <string name="clock_faces_color_default">"ಡೀಫಾಲ್ಟ್"</string>
+    <string name="clock_faces_size">"ಗಾತ್ರ"</string>
+    <string name="clock_faces_restart">"ಮರುಪ್ರಾರಂಭಿಸಿ"</string>
+</resources>

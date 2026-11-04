@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Сохранить"</string>
+    <string name="looks_import">"Импортировать"</string>
+    <string name="looks_name">"Название"</string>
+    <string name="looks_apply">"Применить"</string>
+    <string name="looks_share">"Поделиться"</string>
+    <string name="looks_delete">"Удалить"</string>
+    <string name="looks_part_accent">Цветовой акцент</string>
+    <string name="looks_part_font">"Шрифт"</string>
+    <string name="looks_part_wallpaper">"Обои"</string>
+    <string name="looks_part_boot">Анимация загрузки</string>
+    <string name="looks_color_default">"По умолчанию"</string>
+    <string name="looks_create">"Создать"</string>
+    <string name="looks_edit">"Изменить"</string>
+    <string name="looks_customize">"Настроить"</string>
+    <string name="looks_save_look">"Сохранить"</string>
+    <string name="looks_custom_color">"Пользовательский цвет"</string>
+    <string name="looks_part_clock_color">"Цвет часов"</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pie_edges">Ymylon</string>
+    <string name="pie_style">Arddull</string>
+    <string name="pie_size">Maint</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>Bach</item>
+        <item>Canolig</item>
+        <item>Mawr</item>
+    </string-array>
+</resources>

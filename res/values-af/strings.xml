@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"Rekening"</string>
+    <string name="rr_homepage_storage">"Berging"</string>
+    <string name="rr_homepage_connections">"Verbindings"</string>
+    <string name="rr_homepage_device">"Toestel"</string>
+    <string name="rr_homepage_privacy">Privaatheid &amp; sekuriteit</string>
+    <string name="rr_homepage_help">"Hulp"</string>
+    <string name="rr_live_wifi">"Wi-fi"</string>
+    <string name="rr_live_mobile">"Mobiel"</string>
+    <string name="rr_live_offline">"Vanlyn"</string>
+    <string name="rr_live_on">"Aan"</string>
+    <string name="rr_live_off">"Af"</string>
+    <string name="rr_homepage_charging">"Laai tans"</string>
+    <string name="rr_homepage_internet">"Internet"</string>
+    <string name="rr_homepage_mobile_data">"Mobiele data"</string>
+    <string name="rr_homepage_not_connected">"Nie gekoppel nie"</string>
+    <string name="rr_homepage_dark_theme">"Donkertema"</string>
+    <string name="rr_homepage_on">"Aan"</string>
+    <string name="rr_homepage_off">"Af"</string>
+    <string name="rr_homepage_signed_in">"Aangemeld"</string>
+    <string name="rr_homepage_device_word">"INSTELLINGS"</string>
+    <string name="rr_group_apps">"Programme en kennisgewings"</string>
+    <string name="rr_group_security">"Sekuriteit en privaatheid"</string>
+    <string name="rr_group_accounts_plain">"Rekeninge"</string>
+    <string name="rr_group_accessibility_summary">"Skerm, interaksie, oudio"</string>
+    <string name="remixer_statusbar">"Statusbalk"</string>
+    <string name="remixer_qs">"Kitsinstellings"</string>
+    <string name="remixer_notifications">"Kennisgewings"</string>
+    <string name="remixer_theme">"Tema"</string>
+    <string name="remixer_lockscreen">"Sluitskerm"</string>
+    <string name="remixer_misc">"Diverse"</string>
+    <string name="misc_category_backup">"Rugsteun"</string>
+    <string name="misc_category_scrolling">"Rollees"</string>
+    <string name="remixer_fonts">"Lettertipes"</string>
+    <string name="remixer_wallpapers">"Muurpapiere"</string>
+    <string name="pulse_preview_title">"Speel tans"</string>
+    <string name="pulse_style">"Styl"</string>
+    <string name="pulse_color">"Kleur"</string>
+    <string name="pulse_color_accent">"Muurpapier"</string>
+    <string name="pulse_look">"Voorkoms"</string>
+    <string name="pulse_lockscreen">"Wys op sluitskerm"</string>
+    <string name="accent_preview_button">"Knoppie"</string>
+    <string name="accent_custom_title">"Gepasmaakte kleur"</string>
+    <string name="accent_custom_hue">"Kleur"</string>
+    <string name="accent_custom_recent">"Onlangs"</string>
+    <string name="accent_custom_apply">"Pas toe"</string>
+    <string name="accent_shade_default">"Verstek"</string>
+    <string name="accent_saturation">"Kleurdiepte"</string>
+    <string name="remixer_qs_customize">"Pasmaak"</string>
+    <string name="remixer_qs_style_section">"Styl"</string>
+    <string name="remixer_lock_media_off">"Af"</string>
+    <string name="remixer_lock_preview_device">"Hierdie foon"</string>
+    <string name="remixer_qs_preview_on">"Aan"</string>
+    <string name="remixer_qs_preview_off">"Af"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"Internet"</item>
+        <item>Bluetooth</item>
+        <item>"Flitslig"</item>
+        <item>"Moenie Steur Nie"</item>
+        <item>"Outodraai"</item>
+        <item>"Donkertema"</item>
+        <item>"Warmkol"</item>
+        <item>"Vliegtuigmodus"</item>
+        <item>"Databespaarder"</item>
+        <item>NFC</item>
+        <item>"Sinkroniseer"</item>
+        <item>"Skandeer QR-kode"</item>
+    </string-array>
+    <string name="header_preview_none">"Geen prent is gekies nie"</string>
+    <string name="header_source_image">"Prent"</string>
+    <string name="header_source_photo">"Foto"</string>
+    <string name="header_collections">"Versamelings"</string>
+    <string name="header_images">"Prente"</string>
+    <string name="header_photo_choose">"Kies \'n foto"</string>
+    <string name="header_look">"Voorkoms"</string>
+    <string name="remixer_weather">"Weer"</string>
+    <string name="font_default">"Verstek"</string>
+    <string name="font_apply">"Pas toe"</string>
+    <string name="font_filter_all">"Alles"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"Stel muurpapier"</string>
+    <string name="wallpaper_apply_home">"Tuisskerm"</string>
+    <string name="wallpaper_apply_lock">"Sluitskerm"</string>
+    <string name="remixer_settings_style_original">"Oorspronklike"</string>
+    <string name="remixer_navbar_category">"Navigasiebalk"</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"ማህደረ ትውስታ"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"ማከማቻ"</string>
+    <string name="rr_about_battery">"ባትሪ"</string>
+    <string name="rr_about_kernel">"አውራ ከዋኝ"</string>
+    <string name="rr_about_software">"ሶፍትዌር"</string>
+    <string name="rr_about_updates">"ዝማኔዎች"</string>
+    <string name="rr_about_this_phone">"ይህ ስልክ"</string>
+    <string name="rr_about_network">"አውታረ መረብ"</string>
+    <string name="rr_about_hidden">"ተደብቋል"</string>
+</resources>

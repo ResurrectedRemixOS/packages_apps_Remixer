@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Повици"</string>
+    <string name="now_bar_live_apps_all">"Сите апликации"</string>
+    <string name="now_bar_charging">"Се полни"</string>
+    <string name="now_bar_flashlight">"Светилка"</string>
+    <string name="now_bar_style">"Стил"</string>
+    <string name="now_bar_color">"Боја"</string>
+    <string name="now_bar_outline">"Со контури"</string>
+    <string name="now_bar_width">"Ширина"</string>
+    <string name="now_bar_music_category">"Музика"</string>
+    <string name="now_bar_buttons">"Копчиња"</string>
+    <string name="now_bar_text">"Испратете SMS"</string>
+    <string name="now_bar_text_size">"Големина на текстот"</string>
+</resources>

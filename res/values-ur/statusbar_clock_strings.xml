@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sb_clock_category">گھڑی &amp; تاریخ</string>
+    <string name="sb_clock_date_title">"تاریخ"</string>
+    <string name="sb_clock_date_position_title">تاریخ کی جگہ</string>
+    <string name="sb_clock_date_format_title">تاریخ وضع کریں</string>
+    <string name="sb_weather_category">"موسم"</string>
+    <string name="sb_weather_position_title">مقام</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"Сохранить"</string>
+    <string name="haptic_remix_delete_button">"Удалить"</string>
+    <string name="haptic_remix_default">"По умолчанию"</string>
+    <string name="haptic_remix_calls">"Звонки"</string>
+    <string name="haptic_remix_color_violet">"Фиолетовый"</string>
+    <string name="haptic_remix_color_blue">"Синий"</string>
+    <string name="haptic_remix_color_green">"Зеленый"</string>
+    <string name="haptic_remix_color_white">"Белый"</string>
+</resources>

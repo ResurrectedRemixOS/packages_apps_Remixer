@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"I-Akhawunti"</string>
+    <string name="rr_homepage_storage">"Isitoreji"</string>
+    <string name="rr_homepage_battery">"Ibhethri"</string>
+    <string name="rr_homepage_connections">"Oxhumana nabo"</string>
+    <string name="rr_homepage_device">"Idivayisi"</string>
+    <string name="rr_homepage_help">"Usizo"</string>
+    <string name="rr_live_wifi">"I-Wi-Fi"</string>
+    <string name="rr_live_mobile">"Iselula"</string>
+    <string name="rr_live_offline">"Okungaxhunyiwe kwi-inthanethi"</string>
+    <string name="rr_live_on">"Vuliwe"</string>
+    <string name="rr_live_off">"Valiwe"</string>
+    <string name="rr_homepage_charging">"Iyashaja"</string>
+    <string name="rr_homepage_internet">"I-inthanethi"</string>
+    <string name="rr_homepage_mobile_data">"Idatha yeselula"</string>
+    <string name="rr_homepage_not_connected">"Akuxhunyiwe"</string>
+    <string name="rr_homepage_dark_theme">"Itimu emnyama"</string>
+    <string name="rr_homepage_on">"Vuliwe"</string>
+    <string name="rr_homepage_off">"Valiwe"</string>
+    <string name="rr_homepage_signed_in">"Ungene ngemvume"</string>
+    <string name="rr_homepage_device_word">"IZILUNGISELELO"</string>
+    <string name="rr_group_apps">"Izinhlelo zokusebenza nezaziso"</string>
+    <string name="rr_group_security">"Ukuvikeleka nobumfihlo"</string>
+    <string name="rr_group_accounts_plain">"Ama-akhawunti"</string>
+    <string name="rr_group_accessibility_summary">"Bonisa, ukusebenzisana, umsindo"</string>
+    <string name="remixer_statusbar">"Ibha yesimo"</string>
+    <string name="remixer_qs">"Amasethingi asheshayo"</string>
+    <string name="remixer_notifications">"Izaziso"</string>
+    <string name="remixer_theme">"Itimu"</string>
+    <string name="remixer_lockscreen">"Khiya isikrini"</string>
+    <string name="remixer_misc">"I-Miscellaneous"</string>
+    <string name="misc_category_volume">"Ivolumu"</string>
+    <string name="misc_category_backup">"Yenza isipele"</string>
+    <string name="misc_category_scrolling">"Iyapheqa"</string>
+    <string name="remixer_fonts">"Amafonti"</string>
+    <string name="remixer_wallpapers">"Izithombe zangemuva"</string>
+    <string name="pulse_preview_title">"Okudlalwa manje"</string>
+    <string name="pulse_style">"Isitayela"</string>
+    <string name="pulse_color">"Umbala"</string>
+    <string name="pulse_color_accent">"Isithombe sangemuva"</string>
+    <string name="pulse_look">"Ukubukeka"</string>
+    <string name="pulse_lockscreen">"Bonisa kusikrini esikhiyiwe"</string>
+    <string name="accent_preview_button">"Inkinobho"</string>
+    <string name="accent_custom_title">"Umbala ongokwezifiso"</string>
+    <string name="accent_custom_hue">"I-Hue"</string>
+    <string name="accent_custom_recent">"Okwakamuva"</string>
+    <string name="accent_custom_apply">"Faka"</string>
+    <string name="accent_shade_default">"Okuzenzakalelayo"</string>
+    <string name="accent_saturation">"Gcwalisa isikhala"</string>
+    <string name="remixer_qs_customize">"Enza ngendlela oyifisayo"</string>
+    <string name="remixer_qs_style_section">"Isitayela"</string>
+    <string name="remixer_lock_media_off">"Valiwe"</string>
+    <string name="remixer_lock_preview_device">"Le foni"</string>
+    <string name="remixer_qs_preview_on">"Vuliwe"</string>
+    <string name="remixer_qs_preview_off">"Valiwe"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"I-inthanethi"</item>
+        <item>Bluetooth</item>
+        <item>"I-Flashlight"</item>
+        <item>"Ungaphazamisi"</item>
+        <item>"Ukuphenduka okuzenzakalelayo"</item>
+        <item>"Itimu emnyama"</item>
+        <item>"I-Hotspot"</item>
+        <item>"Imodi yendiza"</item>
+        <item>"Iseva yedatha"</item>
+        <item>NFC</item>
+        <item>"Vumelanisa"</item>
+        <item>"Skena ikhodi ye-QR"</item>
+    </string-array>
+    <string name="header_preview_none">"Asikho isithombe esikhethiwe"</string>
+    <string name="header_source_image">"Isithombe"</string>
+    <string name="header_source_photo">"Isithombe"</string>
+    <string name="header_collections">"Amaqoqo"</string>
+    <string name="header_images">"Izithombe"</string>
+    <string name="header_photo_choose">"Khetha isithombe"</string>
+    <string name="header_look">"Ukubukeka"</string>
+    <string name="remixer_weather">"Isimo sezulu"</string>
+    <string name="font_default">"Okuzenzakalelayo"</string>
+    <string name="font_apply">"Faka"</string>
+    <string name="font_filter_all">"Konke"</string>
+    <string name="font_filter_serif">"I-Serif"</string>
+    <string name="wallpaper_apply_title">"Setha isithombe sangemuva"</string>
+    <string name="wallpaper_apply_home">"Isikrini sasekhaya"</string>
+    <string name="wallpaper_apply_lock">"Khiya isikrini"</string>
+    <string name="remixer_settings_style_original">"Okwangempela"</string>
+    <string name="remixer_navbar_category">"Ibha yokuzula"</string>
+</resources>

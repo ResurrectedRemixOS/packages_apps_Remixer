@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">Späicheren</string>
+    <string name="looks_import">Importéieren</string>
+    <string name="looks_name">Numm</string>
+    <string name="looks_apply">Applizéieren</string>
+    <string name="looks_share">Deelen</string>
+    <string name="looks_delete">Läschen</string>
+    <string name="looks_part_wallpaper">Hannergrondbild</string>
+    <string name="looks_color_default">Standard</string>
+    <string name="looks_create">Erstellen</string>
+    <string name="looks_edit">Änneren</string>
+    <string name="looks_save_look">Späicheren</string>
+</resources>

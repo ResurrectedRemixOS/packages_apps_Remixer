@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"Apeluri"</string>
+    <string name="now_bar_live_apps_all">"Toate aplicațiile"</string>
+    <string name="now_bar_charging">"Încărcare"</string>
+    <string name="now_bar_flashlight">Lanternă</string>
+    <string name="now_bar_style">"Stil"</string>
+    <string name="now_bar_color">"Culoare"</string>
+    <string name="now_bar_outline">"Contur"</string>
+    <string name="now_bar_width">"Lăţime"</string>
+    <string name="now_bar_music_category">"Muzică"</string>
+    <string name="now_bar_buttons">Butoane</string>
+    <string name="now_bar_text_size">"Dimensiunea textului"</string>
+</resources>

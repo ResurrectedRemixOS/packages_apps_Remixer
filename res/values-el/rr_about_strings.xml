@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_memory">"Μνήμη"</string>
+    <string name="rr_about_ram">"RAM"</string>
+    <string name="rr_about_storage">"Αποθηκευτικός χώρος"</string>
+    <string name="rr_about_battery">"Μπαταρία"</string>
+    <string name="rr_about_kernel">"Πυρήνας"</string>
+    <string name="rr_about_software">"Λογισμικό"</string>
+    <string name="rr_about_updates">"Ενημερώσεις"</string>
+    <string name="rr_about_security_patch">Ενημέρωση ασφάλειας</string>
+    <string name="rr_about_build_date">Ημερομηνία έκδοσης</string>
+    <string name="rr_about_this_phone">"Αυτό το τηλέφωνο"</string>
+    <string name="rr_about_network">"Δίκτυο"</string>
+    <string name="rr_about_hidden">Κρυφό</string>
+</resources>

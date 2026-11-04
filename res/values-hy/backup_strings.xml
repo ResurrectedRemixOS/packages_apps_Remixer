@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"Պահուստավորել և վերականգնել"</string>
+    <string name="backup_restore">"Վերականգնել"</string>
+    <string name="backup_auto">"Ավտոմատ"</string>
+    <string name="backup_group_status_bar">"Կարգավիճակի գոտի"</string>
+    <string name="backup_group_lock_screen">"Կողպէկրան"</string>
+    <string name="backup_group_theme">"Թեմա"</string>
+    <string name="backup_group_qs">"Արագ կարգավորումներ"</string>
+    <string name="backup_group_notifications">"Ծանուցումներ"</string>
+    <string name="backup_group_gestures">"Ժեստեր"</string>
+    <string name="backup_group_other">"Այլ"</string>
+    <string name="backup_done">"Պատրաստ է"</string>
+</resources>

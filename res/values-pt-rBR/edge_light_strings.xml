@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Cor"</string>
+    <string name="edge_light_color_accent">Cor de destaque</string>
+    <string name="edge_light_color_notification">Cor da notificação</string>
+    <string name="edge_light_color_wallpaper">"Cor do plano de fundo"</string>
+    <string name="edge_light_custom_color_title">Cor personalizada</string>
+    <string name="edge_light_style_title">"Estilo"</string>
+    <string name="edge_light_animation_effect_title">Animação</string>
+    <string name="edge_light_animation_effect_chase">Perseguir</string>
+    <string name="edge_light_animation_effect_comet">Cometa</string>
+    <string name="edge_light_spread_title">Propagação de brilho</string>
+    <string name="edge_light_intensity_title">Intensidade de Brilho</string>
+    <string name="edge_light_moment_notifications">"Notificações"</string>
+    <string name="edge_light_moment_calls">Chamadas recebidas</string>
+    <string name="edge_light_moment_battery_low">Bateria fraca</string>
+    <string name="edge_light_moment_unlock">"Desbloqueado"</string>
+    <string name="remixer_color_default">"Padrão"</string>
+</resources>

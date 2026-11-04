@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"Išsaugoti"</string>
+    <string name="haptic_remix_delete_button">"Ištrinti"</string>
+    <string name="haptic_remix_default">"Numatytasis"</string>
+    <string name="haptic_remix_calls">"Skambučiai"</string>
+    <string name="haptic_remix_color_violet">"Violetinė"</string>
+    <string name="haptic_remix_color_blue">"Mėlyna"</string>
+    <string name="haptic_remix_color_green">"Žalia"</string>
+    <string name="haptic_remix_color_white">"Balta"</string>
+</resources>

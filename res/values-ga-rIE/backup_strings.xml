@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_restore">Athchóirigh</string>
+    <string name="backup_auto">Uathoibríoch</string>
+    <string name="backup_group_status_bar">Barra stádais</string>
+    <string name="backup_group_lock_screen">Scáileán glasála</string>
+    <string name="backup_group_theme">Téama</string>
+    <string name="backup_group_qs">Socruithe Tapa</string>
+    <string name="backup_group_notifications">Fógraí</string>
+    <string name="backup_group_gestures">Gothaí</string>
+    <string name="backup_group_other">Eile</string>
+    <string name="backup_done">Déanta</string>
+</resources>

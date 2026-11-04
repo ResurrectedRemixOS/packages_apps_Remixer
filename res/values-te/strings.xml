@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"ఖాతా"</string>
+    <string name="rr_homepage_storage">"స్టోరేజ్"</string>
+    <string name="rr_homepage_battery">"బ్యాటరీ"</string>
+    <string name="rr_homepage_connections">"కనెక్షన్‌లు"</string>
+    <string name="rr_homepage_device">"డివైజ్"</string>
+    <string name="rr_homepage_help">"సహాయం"</string>
+    <string name="rr_live_wifi">"Wi‑Fi"</string>
+    <string name="rr_live_mobile">"మొబైల్"</string>
+    <string name="rr_live_offline">"ఆఫ్‌లైన్"</string>
+    <string name="rr_live_on">"ఆన్‌లో ఉంది"</string>
+    <string name="rr_live_off">"ఆఫ్‌లో ఉంది"</string>
+    <string name="rr_homepage_charging">"ఛార్జ్ అవుతోంది"</string>
+    <string name="rr_homepage_internet">"ఇంటర్నెట్"</string>
+    <string name="rr_homepage_mobile_data">"మొబైల్ డేటా"</string>
+    <string name="rr_homepage_not_connected">"కనెక్ట్ కాలేదు"</string>
+    <string name="rr_homepage_dark_theme">"డార్క్ థీమ్‌"</string>
+    <string name="rr_homepage_on">"ఆన్‌లో ఉంది"</string>
+    <string name="rr_homepage_off">"ఆఫ్‌లో ఉంది"</string>
+    <string name="rr_homepage_signed_in">"సైన్ ఇన్ చేశారు"</string>
+    <string name="rr_homepage_device_word">"సెట్టింగ్‌లు"</string>
+    <string name="rr_group_apps">"యాప్‌లు &amp; నోటిఫికేషన్‌లు"</string>
+    <string name="rr_group_security">"సెక్యూరిటీ &amp; గోప్యత"</string>
+    <string name="rr_group_accounts_plain">"ఖాతాలు"</string>
+    <string name="rr_group_accessibility_summary">"డిస్‌ప్లే, ఇంటరాక్షన్, ఆడియో"</string>
+    <string name="remixer_statusbar">"స్టేటస్‌ బార్‌"</string>
+    <string name="remixer_qs">"క్విక్ సెట్టింగ్స్"</string>
+    <string name="remixer_notifications">"నోటిఫికేషన్‌లు"</string>
+    <string name="remixer_theme">"థీమ్"</string>
+    <string name="remixer_lockscreen">"లాక్ స్క్రీన్"</string>
+    <string name="remixer_misc">"ఇతరాలు"</string>
+    <string name="misc_category_volume">"వాల్యూమ్"</string>
+    <string name="misc_category_backup">"బ్యాకప్"</string>
+    <string name="misc_category_scrolling">"స్క్రోలింగ్"</string>
+    <string name="remixer_fonts">"ఫాంట్‌లు"</string>
+    <string name="remixer_wallpapers">"వాల్‌పేపర్‌లు"</string>
+    <string name="pulse_style">"శైలి"</string>
+    <string name="pulse_color">"రంగు"</string>
+    <string name="pulse_color_accent">"వాల్‌పేపర్"</string>
+    <string name="pulse_look">"కనిపించే తీరు"</string>
+    <string name="pulse_lockscreen">"లాక్ స్క్రీన్‌లో చూడండి"</string>
+    <string name="accent_preview_button">"బటన్"</string>
+    <string name="accent_custom_title">"అనుకూల రంగు"</string>
+    <string name="accent_custom_hue">"వర్ణ సంబంధం"</string>
+    <string name="accent_custom_recent">"ఇటీవలివి"</string>
+    <string name="accent_custom_apply">"వర్తింపజేయండి"</string>
+    <string name="accent_shade_default">"ఆటోమేటిక్"</string>
+    <string name="accent_saturation">"సంతృప్తీకరణ"</string>
+    <string name="remixer_qs_customize">"అనుకూలంగా మార్చండి"</string>
+    <string name="remixer_qs_style_section">"శైలి"</string>
+    <string name="remixer_lock_media_off">"ఆఫ్‌లో ఉంది"</string>
+    <string name="remixer_lock_preview_device">"ఈ ఫోన్"</string>
+    <string name="remixer_qs_preview_on">"ఆన్‌లో ఉంది"</string>
+    <string name="remixer_qs_preview_off">"ఆఫ్‌లో ఉంది"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"ఇంటర్నెట్"</item>
+        <item>Bluetooth</item>
+        <item>"ఫ్లాష్‌లైట్"</item>
+        <item>"డిస్టర్బ్ చేయవద్దు"</item>
+        <item>"ఆటో-రొటేట్‌"</item>
+        <item>"డార్క్ థీమ్‌"</item>
+        <item>"హాట్‌స్పాట్"</item>
+        <item>"విమానం మోడ్"</item>
+        <item>"డేటా సేవర్"</item>
+        <item>NFC</item>
+        <item>"సింక్‌"</item>
+        <item>"QR కోడ్‌ను స్కాన్ చేయండి"</item>
+    </string-array>
+    <string name="header_preview_none">"ఇమేజ్ ఏదీ ఎంచుకోలేదు"</string>
+    <string name="header_source_image">"చిత్రం"</string>
+    <string name="header_source_photo">"ఫోటో"</string>
+    <string name="header_collections">"కలెక్షన్‌లు"</string>
+    <string name="header_images">"ఇమేజ్‌లు"</string>
+    <string name="header_photo_choose">"ఫోటోను ఎంచుకోండి"</string>
+    <string name="header_look">"కనిపించే తీరు"</string>
+    <string name="remixer_weather">"వాతావరణం"</string>
+    <string name="font_default">"ఆటోమేటిక్"</string>
+    <string name="font_apply">"వర్తింపజేయండి"</string>
+    <string name="font_filter_all">"అన్నీ"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"వాల్‌పేపర్‌ను సెట్ చేయండి"</string>
+    <string name="wallpaper_apply_home">"మొదటి స్క్రీన్"</string>
+    <string name="wallpaper_apply_lock">"లాక్ స్క్రీన్"</string>
+    <string name="remixer_settings_style_original">"అసలైనది"</string>
+    <string name="remixer_navbar_category">"నావిగేషన్ బార్"</string>
+</resources>

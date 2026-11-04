@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="charge_report_keep_title">ساقلاپ قال</string>
+    <string name="charge_report_battery">توكدان</string>
+    <string name="charge_report_temp">تېمپېراتۇرا</string>
+    <string name="charge_report_time">ۋاقىت</string>
+</resources>

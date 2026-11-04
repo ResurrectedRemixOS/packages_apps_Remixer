@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"ზარები"</string>
+    <string name="now_bar_live_apps_all">"ყველა აპი"</string>
+    <string name="now_bar_charging">"იტენება"</string>
+    <string name="now_bar_flashlight">"ფანარი"</string>
+    <string name="now_bar_style">"სტილი"</string>
+    <string name="now_bar_color">"ფერი"</string>
+    <string name="now_bar_outline">"კონტური"</string>
+    <string name="now_bar_width">"სიგანე"</string>
+    <string name="now_bar_music_category">"მუსიკა"</string>
+    <string name="now_bar_buttons">"ღილაკები"</string>
+    <string name="now_bar_text">ტექსტი</string>
+    <string name="now_bar_text_size">"ტექსტის ზომა"</string>
+</resources>

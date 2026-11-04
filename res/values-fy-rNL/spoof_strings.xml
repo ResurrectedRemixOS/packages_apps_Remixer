@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">Fuortsmite</string>
+    <string name="action_reset">Opnij ynstelle</string>
+    <string name="app_spoofing_disabled">Utskeakele</string>
+    <string name="custom_spoof_profile_device">Apparaat</string>
+    <string name="pif_status">Steat</string>
+    <string name="spoofing_reset_defaults_confirm">Opnij ynstelle</string>
+    <string name="ts_untrusted_root_replace">Ferfange</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"Verwijderen"</string>
+    <string name="action_reset">"Resetten"</string>
+    <string name="action_search_apps">"Apps zoeken"</string>
+    <string name="action_select_all">"Alles selecteren"</string>
+    <string name="app_spoofing_clear_all">"Alles wissen"</string>
+    <string name="app_spoofing_disabled">"Uitgezet"</string>
+    <string name="common_clear_search">"Zoekopdracht wissen"</string>
+    <string name="custom_spoof_profile_brand">"Merk"</string>
+    <string name="custom_spoof_profile_device">"Apparaat"</string>
+    <string name="custom_spoof_profile_manufacturer">"Fabrikant"</string>
+    <string name="hide_system_apps">"Systeem-apps verbergen"</string>
+    <string name="pif_recommended_suffix">"Aanbevolen"</string>
+    <string name="pif_status">"Status"</string>
+    <string name="pif_wipe_confirm">"Gegevens wissen"</string>
+    <string name="show_system_apps">"Systeem-apps tonen"</string>
+    <string name="spoofing_reset_defaults_confirm">"Resetten"</string>
+    <string name="spoofing_reset_defaults_title">Standaardinstellingen herstellen</string>
+    <string name="ts_mode_auto">"Automatisch"</string>
+    <string name="ts_untrusted_root_keep">"Houden"</string>
+    <string name="ts_untrusted_root_replace">"Vervangen"</string>
+    <string name="ts_verification_mode_auto">"Automatisch"</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">"Hifadhi"</string>
+    <string name="haptic_remix_delete_button">"Futa"</string>
+    <string name="haptic_remix_default">"Chaguomsingi"</string>
+    <string name="haptic_remix_calls">"Simu"</string>
+    <string name="haptic_remix_color_violet">"Zambarau iliyokolea"</string>
+    <string name="haptic_remix_color_blue">"Samawati"</string>
+    <string name="haptic_remix_color_green">"Kijani"</string>
+    <string name="haptic_remix_color_white">"Nyeupe"</string>
+</resources>

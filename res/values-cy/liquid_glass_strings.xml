@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="liquid_glass_lockscreen_title">Sgrin glo</string>
+    <string name="liquid_glass_power_title">Dewislen pŵer</string>
+    <string name="liquid_glass_battery_title">Batri</string>
+    <string name="liquid_glass_preview_internet">Rhyngrwyd</string>
+</resources>

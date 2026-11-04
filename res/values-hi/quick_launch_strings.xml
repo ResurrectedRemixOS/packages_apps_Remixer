@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"शॉर्टकट"</string>
+    <string name="quick_launch_camera">"कैमरा"</string>
+    <string name="quick_launch_flashlight">"फ़्लैशलाइट"</string>
+    <string name="quick_launch_timer">टाइमर</string>
+    <string name="quick_launch_undo">"पहले जैसा करें"</string>
+    <string name="quick_launch_off">"बंद है"</string>
+</resources>

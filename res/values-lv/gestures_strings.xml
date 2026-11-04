@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pie_edges">"Malas"</string>
+    <string name="pie_style">"Stils"</string>
+    <string name="pie_size">"Lielums"</string>
+    <string-array name="sidebar_handle_size_entries">
+        <item>"Mazs"</item>
+        <item>"Vidējs"</item>
+        <item>"Liels"</item>
+    </string-array>
+</resources>

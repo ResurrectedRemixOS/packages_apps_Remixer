@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"Tallenna"</string>
+    <string name="looks_import">"Tuo"</string>
+    <string name="looks_name">"Nimi"</string>
+    <string name="looks_apply">"Käytä"</string>
+    <string name="looks_share">"Jaa"</string>
+    <string name="looks_delete">"Poista"</string>
+    <string name="looks_part_font">"Fontti"</string>
+    <string name="looks_part_wallpaper">"Taustakuva"</string>
+    <string name="looks_color_default">"Oletus"</string>
+    <string name="looks_create">"Luo"</string>
+    <string name="looks_edit">"Muokkaa"</string>
+    <string name="looks_customize">"Muokkaa"</string>
+    <string name="looks_save_look">"Tallenna"</string>
+    <string name="looks_custom_color">"Oma väri"</string>
+    <string name="looks_part_clock_color">"Kellon väri"</string>
+</resources>

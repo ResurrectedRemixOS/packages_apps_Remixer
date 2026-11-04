@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="now_bar_calls">"ጥሪዎች"</string>
+    <string name="now_bar_live_apps_all">"ሁሉም መተግበሪያዎች"</string>
+    <string name="now_bar_charging">"ኃይል በመሙላት ላይ"</string>
+    <string name="now_bar_flashlight">"የባትሪ ብርሃን"</string>
+    <string name="now_bar_style">"ቅጥ"</string>
+    <string name="now_bar_color">"ቀለም"</string>
+    <string name="now_bar_outline">"ቢጋር"</string>
+    <string name="now_bar_width">"ስፋት"</string>
+    <string name="now_bar_music_category">"ሙዚቃ"</string>
+    <string name="now_bar_buttons">"አዝራሮች"</string>
+    <string name="now_bar_text">"ጽሁፍ"</string>
+    <string name="now_bar_text_size">"የፅሁፍ መጠን"</string>
+</resources>

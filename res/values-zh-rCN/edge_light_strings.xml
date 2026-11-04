@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"颜色"</string>
+    <string name="edge_light_color_accent">强调色</string>
+    <string name="edge_light_color_notification">通知颜色</string>
+    <string name="edge_light_color_wallpaper">"壁纸颜色"</string>
+    <string name="edge_light_custom_color_title">自定义颜色</string>
+    <string name="edge_light_style_title">"样式"</string>
+    <string name="edge_light_animation_effect_title">动画</string>
+    <string name="edge_light_animation_effect_chase">跑马灯</string>
+    <string name="edge_light_animation_effect_comet">彗星</string>
+    <string name="edge_light_spread_title">辉光扩散</string>
+    <string name="edge_light_intensity_title">发光强度</string>
+    <string name="edge_light_moment_notifications">"通知"</string>
+    <string name="edge_light_moment_calls">"来电"</string>
+    <string name="edge_light_moment_battery_low">电量低</string>
+    <string name="edge_light_moment_unlock">"已解锁"</string>
+    <string name="remixer_color_default">"默认"</string>
+</resources>

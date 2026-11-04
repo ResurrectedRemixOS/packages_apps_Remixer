@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">"מחיקה"</string>
+    <string name="action_reset">"איפוס"</string>
+    <string name="action_search_apps">"חיפוש אפליקציות"</string>
+    <string name="action_select_all">"בחירת הכול"</string>
+    <string name="app_spoofing_clear_all">"ניקוי הכול"</string>
+    <string name="app_spoofing_disabled">"מושבת"</string>
+    <string name="common_clear_search">"נקה חיפוש"</string>
+    <string name="custom_spoof_profile_brand">"מותג"</string>
+    <string name="custom_spoof_profile_device">"מכשיר"</string>
+    <string name="custom_spoof_profile_manufacturer">"היצרן"</string>
+    <string name="custom_spoof_profile_model">"דגם"</string>
+    <string name="hide_system_apps">"הסתרת אפליקציות מערכת"</string>
+    <string name="pif_recommended_suffix">"מומלצת"</string>
+    <string name="pif_status">"סטטוס"</string>
+    <string name="pif_wipe_confirm">"ניקוי נתונים"</string>
+    <string name="show_system_apps">"הצגת אפליקציות מערכת"</string>
+    <string name="spoofing_reset_defaults_confirm">"איפוס"</string>
+    <string name="ts_mode_auto">"אוטומטי"</string>
+    <string name="ts_untrusted_root_keep">"שמירה"</string>
+    <string name="ts_untrusted_root_replace">"החלפה"</string>
+    <string name="ts_verification_mode_auto">"אוטומטי"</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"アカウント"</string>
+    <string name="rr_homepage_storage">"ストレージ"</string>
+    <string name="rr_homepage_battery">"バッテリー"</string>
+    <string name="rr_homepage_connections">"接続"</string>
+    <string name="rr_homepage_device">"デバイス"</string>
+    <string name="rr_homepage_privacy">プライバシーとセキュリティ</string>
+    <string name="rr_homepage_help">"ヘルプ"</string>
+    <string name="rr_live_wifi">"Wi-Fi"</string>
+    <string name="rr_live_mobile">"モバイル"</string>
+    <string name="rr_live_offline">"オフラインです"</string>
+    <string name="rr_live_on">"ON"</string>
+    <string name="rr_live_off">"OFF"</string>
+    <string name="rr_homepage_charging">"充電中"</string>
+    <string name="rr_homepage_internet">"インターネット"</string>
+    <string name="rr_homepage_mobile_data">"モバイルデータ"</string>
+    <string name="rr_homepage_not_connected">"未接続"</string>
+    <string name="rr_homepage_dark_theme">"ダークモード"</string>
+    <string name="rr_homepage_on">"ON"</string>
+    <string name="rr_homepage_off">"OFF"</string>
+    <string name="rr_homepage_signed_in">"ログイン中"</string>
+    <string name="rr_homepage_device_word">"設定"</string>
+    <string name="rr_group_apps">"アプリと通知"</string>
+    <string name="rr_group_security">"セキュリティとプライバシー"</string>
+    <string name="rr_group_accounts_plain">"アカウント"</string>
+    <string name="rr_group_accessibility_summary">"ディスプレイ、操作、音声"</string>
+    <string name="remixer_statusbar">"ステータスバー"</string>
+    <string name="remixer_qs">"クイック設定"</string>
+    <string name="remixer_notifications">"通知"</string>
+    <string name="remixer_theme">"テーマ"</string>
+    <string name="remixer_lockscreen">"ロック画面"</string>
+    <string name="remixer_udfps_icon">画面内指紋認証アイコン</string>
+    <string name="remixer_udfps_animation">画面内指紋認証のアニメーション</string>
+    <string name="remixer_navigation">ナビゲーション</string>
+    <string name="remixer_misc">"その他"</string>
+    <string name="misc_category_volume">"音量"</string>
+    <string name="misc_category_backup">"バックアップ"</string>
+    <string name="misc_category_scrolling">"スクロール"</string>
+    <string name="remixer_fonts">"フォント"</string>
+    <string name="remixer_wallpapers">"壁紙"</string>
+    <string name="remixer_accents_summary">アクセントカラー</string>
+    <string name="pulse_preview_title">"再生中"</string>
+    <string name="pulse_style">"スタイル"</string>
+    <string name="pulse_color">"色"</string>
+    <string name="pulse_color_accent">"壁紙"</string>
+    <string name="pulse_look">"デザイン"</string>
+    <string name="pulse_lockscreen">"ロック画面に表示"</string>
+    <string name="accent_preview_button">"ボタン"</string>
+    <string name="accent_custom_title">"カスタム色"</string>
+    <string name="accent_custom_hue">"色彩"</string>
+    <string name="accent_custom_recent">"最近"</string>
+    <string name="accent_custom_apply">"適用"</string>
+    <string name="accent_shade_default">"デフォルト"</string>
+    <string name="accent_saturation">"彩度"</string>
+    <string name="remixer_qs_customize">"カスタマイズ"</string>
+    <string name="remixer_qs_style_section">"スタイル"</string>
+    <string name="remixer_lock_media_off">"OFF"</string>
+    <string name="remixer_lock_preview_device">"このデバイス"</string>
+    <string name="remixer_qs_preview_on">"ON"</string>
+    <string name="remixer_qs_preview_off">"OFF"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"インターネット"</item>
+        <item>Bluetooth</item>
+        <item>"ライト"</item>
+        <item>"サイレント モード"</item>
+        <item>"自動回転"</item>
+        <item>"ダークモード"</item>
+        <item>"アクセスポイント"</item>
+        <item>"機内モード"</item>
+        <item>"データセーバー"</item>
+        <item>NFC</item>
+        <item>"同期"</item>
+        <item>"QR コードをスキャン"</item>
+    </string-array>
+    <string name="remixer_headers_summary">クイック設定の背景画像を選択する</string>
+    <string name="header_preview_none">"画像が選択されていません"</string>
+    <string name="header_source_image">"画像"</string>
+    <string name="header_source_photo">"写真"</string>
+    <string name="header_collections">"コレクション"</string>
+    <string name="header_images">"画像"</string>
+    <string name="header_photo_choose">"写真を選択"</string>
+    <string name="header_look">"デザイン"</string>
+    <string name="remixer_weather">天気</string>
+    <string name="font_default">"デフォルト"</string>
+    <string name="font_apply">"適用"</string>
+    <string name="font_filter_all">"すべて"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"壁紙を設定"</string>
+    <string name="wallpaper_apply_home">"ホーム画面"</string>
+    <string name="wallpaper_apply_lock">"ロック画面"</string>
+    <string name="remixer_settings_style">設定のスタイル</string>
+    <string name="remixer_settings_style_original">"オリジナル"</string>
+    <string name="remixer_navbar_category">"ナビゲーション バー"</string>
+</resources>

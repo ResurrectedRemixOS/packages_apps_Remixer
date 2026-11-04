@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="action_delete">Scrios</string>
+    <string name="action_reset">Athshocraigh</string>
+    <string name="action_search_apps">Cuardaigh aipeanna</string>
+    <string name="action_select_all">Roghnaigh gach rud</string>
+    <string name="app_spoofing_clear_all">Glan gach rud</string>
+    <string name="app_spoofing_disabled">Díchumasaithe</string>
+    <string name="common_clear_search">Glan cuardach</string>
+    <string name="custom_spoof_profile_device">Gléas</string>
+    <string name="custom_spoof_profile_model">Samhail</string>
+    <string name="hide_system_apps">Folaigh aipeanna córais</string>
+    <string name="pif_status">Stádas</string>
+    <string name="show_system_apps">Taispeáin aipeanna córais</string>
+    <string name="spoofing_reset_defaults_confirm">Athshocraigh</string>
+    <string name="ts_untrusted_root_keep">Coinnigh</string>
+    <string name="ts_untrusted_root_replace">Ionadaigh</string>
+</resources>

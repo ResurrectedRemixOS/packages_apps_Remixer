@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_title">"備份與還原"</string>
+    <string name="backup_restore">"還原"</string>
+    <string name="backup_part_boot">開機動畫</string>
+    <string name="backup_auto">"自動"</string>
+    <string name="backup_group_status_bar">狀態列</string>
+    <string name="backup_group_lock_screen">"螢幕鎖定"</string>
+    <string name="backup_group_theme">"主題"</string>
+    <string name="backup_group_qs">"快速設定"</string>
+    <string name="backup_group_notifications">"通知"</string>
+    <string name="backup_group_gestures">手勢</string>
+    <string name="backup_group_other">"其他"</string>
+    <string name="backup_done">"完成"</string>
+    <string name="volume_style_title">音量面板風格</string>
+</resources>

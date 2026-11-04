@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="liquid_glass_blur_title">"Շաղել"</string>
+    <string name="liquid_glass_lockscreen_title">"Կողպէկրան"</string>
+    <string name="liquid_glass_power_title">"Սնուցման կոճակի ընտրացանկ"</string>
+    <string name="liquid_glass_battery_title">"Մարտկոց"</string>
+    <string name="liquid_glass_preview_internet">"Ինտերնետ"</string>
+</resources>

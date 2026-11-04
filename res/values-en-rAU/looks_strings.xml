@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_customize">"Customise"</string>
+    <string name="looks_custom_color">"Customised colour"</string>
+    <string name="looks_part_clock_color">"Clock colour"</string>
+</resources>

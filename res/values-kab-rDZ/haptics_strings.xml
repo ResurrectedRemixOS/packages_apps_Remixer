@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haptic_remix_save">Sekles</string>
+    <string name="haptic_remix_delete_button">Kkes</string>
+    <string name="haptic_remix_default">Akk-a kan</string>
+    <string name="haptic_remix_calls">Appels</string>
+    <string name="haptic_remix_color_blue">Azegzaw</string>
+    <string name="haptic_remix_color_green">Adal</string>
+    <string name="haptic_remix_color_white">Amellal</string>
+</resources>

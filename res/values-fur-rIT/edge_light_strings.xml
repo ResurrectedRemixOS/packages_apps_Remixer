@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">Colôr</string>
+    <string name="edge_light_color_wallpaper">Colôr dal fonts</string>
+    <string name="edge_light_custom_color_title">Colôr personalizât</string>
+    <string name="edge_light_style_title">Stîl</string>
+    <string name="edge_light_animation_effect_comet">Comete</string>
+    <string name="edge_light_moment_notifications">Notifichis</string>
+    <string name="edge_light_moment_calls">Clamadis in jentrade</string>
+    <string name="edge_light_moment_battery_low">Batarie basse</string>
+    <string name="edge_light_moment_unlock">Sblocât</string>
+    <string name="remixer_color_default">Predefinide</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="backup_auto">Awurman</string>
+    <string name="backup_group_status_bar">Afeggag n waddad</string>
+    <string name="backup_group_lock_screen">Agdil usewḥel</string>
+    <string name="backup_group_theme">Asentel</string>
+    <string name="backup_group_notifications">Ilɣa</string>
+    <string name="backup_group_gestures">Imussuten</string>
+    <string name="backup_group_other">Wayeḍ</string>
+    <string name="backup_done">Immed</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_launch_shortcuts">"Comenzi rapide"</string>
+    <string name="quick_launch_camera">"Cameră foto"</string>
+    <string name="quick_launch_flashlight">Lanternă</string>
+    <string name="quick_launch_timer">Temporizator</string>
+    <string name="quick_launch_undo">"Anulează"</string>
+    <string name="quick_launch_off">"Dezactivat"</string>
+</resources>

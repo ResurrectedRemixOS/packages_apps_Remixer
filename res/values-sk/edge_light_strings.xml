@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edge_light_color_mode_title">"Farba"</string>
+    <string name="edge_light_color_accent">Farba zvýraznenia (základné)</string>
+    <string name="edge_light_color_notification">Farba upozornení</string>
+    <string name="edge_light_color_wallpaper">"Farba tapety"</string>
+    <string name="edge_light_custom_color_title">"Vlastná farba"</string>
+    <string name="edge_light_style_title">"Štýl"</string>
+    <string name="edge_light_moment_notifications">"Upozornenia"</string>
+    <string name="edge_light_moment_calls">"Prichádzajúce hovory"</string>
+    <string name="edge_light_moment_battery_low">Vybitá batéria</string>
+    <string name="edge_light_moment_unlock">"Odomknuté"</string>
+    <string name="remixer_color_default">"Predvolené"</string>
+</resources>

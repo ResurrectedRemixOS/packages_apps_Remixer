@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="looks_save_button">"រក្សាទុក"</string>
+    <string name="looks_import">"នាំចូល"</string>
+    <string name="looks_name">"ឈ្មោះ"</string>
+    <string name="looks_apply">"ដាក់ប្រើ"</string>
+    <string name="looks_share">"ចែករំលែក"</string>
+    <string name="looks_delete">"លុប"</string>
+    <string name="looks_part_font">"ពុម្ពអក្សរ"</string>
+    <string name="looks_part_wallpaper">"ផ្ទាំង​រូបភាព"</string>
+    <string name="looks_color_default">"លំនាំដើម"</string>
+    <string name="looks_create">"បង្កើត"</string>
+    <string name="looks_edit">"កែ"</string>
+    <string name="looks_customize">"ប្ដូរតាមបំណង"</string>
+    <string name="looks_save_look">"រក្សាទុក"</string>
+    <string name="looks_custom_color">"ពណ៌​ផ្ទាល់ខ្លួន"</string>
+    <string name="looks_part_clock_color">"ពណ៌នាឡិកា"</string>
+</resources>

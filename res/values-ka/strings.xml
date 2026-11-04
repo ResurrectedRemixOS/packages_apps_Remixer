@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_homepage_account">"ანგარიში"</string>
+    <string name="rr_homepage_storage">"მეხსიერება"</string>
+    <string name="rr_homepage_battery">"ბატარეა"</string>
+    <string name="rr_homepage_connections">"კავშირები"</string>
+    <string name="rr_homepage_device">"მოწყობილობა"</string>
+    <string name="rr_homepage_privacy">პირადულობა და უსაფრთხოება</string>
+    <string name="rr_homepage_help">"დახმარება"</string>
+    <string name="rr_live_wifi">"Wi‑Fi"</string>
+    <string name="rr_live_mobile">"მობილური"</string>
+    <string name="rr_live_offline">"ხაზგარეშე"</string>
+    <string name="rr_live_on">"ჩართული"</string>
+    <string name="rr_live_off">"გამორთული"</string>
+    <string name="rr_homepage_charging">"იტენება"</string>
+    <string name="rr_homepage_internet">"ინტერნეტი"</string>
+    <string name="rr_homepage_mobile_data">"მობილური ინტერნეტი"</string>
+    <string name="rr_homepage_not_connected">"არ არის დაკავშირებული"</string>
+    <string name="rr_homepage_dark_theme">"მუქი თემა"</string>
+    <string name="rr_homepage_on">"ჩართული"</string>
+    <string name="rr_homepage_off">"გამორთული"</string>
+    <string name="rr_homepage_signed_in">"შესული"</string>
+    <string name="rr_homepage_device_word">"პარამეტრები"</string>
+    <string name="rr_group_apps">"აპები და შეტყობინებები"</string>
+    <string name="rr_group_security">"უსაფრთხოება და კონფიდენციალურობა"</string>
+    <string name="rr_group_accounts_plain">"ანგარიშები"</string>
+    <string name="rr_group_accessibility_summary">"ჩვენება, ინტერაქცია, აუდიო"</string>
+    <string name="remixer_statusbar">"სტატუსის ზოლი"</string>
+    <string name="remixer_qs">"სწრაფი პარამეტრები"</string>
+    <string name="remixer_notifications">"შეტყობინებები"</string>
+    <string name="remixer_theme">"თემა"</string>
+    <string name="remixer_lockscreen">"ჩაკეტილი ეკრანი"</string>
+    <string name="remixer_navigation">სამოძრაო</string>
+    <string name="remixer_misc">"სხვადასხვა"</string>
+    <string name="misc_category_volume">"ხმა"</string>
+    <string name="misc_category_backup">"სარეზერვო კოპირება"</string>
+    <string name="misc_category_scrolling">"გადაადგილება"</string>
+    <string name="remixer_fonts">"შრიფტები"</string>
+    <string name="remixer_wallpapers">"ფონები"</string>
+    <string name="pulse_style">"სტილი"</string>
+    <string name="pulse_color">"ფერი"</string>
+    <string name="pulse_color_accent">"ფონი"</string>
+    <string name="pulse_look">"იერსახე"</string>
+    <string name="pulse_lockscreen">"დაბლოკილ ეკრანზე ჩვენება"</string>
+    <string name="accent_preview_button">"ღილაკი"</string>
+    <string name="accent_custom_title">"მორგებული ფერი"</string>
+    <string name="accent_custom_hue">"ტონი"</string>
+    <string name="accent_custom_recent">"ბოლოდროინდელი"</string>
+    <string name="accent_custom_apply">"გამოყენება"</string>
+    <string name="accent_shade_default">"ნაგულისხმევი"</string>
+    <string name="accent_saturation">"ინტენსივობა"</string>
+    <string name="remixer_qs_customize">"მორგება"</string>
+    <string name="remixer_qs_style_section">"სტილი"</string>
+    <string name="remixer_lock_media_off">"გამორთული"</string>
+    <string name="remixer_lock_preview_device">"ეს ტელეფონი"</string>
+    <string name="remixer_qs_preview_on">"ჩართული"</string>
+    <string name="remixer_qs_preview_off">"გამორთული"</string>
+    <string-array name="remixer_qs_preview_labels">
+        <item>"ინტერნეტი"</item>
+        <item>Bluetooth</item>
+        <item>"ფანარი"</item>
+        <item>"არ შემაწუხოთ"</item>
+        <item>"ავტოროტაცია"</item>
+        <item>"მუქი თემა"</item>
+        <item>"წვდომის წერტილი"</item>
+        <item>"თვითმფრინავის რეჟიმი"</item>
+        <item>"მონაცემთა დამზოგველი"</item>
+        <item>NFC</item>
+        <item>"სინქრონიზაცია"</item>
+        <item>"QR კოდის სკანირება"</item>
+    </string-array>
+    <string name="header_preview_none">"სურათი არჩეული არ არის"</string>
+    <string name="header_source_image">"სურათი"</string>
+    <string name="header_source_photo">"ფოტო"</string>
+    <string name="header_collections">"კოლექციები"</string>
+    <string name="header_images">"სურათები"</string>
+    <string name="header_photo_choose">"ფოტოს არჩევა"</string>
+    <string name="header_look">"იერსახე"</string>
+    <string name="remixer_weather">"ამინდი"</string>
+    <string name="font_default">"ნაგულისხმევი"</string>
+    <string name="font_apply">"გამოყენება"</string>
+    <string name="font_filter_all">"ყველა"</string>
+    <string name="font_filter_serif">"Serif"</string>
+    <string name="wallpaper_apply_title">"ფონის დაყენება"</string>
+    <string name="wallpaper_apply_home">"მთავარი ეკრანი"</string>
+    <string name="wallpaper_apply_lock">"ჩაკეტილი ეკრანი"</string>
+    <string name="remixer_settings_style_original">"ორიგინალი"</string>
+    <string name="remixer_navbar_category">"ნავიგაციის ზოლი"</string>
+</resources>

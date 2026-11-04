@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rr_about_ram">RAM</string>
+    <string name="rr_about_storage">ساقلىغۇچ</string>
+    <string name="rr_about_battery">توكدان</string>
+    <string name="rr_about_security_patch">بىخەتەرلىك يېڭىلانمىسى</string>
+    <string name="rr_about_build_date">ھاسىللىغان چېسلا</string>
+    <string name="rr_about_network">تور</string>
+    <string name="rr_about_hidden">يوشۇرۇن</string>
+</resources>

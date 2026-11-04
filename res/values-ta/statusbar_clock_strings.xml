@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sb_clock_category">கடிகாரம் &amp; தேதி</string>
+    <string name="sb_clock_date_title">"தேதி"</string>
+    <string name="sb_clock_date_format_title">தேதி வடிவம்</string>
+    <string name="sb_weather_category">"வானிலை"</string>
+    <string name="sb_weather_position_title">நிலை</string>
+</resources>
