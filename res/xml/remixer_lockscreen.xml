@@ -12,6 +12,12 @@
         android:summary="@string/lock_stage_summary" />
 
     <Preference
+        android:key="remixer_nightstand"
+        android:title="@string/nightstand_title"
+        android:summary="@string/nightstand_summary"
+        android:fragment="com.resurrection.settings.nightstand.NightstandSettings" />
+
+    <Preference
         android:key="remixer_udfps_icon"
         android:title="@string/remixer_udfps_icon"
         android:summary="@string/remixer_udfps_icon_summary" />

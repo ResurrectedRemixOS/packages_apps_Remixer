@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/nightstand_title">
+
+    <com.resurrection.settings.preferences.SystemSettingListPreference
+        android:key="rr_nightstand"
+        android:title="@string/nightstand_when"
+        android:entries="@array/nightstand_when_entries"
+        android:entryValues="@array/nightstand_when_values"
+        android:summary="%s"
+        android:defaultValue="0" />
+
+    <Preference
+        android:key="rr_nightstand_from"
+        android:title="@string/nightstand_from" />
+
+    <Preference
+        android:key="rr_nightstand_to"
+        android:title="@string/nightstand_to" />
+
+    <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+        android:key="rr_nightstand_brightness"
+        android:title="@string/nightstand_brightness"
+        android:summary="@string/nightstand_brightness_summary"
+        android:defaultValue="40"
+        android:max="255"
+        app:min="1"
+        app:showSeekBarValue="true" />
+
+    <com.resurrection.settings.preferences.SystemSettingListPreference
+        android:key="rr_nightstand_face"
+        android:title="@string/nightstand_face"
+        android:summary="%s"
+        android:defaultValue="-1" />
+
+    <Preference
+        android:key="rr_nightstand_layout"
+        android:title="@string/nightstand_layout"
+        android:summary="@string/nightstand_layout_summary" />
+
+    <Preference
+        android:key="rr_nightstand_footer"
+        android:summary="@string/nightstand_footer"
+        android:selectable="false" />
+</PreferenceScreen>

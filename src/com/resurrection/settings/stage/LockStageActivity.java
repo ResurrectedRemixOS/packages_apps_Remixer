@@ -50,6 +50,9 @@ import java.util.List;
  */
 public class LockStageActivity extends CollapsingToolbarBaseActivity {
     static final String KEY = "rr_lock_stage";
+    /** The Nightstand stage, the same JSON; SystemUI's NightstandController switches to it. */
+    static final String KEY_NIGHT = "rr_lock_stage_night";
+    public static final String EXTRA_NIGHT = "night";
     static final int COLS = 6;
     static final int ROWS = 12;
     private static final String AUTHORITY = "com.android.systemui.clockfaces";
@@ -82,6 +85,7 @@ public class LockStageActivity extends CollapsingToolbarBaseActivity {
     private LinearLayout mToolbar;
     private MaterialButton mAodButton;
     private ChipGroup mTray;
+    private boolean mNight;
     private Bitmap mClock;
 
     @Override
@@ -97,7 +101,27 @@ public class LockStageActivity extends CollapsingToolbarBaseActivity {
         scroll.addView(list);
         setContentView(scroll);
 
+        mNight = getIntent().getBooleanExtra(EXTRA_NIGHT, false);
         load();
+
+        ChipGroup tabs = new ChipGroup(mThemed);
+        tabs.setSingleSelection(true);
+        tabs.setSelectionRequired(true);
+        Chip lock = tab(R.string.lock_stage_tab_lock);
+        Chip night = tab(R.string.lock_stage_tab_night);
+        tabs.addView(lock);
+        tabs.addView(night);
+        tabs.check(mNight ? night.getId() : lock.getId());
+        tabs.setOnCheckedStateChangeListener((group, ids) -> {
+            boolean toNight = ids.contains(night.getId());
+            if (toNight == mNight) return;
+            mNight = toNight;
+            load();
+            select(null);
+            fillTray();
+            mStage.invalidate();
+        });
+        list.addView(tabs);
 
         int width = Math.min(getResources().getDisplayMetrics().widthPixels - dp(32), dp(340));
         mStage = new StageView(mThemed);
@@ -145,12 +169,24 @@ public class LockStageActivity extends CollapsingToolbarBaseActivity {
         renderClock(width);
     }
 
+    private Chip tab(int title) {
+        Chip chip = new Chip(mThemed);
+        chip.setId(View.generateViewId());
+        chip.setCheckable(true);
+        chip.setText(title);
+        return chip;
+    }
+
     // Model
+
+    private String key() {
+        return mNight ? KEY_NIGHT : KEY;
+    }
 
     private void load() {
         mTiles.clear();
         try {
-            String json = Settings.System.getStringForUser(getContentResolver(), KEY,
+            String json = Settings.System.getStringForUser(getContentResolver(), key(),
                     UserHandle.USER_CURRENT);
             if (!TextUtils.isEmpty(json)) {
                 JSONArray array = new JSONObject(json).getJSONArray("tiles");
@@ -166,9 +202,15 @@ public class LockStageActivity extends CollapsingToolbarBaseActivity {
         if (mTiles.isEmpty()) defaults();
     }
 
-    /** Where the stock lock screen puts things, near enough. */
+    /** Where the stock lock screen puts things, near enough; a bare bedside stage at night. */
     private void defaults() {
         mTiles.clear();
+        if (mNight) {
+            mTiles.add(new Tile("clock", 0, 2, 6, 3, true));
+            mTiles.add(new Tile("alarm", 1, 6, 4, 1, true));
+            mTiles.add(new Tile("battery", 2, 8, 2, 2, true));
+            return;
+        }
         mTiles.add(new Tile("clock", 0, 1, 6, 3, true));
         mTiles.add(new Tile("weather", 0, 4, 6, 1, false));
         mTiles.add(new Tile("nowbar", 1, 10, 4, 1, true));
@@ -186,7 +228,7 @@ public class LockStageActivity extends CollapsingToolbarBaseActivity {
 
     private void save() {
         try {
-            Settings.System.putStringForUser(getContentResolver(), KEY, json(),
+            Settings.System.putStringForUser(getContentResolver(), key(), json(),
                     UserHandle.USER_CURRENT);
             Toast.makeText(this, R.string.lock_stage_saved, Toast.LENGTH_SHORT).show();
         } catch (Exception e) {
@@ -199,7 +241,7 @@ public class LockStageActivity extends CollapsingToolbarBaseActivity {
                 .setTitle(R.string.lock_stage_reset)
                 .setMessage(R.string.lock_stage_reset_summary)
                 .setPositiveButton(R.string.lock_stage_reset, (d, w) -> {
-                    Settings.System.putStringForUser(getContentResolver(), KEY, "",
+                    Settings.System.putStringForUser(getContentResolver(), key(), "",
                             UserHandle.USER_CURRENT);
                     defaults();
                     select(null);
