@@ -140,6 +140,12 @@
             android:entryValues="@array/sb_clock_chip_values"
             android:defaultValue="0" />
 
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="statusbar_clock_flatline"
+            android:title="@string/sb_clock_flatline_title"
+            android:summary="@string/sb_clock_flatline_summary"
+            android:defaultValue="false" />
+
         <com.resurrection.settings.preferences.SystemSettingColorPreference
             android:key="statusbar_clock_chip_gradient_start_color"
             android:title="@string/sb_clock_chip_start_title"

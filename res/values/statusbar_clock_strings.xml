@@ -152,4 +152,7 @@
         <item>7</item>
         <item>8</item>
     </string-array>
+    <!-- RR Flatline beside the time -->
+    <string name="sb_clock_flatline_title">Flatline beside the time</string>
+    <string name="sb_clock_flatline_summary">RR\u2019s heartbeat line inside the chip: beats with music, spikes when a notification lands</string>
 </resources>
