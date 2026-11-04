@@ -12,6 +12,7 @@ import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.Settings;
 
+import com.android.internal.util.rr.Utils;
 import com.android.settings.R;
 
 import org.json.JSONArray;
