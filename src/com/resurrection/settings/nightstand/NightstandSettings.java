@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.Settings;
 import android.text.format.DateFormat;
+import android.view.View;
+import android.view.ViewGroup;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
@@ -26,6 +28,8 @@ public class NightstandSettings extends SettingsPreferenceFragment {
     static final String KEY_FACE = "rr_nightstand_face";
     private static final int DEFAULT_FROM = 22 * 60;
     private static final int DEFAULT_TO = 7 * 60;
+
+    private NightstandPreviewView mPreview;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -47,6 +51,23 @@ public class NightstandSettings extends SettingsPreferenceFragment {
         face.setEntries(entries);
         face.setEntryValues(values);
         if (face.getValue() == null) face.setValue("-1");
+    }
+
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        // The preview stays on screen while the options scroll under it.
+        View header = setPinnedHeaderView(R.layout.remixer_nightstand_pinned);
+        mPreview = header.findViewById(R.id.nightstand_preview);
+        // Settings themes turn clipChildren off, which lets rows draw over the preview.
+        ViewGroup list = view.findViewById(android.R.id.list_container);
+        if (list != null) list.setClipChildren(true);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (mPreview != null) mPreview.refresh();
     }
 
     /** A time of day kept as minutes since midnight. */

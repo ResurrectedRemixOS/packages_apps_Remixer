@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pinned above the options: the Nightstand screen as the always-on display will show it. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="12dp">
+    <com.resurrection.settings.nightstand.NightstandPreviewView
+        android:id="@+id/nightstand_preview"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:importantForAccessibility="no" />
+</FrameLayout>
