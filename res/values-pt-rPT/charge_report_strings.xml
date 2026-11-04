@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"Bateria"</string>
     <string name="charge_report_temp">"Temperatura"</string>
     <string name="charge_report_time">"Hora"</string>
+    <string name="charge_report_title">Relatórios de carga</string>
+    <string name="charge_report_summary">Um resumo de cada carga ao desconectar</string>
+    <string name="charge_report_min_title">Só se adicionou pelo menos</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 dias</item>
+        <item>7 dias</item>
+        <item>14 dias</item>
+        <item>30 dias</item>
+    </string-array>
+    <string name="charge_report_history_days">Últimos <xliff:g id="days" example="7">%1$d</xliff:g> dias</string>
+    <string name="charge_report_today">Hoje, <xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">Ontem, <xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> min</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> h <xliff:g id="minutes" example="02">%2$02d</xliff:g> min</string>
+    <string name="charge_report_watts">Watts</string>
+    <string name="charge_report_added">Adicionado</string>
+    <string name="charge_report_peak">Pico</string>
+    <string name="charge_report_average">Média</string>
+    <string name="charge_report_max_temp">Temp. máx.</string>
+    <string name="charge_report_charger">Carregador</string>
+    <string name="charge_report_started">Começou em</string>
+    <string name="charge_report_wired">Com fio</string>
+    <string name="charge_report_wireless">Sem fio</string>
+    <string name="charge_report_dock">Base</string>
+    <string name="charge_report_empty">Nenhuma carga ainda</string>
+    <string name="charge_report_footer">A SystemUI lê a corrente, a tensão e a temperatura da bateria a cada 30 segundos enquanto conectado. Os watts são medidos pelo telemóvel, então podem diferir do número do carregador. Os relatórios ficam no telemóvel; nada é enviado.</string>
 </resources>

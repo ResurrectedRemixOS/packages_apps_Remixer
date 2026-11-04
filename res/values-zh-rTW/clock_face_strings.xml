@@ -7,4 +7,34 @@
     <string name="clock_faces_size_position">大小 &amp; 位置</string>
     <string name="clock_faces_size">"大小"</string>
     <string name="clock_faces_restart">"重新啟動"</string>
+    <string name="remixer_clock_faces">錶盤</string>
+    <string name="clock_faces_system">系統時鐘</string>
+    <string name="clock_faces_system_desc">“桌布和樣式”中的時鐘</string>
+    <string name="clock_faces_position">第 %1$d 個，共 %2$d 個</string>
+    <string name="clock_faces_applied">已套用</string>
+    <string name="clock_faces_preview_unavailable">無法預覽</string>
+    <string name="clock_faces_failed">無法更改時鐘</string>
+    <string name="clock_faces_color_accent">強調色</string>
+    <string name="clock_faces_color_custom">自定義</string>
+    <string name="clock_faces_color_gradient">漸變</string>
+    <string name="clock_faces_own_colors">此錶盤保留自己的顏色。</string>
+    <string name="clock_faces_album_hint">播放音樂時使用專輯封面的顏色。</string>
+    <string name="clock_faces_size_value">大小 · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">距頂部距離</string>
+    <string name="clock_faces_top_value">距頂部距離 · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">水平位置</string>
+    <string name="clock_faces_horizontal_center">水平位置 · 居中</string>
+    <string name="clock_faces_horizontal_right">水平位置 · 向右 <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_left">水平位置 · 向左 <xliff:g id="dp" example="24">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal_fixed">此錶盤保持居中。</string>
+    <string name="clock_faces_opacity">不透明度</string>
+    <string name="clock_faces_opacity_value">不透明度 · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">動效</string>
+    <string name="clock_faces_wobble">充電時搖擺</string>
+    <string name="clock_faces_wobble_summary">插入充電器時彈跳一次</string>
+    <string name="clock_faces_aod_anim">螢幕保持開啟過渡</string>
+    <string name="clock_faces_aod_anim_summary">將時鐘縮小並淡入螢幕保持開啟</string>
+    <string name="clock_faces_restart_title">要重啟鎖定螢幕嗎？</string>
+    <string name="clock_faces_restart_message">在系統時鐘和自定義錶盤之間切換會重啟 SystemUI。螢幕會變暗一秒鐘。</string>
+    <string name="clock_faces_note">預覽由 SystemUI 繪製在你的鎖定螢幕桌布上。顏色、大小和位置會立即改變鎖定螢幕。</string>
 </resources>

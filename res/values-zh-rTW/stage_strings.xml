@@ -6,4 +6,19 @@
     <string name="stage_tile_weather">天氣</string>
     <string name="stage_tile_shortcuts">"捷徑"</string>
     <string name="stage_tile_battery">電池環</string>
+    <string name="lock_stage_summary">在網格上佈置鎖定螢幕，新增霓虹小元件</string>
+    <string name="lock_stage_hint">拖動設定方塊可移動，拖動邊角可調整大小，點按可檢視選項。第一行是狀態列。</string>
+    <string name="lock_stage_remove">移除</string>
+    <string name="lock_stage_center">居中</string>
+    <string name="lock_stage_aod_on">在螢幕保持開啟上</string>
+    <string name="lock_stage_aod_off">不在螢幕保持開啟上</string>
+    <string name="lock_stage_not_on_aod">僅鎖定螢幕</string>
+    <string name="lock_stage_add">新增</string>
+    <string name="lock_stage_all_placed">所有專案都已在舞臺上</string>
+    <string name="lock_stage_reset_summary">恢復預設鎖定螢幕布局。已儲存的舞臺將被清除。</string>
+    <string name="lock_stage_saved">舞臺已儲存。鎖定手機即可檢視。</string>
+    <string name="lock_stage_failed">無法儲存舞臺</string>
+    <string name="stage_tile_glance">日期行</string>
+    <string name="stage_tile_alarm">下一個鬧鐘</string>
+    <string name="stage_tile_toggles">開關</string>
 </resources>

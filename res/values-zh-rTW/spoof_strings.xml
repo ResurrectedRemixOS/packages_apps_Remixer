@@ -161,4 +161,5 @@
     <string name="user_select_spoofing_profile_title">選擇偽裝設定檔</string>
     <string name="user_selectable_app_spoofing_summary">為特定應用程式與遊戲偽裝裝置屬性</string>
     <string name="user_selectable_app_spoofing_title">應用程式與遊戲偽裝</string>
+    <string name="ts_mode_skip">跳過</string>
 </resources>

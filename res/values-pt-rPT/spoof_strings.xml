@@ -119,4 +119,5 @@
     <string name="user_select_spoofing_profile_title">Selecionar perfil de falsificação</string>
     <string name="user_selectable_app_spoofing_summary">Falsificar propriedades do dispositivo para aplicações e jogos específicos</string>
     <string name="user_selectable_app_spoofing_title">Falsificação de aplicações &amp; jogos</string>
+    <string name="ts_mode_skip">Pular</string>
 </resources>

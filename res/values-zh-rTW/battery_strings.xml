@@ -2,4 +2,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="battery_style_page_title">"電池"</string>
     <string name="battery_style_title">"樣式"</string>
+    <string-array name="battery_style_entries">
+        <item>豎屏</item>
+        <item>"圓形"</item>
+        <item>虛線圓圈</item>
+        <item>霓虹環</item>
+        <item>細橫條</item>
+        <item>大號百分比</item>
+        <item>文字</item>
+    </string-array>
+    <string name="battery_percent_title">百分比</string>
+    <string-array name="battery_percent_entries">
+        <item>隱藏</item>
+        <item>圖示內</item>
+        <item>圖示旁</item>
+    </string-array>
+    <string name="battery_ring_color_title">霓虹環顏色</string>
+    <string name="battery_ring_color_summary" formatted="false">%1$s。按電量：高於 20%% 為強調色，低於則為紅色，省電模式下為琥珀色。</string>
+    <string-array name="battery_ring_color_entries">
+        <item>按電量</item>
+        <item>強調色</item>
+        <item>"白色"</item>
+    </string-array>
+    <string name="battery_ring_spark_title">充電時閃光</string>
+    <string name="battery_ring_tile_title">快速設定設定方塊上的相同圓環</string>
+    <string name="battery_ring_tile_summary">顯示電量和亮屏時間</string>
 </resources>

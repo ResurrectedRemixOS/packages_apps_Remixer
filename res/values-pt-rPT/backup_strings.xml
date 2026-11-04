@@ -11,4 +11,43 @@
     <string name="backup_group_gestures">Gestos</string>
     <string name="backup_group_other">"Outro"</string>
     <string name="backup_done">"Concluído"</string>
+    <string name="backup_summary">Todas as personalizações do RR em um ficheiro</string>
+    <string name="backup_now">Fazer cópia de segurança agora</string>
+    <string name="backup_never">Última cópia de segurança: nunca</string>
+    <string name="backup_last">Última cópia de segurança: <xliff:g id="when" example="2 days ago">%1$s</xliff:g></string>
+    <string name="backup_restore_file">Restaurar de um ficheiro</string>
+    <string name="backup_restore_summary">Escolha um ficheiro de cópia de segurança</string>
+    <string name="backup_included">Incluído</string>
+    <string name="backup_part_theme">Destaque, fonte e ícones</string>
+    <string name="backup_part_header">Imagem de cabeçalho</string>
+    <string name="backup_part_photo">Imagem de cabeçalho (sua foto)</string>
+    <string name="backup_part_photo_summary">Deixa o ficheiro maior</string>
+    <string name="backup_part_boot">Animação de inicialização</string>
+    <string name="backup_part_looks">Suas aparências</string>
+    <string name="backup_weekly">Cópia de segurança semanal</string>
+    <string name="backup_weekly_summary">Em uma pasta que você escolher</string>
+    <string name="backup_weekly_on">Toda semana em <xliff:g id="folder" example="Documents/RR">%1$s</xliff:g></string>
+    <string name="backup_offer">Oferecer uma cópia de segurança antes de atualizar</string>
+    <string name="backup_offer_summary">O atualizador pergunta antes de instalar</string>
+    <string name="backup_sets">Define <xliff:g id="count" example="64">%1$d</xliff:g> definições</string>
+    <string name="backup_saved"><xliff:g id="count" example="64">%1$d</xliff:g> definições guardadas</string>
+    <string name="backup_restored"><xliff:g id="count" example="64">%1$d</xliff:g> definições restauradas</string>
+    <string name="backup_restored_message">A SystemUI reinicia para aplicá-las.</string>
+    <string name="backup_skipped"><xliff:g id="count" example="2">%1$d</xliff:g> definições não existem nesta versão e foram ignoradas.</string>
+    <string name="backup_failed">Não foi possível guardar a cópia de segurança</string>
+    <string name="backup_invalid">Esse ficheiro não é uma cópia de segurança do Resurrected Remix</string>
+    <string name="backup_footer">Só definições do RR entram no ficheiro: nada de contas, senhas, redes Wi-Fi, apps ou mensagens. A restauração só grava definições da lista do próprio RR, então um ficheiro de cópia de segurança não pode mudar mais nada no telemóvel. Sua foto de cabeçalho só é incluída se a opção estiver ativada, porque deixa o ficheiro maior.</string>
+    <string name="volume_style_title">Estilo do painel de volume</string>
+    <string-array name="volume_style_entries">
+        <item>Android</item>
+        <item>Neon</item>
+        <item>Vidro</item>
+        <item>Pílula</item>
+        <item>RR clássico</item>
+        <item>Bento</item>
+        <item>Formas</item>
+        <item>Blueprint</item>
+        <item>Duo</item>
+        <item>Suave</item>
+    </string-array>
 </resources>

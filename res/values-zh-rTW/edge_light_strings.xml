@@ -16,4 +16,26 @@
     <string name="edge_light_moment_battery_low">電量不足</string>
     <string name="edge_light_moment_unlock">"已解鎖"</string>
     <string name="remixer_color_default">"預設"</string>
+    <string name="edge_light_title">邊緣燈效</string>
+    <string name="edge_light_summary">為通知、來電、鬧鐘等點亮螢幕邊緣</string>
+    <string name="edge_light_color_rainbow">彩虹</string>
+    <string name="edge_light_color_custom">自定義</string>
+    <string name="edge_light_style_default">兩側</string>
+    <string name="edge_light_style_frame">完整邊框</string>
+    <string name="edge_light_animation_effect_none">標準</string>
+    <string name="edge_light_animation_effect_breathing">呼吸</string>
+    <string name="edge_light_animation_effect_wave">波浪</string>
+    <string name="edge_light_animation_effect_sparkle">閃爍</string>
+    <string name="edge_light_pulse_count_title">脈衝次數</string>
+    <string name="edge_light_pulse_count_summary">邊緣點亮的次數</string>
+    <string name="edge_light_stroke_width_title">粗細</string>
+    <string name="edge_light_stroke_width_summary">燈光寬度（dp）</string>
+    <string name="edge_light_spread_summary">光暈從邊緣向內延伸的距離</string>
+    <string name="edge_light_intensity_summary">光暈亮度。0 表示關閉</string>
+    <string name="edge_light_moments_title">時刻</string>
+    <string name="edge_light_moment_alarms">鬧鐘和計時器</string>
+    <string name="edge_light_moment_plugged">已插入充電器</string>
+    <string name="edge_light_moment_color">更改顏色</string>
+    <string name="edge_light_moments_footer">點按時刻的圓點可更改顏色。來電和鬧鐘響鈴時會亮起，即使在靜音模式下也一樣。其他時刻在零打擾模式下不會顯示。</string>
+    <string name="edge_light_look_title">外觀</string>
 </resources>

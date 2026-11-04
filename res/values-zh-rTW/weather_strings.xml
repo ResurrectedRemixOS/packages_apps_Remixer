@@ -4,4 +4,14 @@
     <string name="lockscreen_weather_location_title">"位置"</string>
     <string name="lockscreen_weather_wind_title">風</string>
     <string name="lockscreen_weather_humidity_title">濕度</string>
+    <string name="lockscreen_weather_title">鎖定螢幕天氣</string>
+    <string name="lockscreen_weather_location_summary">顯示城市名稱</string>
+    <string name="lockscreen_weather_text_title">天氣狀況</string>
+    <string name="lockscreen_weather_text_summary">顯示天氣狀況，如多雲或晴朗</string>
+    <string name="lockscreen_weather_wind_summary">顯示風速和風向</string>
+    <string name="lockscreen_weather_humidity_summary">顯示溼度</string>
+    <string name="custom_clock_weather_title">錶盤上的天氣</string>
+    <string name="custom_clock_weather_summary">在有空間的錶盤上顯示天氣</string>
+    <string name="remixer_weather_service">天氣服務</string>
+    <string name="remixer_weather_page_summary">鎖定螢幕天氣及其顯示內容</string>
 </resources>

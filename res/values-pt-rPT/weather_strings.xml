@@ -2,4 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_weather_details_category">"Detalhes"</string>
     <string name="lockscreen_weather_location_title">"Localização"</string>
+    <string name="lockscreen_weather_title">Clima no ecrã de bloqueio</string>
+    <string name="lockscreen_weather_location_summary">Mostrar o nome da cidade</string>
+    <string name="lockscreen_weather_text_title">Condição</string>
+    <string name="lockscreen_weather_text_summary">Mostra a condição, como Nublado ou Céu limpo</string>
+    <string name="lockscreen_weather_wind_title">Vento</string>
+    <string name="lockscreen_weather_wind_summary">Mostra a velocidade e a direção do vento</string>
+    <string name="lockscreen_weather_humidity_title">Umidade</string>
+    <string name="lockscreen_weather_humidity_summary">Mostra a umidade</string>
+    <string name="custom_clock_weather_title">Clima nos mostradores</string>
+    <string name="custom_clock_weather_summary">Mostra o clima nos mostradores que têm espaço para isso</string>
+    <string name="remixer_weather_service">Serviço de clima</string>
+    <string name="remixer_weather_page_summary">Clima do ecrã de bloqueio e o que ele mostra</string>
 </resources>

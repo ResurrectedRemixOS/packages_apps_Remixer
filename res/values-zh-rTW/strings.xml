@@ -93,4 +93,206 @@
     <string name="remixer_settings_style">設定應用程式樣式</string>
     <string name="remixer_settings_style_original">"原始"</string>
     <string name="remixer_navbar_category">"導覽列"</string>
+    <string name="remixer_dashboard_summary">狀態列、主題、鎖定螢幕等</string>
+    <string name="rr_homepage_battery_saver">省電模式</string>
+    <string name="rr_homepage_personalize">個性化</string>
+    <string name="rr_homepage_free">可用空間：<xliff:g id="size" example="194 GB">%1$s</xliff:g></string>
+    <string name="rr_homepage_charged">已充滿</string>
+    <string name="rr_homepage_on_battery">使用電池</string>
+    <string name="rr_homepage_saver_on">省電模式已開啟</string>
+    <plurals name="rr_homepage_bt_devices">
+        <item quantity="other"><xliff:g id="count" example="2">%d</xliff:g> 臺裝置</item>
+    </plurals>
+    <string name="rr_homepage_extras">更多設定</string>
+    <string name="rr_homepage_saver">省電</string>
+    <string name="rr_homepage_signed_out">未登入</string>
+    <string name="rr_homepage_remixer_tagline">打造你的專屬手機。狀態列、主題、鎖定螢幕等。</string>
+    <string name="rr_homepage_device_tagline">提醒滑塊、顯示、充電和 GameBar。</string>
+    <string name="rr_homepage_device_action">調校</string>
+    <string name="rr_group_network">網路和裝置</string>
+    <string name="rr_group_network_summary">WLAN、行動網路、藍芽</string>
+    <string name="rr_group_apps_summary">應用程式、通知、模式</string>
+    <string name="rr_group_display">顯示和聲音</string>
+    <string name="rr_group_display_summary">顯示、桌布、聲音</string>
+    <string name="rr_group_security_summary">鎖定、位置資訊、緊急情況</string>
+    <string name="rr_group_security_center">安全中心</string>
+    <string name="rr_group_accounts">Google 和帳戶</string>
+    <string name="rr_group_accounts_summary">Google、密碼、備份</string>
+    <string name="rr_group_accounts_plain_summary">密碼、帳戶、備份</string>
+    <string name="rr_group_system_summary">語言、手勢、更新</string>
+    <string name="remixer_tagline">打造你的專屬手機。</string>
+    <string name="remixer_remix">開始混搭</string>
+    <string name="remixer_remixed">已用 <xliff:g id="accent" example="Pixel Blue">%1$s</xliff:g> 混搭</string>
+    <string name="remixer_chip_shade_default">色調 · 預設</string>
+    <string name="remixer_quick">快速混搭</string>
+    <string name="remixer_everything">全部</string>
+    <string name="remixer_quick_accents">預設或任意顏色</string>
+    <string name="remixer_quick_fonts">系統字型樣式</string>
+    <string name="remixer_quick_walls">RR 精選</string>
+    <string name="remixer_quick_header">快速設定頁首</string>
+    <string name="remixer_quick_header_summary">頁首圖片</string>
+    <string name="remixer_version">Resurrected Remix · Android <xliff:g id="android" example="17">%1$s</xliff:g></string>
+    <string name="remixer_statusbar_summary">時鐘、電池、圖示和網路流量</string>
+    <string name="remixer_qs_summary">頁首圖片</string>
+    <string name="remixer_notifications_summary">邊緣燈效、應用程式圖示和充電提示音</string>
+    <string name="remixer_theme_summary">字型、強調色和桌布</string>
+    <string name="remixer_lockscreen_summary">UDFPS、充電資訊和天氣</string>
+    <string name="remixer_udfps_icon_summary">顯示在指紋感測器上方</string>
+    <string name="remixer_udfps_animation_summary">手指放在感測器上時播放</string>
+    <string name="remixer_navigation_summary">Pulse、按鈕和導航欄</string>
+    <string name="remixer_misc_summary">音量、備份、偽裝、滾動和 USB</string>
+    <string name="scroll_haptics_title">滾動到底時輕觸反饋</string>
+    <string name="scroll_haptics_summary">列表或頁面無法繼續滾動時輕微振動</string>
+    <string name="usb_mode_picker_title">USB 模式選擇器</string>
+    <string name="usb_mode_picker_summary">連線電腦時選擇模式</string>
+    <string name="remixer_fonts_summary">系統字型</string>
+    <string name="remixer_wallpapers_summary">Resurrected Remix 桌布</string>
+    <string name="remixer_accents">強調色</string>
+    <string name="remixer_pulse">Pulse</string>
+    <string name="remixer_pulse_summary">螢幕底部的音樂視覺化效果</string>
+    <string name="pulse_switch">使用 Pulse</string>
+    <string name="pulse_switch_summary">播放媒體時在螢幕底部顯示音樂條</string>
+    <string name="pulse_style_lines">線條</string>
+    <string name="pulse_style_fading">漸隱</string>
+    <string name="pulse_style_blocks">方塊</string>
+    <string name="pulse_style_mirror">映象</string>
+    <string name="pulse_color_custom">自定義</string>
+    <string name="pulse_color_gradient">彩虹</string>
+    <string name="pulse_bars">音樂條</string>
+    <string name="pulse_bars_value">音樂條 · %1$d</string>
+    <string name="pulse_height">高度</string>
+    <string name="pulse_height_value">高度 · %1$d dp</string>
+    <string name="pulse_opacity">不透明度</string>
+    <string name="pulse_opacity_value">不透明度 · %1$d%%</string>
+    <string name="pulse_lockscreen_summary">播放音樂時在鎖定螢幕上保留音樂條</string>
+    <string name="pulse_failed">無法儲存該 Pulse 設定</string>
+    <string name="accent_applied">已套用強調色</string>
+    <string name="accent_current">強調色 · %1$s</string>
+    <string name="accent_current_custom">強調色 · 自定義</string>
+    <string name="accent_preview_tonal">柔和色調</string>
+    <string name="accent_failed">無法套用該強調色</string>
+    <string name="accent_custom">自定義</string>
+    <string name="accent_custom_summary">任意顏色均可。色調仍會疊加在上面。</string>
+    <string name="accent_custom_pad">飽和度和亮度</string>
+    <string name="accent_custom_use">使用<xliff:g id="color" example="#12B5A6">%1$s</xliff:g></string>
+    <string name="accent_shade">色調</string>
+    <string name="accent_shade_darker">更深</string>
+    <string name="accent_shade_lighter">更淺</string>
+    <string name="accent_shade_darker_value">更深 · %1$d</string>
+    <string name="accent_shade_lighter_value">更淺 · %1$d</string>
+    <string name="remixer_qs_style">快速設定樣式</string>
+    <string name="remixer_qs_customize_summary">開啟快速設定並點按鉛筆圖示。點按設定方塊可檢視選項和外觀，按住可移動，拖動邊角可調整大小，面板下方的標籤頁用於設定整個面板。</string>
+    <string name="remixer_qs_style_preview">預覽 · %1$s</string>
+    <string name="remixer_qs_style_note">所有樣式都會跟隨你的強調色。音量面板有配套的 Bento、Shapes、Blueprint、Duo 和柔和外觀。Stock Lineage 會保持 Android 17 設定方塊不變。</string>
+    <string name="remixer_qs_style_stock">Stock Lineage</string>
+    <string name="remixer_qs_style_stock_summary">Android 17 設定方塊，未作更改</string>
+    <string name="remixer_qs_style_remix">Remix</string>
+    <string name="remixer_qs_style_remix_summary">亮度顯示在強調色卡片中。設定方塊以強調色漸變填充</string>
+    <string name="remixer_qs_style_compact">緊湊</string>
+    <string name="remixer_qs_style_compact_summary">設定方塊更矮，一屏可放更多</string>
+    <string name="remixer_qs_style_glass">玻璃</string>
+    <string name="remixer_qs_style_glass_summary">帶輪廓的透明設定方塊，開啟時發出強調色光芒</string>
+    <string name="remixer_qs_style_circles">圓形</string>
+    <string name="remixer_qs_style_circles_summary">帶標籤的圓形開關。寬設定方塊變為卡片</string>
+    <string name="remixer_qs_style_classic">經典</string>
+    <string name="remixer_qs_style_classic_summary">老派 RR：簡單圖示加標籤，每行五個，細滑塊</string>
+    <string name="remixer_qs_style_cards">卡片</string>
+    <string name="remixer_qs_style_cards_summary">大卡片，名稱下方顯示狀態，每行三個</string>
+    <string name="remixer_qs_style_neon">霓虹</string>
+    <string name="remixer_qs_style_neon_summary">帶輪廓的設定方塊，開啟時發出強調色光芒</string>
+    <string name="remixer_qs_style_bento_summary">填充強調色的大圓角方塊，小方塊下方顯示標籤</string>
+    <string name="remixer_qs_style_shapes">Shapes</string>
+    <string name="remixer_qs_style_shapes_summary">開啟時長出花瓣的圓形開關，每行五個</string>
+    <string name="remixer_qs_style_blueprint">Blueprint</string>
+    <string name="remixer_qs_style_blueprint_summary">細線輪廓和等寬大寫字母</string>
+    <string name="remixer_qs_style_duo">Duo</string>
+    <string name="remixer_qs_style_duo_summary">分割設定方塊。圖示部分會亮起並切換</string>
+    <string name="remixer_qs_style_soft">柔和</string>
+    <string name="remixer_qs_style_soft_summary">凸起的設定方塊，開啟時會凹陷</string>
+    <string name="remixer_lock_media_style">媒體播放器樣式</string>
+    <string name="remixer_lock_media_same">與快速設定相同</string>
+    <string name="remixer_lock_media_same_summary">跟隨快速設定中的媒體設定方塊，當前為%1$s</string>
+    <string name="remixer_lock_media_off_summary">鎖定螢幕上不顯示播放器</string>
+    <string name="remixer_lock_media_note">播放內容時，卡片會顯示在鎖定螢幕上。透明樣式帶有深色背景，以便在桌布上保持清晰可讀。</string>
+    <string name="remixer_lock_media_stock_summary">專輯封面填滿卡片</string>
+    <string name="remixer_lock_media_remix_summary">深色卡片，強調色播放按鈕</string>
+    <string name="remixer_lock_media_compact_summary">更圓的卡片，圓形封面</string>
+    <string name="remixer_lock_media_glass_summary">帶輪廓的透明卡片</string>
+    <string name="remixer_lock_media_circles_summary">柔和卡片，強調色播放按鈕</string>
+    <string name="remixer_lock_media_classic_summary">更方的卡片，輪廓播放按鈕</string>
+    <string name="remixer_lock_media_cards_summary">柔和卡片，強調色播放按鈕，類似圓形樣式</string>
+    <string name="remixer_lock_media_neon_summary">帶強調色輪廓的黑色卡片</string>
+    <string name="remixer_lock_media_bento_summary">柔和卡片，強調色播放按鈕</string>
+    <string name="remixer_lock_media_shapes_summary">更圓的卡片，強調色播放按鈕</string>
+    <string name="remixer_lock_media_blueprint_summary">細線輪廓，輪廓播放按鈕</string>
+    <string name="remixer_lock_media_duo_summary">雙色卡片，強調色播放按鈕</string>
+    <string name="remixer_lock_media_soft_summary">帶斜面邊緣的凸起卡片</string>
+    <string name="remixer_headers">頁首圖片</string>
+    <string name="header_switch">使用頁首圖片</string>
+    <string name="header_switch_summary">在快速設定後方顯示圖片</string>
+    <string name="header_source">來源</string>
+    <string name="header_source_collection">合集</string>
+    <string name="header_collections_summary_daylight">頁首跟隨一天中的時間或在合集中輪換</string>
+    <string name="header_collections_summary_static">開啟合集，然後點按圖片即可使用</string>
+    <string name="header_collections_empty">未安裝頁首合集</string>
+    <string name="header_images_daylight">此合集中</string>
+    <plurals name="header_image_count">
+        <item quantity="other">%d 張圖片</item>
+    </plurals>
+    <string name="header_photo_summary">相簿中的任意照片或動圖 GIF</string>
+    <string name="header_height">高度</string>
+    <string name="header_height_value">高度 · %1$d dp</string>
+    <string name="header_shadow">調暗</string>
+    <string name="header_shadow_value">調暗 · %1$d%%</string>
+    <string name="header_failed">無法儲存該頁首設定</string>
+    <string name="remixer_weather_summary">天氣服務和單位</string>
+    <string name="font_preview_notification">這就是手機上的文字效果。</string>
+    <string name="font_try_text">試試你自己的文字</string>
+    <string name="font_previewing">預覽中</string>
+    <string name="font_current">當前字型</string>
+    <string name="font_badge_current">當前</string>
+    <string name="font_apply_done">已套用</string>
+    <string name="font_filter_sans">無襯線</string>
+    <string name="font_filter_display">展示</string>
+    <string name="font_filter_script">手寫</string>
+    <string name="font_filter_mono">等寬</string>
+    <string name="font_applied">已套用字型</string>
+    <string name="font_failed">無法套用該字型</string>
+    <string name="wallpaper_set">桌布已設定</string>
+    <plurals name="wallpapers_summary">
+        <item quantity="other">%d 張 Resurrected Remix 桌布。點按一張即可預覽。</item>
+    </plurals>
+    <string name="wallpaper_apply_both">全部</string>
+    <string name="wallpaper_failed">無法設定該桌布</string>
+    <string name="missing_app">該應用程式未安裝</string>
+    <string name="remixer_spoofing_summary">Play Integrity、裝置身份和按應用程式偽裝</string>
+    <string name="remixer_settings_tile_hues">彩色類別方塊</string>
+    <string name="remixer_settings_tile_hues_summary">每個方塊都使用接近強調色的色相。關閉後全部使用強調色。</string>
+    <string name="rr_maintainer">維護者</string>
+    <string name="remixer_navbar_summary">橫條長度、粗細和佈局</string>
+    <string name="remixer_navbar_pill_length">手勢橫條長度</string>
+    <string name="remixer_navbar_pill_thickness">手勢橫條粗細</string>
+    <string name="remixer_navbar_pill_auto_hide">淡出手勢橫條</string>
+    <string name="remixer_navbar_pill_auto_hide_summary">幾秒後隱藏橫條；觸控式螢幕幕時重新出現</string>
+    <string name="remixer_navbar_ime">鍵盤按鈕</string>
+    <string name="remixer_navbar_ime_summary">在鍵盤下方顯示返回和鍵盤切換按鈕</string>
+    <string name="remixer_navbar_layout">按鈕佈局</string>
+    <string-array name="remixer_navbar_pill_length_entries">
+        <item>短</item>
+        <item>正常</item>
+        <item>長</item>
+    </string-array>
+    <string-array name="remixer_navbar_pill_thickness_entries">
+        <item>最細</item>
+        <item>較細</item>
+        <item>細</item>
+        <item>正常</item>
+        <item>粗</item>
+    </string-array>
+    <string-array name="remixer_navbar_layout_entries">
+        <item>正常</item>
+        <item>緊湊</item>
+        <item>"靠左"</item>
+        <item>"靠右"</item>
+    </string-array>
 </resources>

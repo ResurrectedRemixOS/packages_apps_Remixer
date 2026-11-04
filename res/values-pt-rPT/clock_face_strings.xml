@@ -6,4 +6,35 @@
     <string name="clock_faces_color_album">Capa do álbum</string>
     <string name="clock_faces_size">"Tamanho"</string>
     <string name="clock_faces_restart">"Reiniciar"</string>
+    <string name="remixer_clock_faces">Mostradores do relógio</string>
+    <string name="clock_faces_system">Relógio do sistema</string>
+    <string name="clock_faces_system_desc">O relógio de Imagem de fundo e estilo</string>
+    <string name="clock_faces_position">%1$d de %2$d</string>
+    <string name="clock_faces_applied">Aplicada</string>
+    <string name="clock_faces_preview_unavailable">Prévia indisponível</string>
+    <string name="clock_faces_failed">Não foi possível alterar o relógio</string>
+    <string name="clock_faces_color_accent">Destaque</string>
+    <string name="clock_faces_color_custom">Personalizado</string>
+    <string name="clock_faces_color_gradient">Gradiente</string>
+    <string name="clock_faces_own_colors">Este mostrador mantém as próprias cores.</string>
+    <string name="clock_faces_album_hint">Usa a cor da capa do álbum enquanto a música toca.</string>
+    <string name="clock_faces_size_position">Tamanho e posição</string>
+    <string name="clock_faces_size_value">Tamanho · <xliff:g id="percent" example="110">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_top">Distância do topo</string>
+    <string name="clock_faces_top_value">Distância do topo · <xliff:g id="dp" example="15">%1$d</xliff:g> dp</string>
+    <string name="clock_faces_horizontal">Posição horizontal</string>
+    <string name="clock_faces_horizontal_center">Posição horizontal · Centro</string>
+    <string name="clock_faces_horizontal_right">Posição horizontal · <xliff:g id="dp" example="24">%1$d</xliff:g> dp à direita</string>
+    <string name="clock_faces_horizontal_left">Posição horizontal · <xliff:g id="dp" example="24">%1$d</xliff:g> dp à esquerda</string>
+    <string name="clock_faces_horizontal_fixed">Este mostrador fica centralizado.</string>
+    <string name="clock_faces_opacity">Opacidade</string>
+    <string name="clock_faces_opacity_value">Opacidade · <xliff:g id="percent" example="90">%1$d</xliff:g>%%</string>
+    <string name="clock_faces_motion">Movimento</string>
+    <string name="clock_faces_wobble">Balançar durante o carregamento</string>
+    <string name="clock_faces_wobble_summary">Quica uma vez ao conectar o carregador</string>
+    <string name="clock_faces_aod_anim">Transição para o ecrã sempre ativo</string>
+    <string name="clock_faces_aod_anim_summary">Encolhe e esmaece o relógio até o ecrã sempre ativo</string>
+    <string name="clock_faces_restart_title">Reiniciar o ecrã de bloqueio?</string>
+    <string name="clock_faces_restart_message">Alternar entre o relógio do sistema e mostradores personalizados reinicia a SystemUI. O ecrã escurece por um segundo.</string>
+    <string name="clock_faces_note">As prévias são desenhadas pela SystemUI sobre a imagem de fundo do ecrã de bloqueio. Cor, tamanho e posição mudam o ecrã de bloqueio na hora.</string>
 </resources>

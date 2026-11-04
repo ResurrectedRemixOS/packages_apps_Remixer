@@ -8,4 +8,50 @@
         <item>"中"</item>
         <item>"大"</item>
     </string-array>
+    <string name="pie_title">餅狀控制</string>
+    <string name="pie_summary">按住邊緣的下部可開啟快捷方式餅圖</string>
+    <string name="pie_zone">邊緣區域</string>
+    <string name="pie_clock">上方顯示時鐘和電量</string>
+    <string name="pie_items">扇區</string>
+    <string-array name="pie_items_entries">
+        <item>"返回"</item>
+        <item>主螢幕</item>
+        <item>"最近"</item>
+        <item>"通知"</item>
+        <item>手電筒</item>
+        <item>"螢幕截圖"</item>
+        <item>"電源鍵選單"</item>
+        <item>"Google 助理"</item>
+        <item>"相機"</item>
+    </string-array>
+    <string name="pie_footer">需要按住不動四分之一秒，因此從邊緣快速滑動仍然是返回。在鎖定螢幕上不會開啟。</string>
+    <string-array name="pie_edges_entries">
+        <item>"左"</item>
+        <item>"右"</item>
+        <item>全部</item>
+    </string-array>
+    <string-array name="pie_zone_entries">
+        <item>下三分之一</item>
+        <item>中間</item>
+        <item>整個邊緣</item>
+    </string-array>
+    <string-array name="pie_style_entries">
+        <item>霓虹</item>
+        <item>玻璃</item>
+        <item>經典</item>
+    </string-array>
+    <string name="sidebar_style_title">應用程式側邊欄外觀</string>
+    <string-array name="sidebar_style_entries">
+        <item>經典</item>
+        <item>RR 玻璃</item>
+        <item>霓虹</item>
+    </string-array>
+    <string name="sidebar_settings_title">應用程式側邊欄</string>
+    <string name="sidebar_settings_summary">從手柄滑入以開啟應用程式和工具</string>
+    <string name="sidebar_apps_title">應用程式、手柄和剪貼簿</string>
+    <string name="sidebar_apps_summary">開啟手柄、選擇應用程式並設定智慧剪貼簿</string>
+    <string name="sidebar_handle_size_title">手柄大小</string>
+    <string name="sidebar_tools_title">工具行</string>
+    <string name="sidebar_tools_summary">應用程式下方的螢幕截圖和手電筒</string>
+    <string name="sidebar_footer">手柄是一條強調色細線；拖動可沿邊緣移動。使用手勢導航時，它只佔據自己所在的邊緣部分，其他位置仍可返回。</string>
 </resources>

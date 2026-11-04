@@ -16,4 +16,26 @@
     <string name="edge_light_moment_battery_low">Bateria fraca</string>
     <string name="edge_light_moment_unlock">"Desbloqueado"</string>
     <string name="remixer_color_default">"Predefinição"</string>
+    <string name="edge_light_title">Iluminação das bordas</string>
+    <string name="edge_light_summary">Ilumina as bordas do ecrã para notificações, chamadas, alarmes e muito mais</string>
+    <string name="edge_light_color_rainbow">Arco-íris</string>
+    <string name="edge_light_color_custom">Personalizado</string>
+    <string name="edge_light_style_default">Laterais</string>
+    <string name="edge_light_style_frame">Moldura completa</string>
+    <string name="edge_light_animation_effect_none">Predefinido</string>
+    <string name="edge_light_animation_effect_breathing">Respiração</string>
+    <string name="edge_light_animation_effect_wave">Onda</string>
+    <string name="edge_light_animation_effect_sparkle">Brilho cintilante</string>
+    <string name="edge_light_pulse_count_title">Pulsos</string>
+    <string name="edge_light_pulse_count_summary">Quantas vezes as bordas acendem</string>
+    <string name="edge_light_stroke_width_title">Espessura</string>
+    <string name="edge_light_stroke_width_summary">Largura da luz em dp</string>
+    <string name="edge_light_spread_summary">Até onde o brilho vai a partir da borda</string>
+    <string name="edge_light_intensity_summary">Força do brilho. 0 desativa</string>
+    <string name="edge_light_moments_title">Momentos</string>
+    <string name="edge_light_moment_alarms">Alarme e temporizador</string>
+    <string name="edge_light_moment_plugged">Conectado</string>
+    <string name="edge_light_moment_color">Mudar cor</string>
+    <string name="edge_light_moments_footer">Toque no ponto de um momento para mudar a cor. Chamadas e alarmes acendem enquanto tocam, mesmo no modo silencioso. Os outros momentos não aparecem no Não incomodar.</string>
+    <string name="edge_light_look_title">Aparência</string>
 </resources>

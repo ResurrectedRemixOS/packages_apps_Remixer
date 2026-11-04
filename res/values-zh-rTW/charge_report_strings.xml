@@ -4,4 +4,30 @@
     <string name="charge_report_battery">"電池"</string>
     <string name="charge_report_temp">"溫度"</string>
     <string name="charge_report_time">"時間"</string>
+    <string name="charge_report_title">充電報告</string>
+    <string name="charge_report_summary">拔掉充電器時顯示每次充電摘要</string>
+    <string name="charge_report_min_title">僅在至少充入以下電量時</string>
+    <string-array name="charge_report_keep_entries">
+        <item>3 天</item>
+        <item>7 天</item>
+        <item>14 天</item>
+        <item>30 天</item>
+    </string-array>
+    <string name="charge_report_history_days">最近 <xliff:g id="days" example="7">%1$d</xliff:g> 天</string>
+    <string name="charge_report_today">今天，<xliff:g id="time" example="10:34">%1$s</xliff:g></string>
+    <string name="charge_report_yesterday">昨天，<xliff:g id="time" example="23:40">%1$s</xliff:g></string>
+    <string name="charge_report_minutes"><xliff:g id="minutes" example="31">%1$d</xliff:g> 分鐘</string>
+    <string name="charge_report_hours"><xliff:g id="hours" example="6">%1$d</xliff:g> 小時 <xliff:g id="minutes" example="02">%2$02d</xliff:g> 分鐘</string>
+    <string name="charge_report_watts">瓦</string>
+    <string name="charge_report_added">充入</string>
+    <string name="charge_report_peak">峰值</string>
+    <string name="charge_report_average">平均</string>
+    <string name="charge_report_max_temp">最高溫度</string>
+    <string name="charge_report_charger">充電器</string>
+    <string name="charge_report_started">起始電量</string>
+    <string name="charge_report_wired">有線</string>
+    <string name="charge_report_wireless">無線</string>
+    <string name="charge_report_dock">底座</string>
+    <string name="charge_report_empty">還沒有充電記錄</string>
+    <string name="charge_report_footer">連線電源時，SystemUI 每 30 秒讀取一次電池的電流、電壓和溫度。瓦數由手機測得，因此可能與充電器上的數字不同。報告保留在手機上，不會上傳任何內容。</string>
 </resources>

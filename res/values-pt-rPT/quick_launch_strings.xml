@@ -6,4 +6,20 @@
     <string name="quick_launch_timer">Temporizador</string>
     <string name="quick_launch_undo">"Anular"</string>
     <string name="quick_launch_off">"Desativado"</string>
+    <string name="quick_launch_title">Início rápido</string>
+    <string name="quick_launch_main">Início rápido por digital</string>
+    <string name="quick_launch_main_summary">Mantenha o dedo no sensor após desbloquear para abrir um atalho</string>
+    <string name="quick_launch_hint">Toque em um atalho para mudar, mantenha premido para remover ou arraste para reordenar.</string>
+    <string name="quick_launch_behavior">Comportamento</string>
+    <string name="quick_launch_hold">Tempo de pressão</string>
+    <string name="quick_launch_haptics">Vibrar em cada atalho</string>
+    <string name="quick_launch_add">Adicionar</string>
+    <string name="quick_launch_video">Vídeo</string>
+    <string name="quick_launch_qr">Ler QR</string>
+    <string name="quick_launch_app">App…</string>
+    <string name="quick_launch_removed"><xliff:g id="shortcut" example="Camera">%1$s</xliff:g> removido</string>
+    <plurals name="quick_launch_on">
+        <item quantity="one">Ativado · <xliff:g id="count" example="4">%d</xliff:g> atalho</item>
+        <item quantity="other">Ativado · <xliff:g id="count" example="4">%d</xliff:g> atalhos</item>
+    </plurals>
 </resources>

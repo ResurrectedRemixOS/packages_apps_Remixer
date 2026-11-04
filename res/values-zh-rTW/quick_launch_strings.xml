@@ -6,4 +6,19 @@
     <string name="quick_launch_timer">計時器</string>
     <string name="quick_launch_undo">"復原"</string>
     <string name="quick_launch_off">"關閉"</string>
+    <string name="quick_launch_title">快速啟動</string>
+    <string name="quick_launch_main">指紋快速啟動</string>
+    <string name="quick_launch_main_summary">解鎖後手指停留在感測器上可開啟快捷方式</string>
+    <string name="quick_launch_hint">點按快捷方式可更改，按住可移除，拖動可調整順序。</string>
+    <string name="quick_launch_behavior">行為</string>
+    <string name="quick_launch_hold">按住時長</string>
+    <string name="quick_launch_haptics">每個快捷方式時振動</string>
+    <string name="quick_launch_add">新增</string>
+    <string name="quick_launch_video">影片</string>
+    <string name="quick_launch_qr">掃描QR 圖碼</string>
+    <string name="quick_launch_app">應用程式…</string>
+    <string name="quick_launch_removed">已移除<xliff:g id="shortcut" example="Camera">%1$s</xliff:g></string>
+    <plurals name="quick_launch_on">
+        <item quantity="other">開啟 · <xliff:g id="count" example="4">%d</xliff:g> 個快捷方式</item>
+    </plurals>
 </resources>
