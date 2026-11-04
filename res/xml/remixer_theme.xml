@@ -7,7 +7,7 @@
         android:key="remixer_looks"
         android:title="@string/looks_title"
         android:summary="@string/looks_summary" />
-    <lineageos.preference.SystemSettingListPreference
+    <com.resurrection.settings.preferences.SystemSettingListPreference
         android:key="rr_look_roulette"
         android:title="@string/look_roulette_title"
         android:summary="%s"
