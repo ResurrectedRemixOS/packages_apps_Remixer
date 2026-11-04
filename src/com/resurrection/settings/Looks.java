@@ -42,6 +42,13 @@ public final class Looks {
     static final String WALLPAPER = "rr_wallpaper";
     static final String WALLPAPER_ID = "rr_wallpaper_id";
     static final String BOOT_PROP = "persist.sys.bootanimation_style";
+    static final String STAGE = "rr_lock_stage";
+    static final String HAPTIC_PATTERNS = "rr_haptic_patterns";
+    static final String HAPTIC_ASSIGN = "rr_haptic_assign";
+    /** The Look a Mode, the tile or the roulette put on last. */
+    static final String CURRENT = "rr_look_current";
+    /** Edge light moments with a color of their own, saved under "edge_moments". */
+    static final String[] EDGE_MOMENTS = {"calls", "alarms", "plugged", "battery_low", "unlock"};
 
     static final int P_ACCENT = 0;
     static final int P_QS = 1;
@@ -51,7 +58,9 @@ public final class Looks {
     static final int P_EDGE = 5;
     static final int P_WALLPAPER = 6;
     static final int P_BOOT = 7;
-    static final int PARTS = 8;
+    static final int P_STAGE = 8;
+    static final int P_HAPTICS = 9;
+    static final int PARTS = 10;
 
     private Looks() {}
 
@@ -181,6 +190,30 @@ public final class Looks {
                 Settings.System.putStringForUser(context.getContentResolver(), EDGE_STYLE,
                         look.getString("edge_style"), UserHandle.USER_CURRENT);
             }
+            if (parts[P_EDGE] && look.has("edge_moments")) {
+                JSONObject moments = look.getJSONObject("edge_moments");
+                for (String moment : EDGE_MOMENTS) {
+                    String value = moments.optString(moment);
+                    putSystem(context, "edge_light_moment_" + moment + "_color",
+                            value.startsWith("#") ? color(value, 0) : 0);
+                }
+            }
+            if (parts[P_STAGE] && look.has("stage")) {
+                JSONObject stage = look.optJSONObject("stage");
+                Settings.System.putStringForUser(context.getContentResolver(), STAGE,
+                        stage != null && stage.length() > 0 ? stage.toString() : null,
+                        UserHandle.USER_CURRENT);
+            }
+            if (parts[P_HAPTICS] && look.has("haptic_patterns")) {
+                Settings.System.putStringForUser(context.getContentResolver(), HAPTIC_PATTERNS,
+                        look.getJSONArray("haptic_patterns").toString(), UserHandle.USER_CURRENT);
+                Settings.System.putStringForUser(context.getContentResolver(), HAPTIC_ASSIGN,
+                        look.optJSONObject("haptic_assign") != null
+                                ? look.getJSONObject("haptic_assign").toString() : "{}",
+                        UserHandle.USER_CURRENT);
+            }
+            Settings.System.putStringForUser(context.getContentResolver(), CURRENT,
+                    look.optString("name"), UserHandle.USER_CURRENT);
             if (parts[P_BOOT] && look.has("boot")) {
                 SystemProperties.set(BOOT_PROP, String.valueOf(look.getInt("boot")));
             }
