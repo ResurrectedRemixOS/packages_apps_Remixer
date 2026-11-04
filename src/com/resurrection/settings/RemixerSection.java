@@ -24,6 +24,7 @@ import java.util.Locale;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 import com.resurrection.settings.haptics.HapticRemixActivity;
+import com.resurrection.settings.stage.LockStageActivity;
 
 /**
  * One Remixer section, picked by the "section" extra of its hub entry: a banner in the
@@ -259,6 +260,8 @@ public class RemixerSection extends SettingsPreferenceFragment {
                 return new Intent(getContext(), HeaderActivity.class);
             case "remixer_boot_animation":
                 return new Intent(getContext(), BootAnimationActivity.class);
+            case "remixer_lock_stage":
+                return new Intent(getContext(), LockStageActivity.class);
             case "remixer_clock_faces":
                 return new Intent(getContext(), ClockFaceActivity.class);
             case "remixer_looks":

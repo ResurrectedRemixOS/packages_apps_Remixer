@@ -7,6 +7,11 @@
         android:title="@string/remixer_clock_faces" />
 
     <Preference
+        android:key="remixer_lock_stage"
+        android:title="@string/lock_stage_title"
+        android:summary="@string/lock_stage_summary" />
+
+    <Preference
         android:key="remixer_udfps_icon"
         android:title="@string/remixer_udfps_icon"
         android:summary="@string/remixer_udfps_icon_summary" />
