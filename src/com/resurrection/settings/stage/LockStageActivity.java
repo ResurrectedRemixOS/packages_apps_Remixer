@@ -115,9 +115,12 @@ public class LockStageActivity extends CollapsingToolbarBaseActivity {
         list.addView(mTabs);
         fillTabs();
 
-        int width = Math.min(getResources().getDisplayMetrics().widthPixels - dp(32), dp(340));
+        // The stage keeps the phone's shape but leaves room under it for the tray and Save.
+        int height = Math.min(getResources().getDisplayMetrics().widthPixels * 39 / 18,
+                getResources().getDisplayMetrics().heightPixels / 2);
+        int width = height * 18 / 39;
         mStage = new StageView(mThemed);
-        list.addView(mStage, new LinearLayout.LayoutParams(width, width * 39 / 18) {{
+        list.addView(mStage, new LinearLayout.LayoutParams(width, height) {{
             gravity = android.view.Gravity.CENTER_HORIZONTAL;
         }});
 
@@ -625,7 +628,6 @@ public class LockStageActivity extends CollapsingToolbarBaseActivity {
         public boolean onTouchEvent(MotionEvent event) {
             switch (event.getActionMasked()) {
                 case MotionEvent.ACTION_DOWN: {
-                    getParent().requestDisallowInterceptTouchEvent(true);
                     mTouched = null;
                     float x = event.getX();
                     float y = event.getY();
@@ -648,7 +650,9 @@ public class LockStageActivity extends CollapsingToolbarBaseActivity {
                         }
                     }
                     select(mTouched);
+                    // Only a touched tile holds the page still; empty cells let it scroll.
                     if (mTouched == null) return true;
+                    getParent().requestDisallowInterceptTouchEvent(true);
                     mDownX = x;
                     mDownY = y;
                     mStartX = mTouched.x;
