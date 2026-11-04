@@ -13,11 +13,6 @@
         android:defaultValue="true" />
 
     <Preference
-        android:key="remixer_lock_stage"
-        android:title="@string/lock_stage_title"
-        android:summary="@string/lock_stage_summary" />
-
-    <Preference
         android:key="remixer_nightstand"
         android:title="@string/nightstand_title"
         android:summary="@string/nightstand_summary"

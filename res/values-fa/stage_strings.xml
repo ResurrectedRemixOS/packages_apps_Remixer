@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lock_stage_reset">"بازنشانی"</string>
-    <string name="lock_stage_save">"ذخیره"</string>
-    <string name="stage_tile_clock">"ساعت"</string>
-    <string name="stage_tile_weather">آب و هوا</string>
-    <string name="stage_tile_shortcuts">"میان‌برها"</string>
-    <string name="stage_tile_toggles">تغییر</string>
-</resources>

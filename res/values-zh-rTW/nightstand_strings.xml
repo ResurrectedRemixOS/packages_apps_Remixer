@@ -2,7 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"時間"</string>
     <string name="nightstand_face">時鐘樣式</string>
-    <string name="lock_stage_tab_lock">"螢幕鎖定"</string>
     <string name="nightstand_title">床頭時鐘</string>
     <string name="nightstand_summary">夜間充電時在螢幕保持開啟上顯示昏暗的床頭時鐘</string>
     <string-array name="nightstand_when_entries">
@@ -16,10 +15,5 @@
     <string name="nightstand_brightness">亮度上限</string>
     <string name="nightstand_brightness_summary">床頭時鐘開啟時螢幕保持開啟的最高亮度</string>
     <string name="nightstand_face_keep">保留當前錶盤</string>
-    <string name="nightstand_layout">修改佈局</string>
-    <string name="nightstand_layout_summary">床頭時鐘有自己的 Lock Stage：預設包含時鐘、鬧鐘和電池環</string>
     <string name="nightstand_footer">床頭時鐘執行時會開啟螢幕保持開啟，結束後恢復。拔掉充電器、鬧鐘響起或夜晚結束時停止。錶盤只會在兩個自定義錶盤之間切換；系統時鐘不變。</string>
-    <string name="lock_stage_tab_page">第 <xliff:g id="number" example="2">%d</xliff:g> 頁</string>
-    <string name="lock_stage_remove_page">要移除第 <xliff:g id="number" example="2">%d</xliff:g> 頁嗎？</string>
-    <string name="lock_stage_tab_night">床頭時鐘</string>
 </resources>

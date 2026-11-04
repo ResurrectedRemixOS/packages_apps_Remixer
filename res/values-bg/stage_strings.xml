@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lock_stage_reset">"Нулиране"</string>
-    <string name="lock_stage_save">"Запазване"</string>
-    <string name="stage_tile_clock">"Часовник"</string>
-    <string name="stage_tile_weather">"Времето"</string>
-    <string name="stage_tile_shortcuts">"Преки пътища"</string>
-</resources>

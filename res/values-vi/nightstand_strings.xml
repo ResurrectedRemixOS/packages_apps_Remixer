@@ -2,5 +2,4 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Khi"</string>
     <string name="nightstand_face">Mặt đồng hồ</string>
-    <string name="lock_stage_tab_lock">"Màn hình khóa"</string>
 </resources>

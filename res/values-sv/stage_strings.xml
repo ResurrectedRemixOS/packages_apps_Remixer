@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lock_stage_reset">"Återställ"</string>
-    <string name="lock_stage_save">"Spara"</string>
-    <string name="stage_tile_clock">"Klocka"</string>
-    <string name="stage_tile_weather">"Väder"</string>
-    <string name="stage_tile_shortcuts">"Genvägar"</string>
-    <string name="stage_tile_battery">Batteriring</string>
-</resources>

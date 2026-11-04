@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lock_stage_reset">"Sıfırlayın"</string>
-    <string name="lock_stage_save">"Yadda saxlayın"</string>
-    <string name="stage_tile_clock">"Saat"</string>
-    <string name="stage_tile_weather">"Hava"</string>
-    <string name="stage_tile_shortcuts">"Qısayollar"</string>
-</resources>

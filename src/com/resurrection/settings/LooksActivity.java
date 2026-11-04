@@ -88,17 +88,15 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
     private static final int P_EDGE = 5;
     private static final int P_WALLPAPER = 6;
     private static final int P_BOOT = 7;
-    private static final int P_STAGE = 8;
-    private static final int P_HAPTICS = 9;
+    private static final int P_HAPTICS = 8;
     private static final int[] PART_LABELS = {R.string.looks_part_accent, R.string.looks_part_qs,
             R.string.looks_part_clock_face, R.string.looks_part_font,
             R.string.looks_part_clock_look, R.string.looks_part_edge,
-            R.string.looks_part_wallpaper, R.string.looks_part_boot, R.string.looks_part_stage,
-            R.string.looks_part_haptics};
+            R.string.looks_part_wallpaper, R.string.looks_part_boot, R.string.looks_part_haptics};
     /** The look keys each part covers. */
     private static final String[][] PART_KEYS = {{"accent", "saturation"}, {"qs_style"},
             {"clock_face", "clock_color"}, {"font"}, {"clock_look", "clock_chip"},
-            {"edge", "edge_style", "edge_moments"}, {"wallpaper"}, {"boot"}, {"stage"},
+            {"edge", "edge_style", "edge_moments"}, {"wallpaper"}, {"boot"},
             {"haptic_patterns", "haptic_assign"}};
 
     private Context mThemed;
@@ -347,12 +345,6 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
             case P_BOOT:
                 text.append(entry(R.array.boot_animation_names, look.optInt("boot")));
                 break;
-            case P_STAGE: {
-                JSONObject stage = look.optJSONObject("stage");
-                text.append(getString(stage != null && stage.length() > 0
-                        ? R.string.looks_stage_custom : R.string.looks_stage_default));
-                break;
-            }
             case P_HAPTICS: {
                 JSONArray patterns = look.optJSONArray("haptic_patterns");
                 int count = patterns != null ? patterns.length() : 0;
@@ -504,10 +496,6 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
                 moments.put(moment, color != 0 ? String.format("#%06X", color & 0xFFFFFF) : "accent");
             }
             look.put("edge_moments", moments);
-            String stage = Settings.System.getStringForUser(getContentResolver(), Looks.STAGE,
-                    UserHandle.USER_CURRENT);
-            look.put("stage", stage != null && !stage.isEmpty() ? new JSONObject(stage)
-                    : new JSONObject());
             String patterns = Settings.System.getStringForUser(getContentResolver(),
                     Looks.HAPTIC_PATTERNS, UserHandle.USER_CURRENT);
             String assign = Settings.System.getStringForUser(getContentResolver(),

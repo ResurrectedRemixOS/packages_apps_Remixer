@@ -33,10 +33,7 @@
     <string name="looks_part_clock_face">Zifferblatt des Sperrbildschirms</string>
     <string name="looks_part_clock_look">Uhr der Statusleiste</string>
     <string name="looks_part_edge">Randbeleuchtung</string>
-    <string name="looks_part_stage">Lock Stage-Layout</string>
     <string name="looks_part_haptics">Haptic Remix-Muster</string>
-    <string name="looks_stage_custom">Dein Layout</string>
-    <string name="looks_stage_default">Standardlayout</string>
     <plurals name="looks_haptic_patterns">
         <item quantity="one">%d Muster und seine Zuweisungen</item>
         <item quantity="other">%d Muster und ihre Zuweisungen</item>

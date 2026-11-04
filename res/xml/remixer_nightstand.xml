@@ -39,11 +39,6 @@
         android:defaultValue="-1" />
 
     <Preference
-        android:key="rr_nightstand_layout"
-        android:title="@string/nightstand_layout"
-        android:summary="@string/nightstand_layout_summary" />
-
-    <Preference
         android:key="rr_nightstand_footer"
         android:summary="@string/nightstand_footer"
         android:selectable="false" />

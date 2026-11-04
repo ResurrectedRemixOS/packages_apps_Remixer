@@ -33,10 +33,7 @@
     <string name="looks_part_clock_face">锁定屏幕表盘</string>
     <string name="looks_part_clock_look">状态栏时钟</string>
     <string name="looks_part_edge">边缘灯效</string>
-    <string name="looks_part_stage">Lock Stage 布局</string>
     <string name="looks_part_haptics">Haptic Remix 模式</string>
-    <string name="looks_stage_custom">你的布局</string>
-    <string name="looks_stage_default">默认布局</string>
     <plurals name="looks_haptic_patterns">
         <item quantity="other">%d 个振动模式及其分配</item>
     </plurals>

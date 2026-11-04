@@ -33,10 +33,7 @@
     <string name="looks_part_clock_face">Kilit ekranı saat kadranı</string>
     <string name="looks_part_clock_look">Durum çubuğu saati</string>
     <string name="looks_part_edge">Kenar aydınlatması</string>
-    <string name="looks_part_stage">Lock Stage düzeni</string>
     <string name="looks_part_haptics">Haptic Remix desenleri</string>
-    <string name="looks_stage_custom">Düzeniniz</string>
-    <string name="looks_stage_default">Varsayılan düzen</string>
     <plurals name="looks_haptic_patterns">
         <item quantity="one">%d desen ve atamaları</item>
         <item quantity="other">%d desen ve atamaları</item>

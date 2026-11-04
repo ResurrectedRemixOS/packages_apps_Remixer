@@ -2,7 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">Waktu</string>
     <string name="nightstand_face">Gaya Jam</string>
-    <string name="lock_stage_tab_lock">"Layar kunci"</string>
     <string name="nightstand_title">Nakas</string>
     <string name="nightstand_summary">Jam redup samping tempat tidur di layar selalu aktif saat mengisi daya malam hari</string>
     <string-array name="nightstand_when_entries">
@@ -16,10 +15,5 @@
     <string name="nightstand_brightness">Batas kecerahan</string>
     <string name="nightstand_brightness_summary">Seberapa terang layar selalu aktif saat Nakas aktif</string>
     <string name="nightstand_face_keep">Pertahankan tampilan saat ini</string>
-    <string name="nightstand_layout">Edit tata letak</string>
-    <string name="nightstand_layout_summary">Nakas punya Lock Stage sendiri: jam, alarm, dan cincin baterai sebagai awalan</string>
     <string name="nightstand_footer">Nakas mengaktifkan layar selalu aktif selama berjalan dan mengembalikannya setelahnya. Berakhir saat pengisi daya dilepas, alarm berdering, atau malam berakhir. Tampilan hanya berganti antara dua tampilan kustom; jam sistem tetap.</string>
-    <string name="lock_stage_tab_page">Halaman <xliff:g id="number" example="2">%d</xliff:g></string>
-    <string name="lock_stage_remove_page">Hapus halaman <xliff:g id="number" example="2">%d</xliff:g>?</string>
-    <string name="lock_stage_tab_night">Nakas</string>
 </resources>

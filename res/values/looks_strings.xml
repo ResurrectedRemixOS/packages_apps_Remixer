@@ -30,10 +30,7 @@
     <string name="looks_part_edge">Edge lighting</string>
     <string name="looks_part_wallpaper">Wallpaper</string>
     <string name="looks_part_boot">Boot animation</string>
-    <string name="looks_part_stage">Lock Stage layout</string>
     <string name="looks_part_haptics">Haptic Remix patterns</string>
-    <string name="looks_stage_custom">Your layout</string>
-    <string name="looks_stage_default">Stock layout</string>
     <plurals name="looks_haptic_patterns">
         <item quantity="one">%d pattern and its assignments</item>
         <item quantity="other">%d patterns and their assignments</item>

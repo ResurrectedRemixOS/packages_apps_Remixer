@@ -2,7 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="nightstand_when">"Quando"</string>
     <string name="nightstand_face">Estilo do relógio</string>
-    <string name="lock_stage_tab_lock">"Ecrã de bloqueio"</string>
     <string name="nightstand_title">Mesa de cabeceira</string>
     <string name="nightstand_summary">Um relógio discreto no ecrã sempre ativo ao carregar à noite</string>
     <string-array name="nightstand_when_entries">
@@ -16,10 +15,5 @@
     <string name="nightstand_brightness">Limite de brilho</string>
     <string name="nightstand_brightness_summary">Até que brilho o ecrã sempre ativo pode chegar com a Mesa de cabeceira ativado</string>
     <string name="nightstand_face_keep">Manter o mostrador atual</string>
-    <string name="nightstand_layout">Editar o layout</string>
-    <string name="nightstand_layout_summary">A Mesa de cabeceira tem o próprio Lock Stage: o relógio, o alarme e o anel de bateria para começar</string>
     <string name="nightstand_footer">A Mesa de cabeceira ativa o ecrã sempre ativo enquanto funciona e a restaura depois. Ele termina quando o carregador sai, o alarme toca ou a noite acaba. Ele só troca entre dois mostradores personalizados; o relógio do sistema permanece.</string>
-    <string name="lock_stage_tab_page">Página <xliff:g id="number" example="2">%d</xliff:g></string>
-    <string name="lock_stage_remove_page">Remover a página <xliff:g id="number" example="2">%d</xliff:g>?</string>
-    <string name="lock_stage_tab_night">Mesa de cabeceira</string>
 </resources>

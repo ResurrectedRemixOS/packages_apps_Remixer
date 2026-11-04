@@ -33,10 +33,7 @@
     <string name="looks_part_clock_face">Циферблат экрана блокировки</string>
     <string name="looks_part_clock_look">Часы в строке состояния</string>
     <string name="looks_part_edge">Подсветка краёв</string>
-    <string name="looks_part_stage">Макет Lock Stage</string>
     <string name="looks_part_haptics">Узоры Haptic Remix</string>
-    <string name="looks_stage_custom">Ваш макет</string>
-    <string name="looks_stage_default">Стандартный макет</string>
     <plurals name="looks_haptic_patterns">
         <item quantity="one">%d узор и его назначения</item>
         <item quantity="few">%d узора и их назначения</item>

@@ -33,10 +33,7 @@
     <string name="looks_part_clock_face">Mostrador da tela de bloqueio</string>
     <string name="looks_part_clock_look">Relógio da barra de status</string>
     <string name="looks_part_edge">Iluminação das bordas</string>
-    <string name="looks_part_stage">Layout do Lock Stage</string>
     <string name="looks_part_haptics">Padrões do Haptic Remix</string>
-    <string name="looks_stage_custom">Seu layout</string>
-    <string name="looks_stage_default">Layout original</string>
     <plurals name="looks_haptic_patterns">
         <item quantity="one">%d padrão e suas atribuições</item>
         <item quantity="other">%d padrões e suas atribuições</item>

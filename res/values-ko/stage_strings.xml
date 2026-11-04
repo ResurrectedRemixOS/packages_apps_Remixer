@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lock_stage_reset">"재설정"</string>
-    <string name="lock_stage_save">"저장"</string>
-    <string name="stage_tile_clock">"시계"</string>
-    <string name="stage_tile_weather">"날씨"</string>
-    <string name="stage_tile_shortcuts">"바로가기"</string>
-    <string name="stage_tile_battery">배터리 링</string>
-</resources>

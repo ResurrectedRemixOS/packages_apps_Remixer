@@ -31,10 +31,7 @@
     <string name="looks_part_clock_look">Jam status bar</string>
     <string name="looks_part_edge">Lampu tepi</string>
     <string name="looks_part_wallpaper">Wallpaper</string>
-    <string name="looks_part_stage">Tata letak Lock Stage</string>
     <string name="looks_part_haptics">Pola Haptic Remix</string>
-    <string name="looks_stage_custom">Tata letak Anda</string>
-    <string name="looks_stage_default">Tata letak bawaan</string>
     <plurals name="looks_haptic_patterns">
         <item quantity="other">%d pola dan penetapannya</item>
     </plurals>

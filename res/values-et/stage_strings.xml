@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lock_stage_reset">"Lähtesta"</string>
-    <string name="lock_stage_save">"Salvesta"</string>
-    <string name="stage_tile_clock">"Kell"</string>
-    <string name="stage_tile_weather">"Ilm"</string>
-    <string name="stage_tile_shortcuts">"Otseteed"</string>
-</resources>

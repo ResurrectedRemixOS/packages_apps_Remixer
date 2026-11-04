@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lock_stage_reset">"Επαναφορά"</string>
-    <string name="lock_stage_save">"Αποθήκευση"</string>
-    <string name="stage_tile_clock">"Ρολόι"</string>
-    <string name="stage_tile_weather">"Καιρός"</string>
-    <string name="stage_tile_shortcuts">"Συντομεύσεις"</string>
-</resources>

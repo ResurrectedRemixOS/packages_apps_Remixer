@@ -33,10 +33,7 @@
     <string name="looks_part_clock_face">Cadran de l\'écran de verrouillage</string>
     <string name="looks_part_clock_look">Horloge de la barre d\'état</string>
     <string name="looks_part_edge">Éclairage des bords</string>
-    <string name="looks_part_stage">Disposition de Lock Stage</string>
     <string name="looks_part_haptics">Motifs Haptic Remix</string>
-    <string name="looks_stage_custom">Votre disposition</string>
-    <string name="looks_stage_default">Disposition d\'origine</string>
     <plurals name="looks_haptic_patterns">
         <item quantity="one">%d motif et ses attributions</item>
         <item quantity="other">%d motifs et leurs attributions</item>

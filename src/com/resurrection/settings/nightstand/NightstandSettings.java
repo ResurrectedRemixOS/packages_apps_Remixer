@@ -5,7 +5,6 @@
 package com.resurrection.settings.nightstand;
 
 import android.app.TimePickerDialog;
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.Settings;
@@ -17,7 +16,6 @@ import androidx.preference.Preference;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.resurrection.settings.stage.LockStageActivity;
 
 import java.util.Calendar;
 
@@ -26,7 +24,6 @@ public class NightstandSettings extends SettingsPreferenceFragment {
     static final String KEY_FROM = "rr_nightstand_from";
     static final String KEY_TO = "rr_nightstand_to";
     static final String KEY_FACE = "rr_nightstand_face";
-    static final String KEY_LAYOUT = "rr_nightstand_layout";
     private static final int DEFAULT_FROM = 22 * 60;
     private static final int DEFAULT_TO = 7 * 60;
 
@@ -50,12 +47,6 @@ public class NightstandSettings extends SettingsPreferenceFragment {
         face.setEntries(entries);
         face.setEntryValues(values);
         if (face.getValue() == null) face.setValue("-1");
-
-        findPreference(KEY_LAYOUT).setOnPreferenceClickListener(p -> {
-            startActivity(new Intent(getContext(), LockStageActivity.class)
-                    .putExtra(LockStageActivity.EXTRA_NIGHT, true));
-            return true;
-        });
     }
 
     /** A time of day kept as minutes since midnight. */

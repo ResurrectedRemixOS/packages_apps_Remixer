@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lock_stage_reset">"மீட்டமை"</string>
-    <string name="lock_stage_save">"சேமி"</string>
-    <string name="stage_tile_clock">"கடிகாரம்"</string>
-    <string name="stage_tile_weather">"வானிலை"</string>
-    <string name="stage_tile_shortcuts">"ஷார்ட்கட்கள்"</string>
-</resources>

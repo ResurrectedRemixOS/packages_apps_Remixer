@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lock_stage_reset">"ରିସେଟ କରନ୍ତୁ"</string>
-    <string name="lock_stage_save">"ସେଭ କରନ୍ତୁ"</string>
-    <string name="stage_tile_clock">"ଘଣ୍ଟା"</string>
-    <string name="stage_tile_shortcuts">"ସର୍ଟକଟ"</string>
-</resources>

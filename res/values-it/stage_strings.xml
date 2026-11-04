@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lock_stage_reset">"Reimposta"</string>
-    <string name="lock_stage_save">"Salva"</string>
-    <string name="stage_tile_clock">"Orologio"</string>
-    <string name="stage_tile_weather">Meteo</string>
-    <string name="stage_tile_shortcuts">"Scorciatoie"</string>
-    <string name="stage_tile_battery">Anello batteria</string>
-</resources>

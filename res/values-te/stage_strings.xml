@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lock_stage_reset">"రీసెట్ చేయండి"</string>
-    <string name="lock_stage_save">"సేవ్ చేయండి"</string>
-    <string name="stage_tile_clock">"గడియారం"</string>
-    <string name="stage_tile_weather">"వాతావరణం"</string>
-    <string name="stage_tile_shortcuts">"షార్ట్‌కట్‌లు"</string>
-</resources>

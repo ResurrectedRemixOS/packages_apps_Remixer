@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lock_stage_reset">"റീസെറ്റ് ചെയ്യുക"</string>
-    <string name="lock_stage_save">"സംരക്ഷിക്കുക"</string>
-    <string name="stage_tile_clock">"ക്ലോക്ക്"</string>
-    <string name="stage_tile_weather">"കാലാവസ്ഥ"</string>
-    <string name="stage_tile_shortcuts">"കുറുക്കുവഴികൾ"</string>
-</resources>

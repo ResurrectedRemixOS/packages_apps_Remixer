@@ -43,7 +43,6 @@ public final class Looks {
     static final String WALLPAPER = "rr_wallpaper";
     static final String WALLPAPER_ID = "rr_wallpaper_id";
     static final String BOOT_PROP = "persist.sys.bootanimation_style";
-    static final String STAGE = "rr_lock_stage";
     static final String HAPTIC_PATTERNS = "rr_haptic_patterns";
     static final String HAPTIC_ASSIGN = "rr_haptic_assign";
     /** The Look a Mode, the tile or the roulette put on last. */
@@ -59,9 +58,8 @@ public final class Looks {
     static final int P_EDGE = 5;
     static final int P_WALLPAPER = 6;
     static final int P_BOOT = 7;
-    static final int P_STAGE = 8;
-    static final int P_HAPTICS = 9;
-    static final int PARTS = 10;
+    static final int P_HAPTICS = 8;
+    static final int PARTS = 9;
 
     private Looks() {}
 
@@ -198,12 +196,6 @@ public final class Looks {
                     putSystem(context, "edge_light_moment_" + moment + "_color",
                             value.startsWith("#") ? color(value, 0) : 0);
                 }
-            }
-            if (parts[P_STAGE] && look.has("stage")) {
-                JSONObject stage = look.optJSONObject("stage");
-                Settings.System.putStringForUser(context.getContentResolver(), STAGE,
-                        stage != null && stage.length() > 0 ? stage.toString() : null,
-                        UserHandle.USER_CURRENT);
             }
             if (parts[P_HAPTICS] && look.has("haptic_patterns")) {
                 Settings.System.putStringForUser(context.getContentResolver(), HAPTIC_PATTERNS,
