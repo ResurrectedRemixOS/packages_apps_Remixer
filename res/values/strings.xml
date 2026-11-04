@@ -175,7 +175,7 @@
     <string name="accent_saturation_value"><xliff:g id="percent" example="80">%1$d</xliff:g>%%</string>
     <string name="remixer_qs_style">QS style</string>
     <string name="remixer_qs_customize">Customize</string>
-    <string name="remixer_qs_customize_summary">Open Quick settings and tap the pencil. Tap a tile for its options, like the Media tile\'s player, or open Customize for the whole panel.</string>
+    <string name="remixer_qs_customize_summary">Open Quick settings and tap the pencil. Tap a tile for its options and look, hold it to move it, drag its corner to resize it, and use the tabs below the panel for the whole panel.</string>
     <string name="remixer_qs_style_section">Style</string>
     <string name="remixer_qs_style_preview">Preview \u00b7 %1$s</string>
     <string name="remixer_qs_style_note">Every style follows your accent color. The volume panel has matching Bento, Shapes, Blueprint, Duo and Soft looks. Stock Lineage keeps the Android 17 tiles untouched.</string>
