@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/quick_switch_title">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="quick_switch_picker"
+        android:layout="@layout/remixer_quick_switch_picker"
+        android:selectable="false" />
+
+    <lineageos.preference.LineageSystemSettingSwitchPreference
+        android:key="double_tap_sleep_gesture"
+        android:title="@string/quick_switch_double_tap_title"
+        android:summary="@string/quick_switch_double_tap_summary"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="quick_switch_hide_pill"
+        android:title="@string/quick_switch_hide_pill_title"
+        android:persistent="false" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="quick_switch_restart"
+        android:layout="@layout/remixer_quick_switch_restart"
+        android:selectable="false" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="quick_switch_foot"
+        android:title="@string/quick_switch_foot"
+        android:selectable="false" />
+
+</PreferenceScreen>

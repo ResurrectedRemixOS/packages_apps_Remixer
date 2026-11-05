@@ -89,6 +89,8 @@ public class RemixerSection extends SettingsPreferenceFragment {
         bindStage(banner, section, context);
         getPreferenceScreen().addPreference(banner);
 
+        removeUnless("misc_launcher",
+                com.resurrection.settings.quickswitch.QuickSwitchSettings.isAvailable());
         removeUnless("remixer_udfps_icon", UdfpsActivity.hasIcons(context));
         removeUnless("remixer_udfps_animation", UdfpsActivity.hasAnimations(context));
         removeUnless("pocket_judge", context.getResources().getBoolean(
@@ -141,6 +143,11 @@ public class RemixerSection extends SettingsPreferenceFragment {
     @Override
     public void onResume() {
         super.onResume();
+        final Preference quickSwitch = findPreference("quick_switch_page");
+        if (quickSwitch != null) {
+            quickSwitch.setSummary(com.resurrection.settings.quickswitch.QuickSwitchSettings
+                    .currentName(getContext()));
+        }
         final Preference qsStyle = findPreference("remixer_qs_style");
         if (qsStyle != null) {
             qsStyle.setSummary(QsStyleActivity.currentName(getContext()));

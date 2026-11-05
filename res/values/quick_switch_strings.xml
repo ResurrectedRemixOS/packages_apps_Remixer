@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="misc_category_launcher">Launcher</string>
+    <string name="quick_switch_title">Quick switch</string>
+    <string name="quick_switch_intro">Your home screen and recents come from one launcher at a time.</string>
+    <string name="quick_switch_rr_launcher">RR Launcher</string>
+    <string name="quick_switch_pixel_launcher">Pixel Launcher</string>
+    <string name="quick_switch_in_use">In use</string>
+    <string name="quick_switch_selected">Selected</string>
+    <string name="quick_switch_double_tap_title">Double tap to sleep</string>
+    <string name="quick_switch_double_tap_summary">On empty space of the home screen</string>
+    <string name="quick_switch_hide_pill_title">Hide the gesture pill</string>
+    <string name="quick_switch_foot">Each launcher keeps its own home screen. Neon icons, Slim and Spin recents stay with RR Launcher.</string>
+    <string name="quick_switch_restart_into">Restart and use <xliff:g id="launcher" example="Pixel Launcher">%1$s</xliff:g></string>
+    <string name="quick_switch_confirm_title">Switch to <xliff:g id="launcher" example="Pixel Launcher">%1$s</xliff:g>?</string>
+    <string name="quick_switch_confirm_message">The phone restarts its system to switch. Open apps close. Your <xliff:g id="launcher" example="RR Launcher">%1$s</xliff:g> home screen stays saved for when you come back.</string>
+    <string name="quick_switch_confirm_restart">Restart</string>
+</resources>

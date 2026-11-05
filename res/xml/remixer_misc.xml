@@ -3,6 +3,17 @@
     android:title="@string/remixer_misc">
 
     <PreferenceCategory
+        android:key="misc_launcher"
+        android:title="@string/misc_category_launcher">
+
+        <Preference
+            android:key="quick_switch_page"
+            android:icon="@drawable/ic_misc_launcher"
+            android:title="@string/quick_switch_title"
+            android:fragment="com.resurrection.settings.quickswitch.QuickSwitchSettings" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="misc_volume"
         android:title="@string/misc_category_volume">
 
