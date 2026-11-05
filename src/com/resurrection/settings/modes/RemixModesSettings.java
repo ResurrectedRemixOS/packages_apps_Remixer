@@ -111,7 +111,8 @@ public class RemixModesSettings extends SettingsPreferenceFragment {
         choices.add(0, getString(R.string.remix_modes_no_change));
         int current = choices.indexOf(mMapping.optString(id));
         new MaterialAlertDialogBuilder(new ContextThemeWrapper(getContext(),
-                com.google.android.material.R.style.Theme_Material3_DynamicColors_DayNight))
+                com.google.android.material.R.style.Theme_Material3_DynamicColors_DayNight),
+                R.style.ThemeOverlay_Remixer_AlertDialog)
                 .setTitle(getString(R.string.remix_modes_pick, title))
                 .setSingleChoiceItems(choices.toArray(new CharSequence[0]),
                         Math.max(current, 0), (d, which) -> {

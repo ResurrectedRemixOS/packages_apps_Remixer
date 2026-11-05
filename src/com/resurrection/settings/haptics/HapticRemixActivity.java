@@ -289,7 +289,7 @@ public class HapticRemixActivity extends CollapsingToolbarBaseActivity {
     private void pickColor(JSONObject contact) {
         CharSequence[] names = new CharSequence[COLOR_NAMES.length];
         for (int i = 0; i < names.length; i++) names[i] = getString(COLOR_NAMES[i]);
-        new MaterialAlertDialogBuilder(mThemed)
+        new MaterialAlertDialogBuilder(mThemed, R.style.ThemeOverlay_Remixer_AlertDialog)
                 .setTitle(getString(R.string.haptic_remix_edge_color, contact.optString("name")))
                 .setSingleChoiceItems(names, colorIndex(contact.optString("color")), (d, which) -> {
                     try {
@@ -326,7 +326,7 @@ public class HapticRemixActivity extends CollapsingToolbarBaseActivity {
         List<CharSequence> choices = new ArrayList<>(names);
         choices.add(0, getString(R.string.haptic_remix_default));
         int current = Math.max(0, choices.indexOf(mAssign.optString(key)));
-        new MaterialAlertDialogBuilder(mThemed)
+        new MaterialAlertDialogBuilder(mThemed, R.style.ThemeOverlay_Remixer_AlertDialog)
                 .setTitle(title)
                 .setSingleChoiceItems(choices.toArray(new CharSequence[0]), current, (d, which) -> {
                     String name = which == 0 ? null : names.get(which - 1);

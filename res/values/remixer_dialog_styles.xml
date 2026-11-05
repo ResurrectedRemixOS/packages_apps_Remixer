@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Material's choice rows set their indicator with app:drawableStartCompat, which only
+         AppCompat's inflater reads. Remixer's hosts are plain FragmentActivities, so those rows
+         draw no checkbox or radio button. AppCompat's own rows use the platform attribute. -->
+    <style name="ThemeOverlay.Remixer.AlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="alertDialogStyle">@style/Remixer.AlertDialog</item>
+    </style>
+
+    <style name="Remixer.AlertDialog" parent="MaterialAlertDialog.Material3">
+        <item name="multiChoiceItemLayout">@layout/select_dialog_multichoice_material</item>
+        <item name="singleChoiceItemLayout">@layout/select_dialog_singlechoice_material</item>
+    </style>
+</resources>

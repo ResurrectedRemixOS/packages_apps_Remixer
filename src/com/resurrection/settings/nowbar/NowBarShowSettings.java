@@ -203,7 +203,7 @@ public class NowBarShowSettings extends SettingsPreferenceFragment {
         Set<String> chosen = liveApps();
         boolean[] checked = new boolean[packages.length];
         for (int i = 0; i < packages.length; i++) checked[i] = chosen.contains(packages[i]);
-        new MaterialAlertDialogBuilder(themed())
+        new MaterialAlertDialogBuilder(themed(), R.style.ThemeOverlay_Remixer_AlertDialog)
                 .setTitle(R.string.now_bar_live_apps)
                 .setMultiChoiceItems(labels, checked, (d, which, isChecked) -> {
                     if (isChecked) chosen.add(packages[which]); else chosen.remove(packages[which]);

@@ -188,7 +188,7 @@ public class QuickLaunchActivity extends CollapsingToolbarBaseActivity {
     }
 
     private void pickHold() {
-        new MaterialAlertDialogBuilder(themed())
+        new MaterialAlertDialogBuilder(themed(), R.style.ThemeOverlay_Remixer_AlertDialog)
                 .setTitle(R.string.quick_launch_hold)
                 .setSingleChoiceItems(R.array.quick_launch_hold_entries,
                         holdIndex(getInt(KEY_HOLD, 500)), (dialog, which) -> {

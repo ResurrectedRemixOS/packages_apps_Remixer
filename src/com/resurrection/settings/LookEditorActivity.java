@@ -411,7 +411,7 @@ public class LookEditorActivity extends CollapsingToolbarBaseActivity {
     }
 
     private void choose(int row, String[] names, int checked, OnChosen onChosen) {
-        new MaterialAlertDialogBuilder(mThemed)
+        new MaterialAlertDialogBuilder(mThemed, R.style.ThemeOverlay_Remixer_AlertDialog)
                 .setTitle(TITLES[row])
                 .setSingleChoiceItems(names, checked, (d, which) -> {
                     onChosen.chosen(which);

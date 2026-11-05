@@ -279,7 +279,7 @@ public class LooksActivity extends CollapsingToolbarBaseActivity {
             items[i] = getString(PART_LABELS[parts.get(i)]) + " · " + describe(look, parts.get(i));
             chosen[i] = true;
         }
-        MaterialAlertDialogBuilder dialog = new MaterialAlertDialogBuilder(mThemed)
+        MaterialAlertDialogBuilder dialog = new MaterialAlertDialogBuilder(mThemed, R.style.ThemeOverlay_Remixer_AlertDialog)
                 .setTitle(look.optString("name"))
                 .setMultiChoiceItems(items, chosen, (d, which, checked) -> chosen[which] = checked)
                 .setPositiveButton(R.string.looks_apply, (d, w) -> {
