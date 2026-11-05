@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Навигация, сапарлар, жеткізілімдер, ұпайлар</string>
     <string name="now_bar_scores">Тікелей ұпайлар</string>
     <string name="now_bar_live_apps">Live Updates үшін қолданбалар</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> қолданба</string>
     <string name="now_bar_pin">Әрдайым көрініп тұратын экранға бекітілген</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> бекітпесі алынсын ба?</string>
     <string name="now_bar_unpin">Бекітпесін алу</string>

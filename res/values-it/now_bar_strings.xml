@@ -24,7 +24,6 @@
     <string name="now_bar_live_summary">Navigazione, corse, consegne, punteggi</string>
     <string name="now_bar_scores">Punteggi in tempo reale</string>
     <string name="now_bar_live_apps">App per Aggiornamenti in tempo reale</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> app</string>
     <string name="now_bar_pin">Fissate nello schermo sempre attivo</string>
     <string name="now_bar_unpin_question">Rimuovere <xliff:g id="app" example="Uber">%1$s</xliff:g> dai fissati?</string>
     <string name="now_bar_unpin">Rimuovi</string>

@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">ნავიგაცია, მგზავრობა, მიწოდება, ანგარიშები</string>
     <string name="now_bar_scores">ცოცხალი ანგარიშები</string>
     <string name="now_bar_live_apps">ცოცხალი განახლებების აპები</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> აპი</string>
     <string name="now_bar_pin">ჩამაგრებული მუდმივ ეკრანზე</string>
     <string name="now_bar_unpin_question">მოიხსნას <xliff:g id="app" example="Uber">%1$s</xliff:g> ჩამაგრება?</string>
     <string name="now_bar_unpin">ჩამაგრების მოხსნა</string>

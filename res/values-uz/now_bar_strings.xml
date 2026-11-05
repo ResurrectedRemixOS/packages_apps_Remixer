@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Navigatsiya, sayohatlar, yetkazib berish, natijalar</string>
     <string name="now_bar_scores">Jonli natijalar</string>
     <string name="now_bar_live_apps">Jonli yangilanishlar uchun ilovalar</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> ta ilova</string>
     <string name="now_bar_pin">Doimiy displeyda mahkamlangan</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> qadashni bekor qilasizmi?</string>
     <string name="now_bar_unpin">Mahkamlashni bekor qilish</string>

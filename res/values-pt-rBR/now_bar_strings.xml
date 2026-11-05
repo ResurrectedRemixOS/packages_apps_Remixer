@@ -30,7 +30,6 @@
     <string name="now_bar_live">Atualizações em tempo real</string>
     <string name="now_bar_live_summary">Navegação, corridas, entregas, placares</string>
     <string name="now_bar_live_apps">Apps para atualizações em tempo real</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> apps</string>
     <string name="now_bar_pin">Fixadas na tela sempre ativa</string>
     <string name="now_bar_pin_none">Nenhuma. Mantenha pressionada uma atualização em tempo real na barra para fixá-la</string>
     <string name="now_bar_unpin_question">Desafixar <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>

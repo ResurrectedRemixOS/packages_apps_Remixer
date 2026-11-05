@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Nabigazioa, bidaiak, entregak, emaitzak</string>
     <string name="now_bar_scores">Zuzeneko emaitzak</string>
     <string name="now_bar_live_apps">Zuzeneko eguneraketen aplikazioak</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> aplikazio</string>
     <string name="now_bar_pin">Bilduta bistaratze beti aktiboan</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> desbilotu?</string>
     <string name="now_bar_unpin">Desbilotu</string>

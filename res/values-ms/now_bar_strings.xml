@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Navigasi, perjalanan, penghantaran, skor</string>
     <string name="now_bar_scores">Skor langsung</string>
     <string name="now_bar_live_apps">Apl untuk Kemas kini Langsung</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> apl</string>
     <string name="now_bar_pin">Disematkan pada paparan sentiasa hidup</string>
     <string name="now_bar_unpin_question">Nyahsemat <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Nyahsemat</string>

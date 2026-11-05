@@ -24,7 +24,6 @@
     <string name="now_bar_live">Info Terbaru Live</string>
     <string name="now_bar_live_summary">Navigasi, perjalanan, pengiriman, skor</string>
     <string name="now_bar_live_apps">Aplikasi untuk Info Terbaru Live</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> aplikasi</string>
     <string name="now_bar_pin">Disematkan ke layar selalu aktif</string>
     <string name="now_bar_pin_none">Tidak ada. Tahan Info Terbaru Live di bar untuk menyematkannya</string>
     <string name="now_bar_unpin_question">Lepas sematan <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>

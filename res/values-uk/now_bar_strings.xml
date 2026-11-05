@@ -24,7 +24,6 @@
     <string name="now_bar_live">Оновлення в реальному часі</string>
     <string name="now_bar_live_summary">Навігація, поїздки, доставка, рахунки</string>
     <string name="now_bar_live_apps">Застосунки для оновлень у реальному часі</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> застосунків</string>
     <string name="now_bar_pin">Закріплено на завжди увімкненому екрані</string>
     <string name="now_bar_unpin_question">Відкріпити <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Відкріпити</string>

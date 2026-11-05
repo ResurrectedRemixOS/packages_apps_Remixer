@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">လမ်းညွှန်၊ ခရီးစဉ်၊ ပို့ဆောင်မှု၊ အမှတ်များ</string>
     <string name="now_bar_scores">တိုက်ရိုက် အမှတ်များ</string>
     <string name="now_bar_live_apps">တိုက်ရိုက်အပ်ဒိတ်အတွက် အက်ပ်များ</string>
-    <string name="now_bar_live_apps_count">အက်ပ် <xliff:g id="count" example="2">%1$d</xliff:g> ခု</string>
     <string name="now_bar_pin">Always-on display တွင် ပင့်ထားသည်</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> ကို ဖြုတ်မလား?</string>
     <string name="now_bar_unpin">ဖြုတ်ရန်</string>

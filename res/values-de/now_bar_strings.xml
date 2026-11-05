@@ -21,7 +21,6 @@
     <string name="now_bar_live_summary">Navigation, Fahrten, Lieferungen, Spielstände</string>
     <string name="now_bar_scores">Live-Spielstände</string>
     <string name="now_bar_live_apps">Apps für Live-Updates</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> Apps</string>
     <string name="now_bar_pin">Ans Always-on-Display angepinnt</string>
     <string name="now_bar_pin_none">Keine. Halte ein Live-Update in der Leiste, um es anzupinnen</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> lösen?</string>

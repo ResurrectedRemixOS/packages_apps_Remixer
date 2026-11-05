@@ -23,7 +23,6 @@
     <string name="now_bar_live_summary">Điều hướng, chuyến đi, giao hàng, tỷ số</string>
     <string name="now_bar_scores">Tỷ số trực tiếp</string>
     <string name="now_bar_live_apps">Ứng dụng cho Cập nhật trực tiếp</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> ứng dụng</string>
     <string name="now_bar_pin">Ghim trên màn hình luôn bật</string>
     <string name="now_bar_unpin_question">Bỏ ghim <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Bỏ ghim</string>

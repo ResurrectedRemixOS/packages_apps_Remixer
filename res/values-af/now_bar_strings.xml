@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Navigasie, ritte, aflewerings, tellings</string>
     <string name="now_bar_scores">Lewendige tellings</string>
     <string name="now_bar_live_apps">Programme vir Lewendige opdaterings</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> programme</string>
     <string name="now_bar_pin">Vasgepen op die altyd-aan-skerm</string>
     <string name="now_bar_unpin_question">Ontpen <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Ontpen</string>

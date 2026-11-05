@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Navegación, viaxes, entregas, marcadores</string>
     <string name="now_bar_scores">Marcadores en directo</string>
     <string name="now_bar_live_apps">Aplicacións para actualizacións en directo</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> aplicacións</string>
     <string name="now_bar_pin">Fixadas na pantalla sempre activa</string>
     <string name="now_bar_unpin_question">Desfixar <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Desfixar</string>

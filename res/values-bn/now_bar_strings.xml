@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">নেভিগেশন, রাইড, ডেলিভারি, স্কোর</string>
     <string name="now_bar_scores">লাইভ স্কোর</string>
     <string name="now_bar_live_apps">লাইভ আপডেটের অ্যাপ</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g>টি অ্যাপ</string>
     <string name="now_bar_pin">অ্যালওয়েজ-অন ডিসপ্লেতে পিন করা</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> আনপিন করবেন?</string>
     <string name="now_bar_unpin">আনপিন</string>

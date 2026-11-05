@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Նավիգացիա, ուղևորություններ, առաքումներ, արդյունքներ</string>
     <string name="now_bar_scores">Կենդանի արդյունքներ</string>
     <string name="now_bar_live_apps">Կենդանի թարմացումների հավելվածներ</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> հավելված</string>
     <string name="now_bar_pin">Ամրացված է միշտ միացած էկրանին</string>
     <string name="now_bar_unpin_question">Ապամրացնե՞լ <xliff:g id="app" example="Uber">%1$s</xliff:g>-ը:</string>
     <string name="now_bar_unpin">Ապամրացնել</string>

@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">வழிசெலுத்தல், பயணங்கள், டெலிவரிகள், மதிப்பெண்கள்</string>
     <string name="now_bar_scores">நேரடி மதிப்பெண்கள்</string>
     <string name="now_bar_live_apps">நேரடி புதுப்பிப்புகளுக்கான செயலிகள்</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> செயலிகள்</string>
     <string name="now_bar_pin">எப்போதும் காட்சியில் பின் செய்யப்பட்டது</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g>-ஐ பின் நீக்கவா?</string>
     <string name="now_bar_unpin">பின் நீக்கு</string>

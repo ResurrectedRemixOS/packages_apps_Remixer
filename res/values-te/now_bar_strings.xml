@@ -21,7 +21,6 @@
     <string name="now_bar_live_summary">నావిగేషన్, రైడ్‌లు, డెలివరీలు, స్కోర్‌లు</string>
     <string name="now_bar_scores">లైవ్ స్కోర్‌లు</string>
     <string name="now_bar_live_apps">లైవ్ అప్‌డేట్‌ల కోసం యాప్‌లు</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> యాప్‌లు</string>
     <string name="now_bar_pin">ఆల్వేస్-ఆన్ డిస్‌ప్లేపై పిన్ చేయబడింది</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g>ను అన్‌పిన్ చేయాలా?</string>
     <string name="now_bar_unpin">అన్‌పిన్ చేయి</string>

@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">การนำทาง การเดินทาง การจัดส่ง คะแนน</string>
     <string name="now_bar_scores">คะแนนสด</string>
     <string name="now_bar_live_apps">แอปสำหรับการอัปเดตสด</string>
-    <string name="now_bar_live_apps_count">แอป <xliff:g id="count" example="2">%1$d</xliff:g></string>
     <string name="now_bar_pin">ปักหมุดไว้ที่จอแสดงผลตลอดเวลา</string>
     <string name="now_bar_unpin_question">เลิกปักหมุด <xliff:g id="app" example="Uber">%1$s</xliff:g> ใช่ไหม?</string>
     <string name="now_bar_unpin">เลิกปักหมุด</string>

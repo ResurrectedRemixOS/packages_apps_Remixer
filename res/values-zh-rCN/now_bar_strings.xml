@@ -24,7 +24,6 @@
     <string name="now_bar_live_summary">导航、行程、配送、比分</string>
     <string name="now_bar_scores">实时比分</string>
     <string name="now_bar_live_apps">实时动态应用</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> 个应用</string>
     <string name="now_bar_pin">已固定到息屏显示</string>
     <string name="now_bar_pin_none">无。按住栏中的实时动态即可固定</string>
     <string name="now_bar_unpin_question">要取消固定<xliff:g id="app" example="Uber">%1$s</xliff:g>吗？</string>

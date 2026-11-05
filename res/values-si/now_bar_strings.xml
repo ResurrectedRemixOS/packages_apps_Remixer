@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">සංචලනය, ගමන්, බෙදාහැරීම්, ලකුණු</string>
     <string name="now_bar_scores">සජීවී ලකුණු</string>
     <string name="now_bar_live_apps">සජීවී යාවත්කාලීන සඳහා යෙදුම්</string>
-    <string name="now_bar_live_apps_count">යෙදුම් <xliff:g id="count" example="2">%1$d</xliff:g></string>
     <string name="now_bar_pin">සැමවිටම-පෙන්වන සිරස් තිරයට ඇමිණූ</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> ගැලවීමද?</string>
     <string name="now_bar_unpin">ගලවන්න</string>

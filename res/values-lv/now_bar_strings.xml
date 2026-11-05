@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Navigācija, braucieni, piegādes, rezultāti</string>
     <string name="now_bar_scores">Tiešraides rezultāti</string>
     <string name="now_bar_live_apps">Lietotnes tiešraides atjauninājumiem</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> lietotnes</string>
     <string name="now_bar_pin">Piespraustas pastāvīgi ieslēgtajā ekrānā</string>
     <string name="now_bar_unpin_question">Atspraust <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Atspraust</string>

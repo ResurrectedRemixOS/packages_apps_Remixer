@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">አሰሳ፣ ጉዞዎች፣ ማድረሻዎች፣ ውጤቶች</string>
     <string name="now_bar_scores">ቀጥታ ውጤቶች</string>
     <string name="now_bar_live_apps">ለቀጥታ ዝማኔዎች መተግበሪያዎች</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> መተግበሪያዎች</string>
     <string name="now_bar_pin">በሁልጊዜ ማሳያ ላይ ተሰክቷል</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g>ን ማንሳት ይፈልጋሉ?</string>
     <string name="now_bar_unpin">አንሳ</string>

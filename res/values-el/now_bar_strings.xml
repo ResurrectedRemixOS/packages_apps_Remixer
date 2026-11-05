@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Πλοήγηση, διαδρομές, παραδόσεις, σκορ</string>
     <string name="now_bar_scores">Ζωντανά σκορ</string>
     <string name="now_bar_live_apps">Εφαρμογές για ζωντανές ενημερώσεις</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> εφαρμογές</string>
     <string name="now_bar_pin">Καρφιτσωμένες στην οθόνη πάντα σε λειτουργία</string>
     <string name="now_bar_unpin_question">Ξεκαρφίτσωμα του <xliff:g id="app" example="Uber">%1$s</xliff:g>;</string>
     <string name="now_bar_unpin">Ξεκαρφίτσωμα</string>

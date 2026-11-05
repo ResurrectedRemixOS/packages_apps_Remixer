@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">ការណែនាំផ្លូវ ការជិះ ការដឹកជញ្ជូន ពិន្ទុ</string>
     <string name="now_bar_scores">ពិន្ទុផ្ទាល់</string>
     <string name="now_bar_live_apps">កម្មវិធីសម្រាប់ការអាប់ដេតផ្ទាល់</string>
-    <string name="now_bar_live_apps_count">កម្មវិធី <xliff:g id="count" example="2">%1$d</xliff:g></string>
     <string name="now_bar_pin">បានខ្ទាស់នៅអេក្រង់បង្ហាញជានិច្ច</string>
     <string name="now_bar_unpin_question">ដកការខ្ទាស់ <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">ដកការខ្ទាស់</string>

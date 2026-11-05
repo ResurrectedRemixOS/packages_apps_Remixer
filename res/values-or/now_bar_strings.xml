@@ -21,7 +21,6 @@
     <string name="now_bar_live_summary">ନାଭିଗେସନ, ରାଇଡ, ଡେଲିଭରୀ, ସ୍କୋର</string>
     <string name="now_bar_scores">ଲାଇଭ୍ ସ୍କୋର</string>
     <string name="now_bar_live_apps">ଲାଇଭ ଅପଡେଟ ପାଇଁ ଆପ</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g>ଟି ଆପ</string>
     <string name="now_bar_pin">ଆଲୱେଜ୍‍-ଅନ୍ ଡିସ୍‌ପ୍ଲେରେ ପିନ ହୋଇଛି</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> ପିନ କାଢ଼ିବେ?</string>
     <string name="now_bar_unpin">ପିନ କାଢ଼ନ୍ତୁ</string>

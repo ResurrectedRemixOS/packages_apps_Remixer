@@ -21,7 +21,6 @@
     <string name="now_bar_live_summary">നാവിഗേഷൻ, യാത്രകൾ, ഡെലിവറികൾ, സ്കോറുകൾ</string>
     <string name="now_bar_scores">ലൈവ് സ്കോറുകൾ</string>
     <string name="now_bar_live_apps">ലൈവ് അപ്‌ഡേറ്റുകൾക്കുള്ള ആപ്പുകൾ</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> ആപ്പുകൾ</string>
     <string name="now_bar_pin">ആൽവെയ്‌സ്-ഓൺ ഡിസ്‌പ്ലേയിൽ പിൻ ചെയ്തത്</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> അൺപിൻ ചെയ്യണോ?</string>
     <string name="now_bar_unpin">അൺപിൻ</string>

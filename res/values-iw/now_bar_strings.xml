@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">ניווט, נסיעות, משלוחים, תוצאות משחקים</string>
     <string name="now_bar_scores">תוצאות חיות</string>
     <string name="now_bar_live_apps">אפליקציות לעדכונים חיים</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> אפליקציות</string>
     <string name="now_bar_pin">מוצמדים לתצוגה תמיד פעילה</string>
     <string name="now_bar_unpin_question">לבטל את ההצמדה של <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">ביטול הצמדה</string>

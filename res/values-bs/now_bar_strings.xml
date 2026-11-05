@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Navigacija, vožnje, dostave, rezultati</string>
     <string name="now_bar_scores">Rezultati uživo</string>
     <string name="now_bar_live_apps">Aplikacije za ažuriranja uživo</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> aplikacija</string>
     <string name="now_bar_pin">Prikvačeno na ekranu uvijek uključenom</string>
     <string name="now_bar_unpin_question">Otkačiti <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Otkači</string>

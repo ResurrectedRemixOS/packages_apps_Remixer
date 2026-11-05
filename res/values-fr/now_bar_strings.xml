@@ -21,7 +21,6 @@
     <string name="now_bar_live_summary">Navigation, trajets, livraisons, scores</string>
     <string name="now_bar_scores">Scores en direct</string>
     <string name="now_bar_live_apps">Applis pour les actus en direct</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> applis</string>
     <string name="now_bar_pin">Épinglées à l\'écran toujours activé</string>
     <string name="now_bar_pin_none">Aucune. Maintenez une actu en direct dans la barre pour l\'épingler</string>
     <string name="now_bar_unpin_question">Retirer <xliff:g id="app" example="Uber">%1$s</xliff:g> ?</string>

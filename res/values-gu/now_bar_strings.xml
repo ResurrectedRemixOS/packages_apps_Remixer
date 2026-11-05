@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">નેવિગેશન, સવારી, ડિલિવરી, સ્કોર</string>
     <string name="now_bar_scores">લાઇવ સ્કોર</string>
     <string name="now_bar_live_apps">લાઇવ અપડેટ્સ માટેની ઍપ</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> ઍપ</string>
     <string name="now_bar_pin">ઍલ્વેઝ-ઑન ડિસ્પ્લે પર પિન કરેલું</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> અનપિન કરીએ?</string>
     <string name="now_bar_unpin">અનપિન કરો</string>

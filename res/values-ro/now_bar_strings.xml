@@ -21,7 +21,6 @@
     <string name="now_bar_live_summary">Navigare, curse, livrări, scoruri</string>
     <string name="now_bar_scores">Scoruri live</string>
     <string name="now_bar_live_apps">Aplicații pentru actualizări live</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> aplicații</string>
     <string name="now_bar_pin">Fixate pe afișajul permanent</string>
     <string name="now_bar_unpin_question">Desprinzi <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Desprinde</string>

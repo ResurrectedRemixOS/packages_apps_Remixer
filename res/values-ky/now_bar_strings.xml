@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Навигация, сапарлар, жеткирүүлөр, упайлар</string>
     <string name="now_bar_scores">Жандуу упайлар</string>
     <string name="now_bar_live_apps">Жандуу жаңылыктар үчүн колдонмолор</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> колдонмо</string>
     <string name="now_bar_pin">Always-on displayге бекитилген</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> бошотулсунбу?</string>
     <string name="now_bar_unpin">Бошотуу</string>

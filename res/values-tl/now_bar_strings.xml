@@ -20,7 +20,6 @@
     <string name="now_bar_live_summary">Navigation, biyahe, delivery, iskor</string>
     <string name="now_bar_scores">Mga live na iskor</string>
     <string name="now_bar_live_apps">Mga app para sa Live Update</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> na app</string>
     <string name="now_bar_pin">Nakapin sa always-on display</string>
     <string name="now_bar_unpin_question">Alisin ang pin sa <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Alisin ang pin</string>

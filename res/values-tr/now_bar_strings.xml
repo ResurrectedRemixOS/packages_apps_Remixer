@@ -24,7 +24,6 @@
     <string name="now_bar_live_summary">Navigasyon, yolculuklar, teslimatlar, skorlar</string>
     <string name="now_bar_scores">Canlı skorlar</string>
     <string name="now_bar_live_apps">Canlı Güncellemeler için uygulamalar</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> uygulama</string>
     <string name="now_bar_pin">Her zaman açık ekrana sabitlendi</string>
     <string name="now_bar_pin_none">Yok. Sabitlemek için çubuktaki bir Canlı Güncellemeyi basılı tutun</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> kaldırılsın mı?</string>

@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">ການນຳທາງ, ການເດີນທາງ, ການຈັດສົ່ງ, ຄະແນນ</string>
     <string name="now_bar_scores">ຄະແນນສົດ</string>
     <string name="now_bar_live_apps">ແອັບສຳລັບການອັບເດດສົດ</string>
-    <string name="now_bar_live_apps_count">ແອັບ <xliff:g id="count" example="2">%1$d</xliff:g></string>
     <string name="now_bar_pin">ປັກໝຸດໄວ້ໃນໜ້າຈໍສະແດງຜົນຕະຫຼອດເວລາ</string>
     <string name="now_bar_unpin_question">ຖອນປັກໝຸດ <xliff:g id="app" example="Uber">%1$s</xliff:g> ບໍ?</string>
     <string name="now_bar_unpin">ຖອນປັກໝຸດ</string>

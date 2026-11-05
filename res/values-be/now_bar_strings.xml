@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Навігацыя, паездкі, даставка, лічбы</string>
     <string name="now_bar_scores">Жывы лічбавы рахунак</string>
     <string name="now_bar_live_apps">Праграмы для Live Updates</string>
-    <string name="now_bar_live_apps_count">Праграм: <xliff:g id="count" example="2">%1$d</xliff:g></string>
     <string name="now_bar_pin">Замацавана на экране з заўсёды ўключаным дысплеем</string>
     <string name="now_bar_unpin_question">Адмацаваць <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Адмацаваць</string>

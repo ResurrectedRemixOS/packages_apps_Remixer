@@ -24,7 +24,6 @@
     <string name="now_bar_live">ライブアップデート</string>
     <string name="now_bar_live_summary">ナビゲーション、乗車、配達、スコア</string>
     <string name="now_bar_live_apps">ライブアップデートのアプリ</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> 件のアプリ</string>
     <string name="now_bar_pin">常時表示ディスプレイにピン留め済み</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> のピン留めを解除しますか？</string>
     <string name="now_bar_unpin">ピン留めを解除</string>

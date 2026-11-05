@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Urambazaji, safari, uwasilishaji, alama</string>
     <string name="now_bar_scores">Alama za moja kwa moja</string>
     <string name="now_bar_live_apps">Programu za Masasisho ya Moja kwa Moja</string>
-    <string name="now_bar_live_apps_count">Programu <xliff:g id="count" example="2">%1$d</xliff:g></string>
     <string name="now_bar_pin">Imebandikwa kwenye onyesho la kila wakati</string>
     <string name="now_bar_unpin_question">Ondoa kubandika <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Ondoa kubandika</string>

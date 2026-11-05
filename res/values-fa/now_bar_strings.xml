@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">ناوبری، سواری‌ها، تحویل‌ها، نتایج</string>
     <string name="now_bar_scores">نتایج زنده</string>
     <string name="now_bar_live_apps">برنامه‌های به‌روزرسانی‌های زنده</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> برنامه</string>
     <string name="now_bar_pin">سنجاق‌شده روی نمایش همیشه روشن</string>
     <string name="now_bar_unpin_question">سنجاق <xliff:g id="app" example="Uber">%1$s</xliff:g> برداشته شود؟</string>
     <string name="now_bar_unpin">برداشتن سنجاق</string>

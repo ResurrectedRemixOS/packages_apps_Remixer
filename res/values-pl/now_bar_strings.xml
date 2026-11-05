@@ -24,7 +24,6 @@
     <string name="now_bar_live">Aktualizacje na żywo</string>
     <string name="now_bar_live_summary">Nawigacja, przejazdy, dostawy, wyniki</string>
     <string name="now_bar_live_apps">Aplikacje z aktualizacjami na żywo</string>
-    <string name="now_bar_live_apps_count">Aplikacje: <xliff:g id="count" example="2">%1$d</xliff:g></string>
     <string name="now_bar_pin">Przypięte na wyświetlaczu zawsze włączonym</string>
     <string name="now_bar_unpin_question">Odpiąć <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Odepnij</string>

@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Naviqasiya, sürücülük, çatdırılmalar, hesablar</string>
     <string name="now_bar_scores">Canlı hesablar</string>
     <string name="now_bar_live_apps">Canlı yeniləmələr üçün tətbiqlər</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> tətbiq</string>
     <string name="now_bar_pin">Həmişə açıq ekrana bərkidilib</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> bərkidilməsin?</string>
     <string name="now_bar_unpin">Bərkidilməsin</string>

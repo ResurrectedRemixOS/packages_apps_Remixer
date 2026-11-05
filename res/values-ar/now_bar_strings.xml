@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">التنقل والرحلات والتوصيلات والنتائج</string>
     <string name="now_bar_scores">النتائج المباشرة</string>
     <string name="now_bar_live_apps">التطبيقات المستخدمة للتحديثات المباشرة</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> تطبيقات</string>
     <string name="now_bar_pin">مثبتة على الشاشة الدائمة العرض</string>
     <string name="now_bar_unpin_question">إلغاء تثبيت <xliff:g id="app" example="Uber">%1$s</xliff:g>؟</string>
     <string name="now_bar_unpin">إلغاء التثبيت</string>

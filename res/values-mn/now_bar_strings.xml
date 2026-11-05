@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Навигаци, аялал, хүргэлт, оноо</string>
     <string name="now_bar_scores">Шууд оноо</string>
     <string name="now_bar_live_apps">Шинэчлэлтийн аппууд</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> апп</string>
     <string name="now_bar_pin">Байнгын дэлгэцэд бэхлэгдсэн</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g>-г бэхлэлтээс гаргах уу?</string>
     <string name="now_bar_unpin">Бэхлэлтээс гаргах</string>

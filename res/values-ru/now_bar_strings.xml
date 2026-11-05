@@ -24,7 +24,6 @@
     <string name="now_bar_live_summary">Навигация, поездки, доставка, счёт матчей</string>
     <string name="now_bar_scores">Счёт матчей</string>
     <string name="now_bar_live_apps">Приложения для обновлений в реальном времени</string>
-    <string name="now_bar_live_apps_count">Приложений: <xliff:g id="count" example="2">%1$d</xliff:g></string>
     <string name="now_bar_pin">Закреплено на Always On Display</string>
     <string name="now_bar_pin_none">Нет. Удерживайте обновление на панели, чтобы закрепить его</string>
     <string name="now_bar_unpin_question">Открепить <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>

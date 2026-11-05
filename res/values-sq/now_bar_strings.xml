@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Navigimi, udhëtimet, dorëzimet, rezultatet</string>
     <string name="now_bar_scores">Rezultatet live</string>
     <string name="now_bar_live_apps">Aplikacionet për përditësimet live</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> aplikacione</string>
     <string name="now_bar_pin">Fiksuar në ekranin e përhershëm</string>
     <string name="now_bar_unpin_question">Të hiqet fiksimi i <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Hiq fiksimin</string>

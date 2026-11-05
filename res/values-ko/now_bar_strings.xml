@@ -24,7 +24,6 @@
     <string name="now_bar_live_summary">내비게이션, 운행, 배달, 점수</string>
     <string name="now_bar_scores">실시간 점수</string>
     <string name="now_bar_live_apps">실시간 업데이트 앱</string>
-    <string name="now_bar_live_apps_count">앱 <xliff:g id="count" example="2">%1$d</xliff:g>개</string>
     <string name="now_bar_pin">상시 표시 화면에 고정됨</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> 고정 해제할까요?</string>
     <string name="now_bar_unpin">고정 해제</string>

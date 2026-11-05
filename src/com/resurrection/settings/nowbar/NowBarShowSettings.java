@@ -8,6 +8,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
+import android.icu.text.ListFormatter;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -15,7 +16,9 @@ import android.os.UserHandle;
 import android.provider.Settings;
 import android.text.TextUtils;
 import android.view.ContextThemeWrapper;
+import android.widget.ListView;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.preference.Preference;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
@@ -101,9 +104,11 @@ public class NowBarShowSettings extends SettingsPreferenceFragment {
     private void updateSummaries() {
         Preference apps = findPreference(KEY_LIVE_APPS);
         if (apps != null) {
-            int count = liveApps().size();
-            apps.setSummary(count == 0 ? getString(R.string.now_bar_live_apps_all)
-                    : getString(R.string.now_bar_live_apps_count, count));
+            List<String> names = new ArrayList<>();
+            for (String pkg : liveApps()) names.add(label(pkg).toString());
+            names.sort(Collator.getInstance());
+            apps.setSummary(names.isEmpty() ? getString(R.string.now_bar_live_apps_all)
+                    : ListFormatter.getInstance().format(names));
         }
         Preference pin = findPreference(KEY_PIN);
         if (pin != null) {
@@ -144,7 +149,7 @@ public class NowBarShowSettings extends SettingsPreferenceFragment {
                 com.google.android.material.R.style.Theme_Material3_DynamicColors_DayNight);
     }
 
-    /** Every launchable app, checked when its Live Updates may show. */
+    /** All apps, then the apps picked, then the rest of the launchable apps. */
     private void pickApps() {
         loadApps(this::showApps);
     }
@@ -200,26 +205,66 @@ public class NowBarShowSettings extends SettingsPreferenceFragment {
 
     private void showApps(String[] packages, CharSequence[] labels) {
         if (!isAdded()) return;
-        Set<String> chosen = liveApps();
-        boolean[] checked = new boolean[packages.length];
-        for (int i = 0; i < packages.length; i++) checked[i] = chosen.contains(packages[i]);
-        new MaterialAlertDialogBuilder(themed(), R.style.ThemeOverlay_Remixer_AlertDialog)
+        Set<String> picked = liveApps();
+        List<String> rows = new ArrayList<>();
+        List<CharSequence> names = new ArrayList<>();
+        rows.add(null);
+        names.add(getString(R.string.now_bar_live_apps_all));
+        for (boolean first : new boolean[] {true, false}) {
+            for (int i = 0; i < packages.length; i++) {
+                if (picked.contains(packages[i]) == first) {
+                    rows.add(packages[i]);
+                    names.add(labels[i]);
+                }
+            }
+        }
+        boolean[] checked = new boolean[rows.size()];
+        for (int i = 1; i < checked.length; i++) checked[i] = picked.contains(rows.get(i));
+        checked[0] = !anyApp(checked);
+        MaterialAlertDialogBuilder dialog = new MaterialAlertDialogBuilder(themed(),
+                R.style.ThemeOverlay_Remixer_AlertDialog)
                 .setTitle(R.string.now_bar_live_apps)
-                .setMultiChoiceItems(labels, checked, (d, which, isChecked) -> {
-                    if (isChecked) chosen.add(packages[which]); else chosen.remove(packages[which]);
+                .setMultiChoiceItems(names.toArray(new CharSequence[0]), checked,
+                        (d, which, isChecked) -> {
+                    checked[which] = isChecked;
+                    ListView list = ((AlertDialog) d).getListView();
+                    if (which == 0) {
+                        // All apps is the empty list: it clears every pick and stays on.
+                        for (int i = 1; i < checked.length; i++) setRow(list, checked, i, false);
+                    }
+                    setRow(list, checked, 0, !anyApp(checked));
                 })
                 .setPositiveButton(android.R.string.ok, (d, w) -> {
-                    Settings.System.putStringForUser(getContentResolver(), KEY_LIVE_APPS,
-                            TextUtils.join(",", chosen), UserHandle.USER_CURRENT);
-                    updateSummaries();
+                    List<String> chosen = new ArrayList<>();
+                    for (int i = 1; i < checked.length; i++) {
+                        if (checked[i]) chosen.add(rows.get(i));
+                    }
+                    putLiveApps(TextUtils.join(",", chosen));
                 })
-                .setNeutralButton(R.string.now_bar_live_apps_all, (d, w) -> {
-                    Settings.System.putStringForUser(getContentResolver(), KEY_LIVE_APPS, "",
-                            UserHandle.USER_CURRENT);
-                    updateSummaries();
-                })
-                .setNegativeButton(android.R.string.cancel, null)
-                .show();
+                .setNegativeButton(android.R.string.cancel, null);
+        if (!picked.isEmpty()) {
+            dialog.setNeutralButton(R.string.action_reset, (d, w) -> putLiveApps(""));
+        }
+        dialog.show();
+    }
+
+    private static boolean anyApp(boolean[] checked) {
+        for (int i = 1; i < checked.length; i++) {
+            if (checked[i]) return true;
+        }
+        return false;
+    }
+
+    /** The dialog's adapter re-checks rows from the array, so both change together. */
+    private static void setRow(ListView list, boolean[] checked, int row, boolean on) {
+        checked[row] = on;
+        list.setItemChecked(row, on);
+    }
+
+    private void putLiveApps(String csv) {
+        Settings.System.putStringForUser(getContentResolver(), KEY_LIVE_APPS, csv,
+                UserHandle.USER_CURRENT);
+        updateSummaries();
     }
 
     private void unpin() {

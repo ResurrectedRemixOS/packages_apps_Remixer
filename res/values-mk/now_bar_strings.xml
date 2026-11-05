@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Навигација, возења, достави, резултати</string>
     <string name="now_bar_scores">Резултати во живо</string>
     <string name="now_bar_live_apps">Апликации за ажурирања во живо</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> апликации</string>
     <string name="now_bar_pin">Закачено на екранот секогаш вклучен</string>
     <string name="now_bar_unpin_question">Да се откачи <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Откачи</string>

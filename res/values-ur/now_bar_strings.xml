@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">نیویگیشن، سواری، ڈیلیوری، اسکور</string>
     <string name="now_bar_scores">لائیو اسکور</string>
     <string name="now_bar_live_apps">لائیو اپڈیٹس کی ایپس</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> ایپس</string>
     <string name="now_bar_pin">ہمیشہ آن ڈسپلے پر پن کی گئی</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> کو ان پن کریں؟</string>
     <string name="now_bar_unpin">ان پن کریں</string>

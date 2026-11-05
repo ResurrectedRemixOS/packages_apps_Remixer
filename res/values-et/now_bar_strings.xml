@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Navigatsioon, sõidud, tarned, tulemused</string>
     <string name="now_bar_scores">Reaalajas tulemused</string>
     <string name="now_bar_live_apps">Reaalajas uuenduste rakendused</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> rakendust</string>
     <string name="now_bar_pin">Kinnitatud püsikuvale</string>
     <string name="now_bar_unpin_question">Kas eemaldada <xliff:g id="app" example="Uber">%1$s</xliff:g> kinnitus?</string>
     <string name="now_bar_unpin">Eemalda kinnitus</string>

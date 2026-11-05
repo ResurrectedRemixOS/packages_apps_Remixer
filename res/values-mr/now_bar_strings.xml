@@ -20,7 +20,6 @@
     <string name="now_bar_live_summary">नेव्हिगेशन, राइड्स, डिलिव्हरी, स्कोअर</string>
     <string name="now_bar_scores">लाइव्ह स्कोअर</string>
     <string name="now_bar_live_apps">लाइव्ह अपडेट्ससाठी अ‍ॅप्स</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> अ‍ॅप्स</string>
     <string name="now_bar_pin">नेहमी-चालू डिस्प्लेवर पिन केलेले</string>
     <string name="now_bar_unpin_question"><xliff:g id="app" example="Uber">%1$s</xliff:g> अनपिन करायचा?</string>
     <string name="now_bar_unpin">अनपिन करा</string>

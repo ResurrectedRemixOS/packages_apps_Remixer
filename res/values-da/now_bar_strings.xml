@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Navigation, ture, leverancer, resultater</string>
     <string name="now_bar_scores">Liveresultater</string>
     <string name="now_bar_live_apps">Apps til live-opdateringer</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> apps</string>
     <string name="now_bar_pin">Fastgjort til det altid tændte display</string>
     <string name="now_bar_unpin_question">Frigør <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Frigør</string>

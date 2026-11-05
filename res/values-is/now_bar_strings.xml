@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Leiðsögn, ferðir, sendingar, stig</string>
     <string name="now_bar_scores">Lifandi stig</string>
     <string name="now_bar_live_apps">Forrit fyrir lifandi uppfærslur</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> forrit</string>
     <string name="now_bar_pin">Fest á alltaf-á-skjánum</string>
     <string name="now_bar_unpin_question">Losa <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Losa</string>

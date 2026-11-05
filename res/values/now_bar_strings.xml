@@ -17,7 +17,6 @@
     <string name="now_bar_scores">Live scores</string>
     <string name="now_bar_live_apps">Apps for Live Updates</string>
     <string name="now_bar_live_apps_all">All apps</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> apps</string>
     <string name="now_bar_pin">Pinned to the always-on display</string>
     <string name="now_bar_pin_none">None. Tap to pick an app, or hold a Live Update in the bar</string>
     <string name="now_bar_pin_change">Change</string>

@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Navigacija, kelionės, siuntiniai, rezultatai</string>
     <string name="now_bar_scores">Tiesioginiai rezultatai</string>
     <string name="now_bar_live_apps">Tiesioginių atnaujinimų programos</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> programos</string>
     <string name="now_bar_pin">Prisegta prie visada įjungto ekrano</string>
     <string name="now_bar_unpin_question">Atsegti <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Atsegti</string>

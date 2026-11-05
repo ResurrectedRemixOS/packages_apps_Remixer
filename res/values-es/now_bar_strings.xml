@@ -29,7 +29,6 @@
     <string name="now_bar_live">Actualizaciones en directo</string>
     <string name="now_bar_live_summary">Navegación, viajes, entregas, marcadores</string>
     <string name="now_bar_live_apps">Apps para actualizaciones en directo</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> apps</string>
     <string name="now_bar_pin">Fijadas en la pantalla siempre activa</string>
     <string name="now_bar_pin_none">Ninguna. Mantén pulsada una actualización en directo en la barra para fijarla</string>
     <string name="now_bar_unpin_question">¿Quitar <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>

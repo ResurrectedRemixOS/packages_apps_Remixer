@@ -21,7 +21,6 @@
     <string name="now_bar_live_summary">Navigace, jízdy, doručení, výsledky</string>
     <string name="now_bar_scores">Živé výsledky</string>
     <string name="now_bar_live_apps">Aplikace pro živé aktualizace</string>
-    <string name="now_bar_live_apps_count"><xliff:g id="count" example="2">%1$d</xliff:g> aplikací</string>
     <string name="now_bar_pin">Připnuto na displeji Always-on</string>
     <string name="now_bar_unpin_question">Odepnout <xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Odepnout</string>

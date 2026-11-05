@@ -22,7 +22,6 @@
     <string name="now_bar_live_summary">Ukuzulazula, izinhlelo zokuhamba, izinikezo, amaphuzu</string>
     <string name="now_bar_scores">Amaphuzu aphilayo</string>
     <string name="now_bar_live_apps">Izinhlelo zezibuyekezo eziphilayo</string>
-    <string name="now_bar_live_apps_count">izinhlelo ezingu-<xliff:g id="count" example="2">%1$d</xliff:g></string>
     <string name="now_bar_pin">Ibekwe ku-always-on display</string>
     <string name="now_bar_unpin_question">Khipha ukubekwa kwe-<xliff:g id="app" example="Uber">%1$s</xliff:g>?</string>
     <string name="now_bar_unpin">Khipha ukubekwa</string>
