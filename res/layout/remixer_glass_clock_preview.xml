@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 Project Catalyxx
+     SPDX-License-Identifier: Apache-2.0
+
+     A live preview of the Glass clock: the real glass clock (GlassClockView in frameworks/base),
+     tagged "card" so it draws the lock screen wallpaper behind itself as it shows behind the
+     lock screen's clock. It follows the settings as they change.
+-->
+<com.android.internal.util.catalyxx.GlassClockView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="card" />

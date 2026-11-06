@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 Project Catalyxx
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <color name="glass_preview_button_color">@android:color/system_accent2_800</color>
+    <color name="glass_preview_button_text">@android:color/system_accent2_100</color>
+    <color name="glass_preview_real_color">@android:color/system_accent1_200</color>
+    <color name="glass_preview_real_text">@android:color/system_accent1_800</color>
+</resources>

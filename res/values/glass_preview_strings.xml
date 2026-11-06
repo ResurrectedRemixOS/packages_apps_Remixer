@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 Project Catalyxx
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Liquid Glass's live preview, its sample glass and Try melting -->
+    <string name="glass_preview_background_wallpaper">Wallpaper</string>
+    <string name="glass_preview_background_light">Light</string>
+    <string name="glass_preview_background_colors">Colors</string>
+    <string name="glass_preview_background_description">Background: %1$s. Tap to change it</string>
+    <string name="glass_preview_show_real">Show the real one</string>
+    <string name="glass_preview_buttons">Buttons</string>
+    <string name="glass_preview_panels">Panels</string>
+    <string name="glass_preview_now_playing">Now playing</string>
+    <string name="glass_preview_tile_internet">Internet</string>
+    <string name="glass_preview_tile_bluetooth">Bluetooth</string>
+    <string name="glass_preview_tile_flashlight">Flashlight</string>
+    <string name="glass_preview_tile_dark">Dark theme</string>
+    <string name="glass_preview_dialog">Dialog</string>
+    <string name="glass_preview_channel">Liquid Glass preview</string>
+    <string name="glass_preview_sample_text">This is a sample notification</string>
+    <string name="glass_melt_try_title">Try melting</string>
+    <string name="glass_melt_try_hint">Drag the drops into each other. Back when you\'re done</string>
+</resources>

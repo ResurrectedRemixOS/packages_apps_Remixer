@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 Project Catalyxx
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <dimen name="glass_preview_height">160dp</dimen>
+    <dimen name="glass_preview_corner">28dp</dimen>
+
+    <color name="glass_preview_button_color">@android:color/system_accent2_100</color>
+    <color name="glass_preview_button_text">@android:color/system_accent2_900</color>
+    <color name="glass_preview_real_color">@android:color/system_accent1_600</color>
+    <color name="glass_preview_real_text">@android:color/system_accent1_0</color>
+
+    <style name="GlassPreviewButton">
+        <item name="android:layout_height">38dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textFontWeight">500</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <!-- Try melting: drops of glass over the wallpaper, the window itself clear -->
+    <style name="Theme.GlassMeltTry" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">always</item>
+    </style>
+</resources>
