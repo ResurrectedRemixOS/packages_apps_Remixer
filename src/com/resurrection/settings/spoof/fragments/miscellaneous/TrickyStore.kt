@@ -542,22 +542,25 @@ class TrickyStore : SettingsPreferenceFragment() {
         val revJson = fetchRevocationJson()
             ?: return checkCachedRevocation(serials)
 
-        // 6. Check each serial against the revocation list
+        // A response without an "entries" object (error page, truncated body,
+        // format change) is not a clean answer. It must not clear the cached
+        // bad serials below or be reported as valid.
         val entries = revJson.optJSONObject("entries")
-        if (entries != null) {
-            for (serial in serials) {
-                val entry = entries.optJSONObject(serial) ?: continue
-                val status = entry.optString("status", "").uppercase()
-                val reason = entry.optString("reason", "").uppercase()
-                when (status) {
-                    "REVOKED"   -> {
-                        cacheRevokedSerial(serial)
-                        return Pair(RevocationStatus.REVOKED, reason)
-                    }
-                    "SUSPENDED" -> {
-                        cacheRevokedSerial(serial)
-                        return Pair(RevocationStatus.SUSPENDED, reason)
-                    }
+            ?: return checkCachedRevocation(serials)
+
+        // 6. Check each serial against the revocation list
+        for (serial in serials) {
+            val entry = entries.optJSONObject(serial) ?: continue
+            val status = entry.optString("status", "").uppercase()
+            val reason = entry.optString("reason", "").uppercase()
+            when (status) {
+                "REVOKED"   -> {
+                    cacheRevokedSerial(serial)
+                    return Pair(RevocationStatus.REVOKED, reason)
+                }
+                "SUSPENDED" -> {
+                    cacheRevokedSerial(serial)
+                    return Pair(RevocationStatus.SUSPENDED, reason)
                 }
             }
         }
