@@ -72,6 +72,7 @@ public class HapticRemixActivity extends CollapsingToolbarBaseActivity {
     private static final String T_FINGERPRINT = "fingerprint";
     private static final String P_APP = "app:";
     private static final String P_NUMBER = "number:";
+    private static final String P_APP_COLOR = "appcolor:";
     private static final int REQ_CONTACT = 41;
     /** A tap shorter than this is a tick. */
     private static final long MIN_ON_MS = 30;
@@ -245,7 +246,15 @@ public class HapticRemixActivity extends CollapsingToolbarBaseActivity {
                                 }
                             }));
             row.setOnLongClickListener(v -> {
-                pickColor(contact);
+                pickColor(getString(R.string.haptic_remix_edge_color, contact.optString("name")),
+                        contact.optString("color"), color -> {
+                            try {
+                                if (color == null) contact.remove("color");
+                                else contact.put("color", color);
+                            } catch (Exception e) {
+                                // A color is always a valid value.
+                            }
+                        });
                 return true;
             });
             mList.addView(row);
@@ -263,9 +272,28 @@ public class HapticRemixActivity extends CollapsingToolbarBaseActivity {
             String key = keys.next();
             if (!key.startsWith(P_APP)) continue;
             String pkg = key.substring(P_APP.length());
-            mList.addView(item(appLabel(pkg),
-                    getString(R.string.haptic_remix_contact_summary, mAssign.optString(key)),
-                    v -> pickFor(key, appLabel(pkg), null)));
+            String colorKey = P_APP_COLOR + pkg;
+            String summary = getString(R.string.haptic_remix_contact_summary,
+                    mAssign.optString(key));
+            int colorIndex = colorIndex(mAssign.optString(colorKey));
+            if (colorIndex > 0) summary += " · " + getString(COLOR_NAMES[colorIndex]);
+            View row = item(appLabel(pkg), summary, v -> pickFor(key, appLabel(pkg), name -> {
+                // An app taken off the list keeps no edge color either.
+                if (name == null) mAssign.remove(colorKey);
+            }));
+            row.setOnLongClickListener(v -> {
+                pickColor(getString(R.string.haptic_remix_app_edge_color, appLabel(pkg)),
+                        mAssign.optString(colorKey), color -> {
+                            try {
+                                if (color == null) mAssign.remove(colorKey);
+                                else mAssign.put(colorKey, color);
+                            } catch (Exception e) {
+                                // A color is always a valid value.
+                            }
+                        });
+                return true;
+            });
+            mList.addView(row);
         }
         mList.addView(item(getString(R.string.haptic_remix_add_app), null, v -> pickApp()));
     }
@@ -285,19 +313,14 @@ public class HapticRemixActivity extends CollapsingToolbarBaseActivity {
         return 0;
     }
 
-    /** Long-press on a contact: the edge light color their messages get. */
-    private void pickColor(JSONObject contact) {
+    /** Long-press on a contact or an app: the edge light color its messages get. */
+    private void pickColor(CharSequence title, String current, Change change) {
         CharSequence[] names = new CharSequence[COLOR_NAMES.length];
         for (int i = 0; i < names.length; i++) names[i] = getString(COLOR_NAMES[i]);
         new MaterialAlertDialogBuilder(mThemed, R.style.ThemeOverlay_Remixer_AlertDialog)
-                .setTitle(getString(R.string.haptic_remix_edge_color, contact.optString("name")))
-                .setSingleChoiceItems(names, colorIndex(contact.optString("color")), (d, which) -> {
-                    try {
-                        if (which == 0) contact.remove("color");
-                        else contact.put("color", COLOR_VALUES[which]);
-                    } catch (Exception e) {
-                        // A color is always a valid value.
-                    }
+                .setTitle(title)
+                .setSingleChoiceItems(names, colorIndex(current), (d, which) -> {
+                    change.apply(which == 0 ? null : COLOR_VALUES[which]);
                     store();
                     d.dismiss();
                     build();
@@ -595,7 +618,12 @@ public class HapticRemixActivity extends CollapsingToolbarBaseActivity {
                         String key = keys.next();
                         if (name.equals(mAssign.optString(key))) gone.add(key);
                     }
-                    for (String key : gone) mAssign.remove(key);
+                    for (String key : gone) {
+                        mAssign.remove(key);
+                        if (key.startsWith(P_APP)) {
+                            mAssign.remove(P_APP_COLOR + key.substring(P_APP.length()));
+                        }
+                    }
                     JSONArray contacts = mAssign.optJSONArray("contacts");
                     for (int i = contacts == null ? -1 : contacts.length() - 1; i >= 0; i--) {
                         if (name.equals(contacts.optJSONObject(i).optString("pattern"))) {

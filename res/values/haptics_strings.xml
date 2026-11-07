@@ -46,6 +46,7 @@
     <string name="haptic_remix_color_amber">Amber</string>
     <string name="haptic_remix_color_white">White</string>
     <string name="haptic_remix_add_app">Add an app\'s notifications</string>
+    <string name="haptic_remix_app_edge_color">Edge light for <xliff:g id="app" example="Messages">%1$s</xliff:g></string>
     <string name="haptic_remix_contact_summary"><xliff:g id="pattern" example="Heartbeat">%1$s</xliff:g> · tap to change, hold for the edge color</string>
     <string name="haptic_remix_no_contacts">No number came back from Contacts</string>
 </resources>
