@@ -11,7 +11,7 @@
     <string name="lockscreen_weather_humidity_title">Humidity</string>
     <string name="lockscreen_weather_humidity_summary">Show the humidity</string>
     <string name="custom_clock_weather_title">Weather on clock faces</string>
-    <string name="custom_clock_weather_summary">Show weather inside clock faces that have room for it</string>
+    <string name="custom_clock_weather_summary">Show weather on every clock face</string>
     <string name="remixer_weather_service">Weather service</string>
     <string name="remixer_weather_page_summary">Lock screen weather and what it shows</string>
 </resources>
