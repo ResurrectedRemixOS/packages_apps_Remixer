@@ -5,6 +5,7 @@ import android.content.om.OverlayInfo;
 import android.content.res.ColorStateList;
 import android.graphics.Typeface;
 import android.graphics.drawable.GradientDrawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.RemoteException;
 import android.text.Editable;
@@ -16,10 +17,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.PopupMenu;
 import android.widget.TextClock;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.core.widget.NestedScrollView;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -33,6 +37,7 @@ import com.google.android.material.chip.Chip;
 import com.google.android.material.chip.ChipGroup;
 import com.google.android.material.color.MaterialColors;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -50,6 +55,11 @@ public class FontActivity extends CollapsingToolbarBaseActivity {
     /** Scroll distance after which the pinned preview drops its date and notification. */
     private static final int COMPACT_AFTER_DP = 48;
     private static final String PREFIX = "com.resurrection.theme.font.";
+    /** What the document picker offers; a file that is not a font is refused after the copy. */
+    private static final String[] FONT_MIME_TYPES = {"font/ttf", "font/otf", "font/sfnt",
+            "font/collection", "application/x-font-ttf", "application/x-font-otf",
+            "application/x-font-truetype", "application/x-font-opentype",
+            "application/font-sfnt", "application/vnd.ms-opentype", "application/octet-stream"};
 
     private static final int ALL = 0;
     private static final int SANS = 1;
@@ -123,6 +133,10 @@ public class FontActivity extends CollapsingToolbarBaseActivity {
     private int mPreview;
     private String mSample;
     private Adapter mAdapter;
+    /** The custom font's card, -1 without FontRrCustomOverlay. */
+    private int mCustom = -1;
+    private boolean mHasCustom;
+    private ActivityResultLauncher<String[]> mPicker;
 
     private TextClock mClock;
     private TextView mDate;
@@ -144,9 +158,18 @@ public class FontActivity extends CollapsingToolbarBaseActivity {
         setContentView(R.layout.remixer_fonts);
         mFonts = new FontController(this);
         add("android");
-        for (OverlayInfo info : mFonts.fonts()) {
-            add(info.packageName);
+        List<OverlayInfo> fonts = mFonts.fonts();
+        // The custom font's card sits right after Default, whatever its font is called.
+        if (fonts.stream().anyMatch(i -> FontController.CUSTOM_PACKAGE.equals(i.packageName))) {
+            mHasCustom = mFonts.hasCustomFont();
+            mCustom = mPackages.size();
+            add(FontController.CUSTOM_PACKAGE);
         }
+        for (OverlayInfo info : fonts) {
+            if (!FontController.CUSTOM_PACKAGE.equals(info.packageName)) add(info.packageName);
+        }
+        mPicker = registerForActivityResult(new ActivityResultContracts.OpenDocument(),
+                this::importFont);
         mEnabled = mFonts.enabledPackage();
         mPreview = Math.max(0, mPackages.indexOf(mEnabled));
         mSample = getString(R.string.font_sample);
@@ -379,6 +402,87 @@ public class FontActivity extends CollapsingToolbarBaseActivity {
         Toast.makeText(this, R.string.font_applied, Toast.LENGTH_SHORT).show();
     }
 
+    private void pickFont() {
+        try {
+            mPicker.launch(FONT_MIME_TYPES);
+        } catch (android.content.ActivityNotFoundException e) {
+            toast(R.string.font_custom_failed);
+        }
+    }
+
+    /** Copies the picked file off the main thread, then previews it; re-applies it if in use. */
+    private void importFont(Uri uri) {
+        if (uri == null) return;
+        new Thread(() -> {
+            boolean font;
+            try {
+                font = mFonts.importFont(uri);
+            } catch (IOException | SecurityException e) {
+                runOnUiThread(() -> toast(R.string.font_custom_failed));
+                return;
+            }
+            if (!font) {
+                runOnUiThread(() -> toast(R.string.font_custom_invalid));
+                return;
+            }
+            String label = mFonts.label(FontController.CUSTOM_PACKAGE);
+            Typeface typeface = mFonts.typeface(FontController.CUSTOM_PACKAGE);
+            runOnUiThread(() -> {
+                if (isDestroyed()) return;
+                mHasCustom = true;
+                mLabels.set(mCustom, label);
+                mTypefaces.set(mCustom, typeface);
+                if (FontController.CUSTOM_PACKAGE.equals(mEnabled)) {
+                    try {
+                        mFonts.reapplyCustomFont();
+                    } catch (RemoteException | SecurityException ignored) {
+                    }
+                }
+                mPreview = mCustom;
+                mAdapter.notifyDataSetChanged();
+                updatePreview();
+                toast(R.string.font_custom_imported);
+            });
+        }, "RemixerFontImport").start();
+    }
+
+    private void showCustomMenu(View anchor) {
+        PopupMenu menu = new PopupMenu(this, anchor);
+        menu.getMenu().add(0, 1, 0, R.string.font_custom_replace);
+        menu.getMenu().add(0, 2, 0, R.string.font_custom_remove);
+        menu.setOnMenuItemClickListener(item -> {
+            if (item.getItemId() == 1) {
+                pickFont();
+            } else {
+                removeCustomFont();
+            }
+            return true;
+        });
+        menu.show();
+    }
+
+    private void removeCustomFont() {
+        mFonts.removeCustomFont();
+        mHasCustom = false;
+        if (FontController.CUSTOM_PACKAGE.equals(mEnabled)) {
+            try {
+                mFonts.apply("android");
+                mEnabled = "android";
+            } catch (RemoteException | SecurityException ignored) {
+            }
+        }
+        mLabels.set(mCustom, mFonts.label(FontController.CUSTOM_PACKAGE));
+        mTypefaces.set(mCustom, mFonts.typeface(FontController.CUSTOM_PACKAGE));
+        if (mPreview == mCustom) mPreview = Math.max(0, mPackages.indexOf(mEnabled));
+        mAdapter.notifyDataSetChanged();
+        updatePreview();
+        toast(R.string.font_custom_removed);
+    }
+
+    private void toast(int text) {
+        Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
+    }
+
     private GradientDrawable round(int color, int radiusDp) {
         GradientDrawable shape = new GradientDrawable();
         shape.setColor(color);
@@ -427,7 +531,13 @@ public class FontActivity extends CollapsingToolbarBaseActivity {
         @Override
         public void onBindViewHolder(Holder holder, int position) {
             int index = mVisible.get(position);
+            boolean custom = index == mCustom;
+            if (custom && !mHasCustom) {
+                bindImport(holder);
+                return;
+            }
             boolean previewing = index == mPreview;
+            holder.sample.setCompoundDrawablesRelative(null, null, null, null);
             holder.sample.setTypeface(mTypefaces.get(index));
             holder.sample.setText(mSample);
             holder.name.setText(mLabels.get(index));
@@ -440,6 +550,32 @@ public class FontActivity extends CollapsingToolbarBaseActivity {
             holder.card.setSelected(previewing);
             holder.card.setContentDescription(mLabels.get(index));
             holder.card.setOnClickListener(v -> preview(index));
+            holder.card.setOnLongClickListener(custom ? v -> {
+                showCustomMenu(v);
+                return true;
+            } : null);
+            holder.card.setLongClickable(custom);
+        }
+
+        /** The custom card before a font is imported: a plus and an invitation. */
+        private void bindImport(Holder holder) {
+            holder.sample.setTypeface(null);
+            holder.sample.setText(null);
+            holder.sample.setCompoundDrawablesRelativeWithIntrinsicBounds(
+                    R.drawable.remixer_ic_add, 0, 0, 0);
+            holder.sample.setCompoundDrawableTintList(ColorStateList.valueOf(MaterialColors
+                    .getColor(holder.card,
+                            com.google.android.material.R.attr.colorOnSurfaceVariant)));
+            holder.name.setText(R.string.font_custom_import);
+            holder.badge.setVisibility(View.GONE);
+            holder.card.setStrokeWidth(0);
+            holder.card.setCardBackgroundColor(MaterialColors.getColor(holder.card,
+                    com.google.android.material.R.attr.colorSurfaceContainerHigh));
+            holder.card.setSelected(false);
+            holder.card.setContentDescription(getString(R.string.font_custom_import));
+            holder.card.setOnClickListener(v -> pickFont());
+            holder.card.setOnLongClickListener(null);
+            holder.card.setLongClickable(false);
         }
     }
 }

@@ -287,6 +287,13 @@
     <string name="font_filter_mono">Mono</string>
     <string name="font_applied">Font applied</string>
     <string name="font_failed">Could not apply that font</string>
+    <string name="font_custom_import">Import a font</string>
+    <string name="font_custom_replace">Replace font…</string>
+    <string name="font_custom_remove">Remove font</string>
+    <string name="font_custom_imported">Font imported</string>
+    <string name="font_custom_removed">Font removed</string>
+    <string name="font_custom_invalid">That file is not a font</string>
+    <string name="font_custom_failed">Could not import that font</string>
     <string name="wallpaper_set">Wallpaper set</string>
     <plurals name="wallpapers_summary">
         <item quantity="one">%d wallpaper from Resurrected Remix. Tap one to preview it.</item>
