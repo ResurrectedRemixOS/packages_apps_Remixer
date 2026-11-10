@@ -43,10 +43,23 @@ public class SystemSettingSeekBarPreference extends SliderPreference {
 
             @Override
             public int getInt(String key, int defValue) {
-                return Settings.System.getIntForUser(resolver, key, defValue,
-                        UserHandle.USER_CURRENT);
+                return snapToStep(Settings.System.getIntForUser(resolver, key, defValue,
+                        UserHandle.USER_CURRENT));
             }
         });
+    }
+
+    /**
+     * The step nearest a saved value. Material's slider throws on a value between its steps,
+     * which a page whose steps changed, or adb, can leave saved.
+     */
+    private int snapToStep(int value) {
+        int step = getSliderIncrement();
+        int min = getMin();
+        if (step <= 1 || value <= min || value >= getMax()) {
+            return value;
+        }
+        return min + Math.round((value - min) / (float) step) * step;
     }
 
     @Override
