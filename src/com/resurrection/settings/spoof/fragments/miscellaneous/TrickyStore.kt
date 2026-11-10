@@ -38,6 +38,7 @@ import java.util.Locale
 import java.util.concurrent.TimeUnit
 import java.util.regex.Pattern
 import android.util.Log
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -981,8 +982,13 @@ class TrickyStore : SettingsPreferenceFragment() {
                         currentRevocationReason = ""
                         refreshStatus()
                         checkKeyboxRevocation()
+                    } catch (e: CancellationException) {
+                        // The page closed during the chain or revocation check.
+                        throw e
                     } catch (e: Exception) {
-                        if (!silent) toast(getString(R.string.ts_fetch_keybox_failed, e.message ?: ""))
+                        if (!silent && isAdded) {
+                            toast(getString(R.string.ts_fetch_keybox_failed, e.message ?: ""))
+                        }
                     }
                 },
                 onFailure = { e ->

@@ -24,6 +24,7 @@ import com.android.internal.util.rr.PixelDeviceRepository
 import com.android.settings.R
 import com.android.settings.SettingsPreferenceFragment
 import java.nio.charset.StandardCharsets
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -458,11 +459,17 @@ class PlayIntegrityFix : SettingsPreferenceFragment() {
                     }
                     .setNegativeButton(android.R.string.cancel, null)
                     .show()
+            } catch (e: CancellationException) {
+                // The page closed mid-fetch and onDestroy cancelled the scope.
+                throw e
             } catch (e: Exception) {
-                toast(getString(R.string.pif_failed, e.message ?: ""))
+                if (isAdded) toast(getString(R.string.pif_failed, e.message ?: ""))
             } finally {
-                fetchPref.summary = getString(R.string.pif_fetch_pixel_beta_summary)
-                fetchPref.isEnabled = true
+                // The fetch reads several Google pages and can outlive the page by a minute.
+                if (isAdded) {
+                    fetchPref.summary = getString(R.string.pif_fetch_pixel_beta_summary)
+                    fetchPref.isEnabled = true
+                }
             }
         }
     }
@@ -495,11 +502,15 @@ class PlayIntegrityFix : SettingsPreferenceFragment() {
                     toast(getString(R.string.pif_fetched_model, profile.model))
                     refreshStatus()
                 }
+            } catch (e: CancellationException) {
+                throw e
             } catch (e: Exception) {
-                toast(getString(R.string.pif_failed, e.message ?: ""))
+                if (isAdded) toast(getString(R.string.pif_failed, e.message ?: ""))
             } finally {
-                fetchPref?.summary = getString(R.string.pif_fetch_pixel_beta_summary)
-                fetchPref?.isEnabled = true
+                if (isAdded) {
+                    fetchPref?.summary = getString(R.string.pif_fetch_pixel_beta_summary)
+                    fetchPref?.isEnabled = true
+                }
             }
         }
     }
