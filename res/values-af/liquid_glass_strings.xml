@@ -3,7 +3,6 @@
     <string name="liquid_glass_blur_title">"Maak wasig"</string>
     <string name="liquid_glass_lockscreen_title">"Sluitskerm"</string>
     <string name="liquid_glass_power_title">"Aan/af-kieslys"</string>
-    <string name="liquid_glass_preview_internet">"Internet"</string>
     <string name="liquid_glass_summary">Vervaging en glas op stelselvlakke</string>
     <string name="liquid_glass_material_title">Materiaal</string>
     <string name="liquid_glass_solid">Eenkleurig</string>
@@ -15,17 +14,12 @@
     <string name="liquid_glass_look_title">Voorkoms</string>
     <string name="liquid_glass_blur_summary">Hoe sterk die glas dit agter hom vervaag</string>
     <string name="liquid_glass_tint_title">Tint</string>
-    <string name="liquid_glass_tint_summary">Verduister die glas sodat teks leesbaar bly</string>
-    <string name="liquid_glass_accent_tint_title">Aksentkleur-tint</string>
-    <string name="liquid_glass_accent_tint_summary">Kleur die glas met jou aksentkleur</string>
-    <string name="liquid_glass_liquid_category">Vloeibaar</string>
     <string name="liquid_glass_refraction_title">Breking</string>
     <string name="liquid_glass_refraction_summary">Hoe ver die rande dit agter hulle buig</string>
     <string name="liquid_glass_tilt_title">Hoogtepunte volg kanteling</string>
     <string name="liquid_glass_tilt_summary">Rande vang die lig op wanneer jy die foon beweeg</string>
     <string name="liquid_glass_surfaces_title">Glas aan</string>
     <string name="liquid_glass_qs_title">Kitsinstellings en skerm</string>
-    <string name="liquid_glass_qs_summary">Die skerm, kennisgewings en die ontsluitskerm</string>
     <string name="liquid_glass_lockscreen_summary">Kortpaaie en die vingerafdrukknoppie</string>
     <string name="liquid_glass_volume_title">Volumepaneel</string>
     <string name="liquid_glass_volume_summary">Skuiwers en luidknoppies</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Solied in Batterybespaarder</string>
     <string name="liquid_glass_battery_saver_summary">Skakel glas af terwyl Batterybespaarder aan is</string>
     <string name="liquid_glass_footer">Glas skakel ook af terwyl die foon baie warm is.</string>
-    <string name="liquid_glass_preview_wifi">Tuis-Wi-Fi</string>
-    <string name="liquid_glass_preview_earbuds">Oorfone</string>
 </resources>

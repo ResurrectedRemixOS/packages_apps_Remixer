@@ -5,7 +5,6 @@
     <string name="liquid_glass_volume_title">Plošča za glasnost</string>
     <string name="liquid_glass_power_title">"Meni za vklop/izklop"</string>
     <string name="liquid_glass_battery_title">"Baterija"</string>
-    <string name="liquid_glass_preview_internet">"Internet"</string>
     <string name="liquid_glass_summary">Zamegljenost in steklo na sistemskih površinah</string>
     <string name="liquid_glass_material_title">Material</string>
     <string name="liquid_glass_solid">Polno</string>
@@ -17,17 +16,12 @@
     <string name="liquid_glass_look_title">Videz</string>
     <string name="liquid_glass_blur_summary">Kako močno steklo zamegli, kar je za njim</string>
     <string name="liquid_glass_tint_title">Obarvanje</string>
-    <string name="liquid_glass_tint_summary">Zatemni steklo, da je besedilo berljivo</string>
-    <string name="liquid_glass_accent_tint_title">Barvni odtenek poudarka</string>
-    <string name="liquid_glass_accent_tint_summary">Obarvaj steklo z barvo poudarka</string>
-    <string name="liquid_glass_liquid_category">Tekoče</string>
     <string name="liquid_glass_refraction_title">Lomljenje</string>
     <string name="liquid_glass_refraction_summary">Kako močno robovi lomijo, kar je za njimi</string>
     <string name="liquid_glass_tilt_title">Svetlobni odsevi sledijo nagibu</string>
     <string name="liquid_glass_tilt_summary">Robovi ujamejo svetlobo, ko premikate telefon</string>
     <string name="liquid_glass_surfaces_title">Steklo vklopljeno</string>
     <string name="liquid_glass_qs_title">Hitre nastavitve in senčnik</string>
-    <string name="liquid_glass_qs_summary">Senčnik, obvestila in zaklepanje</string>
     <string name="liquid_glass_lockscreen_summary">Bližnjice in gumb za prstni odtis</string>
     <string name="liquid_glass_volume_summary">Drsniki in gumbi za glasnost zvonjenja</string>
     <string name="liquid_glass_power_summary">Plošča in dejanja</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Neprosojno v varčevanju z baterijo</string>
     <string name="liquid_glass_battery_saver_summary">Izklopi steklo, ko je vklopljeno varčevanje z baterijo</string>
     <string name="liquid_glass_footer">Steklo se izklopi tudi, ko je telefon zelo vroč.</string>
-    <string name="liquid_glass_preview_wifi">Domači Wi-Fi</string>
-    <string name="liquid_glass_preview_earbuds">Slušalke</string>
 </resources>

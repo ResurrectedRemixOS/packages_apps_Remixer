@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- Liquid Glass on the lock screen, and the Glass clock face -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/glass_section_lockscreen">
+
+    <lineageos.preference.SystemSettingSwitchPreference
+        android:key="rr_glass_lockscreen"
+        android:title="@string/liquid_glass_lockscreen_title"
+        android:summary="@string/liquid_glass_lockscreen_summary"
+        android:defaultValue="true" />
+
+    <PreferenceCategory
+        android:key="glass_clock_category"
+        android:title="@string/glass_clock_title">
+
+        <SwitchPreferenceCompat
+            android:key="glass_clock_use"
+            android:title="@string/glass_clock_use_title"
+            android:summary="@string/liquid_glass_clock_use_summary"
+            android:persistent="false" />
+
+        <Preference
+            android:key="glass_clock_faces"
+            android:title="@string/remixer_clock_faces"
+            android:summary="@string/liquid_glass_clock_faces_summary" />
+
+        <com.resurrection.settings.preferences.SystemSettingListPreference
+            android:key="rr_glass_clock_style"
+            android:title="@string/glass_clock_style_title"
+            android:summary="%s"
+            android:entries="@array/glass_clock_style_entries"
+            android:entryValues="@array/glass_clock_style_values"
+            android:defaultValue="0" />
+
+        <com.resurrection.settings.preferences.SystemSettingListPreference
+            android:key="rr_glass_clock_depth"
+            android:title="@string/glass_clock_depth_title"
+            android:summary="%s"
+            android:entries="@array/glass_clock_depth_entries"
+            android:entryValues="@array/glass_clock_depth_values"
+            android:defaultValue="1" />
+
+        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+            android:key="rr_glass_clock_bend"
+            android:title="@string/glass_clock_bend_title"
+            android:defaultValue="50"
+            android:max="100"
+            app:min="0"
+            app:seekBarIncrement="5"
+            app:textStart="@string/glass_bend_flat"
+            app:textEnd="@string/glass_bend_strong"
+            app:updatesContinuously="true" />
+
+        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+            android:key="rr_glass_clock_light"
+            android:title="@string/glass_clock_light_title"
+            android:defaultValue="70"
+            android:max="100"
+            app:min="0"
+            app:seekBarIncrement="5"
+            app:textStart="@string/glass_rim_light_none"
+            app:textEnd="@string/glass_rim_light_bright"
+            app:updatesContinuously="true" />
+
+        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+            android:key="rr_glass_clock_rainbow"
+            android:title="@string/glass_clock_rainbow_title"
+            android:defaultValue="40"
+            android:max="100"
+            app:min="0"
+            app:seekBarIncrement="5"
+            app:textStart="@string/glass_rainbow_none"
+            app:textEnd="@string/glass_rainbow_vivid"
+            app:updatesContinuously="true" />
+
+        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+            android:key="rr_glass_clock_shadow"
+            android:title="@string/glass_clock_shadow_title"
+            android:defaultValue="35"
+            android:max="100"
+            app:min="0"
+            app:seekBarIncrement="5"
+            app:textStart="@string/glass_shadow_none"
+            app:textEnd="@string/glass_shadow_dark"
+            app:updatesContinuously="true" />
+
+        <com.resurrection.settings.preferences.SystemSettingListPreference
+            android:key="rr_glass_clock_weight"
+            android:title="@string/glass_clock_weight_title"
+            android:summary="%s"
+            android:entries="@array/glass_clock_weight_entries"
+            android:entryValues="@array/glass_clock_weight_values"
+            android:defaultValue="850" />
+
+        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+            android:key="rr_glass_clock_roundness"
+            android:title="@string/glass_clock_roundness_title"
+            android:defaultValue="100"
+            android:max="100"
+            app:min="0"
+            app:seekBarIncrement="10"
+            app:textStart="@string/glass_clock_roundness_crisp"
+            app:textEnd="@string/glass_clock_roundness_round"
+            app:updatesContinuously="true" />
+
+        <com.resurrection.settings.preferences.SystemSettingListPreference
+            android:key="rr_glass_clock_width"
+            android:title="@string/glass_clock_width_title"
+            android:summary="%s"
+            android:entries="@array/glass_clock_width_entries"
+            android:entryValues="@array/glass_clock_width_values"
+            android:defaultValue="100" />
+
+        <com.resurrection.settings.preferences.SystemSettingListPreference
+            android:key="rr_glass_clock_layout"
+            android:title="@string/glass_clock_layout_title"
+            android:summary="%s"
+            android:entries="@array/glass_clock_layout_entries"
+            android:entryValues="@array/glass_clock_layout_values"
+            android:defaultValue="0" />
+    </PreferenceCategory>
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="glass_clock_note"
+        android:title="@string/liquid_glass_clock_note" />
+</PreferenceScreen>

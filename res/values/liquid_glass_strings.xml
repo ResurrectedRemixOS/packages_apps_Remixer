@@ -15,11 +15,7 @@
     <string name="liquid_glass_blur_title">Blur</string>
     <string name="liquid_glass_blur_summary">How strongly the glass blurs what\'s behind it</string>
     <string name="liquid_glass_tint_title">Tint</string>
-    <string name="liquid_glass_tint_summary">Darkens the glass so text stays readable</string>
-    <string name="liquid_glass_accent_tint_title">Accent tint</string>
-    <string name="liquid_glass_accent_tint_summary">Color the glass with your accent</string>
 
-    <string name="liquid_glass_liquid_category">Liquid</string>
     <string name="liquid_glass_refraction_title">Refraction</string>
     <string name="liquid_glass_refraction_summary">How far the edges bend what\'s behind them</string>
     <string name="liquid_glass_tilt_title">Highlights follow tilt</string>
@@ -27,7 +23,6 @@
 
     <string name="liquid_glass_surfaces_title">Glass on</string>
     <string name="liquid_glass_qs_title">Quick Settings and shade</string>
-    <string name="liquid_glass_qs_summary">The shade, notifications and the unlock screen</string>
     <string name="liquid_glass_lockscreen_title">Lock screen</string>
     <string name="liquid_glass_lockscreen_summary">Shortcuts and the fingerprint button</string>
     <string name="liquid_glass_volume_title">Volume panel</string>
@@ -42,9 +37,4 @@
     <string name="liquid_glass_battery_saver_summary">Turns glass off while Battery Saver is on</string>
     <string name="liquid_glass_footer">Glass also turns off while the phone is very hot.</string>
 
-    <!-- Labels drawn on the preview's sample tiles -->
-    <string name="liquid_glass_preview_internet">Internet</string>
-    <string name="liquid_glass_preview_wifi">Home Wi-Fi</string>
-    <string name="liquid_glass_preview_bluetooth">Bluetooth</string>
-    <string name="liquid_glass_preview_earbuds">Earbuds</string>
 </resources>

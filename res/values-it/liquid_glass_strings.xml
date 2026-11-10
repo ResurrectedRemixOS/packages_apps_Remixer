@@ -5,7 +5,6 @@
     <string name="liquid_glass_volume_title">Pannello del volume</string>
     <string name="liquid_glass_power_title">"Menu del tasto di accensione"</string>
     <string name="liquid_glass_battery_title">"Batteria"</string>
-    <string name="liquid_glass_preview_internet">"Internet"</string>
     <string name="liquid_glass_summary">Sfocatura e vetro sulle superfici di sistema</string>
     <string name="liquid_glass_material_title">Material</string>
     <string name="liquid_glass_solid">Pieno</string>
@@ -17,17 +16,12 @@
     <string name="liquid_glass_look_title">Preset</string>
     <string name="liquid_glass_blur_summary">Quanto fortemente il vetro sfoca ciò che c\'è dietro</string>
     <string name="liquid_glass_tint_title">Tinta</string>
-    <string name="liquid_glass_tint_summary">Scurisce il vetro così il testo resta leggibile</string>
-    <string name="liquid_glass_accent_tint_title">Tinta primaria</string>
-    <string name="liquid_glass_accent_tint_summary">Colora il vetro con il tuo colore primario</string>
-    <string name="liquid_glass_liquid_category">Liquido</string>
     <string name="liquid_glass_refraction_title">Rifrazione</string>
     <string name="liquid_glass_refraction_summary">Quanto i bordi piegano ciò che c\'è dietro di essi</string>
     <string name="liquid_glass_tilt_title">Le luci seguono l\'inclinazione</string>
     <string name="liquid_glass_tilt_summary">I bordi catturano la luce quando muovi il telefono</string>
     <string name="liquid_glass_surfaces_title">Vetro attivo</string>
     <string name="liquid_glass_qs_title">Impostazioni rapide e tendina</string>
-    <string name="liquid_glass_qs_summary">La tendina, le notifiche e la schermata di blocco</string>
     <string name="liquid_glass_lockscreen_summary">Scorciatoie e pulsante dell\'impronta</string>
     <string name="liquid_glass_volume_summary">Cursori e pulsanti della suoneria</string>
     <string name="liquid_glass_power_summary">Pannello e azioni</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Opaco con il risparmio energia</string>
     <string name="liquid_glass_battery_saver_summary">Disattiva il vetro quando il risparmio energia è attivo</string>
     <string name="liquid_glass_footer">Il vetro si disattiva anche quando il telefono è molto caldo.</string>
-    <string name="liquid_glass_preview_wifi">Wi-Fi di casa</string>
-    <string name="liquid_glass_preview_earbuds">Auricolari</string>
 </resources>

@@ -4,7 +4,6 @@
     <string name="liquid_glass_lockscreen_title">"Ekrani i kyçjes"</string>
     <string name="liquid_glass_power_title">"Menyja e energjisë"</string>
     <string name="liquid_glass_battery_title">"Bateria"</string>
-    <string name="liquid_glass_preview_internet">"Interneti"</string>
     <string name="liquid_glass_summary">Turbullimi dhe xhami në sipërfaqet e sistemit</string>
     <string name="liquid_glass_material_title">Material</string>
     <string name="liquid_glass_solid">Solid</string>
@@ -16,17 +15,12 @@
     <string name="liquid_glass_look_title">Pamja</string>
     <string name="liquid_glass_blur_summary">Sa fort xhami turbullon atë që ndodhet pas tij</string>
     <string name="liquid_glass_tint_title">Nuancë</string>
-    <string name="liquid_glass_tint_summary">E errëson xhamin që teksti të mbetet i lexueshëm</string>
-    <string name="liquid_glass_accent_tint_title">Ngjyrosje me theks</string>
-    <string name="liquid_glass_accent_tint_summary">Ngjyros xhamin me ngjyrën tënde të theksit</string>
-    <string name="liquid_glass_liquid_category">Lëng</string>
     <string name="liquid_glass_refraction_title">Thyerja e dritës</string>
     <string name="liquid_glass_refraction_summary">Sa larg përkulen skajet atë që ndodhet pas tyre</string>
     <string name="liquid_glass_tilt_title">Shkëlqimet ndjekin pjerrësinë</string>
     <string name="liquid_glass_tilt_summary">Skajet kapin dritën kur lëviz telefonin</string>
     <string name="liquid_glass_surfaces_title">Xhami i ndezur</string>
     <string name="liquid_glass_qs_title">Cilësimet e shpejta dhe paneli</string>
-    <string name="liquid_glass_qs_summary">Paneli, njoftimet dhe ekrani i shkyçjes</string>
     <string name="liquid_glass_lockscreen_summary">Shkurtoret dhe butoni i gjurmës së gishtit</string>
     <string name="liquid_glass_volume_title">Paneli i volumit</string>
     <string name="liquid_glass_volume_summary">Rrëshqitësit dhe butonat e zërit të zilës</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Ngurtë në Kursyesin e baterisë</string>
     <string name="liquid_glass_battery_saver_summary">Fik xhamin kur Kursyesi i baterisë është i ndezur</string>
     <string name="liquid_glass_footer">Xhami fiket gjithashtu kur telefoni është shumë i nxehtë.</string>
-    <string name="liquid_glass_preview_wifi">Wi-Fi i shtëpisë</string>
-    <string name="liquid_glass_preview_earbuds">Kufjet</string>
 </resources>

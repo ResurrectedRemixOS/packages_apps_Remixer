@@ -4,7 +4,6 @@
     <string name="liquid_glass_lockscreen_title">"Кулпуланган экран"</string>
     <string name="liquid_glass_power_title">"Кубат баскычынын менюсу"</string>
     <string name="liquid_glass_battery_title">"Батарея"</string>
-    <string name="liquid_glass_preview_internet">"Интернет"</string>
     <string name="liquid_glass_summary">Тутум беттериндеги бүдөмүктүк жана айнек</string>
     <string name="liquid_glass_material_title">Материал</string>
     <string name="liquid_glass_solid">Бир түстүү</string>
@@ -16,17 +15,12 @@
     <string name="liquid_glass_look_title">Көрүнүш</string>
     <string name="liquid_glass_blur_summary">Айнек артындагыны канчалык бүдөмүктөтөт</string>
     <string name="liquid_glass_tint_title">Боёк</string>
-    <string name="liquid_glass_tint_summary">Текст окулуу үчүн айнекти караңгылатат</string>
-    <string name="liquid_glass_accent_tint_title">Акцент тону</string>
-    <string name="liquid_glass_accent_tint_summary">Айнекти акцент түсүнө боёо</string>
-    <string name="liquid_glass_liquid_category">Суюк</string>
     <string name="liquid_glass_refraction_title">Сынуу</string>
     <string name="liquid_glass_refraction_summary">Четтери артындагыны канчалык бурмалайт</string>
     <string name="liquid_glass_tilt_title">Жарык чагылышы кыйшаюуга ылайык жылат</string>
     <string name="liquid_glass_tilt_summary">Телефонду жылдырганда четтер жарыкты кармайт</string>
     <string name="liquid_glass_surfaces_title">Айнек иштетилген</string>
     <string name="liquid_glass_qs_title">Ыкчам параметрлер жана билдирмелер тилкеси</string>
-    <string name="liquid_glass_qs_summary">Билдирмелер тилкеси, билдирмелер жана кулпуну ачуу экраны</string>
     <string name="liquid_glass_lockscreen_summary">Ыкчам баскычтар жана манжа изинин баскычы</string>
     <string name="liquid_glass_volume_title">Үн панели</string>
     <string name="liquid_glass_volume_summary">Жылдыргычтар жана шыңгыроо баскычтары</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Батареяны үнөмдөгүчтө катуу</string>
     <string name="liquid_glass_battery_saver_summary">Батареяны үнөмдөгүч күйгөндө айнекти өчүрөт</string>
     <string name="liquid_glass_footer">Телефон абдан ысып турганда да айнек өчөт.</string>
-    <string name="liquid_glass_preview_wifi">Үйдөгү Wi-Fi</string>
-    <string name="liquid_glass_preview_earbuds">Кулакчындар</string>
 </resources>

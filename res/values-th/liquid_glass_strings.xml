@@ -4,7 +4,6 @@
     <string name="liquid_glass_lockscreen_title">"หน้าจอล็อก"</string>
     <string name="liquid_glass_power_title">"เมนูเปิด/ปิด"</string>
     <string name="liquid_glass_battery_title">"แบตเตอรี่"</string>
-    <string name="liquid_glass_preview_internet">"อินเทอร์เน็ต"</string>
     <string name="liquid_glass_summary">เบลอและกระจกบนพื้นผิวของระบบ</string>
     <string name="liquid_glass_material_title">วัสดุ</string>
     <string name="liquid_glass_solid">ทึบ</string>
@@ -16,17 +15,12 @@
     <string name="liquid_glass_look_title">ลุค</string>
     <string name="liquid_glass_blur_summary">ความเข้มของการเบลอสิ่งที่อยู่ด้านหลังกระจก</string>
     <string name="liquid_glass_tint_title">สีอ่อน</string>
-    <string name="liquid_glass_tint_summary">ทำให้กระจกมืดลงเพื่อให้อ่านข้อความได้ชัด</string>
-    <string name="liquid_glass_accent_tint_title">สีเน้นสี</string>
-    <string name="liquid_glass_accent_tint_summary">ใส่สีเน้นของคุณลงในกระจก</string>
-    <string name="liquid_glass_liquid_category">ของเหลว</string>
     <string name="liquid_glass_refraction_title">การหักเหแสง</string>
     <string name="liquid_glass_refraction_summary">ขอบโค้งงอสิ่งที่อยู่ด้านหลังมากน้อยเพียงใด</string>
     <string name="liquid_glass_tilt_title">ไฮไลต์ตามการเอียง</string>
     <string name="liquid_glass_tilt_summary">ขอบจะรับแสงเมื่อคุณขยับโทรศัพท์</string>
     <string name="liquid_glass_surfaces_title">เปิดกระจก</string>
     <string name="liquid_glass_qs_title">การตั้งค่าด่วนและแผงแจ้งเตือน</string>
-    <string name="liquid_glass_qs_summary">แผงแจ้งเตือน การแจ้งเตือน และหน้าจอปลดล็อก</string>
     <string name="liquid_glass_lockscreen_summary">ทางลัดและปุ่มลายนิ้วมือ</string>
     <string name="liquid_glass_volume_title">แผงระดับเสียง</string>
     <string name="liquid_glass_volume_summary">แถบเลื่อนและปุ่มระดับเสียงเรียกเข้า</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">ทึบเมื่อเปิดโหมดประหยัดแบตเตอรี่</string>
     <string name="liquid_glass_battery_saver_summary">ปิดกระจกขณะเปิดโหมดประหยัดแบตเตอรี่</string>
     <string name="liquid_glass_footer">กระจกจะปิดด้วยเมื่อโทรศัพท์ร้อนจัด</string>
-    <string name="liquid_glass_preview_wifi">Wi-Fi ที่บ้าน</string>
-    <string name="liquid_glass_preview_earbuds">หูฟัง</string>
 </resources>

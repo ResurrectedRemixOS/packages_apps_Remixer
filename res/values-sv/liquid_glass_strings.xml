@@ -5,7 +5,6 @@
     <string name="liquid_glass_volume_title">Volympanel</string>
     <string name="liquid_glass_power_title">"Startmeny"</string>
     <string name="liquid_glass_battery_title">"Batteri"</string>
-    <string name="liquid_glass_preview_internet">"Internet"</string>
     <string name="liquid_glass_summary">Oskärpa och glas på systemytor</string>
     <string name="liquid_glass_material_title">Material</string>
     <string name="liquid_glass_solid">Enfärgad</string>
@@ -17,17 +16,12 @@
     <string name="liquid_glass_look_title">Läge</string>
     <string name="liquid_glass_blur_summary">Hur starkt glaset suddar ut det som finns bakom</string>
     <string name="liquid_glass_tint_title">Ton</string>
-    <string name="liquid_glass_tint_summary">Mörkar glaset så att texten förblir läsbar</string>
-    <string name="liquid_glass_accent_tint_title">Accentton</string>
-    <string name="liquid_glass_accent_tint_summary">Färga glaset med din accentfärg</string>
-    <string name="liquid_glass_liquid_category">Flytande</string>
     <string name="liquid_glass_refraction_title">Ljusbrytning</string>
     <string name="liquid_glass_refraction_summary">Hur mycket kanterna böjer det som finns bakom dem</string>
     <string name="liquid_glass_tilt_title">Höjdpunkter följer lutningen</string>
     <string name="liquid_glass_tilt_summary">Kanterna fångar ljuset när du rör telefonen</string>
     <string name="liquid_glass_surfaces_title">Glas på</string>
     <string name="liquid_glass_qs_title">Snabbinställningar och skuggan</string>
-    <string name="liquid_glass_qs_summary">Skuggan, aviseringar och upplåsningsskärmen</string>
     <string name="liquid_glass_lockscreen_summary">Genvägar och fingeravtrycksknappen</string>
     <string name="liquid_glass_volume_summary">Reglage och signalknappar</string>
     <string name="liquid_glass_power_summary">Panel och åtgärder</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Fast i batterisparläge</string>
     <string name="liquid_glass_battery_saver_summary">Stänger av glaset när batterisparläget är på</string>
     <string name="liquid_glass_footer">Glaset stängs också av när telefonen är mycket varm.</string>
-    <string name="liquid_glass_preview_wifi">Hem-Wi-Fi</string>
-    <string name="liquid_glass_preview_earbuds">Hörlurar</string>
 </resources>

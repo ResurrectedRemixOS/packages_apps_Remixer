@@ -5,7 +5,6 @@
     <string name="liquid_glass_volume_title">לוח עוצמת קול</string>
     <string name="liquid_glass_power_title">"תפריט הפעלה"</string>
     <string name="liquid_glass_battery_title">"סוללה"</string>
-    <string name="liquid_glass_preview_internet">"אינטרנט"</string>
     <string name="liquid_glass_summary">טשטוש וזכוכית במשטחי המערכת</string>
     <string name="liquid_glass_material_title">חומר</string>
     <string name="liquid_glass_solid">מלא</string>
@@ -17,17 +16,12 @@
     <string name="liquid_glass_look_title">תבנית</string>
     <string name="liquid_glass_blur_summary">עד כמה הזכוכית מטשטשת את מה שמאחוריה</string>
     <string name="liquid_glass_tint_title">גוון</string>
-    <string name="liquid_glass_tint_summary">מכהה את הזכוכית כדי שהטקסט יישאר קריא</string>
-    <string name="liquid_glass_accent_tint_title">גוון הצבע הראשי</string>
-    <string name="liquid_glass_accent_tint_summary">צובע את הזכוכית בצבע הראשי</string>
-    <string name="liquid_glass_liquid_category">נוזלי</string>
     <string name="liquid_glass_refraction_title">שבירה</string>
     <string name="liquid_glass_refraction_summary">עד כמה הקצוות מעקמים את מה שמאחוריהם</string>
     <string name="liquid_glass_tilt_title">הדגשות נעות עם הטיית הטלפון</string>
     <string name="liquid_glass_tilt_summary">הקצוות תופסים אור כשמזיזים את הטלפון</string>
     <string name="liquid_glass_surfaces_title">זכוכית פעילה</string>
     <string name="liquid_glass_qs_title">הגדרות מהירות וצל ההתראות</string>
-    <string name="liquid_glass_qs_summary">צל ההתראות, ההתראות ומסך הביטול הנעילה</string>
     <string name="liquid_glass_lockscreen_summary">קיצורים וכפתור טביעת האצבע</string>
     <string name="liquid_glass_volume_summary">מחוונים וכפתורי צלצול</string>
     <string name="liquid_glass_power_summary">לוח ופעולות</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">אטום במצב חיסכון בסוללה</string>
     <string name="liquid_glass_battery_saver_summary">מכבה את הזכוכית כשחיסכון בסוללה פועל</string>
     <string name="liquid_glass_footer">הזכוכית מתכבה גם כשהטלפון חם מאוד.</string>
-    <string name="liquid_glass_preview_wifi">Wi-Fi ביתי</string>
-    <string name="liquid_glass_preview_earbuds">אוזניות</string>
 </resources>

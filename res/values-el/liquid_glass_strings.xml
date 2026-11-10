@@ -5,7 +5,6 @@
     <string name="liquid_glass_volume_title">Πίνακας έντασης ήχου</string>
     <string name="liquid_glass_power_title">"Μενού λειτουργίας"</string>
     <string name="liquid_glass_battery_title">"Μπαταρία"</string>
-    <string name="liquid_glass_preview_internet">"Διαδίκτυο"</string>
     <string name="liquid_glass_summary">Θολούρα και γυαλί σε επιφάνειες συστήματος</string>
     <string name="liquid_glass_material_title">Material</string>
     <string name="liquid_glass_solid">Συμπαγές</string>
@@ -17,17 +16,12 @@
     <string name="liquid_glass_look_title">Εμφάνιση</string>
     <string name="liquid_glass_blur_summary">Πόσο έντονα το γυαλί θολώνει ό,τι βρίσκεται πίσω του</string>
     <string name="liquid_glass_tint_title">Απόχρωση</string>
-    <string name="liquid_glass_tint_summary">Σκουραίνει το γυαλί ώστε το κείμενο να παραμένει ευανάγνωστο</string>
-    <string name="liquid_glass_accent_tint_title">Απόχρωση έμφασης</string>
-    <string name="liquid_glass_accent_tint_summary">Χρωματίζει το γυαλί με το χρώμα έμφασης</string>
-    <string name="liquid_glass_liquid_category">Υγρό</string>
     <string name="liquid_glass_refraction_title">Διάθλαση</string>
     <string name="liquid_glass_refraction_summary">Πόσο λυγίζουν οι άκρες ό,τι βρίσκεται πίσω τους</string>
     <string name="liquid_glass_tilt_title">Οι φωτεινές αντανακλάσεις ακολουθούν την κλίση</string>
     <string name="liquid_glass_tilt_summary">Οι άκρες πιάνουν το φως όταν κινείτε το τηλέφωνο</string>
     <string name="liquid_glass_surfaces_title">Γυαλί</string>
     <string name="liquid_glass_qs_title">Γρήγορες ρυθμίσεις και πίνακας ειδοποιήσεων</string>
-    <string name="liquid_glass_qs_summary">Ο πίνακας, οι ειδοποιήσεις και η οθόνη ξεκλειδώματος</string>
     <string name="liquid_glass_lockscreen_summary">Συντομεύσεις και το κουμπί δακτυλικού αποτυπώματος</string>
     <string name="liquid_glass_volume_summary">Ρυθμιστικά και κουμπιά έντασης κλήσης</string>
     <string name="liquid_glass_power_summary">Πίνακας και ενέργειες</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Συμπαγές σε Εξοικονόμηση μπαταρίας</string>
     <string name="liquid_glass_battery_saver_summary">Απενεργοποιεί το γυαλί όταν είναι ενεργή η Εξοικονόμηση μπαταρίας</string>
     <string name="liquid_glass_footer">Το γυαλί απενεργοποιείται επίσης όταν το τηλέφωνο είναι πολύ ζεστό.</string>
-    <string name="liquid_glass_preview_wifi">Wi-Fi σπιτιού</string>
-    <string name="liquid_glass_preview_earbuds">Ακουστικά</string>
 </resources>

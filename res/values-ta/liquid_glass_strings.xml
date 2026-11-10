@@ -4,7 +4,6 @@
     <string name="liquid_glass_lockscreen_title">"பூட்டுத் திரை"</string>
     <string name="liquid_glass_power_title">"பவர் மெனு"</string>
     <string name="liquid_glass_battery_title">"பேட்டரி"</string>
-    <string name="liquid_glass_preview_internet">"இணையம்"</string>
     <string name="liquid_glass_summary">கணினி மேற்பரப்புகளில் மங்கல் மற்றும் கண்ணாடி விளைவு</string>
     <string name="liquid_glass_material_title">Material</string>
     <string name="liquid_glass_solid">திடமான</string>
@@ -16,17 +15,12 @@
     <string name="liquid_glass_look_title">தோற்றம்</string>
     <string name="liquid_glass_blur_summary">கண்ணாடிக்குப் பின்னால் உள்ளதை எவ்வளவு வலுவாக மங்கச் செய்கிறது</string>
     <string name="liquid_glass_tint_title">சாயல்</string>
-    <string name="liquid_glass_tint_summary">உரை படிக்கக்கூடியதாக இருக்க கண்ணாடியை இருட்டாக்கும்</string>
-    <string name="liquid_glass_accent_tint_title">உச்சரிப்பு வண்ணச் சாயல்</string>
-    <string name="liquid_glass_accent_tint_summary">உங்கள் உச்சரிப்பு நிறத்துடன் கண்ணாடிக்கு வண்ணம் சேர்க்கும்</string>
-    <string name="liquid_glass_liquid_category">திரவம்</string>
     <string name="liquid_glass_refraction_title">ஒளிவிலகல்</string>
     <string name="liquid_glass_refraction_summary">விளிம்புகள் பின்னால் உள்ளதை எவ்வளவு வளைக்கின்றன</string>
     <string name="liquid_glass_tilt_title">சாய்வைப் பின்தொடரும் ஒளிர்வு</string>
     <string name="liquid_glass_tilt_summary">நீங்கள் ஃபோனை நகர்த்தும்போது விளிம்புகள் ஒளியைப் பிடிக்கும்</string>
     <string name="liquid_glass_surfaces_title">கண்ணாடி இயக்கத்தில்</string>
     <string name="liquid_glass_qs_title">விரைவு அமைப்புகளும் பட்டியும்</string>
-    <string name="liquid_glass_qs_summary">பட்டி, அறிவிப்புகள் மற்றும் திறத்தல் திரை</string>
     <string name="liquid_glass_lockscreen_summary">குறுக்குவழிகளும் கைரேகை பொத்தானும்</string>
     <string name="liquid_glass_volume_title">ஒலி பலகம்</string>
     <string name="liquid_glass_volume_summary">ஸ்லைடர்களும் ஒலிப் பொத்தான்களும்</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">பேட்டரி சேவர் இயங்கும்போது திடமாக</string>
     <string name="liquid_glass_battery_saver_summary">பேட்டரி சேவர் இயங்கும்போது கண்ணாடியை அணைக்கும்</string>
     <string name="liquid_glass_footer">ஃபோன் மிகவும் சூடாக இருக்கும்போதும் கண்ணாடி அணைந்துவிடும்.</string>
-    <string name="liquid_glass_preview_wifi">வீட்டு வை-ஃபை</string>
-    <string name="liquid_glass_preview_earbuds">இயர்பட்கள்</string>
 </resources>

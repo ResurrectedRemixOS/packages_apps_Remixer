@@ -4,7 +4,6 @@
     <string name="liquid_glass_lockscreen_title">"අගුලු තිරය"</string>
     <string name="liquid_glass_power_title">"බල මෙනුව"</string>
     <string name="liquid_glass_battery_title">"බැටරිය"</string>
-    <string name="liquid_glass_preview_internet">"අන්තර්ජාලය"</string>
     <string name="liquid_glass_summary">පද්ධති මතුපිට බ්ලර් සහ වීදුරු ආචරණය</string>
     <string name="liquid_glass_material_title">ද්‍රව්‍ය</string>
     <string name="liquid_glass_solid">ඝන</string>
@@ -16,17 +15,12 @@
     <string name="liquid_glass_look_title">පෙනුම</string>
     <string name="liquid_glass_blur_summary">පිටුපස ඇති දේ කොතරම් බ්ලර් කරන්නේද යන්න</string>
     <string name="liquid_glass_tint_title">වර්ණ මිශ්‍රණය</string>
-    <string name="liquid_glass_tint_summary">පෙළ කියවිය හැකි වන පරිදි වීදුරු අඳුරු කරයි</string>
-    <string name="liquid_glass_accent_tint_title">උච්චාරණ වර්ණ ආභාෂය</string>
-    <string name="liquid_glass_accent_tint_summary">ඔබේ උච්චාරණ වර්ණයෙන් වීදුරු වර්ණ ගන්වන්න</string>
-    <string name="liquid_glass_liquid_category">දියර</string>
     <string name="liquid_glass_refraction_title">වර්තනය</string>
     <string name="liquid_glass_refraction_summary">දාර පිටුපස ඇති දේ කොතරම් නැමෙන්නේද යන්න</string>
     <string name="liquid_glass_tilt_title">ඉහළ එළි ඔබ දුරකථනය චලනය කරන විට අනුගමනය කරයි</string>
     <string name="liquid_glass_tilt_summary">දුරකථනය චලනය කරන විට දාර ආලෝකය ලබා ගනී</string>
     <string name="liquid_glass_surfaces_title">වීදුරු ක්‍රියාත්මකයි</string>
     <string name="liquid_glass_qs_title">ක්ෂණික සැකසීම් සහ තිරය</string>
-    <string name="liquid_glass_qs_summary">තිරය, දැනුම්දීම් සහ අගුලු ඇරීමේ තිරය</string>
     <string name="liquid_glass_lockscreen_summary">කෙටිමං සහ ඇඟිලි සලකුණු බොත්තම</string>
     <string name="liquid_glass_volume_title">හඬ පැනලය</string>
     <string name="liquid_glass_volume_summary">ස්ලයිඩර සහ නාද බොත්තම්</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">බැටරි සේවරයේදී ඝන</string>
     <string name="liquid_glass_battery_saver_summary">බැටරි සුරැකුම ක්‍රියාත්මක වන විට වීදුරු ක්‍රියාවිරහිත කරයි</string>
     <string name="liquid_glass_footer">දුරකථනය ඉතා උණුසුම් වන විටද වීදුරු ක්‍රියාවිරහිත වේ.</string>
-    <string name="liquid_glass_preview_wifi">ගෙදර Wi-Fi</string>
-    <string name="liquid_glass_preview_earbuds">කන්ද්‍රාසි</string>
 </resources>

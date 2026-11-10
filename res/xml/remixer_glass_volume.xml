@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- Liquid Glass on the volume panel -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/glass_section_volume">
+
+    <lineageos.preference.SystemSettingSwitchPreference
+        android:key="rr_glass_volume"
+        android:title="@string/liquid_glass_volume_title"
+        android:summary="@string/liquid_glass_volume_summary"
+        android:defaultValue="true" />
+
+    <lineageos.preference.SystemSettingSwitchPreference
+        android:key="rr_glass_volume_frosted"
+        android:title="@string/glass_volume_frosted_title"
+        android:summary="@string/liquid_glass_volume_frosted_summary"
+        android:dependency="rr_glass_volume"
+        android:defaultValue="true" />
+
+    <lineageos.preference.SystemSettingSwitchPreference
+        android:key="rr_glass_morph_volume"
+        android:title="@string/glass_morph_volume_title"
+        android:summary="@string/glass_morph_volume_summary"
+        android:defaultValue="true" />
+</PreferenceScreen>

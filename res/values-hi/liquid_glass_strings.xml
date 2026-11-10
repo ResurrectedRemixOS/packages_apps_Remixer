@@ -4,7 +4,6 @@
     <string name="liquid_glass_lockscreen_title">"लॉक स्क्रीन"</string>
     <string name="liquid_glass_power_title">"पावर मेन्यू"</string>
     <string name="liquid_glass_battery_title">"बैटरी"</string>
-    <string name="liquid_glass_preview_internet">"इंटरनेट"</string>
     <string name="liquid_glass_summary">सिस्टम सतहों पर ब्लर और ग्लास</string>
     <string name="liquid_glass_material_title">मटीरियल</string>
     <string name="liquid_glass_solid">सॉलिड</string>
@@ -16,17 +15,12 @@
     <string name="liquid_glass_look_title">लुक</string>
     <string name="liquid_glass_blur_summary">ग्लास पीछे की चीज़ों को कितना धुंधला करे</string>
     <string name="liquid_glass_tint_title">टिंट</string>
-    <string name="liquid_glass_tint_summary">ग्लास को गहरा करता है ताकि टेक्स्ट पढ़ा जा सके</string>
-    <string name="liquid_glass_accent_tint_title">एक्सेंट टिंट</string>
-    <string name="liquid_glass_accent_tint_summary">ग्लास को आपके एक्सेंट रंग में रंगें</string>
-    <string name="liquid_glass_liquid_category">लिक्विड</string>
     <string name="liquid_glass_refraction_title">रिफ़्रैक्शन</string>
     <string name="liquid_glass_refraction_summary">किनारे पीछे की चीज़ों को कितना मोड़ें</string>
     <string name="liquid_glass_tilt_title">हाइलाइट झुकाव के साथ चलें</string>
     <string name="liquid_glass_tilt_summary">फ़ोन हिलाने पर किनारों पर रोशनी पड़ती है</string>
     <string name="liquid_glass_surfaces_title">ग्लास चालू</string>
     <string name="liquid_glass_qs_title">क्विक सेटिंग और शेड</string>
-    <string name="liquid_glass_qs_summary">शेड, सूचनाएं और अनलॉक स्क्रीन</string>
     <string name="liquid_glass_lockscreen_summary">शॉर्टकट और फ़िंगरप्रिंट बटन</string>
     <string name="liquid_glass_volume_title">वॉल्यूम पैनल</string>
     <string name="liquid_glass_volume_summary">स्लाइडर और रिंगर बटन</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">बैटरी सेवर में सॉलिड</string>
     <string name="liquid_glass_battery_saver_summary">बैटरी सेवर चालू होने पर ग्लास बंद कर देता है</string>
     <string name="liquid_glass_footer">फ़ोन बहुत गर्म होने पर भी ग्लास बंद हो जाता है।</string>
-    <string name="liquid_glass_preview_wifi">होम Wi-Fi</string>
-    <string name="liquid_glass_preview_earbuds">ईयरबड</string>
 </resources>

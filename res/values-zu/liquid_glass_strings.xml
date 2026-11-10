@@ -4,7 +4,6 @@
     <string name="liquid_glass_lockscreen_title">"Khiya isikrini"</string>
     <string name="liquid_glass_power_title">"Imenyu yamandla"</string>
     <string name="liquid_glass_battery_title">"Ibhethri"</string>
-    <string name="liquid_glass_preview_internet">"I-inthanethi"</string>
     <string name="liquid_glass_summary">Ukuthambisa nengilasi ezindaweni zesistimu</string>
     <string name="liquid_glass_material_title">Okwempahla</string>
     <string name="liquid_glass_solid">Okuqinile</string>
@@ -16,17 +15,12 @@
     <string name="liquid_glass_look_title">Ukubukeka</string>
     <string name="liquid_glass_blur_summary">Ukuthi ingilasi ithambisa kangakanani okungemuva kwayo</string>
     <string name="liquid_glass_tint_title">Umbala ofiphele</string>
-    <string name="liquid_glass_tint_summary">Ifiphaza ingilasi ukuze umbhalo usafundeka</string>
-    <string name="liquid_glass_accent_tint_title">Umbala wokugqamisa</string>
-    <string name="liquid_glass_accent_tint_summary">Dweba ingilasi ngombala wakho wokugqamisa</string>
-    <string name="liquid_glass_liquid_category">Uketshezi</string>
     <string name="liquid_glass_refraction_title">Ukugoba kokukhanya</string>
     <string name="liquid_glass_refraction_summary">Ukuthi imiphetho igoba kangakanani okungemuva kwayo</string>
     <string name="liquid_glass_tilt_title">Okuqaqambile kulandela ukuthambeka</string>
     <string name="liquid_glass_tilt_summary">Imiphetho ibamba ukukhanya uma uhambisa ifoni</string>
     <string name="liquid_glass_surfaces_title">Ingilasi ivuliwe</string>
     <string name="liquid_glass_qs_title">Amasethingi asheshayo nesheli</string>
-    <string name="liquid_glass_qs_summary">Isheli, izaziso nesikrini sokuvula</string>
     <string name="liquid_glass_lockscreen_summary">Izinqamuleli nenkinobho yezigxivizo zomunwe</string>
     <string name="liquid_glass_volume_title">Iphaneli yevolumu</string>
     <string name="liquid_glass_volume_summary">Izilayidi nezinkinobho zesiginali</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Oqinile ngesikhathi sesigcini sebhethri</string>
     <string name="liquid_glass_battery_saver_summary">Ivala ingilasi uma isigcini sebhethri sivuliwe</string>
     <string name="liquid_glass_footer">Ingilasi iphinde ivale uma ifoni ishisa kakhulu.</string>
-    <string name="liquid_glass_preview_wifi">Wi-Fi yasekhaya</string>
-    <string name="liquid_glass_preview_earbuds">Izinsimbi zezindlebe</string>
 </resources>

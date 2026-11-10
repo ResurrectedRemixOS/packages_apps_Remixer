@@ -5,7 +5,6 @@
     <string name="liquid_glass_volume_title">音量面板</string>
     <string name="liquid_glass_power_title">"電源鍵選單"</string>
     <string name="liquid_glass_battery_title">"電池"</string>
-    <string name="liquid_glass_preview_internet">"網際網路"</string>
     <string name="liquid_glass_summary">系統介面的模糊和玻璃效果</string>
     <string name="liquid_glass_material_title">材質</string>
     <string name="liquid_glass_solid">純色</string>
@@ -17,17 +16,12 @@
     <string name="liquid_glass_look_title">外觀</string>
     <string name="liquid_glass_blur_summary">玻璃對其後方內容的模糊程度</string>
     <string name="liquid_glass_tint_title">著色</string>
-    <string name="liquid_glass_tint_summary">調暗玻璃，使文字保持清晰可讀</string>
-    <string name="liquid_glass_accent_tint_title">強調色著色</string>
-    <string name="liquid_glass_accent_tint_summary">用強調色為玻璃著色</string>
-    <string name="liquid_glass_liquid_category">液態</string>
     <string name="liquid_glass_refraction_title">折射</string>
     <string name="liquid_glass_refraction_summary">邊緣使後方內容彎曲的程度</string>
     <string name="liquid_glass_tilt_title">高光跟隨傾斜</string>
     <string name="liquid_glass_tilt_summary">移動手機時邊緣會捕捉光線</string>
     <string name="liquid_glass_surfaces_title">玻璃套用於</string>
     <string name="liquid_glass_qs_title">快速設定和通知欄</string>
-    <string name="liquid_glass_qs_summary">通知欄、通知和解鎖螢幕</string>
     <string name="liquid_glass_lockscreen_summary">快捷方式和指紋按鈕</string>
     <string name="liquid_glass_volume_summary">滑塊和鈴聲按鈕</string>
     <string name="liquid_glass_power_summary">面板和操作</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">省電模式下使用純色</string>
     <string name="liquid_glass_battery_saver_summary">省電模式開啟時關閉玻璃效果</string>
     <string name="liquid_glass_footer">手機過熱時玻璃效果也會關閉。</string>
-    <string name="liquid_glass_preview_wifi">家庭 WLAN</string>
-    <string name="liquid_glass_preview_earbuds">耳機</string>
 </resources>

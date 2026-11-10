@@ -5,7 +5,6 @@
     <string name="liquid_glass_volume_title">Bảng âm lượng</string>
     <string name="liquid_glass_power_title">"Trình đơn nguồn"</string>
     <string name="liquid_glass_battery_title">"Pin"</string>
-    <string name="liquid_glass_preview_internet">"Internet"</string>
     <string name="liquid_glass_summary">Làm mờ và kính trên các bề mặt hệ thống</string>
     <string name="liquid_glass_material_title">Vật liệu</string>
     <string name="liquid_glass_solid">Đặc</string>
@@ -17,17 +16,12 @@
     <string name="liquid_glass_look_title">Xem trước</string>
     <string name="liquid_glass_blur_summary">Kính làm mờ phía sau mạnh đến mức nào</string>
     <string name="liquid_glass_tint_title">Tô màu</string>
-    <string name="liquid_glass_tint_summary">Làm tối kính để chữ vẫn dễ đọc</string>
-    <string name="liquid_glass_accent_tint_title">Tô màu nhấn</string>
-    <string name="liquid_glass_accent_tint_summary">Tô màu kính bằng màu nhấn của bạn</string>
-    <string name="liquid_glass_liquid_category">Lỏng</string>
     <string name="liquid_glass_refraction_title">Khúc xạ</string>
     <string name="liquid_glass_refraction_summary">Các mép kính uốn cong vật phía sau đến mức nào</string>
     <string name="liquid_glass_tilt_title">Điểm sáng theo độ nghiêng</string>
     <string name="liquid_glass_tilt_summary">Các mép bắt sáng khi bạn di chuyển điện thoại</string>
     <string name="liquid_glass_surfaces_title">Bật kính</string>
     <string name="liquid_glass_qs_title">Cài đặt nhanh và bảng thông báo</string>
-    <string name="liquid_glass_qs_summary">Thông báo, thanh trạng thái và màn hình khóa</string>
     <string name="liquid_glass_lockscreen_summary">Phím tắt và nút vân tay</string>
     <string name="liquid_glass_volume_summary">Thanh trượt và nút chuông</string>
     <string name="liquid_glass_power_summary">Bảng và hành động</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Đặc (không trong suốt) khi Trình tiết kiệm pin bật</string>
     <string name="liquid_glass_battery_saver_summary">Tắt kính khi Trình tiết kiệm pin đang bật</string>
     <string name="liquid_glass_footer">Kính cũng tắt khi điện thoại quá nóng.</string>
-    <string name="liquid_glass_preview_wifi">Wi-Fi nhà</string>
-    <string name="liquid_glass_preview_earbuds">Tai nghe</string>
 </resources>

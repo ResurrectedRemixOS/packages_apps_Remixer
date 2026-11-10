@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- Liquid Glass: the material, how all glass looks, touch and motion, and where glass shows.
+     Every key is a Settings.System int that GlassSettings reads; defaults are its own. -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:title="@string/liquid_glass_title">
+
+    <Preference
+        android:key="glass_needs_blur"
+        android:title="@string/glass_needs_blur_title"
+        android:summary="@string/glass_needs_blur_summary" />
 
     <com.android.settingslib.widget.LayoutPreference
         android:key="liquid_glass_header"
@@ -13,81 +24,217 @@
         android:key="liquid_glass_look"
         android:title="@string/liquid_glass_look_title">
 
+        <com.resurrection.settings.glass.GlassColorPreference
+            android:key="rr_glass_color"
+            android:title="@string/glass_color_title"
+            android:summary="%s"
+            android:entries="@array/glass_color_entries"
+            android:entryValues="@array/glass_color_values" />
+
+        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+            android:key="rr_glass_color_tint"
+            android:title="@string/liquid_glass_tint_title"
+            android:summary="@string/liquid_glass_color_tint_summary"
+            android:defaultValue="20"
+            android:max="100"
+            app:min="0"
+            app:seekBarIncrement="5"
+            app:textStart="@string/glass_tint_clear"
+            app:textEnd="@string/glass_tint_solid"
+            app:updatesContinuously="true" />
+
         <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
             android:key="rr_glass_blur"
             android:title="@string/liquid_glass_blur_title"
             android:summary="@string/liquid_glass_blur_summary"
             android:defaultValue="50"
             android:max="100"
-            app:min="0" />
-
-        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
-            android:key="rr_glass_tint"
-            android:title="@string/liquid_glass_tint_title"
-            android:summary="@string/liquid_glass_tint_summary"
-            android:defaultValue="0"
-            android:max="100"
-            app:min="0" />
+            app:min="0"
+            app:seekBarIncrement="5"
+            app:textStart="@string/glass_blur_strength_light"
+            app:textEnd="@string/glass_blur_strength_frosted"
+            app:updatesContinuously="true" />
 
         <lineageos.preference.SystemSettingSwitchPreference
-            android:key="rr_glass_accent_tint"
-            android:title="@string/liquid_glass_accent_tint_title"
-            android:summary="@string/liquid_glass_accent_tint_summary"
-            android:defaultValue="false" />
+            android:key="rr_glass_adaptive"
+            android:title="@string/glass_adaptive_title"
+            android:summary="@string/glass_adaptive_summary"
+            android:defaultValue="true" />
+
+        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+            android:key="rr_glass_smoke"
+            android:title="@string/glass_smoke_title"
+            android:dependency="rr_glass_adaptive"
+            android:defaultValue="45"
+            android:max="100"
+            app:min="0"
+            app:seekBarIncrement="5"
+            app:textStart="@string/glass_smoke_none"
+            app:textEnd="@string/glass_smoke_dark"
+            app:updatesContinuously="true" />
+
+        <com.resurrection.settings.preferences.SystemSettingListPreference
+            android:key="rr_glass_smoke_color"
+            android:title="@string/glass_smoke_color_title"
+            android:summary="%s"
+            android:dependency="rr_glass_adaptive"
+            android:entries="@array/glass_smoke_color_entries"
+            android:entryValues="@array/glass_smoke_color_values"
+            android:defaultValue="0" />
+
+        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+            android:key="rr_glass_switch_point"
+            android:title="@string/glass_switch_point_title"
+            android:summary="@string/liquid_glass_switch_point_summary"
+            android:dependency="rr_glass_adaptive"
+            android:defaultValue="55"
+            android:max="90"
+            app:min="10"
+            app:seekBarIncrement="5"
+            app:textStart="@string/glass_switch_point_sooner"
+            app:textEnd="@string/glass_switch_point_later"
+            app:updatesContinuously="true" />
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="liquid_glass_liquid"
-        android:title="@string/liquid_glass_liquid_category">
+        android:key="liquid_glass_edges"
+        android:title="@string/liquid_glass_edges_title">
+
+        <com.resurrection.settings.preferences.SystemSettingListPreference
+            android:key="rr_glass_style"
+            android:title="@string/liquid_glass_middle_title"
+            android:summary="%s"
+            android:entries="@array/glass_middle_entries"
+            android:entryValues="@array/glass_middle_values"
+            android:defaultValue="1" />
 
         <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
             android:key="rr_glass_refraction"
             android:title="@string/liquid_glass_refraction_title"
             android:summary="@string/liquid_glass_refraction_summary"
-            android:defaultValue="60"
+            android:defaultValue="50"
             android:max="100"
-            app:min="0" />
+            app:min="0"
+            app:seekBarIncrement="5"
+            app:textStart="@string/glass_bend_flat"
+            app:textEnd="@string/glass_bend_strong"
+            app:updatesContinuously="true" />
+
+        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+            android:key="rr_glass_rim_width"
+            android:title="@string/glass_rim_width_title"
+            android:defaultValue="16"
+            android:max="32"
+            app:min="4"
+            app:seekBarIncrement="2"
+            app:textStart="@string/glass_rim_width_thin"
+            app:textEnd="@string/glass_rim_width_wide"
+            app:updatesContinuously="true" />
+
+        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+            android:key="rr_glass_rim_light"
+            android:title="@string/glass_rim_light_title"
+            android:defaultValue="70"
+            android:max="100"
+            app:min="0"
+            app:seekBarIncrement="5"
+            app:textStart="@string/glass_rim_light_none"
+            app:textEnd="@string/glass_rim_light_bright"
+            app:updatesContinuously="true" />
+
+        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+            android:key="rr_glass_rainbow"
+            android:title="@string/glass_rainbow_title"
+            android:summary="@string/liquid_glass_rainbow_summary"
+            android:defaultValue="50"
+            android:max="100"
+            app:min="0"
+            app:seekBarIncrement="5"
+            app:textStart="@string/glass_rainbow_none"
+            app:textEnd="@string/glass_rainbow_vivid"
+            app:updatesContinuously="true" />
+
+        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+            android:key="rr_glass_shadow"
+            android:title="@string/glass_shadow_title"
+            android:summary="@string/liquid_glass_shadow_summary"
+            android:defaultValue="35"
+            android:max="100"
+            app:min="0"
+            app:seekBarIncrement="5"
+            app:textStart="@string/glass_shadow_none"
+            app:textEnd="@string/glass_shadow_dark"
+            app:updatesContinuously="true" />
 
         <lineageos.preference.SystemSettingSwitchPreference
             android:key="rr_glass_tilt"
             android:title="@string/liquid_glass_tilt_title"
             android:summary="@string/liquid_glass_tilt_summary"
             android:defaultValue="true" />
+
+        <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
+            android:key="rr_glass_tilt_amount"
+            android:title="@string/glass_tilt_amount_title"
+            android:dependency="rr_glass_tilt"
+            android:defaultValue="100"
+            android:max="200"
+            app:min="25"
+            app:seekBarIncrement="25"
+            app:textStart="@string/glass_tilt_amount_less"
+            app:textEnd="@string/glass_tilt_amount_more"
+            app:updatesContinuously="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="liquid_glass_more"
+        android:title="@string/liquid_glass_more_title">
+
+        <Preference
+            android:key="glass_page_touch"
+            android:title="@string/glass_touch_title"
+            android:summary="@string/liquid_glass_page_touch_summary"
+            android:fragment="com.resurrection.settings.glass.GlassTouchFragment" />
+
+        <Preference
+            android:key="glass_page_motion"
+            android:title="@string/glass_motion_title"
+            android:summary="@string/glass_page_motion_summary"
+            android:fragment="com.resurrection.settings.glass.GlassMotionFragment" />
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="liquid_glass_surfaces"
         android:title="@string/liquid_glass_surfaces_title">
 
-        <lineageos.preference.SystemSettingSwitchPreference
-            android:key="rr_glass_qs"
-            android:title="@string/liquid_glass_qs_title"
-            android:summary="@string/liquid_glass_qs_summary"
-            android:defaultValue="true" />
+        <Preference
+            android:key="glass_page_lockscreen"
+            android:title="@string/glass_section_lockscreen"
+            android:summary="@string/glass_page_lockscreen_summary"
+            android:fragment="com.resurrection.settings.glass.GlassLockscreenFragment" />
 
-        <lineageos.preference.SystemSettingSwitchPreference
-            android:key="rr_glass_lockscreen"
-            android:title="@string/liquid_glass_lockscreen_title"
-            android:summary="@string/liquid_glass_lockscreen_summary"
-            android:defaultValue="true" />
+        <Preference
+            android:key="glass_page_notifications"
+            android:title="@string/glass_section_notifications"
+            android:summary="@string/liquid_glass_page_notifications_summary"
+            android:fragment="com.resurrection.settings.glass.GlassNotificationsFragment" />
 
-        <lineageos.preference.SystemSettingSwitchPreference
-            android:key="rr_glass_volume"
-            android:title="@string/liquid_glass_volume_title"
-            android:summary="@string/liquid_glass_volume_summary"
-            android:defaultValue="true" />
+        <Preference
+            android:key="glass_page_quick_settings"
+            android:title="@string/glass_section_quick_settings"
+            android:summary="@string/glass_page_quick_settings_summary"
+            android:fragment="com.resurrection.settings.glass.GlassQuickSettingsFragment" />
 
-        <lineageos.preference.SystemSettingSwitchPreference
-            android:key="rr_glass_power"
-            android:title="@string/liquid_glass_power_title"
-            android:summary="@string/liquid_glass_power_summary"
-            android:defaultValue="true" />
+        <Preference
+            android:key="glass_page_volume"
+            android:title="@string/glass_section_volume"
+            android:summary="@string/glass_page_volume_summary"
+            android:fragment="com.resurrection.settings.glass.GlassVolumeFragment" />
 
-        <lineageos.preference.SystemSettingSwitchPreference
-            android:key="rr_glass_menus"
-            android:title="@string/liquid_glass_menus_title"
-            android:summary="@string/liquid_glass_menus_summary"
-            android:defaultValue="true" />
+        <Preference
+            android:key="glass_page_power"
+            android:title="@string/glass_section_power"
+            android:summary="@string/glass_page_power_summary"
+            android:fragment="com.resurrection.settings.glass.GlassPowerFragment" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -99,10 +246,9 @@
             android:title="@string/liquid_glass_battery_saver_title"
             android:summary="@string/liquid_glass_battery_saver_summary"
             android:defaultValue="true" />
-
-        <com.android.settingslib.widget.FooterPreference
-            android:key="liquid_glass_footer"
-            android:title="@string/liquid_glass_footer"
-            android:selectable="false" />
     </PreferenceCategory>
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="liquid_glass_footer"
+        android:title="@string/liquid_glass_footer" />
 </PreferenceScreen>

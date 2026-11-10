@@ -4,7 +4,6 @@
     <string name="liquid_glass_lockscreen_title">"Bloķēšanas ekrāns"</string>
     <string name="liquid_glass_power_title">"Barošanas izvēlne"</string>
     <string name="liquid_glass_battery_title">"Akumulators"</string>
-    <string name="liquid_glass_preview_internet">"Internets"</string>
     <string name="liquid_glass_summary">Izplūdums un stikls sistēmas virsmās</string>
     <string name="liquid_glass_material_title">Materiāls</string>
     <string name="liquid_glass_solid">Ciets</string>
@@ -16,17 +15,12 @@
     <string name="liquid_glass_look_title">Izskats</string>
     <string name="liquid_glass_blur_summary">Cik stipri stikls izplūdina aiz tā esošo</string>
     <string name="liquid_glass_tint_title">Krāsojums</string>
-    <string name="liquid_glass_tint_summary">Notumsina stiklu, lai teksts paliktu salasāms</string>
-    <string name="liquid_glass_accent_tint_title">Akcenta tonējums</string>
-    <string name="liquid_glass_accent_tint_summary">Krāsot stiklu ar akcenta krāsu</string>
-    <string name="liquid_glass_liquid_category">Šķidrs</string>
     <string name="liquid_glass_refraction_title">Refrakcija</string>
     <string name="liquid_glass_refraction_summary">Cik stipri malas izliecas aiz tām esošā</string>
     <string name="liquid_glass_tilt_title">Izcelumi seko slīpumam</string>
     <string name="liquid_glass_tilt_summary">Malas uzkrīt gaisma, kad pārvietojat tālruni</string>
     <string name="liquid_glass_surfaces_title">Stikls ieslēgts</string>
     <string name="liquid_glass_qs_title">Ātrie iestatījumi un statusa josla</string>
-    <string name="liquid_glass_qs_summary">Paneļa, paziņojumi un atbloķēšanas ekrāns</string>
     <string name="liquid_glass_lockscreen_summary">Īsceļi un pirksta nospieduma poga</string>
     <string name="liquid_glass_volume_title">Skaļuma panelis</string>
     <string name="liquid_glass_volume_summary">Slīdņi un zvana skaļuma pogas</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Nepārredzams akumulatora taupītājā</string>
     <string name="liquid_glass_battery_saver_summary">Izslēdz stiklu, kamēr ieslēgts akumulatora taupītājs</string>
     <string name="liquid_glass_footer">Stikls izslēdzas arī tad, kad tālrunis ir ļoti karsts.</string>
-    <string name="liquid_glass_preview_wifi">Mājas Wi-Fi</string>
-    <string name="liquid_glass_preview_earbuds">Austiņas</string>
 </resources>

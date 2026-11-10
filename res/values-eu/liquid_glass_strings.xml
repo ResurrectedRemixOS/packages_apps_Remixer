@@ -4,7 +4,6 @@
     <string name="liquid_glass_lockscreen_title">"Pantaila blokeatua"</string>
     <string name="liquid_glass_power_title">"Itzaltzeko menua"</string>
     <string name="liquid_glass_battery_title">"Bateria"</string>
-    <string name="liquid_glass_preview_internet">"Internet"</string>
     <string name="liquid_glass_summary">Lausotzea eta kristala sistemako gainazaletan</string>
     <string name="liquid_glass_material_title">Materiala</string>
     <string name="liquid_glass_solid">Solidoa</string>
@@ -16,17 +15,12 @@
     <string name="liquid_glass_look_title">Look</string>
     <string name="liquid_glass_blur_summary">Zein neurritan lausotzen duen kristalak atzean dagoena</string>
     <string name="liquid_glass_tint_title">Tinta</string>
-    <string name="liquid_glass_tint_summary">Kristala iluntzen du testua irakurgarri izateko</string>
-    <string name="liquid_glass_accent_tint_title">Azentu-tintura</string>
-    <string name="liquid_glass_accent_tint_summary">Kolorea eman kristalari zure azentuarekin</string>
-    <string name="liquid_glass_liquid_category">Likidoa</string>
     <string name="liquid_glass_refraction_title">Errefrakzioa</string>
     <string name="liquid_glass_refraction_summary">Zenbat okertzen dituen ertzek atzean dagoena</string>
     <string name="liquid_glass_tilt_title">Argiak tilt-aren arabera mugitzen dira</string>
     <string name="liquid_glass_tilt_summary">Ertzek argia hartzen dute telefonoa mugitzen duzun heinean</string>
     <string name="liquid_glass_surfaces_title">Kristala aktibo</string>
     <string name="liquid_glass_qs_title">Ezarpen bizkorrak eta itzal-panela</string>
-    <string name="liquid_glass_qs_summary">Itzal-panela, jakinarazpenak eta desblokeo-pantaila</string>
     <string name="liquid_glass_lockscreen_summary">Lasterbideak eta hatz-marka botoia</string>
     <string name="liquid_glass_volume_title">Bolumen panela</string>
     <string name="liquid_glass_volume_summary">Graduatzaileak eta tonu-botoiak</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Solidoa Bateria-aurrezlean</string>
     <string name="liquid_glass_battery_saver_summary">Kristala itzaltzen du Bateria-aurrezlea aktibo dagoenean</string>
     <string name="liquid_glass_footer">Kristala ere itzaltzen da telefonoa oso beroa dagoenean.</string>
-    <string name="liquid_glass_preview_wifi">Etxeko Wi-Fi</string>
-    <string name="liquid_glass_preview_earbuds">Belarritakoak</string>
 </resources>

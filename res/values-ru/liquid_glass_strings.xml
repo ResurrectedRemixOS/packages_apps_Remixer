@@ -5,7 +5,6 @@
     <string name="liquid_glass_volume_title">Панель громкости</string>
     <string name="liquid_glass_power_title">"Меню кнопки питания"</string>
     <string name="liquid_glass_battery_title">"Батарея"</string>
-    <string name="liquid_glass_preview_internet">"Интернет"</string>
     <string name="liquid_glass_summary">Размытие и стекло на системных поверхностях</string>
     <string name="liquid_glass_material_title">Материал</string>
     <string name="liquid_glass_solid">Сплошной</string>
@@ -17,17 +16,12 @@
     <string name="liquid_glass_look_title">Вид</string>
     <string name="liquid_glass_blur_summary">Насколько сильно стекло размывает то, что за ним</string>
     <string name="liquid_glass_tint_title">Тонировка</string>
-    <string name="liquid_glass_tint_summary">Затемняет стекло, чтобы текст оставался читаемым</string>
-    <string name="liquid_glass_accent_tint_title">Тонировка акцентом</string>
-    <string name="liquid_glass_accent_tint_summary">Окрашивать стекло цветом акцента</string>
-    <string name="liquid_glass_liquid_category">Жидкое</string>
     <string name="liquid_glass_refraction_title">Преломление</string>
     <string name="liquid_glass_refraction_summary">Как сильно края искривляют то, что за ними</string>
     <string name="liquid_glass_tilt_title">Блики следуют за наклоном</string>
     <string name="liquid_glass_tilt_summary">Края ловят свет при движении телефона</string>
     <string name="liquid_glass_surfaces_title">Стекло на</string>
     <string name="liquid_glass_qs_title">Быстрые настройки и шторка</string>
-    <string name="liquid_glass_qs_summary">Шторка, уведомления и экран разблокировки</string>
     <string name="liquid_glass_lockscreen_summary">Ярлыки и кнопка отпечатка</string>
     <string name="liquid_glass_volume_summary">Ползунки и кнопки режима звонка</string>
     <string name="liquid_glass_power_summary">Панель и действия</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Сплошной при экономии заряда</string>
     <string name="liquid_glass_battery_saver_summary">Отключает стекло, пока включена экономия заряда</string>
     <string name="liquid_glass_footer">Стекло также отключается, когда телефон сильно нагрет.</string>
-    <string name="liquid_glass_preview_wifi">Домашний Wi-Fi</string>
-    <string name="liquid_glass_preview_earbuds">Наушники</string>
 </resources>

@@ -4,7 +4,6 @@
     <string name="liquid_glass_lockscreen_title">"Pantalla de bloqueo"</string>
     <string name="liquid_glass_power_title">"Menú de acendido"</string>
     <string name="liquid_glass_battery_title">"Batería"</string>
-    <string name="liquid_glass_preview_internet">"Internet"</string>
     <string name="liquid_glass_summary">Desenfoque e vidro nas superficies do sistema</string>
     <string name="liquid_glass_material_title">Material</string>
     <string name="liquid_glass_solid">Sólido</string>
@@ -16,17 +15,12 @@
     <string name="liquid_glass_look_title">Aspecto</string>
     <string name="liquid_glass_blur_summary">Canta forza ten o vidro para desenfocar o que hai detrás</string>
     <string name="liquid_glass_tint_title">Tinte</string>
-    <string name="liquid_glass_tint_summary">Escurece o vidro para que o texto se lea ben</string>
-    <string name="liquid_glass_accent_tint_title">Tinte de acento</string>
-    <string name="liquid_glass_accent_tint_summary">Colorea o vidro coa túa cor de acento</string>
-    <string name="liquid_glass_liquid_category">Líquido</string>
     <string name="liquid_glass_refraction_title">Refracción</string>
     <string name="liquid_glass_refraction_summary">Canto se curvan os bordos sobre o que hai detrás</string>
     <string name="liquid_glass_tilt_title">Os reflexos seguen a inclinación</string>
     <string name="liquid_glass_tilt_summary">Os bordos recollen a luz ao mover o teléfono</string>
     <string name="liquid_glass_surfaces_title">Vidro activado</string>
     <string name="liquid_glass_qs_title">Configuración rápida e panel</string>
-    <string name="liquid_glass_qs_summary">O panel, as notificacións e a pantalla de desbloqueo</string>
     <string name="liquid_glass_lockscreen_summary">Atallos e botón de pegada dixital</string>
     <string name="liquid_glass_volume_title">Panel de volume</string>
     <string name="liquid_glass_volume_summary">Controis deslizantes e botóns de timbre</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Sólido con aforro de batería</string>
     <string name="liquid_glass_battery_saver_summary">Desactiva o vidro mentres o aforro de batería está activo</string>
     <string name="liquid_glass_footer">O vidro tamén se desactiva cando o teléfono está moi quente.</string>
-    <string name="liquid_glass_preview_wifi">Wi-Fi da casa</string>
-    <string name="liquid_glass_preview_earbuds">Auriculares</string>
 </resources>

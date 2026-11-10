@@ -4,7 +4,6 @@
     <string name="liquid_glass_lockscreen_title">"లాక్ స్క్రీన్"</string>
     <string name="liquid_glass_power_title">"పవర్ మెనూ"</string>
     <string name="liquid_glass_battery_title">"బ్యాటరీ"</string>
-    <string name="liquid_glass_preview_internet">"ఇంటర్నెట్"</string>
     <string name="liquid_glass_summary">సిస్టమ్ ఉపరితలాలపై బ్లర్ మరియు గ్లాస్</string>
     <string name="liquid_glass_material_title">మెటీరియల్</string>
     <string name="liquid_glass_solid">సాలిడ్</string>
@@ -16,17 +15,12 @@
     <string name="liquid_glass_look_title">లుక్</string>
     <string name="liquid_glass_blur_summary">వెనుక ఉన్నదాన్ని గ్లాస్ ఎంత బలంగా బ్లర్ చేస్తుంది</string>
     <string name="liquid_glass_tint_title">టింట్</string>
-    <string name="liquid_glass_tint_summary">టెక్స్ట్ చదవగలిగేలా గ్లాస్‌ను ముదురుగా చేస్తుంది</string>
-    <string name="liquid_glass_accent_tint_title">యాక్సెంట్ టింట్</string>
-    <string name="liquid_glass_accent_tint_summary">మీ యాక్సెంట్ రంగుతో గ్లాస్‌ను రంగు వేయండి</string>
-    <string name="liquid_glass_liquid_category">లిక్విడ్</string>
     <string name="liquid_glass_refraction_title">రిఫ్రాక్షన్</string>
     <string name="liquid_glass_refraction_summary">వెనుక ఉన్నవాటిని అంచులు ఎంత వంచుతాయి</string>
     <string name="liquid_glass_tilt_title">ఫోన్ వంచినప్పుడు హైలైట్లు అనుసరిస్తాయి</string>
     <string name="liquid_glass_tilt_summary">మీరు ఫోన్‌ను కదిలించినప్పుడు అంచులపై కాంతి పడుతుంది</string>
     <string name="liquid_glass_surfaces_title">గ్లాస్ ఆన్</string>
     <string name="liquid_glass_qs_title">క్విక్ సెట్టింగ్స్ మరియు షేడ్</string>
-    <string name="liquid_glass_qs_summary">షేడ్, నోటిఫికేషన్‌లు మరియు అన్‌లాక్ స్క్రీన్</string>
     <string name="liquid_glass_lockscreen_summary">షార్ట్‌కట్‌లు మరియు ఫింగర్‌ప్రింట్ బటన్</string>
     <string name="liquid_glass_volume_title">వాల్యూమ్ ప్యానెల్</string>
     <string name="liquid_glass_volume_summary">స్లయిడర్‌లు మరియు రింగర్ బటన్‌లు</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">బ్యాటరీ సేవర్‌లో సాలిడ్</string>
     <string name="liquid_glass_battery_saver_summary">బ్యాటరీ సేవర్ ఆన్‌లో ఉన్నప్పుడు గ్లాస్ ఆఫ్ అవుతుంది</string>
     <string name="liquid_glass_footer">ఫోన్ చాలా వేడిగా ఉన్నప్పుడు కూడా గ్లాస్ ఆఫ్ అవుతుంది.</string>
-    <string name="liquid_glass_preview_wifi">హోమ్ Wi-Fi</string>
-    <string name="liquid_glass_preview_earbuds">ఇయర్‌బడ్స్</string>
 </resources>

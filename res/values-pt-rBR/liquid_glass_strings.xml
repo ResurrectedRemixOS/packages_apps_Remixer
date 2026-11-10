@@ -5,7 +5,6 @@
     <string name="liquid_glass_volume_title">Painel de volume</string>
     <string name="liquid_glass_power_title">"Menu liga/desliga"</string>
     <string name="liquid_glass_battery_title">"Bateria"</string>
-    <string name="liquid_glass_preview_internet">"Internet"</string>
     <string name="liquid_glass_summary">Desfoque e vidro nas superfícies do sistema</string>
     <string name="liquid_glass_material_title">Material</string>
     <string name="liquid_glass_solid">Sólido</string>
@@ -17,17 +16,12 @@
     <string name="liquid_glass_look_title">Aparência</string>
     <string name="liquid_glass_blur_summary">Com que força o vidro desfoca o que está atrás</string>
     <string name="liquid_glass_tint_title">Matiz</string>
-    <string name="liquid_glass_tint_summary">Escurece o vidro para o texto continuar legível</string>
-    <string name="liquid_glass_accent_tint_title">Matiz de destaque</string>
-    <string name="liquid_glass_accent_tint_summary">Colore o vidro com seu destaque</string>
-    <string name="liquid_glass_liquid_category">Líquido</string>
     <string name="liquid_glass_refraction_title">Refração</string>
     <string name="liquid_glass_refraction_summary">Quanto as bordas curvam o que está atrás</string>
     <string name="liquid_glass_tilt_title">Reflexos seguem a inclinação</string>
     <string name="liquid_glass_tilt_summary">As bordas captam a luz quando você move o smartphone</string>
     <string name="liquid_glass_surfaces_title">Vidro em</string>
     <string name="liquid_glass_qs_title">Configurações rápidas e aba</string>
-    <string name="liquid_glass_qs_summary">A aba, as notificações e a tela de desbloqueio</string>
     <string name="liquid_glass_lockscreen_summary">Atalhos e o botão de digital</string>
     <string name="liquid_glass_volume_summary">Controles deslizantes e botões de toque</string>
     <string name="liquid_glass_power_summary">Painel e ações</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Sólido na Economia de bateria</string>
     <string name="liquid_glass_battery_saver_summary">Desativa o vidro enquanto a Economia de bateria está ativada</string>
     <string name="liquid_glass_footer">O vidro também é desativado quando o smartphone está muito quente.</string>
-    <string name="liquid_glass_preview_wifi">Wi-Fi de casa</string>
-    <string name="liquid_glass_preview_earbuds">Fones de ouvido</string>
 </resources>

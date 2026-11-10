@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- Liquid Glass on notifications: in the shade, on the lock screen and as pop-ups -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/glass_section_notifications">
+
+    <lineageos.preference.SystemSettingSwitchPreference
+        android:key="rr_glass_notifications"
+        android:title="@string/glass_place_notifications_title"
+        android:summary="@string/liquid_glass_notifications_summary"
+        android:defaultValue="true" />
+
+    <lineageos.preference.SystemSettingSwitchPreference
+        android:key="rr_glass_scroll_fade"
+        android:title="@string/glass_scroll_fade_title"
+        android:summary="@string/glass_scroll_fade_summary"
+        android:dependency="rr_glass_notifications"
+        android:defaultValue="true" />
+
+    <lineageos.preference.SystemSettingSwitchPreference
+        android:key="rr_glass_morph_notifications"
+        android:title="@string/glass_morph_notifications_title"
+        android:summary="@string/glass_morph_notifications_summary"
+        android:defaultValue="true" />
+
+    <lineageos.preference.SystemSettingSwitchPreference
+        android:key="rr_glass_morph_heads_up"
+        android:title="@string/glass_morph_heads_up_title"
+        android:summary="@string/glass_morph_heads_up_summary"
+        android:defaultValue="false" />
+</PreferenceScreen>

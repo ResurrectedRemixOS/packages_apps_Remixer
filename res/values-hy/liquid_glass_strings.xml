@@ -4,7 +4,6 @@
     <string name="liquid_glass_lockscreen_title">"Կողպէկրան"</string>
     <string name="liquid_glass_power_title">"Սնուցման կոճակի ընտրացանկ"</string>
     <string name="liquid_glass_battery_title">"Մարտկոց"</string>
-    <string name="liquid_glass_preview_internet">"Ինտերնետ"</string>
     <string name="liquid_glass_summary">Մշուշ և ապակի համակարգային մակերեսների վրա</string>
     <string name="liquid_glass_material_title">Մատերիալ</string>
     <string name="liquid_glass_solid">Ամուր</string>
@@ -16,17 +15,12 @@
     <string name="liquid_glass_look_title">Տեսք</string>
     <string name="liquid_glass_blur_summary">Որքան ուժգին է ապակին մշուշում իր հետևի բովանդակությունը</string>
     <string name="liquid_glass_tint_title">Երանգ</string>
-    <string name="liquid_glass_tint_summary">Մգացնում է ապակին, որ տեքստը մնա կարդացվող</string>
-    <string name="liquid_glass_accent_tint_title">Ակցենտ երանգ</string>
-    <string name="liquid_glass_accent_tint_summary">Ապակին գունավորել ձեր ակցենտով</string>
-    <string name="liquid_glass_liquid_category">Հեղուկ</string>
     <string name="liquid_glass_refraction_title">Բեկում</string>
     <string name="liquid_glass_refraction_summary">Որքան են եզրերը թեքում իրենց հետևի բովանդակությունը</string>
     <string name="liquid_glass_tilt_title">Լուսաբացերը հետևում են թեքությանը</string>
     <string name="liquid_glass_tilt_summary">Եզրերը լուսավորվում են, երբ տեղաշարժում եք հեռախոսը</string>
     <string name="liquid_glass_surfaces_title">Ապակին միացված է</string>
     <string name="liquid_glass_qs_title">Արագ կարգավորումներ և վար քաշվող վահանակ</string>
-    <string name="liquid_glass_qs_summary">Վահանակը, ծանուցումները և ապակողպման էկրանը</string>
     <string name="liquid_glass_lockscreen_summary">Դյուրանցումներ և մատնահետքի կոճակ</string>
     <string name="liquid_glass_volume_title">Ձայնի վահանակ</string>
     <string name="liquid_glass_volume_summary">Սլայդերներ և զանգի ձայնի կոճակներ</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Ամուր՝ մարտկոցի խնայողության ժամանակ</string>
     <string name="liquid_glass_battery_saver_summary">Անջատում է ապակին, երբ մարտկոցի խնայողությունը միացված է</string>
     <string name="liquid_glass_footer">Ապակին նաև անջատվում է, երբ հեռախոսը շատ է տաքանում։</string>
-    <string name="liquid_glass_preview_wifi">Տնային Wi-Fi</string>
-    <string name="liquid_glass_preview_earbuds">Ականջակալներ</string>
 </resources>

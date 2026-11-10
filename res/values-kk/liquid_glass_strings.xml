@@ -4,7 +4,6 @@
     <string name="liquid_glass_lockscreen_title">"Құлыптаулы экран"</string>
     <string name="liquid_glass_power_title">"Қуат мәзірі"</string>
     <string name="liquid_glass_battery_title">"Батарея"</string>
-    <string name="liquid_glass_preview_internet">"Интернет"</string>
     <string name="liquid_glass_summary">Жүйелік беттердегі блюр және шыны</string>
     <string name="liquid_glass_material_title">Материал</string>
     <string name="liquid_glass_solid">Тұтас</string>
@@ -16,17 +15,12 @@
     <string name="liquid_glass_look_title">Look</string>
     <string name="liquid_glass_blur_summary">Шыны артындағыны қаншалықты бүлдіретіні</string>
     <string name="liquid_glass_tint_title">Реңк</string>
-    <string name="liquid_glass_tint_summary">Мәтін оқылуы үшін шынысын қараңғылатады</string>
-    <string name="liquid_glass_accent_tint_title">Акцент түсті бояу</string>
-    <string name="liquid_glass_accent_tint_summary">Шынысын акцент түсіңмен бояу</string>
-    <string name="liquid_glass_liquid_category">Сұйық</string>
     <string name="liquid_glass_refraction_title">Сыну</string>
     <string name="liquid_glass_refraction_summary">Жиектер артындағыны қаншалықты бұрады</string>
     <string name="liquid_glass_tilt_title">Бағыттаушы жарықтар телефонды қозғағанда</string>
     <string name="liquid_glass_tilt_summary">Телефонды жылжытқанда жиектер жарықты ұстайды</string>
     <string name="liquid_glass_surfaces_title">Шыны қосулы</string>
     <string name="liquid_glass_qs_title">Жылдам параметрлер және көлеңке</string>
-    <string name="liquid_glass_qs_summary">Көлеңке, хабарландырулар және құлыптан шығару экраны</string>
     <string name="liquid_glass_lockscreen_summary">Жылдам қолжетімділік және саусақ ізі батырмасы</string>
     <string name="liquid_glass_volume_title">Дыбыс панелі</string>
     <string name="liquid_glass_volume_summary">Сырғытпалар және қоңырау батырмалары</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Батарея үнемдегіште қатты</string>
     <string name="liquid_glass_battery_saver_summary">Батарея үнемдегіш қосулы болғанда шынысын өшіреді</string>
     <string name="liquid_glass_footer">Телефон өте қызғанда да шыны өшеді.</string>
-    <string name="liquid_glass_preview_wifi">Үйдегі Wi-Fi</string>
-    <string name="liquid_glass_preview_earbuds">Құлақаспаптар</string>
 </resources>

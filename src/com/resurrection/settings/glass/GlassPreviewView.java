@@ -6,9 +6,7 @@
 package com.resurrection.settings.glass;
 
 import android.app.WallpaperManager;
-import android.content.ContentResolver;
 import android.content.Context;
-import android.database.ContentObserver;
 import android.graphics.Bitmap;
 import android.graphics.BitmapShader;
 import android.graphics.Canvas;
@@ -23,260 +21,104 @@ import android.graphics.RenderEffect;
 import android.graphics.RenderNode;
 import android.graphics.RuntimeShader;
 import android.graphics.Shader;
-import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
-import android.hardware.Sensor;
-import android.hardware.SensorEvent;
-import android.hardware.SensorEventListener;
-import android.hardware.SensorManager;
-import android.os.Handler;
-import android.os.Looper;
-import android.os.UserHandle;
-import android.provider.Settings;
 import android.util.AttributeSet;
 import android.util.Log;
-import android.view.Surface;
 import android.view.View;
 
-import androidx.core.graphics.ColorUtils;
-import androidx.core.graphics.PathParser;
-
-import com.android.settings.R;
+import com.android.internal.util.catalyxx.GlassSettings;
 import com.android.settingslib.utils.ThreadUtils;
 
-/** Sample glass over the wallpaper, drawn the way SurfaceFlinger draws Liquid Glass. */
+/**
+ * A chip of glass over the wallpaper in one of Liquid Glass's materials, for the material cards.
+ * The page's live preview is the system's own glass ({@link GlassPreview}).
+ */
 public class GlassPreviewView extends View {
     private static final String TAG = "GlassPreviewView";
 
-    private static final String[] KEYS = {LiquidGlassSettings.MATERIAL, LiquidGlassSettings.BLUR,
-            LiquidGlassSettings.TINT, LiquidGlassSettings.REFRACTION,
-            LiquidGlassSettings.ACCENT_TINT, LiquidGlassSettings.TILT};
     private static final float LIGHT_X = -0.5f;
     private static final float LIGHT_Y = -0.866f;
+    private static final float REFRACTION = 0.6f;
 
-    // The lens from frameworks/native's BlurFilter, so the preview matches the system.
+    // A lens like the rim SurfaceFlinger draws, enough for a chip.
     private static final String SHADER = ""
             + "uniform shader blurred;\n"
             + "uniform shader sharp;\n"
             + "uniform float4 rect;\n"
             + "uniform float cornerRadius;\n"
-            + "uniform float liquid;\n"
             + "uniform float refraction;\n"
-            + "uniform float dim;\n"
-            + "uniform float4 tint;\n"
             + "uniform float2 lightDir;\n"
             + "float boxSdf(float2 p, float2 halfSize, float r) {\n"
             + "    float2 q = abs(p) - halfSize + float2(r);\n"
             + "    return length(max(q, float2(0.0))) + min(max(q.x, q.y), 0.0) - r;\n"
             + "}\n"
             + "half4 main(float2 xy) {\n"
-            + "    float3 color = float3(0.0);\n"
-            + "    if (liquid > 0.5) {\n"
-            + "        float2 halfSize = max((rect.zw - rect.xy) * 0.5, float2(1.0));\n"
-            + "        float2 p = xy - (rect.xy + rect.zw) * 0.5;\n"
-            + "        float r = min(cornerRadius, min(halfSize.x, halfSize.y));\n"
-            + "        float d = boxSdf(p, halfSize, r);\n"
-            + "        float2 s = float2(p.x < 0.0 ? -1.0 : 1.0, p.y < 0.0 ? -1.0 : 1.0);\n"
-            + "        float2 a = clamp(abs(p) / halfSize, float2(0.0), float2(1.0));\n"
-            + "        float2 n = normalize(s * pow(a, float2(6.0)) + float2(0.00001));\n"
-            + "        float band = clamp(min(halfSize.x, halfSize.y) * 0.5, 6.0, 96.0);\n"
-            + "        float edge = 1.0 - clamp(-d / band, 0.0, 1.0);\n"
-            + "        float bend = edge * edge * edge;\n"
-            + "        float2 uv = xy - n * (bend * band * refraction * 0.9);\n"
-            + "        float split = bend * refraction * 4.0;\n"
-            + "        float3 soft = float3(blurred.eval(uv).rgb);\n"
-            + "        soft.r = float(blurred.eval(uv + n * split).r);\n"
-            + "        soft.b = float(blurred.eval(uv - n * split).b);\n"
-            + "        float3 crisp = float3(sharp.eval(uv).rgb);\n"
-            + "        crisp.r = float(sharp.eval(uv + n * split).r);\n"
-            + "        crisp.b = float(sharp.eval(uv - n * split).b);\n"
-            + "        color = mix(soft, crisp, smoothstep(0.35, 1.0, edge) * 0.8);\n"
-            + "        float luma = dot(color, float3(0.2126, 0.7152, 0.0722));\n"
-            + "        color = mix(float3(luma), color, 1.2) * 1.03;\n"
-            + "        color = mix(color, tint.rgb, tint.a) * (1.0 - dim);\n"
-            + "        float rim = 1.0 - smoothstep(0.0, 1.5 + 3.5 * refraction, -d);\n"
-            + "        float light = dot(n, lightDir);\n"
-            + "        color += rim * (0.08 + 0.5 * max(light, 0.0) + 0.18 * max(-light, 0.0)) *\n"
-            + "                (0.5 + 0.5 * refraction) + edge * edge * (0.04 + 0.1 * max(light, 0.0));\n"
-            + "    } else {\n"
-            + "        color = float3(blurred.eval(xy).rgb);\n"
-            + "        color = mix(color, tint.rgb, tint.a) * (1.0 - dim);\n"
-            + "    }\n"
+            + "    float2 halfSize = max((rect.zw - rect.xy) * 0.5, float2(1.0));\n"
+            + "    float2 p = xy - (rect.xy + rect.zw) * 0.5;\n"
+            + "    float r = min(cornerRadius, min(halfSize.x, halfSize.y));\n"
+            + "    float d = boxSdf(p, halfSize, r);\n"
+            + "    float2 s = float2(p.x < 0.0 ? -1.0 : 1.0, p.y < 0.0 ? -1.0 : 1.0);\n"
+            + "    float2 a = clamp(abs(p) / halfSize, float2(0.0), float2(1.0));\n"
+            + "    float2 n = normalize(s * pow(a, float2(6.0)) + float2(0.00001));\n"
+            + "    float band = clamp(min(halfSize.x, halfSize.y) * 0.5, 6.0, 96.0);\n"
+            + "    float edge = 1.0 - clamp(-d / band, 0.0, 1.0);\n"
+            + "    float bend = edge * edge * edge;\n"
+            + "    float2 uv = xy - n * (bend * band * refraction * 0.9);\n"
+            + "    float split = bend * refraction * 4.0;\n"
+            + "    float3 soft = float3(blurred.eval(uv).rgb);\n"
+            + "    soft.r = float(blurred.eval(uv + n * split).r);\n"
+            + "    soft.b = float(blurred.eval(uv - n * split).b);\n"
+            + "    float3 crisp = float3(sharp.eval(uv).rgb);\n"
+            + "    crisp.r = float(sharp.eval(uv + n * split).r);\n"
+            + "    crisp.b = float(sharp.eval(uv - n * split).b);\n"
+            + "    float3 color = mix(soft, crisp, smoothstep(0.35, 1.0, edge) * 0.8);\n"
+            + "    float luma = dot(color, float3(0.2126, 0.7152, 0.0722));\n"
+            + "    color = mix(float3(luma), color, 1.2) * 1.03;\n"
+            + "    float rim = 1.0 - smoothstep(0.0, 1.5 + 3.5 * refraction, -d);\n"
+            + "    float light = dot(n, lightDir);\n"
+            + "    color += rim * (0.08 + 0.5 * max(light, 0.0) + 0.18 * max(-light, 0.0)) *\n"
+            + "            (0.5 + 0.5 * refraction) + edge * edge * (0.04 + 0.1 * max(light, 0.0));\n"
             + "    return half4(half3(clamp(color, float3(0.0), float3(1.0))), 1.0);\n"
             + "}\n";
-
-    private static final String ICON_WIFI = "M2.5 8.5a14 14 0 0 1 19 0 M5.5 12a9.5 9.5 0 0 1 13 0"
-            + " M8.7 15.4a5 5 0 0 1 6.6 0 M12 19h.01";
-    private static final String ICON_BLUETOOTH = "M7 7l10 10-5 5V2l5 5L7 17";
-    private static final String ICON_SUN = "M12 8a4 4 0 1 0 0 8a4 4 0 1 0 0-8z M12 2.5v2"
-            + " M12 19.5v2 M4.6 4.6l1.4 1.4 M18 18l1.4 1.4 M2.5 12h2 M19.5 12h2 M4.6 19.4L6 18"
-            + " M18 6l1.4-1.4";
 
     private static Bitmap sWallpaper;
     private static int sWallpaperId = -1;
 
     private final float mDp;
     private final Paint mFill = new Paint(Paint.ANTI_ALIAS_FLAG);
-    private final Paint mStroke = new Paint(Paint.ANTI_ALIAS_FLAG);
-    private final Paint mText = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final Matrix mWallMatrix = new Matrix();
     private final Path mClip = new Path();
-    private final RectF mFillRect = new RectF();
-    private final RectF[] mShapes = {new RectF(), new RectF(), new RectF()};
-    private final float[] mCorners = new float[3];
-    private final RenderNode[] mNodes = {new RenderNode("glass0"), new RenderNode("glass1"),
-            new RenderNode("glass2")};
-    private final RuntimeShader[] mShaders = new RuntimeShader[3];
-    private final Path mIconWifi = PathParser.createPathFromPathData(ICON_WIFI);
-    private final Path mIconBluetooth = PathParser.createPathFromPathData(ICON_BLUETOOTH);
-    private final Path mIconSun = PathParser.createPathFromPathData(ICON_SUN);
-    private final ContentObserver mObserver = new ContentObserver(
-            new Handler(Looper.getMainLooper())) {
-        @Override
-        public void onChange(boolean selfChange) {
-            readSettings();
-        }
-    };
-
-    // Highlights follow tilt: the same light system_server sends SurfaceFlinger.
-    private final SensorEventListener mTiltListener = new SensorEventListener() {
-        @Override
-        public void onSensorChanged(SensorEvent event) {
-            onTilt(event.values[0] / SensorManager.GRAVITY_EARTH,
-                    event.values[1] / SensorManager.GRAVITY_EARTH);
-        }
-
-        @Override
-        public void onAccuracyChanged(Sensor sensor, int accuracy) {}
-    };
-    private boolean mTiltListening;
-    private float mLightX = LIGHT_X;
-    private float mLightY = LIGHT_Y;
-
-    private Bitmap mWallpaper;
+    private final RectF mShape = new RectF();
+    private final RenderNode mNode = new RenderNode("glass");
+    private RuntimeShader mShader;
     private boolean mShaderFailed;
-    private boolean mNodesDirty = true;
-    // A picker swatch shows one chip in a fixed material; -1 follows the settings.
-    private int mSwatch = -1;
-    private int mMaterial = LiquidGlassSettings.FROSTED;
-    private int mBlur = 50;
-    private int mTint = 0;
-    private int mRefraction = 60;
-    private boolean mAccentTint;
-    private boolean mTilt = true;
+    private boolean mNodeDirty = true;
+    private Bitmap mWallpaper;
+    private float mCorner;
+    private int mMaterial = GlassSettings.MATERIAL_FROSTED;
 
     public GlassPreviewView(Context context, AttributeSet attrs) {
         super(context, attrs);
         mDp = getResources().getDisplayMetrics().density;
-        mStroke.setStyle(Paint.Style.STROKE);
-        mStroke.setStrokeCap(Paint.Cap.ROUND);
-        mStroke.setStrokeJoin(Paint.Join.ROUND);
-        mText.setTypeface(Typeface.create(Typeface.DEFAULT, 500, false));
     }
 
-    /** Shows a single chip in {@code material} instead of following the settings. */
+    /** The material the chip is drawn in, one of GlassSettings' MATERIAL_ values. */
     public void setSwatch(int material) {
-        mSwatch = material;
-        layoutShapes(getWidth(), getHeight());
+        mMaterial = material;
+        mNodeDirty = true;
         invalidate();
     }
 
     @Override
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
-        if (mSwatch < 0) {
-            final ContentResolver resolver = getContext().getContentResolver();
-            for (String key : KEYS) {
-                resolver.registerContentObserver(Settings.System.getUriFor(key), false,
-                        mObserver);
-            }
-            readSettings();
-        }
         loadWallpaper();
-    }
-
-    @Override
-    protected void onDetachedFromWindow() {
-        getContext().getContentResolver().unregisterContentObserver(mObserver);
-        setTiltListening(false);
-        super.onDetachedFromWindow();
     }
 
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
-        layoutShapes(w, h);
-    }
-
-    private void readSettings() {
-        final ContentResolver resolver = getContext().getContentResolver();
-        mMaterial = get(resolver, LiquidGlassSettings.MATERIAL, LiquidGlassSettings.FROSTED);
-        mBlur = get(resolver, LiquidGlassSettings.BLUR, 50);
-        mTint = get(resolver, LiquidGlassSettings.TINT, 0);
-        mRefraction = get(resolver, LiquidGlassSettings.REFRACTION, 60);
-        mAccentTint = get(resolver, LiquidGlassSettings.ACCENT_TINT, 0) != 0;
-        mTilt = get(resolver, LiquidGlassSettings.TILT, 1) != 0;
-        setTiltListening(isAttachedToWindow() && mMaterial == LiquidGlassSettings.LIQUID && mTilt);
-        mNodesDirty = true;
-        invalidate();
-    }
-
-    private void setTiltListening(boolean listen) {
-        if (listen == mTiltListening) {
-            return;
-        }
-        final SensorManager sensors = getContext().getSystemService(SensorManager.class);
-        final Sensor sensor = sensors == null ? null
-                : sensors.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
-        if (listen && sensor != null) {
-            mTiltListening = sensors.registerListener(mTiltListener, sensor,
-                    SensorManager.SENSOR_DELAY_UI);
-        } else if (!listen) {
-            if (sensors != null) {
-                sensors.unregisterListener(mTiltListener);
-            }
-            mTiltListening = false;
-            mLightX = LIGHT_X;
-            mLightY = LIGHT_Y;
-        }
-    }
-
-    /** {@code ux}, {@code uy}: up in device axes, in g. Mirrors GlassTilt in system_server. */
-    private void onTilt(float ux, float uy) {
-        float dx = ux;
-        float dy = uy;
-        switch (getDisplay() != null ? getDisplay().getRotation() : Surface.ROTATION_0) {
-            case Surface.ROTATION_90: dx = -uy; dy = ux; break;
-            case Surface.ROTATION_180: dx = -ux; dy = -uy; break;
-            case Surface.ROTATION_270: dx = uy; dy = -ux; break;
-            default: break;
-        }
-        final float sx = dx;
-        final float sy = -dy;
-        final float tilt = (float) Math.hypot(sx, sy);
-        float targetX = LIGHT_X;
-        float targetY = LIGHT_Y;
-        if (tilt > 0.001f) {
-            final float weight = Math.max(0f, Math.min(1f, (tilt - 0.12f) / 0.33f));
-            targetX += (sx / tilt - LIGHT_X) * weight;
-            targetY += (sy / tilt - LIGHT_Y) * weight;
-        }
-        final float x = mLightX + (targetX - mLightX) * 0.2f;
-        final float y = mLightY + (targetY - mLightY) * 0.2f;
-        final float length = (float) Math.hypot(x, y);
-        if (length < 0.001f) {
-            return;
-        }
-        if (Math.abs(x / length - mLightX) + Math.abs(y / length - mLightY) > 0.01f) {
-            mLightX = x / length;
-            mLightY = y / length;
-            mNodesDirty = true;
-            invalidate();
-        }
-    }
-
-    private static int get(ContentResolver resolver, String key, int def) {
-        return Settings.System.getIntForUser(resolver, key, def, UserHandle.USER_CURRENT);
+        layoutShape(w, h);
     }
 
     private void loadWallpaper() {
@@ -285,12 +127,13 @@ public class GlassPreviewView extends View {
             final Bitmap bitmap = wallpaper(context);
             ThreadUtils.postOnMainThread(() -> {
                 mWallpaper = bitmap;
-                layoutShapes(getWidth(), getHeight());
+                layoutShape(getWidth(), getHeight());
                 invalidate();
             });
         });
     }
 
+    /** The home wallpaper, scaled down, or the built-in one where it can't be read. */
     public static synchronized Bitmap wallpaper(Context context) {
         final WallpaperManager manager = WallpaperManager.getInstance(context);
         Drawable drawable = null;
@@ -323,28 +166,14 @@ public class GlassPreviewView extends View {
         return bitmap;
     }
 
-    private void layoutShapes(int w, int h) {
+    private void layoutShape(int w, int h) {
         if (w == 0 || h == 0) {
             return;
         }
-        if (mSwatch >= 0) {
-            final float pw = w * 0.62f;
-            final float ph = Math.min(h * 0.46f, 34 * mDp);
-            mShapes[0].set((w - pw) / 2, (h - ph) / 2, (w + pw) / 2, (h + ph) / 2);
-            mCorners[0] = ph / 2;
-        } else {
-            final float pad = 16 * mDp;
-            final float tileW = (w - 3 * pad) / 2;
-            final float tileH = 66 * mDp;
-            final float sliderH = 56 * mDp;
-            final float top = (h - tileH - 22 * mDp - sliderH) / 2;
-            mShapes[0].set(pad, top, pad + tileW, top + tileH);
-            mShapes[1].set(2 * pad + tileW, top, w - pad, top + tileH);
-            final float sliderTop = top + tileH + 22 * mDp;
-            mShapes[2].set(pad, sliderTop, w - pad, sliderTop + sliderH);
-            mCorners[0] = mCorners[1] = 24 * mDp;
-            mCorners[2] = 28 * mDp;
-        }
+        final float pw = w * 0.62f;
+        final float ph = Math.min(h * 0.46f, 34 * mDp);
+        mShape.set((w - pw) / 2, (h - ph) / 2, (w + pw) / 2, (h + ph) / 2);
+        mCorner = ph / 2;
         mWallMatrix.reset();
         if (mWallpaper != null) {
             final float scale = Math.max((float) w / mWallpaper.getWidth(),
@@ -353,7 +182,7 @@ public class GlassPreviewView extends View {
             mWallMatrix.postTranslate((w - mWallpaper.getWidth() * scale) / 2,
                     (h - mWallpaper.getHeight() * scale) * 0.4f);
         }
-        mNodesDirty = true;
+        mNodeDirty = true;
     }
 
     @Override
@@ -363,24 +192,16 @@ public class GlassPreviewView extends View {
         if (w == 0 || h == 0) {
             return;
         }
-        final int material = mSwatch >= 0 ? mSwatch : mMaterial;
-        final int count = mSwatch >= 0 ? 1 : 3;
-        final float corner = (mSwatch >= 0 ? 14 : 28) * mDp;
-
+        final float corner = 14 * mDp;
         canvas.save();
         mClip.reset();
         mClip.addRoundRect(0, 0, w, h, corner, corner, Path.Direction.CW);
         canvas.clipPath(mClip);
         drawWallpaper(canvas, w, h);
-        if (mNodesDirty) {
-            recordNodes(material, count, w, h);
+        if (mNodeDirty) {
+            recordNode(w, h);
         }
-        for (int i = 0; i < count; i++) {
-            drawGlass(canvas, i, material, mSwatch < 0 && i == 1);
-        }
-        if (mSwatch < 0) {
-            drawContent(canvas, material);
-        }
+        drawGlass(canvas);
         canvas.restore();
     }
 
@@ -389,28 +210,24 @@ public class GlassPreviewView extends View {
             canvas.drawBitmap(mWallpaper, mWallMatrix, null);
             return;
         }
-        mFill.setShader(new LinearGradient(0, 0, w, h, accent(500), Color.BLACK,
+        mFill.setShader(new LinearGradient(0, 0, w, h, accent(), Color.BLACK,
                 Shader.TileMode.CLAMP));
         canvas.drawRect(0, 0, w, h, mFill);
         mFill.setShader(null);
     }
 
-    private void recordNodes(int material, int count, int w, int h) {
-        mNodesDirty = false;
-        if (material == LiquidGlassSettings.SOLID) {
+    private void recordNode(int w, int h) {
+        mNodeDirty = false;
+        if (mMaterial == GlassSettings.MATERIAL_SOLID) {
             return;
         }
-        final float radius = 18 * mDp * (0.5f + mBlur / 100f)
-                * (material == LiquidGlassSettings.LIQUID ? 0.65f : 1f);
-        final Shader sharp = sharpShader(w, h);
-        for (int i = 0; i < count; i++) {
-            final RenderNode node = mNodes[i];
-            node.setPosition(0, 0, w, h);
-            final RecordingCanvas recording = node.beginRecording(w, h);
-            drawWallpaper(recording, w, h);
-            node.endRecording();
-            node.setRenderEffect(effect(i, material, radius, sharp));
-        }
+        final float radius = 18 * mDp
+                * (mMaterial == GlassSettings.MATERIAL_LIQUID ? 0.65f : 1f);
+        mNode.setPosition(0, 0, w, h);
+        final RecordingCanvas recording = mNode.beginRecording(w, h);
+        drawWallpaper(recording, w, h);
+        mNode.endRecording();
+        mNode.setRenderEffect(effect(radius, sharpShader(w, h)));
     }
 
     // The unblurred wallpaper, which the lens bends at the rim.
@@ -421,155 +238,67 @@ public class GlassPreviewView extends View {
             shader.setLocalMatrix(mWallMatrix);
             return shader;
         }
-        return new LinearGradient(0, 0, w, h, accent(500), Color.BLACK, Shader.TileMode.CLAMP);
+        return new LinearGradient(0, 0, w, h, accent(), Color.BLACK, Shader.TileMode.CLAMP);
     }
 
-    private RenderEffect effect(int i, int material, float radius, Shader sharp) {
+    private RenderEffect effect(float radius, Shader sharp) {
         final RenderEffect blur = RenderEffect.createBlurEffect(radius, radius,
                 Shader.TileMode.CLAMP);
-        final RuntimeShader shader = shader(i);
+        if (mMaterial != GlassSettings.MATERIAL_LIQUID) {
+            return blur;
+        }
+        final RuntimeShader shader = shader();
         if (shader == null) {
             return blur;
         }
         shader.setInputShader("sharp", sharp);
-        final RectF r = mShapes[i];
-        final int tint = accent(500);
-        final boolean accentTint = mSwatch < 0 && mAccentTint;
-        shader.setFloatUniform("rect", r.left, r.top, r.right, r.bottom);
-        shader.setFloatUniform("cornerRadius", mCorners[i]);
-        shader.setFloatUniform("liquid", material == LiquidGlassSettings.LIQUID ? 1f : 0f);
-        shader.setFloatUniform("refraction", (mSwatch < 0 ? mRefraction : 60) / 100f);
-        shader.setFloatUniform("dim", (mSwatch < 0 ? mTint : 0) / 200f);
-        shader.setFloatUniform("tint", Color.red(tint) / 255f, Color.green(tint) / 255f,
-                Color.blue(tint) / 255f, accentTint ? 0.16f : 0f);
-        if (mSwatch < 0) {
-            shader.setFloatUniform("lightDir", mLightX, mLightY);
-        } else {
-            shader.setFloatUniform("lightDir", LIGHT_X, LIGHT_Y);
-        }
+        shader.setFloatUniform("rect", mShape.left, mShape.top, mShape.right, mShape.bottom);
+        shader.setFloatUniform("cornerRadius", mCorner);
+        shader.setFloatUniform("refraction", REFRACTION);
+        shader.setFloatUniform("lightDir", LIGHT_X, LIGHT_Y);
         return RenderEffect.createChainEffect(
                 RenderEffect.createRuntimeShaderEffect(shader, "blurred"), blur);
     }
 
-    private RuntimeShader shader(int i) {
-        if (mShaders[i] == null && !mShaderFailed) {
+    private RuntimeShader shader() {
+        if (mShader == null && !mShaderFailed) {
             try {
-                mShaders[i] = new RuntimeShader(SHADER);
+                mShader = new RuntimeShader(SHADER);
             } catch (IllegalArgumentException e) {
                 Log.e(TAG, "Glass shader failed to compile", e);
                 mShaderFailed = true;
             }
         }
-        return mShaders[i];
+        return mShader;
     }
 
-    private void drawGlass(Canvas canvas, int i, int material, boolean active) {
-        final RectF r = mShapes[i];
-        final float c = mCorners[i];
-        if (material == LiquidGlassSettings.SOLID) {
-            mFill.setColor(active ? accent(200) : 0xFF2B2930);
-            canvas.drawRoundRect(r, c, c, mFill);
+    private void drawGlass(Canvas canvas) {
+        if (mMaterial == GlassSettings.MATERIAL_SOLID) {
+            mFill.setColor(0xFF2B2930);
+            canvas.drawRoundRect(mShape, mCorner, mCorner, mFill);
             return;
         }
         if (canvas.isHardwareAccelerated()) {
             canvas.save();
             mClip.reset();
-            mClip.addRoundRect(r, c, c, Path.Direction.CW);
+            mClip.addRoundRect(mShape, mCorner, mCorner, Path.Direction.CW);
             canvas.clipPath(mClip);
-            canvas.drawRenderNode(mNodes[i]);
+            canvas.drawRenderNode(mNode);
             canvas.restore();
         }
-        // The surface's own color, which SystemUI draws over the blur.
-        if (material == LiquidGlassSettings.FROSTED) {
-            mFill.setColor(active ? ColorUtils.setAlphaComponent(accent(200), 235) : 0x5C241E24);
+        // The panel's own color over the blur
+        if (mMaterial == GlassSettings.MATERIAL_FROSTED) {
+            mFill.setColor(0x5C241E24);
         } else {
-            final int accent = accent(500);
-            mFill.setShader(new LinearGradient(r.left, r.top, r.right, r.bottom, active
-                    ? new int[] {withAlpha(accent(300), 0.62f), withAlpha(accent, 0.42f),
-                            withAlpha(accent(700), 0.5f)}
-                    : new int[] {0x38FFFFFF, 0x0FFFFFFF, 0x2E10080C},
-                    null, Shader.TileMode.CLAMP));
+            mFill.setShader(new LinearGradient(mShape.left, mShape.top, mShape.right,
+                    mShape.bottom, new int[] {0x38FFFFFF, 0x0FFFFFFF, 0x2E10080C}, null,
+                    Shader.TileMode.CLAMP));
         }
-        canvas.drawRoundRect(r, c, c, mFill);
+        canvas.drawRoundRect(mShape, mCorner, mCorner, mFill);
         mFill.setShader(null);
     }
 
-    private void drawContent(Canvas canvas, int material) {
-        final boolean darkInk = material != LiquidGlassSettings.LIQUID;
-        final int ink = 0xFFFFFFFF;
-        final int activeInk = darkInk ? 0xFF2B0008 : 0xFFFFFFFF;
-
-        // Brightness: an accent fill in the slider.
-        final RectF slider = mShapes[2];
-        final float inset = 4 * mDp;
-        mFillRect.set(slider.left + inset, slider.top + inset,
-                slider.left + inset + (slider.width() - 2 * inset) * 0.6f, slider.bottom - inset);
-        final float fillCorner = mFillRect.height() / 2;
-        if (material == LiquidGlassSettings.LIQUID) {
-            mFill.setShader(new LinearGradient(mFillRect.left, mFillRect.top, mFillRect.right,
-                    mFillRect.bottom, new int[] {withAlpha(accent(300), 0.8f),
-                            withAlpha(accent(500), 0.6f), withAlpha(accent(700), 0.7f)},
-                    null, Shader.TileMode.CLAMP));
-        } else {
-            mFill.setColor(accent(200));
-        }
-        canvas.drawRoundRect(mFillRect, fillCorner, fillCorner, mFill);
-        mFill.setShader(null);
-        if (material == LiquidGlassSettings.LIQUID) {
-            mStroke.setColor(0x66FFFFFF);
-            mStroke.setStrokeWidth(mDp);
-            canvas.drawRoundRect(mFillRect, fillCorner, fillCorner, mStroke);
-        }
-        drawIcon(canvas, mIconSun, mFillRect.left + 26 * mDp, mFillRect.centerY(), 22 * mDp,
-                activeInk);
-
-        drawTile(canvas, mShapes[0], mIconWifi, R.string.liquid_glass_preview_internet,
-                R.string.liquid_glass_preview_wifi, ink, material);
-        drawTile(canvas, mShapes[1], mIconBluetooth, R.string.liquid_glass_preview_bluetooth,
-                R.string.liquid_glass_preview_earbuds, activeInk, material);
-    }
-
-    private void drawTile(Canvas canvas, RectF tile, Path icon, int title, int subtitle, int ink,
-            int material) {
-        final float chip = 38 * mDp;
-        final float cx = tile.left + 12 * mDp + chip / 2;
-        final float cy = tile.centerY();
-        mFill.setColor(material == LiquidGlassSettings.SOLID && ink == 0xFFFFFFFF
-                ? 0xFF3A3740 : ColorUtils.setAlphaComponent(ink, 40));
-        canvas.drawCircle(cx, cy, chip / 2, mFill);
-        drawIcon(canvas, icon, cx, cy, 20 * mDp, ink);
-
-        final float x = cx + chip / 2 + 10 * mDp;
-        mText.setColor(ink);
-        mText.setTextSize(14 * mDp);
-        canvas.drawText(getResources().getString(title), x, cy - 2 * mDp, mText);
-        mText.setColor(ColorUtils.setAlphaComponent(ink, 200));
-        mText.setTextSize(12 * mDp);
-        canvas.drawText(getResources().getString(subtitle), x, cy + 14 * mDp, mText);
-    }
-
-    private void drawIcon(Canvas canvas, Path icon, float cx, float cy, float size, int color) {
-        canvas.save();
-        canvas.translate(cx - size / 2, cy - size / 2);
-        canvas.scale(size / 24f, size / 24f);
-        mStroke.setColor(color);
-        mStroke.setStrokeWidth(2f);
-        canvas.drawPath(icon, mStroke);
-        canvas.restore();
-    }
-
-    private int accent(int tone) {
-        final int res;
-        switch (tone) {
-            case 200: res = android.R.color.system_accent1_200; break;
-            case 300: res = android.R.color.system_accent1_300; break;
-            case 700: res = android.R.color.system_accent1_700; break;
-            default: res = android.R.color.system_accent1_500; break;
-        }
-        return getContext().getColor(res);
-    }
-
-    private static int withAlpha(int color, float alpha) {
-        return ColorUtils.setAlphaComponent(color, Math.round(alpha * 255));
+    private int accent() {
+        return getContext().getColor(android.R.color.system_accent1_500);
     }
 }

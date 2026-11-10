@@ -4,7 +4,6 @@
     <string name="liquid_glass_lockscreen_title">"લૉક સ્ક્રીન"</string>
     <string name="liquid_glass_power_title">"પાવર મેનૂ"</string>
     <string name="liquid_glass_battery_title">"બૅટરી"</string>
-    <string name="liquid_glass_preview_internet">"ઇન્ટરનેટ"</string>
     <string name="liquid_glass_summary">સિસ્ટમ સપાટી પર બ્લર અને કાચ</string>
     <string name="liquid_glass_material_title">મટિરિયલ</string>
     <string name="liquid_glass_solid">સૉલિડ</string>
@@ -16,17 +15,12 @@
     <string name="liquid_glass_look_title">લૂક</string>
     <string name="liquid_glass_blur_summary">કાચ પાછળની વસ્તુને કેટલો બ્લર કરે છે</string>
     <string name="liquid_glass_tint_title">ટિન્ટ</string>
-    <string name="liquid_glass_tint_summary">લખાણ વાંચી શકાય તે માટે કાચને ઘેરો કરે છે</string>
-    <string name="liquid_glass_accent_tint_title">એક્સેન્ટ ટિન્ટ</string>
-    <string name="liquid_glass_accent_tint_summary">તમારા એક્સેન્ટ રંગથી કાચને રંગો</string>
-    <string name="liquid_glass_liquid_category">લિક્વિડ</string>
     <string name="liquid_glass_refraction_title">રિફ્રૅક્શન</string>
     <string name="liquid_glass_refraction_summary">કિનારીઓ પાછળની વસ્તુને કેટલી વાળે છે</string>
     <string name="liquid_glass_tilt_title">હાઇલાઇટ્સ ટિલ્ટને અનુસરે</string>
     <string name="liquid_glass_tilt_summary">ફોન હલાવો ત્યારે કિનારીઓ પ્રકાશ ઝીલે છે</string>
     <string name="liquid_glass_surfaces_title">કાચ ચાલુ</string>
     <string name="liquid_glass_qs_title">ઝડપી સેટિંગ અને શેડ</string>
-    <string name="liquid_glass_qs_summary">શેડ, નોટિફિકેશન અને અનલૉક સ્ક્રીન</string>
     <string name="liquid_glass_lockscreen_summary">શૉર્ટકટ્સ અને ફિંગરપ્રિન્ટ બટન</string>
     <string name="liquid_glass_volume_title">વૉલ્યુમ પૅનલ</string>
     <string name="liquid_glass_volume_summary">સ્લાઇડર્સ અને રિંગર બટન્સ</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">બૅટરી સેવરમાં નક્કર</string>
     <string name="liquid_glass_battery_saver_summary">બૅટરી સેવર ચાલુ હોય ત્યારે કાચ બંધ કરે</string>
     <string name="liquid_glass_footer">ફોન ખૂબ ગરમ હોય ત્યારે પણ કાચ બંધ થાય છે.</string>
-    <string name="liquid_glass_preview_wifi">હોમ Wi-Fi</string>
-    <string name="liquid_glass_preview_earbuds">ઇયરબડ્સ</string>
 </resources>

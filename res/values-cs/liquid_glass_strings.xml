@@ -5,7 +5,6 @@
     <string name="liquid_glass_volume_title">Panel hlasitosti</string>
     <string name="liquid_glass_power_title">"Nabídka vypínače"</string>
     <string name="liquid_glass_battery_title">"Baterie"</string>
-    <string name="liquid_glass_preview_internet">"Internet"</string>
     <string name="liquid_glass_summary">Rozostření a sklo na systémových plochách</string>
     <string name="liquid_glass_material_title">Materiál</string>
     <string name="liquid_glass_solid">Plné</string>
@@ -17,17 +16,12 @@
     <string name="liquid_glass_look_title">Vzhled</string>
     <string name="liquid_glass_blur_summary">Jak silně sklo rozostřuje to, co je za ním</string>
     <string name="liquid_glass_tint_title">Odstín</string>
-    <string name="liquid_glass_tint_summary">Ztmaví sklo, aby byl text čitelný</string>
-    <string name="liquid_glass_accent_tint_title">Barevný nádech</string>
-    <string name="liquid_glass_accent_tint_summary">Obarvi sklo akcentní barvou</string>
-    <string name="liquid_glass_liquid_category">Tekuté</string>
     <string name="liquid_glass_refraction_title">Lom světla</string>
     <string name="liquid_glass_refraction_summary">Jak moc okraje ohýbají to, co je za nimi</string>
     <string name="liquid_glass_tilt_title">Zvýraznění sleduje náklon</string>
     <string name="liquid_glass_tilt_summary">Okraje se rozzáří, když pohybuješ telefonem</string>
     <string name="liquid_glass_surfaces_title">Zapnout sklo</string>
     <string name="liquid_glass_qs_title">Rychlé nastavení a stín</string>
-    <string name="liquid_glass_qs_summary">Stín oznámení, oznámení a obrazovka odemknutí</string>
     <string name="liquid_glass_lockscreen_summary">Zkratky a tlačítko otisku prstu</string>
     <string name="liquid_glass_volume_summary">Posuvníky a tlačítka hlasitosti</string>
     <string name="liquid_glass_power_summary">Panel a akce</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Bez průhlednosti v režimu úspory</string>
     <string name="liquid_glass_battery_saver_summary">Vypne sklo, když je zapnutý režim úspory baterie</string>
     <string name="liquid_glass_footer">Sklo se vypne také při velkém zahřátí telefonu.</string>
-    <string name="liquid_glass_preview_wifi">Domácí Wi-Fi</string>
-    <string name="liquid_glass_preview_earbuds">Sluchátka</string>
 </resources>

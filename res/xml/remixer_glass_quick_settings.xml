@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- Liquid Glass on Quick Settings and the shade -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/glass_section_quick_settings">
+
+    <lineageos.preference.SystemSettingSwitchPreference
+        android:key="rr_glass_qs"
+        android:title="@string/liquid_glass_qs_title"
+        android:summary="@string/liquid_glass_qs_place_summary"
+        android:defaultValue="true" />
+
+    <lineageos.preference.SystemSettingSwitchPreference
+        android:key="rr_glass_morph_tiles"
+        android:title="@string/glass_morph_tiles_title"
+        android:summary="@string/glass_morph_tiles_summary"
+        android:defaultValue="true" />
+</PreferenceScreen>

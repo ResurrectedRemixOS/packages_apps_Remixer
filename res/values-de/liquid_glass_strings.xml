@@ -5,7 +5,6 @@
     <string name="liquid_glass_volume_title">Lautstärkeregler</string>
     <string name="liquid_glass_power_title">"Ein/Aus-Menü"</string>
     <string name="liquid_glass_battery_title">"Akku"</string>
-    <string name="liquid_glass_preview_internet">"Internet"</string>
     <string name="liquid_glass_summary">Unschärfe und Glas auf Systemflächen</string>
     <string name="liquid_glass_material_title">Material</string>
     <string name="liquid_glass_solid">Vollton</string>
@@ -17,17 +16,12 @@
     <string name="liquid_glass_look_title">Aussehen</string>
     <string name="liquid_glass_blur_summary">Wie stark das Glas den Hintergrund verwischt</string>
     <string name="liquid_glass_tint_title">Tönung</string>
-    <string name="liquid_glass_tint_summary">Dunkelt das Glas ab, damit Text lesbar bleibt</string>
-    <string name="liquid_glass_accent_tint_title">Akzenttönung</string>
-    <string name="liquid_glass_accent_tint_summary">Färbt das Glas in deinem Akzent</string>
-    <string name="liquid_glass_liquid_category">Flüssig</string>
     <string name="liquid_glass_refraction_title">Lichtbrechung</string>
     <string name="liquid_glass_refraction_summary">Wie stark die Kanten den Hintergrund krümmen</string>
     <string name="liquid_glass_tilt_title">Glanzlichter folgen der Neigung</string>
     <string name="liquid_glass_tilt_summary">Kanten fangen das Licht ein, wenn du das Smartphone bewegst</string>
     <string name="liquid_glass_surfaces_title">Glas auf</string>
     <string name="liquid_glass_qs_title">Schnelleinstellungen und Benachrichtigungsleiste</string>
-    <string name="liquid_glass_qs_summary">Die Leiste, Benachrichtigungen und der Entsperrbildschirm</string>
     <string name="liquid_glass_lockscreen_summary">Verknüpfungen und die Fingerabdrucktaste</string>
     <string name="liquid_glass_volume_summary">Regler und Klingeltontasten</string>
     <string name="liquid_glass_power_summary">Bereich und Aktionen</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Vollton im Energiesparmodus</string>
     <string name="liquid_glass_battery_saver_summary">Schaltet Glas aus, solange der Energiesparmodus an ist</string>
     <string name="liquid_glass_footer">Glas schaltet sich auch aus, wenn das Smartphone sehr heiß ist.</string>
-    <string name="liquid_glass_preview_wifi">WLAN zu Hause</string>
-    <string name="liquid_glass_preview_earbuds">Earbuds</string>
 </resources>

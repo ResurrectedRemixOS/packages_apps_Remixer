@@ -4,7 +4,6 @@
     <string name="liquid_glass_lockscreen_title">"Skrini iliyofungwa"</string>
     <string name="liquid_glass_power_title">"Menyu ya kuzima/kuwasha"</string>
     <string name="liquid_glass_battery_title">"Betri"</string>
-    <string name="liquid_glass_preview_internet">"Intaneti"</string>
     <string name="liquid_glass_summary">Ukungu na kioo kwenye sehemu za mfumo</string>
     <string name="liquid_glass_material_title">Nyenzo</string>
     <string name="liquid_glass_solid">Imara</string>
@@ -16,17 +15,12 @@
     <string name="liquid_glass_look_title">Mwonekano</string>
     <string name="liquid_glass_blur_summary">Kiwango cha ukungu wa kioo kwa yaliyo nyuma yake</string>
     <string name="liquid_glass_tint_title">Rangi</string>
-    <string name="liquid_glass_tint_summary">Hufifisha kioo ili maandishi yasomeke vizuri</string>
-    <string name="liquid_glass_accent_tint_title">Rangi ya lafudhi kwenye kioo</string>
-    <string name="liquid_glass_accent_tint_summary">Pakavu kioo kwa rangi yako ya lafudhi</string>
-    <string name="liquid_glass_liquid_category">Kimiminika</string>
     <string name="liquid_glass_refraction_title">Mkunjo wa mwanga</string>
     <string name="liquid_glass_refraction_summary">Umbali ambao kingo hupinda yaliyo nyuma yake</string>
     <string name="liquid_glass_tilt_title">Vivutio hufuata mwelekeo</string>
     <string name="liquid_glass_tilt_summary">Kingo hupokea mwanga unaposogeza simu</string>
     <string name="liquid_glass_surfaces_title">Washa kioo</string>
     <string name="liquid_glass_qs_title">Mipangilio ya haraka na kivuli</string>
-    <string name="liquid_glass_qs_summary">Kivuli cha arifa, arifa na skrini ya kufungua</string>
     <string name="liquid_glass_lockscreen_summary">Njia za mkato na kitufe cha alama ya kidole</string>
     <string name="liquid_glass_volume_title">Paneli ya sauti</string>
     <string name="liquid_glass_volume_summary">Vitelezi na vitufe vya sauti ya mlio</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Imara katika Kiokoa Betri</string>
     <string name="liquid_glass_battery_saver_summary">Huzima kioo wakati Kiokoa Betri kiko wazi</string>
     <string name="liquid_glass_footer">Kioo pia huzimwa simu ikipata joto kali.</string>
-    <string name="liquid_glass_preview_wifi">Wi-Fi ya nyumbani</string>
-    <string name="liquid_glass_preview_earbuds">Vifaa vya sikio</string>
 </resources>

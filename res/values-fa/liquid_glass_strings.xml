@@ -6,7 +6,6 @@
     <string name="liquid_glass_volume_title">پنل صدا</string>
     <string name="liquid_glass_power_title">"منوی روشن/خاموش"</string>
     <string name="liquid_glass_battery_title">"باتری"</string>
-    <string name="liquid_glass_preview_internet">"اینترنت"</string>
     <string name="liquid_glass_summary">محو و شیشه‌ای در سطوح سیستم</string>
     <string name="liquid_glass_solid">توپر</string>
     <string name="liquid_glass_solid_summary">بدون محو</string>
@@ -17,17 +16,12 @@
     <string name="liquid_glass_look_title">ظاهر</string>
     <string name="liquid_glass_blur_summary">میزان تار شدن پشت شیشه</string>
     <string name="liquid_glass_tint_title">رنگ‌مایه</string>
-    <string name="liquid_glass_tint_summary">شیشه را تیره می‌کند تا متن خوانا بماند</string>
-    <string name="liquid_glass_accent_tint_title">رنگ لعابی</string>
-    <string name="liquid_glass_accent_tint_summary">شیشه را با رنگ تأکیدی خود رنگ می‌کند</string>
-    <string name="liquid_glass_liquid_category">مایع</string>
     <string name="liquid_glass_refraction_title">شکست نور</string>
     <string name="liquid_glass_refraction_summary">میزان خمیدگی پشت شیشه در لبه‌ها</string>
     <string name="liquid_glass_tilt_title">برجستگی‌ها با کج کردن دنبال می‌شوند</string>
     <string name="liquid_glass_tilt_summary">با حرکت گوشی، لبه‌ها نور را می‌گیرند</string>
     <string name="liquid_glass_surfaces_title">شیشه روشن</string>
     <string name="liquid_glass_qs_title">تنظیمات فوری و سایه‌بان</string>
-    <string name="liquid_glass_qs_summary">سایه‌بان، اعلان‌ها و صفحه باز کردن قفل</string>
     <string name="liquid_glass_lockscreen_summary">میان‌برها و دکمه اثر انگشت</string>
     <string name="liquid_glass_volume_summary">نوارهای لغزنده و دکمه‌های زنگ</string>
     <string name="liquid_glass_power_summary">پنل و اقدامات</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">در حالت ذخیره باتری، یکدست</string>
     <string name="liquid_glass_battery_saver_summary">وقتی ذخیره باتری روشن است، شیشه خاموش می‌شود</string>
     <string name="liquid_glass_footer">شیشه وقتی گوشی خیلی داغ است هم خاموش می‌شود.</string>
-    <string name="liquid_glass_preview_wifi">Wi-Fi خانه</string>
-    <string name="liquid_glass_preview_earbuds">ایرباد</string>
 </resources>

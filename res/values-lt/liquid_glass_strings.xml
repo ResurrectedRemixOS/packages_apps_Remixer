@@ -4,7 +4,6 @@
     <string name="liquid_glass_lockscreen_title">"Užrakinimo ekranas"</string>
     <string name="liquid_glass_power_title">"Įjungimo meniu"</string>
     <string name="liquid_glass_battery_title">"Akumuliatorius"</string>
-    <string name="liquid_glass_preview_internet">"Internetas"</string>
     <string name="liquid_glass_summary">Ūkanotas stiklas ir sistemos paviršiai</string>
     <string name="liquid_glass_material_title">Medžiaga</string>
     <string name="liquid_glass_solid">Vientisa</string>
@@ -16,17 +15,12 @@
     <string name="liquid_glass_look_title">Išvaizda</string>
     <string name="liquid_glass_blur_summary">Kaip stipriai stiklas ūkanoja tai, kas yra už jo</string>
     <string name="liquid_glass_tint_title">Atspalvis</string>
-    <string name="liquid_glass_tint_summary">Patamsina stiklą, kad tekstas būtų įskaitomas</string>
-    <string name="liquid_glass_accent_tint_title">Akcento atspalvis</string>
-    <string name="liquid_glass_accent_tint_summary">Nudažykite stiklą akcento spalva</string>
-    <string name="liquid_glass_liquid_category">Skystas</string>
     <string name="liquid_glass_refraction_title">Refrakcija</string>
     <string name="liquid_glass_refraction_summary">Kaip stipriai kraštai lenkia tai, kas yra už jų</string>
     <string name="liquid_glass_tilt_title">Šviesos atspindžiai seka pasvirimą</string>
     <string name="liquid_glass_tilt_summary">Kraštai sugauna šviesą, kai judinate telefoną</string>
     <string name="liquid_glass_surfaces_title">Stiklas įjungtas</string>
     <string name="liquid_glass_qs_title">Spartieji nustatymai ir juosta</string>
-    <string name="liquid_glass_qs_summary">Juosta, pranešimai ir atrakinimo ekranas</string>
     <string name="liquid_glass_lockscreen_summary">Greitieji klavišai ir piršto atspaudo mygtukas</string>
     <string name="liquid_glass_volume_title">Garsumo skydelis</string>
     <string name="liquid_glass_volume_summary">Slankikliai ir skambėjimo mygtukai</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Vientisas taupymo režimu</string>
     <string name="liquid_glass_battery_saver_summary">Išjungia stiklą, kol įjungtas Akumuliatoriaus taupymo režimas</string>
     <string name="liquid_glass_footer">Stiklas taip pat išsijungia, kai telefonas labai įkaitęs.</string>
-    <string name="liquid_glass_preview_wifi">Namų Wi-Fi</string>
-    <string name="liquid_glass_preview_earbuds">Ausinės</string>
 </resources>

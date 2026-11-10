@@ -5,7 +5,6 @@
     <string name="liquid_glass_volume_title">Helitugevuse paneel</string>
     <string name="liquid_glass_power_title">"Toitemenüü"</string>
     <string name="liquid_glass_battery_title">"Aku"</string>
-    <string name="liquid_glass_preview_internet">"Internet"</string>
     <string name="liquid_glass_summary">Hägusus ja klaasefekt süsteemipindadel</string>
     <string name="liquid_glass_material_title">Materjal</string>
     <string name="liquid_glass_solid">Ühtlane</string>
@@ -17,17 +16,12 @@
     <string name="liquid_glass_look_title">Vaade</string>
     <string name="liquid_glass_blur_summary">Kui tugevalt klaas selle taga oleva hägustab</string>
     <string name="liquid_glass_tint_title">Toon</string>
-    <string name="liquid_glass_tint_summary">Tumendab klaasi, et tekst jääks loetavaks</string>
-    <string name="liquid_glass_accent_tint_title">Aktsenttoon</string>
-    <string name="liquid_glass_accent_tint_summary">Värvi klaas oma aktsendiga</string>
-    <string name="liquid_glass_liquid_category">Vedel</string>
     <string name="liquid_glass_refraction_title">Murdumine</string>
     <string name="liquid_glass_refraction_summary">Kui palju servad selle taga olevat painutavad</string>
     <string name="liquid_glass_tilt_title">Esiletõstud järgivad kallet</string>
     <string name="liquid_glass_tilt_summary">Servad püüavad valgust, kui telefoni liigutad</string>
     <string name="liquid_glass_surfaces_title">Klaas sees</string>
     <string name="liquid_glass_qs_title">Kiirseaded ja märguannete paneel</string>
-    <string name="liquid_glass_qs_summary">Märguannete paneel, märguanded ja avalukustusekraan</string>
     <string name="liquid_glass_lockscreen_summary">Otseteed ja sõrmejälje nupp</string>
     <string name="liquid_glass_volume_summary">Liugurid ja helinanupud</string>
     <string name="liquid_glass_power_summary">Paneel ja tegevused</string>
@@ -36,6 +30,4 @@
     <string name="liquid_glass_battery_saver_title">Tahke akusäästurežiimis</string>
     <string name="liquid_glass_battery_saver_summary">Lülitab klaasi välja, kui akusäästja on sees</string>
     <string name="liquid_glass_footer">Klaas lülitub välja ka siis, kui telefon on väga kuum.</string>
-    <string name="liquid_glass_preview_wifi">Kodu Wi-Fi</string>
-    <string name="liquid_glass_preview_earbuds">Kõrvaklapid</string>
 </resources>
