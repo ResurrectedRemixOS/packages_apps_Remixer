@@ -3,44 +3,37 @@
      SPDX-FileCopyrightText: The Resurrected Remix Project
      SPDX-License-Identifier: Apache-2.0
 -->
-<!-- Liquid Glass on the lock screen, and the Glass clock face -->
+<!-- The Glass clock, a lock screen clock face of its own: it's glass whether or not glass is on
+     elsewhere. GlassClockView reads these keys; defaults are GlassSettings' own. -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:title="@string/glass_section_lockscreen">
+    android:title="@string/glass_clock_title">
 
-    <lineageos.preference.SystemSettingSwitchPreference
-        android:key="rr_glass_lockscreen"
-        android:title="@string/liquid_glass_lockscreen_title"
-        android:summary="@string/liquid_glass_lockscreen_summary"
-        android:defaultValue="true" />
+    <Preference
+        android:key="glass_clock_faces"
+        android:title="@string/glass_clock_all_faces"
+        android:summary="@string/glass_clock_all_faces_summary" />
 
     <PreferenceCategory
-        android:key="glass_clock_category"
-        android:title="@string/glass_clock_title">
+        android:key="glass_clock_glass"
+        android:title="@string/glass_clock_section_glass">
 
-        <SwitchPreferenceCompat
-            android:key="glass_clock_use"
-            android:title="@string/glass_clock_use_title"
-            android:summary="@string/liquid_glass_clock_use_summary"
-            android:persistent="false" />
-
-        <Preference
-            android:key="glass_clock_faces"
-            android:title="@string/remixer_clock_faces"
-            android:summary="@string/liquid_glass_clock_faces_summary" />
-
-        <com.resurrection.settings.preferences.SystemSettingListPreference
+        <com.resurrection.settings.glass.GlassChipsPreference
             android:key="rr_glass_clock_style"
             android:title="@string/glass_clock_style_title"
-            android:summary="%s"
             android:entries="@array/glass_clock_style_entries"
             android:entryValues="@array/glass_clock_style_values"
             android:defaultValue="0" />
 
-        <com.resurrection.settings.preferences.SystemSettingListPreference
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_glass_clock_readable"
+            android:title="@string/glass_clock_readable_title"
+            android:summary="@string/glass_clock_readable_summary"
+            android:defaultValue="true" />
+
+        <com.resurrection.settings.glass.GlassChipsPreference
             android:key="rr_glass_clock_depth"
             android:title="@string/glass_clock_depth_title"
-            android:summary="%s"
             android:entries="@array/glass_clock_depth_entries"
             android:entryValues="@array/glass_clock_depth_values"
             android:defaultValue="1" />
@@ -88,11 +81,15 @@
             app:textStart="@string/glass_shadow_none"
             app:textEnd="@string/glass_shadow_dark"
             app:updatesContinuously="true" />
+    </PreferenceCategory>
 
-        <com.resurrection.settings.preferences.SystemSettingListPreference
+    <PreferenceCategory
+        android:key="glass_clock_numbers"
+        android:title="@string/glass_clock_section_numbers">
+
+        <com.resurrection.settings.glass.GlassChipsPreference
             android:key="rr_glass_clock_weight"
             android:title="@string/glass_clock_weight_title"
-            android:summary="%s"
             android:entries="@array/glass_clock_weight_entries"
             android:entryValues="@array/glass_clock_weight_values"
             android:defaultValue="850" />
@@ -108,18 +105,16 @@
             app:textEnd="@string/glass_clock_roundness_round"
             app:updatesContinuously="true" />
 
-        <com.resurrection.settings.preferences.SystemSettingListPreference
+        <com.resurrection.settings.glass.GlassChipsPreference
             android:key="rr_glass_clock_width"
             android:title="@string/glass_clock_width_title"
-            android:summary="%s"
             android:entries="@array/glass_clock_width_entries"
             android:entryValues="@array/glass_clock_width_values"
             android:defaultValue="100" />
 
-        <com.resurrection.settings.preferences.SystemSettingListPreference
+        <com.resurrection.settings.glass.GlassChipsPreference
             android:key="rr_glass_clock_layout"
             android:title="@string/glass_clock_layout_title"
-            android:summary="%s"
             android:entries="@array/glass_clock_layout_entries"
             android:entryValues="@array/glass_clock_layout_values"
             android:defaultValue="0" />

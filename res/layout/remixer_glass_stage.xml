@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+
+     Pinned above Liquid Glass's rows (GlassPreview): the stage, with real glass in a window of its
+     own over all of it but the bar of buttons along its bottom, and the tabs.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="8dp">
+
+    <!-- What's behind the glass goes in first, under the bar -->
+    <com.resurrection.settings.glass.GlassPreviewStrip
+        android:id="@+id/glass_stage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/glass_stage_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/glass_stage_bar_height"
+            android:layout_gravity="bottom"
+            android:layout_margin="@dimen/glass_stage_bar_margin"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/glass_stage_backdrops"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/glass_stage_bar"
+                android:contentDescription="@string/glass_stage_backdrops"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <TextView
+                    android:id="@+id/glass_backdrop_wallpaper"
+                    style="@style/GlassStageButton"
+                    android:text="@string/glass_preview_background_wallpaper" />
+
+                <TextView
+                    android:id="@+id/glass_backdrop_light"
+                    style="@style/GlassStageButton"
+                    android:text="@string/glass_preview_background_light" />
+
+                <TextView
+                    android:id="@+id/glass_backdrop_colors"
+                    style="@style/GlassStageButton"
+                    android:text="@string/glass_preview_background_colors" />
+            </LinearLayout>
+
+            <!-- What room the backdrops leave, with the button at its end: a long name is cut
+                 short before it pushes anything off the stage -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:background="@drawable/glass_stage_bar"
+                    android:padding="3dp">
+
+                    <TextView
+                        android:id="@+id/glass_stage_real"
+                        style="@style/GlassStageButton"
+                        android:ellipsize="end"
+                        android:text="@string/glass_stage_open_shade" />
+                </FrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </com.resurrection.settings.glass.GlassPreviewStrip>
+
+    <LinearLayout
+        android:id="@+id/glass_stage_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/glass_stage_tabs"
+        android:orientation="horizontal" />
+</LinearLayout>

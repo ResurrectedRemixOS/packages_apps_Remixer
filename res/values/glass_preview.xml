@@ -6,9 +6,12 @@
 <resources>
     <dimen name="glass_preview_height">160dp</dimen>
     <dimen name="glass_preview_corner">28dp</dimen>
+    <!-- RR: the stage pinned above Liquid Glass's rows, and the bar of buttons along its bottom,
+         which the glass stays clear of -->
+    <dimen name="glass_stage_height">300dp</dimen>
+    <dimen name="glass_stage_bar_height">46dp</dimen>
+    <dimen name="glass_stage_bar_margin">12dp</dimen>
 
-    <color name="glass_preview_button_color">@android:color/system_accent2_100</color>
-    <color name="glass_preview_button_text">@android:color/system_accent2_900</color>
     <color name="glass_preview_real_color">@android:color/system_accent1_600</color>
     <color name="glass_preview_real_text">@android:color/system_accent1_0</color>
 
@@ -20,6 +23,21 @@
         <item name="android:paddingEnd">20dp</item>
         <item name="android:textSize">14sp</item>
         <item name="android:textFontWeight">500</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <!-- RR: a button on the stage's bar -->
+    <style name="GlassStageButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textFontWeight">600</item>
+        <item name="android:textColor">@color/glass_stage_button_text</item>
+        <item name="android:background">@drawable/glass_stage_button</item>
         <item name="android:clickable">true</item>
         <item name="android:focusable">true</item>
     </style>

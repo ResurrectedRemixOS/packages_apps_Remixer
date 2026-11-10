@@ -30,8 +30,9 @@ import com.android.internal.util.catalyxx.GlassSettings;
 import com.android.settingslib.utils.ThreadUtils;
 
 /**
- * A chip of glass over the wallpaper in one of Liquid Glass's materials, for the material cards.
- * The page's live preview is the system's own glass ({@link GlassPreview}).
+ * A chip of glass over the wallpaper in one of Liquid Glass's materials, for the material cards
+ * and, larger, for Liquid's two edge styles. The page's live preview is the system's own glass
+ * ({@link GlassPreview}).
  */
 public class GlassPreviewView extends View {
     private static final String TAG = "GlassPreviewView";
@@ -47,6 +48,7 @@ public class GlassPreviewView extends View {
             + "uniform float4 rect;\n"
             + "uniform float cornerRadius;\n"
             + "uniform float refraction;\n"
+            + "uniform float lens;\n"
             + "uniform float2 lightDir;\n"
             + "float boxSdf(float2 p, float2 halfSize, float r) {\n"
             + "    float2 q = abs(p) - halfSize + float2(r);\n"
@@ -71,9 +73,9 @@ public class GlassPreviewView extends View {
             + "    float3 crisp = float3(sharp.eval(uv).rgb);\n"
             + "    crisp.r = float(sharp.eval(uv + n * split).r);\n"
             + "    crisp.b = float(sharp.eval(uv - n * split).b);\n"
-            + "    float3 color = mix(soft, crisp, smoothstep(0.35, 1.0, edge) * 0.8);\n"
+            + "    float3 color = mix(soft, crisp, smoothstep(0.35, 1.0, edge) * 0.8 * lens);\n"
             + "    float luma = dot(color, float3(0.2126, 0.7152, 0.0722));\n"
-            + "    color = mix(float3(luma), color, 1.2) * 1.03;\n"
+            + "    color = mix(float3(luma), color, 1.0 + 0.2 * lens) * (1.0 + 0.03 * lens);\n"
             + "    float rim = 1.0 - smoothstep(0.0, 1.5 + 3.5 * refraction, -d);\n"
             + "    float light = dot(n, lightDir);\n"
             + "    color += rim * (0.08 + 0.5 * max(light, 0.0) + 0.18 * max(-light, 0.0)) *\n"
@@ -96,6 +98,8 @@ public class GlassPreviewView extends View {
     private Bitmap mWallpaper;
     private float mCorner;
     private int mMaterial = GlassSettings.MATERIAL_FROSTED;
+    private boolean mLens = true;
+    private boolean mLarge;
 
     public GlassPreviewView(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -104,7 +108,21 @@ public class GlassPreviewView extends View {
 
     /** The material the chip is drawn in, one of GlassSettings' MATERIAL_ values. */
     public void setSwatch(int material) {
+        setSwatch(material, mLens, mLarge);
+    }
+
+    /**
+     * The material the chip is drawn in. For Liquid, {@code lens} is RR's lens edge, which keeps
+     * the rim clear around the frosted middle; without it the frost goes to the edge, as
+     * Catalyxx's does. A {@code large} chip fills most of the card, so its edge shows.
+     */
+    public void setSwatch(int material, boolean lens, boolean large) {
         mMaterial = material;
+        mLens = lens;
+        if (mLarge != large) {
+            mLarge = large;
+            layoutShape(getWidth(), getHeight());
+        }
         mNodeDirty = true;
         invalidate();
     }
@@ -170,10 +188,10 @@ public class GlassPreviewView extends View {
         if (w == 0 || h == 0) {
             return;
         }
-        final float pw = w * 0.62f;
-        final float ph = Math.min(h * 0.46f, 34 * mDp);
+        final float pw = w * (mLarge ? 0.8f : 0.62f);
+        final float ph = mLarge ? h * 0.64f : Math.min(h * 0.46f, 34 * mDp);
         mShape.set((w - pw) / 2, (h - ph) / 2, (w + pw) / 2, (h + ph) / 2);
-        mCorner = ph / 2;
+        mCorner = Math.min(ph / 2, 22 * mDp);
         mWallMatrix.reset();
         if (mWallpaper != null) {
             final float scale = Math.max((float) w / mWallpaper.getWidth(),
@@ -255,6 +273,7 @@ public class GlassPreviewView extends View {
         shader.setFloatUniform("rect", mShape.left, mShape.top, mShape.right, mShape.bottom);
         shader.setFloatUniform("cornerRadius", mCorner);
         shader.setFloatUniform("refraction", REFRACTION);
+        shader.setFloatUniform("lens", mLens ? 1f : 0f);
         shader.setFloatUniform("lightDir", LIGHT_X, LIGHT_Y);
         return RenderEffect.createChainEffect(
                 RenderEffect.createRuntimeShaderEffect(shader, "blurred"), blur);

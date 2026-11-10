@@ -8,16 +8,11 @@
     <string name="glass_preview_background_wallpaper">Wallpaper</string>
     <string name="glass_preview_background_light">Light</string>
     <string name="glass_preview_background_colors">Colors</string>
-    <string name="glass_preview_background_description">Background: %1$s. Tap to change it</string>
-    <string name="glass_preview_show_real">Show the real one</string>
     <string name="glass_preview_buttons">Buttons</string>
     <string name="glass_preview_panels">Panels</string>
     <string name="glass_preview_now_playing">Now playing</string>
     <string name="glass_preview_tile_internet">Internet</string>
     <string name="glass_preview_tile_bluetooth">Bluetooth</string>
-    <string name="glass_preview_tile_flashlight">Flashlight</string>
-    <string name="glass_preview_tile_dark">Dark theme</string>
-    <string name="glass_preview_dialog">Dialog</string>
     <string name="glass_preview_channel">Liquid Glass preview</string>
     <string name="glass_preview_sample_text">This is a sample notification</string>
     <string name="glass_melt_try_title">Try melting</string>

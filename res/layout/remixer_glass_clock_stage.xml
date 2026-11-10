@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+
+     Pinned above the Glass clock's rows: the real clock over the lock screen's wallpaper or a dark
+     or light backdrop, then which face the lock screen shows now and the button that makes it
+     this one.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="8dp">
+
+    <com.resurrection.settings.glass.GlassPreviewStrip
+        android:id="@+id/glass_stage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/remixer_glass_clock_preview" />
+
+        <LinearLayout
+            android:id="@+id/glass_stage_backdrops"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/glass_stage_bar_height"
+            android:layout_gravity="bottom|start"
+            android:layout_margin="@dimen/glass_stage_bar_margin"
+            android:background="@drawable/glass_stage_bar"
+            android:contentDescription="@string/glass_stage_backdrops"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/glass_backdrop_wallpaper"
+                style="@style/GlassStageButton"
+                android:text="@string/glass_preview_background_wallpaper" />
+
+            <TextView
+                android:id="@+id/glass_backdrop_dark"
+                style="@style/GlassStageButton"
+                android:text="@string/glass_stage_dark" />
+
+            <TextView
+                android:id="@+id/glass_backdrop_light"
+                style="@style/GlassStageButton"
+                android:text="@string/glass_preview_background_light" />
+        </LinearLayout>
+    </com.resurrection.settings.glass.GlassPreviewStrip>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="6dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/glass_clock_name"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/glass_clock_now"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/glass_clock_use"
+            style="@style/GlassPreviewButton"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/glass_preview_button_real"
+            android:text="@string/glass_clock_use"
+            android:textColor="@color/glass_preview_real_text" />
+    </LinearLayout>
+</LinearLayout>

@@ -6,10 +6,7 @@
 package com.resurrection.settings.glass
 
 import android.content.Context
-import android.os.UserHandle
-import android.provider.Settings
 import android.util.AttributeSet
-import androidx.preference.ListPreference
 import com.android.internal.util.catalyxx.GlassSettings
 
 /**
@@ -17,26 +14,11 @@ import com.android.internal.util.catalyxx.GlassSettings
  * as Android's blur looks, and Liquid is frosted white. So the row shows what glass uses now and
  * writes only what's picked.
  */
-class GlassColorPreference(context: Context, attrs: AttributeSet?) :
-    ListPreference(context, attrs) {
-    init {
-        isPersistent = false
-    }
+class GlassColorPreference(context: Context, attrs: AttributeSet) :
+    GlassChipsPreference(context, attrs) {
 
-    override fun onAttached() {
-        super.onAttached()
-        refresh()
-    }
+    override fun value(): Int = GlassSettings.color(context.contentResolver)
 
     /** Shows the color glass uses now, which the material can change. */
-    fun refresh() {
-        value = GlassSettings.color(context.contentResolver).toString()
-    }
-
-    override fun callChangeListener(newValue: Any?): Boolean {
-        val color = (newValue as? String)?.toIntOrNull() ?: return false
-        if (!super.callChangeListener(newValue)) return false
-        Settings.System.putIntForUser(context.contentResolver, key, color, UserHandle.USER_CURRENT)
-        return true
-    }
+    fun refresh() = notifyChanged()
 }
