@@ -719,8 +719,22 @@ internal class GlassSampleView(
                 )
             }
             glass.setGlassMelt(if (piece.melts) GlassSettings.meltSize(resolver, density) else 0f)
+            shape(piece)
         }
         invalidate()
+    }
+
+    /**
+     * Gives [piece]'s glass its corners and how much of it shows. Never while drawing: what a
+     * drawable is told then reaches SurfaceFlinger with the frame after, and a still scene has
+     * none, which left the glass with square corners.
+     */
+    private fun shape(piece: Piece) {
+        val glass = piece.glass ?: return
+        glass.alpha = (255 * shown * piece.fade).roundToInt()
+        if (piece.role != Role.LOUPE) {
+            glass.setCornerRadius(piece.radius * min(piece.scaleX, piece.scaleY))
+        }
     }
 
     /** [look] for glass [zoom] times the size, which casts no shadow in the loupe. */
@@ -747,6 +761,9 @@ internal class GlassSampleView(
         if (alpha != shown) {
             shown = alpha
             this.alpha = alpha
+            for (piece in pieces) {
+                shape(piece)
+            }
             invalidate()
         }
     }
@@ -782,16 +799,12 @@ internal class GlassSampleView(
             val radius = piece.radius * min(piece.scaleX, piece.scaleY)
             if (piece.isGlass) {
                 val glass = piece.glass ?: continue
-                glass.alpha = (255 * shown * piece.fade).roundToInt()
                 glass.setBounds(
                     drawn.left.roundToInt(),
                     drawn.top.roundToInt(),
                     drawn.right.roundToInt(),
                     drawn.bottom.roundToInt(),
                 )
-                if (piece.role != Role.LOUPE) {
-                    glass.setCornerRadius(radius)
-                }
                 glass.draw(canvas)
             } else {
                 fill.color = context.getColor(android.R.color.system_neutral2_800)
@@ -1127,6 +1140,7 @@ internal class GlassSampleView(
             panel.scaleY = 1f
             panel.shiftX = (1f - eased) * dp(SLIDE_DP)
             panel.fade = eased
+            shape(panel)
             return
         }
         panel.shiftX = 0f
@@ -1155,6 +1169,7 @@ internal class GlassSampleView(
             panel.scaleX = DROP_X + (1f - DROP_X) * eased
             panel.scaleY = DROP_Y + (1f - DROP_Y) * eased
         }
+        shape(panel)
     }
 
     /** Eases [t], 0 to 1, in and out. */
