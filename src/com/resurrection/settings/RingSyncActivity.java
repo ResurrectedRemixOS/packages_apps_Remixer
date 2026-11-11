@@ -6,6 +6,7 @@ package com.resurrection.settings;
 
 import android.animation.ValueAnimator;
 import android.app.Activity;
+import android.app.ActivityOptions;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -20,6 +21,7 @@ import android.graphics.Shader;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.os.UserHandle;
 import android.provider.Settings;
 import android.view.HapticFeedbackConstants;
@@ -37,7 +39,8 @@ import java.util.List;
 
 /**
  * Ring sync, RR's easter egg behind Android version: rings close in on the RR mark; tap when one
- * lines up. Perfect hits build a combo and speed things up; three misses end the game.
+ * lines up. Perfect hits build a combo and speed things up; three misses end the game. Between
+ * games, tapping the mark five times in a row opens Snake.
  */
 public class RingSyncActivity extends Activity {
     private static final String PREFS = "ring_sync";
@@ -45,6 +48,9 @@ public class RingSyncActivity extends Activity {
     private static final String KEY_VIBRATE = "vibrate";
     private static final String KEY_EMBER = "rr_ember_unlocked";
     private static final int EMBER_SCORE = 50;
+    // Taps on the mark that open Snake, and the most time between two of them
+    private static final int SNAKE_TAPS = 5;
+    private static final long MARK_TAP_MS = 400;
     private static final String EMBER = "FF5A1F";
 
     @Override
@@ -109,6 +115,7 @@ public class RingSyncActivity extends Activity {
         private final RectF mEmberButton = new RectF();
         private final RectF mAndroidButton = new RectF();
         private final RectF mVibrateButton = new RectF();
+        private final RectF mMarkButton = new RectF();
         private final ValueAnimator mClock = ValueAnimator.ofFloat(0f, 1f);
 
         private int mState = TITLE;
@@ -123,6 +130,13 @@ public class RingSyncActivity extends Activity {
         private float mSpawnIn;
         private float mFlash;
         private String mCallout;
+        // Taps on the mark so far, when the last one was, and how much it's still swelling
+        private int mMarkTaps;
+        private long mLastMarkTap;
+        private float mMarkPulse;
+        private final Paint mSegment = new Paint(Paint.ANTI_ALIAS_FLAG);
+        // A tap on the mark still starts a game, a moment later, unless more taps follow
+        private final Runnable mStartLater = this::start;
 
         GameView(Context context) {
             super(context);
@@ -142,6 +156,7 @@ public class RingSyncActivity extends Activity {
             mText.setTextAlign(Paint.Align.CENTER);
             mText.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.BOLD));
             mMark.setTint(mAccent);
+            mSegment.setColor(mAccent);
             mClock.setDuration(1000);
             mClock.setRepeatCount(ValueAnimator.INFINITE);
             mClock.setInterpolator(new LinearInterpolator());
@@ -159,6 +174,7 @@ public class RingSyncActivity extends Activity {
         protected void onDetachedFromWindow() {
             super.onDetachedFromWindow();
             mClock.cancel();
+            removeCallbacks(mStartLater);
         }
 
         @Override
@@ -181,6 +197,7 @@ public class RingSyncActivity extends Activity {
             float dt = mLast == 0 ? 0 : (now - mLast) / 1e9f;
             mLast = now;
             mFlash = Math.max(0, mFlash - dt * 2.5f);
+            mMarkPulse = Math.max(0, mMarkPulse - dt * 4f);
             if (mState == PLAYING) {
                 mSpawnIn -= dt;
                 if (mSpawnIn <= 0) {
@@ -204,6 +221,8 @@ public class RingSyncActivity extends Activity {
         }
 
         private void start() {
+            removeCallbacks(mStartLater);
+            mMarkTaps = 0;
             mState = PLAYING;
             mScore = 0;
             mCombo = 0;
@@ -280,10 +299,41 @@ public class RingSyncActivity extends Activity {
             } else if (mState == OVER && mEmberNow && mEmberButton.contains(x, y)) {
                 useEmber();
                 mEmberNow = false;
+            } else if (mMarkButton.contains(x, y)) {
+                tapMark();
             } else {
                 start();
             }
             return true;
+        }
+
+        /** A tap on the mark between games: the fifth in a row opens Snake. */
+        private void tapMark() {
+            long now = SystemClock.uptimeMillis();
+            if (now - mLastMarkTap > MARK_TAP_MS) {
+                mMarkTaps = 0;
+            }
+            mLastMarkTap = now;
+            mMarkTaps++;
+            mMarkPulse = 1f;
+            removeCallbacks(mStartLater);
+            if (mMarkTaps >= SNAKE_TAPS) {
+                mMarkTaps = 0;
+                if (mVibrate) performHapticFeedback(HapticFeedbackConstants.CONFIRM);
+                openSnake();
+                return;
+            }
+            if (mVibrate) performHapticFeedback(HapticFeedbackConstants.CLOCK_TICK);
+            postDelayed(mStartLater, MARK_TAP_MS);
+        }
+
+        /** Snake grows out of the mark. */
+        private void openSnake() {
+            Rect from = new Rect();
+            mMarkButton.roundOut(from);
+            startActivity(new Intent(RingSyncActivity.this, SnakeActivity.class),
+                    ActivityOptions.makeScaleUpAnimation(this, from.left, from.top,
+                            from.width(), from.height()).toBundle());
         }
 
         @Override
@@ -311,7 +361,26 @@ public class RingSyncActivity extends Activity {
             int mh = (int) (mw * 522.7f / 715.3f);
             mMark.setBounds(new Rect((int) cx - mw / 2, (int) cy - mh / 2,
                     (int) cx + mw / 2, (int) cy + mh / 2));
+            // Taps land on the mark a little outside its edges too
+            mMarkButton.set(mMark.getBounds());
+            mMarkButton.inset(-16 * mDensity, -16 * mDensity);
+            float swell = 1f + 0.12f * mMarkPulse;
+            canvas.save();
+            canvas.scale(swell, swell, cx, cy);
             mMark.draw(canvas);
+            canvas.restore();
+            if (mState != PLAYING && mMarkTaps >= 2) {
+                // The snake grows under the mark, one piece a tap
+                float size = 10 * mDensity;
+                float gap = 3 * mDensity;
+                float width = mMarkTaps * size + (mMarkTaps - 1) * gap;
+                float left = cx - width / 2;
+                float top = cy + mh / 2f + 16 * mDensity;
+                for (int i = 0; i < mMarkTaps; i++) {
+                    float x = left + i * (size + gap);
+                    canvas.drawRect(x, top, x + size, top + size, mSegment);
+                }
+            }
 
             float below = cy + r + 64 * mDensity;
             if (mState == PLAYING) {
