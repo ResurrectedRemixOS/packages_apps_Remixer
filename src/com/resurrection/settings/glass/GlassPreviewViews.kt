@@ -101,7 +101,8 @@ class GlassLoupe(
  * button on the left, and on the right a loupe on the top right corner of one of them.
  */
 internal class GlassEdgeLayout(width: Float, height: Float, density: Float) {
-    val left = 14 * density
+    // Far enough in for the button's rim, at the bend it has to start with, not to reach the page
+    val left = 20 * density
     val right = width * 0.5f
     val panelTop = 12 * density
     val panelBottom = height * 0.5f - 5 * density

@@ -249,7 +249,12 @@ internal class GlassSampleView(
                     false,
                 )
             },
-            Piece(side, rowTop, side + 2 * round, rowBottom, round, LOCKSCREEN) {
+            Piece(side, rowTop, end - dp(198f), rowBottom, round, VOLUME) {
+                drawLevel(this, it, 0.62f, InternalR.drawable.ic_audio_vol)
+            },
+            // Clear glass bends what's beside it into its rim: at the stage's side that's the
+            // page, a bright sliver in the light theme, so the one clear piece stays off it
+            Piece(end - dp(188f), rowTop, end - dp(136f), rowBottom, round, LOCKSCREEN) {
                 drawIcon(
                     this,
                     InternalR.drawable.ic_qs_flashlight,
@@ -258,9 +263,6 @@ internal class GlassSampleView(
                     dp(22f),
                     Color.WHITE,
                 )
-            },
-            Piece(side + 2 * round + dp(10f), rowTop, end - dp(136f), rowBottom, round, VOLUME) {
-                drawLevel(this, it, 0.62f, InternalR.drawable.ic_audio_vol)
             },
             Piece(end - dp(126f), rowTop, end - dp(74f), rowBottom, round, POWER) {
                 drawIcon(
