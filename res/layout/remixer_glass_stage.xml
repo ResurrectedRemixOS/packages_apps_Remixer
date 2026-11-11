@@ -48,9 +48,9 @@
                     android:text="@string/glass_preview_background_light" />
 
                 <TextView
-                    android:id="@+id/glass_backdrop_colors"
+                    android:id="@+id/glass_backdrop_lines"
                     style="@style/GlassStageButton"
-                    android:text="@string/glass_preview_background_colors" />
+                    android:text="@string/glass_preview_background_lines" />
             </LinearLayout>
 
             <!-- What room the backdrops leave, with the button at its end: a long name is cut

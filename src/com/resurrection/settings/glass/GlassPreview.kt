@@ -371,7 +371,7 @@ class GlassPreview(private val fragment: Fragment) {
             intArrayOf(
                 R.id.glass_backdrop_wallpaper,
                 R.id.glass_backdrop_light,
-                R.id.glass_backdrop_colors,
+                R.id.glass_backdrop_lines,
             )
         private const val SAMPLE_CHANNEL = "glass_preview"
         private const val SAMPLE_ID = 1

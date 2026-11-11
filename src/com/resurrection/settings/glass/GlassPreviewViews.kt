@@ -8,6 +8,7 @@ package com.resurrection.settings.glass
 
 import android.content.Context
 import android.graphics.Canvas
+import android.graphics.Color
 import android.graphics.LinearGradient
 import android.graphics.Outline
 import android.graphics.Paint
@@ -24,6 +25,7 @@ import com.android.settings.R
 import com.android.settingslib.utils.ThreadUtils
 import kotlin.math.max
 import kotlin.math.min
+import kotlin.math.roundToInt
 
 /**
  * What the preview's glass sits over, rounded. It has a fixed height, except that the Glass clock
@@ -136,7 +138,7 @@ internal class GlassEdgeLayout(width: Float, height: Float, density: Float) {
 
 /**
  * What the preview shows behind the glass: the wallpaper, or something that brings out what a dark
- * wallpaper hides. A white app page makes glass turn smoky; bands of color show how far it bends.
+ * wallpaper hides. A white app page makes glass turn smoky; lit lines show how far it bends.
  */
 class GlassPreviewBackdrop
 @JvmOverloads
@@ -145,16 +147,9 @@ constructor(context: Context, attrs: AttributeSet? = null) : ImageView(context, 
     private val density = resources.displayMetrics.density
     private val paint = Paint(Paint.ANTI_ALIAS_FLAG)
     private val loupePath = Path()
-    private val bands =
-        LinearGradient(
-            0f,
-            0f,
-            BANDS_X_DP * density,
-            BANDS_Y_DP * density,
-            BAND_COLORS,
-            null,
-            Shader.TileMode.REPEAT,
-        )
+    private val lines = litLines()
+    // A little of the theme's color over the lines' ground, more of it at the top
+    private var wash: Shader? = null
 
     /** One of the `BACKGROUND_` values. */
     var choice: Int = BACKGROUND_WALLPAPER
@@ -192,6 +187,60 @@ constructor(context: Context, attrs: AttributeSet? = null) : ImageView(context, 
         }
     }
 
+    /**
+     * RR: thin lit lines on a slant, two in the theme's color and then a white one, round after
+     * round. They cross every side of a piece of glass, so its bend shows all the way round, and
+     * the white ones give Rainbow edges white light to split. They take the place of bands of
+     * every color, which had nothing of RR in them.
+     */
+    private fun litLines(): Shader {
+        val accent = context.getColor(android.R.color.system_accent1_200)
+        val colors = ArrayList<Int>()
+        val stops = ArrayList<Float>()
+        fun stop(color: Int, alpha: Float, atDp: Float) {
+            colors.add(faded(color, alpha))
+            stops.add(atDp / LINES_ROUND_DP)
+        }
+        stop(accent, 0f, 0f)
+        for ((color, middle) in listOf(accent to 14f, accent to 42f, Color.WHITE to 70f)) {
+            stop(color, 0f, middle - LINE_HALO_DP)
+            stop(color, 0.3f, middle - LINE_CORE_DP)
+            stop(color, 1f, middle - LINE_CORE_DP)
+            stop(color, 1f, middle + LINE_CORE_DP)
+            stop(color, 0.3f, middle + LINE_CORE_DP)
+            stop(color, 0f, middle + LINE_HALO_DP)
+        }
+        stop(Color.WHITE, 0f, LINES_ROUND_DP)
+        return LinearGradient(
+            0f,
+            0f,
+            LINES_X_DP * density,
+            LINES_Y_DP * density,
+            colors.toIntArray(),
+            stops.toFloatArray(),
+            Shader.TileMode.REPEAT,
+        )
+    }
+
+    /** [color] at [alpha], 0 to 1. */
+    private fun faded(color: Int, alpha: Float) =
+        Color.argb((255 * alpha).roundToInt(), Color.red(color), Color.green(color), Color.blue(color))
+
+    override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
+        super.onSizeChanged(w, h, oldw, oldh)
+        val tint = context.getColor(android.R.color.system_accent1_400)
+        wash =
+            LinearGradient(
+                0f,
+                0f,
+                0f,
+                h.toFloat(),
+                faded(tint, 0.13f),
+                faded(tint, 0.03f),
+                Shader.TileMode.CLAMP,
+            )
+    }
+
     override fun onDraw(canvas: Canvas) {
         drawBackdrop(canvas)
         val through = loupe ?: return
@@ -210,8 +259,14 @@ constructor(context: Context, attrs: AttributeSet? = null) : ImageView(context, 
     private fun drawBackdrop(canvas: Canvas) {
         when (choice) {
             BACKGROUND_LIGHT -> drawAppPage(canvas)
-            BACKGROUND_COLORS -> {
-                paint.shader = bands
+            BACKGROUND_LINES -> {
+                paint.color = LINES_GROUND
+                canvas.drawRect(0f, 0f, width.toFloat(), height.toFloat(), paint)
+                // A shader draws through the paint's own alpha
+                paint.color = Color.WHITE
+                paint.shader = wash
+                canvas.drawRect(0f, 0f, width.toFloat(), height.toFloat(), paint)
+                paint.shader = lines
                 canvas.drawRect(0f, 0f, width.toFloat(), height.toFloat(), paint)
                 paint.shader = null
             }
@@ -243,7 +298,7 @@ constructor(context: Context, attrs: AttributeSet? = null) : ImageView(context, 
     companion object {
         const val BACKGROUND_WALLPAPER = 0
         const val BACKGROUND_LIGHT = 1
-        const val BACKGROUND_COLORS = 2
+        const val BACKGROUND_LINES = 2
 
         private const val NO_PICTURE_COLOR = 0xff201a2b.toInt()
         private const val PAGE_COLOR = 0xfff8f8fa.toInt()
@@ -253,20 +308,13 @@ constructor(context: Context, attrs: AttributeSet? = null) : ImageView(context, 
         private const val SUBTEXT_COLOR = 0xffa5a8b0.toInt()
         private const val ROW_DP = 30f
 
-        // One round of the bands, along their slant
-        private const val BANDS_X_DP = 213f
-        private const val BANDS_Y_DP = 149f
-        // RR: deep colors, all darker than where glass turns smoky by default. Over the bright
-        // bands these were, most of the glass went dark and hid the bend they're there to show.
-        private val BAND_COLORS =
-            intArrayOf(
-                0xffd81b4a.toInt(),
-                0xffc2540f.toInt(),
-                0xff17804a.toInt(),
-                0xff0f7f8f.toInt(),
-                0xff1f6fe0.toInt(),
-                0xff7a3fe6.toInt(),
-                0xffd81b4a.toInt(),
-            )
+        // The lines: their ground, how long one round of three is along the slant and across
+        // and down, and half of each line's lit middle and of the glow around it
+        private const val LINES_GROUND = 0xff0a0c11.toInt()
+        private const val LINES_ROUND_DP = 84f
+        private const val LINES_X_DP = 68.8f
+        private const val LINES_Y_DP = 48.2f
+        private const val LINE_CORE_DP = 1f
+        private const val LINE_HALO_DP = 7f
     }
 }

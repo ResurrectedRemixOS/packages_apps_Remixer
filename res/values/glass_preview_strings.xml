@@ -7,7 +7,7 @@
     <!-- Liquid Glass's live preview, its sample glass and Try melting -->
     <string name="glass_preview_background_wallpaper">Wallpaper</string>
     <string name="glass_preview_background_light">Light</string>
-    <string name="glass_preview_background_colors">Colors</string>
+    <string name="glass_preview_background_lines">Lines</string>
     <string name="glass_preview_buttons">Buttons</string>
     <string name="glass_preview_panels">Panels</string>
     <string name="glass_preview_now_playing">Now playing</string>

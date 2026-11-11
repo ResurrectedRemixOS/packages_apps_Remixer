@@ -34,7 +34,7 @@ import kotlin.math.roundToInt
 /**
  * Liquid Glass, on one screen. A stage of real glass stays pinned at the top ([GlassPreview]) with
  * the tabs under it: Look, Edges, Touch, Motion and Places. Each tab shows its rows and puts its
- * own scene on the stage, and a row that only shows over light or colorful content puts that
+ * own scene on the stage, and a row that only shows over light content or over lines puts that
  * behind the glass when it's touched, so every row shows what it does. Catalyxx's glass engine
  * draws the glass: SurfaceFlinger what's behind windows, SystemUI the rims on what it draws itself.
  *
@@ -277,9 +277,9 @@ class LiquidGlassSettings : SettingsPreferenceFragment() {
         preview?.let {
             it.scene = SCENES[index]
             if (entering) {
-                // The edge shows best over color; the other tabs start on the wallpaper
+                // The edge shows best over lines; the other tabs start on the wallpaper
                 it.backdrop =
-                    if (index == TAB_EDGES) GlassPreviewBackdrop.BACKGROUND_COLORS
+                    if (index == TAB_EDGES) GlassPreviewBackdrop.BACKGROUND_LINES
                     else GlassPreviewBackdrop.BACKGROUND_WALLPAPER
             }
         }
@@ -479,7 +479,7 @@ class LiquidGlassSettings : SettingsPreferenceFragment() {
             )
 
         // What a row needs behind the glass to show: smoke, the switch point and the shadow only
-        // show over something light, and the blur and the bend best over color
+        // show over something light, and the blur and the bend best over lines
         val STAGE_BACKDROPS =
             mapOf(
                 GlassSettings.ADAPTIVE to GlassPreviewBackdrop.BACKGROUND_LIGHT,
@@ -487,10 +487,10 @@ class LiquidGlassSettings : SettingsPreferenceFragment() {
                 GlassSettings.SMOKE_COLOR to GlassPreviewBackdrop.BACKGROUND_LIGHT,
                 GlassSettings.SWITCH_POINT to GlassPreviewBackdrop.BACKGROUND_LIGHT,
                 GlassSettings.SHADOW to GlassPreviewBackdrop.BACKGROUND_LIGHT,
-                GlassSettings.BLUR_STRENGTH to GlassPreviewBackdrop.BACKGROUND_COLORS,
-                GlassSettings.STYLE to GlassPreviewBackdrop.BACKGROUND_COLORS,
-                GlassSettings.BEND to GlassPreviewBackdrop.BACKGROUND_COLORS,
-                GlassSettings.RAINBOW to GlassPreviewBackdrop.BACKGROUND_COLORS,
+                GlassSettings.BLUR_STRENGTH to GlassPreviewBackdrop.BACKGROUND_LINES,
+                GlassSettings.STYLE to GlassPreviewBackdrop.BACKGROUND_LINES,
+                GlassSettings.BEND to GlassPreviewBackdrop.BACKGROUND_LINES,
+                GlassSettings.RAINBOW to GlassPreviewBackdrop.BACKGROUND_LINES,
             )
     }
 }
