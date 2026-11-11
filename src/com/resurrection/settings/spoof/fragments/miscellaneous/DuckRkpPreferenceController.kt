@@ -147,9 +147,14 @@ internal class DuckRkpPreferenceController(
                 "validating", "saving" -> R.string.ts_rkp_validating
                 else -> R.string.ts_rkp_hardware
             })
-            current.getBoolean("active") -> fragment.getString(R.string.ts_rkp_ready,
-                DateFormat.getDateTimeInstance().format(Date(current.getLong("expires_at"))),
-                DateFormat.getDateTimeInstance().format(Date(current.getLong("renew_at"))))
+            current.getBoolean("active") -> {
+                val expires = DateFormat.getDateTimeInstance().format(
+                    Date(current.getLong("expires_at")))
+                val renewAt = current.getLong("renew_at")
+                val renew = DateFormat.getDateTimeInstance().format(
+                    Date(if (renewAt > 0) renewAt else current.getLong("expires_at")))
+                fragment.getString(R.string.ts_rkp_ready, expires, renew)
+            }
             current.getBoolean("waiting_for_network") ->
                 fragment.getString(R.string.ts_rkp_waiting_network)
             current.getLong("expires_at") in 1..System.currentTimeMillis() ->
@@ -159,7 +164,8 @@ internal class DuckRkpPreferenceController(
     }
 
     private fun error(current: Bundle): String = when (current.getString("error")) {
-        "hal_rejected", "native_rejected" -> fragment.getString(R.string.ts_rkp_hal_rejected, current.getInt("detail"))
+        "hal_rejected", "native_rejected" -> fragment.getString(
+            R.string.ts_rkp_hal_rejected, current.getInt("detail"))
         "native_unavailable" -> fragment.getString(R.string.ts_rkp_native_unavailable)
         "native_transport" -> fragment.getString(R.string.ts_rkp_native_transport)
         "invalid_hal_response" -> fragment.getString(R.string.ts_rkp_invalid_response)
