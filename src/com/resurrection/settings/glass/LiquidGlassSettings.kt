@@ -5,6 +5,7 @@
 
 package com.resurrection.settings.glass
 
+import android.content.Context
 import android.content.res.ColorStateList
 import android.database.ContentObserver
 import android.graphics.Color
@@ -108,15 +109,53 @@ class LiquidGlassSettings : SettingsPreferenceFragment() {
         pick: (Int) -> Unit,
     ) {
         val row = findPreference<LayoutPreference>(key) ?: return
+        val context = requireContext()
+        val density = resources.displayMetrics.density
+        val fill =
+            ColorStateList(
+                SELECTED_OR_NOT,
+                intArrayOf(
+                    context.getColor(InternalR.color.materialColorSecondaryContainer),
+                    context.getColor(InternalR.color.materialColorSurfaceContainerHigh),
+                ),
+            )
+        val stroke =
+            ColorStateList(
+                SELECTED_OR_NOT,
+                intArrayOf(context.getColor(InternalR.color.materialColorPrimary), Color.TRANSPARENT),
+            )
         for (i in ids.indices) {
             val card = row.findViewById<View>(ids[i])
             card.findViewById<GlassPreviewView>(R.id.liquid_glass_swatch).setSwatch(i)
             card.findViewById<TextView>(R.id.liquid_glass_label).setText(names[i])
             card.findViewById<TextView>(R.id.liquid_glass_desc).setText(summaries[i])
+            card.background = pickable(context, 22 * density, fill, (2 * density).roundToInt(), stroke)
             card.setOnClickListener { pick(i) }
             card.accessibilityDelegate = GlassPreview.RADIO
             cards.add(card)
         }
+    }
+
+    /**
+     * A background that shows whether its view is selected, with a ripple. It's made once and
+     * left on its view: Android ends a pressed ripple that's swapped out but leaves its sparkle
+     * running, which kept the page drawing for seven seconds after every pick.
+     */
+    private fun pickable(
+        context: Context,
+        radius: Float,
+        fill: ColorStateList,
+        strokeWidth: Int,
+        stroke: ColorStateList,
+    ): RippleDrawable {
+        val shape =
+            GradientDrawable().apply {
+                cornerRadius = radius
+                setColor(fill)
+                setStroke(strokeWidth, stroke)
+            }
+        val ripple = context.getColor(InternalR.color.materialColorOnSurface) and 0x1FFFFFFF
+        return RippleDrawable(ColorStateList.valueOf(ripple), shape, null)
     }
 
     private fun write(key: String, value: Int) {
@@ -174,15 +213,42 @@ class LiquidGlassSettings : SettingsPreferenceFragment() {
     }
 
     private fun addTabs(row: ViewGroup) {
+        val context = row.context
         val density = resources.displayMetrics.density
+        val fill =
+            ColorStateList(
+                SELECTED_OR_NOT,
+                intArrayOf(
+                    context.getColor(InternalR.color.materialColorSecondaryContainer),
+                    Color.TRANSPARENT,
+                ),
+            )
+        val stroke =
+            ColorStateList(
+                SELECTED_OR_NOT,
+                intArrayOf(
+                    context.getColor(InternalR.color.materialColorPrimary),
+                    context.getColor(InternalR.color.materialColorOutlineVariant),
+                ),
+            )
+        val text =
+            ColorStateList(
+                SELECTED_OR_NOT,
+                intArrayOf(
+                    context.getColor(InternalR.color.materialColorOnSecondaryContainer),
+                    context.getColor(InternalR.color.materialColorOnSurface),
+                ),
+            )
         for (i in TAB_NAMES.indices) {
             val chip =
-                TextView(row.context).apply {
+                TextView(context).apply {
                     setText(TAB_NAMES[i])
                     gravity = Gravity.CENTER
                     maxLines = 1
                     ellipsize = TextUtils.TruncateAt.END
                     textSize = 14f
+                    setTextColor(text)
+                    background = pickable(context, 22 * density, fill, density.roundToInt(), stroke)
                     setOnClickListener { showTab(i) }
                     accessibilityDelegate = GlassPreview.RADIO
                 }
@@ -197,7 +263,7 @@ class LiquidGlassSettings : SettingsPreferenceFragment() {
 
     /** Shows the rows of the tab at [index], and its scene on the stage. */
     private fun showTab(index: Int) {
-        val context = context ?: return
+        if (context == null) return
         val entering = index != tab
         tab = index
         val screen = preferenceScreen
@@ -217,35 +283,8 @@ class LiquidGlassSettings : SettingsPreferenceFragment() {
                     else GlassPreviewBackdrop.BACKGROUND_WALLPAPER
             }
         }
-        val density = resources.displayMetrics.density
-        val ripple = context.getColor(InternalR.color.materialColorOnSurface) and 0x1FFFFFFF
         for (i in tabViews.indices) {
-            val selected = i == index
-            val shape =
-                GradientDrawable().apply {
-                    cornerRadius = 22 * density
-                    setColor(
-                        if (selected) context.getColor(InternalR.color.materialColorSecondaryContainer)
-                        else Color.TRANSPARENT
-                    )
-                    setStroke(
-                        density.roundToInt(),
-                        context.getColor(
-                            if (selected) InternalR.color.materialColorPrimary
-                            else InternalR.color.materialColorOutlineVariant
-                        ),
-                    )
-                }
-            tabViews[i].apply {
-                background = RippleDrawable(ColorStateList.valueOf(ripple), shape, null)
-                setTextColor(
-                    context.getColor(
-                        if (selected) InternalR.color.materialColorOnSecondaryContainer
-                        else InternalR.color.materialColorOnSurface
-                    )
-                )
-                isSelected = selected
-            }
+            tabViews[i].isSelected = i == index
         }
         refreshRows()
         if (entering) {
@@ -316,23 +355,9 @@ class LiquidGlassSettings : SettingsPreferenceFragment() {
 
     /** Marks the card at [picked] as the one picked; cards wait while they're not [enabled]. */
     private fun paintCards(cards: List<View>, picked: Int, enabled: Boolean) {
-        val context = context ?: return
-        val density = resources.displayMetrics.density
-        val primary = context.getColor(InternalR.color.materialColorPrimary)
-        val selectedFill = context.getColor(InternalR.color.materialColorSecondaryContainer)
-        val fill = context.getColor(InternalR.color.materialColorSurfaceContainerHigh)
-        val ripple = context.getColor(InternalR.color.materialColorOnSurface) and 0x1FFFFFFF
         for (i in cards.indices) {
-            val selected = i == picked
-            val shape =
-                GradientDrawable().apply {
-                    cornerRadius = 22 * density
-                    setColor(if (selected) selectedFill else fill)
-                    setStroke((2 * density).roundToInt(), if (selected) primary else Color.TRANSPARENT)
-                }
             cards[i].apply {
-                background = RippleDrawable(ColorStateList.valueOf(ripple), shape, null)
-                isSelected = selected
+                isSelected = i == picked
                 isEnabled = enabled
                 alpha = if (enabled) 1f else 0.5f
             }
@@ -341,6 +366,9 @@ class LiquidGlassSettings : SettingsPreferenceFragment() {
 
     private companion object {
         const val STATE_TAB = "glass_tab"
+
+        // For colors that tell the picked tab or card from the others
+        val SELECTED_OR_NOT = arrayOf(intArrayOf(android.R.attr.state_selected), intArrayOf())
 
         const val TAB_LOOK = 0
         const val TAB_EDGES = 1
