@@ -500,9 +500,9 @@ internal class GlassSampleView(
 
     /** The ringer picker: the picked mode sits in the glass selector, which slides to a tap. */
     private fun drawRinger(canvas: Canvas, piece: Piece) {
-        val cell = piece.width / RINGER_ICONS.size
+        val cell = ringerCell(piece)
         val middleY = piece.height / 2
-        val at = cell * (ringerIndex + 0.5f)
+        val at = ringerX(piece, ringerIndex)
         if (lensX < 0f) {
             lensX = at
         }
@@ -522,13 +522,21 @@ internal class GlassSampleView(
             canvas.drawCircle(at, middleY, dp(22f), fill)
         }
         for (i in RINGER_ICONS.indices) {
-            val x = cell * (i + 0.5f)
+            val x = ringerX(piece, i)
             // What's under the selector shows bigger through it
             val under = if (lens) 1f - min(abs(x - lensX) / cell, 1f) else 0f
             val size = dp(22f) * (1f + MAGNIFY[magnify.coerceIn(0, 2)] * under)
             drawIcon(canvas, RINGER_ICONS[i], x, middleY, size, Color.WHITE)
         }
     }
+
+    /** How wide each of the ringer's modes is: they stop short of its round ends. */
+    private fun ringerCell(piece: Piece) =
+        (piece.width - 2 * dp(RINGER_INSET_DP)) / RINGER_ICONS.size
+
+    /** Where the middle of the ringer's mode at [index] is, from the ringer's left. */
+    private fun ringerX(piece: Piece, index: Int) =
+        dp(RINGER_INSET_DP) + ringerCell(piece) * (index + 0.5f)
 
     /** A slider whose knob turns into a glass lens while it's dragged. */
     private fun drawSlider(canvas: Canvas, piece: Piece) {
@@ -960,9 +968,10 @@ internal class GlassSampleView(
                     sliderHeld = false
                     invalidate()
                 } else if (piece != null && piece.role == Role.RINGER) {
-                    val cell = piece.width / RINGER_ICONS.size
                     ringerIndex =
-                        ((event.x - piece.left) / cell).toInt().coerceIn(0, RINGER_ICONS.size - 1)
+                        ((event.x - piece.left - dp(RINGER_INSET_DP)) / ringerCell(piece))
+                            .toInt()
+                            .coerceIn(0, RINGER_ICONS.size - 1)
                     buzz()
                     frames.start()
                 } else {
@@ -1104,7 +1113,7 @@ internal class GlassSampleView(
     private fun stepSelector(deltaMs: Long): Boolean {
         val ringer = pieces.firstOrNull { it.role == Role.RINGER } ?: return false
         if (lensX < 0f) return false
-        val at = ringer.width / RINGER_ICONS.size * (ringerIndex + 0.5f)
+        val at = ringerX(ringer, ringerIndex)
         val before = lensX
         lensX += (at - lensX) * (1f - exp(-deltaMs / LENS_FOLLOW_MS))
         if (abs(at - lensX) < 0.5f) {
@@ -1202,6 +1211,8 @@ internal class GlassSampleView(
 
         // The glass selector: its width, how fast it follows a pick, and how far it stretches
         const val LENS_WIDTH_DP = 52f
+        // How far the ringer's modes stay from its ends, which keeps the selector inside them
+        const val RINGER_INSET_DP = 4f
         const val LENS_FOLLOW_MS = 70f
         const val HELD_STRETCH = 1.25f
         // How much bigger the selector shows what's under it, for each of GlassSettings' MAGNIFY_
