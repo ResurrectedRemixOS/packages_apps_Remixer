@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Snake, opened by tapping the RR mark in Ring sync five times. The game screen shows its
+         text in capitals. -->
+    <string name="snake_title">Snake</string>
+    <string name="snake_new_game">New game</string>
+    <string name="snake_level">Level</string>
+    <string name="snake_maze">Maze</string>
+    <string name="snake_screen">Screen</string>
+    <string name="snake_top_score">Top score</string>
+    <string name="snake_maze_none">No maze</string>
+    <string name="snake_maze_box">Box</string>
+    <string name="snake_maze_tunnel">Tunnel</string>
+    <string name="snake_screen_classic">Classic</string>
+    <string name="snake_screen_blue">Blue</string>
+    <string name="snake_screen_night">Night</string>
+    <string name="snake_paused">Paused</string>
+    <string name="snake_continue">Continue</string>
+    <string name="snake_game_over">Game over!</string>
+    <string name="snake_your_score">Your score</string>
+    <string name="snake_new_top">New top score</string>
+    <string name="snake_top">Top <xliff:g id="score" example="120">%1$d</xliff:g></string>
+    <string name="snake_play_again">Play again</string>
+    <string name="snake_menu">Menu</string>
+    <string name="snake_info">Level <xliff:g id="level" example="5">%1$d</xliff:g> · <xliff:g id="maze" example="No maze">%2$s</xliff:g></string>
+    <string name="snake_hint">Swipe on the screen to steer, or use 2 4 6 8</string>
+    <string name="snake_back">Back to Ring sync</string>
+    <!-- Under the keypad's keys -->
+    <string name="snake_key_up">Up</string>
+    <string name="snake_key_down">Down</string>
+    <string name="snake_key_left">Left</string>
+    <string name="snake_key_right">Right</string>
+    <string name="snake_key_ok">OK</string>
+</resources>
