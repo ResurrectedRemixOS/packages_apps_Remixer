@@ -135,7 +135,7 @@ internal class GlassEdgeLayout(width: Float, height: Float, density: Float) {
 
 /**
  * What the preview shows behind the glass: the wallpaper, or something that brings out what a dark
- * wallpaper hides. A white app page makes glass turn smoky; bright bands show how far it bends.
+ * wallpaper hides. A white app page makes glass turn smoky; bands of color show how far it bends.
  */
 class GlassPreviewBackdrop
 @JvmOverloads
@@ -255,15 +255,17 @@ constructor(context: Context, attrs: AttributeSet? = null) : ImageView(context, 
         // One round of the bands, along their slant
         private const val BANDS_X_DP = 213f
         private const val BANDS_Y_DP = 149f
+        // RR: deep colors, all darker than where glass turns smoky by default. Over the bright
+        // bands these were, most of the glass went dark and hid the bend they're there to show.
         private val BAND_COLORS =
             intArrayOf(
-                0xffff466e.toInt(),
-                0xffffaa32.toInt(),
-                0xfffaeb5a.toInt(),
-                0xff46d796.toInt(),
-                0xff3caaff.toInt(),
-                0xff965aff.toInt(),
-                0xffff466e.toInt(),
+                0xffd81b4a.toInt(),
+                0xffc2540f.toInt(),
+                0xff17804a.toInt(),
+                0xff0f7f8f.toInt(),
+                0xff1f6fe0.toInt(),
+                0xff7a3fe6.toInt(),
+                0xffd81b4a.toInt(),
             )
     }
 }
