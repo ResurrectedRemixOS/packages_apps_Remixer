@@ -336,8 +336,10 @@ internal class GlassSampleView(
         val gap = dp(5f)
         val middle = fullWidth / 2
         val end = fullWidth - side
+        // Two rows, in the middle of the stage's height
+        val top = (fullHeight - dp(150f)) / 2
         return listOf(
-            Piece(side, dp(14f), middle - gap, dp(84f), dp(26f), SHADE) {
+            Piece(side, top, middle - gap, top + dp(70f), dp(26f), SHADE) {
                 drawTile(
                     this,
                     it,
@@ -346,10 +348,10 @@ internal class GlassSampleView(
                     false,
                 )
             },
-            Piece(middle + gap, dp(14f), end, dp(84f), dp(35f), VOLUME, Role.RINGER) {
+            Piece(middle + gap, top, end, top + dp(70f), dp(35f), VOLUME, Role.RINGER) {
                 drawRinger(this, it)
             },
-            Piece(side, dp(104f), end, dp(164f), dp(30f), SHADE, Role.SLIDER) {
+            Piece(side, top + dp(90f), end, top + dp(150f), dp(30f), SHADE, Role.SLIDER) {
                 drawSlider(this, it)
             },
         )
@@ -363,12 +365,14 @@ internal class GlassSampleView(
         val side = dp(14f)
         val end = fullWidth - side
         val panelWidth = dp(62f)
+        // The pair, in the middle of the stage's height beside the panel
+        val top = (fullHeight - dp(118f)) / 2
         return listOf(
             Piece(
                 side,
-                dp(20f),
+                top,
                 end - panelWidth - dp(30f),
-                dp(84f),
+                top + dp(64f),
                 dp(24f),
                 NOTIFICATIONS,
                 melts = true,
@@ -390,9 +394,9 @@ internal class GlassSampleView(
             },
             Piece(
                 side + dp(40f),
-                dp(92f),
+                top + dp(72f),
                 side + dp(160f),
-                dp(138f),
+                top + dp(118f),
                 dp(23f),
                 NOTIFICATIONS,
                 melts = true,
