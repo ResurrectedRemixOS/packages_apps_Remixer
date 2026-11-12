@@ -95,4 +95,32 @@
     <string name="sidebar_tools_title">Tools row</string>
     <string name="sidebar_tools_summary">Screenshot and flashlight under your apps</string>
     <string name="sidebar_footer">The handle is a thin line in your accent; drag it to move it along the edge. With gesture navigation it only covers its own part of the edge, and back works everywhere else.</string>
+
+    <string name="three_finger_swipe_title">Three-finger swipe down</string>
+    <string-array name="three_finger_swipe_entries">
+        <item>No action</item>
+        <item>Screenshot</item>
+        <item>Partial screenshot</item>
+        <item>Recent apps</item>
+        <item>Last app</item>
+        <item>Split screen</item>
+        <item>Open camera</item>
+        <item>Play or pause music</item>
+        <item>Change ringer mode</item>
+        <item>Turn screen off</item>
+        <item>Assistant</item>
+    </string-array>
+    <string-array name="three_finger_swipe_values" translatable="false">
+        <item>0</item>
+        <item>12</item>
+        <item>13</item>
+        <item>2</item>
+        <item>8</item>
+        <item>9</item>
+        <item>6</item>
+        <item>11</item>
+        <item>14</item>
+        <item>7</item>
+        <item>3</item>
+    </string-array>
 </resources>
