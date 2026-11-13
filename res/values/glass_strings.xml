@@ -16,7 +16,7 @@
     <string name="glass_blur_strength_light">Light haze</string>
     <string name="glass_blur_strength_frosted">Frosted</string>
     <string name="glass_adaptive_title">Adapt to what\'s behind</string>
-    <string name="glass_adaptive_summary">Glass turns smoky where it sits over something light, so white text on it reads</string>
+    <string name="glass_adaptive_summary">Glass turns smoky where it sits over something light, so white text on it reads. In the dark theme, switching this off only changes lock screen glass</string>
     <string name="glass_smoke_title">Smoke</string>
     <string name="glass_smoke_none">None</string>
     <string name="glass_smoke_dark">Dark</string>

@@ -87,7 +87,6 @@
         <com.resurrection.settings.preferences.SystemSettingSeekBarPreference
             android:key="rr_glass_smoke"
             android:title="@string/glass_smoke_title"
-            android:dependency="rr_glass_adaptive"
             android:defaultValue="45"
             android:max="100"
             app:min="0"
@@ -99,7 +98,6 @@
         <com.resurrection.settings.glass.GlassChipsPreference
             android:key="rr_glass_smoke_color"
             android:title="@string/glass_smoke_color_title"
-            android:dependency="rr_glass_adaptive"
             android:entries="@array/glass_smoke_color_entries"
             android:entryValues="@array/glass_smoke_color_values"
             android:defaultValue="0" />
@@ -108,7 +106,6 @@
             android:key="rr_glass_switch_point"
             android:title="@string/glass_switch_point_title"
             android:summary="@string/liquid_glass_switch_point_summary"
-            android:dependency="rr_glass_adaptive"
             android:defaultValue="55"
             android:max="90"
             app:min="10"
