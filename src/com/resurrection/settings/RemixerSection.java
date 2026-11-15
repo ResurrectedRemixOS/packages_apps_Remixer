@@ -16,7 +16,6 @@ import androidx.preference.Preference;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.internal.util.rr.Utils;
 import com.android.settingslib.widget.LayoutPreference;
 import com.resurrection.settings.homepage.HomepageStyle;
 
@@ -183,12 +182,6 @@ public class RemixerSection extends SettingsPreferenceFragment {
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
-        if (preference instanceof lineageos.preference.SecureSettingSwitchPreference
-                && "lockscreen_weather_enabled".equals(preference.getKey())) {
-            // The keyguard only reads the At a Glance switch when it is built.
-            Utils.restartSystemUI();
-            return true;
-        }
         final Intent intent = intentFor(preference.getKey());
         if (intent == null) {
             return super.onPreferenceTreeClick(preference);
