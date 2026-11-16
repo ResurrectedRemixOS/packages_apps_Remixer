@@ -31,6 +31,8 @@
     <string name="liquid_glass_power_summary">Panel and actions</string>
     <string name="liquid_glass_menus_title">Menus and dialogs</string>
     <string name="liquid_glass_menus_summary">System dialogs and bottom sheets</string>
+    <string name="liquid_glass_folders_title">Home screen folders</string>
+    <string name="liquid_glass_folders_summary">Folders while they\'re open</string>
 
     <string name="liquid_glass_battery_title">Battery</string>
     <string name="liquid_glass_battery_saver_title">Solid in Battery Saver</string>

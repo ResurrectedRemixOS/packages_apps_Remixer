@@ -456,6 +456,12 @@
             android:title="@string/liquid_glass_menus_title"
             android:summary="@string/liquid_glass_menus_summary"
             android:defaultValue="true" />
+
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="rr_glass_folders"
+            android:title="@string/liquid_glass_folders_title"
+            android:summary="@string/liquid_glass_folders_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
     <PreferenceCategory
