@@ -320,9 +320,6 @@ class LiquidGlassSettings : SettingsPreferenceFragment() {
         for (key in MORPH_KEYS) {
             findPreference<Preference>(key)?.isEnabled = morphs
         }
-        // Android's own color comes with its own tint
-        findPreference<Preference>(GlassSettings.TINT)?.isEnabled =
-            isOn && GlassSettings.color(resolver) != GlassSettings.COLOR_ANDROID
         findPreference<GlassColorPreference>(GlassSettings.COLOR)?.refresh()
 
         findPreference<Preference>(KEY_NEEDS_BLUR)?.isVisible = !blurOn
