@@ -15,6 +15,7 @@ import androidx.preference.PreferenceScreen;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.resurrection.settings.QuickLaunchActivity;
 
 /** Now Bar options; SystemUI's NowBarRepository and NowBarView read them. */
 public class NowBarSettings extends SettingsPreferenceFragment {
@@ -33,6 +34,7 @@ public class NowBarSettings extends SettingsPreferenceFragment {
     static final String TEXT = "now_bar_text";
     static final String TEXT_SIZE = "now_bar_text_size";
     static final String WAVE = "now_bar_wave";
+    private static final String ABOVE_FINGERPRINT = "now_bar_above_fingerprint";
 
     static final String[] KEYS = {MATERIAL, COLOR, OPACITY, OUTLINE, SHADOW, MORE, HEIGHT, WIDTH,
             CORNERS, RAISE, ART, BUTTONS, TEXT, TEXT_SIZE, WAVE};
@@ -70,6 +72,9 @@ public class NowBarSettings extends SettingsPreferenceFragment {
         addPreferencesFromResource(R.xml.remixer_now_bar);
         final NowBarChipsPreference looks = findPreference("now_bar_look");
         looks.setOnChipClicked(this::applyLook);
+        if (!QuickLaunchActivity.isSupported(getContext())) {
+            removePreference(ABOVE_FINGERPRINT);
+        }
     }
 
     private void applyLook(int index) {

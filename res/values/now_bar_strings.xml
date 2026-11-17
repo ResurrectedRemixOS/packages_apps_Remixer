@@ -88,6 +88,8 @@
     </string-array>
     <string name="now_bar_corners">Corners</string>
     <string name="now_bar_raise">Raise</string>
+    <string name="now_bar_above_fingerprint">Above the fingerprint sensor</string>
+    <string name="now_bar_above_fingerprint_summary">Keeps the bar clear of the fingerprint icon</string>
     <string name="now_bar_music_category">Music</string>
     <string name="now_bar_art">Album art</string>
     <string-array name="now_bar_art_entries">

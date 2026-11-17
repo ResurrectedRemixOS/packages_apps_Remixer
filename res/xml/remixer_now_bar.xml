@@ -99,6 +99,11 @@
             android:max="40"
             app:min="0"
             app:updatesContinuously="true" />
+        <lineageos.preference.SystemSettingSwitchPreference
+            android:key="now_bar_above_fingerprint"
+            android:title="@string/now_bar_above_fingerprint"
+            android:summary="@string/now_bar_above_fingerprint_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 
     <PreferenceCategory
