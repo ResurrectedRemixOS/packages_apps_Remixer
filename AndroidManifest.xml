@@ -53,6 +53,11 @@
             android:label="@string/remixer_qs_style" />
 
         <activity
+            android:name=".IconStyleActivity"
+            android:exported="false"
+            android:label="@string/sb_icons_category" />
+
+        <activity
             android:name=".ClockFaceActivity"
             android:exported="false"
             android:label="@string/remixer_clock_faces" />

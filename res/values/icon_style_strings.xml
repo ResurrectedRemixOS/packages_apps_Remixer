@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The Resurrected Remix Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="sb_icons_category">Signal &amp; Wi-Fi icons</string>
+    <string name="remixer_signal_icon">Mobile signal</string>
+    <string name="remixer_wifi_icon">Wi-Fi</string>
+    <string name="remixer_icon_style_stock">Stock</string>
+    <string name="remixer_icon_style_originals">RR originals</string>
+    <string name="remixer_icon_style_classics">Classics</string>
+    <string name="remixer_icon_style_clock" translatable="false">12:30</string>
+    <string name="remixer_icon_style_match">Use the same style for Wi-Fi</string>
+    <string name="remixer_icon_style_apply">Apply</string>
+    <string name="remixer_icon_style_applied">Applied</string>
+    <string name="remixer_icon_style_restart_title">Restart System UI?</string>
+    <string name="remixer_icon_style_restart_message">The status bar restarts to load the new icons.</string>
+    <string name="remixer_icon_style_restart">Restart</string>
+    <string name="remixer_icon_style_failed">Couldn\'t change the icons</string>
+    <string name="remixer_icon_style_note">Used in the status bar, Quick Settings and the Internet panel. With two SIMs active, Android draws its own stacked signal icon.</string>
+</resources>

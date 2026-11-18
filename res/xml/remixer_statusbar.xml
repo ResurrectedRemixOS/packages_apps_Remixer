@@ -47,6 +47,19 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="sb_icons_category"
+        android:title="@string/sb_icons_category">
+
+        <Preference
+            android:key="remixer_signal_icon"
+            android:title="@string/remixer_signal_icon" />
+
+        <Preference
+            android:key="remixer_wifi_icon"
+            android:title="@string/remixer_wifi_icon" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="sb_clock_category"
         android:title="@string/sb_clock_category">
 

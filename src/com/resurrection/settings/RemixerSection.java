@@ -171,6 +171,16 @@ public class RemixerSection extends SettingsPreferenceFragment {
         if (settingsStyle != null) {
             settingsStyle.setSummary(SettingsStyleActivity.currentName(getContext()));
         }
+        final Preference signalIcon = findPreference("remixer_signal_icon");
+        if (signalIcon != null) {
+            signalIcon.setSummary(IconStyleActivity.currentName(getContext(),
+                    IconStyleActivity.KIND_SIGNAL));
+        }
+        final Preference wifiIcon = findPreference("remixer_wifi_icon");
+        if (wifiIcon != null) {
+            wifiIcon.setSummary(IconStyleActivity.currentName(getContext(),
+                    IconStyleActivity.KIND_WIFI));
+        }
         // Entries launched from XML get no title from SubSettingLauncher.
         getActivity().setTitle(getPreferenceScreen().getTitle());
     }
@@ -243,6 +253,10 @@ public class RemixerSection extends SettingsPreferenceFragment {
                 return new Intent(getContext(), QsStyleActivity.class);
             case "remixer_lock_media_style":
                 return QsStyleActivity.lockMediaIntent(getContext());
+            case "remixer_signal_icon":
+                return IconStyleActivity.intent(getContext(), IconStyleActivity.KIND_SIGNAL);
+            case "remixer_wifi_icon":
+                return IconStyleActivity.intent(getContext(), IconStyleActivity.KIND_WIFI);
             case "remixer_headers":
                 return new Intent(getContext(), HeaderActivity.class);
             case "remixer_boot_animation":
