@@ -2,80 +2,69 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="charging_animation_title">Charging animation</string>
     <string name="charging_animation_summary">Plays once when you plug in</string>
-    <string name="charging_animation_footer">Plays once when you plug in. Tap a style to see it now.</string>
-    <string name="charging_animation_rr">RR originals</string>
-    <string name="charging_animation_makers">Phone makers</string>
-    <string name="charging_animation_roms">From other ROMs</string>
-    <string name="charging_animation_none">Off</string>
-    <string name="charging_animation_none_summary">No animation when you plug in</string>
+    <string name="charging_animation_switch">Animate when plugged in</string>
+    <string name="charging_previous">Previous style</string>
+    <string name="charging_next">Next style</string>
+    <string name="charging_try">Try on lock screen</string>
+    <string name="charging_tab_rr">RR</string>
+    <string name="charging_tab_makers">Phone makers</string>
+    <string name="charging_tab_roms">Other ROMs</string>
+    <string name="charging_apply">Apply</string>
+    <string name="charging_applied">Applied</string>
+    <string name="charging_off">Off</string>
+    <string name="charging_off_source">Nothing plays when you plug in</string>
 
     <string name="charging_style_rr_neon">Neon revival</string>
-    <string name="charging_style_rr_neon_summary">The RR mark lights up in neon and fills to your charge</string>
     <string name="charging_style_rr_defib">Defibrillator</string>
-    <string name="charging_style_rr_defib_summary">A shock from the port brings a heartbeat to life</string>
     <string name="charging_style_rr_pulse">Pulse ring</string>
-    <string name="charging_style_rr_pulse_summary">A ring fills to your charge with a heartbeat inside</string>
     <string name="charging_style_pixel">Pixel ripple</string>
-    <string name="charging_style_pixel_summary">Android\'s own ripple from the port</string>
-    <string name="charging_style_oneplus">OnePlus SuperVOOC</string>
-    <string name="charging_style_oneplus_summary">OnePlus\'s ring with the charging speed</string>
-    <string name="charging_style_oneui">Samsung One UI</string>
-    <string name="charging_style_oneui_summary">A capsule fills to your charge</string>
-    <string name="charging_style_hyperos">Xiaomi HyperOS</string>
-    <string name="charging_style_hyperos_summary">Bubbles rise into a glowing blob</string>
-    <string name="charging_style_originos">vivo OriginOS</string>
-    <string name="charging_style_originos_summary">A glowing orb with orbit rings</string>
-    <string name="charging_style_supercharge">Huawei SuperCharge</string>
-    <string name="charging_style_supercharge_summary">A bolt in a ring with streaks flying in</string>
-    <string name="charging_style_moto">Motorola TurboPower</string>
-    <string name="charging_style_moto_summary">A turbo line rises into a neon circle</string>
-    <string name="charging_style_nothing">Nothing</string>
-    <string name="charging_style_nothing_summary">Dot-matrix ripples under a soft glare</string>
+    <string name="charging_style_oneplus">SuperVOOC</string>
+    <string name="charging_style_oneui">One UI capsule</string>
+    <string name="charging_style_hyperos">HyperOS bubbles</string>
+    <string name="charging_style_originos">OriginOS orb</string>
+    <string name="charging_style_supercharge">SuperCharge</string>
+    <string name="charging_style_moto">TurboPower</string>
+    <string name="charging_style_nothing">Glyph ripple</string>
     <string name="charging_style_bliss_flash">Flash</string>
-    <string name="charging_style_bliss_flash_summary">A soft white flash, from BlissRoms</string>
     <string name="charging_style_bliss_glow">Glow pulse</string>
-    <string name="charging_style_bliss_glow_summary">The screen edges pulse, from BlissRoms</string>
     <string name="charging_style_bliss_battery">Battery fill</string>
-    <string name="charging_style_bliss_battery_summary">A battery fills to your charge, from BlissRoms</string>
 
-    <string name="charging_effects_title">Charging effects</string>
-    <string name="charging_effects_summary">Animated effects on the lock screen while charging</string>
-    <string name="charging_effects_footer">Effects by Lunaris AOSP.</string>
-    <string name="charging_effects_style">Effect</string>
+    <string name="charging_source_rr">RR original</string>
+    <string name="charging_source_android">Android</string>
+    <string name="charging_source_oneplus">OnePlus · the stage shows a sketch</string>
+    <string name="charging_source_samsung">Samsung style</string>
+    <string name="charging_source_xiaomi">Xiaomi style</string>
+    <string name="charging_source_vivo">vivo style</string>
+    <string name="charging_source_huawei">Huawei style</string>
+    <string name="charging_source_moto">Motorola</string>
+    <string name="charging_source_nothing">Nothing</string>
+    <string name="charging_source_bliss">BlissRoms</string>
+
+    <string name="charging_speed_normal">Normal</string>
+    <string name="charging_speed_fast">Fast</string>
+    <string name="charging_speed_super">Super fast</string>
+    <string name="charging_label_normal">Charging</string>
+    <string name="charging_label_fast">Fast charging</string>
+    <string name="charging_label_super">Super fast charging</string>
+    <string name="charging_watts"><xliff:g id="name" example="Fast charging">%1$s</xliff:g> · <xliff:g id="watts" example="33">%2$d</xliff:g> W</string>
+
+    <string name="charging_effects_title">Lock screen effects</string>
+    <string name="charging_effects_switch">Effects while charging</string>
+    <string name="charging_effects_off">Off</string>
+    <string name="charging_effects_on">On · <xliff:g id="effect" example="Plasma">%1$s</xliff:g></string>
+    <string name="charging_effects_credit">Effects by Lunaris AOSP · <xliff:g id="number" example="4">%1$d</xliff:g> of <xliff:g id="count" example="10">%2$d</xliff:g></string>
+    <string name="charging_effects_status">Charging · <xliff:g id="level" example="47">%1$d</xliff:g>%%</string>
+    <string name="charging_effects_lockscreen">Lock screen</string>
+    <string name="charging_effects_aod">Always-on</string>
     <string name="charging_effects_color">Colour</string>
+    <string name="charging_effects_green">Green</string>
+    <string name="charging_effects_accent">Accent</string>
+    <string name="charging_effects_rainbow">Rainbow</string>
     <string name="charging_effects_opacity">Opacity</string>
     <string name="charging_effects_glow">Glow</string>
-    <string name="charging_effects_image">Image</string>
     <string name="charging_effects_image_opacity">Image opacity</string>
     <string name="charging_effects_image_strength">Image flow</string>
-    <string name="charging_effects_show_aod">Show on always-on display</string>
-    <string name="charging_effects_show_lockscreen">Show on lock screen</string>
     <string name="charging_effects_image_n">Image <xliff:g id="number" example="3">%1$d</xliff:g></string>
-
-    <string-array name="charging_effects_style_entries" translatable="false">
-        <item>@string/charging_effect_bubbles</item>
-        <item>@string/charging_effect_neon</item>
-        <item>@string/charging_effect_beams</item>
-        <item>@string/charging_effect_plasma</item>
-        <item>@string/charging_effect_sparks</item>
-        <item>@string/charging_effect_nebula</item>
-        <item>@string/charging_effect_matrix</item>
-        <item>@string/charging_effect_geoflow</item>
-        <item>@string/charging_effect_image_flow</item>
-        <item>@string/charging_effect_image_lines</item>
-    </string-array>
-    <string-array name="charging_effects_style_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-    </string-array>
     <string name="charging_effect_bubbles">Bubble stream</string>
     <string name="charging_effect_neon">Neon spray</string>
     <string name="charging_effect_beams">Beams</string>
@@ -86,18 +75,4 @@
     <string name="charging_effect_geoflow">Geoflow</string>
     <string name="charging_effect_image_flow">Image flow</string>
     <string name="charging_effect_image_lines">Image lines</string>
-
-    <string-array name="charging_effects_color_entries" translatable="false">
-        <item>@string/charging_effects_color_green</item>
-        <item>@string/charging_effects_color_accent</item>
-        <item>@string/charging_effects_color_rainbow</item>
-    </string-array>
-    <string-array name="charging_effects_color_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string name="charging_effects_color_green">Green</string>
-    <string name="charging_effects_color_accent">Accent</string>
-    <string name="charging_effects_color_rainbow">Rainbow</string>
 </resources>

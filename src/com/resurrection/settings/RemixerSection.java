@@ -23,6 +23,8 @@ import java.util.Locale;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 import com.resurrection.settings.haptics.HapticRemixActivity;
+import com.resurrection.settings.charging.ChargingAnimationActivity;
+import com.resurrection.settings.charging.ChargingEffectsActivity;
 
 /**
  * One Remixer section, picked by the "section" extra of its hub entry: a banner in the
@@ -174,6 +176,14 @@ public class RemixerSection extends SettingsPreferenceFragment {
             signalIcon.setSummary(IconStyleActivity.currentName(getContext(),
                     IconStyleActivity.KIND_SIGNAL));
         }
+        final Preference chargingAnimation = findPreference("remixer_charging_animation");
+        if (chargingAnimation != null) {
+            chargingAnimation.setSummary(ChargingAnimationActivity.currentName(getContext()));
+        }
+        final Preference chargingEffects = findPreference("remixer_charging_effects");
+        if (chargingEffects != null) {
+            chargingEffects.setSummary(ChargingEffectsActivity.summary(getContext()));
+        }
         final Preference wifiIcon = findPreference("remixer_wifi_icon");
         if (wifiIcon != null) {
             wifiIcon.setSummary(IconStyleActivity.currentName(getContext(),
@@ -265,6 +275,10 @@ public class RemixerSection extends SettingsPreferenceFragment {
                 return new Intent(getContext(), LooksActivity.class);
             case "remixer_quick_launch":
                 return new Intent(getContext(), QuickLaunchActivity.class);
+            case "remixer_charging_animation":
+                return new Intent(getContext(), ChargingAnimationActivity.class);
+            case "remixer_charging_effects":
+                return new Intent(getContext(), ChargingEffectsActivity.class);
             case "remixer_udfps_icon":
                 return UdfpsActivity.intent(getContext(), UdfpsActivity.KIND_ICON);
             case "remixer_udfps_animation":
