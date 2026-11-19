@@ -7,16 +7,29 @@
     <string name="sb_icons_category">Signal &amp; Wi-Fi icons</string>
     <string name="remixer_signal_icon">Mobile signal</string>
     <string name="remixer_wifi_icon">Wi-Fi</string>
+    <string name="remixer_icon_deck_signal">Signal</string>
     <string name="remixer_icon_style_stock">Stock</string>
-    <string name="remixer_icon_style_originals">RR originals</string>
-    <string name="remixer_icon_style_classics">Classics</string>
     <string name="remixer_icon_style_clock" translatable="false">12:30</string>
-    <string name="remixer_icon_style_match">Use the same style for Wi-Fi</string>
+    <string name="remixer_icon_style_minus" translatable="false">−</string>
+    <string name="remixer_icon_style_plus" translatable="false">+</string>
+    <string name="remixer_icon_style_bang" translatable="false">!</string>
+    <string name="remixer_icon_style_signal_deck">Signal deck</string>
+    <string name="remixer_icon_style_wifi_deck">Wi-Fi deck</string>
+    <string name="remixer_icon_style_deck_description">%1$s deck: %2$s</string>
+    <string name="remixer_icon_style_previous">Previous style</string>
+    <string name="remixer_icon_style_next">Next style</string>
+    <string name="remixer_icon_style_matched">Matched pair</string>
+    <string name="remixer_icon_style_mixed">Mix &amp; match</string>
+    <string name="remixer_icon_style_link">Keep signal and Wi-Fi matched</string>
+    <string name="remixer_icon_style_unlink">Mix signal and Wi-Fi styles</string>
+    <string name="remixer_icon_style_level">Strength %1$d</string>
+    <string name="remixer_icon_style_weaker">Weaker signal</string>
+    <string name="remixer_icon_style_stronger">Stronger signal</string>
+    <string name="remixer_icon_style_no_internet">Show no internet</string>
     <string name="remixer_icon_style_apply">Apply</string>
     <string name="remixer_icon_style_applied">Applied</string>
     <string name="remixer_icon_style_restart_title">Restart System UI?</string>
-    <string name="remixer_icon_style_restart_message">The status bar restarts to load the new icons.</string>
+    <string name="remixer_icon_style_restart_message">The status bar restarts to load the new icons. With two SIMs active, Android draws its own stacked signal icon.</string>
     <string name="remixer_icon_style_restart">Restart</string>
     <string name="remixer_icon_style_failed">Couldn\'t change the icons</string>
-    <string name="remixer_icon_style_note">Used in the status bar, Quick Settings and the Internet panel. With two SIMs active, Android draws its own stacked signal icon.</string>
 </resources>

@@ -1,127 +1,280 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:clipChildren="true"
     android:orientation="vertical"
     android:theme="@style/Theme.Material3.DynamicColors.DayNight">
+    <FrameLayout
+        android:id="@+id/icon_style_stage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="16dp">
+            <LinearLayout
+                android:id="@+id/icon_style_deck_signal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:letterSpacing="0.15"
+                    android:text="@string/remixer_icon_deck_signal"
+                    android:textAllCaps="true"
+                    android:textColor="#B3FFFFFF"
+                    android:textSize="11sp" />
+                <com.resurrection.settings.IconDeckView
+                    android:id="@+id/icon_style_platter_signal"
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:layout_marginTop="8dp"
+                    android:clickable="true"
+                    android:focusable="true" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/icon_style_prev_signal"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:contentDescription="@string/remixer_icon_style_previous"
+                        android:rotation="180"
+                        android:scaleType="center"
+                        android:src="@drawable/remixer_ic_chevron" />
+                    <TextView
+                        android:id="@+id/icon_style_name_signal"
+                        android:layout_width="84dp"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textColor="#FFFFFFFF"
+                        android:textSize="15sp" />
+                    <ImageButton
+                        android:id="@+id/icon_style_next_signal"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:contentDescription="@string/remixer_icon_style_next"
+                        android:scaleType="center"
+                        android:src="@drawable/remixer_ic_chevron" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/icon_style_deck_wifi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:letterSpacing="0.15"
+                    android:text="@string/remixer_wifi_icon"
+                    android:textAllCaps="true"
+                    android:textColor="#B3FFFFFF"
+                    android:textSize="11sp" />
+                <com.resurrection.settings.IconDeckView
+                    android:id="@+id/icon_style_platter_wifi"
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:layout_marginTop="8dp"
+                    android:clickable="true"
+                    android:focusable="true" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/icon_style_prev_wifi"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:contentDescription="@string/remixer_icon_style_previous"
+                        android:rotation="180"
+                        android:scaleType="center"
+                        android:src="@drawable/remixer_ic_chevron" />
+                    <TextView
+                        android:id="@+id/icon_style_name_wifi"
+                        android:layout_width="84dp"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textColor="#FFFFFFFF"
+                        android:textSize="15sp" />
+                    <ImageButton
+                        android:id="@+id/icon_style_next_wifi"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:contentDescription="@string/remixer_icon_style_next"
+                        android:scaleType="center"
+                        android:src="@drawable/remixer_ic_chevron" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/icon_style_link"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="78dp"
+            android:scaleType="center" />
+        <LinearLayout
+            android:id="@+id/icon_style_strip"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:layout_marginHorizontal="18dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/remixer_icon_style_clock"
+                android:textColor="#FFFFFFFF"
+                android:textSize="21sp" />
+            <TextView
+                android:id="@+id/icon_style_mode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="#99FFFFFF"
+                android:textSize="12sp" />
+            <ImageView
+                android:id="@+id/icon_style_strip_wifi"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:adjustViewBounds="true"
+                android:importantForAccessibility="no" />
+            <ImageView
+                android:id="@+id/icon_style_strip_signal"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_marginStart="8dp"
+                android:adjustViewBounds="true"
+                android:importantForAccessibility="no" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_marginStart="8dp"
+                android:adjustViewBounds="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/remixer_ic_battery" />
+        </LinearLayout>
+    </FrameLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/remixer_icon_style_stage"
-        android:orientation="vertical"
-        android:padding="14dp">
-        <LinearLayout
-            android:id="@+id/icon_style_bar_dark"
-            android:layout_width="match_parent"
-            android:layout_height="52dp"
-            android:background="@drawable/remixer_icon_style_bar_dark"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:paddingHorizontal="18dp">
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="sans-serif-medium"
-                android:text="@string/remixer_icon_style_clock"
-                android:textColor="#FFFFFFFF"
-                android:textSize="22sp" />
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="24dp"
-                android:adjustViewBounds="true"
-                android:importantForAccessibility="no"
-                android:tag="wifi" />
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="24dp"
-                android:layout_marginStart="8dp"
-                android:adjustViewBounds="true"
-                android:importantForAccessibility="no"
-                android:tag="signal" />
-        </LinearLayout>
-        <LinearLayout
-            android:id="@+id/icon_style_bar_light"
-            android:layout_width="match_parent"
-            android:layout_height="52dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/remixer_icon_style_bar_light"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:paddingHorizontal="18dp">
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="sans-serif-medium"
-                android:text="@string/remixer_icon_style_clock"
-                android:textColor="#FF1B1B1F"
-                android:textSize="22sp" />
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="24dp"
-                android:adjustViewBounds="true"
-                android:importantForAccessibility="no"
-                android:tag="wifi" />
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="24dp"
-                android:layout_marginStart="8dp"
-                android:adjustViewBounds="true"
-                android:importantForAccessibility="no"
-                android:tag="signal" />
-        </LinearLayout>
-        <TextView
-            android:id="@+id/icon_style_preview_label"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/icon_style_remix"
             android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:layout_marginTop="12dp"
-            android:background="@drawable/remixer_qs_style_chip"
-            android:fontFamily="sans-serif-medium"
-            android:gravity="center"
-            android:paddingHorizontal="12dp"
-            android:textColor="#FFEDEEF0"
+            android:layout_height="40dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:paddingHorizontal="14dp"
+            android:text="@string/remixer_remix"
             android:textSize="13sp" />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/icon_style_weaker"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:contentDescription="@string/remixer_icon_style_weaker"
+            android:gravity="center"
+            android:text="@string/remixer_icon_style_minus"
+            android:textColor="?attr/colorOnSurface"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/icon_style_level"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/icon_style_stronger"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:contentDescription="@string/remixer_icon_style_stronger"
+            android:gravity="center"
+            android:text="@string/remixer_icon_style_plus"
+            android:textColor="?attr/colorOnSurface"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/icon_style_no_internet"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/remixer_icon_style_no_internet"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="@string/remixer_icon_style_bang"
+            android:textColor="?attr/colorOnSurface"
+            android:textSize="16sp" />
     </LinearLayout>
-    <androidx.core.widget.NestedScrollView
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/icon_style_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="12dp"
+        app:selectionRequired="true"
+        app:singleSelection="true">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/icon_style_tab_signal"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/remixer_icon_style_signal_deck" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/icon_style_tab_wifi"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/remixer_icon_style_wifi_deck" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/icon_style_grid"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:paddingHorizontal="16dp"
-            android:paddingBottom="24dp">
-            <com.google.android.material.materialswitch.MaterialSwitch
-                android:id="@+id/icon_style_match"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:minHeight="56dp"
-                android:paddingHorizontal="6dp"
-                android:text="@string/remixer_icon_style_match"
-                android:textAppearance="?attr/textAppearanceBodyLarge" />
-            <LinearLayout
-                android:id="@+id/icon_style_list"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:orientation="vertical" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="6dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/remixer_icon_style_note"
-                android:textAppearance="?attr/textAppearanceBodySmall"
-                android:textColor="?attr/colorOnSurfaceVariant" />
-        </LinearLayout>
-    </androidx.core.widget.NestedScrollView>
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingHorizontal="12dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
     <com.google.android.material.button.MaterialButton
         android:id="@+id/icon_style_apply"
         android:layout_width="match_parent"
