@@ -48,6 +48,12 @@
         android:summary="@string/charging_animation_summary"
         android:fragment="com.resurrection.settings.charging.ChargingAnimationSettings" />
 
+    <Preference
+        android:key="remixer_charging_effects"
+        android:title="@string/charging_effects_title"
+        android:summary="@string/charging_effects_summary"
+        android:fragment="com.resurrection.settings.charging.ChargingEffectsSettings" />
+
     <lineageos.preference.SystemSettingSwitchPreference
         android:key="pocket_judge"
         android:title="@string/pocket_mode_title"

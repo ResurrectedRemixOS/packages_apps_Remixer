@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="charging_animation_title">Charging animation</string>
     <string name="charging_animation_summary">Plays once when you plug in</string>
     <string name="charging_animation_footer">Plays once when you plug in. Tap a style to see it now.</string>
@@ -37,4 +37,67 @@
     <string name="charging_style_bliss_glow_summary">The screen edges pulse, from BlissRoms</string>
     <string name="charging_style_bliss_battery">Battery fill</string>
     <string name="charging_style_bliss_battery_summary">A battery fills to your charge, from BlissRoms</string>
+
+    <string name="charging_effects_title">Charging effects</string>
+    <string name="charging_effects_summary">Animated effects on the lock screen while charging</string>
+    <string name="charging_effects_footer">Effects by Lunaris AOSP.</string>
+    <string name="charging_effects_style">Effect</string>
+    <string name="charging_effects_color">Colour</string>
+    <string name="charging_effects_opacity">Opacity</string>
+    <string name="charging_effects_glow">Glow</string>
+    <string name="charging_effects_image">Image</string>
+    <string name="charging_effects_image_opacity">Image opacity</string>
+    <string name="charging_effects_image_strength">Image flow</string>
+    <string name="charging_effects_show_aod">Show on always-on display</string>
+    <string name="charging_effects_show_lockscreen">Show on lock screen</string>
+    <string name="charging_effects_image_n">Image <xliff:g id="number" example="3">%1$d</xliff:g></string>
+
+    <string-array name="charging_effects_style_entries" translatable="false">
+        <item>@string/charging_effect_bubbles</item>
+        <item>@string/charging_effect_neon</item>
+        <item>@string/charging_effect_beams</item>
+        <item>@string/charging_effect_plasma</item>
+        <item>@string/charging_effect_sparks</item>
+        <item>@string/charging_effect_nebula</item>
+        <item>@string/charging_effect_matrix</item>
+        <item>@string/charging_effect_geoflow</item>
+        <item>@string/charging_effect_image_flow</item>
+        <item>@string/charging_effect_image_lines</item>
+    </string-array>
+    <string-array name="charging_effects_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string name="charging_effect_bubbles">Bubble stream</string>
+    <string name="charging_effect_neon">Neon spray</string>
+    <string name="charging_effect_beams">Beams</string>
+    <string name="charging_effect_plasma">Plasma</string>
+    <string name="charging_effect_sparks">Quantum sparks</string>
+    <string name="charging_effect_nebula">Nebula</string>
+    <string name="charging_effect_matrix">Digital matrix</string>
+    <string name="charging_effect_geoflow">Geoflow</string>
+    <string name="charging_effect_image_flow">Image flow</string>
+    <string name="charging_effect_image_lines">Image lines</string>
+
+    <string-array name="charging_effects_color_entries" translatable="false">
+        <item>@string/charging_effects_color_green</item>
+        <item>@string/charging_effects_color_accent</item>
+        <item>@string/charging_effects_color_rainbow</item>
+    </string-array>
+    <string-array name="charging_effects_color_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="charging_effects_color_green">Green</string>
+    <string name="charging_effects_color_accent">Accent</string>
+    <string name="charging_effects_color_rainbow">Rainbow</string>
 </resources>
