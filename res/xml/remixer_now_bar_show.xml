@@ -66,6 +66,11 @@
         android:title="@string/now_bar_buds"
         android:summary="@string/now_bar_buds_summary"
         android:defaultValue="true" />
+    <lineageos.preference.SystemSettingSwitchPreference
+        android:key="now_bar_modes"
+        android:title="@string/now_bar_modes"
+        android:summary="@string/now_bar_modes_summary"
+        android:defaultValue="true" />
 
     <PreferenceCategory
         android:key="now_bar_where"

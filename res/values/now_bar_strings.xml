@@ -30,6 +30,8 @@
     <string name="now_bar_flashlight">Flashlight</string>
     <string name="now_bar_buds">Earbuds and watches</string>
     <string name="now_bar_buds_summary">Battery of a connected device: left, right and case for earbuds</string>
+    <string name="now_bar_modes">Do Not Disturb and modes</string>
+    <string name="now_bar_modes_summary">The mode that\'s on and when it ends</string>
     <string name="now_bar_wave">Wave animation</string>
     <string name="now_bar_aod">Show on always-on display</string>
     <string name="now_bar_chip">Chip in the status bar</string>
