@@ -2,8 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_battery_info_title">چارجنگ کی معلومات</string>
     <string name="lockscreen_battery_info_summary">چارج ہوتے وقت کرنٹ، واٹ، وولٹیج اور بیٹری کا درجہ حرارت دکھائیں</string>
-    <string name="charging_ring_title">SuperVOOC چارجنگ اینیمیشن</string>
-    <string name="charging_ring_summary">پلگ لگانے پر چارجنگ رنگ اور رفتار دکھائیں</string>
     <string name="pocket_mode_title">پاکٹ موڈ</string>
     <string name="pocket_mode_summary">جب پروکسمٹی سینسر ڈھکا ہو تو اسکرین نہیں جاگتی اور ٹچ نظرانداز ہوتے ہیں</string>
     <string name="screen_on_time_title">اسکرین آن رہنے کا وقت</string>

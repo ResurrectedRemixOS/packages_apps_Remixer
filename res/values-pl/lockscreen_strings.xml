@@ -3,8 +3,6 @@
     <string name="pocket_mode_title">Zapobiega przypadkowemu wybudzeniu</string>
     <string name="lockscreen_battery_info_title">Informacje o ładowaniu</string>
     <string name="lockscreen_battery_info_summary">Pokazuj natężenie, moc, napięcie i temperaturę baterii podczas ładowania</string>
-    <string name="charging_ring_title">Animacja ładowania SuperVOOC</string>
-    <string name="charging_ring_summary">Pokaż pierścień ładowania i prędkość po podłączeniu</string>
     <string name="pocket_mode_summary">Gdy czujnik zbliżeniowy jest zasłonięty, ekran się nie włącza i ignoruje dotyk</string>
     <string name="screen_on_time_title">Czas włączonego ekranu</string>
     <string name="screen_on_time_summary">Pokazuj czas włączonego ekranu od ostatniego pełnego naładowania na ekranie blokady podczas ładowania oraz na kafelku Oszczędzania baterii</string>

@@ -3,8 +3,6 @@
     <string name="pocket_mode_title">ಆಕಸ್ಮಿಕವಾಗಿ ಎಚ್ಚರವಾಗುವಿಕೆಯನ್ನು ತಡೆ</string>
     <string name="lockscreen_battery_info_title">ಚಾರ್ಜಿಂಗ್ ಮಾಹಿತಿ</string>
     <string name="lockscreen_battery_info_summary">ಚಾರ್ಜ್ ಆಗುವಾಗ ಕರೆಂಟ್, ವಾಟ್, ವೋಲ್ಟೇಜ್ ಮತ್ತು ಬ್ಯಾಟರಿ ತಾಪಮಾನ ತೋರಿಸಿ</string>
-    <string name="charging_ring_title">SuperVOOC ಚಾರ್ಜಿಂಗ್ ಅನಿಮೇಶನ್</string>
-    <string name="charging_ring_summary">ಪ್ಲಗ್ ಇನ್ ಮಾಡಿದಾಗ ಚಾರ್ಜಿಂಗ್ ರಿಂಗ್ ಮತ್ತು ವೇಗ ತೋರಿಸಿ</string>
     <string name="pocket_mode_summary">ಸಾಮೀಪ್ಯ ಸೆನ್ಸರ್ ಮುಚ್ಚಿದ್ದರೆ, ಸ್ಕ್ರೀನ್ ಆನ್ ಆಗುವುದಿಲ್ಲ ಮತ್ತು ಸ್ಪರ್ಶವನ್ನು ನಿರ್ಲಕ್ಷಿಸುತ್ತದೆ</string>
     <string name="screen_on_time_title">ಸ್ಕ್ರೀನ್ ಆನ್ ಸಮಯ</string>
     <string name="screen_on_time_summary">ಚಾರ್ಜ್ ಆಗುವಾಗ ಮತ್ತು ಬ್ಯಾಟರಿ ಸೇವರ್ ಟೈಲ್‌ನಲ್ಲಿ, ಕೊನೆಯ ಪೂರ್ಣ ಚಾರ್ಜ್‌ನಿಂದ ಸ್ಕ್ರೀನ್ ಆನ್ ಸಮಯವನ್ನು ಲಾಕ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ತೋರಿಸಿ</string>

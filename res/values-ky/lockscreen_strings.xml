@@ -2,8 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_battery_info_title">Кубаттоо маалыматы</string>
     <string name="lockscreen_battery_info_summary">Кубаттоо учурунда учурдагы токту, ваттты, чыңалууну жана батареянын температурасын көрсөтүү</string>
-    <string name="charging_ring_title">SuperVOOC кубаттоо анимациясы</string>
-    <string name="charging_ring_summary">Кубаттаганда кубаттоо шакеги жана ылдамдыгы көрсөтүлөт</string>
     <string name="pocket_mode_title">Жашыруун режим</string>
     <string name="pocket_mode_summary">Жакындык сенсору жабылганда экран күйбөйт жана басууларга жооп бербейт</string>
     <string name="screen_on_time_title">Экранды күйгүзүлгөн убакыт</string>

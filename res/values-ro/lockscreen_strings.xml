@@ -3,8 +3,6 @@
     <string name="pocket_mode_title">Previne trezirea accidentală</string>
     <string name="lockscreen_battery_info_title">Informații despre încărcare</string>
     <string name="lockscreen_battery_info_summary">Afișează curentul, wați, tensiunea și temperatura bateriei în timpul încărcării</string>
-    <string name="charging_ring_title">Animație de încărcare SuperVOOC</string>
-    <string name="charging_ring_summary">Afișează inelul de încărcare și viteza când conectezi telefonul</string>
     <string name="pocket_mode_summary">Cât timp senzorul de proximitate este acoperit, ecranul nu se aprinde și ignoră atingerile</string>
     <string name="screen_on_time_title">Timp cu ecranul aprins</string>
     <string name="screen_on_time_summary">Afișează timpul cu ecranul aprins de la ultima încărcare completă pe ecranul de blocare în timpul încărcării și pe cardul Economisire baterie</string>

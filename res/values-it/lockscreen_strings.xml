@@ -3,8 +3,6 @@
     <string name="pocket_mode_title">Previeni risvegli accidentali</string>
     <string name="lockscreen_battery_info_title">Info ricarica</string>
     <string name="lockscreen_battery_info_summary">Mostra corrente, watt, tensione e temperatura della batteria durante la ricarica</string>
-    <string name="charging_ring_title">Animazione di ricarica SuperVOOC</string>
-    <string name="charging_ring_summary">Mostra l\'anello di ricarica e la velocità quando colleghi il dispositivo</string>
     <string name="pocket_mode_summary">Mentre il sensore di prossimità è coperto, lo schermo non si accende e ignora il tocco</string>
     <string name="screen_on_time_title">Tempo di schermo acceso</string>
     <string name="screen_on_time_summary">Mostra il tempo di schermo acceso dall\'ultima ricarica completa nella schermata di blocco durante la ricarica e nel riquadro Risparmio energetico</string>

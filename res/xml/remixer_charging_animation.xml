@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/charging_animation_title">
+
+    <PreferenceCategory
+        android:key="rr"
+        android:title="@string/charging_animation_rr" />
+
+    <PreferenceCategory
+        android:key="makers"
+        android:title="@string/charging_animation_makers" />
+
+    <PreferenceCategory
+        android:key="roms"
+        android:title="@string/charging_animation_roms" />
+
+    <PreferenceCategory
+        android:key="off" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="charging_animation_footer"
+        android:title="@string/charging_animation_footer"
+        android:selectable="false" />
+
+</PreferenceScreen>

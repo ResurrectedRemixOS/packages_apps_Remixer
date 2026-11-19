@@ -3,8 +3,6 @@
     <string name="pocket_mode_title">అప్రయత్నంగా మేల్కొల్పబడటాన్ని నివారించండి</string>
     <string name="lockscreen_battery_info_title">ఛార్జింగ్ సమాచారం</string>
     <string name="lockscreen_battery_info_summary">ఛార్జ్ అవుతున్నప్పుడు కరెంట్, వాట్స్, వోల్టేజ్, బ్యాటరీ ఉష్ణోగ్రతను చూపించు</string>
-    <string name="charging_ring_title">SuperVOOC ఛార్జింగ్ యానిమేషన్</string>
-    <string name="charging_ring_summary">ఛార్జర్ ప్లగ్ చేసినప్పుడు ఛార్జింగ్ రింగ్, వేగాన్ని చూపించు</string>
     <string name="pocket_mode_summary">ప్రాక్సిమిటీ సెన్సార్ కప్పబడి ఉన్నప్పుడు, స్క్రీన్ ఆన్ కాదు, టచ్‌లు పట్టించుకోదు</string>
     <string name="screen_on_time_title">స్క్రీన్-ఆన్ సమయం</string>
     <string name="screen_on_time_summary">ఛార్జ్ అవుతున్నప్పుడు లాక్ స్క్రీన్‌పై, బ్యాటరీ సేవర్ టైల్‌పై చివరి పూర్తి ఛార్జ్ నుండి స్క్రీన్-ఆన్ సమయాన్ని చూపించు</string>

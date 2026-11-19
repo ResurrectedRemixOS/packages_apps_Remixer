@@ -3,8 +3,6 @@
     <string name="pocket_mode_title">Impedir que o ecrã se ligue acidentalmente</string>
     <string name="lockscreen_battery_info_title">Informações de carregamento</string>
     <string name="lockscreen_battery_info_summary">Mostra corrente, watts, tensão e temperatura da bateria durante o carregamento</string>
-    <string name="charging_ring_title">Animação de carregamento SuperVOOC</string>
-    <string name="charging_ring_summary">Mostra o anel de carga e a velocidade ao conectar</string>
     <string name="pocket_mode_summary">Enquanto o sensor de proximidade estiver coberto, o ecrã não acende e ignora toques</string>
     <string name="screen_on_time_title">Tempo de ecrã ativo</string>
     <string name="screen_on_time_summary">Mostra o tempo de ecrã ativo desde a última carga completa no ecrã de bloqueio durante o carregamento e no mosaico de Poupança de bateria</string>

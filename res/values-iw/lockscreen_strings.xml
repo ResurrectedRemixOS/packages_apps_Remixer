@@ -3,8 +3,6 @@
     <string name="pocket_mode_title">מנע התעוררות מקרית</string>
     <string name="lockscreen_battery_info_title">מידע על הטעינה</string>
     <string name="lockscreen_battery_info_summary">הצגת זרם, וואט, מתח וטמפרטורת הסוללה בזמן טעינה</string>
-    <string name="charging_ring_title">אנימציית טעינה של SuperVOOC</string>
-    <string name="charging_ring_summary">הצגת טבעת הטעינה והמהירות בעת חיבור המטען</string>
     <string name="pocket_mode_summary">בזמן שחיישן הקרבה מכוסה, המסך לא נדלק ומתעלם ממגע</string>
     <string name="screen_on_time_title">זמן הדלקת מסך</string>
     <string name="screen_on_time_summary">הצגת זמן הדלקת המסך מאז הטעינה המלאה האחרונה במסך הנעילה בזמן טעינה ובכפתור Battery Saver</string>

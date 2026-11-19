@@ -2,8 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_battery_info_title">Інфармацыя пра зарадку</string>
     <string name="lockscreen_battery_info_summary">Паказваць ток, ват, напружанне і тэмпературу акумулятара падчас зарадкі</string>
-    <string name="charging_ring_title">Анімацыя зарадкі SuperVOOC</string>
-    <string name="charging_ring_summary">Паказваць кольцо зарадкі і хуткасць пры падключэнні зараднай прылады</string>
     <string name="pocket_mode_title">Рэжым кішэні</string>
     <string name="pocket_mode_summary">Пакуль датчык набліжэння закрыты, экран не ўключаецца і не рэагуе на дотыкі</string>
     <string name="screen_on_time_title">Час працы экрана</string>

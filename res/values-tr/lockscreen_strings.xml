@@ -3,8 +3,6 @@
     <string name="pocket_mode_title">Yanlış uyandırmaları önle</string>
     <string name="lockscreen_battery_info_title">Şarj bilgisi</string>
     <string name="lockscreen_battery_info_summary">Şarj olurken akım, watt, voltaj ve pil sıcaklığını gösterir</string>
-    <string name="charging_ring_title">SuperVOOC şarj animasyonu</string>
-    <string name="charging_ring_summary">Taktığınızda şarj halkasını ve hızını gösterir</string>
     <string name="pocket_mode_summary">Yakınlık sensörü kapalıyken ekran uyanmaz ve dokunuşları yok sayar</string>
     <string name="screen_on_time_title">Ekran açık kalma süresi</string>
     <string name="screen_on_time_summary">Son tam şarjdan beri ekran süresini şarj olurken kilit ekranında ve Pil Tasarrufu kutusunda gösterir</string>

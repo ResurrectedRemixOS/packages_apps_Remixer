@@ -2,8 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_battery_info_title">Зарядтау туралы ақпарат</string>
     <string name="lockscreen_battery_info_summary">Зарядтау кезінде тоқ, ватт, кернеу және батарея температурасын көрсету</string>
-    <string name="charging_ring_title">SuperVOOC зарядтау анимациясы</string>
-    <string name="charging_ring_summary">Қуатқа қосқанда зарядтау сақинасы мен жылдамдықты көрсету</string>
     <string name="pocket_mode_title">Қалта режимі</string>
     <string name="pocket_mode_summary">Жақындық датчигі жабылған кезде экран оянбайды және сенсорлық енгізуді елемейді</string>
     <string name="screen_on_time_title">Экранның қосылу уақыты</string>

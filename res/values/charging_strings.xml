@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charging_animation_title">Charging animation</string>
+    <string name="charging_animation_summary">Plays once when you plug in</string>
+    <string name="charging_animation_footer">Plays once when you plug in. Tap a style to see it now.</string>
+    <string name="charging_animation_rr">RR originals</string>
+    <string name="charging_animation_makers">Phone makers</string>
+    <string name="charging_animation_roms">From other ROMs</string>
+    <string name="charging_animation_none">Off</string>
+    <string name="charging_animation_none_summary">No animation when you plug in</string>
+
+    <string name="charging_style_rr_neon">Neon revival</string>
+    <string name="charging_style_rr_neon_summary">The RR mark lights up in neon and fills to your charge</string>
+    <string name="charging_style_rr_defib">Defibrillator</string>
+    <string name="charging_style_rr_defib_summary">A shock from the port brings a heartbeat to life</string>
+    <string name="charging_style_rr_pulse">Pulse ring</string>
+    <string name="charging_style_rr_pulse_summary">A ring fills to your charge with a heartbeat inside</string>
+    <string name="charging_style_pixel">Pixel ripple</string>
+    <string name="charging_style_pixel_summary">Android\'s own ripple from the port</string>
+    <string name="charging_style_oneplus">OnePlus SuperVOOC</string>
+    <string name="charging_style_oneplus_summary">OnePlus\'s ring with the charging speed</string>
+    <string name="charging_style_oneui">Samsung One UI</string>
+    <string name="charging_style_oneui_summary">A capsule fills to your charge</string>
+    <string name="charging_style_hyperos">Xiaomi HyperOS</string>
+    <string name="charging_style_hyperos_summary">Bubbles rise into a glowing blob</string>
+    <string name="charging_style_originos">vivo OriginOS</string>
+    <string name="charging_style_originos_summary">A glowing orb with orbit rings</string>
+    <string name="charging_style_supercharge">Huawei SuperCharge</string>
+    <string name="charging_style_supercharge_summary">A bolt in a ring with streaks flying in</string>
+    <string name="charging_style_moto">Motorola TurboPower</string>
+    <string name="charging_style_moto_summary">A turbo line rises into a neon circle</string>
+    <string name="charging_style_nothing">Nothing</string>
+    <string name="charging_style_nothing_summary">Dot-matrix ripples under a soft glare</string>
+    <string name="charging_style_bliss_flash">Flash</string>
+    <string name="charging_style_bliss_flash_summary">A soft white flash, from BlissRoms</string>
+    <string name="charging_style_bliss_glow">Glow pulse</string>
+    <string name="charging_style_bliss_glow_summary">The screen edges pulse, from BlissRoms</string>
+    <string name="charging_style_bliss_battery">Battery fill</string>
+    <string name="charging_style_bliss_battery_summary">A battery fills to your charge, from BlissRoms</string>
+</resources>

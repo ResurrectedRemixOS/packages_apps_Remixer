@@ -2,8 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_battery_info_title">चार्जिङ जानकारी</string>
     <string name="lockscreen_battery_info_summary">चार्ज हुँदा करेन्ट, वाट, भोल्टेज र ब्याट्री तापक्रम देखाउनुहोस्</string>
-    <string name="charging_ring_title">SuperVOOC चार्जिङ एनिमेसन</string>
-    <string name="charging_ring_summary">चार्जर जोड्दा चार्जिङ रिङ र गति देखाउनुहोस्</string>
     <string name="pocket_mode_title">पकेट मोड</string>
     <string name="pocket_mode_summary">प्रोक्सिमिटी सेन्सर ढाकिँदा स्क्रिन बल्दैन र टच बेवास्ता गरिन्छ</string>
     <string name="screen_on_time_title">स्क्रिन-अन समय</string>

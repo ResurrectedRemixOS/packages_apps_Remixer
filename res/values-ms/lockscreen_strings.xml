@@ -2,8 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_battery_info_title">Maklumat pengecasan</string>
     <string name="lockscreen_battery_info_summary">Tunjukkan arus, watt, voltan dan suhu bateri semasa mengecas</string>
-    <string name="charging_ring_title">Animasi pengecasan SuperVOOC</string>
-    <string name="charging_ring_summary">Tunjukkan cincin dan kelajuan pengecasan apabila disambungkan</string>
     <string name="pocket_mode_title">Mod poket</string>
     <string name="pocket_mode_summary">Semasa penderia jarak ditutup, skrin tidak dihidupkan dan sentuhan diabaikan</string>
     <string name="screen_on_time_title">Masa skrin hidup</string>

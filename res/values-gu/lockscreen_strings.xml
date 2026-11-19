@@ -3,8 +3,6 @@
     <string name="pocket_mode_title">આકસ્મિક વેક અપ રોકો</string>
     <string name="lockscreen_battery_info_title">ચાર્જિંગ માહિતી</string>
     <string name="lockscreen_battery_info_summary">ચાર્જ થતી વખતે કરંટ, વૉટ, વોલ્ટેજ અને બૅટરીનું તાપમાન બતાવો</string>
-    <string name="charging_ring_title">SuperVOOC ચાર્જિંગ ઍનિમેશન</string>
-    <string name="charging_ring_summary">પ્લગ ઇન કરો ત્યારે ચાર્જિંગ રિંગ અને ઝડપ બતાવો</string>
     <string name="pocket_mode_summary">પ્રોક્સિમિટી સેન્સર ઢંકાયેલું હોય ત્યારે સ્ક્રીન ચાલુ થતી નથી અને ટચ અવગણાય છે</string>
     <string name="screen_on_time_title">સ્ક્રીન ચાલુ રહેવાનો સમય</string>
     <string name="screen_on_time_summary">ચાર્જિંગ દરમિયાન અને બૅટરી સેવર ટાઇલ પર, છેલ્લી પૂરી ચાર્જિંગ પછીનો સ્ક્રીન ચાલુ રહેવાનો સમય લૉક સ્ક્રીન પર બતાવો</string>

@@ -2,8 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_battery_info_title">Ulwazi lokushaja</string>
     <string name="lockscreen_battery_info_summary">Bonisa okwamanje, amawatt, uvolovolo kanye nokushisa kwebhethri lapho ushaja</string>
-    <string name="charging_ring_title">Ukunyakaza kokushaja kwe-SuperVOOC</string>
-    <string name="charging_ring_summary">Bonisa isilinganiso nesivinini lapho uxhuma</string>
     <string name="pocket_mode_title">Imodi yephaketha</string>
     <string name="pocket_mode_summary">Ngenkathi inzwa yokusondela imbozwe, isikrini asivuki futhi asiphenduli ekuthintweni</string>
     <string name="screen_on_time_title">Isikhathi sesikrini esivulekile</string>

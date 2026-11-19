@@ -2,8 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_battery_info_title">ព័ត៌មានការសាក</string>
     <string name="lockscreen_battery_info_summary">បង្ហាញចរន្ត វ៉ាត់ វ៉ុល និងសីតុណ្ហភាពថ្មពេលកំពុងសាក</string>
-    <string name="charging_ring_title">ចលនាការសាក SuperVOOC</string>
-    <string name="charging_ring_summary">បង្ហាញវង់ការសាក និងល្បឿនពេលដោតចូល</string>
     <string name="pocket_mode_title">ទម្រង់ហោប៉ៅ</string>
     <string name="pocket_mode_summary">ពេលឧបករណ៍ចាប់ចម្ងាយត្រូវបានគ្រប អេក្រង់នឹងមិនភ្ញាក់ ហើយមិនទទួលការប៉ះទេ</string>
     <string name="screen_on_time_title">ពេលវេលាអេក្រង់បើក</string>

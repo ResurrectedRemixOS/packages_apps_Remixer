@@ -3,8 +3,6 @@
     <string name="pocket_mode_title">منع الاستيقاظ العشوائي</string>
     <string name="lockscreen_battery_info_title">معلومات الشحن</string>
     <string name="lockscreen_battery_info_summary">عرض التيار والواط والجهد وحرارة البطارية أثناء الشحن</string>
-    <string name="charging_ring_title">رسوم متحركة لشحن SuperVOOC</string>
-    <string name="charging_ring_summary">عرض حلقة الشحن والسرعة عند توصيل الجهاز</string>
     <string name="pocket_mode_summary">عند تغطية مستشعر القرب، لا تُضاء الشاشة وتُتجاهل اللمسات</string>
     <string name="screen_on_time_title">وقت تشغيل الشاشة</string>
     <string name="screen_on_time_summary">عرض وقت تشغيل الشاشة منذ آخر شحن كامل على شاشة القفل أثناء الشحن وفي مربّع توفير البطارية</string>

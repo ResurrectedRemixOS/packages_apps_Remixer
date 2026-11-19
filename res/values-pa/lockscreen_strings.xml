@@ -2,8 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_battery_info_title">ਚਾਰਜਿੰਗ ਜਾਣਕਾਰੀ</string>
     <string name="lockscreen_battery_info_summary">ਚਾਰਜ ਹੋਣ ਦੌਰਾਨ ਕਰੰਟ, ਵਾਟ, ਵੋਲਟੇਜ ਅਤੇ ਬੈਟਰੀ ਤਾਪਮਾਨ ਦਿਖਾਓ</string>
-    <string name="charging_ring_title">SuperVOOC ਚਾਰਜਿੰਗ ਐਨੀਮੇਸ਼ਨ</string>
-    <string name="charging_ring_summary">ਪਲੱਗ ਲਗਾਉਣ \'ਤੇ ਚਾਰਜਿੰਗ ਰਿੰਗ ਅਤੇ ਸਪੀਡ ਦਿਖਾਓ</string>
     <string name="pocket_mode_title">ਪਾਕੇਟ ਮੋਡ</string>
     <string name="pocket_mode_summary">ਜਦੋਂ ਪ੍ਰੌਕਸੀਮਿਟੀ ਸੈਂਸਰ ਢੱਕਿਆ ਹੋਵੇ, ਸਕ੍ਰੀਨ ਚਾਲੂ ਨਹੀਂ ਹੁੰਦੀ ਅਤੇ ਟੱਚ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਕੀਤਾ ਜਾਂਦਾ ਹੈ</string>
     <string name="screen_on_time_title">ਸਕ੍ਰੀਨ-ਚਾਲੂ ਸਮਾਂ</string>

@@ -3,8 +3,6 @@
     <string name="pocket_mode_title">Išvengti atsitiktinio pažadinimo</string>
     <string name="lockscreen_battery_info_title">Įkrovimo informacija</string>
     <string name="lockscreen_battery_info_summary">Rodyti srovę, vatus, įtampą ir akumuliatoriaus temperatūrą įkrovimo metu</string>
-    <string name="charging_ring_title">SuperVOOC įkrovimo animacija</string>
-    <string name="charging_ring_summary">Rodyti įkrovimo žiedą ir greitį prijungus įkroviklį</string>
     <string name="pocket_mode_summary">Kol artumo jutiklis uždengtas, ekranas neįsijungia ir jautrumas liečiamam ekranui ignoruojamas</string>
     <string name="screen_on_time_title">Ekrano įjungimo laikas</string>
     <string name="screen_on_time_summary">Rodyti ekrano įjungimo laiką nuo paskutinio pilno įkrovimo užrakinimo ekrane įkrovimo metu ir akumuliatoriaus taupymo plytelėje</string>

@@ -2,8 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_battery_info_title">Informacije o punjenju</string>
     <string name="lockscreen_battery_info_summary">Prikaži jačinu struje, vate, napon i temperaturu baterije tokom punjenja</string>
-    <string name="charging_ring_title">Animacija SuperVOOC punjenja</string>
-    <string name="charging_ring_summary">Prikaži prstenastu animaciju i brzinu kada priključite punjač</string>
     <string name="pocket_mode_title">Režim džepa</string>
     <string name="pocket_mode_summary">Dok senzor blizine je prekriven, ekran se ne pali i dodiri se ignorišu</string>
     <string name="screen_on_time_title">Vrijeme uključenog ekrana</string>

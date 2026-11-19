@@ -3,8 +3,6 @@
     <string name="pocket_mode_title">Предотвращать случайное включение</string>
     <string name="lockscreen_battery_info_title">Сведения о зарядке</string>
     <string name="lockscreen_battery_info_summary">Показывать ток, мощность, напряжение и температуру батареи при зарядке</string>
-    <string name="charging_ring_title">Анимация зарядки SuperVOOC</string>
-    <string name="charging_ring_summary">Показывать кольцо заряда и скорость при подключении</string>
     <string name="pocket_mode_summary">Пока датчик приближения закрыт, экран не включается и игнорирует касания</string>
     <string name="screen_on_time_title">Время работы экрана</string>
     <string name="screen_on_time_summary">Показывать время работы экрана с последней полной зарядки на экране блокировки при зарядке и на плитке экономии заряда</string>

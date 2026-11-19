@@ -3,8 +3,6 @@
     <string name="pocket_mode_title">Förhindra oavsiktlig väckning</string>
     <string name="lockscreen_battery_info_title">Laddningsinfo</string>
     <string name="lockscreen_battery_info_summary">Visa ström, watt, spänning och batteritemperatur under laddning</string>
-    <string name="charging_ring_title">SuperVOOC-laddningsanimation</string>
-    <string name="charging_ring_summary">Visa laddningsringen och hastigheten när du ansluter</string>
     <string name="pocket_mode_summary">Medan närhetssensorn är täckt vaknar inte skärmen och touchinmatning ignoreras</string>
     <string name="screen_on_time_title">Skärmpåslagen tid</string>
     <string name="screen_on_time_summary">Visa skärmpåslagen tid sedan senaste fulladdning på låsskärmen under laddning och på rutan för Batterisparläge</string>

@@ -3,8 +3,6 @@
     <string name="pocket_mode_title">Eragotzi ustekabeko esnatzea</string>
     <string name="lockscreen_battery_info_title">Karga-informazioa</string>
     <string name="lockscreen_battery_info_summary">Erakutsi uneko intentsitatea, watt-ak, tentsioa eta bateriaren tenperatura kargatzen ari denean</string>
-    <string name="charging_ring_title">SuperVOOC karga-animazioa</string>
-    <string name="charging_ring_summary">Erakutsi karga-ertza eta abiadura gailua konektatzen duzunean</string>
     <string name="pocket_mode_summary">Hurbiltasun-sentsorea estalita dagoen bitartean, pantailak ez du piztu eta ukitzeei ez die erantzuten</string>
     <string name="screen_on_time_title">Pantaila piztuta egon den denbora</string>
     <string name="screen_on_time_summary">Erakutsi azken karga osoaz geroztik pantaila piztuta egon den denbora pantaila blokeatuan kargatzen ari denean eta Bateria-aurrezlea lauzan</string>

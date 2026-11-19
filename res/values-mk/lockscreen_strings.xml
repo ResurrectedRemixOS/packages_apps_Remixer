@@ -2,8 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_battery_info_title">Информации за полнење</string>
     <string name="lockscreen_battery_info_summary">Прикажи струја, вати, напон и температура на батеријата додека се полни</string>
-    <string name="charging_ring_title">Анимација на полнење SuperVOOC</string>
-    <string name="charging_ring_summary">Прикажи го прстенот за полнење и брзината кога ќе приклучите</string>
     <string name="pocket_mode_title">Режим за џеб</string>
     <string name="pocket_mode_summary">Додека сензорот за близина е покриен, екранот не се буди и допирите се игнорираат</string>
     <string name="screen_on_time_title">Време на вклучен екран</string>

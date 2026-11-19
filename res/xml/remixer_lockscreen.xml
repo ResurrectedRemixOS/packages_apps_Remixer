@@ -42,11 +42,11 @@
         android:key="remixer_quick_launch"
         android:title="@string/quick_launch_main" />
 
-    <lineageos.preference.SystemSettingSwitchPreference
-        android:key="rr_charging_ring"
-        android:title="@string/charging_ring_title"
-        android:summary="@string/charging_ring_summary"
-        android:defaultValue="true" />
+    <Preference
+        android:key="remixer_charging_animation"
+        android:title="@string/charging_animation_title"
+        android:summary="@string/charging_animation_summary"
+        android:fragment="com.resurrection.settings.charging.ChargingAnimationSettings" />
 
     <lineageos.preference.SystemSettingSwitchPreference
         android:key="pocket_judge"

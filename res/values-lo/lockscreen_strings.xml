@@ -2,8 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lockscreen_battery_info_title">ຂໍ້ມູນການສາກ</string>
     <string name="lockscreen_battery_info_summary">ສະແດງກະແສ, ວັດ, ແຮງດັນ ແລະ ອຸນຫະພູມແບັດເຕີຣີໃນຂະນະສາກ</string>
-    <string name="charging_ring_title">ອະນິເມຊັນການສາກ SuperVOOC</string>
-    <string name="charging_ring_summary">ສະແດງວົງສາກ ແລະ ຄວາມໄວເມື່ອສຽບສາຍ</string>
     <string name="pocket_mode_title">ໂໝດກະເປົາ</string>
     <string name="pocket_mode_summary">ເມື່ອເຊັນເຊີໃກ້ຖືກປິດບັງ ໜ້າຈໍຈະບໍ່ຕື່ນ ແລະ ຈະບໍ່ຕອບສະໜອງການສຳຜັດ</string>
     <string name="screen_on_time_title">ເວລາໜ້າຈໍເປີດ</string>

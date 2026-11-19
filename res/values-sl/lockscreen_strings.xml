@@ -3,8 +3,6 @@
     <string name="pocket_mode_title">Prepreči nenamerno bujenje</string>
     <string name="lockscreen_battery_info_title">Podatki o polnjenju</string>
     <string name="lockscreen_battery_info_summary">Med polnjenjem prikaži tok, vate, napetost in temperaturo baterije</string>
-    <string name="charging_ring_title">Animacija polnjenja SuperVOOC</string>
-    <string name="charging_ring_summary">Ob priklopu prikaži krog polnjenja in hitrost</string>
     <string name="pocket_mode_summary">Dokler je senzor bližine prekrit, se zaslon ne prižge in se dotiki ignorirajo</string>
     <string name="screen_on_time_title">Čas vklopljenega zaslona</string>
     <string name="screen_on_time_summary">Med polnjenjem na zaklenjenem zaslonu in na ploščici Varčevanja z baterijo prikaži čas vklopljenega zaslona od zadnjega popolnega polnjenja</string>

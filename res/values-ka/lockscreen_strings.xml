@@ -3,8 +3,6 @@
     <string name="pocket_mode_title">შემთხვევით გამოღვიძების არიდება</string>
     <string name="lockscreen_battery_info_title">დატენვის ინფორმაცია</string>
     <string name="lockscreen_battery_info_summary">დატენვისას აჩვენოს მიმდინარე დენი, ვატები, ძაბვა და ბატარეის ტემპერატურა</string>
-    <string name="charging_ring_title">SuperVOOC დატენვის ანიმაცია</string>
-    <string name="charging_ring_summary">დაერთებისას აჩვენოს დატენვის რგოლი და სიჩქარე</string>
     <string name="pocket_mode_summary">სენსორის დაფარვისას ეკრანი არ ჩაირთვება და შეხებებს არ აღიქვამს</string>
     <string name="screen_on_time_title">ეკრანზე ყოფნის დრო</string>
     <string name="screen_on_time_summary">აჩვენოს ეკრანზე ყოფნის დრო ბოლო სრულად დატენვიდან ჩაკეტილ ეკრანზე დატენვისას და ბატარეის დაზოგვის ფილაზე</string>
