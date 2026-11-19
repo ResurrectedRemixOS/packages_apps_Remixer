@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.Settings;
 import android.util.TypedValue;
+import android.view.ContextThemeWrapper;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -63,6 +64,7 @@ public class ChargingEffectsActivity extends CollapsingToolbarBaseActivity {
     private final List<TextView> mColorChips = new ArrayList<>();
     private final List<TextView> mImageChips = new ArrayList<>();
     private ChargingUi mUi;
+    private Context mThemed;
     private ChargingStageView mStage;
     private TextView mName;
     private TextView mCredit;
@@ -90,6 +92,8 @@ public class ChargingEffectsActivity extends CollapsingToolbarBaseActivity {
         setContentView(R.layout.remixer_charging_effects);
         setTitle(R.string.charging_effects_title);
         mUi = new ChargingUi(this);
+        mThemed = new ContextThemeWrapper(this,
+                com.google.android.material.R.style.Theme_Material3_DynamicColors_DayNight);
         ContentResolver cr = getContentResolver();
         for (int i = 0; i < KEYS.length; i++) {
             mValues[i] = Settings.System.getIntForUser(cr, KEYS[i], DEFAULTS[i], UserHandle.USER_CURRENT);
@@ -117,7 +121,7 @@ public class ChargingEffectsActivity extends CollapsingToolbarBaseActivity {
         LinearLayout chips = findViewById(R.id.effects_chips);
         for (int i = 0; i < EFFECTS.length; i++) {
             int style = i;
-            TextView chip = mUi.chip(this, getString(EFFECTS[i]), false);
+            TextView chip = mUi.chip(mThemed, getString(EFFECTS[i]), false);
             chip.setTextColor(MaterialColors.getColor(chip, com.google.android.material.R.attr.colorOnSurface));
             chip.setOnClickListener(v -> set(KEY_STYLE, style));
             chips.addView(chip);
@@ -129,7 +133,7 @@ public class ChargingEffectsActivity extends CollapsingToolbarBaseActivity {
             R.string.charging_effects_rainbow};
         for (int i = 0; i < names.length; i++) {
             int mode = i;
-            TextView chip = mUi.chip(this, getString(names[i]), false);
+            TextView chip = mUi.chip(mThemed, getString(names[i]), false);
             chip.setTextColor(MaterialColors.getColor(chip, com.google.android.material.R.attr.colorOnSurface));
             LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(0, Math.round(52 * mUi.density), 1f);
             lp.setMarginEnd(i < names.length - 1 ? Math.round(8 * mUi.density) : 0);
@@ -145,7 +149,7 @@ public class ChargingEffectsActivity extends CollapsingToolbarBaseActivity {
         LinearLayout images = findViewById(R.id.effects_images);
         for (int i = 0; i < IMAGES; i++) {
             int image = i;
-            TextView chip = mUi.chip(this, getString(R.string.charging_effects_image_n, i + 1), false);
+            TextView chip = mUi.chip(mThemed, getString(R.string.charging_effects_image_n, i + 1), false);
             chip.setTextColor(MaterialColors.getColor(chip, com.google.android.material.R.attr.colorOnSurface));
             chip.setOnClickListener(v -> set(KEY_IMAGE, image));
             images.addView(chip);
@@ -160,7 +164,7 @@ public class ChargingEffectsActivity extends CollapsingToolbarBaseActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        MaterialSwitch toggle = new MaterialSwitch(this);
+        MaterialSwitch toggle = new MaterialSwitch(mThemed);
         toggle.setContentDescription(getString(R.string.charging_effects_switch));
         toggle.setChecked(value(KEY_ENABLED) != 0);
         toggle.setOnCheckedChangeListener((button, checked) -> set(KEY_ENABLED, checked ? 1 : 0));
@@ -213,7 +217,7 @@ public class ChargingEffectsActivity extends CollapsingToolbarBaseActivity {
     }
 
     private void addPlace(LinearLayout parent, int label, String key) {
-        TextView chip = mUi.chip(this, getString(label), true);
+        TextView chip = mUi.chip(mThemed, getString(label), true);
         chip.setTag(key);
         chip.setOnClickListener(v -> set(key, value(key) != 0 ? 0 : 1));
         parent.addView(chip);
@@ -282,17 +286,17 @@ public class ChargingEffectsActivity extends CollapsingToolbarBaseActivity {
     }
 
     private void slider(int label, String key, int min, int max, int step) {
-        LinearLayout row = new LinearLayout(this);
+        LinearLayout row = new LinearLayout(mThemed);
         row.setOrientation(LinearLayout.HORIZONTAL);
         row.setGravity(Gravity.CENTER_VERTICAL);
         row.setPadding(0, Math.round(10 * mUi.density), 0, 0);
-        TextView name = new TextView(this);
+        TextView name = new TextView(mThemed);
         name.setText(label);
         name.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
         name.setTextColor(MaterialColors.getColor(row, com.google.android.material.R.attr.colorOnSurface));
         row.addView(name, new LinearLayout.LayoutParams(Math.round(108 * mUi.density),
                 LinearLayout.LayoutParams.WRAP_CONTENT));
-        Slider slider = new Slider(this);
+        Slider slider = new Slider(mThemed);
         slider.setValueFrom(min);
         slider.setValueTo(max);
         slider.setStepSize(step);

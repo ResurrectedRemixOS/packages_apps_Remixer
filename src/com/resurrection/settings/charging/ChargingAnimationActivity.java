@@ -16,6 +16,7 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ContextThemeWrapper;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -92,6 +93,7 @@ public class ChargingAnimationActivity extends CollapsingToolbarBaseActivity {
     private final List<Speed> mSpeeds = new ArrayList<>();
     private final List<TextView> mSpeedChips = new ArrayList<>();
     private ChargingUi mUi;
+    private Context mThemed;
     private ChargingStageView mStage;
     private TextView mName;
     private TextView mSource;
@@ -157,6 +159,8 @@ public class ChargingAnimationActivity extends CollapsingToolbarBaseActivity {
         setContentView(R.layout.remixer_charging_animation);
         setTitle(R.string.charging_animation_title);
         mUi = new ChargingUi(this);
+        mThemed = new ContextThemeWrapper(this,
+                com.google.android.material.R.style.Theme_Material3_DynamicColors_DayNight);
         for (Style style : STYLES) {
             if (isAvailable(this, style.key)) {
                 mStyles.add(style);
@@ -179,7 +183,7 @@ public class ChargingAnimationActivity extends CollapsingToolbarBaseActivity {
         LinearLayout chips = findViewById(R.id.charging_chips);
         speeds();
         for (Speed speed : mSpeeds) {
-            TextView chip = mUi.chip(this, speed.chip, true);
+            TextView chip = mUi.chip(mThemed, speed.chip, true);
             chip.setOnClickListener(v -> {
                 mSpeed = speed.speed;
                 update();
@@ -226,7 +230,7 @@ public class ChargingAnimationActivity extends CollapsingToolbarBaseActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        mSwitch = new MaterialSwitch(this);
+        mSwitch = new MaterialSwitch(mThemed);
         mSwitch.setContentDescription(getString(R.string.charging_animation_switch));
         mSwitch.setChecked(!NONE.equals(mStyle));
         mSwitch.setOnCheckedChangeListener((button, checked) -> {
