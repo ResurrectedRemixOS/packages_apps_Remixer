@@ -174,11 +174,48 @@ class TrickyStore : SettingsPreferenceFragment() {
         result.data?.data?.let { uri -> importKeybox(uri) }
     }
 
+    private val keyboxExport = registerForActivityResult(
+        ActivityResultContracts.StartActivityForResult()
+    ) { result ->
+        if (result.resultCode != Activity.RESULT_OK) return@registerForActivityResult
+        val uri = result.data?.data ?: return@registerForActivityResult
+        val ctx = requireContext()
+        lifecycleScope.launch {
+            try {
+                val xml = withContext(Dispatchers.IO) { exportableKeybox(ctx) }
+                withContext(Dispatchers.IO) {
+                    ctx.contentResolver.openOutputStream(uri)?.use { stream ->
+                        stream.write(xml.toByteArray(Charsets.UTF_8))
+                    } ?: throw IllegalArgumentException("Could not save the keybox")
+                }
+                if (isAdded) toast(getString(R.string.ts_rkp_extract_saved))
+            } catch (e: Exception) {
+                if (isAdded) {
+                    toast(getString(R.string.ts_keybox_extract_failed, e.message ?: ""))
+                }
+            }
+        }
+    }
+
     /**
-     * Keybox management and Duck RKP share this importer. A plain keybox XML file
-     * is stored as that document. A capture is reduced to the keybox XML inside it,
-     * or to a keybox built from PEM keys and certificates, before the framework
-     * loader checks it.
+     * The stored keybox, reduced to the document Tricky Store loads. The same
+     * check runs on import, so a saved file is accepted on another phone.
+     */
+    private fun exportableKeybox(context: Context): String {
+        val stored = Settings.Secure.getString(context.contentResolver, KEYBOX_KEY)
+        val decoded = TrickyStoreService.decodeKeybox(stored ?: "")
+            ?: throw IllegalArgumentException("No keybox is stored")
+        val xml = KeyBoxManager.extract(decoded.toByteArray(Charsets.UTF_8))
+        val problem = KeyBoxManager.validate(xml)
+        if (problem != null) throw IllegalArgumentException(problem)
+        return xml
+    }
+
+    /**
+     * Keybox management import. A plain keybox XML file is stored as that
+     * document. A capture is reduced to the keybox XML inside it, or to a
+     * keybox built from PEM keys and certificates, before the framework loader
+     * checks it.
      */
     private fun importKeybox(uri: Uri) {
         val ctx = requireContext()
@@ -236,6 +273,15 @@ class TrickyStore : SettingsPreferenceFragment() {
         return ByteArray(0)
     }
 
+    private fun exportKeybox() {
+        val intent = Intent(Intent.ACTION_CREATE_DOCUMENT).apply {
+            addCategory(Intent.CATEGORY_OPENABLE)
+            type = "text/xml"
+            putExtra(Intent.EXTRA_TITLE, "keybox.xml")
+        }
+        keyboxExport.launch(intent)
+    }
+
     private fun openKeyboxPicker() {
         val intent = Intent(Intent.ACTION_OPEN_DOCUMENT).apply {
             addCategory(Intent.CATEGORY_OPENABLE)
@@ -275,7 +321,7 @@ class TrickyStore : SettingsPreferenceFragment() {
         }
 
         findPreference<Preference>("ts_rkp_extract")?.setOnPreferenceClickListener {
-            openKeyboxPicker()
+            exportKeybox()
             true
         }
 

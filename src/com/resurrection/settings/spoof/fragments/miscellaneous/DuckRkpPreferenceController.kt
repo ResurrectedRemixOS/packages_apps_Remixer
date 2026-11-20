@@ -30,6 +30,7 @@ internal class DuckRkpPreferenceController(
     private val owner = UserHandle.myUserId() == UserHandle.USER_SYSTEM
     private val toggle = fragment.findPreference<SwitchPreferenceCompat>("ts_rkp_enabled")
     private val provision = fragment.findPreference<Preference>("ts_rkp_provision")
+    private val extract = fragment.findPreference<Preference>("ts_rkp_extract")
     private val status = fragment.findPreference<Preference>("ts_rkp_status")
 
     val hasKeybox: Boolean
@@ -44,6 +45,7 @@ internal class DuckRkpPreferenceController(
     fun start() {
         toggle?.isEnabled = false
         provision?.isEnabled = false
+        extract?.isEnabled = false
         toggle?.setOnPreferenceChangeListener { _, value ->
             change { ActivityManager.getService().setDuckRkpEnabled(value as Boolean) }
             false
@@ -126,6 +128,7 @@ internal class DuckRkpPreferenceController(
         toggle?.isEnabled = owner && (available || enabled) && !imported && !changing
         provision?.isEnabled = owner && available && enabled && !imported && !busy && !changing
                 && (current?.getLong("retry_after_ms") ?: 0L) == 0L
+        extract?.isEnabled = owner && current?.getBoolean("has_keybox") == true && !changing
         status?.summary = when {
             !owner -> fragment.getString(R.string.ts_rkp_owner_only)
             current == null -> fragment.getString(R.string.ts_rkp_unavailable)
