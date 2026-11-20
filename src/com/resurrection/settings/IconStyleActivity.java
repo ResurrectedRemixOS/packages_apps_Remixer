@@ -22,6 +22,7 @@ import android.os.ServiceManager;
 import android.os.SystemClock;
 import android.os.UserHandle;
 import android.provider.Settings;
+import android.telephony.TelephonyManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,6 +44,7 @@ import com.google.android.material.button.MaterialButton;
 import com.google.android.material.button.MaterialButtonToggleGroup;
 import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.color.MaterialColors;
+import com.google.android.material.materialswitch.MaterialSwitch;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -62,6 +64,7 @@ public class IconStyleActivity extends CollapsingToolbarBaseActivity {
     private static final String TARGET = "com.android.systemui";
     private static final String PREFIX = "com.resurrection.theme.";
     private static final String MATCH_SETTING = "rr_icon_style_match";
+    private static final String SIMS_SETTING = "rr_separate_sim_icons";
     private static final List<String> ORIGINALS = Arrays.asList("remix", "glass", "neon", "orbit",
             "bento", "pulse", "duo", "blueprint", "soft", "shapes", "retro", "crystal", "comet");
     private static final int[] WIFI_ICONS = {0, 1, 2, 2, 3};
@@ -91,6 +94,9 @@ public class IconStyleActivity extends CollapsingToolbarBaseActivity {
     private TextView mMode;
     private ImageView mStripSignal;
     private ImageView mStripWifi;
+    private ImageView mStripSignal2;
+    private MaterialSwitch mSims;
+    private boolean mDualSim;
     private TextView mLevelText;
     private TextView mNoInternetToggle;
     private MaterialButtonToggleGroup mTabs;
@@ -205,6 +211,20 @@ public class IconStyleActivity extends CollapsingToolbarBaseActivity {
         mMode = findViewById(R.id.icon_style_mode);
         mStripSignal = findViewById(R.id.icon_style_strip_signal);
         mStripWifi = findViewById(R.id.icon_style_strip_wifi);
+        mStripSignal2 = findViewById(R.id.icon_style_strip_signal2);
+        TelephonyManager telephony = getSystemService(TelephonyManager.class);
+        mDualSim = telephony != null && telephony.getSupportedModemCount() > 1;
+        View sims = findViewById(R.id.icon_style_sims);
+        sims.setVisibility(mDualSim ? View.VISIBLE : View.GONE);
+        mSims = findViewById(R.id.icon_style_sims_switch);
+        sims.setOnClickListener(v -> mSims.toggle());
+        mSims.setOnCheckedChangeListener((button, checked) -> {
+            if (checked != separateSims()) {
+                Settings.System.putIntForUser(getContentResolver(), SIMS_SETTING, checked ? 1 : 0,
+                        UserHandle.USER_CURRENT);
+                update();
+            }
+        });
 
         MaterialButton remix = findViewById(R.id.icon_style_remix);
         remix.setIconResource(R.drawable.remixer_ic_shuffle);
@@ -290,8 +310,12 @@ public class IconStyleActivity extends CollapsingToolbarBaseActivity {
     }
 
     private Drawable icon(boolean wifi, String pkg) {
-        String name = wifi ? "ic_wifi_" + WIFI_ICONS[Math.round(mLevel * 4 / 5f)]
-                : "ic_mobile_" + mLevel + "_5_bar";
+        return icon(wifi, pkg, mLevel);
+    }
+
+    private Drawable icon(boolean wifi, String pkg, int level) {
+        String name = wifi ? "ic_wifi_" + WIFI_ICONS[Math.round(level * 4 / 5f)]
+                : "ic_mobile_" + level + "_5_bar";
         if (mNoInternet) {
             name += "_error";
         }
@@ -379,6 +403,11 @@ public class IconStyleActivity extends CollapsingToolbarBaseActivity {
         update();
     }
 
+    private boolean separateSims() {
+        return Settings.System.getIntForUser(getContentResolver(), SIMS_SETTING,
+                mAppliedSignal != null ? 1 : 0, UserHandle.USER_CURRENT) == 1;
+    }
+
     private void setLevel(int level) {
         mLevel = Math.max(0, Math.min(5, level));
         update();
@@ -398,6 +427,11 @@ public class IconStyleActivity extends CollapsingToolbarBaseActivity {
         mStripSignal.setImageDrawable(icon(false, mSignal));
         mStripWifi.setImageDrawable(icon(true, mWifi));
         mStripSignal.setImageTintList(ColorStateList.valueOf(Color.WHITE));
+        mSims.setChecked(separateSims());
+        boolean separate = mDualSim && mSims.isChecked();
+        mStripSignal2.setVisibility(separate ? View.VISIBLE : View.GONE);
+        mStripSignal2.setImageDrawable(separate ? icon(false, mSignal, Math.max(0, mLevel - 2)) : null);
+        mStripSignal2.setImageTintList(ColorStateList.valueOf(Color.WHITE));
         mStripWifi.setImageTintList(ColorStateList.valueOf(Color.WHITE));
         mMode.setText(mLinked ? R.string.remixer_icon_style_matched
                 : R.string.remixer_icon_style_mixed);

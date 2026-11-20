@@ -29,7 +29,9 @@
     <string name="remixer_icon_style_apply">Apply</string>
     <string name="remixer_icon_style_applied">Applied</string>
     <string name="remixer_icon_style_restart_title">Restart System UI?</string>
-    <string name="remixer_icon_style_restart_message">The status bar restarts to load the new icons. With two SIMs active, Android draws its own stacked signal icon.</string>
+    <string name="remixer_icon_style_restart_message">The status bar restarts to load the new icons.</string>
+    <string name="remixer_icon_style_sims_title">Separate SIM icons</string>
+    <string name="remixer_icon_style_sims_summary">Each SIM gets its own icon in your style, instead of Android\'s stacked one</string>
     <string name="remixer_icon_style_restart">Restart</string>
     <string name="remixer_icon_style_failed">Couldn\'t change the icons</string>
 </resources>
