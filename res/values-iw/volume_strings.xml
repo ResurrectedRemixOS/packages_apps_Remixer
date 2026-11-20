@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">לוח עוצמת קול</string>
     <string name="volume_page_summary">ניאון, זכוכית, כדור או RR קלאסי</string>
-    <string name="volume_behavior">התנהגות</string>
-    <string name="volume_on_left_title">לוח בצד שמאל</string>
-    <string name="volume_on_left_summary">RR קלאסי תמיד נמצא למעלה</string>
-    <string name="volume_ringer_title">כפתור מצב צלצול</string>
-    <string name="volume_tick_title">רטט בזמן הגלילה</string>
-    <string name="volume_percent_title">הצג את הרמה באחוזים</string>
     <string name="volume_timeout_title">הסתר אחרי</string>
-    <string name="volume_footer">מראה משנה את המראה של הלוח, לא את הפעולה שלו. Android שומר על הלוח המקורי. הקישו על הנקודות כדי לראות את כל הערוצים; הלוח המורחב משתמש באותו מראה.</string>
 </resources>

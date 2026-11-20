@@ -12,7 +12,6 @@
     <string name="backup_group_gestures">제스처</string>
     <string name="backup_group_other">"기타"</string>
     <string name="backup_done">"완료"</string>
-    <string name="volume_style_title">음량 패널 스타일</string>
     <string name="backup_summary">RR 사용자 설정을 파일 하나에 모두 저장</string>
     <string name="backup_now">지금 백업</string>
     <string name="backup_never">마지막 백업: 없음</string>

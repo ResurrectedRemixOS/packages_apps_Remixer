@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Pannello del volume</string>
     <string name="volume_page_summary">Neon, Vetro, Pillola o RR classico</string>
-    <string name="volume_behavior">Comportamento</string>
-    <string name="volume_on_left_title">Pannello a sinistra</string>
-    <string name="volume_on_left_summary">L\'RR classico è sempre in alto</string>
-    <string name="volume_ringer_title">Pulsante della modalità suoneria</string>
-    <string name="volume_tick_title">Vibra mentre scorri il cursore</string>
-    <string name="volume_percent_title">Mostra il livello in percentuale</string>
     <string name="volume_timeout_title">Nascondi dopo</string>
-    <string name="volume_footer">Uno stile cambia l\'aspetto del pannello, non il suo funzionamento. Android mantiene il pannello originale. Tocca i puntini per vedere tutti i flussi; il pannello espanso usa lo stesso stile.</string>
 </resources>

@@ -37,7 +37,6 @@
     <string name="backup_failed">Não foi possível guardar a cópia de segurança</string>
     <string name="backup_invalid">Esse ficheiro não é uma cópia de segurança do Resurrected Remix</string>
     <string name="backup_footer">Só definições do RR entram no ficheiro: nada de contas, senhas, redes Wi-Fi, apps ou mensagens. A restauração só grava definições da lista do próprio RR, então um ficheiro de cópia de segurança não pode mudar mais nada no telemóvel. Sua foto de cabeçalho só é incluída se a opção estiver ativada, porque deixa o ficheiro maior.</string>
-    <string name="volume_style_title">Estilo do painel de volume</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neon</item>

@@ -37,7 +37,6 @@
     <string name="backup_failed">Nepavyko įrašyti atsarginės kopijos</string>
     <string name="backup_invalid">Tai nėra Resurrected Remix atsarginės kopijos failas</string>
     <string name="backup_footer">Faile yra tik RR nustatymai: be paskyrų, slaptažodžių, Wi-Fi tinklų, programų ar pranešimų. Atkūrimas įrašo tik nustatymus iš RR sąrašo, todėl atsarginės kopijos failas negali pakeisti nieko kito telefone. Antraštės nuotrauka įtraukiama tik tada, jei jos jungiklis įjungtas, nes ji padidina failą.</string>
-    <string name="volume_style_title">Tūrio skydelio stilius</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neoninis</item>

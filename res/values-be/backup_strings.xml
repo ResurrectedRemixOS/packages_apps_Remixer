@@ -37,7 +37,6 @@
     <string name="backup_failed">Не ўдалося захаваць копію</string>
     <string name="backup_invalid">Гэта не файл рэзервовай копіі Resurrected Remix</string>
     <string name="backup_footer">У файл трапляюць толькі налады RR: без уліковых запісаў, пароляў, сетак Wi-Fi, праграм ці паведамленняў. Аднаўленне запісвае толькі налады са спісу RR, таму файл копіі не можа змяніць нічога іншага на тэлефоне. Фота загалоўка ўключаецца, толькі калі ўключаны яго перамыкач, бо яно павялічвае файл.</string>
-    <string name="volume_style_title">Стыль панэлі гучнасці</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Неон</item>

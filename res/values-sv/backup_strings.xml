@@ -12,7 +12,6 @@
     <string name="backup_group_gestures">Gester</string>
     <string name="backup_group_other">"Övrigt"</string>
     <string name="backup_done">"Klar"</string>
-    <string name="volume_style_title">Volympanelens stil</string>
     <string name="backup_summary">Alla RR-anpassningar i en fil</string>
     <string name="backup_now">Säkerhetskopiera nu</string>
     <string name="backup_never">Senaste säkerhetskopia: aldrig</string>

@@ -37,7 +37,6 @@
     <string name="backup_failed">Չհաջողվեց պահել պահուստը</string>
     <string name="backup_invalid">Այս ֆայլը Resurrected Remix-ի պահուստ չէ</string>
     <string name="backup_footer">Միայն RR-ի կարգավորումները են գրվում ֆայլում․ ոչ հաշիվներ, ոչ գաղտնաբառեր, ոչ Wi-Fi ցանցեր, ոչ հավելվածներ և ոչ հաղորդագրություններ։ Վերականգնումը գրում է միայն RR-ի սեփական ցանկում գտնվող կարգավորումները, այնպես որ պահուստային ֆայլը ձեր հեռախոսի ուրիշ ոչինչ չի կարող փոխել։ Ձեր վերնագրի նկարը ներառվում է միայն այն դեպքում, եթե դրա անջատիչը միացված է, քանի որ այն ֆայլը մեծացնում է։</string>
-    <string name="volume_style_title">Ձայնի վահանակի ոճ</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Նեոն</item>

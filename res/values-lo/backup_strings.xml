@@ -37,7 +37,6 @@
     <string name="backup_failed">ບັນທຶກການສຳຮອງບໍ່ໄດ້</string>
     <string name="backup_invalid">ໄຟລ໌ນີ້ບໍ່ແມ່ນໄຟລ໌ສຳຮອງຂອງ Resurrected Remix</string>
     <string name="backup_footer">ມີພຽງການຕັ້ງຄ່າ RR ເທົ່ານັ້ນທີ່ຖືກໃສ່ໃນໄຟລ໌: ບໍ່ມີບັນຊີ, ລະຫັດຜ່ານ, ເຄືອຂ່າຍ Wi-Fi, ແອັບ ຫຼື ຂໍ້ຄວາມ. ການກູ້ຄືນຈະຂຽນໃສ່ການຕັ້ງຄ່າໃນລາຍການຂອງ RR ເທົ່ານັ້ນ, ສະນັ້ນໄຟລ໌ສຳຮອງຈະບໍ່ປ່ຽນແປງສິ່ງອື່ນໃນໂທລະສັບ. ຮູບພາບສ່ວນຫົວຂອງທ່ານຈະຖືກລວມເຂົ້າພຽງແຕ່ເມື່ອປຸ່ມເປີດຂອງມັນເປີດຢູ່ ເພາະມັນເຮັດໃຫ້ໄຟລ໌ໃຫຍ່ຂຶ້ນ.</string>
-    <string name="volume_style_title">ຮູບແບບແຜງສຽງ</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>ນີອອນ</item>

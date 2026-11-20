@@ -37,7 +37,6 @@
     <string name="backup_failed">Copia de rezervă nu a putut fi salvată</string>
     <string name="backup_invalid">Fișierul acesta nu este o copie de rezervă Resurrected Remix</string>
     <string name="backup_footer">În fișier intră doar setările RR: fără conturi, parole, rețele Wi-Fi, aplicații sau mesaje. Restaurarea scrie doar setările de pe lista proprie a RR, deci un fișier de copie de rezervă nu poate modifica altceva de pe telefon. Fotografia de antet este inclusă doar dacă comutatorul ei este activat, pentru că mărește fișierul.</string>
-    <string name="volume_style_title">Stilul panoului de volum</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neon</item>

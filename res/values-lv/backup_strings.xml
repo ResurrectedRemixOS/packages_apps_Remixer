@@ -37,7 +37,6 @@
     <string name="backup_failed">Dublējumu nevarēja saglabāt</string>
     <string name="backup_invalid">Šis fails nav Resurrected Remix dublējums</string>
     <string name="backup_footer">Failā ir tikai RR iestatījumi: nav kontu, paroļu, Wi-Fi tīklu, lietotņu vai ziņu. Atjaunošana raksta tikai iestatījumus RR sarakstā, tāpēc dublēšanas fails nevar mainīt nekā citu tālrunī. Galvenes attēls tiek iekļauts tikai tad, ja tā slēdzis ir ieslēgts, jo tas palielina failu.</string>
-    <string name="volume_style_title">Skaļuma paneļa stils</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neona</item>

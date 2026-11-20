@@ -12,7 +12,6 @@
     <string name="backup_group_gestures">Gerakan</string>
     <string name="backup_group_other">"Lainnya"</string>
     <string name="backup_done">"Selesai"</string>
-    <string name="volume_style_title">Gaya panel volume</string>
     <string name="backup_summary">Semua kustomisasi RR dalam satu file</string>
     <string name="backup_now">Cadangkan sekarang</string>
     <string name="backup_never">Cadangan terakhir: belum pernah</string>

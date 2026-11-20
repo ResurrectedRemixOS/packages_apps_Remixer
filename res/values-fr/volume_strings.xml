@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Panneau de volume</string>
     <string name="volume_page_summary">Néon, Verre, Pilule ou RR classique</string>
-    <string name="volume_behavior">Comportement</string>
-    <string name="volume_on_left_title">Panneau à gauche</string>
-    <string name="volume_on_left_summary">RR classique reste toujours en haut</string>
-    <string name="volume_ringer_title">Bouton de mode de sonnerie</string>
-    <string name="volume_tick_title">Vibration au glissement</string>
-    <string name="volume_percent_title">Afficher le niveau en pourcentage</string>
     <string name="volume_timeout_title">Masquer après</string>
-    <string name="volume_footer">Un aspect change l\'apparence du panneau, pas son fonctionnement. Android garde le panneau d\'origine. Appuyez sur les points pour voir tous les flux ; le panneau développé utilise le même aspect.</string>
 </resources>

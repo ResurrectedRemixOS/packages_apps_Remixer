@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Səs paneli</string>
     <string name="volume_page_summary">Neon, Şüşə, Həb və ya Klassik RR</string>
-    <string name="volume_behavior">Davranış</string>
-    <string name="volume_on_left_title">Panel solda</string>
-    <string name="volume_on_left_summary">Klassik RR həmişə yuxarıda yerləşir</string>
-    <string name="volume_ringer_title">Zəng rejimi düyməsi</string>
-    <string name="volume_tick_title">Sürüşdürərkən kliklə</string>
-    <string name="volume_percent_title">Səviyyəni faizlə göstər</string>
     <string name="volume_timeout_title">Bundan sonra gizlət</string>
-    <string name="volume_footer">Görünüş panelin necə göründüyünü dəyişir, işləməsini yox. Android standart paneli saxlayır. Bütün axınları görmək üçün nöqtələrə toxunun; genişlənmiş panel eyni görünüşü istifadə edir.</string>
 </resources>

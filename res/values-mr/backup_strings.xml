@@ -37,7 +37,6 @@
     <string name="backup_failed">बॅकअप जतन करता आला नाही</string>
     <string name="backup_invalid">ही फाईल Resurrected Remix बॅकअप नाही</string>
     <string name="backup_footer">फक्त RR सेटिंग्ज या फाइलमध्ये असतात: खाती, पासवर्ड, वाय-फाय नेटवर्क, अॅप्स किंवा संदेश नाहीत. रिस्टोअर फक्त RR च्या स्वतःच्या यादीतील सेटिंग्ज लिहितो, त्यामुळे बॅकअप फाइल फोनवरील इतर काहीही बदलू शकत नाही. तुमचा हेडर फोटो फक्त त्याचा स्विच चालू असेल तरच समाविष्ट होतो, कारण त्यामुळे फाइल मोठी होते.</string>
-    <string name="volume_style_title">व्हॉल्यूम पॅनल शैली</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>निऑन</item>

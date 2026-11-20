@@ -37,7 +37,6 @@
     <string name="backup_failed">Резервното копие не можа да се запази</string>
     <string name="backup_invalid">Този файл не е резервно копие на Resurrected Remix</string>
     <string name="backup_footer">В файла влизат само RR настройките: без профили, пароли, Wi-Fi мрежи, приложения или съобщения. Възстановяването записва само настройки от собствения списък на RR, така че файлът не може да промени нищо друго в телефона. Снимката на заглавието е включена само ако превключвателят ѝ е включен, тъй като увеличава файла.</string>
-    <string name="volume_style_title">Стил на панела за сила на звука</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Неон</item>

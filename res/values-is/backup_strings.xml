@@ -37,7 +37,6 @@
     <string name="backup_failed">Tókst ekki að vista öryggisafrit</string>
     <string name="backup_invalid">Þessi skrá er ekki öryggisafrit af Resurrected Remix</string>
     <string name="backup_footer">Aðeins RR stillingar fara í skrána: engir reikningar, lykilorð, Wi-Fi net, forrit eða skilaboð. Endurheimt skrifar aðeins stillingar á lista RR, svo öryggisafritsskrá getur ekki breytt neinu öðru í símanum. Hausmyndin þín er aðeins með ef rofinn fyrir hana er á, því hún stækkar skrána.</string>
-    <string name="volume_style_title">Stíll hljóðstyrkspjalds</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neon</item>

@@ -37,7 +37,6 @@
     <string name="backup_failed">ذخیره پشتیبان انجام نشد</string>
     <string name="backup_invalid">این فایل، پشتیبان Resurrected Remix نیست</string>
     <string name="backup_footer">فقط تنظیمات RR در فایل قرار می‌گیرد: نه حساب‌ها، گذرواژه‌ها، شبکه‌های Wi-Fi، برنامه‌ها یا پیام‌ها. بازیابی فقط تنظیمات فهرست خود RR را می‌نویسد، پس فایل پشتیبان نمی‌تواند چیز دیگری را در گوشی تغییر دهد. عکس سربرگ فقط در صورت روشن بودن کلیدش در فایل قرار می‌گیرد، چون حجم فایل را بیشتر می‌کند.</string>
-    <string name="volume_style_title">سبک پنل صدا</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>نئونی</item>

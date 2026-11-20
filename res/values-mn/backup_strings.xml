@@ -37,7 +37,6 @@
     <string name="backup_failed">Нөөцийг хадгалж чадсангүй</string>
     <string name="backup_invalid">Энэ файл Resurrected Remix-ийн нөөц биш байна</string>
     <string name="backup_footer">Зөвхөн RR-ийн тохиргоо файлд орно: данс, нууц үг, Wi-Fi сүлжээ, аппликейшн эсвэл мессеж орохгүй. Сэргээх нь зөвхөн RR-ийн жагсаалтад байгаа тохиргоог бичдэг тул нөөцлөх файл утасны бусад зүйлийг өөрчлөхгүй. Таны толгойн зураг зөвхөн унтраалга асаалттай үед орно, учир нь энэ нь файлыг томруулдаг.</string>
-    <string name="volume_style_title">Дууны самбарын загвар</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Неон</item>

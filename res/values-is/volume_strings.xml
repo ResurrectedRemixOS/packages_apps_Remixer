@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Hljóðstyrkspjald</string>
     <string name="volume_page_summary">Neon, gler, pilla eða klassískt RR</string>
-    <string name="volume_behavior">Hegðun</string>
-    <string name="volume_on_left_title">Spjald vinstra megin</string>
-    <string name="volume_on_left_summary">Klassískt RR er alltaf efst</string>
-    <string name="volume_ringer_title">Hnappur fyrir hringistillingu</string>
-    <string name="volume_tick_title">Smellur þegar þú rennir</string>
-    <string name="volume_percent_title">Sýna stig í prósentum</string>
     <string name="volume_timeout_title">Fela eftir</string>
-    <string name="volume_footer">Útlit breytir því hvernig spjaldið lítur út, ekki hvernig það virkar. Android heldur staðlaða spjaldinu. Pikkaðu á punktana til að sjá alla strauma; stækkaða spjaldið notar sama útlit.</string>
 </resources>

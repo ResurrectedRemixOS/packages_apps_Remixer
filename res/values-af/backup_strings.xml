@@ -37,7 +37,6 @@
     <string name="backup_failed">Kon nie die rugsteun stoor nie</string>
     <string name="backup_invalid">Dit is nie \'n Resurrected Remix-rugsteun nie</string>
     <string name="backup_footer">Slegs RR-instellings gaan in die lêer: geen rekeninge, wagwoorde, Wi-Fi-netwerke, programme of boodskappe nie. Herstel skryf net instellings op RR se eie lys, so \'n rugsteunlêer kan niks anders op die foon verander nie. Jou kopbeeldfoto is slegs ingesluit as die skakelaar aan is, aangesien dit die lêer groter maak.</string>
-    <string name="volume_style_title">Volumepaneelstyl</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neon</item>

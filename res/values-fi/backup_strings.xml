@@ -37,7 +37,6 @@
     <string name="backup_failed">Varmuuskopiota ei voitu tallentaa</string>
     <string name="backup_invalid">Tämä tiedosto ei ole Resurrected Remix -varmuuskopio</string>
     <string name="backup_footer">Tiedostoon tallennetaan vain RR-asetukset: ei tilejä, salasanoja, Wi-Fi-verkkoja, sovelluksia tai viestejä. Palautus kirjoittaa vain RR:n omalla listalla olevia asetuksia, joten varmuuskopiotiedosto ei voi muuttaa mitään muuta puhelimessa. Otsikkokuva sisältyy vain, jos sen kytkin on päällä, koska se kasvattaa tiedoston kokoa.</string>
-    <string name="volume_style_title">Volume panel style → Äänenvoimakkuuspaneelin tyyli</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neon</item>

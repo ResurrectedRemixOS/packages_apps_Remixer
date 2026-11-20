@@ -12,7 +12,6 @@
     <string name="backup_group_gestures">Gesten</string>
     <string name="backup_group_other">"Sonstige"</string>
     <string name="backup_done">"Fertig"</string>
-    <string name="volume_style_title">Stil der Lautstärkeanzeige</string>
     <string name="backup_summary">Alle RR-Anpassungen in einer Datei</string>
     <string name="backup_now">Jetzt sichern</string>
     <string name="backup_never">Letzte Sicherung: nie</string>

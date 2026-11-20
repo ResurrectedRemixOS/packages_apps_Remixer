@@ -37,7 +37,6 @@
     <string name="backup_failed">Varundust ei õnnestunud salvestada</string>
     <string name="backup_invalid">See fail ei ole Resurrected Remixi varundus</string>
     <string name="backup_footer">Faili lähevad ainult RR-i seaded: mitte kontod, paroolid, Wi-Fi võrgud, rakendused ega sõnumid. Taastamine kirjutab ainult RR-i enda nimekirjas olevaid seadeid, nii et varundusfail ei saa telefonis midagi muud muuta. Päise foto lisatakse ainult siis, kui selle lüliti on sees, sest see muudab faili suuremaks.</string>
-    <string name="volume_style_title">Helitugevuspaneeli stiil</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neoon</item>

@@ -12,7 +12,6 @@
     <string name="backup_group_gestures">Kézmozdulatok</string>
     <string name="backup_group_other">"Egyéb"</string>
     <string name="backup_done">"Kész"</string>
-    <string name="volume_style_title">Hangerőpanel stílusa</string>
     <string name="backup_summary">Minden RR-testreszabás egyetlen fájlban</string>
     <string name="backup_now">Biztonsági mentés most</string>
     <string name="backup_never">Utolsó mentés: soha</string>

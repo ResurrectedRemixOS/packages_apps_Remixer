@@ -37,7 +37,6 @@
     <string name="backup_failed">ब्याकअप सेभ गर्न सकिएन</string>
     <string name="backup_invalid">त्यो फाइल Resurrected Remix ब्याकअप होइन</string>
     <string name="backup_footer">केवल RR का सेटिङहरू फाइलमा जान्छन्: खाता, पासवर्ड, वाइ-फाइ नेटवर्क, एप वा सन्देश होइनन्। रिस्टोरले केवल RR को आफ्नै सूचीमा भएका सेटिङहरू मात्र लेख्छ, त्यसैले ब्याकअप फाइलले फोनको अरू कुनै कुरा बदल्न सक्दैन। तपाईंको हेडर फोटो तब मात्र समावेश हुन्छ जब त्यसको स्विच अन हुन्छ, किनभने यसले फाइल ठूलो बनाउँछ।</string>
-    <string name="volume_style_title">भोल्युम प्यानल शैली</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neon</item>

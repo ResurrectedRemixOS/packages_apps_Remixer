@@ -37,7 +37,6 @@
     <string name="backup_failed">Бекапот не можеше да се зачува</string>
     <string name="backup_invalid">Таа датотека не е бекап од Resurrected Remix</string>
     <string name="backup_footer">Во датотеката се внесуваат само RR поставки: без сметки, лозинки, Wi-Fi мрежи, апликации или пораки. Враќањето пишува само поставки од списокот на RR, па датотеката за бекап не може да промени ништо друго на телефонот. Вашата фотографија за заглавие е вклучена само ако нејзиниот прекинувач е вклучен, бидејќи ја зголемува датотеката.</string>
-    <string name="volume_style_title">Стил на панелот за јачина на звук</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Неон</item>

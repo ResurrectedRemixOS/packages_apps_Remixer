@@ -37,7 +37,6 @@
     <string name="backup_failed">બૅકઅપ સાચવી શકાયું નહીં</string>
     <string name="backup_invalid">તે ફાઇલ Resurrected Remix બૅકઅપ નથી</string>
     <string name="backup_footer">RR સેટિંગ્સ જ ફાઇલમાં જાય છે: કોઈ એકાઉન્ટ, પાસવર્ડ, Wi-Fi નેટવર્ક, ઍપ કે મેસેજ નહીં. રિસ્ટોર ફક્ત RR ની પોતાની યાદીમાંની સેટિંગ્સ જ લખે છે, એટલે બૅકઅપ ફાઇલ ફોન પરની બીજી કોઈ વસ્તુ બદલી શકતી નથી. તમારો હેડર ફોટો ત્યારે જ શામેલ થાય છે જ્યારે તેનું સ્વિચ ચાલુ હોય, કારણ કે તેનાથી ફાઇલ મોટી થાય છે.</string>
-    <string name="volume_style_title">વૉલ્યુમ પૅનલ સ્ટાઇલ</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>નિયૉન</item>

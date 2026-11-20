@@ -37,7 +37,6 @@
     <string name="backup_failed">Δεν ήταν δυνατή η αποθήκευση του αντιγράφου</string>
     <string name="backup_invalid">Το αρχείο δεν είναι αντίγραφο του Resurrected Remix</string>
     <string name="backup_footer">Στο αρχείο μπαίνουν μόνο οι ρυθμίσεις RR: χωρίς λογαριασμούς, κωδικούς, δίκτυα Wi-Fi, εφαρμογές ή μηνύματα. Η επαναφορά γράφει μόνο ρυθμίσεις από τη δική της λίστα RR, οπότε ένα αρχείο αντιγράφου δεν μπορεί να αλλάξει τίποτα άλλο στο τηλέφωνο. Η φωτογραφία κεφαλίδας περιλαμβάνεται μόνο αν είναι ενεργοποιημένος ο διακόπτης της, αφού αυξάνει το μέγεθος του αρχείου.</string>
-    <string name="volume_style_title">Στυλ πίνακα έντασης</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neon</item>

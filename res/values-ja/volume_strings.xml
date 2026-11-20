@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">音量パネル</string>
     <string name="volume_page_summary">ネオン、ガラス、ピル、またはクラシック RR</string>
-    <string name="volume_behavior">動作</string>
-    <string name="volume_on_left_title">パネルを左に表示</string>
-    <string name="volume_on_left_summary">クラシック RR は常に上部に表示されます</string>
-    <string name="volume_ringer_title">着信モードボタン</string>
-    <string name="volume_tick_title">スライド中に目盛りを表示</string>
-    <string name="volume_percent_title">残量をパーセントで表示</string>
     <string name="volume_timeout_title">次の後に非表示</string>
-    <string name="volume_footer">見た目を変えるのはパネルの表示だけで、動作は変わりません。Android 標準のパネルはそのまま残ります。ドットをタップするとすべてのストリームを表示でき、展開したパネルも同じ見た目になります。</string>
 </resources>

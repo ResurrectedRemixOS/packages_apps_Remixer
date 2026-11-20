@@ -12,7 +12,6 @@
     <string name="backup_group_gestures">Cử chỉ</string>
     <string name="backup_group_other">"Khác"</string>
     <string name="backup_done">"Xong"</string>
-    <string name="volume_style_title">Kiểu bảng âm lượng</string>
     <string name="backup_summary">Mọi tùy chỉnh RR trong một tệp</string>
     <string name="backup_now">Sao lưu ngay</string>
     <string name="backup_never">Lần sao lưu gần nhất: chưa có</string>

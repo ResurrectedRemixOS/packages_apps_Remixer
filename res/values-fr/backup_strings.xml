@@ -37,7 +37,6 @@
     <string name="backup_failed">Impossible d\'enregistrer la sauvegarde</string>
     <string name="backup_invalid">Ce fichier n\'est pas une sauvegarde Resurrected Remix</string>
     <string name="backup_footer">Seuls les paramètres RR vont dans le fichier : ni comptes, ni mots de passe, ni réseaux Wi-Fi, ni applis, ni messages. La restauration n\'écrit que les paramètres de la liste de RR, un fichier de sauvegarde ne peut donc rien changer d\'autre sur le téléphone. Votre photo d\'en-tête n\'est incluse que si son interrupteur est activé, car elle agrandit le fichier.</string>
-    <string name="volume_style_title">Style du panneau de volume</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Néon</item>

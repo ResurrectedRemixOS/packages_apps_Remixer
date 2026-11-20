@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">ভলিউম প্যানেল</string>
     <string name="volume_page_summary">নিয়ন, কাচ, পিল বা ক্লাসিক RR</string>
-    <string name="volume_behavior">আচরণ</string>
-    <string name="volume_on_left_title">বাঁ দিকে প্যানেল</string>
-    <string name="volume_on_left_summary">ক্লাসিক RR সবসময় উপরে থাকে</string>
-    <string name="volume_ringer_title">রিংগার মোড বোতাম</string>
-    <string name="volume_tick_title">স্লাইড করার সময় টিক দিন</string>
-    <string name="volume_percent_title">স্তর শতাংশে দেখান</string>
     <string name="volume_timeout_title">এর পর লুকান</string>
-    <string name="volume_footer">রূপ বদলালে প্যানেলের চেহারা বদলায়, কাজ নয়। অ্যান্ড্রয়েড স্টক প্যানেল রাখে। সব স্ট্রিম দেখতে বিন্দুতে ট্যাপ করুন; বিস্তৃত প্যানেলেও একই রূপ থাকে।</string>
 </resources>

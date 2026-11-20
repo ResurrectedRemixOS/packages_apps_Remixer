@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">لوحة الصوت</string>
     <string name="volume_page_summary">نيون، زجاج، كبسولة أو RR الكلاسيكي</string>
-    <string name="volume_behavior">السلوك</string>
-    <string name="volume_on_left_title">اللوحة على اليسار</string>
-    <string name="volume_on_left_summary">يبقى RR الكلاسيكي دائمًا في الأعلى</string>
-    <string name="volume_ringer_title">زر وضع الرنين</string>
-    <string name="volume_tick_title">نقرة أثناء التمرير</string>
-    <string name="volume_percent_title">إظهار المستوى بالنسبة المئوية</string>
     <string name="volume_timeout_title">إخفاء بعد</string>
-    <string name="volume_footer">يغيّر المظهر شكل اللوحة لا طريقة عملها. يُبقي Android اللوحة الأصلية كما هي. اضغط النقاط لعرض كل التدفقات؛ تستخدم اللوحة الموسّعة المظهر نفسه.</string>
 </resources>

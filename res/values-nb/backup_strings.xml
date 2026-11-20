@@ -37,7 +37,6 @@
     <string name="backup_failed">Kunne ikke lagre sikkerhetskopien</string>
     <string name="backup_invalid">Den filen er ikke en Resurrected Remix-sikkerhetskopi</string>
     <string name="backup_footer">Bare RR-innstillinger tas med i filen: ingen kontoer, passord, Wi-Fi-nettverk, apper eller meldinger. Gjenoppretting skriver bare innstillinger på RRs egen liste, så en sikkerhetskopifil kan ikke endre noe annet på telefonen. Toppbildet ditt er med bare hvis bryteren for det er på, siden det gjør filen større.</string>
-    <string name="volume_style_title">Stil for lydstyrkepanel</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neon</item>

@@ -12,7 +12,6 @@
     <string name="backup_group_gestures">ジェスチャー</string>
     <string name="backup_group_other">"その他"</string>
     <string name="backup_done">"完了"</string>
-    <string name="volume_style_title">音量パネルのスタイル</string>
     <string name="backup_summary">RR のカスタマイズをすべて 1 つのファイルに</string>
     <string name="backup_now">今すぐバックアップ</string>
     <string name="backup_never">前回のバックアップ: なし</string>

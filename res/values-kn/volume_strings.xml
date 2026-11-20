@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">ವಾಲ್ಯೂಮ್ ಪ್ಯಾನಲ್</string>
     <string name="volume_page_summary">ನಿಯಾನ್, ಗ್ಲಾಸ್, ಪಿಲ್ ಅಥವಾ ಕ್ಲಾಸಿಕ್ RR</string>
-    <string name="volume_behavior">ವರ್ತನೆ</string>
-    <string name="volume_on_left_title">ಎಡಭಾಗದಲ್ಲಿ ಪ್ಯಾನೆಲ್</string>
-    <string name="volume_on_left_summary">ಕ್ಲಾಸಿಕ್ RR ಯಾವಾಗಲೂ ಮೇಲ್ಭಾಗದಲ್ಲಿರುತ್ತದೆ</string>
-    <string name="volume_ringer_title">ರಿಂಗರ್ ಮೋಡ್ ಬಟನ್</string>
-    <string name="volume_tick_title">ಸ್ಲೈಡ್ ಮಾಡುವಾಗ ಟಿಕ್ ಮಾಡಿ</string>
-    <string name="volume_percent_title">ಮಟ್ಟವನ್ನು ಶೇಕಡಾವಾರಿನಲ್ಲಿ ತೋರಿಸಿ</string>
     <string name="volume_timeout_title">ಇದರ ನಂತರ ಮರೆಮಾಡಿ</string>
-    <string name="volume_footer">ಒಂದು ನೋಟ ಪ್ಯಾನೆಲ್ ಕಾಣುವ ರೀತಿಯನ್ನು ಬದಲಿಸುತ್ತದೆ, ಕಾರ್ಯನಿರ್ವಹಣೆಯನ್ನು ಅಲ್ಲ. ಆಂಡ್ರಾಯ್ಡ್ ಮೂಲ ಪ್ಯಾನೆಲ್ ಅನ್ನು ಉಳಿಸಿಕೊಳ್ಳುತ್ತದೆ. ಎಲ್ಲಾ ಸ್ಟ್ರೀಮ್‌ಗಳನ್ನು ನೋಡಲು ಚುಕ್ಕೆಗಳನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ; ವಿಸ್ತರಿತ ಪ್ಯಾನೆಲ್ ಅದೇ ನೋಟವನ್ನು ಬಳಸುತ್ತದೆ.</string>
 </resources>

@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Panel de volume</string>
     <string name="volume_page_summary">Neón, Vidro, Pastilla ou RR clásico</string>
-    <string name="volume_behavior">Comportamento</string>
-    <string name="volume_on_left_title">Panel á esquerda</string>
-    <string name="volume_on_left_summary">O RR clásico vai sempre arriba</string>
-    <string name="volume_ringer_title">Botón de modo de timbre</string>
-    <string name="volume_tick_title">Marca ao deslizar</string>
-    <string name="volume_percent_title">Mostrar o nivel en porcentaxe</string>
     <string name="volume_timeout_title">Ocultar despois de</string>
-    <string name="volume_footer">Un aspecto cambia como se ve o panel, non como funciona. Android mantén o panel de serie. Toca os puntos para ver todos os fluxos; o panel expandido usa o mesmo aspecto.</string>
 </resources>

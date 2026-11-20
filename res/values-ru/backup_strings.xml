@@ -12,7 +12,6 @@
     <string name="backup_group_gestures">Жесты</string>
     <string name="backup_group_other">"Другое"</string>
     <string name="backup_done">"Готово"</string>
-    <string name="volume_style_title">Стили панели громкости</string>
     <string name="backup_summary">Все настройки RR в одном файле</string>
     <string name="backup_now">Создать копию</string>
     <string name="backup_never">Последняя копия: никогда</string>

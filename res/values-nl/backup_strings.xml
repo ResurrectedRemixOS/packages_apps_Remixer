@@ -37,7 +37,6 @@
     <string name="backup_failed">De back-up kon niet worden opgeslagen</string>
     <string name="backup_invalid">Dit bestand is geen Resurrected Remix-back-up</string>
     <string name="backup_footer">Alleen RR-instellingen gaan in het bestand: geen accounts, wachtwoorden, wifi-netwerken, apps of berichten. Herstellen schrijft alleen instellingen op RR\'s eigen lijst, dus een back-upbestand kan niets anders op de telefoon wijzigen. Je koptekstfoto is alleen inbegrepen als de schakelaar aan staat, omdat die het bestand groter maakt.</string>
-    <string name="volume_style_title">Stijl volumepaneel</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neon</item>

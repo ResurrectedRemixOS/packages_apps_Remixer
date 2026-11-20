@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">声音面板</string>
     <string name="volume_page_summary">霓虹、玻璃、横条或经典 RR</string>
-    <string name="volume_behavior">行为</string>
-    <string name="volume_on_left_title">面板在左侧</string>
-    <string name="volume_on_left_summary">经典 RR 始终位于顶部</string>
-    <string name="volume_ringer_title">铃声模式按钮</string>
-    <string name="volume_tick_title">滑动时振动</string>
-    <string name="volume_percent_title">以百分比显示音量</string>
     <string name="volume_timeout_title">多久后隐藏</string>
-    <string name="volume_footer">外观改变面板的样子，而不改变其工作方式。Android 保留原有面板。点按圆点可查看所有音频流；展开的面板使用相同外观。</string>
 </resources>

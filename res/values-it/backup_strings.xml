@@ -12,7 +12,6 @@
     <string name="backup_group_gestures">Gesti</string>
     <string name="backup_group_other">"Altro"</string>
     <string name="backup_done">"Fine"</string>
-    <string name="volume_style_title">Stile pannello volume</string>
     <string name="backup_summary">Tutte le personalizzazioni RR in un unico file</string>
     <string name="backup_now">Esegui backup ora</string>
     <string name="backup_never">Ultimo backup: mai</string>

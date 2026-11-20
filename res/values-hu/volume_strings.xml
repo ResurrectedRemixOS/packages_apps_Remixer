@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Hangerőszabályzó</string>
     <string name="volume_page_summary">Neon, üveg, pirula vagy klasszikus RR</string>
-    <string name="volume_behavior">Viselkedés</string>
-    <string name="volume_on_left_title">Panel a bal oldalon</string>
-    <string name="volume_on_left_summary">A klasszikus RR mindig felül marad</string>
-    <string name="volume_ringer_title">Csengőmód gomb</string>
-    <string name="volume_tick_title">Kattanás csúsztatáskor</string>
-    <string name="volume_percent_title">Szint megjelenítése százalékban</string>
     <string name="volume_timeout_title">Elrejtés ennyi idő után</string>
-    <string name="volume_footer">A megjelenés csak a panel kinézetét változtatja, működését nem. Az Android alapértelmezett panelt tart meg. Koppintson a pontokra az összes hangerőszint megjelenítéséhez; a kibontott panel ugyanezt a megjelenést használja.</string>
 </resources>

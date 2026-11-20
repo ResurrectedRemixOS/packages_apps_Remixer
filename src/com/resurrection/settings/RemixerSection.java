@@ -25,6 +25,7 @@ import java.util.function.Predicate;
 import com.resurrection.settings.haptics.HapticRemixActivity;
 import com.resurrection.settings.charging.ChargingAnimationActivity;
 import com.resurrection.settings.charging.ChargingEffectsActivity;
+import com.resurrection.settings.volume.VolumePanelActivity;
 
 /**
  * One Remixer section, picked by the "section" extra of its hub entry: a banner in the
@@ -180,6 +181,10 @@ public class RemixerSection extends SettingsPreferenceFragment {
         if (chargingAnimation != null) {
             chargingAnimation.setSummary(ChargingAnimationActivity.currentName(getContext()));
         }
+        final Preference volumePage = findPreference("volume_page");
+        if (volumePage != null) {
+            volumePage.setSummary(VolumePanelActivity.currentName(getContext()));
+        }
         final Preference chargingEffects = findPreference("remixer_charging_effects");
         if (chargingEffects != null) {
             chargingEffects.setSummary(ChargingEffectsActivity.summary(getContext()));
@@ -279,6 +284,8 @@ public class RemixerSection extends SettingsPreferenceFragment {
                 return new Intent(getContext(), ChargingAnimationActivity.class);
             case "remixer_charging_effects":
                 return new Intent(getContext(), ChargingEffectsActivity.class);
+            case "volume_page":
+                return new Intent(getContext(), VolumePanelActivity.class);
             case "remixer_udfps_icon":
                 return UdfpsActivity.intent(getContext(), UdfpsActivity.KIND_ICON);
             case "remixer_udfps_animation":

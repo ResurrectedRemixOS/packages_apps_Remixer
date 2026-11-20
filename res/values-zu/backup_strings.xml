@@ -37,7 +37,6 @@
     <string name="backup_failed">Ayikwazanga ukulondoloza isipele</string>
     <string name="backup_invalid">Leli fayela alisona isipele se-Resurrected Remix</string>
     <string name="backup_footer">Okungamasethingi e-RR kuphela okufakwa kulo fayela: akukho ama-akhawunti, amaphasiwedi, amanethiwekhi we-Wi-Fi, izinhlelo zokusebenza noma imilayezo. Ukubuyisela kubhala kuphela izilungiselelo ezisohlwini lwe-RR lwayo, ngakho ifayela lokusekela alikwazi ukushintsha okunye kufoni. Isithombe sakho sesihloko sifakwa kuphela uma isiwichi sayo sivulekile, njengoba sikhulisa ifayela.</string>
-    <string name="volume_style_title">Isitayela sephaneli yevolumu</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>I-Neon</item>

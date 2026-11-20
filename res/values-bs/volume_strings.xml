@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Panel glasnoće</string>
     <string name="volume_page_summary">Neon, Staklo, Kapsula ili Classic RR</string>
-    <string name="volume_behavior">Ponašanje</string>
-    <string name="volume_on_left_title">Panel lijevo</string>
-    <string name="volume_on_left_summary">Classic RR uvijek ostaje na vrhu</string>
-    <string name="volume_ringer_title">Dugme za režim zvona</string>
-    <string name="volume_tick_title">Klikanje pri klizanju</string>
-    <string name="volume_percent_title">Prikaži nivo u procentima</string>
     <string name="volume_timeout_title">Sakrij nakon</string>
-    <string name="volume_footer">Izgled mijenja kako panel izgleda, ne i kako radi. Android zadržava standardni panel. Dodirnite tačkice da vidite sve tokove; prošireni panel koristi isti izgled.</string>
 </resources>

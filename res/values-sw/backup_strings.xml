@@ -37,7 +37,6 @@
     <string name="backup_failed">Imeshindwa kuhifadhi nakala</string>
     <string name="backup_invalid">Faili hilo si nakala ya Resurrected Remix</string>
     <string name="backup_footer">Nakala rudufu ya mipangilio ya RR pekee ndiyo itaingizwa kwenye faili: hakuna akaunti, nenosiri, mitandao ya Wi-Fi, programu wala ujumbe. Kurejesha kunaandika tu mipangilio iliyo kwenye orodha ya RR, hivyo faili la nakala rudufu haliwezi kubadilisha kitu kingine chochote kwenye simu. Picha yako ya kichwa imejumuishwa tu ikiwa swichi yake imewashwa, kwa sababu huongeza ukubwa wa faili.</string>
-    <string name="volume_style_title">Mtindo wa paneli ya sauti</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neon</item>

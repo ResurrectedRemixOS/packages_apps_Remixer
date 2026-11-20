@@ -12,7 +12,6 @@
     <string name="backup_group_gestures">Gestos</string>
     <string name="backup_group_other">"Otro"</string>
     <string name="backup_done">"Hecho"</string>
-    <string name="volume_style_title">Estilos del panel de volumen</string>
     <string name="backup_summary">Todas las personalizaciones de RR en un archivo</string>
     <string name="backup_now">Hacer copia ahora</string>
     <string name="backup_never">Última copia: nunca</string>

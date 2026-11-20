@@ -37,7 +37,6 @@
     <string name="backup_failed">ବ୍ୟାକଅପ୍ ସଞ୍ଚୟ କରିହେଲା ନାହିଁ</string>
     <string name="backup_invalid">ଏହା ଏକ Resurrected Remix ବ୍ୟାକଅପ୍ ଫାଇଲ ନୁହେଁ</string>
     <string name="backup_footer">ଏହି ଫାଇଲରେ କେବଳ RR ସେଟିଂସ ରହିବ: କୌଣସି ଆକାଉଣ୍ଟ, ପାସୱାର୍ଡ, ୱାଇ-ଫାଇ ନେଟୱାର୍କ, ଆପ କିମ୍ବା ମେସେଜ ରହିବ ନାହିଁ। ରିଷ୍ଟୋର କେବଳ RR ର ନିଜ ତାଲିକାର ସେଟିଂସ ଲେଖେ, ତେଣୁ ବେକଅପ ଫାଇଲ ଫୋନର ଅନ୍ୟ କିଛି ବଦଳାଇ ପାରିବ ନାହିଁ। ଫାଇଲ ବଡ଼ ହୁଏ ବୋଲି ଆପଣଙ୍କ ହେଡର ଫଟୋ କେବଳ ସ୍ୱିଚ ଅନ ଥିଲେ ଅନ୍ତର୍ଭୁକ୍ତ ହୁଏ।</string>
-    <string name="volume_style_title">ଭଲ୍ୟୁମ ପ୍ୟାନେଲ ଷ୍ଟାଇଲ</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>ନିଅନ</item>

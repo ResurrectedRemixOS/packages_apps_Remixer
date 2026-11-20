@@ -37,7 +37,6 @@
     <string name="backup_failed">Ezin izan da babeskopia gorde</string>
     <string name="backup_invalid">Fitxategi hori ez da Resurrected Remix babeskopia</string>
     <string name="backup_footer">Fitxategian RR ezarpenak bakarrik sartzen dira: kontuak, pasahitzak, Wi-Fi sareak, aplikazioak edo mezuak ez. Berrezarpenak RR-ren zerrendako ezarpenak bakarrik idazten ditu, beraz babeskopia-fitxategi batek ez dezake telefonoko beste ezer aldatu. Goiburuko argazkia bakarrik sartzen da bere etengailua piztuta badago, fitxategia handiagoa egiten duelako.</string>
-    <string name="volume_style_title">Bolumen-panelaren estiloa</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neoia</item>

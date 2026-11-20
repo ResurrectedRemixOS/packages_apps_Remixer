@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Iphaneli yevolumu</string>
     <string name="volume_page_summary">I-Neon, Ingilasi, Ipilisi noma i-RR Yakudala</string>
-    <string name="volume_behavior">Ukuziphatha</string>
-    <string name="volume_on_left_title">Iphaneli ngakwesobunxele</string>
-    <string name="volume_on_left_summary">I-RR Yakudala ihlala njalo phezulu</string>
-    <string name="volume_ringer_title">Inkinobho yemodi yesiginali</string>
-    <string name="volume_tick_title">Shaya njengoba uswayipha</string>
-    <string name="volume_percent_title">Bonisa izinga ngephesenti</string>
     <string name="volume_timeout_title">Fihla emva kwe</string>
-    <string name="volume_footer">Ukubukeka kushintsha indlela iphaneli elibukeka ngayo, hhayi indlela lisebenza ngayo. I-Android igcina iphaneli elijwayelekile. Thepha amachashaza ukuze ubone zonke izimpompo; iphaneli elandiwe lisebenzisa ukubukeka okufanayo.</string>
 </resources>

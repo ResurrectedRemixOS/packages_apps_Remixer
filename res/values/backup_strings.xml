@@ -43,7 +43,6 @@
     <string name="backup_failed">Couldn\'t save the backup</string>
     <string name="backup_invalid">That file isn\'t a Resurrected Remix backup</string>
     <string name="backup_footer">Only RR settings go in the file: no accounts, passwords, Wi-Fi networks, apps or messages. Restore only writes settings on RR\'s own list, so a backup file can\'t change anything else on the phone. Your header photo is included only if its switch is on, since it makes the file bigger.</string>
-    <string name="volume_style_title">Volume panel style</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neon</item>
@@ -55,17 +54,5 @@
         <item>Blueprint</item>
         <item>Duo</item>
         <item>Soft</item>
-    </string-array>
-    <string-array name="volume_style_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
     </string-array>
 </resources>

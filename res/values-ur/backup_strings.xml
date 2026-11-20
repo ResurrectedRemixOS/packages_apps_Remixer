@@ -37,7 +37,6 @@
     <string name="backup_failed">بیک اپ محفوظ نہیں ہو سکا</string>
     <string name="backup_invalid">یہ فائل Resurrected Remix کا بیک اپ نہیں ہے</string>
     <string name="backup_footer">فائل میں صرف RR کی ترتیبات جاتی ہیں: کوئی اکاؤنٹ، پاس ورڈ، وائی فائی نیٹ ورک، ایپس یا پیغامات نہیں۔ بحالی صرف RR کی اپنی فہرست والی ترتیبات لکھتی ہے، اس لیے بیک اپ فائل فون کی کوئی اور چیز نہیں بدل سکتی۔ ہیڈر تصویر صرف اس وقت شامل ہوتی ہے جب اس کا سوئچ آن ہو، کیونکہ اس سے فائل بڑی ہوتی ہے۔</string>
-    <string name="volume_style_title">والیوم پینل کا انداز</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>نیون</item>

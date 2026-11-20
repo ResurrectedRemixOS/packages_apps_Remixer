@@ -37,7 +37,6 @@
     <string name="backup_failed">ਬੈਕਅੱਪ ਸੰਭਾਲਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ</string>
     <string name="backup_invalid">ਇਹ ਫਾਈਲ Resurrected Remix ਬੈਕਅੱਪ ਨਹੀਂ ਹੈ</string>
     <string name="backup_footer">ਸਿਰਫ਼ RR ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਫ਼ਾਈਲ ਵਿੱਚ ਜਾਂਦੀਆਂ ਹਨ: ਕੋਈ ਖਾਤੇ, ਪਾਸਵਰਡ, ਵਾਈ-ਫਾਈ ਨੈੱਟਵਰਕ, ਐਪਾਂ ਜਾਂ ਸੁਨੇਹੇ ਨਹੀਂ। ਰੀਸਟੋਰ ਸਿਰਫ਼ RR ਦੀ ਆਪਣੀ ਸੂਚੀ ਵਿੱਚ ਦਿੱਤੀਆਂ ਸੈਟਿੰਗਾਂ ਹੀ ਲਿਖਦਾ ਹੈ, ਇਸ ਲਈ ਬੈਕਅੱਪ ਫ਼ਾਈਲ ਫ਼ੋਨ ਦੀ ਕਿਸੇ ਹੋਰ ਚੀਜ਼ ਨੂੰ ਨਹੀਂ ਬਦਲ ਸਕਦੀ। ਤੁਹਾਡੀ ਹੈਡਰ ਫ਼ੋਟੋ ਉਦੋਂ ਹੀ ਸ਼ਾਮਲ ਹੁੰਦੀ ਹੈ ਜਦੋਂ ਇਸਦਾ ਸਵਿੱਚ ਚਾਲੂ ਹੋਵੇ, ਕਿਉਂਕਿ ਇਸ ਨਾਲ ਫ਼ਾਈਲ ਵੱਡੀ ਹੋ ਜਾਂਦੀ ਹੈ।</string>
-    <string name="volume_style_title">ਵੌਲਯੂਮ ਪੈਨਲ ਸ਼ੈਲੀ</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>ਨਿਓਨ</item>

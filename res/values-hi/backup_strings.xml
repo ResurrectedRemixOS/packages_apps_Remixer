@@ -37,7 +37,6 @@
     <string name="backup_failed">बैकअप सहेजा नहीं जा सका</string>
     <string name="backup_invalid">यह फ़ाइल Resurrected Remix बैकअप नहीं है</string>
     <string name="backup_footer">केवल RR की सेटिंग्स फ़ाइल में जाती हैं: कोई खाता, पासवर्ड, Wi-Fi नेटवर्क, ऐप या संदेश नहीं। रिस्टोर केवल RR की अपनी सूची में मौजूद सेटिंग्स लिखता है, इसलिए बैकअप फ़ाइल फ़ोन की किसी और चीज़ को नहीं बदल सकती। आपकी हेडर फ़ोटो तभी शामिल होती है जब उसका स्विच चालू हो, क्योंकि इससे फ़ाइल बड़ी हो जाती है।</string>
-    <string name="volume_style_title">वॉल्यूम पैनल स्टाइल</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>नियॉन</item>

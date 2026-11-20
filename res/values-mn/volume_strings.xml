@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Дууны самбар</string>
     <string name="volume_page_summary">Неон, Шил, Пилл эсвэл Уламжлалт RR</string>
-    <string name="volume_behavior">Үйлдэл</string>
-    <string name="volume_on_left_title">Зүүн талд самбар</string>
-    <string name="volume_on_left_summary">Уламжлалт RR нь үргэлж дээр байрлана</string>
-    <string name="volume_ringer_title">Хонхны горимын товч</string>
-    <string name="volume_tick_title">Гулсуулах үед тэмдэглэнэ</string>
-    <string name="volume_percent_title">Түвшнийг хувиар харуулах</string>
     <string name="volume_timeout_title">Дараа нь нуух</string>
-    <string name="volume_footer">Загвар нь самбарын харагдахуйг өөрчилнэ, ажиллах аргыг биш. Android стандарт самбарыг хадгална. Бүх урсгалыг харахын тулд цэгүүдийг товшоорой; өргөтгөсөн самбар мөн адил загвартай.</string>
 </resources>

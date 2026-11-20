@@ -37,7 +37,6 @@
     <string name="backup_failed">Hindi na-save ang backup</string>
     <string name="backup_invalid">Hindi ito backup file ng Resurrected Remix</string>
     <string name="backup_footer">Mga setting ng RR lang ang nasa file: walang account, password, Wi-Fi network, app o mensahe. Ang restore ay nagsusulat lang ng mga setting na nasa listahan ng RR, kaya walang ibang mababago sa telepono. Kasama lang ang header photo mo kung naka-on ang switch nito, dahil nagpapalaki ito sa file.</string>
-    <string name="volume_style_title">Istilo ng volume panel</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neon</item>

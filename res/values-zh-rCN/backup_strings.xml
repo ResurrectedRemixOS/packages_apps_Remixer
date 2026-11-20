@@ -12,7 +12,6 @@
     <string name="backup_group_gestures">手势</string>
     <string name="backup_group_other">"其他"</string>
     <string name="backup_done">"完成"</string>
-    <string name="volume_style_title">音量面板样式</string>
     <string name="backup_summary">所有 RR 自定义设置都在一个文件中</string>
     <string name="backup_now">立即备份</string>
     <string name="backup_never">上次备份：从未</string>

@@ -37,7 +37,6 @@
     <string name="backup_failed">تعذّر حفظ النسخة الاحتياطية</string>
     <string name="backup_invalid">هذا الملف ليس نسخة احتياطية من Resurrected Remix</string>
     <string name="backup_footer">تُحفظ في الملف إعدادات RR فقط: لا حسابات ولا كلمات مرور ولا شبكات Wi-Fi ولا تطبيقات ولا رسائل. تكتب الاستعادة الإعدادات الواردة في قائمة RR فقط، فلا يمكن لملف النسخ تغيير أي شيء آخر في الهاتف. تُدرج صورة الرأس فقط إذا كان مفتاحها مفعّلًا، لأنها تزيد حجم الملف.</string>
-    <string name="volume_style_title">نمط لوحة الصوت</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>نيون</item>

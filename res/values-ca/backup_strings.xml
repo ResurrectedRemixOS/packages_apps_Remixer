@@ -37,7 +37,6 @@
     <string name="backup_failed">No s\'ha pogut desar la còpia de seguretat</string>
     <string name="backup_invalid">Aquest fitxer no és una còpia de seguretat de Resurrected Remix</string>
     <string name="backup_footer">Al fitxer només hi van ajustaments de RR: ni comptes, ni contrasenyes, ni xarxes Wi-Fi, ni aplicacions ni missatges. La restauració només escriu ajustaments de la llista pròpia de RR, de manera que un fitxer de còpia no pot canviar res més del telèfon. La foto de capçalera només s\'hi inclou si el seu interruptor està activat, ja que fa el fitxer més gran.</string>
-    <string name="volume_style_title">Estil del panell de volum</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neó</item>

@@ -37,7 +37,6 @@
     <string name="backup_failed">Yedək saxlanıla bilmədi</string>
     <string name="backup_invalid">Bu fayl Resurrected Remix yedəyi deyil</string>
     <string name="backup_footer">Faylda yalnız RR ayarları olur: hesablar, parollar, Wi-Fi şəbəkələri, tətbiqlər və ya mesajlar yoxdur. Bərpa yalnız RR-in öz siyahısındakı ayarları yazır, ona görə yedək faylı telefondakı başqa heçnəyi dəyişə bilməz. Başlıq fotonuz yalnız onun açarı aktiv olduqda daxil edilir, çünki o, faylı böyüdür.</string>
-    <string name="volume_style_title">Səs paneli üslubu</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neon</item>

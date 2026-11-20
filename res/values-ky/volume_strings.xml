@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Үн панели</string>
     <string name="volume_page_summary">Неон, Айнек, Капсула же Классикалык RR</string>
-    <string name="volume_behavior">Жүрүм-туруму</string>
-    <string name="volume_on_left_title">Панель солдо</string>
-    <string name="volume_on_left_summary">Классикалык RR ар дайым үстүндө турат</string>
-    <string name="volume_ringer_title">Шыңгыроо режиминин баскычы</string>
-    <string name="volume_tick_title">Сыпырганда чыкылдатуу</string>
-    <string name="volume_percent_title">Деңгээлди пайыз менен көрсөтүү</string>
     <string name="volume_timeout_title">Ушул убакыттан кийин жашыруу</string>
-    <string name="volume_footer">Көрүнүш панелдин кантип көрүнөрүн өзгөртөт, иштөөсүн эмес. Android стандарттуу панелди сактайт. Бардык агымдарды көрүү үчүн чекиттерди басыңыз; кеңейтилген панел да ушундай көрүнүштү колдонот.</string>
 </resources>

@@ -37,7 +37,6 @@
     <string name="backup_failed">Камдык көчүрмөнү сактоо мүмкүн болбоду</string>
     <string name="backup_invalid">Бул файл Resurrected Remix камдык көчүрмөсү эмес</string>
     <string name="backup_footer">Файлга RR жөндөөлөрү гана кирет: эсептер, сырсөздөр, Wi-Fi тармактары, колдонмолор же билдирүүлөр жок. Калыбына келтирүү RR\'дин өз тизмесиндеги жөндөөлөрдү гана жазат, ошондуктан резервдик файл телефондогу башка нерсеге таасир эте албайт. Башкы сүрөтүңүз жалпы файлдын көлөмүн чоңойтпош үчүн, ал өчүк жана күйүк абалынан көз каранды болуп, өзүнчө гана кошулат.</string>
-    <string name="volume_style_title">Үн панелинин стили</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Неон</item>

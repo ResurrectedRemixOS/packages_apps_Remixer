@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Garsumo skydelis</string>
     <string name="volume_page_summary">Neoninis, stiklo, pilulės arba klasikinis RR</string>
-    <string name="volume_behavior">Elgsena</string>
-    <string name="volume_on_left_title">Skydelis kairėje</string>
-    <string name="volume_on_left_summary">Klasikinis RR visada būna viršuje</string>
-    <string name="volume_ringer_title">Skambėjimo režimo mygtukas</string>
-    <string name="volume_tick_title">Spustelėkite slinkdami</string>
-    <string name="volume_percent_title">Rodyti lygį procentais</string>
     <string name="volume_timeout_title">Slėpti po</string>
-    <string name="volume_footer">Išvaizda keičia tik skydelio atrodymą, o ne veikimą. Android naudoja įprastą skydelį. Palieskite taškus, kad pamatytumėte visus srautus; išplėstas skydelis naudoja tą pačią išvaizdą.</string>
 </resources>

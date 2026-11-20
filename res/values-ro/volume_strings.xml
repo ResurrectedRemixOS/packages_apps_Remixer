@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Panou de volum</string>
     <string name="volume_page_summary">Neon, Sticlă, Bară sau RR clasic</string>
-    <string name="volume_behavior">Comportament</string>
-    <string name="volume_on_left_title">Panou în stânga</string>
-    <string name="volume_on_left_summary">RR clasic stă mereu sus</string>
-    <string name="volume_ringer_title">Buton pentru modul soneriei</string>
-    <string name="volume_tick_title">Bifează în timp ce glisezi</string>
-    <string name="volume_percent_title">Arată nivelul în procente</string>
     <string name="volume_timeout_title">Ascunde după</string>
-    <string name="volume_footer">Un aspect schimbă doar felul în care arată panoul, nu modul în care funcționează. Android păstrează panoul standard. Atinge punctele ca să vezi toate fluxurile; panoul extins folosește același aspect.</string>
 </resources>

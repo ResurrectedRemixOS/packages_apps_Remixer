@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">ଭଲ୍ୟୁମ ପ୍ୟାନେଲ</string>
     <string name="volume_page_summary">ନିଅନ, ଗ୍ଲାସ, ପିଲ୍ କିମ୍ବା କ୍ଲାସିକ RR</string>
-    <string name="volume_behavior">ଆଚରଣ</string>
-    <string name="volume_on_left_title">ବାମ ପାଖରେ ପ୍ୟାନେଲ</string>
-    <string name="volume_on_left_summary">କ୍ଲାସିକ RR ସର୍ବଦା ଶୀର୍ଷରେ ରହେ</string>
-    <string name="volume_ringer_title">ରିଙ୍ଗର ମୋଡ୍ ବଟନ୍</string>
-    <string name="volume_tick_title">ସ୍ଲାଇଡ୍ କରିବା ସମୟରେ ଟିକ୍ ଚିହ୍ନ</string>
-    <string name="volume_percent_title">ଶତକଡ଼ାରେ ସ୍ତର ଦେଖାନ୍ତୁ</string>
     <string name="volume_timeout_title">ଏହା ପରେ ଲୁଚାନ୍ତୁ</string>
-    <string name="volume_footer">ଲୁକ୍ ପ୍ୟାନେଲର ରୂପ ବଦଳାଏ, କାର୍ଯ୍ୟ ନୁହେଁ। ଆଣ୍ଡ୍ରଏଡ୍ ମୂଳ ପ୍ୟାନେଲ ରଖେ। ସମସ୍ତ ସ୍ଟ୍ରିମ୍ ଦେଖିବାକୁ ବିନ୍ଦୁ ଉପରେ ଟ୍ୟାପ କରନ୍ତୁ; ବିସ୍ତାରିତ ପ୍ୟାନେଲ ମଧ୍ୟ ସମାନ ରୂପ ବ୍ୟବହାର କରେ।</string>
 </resources>

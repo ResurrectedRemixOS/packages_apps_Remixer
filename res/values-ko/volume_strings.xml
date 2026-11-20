@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">볼륨 패널</string>
     <string name="volume_page_summary">네온, 글래스, 필 또는 클래식 RR</string>
-    <string name="volume_behavior">동작</string>
-    <string name="volume_on_left_title">왼쪽에 패널 표시</string>
-    <string name="volume_on_left_summary">클래식 RR은 항상 맨 위에 표시됩니다</string>
-    <string name="volume_ringer_title">벨소리 모드 버튼</string>
-    <string name="volume_tick_title">슬라이드할 때 틱 표시</string>
-    <string name="volume_percent_title">배터리 잔량을 퍼센트로 표시</string>
     <string name="volume_timeout_title">숨김 시간</string>
-    <string name="volume_footer">스타일은 패널의 모양만 바꾸고 동작은 바꾸지 않습니다. Android 기본 패널은 그대로 유지됩니다. 점을 탭하면 모든 스트림을 볼 수 있으며, 확장된 패널도 같은 스타일을 사용합니다.</string>
 </resources>

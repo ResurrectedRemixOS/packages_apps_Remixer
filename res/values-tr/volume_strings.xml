@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Ses paneli</string>
     <string name="volume_page_summary">Neon, Cam, Hap veya Klasik RR</string>
-    <string name="volume_behavior">Davranış</string>
-    <string name="volume_on_left_title">Panel solda</string>
-    <string name="volume_on_left_summary">Klasik RR her zaman üsttedir</string>
-    <string name="volume_ringer_title">Zil modu düğmesi</string>
-    <string name="volume_tick_title">Kaydırırken tıklama</string>
-    <string name="volume_percent_title">Seviyeyi yüzde olarak göster</string>
     <string name="volume_timeout_title">Şu süreden sonra gizle</string>
-    <string name="volume_footer">Görünüm panelin nasıl göründüğünü değiştirir, nasıl çalıştığını değil. Android varsayılan paneli korur. Tüm akışları görmek için noktalara dokunun; genişletilmiş panel de aynı görünümü kullanır.</string>
 </resources>

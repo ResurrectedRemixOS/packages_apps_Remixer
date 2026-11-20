@@ -37,7 +37,6 @@
     <string name="backup_failed">Tidak dapat menyimpan sandaran</string>
     <string name="backup_invalid">Fail itu bukan sandaran Resurrected Remix</string>
     <string name="backup_footer">Hanya tetapan RR yang dimasukkan dalam fail: tiada akaun, kata laluan, rangkaian Wi-Fi, apl atau mesej. Pemulihan hanya menulis tetapan yang ada dalam senarai RR sendiri, jadi fail sandaran tidak boleh mengubah apa-apa lain pada telefon. Foto pengepala anda hanya disertakan jika suisnya dihidupkan, kerana ia menjadikan fail lebih besar.</string>
-    <string name="volume_style_title">Gaya panel kelantangan</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neon</item>

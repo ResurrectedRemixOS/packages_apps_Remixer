@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">ஒலி பலகம்</string>
     <string name="volume_page_summary">நியான், கண்ணாடி, பில் அல்லது கிளாசிக் RR</string>
-    <string name="volume_behavior">நடத்தை</string>
-    <string name="volume_on_left_title">இடது பக்கம் பலகம்</string>
-    <string name="volume_on_left_summary">கிளாசிக் RR எப்போதும் மேலே இருக்கும்</string>
-    <string name="volume_ringer_title">ஒலிப் பயன்முறை பொத்தான்</string>
-    <string name="volume_tick_title">ஸ்லைடு செய்யும்போது டிக் ஒலி</string>
-    <string name="volume_percent_title">நிலையை சதவீதத்தில் காட்டு</string>
     <string name="volume_timeout_title">இதற்குப் பிறகு மறை</string>
-    <string name="volume_footer">தோற்றம் பலகத்தின் காட்சியை மாற்றும், செயல்பாட்டை அல்ல. ஆண்ட்ராய்டு நிலையான பலகத்தை வைத்திருக்கும். ஒவ்வொரு ஒலி வகையையும் காண புள்ளிகளைத் தட்டவும்; விரிந்த பலகமும் அதே தோற்றத்தைப் பயன்படுத்தும்.</string>
 </resources>

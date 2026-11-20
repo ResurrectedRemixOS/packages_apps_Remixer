@@ -37,7 +37,6 @@
     <string name="backup_failed">ব্যাক-আপ সংরক্ষণ করা যায়নি</string>
     <string name="backup_invalid">ফাইলটি Resurrected Remix-এর ব্যাক-আপ নয়</string>
     <string name="backup_footer">ফাইলে শুধু RR-এর সেটিং থাকে: কোনো অ্যাকাউন্ট, পাসওয়ার্ড, ওয়াই-ফাই নেটওয়ার্ক, অ্যাপ বা বার্তা থাকে না। পুনরুদ্ধার শুধু RR-এর নিজস্ব তালিকার সেটিংই লেখে, তাই ব্যাক-আপ ফাইল ফোনের অন্য কিছু বদলাতে পারে না। হেডার ছবি শুধু তার সুইচ চালু থাকলেই যুক্ত হয়, কারণ এতে ফাইলের আকার বাড়ে।</string>
-    <string name="volume_style_title">ভলিউম প্যানেলের রূপ</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>নিয়ন</item>

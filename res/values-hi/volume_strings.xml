@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">वॉल्यूम पैनल</string>
     <string name="volume_page_summary">नियॉन, ग्लास, पिल या क्लासिक RR</string>
-    <string name="volume_behavior">व्यवहार</string>
-    <string name="volume_on_left_title">पैनल बाईं ओर</string>
-    <string name="volume_on_left_summary">क्लासिक RR हमेशा सबसे ऊपर रहता है</string>
-    <string name="volume_ringer_title">रिंगर मोड बटन</string>
-    <string name="volume_tick_title">खिसकाते समय टिक</string>
-    <string name="volume_percent_title">स्तर प्रतिशत में दिखाएं</string>
     <string name="volume_timeout_title">इसके बाद छिपाएं</string>
-    <string name="volume_footer">लुक से पैनल का रूप बदलता है, काम नहीं। Android स्टॉक पैनल रखता है। सभी स्ट्रीम देखने के लिए बिंदुओं पर टैप करें; विस्तारित पैनल भी वही लुक इस्तेमाल करता है।</string>
 </resources>

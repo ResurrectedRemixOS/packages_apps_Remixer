@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Дыбыс панелі</string>
     <string name="volume_page_summary">Неон, шыны, таблетка немесе классикалық RR</string>
-    <string name="volume_behavior">Әрекет</string>
-    <string name="volume_on_left_title">Панель сол жақта</string>
-    <string name="volume_on_left_summary">Классикалық RR әрқашан жоғарыда тұрады</string>
-    <string name="volume_ringer_title">Қоңырау режимі батырмасы</string>
-    <string name="volume_tick_title">Сырғытқанда белгі беріңіз</string>
-    <string name="volume_percent_title">Деңгейді пайызбен көрсету</string>
     <string name="volume_timeout_title">Кейін жасыру</string>
-    <string name="volume_footer">Көрініс панельдің сыртқы түрін өзгертеді, жұмыс істеу тәсілін емес. Android стандартты панельді сақтайды. Барлық ағындарды көру үшін нүктелерді басыңыз; кеңейтілген панель де осы көрінісін пайдаланады.</string>
 </resources>

@@ -37,7 +37,6 @@
     <string name="backup_failed">বেকআপ সংৰক্ষণ কৰিব নোৱাৰি</string>
     <string name="backup_invalid">এইটো Resurrected Remix বেকআপ ফাইল নহয়</string>
     <string name="backup_footer">কেৱল RR ৰ ছেটিংহে ফাইলত থাকিব: একাউণ্ট, পাছৱৰ্ড, ৱাই-ফাই নেটৱৰ্ক, এপ বা বাৰ্তা নহয়। পুনঃস্থাপনে কেৱল RR ৰ নিজা তালিকাৰ ছেটিংহে লিখে, সেয়েহে বেকআপ ফাইলে ফোনৰ আন একো সলনি কৰিব নোৱাৰে। আপোনাৰ হেডাৰ ফটো কেৱল তাৰ সুইচ অন থাকিলেহে অন্তৰ্ভুক্ত হয়, কাৰণ ইয়ে ফাইলটো ডাঙৰ কৰে।</string>
-    <string name="volume_style_title">ভলিউম পেনেলৰ শৈলী</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>নিঅ\'ন</item>

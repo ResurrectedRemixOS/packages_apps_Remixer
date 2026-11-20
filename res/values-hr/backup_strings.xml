@@ -37,7 +37,6 @@
     <string name="backup_failed">Sigurnosnu kopiju nije moguće spremiti</string>
     <string name="backup_invalid">Ta datoteka nije sigurnosna kopija Resurrected Remix</string>
     <string name="backup_footer">U datoteku se spremaju samo RR postavke: bez računa, lozinki, Wi-Fi mreža, aplikacija ili poruka. Vraćanje zapisuje samo postavke s RR-ova popisa, pa datoteka sigurnosne kopije ne može promijeniti ništa drugo na telefonu. Fotografija zaglavlja uključena je samo ako je njezin prekidač uključen, jer povećava datoteku.</string>
-    <string name="volume_style_title">Stil ploče glasnoće</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neon</item>

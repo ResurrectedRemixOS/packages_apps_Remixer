@@ -11,13 +11,13 @@ import android.widget.TextView;
 
 import androidx.core.graphics.ColorUtils;
 
-final class ChargingUi {
-    final float density;
-    final int accent;
-    final int glow;
-    final int deep;
+public final class ChargingUi {
+    public final float density;
+    public final int accent;
+    public final int glow;
+    public final int deep;
 
-    ChargingUi(Context context) {
+    public ChargingUi(Context context) {
         density = context.getResources().getDisplayMetrics().density;
         float[] hsl = new float[3];
         ColorUtils.colorToHSL(context.getColor(android.R.color.system_accent1_500), hsl);
@@ -31,7 +31,7 @@ final class ChargingUi {
         return ColorUtils.HSLToColor(new float[] {hue, saturation, lightness});
     }
 
-    GradientDrawable stage() {
+    public GradientDrawable stage() {
         GradientDrawable bg = new GradientDrawable();
         bg.setGradientType(GradientDrawable.RADIAL_GRADIENT);
         bg.setGradientCenter(0.5f, 1.12f);
@@ -41,7 +41,7 @@ final class ChargingUi {
         return bg;
     }
 
-    GradientDrawable shape(int fill, int stroke, float radiusDp, float strokeDp) {
+    public GradientDrawable shape(int fill, int stroke, float radiusDp, float strokeDp) {
         GradientDrawable shape = new GradientDrawable();
         shape.setColor(fill);
         if (stroke != 0) {
@@ -51,7 +51,7 @@ final class ChargingUi {
         return shape;
     }
 
-    TextView chip(Context context, CharSequence text, boolean onStage) {
+    public TextView chip(Context context, CharSequence text, boolean onStage) {
         TextView chip = new TextView(context);
         chip.setText(text);
         chip.setGravity(Gravity.CENTER);
@@ -72,7 +72,7 @@ final class ChargingUi {
         return chip;
     }
 
-    void setStageChip(TextView chip, boolean on) {
+    public void setStageChip(TextView chip, boolean on) {
         chip.setSelected(on);
         chip.setBackground(on ? shape(ColorUtils.setAlphaComponent(glow, 0x8C), accent, 14, 1)
                 : shape(0x4D000000, 0x40FFFFFF, 14, 1));

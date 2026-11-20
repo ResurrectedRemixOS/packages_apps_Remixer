@@ -12,7 +12,6 @@
     <string name="backup_group_gestures">Жести</string>
     <string name="backup_group_other">"Інше"</string>
     <string name="backup_done">"Готово"</string>
-    <string name="volume_style_title">Стиль панелі «Гучність»</string>
     <string name="backup_summary">Усі налаштування RR в одному файлі</string>
     <string name="backup_now">Створити резервну копію зараз</string>
     <string name="backup_never">Остання копія: ніколи</string>

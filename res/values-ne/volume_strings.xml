@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">भोल्युम प्यानल</string>
     <string name="volume_page_summary">नियोन, ग्लास, पिल वा क्लासिक RR</string>
-    <string name="volume_behavior">व्यवहार</string>
-    <string name="volume_on_left_title">बायाँ पट्टि प्यानल</string>
-    <string name="volume_on_left_summary">क्लासिक RR सधैं माथि बस्छ</string>
-    <string name="volume_ringer_title">घण्टी मोड बटन</string>
-    <string name="volume_tick_title">स्लाइड गर्दा टिक गर्नुहोस्</string>
-    <string name="volume_percent_title">प्रतिशतमा स्तर देखाउनुहोस्</string>
     <string name="volume_timeout_title">यसपछि लुकाउनुहोस्</string>
-    <string name="volume_footer">रूपले प्यानलको देखिने तरिका मात्र बदल्छ, काम गर्ने तरिका होइन। एन्ड्रोइडले स्टक प्यानल कायम राख्छ। सबै स्ट्रिमहरू हेर्न बिन्दुहरूमा ट्याप गर्नुहोस्; विस्तारित प्यानलमा उही रूप लागू हुन्छ।</string>
 </resources>

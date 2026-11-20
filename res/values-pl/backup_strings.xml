@@ -12,7 +12,6 @@
     <string name="backup_group_gestures">Gesty</string>
     <string name="backup_group_other">"Inne"</string>
     <string name="backup_done">"Gotowe"</string>
-    <string name="volume_style_title">Styl panelu głośności</string>
     <string name="backup_summary">Wszystkie ustawienia RR w jednym pliku</string>
     <string name="backup_now">Utwórz kopię teraz</string>
     <string name="backup_never">Ostatnia kopia: nigdy</string>

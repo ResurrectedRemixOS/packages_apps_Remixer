@@ -37,7 +37,6 @@
     <string name="backup_failed">ምትኬውን ማስቀመጥ አልተቻለም</string>
     <string name="backup_invalid">ይህ ፋይል የResurrected Remix ምትኬ አይደለም</string>
     <string name="backup_footer">ሁሉም ቅንብሮች የRR ቅንብሮች ብቻ ናቸው፤ መለያዎች፣ የይለፍ ቃሎች፣ የWi-Fi አውታረ መረቦች፣ መተግበሪያዎች ወይም መልዕክቶች በፋይሉ ውስጥ አይካተቱም። መልሶ ማስመለስ የሚጽፈው በRR ዝርዝር ላይ ያሉ ቅንብሮችን ብቻ ስለሆነ፣ የምትኬ ፋይሉ ሌላ ምንም ነገር ሊለውጥ አይችልም። የራስጌ ምስልህ የሚካተተው መቀያየሪያው ሲበራ ብቻ ነው፣ ምክንያቱም ፋይሉን ያበዛዋል።</string>
-    <string name="volume_style_title">የድምጽ ፓነል ዘይቤ</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>ኒዮን</item>

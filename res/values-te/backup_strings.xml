@@ -37,7 +37,6 @@
     <string name="backup_failed">బ్యాకప్‌ను సేవ్ చేయలేకపోయాం</string>
     <string name="backup_invalid">ఇది Resurrected Remix బ్యాకప్ ఫైల్ కాదు</string>
     <string name="backup_footer">ఆర్‌ఆర్ సెట్టింగ్‌లు మాత్రమే ఫైల్‌లో ఉంటాయి: ఖాతాలు, పాస్‌వర్డ్‌లు, Wi-Fi నెట్‌వర్క్‌లు, యాప్‌లు లేదా సందేశాలు ఉండవు. పునరుద్ధరణ RR జాబితాలోని సెట్టింగ్‌లను మాత్రమే మారుస్తుంది, కాబట్టి బ్యాకప్ ఫైల్ ఫోన్‌లో మరేదీ మార్చలేదు. మీ హెడర్ ఫోటో, దాని స్విచ్ ఆన్‌లో ఉంటేనే చేర్చబడుతుంది, ఎందుకంటే అది ఫైల్ పరిమాణాన్ని పెంచుతుంది.</string>
-    <string name="volume_style_title">వాల్యూమ్ ప్యానెల్ శైలి</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>నియాన్‌</item>

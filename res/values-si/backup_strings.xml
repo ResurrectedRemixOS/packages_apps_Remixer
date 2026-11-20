@@ -37,7 +37,6 @@
     <string name="backup_failed">උපස්ථය සුරැකිය නොහැකි විය</string>
     <string name="backup_invalid">එය Resurrected Remix උපස්ථ ගොනුවක් නොවේ</string>
     <string name="backup_footer">පසුබිම් ගොනුවේ RR සැකසීම් පමණක් ඇතුළත් වේ: ගිණුම්, මුරපද, Wi-Fi ජාල, යෙදුම් හෝ පණිවිඩ නැත. ප්‍රතිසාධනය කරන්නේ RR හි තමන්ගේම ලැයිස්තුවේ ඇති සැකසීම් පමණක් වන බැවින්, උපස්ථ ගොනුවකට දුරකථනයේ වෙනත් කිසිවක් වෙනස් කළ නොහැක. ගොනුව විශාල වීම නිසා, ඔබේ ශීර්ෂ පින්තූරය ඇතුළත් වන්නේ එහි ස්විචය ක්‍රියාත්මක නම් පමණි.</string>
-    <string name="volume_style_title">හඬ පැනලයේ ශෛලිය</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>නියොන්</item>

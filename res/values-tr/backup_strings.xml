@@ -12,7 +12,6 @@
     <string name="backup_group_gestures">Hareketler</string>
     <string name="backup_group_other">"Diğer"</string>
     <string name="backup_done">"Bitti"</string>
-    <string name="volume_style_title">Ses paneli stilleri</string>
     <string name="backup_summary">Tüm RR özelleştirmeleri tek dosyada</string>
     <string name="backup_now">Şimdi yedekle</string>
     <string name="backup_never">Son yedekleme: hiç</string>

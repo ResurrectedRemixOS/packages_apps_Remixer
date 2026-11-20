@@ -37,7 +37,6 @@
     <string name="backup_failed">Rezervimi nuk u ruajt</string>
     <string name="backup_invalid">Ky skedar nuk është një rezervim i Resurrected Remix</string>
     <string name="backup_footer">Në skedar hyjnë vetëm cilësimet e RR: asnjë llogari, fjalëkalim, rrjet Wi-Fi, aplikacion ose mesazh. Rikthimi shkruan vetëm cilësimet në listën e vetë RR, kështu që një skedar rezervimi nuk mund të ndryshojë asgjë tjetër në telefon. Fotoja e kokës përfshihet vetëm nëse çelësi i saj është i ndezur, sepse e bën skedarin më të madh.</string>
-    <string name="volume_style_title">Stili i panelit të volumit</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neon</item>

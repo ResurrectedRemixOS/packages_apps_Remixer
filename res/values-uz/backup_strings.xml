@@ -37,7 +37,6 @@
     <string name="backup_failed">Zaxirani saqlab bo\'lmadi</string>
     <string name="backup_invalid">Bu fayl Resurrected Remix zaxirasi emas</string>
     <string name="backup_footer">Faqat RR sozlamalari faylga kiritiladi: hisob qaydnomalari, parollar, Wi-Fi tarmoqlari, ilovalar yoki xabarlar kiritilmaydi. Tiklash faqat RR ro‘yxatidagi sozlamalarni yozadi, shuning uchun zaxira fayli telefondagi boshqa narsalarni o‘zgartira olmaydi. Sarlavha rasmingiz faqat tegishli kalit yoqilgan bo‘lsa qo‘shiladi, chunki bu fayl hajmini oshiradi.</string>
-    <string name="volume_style_title">Ovoz paneli uslubi</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neon</item>

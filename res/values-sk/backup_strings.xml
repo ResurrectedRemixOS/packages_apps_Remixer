@@ -37,7 +37,6 @@
     <string name="backup_failed">Zálohu sa nepodarilo uložiť</string>
     <string name="backup_invalid">Tento súbor nie je zálohou Resurrected Remix</string>
     <string name="backup_footer">Do súboru sa ukladajú iba nastavenia RR: žiadne účty, heslá, Wi-Fi siete, aplikácie ani správy. Obnovenie zapisuje iba nastavenia zo zoznamu RR, takže zálohový súbor nemôže zmeniť nič iné v telefóne. Fotka hlavičky je zahrnutá, iba ak je jej prepínač zapnutý, pretože zväčšuje súbor.</string>
-    <string name="volume_style_title">Štýl panela hlasitosti</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neón</item>

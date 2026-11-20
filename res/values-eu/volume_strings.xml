@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Bolumen panela</string>
     <string name="volume_page_summary">Neon, Kristala, Pilula edo RR klasikoa</string>
-    <string name="volume_behavior">Portaera</string>
-    <string name="volume_on_left_title">Panela ezkerrean</string>
-    <string name="volume_on_left_summary">RR klasikoa beti goialdean dago</string>
-    <string name="volume_ringer_title">Timbre-modua botoia</string>
-    <string name="volume_tick_title">Markatu irristatzean</string>
-    <string name="volume_percent_title">Erakutsi maila ehunekotan</string>
     <string name="volume_timeout_title">Ezkutatu ondoren</string>
-    <string name="volume_footer">Itxura aldatzen du panelaren itxura, ez funtzionamendua. Android-ek panel estandarra mantentzen du. Sakatu puntuak korronte guztiak ikusteko; panel zabaldua itxura berdina du.</string>
 </resources>

@@ -37,7 +37,6 @@
     <string name="backup_failed">Varnostne kopije ni bilo mogoče shraniti</string>
     <string name="backup_invalid">Ta datoteka ni varnostna kopija Resurrected Remix</string>
     <string name="backup_footer">V datoteko gredo samo nastavitve RR: brez računov, gesel, omrežij Wi-Fi, aplikacij ali sporočil. Obnova zapisuje le nastavitve s seznama RR, zato datoteka ne more spremeniti ničesar drugega v telefonu. Vaša naslovna fotografija je vključena samo, če je stikalo vklopljeno, saj poveča datoteko.</string>
-    <string name="volume_style_title">Slog plošče glasnosti</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neon</item>

@@ -37,7 +37,6 @@
     <string name="backup_failed">სარეზერვო კოპირების შენახვა ვერ მოხერხდა</string>
     <string name="backup_invalid">ეს ფაილი Resurrected Remix-ის სარეზერვო კოპირება არ არის</string>
     <string name="backup_footer">ფაილში მხოლოდ RR-ის პარამეტრები ჩაიწერება: ანგარიშები, პაროლები, Wi-Fi ქსელები, აპები ან შეტყობინებები არ შედის. აღდგენა წერს მხოლოდ RR-ის სიაში არსებულ პარამეტრებს, ამიტომ სარეზერვო ფაილი ტელეფონის სხვა არაფერს ვერ შეცვლის. თქვენი სათაურის ფოტო ფაილში შედის მხოლოდ იმ შემთხვევაში, თუ მისი გადამრთველი ჩართულია, რადგან ის ფაილს ზრდის.</string>
-    <string name="volume_style_title">ხმის პანელის სტილი</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>ნეონი</item>

@@ -2,12 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="volume_page_title">Lautstärkeregler</string>
     <string name="volume_page_summary">Neon, Glas, Leiste oder Klassisches RR</string>
-    <string name="volume_behavior">Verhalten</string>
-    <string name="volume_on_left_title">Bereich links</string>
-    <string name="volume_on_left_summary">Klassisches RR sitzt immer oben</string>
-    <string name="volume_ringer_title">Klingelmodus-Taste</string>
-    <string name="volume_tick_title">Ticken beim Schieben</string>
-    <string name="volume_percent_title">Stand in Prozent anzeigen</string>
     <string name="volume_timeout_title">Ausblenden nach</string>
-    <string name="volume_footer">Ein Stil ändert das Aussehen des Bereichs, nicht seine Funktion. Android behält den Standardbereich. Tippe auf die Punkte für alle Streams; der erweiterte Bereich nutzt denselben Stil.</string>
 </resources>

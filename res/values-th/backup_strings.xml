@@ -37,7 +37,6 @@
     <string name="backup_failed">ไม่สามารถบันทึกการสำรองข้อมูลได้</string>
     <string name="backup_invalid">ไฟล์นี้ไม่ใช่ไฟล์สำรองของ Resurrected Remix</string>
     <string name="backup_footer">ไฟล์นี้มีเฉพาะการตั้งค่าของ RR ไม่มีบัญชี รหัสผ่าน เครือข่าย Wi-Fi แอป หรือข้อความ การกู้คืนจะเขียนเฉพาะการตั้งค่าในรายการของ RR เท่านั้น ไฟล์สำรองจึงเปลี่ยนสิ่งอื่นในโทรศัพท์ไม่ได้ รูปหัวข้อของคุณจะรวมอยู่ด้วยเฉพาะเมื่อเปิดสวิตช์ไว้ เพราะทำให้ไฟล์มีขนาดใหญ่ขึ้น</string>
-    <string name="volume_style_title">รูปแบบแผงระดับเสียง</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>นีออน</item>

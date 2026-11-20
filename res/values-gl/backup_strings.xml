@@ -37,7 +37,6 @@
     <string name="backup_failed">Non se puido gardar a copia</string>
     <string name="backup_invalid">Ese ficheiro non é unha copia de Resurrected Remix</string>
     <string name="backup_footer">No ficheiro só van axustes de RR: sen contas, contrasinais, redes Wi-Fi, apps nin mensaxes. A restauración só escribe axustes da lista propia de RR, así que un ficheiro de copia non pode cambiar nada máis do teléfono. A imaxe da cabeceira inclúese só se o seu interruptor está activo, porque fai o ficheiro máis grande.</string>
-    <string name="volume_style_title">Estilo do panel de volume</string>
     <string-array name="volume_style_entries">
         <item>Android</item>
         <item>Neón</item>
