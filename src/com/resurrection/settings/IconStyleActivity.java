@@ -19,6 +19,7 @@ import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.os.RemoteException;
 import android.os.ServiceManager;
+import android.os.SystemClock;
 import android.os.UserHandle;
 import android.provider.Settings;
 import android.view.LayoutInflater;
@@ -47,10 +48,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Random;
+import java.util.Set;
 
 public class IconStyleActivity extends CollapsingToolbarBaseActivity {
     public static final String KIND_SIGNAL = "signal";
@@ -436,7 +439,45 @@ public class IconStyleActivity extends CollapsingToolbarBaseActivity {
             Toast.makeText(this, R.string.remixer_icon_style_failed, Toast.LENGTH_SHORT).show();
             return;
         }
-        Utils.restartSystemUI();
+        Set<String> all = new HashSet<>();
+        Set<String> want = new HashSet<>();
+        for (String kind : new String[] {KIND_SIGNAL, KIND_WIFI}) {
+            for (OverlayInfo info : overlays(mOverlayManager, kind)) {
+                all.add(info.baseCodePath);
+                if (info.packageName.equals(mSignal) || info.packageName.equals(mWifi)) {
+                    want.add(info.baseCodePath);
+                }
+            }
+        }
+        mAppliedSignal = mSignal;
+        mAppliedWifi = mWifi;
+        update();
+        PackageManager pm = getPackageManager();
+        new Thread(() -> {
+            long until = SystemClock.uptimeMillis() + 3000;
+            while (!loaded(pm, all, want) && SystemClock.uptimeMillis() < until) {
+                SystemClock.sleep(50);
+            }
+            Utils.restartSystemUI();
+        }).start();
+    }
+
+    private static boolean loaded(PackageManager pm, Set<String> all, Set<String> want) {
+        Set<String> have = new HashSet<>();
+        try {
+            String[] paths = pm.getApplicationInfoAsUser(TARGET, 0, UserHandle.USER_SYSTEM)
+                    .overlayPaths;
+            if (paths != null) {
+                for (String path : paths) {
+                    if (all.contains(path)) {
+                        have.add(path);
+                    }
+                }
+            }
+        } catch (PackageManager.NameNotFoundException e) {
+            return true;
+        }
+        return have.equals(want);
     }
 
     private void enable(String kind, String pkg) throws RemoteException {
