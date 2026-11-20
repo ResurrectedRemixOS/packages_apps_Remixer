@@ -140,6 +140,9 @@
     <string name="scroll_haptics_summary">ലിസ്റ്റോ പേജോ മുന്നോട്ട് പോകാനാകാത്തപ്പോൾ നേരിയ വൈബ്രേഷൻ</string>
     <string name="usb_mode_picker_title">USB മോഡ് തിരഞ്ഞെടുക്കൽ</string>
     <string name="usb_mode_picker_summary">കമ്പ്യൂട്ടറിലേക്ക് കണക്ട് ചെയ്യുമ്പോൾ ഒരു മോഡ് തിരഞ്ഞെടുക്കുക</string>
+    <string name="misc_category_screenshots">സ്ക്രീൻഷോട്ടുകൾ</string>
+    <string name="secure_screenshots_title">ഏത് ആപ്പിന്റെയും സ്ക്രീൻഷോട്ട്</string>
+    <string name="secure_screenshots_summary">അവ ബ്ലോക്ക് ചെയ്യുന്ന ആപ്പുകളിലും സ്ക്രീൻഷോട്ടും റെക്കോർഡിംഗും എടുക്കുക. സ്വകാര്യ ഉള്ളടക്കം കാണിച്ചേക്കാം</string>
     <string name="remixer_fonts_summary">സിസ്റ്റം ഫോണ്ട്</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix വാൾപേപ്പറുകൾ</string>
     <string name="remixer_accents">ആക്സന്റുകൾ</string>

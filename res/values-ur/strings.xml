@@ -141,6 +141,9 @@
     <string name="scroll_haptics_summary">جب کوئی فہرست یا صفحہ مزید نہ جا سکے تو ہلکی وائبریشن</string>
     <string name="usb_mode_picker_title">USB موڈ منتخب کنندہ</string>
     <string name="usb_mode_picker_summary">کمپیوٹر سے جوڑنے پر ایک موڈ منتخب کریں</string>
+    <string name="misc_category_screenshots">اسکرین شاٹس</string>
+    <string name="secure_screenshots_title">کسی بھی ایپ کا اسکرین شاٹ</string>
+    <string name="secure_screenshots_summary">جو ایپس اسکرین شاٹس اور ریکارڈنگ بلاک کرتی ہیں ان میں بھی لیں۔ ان میں نجی مواد نظر آ سکتا ہے</string>
     <string name="remixer_fonts_summary">سسٹم فونٹ</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix وال پیپرز</string>
     <string name="remixer_accents">لہجے</string>

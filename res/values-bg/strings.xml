@@ -142,6 +142,9 @@
     <string name="scroll_haptics_summary">Лека вибрация, когато списък или страница не може да се превърта по-нататък</string>
     <string name="usb_mode_picker_title">Избор на USB режим</string>
     <string name="usb_mode_picker_summary">Изберете режим при свързване към компютър</string>
+    <string name="misc_category_screenshots">Екранни снимки</string>
+    <string name="secure_screenshots_title">Екранна снимка на всяко приложение</string>
+    <string name="secure_screenshots_summary">Правете екранни снимки и записи в приложения, които ги блокират. Може да покажат лично съдържание</string>
     <string name="remixer_fonts_summary">Системен шрифт</string>
     <string name="remixer_wallpapers_summary">Тапети на Resurrected Remix</string>
     <string name="remixer_accents">Акценти</string>

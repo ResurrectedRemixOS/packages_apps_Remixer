@@ -140,6 +140,9 @@
     <string name="scroll_haptics_summary">목록이나 페이지가 더 이상 이동할 수 없을 때 약하게 진동</string>
     <string name="usb_mode_picker_title">USB 모드 선택기</string>
     <string name="usb_mode_picker_summary">컴퓨터에 연결할 때 모드 선택</string>
+    <string name="misc_category_screenshots">스크린샷</string>
+    <string name="secure_screenshots_title">모든 앱 스크린샷</string>
+    <string name="secure_screenshots_summary">차단하는 앱에서도 스크린샷과 화면 녹화를 할 수 있습니다. 개인 정보가 담길 수 있습니다</string>
     <string name="remixer_fonts_summary">시스템 글꼴</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix 배경화면</string>
     <string name="remixer_accents">강조 색상</string>

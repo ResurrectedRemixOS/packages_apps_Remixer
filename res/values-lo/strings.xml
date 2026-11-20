@@ -140,6 +140,9 @@
     <string name="scroll_haptics_summary">ສັ່ນເບົາໆເມື່ອລາຍການ ຫຼື ໜ້າບໍ່ສາມາດເລື່ອນໄດ້ອີກ</string>
     <string name="usb_mode_picker_title">ຕົວເລືອກໂໝດ USB</string>
     <string name="usb_mode_picker_summary">ເລືອກໂໝດເມື່ອເສຍບເຂົ້າຄອມພິວເຕີ</string>
+    <string name="misc_category_screenshots">ພາບໜ້າຈໍ</string>
+    <string name="secure_screenshots_title">ຖ່າຍໜ້າຈໍແອັບໃດກໍໄດ້</string>
+    <string name="secure_screenshots_summary">ຖ່າຍພາບ ແລະ ບັນທຶກໜ້າຈໍໃນແອັບທີ່ບລັອກມັນ. ອາດສະແດງເນື້ອຫາສ່ວນຕົວ</string>
     <string name="remixer_fonts_summary">ຟອນຂອງລະບົບ</string>
     <string name="remixer_wallpapers_summary">ຮູບພື້ນຫຼັງ Resurrected Remix</string>
     <string name="remixer_accents">ສີເນັ້ນ</string>

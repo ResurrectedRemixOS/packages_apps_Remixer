@@ -143,6 +143,9 @@
     <string name="scroll_haptics_summary">En lätt vibration när en lista eller sida inte kan rullas längre</string>
     <string name="usb_mode_picker_title">Väljare för USB-läge</string>
     <string name="usb_mode_picker_summary">Välj ett läge när du ansluter till en dator</string>
+    <string name="misc_category_screenshots">Skärmbilder</string>
+    <string name="secure_screenshots_title">Skärmbild i alla appar</string>
+    <string name="secure_screenshots_summary">Ta skärmbilder och inspelningar i appar som blockerar dem. De kan visa privat innehåll</string>
     <string name="remixer_fonts_summary">Systemtypsnitt</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix-bakgrunder</string>
     <string name="remixer_accents">Accenter</string>

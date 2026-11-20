@@ -147,6 +147,9 @@
     <string name="scroll_haptics_summary">اهتزاز خفيف عند الوصول إلى نهاية القائمة أو الصفحة</string>
     <string name="usb_mode_picker_title">منتقي وضع USB</string>
     <string name="usb_mode_picker_summary">اختر وضعًا عند توصيل الهاتف بحاسوب</string>
+    <string name="misc_category_screenshots">لقطات الشاشة</string>
+    <string name="secure_screenshots_title">التقاط شاشة أي تطبيق</string>
+    <string name="secure_screenshots_summary">التقط لقطات الشاشة والتسجيلات في التطبيقات التي تمنعها. قد تُظهر اللقطات محتوى خاصًا</string>
     <string name="remixer_fonts_summary">خط النظام</string>
     <string name="remixer_wallpapers_summary">خلفيات Resurrected Remix</string>
     <string name="remixer_accents">ألوان التمييز</string>

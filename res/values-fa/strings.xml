@@ -141,6 +141,9 @@
     <string name="scroll_haptics_summary">لرزش خفیف وقتی فهرست یا صفحه دیگر قابل پیمایش نیست</string>
     <string name="usb_mode_picker_title">انتخاب‌گر حالت USB</string>
     <string name="usb_mode_picker_summary">هنگام اتصال به رایانه یک حالت انتخاب کنید</string>
+    <string name="misc_category_screenshots">نماگرفت‌ها</string>
+    <string name="secure_screenshots_title">نماگرفت از هر برنامه</string>
+    <string name="secure_screenshots_summary">در برنامه‌هایی که نماگرفت و ضبط صفحه را مسدود می‌کنند هم آن‌ها را بگیرید. ممکن است محتوای خصوصی نشان داده شود</string>
     <string name="remixer_fonts_summary">قلم سیستم</string>
     <string name="remixer_wallpapers_summary">کاغذدیواری‌های Resurrected Remix</string>
     <string name="remixer_accents">رنگ‌های تأکیدی</string>

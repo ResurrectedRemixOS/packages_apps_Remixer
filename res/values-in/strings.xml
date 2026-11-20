@@ -140,6 +140,9 @@
     <string name="scroll_haptics_summary">Getaran ringan saat daftar atau halaman tidak bisa digulir lagi</string>
     <string name="usb_mode_picker_title">Pemilih mode USB</string>
     <string name="usb_mode_picker_summary">Pilih mode saat terhubung ke komputer</string>
+    <string name="misc_category_screenshots">Screenshot</string>
+    <string name="secure_screenshots_title">Screenshot aplikasi apa pun</string>
+    <string name="secure_screenshots_summary">Ambil screenshot dan rekaman di aplikasi yang memblokirnya. Hasilnya dapat menampilkan konten pribadi</string>
     <string name="remixer_fonts_summary">Font sistem</string>
     <string name="remixer_wallpapers_summary">Wallpaper Resurrected Remix</string>
     <string name="remixer_accents">Aksen</string>

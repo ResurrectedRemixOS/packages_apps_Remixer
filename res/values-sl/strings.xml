@@ -144,6 +144,9 @@
     <string name="scroll_haptics_summary">Rahlo vibriranje, ko seznam ali stran ne more več naprej</string>
     <string name="usb_mode_picker_title">Izbirnik načina USB</string>
     <string name="usb_mode_picker_summary">Izberite način ob priklopu na računalnik</string>
+    <string name="misc_category_screenshots">Posnetki zaslona</string>
+    <string name="secure_screenshots_title">Posnetek zaslona katere koli aplikacije</string>
+    <string name="secure_screenshots_summary">Zajemite posnetke in snemanja zaslona v aplikacijah, ki jih blokirajo. Lahko prikažejo zasebno vsebino</string>
     <string name="remixer_fonts_summary">Sistemska pisava</string>
     <string name="remixer_wallpapers_summary">Ozadja Resurrected Remix</string>
     <string name="remixer_accents">Poudarne barve</string>

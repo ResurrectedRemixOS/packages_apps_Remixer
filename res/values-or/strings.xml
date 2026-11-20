@@ -137,6 +137,9 @@
     <string name="scroll_haptics_summary">ତାଲିକା କିମ୍ବା ପୃଷ୍ଠା ଆଗକୁ ଯାଇପାରିବ ନାହିଁ ସେତେବେଳେ ହାଲୁକା ଭାଇବ୍ରେସନ</string>
     <string name="usb_mode_picker_title">USB ମୋଡ୍ ବାଛନ୍ତୁ</string>
     <string name="usb_mode_picker_summary">କମ୍ପ୍ୟୁଟରରେ ସଂଯୋଗ କଲେ ଗୋଟିଏ ମୋଡ୍ ବାଛନ୍ତୁ</string>
+    <string name="misc_category_screenshots">ସ୍କ୍ରିନସଟ</string>
+    <string name="secure_screenshots_title">ଯେକୌଣସି ଆପର ସ୍କ୍ରିନସଟ</string>
+    <string name="secure_screenshots_summary">ଯେଉଁ ଆପ୍ସ ସ୍କ୍ରିନସଟ ଓ ରେକର୍ଡିଂ ବ୍ଲକ କରେ ସେଥିରେ ମଧ୍ୟ ନିଅନ୍ତୁ। ଏଥିରେ ବ୍ୟକ୍ତିଗତ ବିଷୟବସ୍ତୁ ଦେଖାଯାଇପାରେ</string>
     <string name="remixer_fonts_summary">ସିଷ୍ଟମ ଫଣ୍ଟ</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix ୱାଲପେପର</string>
     <string name="remixer_accents">ଆକ୍ସେଣ୍ଟ</string>

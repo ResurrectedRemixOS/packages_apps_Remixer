@@ -134,6 +134,9 @@
     <string name="scroll_haptics_summary">তালিকা বা পৃষ্ঠা আৰু আগুৱাব নোৱাৰিলে হালকা কঁপনি</string>
     <string name="usb_mode_picker_title">USB মোড বাছনি</string>
     <string name="usb_mode_picker_summary">কম্পিউটাৰৰ সৈতে সংযোগ কৰোঁতে এটা মোড বাছক</string>
+    <string name="misc_category_screenshots">স্ক্ৰীণশ্বট</string>
+    <string name="secure_screenshots_title">যিকোনো এপৰ স্ক্ৰীণশ্বট লওক</string>
+    <string name="secure_screenshots_summary">যিবোৰ এপে স্ক্ৰীণশ্বট আৰু ৰেকৰ্ডিং অৱৰোধ কৰে সেইবোৰতো লওক। কেপচাৰত ব্যক্তিগত সমল দেখা যাব পাৰে</string>
     <string name="remixer_fonts_summary">ছিষ্টেম ফ’ণ্ট</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix ৱালপেপাৰ</string>
     <string name="remixer_accents">এক্সেণ্ট</string>

@@ -136,6 +136,9 @@
     <string name="scroll_haptics_summary">စာရင်း သို့မဟုတ် စာမျက်နှာ ထပ်မသွားနိုင်တော့သည့်အခါ အလင်းပေါ့ပေါ့ တုန်ခါမည်</string>
     <string name="usb_mode_picker_title">USB မုဒ်ရွေးချယ်ကိရိယာ</string>
     <string name="usb_mode_picker_summary">ကွန်ပျူတာနှင့် ချိတ်ဆက်သည့်အခါ မုဒ်တစ်ခုကို ရွေးပါ</string>
+    <string name="misc_category_screenshots">ဖန်သားပြင်ဓာတ်ပုံများ</string>
+    <string name="secure_screenshots_title">မည်သည့်အက်ပ်မဆို ဖန်သားပြင်ဓာတ်ပုံ</string>
+    <string name="secure_screenshots_summary">၎င်းတို့ကို ပိတ်ထားသော အက်ပ်များတွင်ပါ ဖန်သားပြင်ဓာတ်ပုံနှင့် ရိုက်ကူးမှုများ ယူပါ။ ကိုယ်ရေးအကြောင်းအရာ ပေါ်နိုင်သည်</string>
     <string name="remixer_fonts_summary">စနစ်ဖောင့်</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix နောက်ခံများ</string>
     <string name="remixer_accents">အရောင်များ</string>

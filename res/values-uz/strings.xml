@@ -140,6 +140,9 @@
     <string name="scroll_haptics_summary">Ro‘yxat yoki sahifa to‘xtaganda yengil tebranish</string>
     <string name="usb_mode_picker_title">USB rejimi tanlagich</string>
     <string name="usb_mode_picker_summary">Kompyuterga ulanganda rejimni tanlang</string>
+    <string name="misc_category_screenshots">Skrinshotlar</string>
+    <string name="secure_screenshots_title">Istalgan ilova skrinshoti</string>
+    <string name="secure_screenshots_summary">Ularni bloklaydigan ilovalarda ham skrinshot va yozib olish. Shaxsiy kontent ko‘rinishi mumkin</string>
     <string name="remixer_fonts_summary">Tizim shrifti</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix fon rasmlari</string>
     <string name="remixer_accents">Urg‘u ranglari</string>

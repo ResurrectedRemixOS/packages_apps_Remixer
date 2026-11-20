@@ -118,6 +118,9 @@
     <string name="scroll_haptics_summary">Mahinang vibration kapag hindi na makakausad pa ang listahan o pahina</string>
     <string name="usb_mode_picker_title">Pagpili ng USB mode</string>
     <string name="usb_mode_picker_summary">Pumili ng mode kapag isinaksak mo sa computer</string>
+    <string name="misc_category_screenshots">Mga screenshot</string>
+    <string name="secure_screenshots_title">I-screenshot ang anumang app</string>
+    <string name="secure_screenshots_summary">Kumuha ng mga screenshot at recording sa mga app na humaharang dito. Maaaring makita ang pribadong content</string>
     <string name="remixer_fonts_summary">System font</string>
     <string name="remixer_wallpapers_summary">Mga wallpaper ng Resurrected Remix</string>
     <string name="remixer_accents">Mga accent</string>

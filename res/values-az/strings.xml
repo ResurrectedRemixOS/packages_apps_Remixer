@@ -138,6 +138,9 @@
     <string name="scroll_haptics_summary">Siyahı və ya səhifə daha irəli gedə bilmədikdə yüngül titrəmə</string>
     <string name="usb_mode_picker_title">USB rejimi seçicisi</string>
     <string name="usb_mode_picker_summary">Kompüterə qoşulduqda rejim seçin</string>
+    <string name="misc_category_screenshots">Ekran görüntüləri</string>
+    <string name="secure_screenshots_title">İstənilən tətbiqin ekran görüntüsü</string>
+    <string name="secure_screenshots_summary">Bunu bloklayan tətbiqlərdə ekran görüntüsü və yazı çəkin. Çəkilişlər şəxsi məzmunu göstərə bilər</string>
     <string name="remixer_fonts_summary">Sistem şrifti</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix divar kağızları</string>
     <string name="remixer_accents">Vurğular</string>

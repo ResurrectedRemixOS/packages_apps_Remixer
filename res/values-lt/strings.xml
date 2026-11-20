@@ -143,6 +143,9 @@
     <string name="scroll_haptics_summary">Lengvas virpesys, kai sąrašas ar puslapis nebegali slinkti toliau</string>
     <string name="usb_mode_picker_title">USB režimo pasirinkimas</string>
     <string name="usb_mode_picker_summary">Pasirinkite režimą, kai prijungiate prie kompiuterio</string>
+    <string name="misc_category_screenshots">Ekrano kopijos</string>
+    <string name="secure_screenshots_title">Bet kurios programos ekrano kopija</string>
+    <string name="secure_screenshots_summary">Darykite ekrano kopijas ir įrašus programose, kurios juos blokuoja. Jose gali matytis privatus turinys</string>
     <string name="remixer_fonts_summary">Sistemos šriftas</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix ekrano fonai</string>
     <string name="remixer_accents">Akcentai</string>

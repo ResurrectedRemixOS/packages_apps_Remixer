@@ -140,6 +140,9 @@
     <string name="scroll_haptics_summary">સૂચિ કે પેજ વધુ ન જઈ શકે ત્યારે હળવું વાઇબ્રેશન</string>
     <string name="usb_mode_picker_title">USB મોડ પસંદગી</string>
     <string name="usb_mode_picker_summary">કમ્પ્યુટર સાથે જોડો ત્યારે મોડ પસંદ કરો</string>
+    <string name="misc_category_screenshots">સ્ક્રીનશૉટ</string>
+    <string name="secure_screenshots_title">કોઈપણ ઍપનો સ્ક્રીનશૉટ</string>
+    <string name="secure_screenshots_summary">જે ઍપ સ્ક્રીનશૉટ અને રેકોર્ડિંગ બ્લૉક કરે છે તેમાં પણ લો. તેમાં ખાનગી કન્ટેન્ટ દેખાઈ શકે છે</string>
     <string name="remixer_fonts_summary">સિસ્ટમ ફોન્ટ</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix વૉલપેપર</string>
     <string name="remixer_accents">ઍક્સેન્ટ</string>

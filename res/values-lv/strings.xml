@@ -142,6 +142,9 @@
     <string name="scroll_haptics_summary">Viegla vibrācija, kad saraksts vai lapa nevar virzīties tālāk</string>
     <string name="usb_mode_picker_title">USB režīma izvēle</string>
     <string name="usb_mode_picker_summary">Izvēlieties režīmu, kad pievienojat datoram</string>
+    <string name="misc_category_screenshots">Ekrānuzņēmumi</string>
+    <string name="secure_screenshots_title">Jebkuras lietotnes ekrānuzņēmums</string>
+    <string name="secure_screenshots_summary">Veidojiet ekrānuzņēmumus un ierakstus lietotnēs, kas tos bloķē. Tajos var būt redzams privāts saturs</string>
     <string name="remixer_fonts_summary">Sistēmas fonts</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix fona tapetes</string>
     <string name="remixer_accents">Akcenti</string>

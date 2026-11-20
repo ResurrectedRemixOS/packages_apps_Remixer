@@ -140,6 +140,9 @@
     <string name="scroll_haptics_summary">リストやページがそれ以上スクロールできないときに軽く振動</string>
     <string name="usb_mode_picker_title">USB モードの選択</string>
     <string name="usb_mode_picker_summary">パソコンに接続したときにモードを選択</string>
+    <string name="misc_category_screenshots">スクリーンショット</string>
+    <string name="secure_screenshots_title">すべてのアプリでスクリーンショット</string>
+    <string name="secure_screenshots_summary">ブロックしているアプリでもスクリーンショットと画面録画を撮れます。個人的な内容が写る場合があります</string>
     <string name="remixer_fonts_summary">システム フォント</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix の壁紙</string>
     <string name="remixer_accents">アクセント</string>

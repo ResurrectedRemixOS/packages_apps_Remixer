@@ -137,6 +137,9 @@
     <string name="scroll_haptics_summary">\'n Ligte vibrasie wanneer \'n lys of bladsy nie verder kan gaan nie</string>
     <string name="usb_mode_picker_title">USB-modus-kieser</string>
     <string name="usb_mode_picker_summary">Kies \'n modus wanneer jy aan \'n rekenaar koppel</string>
+    <string name="misc_category_screenshots">Skermkiekies</string>
+    <string name="secure_screenshots_title">Neem skermkiekies in enige program</string>
+    <string name="secure_screenshots_summary">Neem skermkiekies en opnames in programme wat dit blokkeer. Opnames kan private inhoud wys</string>
     <string name="remixer_fonts_summary">Stelsellettertipe</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix-muurpapiere</string>
     <string name="remixer_accents">Aksente</string>

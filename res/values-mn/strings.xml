@@ -143,6 +143,9 @@
     <string name="scroll_haptics_summary">Жагсаалт эсвэл хуудас цааш явж чадахгүй үед бага зэрэг чичирнэ</string>
     <string name="usb_mode_picker_title">USB горимын сонгогч</string>
     <string name="usb_mode_picker_summary">Компьютерт холбогдоход горим сонгоно</string>
+    <string name="misc_category_screenshots">Дэлгэцийн агшин</string>
+    <string name="secure_screenshots_title">Дурын аппын дэлгэцийн агшин</string>
+    <string name="secure_screenshots_summary">Тэдгээрийг хориглодог аппад ч дэлгэцийн агшин, бичлэг хийнэ. Хувийн агуулга харагдаж болзошгүй</string>
     <string name="remixer_fonts_summary">Системийн фонт</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix дэлгэцийн зургууд</string>
     <string name="remixer_accents">Акцентууд</string>

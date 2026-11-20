@@ -145,6 +145,9 @@
     <string name="scroll_haptics_summary">列表或页面无法继续滚动时轻微振动</string>
     <string name="usb_mode_picker_title">USB 模式选择器</string>
     <string name="usb_mode_picker_summary">连接电脑时选择模式</string>
+    <string name="misc_category_screenshots">屏幕截图</string>
+    <string name="secure_screenshots_title">任意应用截图</string>
+    <string name="secure_screenshots_summary">在禁止截屏的应用中也能截屏和录屏。可能会显示隐私内容</string>
     <string name="remixer_fonts_summary">系统字体</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix 壁纸</string>
     <string name="remixer_accents">强调色</string>

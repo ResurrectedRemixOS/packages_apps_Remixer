@@ -143,6 +143,9 @@
     <string name="scroll_haptics_summary">Թեթև թրթռոց, երբ ցուցակը կամ էջը այլևս չի կարող ոլորվել</string>
     <string name="usb_mode_picker_title">USB ռեժիմի ընտրիչ</string>
     <string name="usb_mode_picker_summary">Ընտրիր ռեժիմ, երբ միացնում ես համակարգչին</string>
+    <string name="misc_category_screenshots">Սքրինշոթեր</string>
+    <string name="secure_screenshots_title">Սքրինշոթ ցանկացած հավելվածում</string>
+    <string name="secure_screenshots_summary">Արեք սքրինշոթեր և տեսագրություններ այն հավելվածներում, որոնք արգելափակում են դրանք։ Դրանք կարող են ցույց տալ անձնական բովանդակություն</string>
     <string name="remixer_fonts_summary">Համակարգի տառատեսակ</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix պաստառներ</string>
     <string name="remixer_accents">Շեշտադրումներ</string>

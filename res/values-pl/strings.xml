@@ -140,6 +140,9 @@
     <string name="scroll_haptics_summary">Lekka wibracja, gdy lista lub strona nie może przewinąć się dalej</string>
     <string name="usb_mode_picker_title">Wybór trybu USB</string>
     <string name="usb_mode_picker_summary">Wybieraj tryb po podłączeniu do komputera</string>
+    <string name="misc_category_screenshots">Zrzuty ekranu</string>
+    <string name="secure_screenshots_title">Zrzut ekranu dowolnej aplikacji</string>
+    <string name="secure_screenshots_summary">Rób zrzuty i nagrania ekranu w aplikacjach, które je blokują. Mogą pokazywać prywatne treści</string>
     <string name="remixer_fonts_summary">Czcionka systemowa</string>
     <string name="remixer_wallpapers_summary">Tapety Resurrected Remix</string>
     <string name="remixer_accents">Akcenty</string>

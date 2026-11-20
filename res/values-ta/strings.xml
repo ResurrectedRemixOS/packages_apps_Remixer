@@ -141,6 +141,9 @@
     <string name="scroll_haptics_summary">பட்டியல் அல்லது பக்கம் மேலே செல்ல முடியாதபோது லேசான அதிர்வு</string>
     <string name="usb_mode_picker_title">USB பயன்முறைத் தேர்வி</string>
     <string name="usb_mode_picker_summary">கணினியுடன் இணைக்கும்போது ஒரு பயன்முறையைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="misc_category_screenshots">ஸ்கிரீன்ஷாட்கள்</string>
+    <string name="secure_screenshots_title">எந்த ஆப்ஸையும் ஸ்கிரீன்ஷாட் எடு</string>
+    <string name="secure_screenshots_summary">தடுக்கும் ஆப்ஸிலும் ஸ்கிரீன்ஷாட்களையும் ரெக்கார்டிங்குகளையும் எடுக்கலாம். தனிப்பட்ட உள்ளடக்கம் தெரியக்கூடும்</string>
     <string name="remixer_fonts_summary">கணினி எழுத்துரு</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix வால்பேப்பர்கள்</string>
     <string name="remixer_accents">உச்சரிப்புகள்</string>

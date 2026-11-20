@@ -144,6 +144,9 @@
     <string name="scroll_haptics_summary">Ελαφρά δόνηση όταν μια λίστα ή σελίδα δεν μπορεί να συνεχίσει παραπέρα</string>
     <string name="usb_mode_picker_title">Επιλογέας λειτουργίας USB</string>
     <string name="usb_mode_picker_summary">Επιλέξτε λειτουργία όταν συνδέετε στον υπολογιστή</string>
+    <string name="misc_category_screenshots">Στιγμιότυπα οθόνης</string>
+    <string name="secure_screenshots_title">Στιγμιότυπο σε κάθε εφαρμογή</string>
+    <string name="secure_screenshots_summary">Λήψη στιγμιότυπων και εγγραφών σε εφαρμογές που τα αποκλείουν. Μπορεί να εμφανίζουν ιδιωτικό περιεχόμενο</string>
     <string name="remixer_fonts_summary">Γραμματοσειρά συστήματος</string>
     <string name="remixer_wallpapers_summary">Ταπετσαρίες Resurrected Remix</string>
     <string name="remixer_accents">Τονικά χρώματα</string>

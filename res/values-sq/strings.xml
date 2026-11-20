@@ -137,6 +137,9 @@
     <string name="scroll_haptics_summary">Një dridhje e lehtë kur një listë ose faqe nuk mund të shkojë më tej</string>
     <string name="usb_mode_picker_title">Zgjedhësi i modalitetit USB</string>
     <string name="usb_mode_picker_summary">Zgjidhni një modalitet kur lidheni me një kompjuter</string>
+    <string name="misc_category_screenshots">Pamjet e ekranit</string>
+    <string name="secure_screenshots_title">Pamje ekrani në çdo aplikacion</string>
+    <string name="secure_screenshots_summary">Bëj pamje dhe regjistrime ekrani në aplikacionet që i bllokojnë. Mund të shfaqin përmbajtje private</string>
     <string name="remixer_fonts_summary">Fonti i sistemit</string>
     <string name="remixer_wallpapers_summary">Sfondet e Resurrected Remix</string>
     <string name="remixer_accents">Theksimet</string>

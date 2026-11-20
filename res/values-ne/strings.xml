@@ -140,6 +140,9 @@
     <string name="scroll_haptics_summary">सूची वा पृष्ठ अब अगाडि जान नसक्दा हल्का कम्पन</string>
     <string name="usb_mode_picker_title">USB मोड छनौटकर्ता</string>
     <string name="usb_mode_picker_summary">कम्प्युटरमा जोड्दा मोड छान्नुहोस्</string>
+    <string name="misc_category_screenshots">स्क्रिनसटहरू</string>
+    <string name="secure_screenshots_title">कुनै पनि एपको स्क्रिनसट</string>
+    <string name="secure_screenshots_summary">स्क्रिनसट र रेकर्डिङ ब्लक गर्ने एपहरूमा पनि लिनुहोस्। तिनमा निजी सामग्री देखिन सक्छ</string>
     <string name="remixer_fonts_summary">सिस्टम फन्ट</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix वालपेपरहरू</string>
     <string name="remixer_accents">एक्सेन्टहरू</string>

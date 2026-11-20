@@ -146,6 +146,9 @@
     <string name="scroll_haptics_summary">Лёгкая вибрация, когда список или страницу больше нельзя прокрутить</string>
     <string name="usb_mode_picker_title">Выбор режима USB</string>
     <string name="usb_mode_picker_summary">Выбор режима при подключении к компьютеру</string>
+    <string name="misc_category_screenshots">Скриншоты</string>
+    <string name="secure_screenshots_title">Скриншоты в любом приложении</string>
+    <string name="secure_screenshots_summary">Делайте скриншоты и записи экрана в приложениях, которые их блокируют. На них может попасть личная информация</string>
     <string name="remixer_fonts_summary">Системный шрифт</string>
     <string name="remixer_wallpapers_summary">Обои Resurrected Remix</string>
     <string name="remixer_accents">Акценты</string>

@@ -143,6 +143,9 @@
     <string name="scroll_haptics_summary">רטט קל כשאי אפשר להמשיך לגלול ברשימה או בדף</string>
     <string name="usb_mode_picker_title">בוחר מצב USB</string>
     <string name="usb_mode_picker_summary">בחר מצב כשמחברים למחשב</string>
+    <string name="misc_category_screenshots">צילומי מסך</string>
+    <string name="secure_screenshots_title">צילום מסך בכל אפליקציה</string>
+    <string name="secure_screenshots_summary">אפשר לצלם ולהקליט את המסך גם באפליקציות שחוסמות זאת. הצילומים עלולים להציג תוכן פרטי</string>
     <string name="remixer_fonts_summary">גופן מערכת</string>
     <string name="remixer_wallpapers_summary">טפטים של Resurrected Remix</string>
     <string name="remixer_accents">צבעי הדגשה</string>

@@ -136,6 +136,9 @@
     <string name="scroll_haptics_summary">Et svagt vibrationssignal, når en liste eller side ikke kan rulle længere</string>
     <string name="usb_mode_picker_title">Valg af USB-tilstand</string>
     <string name="usb_mode_picker_summary">Vælg en tilstand, når du tilslutter en computer</string>
+    <string name="misc_category_screenshots">Screenshots</string>
+    <string name="secure_screenshots_title">Tag screenshot af enhver app</string>
+    <string name="secure_screenshots_summary">Tag screenshots og optagelser i apps, der blokerer dem. Optagelserne kan vise privat indhold</string>
     <string name="remixer_fonts_summary">Systemskrifttype</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix-baggrunde</string>
     <string name="remixer_accents">Accenter</string>

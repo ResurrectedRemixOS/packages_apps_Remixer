@@ -137,6 +137,9 @@
     <string name="scroll_haptics_summary">Getaran ringan apabila senarai atau halaman tidak boleh diskrol lagi</string>
     <string name="usb_mode_picker_title">Pemilih mod USB</string>
     <string name="usb_mode_picker_summary">Pilih mod apabila disambungkan ke komputer</string>
+    <string name="misc_category_screenshots">Tangkapan skrin</string>
+    <string name="secure_screenshots_title">Tangkap skrin mana-mana apl</string>
+    <string name="secure_screenshots_summary">Ambil tangkapan skrin dan rakaman dalam apl yang menyekatnya. Ia mungkin menunjukkan kandungan peribadi</string>
     <string name="remixer_fonts_summary">Fon sistem</string>
     <string name="remixer_wallpapers_summary">Hiasan latar Resurrected Remix</string>
     <string name="remixer_accents">Aksen</string>

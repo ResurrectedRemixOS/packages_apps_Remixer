@@ -144,6 +144,9 @@
     <string name="scroll_haptics_summary">Enyhe rezgés, ha egy lista vagy oldal nem tud tovább görgetni</string>
     <string name="usb_mode_picker_title">USB-mód választó</string>
     <string name="usb_mode_picker_summary">Válassz módot, amikor számítógéphez csatlakoztatod</string>
+    <string name="misc_category_screenshots">Képernyőképek</string>
+    <string name="secure_screenshots_title">Képernyőkép bármely alkalmazásból</string>
+    <string name="secure_screenshots_summary">Képernyőképek és felvételek azokban az alkalmazásokban is, amelyek tiltják. Személyes tartalmat mutathatnak</string>
     <string name="remixer_fonts_summary">Rendszer betűtípus</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix háttérképek</string>
     <string name="remixer_accents">Kiemelőszínek</string>

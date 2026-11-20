@@ -139,6 +139,9 @@
     <string name="scroll_haptics_summary">ញ័រស្រាលនៅពេលបញ្ជី ឬទំព័រមិនអាចរំកិលបន្តបាន</string>
     <string name="usb_mode_picker_title">ជម្រើសរបៀប USB</string>
     <string name="usb_mode_picker_summary">ជ្រើសរបៀបនៅពេលអ្នកភ្ជាប់ទៅកុំព្យូទ័រ</string>
+    <string name="misc_category_screenshots">រូបថតអេក្រង់</string>
+    <string name="secure_screenshots_title">ថតអេក្រង់កម្មវិធីណាក៏បាន</string>
+    <string name="secure_screenshots_summary">ថតអេក្រង់ និងថតវីដេអូអេក្រង់ក្នុងកម្មវិធីដែលទប់ស្កាត់វា។ អាចបង្ហាញខ្លឹមសារឯកជន</string>
     <string name="remixer_fonts_summary">ពុម្ពអក្សរប្រព័ន្ធ</string>
     <string name="remixer_wallpapers_summary">ផ្ទាំងរូបភាព Resurrected Remix</string>
     <string name="remixer_accents">ពណ៌ដៃ</string>

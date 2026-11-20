@@ -139,6 +139,9 @@
     <string name="scroll_haptics_summary">Zerrenda edo orria gehiago ezin denean bibrazio arina</string>
     <string name="usb_mode_picker_title">USB modu-hautatzailea</string>
     <string name="usb_mode_picker_summary">Hautatu modua ordenagailu batera konektatzean</string>
+    <string name="misc_category_screenshots">Pantaila-argazkiak</string>
+    <string name="secure_screenshots_title">Atera edozein aplikazioren pantaila-argazkia</string>
+    <string name="secure_screenshots_summary">Atera pantaila-argazkiak eta grabaketak blokeatzen dituzten aplikazioetan. Eduki pribatua erakuts dezakete</string>
     <string name="remixer_fonts_summary">Sistemaren letra-tipoa</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix horma-paperak</string>
     <string name="remixer_accents">Azentuak</string>

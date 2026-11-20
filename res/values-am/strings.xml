@@ -144,6 +144,9 @@
     <string name="scroll_haptics_summary">ዝርዝር ወይም ገፅ ከዚህ በላይ መሄድ በማይችልበት ጊዜ ቀላል ንዝረት</string>
     <string name="usb_mode_picker_title">የUSB ሁነታ መምረጫ</string>
     <string name="usb_mode_picker_summary">ከኮምፒውተር ጋር ሲያገናኙ ሁነታ ይምረጡ</string>
+    <string name="misc_category_screenshots">ቅጽበታዊ ገጽ እይታዎች</string>
+    <string name="secure_screenshots_title">የማንኛውንም መተግበሪያ ቅጽበታዊ ገጽ እይታ ያንሱ</string>
+    <string name="secure_screenshots_summary">እነሱን በሚያግዱ መተግበሪያዎች ውስጥ ቅጽበታዊ ገጽ እይታዎችን እና ቀረጻዎችን ያንሱ። ቀረጻዎች የግል ይዘትን ሊያሳዩ ይችላሉ</string>
     <string name="remixer_fonts_summary">የስርዓት ቅርጸ-ቁምፊ</string>
     <string name="remixer_wallpapers_summary">የResurrected Remix ልጣፎች</string>
     <string name="remixer_accents">አክሰንቶች</string>

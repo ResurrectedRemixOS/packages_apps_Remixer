@@ -140,6 +140,9 @@
     <string name="scroll_haptics_summary">జాబితా లేదా పేజీ ఇంకా కదలలేనప్పుడు తేలికపాటి వైబ్రేషన్‌</string>
     <string name="usb_mode_picker_title">USB మోడ్‌ ఎంపిక</string>
     <string name="usb_mode_picker_summary">కంప్యూటర్‌కు కనెక్ట్ చేసినప్పుడు ఒక మోడ్‌ను ఎంచుకోండి</string>
+    <string name="misc_category_screenshots">స్క్రీన్‌షాట్‌లు</string>
+    <string name="secure_screenshots_title">ఏ యాప్‌నైనా స్క్రీన్‌షాట్ తీయండి</string>
+    <string name="secure_screenshots_summary">వాటిని బ్లాక్ చేసే యాప్‌లలో కూడా స్క్రీన్‌షాట్‌లు, రికార్డింగ్‌లు తీయండి. వ్యక్తిగత కంటెంట్ కనిపించవచ్చు</string>
     <string name="remixer_fonts_summary">సిస్టమ్ ఫాంట్‌</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix వాల్‌పేపర్‌లు</string>
     <string name="remixer_accents">యాక్సెంట్‌లు</string>

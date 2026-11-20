@@ -135,6 +135,9 @@
     <string name="scroll_haptics_summary">Une légère vibration quand une liste ou une page ne peut plus défiler</string>
     <string name="usb_mode_picker_title">Sélecteur de mode USB</string>
     <string name="usb_mode_picker_summary">Choisissez un mode lors du branchement à un ordinateur</string>
+    <string name="misc_category_screenshots">Captures d\'écran</string>
+    <string name="secure_screenshots_title">Capturer n\'importe quelle appli</string>
+    <string name="secure_screenshots_summary">Prenez des captures et enregistrements d\'écran dans les applis qui les bloquent. Ils peuvent montrer du contenu privé</string>
     <string name="remixer_fonts_summary">Police du système</string>
     <string name="remixer_wallpapers_summary">Fonds d\'écran Resurrected Remix</string>
     <string name="remixer_accents">Accents</string>

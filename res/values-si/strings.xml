@@ -136,6 +136,9 @@
     <string name="scroll_haptics_summary">ලැයිස්තුවක් හෝ පිටුවක් තවත් ඉදිරියට යා නොහැකි විට සැහැල්ලු කම්පනයක්</string>
     <string name="usb_mode_picker_title">USB ක්‍රම තෝරන්නා</string>
     <string name="usb_mode_picker_summary">පරිගණකයකට සම්බන්ධ කරන විට ක්‍රමයක් තෝරන්න</string>
+    <string name="misc_category_screenshots">තිර රූ</string>
+    <string name="secure_screenshots_title">ඕනෑම යෙදුමක තිර රුවක්</string>
+    <string name="secure_screenshots_summary">ඒවා අවහිර කරන යෙදුම්වලත් තිර රූ සහ පටිගත කිරීම් ගන්න. පුද්ගලික අන්තර්ගතය පෙනිය හැක</string>
     <string name="remixer_fonts_summary">පද්ධති අකුර</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix වෝල්පේපර</string>
     <string name="remixer_accents">උච්චාරණ</string>

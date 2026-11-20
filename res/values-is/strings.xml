@@ -141,6 +141,9 @@
     <string name="scroll_haptics_summary">Létt titringur þegar listi eða síða kemst ekki lengra</string>
     <string name="usb_mode_picker_title">Val á USB-ham</string>
     <string name="usb_mode_picker_summary">Veldu ham þegar tækið er tengt við tölvu</string>
+    <string name="misc_category_screenshots">Skjámyndir</string>
+    <string name="secure_screenshots_title">Skjámynd úr hvaða forriti sem er</string>
+    <string name="secure_screenshots_summary">Taktu skjámyndir og upptökur í forritum sem loka á þær. Þær geta sýnt einkaefni</string>
     <string name="remixer_fonts_summary">Kerfisleturgerð</string>
     <string name="remixer_wallpapers_summary">Veggfóður frá Resurrected Remix</string>
     <string name="remixer_accents">Áherslulitir</string>

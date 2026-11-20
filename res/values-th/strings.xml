@@ -141,6 +141,9 @@
     <string name="scroll_haptics_summary">สั่นเบา ๆ เมื่อรายการหรือหน้าเลื่อนต่อไม่ได้</string>
     <string name="usb_mode_picker_title">ตัวเลือกโหมด USB</string>
     <string name="usb_mode_picker_summary">เลือกโหมดเมื่อเสียบกับคอมพิวเตอร์</string>
+    <string name="misc_category_screenshots">ภาพหน้าจอ</string>
+    <string name="secure_screenshots_title">จับภาพหน้าจอได้ทุกแอป</string>
+    <string name="secure_screenshots_summary">จับภาพและบันทึกหน้าจอในแอปที่บล็อกไว้ได้ อาจแสดงเนื้อหาส่วนตัว</string>
     <string name="remixer_fonts_summary">แบบอักษรระบบ</string>
     <string name="remixer_wallpapers_summary">วอลเปเปอร์ Resurrected Remix</string>
     <string name="remixer_accents">สีเน้น</string>

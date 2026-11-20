@@ -141,6 +141,9 @@
     <string name="scroll_haptics_summary">Eine leichte Vibration, wenn eine Liste oder Seite nicht weiter scrollen kann</string>
     <string name="usb_mode_picker_title">USB-Modusauswahl</string>
     <string name="usb_mode_picker_summary">Wähle einen Modus, wenn du dich mit einem Computer verbindest</string>
+    <string name="misc_category_screenshots">Screenshots</string>
+    <string name="secure_screenshots_title">Screenshots in jeder App</string>
+    <string name="secure_screenshots_summary">Screenshots und Bildschirmaufnahmen auch in Apps, die sie blockieren. Aufnahmen können private Inhalte zeigen</string>
     <string name="remixer_fonts_summary">Systemschriftart</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix-Hintergründe</string>
     <string name="remixer_accents">Akzente</string>

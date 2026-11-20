@@ -137,6 +137,9 @@
     <string name="scroll_haptics_summary">Ukudlidliza okuncane uma uhlu noma ikhasi lingeke lihambe ngaphezulu</string>
     <string name="usb_mode_picker_title">Ukukhetha imodi ye-USB</string>
     <string name="usb_mode_picker_summary">Khetha imodi uma uxhuma kukhompyutha</string>
+    <string name="misc_category_screenshots">Izithombe-skrini</string>
+    <string name="secure_screenshots_title">Thatha isithombe-skrini sanoma iyiphi i-app</string>
+    <string name="secure_screenshots_summary">Thatha izithombe-skrini nokuqopha kuma-app azivimbayo. Kungase kubonise okuqukethwe okuyimfihlo</string>
     <string name="remixer_fonts_summary">Ifonti yesistimu</string>
     <string name="remixer_wallpapers_summary">Izithombe zangemuva ze-Resurrected Remix</string>
     <string name="remixer_accents">Imibala eyinhloko</string>

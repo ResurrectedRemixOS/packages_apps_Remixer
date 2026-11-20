@@ -139,6 +139,9 @@
     <string name="scroll_haptics_summary">তালিকা বা পৃষ্ঠা আর সরতে না পারলে হালকা কম্পন</string>
     <string name="usb_mode_picker_title">USB মোড নির্বাচক</string>
     <string name="usb_mode_picker_summary">কম্পিউটারে সংযুক্ত করলে একটি মোড বেছে নিন</string>
+    <string name="misc_category_screenshots">স্ক্রিনশট</string>
+    <string name="secure_screenshots_title">যেকোনো অ্যাপের স্ক্রিনশট</string>
+    <string name="secure_screenshots_summary">যেসব অ্যাপ স্ক্রিনশট ও রেকর্ডিং ব্লক করে সেখানেও নিন। এতে ব্যক্তিগত কন্টেন্ট দেখা যেতে পারে</string>
     <string name="remixer_fonts_summary">সিস্টেম ফন্ট</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix ওয়ালপেপার</string>
     <string name="remixer_accents">অ্যাকসেন্ট</string>

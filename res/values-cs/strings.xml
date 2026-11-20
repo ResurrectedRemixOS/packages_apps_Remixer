@@ -137,6 +137,9 @@
     <string name="scroll_haptics_summary">Lehké zavibrování, když seznam nebo stránka nejde dál posunout</string>
     <string name="usb_mode_picker_title">Výběr režimu USB</string>
     <string name="usb_mode_picker_summary">Při připojení k počítači vyberte režim</string>
+    <string name="misc_category_screenshots">Snímky obrazovky</string>
+    <string name="secure_screenshots_title">Snímek obrazovky v jakékoli aplikaci</string>
+    <string name="secure_screenshots_summary">Pořizujte snímky a záznamy obrazovky i v aplikacích, které je blokují. Mohou zachytit soukromý obsah</string>
     <string name="remixer_fonts_summary">Systémové písmo</string>
     <string name="remixer_wallpapers_summary">Tapety Resurrected Remix</string>
     <string name="remixer_accents">Akcenty</string>

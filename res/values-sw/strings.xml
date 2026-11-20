@@ -141,6 +141,9 @@
     <string name="scroll_haptics_summary">Mtetemo mwepesi orodha au ukurasa unapofikia mwisho</string>
     <string name="usb_mode_picker_title">Kichagua hali ya USB</string>
     <string name="usb_mode_picker_summary">Chagua hali unapounganisha kwenye kompyuta</string>
+    <string name="misc_category_screenshots">Picha za skrini</string>
+    <string name="secure_screenshots_title">Piga picha ya skrini ya programu yoyote</string>
+    <string name="secure_screenshots_summary">Piga picha za skrini na rekodi katika programu zinazozizuia. Zinaweza kuonyesha maudhui ya faragha</string>
     <string name="remixer_fonts_summary">Fonti ya mfumo</string>
     <string name="remixer_wallpapers_summary">Mandhari za Resurrected Remix</string>
     <string name="remixer_accents">Lafudhi</string>

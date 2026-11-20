@@ -141,6 +141,9 @@
     <string name="scroll_haptics_summary">Vibrazione leggera quando un elenco o una pagina non può scorrere oltre</string>
     <string name="usb_mode_picker_title">Selettore modalità USB</string>
     <string name="usb_mode_picker_summary">Scegli una modalità quando colleghi il telefono a un computer</string>
+    <string name="misc_category_screenshots">Screenshot</string>
+    <string name="secure_screenshots_title">Screenshot di qualsiasi app</string>
+    <string name="secure_screenshots_summary">Acquisisci screenshot e registrazioni nelle app che li bloccano. Possono mostrare contenuti privati</string>
     <string name="remixer_fonts_summary">Carattere di sistema</string>
     <string name="remixer_wallpapers_summary">Sfondi di Resurrected Remix</string>
     <string name="remixer_accents">Colori primari</string>

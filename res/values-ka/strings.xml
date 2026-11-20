@@ -140,6 +140,9 @@
     <string name="scroll_haptics_summary">მსუბუქი ვიბრაცია, როცა სია ან გვერდი ვეღარ გადაინაცვლებს</string>
     <string name="usb_mode_picker_title">USB რეჟიმის ამრჩევი</string>
     <string name="usb_mode_picker_summary">აირჩიეთ რეჟიმი კომპიუტერთან შეერთებისას</string>
+    <string name="misc_category_screenshots">ეკრანის ანაბეჭდები</string>
+    <string name="secure_screenshots_title">ნებისმიერი აპის ეკრანის ანაბეჭდი</string>
+    <string name="secure_screenshots_summary">გადაიღეთ ეკრანის ანაბეჭდები და ჩანაწერები აპებში, რომლებიც მათ ბლოკავს. შეიძლება გამოჩნდეს პირადი კონტენტი</string>
     <string name="remixer_fonts_summary">სისტემური შრიფტი</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix ფონები</string>
     <string name="remixer_accents">აქცენტები</string>

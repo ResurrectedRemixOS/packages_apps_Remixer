@@ -144,6 +144,9 @@
     <string name="scroll_haptics_summary">यादी किंवा पेज पुढे जाऊ शकत नसताना हलका कंपन</string>
     <string name="usb_mode_picker_title">USB मोड निवडक</string>
     <string name="usb_mode_picker_summary">संगणकाला जोडल्यावर मोड निवडा</string>
+    <string name="misc_category_screenshots">स्क्रीनशॉट</string>
+    <string name="secure_screenshots_title">कोणत्याही ॲपचा स्क्रीनशॉट</string>
+    <string name="secure_screenshots_summary">जी ॲप्स स्क्रीनशॉट आणि रेकॉर्डिंग ब्लॉक करतात त्यातही घ्या. त्यात खाजगी आशय दिसू शकतो</string>
     <string name="remixer_fonts_summary">सिस्टम फॉंट</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix वॉलपेपर</string>
     <string name="remixer_accents">ॲक्सेंट</string>

@@ -103,6 +103,9 @@
     <string name="scroll_haptics_summary">A light vibration when a list or page can\'t go any further</string>
     <string name="usb_mode_picker_title">USB mode picker</string>
     <string name="usb_mode_picker_summary">Pick a mode when you plug into a computer</string>
+    <string name="misc_category_screenshots">Screenshots</string>
+    <string name="secure_screenshots_title">Screenshot any app</string>
+    <string name="secure_screenshots_summary">Take screenshots and recordings in apps that block them. Captures can show private content</string>
     <!-- Hub card previews: illustrations, not live values. -->
     <string name="remixer_preview_traffic" translatable="false">\u2193 2.4 MB/s</string>
     <string name="remixer_preview_pif" translatable="false">Play Integrity Fix</string>

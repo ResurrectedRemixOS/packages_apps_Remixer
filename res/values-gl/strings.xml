@@ -140,6 +140,9 @@
     <string name="scroll_haptics_summary">Vibración suave cando unha lista ou páxina non pode avanzar máis</string>
     <string name="usb_mode_picker_title">Selector de modo USB</string>
     <string name="usb_mode_picker_summary">Escolle un modo ao conectar a un ordenador</string>
+    <string name="misc_category_screenshots">Capturas de pantalla</string>
+    <string name="secure_screenshots_title">Capturar calquera aplicación</string>
+    <string name="secure_screenshots_summary">Fai capturas e gravacións de pantalla en aplicacións que as bloquean. Poden mostrar contido privado</string>
     <string name="remixer_fonts_summary">Tipo de letra do sistema</string>
     <string name="remixer_wallpapers_summary">Fondos de pantalla de Resurrected Remix</string>
     <string name="remixer_accents">Acentos</string>

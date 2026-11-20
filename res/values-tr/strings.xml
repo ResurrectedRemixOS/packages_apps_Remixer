@@ -143,6 +143,9 @@
     <string name="scroll_haptics_summary">Liste veya sayfa daha fazla ilerleyemediğinde hafif titreşim</string>
     <string name="usb_mode_picker_title">USB modu seçici</string>
     <string name="usb_mode_picker_summary">Bilgisayara bağlandığınızda bir mod seçin</string>
+    <string name="misc_category_screenshots">Ekran görüntüleri</string>
+    <string name="secure_screenshots_title">Her uygulamada ekran görüntüsü</string>
+    <string name="secure_screenshots_summary">Engelleyen uygulamalarda da ekran görüntüsü ve kaydı alın. Özel içerik görünebilir</string>
     <string name="remixer_fonts_summary">Sistem yazı tipi</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix duvar kağıtları</string>
     <string name="remixer_accents">Vurgular</string>

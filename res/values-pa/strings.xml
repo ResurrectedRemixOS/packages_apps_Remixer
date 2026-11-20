@@ -140,6 +140,9 @@
     <string name="scroll_haptics_summary">ਜਦੋਂ ਕੋਈ ਸੂਚੀ ਜਾਂ ਪੰਨਾ ਹੋਰ ਅੱਗੇ ਨਾ ਜਾ ਸਕੇ ਤਾਂ ਹਲਕੀ ਵਾਈਬ੍ਰੇਸ਼ਨ</string>
     <string name="usb_mode_picker_title">USB ਮੋਡ ਚੁਣਨਾ</string>
     <string name="usb_mode_picker_summary">ਕੰਪਿਊਟਰ ਨਾਲ ਜੋੜਨ \'ਤੇ ਮੋਡ ਚੁਣੋ</string>
+    <string name="misc_category_screenshots">ਸਕ੍ਰੀਨਸ਼ਾਟ</string>
+    <string name="secure_screenshots_title">ਕਿਸੇ ਵੀ ਐਪ ਦਾ ਸਕ੍ਰੀਨਸ਼ਾਟ</string>
+    <string name="secure_screenshots_summary">ਜੋ ਐਪਾਂ ਸਕ੍ਰੀਨਸ਼ਾਟ ਅਤੇ ਰਿਕਾਰਡਿੰਗ ਬਲਾਕ ਕਰਦੀਆਂ ਹਨ ਉਨ੍ਹਾਂ ਵਿੱਚ ਵੀ ਲਓ। ਇਨ੍ਹਾਂ ਵਿੱਚ ਨਿੱਜੀ ਸਮੱਗਰੀ ਦਿਖ ਸਕਦੀ ਹੈ</string>
     <string name="remixer_fonts_summary">ਸਿਸਟਮ ਫੌਂਟ</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix ਵਾਲਪੇਪਰ</string>
     <string name="remixer_accents">ਐਕਸੈਂਟ</string>

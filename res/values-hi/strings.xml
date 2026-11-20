@@ -141,6 +141,9 @@
     <string name="scroll_haptics_summary">जब कोई सूची या पेज और आगे न जा सके, तब हल्का वाइब्रेशन</string>
     <string name="usb_mode_picker_title">USB मोड चुनने वाला</string>
     <string name="usb_mode_picker_summary">कंप्यूटर से जोड़ने पर मोड चुनें</string>
+    <string name="misc_category_screenshots">स्क्रीनशॉट</string>
+    <string name="secure_screenshots_title">किसी भी ऐप का स्क्रीनशॉट</string>
+    <string name="secure_screenshots_summary">जो ऐप स्क्रीनशॉट और रिकॉर्डिंग ब्लॉक करते हैं, उनमें भी लें. इनमें निजी कॉन्टेंट दिख सकता है</string>
     <string name="remixer_fonts_summary">सिस्टम फ़ॉन्ट</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix वॉलपेपर</string>
     <string name="remixer_accents">एक्सेंट</string>

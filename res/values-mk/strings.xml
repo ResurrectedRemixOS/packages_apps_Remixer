@@ -136,6 +136,9 @@
     <string name="scroll_haptics_summary">Лесна вибрација кога список или страница не може да оди подалеку</string>
     <string name="usb_mode_picker_title">Избирач на USB режим</string>
     <string name="usb_mode_picker_summary">Изберете режим кога ќе го поврзете со компјутер</string>
+    <string name="misc_category_screenshots">Слики од екранот</string>
+    <string name="secure_screenshots_title">Слика од екранот на која било апликација</string>
+    <string name="secure_screenshots_summary">Правете слики и снимки од екранот во апликации што ги блокираат. Може да прикажат приватна содржина</string>
     <string name="remixer_fonts_summary">Системски фонт</string>
     <string name="remixer_wallpapers_summary">Тапети на Resurrected Remix</string>
     <string name="remixer_accents">Акценти</string>

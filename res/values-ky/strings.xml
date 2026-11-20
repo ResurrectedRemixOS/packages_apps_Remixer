@@ -139,6 +139,9 @@
     <string name="scroll_haptics_summary">Тизме же барак андан ары кете албаганда жеңил титирөө</string>
     <string name="usb_mode_picker_title">USB режимин тандоо</string>
     <string name="usb_mode_picker_summary">Компьютерге туташканда режимди тандаңыз</string>
+    <string name="misc_category_screenshots">Скриншоттор</string>
+    <string name="secure_screenshots_title">Каалаган колдонмонун скриншоту</string>
+    <string name="secure_screenshots_summary">Аларды бөгөттөгөн колдонмолордо да скриншот жана жаздыруу жасаңыз. Жеке мазмун көрүнүшү мүмкүн</string>
     <string name="remixer_fonts_summary">Системанын арипи</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix тушкагаздары</string>
     <string name="remixer_accents">Акценттер</string>

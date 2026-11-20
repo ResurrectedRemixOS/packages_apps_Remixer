@@ -141,6 +141,9 @@
     <string name="scroll_haptics_summary">Vibrație ușoară când o listă sau o pagină nu mai poate fi derulată</string>
     <string name="usb_mode_picker_title">Selector mod USB</string>
     <string name="usb_mode_picker_summary">Alege un mod când conectezi la un computer</string>
+    <string name="misc_category_screenshots">Capturi de ecran</string>
+    <string name="secure_screenshots_title">Captură de ecran în orice aplicație</string>
+    <string name="secure_screenshots_summary">Fă capturi și înregistrări de ecran în aplicațiile care le blochează. Pot arăta conținut privat</string>
     <string name="remixer_fonts_summary">Font de sistem</string>
     <string name="remixer_wallpapers_summary">Imagini de fundal Resurrected Remix</string>
     <string name="remixer_accents">Accente</string>

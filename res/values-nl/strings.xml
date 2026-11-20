@@ -140,6 +140,9 @@
     <string name="scroll_haptics_summary">Een lichte trilling wanneer een lijst of pagina niet verder kan</string>
     <string name="usb_mode_picker_title">Kiezer voor USB-modus</string>
     <string name="usb_mode_picker_summary">Kies een modus wanneer je op een computer aansluit</string>
+    <string name="misc_category_screenshots">Screenshots</string>
+    <string name="secure_screenshots_title">Screenshot van elke app</string>
+    <string name="secure_screenshots_summary">Maak screenshots en opnamen in apps die ze blokkeren. Ze kunnen privé-inhoud laten zien</string>
     <string name="remixer_fonts_summary">Systeemlettertype</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix-achtergronden</string>
     <string name="remixer_accents">Accenten</string>

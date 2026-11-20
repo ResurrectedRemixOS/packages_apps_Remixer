@@ -141,6 +141,9 @@
     <string name="scroll_haptics_summary">Легка вібрація, коли список або сторінка не можуть прокрутитися далі</string>
     <string name="usb_mode_picker_title">Вибір режиму USB</string>
     <string name="usb_mode_picker_summary">Вибирати режим при підключенні до комп’ютера</string>
+    <string name="misc_category_screenshots">Знімки екрана</string>
+    <string name="secure_screenshots_title">Знімок екрана будь-якого додатка</string>
+    <string name="secure_screenshots_summary">Робіть знімки й записи екрана в додатках, які їх блокують. На них може потрапити особистий вміст</string>
     <string name="remixer_fonts_summary">Системний шрифт</string>
     <string name="remixer_wallpapers_summary">Фонові малюнки Resurrected Remix</string>
     <string name="remixer_accents">Акценти</string>

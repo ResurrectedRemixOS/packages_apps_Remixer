@@ -136,6 +136,9 @@
     <string name="scroll_haptics_summary">Et lett vibrasjonssignal når en liste eller side ikke kan gå lenger</string>
     <string name="usb_mode_picker_title">Velger for USB-modus</string>
     <string name="usb_mode_picker_summary">Velg en modus når du kobler til en datamaskin</string>
+    <string name="misc_category_screenshots">Skjermbilder</string>
+    <string name="secure_screenshots_title">Ta skjermbilde av alle apper</string>
+    <string name="secure_screenshots_summary">Ta skjermbilder og opptak i apper som blokkerer dem. De kan vise privat innhold</string>
     <string name="remixer_fonts_summary">Systemskrift</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix-bakgrunner</string>
     <string name="remixer_accents">Aksenter</string>

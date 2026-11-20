@@ -83,4 +83,16 @@
             android:defaultValue="true" />
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="misc_screenshots"
+        android:title="@string/misc_category_screenshots">
+
+        <lineageos.preference.GlobalSettingSwitchPreference
+            android:key="window_ignore_secure"
+            android:icon="@drawable/ic_misc_screenshot"
+            android:title="@string/secure_screenshots_title"
+            android:summary="@string/secure_screenshots_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
 </PreferenceScreen>

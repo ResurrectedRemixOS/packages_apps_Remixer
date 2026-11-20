@@ -146,6 +146,9 @@
     <string name="scroll_haptics_summary">Rung nhẹ khi danh sách hoặc trang không thể cuộn thêm</string>
     <string name="usb_mode_picker_title">Bộ chọn chế độ USB</string>
     <string name="usb_mode_picker_summary">Chọn chế độ khi cắm vào máy tính</string>
+    <string name="misc_category_screenshots">Ảnh chụp màn hình</string>
+    <string name="secure_screenshots_title">Chụp màn hình mọi ứng dụng</string>
+    <string name="secure_screenshots_summary">Chụp và quay màn hình trong ứng dụng chặn việc này. Có thể lộ nội dung riêng tư</string>
     <string name="remixer_fonts_summary">Phông chữ hệ thống</string>
     <string name="remixer_wallpapers_summary">Hình nền Resurrected Remix</string>
     <string name="remixer_accents">Màu nhấn</string>

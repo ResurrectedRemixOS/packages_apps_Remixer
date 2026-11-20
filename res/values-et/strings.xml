@@ -142,6 +142,9 @@
     <string name="scroll_haptics_summary">Kerge vibratsioon, kui loend või lehekülg ei saa enam liikuda</string>
     <string name="usb_mode_picker_title">USB-režiimi valija</string>
     <string name="usb_mode_picker_summary">Režiimi valimine arvutiga ühendamisel</string>
+    <string name="misc_category_screenshots">Ekraanipildid</string>
+    <string name="secure_screenshots_title">Ekraanipilt igast rakendusest</string>
+    <string name="secure_screenshots_summary">Tehke ekraanipilte ja -salvestisi ka rakendustes, mis neid blokeerivad. Need võivad näidata privaatset sisu</string>
     <string name="remixer_fonts_summary">Süsteemi font</string>
     <string name="remixer_wallpapers_summary">Resurrected Remixi taustapildid</string>
     <string name="remixer_accents">Aktsendid</string>

@@ -136,6 +136,9 @@
     <string name="scroll_haptics_summary">Lagana vibracija kada se lista ili stranica ne može dalje pomicati</string>
     <string name="usb_mode_picker_title">Birač USB načina</string>
     <string name="usb_mode_picker_summary">Odaberite način kada priključite na računar</string>
+    <string name="misc_category_screenshots">Snimci ekrana</string>
+    <string name="secure_screenshots_title">Snimak ekrana bilo koje aplikacije</string>
+    <string name="secure_screenshots_summary">Pravite snimke ekrana i snimanja u aplikacijama koje ih blokiraju. Snimci mogu prikazati privatni sadržaj</string>
     <string name="remixer_fonts_summary">Sistemski font</string>
     <string name="remixer_wallpapers_summary">Pozadinske slike Resurrected Remix</string>
     <string name="remixer_accents">Akcenti</string>

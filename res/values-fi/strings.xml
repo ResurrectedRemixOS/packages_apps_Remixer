@@ -127,6 +127,9 @@
     <string name="scroll_haptics_summary">Kevyt värinä, kun lista tai sivu ei voi vierittää pidemmälle</string>
     <string name="usb_mode_picker_title">USB-tilan valinta</string>
     <string name="usb_mode_picker_summary">Valitse tila, kun liität laitteen tietokoneeseen</string>
+    <string name="misc_category_screenshots">Kuvakaappaukset</string>
+    <string name="secure_screenshots_title">Kuvakaappaus mistä tahansa sovelluksesta</string>
+    <string name="secure_screenshots_summary">Ota kuvakaappauksia ja tallenteita sovelluksissa, jotka estävät ne. Ne voivat näyttää yksityistä sisältöä</string>
     <string name="remixer_fonts_summary">Järjestelmän fontti</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix -taustakuvat</string>
     <string name="remixer_accents">Korostukset</string>

@@ -140,6 +140,9 @@
     <string name="scroll_haptics_summary">ಪಟ್ಟಿ ಅಥವಾ ಪುಟ ಇನ್ನು ಮುಂದೆ ಹೋಗಲಾಗದಾಗ ಸಣ್ಣ ವೈಬ್ರೇಶನ್</string>
     <string name="usb_mode_picker_title">USB ಮೋಡ್ ಆಯ್ಕೆಗಾರ</string>
     <string name="usb_mode_picker_summary">ಕಂಪ್ಯೂಟರ್‌ಗೆ ಪ್ಲಗ್ ಮಾಡಿದಾಗ ಮೋಡ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="misc_category_screenshots">ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌ಗಳು</string>
+    <string name="secure_screenshots_title">ಯಾವುದೇ ಆ್ಯಪ್‌ನ ಸ್ಕ್ರೀನ್‌ಶಾಟ್</string>
+    <string name="secure_screenshots_summary">ಅವುಗಳನ್ನು ನಿರ್ಬಂಧಿಸುವ ಆ್ಯಪ್‌ಗಳಲ್ಲೂ ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಮತ್ತು ರೆಕಾರ್ಡಿಂಗ್ ತೆಗೆಯಿರಿ. ಖಾಸಗಿ ವಿಷಯ ಕಾಣಿಸಬಹುದು</string>
     <string name="remixer_fonts_summary">ಸಿಸ್ಟಮ್ ಫಾಂಟ್</string>
     <string name="remixer_wallpapers_summary">Resurrected Remix ವಾಲ್‌ಪೇಪರ್‌ಗಳು</string>
     <string name="remixer_accents">ಆಕ್ಸೆಂಟ್‌ಗಳು</string>
