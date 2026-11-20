@@ -157,6 +157,7 @@ public class ChargingAnimationActivity extends CollapsingToolbarBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.remixer_charging_animation);
+        findViewById(R.id.charging_scroll).setNestedScrollingEnabled(false);
         setTitle(R.string.charging_animation_title);
         mUi = new ChargingUi(this);
         mThemed = new ContextThemeWrapper(this,

@@ -81,6 +81,7 @@ public class VolumePanelActivity extends CollapsingToolbarBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.remixer_volume_panel);
+        findViewById(R.id.volume_scroll).setNestedScrollingEnabled(false);
         setTitle(R.string.volume_page_title);
         mUi = new ChargingUi(this);
         mNames = getResources().getStringArray(R.array.volume_style_entries);

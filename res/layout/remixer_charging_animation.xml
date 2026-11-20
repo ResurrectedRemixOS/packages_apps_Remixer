@@ -118,10 +118,10 @@
             android:text="@string/charging_tab_roms" />
     </com.google.android.material.button.MaterialButtonToggleGroup>
     <androidx.core.widget.NestedScrollView
+        android:id="@+id/charging_scroll"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:nestedScrollingEnabled="false">
+        android:layout_weight="1">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

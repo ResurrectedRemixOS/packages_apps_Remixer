@@ -90,6 +90,7 @@ public class ChargingEffectsActivity extends CollapsingToolbarBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.remixer_charging_effects);
+        findViewById(R.id.charging_effects_scroll).setNestedScrollingEnabled(false);
         setTitle(R.string.charging_effects_title);
         mUi = new ChargingUi(this);
         mThemed = new ContextThemeWrapper(this,
