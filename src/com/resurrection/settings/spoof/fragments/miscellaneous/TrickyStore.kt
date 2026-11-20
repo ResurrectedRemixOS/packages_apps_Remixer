@@ -9,6 +9,7 @@ import android.app.Activity
 import android.app.ActivityManager
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.os.SystemProperties
 import android.provider.Settings
@@ -27,6 +28,7 @@ import com.android.settings.R
 import com.android.settings.SettingsPreferenceFragment
 import java.io.BufferedReader
 import java.io.ByteArrayInputStream
+import java.io.ByteArrayOutputStream
 import java.io.InputStreamReader
 import java.io.StringReader
 import java.net.HttpURLConnection
@@ -169,42 +171,78 @@ class TrickyStore : SettingsPreferenceFragment() {
     ) { result ->
         isKeyboxPickerOpen = false
         if (result.resultCode != Activity.RESULT_OK) return@registerForActivityResult
-        result.data?.data?.let { uri ->
-            val ctx = requireContext()
-            lifecycleScope.launch {
-                try {
-                    val bytes = withContext(Dispatchers.IO) {
-                        ctx.contentResolver.openInputStream(uri)?.use { it.readBytes() }
-                            ?: ByteArray(0)
-                    }
-                    // Dry run of the framework's own loader: refuse a keybox it would reject
-                    // instead of storing something that silently never takes effect.
-                    val problem = withContext(Dispatchers.IO) {
-                        KeyBoxManager.validate(bytes.toString(Charsets.UTF_8))
-                    }
-                    if (!isAdded) return@launch
-                    if (problem != null) {
-                        toast(getString(R.string.ts_fetch_keybox_failed, problem))
-                        return@launch
-                    }
-                    val encoded = Base64.encodeToString(bytes, Base64.NO_WRAP)
-                    Settings.Secure.putString(ctx.contentResolver, KEYBOX_KEY, encoded)
-                    Settings.Secure.putString(
-                        ctx.contentResolver, KEYBOX_SOURCE_KEY, KEYBOX_SOURCE_USER)
-                    saveLastFetchedTimestamp()
-                    killGms()
-                    toast(getString(R.string.ts_keybox_imported))
-                    currentRevocationStatus = RevocationStatus.UNKNOWN
-                    currentRevocationReason = ""
-                    Settings.Secure.putString(
-                        ctx.contentResolver, LAST_REVOCATION_STATUS_KEY, "")
-                    refreshStatus()
-                    checkKeyboxRevocation()
-                } catch (e: Exception) {
-                    if (isAdded) toast(getString(R.string.ts_failed, e.message ?: ""))
+        result.data?.data?.let { uri -> importKeybox(uri) }
+    }
+
+    /**
+     * Keybox management and Duck RKP share this importer. A plain keybox XML file
+     * is stored as that document. A capture is reduced to the keybox XML inside it,
+     * or to a keybox built from PEM keys and certificates, before the framework
+     * loader checks it.
+     */
+    private fun importKeybox(uri: Uri) {
+        val ctx = requireContext()
+        lifecycleScope.launch {
+            try {
+                val xml = withContext(Dispatchers.IO) {
+                    KeyBoxManager.extract(readCapture(ctx, uri))
+                }
+                // Dry run of the framework's own loader: refuse a keybox it would reject
+                // instead of storing something that silently never takes effect.
+                val problem = withContext(Dispatchers.IO) { KeyBoxManager.validate(xml) }
+                if (!isAdded) return@launch
+                if (problem != null) {
+                    toast(getString(R.string.ts_keybox_extract_failed, problem))
+                    return@launch
+                }
+                val encoded = Base64.encodeToString(
+                    xml.toByteArray(Charsets.UTF_8), Base64.NO_WRAP)
+                Settings.Secure.putString(ctx.contentResolver, KEYBOX_KEY, encoded)
+                Settings.Secure.putString(
+                    ctx.contentResolver, KEYBOX_SOURCE_KEY, KEYBOX_SOURCE_USER)
+                saveLastFetchedTimestamp()
+                killGms()
+                toast(getString(R.string.ts_keybox_imported))
+                currentRevocationStatus = RevocationStatus.UNKNOWN
+                currentRevocationReason = ""
+                Settings.Secure.putString(
+                    ctx.contentResolver, LAST_REVOCATION_STATUS_KEY, "")
+                refreshStatus()
+                checkKeyboxRevocation()
+            } catch (e: Exception) {
+                if (isAdded) {
+                    toast(getString(R.string.ts_keybox_extract_failed, e.message ?: ""))
                 }
             }
         }
+    }
+
+    private fun readCapture(context: Context, uri: Uri): ByteArray {
+        context.contentResolver.openInputStream(uri)?.use { input ->
+            val out = ByteArrayOutputStream()
+            val chunk = ByteArray(8192)
+            var total = 0
+            while (true) {
+                val n = input.read(chunk)
+                if (n < 0) break
+                total += n
+                if (total > 256 * 1024) {
+                    throw IllegalArgumentException("Capture is larger than 256 KiB")
+                }
+                out.write(chunk, 0, n)
+            }
+            return out.toByteArray()
+        }
+        return ByteArray(0)
+    }
+
+    private fun openKeyboxPicker() {
+        val intent = Intent(Intent.ACTION_OPEN_DOCUMENT).apply {
+            addCategory(Intent.CATEGORY_OPENABLE)
+            type = "*/*"
+        }
+        isKeyboxPickerOpen = true
+        keyboxPicker.launch(intent)
     }
 
     private val targetPicker = registerForActivityResult(
@@ -232,12 +270,12 @@ class TrickyStore : SettingsPreferenceFragment() {
         addPreferencesFromResource(R.xml.tricky_store)
 
         findPreference<Preference>("ts_import_keybox")?.setOnPreferenceClickListener {
-            val intent = Intent(Intent.ACTION_OPEN_DOCUMENT).apply {
-                addCategory(Intent.CATEGORY_OPENABLE)
-                type = "*/*"
-            }
-            isKeyboxPickerOpen = true
-            keyboxPicker.launch(intent)
+            openKeyboxPicker()
+            true
+        }
+
+        findPreference<Preference>("ts_rkp_extract")?.setOnPreferenceClickListener {
+            openKeyboxPicker()
             true
         }
 
@@ -323,7 +361,7 @@ class TrickyStore : SettingsPreferenceFragment() {
 
         findPreference<Preference>("ts_import_keybox")?.summary =
             if (keyboxExists) getString(R.string.ts_keybox_installed)
-            else getString(R.string.ts_no_keybox)
+            else getString(R.string.ts_import_keybox_summary)
 
         findPreference<Preference>("ts_delete_keybox")?.isEnabled = keyboxExists
 

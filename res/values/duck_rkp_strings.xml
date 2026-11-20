@@ -5,6 +5,8 @@
     <string name="ts_rkp_enabled_summary">Automatically generate a keybox and renew it before expiry. Importing a keybox turns this off.</string>
     <string name="ts_rkp_provision">Generate keybox</string>
     <string name="ts_rkp_provision_summary">Request a replacement now, or retry paused automatic provisioning. Requires compatible Qualcomm firmware.</string>
+    <string name="ts_rkp_extract">Extract keybox</string>
+    <string name="ts_rkp_extract_summary">Read a keybox XML file, or PEM keys and certificates inside a capture, and install it. This turns device RKP off.</string>
     <string name="ts_rkp_status">Provisioning status</string>
     <string name="ts_rkp_owner_only">Manage device RKP from the device owner’s profile</string>
     <string name="ts_rkp_unavailable">Device RKP is unavailable</string>

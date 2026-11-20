@@ -67,6 +67,11 @@
             android:summary="@string/ts_rkp_provision_summary" />
 
         <Preference
+            android:key="ts_rkp_extract"
+            android:title="@string/ts_rkp_extract"
+            android:summary="@string/ts_rkp_extract_summary" />
+
+        <Preference
             android:key="ts_rkp_status"
             android:title="@string/ts_rkp_status"
             android:summary="@string/ts_rkp_unavailable"

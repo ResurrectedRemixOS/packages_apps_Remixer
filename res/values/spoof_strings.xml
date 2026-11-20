@@ -282,6 +282,10 @@
 
 <string name="ts_import_keybox">Import keybox</string>
 
+<string name="ts_import_keybox_summary">Import a keybox XML file, or extract one from a capture</string>
+
+<string name="ts_keybox_extract_failed">Could not read a keybox from that file: %s</string>
+
 <string name="ts_import_target_list">Import target list</string>
 
 <string name="ts_import_target_list_summary">Import target.txt from a file</string>
