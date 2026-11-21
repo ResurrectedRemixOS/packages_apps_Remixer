@@ -303,4 +303,25 @@
     <string name="remixer_settings_style_rr_v1_summary">La lista de Resurrected Remix con iconos de anillo neón</string>
     <string name="remixer_settings_style_original_summary">La pantalla de Ajustes de Android, sin cambios</string>
     <string name="remixer_settings_style_note">La pantalla de Ajustes adoptará el nuevo estilo la próxima vez que se abra.</string>
+    <string name="remixer_app_name">Remixer</string>
+    <string  name="rr_homepage_percent"><xliff:g id="percent" example="62">%1$d</xliff:g>%%</string>
+    <string name="rr_homepage_wifi">Wi-Fi</string>
+    <string name="rr_homepage_bluetooth">Bluetooth</string>
+    <string  name="rr_homepage_link"><xliff:g id="label" example="Almacenamiento">%1$s</xliff:g> ›</string>
+    <string name="remixer_udfps">UDFPS</string>
+    <string name="misc_category_usb">USB</string>
+    <string name="pulse_preview_artist">Resurrected Remix</string>
+    <string name="accent_custom_hex">Hexadecimal</string>
+    <string  name="accent_saturation_value"><xliff:g id="percent" example="80">%1$d</xliff:g>%%</string>
+    <string name="remixer_qs_style_bento">Bento</string>
+    <string name="font_custom_import">Importar una fuente</string>
+    <string name="font_custom_replace">Sustituir fuente…</string>
+    <string name="font_custom_remove">Eliminar fuente</string>
+    <string name="font_custom_imported">Fuente importada</string>
+    <string name="font_custom_removed">Fuente eliminada</string>
+    <string name="font_custom_invalid">El archivo no es una fuente válida</string>
+    <string name="font_custom_failed">No se pudo importar la fuente</string>
+    <string name="remixer_settings_style_rr_v1">Resurrected Remix v1</string>
+    <string name="remixer_settings_style_rr_v2">Resurrected Remix v2</string>
+
 </resources>
